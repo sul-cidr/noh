@@ -1,0 +1,43 @@
+{
+  "name": "noh-theater",
+  "version": "0.0.1",
+  "description":
+     "Noh Theater is a project demonstrating the rich, intermedia character of Japanese Noh Theater",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:update": "jest -u",
+    "coverage": "jest --coverage",
+    "build": "concurrently \"webpack -p\" \"bundle exec jekyll build\"",
+    "dev": "concurrently \"webpack --watch\" \"bundle exec jekyll serve\"",
+    "lint": "eslint webpack/**/*.{js,jsx} --quiet"
+  },
+  "author": "Scott Bailey",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.3.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "prettier": "^1.7.4",
+    "react-test-renderer": "^16.0.0",
+    "webpack": "^3.7.1"
+  }
+}
