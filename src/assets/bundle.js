@@ -1966,7 +1966,7 @@ var _reducers2 = _interopRequireDefault(_reducers);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var store = (0, _redux.createStore)(_reducers2.default);
+var store = (0, _redux.createStore)(_reducers2.default, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 exports.default = store;
 
@@ -2011,8 +2011,6 @@ var App = function App() {
     )
   );
 };
-// import Hello from './components/Hello';
-
 
 (0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('hello'));
 
@@ -23480,6 +23478,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Unwrapped = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -23520,7 +23519,8 @@ var MasterVideo = function (_Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       var player = document.getElementById('player');
-      player.addEventListener('timeupdate', function () {
+      player.addEventListener('timeupdate', function (e) {
+        console.log(e);
         _store2.default.dispatch((0, _actionCreators.setCurrentTime)(player.currentTime));
       });
     }
@@ -23557,6 +23557,7 @@ var mapStateToProps = function mapStateToProps(state) {
   return { currentTime: state.currentTime };
 };
 
+var Unwrapped = exports.Unwrapped = MasterVideo;
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(MasterVideo);
 
 /***/ }),
@@ -23570,16 +23571,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.setCurrentTime = setCurrentTime;
-exports.setHeaderText = setHeaderText;
 
 var _actions = __webpack_require__(29);
 
 function setCurrentTime(word) {
   return { type: _actions.SET_CURRENT_TIME, payload: word };
-}
-
-function setHeaderText(header) {
-  return { type: _actions.SET_HEADER_TEXT, payload: header };
 }
 
 /***/ }),
@@ -23627,6 +23623,7 @@ exports.default = rootReducer;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Unwrapped = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -23720,6 +23717,7 @@ var mapStateToProps = function mapStateToProps(state) {
   return { currentTime: state.currentTime };
 };
 
+var Unwrapped = exports.Unwrapped = Dance;
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Dance);
 
 /***/ }),

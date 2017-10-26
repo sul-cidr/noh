@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dance> renders as expected 1`] = `
+<div
+  className="dance-style"
+>
+  <h2>
+    Dance Style: 
+  </h2>
+</div>
+`;

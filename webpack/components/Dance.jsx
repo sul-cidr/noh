@@ -52,4 +52,5 @@ Dance.defaultProps = {
 
 const mapStateToProps = state => ({ currentTime: state.currentTime });
 
+export const Unwrapped = Dance;
 export default connect(mapStateToProps)(Dance);

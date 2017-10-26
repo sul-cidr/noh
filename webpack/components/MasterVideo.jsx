@@ -36,4 +36,5 @@ MasterVideo.defaultProps = {
 
 const mapStateToProps = state => ({ currentTime: state.currentTime });
 
+export const Unwrapped = MasterVideo;
 export default connect(mapStateToProps)(MasterVideo);

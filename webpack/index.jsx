@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-// import Hello from './components/Hello';
 import MasterVideo from './components/MasterVideo';
 import Dance from './components/Dance';
 import store from './store';
