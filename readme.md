@@ -18,8 +18,6 @@ Run `bundle install` and `yarn`
 
 The project also includes and is set up for prettier. I recommend setting up your text editor to use both eslint and prettier for consistent code formatting.
 
-Given the size of sample .mov files used for development, you will need to install [git-lfs](https://git-lfs.github.com).
-
 ## Production
 
 `yarn build` runs a production build with webpack along with `jekyll build`
