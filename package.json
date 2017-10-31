@@ -2,7 +2,7 @@
   "name": "noh-theater",
   "version": "0.0.1",
   "description":
-     "Noh Theater is a project demonstrating the rich, intermedia character of Japanese Noh Theater",
+    "Noh Theater is a project demonstrating the rich, intermedia character of Japanese Noh Theater",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -14,10 +14,23 @@
   },
   "author": "Scott Bailey",
   "license": "ISC",
+  "jest": {
+    "setupFiles": [
+      "./webpack/config/shim.js",
+      "./webpack/config/setupTests.js"
+    ],
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "testPathIgnorePatterns": ["<rootDir>/webpack/config/"]
+  },
   "dependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
     "global": "^4.3.2",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -27,6 +40,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "concurrently": "^3.5.0",
+    "enzyme-to-json": "^3.1.4",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.6.0",
