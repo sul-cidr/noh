@@ -42,3 +42,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# required for Travis: https://jekyllrb.com/docs/continuous-integration/travis-ci/
+exclude: [vendor]
