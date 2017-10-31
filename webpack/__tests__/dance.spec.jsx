@@ -3,20 +3,13 @@ import { shallow } from 'enzyme';
 import { Unwrapped as UnwrappedDance } from '../components/Dance';
 
 describe('<Dance>', () => {
-  it('renders as expected', () => {
+  it('renders as expected with no currentTime', () => {
     const component = shallow(<UnwrappedDance />);
     expect(component).toMatchSnapshot();
   });
 
-  it('correctly calculates current dance name', () => {
+  it('renders as expected with currentTime', () => {
     const component = shallow(<UnwrappedDance currentTime={30} />);
-    const name = component.instance().currentDance();
-    expect(name).toBe('Ageha');
-  });
-
-  it('correctly calculates dance videourl from dance name', () => {
-    const component = shallow(<UnwrappedDance currentTime={30} />);
-    const url = component.instance().danceVideoUrl();
-    expect(url).toBe('./videos/ageha_Front.mov');
+    expect(component).toMatchSnapshot();
   });
 });

@@ -8,7 +8,7 @@ import store from './store';
 const App = () => (
   <Provider store={store}>
     <div className="app">
-      <MasterVideo videoUrl="./videos/hashitomi-kiri-dance-part1.mov" />
+      <MasterVideo videoUrl="https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1" />
       <Dance />
     </div>
   </Provider>

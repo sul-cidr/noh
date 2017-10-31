@@ -7,35 +7,28 @@ import SimpleVideo from './SimpleVideo';
 class Dance extends Component {
   currentDance() {
     const chunks = data.kiri.dance;
-    let dance = '';
+    let dance = { name: '', url: '' };
     for (let i = 0; i < chunks.length; i += 1) {
       if (
         this.props.currentTime >= chunks[i].timeStart &&
         this.props.currentTime < chunks[i].timeEnd
       ) {
-        dance = chunks[i].name;
+        dance.name = chunks[i].name;
+        dance.url = chunks[i].url;
       }
     }
     return dance;
   }
 
-  danceVideoUrl() {
-    const currentDance = this.currentDance();
-    const url = currentDance
-      .toLowerCase()
-      .replace(/\s+/g, '')
-      .replace(/-/g, '');
-    return `./videos/${url}_Front.mov`;
-  }
-
   render() {
     let danceVideo = null;
-    if (this.currentDance() !== '') {
-      danceVideo = <SimpleVideo src={this.danceVideoUrl()} />;
+    const dance = this.currentDance();
+    if (dance.name !== '') {
+      danceVideo = <SimpleVideo src={dance.url} />;
     }
     return (
       <div className="dance-style">
-        <h2>Dance Style: {this.currentDance()}</h2>
+        <h2>Dance Style: {this.currentDance().name}</h2>
         {danceVideo}
       </div>
     );

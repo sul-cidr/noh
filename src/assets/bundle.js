@@ -2006,7 +2006,7 @@ var App = function App() {
     _react2.default.createElement(
       'div',
       { className: 'app' },
-      _react2.default.createElement(_MasterVideo2.default, { videoUrl: './videos/hashitomi-kiri-dance-part1.mov' }),
+      _react2.default.createElement(_MasterVideo2.default, { videoUrl: 'https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1' }),
       _react2.default.createElement(_Dance2.default, null)
     )
   );
@@ -23519,8 +23519,7 @@ var MasterVideo = function (_Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       var player = document.getElementById('player');
-      player.addEventListener('timeupdate', function (e) {
-        console.log(e);
+      player.addEventListener('timeupdate', function () {
         _store2.default.dispatch((0, _actionCreators.setCurrentTime)(player.currentTime));
       });
     }
@@ -23666,10 +23665,11 @@ var Dance = function (_Component) {
     key: 'currentDance',
     value: function currentDance() {
       var chunks = _kiriData2.default.kiri.dance;
-      var dance = '';
+      var dance = { name: '', url: '' };
       for (var i = 0; i < chunks.length; i += 1) {
         if (this.props.currentTime >= chunks[i].timeStart && this.props.currentTime < chunks[i].timeEnd) {
-          dance = chunks[i].name;
+          dance.name = chunks[i].name;
+          dance.url = chunks[i].url;
         }
       }
       return dance;
@@ -23685,8 +23685,9 @@ var Dance = function (_Component) {
     key: 'render',
     value: function render() {
       var danceVideo = null;
-      if (this.currentDance() !== '') {
-        danceVideo = _react2.default.createElement(_SimpleVideo2.default, { src: this.danceVideoUrl() });
+      var dance = this.currentDance();
+      if (dance.name !== '') {
+        danceVideo = _react2.default.createElement(_SimpleVideo2.default, { src: dance.url });
       }
       return _react2.default.createElement(
         'div',
@@ -23695,7 +23696,7 @@ var Dance = function (_Component) {
           'h2',
           null,
           'Dance Style: ',
-          this.currentDance()
+          this.currentDance().name
         ),
         danceVideo
       );
@@ -23724,7 +23725,7 @@ exports.default = (0, _reactRedux.connect)(mapStateToProps)(Dance);
 /* 77 */
 /***/ (function(module, exports) {
 
-module.exports = {"kiri":{"dance":[{"timeStart":29,"timeEnd":50,"name":"Ageha"},{"timeStart":50,"timeEnd":79,"name":"Medium Zigzag"},{"timeStart":79,"timeEnd":88,"name":"Scooping point"},{"timeStart":88,"timeEnd":104,"name":"Open-retreat"}]}}
+module.exports = {"kiri":{"dance":[{"timeStart":29,"timeEnd":50,"name":"Ageha","url":"https://www.dropbox.com/s/e5hv7tovg11qp3d/ageha_Front.mov?dl=1"},{"timeStart":50,"timeEnd":79,"name":"Medium Zigzag","url":"https://www.dropbox.com/s/6l5hh1ii76rsqug/mediumzigzag_Front.mov?dl=1"},{"timeStart":79,"timeEnd":88,"name":"Scooping point","url":"https://www.dropbox.com/s/5wsidgor6hdre9a/scoopingpoint_Front.mov?dl=1"},{"timeStart":88,"timeEnd":104,"name":"Open-retreat","url":"https://www.dropbox.com/s/wzse6498gepsc6q/openretreat_Front.mov?dl=1"}]}}
 
 /***/ }),
 /* 78 */
