@@ -1,11 +1,56 @@
+$labels-width: 14rem;
+$time-marks-height: 2rem;
+$acts-height: 2rem;
+$channel-height: 2rem;
+
 .tl__container {
-  @include flex-container();
+  width: 100%;
+
+  @include flex-container($justify: flex-start);
 }
-.tl__labels {}
-.tl__title {}
-.tl__content {}
-.tl__time-marks {}
-.tl__acts {}
+
+.tl__labels {
+  background-color: $grey-1;
+  border: 1px solid #000;
+  flex-shrink: 0;
+  flex-basis: $labels-width;
+}
+
+.tl__title {
+  background-color: $grey-2;
+  height: $time-marks-height + $acts-height;
+
+  @include flex-container($justify: center);
+}
+
+.tl__content {
+  background-color: $grey-2;
+  border: 1px solid #000;
+  flex-grow: 1;
+}
+
+.tl__time-marks {
+  background-color: $grey-1;
+  height: $time-marks-height;
+  width: 100%;
+}
+
+.tl__acts {
+  background-color: $grey-3;
+  height: $acts-height;
+  width: 100%;
+}
+
 .tl__channels-container {}
-.tl__channel {}
-.tl__actions {}
+
+.tl__channel-label,
+.tl__channel {
+  border: 1px solid #000;
+  height: $channel-height;
+}
+
+.tl__actions {
+  background-color: $grey-3;
+  height: 2rem;
+  width: 100%;
+}
