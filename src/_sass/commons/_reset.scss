@@ -3,7 +3,7 @@
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: $font-family;
 	vertical-align: baseline;
 }
 
@@ -37,4 +37,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+tr, td {
+  margin: 0;
+  padding: 0;
 }

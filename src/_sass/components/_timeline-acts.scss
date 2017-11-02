@@ -1,0 +1,11 @@
+.tl__acts {
+  background-color: $grey-3;
+  height: $timeline-acts-height;
+  width: 100%;
+
+  @include flex-container($justify: center);
+}
+
+.tl__act {
+  @include flex-container($justify: center);
+}

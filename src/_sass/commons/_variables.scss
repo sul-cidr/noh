@@ -1,3 +1,13 @@
-$grey-1: #ccc;
-$grey-2: #ddd;
-$grey-3: #bbb;
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$grey-1: #bbb;
+$grey-2: #ccc;
+$grey-3: #ddd;
+$white: #fff;
+
+$tl-separator: 0.0625rem solid $grey-2;
+
+$timeline-labels-width: 14rem;
+$timeline-marks-height: 1rem;
+$timeline-acts-height: 1rem;
+$timeline-channel-height: 2rem;
