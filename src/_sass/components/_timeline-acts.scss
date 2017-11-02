@@ -1,5 +1,5 @@
 .tl__acts {
-  background-color: $grey-3;
+  border-bottom: $tl-separator;
   height: $timeline-acts-height;
   width: 100%;
 
@@ -7,5 +7,7 @@
 }
 
 .tl__act {
+  font-size: 0.75rem;
+
   @include flex-container($justify: center);
 }

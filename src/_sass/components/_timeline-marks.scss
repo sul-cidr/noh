@@ -1,5 +1,4 @@
 .tl__time-marks {
-  background-color: $grey-3;
   border-bottom: $tl-separator;
   height: $timeline-marks-height;
   width: 100%;
@@ -9,6 +8,8 @@
 
 .tl__time {
   border-left: $tl-separator;
-  padding-left: 0.25rem;
   flex-grow: 1;
+  font-size: 0.75rem;
+  height: 100%;
+  padding-left: 0.25rem;
 }
