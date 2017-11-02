@@ -1,0 +1,14 @@
+.tl__time-marks {
+  background-color: $grey-3;
+  border-bottom: $tl-separator;
+  height: $timeline-marks-height;
+  width: 100%;
+
+  @include flex-container($justify: flex-start, $align: flex-end);
+}
+
+.tl__time {
+  border-left: $tl-separator;
+  padding-left: 0.25rem;
+  flex-grow: 1;
+}
