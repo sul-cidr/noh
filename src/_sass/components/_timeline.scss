@@ -17,29 +17,39 @@ $svg-small: 1;
   }
 }
 
+.tl__title {
+  background-color: $grey-3;
+  border-bottom: $tl-separator;
+  border-right: $tl-separator;
+  height: $timeline-marks-height + $timeline-acts-height;
+
+  @include flex-container($justify: center);
+}
+
 .tl__channel-group {
   border-bottom: $tl-separator;
   position: relative;
 }
 
 .tl__channel-group-title {
-  background-color: $grey-2;
-  height: 3rem;
-  position: relative;
+  border-bottom: $tl-separator;
+  border-right: $tl-separator;
   width: 3rem;
 
   h4 {
-    position: absolute;
-    transform: rotate(-90deg) translateX(-50%);
+    font-size: 0.75rem;
+    transform: rotate(-90deg);
     transform-origin: 50% 50%;
+
+    @include flex-container($justify: center);
   }
 }
 
-.tl__title {
-  background-color: $grey-2;
-  height: $timeline-marks-height + $timeline-acts-height;
+.tl__channel-label {
+  border-bottom: $tl-separator;
+  padding-left: 1rem;
 
-  @include flex-container($justify: center);
+  @include flex-container($justify: flex-start);
 }
 
 .tl__content {
@@ -49,17 +59,12 @@ $svg-small: 1;
 
 .tl__channels-container {
   background-image: url('data:image/svg+xml;utf8,<svg width="#{$svg-big}px" height="#{$svg-small}px" viewBox="0 0 #{$svg-big} #{$svg-small}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="team-border-h"><rect id="Rectangle2" fill="#{$white}" x="0" y="0" width="#{$svg-big}" height="#{$svg-small}"></rect><rect id="Rectangle1" fill="#{$grey-2}" x="0" y="0" width="#{$svg-small}" height="#{$svg-small}"></rect></g></svg>');
+  position: relative;
 }
 
 .tl__channel-label,
 .tl__channel {
   height: $timeline-channel-height;
-}
-
-.tl__channel-label {
-  padding-left: 2rem;
-
-  @include flex-container($justify: flex-start);
 }
 
 .tl__channel {
@@ -70,3 +75,4 @@ $svg-small: 1;
 @import "timeline-actions";
 @import "timeline-acts";
 @import "timeline-marks";
+@import "timeline-current-position";
