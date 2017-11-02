@@ -9,17 +9,37 @@ layout: styleguide
   <div class="timeline">
     <div class="tl__container">
       <div class="tl__labels">
-        <h2 class="tl__title">title</h2>
-        <div class="tl__channel-label"></div>
-        <div class="tl__channel-label"></div>
-        <div class="tl__channel-label"></div>
-        <div class="tl__channel-label"></div>
-        <div class="tl__channel-label"></div>
-        <div class="tl__channel-label"></div>
+        <h2 class="tl__title">Title</h2>
+        <table>
+          <tr>
+            <td rowspan="2" class="tl__channel-group-title">
+              <h4>Group</h4>
+            </td>
+            <td class="tl__channel-label">Label</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="tl__channel-label">Label</td>
+          </tr>
+          <tr>
+            <td rowspan="3" class="tl__channel-group-title">
+              <h4>Group</h4>
+            </td>
+            <td class="tl__channel-label">Label</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="tl__channel-label">Label</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="tl__channel-label">Label</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="tl__channel-label">Label</td>
+          </tr>
+        </table>
       </div>
       <div class="tl__content">
-        <div class="tl__time-marks">time-marks</div>
-        <div class="tl__acts">acts</div>
+        {% include timeline/time-marks.html %}
+        {% include timeline/acts.html %}
         <div class="tl__channels-container">
           <div class="tl__channel"></div>
           <div class="tl__channel"></div>
