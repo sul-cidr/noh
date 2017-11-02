@@ -15,32 +15,25 @@ layout: styleguide
             <td rowspan="2" class="tl__channel-group-title">
               <h4>Group</h4>
             </td>
-            <td class="tl__channel-label">Label</td>
+            <td class="tl__channel-label"><p>Label</p></td>
           </tr>
-          <tr>
-            <td colspan="2" class="tl__channel-label">Label</td>
-          </tr>
+          <tr><td class="tl__channel-label" colspan="2"><p>Label</p></td></tr>
           <tr>
             <td rowspan="3" class="tl__channel-group-title">
               <h4>Group</h4>
             </td>
-            <td class="tl__channel-label">Label</td>
+            <td class="tl__channel-label"><p>Label</p></td>
           </tr>
-          <tr>
-            <td colspan="2" class="tl__channel-label">Label</td>
-          </tr>
-          <tr>
-            <td colspan="2" class="tl__channel-label">Label</td>
-          </tr>
-          <tr>
-            <td colspan="2" class="tl__channel-label">Label</td>
-          </tr>
+          <tr><td class="tl__channel-label"><p>Label</p></td></tr>
+          <tr><td class="tl__channel-label"><p>Label</p></td></tr>
+          <tr><td class="tl__channel-label" colspan="2"><p>Label</p></td></tr>
         </table>
       </div>
       <div class="tl__content">
         {% include timeline/time-marks.html %}
         {% include timeline/acts.html %}
         <div class="tl__channels-container">
+          {% include timeline/current-position.html %}
           <div class="tl__channel"></div>
           <div class="tl__channel"></div>
           <div class="tl__channel"></div>
