@@ -1,0 +1,27 @@
+.tl__topbar {
+
+  @include flex-container($justify: flex-start, $align: flex-start);
+}
+
+.tl__title {
+  border-bottom: $tl-separator;
+  border-right: $tl-separator;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  height: $timeline-marks-height + $timeline-acts-height;
+  width: $timeline-labels-width;
+
+  @include flex-container($justify: center);
+}
+
+.tl__marks {
+  flex-grow: 1;
+}
+
+.tl__container {
+  width: 100%;
+}
+
+.tl__content {
+  position: relative;
+}
