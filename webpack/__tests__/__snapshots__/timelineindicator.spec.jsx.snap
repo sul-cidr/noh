@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimelineIndicator> renders as expected with interval, currentTime, and isPlaying 1`] = `
+<div
+  className="tl__time-indicator"
+>
+  <div
+    style={
+      Object {
+        "left": "10%",
+        "position": "relative",
+      }
+    }
+  >
+    <span
+      aria-label="time-indicator"
+      role="img"
+    >
+      ▲
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<TimelineIndicator> renders as expected with interval, currentTime, and no isPlaying 1`] = `
+<div
+  className="tl__time-indicator"
+>
+  <div
+    style={
+      Object {
+        "left": "10%",
+        "position": "relative",
+      }
+    }
+  >
+    <span
+      aria-label="time-indicator"
+      role="img"
+    >
+      ▲
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and isPlaying 1`] = `
+<div
+  className="tl__time-indicator"
+>
+  <div
+    style={
+      Object {
+        "left": "10%",
+        "position": "relative",
+      }
+    }
+  >
+    <span
+      aria-label="time-indicator"
+      role="img"
+    >
+      ▲
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and no isPlaying 1`] = `
+<div
+  className="tl__time-indicator"
+>
+  <div
+    style={
+      Object {
+        "left": "10%",
+        "position": "relative",
+      }
+    }
+  >
+    <span
+      aria-label="time-indicator"
+      role="img"
+    >
+      ▲
+    </span>
+  </div>
+</div>
+`;

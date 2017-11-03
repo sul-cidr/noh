@@ -9,6 +9,14 @@ exports[`<MasterVideo> renders as expected 1`] = `
     <video
       controls={true}
       id="player"
+      onEnded={[Function]}
+      onPause={[Function]}
+      onPlay={[Function]}
+      onPlaying={[Function]}
+      onSeeking={[Function]}
+      onStalled={[Function]}
+      onTimeUpdate={[Function]}
+      onWaiting={[Function]}
       src=""
     />
     <h3>

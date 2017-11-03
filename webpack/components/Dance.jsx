@@ -7,7 +7,7 @@ import SimpleVideo from './SimpleVideo';
 class Dance extends Component {
   currentDance() {
     const chunks = data.kiri.dance;
-    let dance = { name: '', url: '' };
+    const dance = { name: '', url: '' };
     for (let i = 0; i < chunks.length; i += 1) {
       if (
         this.props.currentTime >= chunks[i].timeStart &&
