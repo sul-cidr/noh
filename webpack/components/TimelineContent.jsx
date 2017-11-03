@@ -1,17 +1,14 @@
 import React from "react";
-import PropTypes from "prop-types";
-import TimelineRow from "./TimelineRow";
+import CurrentPositionMarker from "./CurrentPositionMarker";
+import ShodanTimeline from "./ShodanTimeline";
 
-const TimelineContent = props => (
-  <TimelineRow currentTime={props.currentTime} />
+const TimelineContent = () => (
+  <div>
+    <CurrentPositionMarker />
+    <div className="tl__channels-container">
+      <ShodanTimeline />
+    </div>
+  </div>
 );
-
-TimelineContent.propTypes = {
-  currentTime: PropTypes.number
-};
-
-TimelineContent.defaultProps = {
-  currentTime: 0
-};
 
 export default TimelineContent;
