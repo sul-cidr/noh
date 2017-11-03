@@ -1,8 +1,7 @@
 {
   "name": "noh-theater",
   "version": "0.0.1",
-  "description":
-    "Noh Theater is a project demonstrating the rich, intermedia character of Japanese Noh Theater",
+  "description": "Noh Theater is a project demonstrating the rich, intermedia character of Japanese Noh Theater",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -19,8 +18,12 @@
       "./webpack/config/shim.js",
       "./webpack/config/setupTests.js"
     ],
-    "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "testPathIgnorePatterns": ["<rootDir>/webpack/config/"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/webpack/config/"
+    ]
   },
   "dependencies": {
     "enzyme": "^3.1.0",
@@ -51,6 +54,7 @@
     "eslint-plugin-react": "^7.4.0",
     "jest": "^21.2.1",
     "prettier": "^1.7.4",
+    "prettier-eslint": "^8.2.1",
     "react-test-renderer": "^16.0.0",
     "webpack": "^3.7.1"
   }
