@@ -2,16 +2,17 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import TimelineHeader from "./TimelineHeader";
-import TimelineRow from "./TimelineRow";
+import TimelineContent from "./TimelineContent";
 import TimelineControls from "./TimelineControls";
 
 const Timeline = props => (
   <div className="timeline">
     <TimelineHeader title="Timeline" />
-    <TimelineRow currentTime={props.currentTime} label="Sound" />
+    <TimelineContent currentTime={props.currentTime} />
     <TimelineControls />
   </div>
 );
+
 Timeline.propTypes = {
   currentTime: PropTypes.number
 };
