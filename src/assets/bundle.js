@@ -23675,13 +23675,6 @@ var Dance = function (_Component) {
       return dance;
     }
   }, {
-    key: 'danceVideoUrl',
-    value: function danceVideoUrl() {
-      var currentDance = this.currentDance();
-      var url = currentDance.toLowerCase().replace(/\s+/g, '').replace(/-/g, '');
-      return './videos/' + url + '_Front.mov';
-    }
-  }, {
     key: 'render',
     value: function render() {
       var danceVideo = null;

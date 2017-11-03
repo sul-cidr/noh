@@ -51,6 +51,7 @@ $svg-small: 1;
 }
 
 .tl__channel-events {
+  position: relative;
   height: $timeline-channel-height;
   flex-grow: 1;
 }
@@ -60,3 +61,4 @@ $svg-small: 1;
 @import "timeline-acts";
 @import "timeline-marks";
 @import "timeline-current-position";
+@import "timeline-events";
