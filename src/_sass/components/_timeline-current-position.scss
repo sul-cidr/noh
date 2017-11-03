@@ -27,3 +27,11 @@
     width: 0.0625rem;
   }
 }
+
+.tl__first-act-end {
+  background-color: $grey-1;
+  position: absolute;
+  height: calc(100% + #{$timeline-acts-height});
+  top: -$timeline-acts-height;
+  width: 0.0625rem;
+}
