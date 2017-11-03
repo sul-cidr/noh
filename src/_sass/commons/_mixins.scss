@@ -4,3 +4,43 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin tooltip() {
+  &::before {
+    background-color: $grey-3;
+    border-radius: 0.25rem;
+    color: $black;
+    content: attr(data-tooltip);
+    display: none;
+    font-size: 0.75rem;
+    padding: 0.375rem 0.5rem;
+    position: absolute;
+    top: -2.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  &::after {
+    border-style: solid;
+    border-width: 0.5rem 0.5rem 0 0.5rem;
+    border-color: $grey-3 transparent transparent transparent;
+    content: "";
+    display: none;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -0.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &:hover {
+    &::before {
+      display: block;
+    }
+    &::after {
+      display: block;
+    }
+  }
+}

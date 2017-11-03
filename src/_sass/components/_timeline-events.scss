@@ -6,47 +6,5 @@
   top: 50%;
   transform: translateY(-50%);
 
-  &::before {
-    background-color: $grey-3;
-    border-radius: 0.25rem;
-    color: $black;
-    content: attr(data-tooltip);
-    display: none;
-    font-size: 0.75rem;
-    padding: 0.375rem 0.5rem;
-    position: absolute;
-    top: -2.125rem;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-  }
-
-  &::after {
-    border-style: solid;
-    border-width: 0.5rem 0.5rem 0 0.5rem;
-    border-color: $grey-3 transparent transparent transparent;
-    content: "";
-    display: none;
-    height: 0;
-    width: 0;
-    position: absolute;
-    bottom: 0.625rem;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  &:hover {
-    &::before {
-      display: block;
-    }
-    &::after {
-      display: block;
-    }
-  }
-}
-
-.tl__event--active {
-  border: 0.0625rem solid $black;
-  background-color: #999;
-  height: 0.625rem;
+  @include tooltip();
 }

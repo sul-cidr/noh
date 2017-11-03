@@ -1,0 +1,19 @@
+.tl__shodan {
+  background-color: $grey-3;
+  border: 0.0625rem solid $grey-1;
+  height: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  @include tooltip();
+
+  &:hover {
+    background-color: $grey-1;
+    border-color: $black;
+  }
+}
+
+.tl__event--active {
+  border: 0.0625rem solid $black;
+  background-color: #999;
+  height: 0.625rem;
+}
