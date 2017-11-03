@@ -56,9 +56,19 @@ $svg-small: 1;
   flex-grow: 1;
 }
 
+.tl__channel--shodan {
+  height: $timeline-channel-shodan-height;
+
+  .tl__channel-label,
+  .tl__channel-events {
+    height: $timeline-channel-shodan-height;
+  }
+}
+
 @import "timeline-layout";
 @import "timeline-actions";
 @import "timeline-acts";
 @import "timeline-marks";
 @import "timeline-current-position";
 @import "timeline-events";
+@import "timeline-shodan";
