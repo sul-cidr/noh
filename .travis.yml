@@ -11,6 +11,7 @@ cache: yarn
 
 script:
   - yarn coverage
+  - yarn lint
 
 before_deploy:
   - if [ "$TRAVIS_BRANCH" == "develop" ]; then node_modules/.bin/webpack -p && bundle exec jekyll clean && bundle exec jekyll build; fi
