@@ -1,0 +1,37 @@
+.tl__current-position-container {
+  position: relative;
+  left: $timeline-labels-width;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: calc(100% - #{$timeline-labels-width});
+  background-image: url('data:image/svg+xml;utf8,<svg width="#{$svg-big}px" height="#{$svg-small}px" viewBox="0 0 #{$svg-big} #{$svg-small}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="team-border-h"><rect id="Rectangle2" fill="#{$white}" x="0" y="0" width="#{$svg-big}" height="#{$svg-small}"></rect><rect id="Rectangle1" fill="#{$grey-2}" x="0" y="0" width="#{$svg-small}" height="#{$svg-small}"></rect></g></svg>');
+}
+
+.tl__current-position {
+  background-image: url('./images/current-position-indicator.svg');
+  background-repeat: no-repeat;
+  height: calc(100% + #{$timeline-acts-height});
+  position: absolute;
+  transform: translateX(-50%);
+  top: -$timeline-acts-height;
+  width: 0.6875rem;
+
+  &::after {
+    background-color: $black;
+    content: "";
+    height: 100%;
+    left: calc(50% - 0.0625rem);
+    position: absolute;
+    top: 0;
+    width: 0.0625rem;
+  }
+}
+
+.tl__first-act-end {
+  background-color: $grey-1;
+  position: absolute;
+  height: calc(100% + #{$timeline-acts-height});
+  top: -$timeline-acts-height;
+  width: 0.0625rem;
+}

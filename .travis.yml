@@ -4,6 +4,8 @@ rvm:
   - 2.3.3
 
 install:
+  - nvm install v8.4
+  - nvm use v8.4
   - bundle install
   - yarn
 

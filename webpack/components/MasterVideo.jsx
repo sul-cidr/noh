@@ -1,28 +1,40 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { setCurrentTime } from '../actionCreators';
+import { setCurrentTime, setIsPlaying } from '../actionCreators';
 import store from '../store';
 
-class MasterVideo extends Component {
-  componentDidMount() {
-    const player = document.getElementById('player');
-    player.addEventListener('timeupdate', () => {
-      store.dispatch(setCurrentTime(player.currentTime));
-    });
-  }
-
-  render() {
-    return (
-      <div>
-        <video id="player" src={this.props.videoUrl} controls />
-        <h3>{this.props.currentTime}</h3>
-      </div>
-    );
-  }
+function updateCurrentTime(event) {
+  store.dispatch(setCurrentTime(event.target.currentTime));
 }
+
+function updateIsPlaying() {
+  store.dispatch(setIsPlaying(true));
+}
+
+function updateIsNotPlaying() {
+  store.dispatch(setIsPlaying(false));
+}
+
+const MasterVideo = props =>
+  <div>
+    <video
+      id="player"
+      src={props.videoUrl}
+      controls
+      onTimeUpdate={(event) => updateCurrentTime(event)}
+      onPlaying={updateIsPlaying}
+      onEnded={updateIsNotPlaying}
+      onPlay={updateIsNotPlaying}
+      onPause={updateIsNotPlaying}
+      onStalled={updateIsNotPlaying}
+      onSeeking={updateIsNotPlaying}
+      onWaiting={updateIsNotPlaying}
+    />
+    <h3>{props.currentTime}</h3>
+  </div>;
 
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
@@ -34,7 +46,10 @@ MasterVideo.defaultProps = {
   videoUrl: ''
 };
 
-const mapStateToProps = state => ({ currentTime: state.currentTime });
+const mapStateToProps = state => ({
+  currentTime: state.currentTime,
+  isPlaying: state.isPlaying
+});
 
 export const Unwrapped = MasterVideo;
 export default connect(mapStateToProps)(MasterVideo);

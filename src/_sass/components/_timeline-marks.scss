@@ -1,0 +1,15 @@
+.tl__time-marks {
+  border-bottom: $tl-separator;
+  height: $timeline-marks-height;
+  width: 100%;
+
+  @include flex-container($justify: flex-start, $align: flex-end);
+}
+
+.tl__time {
+  border-left: $tl-separator;
+  flex-grow: 1;
+  font-size: 0.75rem;
+  height: 100%;
+  padding-left: 0.25rem;
+}
