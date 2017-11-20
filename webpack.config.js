@@ -1,23 +1,26 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: './webpack/index.jsx',
+  entry: {
+    index: "./webpack/index.jsx",
+    score: "./webpack/score.jsx"
+  },
   output: {
-    path: path.resolve(__dirname, 'src/assets/'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, "src/assets/"),
+    filename: "[name].bundle.js"
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: [".js", ".jsx"]
   },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
-        loader: 'babel-loader',
+        loader: "babel-loader",
         query: {
-          presets: ['react', 'env']
+          presets: ["react", "env"]
         }
       }
     ]
