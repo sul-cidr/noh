@@ -30,6 +30,11 @@ theme: minima
 collections:
   shodan:
     output: true
+    permalink: /:collection/:path/
+  plays:
+    output: true
+    permalink: /:collection/:path/
+
 
 
 # Exclude from processing.

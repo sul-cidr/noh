@@ -1,9 +1,8 @@
 const path = require("path");
-const webpack = require("webpack");
 
 module.exports = {
   entry: {
-    index: "./webpack/index.jsx",
+    play: "./webpack/play.jsx",
     score: "./webpack/score.jsx"
   },
   output: {
