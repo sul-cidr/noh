@@ -1,21 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import TimelineHeader from "./TimelineHeader";
-import TimelineContent from "./TimelineContent";
-import TimelineControls from "./TimelineControls";
 import TimelineIndicator from "./TimelineIndicator";
 
 const Timeline = props => (
   <div className="timeline">
-    <TimelineHeader title="Timeline" />
+    <h2>Timeline Area</h2>
     <TimelineIndicator
       duration={1 * 60 + 44}
       currentTime={props.currentTime}
       playing={props.isPlaying}
     />
-    <TimelineContent currentTime={props.currentTime} />
-    <TimelineControls />
   </div>
 );
 
