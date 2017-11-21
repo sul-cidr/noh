@@ -28,7 +28,7 @@ theme: minima
 
 # Collection settings
 collections:
-  shodan:
+  sections:
     output: true
     permalink: /:collection/:path/
   plays:
