@@ -26,6 +26,17 @@ source: src
 markdown: kramdown
 theme: minima
 
+# Collection settings
+collections:
+  sections:
+    output: true
+    permalink: /:collection/:path/
+  plays:
+    output: true
+    permalink: /:collection/:path/
+
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
