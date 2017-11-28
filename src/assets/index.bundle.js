@@ -272,6 +272,41 @@ if (process.env.NODE_ENV === 'production') {
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
+/* WEBPACK VAR INJECTION */(function(process) {/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+if (process.env.NODE_ENV !== 'production') {
+  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
+    Symbol.for &&
+    Symbol.for('react.element')) ||
+    0xeac7;
+
+  var isValidElement = function(object) {
+    return typeof object === 'object' &&
+      object !== null &&
+      object.$$typeof === REACT_ELEMENT_TYPE;
+  };
+
+  // By explicitly using `prop-types` you are opting into new development behavior.
+  // http://fb.me/prop-types-in-prod
+  var throwOnDirectAccess = true;
+  module.exports = __webpack_require__(45)(isValidElement, throwOnDirectAccess);
+} else {
+  // By explicitly using `prop-types` you are opting into new production behavior.
+  // http://fb.me/prop-types-in-prod
+  module.exports = __webpack_require__(46)();
+}
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -311,7 +346,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 module.exports = emptyFunction;
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -368,41 +403,6 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-if (process.env.NODE_ENV !== 'production') {
-  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
-    Symbol.for &&
-    Symbol.for('react.element')) ||
-    0xeac7;
-
-  var isValidElement = function(object) {
-    return typeof object === 'object' &&
-      object !== null &&
-      object.$$typeof === REACT_ELEMENT_TYPE;
-  };
-
-  // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
-  var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(45)(isValidElement, throwOnDirectAccess);
-} else {
-  // By explicitly using `prop-types` you are opting into new production behavior.
-  // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(46)();
-}
-
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
@@ -541,7 +541,7 @@ module.exports = emptyObject;
 
 
 
-var emptyFunction = __webpack_require__(2);
+var emptyFunction = __webpack_require__(3);
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -597,6 +597,25 @@ module.exports = warning;
 
 /***/ }),
 /* 8 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(51);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createProvider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
+
+
+
+
+
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -610,9 +629,9 @@ module.exports = warning;
 
 
 if (process.env.NODE_ENV !== 'production') {
-  var invariant = __webpack_require__(3);
+  var invariant = __webpack_require__(4);
   var warning = __webpack_require__(7);
-  var ReactPropTypesSecret = __webpack_require__(9);
+  var ReactPropTypesSecret = __webpack_require__(10);
   var loggedTypeFailures = {};
 }
 
@@ -663,7 +682,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -682,7 +701,7 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -719,25 +738,6 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-
-/***/ }),
-/* 11 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(51);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createProvider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
-
-
-
-
-
 
 /***/ }),
 /* 12 */
@@ -855,7 +855,7 @@ function isPlainObject(value) {
  * @typechecks
  */
 
-var emptyFunction = __webpack_require__(2);
+var emptyFunction = __webpack_require__(3);
 
 /**
  * Upstream version of event listener. Does not take into account specific
@@ -1113,7 +1113,7 @@ module.exports = getActiveElement;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return subscriptionShape; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return storeShape; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_prop_types__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_prop_types__);
 
 
@@ -1946,6 +1946,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var SET_CURRENT_TIME = exports.SET_CURRENT_TIME = 'SET_CURRENT_TIME';
 var SET_HEADER_TEXT = exports.SET_HEADER_TEXT = 'SET_HEADER_TEXT';
+var SET_IS_PLAYING = exports.SET_IS_PLAYING = 'SET_IS_PLAYING';
 
 /***/ }),
 /* 30 */
@@ -1966,6 +1967,8 @@ var _reducers2 = _interopRequireDefault(_reducers);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/* eslint-disable no-underscore-dangle */
+
 var store = (0, _redux.createStore)(_reducers2.default, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 exports.default = store;
@@ -1983,7 +1986,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(34);
 
-var _reactRedux = __webpack_require__(11);
+var _reactRedux = __webpack_require__(8);
 
 var _MasterVideo = __webpack_require__(73);
 
@@ -1992,6 +1995,10 @@ var _MasterVideo2 = _interopRequireDefault(_MasterVideo);
 var _Dance = __webpack_require__(76);
 
 var _Dance2 = _interopRequireDefault(_Dance);
+
+var _Timeline = __webpack_require__(79);
+
+var _Timeline2 = _interopRequireDefault(_Timeline);
 
 var _store = __webpack_require__(30);
 
@@ -2007,7 +2014,8 @@ var App = function App() {
       'div',
       { className: 'app' },
       _react2.default.createElement(_MasterVideo2.default, { videoUrl: 'https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1' }),
-      _react2.default.createElement(_Dance2.default, null)
+      _react2.default.createElement(_Dance2.default, null),
+      _react2.default.createElement(_Timeline2.default, null)
     )
   );
 };
@@ -2028,7 +2036,7 @@ var App = function App() {
  This source code is licensed under the MIT license found in the
  LICENSE file in the root directory of this source tree.
 */
-var f=__webpack_require__(5),p=__webpack_require__(6);__webpack_require__(3);var r=__webpack_require__(2);
+var f=__webpack_require__(5),p=__webpack_require__(6);__webpack_require__(4);var r=__webpack_require__(3);
 function t(a){for(var b=arguments.length-1,d="Minified React error #"+a+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\x3d"+a,e=0;e<b;e++)d+="\x26args[]\x3d"+encodeURIComponent(arguments[e+1]);b=Error(d+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.");b.name="Invariant Violation";b.framesToPop=1;throw b;}
 var u={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function v(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}v.prototype.isReactComponent={};v.prototype.setState=function(a,b){"object"!==typeof a&&"function"!==typeof a&&null!=a?t("85"):void 0;this.updater.enqueueSetState(this,a,b,"setState")};v.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,"forceUpdate")};
 function w(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}function x(){}x.prototype=v.prototype;var y=w.prototype=new x;y.constructor=w;f(y,v.prototype);y.isPureReactComponent=!0;function z(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}var A=z.prototype=new x;A.constructor=z;f(A,v.prototype);A.unstable_isAsyncReactComponent=!0;A.render=function(){return this.props.children};
@@ -2068,9 +2076,9 @@ if (process.env.NODE_ENV !== "production") {
 var objectAssign$1 = __webpack_require__(5);
 var require$$0 = __webpack_require__(7);
 var emptyObject = __webpack_require__(6);
-var invariant = __webpack_require__(3);
-var emptyFunction = __webpack_require__(2);
-var checkPropTypes = __webpack_require__(8);
+var invariant = __webpack_require__(4);
+var emptyFunction = __webpack_require__(3);
+var checkPropTypes = __webpack_require__(9);
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -3811,7 +3819,7 @@ if (process.env.NODE_ENV === 'production') {
  LICENSE file in the root directory of this source tree.
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(1);__webpack_require__(3);var l=__webpack_require__(10),n=__webpack_require__(5),ba=__webpack_require__(14),ca=__webpack_require__(2),da=__webpack_require__(6),ea=__webpack_require__(15),fa=__webpack_require__(16),ha=__webpack_require__(17),ia=__webpack_require__(18);
+var aa=__webpack_require__(1);__webpack_require__(4);var l=__webpack_require__(11),n=__webpack_require__(5),ba=__webpack_require__(14),ca=__webpack_require__(3),da=__webpack_require__(6),ea=__webpack_require__(15),fa=__webpack_require__(16),ha=__webpack_require__(17),ia=__webpack_require__(18);
 function w(a){for(var b=arguments.length-1,c="Minified React error #"+a+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\x3d"+a,d=0;d<b;d++)c+="\x26args[]\x3d"+encodeURIComponent(arguments[d+1]);b=Error(c+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.");b.name="Invariant Violation";b.framesToPop=1;throw b;}aa?void 0:w("227");
 function ja(a){switch(a){case "svg":return"http://www.w3.org/2000/svg";case "math":return"http://www.w3.org/1998/Math/MathML";default:return"http://www.w3.org/1999/xhtml"}}
 var ka={Namespaces:{html:"http://www.w3.org/1999/xhtml",mathml:"http://www.w3.org/1998/Math/MathML",svg:"http://www.w3.org/2000/svg"},getIntrinsicNamespace:ja,getChildNamespace:function(a,b){return null==a||"http://www.w3.org/1999/xhtml"===a?ja(b):"http://www.w3.org/2000/svg"===a&&"foreignObject"===b?"http://www.w3.org/1999/xhtml":a}},la=null,oa={};
@@ -4137,18 +4145,18 @@ if (process.env.NODE_ENV !== "production") {
 'use strict';
 
 var react = __webpack_require__(1);
-var invariant = __webpack_require__(3);
-var ExecutionEnvironment = __webpack_require__(10);
+var invariant = __webpack_require__(4);
+var ExecutionEnvironment = __webpack_require__(11);
 var _assign = __webpack_require__(5);
 var EventListener = __webpack_require__(14);
 var require$$0 = __webpack_require__(7);
 var hyphenateStyleName = __webpack_require__(39);
-var emptyFunction = __webpack_require__(2);
+var emptyFunction = __webpack_require__(3);
 var camelizeStyleName = __webpack_require__(41);
 var performanceNow = __webpack_require__(43);
-var propTypes = __webpack_require__(4);
+var propTypes = __webpack_require__(2);
 var emptyObject = __webpack_require__(6);
-var checkPropTypes = __webpack_require__(8);
+var checkPropTypes = __webpack_require__(9);
 var shallowEqual = __webpack_require__(15);
 var containsNode = __webpack_require__(16);
 var focusNode = __webpack_require__(17);
@@ -21553,7 +21561,7 @@ module.exports = performanceNow;
 
 
 
-var ExecutionEnvironment = __webpack_require__(10);
+var ExecutionEnvironment = __webpack_require__(11);
 
 var performance;
 
@@ -21577,13 +21585,13 @@ module.exports = performance || {};
 
 
 
-var emptyFunction = __webpack_require__(2);
-var invariant = __webpack_require__(3);
+var emptyFunction = __webpack_require__(3);
+var invariant = __webpack_require__(4);
 var warning = __webpack_require__(7);
 var assign = __webpack_require__(5);
 
-var ReactPropTypesSecret = __webpack_require__(9);
-var checkPropTypes = __webpack_require__(8);
+var ReactPropTypesSecret = __webpack_require__(10);
+var checkPropTypes = __webpack_require__(9);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -22127,9 +22135,9 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 
 
-var emptyFunction = __webpack_require__(2);
-var invariant = __webpack_require__(3);
-var ReactPropTypesSecret = __webpack_require__(9);
+var emptyFunction = __webpack_require__(3);
+var invariant = __webpack_require__(4);
+var ReactPropTypesSecret = __webpack_require__(10);
 
 module.exports = function() {
   function shim(props, propName, componentName, location, propFullName, secret) {
@@ -22186,7 +22194,7 @@ module.exports = function() {
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony export (immutable) */ __webpack_exports__["a"] = createProvider;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_PropTypes__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_warning__ = __webpack_require__(12);
@@ -23480,17 +23488,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Unwrapped = undefined;
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(4);
+var _propTypes = __webpack_require__(2);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactRedux = __webpack_require__(11);
+var _reactRedux = __webpack_require__(8);
 
 var _actionCreators = __webpack_require__(74);
 
@@ -23500,47 +23506,44 @@ var _store2 = _interopRequireDefault(_store);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function updateCurrentTime(event) {
+  _store2.default.dispatch((0, _actionCreators.setCurrentTime)(event.target.currentTime));
+} /* eslint-disable jsx-a11y/media-has-caption */
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+function updateIsPlaying() {
+  _store2.default.dispatch((0, _actionCreators.setIsPlaying)(true));
+}
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable jsx-a11y/media-has-caption */
+function updateIsNotPlaying() {
+  _store2.default.dispatch((0, _actionCreators.setIsPlaying)(false));
+}
 
-var MasterVideo = function (_Component) {
-  _inherits(MasterVideo, _Component);
-
-  function MasterVideo() {
-    _classCallCheck(this, MasterVideo);
-
-    return _possibleConstructorReturn(this, (MasterVideo.__proto__ || Object.getPrototypeOf(MasterVideo)).apply(this, arguments));
-  }
-
-  _createClass(MasterVideo, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      var player = document.getElementById('player');
-      player.addEventListener('timeupdate', function () {
-        _store2.default.dispatch((0, _actionCreators.setCurrentTime)(player.currentTime));
-      });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement('video', { id: 'player', src: this.props.videoUrl, controls: true }),
-        _react2.default.createElement(
-          'h3',
-          null,
-          this.props.currentTime
-        )
-      );
-    }
-  }]);
-
-  return MasterVideo;
-}(_react.Component);
+var MasterVideo = function MasterVideo(props) {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement('video', {
+      id: 'player',
+      src: props.videoUrl,
+      controls: true,
+      onTimeUpdate: function onTimeUpdate(event) {
+        return updateCurrentTime(event);
+      },
+      onPlaying: updateIsPlaying,
+      onEnded: updateIsNotPlaying,
+      onPlay: updateIsNotPlaying,
+      onPause: updateIsNotPlaying,
+      onStalled: updateIsNotPlaying,
+      onSeeking: updateIsNotPlaying,
+      onWaiting: updateIsNotPlaying
+    }),
+    _react2.default.createElement(
+      'h3',
+      null,
+      props.currentTime
+    )
+  );
+};
 
 MasterVideo.propTypes = {
   currentTime: _propTypes2.default.number,
@@ -23553,7 +23556,10 @@ MasterVideo.defaultProps = {
 };
 
 var mapStateToProps = function mapStateToProps(state) {
-  return { currentTime: state.currentTime };
+  return {
+    currentTime: state.currentTime,
+    isPlaying: state.isPlaying
+  };
 };
 
 var Unwrapped = exports.Unwrapped = MasterVideo;
@@ -23569,12 +23575,17 @@ exports.default = (0, _reactRedux.connect)(mapStateToProps)(MasterVideo);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.setCurrentTime = setCurrentTime;
+exports.default = setCurrentTime;
+exports.setIsPlaying = setIsPlaying;
 
 var _actions = __webpack_require__(29);
 
 function setCurrentTime(word) {
   return { type: _actions.SET_CURRENT_TIME, payload: word };
+}
+
+function setIsPlaying(word) {
+  return { type: _actions.SET_IS_PLAYING, payload: word };
 }
 
 /***/ }),
@@ -23591,11 +23602,16 @@ Object.defineProperty(exports, "__esModule", {
 var _actions = __webpack_require__(29);
 
 var DEFAULT_STATE = {
-  currentTime: 0
+  currentTime: 0,
+  isPlaying: false
 };
 
 var setCurrentTime = function setCurrentTime(state, action) {
   return Object.assign({}, state, { currentTime: action.payload });
+};
+
+var setIsPlaying = function setIsPlaying(state, action) {
+  return Object.assign({}, state, { isPlaying: action.payload });
 };
 
 var rootReducer = function rootReducer() {
@@ -23605,6 +23621,8 @@ var rootReducer = function rootReducer() {
   switch (action.type) {
     case _actions.SET_CURRENT_TIME:
       return setCurrentTime(state, action);
+    case _actions.SET_IS_PLAYING:
+      return setIsPlaying(state, action);
     default:
       return state;
   }
@@ -23630,11 +23648,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(4);
+var _propTypes = __webpack_require__(2);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactRedux = __webpack_require__(11);
+var _reactRedux = __webpack_require__(8);
 
 var _kiriData = __webpack_require__(77);
 
@@ -23735,7 +23753,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(4);
+var _propTypes = __webpack_require__(2);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -23756,6 +23774,570 @@ SimpleVideo.defaultProps = {
 };
 
 exports.default = SimpleVideo;
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.UnwrappedTimeline = undefined;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(2);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactRedux = __webpack_require__(8);
+
+var _TimelineHeader = __webpack_require__(80);
+
+var _TimelineHeader2 = _interopRequireDefault(_TimelineHeader);
+
+var _TimelineContent = __webpack_require__(83);
+
+var _TimelineContent2 = _interopRequireDefault(_TimelineContent);
+
+var _TimelineControls = __webpack_require__(86);
+
+var _TimelineControls2 = _interopRequireDefault(_TimelineControls);
+
+var _TimelineIndicator = __webpack_require__(87);
+
+var _TimelineIndicator2 = _interopRequireDefault(_TimelineIndicator);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Timeline = function Timeline(props) {
+  return _react2.default.createElement(
+    "div",
+    { className: "timeline" },
+    _react2.default.createElement(_TimelineHeader2.default, { title: "Timeline" }),
+    _react2.default.createElement(_TimelineIndicator2.default, {
+      duration: 1 * 60 + 44,
+      currentTime: props.currentTime,
+      playing: props.isPlaying
+    }),
+    _react2.default.createElement(_TimelineContent2.default, { currentTime: props.currentTime }),
+    _react2.default.createElement(_TimelineControls2.default, null)
+  );
+};
+
+Timeline.propTypes = {
+  currentTime: _propTypes2.default.number,
+  isPlaying: _propTypes2.default.bool
+};
+
+Timeline.defaultProps = {
+  currentTime: 0,
+  isPlaying: false
+};
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    currentTime: state.currentTime,
+    isPlaying: state.isPlaying
+  };
+};
+
+var UnwrappedTimeline = exports.UnwrappedTimeline = Timeline;
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(Timeline);
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(2);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _TimeMarks = __webpack_require__(81);
+
+var _TimeMarks2 = _interopRequireDefault(_TimeMarks);
+
+var _Acts = __webpack_require__(82);
+
+var _Acts2 = _interopRequireDefault(_Acts);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TimelineHeader = function TimelineHeader(props) {
+  return _react2.default.createElement(
+    "div",
+    { className: "timeline_topbar" },
+    _react2.default.createElement(
+      "h2",
+      { className: "tl__title" },
+      props.title
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "tl__marks" },
+      _react2.default.createElement(_TimeMarks2.default, null),
+      _react2.default.createElement(_Acts2.default, null)
+    )
+  );
+};
+
+TimelineHeader.propTypes = {
+  title: _propTypes2.default.string
+};
+
+TimelineHeader.defaultProps = {
+  title: ""
+};
+
+exports.default = TimelineHeader;
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TimeMarks = function TimeMarks() {
+  return (
+    // Should be refactored to generator automatically
+    _react2.default.createElement(
+      "div",
+      { className: "tl__time-marks" },
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:00:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:05:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:10:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:15:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:20:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:25:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:30:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:35:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:40:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:45:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:50:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "0:55:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "1:00:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "1:05:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "1:10:00"
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "tl__time" },
+        "1:15:00"
+      )
+    )
+  );
+};
+
+exports.default = TimeMarks;
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Acts = function Acts() {
+  return _react2.default.createElement(
+    "div",
+    { className: "tl__acts" },
+    _react2.default.createElement(
+      "div",
+      { className: "tl__act", style: { width: "35%" } },
+      "First act (mae ba)"
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "tl__act", style: { width: "65%" } },
+      "Second act (nochi ba)"
+    )
+  );
+};
+
+exports.default = Acts;
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CurrentPositionMarker = __webpack_require__(84);
+
+var _CurrentPositionMarker2 = _interopRequireDefault(_CurrentPositionMarker);
+
+var _ShodanTimeline = __webpack_require__(85);
+
+var _ShodanTimeline2 = _interopRequireDefault(_ShodanTimeline);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TimelineContent = function TimelineContent() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(_CurrentPositionMarker2.default, null),
+    _react2.default.createElement(
+      "div",
+      { className: "tl__channels-container" },
+      _react2.default.createElement(_ShodanTimeline2.default, null)
+    )
+  );
+};
+
+exports.default = TimelineContent;
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CurrentPositionMarker = function CurrentPositionMarker() {
+  return _react2.default.createElement("div", null);
+};
+
+exports.default = CurrentPositionMarker;
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// the shodan in here need to be abstracted into a reusable component
+var ShodanTimeline = function ShodanTimeline() {
+  return _react2.default.createElement(
+    "div",
+    { className: "tl__channel tl__channel--shodan" },
+    " ",
+    _react2.default.createElement(
+      "div",
+      { className: "tl__channel-label" },
+      _react2.default.createElement(
+        "p",
+        null,
+        "Shodan"
+      )
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "tl__channel-events" },
+      _react2.default.createElement("div", {
+        className: "tl__shodan",
+        style: { left: "0px", width: "40px", height: "10px" },
+        "data-tooltip": "Shodan name"
+      }),
+      _react2.default.createElement("div", {
+        className: "tl__shodan",
+        style: { left: "40px", width: "100px", height: "20px" },
+        "data-tooltip": "Shodan name"
+      }),
+      _react2.default.createElement("div", {
+        className: "tl__shodan",
+        style: { left: "140px", width: "60px", height: "40px" },
+        "data-tooltip": "Shodan name"
+      })
+    )
+  );
+};
+
+exports.default = ShodanTimeline;
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TimelineControls = function TimelineControls() {
+  return _react2.default.createElement(
+    "div",
+    { className: "tl__actions" },
+    "place for controls"
+  );
+};
+
+exports.default = TimelineControls;
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Unwrapped = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(2);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var TimelineIndicator = function (_Component) {
+  _inherits(TimelineIndicator, _Component);
+
+  function TimelineIndicator(props) {
+    _classCallCheck(this, TimelineIndicator);
+
+    var _this = _possibleConstructorReturn(this, (TimelineIndicator.__proto__ || Object.getPrototypeOf(TimelineIndicator)).call(this, props));
+
+    _this.state = {
+      playedTime: _this.calculateCurrentTime(), // milliseconds
+      timer: null
+    };
+    return _this;
+  }
+
+  _createClass(TimelineIndicator, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.setupTimer();
+      this.tick();
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearInterval(this.state.timer);
+    }
+  }, {
+    key: "setupTimer",
+    value: function setupTimer() {
+      var _this2 = this;
+
+      var timer = setInterval(function () {
+        _this2.tick();
+      }, this.props.interval);
+      this.setState({ timer: timer });
+    }
+  }, {
+    key: "calculateCurrentTime",
+    value: function calculateCurrentTime() {
+      return 1e3 * this.props.currentTime; // currentTime is given in seconds
+    }
+  }, {
+    key: "calculateRemainingTime",
+    value: function calculateRemainingTime() {
+      return this.calculateMaxTime() - this.state.playedTime;
+    }
+  }, {
+    key: "calculateMaxTime",
+    value: function calculateMaxTime() {
+      return 1e3 * this.props.duration; // currentTime is given in seconds
+    }
+  }, {
+    key: "calculateProgress",
+    value: function calculateProgress() {
+      return 100 * this.state.playedTime / this.calculateMaxTime();
+    }
+  }, {
+    key: "tick",
+    value: function tick() {
+      if (this.props.playing) {
+        this.setState({
+          playedTime: this.state.playedTime + this.props.interval
+        });
+      } else {
+        this.setState({
+          playedTime: this.calculateCurrentTime()
+        });
+      }
+      if (this.calculateRemainingTime() <= 0) {
+        clearInterval(this.state.timer);
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "tl__time-indicator" },
+        _react2.default.createElement(
+          "div",
+          { style: { left: this.calculateProgress() + "%", position: 'relative' } },
+          _react2.default.createElement(
+            "span",
+            { role: "img", "aria-label": "time-indicator" },
+            "\u25B2"
+          )
+        )
+      );
+    }
+  }]);
+
+  return TimelineIndicator;
+}(_react.Component);
+
+exports.default = TimelineIndicator;
+
+
+TimelineIndicator.propTypes = {
+  duration: _propTypes2.default.number.isRequired,
+  interval: _propTypes2.default.number,
+  currentTime: _propTypes2.default.number.isRequired,
+  playing: _propTypes2.default.bool
+};
+
+TimelineIndicator.defaultProps = {
+  interval: 10, // down to the millisecond it behaves erratically
+  playing: false
+};
+
+var Unwrapped = exports.Unwrapped = TimelineIndicator;
 
 /***/ })
 /******/ ]);

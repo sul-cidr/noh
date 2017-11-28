@@ -4,5 +4,6 @@ _site
 node_modules
 
 src/assets/bundle.js
+src/assets/*.bundle.js
 
 coverage/

@@ -4,9 +4,9 @@ import { Unwrapped as UnwrappedMasterVideo } from '../components/MasterVideo';
 
 describe('<MasterVideo>', () => {
   it('renders as expected', () => {
-    // We have to attach directly to document.body for component to have access to document for now, despite a generated warning
+    const container = document.createElement('div');
     const component = mount(<UnwrappedMasterVideo />, {
-      attachTo: document.body
+      attachTo: container
     });
     expect(component).toMatchSnapshot();
   });
