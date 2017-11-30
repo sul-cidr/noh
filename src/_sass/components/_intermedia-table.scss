@@ -5,13 +5,13 @@ $intermedia-cell: 1.75rem;
 }
 
 .intermedia__element {
-  border-bottom: 0.0625rem solid $grey-2;
+  border-bottom: $tl-separator;
 
   @include flex-container($justify: flex-start);
 }
 
 .intermedia__element--title {
-  border-top: 0.0625rem solid $grey-2;
+  border-top: $tl-separator;
 
   .intermedia__label,
   .intermedia__value {
@@ -24,14 +24,19 @@ $intermedia-cell: 1.75rem;
 
 .intermedia__label,
 .intermedia__value {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   height: $intermedia-cell;
   padding: 0 0.5rem;
-  width: 50%;
 
   @include flex-container($justify: flex-start);
 }
 
 .intermedia__label {
-  border-right: 0.0625rem solid $grey-2;
+  border-right: $tl-separator;
+  font-weight: 700;
+  width: 40%;
+}
+
+.intermedia__value {
+  flex-grow: 1;
 }
