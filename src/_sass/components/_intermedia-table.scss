@@ -1,0 +1,19 @@
+.intermedia-table {
+  flex-shrink: 0;
+}
+
+.intermedia__element {
+  @include flex-container($justify: flex-start);
+}
+
+.intermedia__element--title {
+  height: $timeline-acts-height + $timeline-marks-height;
+}
+
+.intermedia__label {
+  width: 50%;
+}
+
+.intermedia__value {
+  width: 50%;
+}

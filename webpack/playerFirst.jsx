@@ -1,9 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
+import IntermediaTable from "./components/IntermediaTable";
 
 const App = () => (
   <div>
-    component 1
+    <IntermediaTable />
   </div>
 );
 
