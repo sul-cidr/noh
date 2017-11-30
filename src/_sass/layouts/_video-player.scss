@@ -1,0 +1,14 @@
+.video-player {
+  height: 100vh;
+
+  @include flex-container($justify: flex-start, $align: stretch);
+
+  aside {
+    width: 30%;
+    border-right: $tl-separator;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+}
