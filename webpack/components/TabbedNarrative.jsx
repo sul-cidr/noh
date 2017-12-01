@@ -18,13 +18,11 @@ class TabbedNarrative extends React.Component {
   }
 
   parseNarrative() {
-    // return a list of strings broken on <br>
     const chunks = this.state.narrative.split("<br>");
     return chunks;
   }
 
   panelTitles() {
-    // does this handle multi word titles?
     const chunks = this.parseNarrative();
     const re = /title='[\w\s]+'/;
     const titles = [];

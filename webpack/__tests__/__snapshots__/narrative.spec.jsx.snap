@@ -4,8 +4,8 @@ exports[`<Narrative> renders as expected with tabs 1`] = `
 <div
   className="narrative"
 >
-  <NonTabbedNarrative
-    narrative=""
+  <TabbedNarrative
+    narrative="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br><div title='section two'><p>Different stuff</p></div>"
   />
 </div>
 `;

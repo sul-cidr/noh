@@ -6,10 +6,10 @@ import NonTabbedNarrative from "./NonTabbedNarrative";
 class Narrative extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       narrative: props.narrative,
-      tabbed: false,
-      tabIndicator: "tabbed-narrative"
+      tabbed: this.checkIfTabbed()
     };
   }
 
@@ -17,12 +17,12 @@ class Narrative extends React.Component {
     this.checkIfTabbed(this.state.narrative, this.state.tabIndicator);
   }
 
-  checkIfTabbed(narrative, tabIndicator) {
-    if (narrative.includes(tabIndicator)) {
-      this.setState({
-        tabbed: true
-      });
+  checkIfTabbed() {
+    const re = /tabbed-narrative/;
+    if (re.exec(this.props.narrative) != null) {
+      return true;
     }
+    return false;
   }
 
   render() {
