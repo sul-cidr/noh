@@ -7,21 +7,26 @@ const ShodanTimeline = () => (
     <div className="tl__channel-label">
       <p>Shodan</p>
     </div>
-    <div className="tl__channel-events">
+    <div className="shodan-map">
       <div
-        className="tl__shodan"
-        style={{ left: "0px", width: "40px", height: "10px" }}
-        data-tooltip="Shodan name"
+        className="shodan-map__item"
+        style={{ left: "0%", width: "2%", height: "10px" }}
+        data-tooltip="Nanoribue"
       />
       <div
-        className="tl__shodan"
-        style={{ left: "40px", width: "100px", height: "20px" }}
-        data-tooltip="Shodan name"
+        className="shodan-map__item"
+        style={{ left: "2%", width: "5%", height: "20px" }}
+        data-tooltip="Nanori"
       />
       <div
-        className="tl__shodan"
-        style={{ left: "140px", width: "60px", height: "40px" }}
-        data-tooltip="Shodan name"
+        className="shodan-map__item"
+        style={{ left: "7%", width: "8%", height: "40px" }}
+        data-tooltip="Kakaru-1"
+      />
+      <div
+        className="shodan-map__item"
+        style={{ left: "15%", width: "5%", height: "40px" }}
+        data-tooltip="Ashirai"
       />
     </div>
   </div>

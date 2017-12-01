@@ -1,9 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
+import ShodanTimeline from "./components/ShodanTimeline";
 
 const App = () => (
   <div>
-    component 1
+    <ShodanTimeline />
+
   </div>
 );
 
