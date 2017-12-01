@@ -1,17 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Narrative> renders as expected 1`] = `
+exports[`<Narrative> renders as expected with tabs 1`] = `
 <div
   className="narrative"
 >
-  <Markup
-    content=""
-    disableLineBreaks={false}
-    disableWhitelist={false}
-    emptyContent={null}
-    noHtml={false}
-    noHtmlExceptMatchers={false}
-    tagName="span"
+  <NonTabbedNarrative
+    narrative=""
+  />
+</div>
+`;
+
+exports[`<Narrative> renders as expected without tabs 1`] = `
+<div
+  className="narrative"
+>
+  <NonTabbedNarrative
+    narrative="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   />
 </div>
 `;
