@@ -1,9 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
+import TimeMarks from "./components/TimeMarks"
 
 const App = () => (
   <div>
-    component 1
+    <TimeMarks />
   </div>
 );
 
