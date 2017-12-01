@@ -1,7 +1,11 @@
 import axios from "axios";
 
 export function getPlay(playName, callback, error) {
+<<<<<<< HEAD
   error = error || console.error;  // eslint-disable-line no-param-reassign
+=======
+  error = error || (() => {}); // eslint-disable-line no-param-reassign
+>>>>>>> Adapting to the new URLs
   axios
     .get(`/data/${playName}.json`)
     .then(res => {
