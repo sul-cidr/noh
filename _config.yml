@@ -28,12 +28,15 @@ theme: minima
 
 # Collection settings
 collections:
-  sections:
+  hashitomi:
+    output: true
+    permalink: /:collection/:path/
+  kokaji:
     output: true
     permalink: /:collection/:path/
   plays:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:path/
 
 
 
