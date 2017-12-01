@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Narrative> renders as expected 1`] = `
+<div
+  className="narrative"
+>
+  <Markup
+    content=""
+    disableLineBreaks={false}
+    disableWhitelist={false}
+    emptyContent={null}
+    noHtml={false}
+    noHtmlExceptMatchers={false}
+    tagName="span"
+  />
+</div>
+`;
