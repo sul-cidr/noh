@@ -19,6 +19,7 @@
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+    z-index: 10;
   }
 
   &::after {

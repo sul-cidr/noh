@@ -5,7 +5,6 @@ import ShodanTimeline from "./components/ShodanTimeline";
 const App = () => (
   <div>
     <ShodanTimeline />
-
   </div>
 );
 
