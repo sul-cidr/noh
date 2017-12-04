@@ -5,7 +5,9 @@ const IntermediaTable = () => (
   <div className="intermedia-table">
     <div className="intermedia__element intermedia__element--title">
       <div className="intermedia__label">Section</div>
-      <div className="intermedia__value"><a href="#">Kuse</a></div>
+      <div className="intermedia__value">
+        <a href="/hashitomi/kiri/">Kuse</a>
+      </div>
     </div>
     <div className="intermedia__element">
       <div className="intermedia__label">Voices</div>
