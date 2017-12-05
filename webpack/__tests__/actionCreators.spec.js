@@ -1,5 +1,5 @@
-import setCurrentTime from '../actionCreators';
+import { setCurrentTime } from "../actionCreators";
 
-test('setCurrentTime creates the correct payload', () => {
+test("setCurrentTime creates the correct payload", () => {
   expect(setCurrentTime(30)).toMatchSnapshot();
 });
