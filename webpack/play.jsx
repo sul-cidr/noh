@@ -4,7 +4,7 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import MasterVideo from "./components/MasterVideo";
 import Dance from "./components/Dance";
-import Timeline from "./components/Timeline";
+import TimelineIndicator from "./components/TimelineIndicator";
 import Narrative from "./components/Narrative";
 import store from "./store";
 import contents from "./contents";
@@ -15,18 +15,30 @@ const App = props => (
       <Narrative narrative={props.narrative} />
       <MasterVideo videoUrl={props.videoUrl} />
       <Dance />
-      <Timeline />
+      <TimelineIndicator
+        currentTime={props.currentTime}
+        duration={props.videoDuration}
+        playing={props.isPlaying}
+      />
     </div>
   </Provider>
 );
 
 App.propTypes = {
   narrative: PropTypes.string.isRequired,
-  videoUrl: PropTypes.string.isRequired
-}
+  videoUrl: PropTypes.string.isRequired,
+  videoDuration: PropTypes.number.isRequired,
+  currentTime: PropTypes.number,
+  isPlaying: PropTypes.bool
+};
 
-const play = window.location.pathname.trim().split("/")[1];
+App.defaultProps = {
+  currentTime: 0.0,
+  isPlaying: false
+};
 
-contents.play(play, props => {
+const playName = window.location.pathname.trim().split("/")[1];
+
+contents.play(playName, props => {
   render(<App {...props} />, document.getElementById("play"));
 });
