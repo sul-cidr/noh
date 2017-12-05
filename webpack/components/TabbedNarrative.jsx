@@ -18,18 +18,18 @@ class TabbedNarrative extends React.Component {
   }
 
   parseNarrative() {
-    const chunks = this.state.narrative.split("<br>");
+    const chunks = this.state.narrative.split(/<br\s*\/>/);
     return chunks;
   }
 
   panelTitles() {
     const chunks = this.parseNarrative();
-    const re = /title='[\w\s]+'/;
+    const re = /title=['"][\w\s]+['"]/;
     const titles = [];
     for (let i = 0; i < chunks.length; i += 1) {
       const titleString = re.exec(chunks[i]);
       const pieces = titleString[0].split("=");
-      const title = pieces[1].replace("'", "").replace("'", "");
+      const title = pieces[1].slice(1, -1)
       titles.push(title);
     }
     return titles;
