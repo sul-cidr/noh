@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-export class TimelineIndicator extends Component {
+class TimelineIndicator extends Component {
   constructor(props) {
     super(props);
     this.state = {
