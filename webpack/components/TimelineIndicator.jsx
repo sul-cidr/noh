@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-class TimelineIndicator extends Component {
+export class TimelineIndicator extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -60,14 +60,11 @@ class TimelineIndicator extends Component {
 
   render() {
     return (
-      <div className="tl__time-indicator">
+      <div className="time-indicator-container">
         <div
+          className="time-indicator"
           style={{ left: `${this.calculateProgress()}%`, position: "relative" }}
-        >
-          <span role="img" aria-label="time-indicator">
-            ▲
-          </span>
-        </div>
+        />
       </div>
     );
   }

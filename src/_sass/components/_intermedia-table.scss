@@ -1,17 +1,19 @@
-$intermedia-cell: 1.75rem;
-
 .intermedia-table {
   flex-shrink: 0;
+  flex-basis: 20rem;
+  border-left: $tl-separator;
 }
 
 .intermedia__element {
   border-bottom: $tl-separator;
+  height: $intermedia-table-cell;
 
   @include flex-container($justify: flex-start);
 }
 
 .intermedia__element--title {
   border-top: $tl-separator;
+  height: $timeline-acts-height + $timeline-marks-height;
 
   .intermedia__label,
   .intermedia__value {
@@ -25,7 +27,7 @@ $intermedia-cell: 1.75rem;
 .intermedia__label,
 .intermedia__value {
   font-size: 0.75rem;
-  height: $intermedia-cell;
+  height: $intermedia-table-cell;
   padding: 0 0.5rem;
 
   @include flex-container($justify: flex-start);

@@ -64,12 +64,3 @@ $svg-small: 1;
     height: $timeline-channel-shodan-height;
   }
 }
-
-@import "timeline-layout";
-@import "timeline-actions";
-@import "timeline-acts";
-@import "timeline-marks";
-@import "timeline-current-position";
-@import "timeline-events";
-@import "timeline-shodan";
-@import "timeline-indicator";

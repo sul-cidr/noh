@@ -1,4 +1,5 @@
-$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: Georgia, Times, "Times New Roman", serif;
 
 $black: #000;
 $grey-1: #bbb;
@@ -8,11 +9,14 @@ $white: #fff;
 
 $tl-separator: 0.0625rem solid $grey-2;
 
-$timeline-label-group-width: 3rem;
-$timeline-labels-width: 15rem;
 $timeline-marks-height: 1.25rem;
 $timeline-acts-height: 1.25rem;
+
+$intermedia-table-cell: 1.75rem;
+$shodan-map-height: (7 * $intermedia-table-cell);
+$intermedia-height: $shodan-map-height + $timeline-marks-height + $timeline-acts-height;
+
+$timeline-label-group-width: 3rem;
+$timeline-labels-width: 15rem;
 $timeline-channel-height: 2rem;
 $timeline-channel-shodan-height: 4rem;
-
-$shodan-map-height: 12rem;

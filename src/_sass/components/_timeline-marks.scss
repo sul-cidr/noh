@@ -1,4 +1,5 @@
 .time-marks {
+  border-top: $tl-separator;
   border-bottom: $tl-separator;
   height: $timeline-marks-height;
   width: 100%;
@@ -14,6 +15,7 @@
   padding-left: 0.25rem;
 
   @include flex-container($justify: flex-start);
+  @include truncate($display:flex);
 
   &:first-child {
     border-left: none;
