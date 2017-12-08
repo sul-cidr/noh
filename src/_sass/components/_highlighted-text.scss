@@ -1,0 +1,16 @@
+.highlighted-text {
+  width: 300px;
+  height: 300px;
+
+  .translation-lines {
+    float: left;
+  }
+
+  .transcription-lines {
+    float: right;
+  }
+
+  .active {
+    background-color: IndianRed;
+  }
+}
