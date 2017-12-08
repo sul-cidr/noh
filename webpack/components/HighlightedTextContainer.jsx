@@ -63,4 +63,5 @@ const mapStateToProps = state => ({
   currentPhraseID: state.currentPhraseID
 });
 
+export const Unwrapped = HighlightedTextContainer;
 export default connect(mapStateToProps)(HighlightedTextContainer);
