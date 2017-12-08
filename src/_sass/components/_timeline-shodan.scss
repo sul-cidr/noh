@@ -1,13 +1,22 @@
-.tl__shodan {
-  background-color: $grey-3;
-  border: 0.0625rem solid $grey-1;
+.shodan-map__container {
+  position: relative;
+}
+
+.shodan-map {
+  position: relative;
+  height: $shodan-map-height;
+}
+
+.shodan-map__item {
+  background-color: $grey-lighter;
+  border: 0.0625rem solid $grey-medium;
   height: 0.5rem;
   position: absolute;
   bottom: 0;
   @include tooltip();
 
   &:hover {
-    background-color: $grey-1;
+    background-color: $grey-medium;
     border-color: $black;
   }
 }

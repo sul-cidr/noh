@@ -5,4 +5,15 @@
 @import "commons/variables";
 @import "commons/reset";
 @import "commons/mixins";
-@import "components/timeline";
+@import "commons/helpers";
+@import "layouts/video-player";
+@import "components/intermedia-table";
+@import "components/timeline-layout";
+@import "components/timeline-acts";
+@import "components/timeline-indicator";
+@import "components/timeline-marks";
+@import "components/timeline-shodan";
+
+.color-box {
+  @include flex-container($justify:flex-start);
+}
