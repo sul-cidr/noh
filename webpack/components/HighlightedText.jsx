@@ -59,10 +59,10 @@ class HighlightedText extends React.Component {
 
 HighlightedText.propTypes = {
   singingStyle: PropTypes.string.isRequired,
-  currentPhraseID: PropTypes.number.isRequired,
+  currentPhraseID: PropTypes.string.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
-      phraseID: PropTypes.number,
+      phraseID: PropTypes.string,
       startTime: PropTypes.number,
       endTime: PropTypes.number,
       transcription: PropTypes.string,

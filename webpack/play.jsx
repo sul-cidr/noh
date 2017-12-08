@@ -6,7 +6,6 @@ import MasterVideo from "./components/MasterVideo";
 import Dance from "./components/Dance";
 import TimelineIndicator from "./components/TimelineIndicator";
 import Narrative from "./components/Narrative";
-import HighlightedText from "./components/HighlightedText";
 import store from "./store";
 import contents from "./contents";
 

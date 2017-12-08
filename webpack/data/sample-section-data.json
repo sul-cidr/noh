@@ -1,0 +1,58 @@
+{
+  "title": "Hasitomi Kiri",
+  "narrative": "Here is some narrative",
+  "videoUrl":
+    "https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1",
+  "singingStyle": "Spoken",
+  "phrases": [
+    {
+      "phraseID": "I/1",
+      "startTime": 0,
+      "endTime": 200,
+      "transcription": "transcription line 1",
+      "translation": "translation line 1"
+    },
+    {
+      "phraseID": "I/2",
+      "startTime": 201,
+      "endTime": 410,
+      "transcription": "transcription line 2",
+      "translation": "translation line 2"
+    },
+    {
+      "phraseID": "I/3",
+      "startTime": 411,
+      "endTime": 520,
+      "transcription": "transcription line 3",
+      "translation": "translation line 3"
+    },
+    {
+      "phraseID": "I/4",
+      "startTime": 521,
+      "endTime": 600,
+      "transcription": "transcription line 4",
+      "translation": "translation line 4"
+    },
+    {
+      "phraseID": "II/1",
+      "startTime": 601,
+      "endTime": 720,
+      "transcription": "transcription line 5",
+      "translation": "translation line 5"
+    },
+    {
+      "phraseID": "II/2",
+      "startTime": 721,
+      "endTime": 810,
+      "transcription": "transcription line 6",
+      "translation": "translation line 6"
+    },
+    {
+      "phraseID": "II/3",
+      "startTime": 811,
+      "endTime": 921,
+      "transcription": "transcription line 7",
+      "translation": "translation line 7"
+    }
+  ]
+}
