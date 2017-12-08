@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/media-has-caption */
-
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { setCurrentTime, setIsPlaying } from '../actionCreators';
-import store from '../store';
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { setCurrentTime, setIsPlaying } from "../actionCreators";
+import store from "../store";
 
 function updateCurrentTime(event) {
   store.dispatch(setCurrentTime(event.target.currentTime));
@@ -18,13 +17,13 @@ function updateIsNotPlaying() {
   store.dispatch(setIsPlaying(false));
 }
 
-const MasterVideo = props =>
+const MasterVideo = props => (
   <div>
     <video
       id="player"
       src={props.videoUrl}
       controls
-      onTimeUpdate={(event) => updateCurrentTime(event)}
+      onTimeUpdate={event => updateCurrentTime(event)}
       onPlaying={updateIsPlaying}
       onEnded={updateIsNotPlaying}
       onPlay={updateIsNotPlaying}
@@ -34,7 +33,8 @@ const MasterVideo = props =>
       onWaiting={updateIsNotPlaying}
     />
     <h3>{props.currentTime}</h3>
-  </div>;
+  </div>
+);
 
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
@@ -43,7 +43,7 @@ MasterVideo.propTypes = {
 
 MasterVideo.defaultProps = {
   currentTime: 0,
-  videoUrl: ''
+  videoUrl: ""
 };
 
 const mapStateToProps = state => ({

@@ -1,3 +1,7 @@
+.color-box-container {
+  @include flex-container($justify:flex-start);
+}
+
 .color-box {
     display: inline-block;
     height: 4rem;

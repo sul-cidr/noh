@@ -7,9 +7,9 @@
 
 @mixin tooltip() {
   &::before {
-    background-color: $grey-3;
+    background-color: $black;
     border-radius: 0.25rem;
-    color: $black;
+    color: $white;
     content: attr(data-tooltip);
     display: none;
     font-size: 0.75rem;
@@ -19,12 +19,13 @@
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+    z-index: 10;
   }
 
   &::after {
     border-style: solid;
     border-width: 0.5rem 0.5rem 0 0.5rem;
-    border-color: $grey-3 transparent transparent transparent;
+    border-color: $black transparent transparent transparent;
     content: "";
     display: none;
     height: 0;
@@ -43,4 +44,12 @@
       display: block;
     }
   }
+}
+
+@mixin truncate($width:100%, $display:block) {
+  display: $display;
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

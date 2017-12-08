@@ -13,7 +13,3 @@
 @import "components/timeline-indicator";
 @import "components/timeline-marks";
 @import "components/timeline-shodan";
-
-.color-box {
-  @include flex-container($justify:flex-start);
-}

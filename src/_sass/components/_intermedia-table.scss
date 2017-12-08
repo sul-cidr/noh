@@ -1,0 +1,44 @@
+.intermedia-table {
+  flex-shrink: 0;
+  flex-basis: 20rem;
+  border-left: $tl-separator;
+}
+
+.intermedia__element {
+  border-bottom: $tl-separator;
+  height: $intermedia-table-cell;
+
+  @include flex-container($justify: flex-start);
+}
+
+.intermedia__element--title {
+  border-top: $tl-separator;
+  height: $timeline-acts-height + $timeline-marks-height;
+
+  .intermedia__label,
+  .intermedia__value {
+    font-weight: 700;
+    font-size: 1rem;
+    height: $timeline-acts-height + $timeline-marks-height;
+    padding: 0 0.5rem;
+  }
+}
+
+.intermedia__label,
+.intermedia__value {
+  font-size: 0.75rem;
+  height: $intermedia-table-cell;
+  padding: 0 0.5rem;
+
+  @include flex-container($justify: flex-start);
+}
+
+.intermedia__label {
+  border-right: $tl-separator;
+  font-weight: 700;
+  width: 40%;
+}
+
+.intermedia__value {
+  flex-grow: 1;
+}

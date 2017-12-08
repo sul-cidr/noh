@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabbedNarrative> renders as expected 1`] = `
+<Tabs
+  defaultFocus={false}
+  defaultIndex={null}
+  forceRenderTabPanel={false}
+  selectedIndex={null}
+>
+  <TabList
+    className="react-tabs__tab-list"
+  >
+    <Tab
+      className="react-tabs__tab"
+      disabledClassName="react-tabs__tab--disabled"
+      focus={false}
+      id={null}
+      key="section one with many words in title"
+      panelId={null}
+      selected={false}
+      selectedClassName="react-tabs__tab--selected"
+    >
+      section one with many words in title
+    </Tab>
+  </TabList>
+  <TabPanel
+    className="react-tabs__tab-panel"
+    forceRender={false}
+    key="0"
+    selectedClassName="react-tabs__tab-panel--selected"
+  >
+    <Markup
+      content="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br><div title='section two'><p>Different stuff</p></div>"
+      disableLineBreaks={false}
+      disableWhitelist={false}
+      emptyContent={null}
+      noHtml={false}
+      noHtmlExceptMatchers={false}
+      tagName="span"
+    />
+  </TabPanel>
+</Tabs>
+`;

@@ -1,6 +1,6 @@
 ---
 title: Kiri
-play: Hashitomi
+play: Kokaji
 layout: section
 ---
 
