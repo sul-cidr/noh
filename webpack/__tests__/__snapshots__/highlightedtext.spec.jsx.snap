@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HighlightedText> renders as expected 1`] = `
+<div
+  className="highlighted-text"
+>
+  <h3>
+    Text
+  </h3>
+  <p>
+    Singing style: 
+    spoken
+  </p>
+  <div
+    className="translation-lines"
+  >
+    <Line
+      active={true}
+      key="1"
+      text="translation line 1"
+    />
+    <Line
+      active={false}
+      key="2"
+      text="translation line 2"
+    />
+  </div>
+  <div
+    className="transcription-lines"
+  >
+    <Line
+      active={true}
+      key="1"
+      text="transcription line 1"
+    />
+    <Line
+      active={false}
+      key="2"
+      text="transcription line 2"
+    />
+  </div>
+</div>
+`;

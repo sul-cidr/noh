@@ -1,23 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { connect } from "react-redux";
 import TextLine from "./TextLine";
 
+// containing component needs to know about currentTime and
+// calculate currentPhraseID to pass into this component
 class HighlightedText extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      currentPhraseID: 1
-    };
-  }
-
   createTranslationLines() {
     const phrasesData = this.props.phrases;
     const translationLines = [];
     for (let i = 0; i < phrasesData.length; i += 1) {
       let active = false;
-      if (phrasesData[i].phraseID === this.state.currentPhraseID) {
+      if (phrasesData[i].phraseID === this.props.currentPhraseID) {
         active = true;
       }
       translationLines.push(
@@ -36,7 +29,7 @@ class HighlightedText extends React.Component {
     const transcriptionLines = [];
     for (let i = 0; i < phrasesData.length; i += 1) {
       let active = false;
-      if (phrasesData[i].phraseID === this.state.currentPhraseID) {
+      if (phrasesData[i].phraseID === this.props.currentPhraseID) {
         active = true;
       }
       transcriptionLines.push(
@@ -57,7 +50,6 @@ class HighlightedText extends React.Component {
       <div className="highlighted-text">
         <h3>Text</h3>
         <p>Singing style: {this.props.singingStyle}</p>
-        <p>{this.props.currentTime}</p>
         <div className="translation-lines">{translationLines}</div>
         <div className="transcription-lines">{transcriptionLines}</div>
       </div>
@@ -66,8 +58,8 @@ class HighlightedText extends React.Component {
 }
 
 HighlightedText.propTypes = {
-  currentTime: PropTypes.number.isRequired,
   singingStyle: PropTypes.string.isRequired,
+  currentPhraseID: PropTypes.number.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
       phraseID: PropTypes.number,
@@ -79,7 +71,4 @@ HighlightedText.propTypes = {
   ).isRequired
 };
 
-const mapStateToProps = state => ({ currentTime: state.currentTime });
-
-export const Unwrapped = HighlightedText;
-export default connect(mapStateToProps)(HighlightedText);
+export default HighlightedText;
