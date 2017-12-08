@@ -4,19 +4,18 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
-import HighlightedText from "./components/HighlightedText";
+import HighlightedTextContainer from "./components/HighlightedTextContainer";
 import store from "./store";
 import sampleData from "./data/sample-section-data.json";
 
 const sectionData = sampleData;
-console.log(sectionData);
 
 const App = props => (
   <Provider store={store}>
     <div className="app">
       <Narrative narrative={props.narrative} />
       <MasterVideo videoUrl={props.videoUrl} />
-      <HighlightedText
+      <HighlightedTextContainer
         singingStyle={props.singingStyle}
         phrases={props.phrases}
         currentPhraseID="I/1"

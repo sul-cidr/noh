@@ -16,12 +16,12 @@ exports[`<HighlightedText> renders as expected 1`] = `
   >
     <Line
       active={true}
-      key="1"
+      key="I/1"
       text="translation line 1"
     />
     <Line
       active={false}
-      key="2"
+      key="I/2"
       text="translation line 2"
     />
   </div>
@@ -30,12 +30,12 @@ exports[`<HighlightedText> renders as expected 1`] = `
   >
     <Line
       active={true}
-      key="1"
+      key="I/1"
       text="transcription line 1"
     />
     <Line
       active={false}
-      key="2"
+      key="I/2"
       text="transcription line 2"
     />
   </div>

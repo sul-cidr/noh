@@ -6,14 +6,14 @@ describe("<HighlightedText>", () => {
   it("renders as expected", () => {
     const phrases = [
       {
-        phraseID: 1,
+        phraseID: "I/1",
         startTime: 0,
         endTime: 200,
         transcription: "transcription line 1",
         translation: "translation line 1"
       },
       {
-        phraseID: 2,
+        phraseID: "I/2",
         startTime: 201,
         endTime: 410,
         transcription: "transcription line 2",
@@ -24,7 +24,7 @@ describe("<HighlightedText>", () => {
       <HighlightedText
         singingStyle="spoken"
         phrases={phrases}
-        currentPhraseID={1}
+        currentPhraseID="I/1"
       />
     );
     expect(component).toMatchSnapshot();
