@@ -3,6 +3,7 @@
 exports[`<MasterVideo> renders as expected 1`] = `
 <MasterVideo
   currentTime={0}
+  startTime={0}
   videoUrl=""
 >
   <div>
@@ -22,6 +23,9 @@ exports[`<MasterVideo> renders as expected 1`] = `
     <h3>
       0
     </h3>
+    <span>
+      0
+    </span>
   </div>
 </MasterVideo>
 `;

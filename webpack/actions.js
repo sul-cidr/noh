@@ -1,3 +1,4 @@
-export const SET_CURRENT_TIME = 'SET_CURRENT_TIME';
-export const SET_HEADER_TEXT = 'SET_HEADER_TEXT';
-export const SET_IS_PLAYING = 'SET_IS_PLAYING';
+export const SET_CURRENT_TIME = "SET_CURRENT_TIME";
+export const SET_HEADER_TEXT = "SET_HEADER_TEXT";
+export const SET_IS_PLAYING = "SET_IS_PLAYING";
+export const SET_START_TIME = "SET_START_TIME";

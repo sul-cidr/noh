@@ -6,3 +6,17 @@ Object {
   "type": "SET_CURRENT_TIME",
 }
 `;
+
+exports[`setIsPlaying creates the correct payload 1`] = `
+Object {
+  "payload": true,
+  "type": "SET_IS_PLAYING",
+}
+`;
+
+exports[`setStartTime creates the correct payload 1`] = `
+Object {
+  "payload": 30,
+  "type": "SET_START_TIME",
+}
+`;

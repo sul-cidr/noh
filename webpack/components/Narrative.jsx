@@ -1,9 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import TabbedNarrative from "./TabbedNarrative";
 import NonTabbedNarrative from "./NonTabbedNarrative";
+import { setStartTime } from "../actionCreators";
+import utils from "../utils";
 
-class Narrative extends React.Component {
+class Narrative extends Component {
   constructor(props) {
     super(props);
 
@@ -11,6 +14,8 @@ class Narrative extends React.Component {
       narrative: props.narrative,
       tabbed: this.checkIfTabbed()
     };
+
+    this.narrativeOnClick = this.narrativeOnClick.bind(this);
   }
 
   componentWillMount() {
@@ -25,6 +30,12 @@ class Narrative extends React.Component {
     return false;
   }
 
+  narrativeOnClick(event) {
+    if (event.target.tagName === "TIME") {
+      this.props.updateStartTime(utils.getTime(event.target));
+    }
+  }
+
   render() {
     let narrative = null;
     if (this.state.tabbed) {
@@ -32,16 +43,32 @@ class Narrative extends React.Component {
     } else {
       narrative = <NonTabbedNarrative narrative={this.state.narrative} />;
     }
-    return <div className="narrative">{narrative}</div>;
+    return (
+      <div
+        onClick={event => this.narrativeOnClick(event)}
+        role="presentation"
+        onKeyPress={null}
+        className="narrative"
+      >
+        {narrative}
+      </div>
+    );
   }
 }
 
 Narrative.propTypes = {
-  narrative: PropTypes.string
+  narrative: PropTypes.string,
+  updateStartTime: PropTypes.func
 };
 
 Narrative.defaultProps = {
-  narrative: ""
+  narrative: "",
+  updateStartTime: null
 };
 
-export default Narrative;
+const mapDispatchToProps = dispatch => ({
+  updateStartTime: time => dispatch(setStartTime(time))
+});
+
+export const Unwrapped = Narrative;
+export default connect(null, mapDispatchToProps)(Narrative);

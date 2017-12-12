@@ -1,8 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Narrative> renders as expected with tabs 1`] = `
+exports[`<UnwrappedNarrative> renders as expected with tabs 1`] = `
 <div
   className="narrative"
+  onClick={[Function]}
+  onKeyPress={null}
+  role="presentation"
 >
   <TabbedNarrative
     narrative="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br><div title='section two'><p>Different stuff</p></div>"
@@ -10,12 +13,15 @@ exports[`<Narrative> renders as expected with tabs 1`] = `
 </div>
 `;
 
-exports[`<Narrative> renders as expected without tabs 1`] = `
+exports[`<UnwrappedNarrative> renders as expected without tabs 1`] = `
 <div
   className="narrative"
+  onClick={[Function]}
+  onKeyPress={null}
+  role="presentation"
 >
   <NonTabbedNarrative
-    narrative="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    narrative="Lorem ipsum dolor sit <time datetime='00:00:50'>amet</time>, <a datetime='00:00:50'>consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   />
 </div>
 `;
