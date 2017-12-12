@@ -2,17 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import HighlightedText from "./HighlightedText";
-import store from "../store";
 import { setCurrentPhraseID } from "../actionCreators";
-
-function setCurrentPhrase(idString) {
-  store.dispatch(setCurrentPhraseID(idString));
-}
 
 class HighlightedTextContainer extends React.Component {
   componentWillReceiveProps() {
     const currentPhraseID = this.determineCurrentPhrase();
-    setCurrentPhrase(currentPhraseID);
+    this.props.setCurrentPhrase(currentPhraseID);
   }
 
   determineCurrentPhrase() {
@@ -55,7 +50,8 @@ HighlightedTextContainer.propTypes = {
       transcription: PropTypes.string,
       translation: PropTypes.string
     })
-  ).isRequired
+  ).isRequired,
+  setCurrentPhrase: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({
@@ -63,5 +59,13 @@ const mapStateToProps = state => ({
   currentPhraseID: state.currentPhraseID
 });
 
+const mapDispatchToProps = dispatch => ({
+  setCurrentPhrase: idString => {
+    dispatch(setCurrentPhraseID(idString));
+  }
+});
+
 export const Unwrapped = HighlightedTextContainer;
-export default connect(mapStateToProps)(HighlightedTextContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(
+  HighlightedTextContainer
+);
