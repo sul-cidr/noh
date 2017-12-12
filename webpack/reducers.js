@@ -1,8 +1,9 @@
-import { SET_CURRENT_TIME, SET_IS_PLAYING } from './actions';
+import { SET_CURRENT_TIME, SET_IS_PLAYING, SET_START_TIME } from "./actions";
 
 const DEFAULT_STATE = {
   currentTime: 0,
-  isPlaying: false
+  isPlaying: false,
+  startTime: 0
 };
 
 const setCurrentTime = (state, action) =>
@@ -11,12 +12,17 @@ const setCurrentTime = (state, action) =>
 const setIsPlaying = (state, action) =>
   Object.assign({}, state, { isPlaying: action.payload });
 
+const setStartTime = (state, action) =>
+  Object.assign({}, state, { startTime: action.payload });
+
 const rootReducer = (state = DEFAULT_STATE, action) => {
   switch (action.type) {
     case SET_CURRENT_TIME:
       return setCurrentTime(state, action);
     case SET_IS_PLAYING:
       return setIsPlaying(state, action);
+    case SET_START_TIME:
+      return setStartTime(state, action);
     default:
       return state;
   }

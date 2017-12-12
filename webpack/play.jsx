@@ -13,7 +13,7 @@ const App = props => (
   <Provider store={store}>
     <div className="app">
       <Narrative narrative={props.narrative} />
-      <MasterVideo videoUrl={props.videoUrl} />
+      <MasterVideo videoUrl={props.videoUrl} startTime={props.startTime} />
       <Dance />
       <TimelineIndicator
         currentTime={props.currentTime}
@@ -29,11 +29,13 @@ App.propTypes = {
   videoUrl: PropTypes.string.isRequired,
   videoDuration: PropTypes.number.isRequired,
   currentTime: PropTypes.number,
+  startTime: PropTypes.number,
   isPlaying: PropTypes.bool
 };
 
 App.defaultProps = {
   currentTime: 0.0,
+  startTime: 0.0,
   isPlaying: false
 };
 
