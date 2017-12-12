@@ -179,11 +179,6 @@
   padding: $spacing-unit 0;
   height: -webkit-calc(100% - (#{$spacing-unit} / 2));
   height:         calc(100% - (#{$spacing-unit} / 2));
-
-  time {
-    text-decoration: underline;
-    cursor: pointer;
-  }
 }
 
 .page-heading {
