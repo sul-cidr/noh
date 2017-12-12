@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HighlightedTextContainer> renders as expected unconnected to redux 1`] = `
+exports[`<UnwrappedHighlightedTextContainer> renders as expected unconnected to redux 1`] = `
 <div>
   <p>
     Current phraseID: 

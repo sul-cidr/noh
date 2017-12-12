@@ -1,6 +1,9 @@
 import React from "react";
-import { shallow } from "enzyme";
-import { Unwrapped as HighlightedTextContainer } from "../components/HighlightedTextContainer";
+import { shallow, mount } from "enzyme";
+import configureMockStore from "redux-mock-store";
+import HighlightedTextContainer, {
+  Unwrapped as UnwrappedHighlightedTextContainer
+} from "../components/HighlightedTextContainer";
 
 const phrases = [
   {
@@ -19,16 +22,47 @@ const phrases = [
   }
 ];
 
-describe("<HighlightedTextContainer>", () => {
+describe("<UnwrappedHighlightedTextContainer>", () => {
   it("renders as expected unconnected to redux", () => {
+    const setCurrentPhrase = jest.fn();
     const component = shallow(
-      <HighlightedTextContainer
+      <UnwrappedHighlightedTextContainer
         currentTime={13}
         singingStyle="spoken"
         phrases={phrases}
         currentPhraseID="I/1"
+        setCurrentPhrase={setCurrentPhrase}
       />
     );
     expect(component).toMatchSnapshot();
+  });
+  it("correctly determines current phrase id", () => {
+    const setCurrentPhrase = jest.fn();
+    const component = shallow(
+      <UnwrappedHighlightedTextContainer
+        currentTime={13}
+        singingStyle="spoken"
+        phrases={phrases}
+        currentPhraseID="I/1"
+        setCurrentPhrase={setCurrentPhrase}
+      />
+    );
+    const calculatedPhraseID = component.instance().determineCurrentPhrase();
+    expect(calculatedPhraseID).toBe("I/2");
+  });
+});
+
+describe("HighlightedTextContainer", () => {
+  it("dispatches the correct action on componentWillReceiveProps", () => {
+    const initialState = { currentTime: 13, currentPhraseID: "" };
+    const mockStore = configureMockStore();
+    const store = mockStore(initialState);
+    const wrapper = mount(
+      <HighlightedTextContainer singingStyle="spoken" phrases={phrases} />,
+      { context: { store } }
+    );
+    wrapper.setProps({ currentTime: 16 });
+    const action = { type: "SET_CURRENT_PHRASE_ID", payload: "I/2" };
+    expect(store.getActions()[0]).toEqual(action);
   });
 });
