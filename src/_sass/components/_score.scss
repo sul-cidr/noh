@@ -1,0 +1,93 @@
+$score-label-width: 8rem;
+$score-cell-width: 3rem;
+$score-channel-height: 1.5rem;
+$score-channel-large-height: 2.5rem;
+
+$grid-columns: 16;
+
+@mixin grid-column($n) {
+  .measure__grid-cell--#{$n} {
+    width: 100% / $grid-columns * $n;
+  }
+}
+
+@for $i from 1 through $grid-columns {
+  @include grid-column($i);
+}
+
+.score {}
+.measure {
+  @include flex-container($justify: flex-start, $align: flex-start);
+}
+
+.measure__channel {
+  border-bottom: $tl-separator;
+  height: $score-channel-height;
+
+  @include flex-container($justify: flex-start);
+}
+
+.measure__channel--large {
+  height: $score-channel-large-height;
+}
+
+.measure__label-container {
+  border-right: $tl-separator;
+  flex-basis: $score-label-width;
+  flex-shrink: 0;
+
+  .measure__channel {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+  }
+}
+
+.measure__grid-container {
+  flex-grow: 1;
+
+  .measure__channel {
+    font-size: 0.75rem;
+  }
+}
+
+.measure__grid-cell {
+  border-right: $tl-separator;
+  height: $score-channel-height;
+  min-width: $score-cell-width;
+  padding: 0 0.25rem;
+
+  @include flex-container($justify: flex-start);
+}
+
+.measure__channel--large {
+  .measure__grid-cell {
+    height: $score-channel-large-height;
+  }
+}
+
+.measure__channel--beat {}
+.measure__channel--text {}
+.measure__channel--percussion {}
+.measure__channel--vocal {}
+.measure__channel--nohkan {}
+.measure__channel--dance {}
+
+.measure--current {}
+
+.measure--next,
+.measure--prev {
+  background-color: $grey-3;
+  color: $black;
+
+  .measure__label-container {
+    font-size: 0.625rem;
+    font-weight: 700;
+    height: $score-channel-height * 5 + $score-channel-large-height;
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+
+    @include flex-container($justify: center);
+  }
+}
