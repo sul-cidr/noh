@@ -1,9 +1,15 @@
-import { SET_CURRENT_TIME, SET_IS_PLAYING, SET_START_TIME } from "./actions";
+import {
+  SET_CURRENT_TIME,
+  SET_IS_PLAYING,
+  SET_START_TIME,
+  SET_CURRENT_PHRASE_ID
+} from "./actions";
 
 const DEFAULT_STATE = {
   currentTime: 0,
   isPlaying: false,
-  startTime: 0
+  startTime: 0,
+  currentPhraseID: "I/1"
 };
 
 const setCurrentTime = (state, action) =>
@@ -15,6 +21,9 @@ const setIsPlaying = (state, action) =>
 const setStartTime = (state, action) =>
   Object.assign({}, state, { startTime: action.payload });
 
+const setCurrentPhraseID = (state, action) =>
+  Object.assign({}, state, { currentPhraseID: action.payload });
+
 const rootReducer = (state = DEFAULT_STATE, action) => {
   switch (action.type) {
     case SET_CURRENT_TIME:
@@ -23,6 +32,9 @@ const rootReducer = (state = DEFAULT_STATE, action) => {
       return setIsPlaying(state, action);
     case SET_START_TIME:
       return setStartTime(state, action);
+    case SET_CURRENT_PHRASE_ID:
+      return setCurrentPhraseID(state, action);
+
     default:
       return state;
   }

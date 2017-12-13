@@ -1,6 +1,6 @@
 import reducers from "../reducers";
 
-test("it sets currenTime", () => {
+test("it sets currentTime correctly", () => {
   const state = reducers(
     { currentTime: 0 },
     { type: "SET_CURRENT_TIME", payload: 3 }
@@ -30,4 +30,16 @@ test("it sets startTime", () => {
     { type: "SET_START_TIME", payload: 3 }
   );
   expect(state).toEqual({ startTime: 3 });
+});
+
+test("it sets currentPhraseID correctly", () => {
+  const state = reducers(
+    { currentTime: 2, isPlaying: true, currentPhraseID: "I/1" },
+    { type: "SET_CURRENT_PHRASE_ID", payload: "II/1" }
+  );
+  expect(state).toEqual({
+    currentTime: 2,
+    isPlaying: true,
+    currentPhraseID: "II/1"
+  });
 });

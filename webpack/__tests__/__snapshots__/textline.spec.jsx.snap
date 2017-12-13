@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextLine> renders as expected with active class 1`] = `
+<p
+  className="active"
+>
+  sample string
+</p>
+`;
+
+exports[`<TextLine> renders as expected without active class 1`] = `
+<p
+  className=""
+>
+  sample string
+</p>
+`;
