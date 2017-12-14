@@ -5,7 +5,7 @@ module.exports = {
     playerFirst: "./webpack/playerFirst.jsx",
     playerSecond: "./webpack/playerSecond.jsx",
     play: "./webpack/play.jsx",
-    score: "./webpack/score.jsx"
+    section: "./webpack/section.jsx"
   },
   output: {
     path: path.resolve(__dirname, "src/assets/"),
