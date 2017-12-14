@@ -6,9 +6,7 @@ import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
 import HighlightedTextContainer from "./components/HighlightedTextContainer";
 import store from "./store";
-import sampleData from "./data/sample-section-data.json";
-
-const sectionData = sampleData;
+import contents from "./contents";
 
 const App = props => (
   <Provider store={store}>
@@ -39,4 +37,9 @@ App.propTypes = {
   ).isRequired
 };
 
-render(<App {...sectionData} />, document.getElementById("section"));
+const playName = window.location.pathname.trim().split("/")[1];
+const sectionName = window.location.pathname.trim().split("/")[2];
+
+contents.section(playName, sectionName, props => {
+  render(<App {...props} />, document.getElementById("section"));
+});
