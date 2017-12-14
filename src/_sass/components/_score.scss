@@ -1,4 +1,4 @@
-$score-label-width: 8rem;
+$score-label-width: 9rem;
 $score-cell-width: 3rem;
 $score-channel-height: 1.5rem;
 $score-channel-large-height: 2.5rem;
@@ -37,8 +37,8 @@ $grid-columns: 16;
   flex-shrink: 0;
 
   .measure__channel {
-    font-size: 0.75rem;
-    font-weight: 700;
+    font-size: $fs-sans-2xs;
+    font-weight: $fw-bold;
     padding: 0 0.5rem;
     text-transform: uppercase;
   }
@@ -48,7 +48,7 @@ $grid-columns: 16;
   flex-grow: 1;
 
   .measure__channel {
-    font-size: 0.75rem;
+    font-size: $fs-sans-sm;
   }
 }
 
@@ -67,27 +67,40 @@ $grid-columns: 16;
   }
 }
 
-.measure__channel--beat {}
-.measure__channel--text {}
-.measure__channel--percussion {}
-.measure__channel--vocal {}
-.measure__channel--nohkan {}
-.measure__channel--dance {}
+.measure__cell--beat {
+  font-size: $fs-sans-lg;
+  font-weight: $fw-bold;
+  justify-content: center;
+}
 
-.measure--current {}
+.measure__cell--text {
+  justify-content: center;
+}
 
+.measure__cell--percussion { background-color: $color-channel-percussion; }
+.measure__cell--nohkan     { background-color: $color-channel-nohkan; }
+.measure__cell--dance      { background-color: $color-channel-dance; }
+
+
+.measure__cell--range-low { border-bottom: 0.375rem solid rgba($orange, 0.25); }
+.measure__cell--range-medium { border-bottom: 0.375rem solid rgba($orange, 0.5); }
+.measure__cell--range-high { border-bottom: 0.375rem solid rgba($orange, 0.75); }
 .measure--next,
 .measure--prev {
-  background-color: $grey-3;
+  background-color: $grey-lightest;
   color: $black;
 
   .measure__label-container {
-    font-size: 0.625rem;
-    font-weight: 700;
+    font-size: $fs-sans-2xs;
+    font-weight: $fw-bold;
     height: $score-channel-height * 5 + $score-channel-large-height;
     padding: 0 0.5rem;
     text-transform: uppercase;
 
     @include flex-container($justify: center);
   }
+    .measure__cell--percussion { background-color: $color-channel-percussion-alt; }
+    .measure__cell--vocal      { background-color: $color-channel-vocal-alt; }
+    .measure__cell--nohkan     { background-color: $color-channel-nohkan-alt; }
+    .measure__cell--dance      { background-color: $color-channel-dance-alt; }
 }

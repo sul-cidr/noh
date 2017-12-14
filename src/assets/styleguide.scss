@@ -5,6 +5,7 @@
 @import "commons/variables";
 @import "commons/reset";
 @import "commons/mixins";
+@import "commons/helpers";
 @import "layouts/video-player";
 @import "components/narrative";
 @import "components/intermedia-table";
@@ -14,3 +15,6 @@
 @import "components/timeline-marks";
 @import "components/timeline-shodan";
 @import "components/score";
+
+@import "components/styleguide-colors";
+@import "components/styleguide-typography";

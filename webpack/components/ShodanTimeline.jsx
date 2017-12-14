@@ -3,7 +3,7 @@ import React from "react";
 // the shodan in here need to be abstracted into a reusable component
 const ShodanTimeline = () => (
   <div className="shodan-map">
-  {" "}
+    {" "}
     <div
       className="shodan-map__item"
       style={{ left: "0%", width: "3%", height: "10%" }}
