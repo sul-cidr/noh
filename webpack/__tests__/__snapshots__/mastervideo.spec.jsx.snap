@@ -4,6 +4,9 @@ exports[`<MasterVideo> renders as expected 1`] = `
 <MasterVideo
   currentTime={0}
   startTime={0}
+  updateCurrentTime={[Function]}
+  updateIsNotPlaying={[Function]}
+  updateIsPlaying={[Function]}
   videoUrl=""
 >
   <div>
