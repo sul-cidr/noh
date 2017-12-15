@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import TabbedNarrative from "./TabbedNarrative";
 import NonTabbedNarrative from "./NonTabbedNarrative";
 import { setStartTime } from "../actionCreators";
-import utils from "../utils";
+import { getTime } from "../utils";
 
 class Narrative extends Component {
   constructor(props) {
@@ -32,7 +32,7 @@ class Narrative extends Component {
 
   narrativeOnClick(event) {
     if (event.target.tagName === "TIME") {
-      this.props.updateStartTime(utils.getTime(event.target));
+      this.props.updateStartTime(getTime(event.target));
     }
   }
 

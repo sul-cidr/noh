@@ -1,4 +1,4 @@
-function getTime(element) {
+export function getTime(element) {
   const timeString = element.getAttribute("datetime");
   const [hhmmss, millis] = timeString.trim().split(".");
   const timeFormat = `01/01/1970 ${hhmmss} GMT`;
@@ -6,4 +6,9 @@ function getTime(element) {
   return time / 1e3 || 0.0;
 }
 
-export default { getTime };
+// Converts time from hh:mm:ss to seconds
+export function convertTimeToSeconds(hhmmss) {
+  const timeFormat = `01/01/1970 ${hhmmss} GMT`;
+  const time = Date.parse(timeFormat);
+  return time / 1e3 || 0.0;
+}
