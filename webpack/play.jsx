@@ -13,6 +13,7 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import contents from "./contents";
 import store from "./store";
+import { convertTimeToSeconds } from "./utils";
 
 const App = props => (
   <Provider store={store}>
@@ -36,12 +37,13 @@ const App = props => (
               <div className="shodan-map__container">
                 <TimelineIndicator
                   currentTime={props.currentTime}
-                  duration={props.videoDuration}
+                  duration={convertTimeToSeconds(props.videoDuration)}
                   playing={props.isPlaying}
                 />
                 <ShodanTimeline
                   sections={props.sections}
                   maxIntensity={props.maxIntensity}
+                  totalDuration={convertTimeToSeconds(props.videoDuration)}
                 />
               </div>
             </div>
@@ -57,7 +59,7 @@ App.propTypes = {
   title: PropTypes.string,
   narrative: PropTypes.string.isRequired,
   videoUrl: PropTypes.string.isRequired,
-  videoDuration: PropTypes.number.isRequired,
+  videoDuration: PropTypes.string.isRequired,
   currentTime: PropTypes.number,
   startTime: PropTypes.number,
   isPlaying: PropTypes.bool,

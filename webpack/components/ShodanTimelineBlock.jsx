@@ -6,13 +6,14 @@ import PropTypes from "prop-types";
 const ShodanTimelineBlock = props => {
   // should actually check to be sure that intensity is not greater than max
   const heightNum = props.intensity / props.maxIntensity * 100;
+  const durationNum = props.duration / props.totalDuration * 100;
   return (
     <div
       className="shodan-map__item"
       style={{
         left: props.left,
-        width: props.width,
-        height: `${String(heightNum)}%`
+        width: `${durationNum}%`,
+        height: `${heightNum}%`
       }}
       data-tooltip={props.name}
     />
@@ -21,10 +22,11 @@ const ShodanTimelineBlock = props => {
 
 ShodanTimelineBlock.propTypes = {
   left: PropTypes.string.isRequired,
-  width: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   maxIntensity: PropTypes.number.isRequired,
-  intensity: PropTypes.number.isRequired
+  intensity: PropTypes.number.isRequired,
+  duration: PropTypes.number.isRequired,
+  totalDuration: PropTypes.number.isRequired
 };
 
 export default ShodanTimelineBlock;

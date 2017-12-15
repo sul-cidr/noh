@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ShodanTimelineBlock from "./ShodanTimelineBlock";
+import { convertTimeToSeconds } from "../utils";
 
 // Rather than passing in style info from props
 // should calculate in subcomponent from passed in duration
@@ -16,6 +17,8 @@ const ShodanTimeline = props => {
       height={section.height}
       maxIntensity={props.maxIntensity}
       intensity={section.intensity}
+      duration={convertTimeToSeconds(section.duration)}
+      totalDuration={props.totalDuration}
     />
   ));
   return <div className="shodan-map"> {sectionBlocks}</div>;
@@ -30,7 +33,8 @@ ShodanTimeline.propTypes = {
       height: PropTypes.string
     })
   ).isRequired,
-  maxIntensity: PropTypes.number.isRequired
+  maxIntensity: PropTypes.number.isRequired,
+  totalDuration: PropTypes.number.isRequired
 };
 
 export default ShodanTimeline;

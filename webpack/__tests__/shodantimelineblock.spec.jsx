@@ -11,6 +11,8 @@ describe("<ShodanTimelineBlock>", () => {
         width="10%"
         intensity={15}
         maxIntensity={21}
+        duration={10}
+        totalDuration={30}
       />
     );
     expect(component).toMatchSnapshot();

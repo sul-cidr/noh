@@ -7,21 +7,23 @@ describe("<ShodanTimeline>", () => {
     {
       name: "Noriji",
       left: "82%",
-      width: "2%",
-      height: "100%",
-      intensity: 17
+      intensity: 17,
+      duration: "00:05:00"
     },
     {
       name: "Maibataraki",
       left: "84%",
-      width: "6%",
-      height: "70%",
-      intensity: 12
+      intensity: 12,
+      duration: "00:16:45"
     }
   ];
   it("renders as expected", () => {
     const component = shallow(
-      <ShodanTimeline sections={sections} maxIntensity={21} />
+      <ShodanTimeline
+        sections={sections}
+        maxIntensity={21}
+        totalDuration={2700}
+      />
     );
     expect(component).toMatchSnapshot();
   });
