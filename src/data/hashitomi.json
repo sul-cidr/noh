@@ -3,5 +3,127 @@
   "narrative": "/hashitomi.html",
   "videoUrl":
     "https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1",
-  "videoDuration": 104
+  "videoDuration": 104,
+  "sections": [
+    {
+      "name": "Nanori",
+      "left": "0%",
+      "width": "3%",
+      "height": "10%"
+    },
+    {
+      "name": "Mondo",
+      "left": "3%",
+      "width": "7%",
+      "height": "15%"
+    },
+    {
+      "name": "Ageuta",
+      "left": "10%",
+      "width": "7%",
+      "height": "80%"
+    },
+    {
+      "name": "Ashirai",
+      "left": "17%",
+      "width": "2%",
+      "height": "10%"
+    },
+    {
+      "name": "Yobikake",
+      "left": "19%",
+      "width": "2%",
+      "height": "10%"
+    },
+    {
+      "name": "Yobikake",
+      "left": "21%",
+      "width": "5%",
+      "height": "15%"
+    },
+    {
+      "name": "Mondo",
+      "left": "26%",
+      "width": "7%",
+      "height": "75%"
+    },
+    {
+      "name": "Ageuta",
+      "left": "33%",
+      "width": "2%",
+      "height": "40%"
+    },
+    {
+      "name": "Kuri",
+      "left": "35%",
+      "width": "3%",
+      "height": "45%"
+    },
+    {
+      "name": "Sashi",
+      "left": "38%",
+      "width": "22%",
+      "height": "85%"
+    },
+    {
+      "name": "Iguse",
+      "left": "60%",
+      "width": "2%",
+      "height": "15%"
+    },
+    {
+      "name": "Mondo",
+      "left": "62%",
+      "width": "4%",
+      "height": "75%"
+    },
+    {
+      "name": "Ageuta",
+      "left": "66%",
+      "width": "7%",
+      "height": "55%"
+    },
+    {
+      "name": "Notto",
+      "left": "73%",
+      "width": "5%",
+      "height": "70%"
+    },
+    {
+      "name": "Noriji",
+      "left": "78%",
+      "width": "3%",
+      "height": "100%"
+    },
+    {
+      "name": "Hayafue",
+      "left": "81%",
+      "width": "1%",
+      "height": "90%"
+    },
+    {
+      "name": "Noriji",
+      "left": "82%",
+      "width": "2%",
+      "height": "100%"
+    },
+    {
+      "name": "Maibataraki",
+      "left": "84%",
+      "width": "6%",
+      "height": "70%"
+    },
+    {
+      "name": "Noriji",
+      "left": "90%",
+      "width": "1%",
+      "height": "35%"
+    },
+    {
+      "name": "Kiri",
+      "left": "91%",
+      "width": "9%",
+      "height": "95%"
+    }
+  ]
 }

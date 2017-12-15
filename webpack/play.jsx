@@ -39,7 +39,7 @@ const App = props => (
                   duration={props.videoDuration}
                   playing={props.isPlaying}
                 />
-                <ShodanTimeline />
+                <ShodanTimeline sections={props.sections} />
               </div>
             </div>
             <IntermediaTable />
@@ -57,7 +57,15 @@ App.propTypes = {
   videoDuration: PropTypes.number.isRequired,
   currentTime: PropTypes.number,
   startTime: PropTypes.number,
-  isPlaying: PropTypes.bool
+  isPlaying: PropTypes.bool,
+  sections: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      left: PropTypes.string,
+      width: PropTypes.string,
+      height: PropTypes.string
+    })
+  ).isRequired
 };
 
 App.defaultProps = {
