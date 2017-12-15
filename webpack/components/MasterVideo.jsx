@@ -3,19 +3,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime, setIsPlaying } from "../actionCreators";
-import store from "../store";
-
-function updateCurrentTime(event) {
-  store.dispatch(setCurrentTime(event.target.currentTime));
-}
-
-function updateIsPlaying() {
-  store.dispatch(setIsPlaying(true));
-}
-
-function updateIsNotPlaying() {
-  store.dispatch(setIsPlaying(false));
-}
 
 class MasterVideo extends Component {
   constructor(props) {
@@ -46,14 +33,14 @@ class MasterVideo extends Component {
             this.video = video;
           }}
           controls
-          onTimeUpdate={event => updateCurrentTime(event)}
-          onPlaying={updateIsPlaying}
-          onEnded={updateIsNotPlaying}
-          onPlay={updateIsNotPlaying}
-          onPause={updateIsNotPlaying}
-          onStalled={updateIsNotPlaying}
-          onSeeking={updateIsNotPlaying}
-          onWaiting={updateIsNotPlaying}
+          onTimeUpdate={event => this.props.updateCurrentTime(event)}
+          onPlaying={this.props.updateIsPlaying}
+          onEnded={this.props.updateIsNotPlaying}
+          onPlay={this.props.updateIsNotPlaying}
+          onPause={this.props.updateIsNotPlaying}
+          onStalled={this.props.updateIsNotPlaying}
+          onSeeking={this.props.updateIsNotPlaying}
+          onWaiting={this.props.updateIsNotPlaying}
         />
         <h3>{this.props.currentTime}</h3>
         <span>{this.props.startTime}</span>
@@ -64,13 +51,19 @@ class MasterVideo extends Component {
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
   videoUrl: PropTypes.string,
-  startTime: PropTypes.number
+  startTime: PropTypes.number,
+  updateCurrentTime: PropTypes.func,
+  updateIsPlaying: PropTypes.func,
+  updateIsNotPlaying: PropTypes.func
 };
 
 MasterVideo.defaultProps = {
   currentTime: 0,
   videoUrl: "",
-  startTime: 0
+  startTime: 0,
+  updateCurrentTime: () => {},
+  updateIsPlaying: () => {},
+  updateIsNotPlaying: () => {}
 };
 
 const mapStateToProps = state => ({
@@ -79,5 +72,18 @@ const mapStateToProps = state => ({
   startTime: state.startTime
 });
 
+// The last two functions should be refactored
+const mapDispatchToProps = dispatch => ({
+  updateCurrentTime: event => {
+    dispatch(setCurrentTime(event.target.currentTime));
+  },
+  updateIsPlaying: () => {
+    dispatch(setIsPlaying(true));
+  },
+  updateIsNotPlaying: () => {
+    dispatch(setIsPlaying(false));
+  }
+});
+
 export const Unwrapped = MasterVideo;
-export default connect(mapStateToProps)(MasterVideo);
+export default connect(mapStateToProps, mapDispatchToProps)(MasterVideo);
