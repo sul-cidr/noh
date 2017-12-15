@@ -7,15 +7,19 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
    
   <ShodanTimelineBlock
     height="100%"
+    intensity={17}
     key="Noriji"
     left="82%"
+    maxIntensity={21}
     name="Noriji"
     width="2%"
   />
   <ShodanTimelineBlock
     height="70%"
+    intensity={12}
     key="Maibataraki"
     left="84%"
+    maxIntensity={21}
     name="Maibataraki"
     width="6%"
   />

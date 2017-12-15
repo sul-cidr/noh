@@ -4,126 +4,147 @@
   "videoUrl":
     "https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1",
   "videoDuration": 104,
+  "maxIntensity": 21,
   "sections": [
     {
       "name": "Nanori",
       "left": "0%",
       "width": "3%",
-      "height": "10%"
+      "height": "10%",
+      "intensity": 5
     },
     {
       "name": "Mondo",
       "left": "3%",
       "width": "7%",
-      "height": "15%"
+      "height": "15%",
+      "intensity": 2
     },
     {
       "name": "Ageuta",
       "left": "10%",
       "width": "7%",
-      "height": "80%"
+      "height": "80%",
+      "intensity": 7
     },
     {
       "name": "Ashirai",
       "left": "17%",
       "width": "2%",
-      "height": "10%"
+      "height": "10%",
+      "intensity": 12
     },
     {
       "name": "Yobikake",
       "left": "19%",
       "width": "2%",
-      "height": "10%"
+      "height": "10%",
+      "intensity": 8
     },
     {
-      "name": "Yobikake",
+      "name": "Yobikake2",
       "left": "21%",
       "width": "5%",
-      "height": "15%"
+      "height": "15%",
+      "intensity": 15
     },
     {
-      "name": "Mondo",
+      "name": "Mondo2",
       "left": "26%",
       "width": "7%",
-      "height": "75%"
+      "height": "75%",
+      "intensity": 18
     },
     {
-      "name": "Ageuta",
+      "name": "Ageuta2",
       "left": "33%",
       "width": "2%",
-      "height": "40%"
+      "height": "40%",
+      "intensity": 21
     },
     {
       "name": "Kuri",
       "left": "35%",
       "width": "3%",
-      "height": "45%"
+      "height": "45%",
+      "intensity": 5
     },
     {
       "name": "Sashi",
       "left": "38%",
       "width": "22%",
-      "height": "85%"
+      "height": "85%",
+      "intensity": 9
     },
     {
       "name": "Iguse",
       "left": "60%",
       "width": "2%",
-      "height": "15%"
+      "height": "15%",
+      "intensity": 10
     },
     {
-      "name": "Mondo",
+      "name": "Mondo3",
       "left": "62%",
       "width": "4%",
-      "height": "75%"
+      "height": "75%",
+      "intensity": 12
     },
     {
-      "name": "Ageuta",
+      "name": "Ageuta3",
       "left": "66%",
       "width": "7%",
-      "height": "55%"
+      "height": "55%",
+      "intensity": 14
     },
     {
       "name": "Notto",
       "left": "73%",
       "width": "5%",
-      "height": "70%"
+      "height": "70%",
+      "intensity": 18
     },
     {
-      "name": "Noriji",
+      "name": "Noriji2",
       "left": "78%",
       "width": "3%",
-      "height": "100%"
+      "height": "100%",
+      "intensity": 20
     },
     {
       "name": "Hayafue",
       "left": "81%",
       "width": "1%",
-      "height": "90%"
+      "height": "90%",
+      "intensity": 21
     },
     {
       "name": "Noriji",
       "left": "82%",
       "width": "2%",
-      "height": "100%"
+      "height": "100%",
+      "intensity": 18
     },
     {
       "name": "Maibataraki",
       "left": "84%",
       "width": "6%",
-      "height": "70%"
+      "height": "70%",
+      "intensity": 17
     },
     {
-      "name": "Noriji",
+      "name": "Noriji3",
       "left": "90%",
       "width": "1%",
-      "height": "35%"
+      "height": "35%",
+      "intensity": 6
     },
     {
       "name": "Kiri",
       "left": "91%",
       "width": "9%",
-      "height": "95%"
+      "height": "95%",
+      "intensity": 21
     }
   ]
 }

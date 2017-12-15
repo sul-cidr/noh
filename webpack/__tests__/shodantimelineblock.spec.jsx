@@ -5,7 +5,13 @@ import ShodanTimelineBlock from "../components/ShodanTimelineBlock";
 describe("<ShodanTimelineBlock>", () => {
   it("renders as expected", () => {
     const component = shallow(
-      <ShodanTimelineBlock name="Kiri" left="8%" width="10%" height="90%" />
+      <ShodanTimelineBlock
+        name="Kiri"
+        left="8%"
+        width="10%"
+        intensity={15}
+        maxIntensity={21}
+      />
     );
     expect(component).toMatchSnapshot();
   });

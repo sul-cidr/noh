@@ -39,7 +39,10 @@ const App = props => (
                   duration={props.videoDuration}
                   playing={props.isPlaying}
                 />
-                <ShodanTimeline sections={props.sections} />
+                <ShodanTimeline
+                  sections={props.sections}
+                  maxIntensity={props.maxIntensity}
+                />
               </div>
             </div>
             <IntermediaTable />
@@ -65,7 +68,8 @@ App.propTypes = {
       width: PropTypes.string,
       height: PropTypes.string
     })
-  ).isRequired
+  ).isRequired,
+  maxIntensity: PropTypes.number.isRequired
 };
 
 App.defaultProps = {

@@ -7,12 +7,15 @@ import ShodanTimelineBlock from "./ShodanTimelineBlock";
 // and intensity
 const ShodanTimeline = props => {
   const sectionBlocks = props.sections.map(section => (
+    // the key here has to change if name is not unique
     <ShodanTimelineBlock
       key={section.name}
       name={section.name}
       left={section.left}
       width={section.width}
       height={section.height}
+      maxIntensity={props.maxIntensity}
+      intensity={section.intensity}
     />
   ));
   return <div className="shodan-map"> {sectionBlocks}</div>;
@@ -26,7 +29,8 @@ ShodanTimeline.propTypes = {
       width: PropTypes.string,
       height: PropTypes.string
     })
-  ).isRequired
+  ).isRequired,
+  maxIntensity: PropTypes.number.isRequired
 };
 
 export default ShodanTimeline;
