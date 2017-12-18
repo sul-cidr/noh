@@ -1,40 +1,31 @@
 import React from "react";
 import PropTypes from "prop-types";
 import IntermediaTitle from "./IntermediaTitle";
+import IntermediaElement from "./IntermediaElement";
 
+// How do we handle when there isn't a value? Just empty?
 const IntermediaTable = props => (
-  // Should be refactored to generator automatically
   <div className="intermedia-table">
     <IntermediaTitle section={props.section} play={props.play} />
-
-    <div className="intermedia__element">
-      <div className="intermedia__label">Voices</div>
-      <div className="intermedia__value">Waki/Waki Tsure</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Type of voice</div>
-      <div className="intermedia__value">Sung - Non Congruent</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Text</div>
-      <div className="intermedia__value">Non congruent - Sashinori</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Percussion</div>
-      <div className="intermedia__value">Otsuzumi + Kotsuzumi + Taiko</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Type of percussion</div>
-      <div className="intermedia__value">Non Congruent</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Nohkan</div>
-      <div className="intermedia__value">Yes - Non congruent</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Dance</div>
-      <div className="intermedia__value">Yes - Dance to text</div>
-    </div>
+    <IntermediaElement fieldName="Voices" fieldValue="Waki/Waki Tsure" />
+    <IntermediaElement
+      fieldName="Type of voice"
+      fieldValue="Sung - Non Congruent"
+    />
+    <IntermediaElement
+      fieldName="Text"
+      fieldValue="Non congruent - Sashinori"
+    />
+    <IntermediaElement
+      fieldName="Percussion"
+      fieldValue="Otsuzumi + Kotsuzumi + Taiko"
+    />
+    <IntermediaElement
+      fieldName="Type of percussion"
+      fieldValue="Non Congruent"
+    />
+    <IntermediaElement fieldName="Nohkan" fieldValue="Yes - Non congruent" />
+    <IntermediaElement fieldName="Dance" fieldValue="Yes - Dance to text" />
   </div>
 );
 
