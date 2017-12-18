@@ -1,12 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<IntermediaTable> renders as expected 1`] = `
+exports[`<InterMediaTable> renders as expected while connected 1`] = `
+<IntermediaTable
+  currentTime={10}
+  dispatch={[Function]}
+  play="hashitomi"
+  sections={
+    Array [
+      Object {
+        "dance": "Dance to text",
+        "duration": "00:02:00",
+        "intensity": 5,
+        "name": "Nanori",
+        "nohkan": "Non Congruent",
+        "percussion": "Otsuzumi + Kotsuzumi + Taiko",
+        "percussionType": "Non Congruent",
+        "text": "Sashinori - Non Congruent",
+        "timeEnd": "00:03:00",
+        "timeStart": "00:00:00",
+        "voiceType": "Sung - Non Congruent",
+        "voices": "Waki/Waki Tsure",
+      },
+      Object {
+        "dance": "Not present",
+        "duration": "00:03:00",
+        "intensity": 2,
+        "name": "Mondo",
+        "nohkan": "Non Congruent",
+        "percussion": "Otsuzumi + Kotsuzumi",
+        "percussionType": "Non Congruent",
+        "text": "Congruent",
+        "timeEnd": "00:04:00",
+        "timeStart": "00:03:01",
+        "voiceType": "Spoken",
+        "voices": "Waki/Waki Tsure",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<UnwrappedIntermediaTable> renders as expected 1`] = `
 <div
   className="intermedia-table"
 >
   <IntermediaTitle
     play="hashitomi"
-    section="kiri"
+    section="Nanori"
   />
   <IntermediaElement
     fieldName="Voices"
@@ -18,7 +58,7 @@ exports[`<IntermediaTable> renders as expected 1`] = `
   />
   <IntermediaElement
     fieldName="Text"
-    fieldValue="Non congruent - Sashinori"
+    fieldValue="Sashinori - Non Congruent"
   />
   <IntermediaElement
     fieldName="Percussion"
@@ -30,11 +70,11 @@ exports[`<IntermediaTable> renders as expected 1`] = `
   />
   <IntermediaElement
     fieldName="Nohkan"
-    fieldValue="Yes - Non congruent"
+    fieldValue="Non Congruent"
   />
   <IntermediaElement
     fieldName="Dance"
-    fieldValue="Yes - Dance to text"
+    fieldValue="Dance to text"
   />
 </div>
 `;
