@@ -1,7 +1,129 @@
 {
   "title": "Hashitomi",
   "narrative": "/hashitomi.html",
-  "videoUrl":
-    "https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1",
-  "videoDuration": 104
+  "videoUrl": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4",
+  "videoDuration": "01:00:00",
+  "maxIntensity": 21,
+  "sections": [
+    {
+      "name": "Nanori",
+      "left": "0%",
+      "intensity": 5,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Mondo",
+      "left": "5%",
+      "intensity": 2,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Ageuta",
+      "left": "10%",
+      "intensity": 7,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Ashirai",
+      "left": "15%",
+      "intensity": 12,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Yobikake",
+      "left": "20%",
+      "intensity": 8,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Yobikake2",
+      "left": "25%",
+      "intensity": 15,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Mondo2",
+      "left": "30%",
+      "intensity": 18,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Ageuta2",
+      "left": "35%",
+      "intensity": 21,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Kuri",
+      "left": "40%",
+      "intensity": 5,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Sashi",
+      "left": "45%",
+      "intensity": 9,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Iguse",
+      "left": "50%",
+      "intensity": 10,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Mondo3",
+      "left": "55%",
+      "intensity": 12,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Ageuta3",
+      "left": "60%",
+      "intensity": 14,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Notto",
+      "left": "65%",
+      "intensity": 18,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Noriji2",
+      "left": "70%",
+      "intensity": 20,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Hayafue",
+      "left": "75%",
+      "intensity": 21,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Noriji",
+      "left": "80%",
+      "intensity": 18,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Maibataraki",
+      "left": "85%",
+      "intensity": 17,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Noriji3",
+      "left": "90%",
+      "intensity": 6,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Kiri",
+      "left": "95%",
+      "intensity": 21,
+      "duration": "00:03:00"
+    }
+  ]
 }
