@@ -47,7 +47,8 @@ const App = props => (
                 />
               </div>
             </div>
-            <IntermediaTable />
+            {/* These have to update based on current time */}
+            <IntermediaTable play="Hashitomi" section="Kiri" />
           </div>
         </div>
       </main>

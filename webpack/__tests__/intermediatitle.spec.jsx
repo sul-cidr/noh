@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
-import IntermediaTable from "../components/IntermediaTable";
+import IntermediaTitle from "../components/IntermediaTitle";
 
-describe("<IntermediaTable>", () => {
+describe("<IntermediaTitle>", () => {
   it("renders as expected", () => {
     const component = shallow(
-      <IntermediaTable play="hashitomi" section="kiri" />
+      <IntermediaTitle play="hashitomi" section="kiri" />
     );
     expect(component).toMatchSnapshot();
   });

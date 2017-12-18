@@ -1,14 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
+import IntermediaTitle from "./IntermediaTitle";
 
-const IntermediaTable = () => (
+const IntermediaTable = props => (
   // Should be refactored to generator automatically
   <div className="intermedia-table">
-    <div className="intermedia__element intermedia__element--title">
-      <div className="intermedia__label">Section</div>
-      <div className="intermedia__value">
-        <a href="/hashitomi/kiri/">Kuse</a>
-      </div>
-    </div>
+    <IntermediaTitle section={props.section} play={props.play} />
+
     <div className="intermedia__element">
       <div className="intermedia__label">Voices</div>
       <div className="intermedia__value">Waki/Waki Tsure</div>
@@ -39,5 +37,10 @@ const IntermediaTable = () => (
     </div>
   </div>
 );
+
+IntermediaTable.propTypes = {
+  section: PropTypes.string.isRequired,
+  play: PropTypes.string.isRequired
+};
 
 export default IntermediaTable;
