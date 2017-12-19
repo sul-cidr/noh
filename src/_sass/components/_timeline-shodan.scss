@@ -4,7 +4,15 @@
 
 .shodan-map {
   position: relative;
-  height: $shodan-map-height;
+  height: $shodan-map-height-play;
+  width: 100%;
+}
+
+.sidebar--section {
+  .shodan-map {
+    height: $shodan-map-height-section;
+    width: 100%;
+  }
 }
 
 .shodan-map__item {

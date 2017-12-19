@@ -3,16 +3,19 @@
 
   @include flex-container($justify: flex-start, $align: stretch);
 
-  aside {
-    border-right: $tl-separator;
-    min-width: 18rem;
-    padding: 1rem;
-    width: 30%;
-  }
-
   main {
     flex-grow: 1;
   }
+}
+
+.sidebar {
+  border-right: $tl-separator;
+  min-width: 18rem;
+  width: 30%;
+}
+
+.sidebar--section {
+  @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
 }
 
 .video-player {

@@ -4,15 +4,16 @@ $timeline-marks-height: 1.25rem;
 $timeline-acts-height: 1.25rem;
 
 $intermedia-table-cell: 1.75rem;
-$shodan-map-height: (7 * $intermedia-table-cell);
-$intermedia-height: $shodan-map-height + $timeline-marks-height + $timeline-acts-height;
+$shodan-map-height-play: (7 * $intermedia-table-cell);
+$shodan-map-height-section: 7.5rem;
+$intermedia-height: $shodan-map-height-play + $timeline-marks-height + $timeline-acts-height;
 
 $timeline-marks-height: 1.25rem;
 $timeline-acts-height: 1.25rem;
 
 $intermedia-table-cell: 1.75rem;
-$shodan-map-height: (7 * $intermedia-table-cell);
-$intermedia-height: $shodan-map-height + $timeline-marks-height + $timeline-acts-height;
+$shodan-map-height-play: (7 * $intermedia-table-cell);
+$intermedia-height: $shodan-map-height-play + $timeline-marks-height + $timeline-acts-height;
 
 $timeline-label-group-width: 3rem;
 $timeline-labels-width: 15rem;

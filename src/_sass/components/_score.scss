@@ -146,7 +146,7 @@ $grid-columns: 16;
 }
 
 .measure__cell--character-jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
-.measure__cell--character-aikyogen  { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
+.measure__cell--character-aikyogen   { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
 .measure__cell--character-shite      { @include character-overlay($color-character-shite, 'shite'); }
 .measure__cell--character-waki       { @include character-overlay($color-character-waki, 'waki'); }
 .measure__cell--character-waki-tsure { @include character-overlay($color-character-waki-tsure, 'waki-tsure'); }
