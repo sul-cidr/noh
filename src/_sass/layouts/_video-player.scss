@@ -4,8 +4,10 @@
   @include flex-container($justify: flex-start, $align: stretch);
 
   aside {
-    width: 30%;
     border-right: $tl-separator;
+    min-width: 18rem;
+    padding: 1rem;
+    width: 30%;
   }
 
   main {
