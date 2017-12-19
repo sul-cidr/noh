@@ -16,7 +16,7 @@ import store from "./store";
 
 const App = props => (
   <Provider store={store}>
-    <div className="video-player">
+    <div className="app-container">
       <aside>
         <h1>{props.title}</h1>
         <Narrative narrative={props.narrative} />
