@@ -34,7 +34,10 @@ const App = props => (
           </div>
           <div className="timeline">
             <div className="timeline__container">
-              <TimeMarks />
+              <TimeMarks
+                videoDuration={convertTimeToSeconds(props.videoDuration)}
+                numIntervals={10}
+              />
               <Acts />
               <div className="shodan-map__container">
                 <TimelineIndicator

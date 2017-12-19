@@ -12,3 +12,9 @@ export function convertTimeToSeconds(hhmmss) {
   const time = Date.parse(timeFormat);
   return time / 1e3 || 0.0;
 }
+
+// Converts time in seconds to hh:mm:ss
+export function convertSecondsToHhmmss(seconds) {
+  const timeCode = new Date(seconds * 1000).toISOString().substr(11, 8);
+  return timeCode;
+}

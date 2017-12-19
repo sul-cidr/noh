@@ -1,4 +1,8 @@
-import { getTime, convertTimeToSeconds } from "../utils";
+import {
+  getTime,
+  convertTimeToSeconds,
+  convertSecondsToHhmmss
+} from "../utils";
 
 describe("getTime", () => {
   test("it converts time expressed in hh:mm:ss.mmm to seconds.millis", () => {
@@ -36,5 +40,12 @@ describe("convertTimeToSeconds", () => {
   test("it defaults to 0 for bad formatted times", () => {
     const time = "Dec 1st 2017 01:01:90.001";
     expect(convertTimeToSeconds(time)).toEqual(0);
+  });
+});
+
+describe("convertSecondsToHhmmss", () => {
+  test("it correctly converts time in seconds to hh:mm:ss", () => {
+    const time = 3600;
+    expect(convertSecondsToHhmmss(time)).toBe("01:00:00");
   });
 });
