@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShodanTimelineBlock> renders as expected 1`] = `
+<div
+  className="shodan-map__item"
+  data-tooltip="Kiri"
+  style={
+    Object {
+      "height": "71.42857142857143%",
+      "left": "8%",
+      "width": "33.33333333333333%",
+    }
+  }
+/>
+`;
