@@ -6,43 +6,45 @@ exports[`<TimeMarks> renders as expected 1`] = `
 >
   <div
     className="time"
+    key="marker0"
   >
-    0:00:00
+    00:00:00
   </div>
   <div
     className="time"
+    key="marker600"
   >
-    0:10:00
+    00:10:00
   </div>
   <div
     className="time"
+    key="marker1200"
   >
-    0:20:00
+    00:20:00
   </div>
   <div
     className="time"
+    key="marker1800"
   >
-    0:30:00
+    00:30:00
   </div>
   <div
     className="time"
+    key="marker2400"
   >
-    0:40:00
+    00:40:00
   </div>
   <div
     className="time"
+    key="marker3000"
   >
-    0:50:00
+    00:50:00
   </div>
   <div
     className="time"
+    key="marker3600"
   >
-    1:00:00
-  </div>
-  <div
-    className="time"
-  >
-    1:10:00
+    01:00:00
   </div>
 </div>
 `;

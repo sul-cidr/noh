@@ -1,17 +1,27 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { convertSecondsToHhmmss } from "../utils";
 
-const TimeMarks = () => (
-  // Should be refactored to generator automatically
-  <div className="time-marks">
-    <div className="time">0:00:00</div>
-    <div className="time">0:10:00</div>
-    <div className="time">0:20:00</div>
-    <div className="time">0:30:00</div>
-    <div className="time">0:40:00</div>
-    <div className="time">0:50:00</div>
-    <div className="time">1:00:00</div>
-    <div className="time">1:10:00</div>
-  </div>
-);
+const TimeMarks = props => {
+  const interval = props.videoDuration / props.numIntervals;
+  const marks = [];
+  for (let i = 0; i <= props.numIntervals; i += 1) {
+    marks.push(
+      <div className="time" key={`marker${i * interval}`}>
+        {convertSecondsToHhmmss(i * interval)}
+      </div>
+    );
+  }
+  return <div className="time-marks">{marks}</div>;
+};
+
+TimeMarks.propTypes = {
+  videoDuration: PropTypes.number.isRequired,
+  numIntervals: PropTypes.number
+};
+
+TimeMarks.defaultProps = {
+  numIntervals: 6
+};
 
 export default TimeMarks;
