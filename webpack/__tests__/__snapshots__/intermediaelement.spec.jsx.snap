@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntermediaElement> renders as expected 1`] = `
+<div
+  className="intermedia__element"
+>
+  <div
+    className="intermedia__label"
+  >
+    Percussion
+  </div>
+  <div
+    className="intermedia__value"
+  >
+    Non-congruent
+  </div>
+</div>
+`;

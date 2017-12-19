@@ -49,7 +49,8 @@ const App = props => (
                 />
               </div>
             </div>
-            <IntermediaTable />
+            {/* These have to update based on current time */}
+            <IntermediaTable play="Hashitomi" sections={props.sections} />
           </div>
         </div>
       </main>
@@ -68,9 +69,17 @@ App.propTypes = {
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
-      left: PropTypes.string,
-      width: PropTypes.string,
-      height: PropTypes.string
+      intensity: PropTypes.number,
+      duration: PropTypes.string,
+      timeStart: PropTypes.string,
+      timeEnd: PropTypes.string,
+      voices: PropTypes.string,
+      voiceType: PropTypes.string,
+      text: PropTypes.string,
+      percussion: PropTypes.string,
+      percussionType: PropTypes.string,
+      nohkan: PropTypes.string,
+      dance: PropTypes.string
     })
   ).isRequired,
   maxIntensity: PropTypes.number.isRequired
