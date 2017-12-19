@@ -1,0 +1,39 @@
+.text-grid {
+  background-image: url('data:image/svg+xml;utf8,
+  <svg xmlns="http://www.w3.org/2000/svg" width="1" height="#{$grid-height}" viewBox="0 0 1 #{$grid-height}">
+   <g fill="none" fill-rule="evenodd">
+     <rect width="1" height="1" y="#{$grid-height - 1}" fill="#{$grey-medium}"/>
+     <rect width="1" height="#{$grid-height - 1}" fill="#{$white}"/>
+   </g>
+  </svg>');
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding: 1rem;
+  width: 40rem;
+
+  @include flex-container($direction:row, $justify:flex-start, $align: baseline);
+}
+
+.text-size {
+  margin-right: 1rem;
+  min-width: 6rem;
+  text-align: right;
+}
+
+.section-title {
+  padding-top: units(25);
+}
+
+.fs-sans-2xl  { @include text($font-sans, $fs-sans-2xl, $lh-sans-2xl, $fw-bold); }
+.fs-sans-xl   { @include text($font-sans, $fs-sans-xl, $lh-sans-xl, $fw-bold); }
+.fs-sans-lg   { @include text($font-sans, $fs-sans-lg, $lh-sans-lg); }
+.fs-sans-md   { @include text($font-sans, $fs-sans-md, $lh-sans-md); }
+.fs-sans-sm   { @include text($font-sans, $fs-sans-sm, $lh-sans-sm); }
+.fs-sans-xs   { @include text($font-sans, $fs-sans-xs, $lh-sans-xs); }
+.fs-sans-2xs  {
+  text-transform: uppercase;
+
+  @include text($font-sans, $fs-sans-2xs, $lh-sans-2xs, $fw-bold);
+}
+
+.fs-serif-md  { @include text($font-serif, $fs-serif-md, $lh-serif-md); }

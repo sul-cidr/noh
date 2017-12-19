@@ -17,10 +17,12 @@ import { convertTimeToSeconds } from "./utils";
 
 const App = props => (
   <Provider store={store}>
-    <div className="video-player">
-      <aside>
-        <h1>{props.title}</h1>
-        <Narrative narrative={props.narrative} />
+    <div className="app-container">
+      <aside className="sidebar sidebar--play">
+        <div className="narrative-container">
+          <h1>{props.title}</h1>
+          <Narrative narrative={props.narrative} />
+        </div>
       </aside>
       <main>
         <div className="video-player">

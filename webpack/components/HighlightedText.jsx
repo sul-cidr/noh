@@ -47,11 +47,16 @@ class HighlightedText extends React.Component {
     const translationLines = this.createTranslationLines();
     const transcriptionLines = this.createTranscriptionLines();
     return (
-      <div className="highlighted-text">
-        <h3>Text</h3>
-        <p>Singing style: {this.props.singingStyle}</p>
-        <div className="translation-lines">{translationLines}</div>
-        <div className="transcription-lines">{transcriptionLines}</div>
+      <div className="transcription">
+        <div className="transcription__title">
+          <h3>Text</h3>
+          <p>Singing style: {this.props.singingStyle}</p>
+        </div>
+
+        <div className="transcription__text">
+          <div className="transcription__original">{transcriptionLines}</div>
+          <div className="transcription__translation">{translationLines}</div>
+        </div>
       </div>
     );
   }

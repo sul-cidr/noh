@@ -1,16 +1,21 @@
-.highlighted-text {
-  width: 300px;
-  height: 300px;
+.transcription__title {
+  @include flex-container($justify:space-between, $align:baseline);
+}
 
-  .translation-lines {
-    float: left;
+.transcription__text {
+  @include flex-container($justify:flex-start, $align:baseline);
+}
+
+.transcription__original,
+.transcription__translation {
+  width: 50%;
+
+  p {
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 0;
   }
-
-  .transcription-lines {
-    float: right;
-  }
-
-  .active {
-    background-color: IndianRed;
+  p.active {
+    background-color: $grey-light;
   }
 }

@@ -4,19 +4,27 @@
 
 .shodan-map {
   position: relative;
-  height: $shodan-map-height;
+  height: $shodan-map-height-play;
+  width: 100%;
+}
+
+.sidebar--section {
+  .shodan-map {
+    height: $shodan-map-height-section;
+    width: 100%;
+  }
 }
 
 .shodan-map__item {
-  background-color: $grey-3;
-  border: 0.0625rem solid $grey-1;
+  background-color: $grey-lighter;
+  border: 0.0625rem solid $grey-medium;
   height: 0.5rem;
   position: absolute;
   bottom: 0;
   @include tooltip();
 
   &:hover {
-    background-color: $grey-1;
+    background-color: $grey-medium;
     border-color: $black;
   }
 }
