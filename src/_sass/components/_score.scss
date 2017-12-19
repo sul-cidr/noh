@@ -18,6 +18,8 @@ $grid-columns: 16;
   }
 }
 
+// Generate grid
+
 @mixin grid-column($n) {
   .measure__grid-cell--#{$n} {
     min-width: $score-cell-width * $n;
@@ -27,6 +29,12 @@ $grid-columns: 16;
 
 @for $i from 1 through $grid-columns {
   @include grid-column($i);
+}
+
+// Styles
+
+.score {
+  width: 100%;
 }
 
 .measure {
