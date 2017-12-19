@@ -3,7 +3,7 @@ $grey-darker:   #73787d;
 $grey-dark:     #9aa0a6;
 $grey-medium:   #d8dee4;
 $grey-light:    #e2e7eb;
-$grey-lighter:  #edf0f2;
+$grey-lighter:  #f0f3f5;
 $grey-lightest: #f7f9fa;
 
 $black: #141515;
@@ -44,11 +44,11 @@ $brown-shade-2: #b09999;
 
 $color-channel-beat: $white;
 $color-channel-text: $white;
-$color-channel-percussion: rgba($orange-shade-2, 0.3);
-$color-channel-percussion-alt: $grey-lighter;
-$color-channel-vocal: rgba($green-shade-2, 0.3);
-$color-channel-vocal-alt: $grey-lighter;
 $color-channel-nohkan: rgba($yellow-shade-2, 0.3);
-$color-channel-nohkan-alt: $grey-lighter;
-$color-channel-dance: rgba($red-shade-2, 0.3);
-$color-channel-dance-alt: $grey-lighter;
+$color-channel-dance: rgba($orange-shade-2, 0.3);
+
+$color-character-jiutai: $purple;
+$color-character-aikyogen: $blue-dark;
+$color-character-shite: $blue-light;
+$color-character-waki: $green;
+$color-character-waki-tsure: $brown;
