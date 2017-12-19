@@ -47,8 +47,8 @@ const App = props => (
 );
 
 App.propTypes = {
-  currentTime: PropTypes.number,
-  isPlaying: PropTypes.bool,
+  // currentTime: PropTypes.number,
+  // isPlaying: PropTypes.bool,
   maxIntensity: PropTypes.number.isRequired,
   narrative: PropTypes.string.isRequired,
   phrases: PropTypes.arrayOf(
@@ -69,17 +69,17 @@ App.propTypes = {
     })
   ).isRequired,
   singingStyle: PropTypes.string.isRequired,
-  startTime: PropTypes.number,
+  // startTime: PropTypes.number,
   title: PropTypes.string,
   videoDuration: PropTypes.string.isRequired,
   videoUrl: PropTypes.string.isRequired
 };
 
 App.defaultProps = {
-  title: "",
-  currentTime: 0.0,
-  startTime: 0.0,
-  isPlaying: false
+  title: ""
+  // currentTime: 0.0,
+  // startTime: 0.0,
+  // isPlaying: false
 };
 
 const playName = window.location.pathname.trim().split("/")[1];
