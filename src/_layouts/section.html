@@ -1,7 +1,13 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div id="section"></div>
+  {% include head.html %}
 
-<script type="text/javascript" src="/assets/section.bundle.js" charset="utf-8"></script>
+  <body>
+    <div id="section">
+    {{ content }}
+    </div>
+    <script type="text/javascript" src="/assets/section.bundle.js" charset="utf-8"></script>
+  </body>
+
+</html>

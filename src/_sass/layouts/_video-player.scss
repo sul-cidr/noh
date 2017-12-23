@@ -1,45 +1,49 @@
-.video-player {
+.app-container {
   height: 100vh;
 
   @include flex-container($justify: flex-start, $align: stretch);
 
-  aside {
-    width: 30%;
-    border-right: $tl-separator;
-  }
-
   main {
     flex-grow: 1;
   }
+}
 
-  .video-player {
-    height: 100vh;
+.sidebar {
+  border-right: $tl-separator;
+  min-width: 18rem;
+  width: 30%;
+}
 
-    @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
+.sidebar--section {
+  @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
+}
 
-  }
+.video-player {
+  height: 100vh;
 
-  .video-container {
-    background-color: $black;
-    flex-grow: 1;
-    position: relative;
+  @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
+}
+
+.video-container {
+  background-color: $black;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+
+  video {
+    left: 50%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-
-    video {
-      left: 50%;
-      max-height: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-    }
   }
+}
 
-  .timeline {
-    width: 100%;
-  }
+.timeline {
+  width: 100%;
+}
 
-  .video {
-    background-color: $grey-3;
-  }
+.video {
+  background-color: $grey-lighter;
 }

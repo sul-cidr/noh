@@ -1,43 +1,86 @@
-import React from "react";
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import IntermediaTitle from "./IntermediaTitle";
+import IntermediaElement from "./IntermediaElement";
+import { convertTimeToSeconds } from "../utils";
 
-const IntermediaTable = () => (
-  // Should be refactored to generator automatically
-  <div className="intermedia-table">
-    <div className="intermedia__element intermedia__element--title">
-      <div className="intermedia__label">Section</div>
-      <div className="intermedia__value">
-        <a href="/hashitomi/kiri/">Kuse</a>
+class IntermediaTable extends Component {
+  currentSection() {
+    const chunks = this.props.sections;
+    const section = {
+      name: "",
+      voices: "",
+      voiceType: "",
+      text: "",
+      percussion: "",
+      percussionType: "",
+      nohkan: "",
+      dance: ""
+    };
+    for (let i = 0; i < chunks.length; i += 1) {
+      if (
+        this.props.currentTime >= convertTimeToSeconds(chunks[i].timeStart) &&
+        this.props.currentTime < convertTimeToSeconds(chunks[i].timeEnd)
+      ) {
+        section.name = chunks[i].name;
+        section.voices = chunks[i].voices;
+        section.voiceType = chunks[i].voiceType;
+        section.text = chunks[i].text;
+        section.percussion = chunks[i].percussion;
+        section.percussionType = chunks[i].percussionType;
+        section.nohkan = chunks[i].nohkan;
+        section.dance = chunks[i].dance;
+      }
+    }
+    return section;
+  }
+  render() {
+    const section = this.currentSection();
+    return (
+      <div className="intermedia-table">
+        <IntermediaTitle section={section.name} play={this.props.play} />
+        <IntermediaElement fieldName="Voices" fieldValue={section.voices} />
+        <IntermediaElement
+          fieldName="Type of voice"
+          fieldValue={section.voiceType}
+        />
+        <IntermediaElement fieldName="Text" fieldValue={section.text} />
+        <IntermediaElement
+          fieldName="Percussion"
+          fieldValue={section.percussion}
+        />
+        <IntermediaElement
+          fieldName="Type of percussion"
+          fieldValue={section.percussionType}
+        />
+        <IntermediaElement fieldName="Nohkan" fieldValue={section.nohkan} />
+        <IntermediaElement fieldName="Dance" fieldValue={section.dance} />
       </div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Voices</div>
-      <div className="intermedia__value">Waki/Waki Tsure</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Type of voice</div>
-      <div className="intermedia__value">Sung - Non Congruent</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Text</div>
-      <div className="intermedia__value">Non congruent - Sashinori</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Percussion</div>
-      <div className="intermedia__value">Otsuzumi + Kotsuzumi + Taiko</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Type of percussion</div>
-      <div className="intermedia__value">Non Congruent</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Nohkan</div>
-      <div className="intermedia__value">Yes - Non congruent</div>
-    </div>
-    <div className="intermedia__element">
-      <div className="intermedia__label">Dance</div>
-      <div className="intermedia__value">Yes - Dance to text</div>
-    </div>
-  </div>
-);
+    );
+  }
+}
 
-export default IntermediaTable;
+IntermediaTable.propTypes = {
+  play: PropTypes.string.isRequired,
+  currentTime: PropTypes.number.isRequired,
+  sections: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      timeStart: PropTypes.string,
+      timeEnd: PropTypes.string,
+      voices: PropTypes.string,
+      voiceType: PropTypes.string,
+      text: PropTypes.string,
+      percussion: PropTypes.string,
+      percussionType: PropTypes.string,
+      nohkan: PropTypes.string,
+      dance: PropTypes.string
+    })
+  ).isRequired
+};
+
+const mapStateToProps = state => ({ currentTime: state.currentTime });
+
+export const Unwrapped = IntermediaTable;
+export default connect(mapStateToProps)(IntermediaTable);
