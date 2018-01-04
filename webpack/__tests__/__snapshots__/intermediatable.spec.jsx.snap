@@ -1,124 +1,80 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<IntermediaTable> renders as expected 1`] = `
+exports[`<InterMediaTable> renders as expected while connected 1`] = `
+<IntermediaTable
+  currentTime={10}
+  dispatch={[Function]}
+  play="hashitomi"
+  sections={
+    Array [
+      Object {
+        "dance": "Dance to text",
+        "duration": "00:02:00",
+        "intensity": 5,
+        "name": "Nanori",
+        "nohkan": "Non Congruent",
+        "percussion": "Otsuzumi + Kotsuzumi + Taiko",
+        "percussionType": "Non Congruent",
+        "text": "Sashinori - Non Congruent",
+        "timeEnd": "00:03:00",
+        "timeStart": "00:00:00",
+        "voiceType": "Sung - Non Congruent",
+        "voices": "Waki/Waki Tsure",
+      },
+      Object {
+        "dance": "Not present",
+        "duration": "00:03:00",
+        "intensity": 2,
+        "name": "Mondo",
+        "nohkan": "Non Congruent",
+        "percussion": "Otsuzumi + Kotsuzumi",
+        "percussionType": "Non Congruent",
+        "text": "Congruent",
+        "timeEnd": "00:04:00",
+        "timeStart": "00:03:01",
+        "voiceType": "Spoken",
+        "voices": "Waki/Waki Tsure",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<UnwrappedIntermediaTable> renders as expected 1`] = `
 <div
   className="intermedia-table"
 >
-  <div
-    className="intermedia__element intermedia__element--title"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Section
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      <a
-        href="/hashitomi/kiri/"
-      >
-        Kuse
-      </a>
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Voices
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Waki/Waki Tsure
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Type of voice
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Sung - Non Congruent
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Text
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Non congruent - Sashinori
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Percussion
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Otsuzumi + Kotsuzumi + Taiko
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Type of percussion
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Non Congruent
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Nohkan
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Yes - Non congruent
-    </div>
-  </div>
-  <div
-    className="intermedia__element"
-  >
-    <div
-      className="intermedia__label"
-    >
-      Dance
-    </div>
-    <div
-      className="intermedia__value"
-    >
-      Yes - Dance to text
-    </div>
-  </div>
+  <IntermediaTitle
+    play="hashitomi"
+    section="Nanori"
+  />
+  <IntermediaElement
+    fieldName="Voices"
+    fieldValue="Waki/Waki Tsure"
+  />
+  <IntermediaElement
+    fieldName="Type of voice"
+    fieldValue="Sung - Non Congruent"
+  />
+  <IntermediaElement
+    fieldName="Text"
+    fieldValue="Sashinori - Non Congruent"
+  />
+  <IntermediaElement
+    fieldName="Percussion"
+    fieldValue="Otsuzumi + Kotsuzumi + Taiko"
+  />
+  <IntermediaElement
+    fieldName="Type of percussion"
+    fieldValue="Non Congruent"
+  />
+  <IntermediaElement
+    fieldName="Nohkan"
+    fieldValue="Non Congruent"
+  />
+  <IntermediaElement
+    fieldName="Dance"
+    fieldValue="Dance to text"
+  />
 </div>
 `;

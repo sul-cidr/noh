@@ -2,42 +2,50 @@
 
 exports[`<HighlightedText> renders as expected 1`] = `
 <div
-  className="highlighted-text"
+  className="transcription"
 >
-  <h3>
-    Text
-  </h3>
-  <p>
-    Singing style: 
-    spoken
-  </p>
   <div
-    className="translation-lines"
+    className="transcription__title"
   >
-    <Line
-      active={true}
-      key="I/1"
-      text="translation line 1"
-    />
-    <Line
-      active={false}
-      key="I/2"
-      text="translation line 2"
-    />
+    <h3>
+      Text
+    </h3>
+    <p>
+      Singing style: 
+      spoken
+    </p>
   </div>
   <div
-    className="transcription-lines"
+    className="transcription__text"
   >
-    <Line
-      active={true}
-      key="I/1"
-      text="transcription line 1"
-    />
-    <Line
-      active={false}
-      key="I/2"
-      text="transcription line 2"
-    />
+    <div
+      className="transcription__original"
+    >
+      <Line
+        active={true}
+        key="I/1"
+        text="transcription line 1"
+      />
+      <Line
+        active={false}
+        key="I/2"
+        text="transcription line 2"
+      />
+    </div>
+    <div
+      className="transcription__translation"
+    >
+      <Line
+        active={true}
+        key="I/1"
+        text="translation line 1"
+      />
+      <Line
+        active={false}
+        key="I/2"
+        text="translation line 2"
+      />
+    </div>
   </div>
 </div>
 `;

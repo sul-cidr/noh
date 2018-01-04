@@ -13,13 +13,16 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import contents from "./contents";
 import store from "./store";
+import { convertTimeToSeconds } from "./utils";
 
 const App = props => (
   <Provider store={store}>
-    <div className="video-player">
-      <aside>
-        <h1>{props.title}</h1>
-        <Narrative narrative={props.narrative} />
+    <div className="app-container">
+      <aside className="sidebar sidebar--play">
+        <div className="narrative-container">
+          <h1>{props.title}</h1>
+          <Narrative narrative={props.narrative} />
+        </div>
       </aside>
       <main>
         <div className="video-player">
@@ -31,18 +34,26 @@ const App = props => (
           </div>
           <div className="timeline">
             <div className="timeline__container">
-              <TimeMarks />
+              <TimeMarks
+                videoDuration={convertTimeToSeconds(props.videoDuration)}
+                numIntervals={10}
+              />
               <Acts />
               <div className="shodan-map__container">
                 <TimelineIndicator
                   currentTime={props.currentTime}
-                  duration={props.videoDuration}
+                  duration={convertTimeToSeconds(props.videoDuration)}
                   playing={props.isPlaying}
                 />
-                <ShodanTimeline />
+                <ShodanTimeline
+                  sections={props.sections}
+                  maxIntensity={props.maxIntensity}
+                  totalDuration={convertTimeToSeconds(props.videoDuration)}
+                />
               </div>
             </div>
-            <IntermediaTable />
+            {/* These have to update based on current time */}
+            <IntermediaTable play="Hashitomi" sections={props.sections} />
           </div>
         </div>
       </main>
@@ -54,10 +65,27 @@ App.propTypes = {
   title: PropTypes.string,
   narrative: PropTypes.string.isRequired,
   videoUrl: PropTypes.string.isRequired,
-  videoDuration: PropTypes.number.isRequired,
+  videoDuration: PropTypes.string.isRequired,
   currentTime: PropTypes.number,
   startTime: PropTypes.number,
-  isPlaying: PropTypes.bool
+  isPlaying: PropTypes.bool,
+  sections: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      intensity: PropTypes.number,
+      duration: PropTypes.string,
+      timeStart: PropTypes.string,
+      timeEnd: PropTypes.string,
+      voices: PropTypes.string,
+      voiceType: PropTypes.string,
+      text: PropTypes.string,
+      percussion: PropTypes.string,
+      percussionType: PropTypes.string,
+      nohkan: PropTypes.string,
+      dance: PropTypes.string
+    })
+  ).isRequired,
+  maxIntensity: PropTypes.number.isRequired
 };
 
 App.defaultProps = {
