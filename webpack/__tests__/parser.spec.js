@@ -17,7 +17,7 @@ import {
   downloadCSV,
   main as parserMain
 } from "../scripts/parser";
-import fixtures from "./fixtures/parser";
+import fixtures from "./__fixtures__/parser";
 
 const mock = new MockAdapter(axios);
 
