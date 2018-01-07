@@ -1,6 +1,6 @@
 import React from "react";
 
-const Score = () => (
+const ScoreControls = () => (
   <div className="score-controls">
     <ul className="channel-toggles">
       <li>
@@ -51,4 +51,4 @@ const Score = () => (
   </div>
 );
 
-export default Score;
+export default ScoreControls;
