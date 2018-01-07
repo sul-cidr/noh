@@ -108,14 +108,24 @@ $grid-columns: 16;
     content: '';
     position: absolute;
     bottom: 0;
-    height: 0.25rem;
     width: 100%;
   }
 }
 
-.measure__cell--range-low::before    { background-color: rgba($red, 0.2); }
-.measure__cell--range-medium::before { background-color: rgba($red, 0.4); }
-.measure__cell--range-high::before   { background-color: rgba($red, 0.6); }
+.measure__cell--range-low::before {
+  background-image: url('../images/vocal-range-low.svg');
+  height: 0.5rem;
+}
+
+.measure__cell--range-medium::before {
+  background-image: url('../images/vocal-range-medium.svg');
+  height: 0.75rem;
+}
+
+.measure__cell--range-high::before {
+  background-image: url('../images/vocal-range-high.svg');
+  height: 1rem;
+}
 
 .measure__cell--character-jiutai,
 .measure__cell--character-aikyogen,
@@ -151,14 +161,15 @@ $grid-columns: 16;
 .measure__cell--character-waki       { @include character-overlay($color-character-waki, 'waki'); }
 .measure__cell--character-waki-tsure { @include character-overlay($color-character-waki-tsure, 'waki-tsure'); }
 
-.measure__cell--nohkan     { background-color: $color-channel-nohkan; }
-.measure__cell--dance      { background-color: $color-channel-dance; }
+.measure__cell--nohkan {}
+.measure__cell--dance {}
 
 .measure--next,
 .measure--prev {
   color: $black;
 
   .measure__label-container {
+    background-color: $grey-lighter;
     border-bottom: $tl-separator;
     font-size: $fs-sans-2xs;
     font-weight: $fw-bold;
@@ -166,7 +177,7 @@ $grid-columns: 16;
     padding: 0 0.5rem;
     text-transform: uppercase;
 
-    @include flex-container($justify: center);
+    @include flex-container();
   }
   .measure__grid-cell {
     background-color: $grey-lighter;
