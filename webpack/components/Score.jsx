@@ -6,101 +6,51 @@ const Score = () => (
       <div className="measure__label-container">Previous sentence</div>
       <div className="measure__grid-container">
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            1
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            2
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            3
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            4
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            5
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            6
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            7
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            8
-          </div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">1</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">2</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">3</div>
+          <div className="cell cell--1 cell--beat">4</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">5</div>
+          <div className="cell cell--1 cell--beat">6</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">7</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">8</div>
         </div>
         <div className="measure__channel measure__channel--large">
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text">ke</div>
+          <div className="cell cell--1 cell--text">i</div>
+          <div className="cell cell--1 cell--text">ko</div>
+          <div className="cell cell--1 cell--text">o</div>
+          <div className="cell cell--1 cell--text">te</div>
+          <div className="cell cell--1 cell--text">n</div>
+          <div className="cell cell--1 cell--text">no</div>
+          <div className="cell cell--1 cell--text">o</div>
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--14">
-            Tsuzuke
-          </div>
+          <div className="cell cell--14">Tsuzuke</div>
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--nohkan">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--8 measure__cell--nohkan">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--4 measure__cell--nohkan">
-            grid
-          </div>
+          <div className="cell cell--2 cell--dance" />
+          <div className="cell cell--9 cell--dance">grid</div>
+          <div className="cell cell--3 cell--dance" />
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
+          <div className="cell cell--3" />
+          <div className="cell cell--6 cell--dance">
+            Sits back on his knee (9)
           </div>
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--dance">
-            grid
-          </div>
+          <div className="cell cell--5" />
         </div>
       </div>
     </div>
@@ -118,184 +68,110 @@ const Score = () => (
       </div>
       <div className="measure__grid-container">
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            1
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            2
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            3
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            4
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            5
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            6
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            7
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            8
-          </div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">1</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">2</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">3</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">4</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">5</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">6</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">7</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">8</div>
         </div>
         <div className="measure__channel measure__channel--large">
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--5 measure__cell--text measure__cell--character-jiutai measure__cell--range-low">
-            sono ada ō nasu koto ō ezu
+          <div className="cell cell--2 cell--text" />
+          <div className="cell cell--5 cell--text">
+            Tachibana no michinari to wa,
+            <span className="cell__character--jiutai" />
+            <span className="cell__range--low" />
           </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text measure__cell--character-aikyogen measure__cell--range-low">
-            grid
+          <div className="cell cell--1 cell--text">
+            waga
+            <span className="cell__character--aikyogen" />
+            <span className="cell__range--medium" />
           </div>
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--text measure__cell--character-shite measure__cell--range-medium">
-            grid
+          <div className="cell cell--2 cell--text">
+            koto nari.
+            <span className="cell__character--shite" />
+            <span className="cell__range--high" />
           </div>
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--text measure__cell--character-waki measure__cell--range-high">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--text measure__cell--character-waki-tsure  measure__cell--range-high">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--text" />
+          <div className="cell cell--6 cell--text" />
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--2" />
-          <div className="measure__grid-cell measure__grid-cell--12">
-            Tsuzuke
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--2" />
+          <div className="cell cell--2" />
+          <div className="cell cell--12">Tsuzuke</div>
+          <div className="cell cell--2" />
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--nohkan">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--8 measure__cell--nohkan">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--6 measure__cell--nohkan">
-            grid
-          </div>
+          <div className="cell cell--2 cell--nohkan">grid</div>
+          <div className="cell cell--8 cell--nohkan">grid</div>
+          <div className="cell cell--6 cell--nohkan">grid</div>
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--3" />
-          <div className="measure__grid-cell measure__grid-cell--6 measure__cell--dance">
+          <div className="cell cell--3" />
+          <div className="cell cell--6 cell--dance">
             Sits back on his knee (9)
           </div>
-          <div className="measure__grid-cell measure__grid-cell--7" />
+          <div className="cell cell--7" />
         </div>
       </div>
     </div>
     <div className="measure measure--next">
-      <div className="measure__label-container">Previous sentence</div>
+      <div className="measure__label-container">Next sentence</div>
       <div className="measure__grid-container">
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            1
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            2
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            3
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            4
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            5
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            6
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            7
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--beat">
-            8
-          </div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">1</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">2</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">3</div>
+          <div className="cell cell--1 cell--beat">4</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">5</div>
+          <div className="cell cell--1 cell--beat">6</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">7</div>
+          <div className="cell cell--1 cell--beat" />
+          <div className="cell cell--1 cell--beat">8</div>
         </div>
         <div className="measure__channel measure__channel--large">
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text" />
-          <div className="measure__grid-cell measure__grid-cell--1 measure__cell--text">
-            grid
-          </div>
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text">ke</div>
+          <div className="cell cell--1 cell--text">i</div>
+          <div className="cell cell--1 cell--text">ko</div>
+          <div className="cell cell--1 cell--text">o</div>
+          <div className="cell cell--1 cell--text">te</div>
+          <div className="cell cell--1 cell--text">n</div>
+          <div className="cell cell--1 cell--text">no</div>
+          <div className="cell cell--1 cell--text">o</div>
+          <div className="cell cell--1 cell--text" />
+          <div className="cell cell--1 cell--text" />
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--14">
-            Tsuzuke
-          </div>
+          <div className="cell cell--14">Tsuzuke</div>
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--nohkan">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--8 measure__cell--nohkan">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--4 measure__cell--nohkan">
-            grid
-          </div>
+          <div className="cell cell--2 cell--dance" />
+          <div className="cell cell--9 cell--dance">grid</div>
+          <div className="cell cell--3 cell--dance" />
         </div>
         <div className="measure__channel">
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
+          <div className="cell cell--3" />
+          <div className="cell cell--6 cell--dance">
+            Sits back on his knee (9)
           </div>
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--3 measure__cell--dance">
-            grid
-          </div>
-          <div className="measure__grid-cell measure__grid-cell--2 measure__cell--dance">
-            grid
-          </div>
+          <div className="cell cell--5" />
         </div>
       </div>
     </div>
