@@ -7,6 +7,7 @@ import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
 import HighlightedTextContainer from "./components/HighlightedTextContainer";
 import Score from "./components/Score";
+import ScoreControls from "./components/ScoreControls";
 import ShodanTimeline from "./components/ShodanTimeline";
 
 import store from "./store";
@@ -40,6 +41,7 @@ const App = props => (
             <MasterVideo videoUrl={props.videoUrl} />
           </div>
           <Score videoUrl={props.videoUrl} />
+          <ScoreControls />
         </div>
       </main>
     </div>
