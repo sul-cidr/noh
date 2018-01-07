@@ -21,6 +21,7 @@
   height: 0.5rem;
   position: absolute;
   bottom: 0;
+
   @include tooltip();
 
   &:hover {
