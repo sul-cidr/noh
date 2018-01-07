@@ -197,7 +197,7 @@ const Score = () => (
         </div>
       </div>
     </div>
-    <div className="measure measure--prev">
+    <div className="measure measure--next">
       <div className="measure__label-container">Previous sentence</div>
       <div className="measure__grid-container">
         <div className="measure__channel">
