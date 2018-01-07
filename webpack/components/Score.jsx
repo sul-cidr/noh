@@ -89,17 +89,17 @@ const Score = () => (
           <div className="cell cell--2 cell--text" />
           <div className="cell cell--5 cell--text">
             Tachibana no michinari to wa,
-            <span className="cell__character--jiutai" />
+            <span className="cell__character cell__character--begin cell__character--jiutai" />
             <span className="cell__range--low" />
           </div>
           <div className="cell cell--1 cell--text">
             waga
-            <span className="cell__character--aikyogen" />
+            <span className="cell__character cell__character--end cell__character--jiutai" />
             <span className="cell__range--medium" />
           </div>
           <div className="cell cell--2 cell--text">
             koto nari.
-            <span className="cell__character--shite" />
+            <span className="cell__character cell__character--begin cell__character--end cell__character--shite" />
             <span className="cell__range--high" />
           </div>
           <div className="cell cell--6 cell--text" />

@@ -6,31 +6,31 @@ const ScoreControls = () => (
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Beat</span>
         </label>
       </li>
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Text</span>
         </label>
       </li>
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Percussion</span>
         </label>
       </li>
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Nohkan</span>
         </label>
       </li>
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Dance</span>
         </label>
       </li>
     </ul>
@@ -38,13 +38,13 @@ const ScoreControls = () => (
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Prev Measure</span>
         </label>
       </li>
       <li>
         <label>
           <input type="checkbox" />
-          <span>Checkbox</span>
+          <span>Next Measure</span>
         </label>
       </li>
     </ul>

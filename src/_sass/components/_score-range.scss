@@ -1,0 +1,24 @@
+.cell__range--low,
+.cell__range--medium,
+.cell__range--high {
+  content: '';
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.cell__range--low {
+  background-image: url('../images/vocal-range-low.svg');
+  height: 0.5rem;
+}
+
+.cell__range--medium {
+  background-image: url('../images/vocal-range-medium.svg');
+  height: 0.75rem;
+}
+
+.cell__range--high {
+  background-image: url('../images/vocal-range-high.svg');
+  height: 1rem;
+}
