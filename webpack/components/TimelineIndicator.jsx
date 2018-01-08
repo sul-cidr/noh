@@ -65,6 +65,7 @@ class TimelineIndicator extends Component {
           className="time-indicator"
           style={{ left: `${this.calculateProgress()}%`, position: "relative" }}
         />
+        <div className="act__first-end" style={{ left: "35%" }} />
       </div>
     );
   }
