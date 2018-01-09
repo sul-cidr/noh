@@ -29,7 +29,10 @@
       "./webpack/config/setupTests.js"
     ],
     "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "testPathIgnorePatterns": ["<rootDir>/webpack/config/"]
+    "testPathIgnorePatterns": [
+      "<rootDir>/webpack/config/",
+      "<rootDir>/webpack/__tests__/__fixtures__/"
+    ]
   },
   "dependencies": {
     "axios": "^0.17.1",
