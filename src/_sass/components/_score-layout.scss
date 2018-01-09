@@ -1,7 +1,7 @@
 $score-label-width: 9rem;
 $score-cell-width: 2.5rem;
 $score-channel-height: 1.5rem;
-$score-channel-large-height: 2.5rem;
+$score-channel-large-height: 3rem;
 
 $grid-columns: 16;
 
@@ -21,6 +21,7 @@ $grid-columns: 16;
 // Styles
 
 .score {
+  background-color: $white;
   border-top: $tl-separator;
   width: 100%;
 }
@@ -76,6 +77,7 @@ $grid-columns: 16;
 
 .measure--next,
 .measure--prev {
+  background-color: $white;
   color: $black;
 
   .measure__label-container {
@@ -90,6 +92,9 @@ $grid-columns: 16;
   }
 
   .cell {
-    background-color: $grey-lighter;
   }
+}
+
+.measure--current {
+  background-color: rgba($red-shade-2, 0.05);
 }

@@ -1,4 +1,5 @@
 .app-container {
+  background-color: $bg-color;
   height: 100vh;
 
   @include flex-container($justify: flex-start, $align: stretch);
@@ -9,6 +10,7 @@
 }
 
 .sidebar {
+  background-color: $white;
   border-right: $tl-separator;
   min-width: 18rem;
   width: 30%;
