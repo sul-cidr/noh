@@ -168,9 +168,9 @@ export const main = (configPath, quiet) => {
   if (!configPath) {
     logError("Usage: parse [path/to/parser.json] [-q/--quiet]");
   }
+  const promises = [];
   try {
     const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
-    let promises = [];
     config.forEach(play => {
       if (!quiet) console.info(`Downloading and parsing ${play.playName}:`);
       play.sections.forEach(section => {
@@ -203,11 +203,11 @@ export const main = (configPath, quiet) => {
         );
       });
     });
-    process.exitCode = 0;
-    return Promise.all(promises);
   } catch (error) {
     logError(`Malformed config file ${configPath}`, error);
   }
+  process.exitCode = 0;
+  return Promise.all(promises);
 };
 
 // If used as a CLI

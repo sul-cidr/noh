@@ -190,7 +190,7 @@ describe("parser", () => {
     }).toThrow();
   });
 
-  it("main downloads and parses phrases and metadata", () => {
+  it("main downloads and parses phrases and metadata", done => {
     mock.reset();
     mock
       .onGet(fixtures.config[0].sections[0].phrases)
@@ -202,6 +202,7 @@ describe("parser", () => {
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
     jest.spyOn(fs, "writeFileSync").mockImplementation((file, jsonData) => {
       expect(jsonData).toMatchSnapshot();
+      done();
     });
     parserMain("path/to/config", false);
   });
