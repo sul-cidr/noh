@@ -1,174 +1,34 @@
-$score-label-width: 9rem;
-$score-cell-width: 2.5rem;
-$score-channel-height: 1.5rem;
-$score-channel-large-height: 2.5rem;
+@import "components/score-layout";
+@import "components/score-character";
 
-$grid-columns: 16;
-
-@mixin character-overlay($color, $character) {
-  &::after {
-    border-color: transparent $color transparent transparent;
-  }
-
-  &:hover {
-    &::after {
-      border-top: 0.25rem solid $color;
-      content: $character;
-    }
-  }
-}
-
-// Generate grid
-
-@mixin grid-column($n) {
-  .measure__grid-cell--#{$n} {
-    min-width: $score-cell-width * $n;
-    width: 100% / $grid-columns * $n;
-  }
-}
-
-@for $i from 1 through $grid-columns {
-  @include grid-column($i);
-}
-
-// Styles
-
-.score {
-  width: 100%;
-}
-
-.measure {
-  @include flex-container($justify: flex-start, $align: flex-start);
-}
-
-.measure__channel {
-  height: $score-channel-height;
-
-  @include flex-container($justify: flex-start);
-}
-
-.measure__channel--large {
-  height: $score-channel-large-height;
-}
-
-.measure__label-container {
-  border-right: $tl-separator;
-  flex-basis: $score-label-width;
-  flex-shrink: 0;
-
-  .measure__channel {
-    border-bottom: $tl-separator;
-    font-size: $fs-sans-2xs;
-    font-weight: $fw-bold;
-    padding: 0 0.5rem;
-    text-transform: uppercase;
-  }
-}
-
-.measure__grid-container {
-  flex-grow: 1;
-
-  .measure__channel {
-    font-size: $fs-sans-sm;
-  }
-}
-
-.measure__grid-cell {
-  border-bottom: $tl-separator;
-  border-right: $tl-separator;
-  height: $score-channel-height;
-  padding: 0 0.25rem;
-
-  @include flex-container($justify: flex-start);
-}
-
-.measure__channel--large {
-  .measure__grid-cell {
-    height: $score-channel-large-height;
-  }
-}
-
-.measure__cell--beat {
+.cell--beat {
   border-top: $tl-separator;
   font-size: $fs-sans-lg;
   font-weight: $fw-bold;
   justify-content: center;
 }
 
-.measure__cell--text {
+.cell--text {
   justify-content: center;
+  position: relative;
 }
 
-.measure__cell--range-low,
-.measure__cell--range-medium,
-.measure__cell--range-high {
-  position: relative;
-
+.cell__range--low,
+.cell__range--medium,
+.cell__range--high {
   &::before {
     content: '';
     position: absolute;
     bottom: 0;
     height: 0.25rem;
+    left: 0;
     width: 100%;
   }
 }
 
-.measure__cell--range-low::before    { background-color: rgba($red, 0.2); }
-.measure__cell--range-medium::before { background-color: rgba($red, 0.4); }
-.measure__cell--range-high::before   { background-color: rgba($red, 0.6); }
+.cell__range--low::before    { background-color: rgba($red, 0.2); }
+.cell__range--medium::before { background-color: rgba($red, 0.4); }
+.cell__range--high::before   { background-color: rgba($red, 0.6); }
 
-.measure__cell--character-jiutai,
-.measure__cell--character-aikyogen,
-.measure__cell--character-shite,
-.measure__cell--character-waki,
-.measure__cell--character-waki-tsure {
-  &::after {
-    border-style: solid;
-    border-width: 0 0.75rem 0.75rem 0;
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  &:hover {
-    &::after {
-      background-color: $white;
-      border: none;
-      top: -1rem;
-      right: 0;
-      text-align: center;
-      border: $tl-separator;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-      width: 5rem;
-    }
-  }
-}
-
-.measure__cell--character-jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
-.measure__cell--character-aikyogen   { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
-.measure__cell--character-shite      { @include character-overlay($color-character-shite, 'shite'); }
-.measure__cell--character-waki       { @include character-overlay($color-character-waki, 'waki'); }
-.measure__cell--character-waki-tsure { @include character-overlay($color-character-waki-tsure, 'waki-tsure'); }
-
-.measure__cell--nohkan     { background-color: $color-channel-nohkan; }
-.measure__cell--dance      { background-color: $color-channel-dance; }
-
-.measure--next,
-.measure--prev {
-  color: $black;
-
-  .measure__label-container {
-    border-bottom: $tl-separator;
-    font-size: $fs-sans-2xs;
-    font-weight: $fw-bold;
-    height: $score-channel-height * 4 + $score-channel-large-height;
-    padding: 0 0.5rem;
-    text-transform: uppercase;
-
-    @include flex-container($justify: center);
-  }
-  .measure__grid-cell {
-    background-color: $grey-lighter;
-  }
-}
+.cell--nohkan     { background-color: $color-channel-nohkan; }
+.cell--dance      { background-color: $color-channel-dance; }
