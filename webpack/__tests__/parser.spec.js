@@ -144,36 +144,40 @@ describe("parser", () => {
     }).toThrow();
   });
 
-  it("downloadCSV downloads data from a CSV URL", () => {
+  it("downloadCSV downloads data from a CSV URL", done => {
     const type = "phrases";
     const url = `/data/${type}.csv`;
     mock.reset();
     mock.onGet(url).reply(200, fixtures.phrasesCSV);
     return downloadCSV(url).then(data => {
       expect(data).toMatchSnapshot();
+      done();
     });
   });
 
-  it("downloadCSV raises an exception when URL is not found", () => {
+  it("downloadCSV raises an exception when URL is not found", done => {
     const url = "/some/url";
     mock.reset();
     mock.onGet(url).reply(404, "");
     return downloadCSV(url).catch(error => {
       expect(error.message).toMatch(`Unable to download ${url}`);
+      done();
     });
   });
 
-  it("downloadCSV raises an exception when URL does not exist", () => {
+  it("downloadCSV raises an exception when URL does not exist", done => {
     const url = "http://some.fake.url/";
     return downloadCSV(url).catch(error => {
       expect(error.message).toMatch(`Unable to download ${url}`);
+      done();
     });
   });
 
-  it("downloadCSV raises an exception when protocol is unknown", () => {
+  it("downloadCSV raises an exception when protocol is unknown", done => {
     const url = "proto://some.fake.url/";
     return downloadCSV(url).catch(error => {
       expect(error.message).toMatch(`Unable to download ${url}`);
+      done();
     });
   });
 
@@ -204,7 +208,7 @@ describe("parser", () => {
       expect(jsonData).toMatchSnapshot();
       done();
     });
-    parserMain("path/to/config", false);
+    return parserMain("path/to/config", false);
   });
 
   it("main writes to console when -q/--quiet is not passed in", done => {
@@ -224,7 +228,7 @@ describe("parser", () => {
     });
   });
 
-  it("main raises an exception when data parsing fails", () => {
+  it("main raises an exception when data parsing fails", done => {
     mock.reset();
     mock
       .onGet(fixtures.config[0].sections[0].phrases)
@@ -237,6 +241,7 @@ describe("parser", () => {
     jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
     return parserMain("path/to/config", true).catch(error => {
       expect(error.message).toMatch("Unable to process section data");
+      done();
     });
   });
 
