@@ -1,9 +1,10 @@
 import React from "react";
+import MeasureLabelContainer from "./MeasureLabelContainer";
 
 const Score = () => (
   <div className="score">
     <div className="measure measure--prev">
-      <div className="measure__label-container">Previous sentence</div>
+      <MeasureLabelContainer previous />
       <div className="measure__grid-container">
         <div className="measure__channel">
           <div className="cell cell--1 cell--beat" />
@@ -55,17 +56,7 @@ const Score = () => (
       </div>
     </div>
     <div className="measure measure--current">
-      <div className="measure__label-container">
-        <div className="measure__channel measure__channel--beat">Beat</div>
-        <div className="measure__channel measure__channel--text measure__channel--large">
-          Text
-        </div>
-        <div className="measure__channel measure__channel--percussion">
-          Percussion
-        </div>
-        <div className="measure__channel measure__channel--nohkan">Nohkan</div>
-        <div className="measure__channel measure__channel--dance">Dance</div>
-      </div>
+      <MeasureLabelContainer />
       <div className="measure__grid-container">
         <div className="measure__channel">
           <div className="cell cell--1 cell--beat" />
@@ -124,7 +115,7 @@ const Score = () => (
       </div>
     </div>
     <div className="measure measure--next">
-      <div className="measure__label-container">Next sentence</div>
+      <MeasureLabelContainer next />
       <div className="measure__grid-container">
         <div className="measure__channel">
           <div className="cell cell--1 cell--beat" />

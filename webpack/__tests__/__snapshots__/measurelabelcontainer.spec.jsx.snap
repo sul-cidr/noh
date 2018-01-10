@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
+<div
+  className="measure__label-container"
+>
+  <div
+    className="measure__channel measure__channel--beat"
+  >
+    Beat
+  </div>
+  <div
+    className="measure__channel measure__channel--text measure__channel--large"
+  >
+    Text
+  </div>
+  <div
+    className="measure__channel measure__channel--percussion"
+  >
+    Percussion
+  </div>
+  <div
+    className="measure__channel measure__channel--nohkan"
+  >
+    Nohkan
+  </div>
+  <div
+    className="measure__channel measure__channel--dance"
+  >
+    Dance
+  </div>
+</div>
+`;
+
+exports[`<MeasureLabelContainer> renders as expected for next 1`] = `
+<div
+  className="measure__label-container"
+>
+  Next sentence
+</div>
+`;
+
+exports[`<MeasureLabelContainer> renders as expected for previous 1`] = `
+<div
+  className="measure__label-container"
+>
+  Previous sentence
+</div>
+`;
