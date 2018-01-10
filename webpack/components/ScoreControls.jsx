@@ -5,28 +5,28 @@ const ScoreControls = () => (
     <ul className="channel-toggles">
       <li>
         <input type="checkbox" id="scoreControl1" />
-        <label for="scoreControl1">Beat</label>
+        <label htmlFor="scoreControl1">Beat</label>
       </li>
       <li>
         <input type="checkbox" id="scoreControl2" />
-        <label for="scoreControl2">Text</label>
+        <label htmlFor="scoreControl2">Text</label>
       </li>
       <li>
         <input type="checkbox" id="scoreControl3" />
-        <label for="scoreControl3">Percussion</label>
+        <label htmlFor="scoreControl3">Percussion</label>
       </li>
       <li>
         <input type="checkbox" id="scoreControl4" />
-        <label for="scoreControl4">
+        <label htmlFor="scoreControl4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
             viewBox="0 0 12 12"
           >
-            <g fill="#9aa0a6" fill-rule="evenodd">
+            <g fill="#9aa0a6" fillRule="evenodd">
               <path
-                fill-rule="nonzero"
+                fillRule="nonzero"
                 d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
               />
               <path
@@ -40,17 +40,17 @@ const ScoreControls = () => (
       </li>
       <li>
         <input type="checkbox" id="scoreControl5" />
-        <label for="scoreControl5">Dance</label>
+        <label htmlFor="scoreControl5">Dance</label>
       </li>
     </ul>
     <ul className="measure-toggles">
       <li>
         <input type="checkbox" id="scoreControl6" />
-        <label for="scoreControl6">Prev Measure</label>
+        <label htmlFor="scoreControl6">Prev Measure</label>
       </li>
       <li>
         <input type="checkbox" id="scoreControl7" />
-        <label for="scoreControl7">Next Measure</label>
+        <label htmlFor="scoreControl7">Next Measure</label>
       </li>
     </ul>
   </div>
