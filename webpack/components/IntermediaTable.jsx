@@ -7,33 +7,11 @@ import { convertTimeToSeconds } from "../utils";
 
 class IntermediaTable extends Component {
   currentSection() {
-    const chunks = this.props.sections;
-    const section = {
-      name: "",
-      voices: "",
-      voiceType: "",
-      text: "",
-      percussion: "",
-      percussionType: "",
-      nohkan: "",
-      dance: ""
-    };
-    for (let i = 0; i < chunks.length; i += 1) {
-      if (
-        this.props.currentTime >= convertTimeToSeconds(chunks[i].timeStart) &&
-        this.props.currentTime < convertTimeToSeconds(chunks[i].timeEnd)
-      ) {
-        section.name = chunks[i].name;
-        section.voices = chunks[i].voices;
-        section.voiceType = chunks[i].voiceType;
-        section.text = chunks[i].text;
-        section.percussion = chunks[i].percussion;
-        section.percussionType = chunks[i].percussionType;
-        section.nohkan = chunks[i].nohkan;
-        section.dance = chunks[i].dance;
-      }
-    }
-    return section;
+    return this.props.sections.find(
+      section =>
+        this.props.currentTime >= convertTimeToSeconds(section.timeStart) &&
+        this.props.currentTime < convertTimeToSeconds(section.timeEnd)
+    );
   }
   render() {
     const section = this.currentSection();

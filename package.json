@@ -14,7 +14,9 @@
       "concurrently \"node_modules/.bin/webpack --watch\" \"bundle exec jekyll serve\"",
     "lint":
       "node_modules/.bin/eslint webpack/**/*.{js,jsx} webpack/*.{js,jsx} --quiet",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "parse":
+      "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/parser.js"
   },
   "lint-staged": {
     "*.{js,jsx,json,css}": ["prettier --write", "git add"]
@@ -27,16 +29,21 @@
       "./webpack/config/setupTests.js"
     ],
     "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "testPathIgnorePatterns": ["<rootDir>/webpack/config/"]
+    "testPathIgnorePatterns": [
+      "<rootDir>/webpack/config/",
+      "<rootDir>/webpack/__tests__/__fixtures__/"
+    ]
   },
   "dependencies": {
     "axios": "^0.17.1",
     "axios-mock-adapter": "^1.10.0",
+    "babel-cli": "^6.26.0",
     "babel-preset-es2017": "^6.24.1",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
     "global": "^4.3.2",
     "interweave": "^8.0.2",
+    "papaparse": "^4.3.6",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
