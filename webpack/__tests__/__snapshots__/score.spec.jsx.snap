@@ -269,6 +269,11 @@ exports[`<Score> renders as expected 1`] = `
             className="cell__character cell__character--begin cell__character--jiutai"
           />
           <span
+            className="cell__tooltip"
+          >
+            jiutai
+          </span>
+          <span
             className="cell__range--low"
           />
         </div>
@@ -280,6 +285,11 @@ exports[`<Score> renders as expected 1`] = `
             className="cell__character cell__character--end cell__character--jiutai"
           />
           <span
+            className="cell__tooltip"
+          >
+            jiutai
+          </span>
+          <span
             className="cell__range--medium"
           />
         </div>
@@ -290,6 +300,11 @@ exports[`<Score> renders as expected 1`] = `
           <span
             className="cell__character cell__character--begin cell__character--end cell__character--shite"
           />
+          <span
+            className="cell__tooltip"
+          >
+            shite
+          </span>
           <span
             className="cell__range--high"
           />
