@@ -1,34 +1,6 @@
 @import "components/score-layout";
+@import "components/score-beat";
 @import "components/score-character";
-
-.cell--beat {
-  border-top: $tl-separator;
-  font-size: $fs-sans-lg;
-  font-weight: $fw-bold;
-  justify-content: center;
-}
-
-.cell--text {
-  justify-content: center;
-  position: relative;
-}
-
-.cell__range--low,
-.cell__range--medium,
-.cell__range--high {
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    height: 0.25rem;
-    left: 0;
-    width: 100%;
-  }
-}
-
-.cell__range--low::before    { background-color: rgba($red, 0.2); }
-.cell__range--medium::before { background-color: rgba($red, 0.4); }
-.cell__range--high::before   { background-color: rgba($red, 0.6); }
-
-.cell--nohkan     { background-color: $color-channel-nohkan; }
-.cell--dance      { background-color: $color-channel-dance; }
+@import "components/score-controls";
+@import "components/score-range";
+@import "components/score-text";
