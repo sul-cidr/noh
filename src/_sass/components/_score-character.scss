@@ -1,3 +1,5 @@
+$tooltip-height: 2rem;
+
 @mixin character-overlay($color, $character) {
   border-top-color: $color;
 
@@ -9,11 +11,8 @@
     border-color: transparent $color transparent transparent;
   }
 
-  &:hover {
-    &::after {
-      border-bottom: 0.25rem solid $color;
-      content: $character;
-    }
+  & + .cell__tooltip {
+    border: 0.0625rem solid $color;
   }
 }
 
@@ -55,23 +54,18 @@
   }
 }
 
-.cell__character--jiutai,
-.cell__character--aikyogen,
-.cell__character--shite,
-.cell__character--waki,
-.cell__character--waki-tsure {
-
-  &:hover {
-    &::after {
-      background-color: $white;
-      border: $tl-separator;
-      top: -1.6875rem;
-      left: 0;
-      text-align: center;
-      padding: 0.3125rem;
-      width: 100%;
-    }
-  }
+.cell__tooltip {
+  background-color: $white;
+  border: $tl-separator;
+  bottom: 100%;
+  height: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  transition: height 50ms ease-in-out;
+  width: 100%;
+  @include flex-container($justify: center);
 }
 
 .cell__character--jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
@@ -79,3 +73,9 @@
 .cell__character--shite      { @include character-overlay($color-character-shite, 'shite'); }
 .cell__character--waki       { @include character-overlay($color-character-waki, 'waki'); }
 .cell__character--waki-tsure { @include character-overlay($color-character-waki-tsure, 'waki-tsure'); }
+
+.cell--text:hover {
+  .cell__tooltip {
+    height: $tooltip-height;
+  }
+}
