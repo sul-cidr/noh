@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Score> renders as expected 1`] = `
+<div
+  className="score"
+>
+  <div
+    className="measure measure--prev"
+  >
+    <MeasureLabelContainer
+      next={false}
+      previous={true}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__channel"
+      >
+        <CellBeat
+          beatText=""
+          key="beatNum0"
+        />
+        <CellBeat
+          beatText="1"
+          key="beatNum1"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum2"
+        />
+        <CellBeat
+          beatText="2"
+          key="beatNum3"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum4"
+        />
+        <CellBeat
+          beatText="3"
+          key="beatNum5"
+        />
+        <CellBeat
+          beatText="4"
+          key="beatNum6"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum7"
+        />
+        <CellBeat
+          beatText="5"
+          key="beatNum8"
+        />
+        <CellBeat
+          beatText="6"
+          key="beatNum9"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum10"
+        />
+        <CellBeat
+          beatText="7"
+          key="beatNum11"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum12"
+        />
+        <CellBeat
+          beatText="8"
+          key="beatNum13"
+        />
+      </div>
+      <div
+        className="measure__channel measure__channel--large"
+      >
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        >
+          ke
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          i
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          ko
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          o
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          te
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          n
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          no
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          o
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--14"
+        >
+          Tsuzuke
+        </div>
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--2 cell--dance"
+        />
+        <div
+          className="cell cell--9 cell--dance"
+        >
+          grid
+        </div>
+        <div
+          className="cell cell--3 cell--dance"
+        />
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--3"
+        />
+        <div
+          className="cell cell--6 cell--dance"
+        >
+          Sits back on his knee (9)
+        </div>
+        <div
+          className="cell cell--5"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="measure measure--current"
+  >
+    <MeasureLabelContainer
+      next={false}
+      previous={false}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__channel"
+      >
+        <CellBeat
+          beatText=""
+          key="beatNum0"
+        />
+        <CellBeat
+          beatText="1"
+          key="beatNum1"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum2"
+        />
+        <CellBeat
+          beatText="2"
+          key="beatNum3"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum4"
+        />
+        <CellBeat
+          beatText="3"
+          key="beatNum5"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum6"
+        />
+        <CellBeat
+          beatText="4"
+          key="beatNum7"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum8"
+        />
+        <CellBeat
+          beatText="5"
+          key="beatNum9"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum10"
+        />
+        <CellBeat
+          beatText="6"
+          key="beatNum11"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum12"
+        />
+        <CellBeat
+          beatText="7"
+          key="beatNum13"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum14"
+        />
+        <CellBeat
+          beatText="8"
+          key="beatNum15"
+        />
+      </div>
+      <div
+        className="measure__channel measure__channel--large"
+      >
+        <div
+          className="cell cell--2 cell--text"
+        />
+        <div
+          className="cell cell--5 cell--text"
+        >
+          Tachibana no michinari to wa,
+          <span
+            className="cell__character cell__character--begin cell__character--jiutai"
+          />
+          <span
+            className="cell__range--low"
+          />
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          waga
+          <span
+            className="cell__character cell__character--end cell__character--jiutai"
+          />
+          <span
+            className="cell__range--medium"
+          />
+        </div>
+        <div
+          className="cell cell--2 cell--text"
+        >
+          koto nari.
+          <span
+            className="cell__character cell__character--begin cell__character--end cell__character--shite"
+          />
+          <span
+            className="cell__range--high"
+          />
+        </div>
+        <div
+          className="cell cell--6 cell--text"
+        />
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--2"
+        />
+        <div
+          className="cell cell--12"
+        >
+          Tsuzuke
+        </div>
+        <div
+          className="cell cell--2"
+        />
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--2 cell--nohkan"
+        >
+          grid
+        </div>
+        <div
+          className="cell cell--8 cell--nohkan"
+        >
+          grid
+        </div>
+        <div
+          className="cell cell--6 cell--nohkan"
+        >
+          grid
+        </div>
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--3"
+        />
+        <div
+          className="cell cell--6 cell--dance"
+        >
+          Sits back on his knee (9)
+        </div>
+        <div
+          className="cell cell--7"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="measure measure--next"
+  >
+    <MeasureLabelContainer
+      next={true}
+      previous={false}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__channel"
+      >
+        <CellBeat
+          beatText=""
+          key="beatNum0"
+        />
+        <CellBeat
+          beatText="1"
+          key="beatNum1"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum2"
+        />
+        <CellBeat
+          beatText="2"
+          key="beatNum3"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum4"
+        />
+        <CellBeat
+          beatText="3"
+          key="beatNum5"
+        />
+        <CellBeat
+          beatText="4"
+          key="beatNum6"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum7"
+        />
+        <CellBeat
+          beatText="5"
+          key="beatNum8"
+        />
+        <CellBeat
+          beatText="6"
+          key="beatNum9"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum10"
+        />
+        <CellBeat
+          beatText="7"
+          key="beatNum11"
+        />
+        <CellBeat
+          beatText=""
+          key="beatNum12"
+        />
+        <CellBeat
+          beatText="8"
+          key="beatNum13"
+        />
+      </div>
+      <div
+        className="measure__channel measure__channel--large"
+      >
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        >
+          ke
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          i
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          ko
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          o
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          te
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          n
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          no
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        >
+          o
+        </div>
+        <div
+          className="cell cell--1 cell--text"
+        />
+        <div
+          className="cell cell--1 cell--text"
+        />
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--14"
+        >
+          Tsuzuke
+        </div>
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--2 cell--dance"
+        />
+        <div
+          className="cell cell--9 cell--dance"
+        >
+          grid
+        </div>
+        <div
+          className="cell cell--3 cell--dance"
+        />
+      </div>
+      <div
+        className="measure__channel"
+      >
+        <div
+          className="cell cell--3"
+        />
+        <div
+          className="cell cell--6 cell--dance"
+        >
+          Sits back on his knee (9)
+        </div>
+        <div
+          className="cell cell--5"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

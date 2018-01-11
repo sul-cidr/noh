@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CellBeat> renders as expected by default 1`] = `
+<div
+  className="cell cell--1 cell--beat"
+>
+  1
+</div>
+`;
