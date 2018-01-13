@@ -143,9 +143,8 @@ export const extractRows = rows =>
   );
 
 export const processPhrases = data => {
-  const sectionName = normalize(data[0][1]);
-  const rows = data.slice(1);
-  const phrases = [...Array(rows.length).keys()] // range(rows.length)
+  const rows = data.slice(1); // data[0] has section name info
+  return [...Array(rows.length).keys()] // range(rows.length)
     .map(idx => {
       const row = rows[idx];
       if (row[0].toLowerCase() === "phrase") {
@@ -156,15 +155,13 @@ export const processPhrases = data => {
       return null;
     })
     .filter(Boolean);
-  const score = { sectionName, phrases };
-  return score;
 };
 
 export const processMetadata = data => {
   const keys = data[0]
     .filter(Boolean)
     .map(str => toCamelCaseTrim(str))
-    .slice(0, -1);
+    .slice(0, -1); // notes need to be ignored
   const rows = data.slice(1);
   return rows.reduce(
     (obj, row) =>
@@ -184,10 +181,23 @@ export const processMetadata = data => {
   );
 };
 
+export const processCaptions = data => {
+  const keys = data[0].filter(Boolean).map(str => toCamelCaseTrim(str));
+  const rows = data.slice(1);
+  return rows.map(row =>
+    Object.assign(
+      {},
+      ...[...Array(row.length).keys()].map(idx => ({ [keys[idx]]: row[idx] }))
+    )
+  );
+};
+
 export const downloadCSV = url =>
   axios
     .get(url.replace("edit#gid", "export?format=csv&gid"))
-    .then(response => Papa.parse(response.data, { skipEmptyLines: true }))
+    .then(response =>
+      Papa.parse(response.data.trim(), { skipEmptyLines: true })
+    )
     .catch(error => logError(`Unable to download ${url}`, error));
 
 export const main = (configPath, quiet) => {
@@ -211,12 +221,16 @@ export const main = (configPath, quiet) => {
         promises.push(
           Promise.all([
             downloadCSV(section.phrases),
-            downloadCSV(section.metadata)
+            downloadCSV(section.metadata),
+            section.captions ? downloadCSV(section.captions) : null
           ])
             .then(data => {
-              const [phrases, metadata] = data;
+              const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
               sectionData.phrases = processPhrases(phrases.data).phrases;
+              sectionData.captions = captions
+                ? processCaptions(captions.data)
+                : [];
               sectionData.narrative = {
                 value: `/${play.playName}/narratives/${section.sectionName}.html`
               };

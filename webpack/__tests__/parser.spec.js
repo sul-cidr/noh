@@ -16,6 +16,7 @@ import {
   extractRows,
   processPhrases,
   processMetadata,
+  processCaptions,
   downloadCSV,
   main as parserMain
 } from "../scripts/parser";
@@ -148,6 +149,10 @@ describe("parser", () => {
     expect(processMetadata(fixtures.metadata)).toMatchSnapshot();
   });
 
+  it("processCaptions parses caption lines into a list of hash maps", () => {
+    expect(processCaptions(fixtures.captions)).toMatchSnapshot();
+  });
+
   it("logError logs errors and throws an exception", () => {
     expect(() => {
       logError("Error message");
@@ -213,13 +218,15 @@ describe("parser", () => {
     spy.mockRestore();
   });
 
-  it("main downloads and parses phrases and metadata", done => {
+  it("main downloads and parses phrases, metadata, and captions", done => {
     mock.reset();
     mock
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
-      .reply(200, fixtures.metadataCSV);
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
@@ -241,7 +248,9 @@ describe("parser", () => {
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
-      .reply(200, fixtures.metadataCSV);
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
@@ -262,6 +271,8 @@ describe("parser", () => {
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, "")
       .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, "")
+      .onGet(fixtures.config[0].sections[0].captions)
       .reply(200, "");
     const spyRead = jest
       .spyOn(fs, "readFileSync")
