@@ -14,6 +14,36 @@
   border-right: $tl-separator;
   min-width: 18rem;
   width: 30%;
+  height: 100vh;
+}
+
+.sidebar__container {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.sidebar__header {
+  background-color: $blue-dark;
+  color: $white;
+  padding: 1rem;
+  position: relative;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.sidebar__back-link {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+
+  @include text(xs);
+}
+
+.sidebar__extras {
+  flex-shrink: 0;
 }
 
 .sidebar--section {

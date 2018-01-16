@@ -18,11 +18,14 @@ const App = props => (
   <Provider store={store}>
     <div className="app-container">
       <aside className="sidebar sidebar--section">
-        <div className="narrative-container">
-          <h1>{props.title}</h1>
+        <div className="sidebar__container">
+          <div className="sidebar__header">
+            <div className="sidebar__back-link">Hashitomi</div>
+            <h1>{props.title}</h1>
+          </div>
           <Narrative narrative={props.narrative} />
         </div>
-        <div>
+        <div className="sidebar__extras">
           <HighlightedTextContainer
             singingStyle={props.singingStyle}
             phrases={props.phrases}
