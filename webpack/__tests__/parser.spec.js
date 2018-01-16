@@ -1,4 +1,4 @@
-// import fs from "fs";
+import fs from "fs";
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 
@@ -187,77 +187,94 @@ describe("parser", () => {
     }).toThrow();
   });
 
-  // xit("main raises an exception when config is malformed", () => {
-  //   expect(() => {
-  //     jest.spyOn(fs, "readFileSync").mockReturnValueOnce(JSON.stringify(0));
-  //     parserMain("path/to/config", true);
-  //   }).toThrow();
-  // });
+  it("main raises an exception when config is malformed", () => {
+    const spy = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(0));
+    expect(() => {
+      parserMain("path/to/config", true);
+    }).toThrow();
+    spy.mockRestore();
+  });
 
-  // xit("main downloads and parses phrases and metadata", done => {
-  //   mock.reset();
-  //   mock
-  //     .onGet(fixtures.config[0].sections[0].phrases)
-  //     .reply(200, fixtures.phrasesCSV)
-  //     .onGet(fixtures.config[0].sections[0].metadata)
-  //     .reply(200, fixtures.metadataCSV);
-  //   jest
-  //     .spyOn(fs, "readFileSync")
-  //     .mockReturnValueOnce(JSON.stringify(fixtures.config));
-  //   jest.spyOn(fs, "writeFileSync").mockImplementation((file, jsonData) => {
-  //     expect(jsonData).toMatchSnapshot();
-  //     done();
-  //   });
-  //   return parserMain("path/to/config", false);
-  // });
+  it("main downloads and parses phrases and metadata", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, fixtures.phrasesCSV)
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, fixtures.metadataCSV);
+    const spyRead = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation((file, jsonData) => {
+        expect(jsonData).toMatchSnapshot();
+      });
+    return parserMain("path/to/config", false).then(() => {
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
+      done();
+    });
+  });
 
-  // xit("main writes to console when -q/--quiet is not passed in", done => {
-  //   mock.reset();
-  //   mock
-  //     .onGet(fixtures.config[0].sections[0].phrases)
-  //     .reply(200, fixtures.phrasesCSV)
-  //     .onGet(fixtures.config[0].sections[0].metadata)
-  //     .reply(200, fixtures.metadataCSV);
-  //   jest
-  //     .spyOn(fs, "readFileSync")
-  //     .mockReturnValueOnce(JSON.stringify(fixtures.config));
-  //   jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
-  //   return parserMain("path/to/config", false).then(() => {
-  //     expect(console.info.mock.calls.length).toBe(2);
-  //     done();
-  //   });
-  // });
+  it("main writes to console when -q/--quiet is not passed in", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, fixtures.phrasesCSV)
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, fixtures.metadataCSV);
+    const spyRead = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
+    return parserMain("path/to/config", false).then(() => {
+      expect(console.info.mock.calls.length).toBe(2);
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
+      done();
+    });
+  });
 
-  // xit("main raises an exception when data parsing fails", done => {
-  //   mock.reset();
-  //   mock
-  //     .onGet(fixtures.config[0].sections[0].phrases)
-  //     .reply(200, "")
-  //     .onGet(fixtures.config[0].sections[0].metadata)
-  //     .reply(200, "");
-  //   jest
-  //     .spyOn(fs, "readFileSync")
-  //     .mockReturnValueOnce(JSON.stringify(fixtures.config));
-  //   jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
-  //   return parserMain("path/to/config", true).catch(error => {
-  //     expect(error.message).toMatch("Unable to process section data");
-  //     done();
-  //   });
-  // });
+  it("main raises an exception when data parsing fails", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, "")
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, "");
+    const spyRead = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
+    return parserMain("path/to/config", true).catch(error => {
+      expect(error.message).toMatch("Unable to process section data");
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
+      done();
+    });
+  });
 
-  // xit("main raises an exception when writing data to disk fails", done => {
-  //   mock.reset();
-  //   mock
-  //     .onGet(fixtures.config[0].sections[0].phrases)
-  //     .reply(200, "")
-  //     .onGet(fixtures.config[0].sections[0].metadata)
-  //     .reply(200, "");
-  //   jest
-  //     .spyOn(fs, "readFileSync")
-  //     .mockReturnValueOnce(JSON.stringify(fixtures.config));
-  //   return parserMain("path/to/config", true).catch(error => {
-  //     expect(error.message).toMatch("Unable to process section data");
-  //     done();
-  //   });
-  // });
+  it("main raises an exception when writing data to disk fails", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, "")
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, "");
+    const spy = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    return parserMain("path/to/config", true).catch(error => {
+      expect(error.message).toMatch("Unable to process section data");
+      spy.mockRestore();
+      done();
+    });
+  });
 });
