@@ -188,10 +188,13 @@ describe("parser", () => {
   });
 
   it("main raises an exception when config is malformed", () => {
+    const spy = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(0));
     expect(() => {
-      jest.spyOn(fs, "readFileSync").mockReturnValueOnce(JSON.stringify(0));
       parserMain("path/to/config", true);
     }).toThrow();
+    spy.mockRestore();
   });
 
   it("main downloads and parses phrases and metadata", done => {
@@ -201,14 +204,19 @@ describe("parser", () => {
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
       .reply(200, fixtures.metadataCSV);
-    jest
+    const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    jest.spyOn(fs, "writeFileSync").mockImplementation((file, jsonData) => {
-      expect(jsonData).toMatchSnapshot();
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation((file, jsonData) => {
+        expect(jsonData).toMatchSnapshot();
+      });
+    return parserMain("path/to/config", false).then(() => {
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
-    return parserMain("path/to/config", false);
   });
 
   it("main writes to console when -q/--quiet is not passed in", done => {
@@ -218,12 +226,16 @@ describe("parser", () => {
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
       .reply(200, fixtures.metadataCSV);
-    jest
+    const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
     return parserMain("path/to/config", false).then(() => {
       expect(console.info.mock.calls.length).toBe(2);
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
   });
@@ -235,12 +247,16 @@ describe("parser", () => {
       .reply(200, "")
       .onGet(fixtures.config[0].sections[0].metadata)
       .reply(200, "");
-    jest
+    const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
     return parserMain("path/to/config", true).catch(error => {
       expect(error.message).toMatch("Unable to process section data");
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
   });
@@ -252,11 +268,12 @@ describe("parser", () => {
       .reply(200, "")
       .onGet(fixtures.config[0].sections[0].metadata)
       .reply(200, "");
-    jest
+    const spy = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
     return parserMain("path/to/config", true).catch(error => {
       expect(error.message).toMatch("Unable to process section data");
+      spy.mockRestore();
       done();
     });
   });
