@@ -1,11 +1,7 @@
-.narrative-container {
-  flex-grow: 1;
-  padding: 1rem;
-}
+@import "narrative-tabs";
+@import "narrative-text";
 
 .narrative {
-  time {
-    text-decoration: underline;
-    cursor: pointer;
-  }
+  overflow-y: auto;
+  padding: 1rem;
 }

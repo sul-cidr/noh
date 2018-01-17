@@ -33,3 +33,23 @@ $lh-sans-2xs: 1.6;        // 16px
 
 $fs-serif-md:       1rem; // 16px
 $lh-serif-md:        1.5; // 20px
+
+$font-sizes-sans: (
+  2xl: $fs-sans-2xl,
+  xl: $fs-sans-xl,
+  lg: $fs-sans-lg,
+  md: $fs-sans-md,
+  sm: $fs-sans-sm,
+  xs: $fs-sans-xs,
+  2xs: $fs-sans-2xs,
+);
+
+$line-heights-sans: (
+  2xl: $lh-sans-2xl,
+  xl: $lh-sans-xl,
+  lg: $lh-sans-lg,
+  md: $lh-sans-md,
+  sm: $lh-sans-sm,
+  xs: $lh-sans-xs,
+  2xs: $lh-sans-2xs,
+);

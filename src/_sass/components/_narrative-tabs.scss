@@ -1,0 +1,35 @@
+.react-tabs {}
+
+.react-tabs__tab-list {
+  border-bottom-color: rgba($blue-light, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625rem;
+  margin: 0;
+
+  @include flex-container($justify:flex-start, $align:stretch);
+}
+
+.react-tabs__tab  {
+  border-bottom-color: rgba($grey-light, 1);
+  border-bottom-style: solid;
+  border-bottom-width: 0.25rem;
+  color: $grey-dark;
+  flex: 1;
+  font-weight: $fw-bold;
+  padding: 0.625rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  @include text(sm);
+}
+
+.react-tabs__tab--selected {
+  border-bottom-color: $blue-dark;
+  color: $blue-dark;
+}
+
+.react-tabs__tab-panel {}
+
+.react-tabs__tab-panel--selected {}
+
+.interweave {}

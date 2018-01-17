@@ -1,19 +1,47 @@
+$transcription-text-height: 8rem;
+
+.transcription {
+  border-top: $tl-separator;
+  border-bottom: $tl-separator;
+  padding: 1rem;
+}
+
 .transcription__title {
+  margin-bottom: 0.5rem;
+
   @include flex-container($justify:space-between, $align:baseline);
+
+  h3 {
+    font-weight: $fw-bold;
+    text-transform: uppercase;
+
+    @include text(sm);
+  }
+
+  p {
+    text-transform: uppercase;
+
+    @include text(sm);
+  }
 }
 
 .transcription__text {
+  max-height: $transcription-text-height;
+  overflow-y: auto;
+
   @include flex-container($justify:flex-start, $align:baseline);
 }
 
 .transcription__original,
 .transcription__translation {
-  width: 50%;
+  flex: 1;
 
   p {
     display: inline-block;
+    font-family: $font-serif;
     padding: 0.25rem;
-    margin: 0;
+
+    @include text(lg);
   }
   p.active {
     background-color: $grey-light;
