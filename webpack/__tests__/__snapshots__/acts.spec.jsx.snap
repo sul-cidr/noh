@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Acts> renders as expected by default 1`] = `
+<div
+  className="acts-container"
+>
+  <div
+    className="act"
+    style={
+      Object {
+        "width": "35%",
+      }
+    }
+  >
+    First act (mae ba)
+  </div>
+  <div
+    className="act"
+    style={
+      Object {
+        "width": "65%",
+      }
+    }
+  >
+    Second act (nochi ba)
+  </div>
+</div>
+`;

@@ -19,8 +19,11 @@ const App = props => (
   <Provider store={store}>
     <div className="app-container">
       <aside className="sidebar sidebar--play">
-        <div className="narrative-container">
-          <h1>{props.title}</h1>
+        <div className="sidebar__container">
+          <div className="sidebar__header">
+            <div className="sidebar__back-link">Back to list</div>
+            <h1>{props.title}</h1>
+          </div>
           <Narrative narrative={props.narrative} />
         </div>
       </aside>
