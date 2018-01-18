@@ -1,5 +1,6 @@
 import fs from "fs";
 import axios from "axios";
+import mkdirp from "mkdirp";
 import MockAdapter from "axios-mock-adapter";
 
 import {
@@ -24,8 +25,11 @@ const mock = new MockAdapter(axios);
 describe("parser", () => {
   let consoleError;
   let consoleInfo;
+  let mkdirpSync;
 
   beforeEach(() => {
+    mkdirpSync = mkdirp.sync;
+    jest.spyOn(mkdirp, "sync").mockImplementation(() => {});
     consoleError = console.error;
     jest.spyOn(console, "error").mockImplementation(() => {});
     consoleInfo = console.info;
@@ -33,6 +37,7 @@ describe("parser", () => {
   });
 
   afterEach(() => {
+    mkdirp.sync = mkdirpSync;
     console.error = consoleError;
     console.info = consoleInfo;
   });
@@ -233,7 +238,7 @@ describe("parser", () => {
       .spyOn(fs, "writeFileSync")
       .mockImplementation(() => {});
     return parserMain("path/to/config", false).then(() => {
-      expect(console.info.mock.calls.length).toBe(2);
+      expect(console.info.mock.calls.length).toBe(5); // 2 sections + 1 play
       spyRead.mockRestore();
       spyWrite.mockRestore();
       done();
@@ -261,7 +266,7 @@ describe("parser", () => {
     });
   });
 
-  it("main raises an exception when writing data to disk fails", done => {
+  it("main raises an exception when writing section data to disk fails", done => {
     mock.reset();
     mock
       .onGet(fixtures.config[0].sections[0].phrases)
@@ -274,6 +279,31 @@ describe("parser", () => {
     return parserMain("path/to/config", true).catch(error => {
       expect(error.message).toMatch("Unable to process section data");
       spy.mockRestore();
+      done();
+    });
+  });
+
+  it("main raises an exception when writing play data to disk fails", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, fixtures.phrasesCSV)
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, fixtures.metadataCSV);
+    const spyRead = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null) // since there are 2 sections in the config
+      .mockImplementation(() => {
+        throw new ParserException();
+      });
+    return parserMain("path/to/config", true).catch(error => {
+      expect(error.message).toMatch("Unable to write play data");
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
   });

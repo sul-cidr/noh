@@ -861,7 +861,12 @@ Dance Present?,Yes,,Feminine to Martial style,
       playName: "kokaji",
       sections: [
         {
-          sectionName: "ageuta-3",
+          sectionName: "ageuta-1",
+          phrases: "data/phrases.csv",
+          metadata: "data/metadata.csv"
+        },
+        {
+          sectionName: "ageuta-2",
           phrases: "data/phrases.csv",
           metadata: "data/metadata.csv"
         }

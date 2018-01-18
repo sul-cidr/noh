@@ -3,6 +3,8 @@ _site
 .jekyll-metadata
 node_modules
 
+src/data
+
 src/assets/bundle.js
 src/assets/*.bundle.js
 

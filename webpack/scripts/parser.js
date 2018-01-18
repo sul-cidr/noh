@@ -1,5 +1,6 @@
 import axios from "axios";
 import fs from "fs";
+import mkdirp from "mkdirp";
 import path from "path";
 import Papa from "papaparse";
 
@@ -170,18 +171,18 @@ export const main = (configPath, quiet) => {
   }
   const promises = [];
   try {
-    const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
-    config.forEach(play => {
+    const plays = JSON.parse(fs.readFileSync(configPath, "utf8"));
+    plays.forEach(play => {
       if (!quiet) console.info(`Downloading and parsing ${play.playName}:`);
       play.sections.forEach(section => {
         if (!quiet) console.info(`- ${section.sectionName}`);
-        const filePath = path.join(
+        const sectionFilePath = path.join(
           "src",
           "data",
           play.playName,
           section.sectionName
         );
-        const fileName = `${filePath}.json`;
+        const sectionFileName = `${sectionFilePath}.json`;
         promises.push(
           Promise.all([
             downloadCSV(section.phrases),
@@ -189,9 +190,17 @@ export const main = (configPath, quiet) => {
           ])
             .then(data => {
               const [phrases, metadata] = data;
-              const parsedData = processMetadata(metadata.data);
-              parsedData.phrases = processPhrases(phrases.data).phrases;
-              fs.writeFileSync(fileName, JSON.stringify(parsedData, null, 2));
+              const sectionData = processMetadata(metadata.data);
+              sectionData.phrases = processPhrases(phrases.data).phrases;
+              sectionData.narrative = {
+                value: `/${play.playName}/narratives/${section.sectionName}.html`
+              };
+              mkdirp.sync(path.join("src", "data", play.playName));
+              fs.writeFileSync(
+                sectionFileName,
+                JSON.stringify(sectionData, null, 2)
+              );
+              return [play, sectionData];
             })
             .catch(error => {
               logError(
@@ -207,7 +216,35 @@ export const main = (configPath, quiet) => {
     logError(`Malformed config file ${configPath}`, error);
   }
   process.exitCode = 0;
-  return Promise.all(promises);
+  return Promise.all(promises)
+    .then(metadatas => {
+      if (!quiet) console.info("Writing play data:");
+      const playSections = metadatas.reduce((map, [play, section]) => {
+        /* eslint-disable no-param-reassign */
+        if (!(play.playName in map)) {
+          map[play.playName] = play;
+          map[play.playName].sections = [];
+          map[play.playName].narrative = `/${play.playName}.html`;
+        } else {
+          delete section.phrases;
+          map[play.playName].sections.push(section);
+        }
+        /* eslint-enable no-param-reassign */
+        return map;
+      }, {});
+      // eslint-disable-next-line no-restricted-syntax
+      for (const playName in playSections) {
+        if (!quiet) console.info(`- ${playName}`);
+        const sections = playSections[playName];
+        const playFilePath = path.join("src", "data", playName);
+        const playFileName = `${playFilePath}.json`;
+        mkdirp.sync(path.join("src", "data"));
+        fs.writeFileSync(playFileName, JSON.stringify(sections, null, 2));
+      }
+    })
+    .catch(error => {
+      logError(error.message || "Unable to write play data", error);
+    });
 };
 
 // If used as a CLI
