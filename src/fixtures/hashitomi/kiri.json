@@ -1,0 +1,162 @@
+{
+  "title": "Hashitomi Kiri",
+  "narrative": "/hashitomi/narratives/kiri.html",
+  "videoUrl":
+    "https://www.dropbox.com/s/r1kcgknu22b6iao/hashitomi-kiri-dance-part1.mov?dl=1",
+  "singingStyle": "Spoken",
+  "videoDuration": "01:00:00",
+  "maxIntensity": 21,
+  "sections": [
+    {
+      "name": "Nanori",
+      "intensity": 5,
+      "duration": "00:02:00"
+    },
+    {
+      "name": "Mondo",
+      "intensity": 2,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Ageuta",
+      "intensity": 7,
+      "duration": "00:03:30"
+    },
+    {
+      "name": "Ashirai",
+      "intensity": 12,
+      "duration": "00:05:00"
+    },
+    {
+      "name": "Yobikake",
+      "intensity": 8,
+      "duration": "00:02:30"
+    },
+    {
+      "name": "Yobikake2",
+      "intensity": 15,
+      "duration": "00:10:00"
+    },
+    {
+      "name": "Mondo2",
+      "intensity": 18,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Ageuta2",
+      "intensity": 21,
+      "duration": "00:02:00"
+    },
+    {
+      "name": "Kuri",
+      "intensity": 5,
+      "duration": "00:07:00"
+    },
+    {
+      "name": "Sashi",
+      "intensity": 9,
+      "duration": "00:1:30"
+    },
+    {
+      "name": "Iguse",
+      "intensity": 10,
+      "duration": "00:05:30"
+    },
+    {
+      "name": "Mondo3",
+      "intensity": 12,
+      "duration": "00:02:00"
+    },
+    {
+      "name": "Ageuta3",
+      "intensity": 14,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Notto",
+      "intensity": 18,
+      "duration": "00:03:00"
+    },
+    {
+      "name": "Noriji2",
+      "intensity": 20,
+      "duration": "00:01:00"
+    },
+    {
+      "name": "Hayafue",
+      "intensity": 21,
+      "duration": "00:01:00"
+    },
+    {
+      "name": "Noriji",
+      "intensity": 18,
+      "duration": "00:01:00"
+    },
+    {
+      "name": "Maibataraki",
+      "intensity": 17,
+      "duration": "00:01:00"
+    },
+    {
+      "name": "Noriji3",
+      "intensity": 6,
+      "duration": "00:01:00"
+    },
+    {
+      "name": "Kiri",
+      "intensity": 21,
+      "duration": "00:02:00"
+    }
+  ],
+  "phrases": [
+    {
+      "phraseID": "I/1",
+      "startTime": 0,
+      "endTime": 6,
+      "transcription": "transcription line 1",
+      "translation": "translation line 1"
+    },
+    {
+      "phraseID": "I/2",
+      "startTime": 7,
+      "endTime": 15,
+      "transcription": "transcription line 2",
+      "translation": "translation line 2"
+    },
+    {
+      "phraseID": "I/3",
+      "startTime": 16,
+      "endTime": 22,
+      "transcription": "transcription line 3",
+      "translation": "translation line 3"
+    },
+    {
+      "phraseID": "I/4",
+      "startTime": 23,
+      "endTime": 33,
+      "transcription": "transcription line 4",
+      "translation": "translation line 4"
+    },
+    {
+      "phraseID": "II/1",
+      "startTime": 34,
+      "endTime": 40,
+      "transcription": "transcription line 5",
+      "translation": "translation line 5"
+    },
+    {
+      "phraseID": "II/2",
+      "startTime": 41,
+      "endTime": 50,
+      "transcription": "transcription line 6",
+      "translation": "translation line 6"
+    },
+    {
+      "phraseID": "II/3",
+      "startTime": 51,
+      "endTime": 60,
+      "transcription": "transcription line 7",
+      "translation": "translation line 7"
+    }
+  ]
+}
