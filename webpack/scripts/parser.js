@@ -75,6 +75,25 @@ export const cleanObject = obj =>
     return acc;
   }, {});
 
+export const parseTime = str => {
+  let hhmmss = str
+    .trim()
+    .replace(/'/g, ":")
+    .replace('"', "")
+    .split(":")
+    .map(num => num.padStart(2, "0"))
+    .join(":");
+  const quotes = (str.match(/'/gi) || []).length;
+  if (quotes === 1) {
+    hhmmss = `00:${hhmmss}`;
+  } else if (quotes === 0) {
+    hhmmss = `00:00:${hhmmss}`;
+  }
+  const [hh, mm, ss] = hhmmss.split(":").map(parseFloat);
+  const seconds = hh * 3600 + mm * 60 + ss;
+  return seconds;
+};
+
 export const extractCells = cells => {
   const texts = [];
   const styles = Object.keys(textStyles);
@@ -114,7 +133,9 @@ export const extractRows = rows =>
     (obj, row) =>
       Object.assign(obj, {
         [toCamelCase(row[0])]: {
-          value: normalize(row[1]),
+          value: row[0].toLowerCase().includes("time")
+            ? parseTime(row[1])
+            : normalize(row[1]),
           grid: extractCells(row.slice(2))
         }
       }),
@@ -151,7 +172,11 @@ export const processMetadata = data => {
         [toCamelCaseTrim(row[0])]: cleanObject(
           Object.assign(
             {},
-            ...keys.map((key, idx) => ({ [key]: row.slice(1)[idx] }))
+            ...keys.map((key, idx) => ({
+              [key]: row[0].toLowerCase().includes("time")
+                ? parseTime(row.slice(1)[idx])
+                : row.slice(1)[idx]
+            }))
           )
         )
       }),
