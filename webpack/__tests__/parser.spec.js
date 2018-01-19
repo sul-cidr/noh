@@ -11,6 +11,7 @@ import {
   normalize,
   extractVoices,
   cleanObject,
+  parseTime,
   extractCells,
   extractRows,
   processPhrases,
@@ -76,6 +77,16 @@ describe("parser", () => {
     expect(cleanObject({ a: "content", b: null, c: null })).toEqual({
       a: "content"
     });
+  });
+
+  it("parses time codes expressed in h'm's.ms\" to seconds.millis", () => {
+    expect(parseTime("2'3'3\"")).toEqual(2 * 3600 + 3 * 60 + 3);
+    expect(parseTime("3'3\"")).toEqual(3 * 60 + 3);
+    expect(parseTime("63'3\"")).toEqual(63 * 60 + 3);
+    expect(parseTime("63'")).toEqual(63 * 60);
+    expect(parseTime('2"')).toEqual(2);
+    expect(parseTime("1'2.234\"")).toEqual(1 * 60 + 2.234);
+    expect(parseTime("1'65'65\"")).toEqual(1 * 3600 + 65 * 60 + 65);
   });
 
   it("extractCells extracts and formats an individual row", () => {

@@ -691,7 +691,7 @@ Object {
   },
   "startTime": Object {
     "grid": Array [],
-    "value": "31'00\\"",
+    "value": 1860,
   },
   "syllableNumber": Object {
     "grid": Array [
@@ -910,7 +910,7 @@ exports[`parser main downloads and parses phrases and metadata 1`] = `
   \\"phrases\\": [
     {
       \\"startTime\\": {
-        \\"value\\": \\"30'05\\\\\\"\\",
+        \\"value\\": 1805,
         \\"grid\\": []
       },
       \\"beat\\": {
@@ -1163,7 +1163,7 @@ exports[`parser main downloads and parses phrases and metadata 1`] = `
     },
     {
       \\"startTime\\": {
-        \\"value\\": \\"30'14\\\\\\"\\",
+        \\"value\\": 1814,
         \\"grid\\": []
       },
       \\"beat\\": {
@@ -1435,7 +1435,7 @@ exports[`parser main downloads and parses phrases and metadata 2`] = `
   \\"phrases\\": [
     {
       \\"startTime\\": {
-        \\"value\\": \\"30'05\\\\\\"\\",
+        \\"value\\": 1805,
         \\"grid\\": []
       },
       \\"beat\\": {
@@ -1688,7 +1688,7 @@ exports[`parser main downloads and parses phrases and metadata 2`] = `
     },
     {
       \\"startTime\\": {
-        \\"value\\": \\"30'14\\\\\\"\\",
+        \\"value\\": 1814,
         \\"grid\\": []
       },
       \\"beat\\": {
@@ -1976,7 +1976,7 @@ Object {
     "value": "Feminine to Martial style",
   },
   "endTime": Object {
-    "value": "31'19\\"",
+    "value": 1879,
   },
   "intensity": Object {
     "number": "13",
@@ -2002,7 +2002,7 @@ Object {
     "value": "Ageuta-3",
   },
   "startTime": Object {
-    "value": "30'05\\"",
+    "value": 1805,
   },
   "text": Object {
     "value": "Congruent - Hiranori",
@@ -2101,7 +2101,7 @@ Object {
       "phrase": "1",
       "startTime": Object {
         "grid": Array [],
-        "value": "30'05\\"",
+        "value": 1805,
       },
       "syllableNumber": Object {
         "grid": Array [
@@ -2383,7 +2383,7 @@ Object {
       "phrase": "2",
       "startTime": Object {
         "grid": Array [],
-        "value": "30'14\\"",
+        "value": 1814,
       },
       "syllableNumber": Object {
         "grid": Array [
