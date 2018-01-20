@@ -165,11 +165,33 @@ describe("parser", () => {
     }).toThrow();
   });
 
-  it("downloadCSV downloads data from a CSV URL", done => {
+  it("downloadCSV downloads data from a phrases CSV URL", done => {
     const type = "phrases";
     const url = `/data/${type}.csv`;
     mock.reset();
     mock.onGet(url).reply(200, fixtures.phrasesCSV);
+    return downloadCSV(url).then(data => {
+      expect(data).toMatchSnapshot();
+      done();
+    });
+  });
+
+  it("downloadCSV downloads data from a metadata CSV URL", done => {
+    const type = "metadata";
+    const url = `/data/${type}.csv`;
+    mock.reset();
+    mock.onGet(url).reply(200, fixtures.metadataCSV);
+    return downloadCSV(url).then(data => {
+      expect(data).toMatchSnapshot();
+      done();
+    });
+  });
+
+  it("downloadCSV downloads data from a captions CSV URL", done => {
+    const type = "captions";
+    const url = `/data/${type}.csv`;
+    mock.reset();
+    mock.onGet(url).reply(200, fixtures.captionsCSV);
     return downloadCSV(url).then(data => {
       expect(data).toMatchSnapshot();
       done();
@@ -294,6 +316,8 @@ describe("parser", () => {
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, "")
       .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, "")
+      .onGet(fixtures.config[0].sections[0].captions)
       .reply(200, "");
     const spy = jest
       .spyOn(fs, "readFileSync")
@@ -311,7 +335,9 @@ describe("parser", () => {
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
-      .reply(200, fixtures.metadataCSV);
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));

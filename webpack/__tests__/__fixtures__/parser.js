@@ -878,13 +878,13 @@ Start time,End time,Translation,Transcription
         {
           sectionName: "ageuta-1",
           phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv"
+          metadata: "data/metadata.csv",
+          captions: "data/captions.csv"
         },
         {
           sectionName: "ageuta-2",
           phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv",
-          captions: "data/captions.csv"
+          metadata: "data/metadata.csv"
         }
       ]
     }

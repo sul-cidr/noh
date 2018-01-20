@@ -187,7 +187,11 @@ export const processCaptions = data => {
   return rows.map(row =>
     Object.assign(
       {},
-      ...[...Array(row.length).keys()].map(idx => ({ [keys[idx]]: row[idx] }))
+      ...[...Array(row.length).keys()].map(idx => ({
+        [keys[idx]]: keys[idx].toLowerCase().includes("time")
+          ? parseTime(row[idx])
+          : row[idx]
+      }))
     )
   );
 };
@@ -219,11 +223,11 @@ export const main = (configPath, quiet) => {
         );
         const sectionFileName = `${sectionFilePath}.json`;
         promises.push(
-          Promise.all([
-            downloadCSV(section.phrases),
-            downloadCSV(section.metadata),
-            section.captions ? downloadCSV(section.captions) : null
-          ])
+          Promise.all(
+            [section.phrases, section.metadata, section.captions]
+              .filter(Boolean)
+              .map(downloadCSV)
+          )
             .then(data => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
