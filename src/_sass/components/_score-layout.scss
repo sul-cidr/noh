@@ -77,7 +77,7 @@ $grid-columns: 16;
 
 .measure--next,
 .measure--prev {
-  background-color: $white;
+  background-color: rgba($grey-lightest, 1);
   color: $black;
 
   .measure__label-container {
@@ -96,5 +96,5 @@ $grid-columns: 16;
 }
 
 .measure--current {
-  background-color: rgba($yellow-shade-2, 0.1);
+  background-color: $white;
 }
