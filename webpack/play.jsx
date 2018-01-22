@@ -56,7 +56,7 @@ const App = props => (
               </div>
             </div>
             {/* These have to update based on current time */}
-            <IntermediaTable play="Hashitomi" sections={props.sections} />
+            <IntermediaTable play={props.title} sections={props.sections} />
           </div>
         </div>
       </main>
@@ -74,18 +74,31 @@ App.propTypes = {
   isPlaying: PropTypes.bool,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
-      name: PropTypes.string,
-      intensity: PropTypes.number,
-      duration: PropTypes.string,
-      timeStart: PropTypes.string,
-      timeEnd: PropTypes.string,
-      voices: PropTypes.string,
-      voiceType: PropTypes.string,
-      text: PropTypes.string,
-      percussion: PropTypes.string,
-      percussionType: PropTypes.string,
-      nohkan: PropTypes.string,
-      dance: PropTypes.string
+      play: PropTypes.shape({ value: PropTypes.string }),
+      sectionName: PropTypes.shape({ value: PropTypes.string }),
+      intensity: PropTypes.shape({ number: PropTypes.string }),
+      // videoDuration has to be calculated
+      // videoDuration: PropTypes.string,
+      startTime: PropTypes.shape({ value: PropTypes.number }),
+      endTime: PropTypes.shape({ value: PropTypes.number }),
+      numberVoices: PropTypes.shape({
+        number: PropTypes.string,
+        value: PropTypes.string
+      }),
+      voice: PropTypes.shape({ value: PropTypes.string }),
+      text: PropTypes.shape({ value: PropTypes.string }),
+      numberOfPercussion: PropTypes.shape({ number: PropTypes.string }),
+      percussion: PropTypes.shape({ value: PropTypes.string }),
+      nokhanPresent: PropTypes.shape({
+        present: PropTypes.string,
+        value: PropTypes.string
+      }),
+      dancePresent: PropTypes.shape({
+        present: PropTypes.string,
+        value: PropTypes.string
+      }),
+      captions: PropTypes.Array,
+      narrative: PropTypes.shape({ value: PropTypes.string })
     })
   ).isRequired,
   maxIntensity: PropTypes.number.isRequired
