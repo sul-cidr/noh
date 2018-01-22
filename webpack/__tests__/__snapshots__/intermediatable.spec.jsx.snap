@@ -8,32 +8,74 @@ exports[`<InterMediaTable> renders as expected while connected 1`] = `
   sections={
     Array [
       Object {
-        "dance": "Dance to text",
-        "duration": "00:02:00",
-        "intensity": 5,
-        "name": "Nanori",
-        "nohkan": "Non Congruent",
-        "percussion": "Otsuzumi + Kotsuzumi + Taiko",
-        "percussionType": "Non Congruent",
-        "text": "Sashinori - Non Congruent",
-        "timeEnd": "00:03:00",
-        "timeStart": "00:00:00",
-        "voiceType": "Sung - Non Congruent",
-        "voices": "Waki/Waki Tsure",
+        "dancePresent": Object {
+          "value": "Dance to text",
+        },
+        "endTime": Object {
+          "value": 180,
+        },
+        "intensity": Object {
+          "number": "5",
+        },
+        "nokhanPresent": Object {
+          "value": "Non Congruent",
+        },
+        "numberOfPercussion": Object {
+          "value": "Otsuzumi + Kotsuzumi + Taiko",
+        },
+        "numberVoices": Object {
+          "value": "Waki/Waki Tsure",
+        },
+        "percussion": Object {
+          "value": "Non Congruent",
+        },
+        "sectionName": Object {
+          "value": "Nanori",
+        },
+        "startTime": Object {
+          "value": 0,
+        },
+        "text": Object {
+          "value": "Sashinori - Non Congruent",
+        },
+        "voice": Object {
+          "value": "Sung - Non Congruent",
+        },
       },
       Object {
-        "dance": "Not present",
-        "duration": "00:03:00",
-        "intensity": 2,
-        "name": "Mondo",
-        "nohkan": "Non Congruent",
-        "percussion": "Otsuzumi + Kotsuzumi",
-        "percussionType": "Non Congruent",
-        "text": "Congruent",
-        "timeEnd": "00:04:00",
-        "timeStart": "00:03:01",
-        "voiceType": "Spoken",
-        "voices": "Waki/Waki Tsure",
+        "dancePresent": Object {
+          "value": "Dance to text",
+        },
+        "endTime": Object {
+          "value": 300,
+        },
+        "intensity": Object {
+          "number": "5",
+        },
+        "nokhanPresent": Object {
+          "value": "Non Congruent",
+        },
+        "numberOfPercussion": Object {
+          "value": "Otsuzumi + Kotsuzumi + Taiko",
+        },
+        "numberVoices": Object {
+          "value": "Waki/Waki Tsure",
+        },
+        "percussion": Object {
+          "value": "Non Congruent",
+        },
+        "sectionName": Object {
+          "value": "Mondo",
+        },
+        "startTime": Object {
+          "value": 181,
+        },
+        "text": Object {
+          "value": "Sashinori - Non Congruent",
+        },
+        "voice": Object {
+          "value": "Sung - Non Congruent",
+        },
       },
     ]
   }
@@ -62,11 +104,11 @@ exports[`<UnwrappedIntermediaTable> renders as expected 1`] = `
   />
   <IntermediaElement
     fieldName="Percussion"
-    fieldValue="Otsuzumi + Kotsuzumi + Taiko"
+    fieldValue="Non Congruent"
   />
   <IntermediaElement
     fieldName="Type of percussion"
-    fieldValue="Non Congruent"
+    fieldValue="Otsuzumi + Kotsuzumi + Taiko"
   />
   <IntermediaElement
     fieldName="Nohkan"

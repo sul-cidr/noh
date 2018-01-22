@@ -3,7 +3,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import ShodanTimelineBlock from "./ShodanTimelineBlock";
-import { convertTimeToSeconds } from "../utils";
 
 class ShodanTimeline extends Component {
   constructor(props) {
@@ -19,18 +18,22 @@ class ShodanTimeline extends Component {
       // the key here has to change if name is not unique
       const newBlock = (
         <ShodanTimelineBlock
-          key={section.name}
-          name={section.name}
+          key={section.sectionName.value}
+          name={section.sectionName.value}
           left={`${position}%`}
           maxIntensity={this.props.maxIntensity}
-          intensity={section.intensity}
-          duration={convertTimeToSeconds(section.duration)}
+          intensity={section.intensity.number || "0"}
+          // lack of start and end time data means duration isnt always being computed
+          duration={section.endTime.value - section.startTime.value || 150}
           totalDuration={this.props.totalDuration}
         />
       );
       sectionBlocks.push(newBlock);
+      // lack of start and end time data means duration isnt being computed
       const blockWidth =
-        convertTimeToSeconds(section.duration) / this.props.totalDuration * 100;
+        (section.endTime.value - section.startTime.value || 150) /
+        this.props.totalDuration *
+        100;
       currentWidth = blockWidth;
       position += currentWidth;
     });
@@ -46,10 +49,10 @@ class ShodanTimeline extends Component {
 ShodanTimeline.propTypes = {
   sections: PropTypes.arrayOf(
     PropTypes.shape({
-      name: PropTypes.string,
-      left: PropTypes.string,
-      width: PropTypes.string,
-      height: PropTypes.string
+      sectionName: PropTypes.shape({ value: PropTypes.string }),
+      intensity: PropTypes.shape({ number: PropTypes.string }),
+      startTime: PropTypes.shape({ value: PropTypes.number }),
+      endTime: PropTypes.shape({ value: PropTypes.number })
     })
   ).isRequired,
   maxIntensity: PropTypes.number.isRequired,

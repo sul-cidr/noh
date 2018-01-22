@@ -7,32 +7,34 @@ import IntermediaTable, {
 
 const sections = [
   {
-    name: "Nanori",
-    intensity: 5,
-    duration: "00:02:00",
-    timeStart: "00:00:00",
-    timeEnd: "00:03:00",
-    voices: "Waki/Waki Tsure",
-    voiceType: "Sung - Non Congruent",
-    text: "Sashinori - Non Congruent",
-    percussion: "Otsuzumi + Kotsuzumi + Taiko",
-    percussionType: "Non Congruent",
-    nohkan: "Non Congruent",
-    dance: "Dance to text"
+    sectionName: {
+      value: "Nanori"
+    },
+    intensity: { number: "5" },
+    startTime: { value: 0 },
+    endTime: { value: 180 },
+    numberVoices: { value: "Waki/Waki Tsure" },
+    voice: { value: "Sung - Non Congruent" },
+    text: { value: "Sashinori - Non Congruent" },
+    numberOfPercussion: { value: "Otsuzumi + Kotsuzumi + Taiko" },
+    percussion: { value: "Non Congruent" },
+    nokhanPresent: { value: "Non Congruent" },
+    dancePresent: { value: "Dance to text" }
   },
   {
-    name: "Mondo",
-    intensity: 2,
-    duration: "00:03:00",
-    timeStart: "00:03:01",
-    timeEnd: "00:04:00",
-    voices: "Waki/Waki Tsure",
-    voiceType: "Spoken",
-    text: "Congruent",
-    percussion: "Otsuzumi + Kotsuzumi",
-    percussionType: "Non Congruent",
-    nohkan: "Non Congruent",
-    dance: "Not present"
+    sectionName: {
+      value: "Mondo"
+    },
+    intensity: { number: "5" },
+    startTime: { value: 181 },
+    endTime: { value: 300 },
+    numberVoices: { value: "Waki/Waki Tsure" },
+    voice: { value: "Sung - Non Congruent" },
+    text: { value: "Sashinori - Non Congruent" },
+    numberOfPercussion: { value: "Otsuzumi + Kotsuzumi + Taiko" },
+    percussion: { value: "Non Congruent" },
+    nokhanPresent: { value: "Non Congruent" },
+    dancePresent: { value: "Dance to text" }
   }
 ];
 
@@ -56,7 +58,7 @@ describe("<UnwrappedIntermediaTable>", () => {
       />
     );
     const currentSection = component.instance().currentSection();
-    expect(currentSection.name).toBe("Mondo");
+    expect(currentSection.sectionName.value).toBe("Mondo");
   });
 });
 
