@@ -6,7 +6,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
 >
    
   <ShodanTimelineBlock
-    duration={150}
+    duration={300}
     intensity="17"
     key="Noriji"
     left="0%"
@@ -15,10 +15,10 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     totalDuration={1800}
   />
   <ShodanTimelineBlock
-    duration={150}
+    duration={1199}
     intensity="12"
     key="Maibataraki"
-    left="8.333333333333332%"
+    left="16.666666666666664%"
     maxIntensity={21}
     name="Maibataraki"
     totalDuration={1800}

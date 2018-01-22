@@ -24,14 +24,14 @@ class ShodanTimeline extends Component {
           maxIntensity={this.props.maxIntensity}
           intensity={section.intensity.number || "0"}
           // lack of start and end time data means duration isnt always being computed
-          duration={section.endTime - section.startTime || 150}
+          duration={section.endTime.value - section.startTime.value || 150}
           totalDuration={this.props.totalDuration}
         />
       );
       sectionBlocks.push(newBlock);
       // lack of start and end time data means duration isnt being computed
       const blockWidth =
-        (section.endTime - section.startTime || 150) /
+        (section.endTime.value - section.startTime.value || 150) /
         this.props.totalDuration *
         100;
       currentWidth = blockWidth;
