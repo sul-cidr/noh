@@ -5,16 +5,16 @@ import ShodanTimeline from "../components/ShodanTimeline";
 describe("<ShodanTimeline>", () => {
   const sections = [
     {
-      name: "Noriji",
-      left: "82%",
-      intensity: 17,
-      duration: "00:05:00"
+      sectionName: { value: "Noriji" },
+      intensity: { number: "17" },
+      startTime: { value: 0 },
+      endTime: { value: 300 }
     },
     {
-      name: "Maibataraki",
-      left: "84%",
-      intensity: 12,
-      duration: "00:16:45"
+      sectionName: { value: "Maibataraki" },
+      intensity: { number: "12" },
+      startTime: { value: 301 },
+      endTime: { value: 1500 }
     }
   ];
   it("renders as expected", () => {
@@ -22,7 +22,7 @@ describe("<ShodanTimeline>", () => {
       <ShodanTimeline
         sections={sections}
         maxIntensity={21}
-        totalDuration={2700}
+        totalDuration={1800}
       />
     );
     expect(component).toMatchSnapshot();

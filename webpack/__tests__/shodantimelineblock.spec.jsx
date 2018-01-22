@@ -8,8 +8,7 @@ describe("<ShodanTimelineBlock>", () => {
       <ShodanTimelineBlock
         name="Kiri"
         left="8%"
-        width="10%"
-        intensity={15}
+        intensity="15"
         maxIntensity={21}
         duration={10}
         totalDuration={30}

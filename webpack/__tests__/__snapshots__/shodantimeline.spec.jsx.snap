@@ -6,22 +6,22 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
 >
    
   <ShodanTimelineBlock
-    duration={300}
-    intensity={17}
+    duration={150}
+    intensity="17"
     key="Noriji"
     left="0%"
     maxIntensity={21}
     name="Noriji"
-    totalDuration={2700}
+    totalDuration={1800}
   />
   <ShodanTimelineBlock
-    duration={1005}
-    intensity={12}
+    duration={150}
+    intensity="12"
     key="Maibataraki"
-    left="11.11111111111111%"
+    left="8.333333333333332%"
     maxIntensity={21}
     name="Maibataraki"
-    totalDuration={2700}
+    totalDuration={1800}
   />
 </div>
 `;
