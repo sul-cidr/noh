@@ -224,14 +224,14 @@ export const main = (configPath, quiet) => {
         const sectionFileName = `${sectionFilePath}.json`;
         promises.push(
           Promise.all(
-            [section.phrases, section.metadata, section.captions]
-              .filter(Boolean)
-              .map(downloadCSV)
+            [section.phrases, section.metadata, section.captions].map(
+              url => (url ? downloadCSV(url) : null)
+            )
           )
             .then(data => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
-              sectionData.phrases = processPhrases(phrases.data).phrases;
+              sectionData.phrases = processPhrases(phrases.data);
               sectionData.captions = captions
                 ? processCaptions(captions.data)
                 : [];
@@ -270,6 +270,7 @@ export const main = (configPath, quiet) => {
           map[play.playName].narrative = `/${play.playName}.html`;
         } else {
           delete section.phrases;
+          delete section.captions;
           map[play.playName].sections.push(section);
         }
         /* eslint-enable no-param-reassign */
