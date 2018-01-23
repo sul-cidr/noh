@@ -47,10 +47,11 @@ $grid-columns: 16;
 
   .measure__channel {
     border-bottom: $tl-separator;
-    font-size: $fs-sans-2xs;
     font-weight: $fw-bold;
     padding: 0 0.5rem;
-    text-transform: uppercase;
+
+    @include text(xs);
+    @include uppercase();
   }
 }
 
@@ -58,7 +59,7 @@ $grid-columns: 16;
   flex-grow: 1;
 
   .measure__channel {
-    font-size: $fs-sans-sm;
+    @include text(md);
   }
 }
 
@@ -77,18 +78,18 @@ $grid-columns: 16;
 
 .measure--next,
 .measure--prev {
-  background-color: rgba($grey-lightest, 1);
+  background-color: $grey-lightest;
   color: $black;
 
   .measure__label-container {
     border-bottom: $tl-separator;
-    font-size: $fs-sans-2xs;
     font-weight: $fw-bold;
     height: $score-channel-height * 4 + $score-channel-large-height;
     padding: 0 0.5rem;
-    text-transform: uppercase;
 
     @include flex-container($justify: center);
+    @include text(xs);
+    @include uppercase();
   }
 
   .cell {

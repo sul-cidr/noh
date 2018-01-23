@@ -37,17 +37,36 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  text-transform: uppercase;
 
-  @include text(xs);
+  @include text(sm);
+  @include uppercase();
+
+  svg {
+    margin-right: 0.375rem;
+    position: relative;
+    top: 0.125rem;
+  }
 }
 
 .sidebar__extras {
   flex-shrink: 0;
+  width: 100%;
 }
 
 .sidebar--section {
   @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
+}
+
+.sidebar__collapsable-title {
+  background-color: $grey-medium;
+  padding: 0.5rem;
+
+  h3 {
+    font-weight: $fw-bold;
+
+    @include text(sm);
+    @include uppercase();
+  }
 }
 
 .video-player {
@@ -74,8 +93,4 @@
 
 .timeline {
   width: 100%;
-}
-
-.video {
-  background-color: $grey-lighter;
 }

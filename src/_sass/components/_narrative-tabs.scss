@@ -10,7 +10,7 @@
 }
 
 .react-tabs__tab  {
-  border-bottom-color: rgba($grey-light, 1);
+  border-bottom-color: $grey-light;
   border-bottom-style: solid;
   border-bottom-width: 0.25rem;
   color: $grey-dark;
@@ -18,9 +18,9 @@
   font-weight: $fw-bold;
   padding: 0.625rem 1rem;
   text-align: center;
-  text-transform: uppercase;
 
-  @include text(sm);
+  @include text(md);
+  @include uppercase();
 }
 
 .react-tabs__tab--selected {

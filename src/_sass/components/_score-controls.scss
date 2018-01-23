@@ -38,14 +38,13 @@ $score-checkbox-height: 1.5rem;
       background-color: rgba($white, 0.25);
       border-radius: 0.125rem;
       color: $white;
-      font-size: 0.625rem;
       font-weight: $fw-medium;
       height: $score-checkbox-height;
-      letter-spacing: 0.05em;
       padding: 0.25rem 0.5rem;
-      text-transform: uppercase;
 
       @include flex-container($justify:flex-start, $align:center);
+      @include text(xs);
+      @include uppercase();
 
       g {
         fill: $white;
