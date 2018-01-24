@@ -3,7 +3,7 @@ $cell-range-height: 0.75rem;
 .cell__range--low,
 .cell__range--medium,
 .cell__range--high {
-  border-top: 0.0625rem dotted $grey-medium;
+  border-top: 0.0625rem solid $grey-medium;
   bottom: 0;
   height: $cell-range-height;
   left: 0;
