@@ -1,20 +1,11 @@
-$score-label-width: 9rem;
-$score-cell-width: 2.5rem;
-$score-channel-height: 1.5rem;
-$score-channel-large-height: 3rem;
-
-$grid-columns: 16;
-
-// Generate grid
-
 @mixin grid-column($n) {
   .cell--#{$n} {
     min-width: $score-cell-width * $n;
-    width: 100% / $grid-columns * $n;
+    width: 100% / $score-grid-columns * $n;
   }
 }
 
-@for $i from 1 through $grid-columns {
+@for $i from 1 through $score-grid-columns {
   @include grid-column($i);
 }
 
@@ -27,13 +18,13 @@ $grid-columns: 16;
 }
 
 .measure {
-  @include flex-container($justify: flex-start, $align: flex-start);
+  @include flex-container($justify:flex-start, $align:stretch);
 }
 
 .measure__channel {
   height: $score-channel-height;
 
-  @include flex-container($justify: flex-start);
+  @include flex-container($justify:flex-start);
 }
 
 .measure__channel--large {

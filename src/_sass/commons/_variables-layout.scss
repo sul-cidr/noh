@@ -1,21 +1,33 @@
 $tl-separator: 0.0625rem solid $border-color;
 
-$timeline-marks-height: 1.25rem;
-$timeline-acts-height: 1.25rem;
-
-$intermedia-table-cell: 1.75rem;
-$shodan-map-height-play: (7 * $intermedia-table-cell);
-$shodan-map-height-section: 7.5rem;
-$intermedia-height: $shodan-map-height-play + $timeline-marks-height + $timeline-acts-height;
+/* Play timeline */
 
 $timeline-marks-height: 1.25rem;
 $timeline-acts-height: 1.25rem;
-
-$intermedia-table-cell: 1.75rem;
-$shodan-map-height-play: (7 * $intermedia-table-cell);
-$intermedia-height: $shodan-map-height-play + $timeline-marks-height + $timeline-acts-height;
-
 $timeline-label-group-width: 3rem;
 $timeline-labels-width: 15rem;
 $timeline-channel-height: 2rem;
 $timeline-channel-shodan-height: 4rem;
+
+$timeline-marks-height: 1.25rem;
+$timeline-acts-height: 1.25rem;
+$intermedia-table-cell: 1.75rem;
+$shodan-map-height-play: (7 * $intermedia-table-cell);
+$shodan-map-height-section: 10rem;
+$intermedia-height: $shodan-map-height-play + $timeline-marks-height + $timeline-acts-height;
+
+/* Score */
+
+$score-label-width: 9rem;
+$score-cell-width: 2.5rem;
+$score-channel-height: 1.5rem;
+$score-channel-large-height: 3rem;
+$score-grid-columns: 16;
+
+/* Highlighted text component */
+
+$transcription-text-height: 10rem;
+
+/* Tooltip component */
+
+$tooltip-height: 2rem;
