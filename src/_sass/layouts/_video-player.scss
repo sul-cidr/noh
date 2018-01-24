@@ -27,6 +27,7 @@
   color: $white;
   padding: 1rem;
   position: relative;
+  width: 100%;
 
   h1 {
     text-align: center;
@@ -58,8 +59,10 @@
 }
 
 .sidebar__collapsable-title {
-  background-color: $grey-medium;
-  padding: 0.5rem;
+  border-top: $tl-separator;
+  padding: 1rem;
+
+  @include flex-container();
 
   h3 {
     font-weight: $fw-bold;
@@ -67,6 +70,17 @@
     @include text(sm);
     @include uppercase();
   }
+
+  .timeline & {
+    display: none;
+  }
+}
+
+.sidebar__collapsable-title--libretto {
+  background-color: $grey-lighter;
+}
+.sidebar__collapsable-title--map {
+  background-color: $white;
 }
 
 .video-player {
