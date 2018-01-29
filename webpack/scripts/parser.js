@@ -231,6 +231,8 @@ export const main = (configPath, quiet) => {
             .then(data => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
+              sectionData.videoUrl = { value: play.videoUrl };
+              sectionData.videoDuration = { value: play.videoDuration };
               sectionData.phrases = processPhrases(phrases.data);
               sectionData.captions = captions
                 ? processCaptions(captions.data)

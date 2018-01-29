@@ -1037,6 +1037,8 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
   \\"dancePresent\\": {
     \\"play\\": \\"Yes\\"
   },
+  \\"videoUrl\\": {},
+  \\"videoDuration\\": {},
   \\"phrases\\": [
     {
       \\"startTime\\": {
@@ -1575,6 +1577,8 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
   \\"dancePresent\\": {
     \\"play\\": \\"Yes\\"
   },
+  \\"videoUrl\\": {},
+  \\"videoDuration\\": {},
   \\"phrases\\": [
     {
       \\"startTime\\": {
@@ -2103,6 +2107,8 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
       \\"dancePresent\\": {
         \\"play\\": \\"Yes\\"
       },
+      \\"videoUrl\\": {},
+      \\"videoDuration\\": {},
       \\"narrative\\": {
         \\"value\\": \\"/kokaji/narratives/ageuta-2.html\\"
       }
