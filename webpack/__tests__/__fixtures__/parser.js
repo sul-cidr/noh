@@ -856,12 +856,33 @@ Percussion (Congruent or not),,,Congruent,
 Nokhan Present?,No,,,
 Dance Present?,Yes,,Feminine to Martial style,
   `,
+  captions: [
+    ["Start time", "End time", "Translation", "Transcription"],
+    [
+      "30'05\"",
+      "30'14\"",
+      "Translation goes here",
+      "tsu u ri ki no mi wo he n ji"
+    ],
+    ["30'14\"", "30'23\"", "Another line of translation", "tsu u ri ki"]
+  ],
+  captionsCSV: `
+Start time,End time,Translation,Transcription
+"30'05""","30'14""",Translation goes here,tsu u ri ki no mi wo he n ji
+"30'14""","30'23""",Another line of translation,tsu u ri ki
+  `,
   config: [
     {
       playName: "kokaji",
       sections: [
         {
-          sectionName: "ageuta-3",
+          sectionName: "ageuta-1",
+          phrases: "data/phrases.csv",
+          metadata: "data/metadata.csv",
+          captions: "data/captions.csv"
+        },
+        {
+          sectionName: "ageuta-2",
           phrases: "data/phrases.csv",
           metadata: "data/metadata.csv"
         }

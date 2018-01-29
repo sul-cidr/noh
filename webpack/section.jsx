@@ -12,7 +12,6 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import store from "./store";
 import contents from "./contents";
-import { convertTimeToSeconds } from "./utils";
 
 const App = props => (
   <Provider store={store}>
@@ -31,7 +30,7 @@ const App = props => (
                 d="M0.197894737,5.07381279 L5.31236842,0.193127854 C5.55894737,-0.0421917808 5.95894737,-0.0421917808 6.20552632,0.193127854 L6.80210526,0.762465753 C7.04842105,0.997534247 7.04868421,1.37826484 6.80315789,1.61383562 L2.74973684,5.5 L6.80289474,9.38641553 C7.04868421,9.6219863 7.04815789,10.0027169 6.80184211,10.2377854 L6.20526316,10.8071233 C5.95868421,11.0424429 5.55868421,11.0424429 5.31210526,10.8071233 L0.197894737,5.92618721 C-0.0486842105,5.69086758 -0.0486842105,5.30913242 0.197894737,5.07381279 Z"
               />
             </svg>
-            Hashitomi
+            {props.playName}
           </div>
           <h1>{props.title}</h1>
         </div>
@@ -46,7 +45,7 @@ const App = props => (
             </div>
             <HighlightedTextContainer
               singingStyle={props.singingStyle}
-              phrases={props.phrases}
+              phrases={props.captions}
               currentPhraseID="I/1"
             />
           </div>
@@ -58,7 +57,7 @@ const App = props => (
             <ShodanTimeline
               sections={props.sections}
               maxIntensity={props.maxIntensity}
-              totalDuration={convertTimeToSeconds(props.videoDuration)}
+              totalDuration={props.videoDuration}
             />
           </div>
         </div>
@@ -81,7 +80,7 @@ App.propTypes = {
   // isPlaying: PropTypes.bool,
   maxIntensity: PropTypes.number.isRequired,
   narrative: PropTypes.string.isRequired,
-  phrases: PropTypes.arrayOf(
+  captions: PropTypes.arrayOf(
     PropTypes.shape({
       phraseID: PropTypes.string,
       startTime: PropTypes.number,
@@ -90,23 +89,23 @@ App.propTypes = {
       translation: PropTypes.string
     })
   ).isRequired,
+  playName: PropTypes.string.isRequired,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
-      name: PropTypes.string,
-      left: PropTypes.string,
-      width: PropTypes.string,
-      height: PropTypes.string
+      sectionName: PropTypes.shape({ value: PropTypes.string }),
+      intensity: PropTypes.shape({ number: PropTypes.string }),
+      startTime: PropTypes.shape({ value: PropTypes.number }),
+      endTime: PropTypes.shape({ value: PropTypes.number })
     })
   ).isRequired,
   singingStyle: PropTypes.string.isRequired,
-  // startTime: PropTypes.number,
-  title: PropTypes.string,
-  videoDuration: PropTypes.string.isRequired,
+  // startTime: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  videoDuration: PropTypes.number.isRequired,
   videoUrl: PropTypes.string.isRequired
 };
 
 App.defaultProps = {
-  title: ""
   // currentTime: 0.0,
   // startTime: 0.0,
   // isPlaying: false

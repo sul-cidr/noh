@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 // calculated from duration of section and intensity
 const ShodanTimelineBlock = props => {
   // should actually check to be sure that intensity is not greater than max
-  const heightNum = props.intensity / props.maxIntensity * 100;
+  const heightNum = parseInt(props.intensity, 10) / props.maxIntensity * 100;
   const durationNum = props.duration / props.totalDuration * 100;
   return (
     <div
@@ -24,7 +24,7 @@ ShodanTimelineBlock.propTypes = {
   left: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   maxIntensity: PropTypes.number.isRequired,
-  intensity: PropTypes.number.isRequired,
+  intensity: PropTypes.string.isRequired,
   duration: PropTypes.number.isRequired,
   totalDuration: PropTypes.number.isRequired
 };

@@ -1,5 +1,6 @@
 import axios from "axios";
 import fs from "fs";
+import mkdirp from "mkdirp";
 import path from "path";
 import Papa from "papaparse";
 
@@ -74,6 +75,25 @@ export const cleanObject = obj =>
     return acc;
   }, {});
 
+export const parseTime = str => {
+  let hhmmss = str
+    .trim()
+    .replace(/'/g, ":")
+    .replace('"', "")
+    .split(":")
+    .map(num => num.padStart(2, "0"))
+    .join(":");
+  const quotes = (str.match(/'/gi) || []).length;
+  if (quotes === 1) {
+    hhmmss = `00:${hhmmss}`;
+  } else if (quotes === 0) {
+    hhmmss = `00:00:${hhmmss}`;
+  }
+  const [hh, mm, ss] = hhmmss.split(":").map(parseFloat);
+  const seconds = hh * 3600 + mm * 60 + ss;
+  return seconds;
+};
+
 export const extractCells = cells => {
   const texts = [];
   const styles = Object.keys(textStyles);
@@ -113,7 +133,9 @@ export const extractRows = rows =>
     (obj, row) =>
       Object.assign(obj, {
         [toCamelCase(row[0])]: {
-          value: normalize(row[1]),
+          value: row[0].toLowerCase().includes("time")
+            ? parseTime(row[1])
+            : normalize(row[1]),
           grid: extractCells(row.slice(2))
         }
       }),
@@ -121,9 +143,8 @@ export const extractRows = rows =>
   );
 
 export const processPhrases = data => {
-  const sectionName = normalize(data[0][1]);
-  const rows = data.slice(1);
-  const phrases = [...Array(rows.length).keys()] // range(rows.length)
+  const rows = data.slice(1); // data[0] has section name info
+  return [...Array(rows.length).keys()] // range(rows.length)
     .map(idx => {
       const row = rows[idx];
       if (row[0].toLowerCase() === "phrase") {
@@ -134,15 +155,13 @@ export const processPhrases = data => {
       return null;
     })
     .filter(Boolean);
-  const score = { sectionName, phrases };
-  return score;
 };
 
 export const processMetadata = data => {
   const keys = data[0]
     .filter(Boolean)
     .map(str => toCamelCaseTrim(str))
-    .slice(0, -1);
+    .slice(0, -1); // notes need to be ignored
   const rows = data.slice(1);
   return rows.reduce(
     (obj, row) =>
@@ -150,7 +169,11 @@ export const processMetadata = data => {
         [toCamelCaseTrim(row[0])]: cleanObject(
           Object.assign(
             {},
-            ...keys.map((key, idx) => ({ [key]: row.slice(1)[idx] }))
+            ...keys.map((key, idx) => ({
+              [key]: row[0].toLowerCase().includes("time")
+                ? parseTime(row.slice(1)[idx])
+                : row.slice(1)[idx]
+            }))
           )
         )
       }),
@@ -158,10 +181,27 @@ export const processMetadata = data => {
   );
 };
 
+export const processCaptions = data => {
+  const keys = data[0].filter(Boolean).map(str => toCamelCaseTrim(str));
+  const rows = data.slice(1);
+  return rows.map(row =>
+    Object.assign(
+      {},
+      ...[...Array(row.length).keys()].map(idx => ({
+        [keys[idx]]: keys[idx].toLowerCase().includes("time")
+          ? parseTime(row[idx])
+          : row[idx]
+      }))
+    )
+  );
+};
+
 export const downloadCSV = url =>
   axios
     .get(url.replace("edit#gid", "export?format=csv&gid"))
-    .then(response => Papa.parse(response.data, { skipEmptyLines: true }))
+    .then(response =>
+      Papa.parse(response.data.trim(), { skipEmptyLines: true })
+    )
     .catch(error => logError(`Unable to download ${url}`, error));
 
 export const main = (configPath, quiet) => {
@@ -170,28 +210,42 @@ export const main = (configPath, quiet) => {
   }
   const promises = [];
   try {
-    const config = JSON.parse(fs.readFileSync(configPath, "utf8"));
-    config.forEach(play => {
+    const plays = JSON.parse(fs.readFileSync(configPath, "utf8"));
+    plays.forEach(play => {
       if (!quiet) console.info(`Downloading and parsing ${play.playName}:`);
       play.sections.forEach(section => {
         if (!quiet) console.info(`- ${section.sectionName}`);
-        const filePath = path.join(
+        const sectionFilePath = path.join(
           "src",
           "data",
           play.playName,
           section.sectionName
         );
-        const fileName = `${filePath}.json`;
+        const sectionFileName = `${sectionFilePath}.json`;
         promises.push(
-          Promise.all([
-            downloadCSV(section.phrases),
-            downloadCSV(section.metadata)
-          ])
+          Promise.all(
+            [section.phrases, section.metadata, section.captions].map(
+              url => (url ? downloadCSV(url) : null)
+            )
+          )
             .then(data => {
-              const [phrases, metadata] = data;
-              const parsedData = processMetadata(metadata.data);
-              parsedData.phrases = processPhrases(phrases.data).phrases;
-              fs.writeFileSync(fileName, JSON.stringify(parsedData, null, 2));
+              const [phrases, metadata, captions] = data;
+              const sectionData = processMetadata(metadata.data);
+              sectionData.videoUrl = { value: play.videoUrl };
+              sectionData.videoDuration = { value: play.videoDuration };
+              sectionData.phrases = processPhrases(phrases.data);
+              sectionData.captions = captions
+                ? processCaptions(captions.data)
+                : [];
+              sectionData.narrative = {
+                value: `/${play.playName}/narratives/${section.sectionName}.html`
+              };
+              mkdirp.sync(path.join("src", "data", play.playName));
+              fs.writeFileSync(
+                sectionFileName,
+                JSON.stringify(sectionData, null, 2)
+              );
+              return [play, sectionData];
             })
             .catch(error => {
               logError(
@@ -207,7 +261,36 @@ export const main = (configPath, quiet) => {
     logError(`Malformed config file ${configPath}`, error);
   }
   process.exitCode = 0;
-  return Promise.all(promises);
+  return Promise.all(promises)
+    .then(metadatas => {
+      if (!quiet) console.info("Writing play data:");
+      const playSections = metadatas.reduce((map, [play, section]) => {
+        /* eslint-disable no-param-reassign */
+        if (!(play.playName in map)) {
+          map[play.playName] = play;
+          map[play.playName].sections = [];
+          map[play.playName].narrative = `/${play.playName}.html`;
+        } else {
+          delete section.phrases;
+          delete section.captions;
+          map[play.playName].sections.push(section);
+        }
+        /* eslint-enable no-param-reassign */
+        return map;
+      }, {});
+      // eslint-disable-next-line no-restricted-syntax
+      for (const playName in playSections) {
+        if (!quiet) console.info(`- ${playName}`);
+        const sections = playSections[playName];
+        const playFilePath = path.join("src", "data", playName);
+        const playFileName = `${playFilePath}.json`;
+        mkdirp.sync(path.join("src", "data"));
+        fs.writeFileSync(playFileName, JSON.stringify(sections, null, 2));
+      }
+    })
+    .catch(error => {
+      logError(error.message || "Unable to write play data", error);
+    });
 };
 
 // If used as a CLI

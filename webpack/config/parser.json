@@ -1,6 +1,10 @@
 [
   {
     "playName": "hashitomi",
+    "title": "Hashitomi",
+    "videoUrl": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4",
+    "videoDuration": "01:01:33",
+    "maxIntensity": 26,
     "sections": [
       {
         "sectionName": "nanoribue",
@@ -132,6 +136,10 @@
   },
   {
     "playName": "kokaji",
+    "title": "Kokaji",
+    "videoUrl": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4",
+    "videoDuration": "01:01:33",
+    "maxIntensity": 21,
     "sections": [
       {
         "sectionName": "nanori",
@@ -201,7 +209,9 @@
         "phrases":
           "https://docs.google.com/spreadsheets/d/1DptnM4noB5zOmsGzu3guWg40syyyWGZJ6gIeAySPyL0/edit#gid=0",
         "metadata":
-          "https://docs.google.com/spreadsheets/d/1DptnM4noB5zOmsGzu3guWg40syyyWGZJ6gIeAySPyL0/edit#gid=647200959"
+          "https://docs.google.com/spreadsheets/d/1DptnM4noB5zOmsGzu3guWg40syyyWGZJ6gIeAySPyL0/edit#gid=647200959",
+        "captions":
+          "https://docs.google.com/spreadsheets/d/1DptnM4noB5zOmsGzu3guWg40syyyWGZJ6gIeAySPyL0/edit#gid=1834400631"
       },
       {
         "sectionName": "kakekai-1",

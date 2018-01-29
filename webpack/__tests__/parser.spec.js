@@ -1,5 +1,6 @@
 import fs from "fs";
 import axios from "axios";
+import mkdirp from "mkdirp";
 import MockAdapter from "axios-mock-adapter";
 
 import {
@@ -10,10 +11,12 @@ import {
   normalize,
   extractVoices,
   cleanObject,
+  parseTime,
   extractCells,
   extractRows,
   processPhrases,
   processMetadata,
+  processCaptions,
   downloadCSV,
   main as parserMain
 } from "../scripts/parser";
@@ -24,8 +27,11 @@ const mock = new MockAdapter(axios);
 describe("parser", () => {
   let consoleError;
   let consoleInfo;
+  let mkdirpSync;
 
   beforeEach(() => {
+    mkdirpSync = mkdirp.sync;
+    jest.spyOn(mkdirp, "sync").mockImplementation(() => {});
     consoleError = console.error;
     jest.spyOn(console, "error").mockImplementation(() => {});
     consoleInfo = console.info;
@@ -33,6 +39,7 @@ describe("parser", () => {
   });
 
   afterEach(() => {
+    mkdirp.sync = mkdirpSync;
     console.error = consoleError;
     console.info = consoleInfo;
   });
@@ -71,6 +78,16 @@ describe("parser", () => {
     expect(cleanObject({ a: "content", b: null, c: null })).toEqual({
       a: "content"
     });
+  });
+
+  it("parses time codes expressed in h'm's.ms\" to seconds.millis", () => {
+    expect(parseTime("2'3'3\"")).toEqual(2 * 3600 + 3 * 60 + 3);
+    expect(parseTime("3'3\"")).toEqual(3 * 60 + 3);
+    expect(parseTime("63'3\"")).toEqual(63 * 60 + 3);
+    expect(parseTime("63'")).toEqual(63 * 60);
+    expect(parseTime('2"')).toEqual(2);
+    expect(parseTime("1'2.234\"")).toEqual(1 * 60 + 2.234);
+    expect(parseTime("1'65'65\"")).toEqual(1 * 3600 + 65 * 60 + 65);
   });
 
   it("extractCells extracts and formats an individual row", () => {
@@ -132,6 +149,10 @@ describe("parser", () => {
     expect(processMetadata(fixtures.metadata)).toMatchSnapshot();
   });
 
+  it("processCaptions parses caption lines into a list of hash maps", () => {
+    expect(processCaptions(fixtures.captions)).toMatchSnapshot();
+  });
+
   it("logError logs errors and throws an exception", () => {
     expect(() => {
       logError("Error message");
@@ -144,11 +165,33 @@ describe("parser", () => {
     }).toThrow();
   });
 
-  it("downloadCSV downloads data from a CSV URL", done => {
+  it("downloadCSV downloads data from a phrases CSV URL", done => {
     const type = "phrases";
     const url = `/data/${type}.csv`;
     mock.reset();
     mock.onGet(url).reply(200, fixtures.phrasesCSV);
+    return downloadCSV(url).then(data => {
+      expect(data).toMatchSnapshot();
+      done();
+    });
+  });
+
+  it("downloadCSV downloads data from a metadata CSV URL", done => {
+    const type = "metadata";
+    const url = `/data/${type}.csv`;
+    mock.reset();
+    mock.onGet(url).reply(200, fixtures.metadataCSV);
+    return downloadCSV(url).then(data => {
+      expect(data).toMatchSnapshot();
+      done();
+    });
+  });
+
+  it("downloadCSV downloads data from a captions CSV URL", done => {
+    const type = "captions";
+    const url = `/data/${type}.csv`;
+    mock.reset();
+    mock.onGet(url).reply(200, fixtures.captionsCSV);
     return downloadCSV(url).then(data => {
       expect(data).toMatchSnapshot();
       done();
@@ -188,27 +231,37 @@ describe("parser", () => {
   });
 
   it("main raises an exception when config is malformed", () => {
+    const spy = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(0));
     expect(() => {
-      jest.spyOn(fs, "readFileSync").mockReturnValueOnce(JSON.stringify(0));
       parserMain("path/to/config", true);
     }).toThrow();
+    spy.mockRestore();
   });
 
-  it("main downloads and parses phrases and metadata", done => {
+  it("main downloads and parses phrases, metadata, and captions", done => {
     mock.reset();
     mock
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
-      .reply(200, fixtures.metadataCSV);
-    jest
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
+    const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    jest.spyOn(fs, "writeFileSync").mockImplementation((file, jsonData) => {
-      expect(jsonData).toMatchSnapshot();
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation((file, jsonData) => {
+        expect(jsonData).toMatchSnapshot();
+      });
+    return parserMain("path/to/config", false).then(() => {
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
-    return parserMain("path/to/config", false);
   });
 
   it("main writes to console when -q/--quiet is not passed in", done => {
@@ -217,13 +270,19 @@ describe("parser", () => {
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
       .onGet(fixtures.config[0].sections[0].metadata)
-      .reply(200, fixtures.metadataCSV);
-    jest
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
+    const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
     return parserMain("path/to/config", false).then(() => {
-      expect(console.info.mock.calls.length).toBe(2);
+      expect(console.info.mock.calls.length).toBe(5); // 2 sections + 1 play
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
   });
@@ -234,29 +293,65 @@ describe("parser", () => {
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, "")
       .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, "")
+      .onGet(fixtures.config[0].sections[0].captions)
       .reply(200, "");
-    jest
+    const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    jest.spyOn(fs, "writeFileSync").mockImplementation(() => {});
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
     return parserMain("path/to/config", true).catch(error => {
       expect(error.message).toMatch("Unable to process section data");
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
   });
 
-  it("main raises an exception when writing data to disk fails", done => {
+  it("main raises an exception when writing section data to disk fails", done => {
     mock.reset();
     mock
       .onGet(fixtures.config[0].sections[0].phrases)
       .reply(200, "")
       .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, "")
+      .onGet(fixtures.config[0].sections[0].captions)
       .reply(200, "");
-    jest
+    const spy = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
     return parserMain("path/to/config", true).catch(error => {
       expect(error.message).toMatch("Unable to process section data");
+      spy.mockRestore();
+      done();
+    });
+  });
+
+  it("main raises an exception when writing play data to disk fails", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, fixtures.phrasesCSV)
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
+    const spyRead = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null) // since there are 2 sections in the config
+      .mockImplementation(() => {
+        throw new ParserException();
+      });
+    return parserMain("path/to/config", true).catch(error => {
+      expect(error.message).toMatch("Unable to write play data");
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
       done();
     });
   });
