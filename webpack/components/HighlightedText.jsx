@@ -5,30 +5,26 @@ import TextLine from "./TextLine";
 // containing component needs to know about currentTime and
 // calculate currentPhraseID to pass into this component
 class HighlightedText extends React.Component {
-  createLines(linesType) {
+  createLines() {
     return this.props.phrases.map(phrase => (
       <TextLine
         key={phrase.phraseID}
-        text={phrase[linesType]}
+        translation={phrase.translation}
+        transcription={phrase.transcription}
         active={phrase.phraseID === this.props.currentPhraseID}
       />
     ));
   }
 
   render() {
-    const translationLines = this.createLines("translation");
-    const transcriptionLines = this.createLines("transcription");
+    const lines = this.createLines();
     return (
       <div className="transcription">
         <div className="transcription__title">
           <h3>Text</h3>
           <p>Singing style: {this.props.singingStyle}</p>
         </div>
-
-        <div className="transcription__text">
-          <div className="transcription__original">{transcriptionLines}</div>
-          <div className="transcription__translation">{translationLines}</div>
-        </div>
+        <div className="transcription__text">{lines}</div>
       </div>
     );
   }

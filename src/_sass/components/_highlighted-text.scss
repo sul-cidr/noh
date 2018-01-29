@@ -28,22 +28,21 @@ $transcription-text-height: 8rem;
 .transcription__text {
   max-height: $transcription-text-height;
   overflow-y: auto;
+}
+
+.transcription__line {
+  font-family: $font-serif;
+  padding: 0.25rem;
 
   @include flex-container($justify:flex-start, $align:baseline);
+  @include text(lg);
+
+  &.active {
+    background-color: $grey-light;
+  }
 }
 
 .transcription__original,
 .transcription__translation {
   flex: 1;
-
-  p {
-    display: inline-block;
-    font-family: $font-serif;
-    padding: 0.25rem;
-
-    @include text(lg);
-  }
-  p.active {
-    background-color: $grey-light;
-  }
 }
