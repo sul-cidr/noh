@@ -51,24 +51,6 @@ describe("contents fetcher", () => {
     );
   });
 
-  // it("section data is retrieved and the callback invoked", () => {
-  //   mock.reset();
-  //   mock
-  //     .onGet("/data/hashitomi/kiri.json")
-  //     .reply(200, {
-  //       narrative: "/hashitomi/narratives/kiri.html",
-  //       title: "Hashitomi Kiri"
-  //     })
-  //     .onGet("/hashitomi/narratives/kiri.html")
-  //     .reply(200, "Text content");
-  //   contents.section("hashitomi", "kiri", props => {
-  //     expect(props).toEqual({
-  //       narrative: "Text content",
-  //       title: "Hashitomi Kiri"
-  //     });
-  //   });
-  // });
-
   it("section data is not retrieved and the error callback invoked", () => {
     mock.reset();
     mock.onGet("/data/hashitomi/kiri.json").reply(500);
