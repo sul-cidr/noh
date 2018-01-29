@@ -1,5 +1,5 @@
 ---
-title: Kiri
+title: Kuse
 play: Kokaji
 layout: section
 ---
