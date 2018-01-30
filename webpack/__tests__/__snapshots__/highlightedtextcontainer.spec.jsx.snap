@@ -2,14 +2,6 @@
 
 exports[`<UnwrappedHighlightedTextContainer> renders as expected unconnected to redux 1`] = `
 <div>
-  <p>
-    Current phraseID: 
-    I/1
-  </p>
-  <p>
-    Current time: 
-    13
-  </p>
   <HighlightedText
     currentPhraseID="I/1"
     phrases={
