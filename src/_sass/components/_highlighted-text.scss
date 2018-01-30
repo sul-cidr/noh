@@ -23,12 +23,21 @@
 .transcription__text {
   max-height: 0;
   overflow-y: auto;
-  padding: 0 1rem;
-
-  @include flex-container($justify:flex-start, $align:baseline);
 
   .highlighted-text__container.is-open & {
     max-height: $transcription-text-height;
+  }
+}
+
+.transcription__line {
+  font-family: $font-serif;
+  padding: 0.25rem;
+
+  @include flex-container($justify:flex-start, $align:baseline);
+  @include text(lg);
+
+  &.active {
+    background-color: $grey-light;
   }
 }
 
