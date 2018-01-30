@@ -32,8 +32,8 @@
   @include tooltip();
 
   &:hover {
-    background-color: $grey-medium;
-    border-color: $grey-dark;
+    background-color: $grey-light;
+    border-color: $grey-medium;
   }
 }
 

@@ -1,6 +1,4 @@
-.highlighted-text__container {
-  background-color: $grey-lighter;
-}
+.highlighted-text__container {}
 
 .transcription {}
 
@@ -31,10 +29,10 @@
 
 .transcription__line {
   font-family: $font-serif;
-  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem 1rem;
 
   @include flex-container($justify:flex-start, $align:baseline);
-  @include text(lg);
 
   &.active {
     background-color: $grey-light;
@@ -44,21 +42,14 @@
 .transcription__original,
 .transcription__translation {
   flex: 1;
+  font-family: $font-serif;
 
-  p {
-    font-family: $font-serif;
-    padding: 0.25rem;
-
-    @include text(lg);
-  }
-  p.active {
-    background-color: $grey-medium;
-  }
+  @include text(lg);
 }
 
 .transcription__original {
-  padding-right: 0.5rem;
+  padding-right: 0.25rem;
 }
 .transcription__translation {
-  padding-left: 0.5rem;
+  padding-left: 0.25rem;
 }

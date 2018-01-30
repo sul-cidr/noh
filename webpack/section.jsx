@@ -39,7 +39,7 @@ const App = props => (
           <div className="sidebar__gradient" />
         </div>
         <div className="sidebar__extras">
-          <div className="highlighted-text__container">
+          <div className="highlighted-text__container is-open">
             <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
               <h3>Libretto</h3>
             </div>
@@ -50,7 +50,7 @@ const App = props => (
             />
           </div>
 
-          <div className="shodan-timeline__container">
+          <div className="shodan-timeline__container is-open">
             <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
               <h3>Section map</h3>
             </div>
