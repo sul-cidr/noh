@@ -36,7 +36,6 @@ const App = props => (
         </div>
         <div className="sidebar__container">
           <Narrative narrative={props.narrative} />
-          <div className="sidebar__gradient" />
         </div>
         <div className="sidebar__extras">
           <div className="highlighted-text__container is-open">

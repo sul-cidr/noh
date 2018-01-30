@@ -38,7 +38,6 @@ const App = props => (
         </div>
         <div className="sidebar__container">
           <Narrative narrative={props.narrative} />
-          <div className="sidebar__gradient" />
         </div>
       </aside>
       <main>
