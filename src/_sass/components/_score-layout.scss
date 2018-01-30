@@ -75,7 +75,6 @@
   .measure__label-container {
     border-bottom: $tl-separator;
     font-weight: $fw-bold;
-    height: $score-channel-height * 4 + $score-channel-large-height;
     padding: 0 0.5rem;
 
     @include flex-container($justify: center);
