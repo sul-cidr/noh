@@ -18,8 +18,21 @@
 }
 
 .sidebar__container {
-  overflow-y: auto;
   flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+
+  @include flex-container($direction:column);
+
+  &::after {
+    background-image: linear-gradient(rgba($white, 0) 0%, rgba($white, 1) 100%);
+    bottom: 0;
+    content: '';
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
 }
 
 .sidebar__header {
@@ -27,6 +40,7 @@
   color: $white;
   padding: 1rem;
   position: relative;
+  width: 100%;
 
   h1 {
     text-align: center;
@@ -37,17 +51,50 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  text-transform: uppercase;
 
-  @include text(xs);
+  @include text(sm);
+  @include uppercase();
+
+  svg {
+    margin-right: 0.375rem;
+    position: relative;
+    top: 0.125rem;
+  }
 }
 
 .sidebar__extras {
   flex-shrink: 0;
+  width: 100%;
 }
 
 .sidebar--section {
   @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
+}
+
+.sidebar__collapsable-title {
+  border-top: $tl-separator;
+  padding: 1rem;
+
+  @include flex-container();
+
+  h3 {
+    font-weight: $fw-bold;
+
+    @include text(sm);
+    @include uppercase();
+  }
+
+  .timeline & {
+    display: none;
+  }
+}
+
+.sidebar__collapsable-title--libretto {
+  background-color: $white;
+}
+
+.sidebar__collapsable-title--map {
+  background-color: $white;
 }
 
 .video-player {
@@ -94,5 +141,3 @@ video::cue(.translation) {
   font-style: italic;
   font-size: 0.8em;
 }
-
-

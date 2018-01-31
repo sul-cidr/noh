@@ -26,8 +26,6 @@ class HighlightedTextContainer extends React.Component {
   render() {
     return (
       <div>
-        <p>Current phraseID: {this.props.currentPhraseID}</p>
-        <p>Current time: {this.props.currentTime}</p>
         <HighlightedText
           singingStyle={this.props.singingStyle}
           phrases={this.props.phrases}

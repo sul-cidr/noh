@@ -21,8 +21,9 @@ class HighlightedText extends React.Component {
     return (
       <div className="transcription">
         <div className="transcription__title">
-          <h3>Text</h3>
-          <p>Singing style: {this.props.singingStyle}</p>
+          <p>
+            Singing style: <span>{this.props.singingStyle}</span>
+          </p>
         </div>
         <div className="transcription__text">{lines}</div>
       </div>

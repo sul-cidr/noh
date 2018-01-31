@@ -1,20 +1,11 @@
-$score-label-width: 9rem;
-$score-cell-width: 2.5rem;
-$score-channel-height: 1.5rem;
-$score-channel-large-height: 3rem;
-
-$grid-columns: 16;
-
-// Generate grid
-
 @mixin grid-column($n) {
   .cell--#{$n} {
     min-width: $score-cell-width * $n;
-    width: 100% / $grid-columns * $n;
+    width: 100% / $score-grid-columns * $n;
   }
 }
 
-@for $i from 1 through $grid-columns {
+@for $i from 1 through $score-grid-columns {
   @include grid-column($i);
 }
 
@@ -27,13 +18,13 @@ $grid-columns: 16;
 }
 
 .measure {
-  @include flex-container($justify: flex-start, $align: flex-start);
+  @include flex-container($justify:flex-start, $align:stretch);
 }
 
 .measure__channel {
   height: $score-channel-height;
 
-  @include flex-container($justify: flex-start);
+  @include flex-container($justify:flex-start);
 }
 
 .measure__channel--large {
@@ -47,10 +38,11 @@ $grid-columns: 16;
 
   .measure__channel {
     border-bottom: $tl-separator;
-    font-size: $fs-sans-2xs;
     font-weight: $fw-bold;
     padding: 0 0.5rem;
-    text-transform: uppercase;
+
+    @include text(xs);
+    @include uppercase();
   }
 }
 
@@ -58,7 +50,7 @@ $grid-columns: 16;
   flex-grow: 1;
 
   .measure__channel {
-    font-size: $fs-sans-sm;
+    @include text(md);
   }
 }
 
@@ -77,18 +69,17 @@ $grid-columns: 16;
 
 .measure--next,
 .measure--prev {
-  background-color: $white;
+  background-color: $grey-lightest;
   color: $black;
 
   .measure__label-container {
     border-bottom: $tl-separator;
-    font-size: $fs-sans-2xs;
     font-weight: $fw-bold;
-    height: $score-channel-height * 4 + $score-channel-large-height;
     padding: 0 0.5rem;
-    text-transform: uppercase;
 
     @include flex-container($justify: center);
+    @include text(xs);
+    @include uppercase();
   }
 
   .cell {
@@ -96,5 +87,5 @@ $grid-columns: 16;
 }
 
 .measure--current {
-  background-color: rgba($yellow-shade-2, 0.1);
+  background-color: $white;
 }
