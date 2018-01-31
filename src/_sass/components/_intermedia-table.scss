@@ -18,15 +18,21 @@
   .intermedia__label,
   .intermedia__value {
     font-weight: 700;
-    font-size: 1rem;
     height: $timeline-acts-height + $timeline-marks-height;
     padding: 0 0.5rem;
+
+  }
+  .intermedia__label {
+    @include text(sm);
+  }
+
+  .intermedia__value {
+    @include text(xl);
   }
 }
 
 .intermedia__label,
 .intermedia__value {
-  font-size: 0.75rem;
   height: $intermedia-table-cell;
   padding: 0 0.5rem;
 
@@ -37,8 +43,13 @@
   border-right: $tl-separator;
   font-weight: 700;
   width: 40%;
+
+  @include text(2xs);
+  @include uppercase();
 }
 
 .intermedia__value {
   flex-grow: 1;
+
+  @include text(md);
 }

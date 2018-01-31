@@ -8,10 +8,17 @@
   width: 100%;
 }
 
-.sidebar--section {
+.shodan-timeline__container {
   .shodan-map {
-    height: $shodan-map-height-section;
+    height: 0;
     width: 100%;
+  }
+
+  &.is-open {
+    .shodan-map {
+      height: $shodan-map-height-section;
+      margin-top: 0.5rem;
+    }
   }
 }
 
@@ -25,13 +32,13 @@
   @include tooltip();
 
   &:hover {
-    background-color: $grey-medium;
-    border-color: $black;
+    background-color: $grey-light;
+    border-color: $grey-medium;
   }
 }
 
 .shodan-map__item--active {
   border: 0.0625rem solid $black;
-  background-color: #999;
+  background-color: $grey-light;
   height: 0.625rem;
 }

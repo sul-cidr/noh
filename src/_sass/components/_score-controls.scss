@@ -2,7 +2,7 @@ $score-controls-height: 2.5rem;
 $score-checkbox-height: 1.5rem;
 
 .score-controls {
-  border-top: $tl-separator;
+  background-color: $blue-dark;
   height: $score-controls-height;
   padding: 0 0.625rem;
   width: 100%;
@@ -23,30 +23,34 @@ $score-checkbox-height: 1.5rem;
 
       &:checked {
         & + label {
-          background-color: $blue-light;
-          color: $white;
+          background-color: $white;
+          color: $blue-dark;
 
           g {
-            fill: $white;
+            fill: $blue-dark;
           }
         }
       }
     }
 
     label {
-      background-color: $white;
+      background-color: rgba($white, 0.25);
       border-radius: 0.125rem;
-      font-size: 0.625rem;
+      color: $white;
       font-weight: $fw-medium;
       height: $score-checkbox-height;
-      letter-spacing: 0.05em;
       padding: 0.25rem 0.5rem;
-      text-transform: uppercase;
 
       @include flex-container($justify:flex-start, $align:center);
+      @include text(xs);
+      @include uppercase();
+
+      g {
+        fill: $white;
+      }
 
       svg {
-        margin-right: 0.125rem;
+        margin-right: 0.25rem;
       }
 
       span {
