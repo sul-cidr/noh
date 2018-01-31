@@ -1,0 +1,757 @@
+{
+  "phrases": [
+    {
+      "startTime": {
+        "value": 1192,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": [
+          {
+            "text": "ma",
+            "voices": ["jiutai"],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ta",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "wa",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ga",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "cho",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "o",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "no",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "so",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ha",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ji",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "me",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "(e)",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "1",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "l",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 13
+          }
+        ]
+      },
+      "percussion": {
+        "value": "mitsuji",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "9. Kneeling facing front.",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 4
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 1204,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": [
+          {
+            "text": "ni",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "n",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "no",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "o",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ji",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "u",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ni",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "da",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "1",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "m",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 6
+          },
+          {
+            "text": "l",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 3
+          }
+        ]
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "mitsuji",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 1215,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": [
+          {
+            "text": "ke",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ko",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "o",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "te",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "n",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "no",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "o",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "(o)",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "1",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "m",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "percussion": {
+        "value": "mitsuji",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "3"
+    }
+  ]
+}
