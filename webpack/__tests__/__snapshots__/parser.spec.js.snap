@@ -2176,19 +2176,19 @@ exports[`parser main downloads and parses phrases, metadata, and captions 6`] = 
       \\"label\\": \\"Translation\\",
       \\"kind\\": \\"subtitles\\",
       \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/kokaji.translation.vtt\\"
+      \\"url\\": \\"/data/captions/kokaji.translation.vtt\\"
     },
     {
       \\"label\\": \\"Transcription\\",
       \\"kind\\": \\"subtitles\\",
       \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/kokaji.transcription.vtt\\"
+      \\"url\\": \\"/data/captions/kokaji.transcription.vtt\\"
     },
     {
       \\"label\\": \\"Combined\\",
       \\"kind\\": \\"subtitles\\",
       \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/kokaji.combined.vtt\\"
+      \\"url\\": \\"/data/captions/kokaji.combined.vtt\\"
     }
   ],
   \\"maxIntensity\\": 0
