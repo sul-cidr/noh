@@ -40,7 +40,7 @@ const App = props => (
       <main>
         <div className="video-player">
           <div className="video-container">
-            <MasterVideo videoUrl={props.videoUrl} />
+            <MasterVideo videoUrl={props.videoUrl} tracks={props.tracks} />
           </div>
           <Score videoUrl={props.videoUrl} />
           <ScoreControls />
@@ -76,6 +76,14 @@ App.propTypes = {
   singingStyle: PropTypes.string.isRequired,
   // startTime: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
+  tracks: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      kind: PropTypes.string,
+      lang: PropTypes.string,
+      url: PropTypes.string
+    })
+  ).isRequired,
   videoDuration: PropTypes.number.isRequired,
   videoUrl: PropTypes.string.isRequired
 };

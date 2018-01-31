@@ -79,3 +79,20 @@
 .video {
   background-color: $grey-lighter;
 }
+
+video::cue {
+  whitespace: pre;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: rgba(0,0,0,0.5);
+  font-size: 1em;
+  line-height: 1;
+  font-weight: lighter;
+}
+
+video::cue(.translation-block) {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+

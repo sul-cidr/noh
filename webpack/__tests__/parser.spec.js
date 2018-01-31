@@ -11,6 +11,7 @@ import {
   normalize,
   extractVoices,
   cleanObject,
+  convertToVtt,
   parseTime,
   extractCells,
   extractRows,
@@ -153,6 +154,13 @@ describe("parser", () => {
     expect(processCaptions(fixtures.captions)).toMatchSnapshot();
   });
 
+  it("converts captions into WebVTT format", () => {
+    const captions = processCaptions(fixtures.captions);
+    expect(convertToVtt(captions, "translation")).toMatchSnapshot();
+    expect(convertToVtt(captions, "transcription")).toMatchSnapshot();
+    expect(convertToVtt(captions, "combined")).toMatchSnapshot();
+  });
+
   it("logError logs errors and throws an exception", () => {
     expect(() => {
       logError("Error message");
@@ -280,7 +288,7 @@ describe("parser", () => {
       .spyOn(fs, "writeFileSync")
       .mockImplementation(() => {});
     return parserMain("path/to/config", false).then(() => {
-      expect(console.info.mock.calls.length).toBe(5); // 2 sections + 1 play
+      expect(console.info.mock.calls).toMatchSnapshot();
       spyRead.mockRestore();
       spyWrite.mockRestore();
       done();
@@ -329,6 +337,33 @@ describe("parser", () => {
     });
   });
 
+  it("main raises an exception when writing caption data to disk fails", done => {
+    mock.reset();
+    mock
+      .onGet(fixtures.config[0].sections[0].phrases)
+      .reply(200, fixtures.phrasesCSV)
+      .onGet(fixtures.config[0].sections[0].metadata)
+      .reply(200, fixtures.metadataCSV)
+      .onGet(fixtures.config[0].sections[0].captions)
+      .reply(200, fixtures.captionsCSV);
+    const spyRead = jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValueOnce(JSON.stringify(fixtures.config));
+    const spyWrite = jest
+      .spyOn(fs, "writeFileSync")
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null) // since there are 2 sections in the config
+      .mockImplementation(() => {
+        throw new ParserException();
+      });
+    return parserMain("path/to/config", true).catch(error => {
+      expect(error.message).toMatch("Unable to write play data");
+      spyRead.mockRestore();
+      spyWrite.mockRestore();
+      done();
+    });
+  });
+
   it("main raises an exception when writing play data to disk fails", done => {
     mock.reset();
     mock
@@ -345,6 +380,9 @@ describe("parser", () => {
       .spyOn(fs, "writeFileSync")
       .mockReturnValueOnce(null)
       .mockReturnValueOnce(null) // since there are 2 sections in the config
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null) // since there are 3 caption files
       .mockImplementation(() => {
         throw new ParserException();
       });

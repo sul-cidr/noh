@@ -47,11 +47,8 @@ export function getSection(playName, sectionName, callback, error) {
             .get(`/data/${playName}.json`)
             .then(playResponse => {
               props.sections = playResponse.data.sections;
-              props.maxIntensity = Math.max(
-                ...props.sections.map(
-                  section => parseInt(section.intensity.number, 10) || 0
-                )
-              );
+              props.maxIntensity = playResponse.data.maxIntensity;
+              props.tracks = playResponse.data.tracks;
               callback(props);
             })
             .catch(err => {

@@ -1,5 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`parser converts captions into WebVTT format 1`] = `
+"WEBVTT
+
+1
+00:30:05.000 --> 00:30:14.000
+Translation goes here
+
+2
+00:30:14.000 --> 00:30:23.000
+Another line of translation"
+`;
+
+exports[`parser converts captions into WebVTT format 2`] = `
+"WEBVTT
+
+1
+00:30:05.000 --> 00:30:14.000
+tsu u ri ki no mi wo he n ji
+
+2
+00:30:14.000 --> 00:30:23.000
+tsu u ri ki"
+`;
+
+exports[`parser converts captions into WebVTT format 3`] = `
+"WEBVTT
+
+1
+00:30:05.000 --> 00:30:14.000
+<c.transcription>tsu u ri ki no mi wo he n ji</c>
+<c.translation>(Translation goes here)</c>
+
+2
+00:30:14.000 --> 00:30:23.000
+<c.transcription>tsu u ri ki</c>
+<c.translation>(Another line of translation)</c>"
+`;
+
 exports[`parser downloadCSV downloads data from a captions CSV URL 1`] = `
 Object {
   "data": Array [
@@ -2088,6 +2126,24 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 3`] = `
+"WEBVTT
+
+"
+`;
+
+exports[`parser main downloads and parses phrases, metadata, and captions 4`] = `
+"WEBVTT
+
+"
+`;
+
+exports[`parser main downloads and parses phrases, metadata, and captions 5`] = `
+"WEBVTT
+
+"
+`;
+
+exports[`parser main downloads and parses phrases, metadata, and captions 6`] = `
 "{
   \\"playName\\": \\"kokaji\\",
   \\"sections\\": [
@@ -2114,8 +2170,52 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
       }
     }
   ],
-  \\"narrative\\": \\"/kokaji.html\\"
+  \\"narrative\\": \\"/kokaji.html\\",
+  \\"tracks\\": [
+    {
+      \\"label\\": \\"Translation\\",
+      \\"kind\\": \\"subtitles\\",
+      \\"lang\\": \\"en\\",
+      \\"url\\": \\"/data/kokaji.translation.vtt\\"
+    },
+    {
+      \\"label\\": \\"Transcription\\",
+      \\"kind\\": \\"subtitles\\",
+      \\"lang\\": \\"en\\",
+      \\"url\\": \\"/data/kokaji.transcription.vtt\\"
+    },
+    {
+      \\"label\\": \\"Combined\\",
+      \\"kind\\": \\"subtitles\\",
+      \\"lang\\": \\"en\\",
+      \\"url\\": \\"/data/kokaji.combined.vtt\\"
+    }
+  ],
+  \\"maxIntensity\\": 0
 }"
+`;
+
+exports[`parser main writes to console when -q/--quiet is not passed in 1`] = `
+Array [
+  Array [
+    "Downloading and parsing kokaji:",
+  ],
+  Array [
+    "- ageuta-1",
+  ],
+  Array [
+    "- ageuta-2",
+  ],
+  Array [
+    "Writing play data:",
+  ],
+  Array [
+    "- kokaji (captions)",
+  ],
+  Array [
+    "- kokaji",
+  ],
+]
 `;
 
 exports[`parser processCaptions parses caption lines into a list of hash maps 1`] = `

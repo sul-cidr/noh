@@ -33,6 +33,7 @@ const App = props => (
             <MasterVideo
               videoUrl={props.videoUrl}
               startTime={props.startTime}
+              tracks={props.tracks}
             />
           </div>
           <div className="timeline">
@@ -101,7 +102,15 @@ App.propTypes = {
       narrative: PropTypes.shape({ value: PropTypes.string })
     })
   ).isRequired,
-  maxIntensity: PropTypes.number.isRequired
+  maxIntensity: PropTypes.number.isRequired,
+  tracks: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      kind: PropTypes.string,
+      lang: PropTypes.string,
+      url: PropTypes.string
+    })
+  ).isRequired
 };
 
 App.defaultProps = {

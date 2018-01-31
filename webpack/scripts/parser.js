@@ -3,6 +3,7 @@ import fs from "fs";
 import mkdirp from "mkdirp";
 import path from "path";
 import Papa from "papaparse";
+import { convertSecondsToHhmmss } from "../utils";
 
 export const parserConfig = path.join("webpack", "config", "parser.json");
 
@@ -56,6 +57,8 @@ export const normalize = str =>
     .toLowerCase()
     .replace(regexps.whiteSpaces, "-");
 
+export const capitalize = str => str[0].toUpperCase() + str.slice(1);
+
 export const extractVoices = str => [
   str &&
     (str.match(regexps.betweenBrackets) || [null, ""])[1]
@@ -92,6 +95,22 @@ export const parseTime = str => {
   const [hh, mm, ss] = hhmmss.split(":").map(parseFloat);
   const seconds = hh * 3600 + mm * 60 + ss;
   return seconds;
+};
+
+export const convertToVtt = (captions, track) => {
+  const webvtt = captions.map((caption, index) => {
+    const timeCode = `${convertSecondsToHhmmss(
+      caption.startTime
+    )}.000 --> ${convertSecondsToHhmmss(caption.endTime)}.000`;
+    let content;
+    if (track in caption) {
+      content = caption[track];
+    } else {
+      content = `<c.transcription>${caption.transcription}</c>\n<c.translation>(${caption.translation})</c>`;
+    }
+    return [index + 1, timeCode, content].join("\n");
+  });
+  return `WEBVTT\n\n${webvtt.join("\n\n")}`;
 };
 
 export const extractCells = cells => {
@@ -269,10 +288,12 @@ export const main = (configPath, quiet) => {
         if (!(play.playName in map)) {
           map[play.playName] = play;
           map[play.playName].sections = [];
+          map[play.playName].captions = [];
           map[play.playName].narrative = `/${play.playName}.html`;
         } else {
-          delete section.phrases;
+          map[play.playName].captions.push(...section.captions);
           delete section.captions;
+          delete section.phrases;
           map[play.playName].sections.push(section);
         }
         /* eslint-enable no-param-reassign */
@@ -280,12 +301,33 @@ export const main = (configPath, quiet) => {
       }, {});
       // eslint-disable-next-line no-restricted-syntax
       for (const playName in playSections) {
+        if (!quiet) console.info(`- ${playName} (captions)`);
+        const play = playSections[playName];
+        mkdirp.sync(path.join("src", "data", "captions"));
+        const trackFilePath = path.join("src", "data", "captions", playName);
+        play.tracks = [];
+        // eslint-disable-next-line no-restricted-syntax
+        for (const track of ["translation", "transcription", "combined"]) {
+          const trackFileName = `${trackFilePath}.${track}.vtt`;
+          fs.writeFileSync(trackFileName, convertToVtt(play.captions, track));
+          play.tracks.push({
+            label: capitalize(track),
+            kind: "subtitles",
+            lang: "en",
+            url: `/data/${playName}.${track}.vtt`
+          });
+        }
+        delete play.captions;
+        play.maxIntensity = Math.max(
+          ...play.sections.map(
+            section => parseInt(section.intensity.number, 10) || 0
+          )
+        );
         if (!quiet) console.info(`- ${playName}`);
-        const sections = playSections[playName];
+        mkdirp.sync(path.join("src", "data"));
         const playFilePath = path.join("src", "data", playName);
         const playFileName = `${playFilePath}.json`;
-        mkdirp.sync(path.join("src", "data"));
-        fs.writeFileSync(playFileName, JSON.stringify(sections, null, 2));
+        fs.writeFileSync(playFileName, JSON.stringify(play, null, 2));
       }
     })
     .catch(error => {

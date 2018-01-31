@@ -132,6 +132,14 @@ describe("contents fetcher", () => {
       play: { value: "Hashitomi" },
       voice: { value: "style" }
     };
+    const playData = {
+      sections: [
+        { intensity: { number: 10 } },
+        { intensity: { number: null } }
+      ],
+      maxIntensity: 10,
+      tracks: [{}, {}]
+    };
     mock.reset();
     mock
       .onGet("/data/hashitomi/kiri.json")
@@ -139,12 +147,7 @@ describe("contents fetcher", () => {
       .onGet("/hashitomi/narratives/kiri.html")
       .reply(200, "Text content")
       .onGet("/data/hashitomi.json")
-      .reply(200, {
-        sections: [
-          { intensity: { number: 10 } },
-          { intensity: { number: null } }
-        ]
-      });
+      .reply(200, playData);
     contents.section("hashitomi", "kiri", props => {
       expect(props).toEqual({
         ...sectionData,
@@ -161,6 +164,7 @@ describe("contents fetcher", () => {
           { intensity: { number: 10 } },
           { intensity: { number: null } }
         ],
+        tracks: [{}, {}],
         maxIntensity: 10
       });
     });
