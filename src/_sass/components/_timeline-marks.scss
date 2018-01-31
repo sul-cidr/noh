@@ -10,11 +10,11 @@
 .time {
   border-left: $tl-separator;
   flex-grow: 1;
-  font-size: 0.75rem;
   height: 100%;
   padding-left: 0.25rem;
 
   @include flex-container($justify: flex-start);
+  @include text(md);
   @include truncate($display:flex);
 
   &:first-child {

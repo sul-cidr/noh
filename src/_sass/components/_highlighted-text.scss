@@ -1,41 +1,38 @@
-$transcription-text-height: 8rem;
+.highlighted-text__container {}
 
-.transcription {
-  border-top: $tl-separator;
-  border-bottom: $tl-separator;
-  padding: 1rem;
-}
+.transcription {}
 
 .transcription__title {
-  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
 
   @include flex-container($justify:space-between, $align:baseline);
 
-  h3 {
-    font-weight: $fw-bold;
-    text-transform: uppercase;
-
-    @include text(sm);
-  }
-
   p {
-    text-transform: uppercase;
+    @include text(md);
 
-    @include text(sm);
+    span {
+      font-weight: $fw-bold;
+
+      @include uppercase();
+    }
   }
 }
 
 .transcription__text {
-  max-height: $transcription-text-height;
+  max-height: 0;
   overflow-y: auto;
+
+  .highlighted-text__container.is-open & {
+    max-height: $transcription-text-height;
+  }
 }
 
 .transcription__line {
   font-family: $font-serif;
-  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem 1rem;
 
   @include flex-container($justify:flex-start, $align:baseline);
-  @include text(lg);
 
   &.active {
     background-color: $grey-light;
@@ -45,4 +42,14 @@ $transcription-text-height: 8rem;
 .transcription__original,
 .transcription__translation {
   flex: 1;
+  font-family: $font-serif;
+
+  @include text(lg);
+}
+
+.transcription__original {
+  padding-right: 0.25rem;
+}
+.transcription__translation {
+  padding-left: 0.25rem;
 }

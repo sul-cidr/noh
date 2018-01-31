@@ -7,9 +7,8 @@
 }
 
 .act {
-  font-size: 0.75rem;
-
   @include flex-container($justify: center);
+  @include text(md);
 }
 
 .act__first-end {

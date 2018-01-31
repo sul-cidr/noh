@@ -7,12 +7,11 @@ exports[`<HighlightedText> renders as expected 1`] = `
   <div
     className="transcription__title"
   >
-    <h3>
-      Text
-    </h3>
     <p>
       Singing style: 
-      spoken
+      <span>
+        spoken
+      </span>
     </p>
   </div>
   <div
