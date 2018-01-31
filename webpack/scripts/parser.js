@@ -314,7 +314,7 @@ export const main = (configPath, quiet) => {
             label: capitalize(track),
             kind: "subtitles",
             lang: "en",
-            url: `/data/${playName}.${track}.vtt`
+            url: `/data/captions/${playName}.${track}.vtt`
           });
         }
         delete play.captions;

@@ -81,7 +81,7 @@
 }
 
 video::cue {
-  whitespace: pre;
+  white-space: pre;
   color: yellow;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   background: rgba(0,0,0,0.5);
@@ -90,7 +90,7 @@ video::cue {
   font-weight: lighter;
 }
 
-video::cue(.translation-block) {
+video::cue(.translation) {
   font-style: italic;
   font-size: 0.8em;
 }
