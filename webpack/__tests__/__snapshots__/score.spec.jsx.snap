@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Score> renders as expected 1`] = `
+exports[`<UnwrappedScore> renders as expected 1`] = `
 <div
   className="score"
 >
@@ -16,60 +16,7 @@ exports[`<Score> renders as expected 1`] = `
     >
       <div
         className="measure__channel"
-      >
-        <CellBeat
-          beatText=""
-          key="beatNum0"
-        />
-        <CellBeat
-          beatText="1"
-          key="beatNum1"
-        />
-        <CellBeat
-          beatText="2"
-          key="beatNum2"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum3"
-        />
-        <CellBeat
-          beatText="3"
-          key="beatNum4"
-        />
-        <CellBeat
-          beatText="4"
-          key="beatNum5"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum6"
-        />
-        <CellBeat
-          beatText="5"
-          key="beatNum7"
-        />
-        <CellBeat
-          beatText="6"
-          key="beatNum8"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum9"
-        />
-        <CellBeat
-          beatText="7"
-          key="beatNum10"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum11"
-        />
-        <CellBeat
-          beatText="8"
-          key="beatNum12"
-        />
-      </div>
+      />
       <div
         className="measure__channel measure__channel--large"
       >
