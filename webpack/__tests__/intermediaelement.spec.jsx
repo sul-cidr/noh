@@ -9,4 +9,9 @@ describe("<IntermediaElement>", () => {
     );
     expect(component).toMatchSnapshot();
   });
+
+  it("renders None as expected", () => {
+    const component = shallow(<IntermediaElement fieldName="Percussion" />);
+    expect(component).toMatchSnapshot();
+  });
 });

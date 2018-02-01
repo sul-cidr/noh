@@ -37,6 +37,11 @@
   padding: 0 0.5rem;
 
   @include flex-container($justify: flex-start);
+
+ .intermedia__value__none {
+    font-style: italic;
+    color: $grey-dark;
+  }
 }
 
 .intermedia__label {
