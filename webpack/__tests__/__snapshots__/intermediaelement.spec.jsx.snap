@@ -1,5 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<IntermediaElement> renders None as expected 1`] = `
+<div
+  className="intermedia__element"
+>
+  <div
+    className="intermedia__label"
+  >
+    Percussion
+  </div>
+  <div
+    className="intermedia__value"
+  >
+    <span
+      className="intermedia__value__none"
+    >
+      None
+    </span>
+  </div>
+</div>
+`;
+
 exports[`<IntermediaElement> renders as expected 1`] = `
 <div
   className="intermedia__element"

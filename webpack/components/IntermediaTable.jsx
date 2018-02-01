@@ -23,31 +23,28 @@ class IntermediaTable extends Component {
         />
         <IntermediaElement
           fieldName="Voices"
-          fieldValue={section.numberVoices.value || "0"}
+          fieldValue={section.numberVoices.value}
         />
         <IntermediaElement
           fieldName="Type of voice"
-          fieldValue={section.voice.value || "0"}
+          fieldValue={section.voice.value}
         />
-        <IntermediaElement
-          fieldName="Text"
-          fieldValue={section.text.value || "0"}
-        />
+        <IntermediaElement fieldName="Text" fieldValue={section.text.value} />
         <IntermediaElement
           fieldName="Percussion"
-          fieldValue={section.percussion.value || "0"}
+          fieldValue={section.percussion.value}
         />
         <IntermediaElement
           fieldName="Type of percussion"
-          fieldValue={section.numberOfPercussion.value || "0"}
+          fieldValue={section.numberOfPercussion.value}
         />
         <IntermediaElement
           fieldName="Nohkan"
-          fieldValue={section.nokhanPresent.value || "0"}
+          fieldValue={section.nokhanPresent.value}
         />
         <IntermediaElement
           fieldName="Dance"
-          fieldValue={section.dancePresent.value || "0"}
+          fieldValue={section.dancePresent.value}
         />
       </div>
     );
