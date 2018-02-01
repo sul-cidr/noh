@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import MeasureLabelContainer from "./MeasureLabelContainer";
 import CellBeat from "./CellBeat";
 
@@ -20,29 +21,50 @@ class Score extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      previousPhrase: this.props.phrases[0],
-      currentPhrase: this.props.phrases[1],
-      nextPhrase: this.props.phrases[2]
-    };
-  }
-  createBeatGrids() {
-    const prevGrid = this.state.previousPhrase.beat.grid;
-    const currentGrid = this.state.currentPhrase.beat.grid;
-    const nextGrid = this.state.nextPhrase.beat.grid;
-    const prevBeatsArray = createBeatsArray(prevGrid);
-    const currentBeatsArray = createBeatsArray(currentGrid);
-    const nextBeatsArray = createBeatsArray(nextGrid);
-    return {
-      prevBeatsArray,
-      currentBeatsArray,
-      nextBeatsArray
+      previousPhrase: null,
+      currentPhrase: this.props.phrases[0],
+      nextPhrase: this.props.phrases[1]
     };
   }
 
+  componentWillReceiveProps() {
+    const currentPhraseId = this.determineCurrentPhrase();
+    const previousPhraseId = Math.max(currentPhraseId - 1, 0);
+    const nextPhraseId = Math.min(
+      currentPhraseId + 1,
+      this.props.phrases.length
+    );
+    this.setState({
+      previousPhrase: this.props.phrases[previousPhraseId],
+      currentPhrase: this.props.phrases[currentPhraseId],
+      nextPhrase: this.props.phrases[nextPhraseId]
+    });
+  }
+
+  determineCurrentPhrase() {
+    if (this.props.currentTime > 0) {
+      return (
+        this.props.phrases.length -
+        1 -
+        this.props.phrases
+          .filter(Boolean)
+          .reverse()
+          .findIndex(phrase => this.props.currentTime >= phrase.startTime.value)
+      );
+    }
+    return 0;
+  }
+
   render() {
-    const prevBeatNums = this.createBeatGrids().prevBeatsArray;
-    const currentBeatNums = this.createBeatGrids().currentBeatsArray;
-    const nextBeatNums = this.createBeatGrids().nextBeatsArray;
+    const prevBeatNums = this.state.previousPhrase
+      ? createBeatsArray(this.state.previousPhrase.beat.grid)
+      : [];
+    const currentBeatNums = this.state.currentPhrase
+      ? createBeatsArray(this.state.currentPhrase.beat.grid)
+      : [];
+    const nextBeatNums = this.state.nextPhrase
+      ? createBeatsArray(this.state.nextPhrase.beat.grid)
+      : [];
 
     const prevBeats = prevBeatNums.map((num, idx) => (
       <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
@@ -180,6 +202,7 @@ class Score extends Component {
 }
 
 Score.propTypes = {
+  currentTime: PropTypes.number.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
       startTime: PropTypes.shape({}),
@@ -198,4 +221,9 @@ Score.propTypes = {
   ).isRequired
 };
 
-export default Score;
+const mapStateToProps = state => ({
+  currentTime: state.currentTime
+});
+
+export const Unwrapped = Score;
+export default connect(mapStateToProps)(Score);
