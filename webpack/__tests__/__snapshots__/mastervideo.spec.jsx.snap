@@ -4,6 +4,7 @@ exports[`<MasterVideo> renders as expected 1`] = `
 <MasterVideo
   currentTime={0}
   startTime={0}
+  tracks={Array []}
   updateCurrentTime={[Function]}
   updateIsNotPlaying={[Function]}
   updateIsPlaying={[Function]}
@@ -21,8 +22,12 @@ exports[`<MasterVideo> renders as expected 1`] = `
       onStalled={[Function]}
       onTimeUpdate={[Function]}
       onWaiting={[Function]}
-      src=""
-    />
+    >
+      <source
+        src=""
+        type="video/mp4"
+      />
+    </video>
     <h3>
       0
     </h3>

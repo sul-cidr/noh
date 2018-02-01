@@ -23,12 +23,24 @@ class MasterVideo extends Component {
     }
   }
 
+  createTracks() {
+    return this.props.tracks.map(track => (
+      <track
+        key={track.label}
+        label={track.label}
+        kind={track.kind}
+        srcLang={track.lang}
+        src={track.url}
+      />
+    ));
+  }
+
   render() {
+    const tracks = this.createTracks();
     return (
       <div>
         <video
           id="player"
-          src={this.props.videoUrl}
           ref={video => {
             this.video = video;
           }}
@@ -41,20 +53,32 @@ class MasterVideo extends Component {
           onStalled={this.props.updateIsNotPlaying}
           onSeeking={this.props.updateIsNotPlaying}
           onWaiting={this.props.updateIsNotPlaying}
-        />
+        >
+          <source src={this.props.videoUrl} type="video/mp4" />
+          {tracks}
+        </video>
         <h3>{this.props.currentTime}</h3>
         <span>{this.props.startTime}</span>
       </div>
     );
   }
 }
+
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
   videoUrl: PropTypes.string,
   startTime: PropTypes.number,
   updateCurrentTime: PropTypes.func,
   updateIsPlaying: PropTypes.func,
-  updateIsNotPlaying: PropTypes.func
+  updateIsNotPlaying: PropTypes.func,
+  tracks: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      kind: PropTypes.string,
+      lang: PropTypes.string,
+      url: PropTypes.string
+    })
+  )
 };
 
 MasterVideo.defaultProps = {
@@ -63,7 +87,8 @@ MasterVideo.defaultProps = {
   startTime: 0,
   updateCurrentTime: () => {},
   updateIsPlaying: () => {},
-  updateIsNotPlaying: () => {}
+  updateIsNotPlaying: () => {},
+  tracks: []
 };
 
 const mapStateToProps = state => ({
