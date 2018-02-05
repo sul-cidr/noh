@@ -9,12 +9,7 @@ function createBeatsArray(grid) {
   for (let i = 0; i < grid.length; i += 1) {
     beatsArray[grid[i].start] = grid[i].text;
   }
-  for (let i = 0; i < beatsArray.length; i += 1) {
-    if (typeof beatsArray[i] === "undefined") {
-      beatsArray[i] = "";
-    }
-  }
-  return beatsArray;
+  return [...Array(beatsArray.length).keys()].map(i => beatsArray[i] || "");
 }
 
 class Score extends Component {

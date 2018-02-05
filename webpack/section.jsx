@@ -137,5 +137,4 @@ const sectionName = window.location.pathname.trim().split("/")[2];
 
 contents.section(playName, sectionName, props => {
   render(<App {...props} />, document.getElementById("section"));
-  // console.log(props.phrases);
 });
