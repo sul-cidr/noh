@@ -82,11 +82,10 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--14"
-        >
-          Tsuzuke
-        </div>
+        <CellPercussion
+          length={0}
+          text="None"
+        />
       </div>
       <div
         className="measure__channel"
@@ -247,16 +246,9 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2"
-        />
-        <div
-          className="cell cell--12"
-        >
-          Tsuzuke
-        </div>
-        <div
-          className="cell cell--2"
+        <CellPercussion
+          length={13}
+          text="mitsuji"
         />
       </div>
       <div
@@ -426,11 +418,10 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--14"
-        >
-          Tsuzuke
-        </div>
+        <CellPercussion
+          length={13}
+          text=""
+        />
       </div>
       <div
         className="measure__channel"
