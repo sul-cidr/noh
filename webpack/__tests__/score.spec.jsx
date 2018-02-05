@@ -42,4 +42,14 @@ describe("<UnwrappedScore>", () => {
     expect(component.state().currentPhrase.phrase).toBe("2");
     expect(component.state().nextPhrase.phrase).toBe("3");
   });
+
+  it("handles null state correctly", () => {
+    const component = shallow(
+      <UnwrappedScore phrases={phrases.phrases} currentTime={1213} />
+    );
+    component.state().currentPhrase = null;
+    component.state().nextPhrase = null;
+    component.instance().render();
+    expect(component).toMatchSnapshot();
+  });
 });
