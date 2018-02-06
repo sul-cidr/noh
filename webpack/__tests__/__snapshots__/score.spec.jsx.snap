@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Score> renders as expected 1`] = `
+exports[`<UnwrappedScore> renders as expected 1`] = `
 <div
   className="score"
 >
@@ -16,64 +16,7 @@ exports[`<Score> renders as expected 1`] = `
     >
       <div
         className="measure__channel"
-      >
-        <CellBeat
-          beatText=""
-          key="beatNum0"
-        />
-        <CellBeat
-          beatText="1"
-          key="beatNum1"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum2"
-        />
-        <CellBeat
-          beatText="2"
-          key="beatNum3"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum4"
-        />
-        <CellBeat
-          beatText="3"
-          key="beatNum5"
-        />
-        <CellBeat
-          beatText="4"
-          key="beatNum6"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum7"
-        />
-        <CellBeat
-          beatText="5"
-          key="beatNum8"
-        />
-        <CellBeat
-          beatText="6"
-          key="beatNum9"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum10"
-        />
-        <CellBeat
-          beatText="7"
-          key="beatNum11"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum12"
-        />
-        <CellBeat
-          beatText="8"
-          key="beatNum13"
-        />
-      </div>
+      />
       <div
         className="measure__channel measure__channel--large"
       >
@@ -199,19 +142,19 @@ exports[`<Score> renders as expected 1`] = `
           key="beatNum1"
         />
         <CellBeat
-          beatText=""
+          beatText="2"
           key="beatNum2"
         />
         <CellBeat
-          beatText="2"
+          beatText=""
           key="beatNum3"
         />
         <CellBeat
-          beatText=""
+          beatText="3"
           key="beatNum4"
         />
         <CellBeat
-          beatText="3"
+          beatText="4"
           key="beatNum5"
         />
         <CellBeat
@@ -219,40 +162,28 @@ exports[`<Score> renders as expected 1`] = `
           key="beatNum6"
         />
         <CellBeat
-          beatText="4"
+          beatText="5"
           key="beatNum7"
         />
         <CellBeat
-          beatText=""
+          beatText="6"
           key="beatNum8"
         />
         <CellBeat
-          beatText="5"
+          beatText=""
           key="beatNum9"
         />
         <CellBeat
-          beatText=""
+          beatText="7"
           key="beatNum10"
         />
         <CellBeat
-          beatText="6"
+          beatText=""
           key="beatNum11"
         />
         <CellBeat
-          beatText=""
-          key="beatNum12"
-        />
-        <CellBeat
-          beatText="7"
-          key="beatNum13"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum14"
-        />
-        <CellBeat
           beatText="8"
-          key="beatNum15"
+          key="beatNum12"
         />
       </div>
       <div
@@ -386,52 +317,48 @@ exports[`<Score> renders as expected 1`] = `
           key="beatNum1"
         />
         <CellBeat
-          beatText=""
+          beatText="2"
           key="beatNum2"
         />
         <CellBeat
-          beatText="2"
+          beatText=""
           key="beatNum3"
         />
         <CellBeat
-          beatText=""
+          beatText="3"
           key="beatNum4"
         />
         <CellBeat
-          beatText="3"
+          beatText="4"
           key="beatNum5"
         />
         <CellBeat
-          beatText="4"
+          beatText=""
           key="beatNum6"
         />
         <CellBeat
-          beatText=""
+          beatText="5"
           key="beatNum7"
         />
         <CellBeat
-          beatText="5"
+          beatText="6"
           key="beatNum8"
         />
         <CellBeat
-          beatText="6"
+          beatText=""
           key="beatNum9"
         />
         <CellBeat
-          beatText=""
+          beatText="7"
           key="beatNum10"
         />
         <CellBeat
-          beatText="7"
+          beatText=""
           key="beatNum11"
         />
         <CellBeat
-          beatText=""
-          key="beatNum12"
-        />
-        <CellBeat
           beatText="8"
-          key="beatNum13"
+          key="beatNum12"
         />
       </div>
       <div

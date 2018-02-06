@@ -66,7 +66,7 @@ const App = props => (
           <div className="video-container">
             <MasterVideo videoUrl={props.videoUrl} tracks={props.tracks} />
           </div>
-          <Score videoUrl={props.videoUrl} />
+          <Score phrases={props.phrases} />
           <ScoreControls />
         </div>
       </main>
@@ -109,7 +109,21 @@ App.propTypes = {
     })
   ).isRequired,
   videoDuration: PropTypes.number.isRequired,
-  videoUrl: PropTypes.string.isRequired
+  videoUrl: PropTypes.string.isRequired,
+  phrases: PropTypes.arrayOf(
+    PropTypes.shape({
+      startTime: PropTypes.shape({}),
+      beat: PropTypes.shape({}),
+      dance: PropTypes.shape({}),
+      nohkan: PropTypes.shape({}),
+      percussion: PropTypes.shape({}),
+      phrase: PropTypes.string,
+      syllableNumber: PropTypes.shape({}),
+      syllableText: PropTypes.shape({}),
+      text: PropTypes.shape({}),
+      vocalRange: PropTypes.shape({})
+    })
+  ).isRequired
 };
 
 App.defaultProps = {
