@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import MeasureLabelContainer from "./MeasureLabelContainer";
 import CellBeat from "./CellBeat";
+import CellPercussion from "./CellPercussion";
 
 function createBeatsArray(grid) {
   const beatsArray = [];
@@ -70,6 +71,15 @@ class Score extends Component {
     const nextBeats = nextBeatNums.map((num, idx) => (
       <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
     ));
+    const prevPercussion = this.state.previousPhrase
+      ? this.state.previousPhrase.percussion.value
+      : "None";
+    const currentPercussion = this.state.currentPhrase
+      ? this.state.currentPhrase.percussion.value
+      : "None";
+    const nextPercussion = this.state.nextPhrase
+      ? this.state.nextPhrase.percussion.value
+      : "None";
     return (
       <div className="score">
         <div className="measure measure--prev">
@@ -93,7 +103,10 @@ class Score extends Component {
               <div className="cell cell--1 cell--text" />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--14">Tsuzuke</div>
+              <CellPercussion
+                text={prevPercussion}
+                length={prevBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <div className="cell cell--2 cell--dance" />
@@ -136,9 +149,10 @@ class Score extends Component {
               <div className="cell cell--6 cell--text" />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--2" />
-              <div className="cell cell--12">Tsuzuke</div>
-              <div className="cell cell--2" />
+              <CellPercussion
+                text={currentPercussion}
+                length={currentBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <div className="cell cell--2 cell--nohkan">grid</div>
@@ -175,7 +189,10 @@ class Score extends Component {
               <div className="cell cell--1 cell--text" />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--14">Tsuzuke</div>
+              <CellPercussion
+                text={nextPercussion}
+                length={nextBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <div className="cell cell--2 cell--dance" />
@@ -206,7 +223,7 @@ Score.propTypes = {
       }),
       dance: PropTypes.shape({}),
       nohkan: PropTypes.shape({}),
-      percussion: PropTypes.shape({}),
+      percussion: PropTypes.shape({ value: PropTypes.string.isRequired }),
       phrase: PropTypes.string,
       syllableNumber: PropTypes.shape({}),
       syllableText: PropTypes.shape({}),
