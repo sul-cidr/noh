@@ -2126,24 +2126,598 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 3`] = `
-"WEBVTT
-
-"
+"{
+  \\"sectionName\\": {},
+  \\"startTime\\": {},
+  \\"endTime\\": {},
+  \\"intensity\\": {},
+  \\"numberVoices\\": {},
+  \\"voice\\": {},
+  \\"text\\": {},
+  \\"numberOfPercussion\\": {},
+  \\"percussion\\": {},
+  \\"nokhanPresent\\": {
+    \\"play\\": \\"No\\"
+  },
+  \\"dancePresent\\": {
+    \\"play\\": \\"Yes\\"
+  },
+  \\"videoUrl\\": {},
+  \\"videoDuration\\": {},
+  \\"phrases\\": [
+    {
+      \\"startTime\\": {
+        \\"value\\": 1805,
+        \\"grid\\": []
+      },
+      \\"beat\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"1\\",
+            \\"voices\\": [],
+            \\"start\\": 1,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"2\\",
+            \\"voices\\": [],
+            \\"start\\": 3,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"3\\",
+            \\"voices\\": [],
+            \\"start\\": 5,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"4\\",
+            \\"voices\\": [],
+            \\"start\\": 7,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"5\\",
+            \\"voices\\": [],
+            \\"start\\": 9,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"6\\",
+            \\"voices\\": [],
+            \\"start\\": 11,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"7\\",
+            \\"voices\\": [],
+            \\"start\\": 13,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"8\\",
+            \\"voices\\": [],
+            \\"start\\": 15,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          }
+        ]
+      },
+      \\"syllableText\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"tsu\\",
+            \\"voices\\": [],
+            \\"start\\": 3,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"u\\",
+            \\"voices\\": [],
+            \\"start\\": 4,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"ri\\",
+            \\"voices\\": [],
+            \\"start\\": 6,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"ki\\",
+            \\"voices\\": [],
+            \\"start\\": 7,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"no\\",
+            \\"voices\\": [],
+            \\"start\\": 8,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"mi\\",
+            \\"voices\\": [],
+            \\"start\\": 10,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"wo\\",
+            \\"voices\\": [],
+            \\"start\\": 11,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"he\\",
+            \\"voices\\": [],
+            \\"start\\": 12,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"n\\",
+            \\"voices\\": [],
+            \\"start\\": 13,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"ji\\",
+            \\"voices\\": [],
+            \\"start\\": 14,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"(i)\\",
+            \\"voices\\": [],
+            \\"start\\": 15,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          }
+        ]
+      },
+      \\"syllableNumber\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"1\\",
+            \\"voices\\": [],
+            \\"start\\": 3,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"2\\",
+            \\"voices\\": [],
+            \\"start\\": 4,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"3\\",
+            \\"voices\\": [],
+            \\"start\\": 6,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"4\\",
+            \\"voices\\": [],
+            \\"start\\": 7,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"5\\",
+            \\"voices\\": [],
+            \\"start\\": 8,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"1\\",
+            \\"voices\\": [],
+            \\"start\\": 10,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"2\\",
+            \\"voices\\": [],
+            \\"start\\": 11,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"3\\",
+            \\"voices\\": [],
+            \\"start\\": 12,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"4\\",
+            \\"voices\\": [],
+            \\"start\\": 13,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"5\\",
+            \\"voices\\": [],
+            \\"start\\": 14,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          }
+        ]
+      },
+      \\"text\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": []
+      },
+      \\"vocalRange\\": {
+        \\"value\\": \\"high\\",
+        \\"grid\\": []
+      },
+      \\"percussion\\": {
+        \\"value\\": \\"tsuzuke\\",
+        \\"grid\\": []
+      },
+      \\"nohkan\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": []
+      },
+      \\"dance\\": {
+        \\"value\\": \\"feminine-style\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"9. Kneeling, turns to face front.\\",
+            \\"voices\\": [],
+            \\"start\\": 6,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 6
+          }
+        ]
+      },
+      \\"phrase\\": \\"1\\"
+    },
+    {
+      \\"startTime\\": {
+        \\"value\\": 1814,
+        \\"grid\\": []
+      },
+      \\"beat\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"1\\",
+            \\"voices\\": [],
+            \\"start\\": 1,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"2\\",
+            \\"voices\\": [],
+            \\"start\\": 3,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"3\\",
+            \\"voices\\": [],
+            \\"start\\": 5,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"4\\",
+            \\"voices\\": [],
+            \\"start\\": 7,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"5\\",
+            \\"voices\\": [],
+            \\"start\\": 9,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"6\\",
+            \\"voices\\": [],
+            \\"start\\": 11,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"7\\",
+            \\"voices\\": [],
+            \\"start\\": 13,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"8\\",
+            \\"voices\\": [],
+            \\"start\\": 15,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          }
+        ]
+      },
+      \\"syllableText\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"tsu\\",
+            \\"voices\\": [],
+            \\"start\\": 3,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"u\\",
+            \\"voices\\": [],
+            \\"start\\": 4,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"ri\\",
+            \\"voices\\": [],
+            \\"start\\": 6,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"ki\\",
+            \\"voices\\": [],
+            \\"start\\": 7,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"no\\",
+            \\"voices\\": [],
+            \\"start\\": 8,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"mi\\",
+            \\"voices\\": [],
+            \\"start\\": 10,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"wo\\",
+            \\"voices\\": [],
+            \\"start\\": 11,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"he\\",
+            \\"voices\\": [],
+            \\"start\\": 12,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"n\\",
+            \\"voices\\": [],
+            \\"start\\": 14,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"ji\\",
+            \\"voices\\": [],
+            \\"start\\": 15,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          }
+        ]
+      },
+      \\"syllableNumber\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"1\\",
+            \\"voices\\": [],
+            \\"start\\": 3,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"2\\",
+            \\"voices\\": [],
+            \\"start\\": 4,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"3\\",
+            \\"voices\\": [],
+            \\"start\\": 6,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"4\\",
+            \\"voices\\": [],
+            \\"start\\": 7,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"5\\",
+            \\"voices\\": [],
+            \\"start\\": 8,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"1\\",
+            \\"voices\\": [],
+            \\"start\\": 10,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"2\\",
+            \\"voices\\": [],
+            \\"start\\": 11,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"3\\",
+            \\"voices\\": [],
+            \\"start\\": 12,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"4\\",
+            \\"voices\\": [],
+            \\"start\\": 14,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          },
+          {
+            \\"text\\": \\"5\\",
+            \\"voices\\": [],
+            \\"start\\": 15,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 1
+          }
+        ]
+      },
+      \\"text\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": []
+      },
+      \\"vocalRange\\": {
+        \\"value\\": \\"high\\",
+        \\"grid\\": []
+      },
+      \\"percussion\\": {
+        \\"value\\": \\"tsuzuke\\",
+        \\"grid\\": []
+      },
+      \\"nohkan\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": []
+      },
+      \\"dance\\": {
+        \\"value\\": \\"\\",
+        \\"grid\\": [
+          {
+            \\"text\\": \\"9. Turns to face the waki.\\",
+            \\"voices\\": [],
+            \\"start\\": 5,
+            \\"style\\": \\"normal\\",
+            \\"length\\": 5
+          }
+        ]
+      },
+      \\"phrase\\": \\"2\\"
+    }
+  ],
+  \\"captions\\": [],
+  \\"narrative\\": {
+    \\"value\\": \\"/kokaji/narratives/ageuta-3.html\\"
+  }
+}"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 4`] = `
-"WEBVTT
-
-"
+"{
+  \\"sectionName\\": {},
+  \\"startTime\\": {},
+  \\"endTime\\": {},
+  \\"intensity\\": {},
+  \\"numberVoices\\": {},
+  \\"voice\\": {},
+  \\"text\\": {},
+  \\"numberOfPercussion\\": {},
+  \\"percussion\\": {},
+  \\"nokhanPresent\\": {
+    \\"play\\": \\"No\\"
+  },
+  \\"dancePresent\\": {
+    \\"play\\": \\"Yes\\"
+  },
+  \\"videoUrl\\": {},
+  \\"videoDuration\\": {},
+  \\"phrases\\": [],
+  \\"captions\\": [],
+  \\"narrative\\": {
+    \\"value\\": \\"/kokaji/narratives/ageuta-4.html\\"
+  }
+}"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 5`] = `
 "WEBVTT
 
-"
+1
+00:30:05.000 --> 00:30:14.000
+Translation goes here
+
+2
+00:30:14.000 --> 00:30:23.000
+Another line of translation"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 6`] = `
+"WEBVTT
+
+1
+00:30:05.000 --> 00:30:14.000
+tsu u ri ki no mi wo he n ji
+
+2
+00:30:14.000 --> 00:30:23.000
+tsu u ri ki"
+`;
+
+exports[`parser main downloads and parses phrases, metadata, and captions 7`] = `
+"WEBVTT
+
+1
+00:30:05.000 --> 00:30:14.000
+<c.transcription>tsu u ri ki no mi wo he n ji</c>
+<c.translation>(Translation goes here)</c>
+
+2
+00:30:14.000 --> 00:30:23.000
+<c.transcription>tsu u ri ki</c>
+<c.translation>(Another line of translation)</c>"
+`;
+
+exports[`parser main downloads and parses phrases, metadata, and captions 8`] = `
 "{
   \\"playName\\": \\"kokaji\\",
   \\"sections\\": [
@@ -2166,7 +2740,73 @@ exports[`parser main downloads and parses phrases, metadata, and captions 6`] = 
       \\"videoUrl\\": {},
       \\"videoDuration\\": {},
       \\"narrative\\": {
+        \\"value\\": \\"/kokaji/narratives/ageuta-1.html\\"
+      }
+    },
+    {
+      \\"sectionName\\": {},
+      \\"startTime\\": {},
+      \\"endTime\\": {},
+      \\"intensity\\": {},
+      \\"numberVoices\\": {},
+      \\"voice\\": {},
+      \\"text\\": {},
+      \\"numberOfPercussion\\": {},
+      \\"percussion\\": {},
+      \\"nokhanPresent\\": {
+        \\"play\\": \\"No\\"
+      },
+      \\"dancePresent\\": {
+        \\"play\\": \\"Yes\\"
+      },
+      \\"videoUrl\\": {},
+      \\"videoDuration\\": {},
+      \\"narrative\\": {
         \\"value\\": \\"/kokaji/narratives/ageuta-2.html\\"
+      }
+    },
+    {
+      \\"sectionName\\": {},
+      \\"startTime\\": {},
+      \\"endTime\\": {},
+      \\"intensity\\": {},
+      \\"numberVoices\\": {},
+      \\"voice\\": {},
+      \\"text\\": {},
+      \\"numberOfPercussion\\": {},
+      \\"percussion\\": {},
+      \\"nokhanPresent\\": {
+        \\"play\\": \\"No\\"
+      },
+      \\"dancePresent\\": {
+        \\"play\\": \\"Yes\\"
+      },
+      \\"videoUrl\\": {},
+      \\"videoDuration\\": {},
+      \\"narrative\\": {
+        \\"value\\": \\"/kokaji/narratives/ageuta-3.html\\"
+      }
+    },
+    {
+      \\"sectionName\\": {},
+      \\"startTime\\": {},
+      \\"endTime\\": {},
+      \\"intensity\\": {},
+      \\"numberVoices\\": {},
+      \\"voice\\": {},
+      \\"text\\": {},
+      \\"numberOfPercussion\\": {},
+      \\"percussion\\": {},
+      \\"nokhanPresent\\": {
+        \\"play\\": \\"No\\"
+      },
+      \\"dancePresent\\": {
+        \\"play\\": \\"Yes\\"
+      },
+      \\"videoUrl\\": {},
+      \\"videoDuration\\": {},
+      \\"narrative\\": {
+        \\"value\\": \\"/kokaji/narratives/ageuta-4.html\\"
       }
     }
   ],
@@ -2205,6 +2845,12 @@ Array [
   ],
   Array [
     "- ageuta-2",
+  ],
+  Array [
+    "- ageuta-3",
+  ],
+  Array [
+    "- ageuta-4",
   ],
   Array [
     "Writing play data:",

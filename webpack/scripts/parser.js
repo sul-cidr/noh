@@ -252,7 +252,7 @@ export const main = (configPath, quiet) => {
               const sectionData = processMetadata(metadata.data);
               sectionData.videoUrl = { value: play.videoUrl };
               sectionData.videoDuration = { value: play.videoDuration };
-              sectionData.phrases = processPhrases(phrases.data);
+              sectionData.phrases = phrases ? processPhrases(phrases.data) : [];
               sectionData.captions = captions
                 ? processCaptions(captions.data)
                 : [];
@@ -290,12 +290,11 @@ export const main = (configPath, quiet) => {
           map[play.playName].sections = [];
           map[play.playName].captions = [];
           map[play.playName].narrative = `/${play.playName}.html`;
-        } else {
-          map[play.playName].captions.push(...section.captions);
-          delete section.captions;
-          delete section.phrases;
-          map[play.playName].sections.push(section);
         }
+        map[play.playName].captions.push(...section.captions);
+        delete section.captions;
+        delete section.phrases;
+        map[play.playName].sections.push(section);
         /* eslint-enable no-param-reassign */
         return map;
       }, {});
