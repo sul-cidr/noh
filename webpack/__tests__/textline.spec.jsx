@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { mount, shallow } from "enzyme";
 import TextLine from "../components/TextLine";
 
 describe("<TextLine>", () => {
@@ -22,5 +22,23 @@ describe("<TextLine>", () => {
       />
     );
     expect(component).toMatchSnapshot();
+  });
+
+  it("scrolls to line when active", () => {
+    const container = document.createElement("div");
+
+    const component = mount(
+      <TextLine
+        active
+        translation="sample string"
+        transcription="another sample string"
+      />,
+      {
+        attachTo: container
+      }
+    ).instance();
+    component.line.scrollIntoView = jest.fn();
+    component.componentDidUpdate();
+    expect(component.line.scrollIntoView.mock.calls.length).toBe(1);
   });
 });
