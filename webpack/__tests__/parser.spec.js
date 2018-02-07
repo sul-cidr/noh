@@ -352,7 +352,9 @@ describe("parser", () => {
     const spyWrite = jest
       .spyOn(fs, "writeFileSync")
       .mockReturnValueOnce(null)
-      .mockReturnValueOnce(null) // since there are 2 sections in the config
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null) // since there are 4 sections in the config
       .mockImplementation(() => {
         throw new ParserException();
       });
@@ -379,7 +381,9 @@ describe("parser", () => {
     const spyWrite = jest
       .spyOn(fs, "writeFileSync")
       .mockReturnValueOnce(null)
-      .mockReturnValueOnce(null) // since there are 2 sections in the config
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null)
+      .mockReturnValueOnce(null) // since there are 4 sections in the config
       .mockReturnValueOnce(null)
       .mockReturnValueOnce(null)
       .mockReturnValueOnce(null) // since there are 3 caption files

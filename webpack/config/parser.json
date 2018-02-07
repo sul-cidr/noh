@@ -3,8 +3,18 @@
     "playName": "hashitomi",
     "title": "Hashitomi",
     "videoUrl": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4",
-    "videoDuration": "01:01:33",
+    "videoDuration": "01:27:47",
     "sections": [
+      {
+        "sectionName": "oshirabe",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/1JawPUw8tHTd9B8FZMLJNBCsScPZVQdAgiQb6VpXL_-s/edit#gid=0"
+      },
+      {
+        "sectionName": "musicians-walk-in",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/1cprJJ9vVwF00_oi-e72AdliiEtuk3LG51fyWwG3F-Rw/edit#gid=0"
+      },
       {
         "sectionName": "nanoribue",
         "phrases":
@@ -62,11 +72,21 @@
           "https://docs.google.com/spreadsheets/d/16YCl91_0HqYlVf-zUzKYbDYGnbeykKOKCvKD98BeGMM/edit#gid=647200959"
       },
       {
+        "sectionName": "mid-exit",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/1L4K9CIBQ3tDYw-qGpqr9TPOgnJsVzoNwtj_MuDVzJgg/edit#gid=0"
+      },
+      {
         "sectionName": "aikyogen",
         "phrases":
           "https://docs.google.com/spreadsheets/d/1BzRJ6DuHykUsFRJdbtdqK8ZEkEV4hQpfBvL5ZHtteEM/edit#gid=1071232526",
         "metadata":
           "https://docs.google.com/spreadsheets/d/1BzRJ6DuHykUsFRJdbtdqK8ZEkEV4hQpfBvL5ZHtteEM/edit#gid=0"
+      },
+      {
+        "sectionName": "prop-in",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/1t6TDA1Nf_NdDYe4MXmVk_geMuUZ3JAWqTpNzJNUwb-I/edit#gid=0"
       },
       {
         "sectionName": "kakaru-3",
@@ -130,6 +150,11 @@
           "https://docs.google.com/spreadsheets/d/1V4fqCNKM4r4rY0pk6pDnyd4N8gkbr32zU50fpJAy-ew/edit#gid=1071232526",
         "metadata":
           "https://docs.google.com/spreadsheets/d/1V4fqCNKM4r4rY0pk6pDnyd4N8gkbr32zU50fpJAy-ew/edit#gid=0"
+      },
+      {
+        "sectionName": "exit",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/1J2cNLOnpBy07VjKnJIqeQx0_Q4AGmhFS1cixfmeG1WQ/edit#gid=0"
       }
     ]
   },
@@ -140,11 +165,21 @@
     "videoDuration": "01:01:33",
     "sections": [
       {
+        "sectionName": "oshirabe",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/12MORO3gckX_OSbIrPlO7wKlCAVobcnorwHsh578FLr0/edit#gid=0"
+      },
+      {
+        "sectionName": "musicians-walk-in",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/1kP5aN93BJHMwJyr5L8wD1FRO-7nIKAN8Vkr25apNlAw/edit#gid=0"
+      },
+      {
         "sectionName": "nanori",
         "phrases":
-          "https://docs.google.com/spreadsheets/d/1KeBG2QLFeM6wPuWSrlVyHYdcWRs_fZGd1voAkBtzIrA/edit#gid=647200959",
+          "https://docs.google.com/spreadsheets/d/1KeBG2QLFeM6wPuWSrlVyHYdcWRs_fZGd1voAkBtzIrA/edit#gid=0",
         "metadata":
-          "https://docs.google.com/spreadsheets/d/1KeBG2QLFeM6wPuWSrlVyHYdcWRs_fZGd1voAkBtzIrA/edit#gid=0"
+          "https://docs.google.com/spreadsheets/d/1KeBG2QLFeM6wPuWSrlVyHYdcWRs_fZGd1voAkBtzIrA/edit#gid=647200959"
       },
       {
         "sectionName": "mondo-1",
@@ -240,6 +275,11 @@
           "https://docs.google.com/spreadsheets/d/1dP6GGJBVbqjUf6VZ0j9vnW6T4wpH3HYSPKhfXcWTMQI/edit#gid=0"
       },
       {
+        "sectionName": "prop-in",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/19bM8p7U9ozN0pSHHtADq8PYWjD_5JYw6pk4MblWacpY/edit#gid=0"
+      },
+      {
         "sectionName": "notto",
         "phrases":
           "https://docs.google.com/spreadsheets/d/1CzYFJf-KgyRVZWiVsD2y9irfDJTnD6hvlVWt-eZGrjk/edit#gid=1071232526",
@@ -294,6 +334,11 @@
           "https://docs.google.com/spreadsheets/d/1EHX9AIA61N54m9AAPC5CRadBwrVsWseIo6n6iQmEy3I/edit#gid=1071232526",
         "metadata":
           "https://docs.google.com/spreadsheets/d/1EHX9AIA61N54m9AAPC5CRadBwrVsWseIo6n6iQmEy3I/edit#gid=0"
+      },
+      {
+        "sectionName": "exit",
+        "metadata":
+          "https://docs.google.com/spreadsheets/d/18paz0X5HRPlOdUgiAnmQ5Dot4zMfzbWoZVYhclIiJtc/edit#gid=0"
       }
     ]
   }
