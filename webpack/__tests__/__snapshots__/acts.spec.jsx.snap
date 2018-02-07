@@ -6,23 +6,83 @@ exports[`<Acts> renders as expected by default 1`] = `
 >
   <div
     className="act"
+    key="act-Musicians-8.157715839564922"
     style={
       Object {
-        "width": "35%",
+        "width": "8.157715839564922%",
       }
     }
   >
-    First act (mae ba)
+     
+    <span
+      className="translation"
+    >
+      (
+      Musicians
+      )
+    </span>
   </div>
   <div
     className="act"
+    key="act-First Act-29.29979605710401"
     style={
       Object {
-        "width": "65%",
+        "width": "29.29979605710401%",
       }
     }
   >
-    Second act (nochi ba)
+    <span
+      className="transcription"
+    >
+      Mae bae
+    </span>
+     
+    <span
+      className="translation"
+    >
+      (
+      First Act
+      )
+    </span>
+  </div>
+  <div
+    className="act"
+    key="act-Second Act-54.384772263766145"
+    style={
+      Object {
+        "width": "54.384772263766145%",
+      }
+    }
+  >
+    <span
+      className="transcription"
+    >
+      Nochi ba
+    </span>
+     
+    <span
+      className="translation"
+    >
+      (
+      Second Act
+      )
+    </span>
+  </div>
+  <div
+    className="act"
+    key="act--8.157715839564922"
+    style={
+      Object {
+        "width": "8.157715839564922%",
+      }
+    }
+  >
+    <span
+      className="transcription"
+    >
+      Oshirabe
+    </span>
+     
   </div>
 </div>
 `;

@@ -7,6 +7,11 @@ export function getPlay(playName, callback, error) {
     .get(`/data/${playName}.json`)
     .then(res => {
       const props = res.data;
+      if (props.acts) {
+        props.acts = props.acts.map(act =>
+          Object.assign(act, { duration: convertTimeToSeconds(act.duration) })
+        );
+      }
       axios
         .get(props.narrative)
         .then(resp => {

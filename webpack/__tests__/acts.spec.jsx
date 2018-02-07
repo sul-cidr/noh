@@ -4,7 +4,13 @@ import Acts from "../components/Acts";
 
 describe("<Acts>", () => {
   it("renders as expected by default", () => {
-    const component = shallow(<Acts />);
+    const acts = [
+      { translation: "Musicians", transcription: "", duration: 360 },
+      { translation: "First Act", transcription: "Mae bae", duration: 1293 },
+      { translation: "Second Act", transcription: "Nochi ba", duration: 2400 },
+      { translation: "", transcription: "Oshirabe", duration: 360 }
+    ];
+    const component = shallow(<Acts acts={acts} duration={4413} />);
     expect(component).toMatchSnapshot();
   });
 });
