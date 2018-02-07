@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CellNohkan> renders as expected by default 1`] = `
+<div
+  className="cell cell--3 cell--nohkan"
+>
+  Naka no takane
+</div>
+`;

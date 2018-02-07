@@ -162,7 +162,11 @@ class Score extends Component {
             </div>
             <div className="measure__channel">
               <NohkanLine
-                grid={this.state.currentPhrase.nohkan.grid}
+                grid={
+                  this.state.currentPhrase
+                    ? this.state.currentPhrase.nohkan.grid
+                    : []
+                }
                 length={currentBeatNums.length}
               />
             </div>
@@ -203,7 +207,9 @@ class Score extends Component {
             </div>
             <div className="measure__channel">
               <NohkanLine
-                grid={this.state.nextPhrase.nohkan.grid}
+                grid={
+                  this.state.nextPhrase ? this.state.nextPhrase.nohkan.grid : []
+                }
                 length={nextBeatNums.length}
               />
             </div>

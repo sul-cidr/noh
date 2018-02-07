@@ -7,12 +7,10 @@ const NohkanLine = props => {
     return <CellNohkan text="" length={props.length} />;
   }
   const data = props.grid;
-  if (data[0].start !== 0) {
-    if (data[0].start === 1) {
-      data.unshift({ length: 1, text: "", start: 0 });
-    } else {
-      data.unshift({ length: data[0].start - 1, text: "", start: 0 });
-    }
+  if (data[0].start === 1) {
+    data.unshift({ length: 1, text: "", start: 0 });
+  } else if (data[0].start !== 0) {
+    data.unshift({ length: data[0].start - 1, text: "", start: 0 });
   }
   const fullData = [];
   for (let i = 0; i < data.length; i += 1) {
