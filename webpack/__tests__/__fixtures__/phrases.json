@@ -273,7 +273,36 @@
       },
       "nohkan": {
         "value": "",
-        "grid": []
+        "grid": [
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 2
+          }
+        ]
       },
       "dance": {
         "value": "",
@@ -519,8 +548,23 @@
         "grid": []
       },
       "nohkan": {
-        "value": "mitsuji",
-        "grid": []
+        "value": "",
+        "grid": [
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          }
+        ]
       },
       "dance": {
         "value": "",

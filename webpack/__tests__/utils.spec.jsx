@@ -1,8 +1,10 @@
 import {
   getTime,
   convertTimeToSeconds,
-  convertSecondsToHhmmss
+  convertSecondsToHhmmss,
+  fillGrid
 } from "../utils";
+import phrases from "./__fixtures__/phrases.json";
 
 describe("getTime", () => {
   test("it converts time expressed in hh:mm:ss.mmm to seconds.millis", () => {
@@ -47,5 +49,18 @@ describe("convertSecondsToHhmmss", () => {
   test("it correctly converts time in seconds to hh:mm:ss", () => {
     const time = 3600;
     expect(convertSecondsToHhmmss(time)).toBe("01:00:00");
+  });
+});
+
+describe("fillGrid", () => {
+  test("it correctly fills in the array of data with data starting at position 2", () => {
+    const grid = phrases.phrases[0].nohkan.grid; // eslint-disable-line prefer-destructuring
+    const fullData = fillGrid(grid, 13);
+    expect(fullData).toMatchSnapshot();
+  });
+  test("it correctly fills in the array of data with data starting past 2", () => {
+    const grid = phrases.phrases[1].nohkan.grid; // eslint-disable-line prefer-destructuring
+    const fullData = fillGrid(grid, 13);
+    expect(fullData).toMatchSnapshot();
   });
 });

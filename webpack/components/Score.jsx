@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import MeasureLabelContainer from "./MeasureLabelContainer";
 import CellBeat from "./CellBeat";
 import CellPercussion from "./CellPercussion";
+import NohkanLine from "./NohkanLine";
 
 function createBeatsArray(grid) {
   const beatsArray = [];
@@ -109,9 +110,14 @@ class Score extends Component {
               />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--2 cell--dance" />
-              <div className="cell cell--9 cell--dance">grid</div>
-              <div className="cell cell--3 cell--dance" />
+              <NohkanLine
+                grid={
+                  this.state.previousPhrase
+                    ? this.state.previousPhrase.nohkan.grid
+                    : []
+                }
+                length={prevBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <div className="cell cell--3" />
@@ -155,9 +161,14 @@ class Score extends Component {
               />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--2 cell--nohkan">grid</div>
-              <div className="cell cell--8 cell--nohkan">grid</div>
-              <div className="cell cell--6 cell--nohkan">grid</div>
+              <NohkanLine
+                grid={
+                  this.state.currentPhrase
+                    ? this.state.currentPhrase.nohkan.grid
+                    : []
+                }
+                length={currentBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <div className="cell cell--3" />
@@ -195,9 +206,12 @@ class Score extends Component {
               />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--2 cell--dance" />
-              <div className="cell cell--9 cell--dance">grid</div>
-              <div className="cell cell--3 cell--dance" />
+              <NohkanLine
+                grid={
+                  this.state.nextPhrase ? this.state.nextPhrase.nohkan.grid : []
+                }
+                length={nextBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <div className="cell cell--3" />
