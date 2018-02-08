@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fillGrid it correctly fills in the array of data with data starting at position 2 1`] = `
+Array [
+  Object {
+    "length": 1,
+    "start": 0,
+    "text": "",
+  },
+  Object {
+    "length": 2,
+    "start": 1,
+    "style": "normal",
+    "text": "Naka no takane",
+    "voices": Array [],
+  },
+  Object {
+    "length": 1,
+    "start": 3,
+    "text": "",
+  },
+  Object {
+    "length": 1,
+    "start": 4,
+    "style": "normal",
+    "text": "Naka no takane",
+    "voices": Array [],
+  },
+  Object {
+    "length": 2,
+    "start": 5,
+    "style": "normal",
+    "text": "Naka no takane",
+    "voices": Array [],
+  },
+  Object {
+    "length": 3,
+    "start": 7,
+    "text": "",
+  },
+  Object {
+    "length": 2,
+    "start": 10,
+    "style": "normal",
+    "text": "Naka no takane",
+    "voices": Array [],
+  },
+  Object {
+    "length": 1,
+    "start": 13,
+    "text": "",
+  },
+]
+`;
+
+exports[`fillGrid it correctly fills in the array of data with data starting past 2 1`] = `
+Array [
+  Object {
+    "length": 2,
+    "start": 0,
+    "text": "",
+  },
+  Object {
+    "length": 1,
+    "start": 2,
+    "text": "",
+  },
+  Object {
+    "length": 2,
+    "start": 3,
+    "style": "normal",
+    "text": "Naka no takane",
+    "voices": Array [],
+  },
+  Object {
+    "length": 3,
+    "start": 5,
+    "text": "",
+  },
+  Object {
+    "length": 1,
+    "start": 8,
+    "style": "normal",
+    "text": "Naka no takane",
+    "voices": Array [],
+  },
+  Object {
+    "length": 4,
+    "start": 10,
+    "text": "",
+  },
+]
+`;

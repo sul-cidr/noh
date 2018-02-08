@@ -90,16 +90,9 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2 cell--dance"
-        />
-        <div
-          className="cell cell--9 cell--dance"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--3 cell--dance"
+        <NohkanLine
+          grid={Array []}
+          length={0}
         />
       </div>
       <div
@@ -254,21 +247,41 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2 cell--nohkan"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--8 cell--nohkan"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--6 cell--nohkan"
-        >
-          grid
-        </div>
+        <NohkanLine
+          grid={
+            Array [
+              Object {
+                "length": 2,
+                "start": 1,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 5,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 10,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
+        />
       </div>
       <div
         className="measure__channel"
@@ -426,16 +439,26 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2 cell--dance"
-        />
-        <div
-          className="cell cell--9 cell--dance"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--3 cell--dance"
+        <NohkanLine
+          grid={
+            Array [
+              Object {
+                "length": 2,
+                "start": 3,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
       <div
@@ -548,16 +571,9 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2 cell--dance"
-        />
-        <div
-          className="cell cell--9 cell--dance"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--3 cell--dance"
+        <NohkanLine
+          grid={Array []}
+          length={0}
         />
       </div>
       <div
@@ -712,21 +728,41 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2 cell--nohkan"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--8 cell--nohkan"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--6 cell--nohkan"
-        >
-          grid
-        </div>
+        <NohkanLine
+          grid={
+            Array [
+              Object {
+                "length": 2,
+                "start": 1,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 5,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 10,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
+        />
       </div>
       <div
         className="measure__channel"
@@ -884,16 +920,26 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--2 cell--dance"
-        />
-        <div
-          className="cell cell--9 cell--dance"
-        >
-          grid
-        </div>
-        <div
-          className="cell cell--3 cell--dance"
+        <NohkanLine
+          grid={
+            Array [
+              Object {
+                "length": 2,
+                "start": 3,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
       <div

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NohkanLine> renders as expected by default 1`] = `
+Array [
+  <CellNohkan
+    key="nohkanCell0"
+    length={1}
+    text=""
+  />,
+  <CellNohkan
+    key="nohkanCell1"
+    length={2}
+    text="Naka no takane"
+  />,
+  <CellNohkan
+    key="nohkanCell2"
+    length={1}
+    text=""
+  />,
+  <CellNohkan
+    key="nohkanCell3"
+    length={1}
+    text="Naka no takane"
+  />,
+  <CellNohkan
+    key="nohkanCell4"
+    length={2}
+    text="Naka no takane"
+  />,
+  <CellNohkan
+    key="nohkanCell5"
+    length={3}
+    text=""
+  />,
+  <CellNohkan
+    key="nohkanCell6"
+    length={2}
+    text="Naka no takane"
+  />,
+  <CellNohkan
+    key="nohkanCell7"
+    length={1}
+    text=""
+  />,
+]
+`;
+
+exports[`<NohkanLine> renders as expected with no nohkan data 1`] = `
+<CellNohkan
+  length={13}
+  text=""
+/>
+`;
