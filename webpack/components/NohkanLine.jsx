@@ -1,44 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import CellNohkan from "./CellNohkan";
+import { fillGrid } from "../utils";
 
 const NohkanLine = props => {
   if (props.grid.length === 0) {
     return <CellNohkan text="" length={props.length} />;
   }
-  const data = props.grid;
-  if (data[0].start === 1) {
-    data.unshift({ length: 1, text: "", start: 0 });
-  } else if (data[0].start !== 0) {
-    data.unshift({ length: data[0].start - 1, text: "", start: 0 });
-  }
-  const fullData = [];
-  for (let i = 0; i < data.length; i += 1) {
-    if (data[i].start === 0) {
-      fullData.push(data[i]);
-    } else if (data[i].start === data[i - 1].length + data[i - 1].start) {
-      fullData.push(data[i]);
-    } else if (data[i].start !== data[i - 1].length + data[i - 1].start) {
-      fullData.push({
-        length: data[i].start - (data[i - 1].start + data[i - 1].length),
-        text: "",
-        start: data[i - 1].start + data[i - 1].length
-      });
-      fullData.push(data[i]);
-    }
-  }
-  let sumLengths = 0;
-  const lastItem = fullData[fullData.length - 1];
-  for (let i = 0; i < fullData.length; i += 1) {
-    sumLengths += fullData[i].length;
-  }
-  if (sumLengths !== props.length) {
-    fullData.push({
-      length: props.length - sumLengths,
-      text: "",
-      start: lastItem.start + lastItem.length + 1
-    });
-  }
+  const fullData = fillGrid(props.grid, props.length);
   const nohkanCells = fullData.map((cell, idx) => (
     <CellNohkan
       text={cell.text}
