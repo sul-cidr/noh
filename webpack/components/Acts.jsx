@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 
 class Acts extends Component {
   createActs() {
-    return this.props.acts.map(act => {
+    const length = this.props.acts.length - 1;
+    let left = 0;
+    return this.props.acts.map((act, index) => {
       const width = 100 * act.duration / this.props.duration;
       const transcription = act.transcription ? (
         <span className="transcription">{act.transcription}</span>
@@ -15,26 +17,33 @@ class Acts extends Component {
       ) : (
         ""
       );
-      return (
+      left += width;
+      const actEnd =
+        index < length ? (
+          <div
+            key={`act-end-${act.translation}-${width}`}
+            className="act__first-end"
+            style={{ left: `${left}%` }}
+          />
+        ) : (
+          ""
+        );
+      return [
         <div
           key={`act-${act.translation}-${width}`}
           className="act"
           style={{ width: `${width}%` }}
         >
           {transcription} {translation}
-        </div>
-      );
+        </div>,
+        actEnd
+      ];
     });
   }
 
   render() {
     const acts = this.createActs();
-    return (
-      <div className="acts-container">
-        {acts}
-        <div className="act__first-end" style={{ left: "35%" }} />
-      </div>
-    );
+    return <div className="acts-container">{acts}</div>;
   }
 }
 

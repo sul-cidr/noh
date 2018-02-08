@@ -23,6 +23,15 @@ exports[`<Acts> renders as expected by default 1`] = `
     </span>
   </div>
   <div
+    className="act__first-end"
+    key="act-end-Musicians-8.157715839564922"
+    style={
+      Object {
+        "left": "8.157715839564922%",
+      }
+    }
+  />
+  <div
     className="act"
     key="act-First Act-29.29979605710401"
     style={
@@ -46,6 +55,15 @@ exports[`<Acts> renders as expected by default 1`] = `
     </span>
   </div>
   <div
+    className="act__first-end"
+    key="act-end-First Act-29.29979605710401"
+    style={
+      Object {
+        "left": "37.45751189666893%",
+      }
+    }
+  />
+  <div
     className="act"
     key="act-Second Act-54.384772263766145"
     style={
@@ -68,6 +86,15 @@ exports[`<Acts> renders as expected by default 1`] = `
       )
     </span>
   </div>
+  <div
+    className="act__first-end"
+    key="act-end-Second Act-54.384772263766145"
+    style={
+      Object {
+        "left": "91.84228416043507%",
+      }
+    }
+  />
   <div
     className="act"
     key="act--8.157715839564922"
