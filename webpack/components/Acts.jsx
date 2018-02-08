@@ -29,7 +29,12 @@ class Acts extends Component {
 
   render() {
     const acts = this.createActs();
-    return <div className="acts-container">{acts}</div>;
+    return (
+      <div className="acts-container">
+        {acts}
+        <div className="act__first-end" style={{ left: "35%" }} />
+      </div>
+    );
   }
 }
 

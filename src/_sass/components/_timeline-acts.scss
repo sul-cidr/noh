@@ -1,6 +1,7 @@
 .acts-container {
   border-bottom: $tl-separator;
   height: $timeline-acts-height;
+  position: relative;
   width: 100%;
 
   @include flex-container($justify: center);
@@ -14,7 +15,7 @@
 .act__first-end {
   background-color: $grey-medium;
   position: absolute;
-  height: calc(100% + #{$timeline-acts-height});
-  top: -$timeline-acts-height;
+  height: $shodan-map-height-play + $timeline-acts-height;
+  top: 0;
   width: 0.0625rem;
 }
