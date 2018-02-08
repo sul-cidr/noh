@@ -19,7 +19,7 @@ export function convertSecondsToHhmmss(seconds) {
   return timeCode;
 }
 
-// Given a grid, return array of filled in filled in data
+// Given a grid, return array of filled in data
 export function fillGrid(grid, gridLength) {
   if (grid[0].start === 1) {
     grid.unshift({ length: 1, text: "", start: 0 });

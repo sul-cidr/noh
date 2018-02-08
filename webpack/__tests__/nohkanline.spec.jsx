@@ -14,10 +14,4 @@ describe("<NohkanLine>", () => {
     const component = shallow(<NohkanLine grid={[]} length={13} />);
     expect(component).toMatchSnapshot();
   });
-  // it("renders as expected with data that starts past position 1", () => {
-  //   const component = shallow(
-  //     <NohkanLine grid={phrases.phrases[1].nohkan.grid} length={13} />
-  //   );
-  //   expect(component).toMatchSnapshot();
-  // });
 });
