@@ -11,12 +11,17 @@ describe("contents fetcher", () => {
       .onGet("/data/hashitomi.json")
       .reply(200, {
         narrative: "/hashitomi.html",
-        title: "Title"
+        title: "Title",
+        acts: [{ duration: "00:01:00" }]
       })
       .onGet("/hashitomi.html")
       .reply(200, "Text content");
     contents.play("hashitomi", props => {
-      expect(props).toEqual({ narrative: "Text content", title: "Title" });
+      expect(props).toEqual({
+        narrative: "Text content",
+        title: "Title",
+        acts: [{ duration: 60 }]
+      });
     });
   });
 

@@ -13,14 +13,6 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
       }
     }
   />
-  <div
-    className="act__first-end"
-    style={
-      Object {
-        "left": "35%",
-      }
-    }
-  />
 </div>
 `;
 
@@ -34,14 +26,6 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
       Object {
         "left": "10%",
         "position": "relative",
-      }
-    }
-  />
-  <div
-    className="act__first-end"
-    style={
-      Object {
-        "left": "35%",
       }
     }
   />
@@ -61,14 +45,6 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
       }
     }
   />
-  <div
-    className="act__first-end"
-    style={
-      Object {
-        "left": "35%",
-      }
-    }
-  />
 </div>
 `;
 
@@ -82,14 +58,6 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
       Object {
         "left": "10%",
         "position": "relative",
-      }
-    }
-  />
-  <div
-    className="act__first-end"
-    style={
-      Object {
-        "left": "35%",
       }
     }
   />

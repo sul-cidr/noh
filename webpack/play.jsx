@@ -55,7 +55,10 @@ const App = props => (
                 videoDuration={convertTimeToSeconds(props.videoDuration)}
                 numIntervals={10}
               />
-              <Acts />
+              <Acts
+                acts={props.acts}
+                duration={convertTimeToSeconds(props.videoDuration)}
+              />
               <div className="shodan-map__container">
                 <TimelineIndicator
                   currentTime={props.currentTime}
@@ -122,6 +125,13 @@ App.propTypes = {
       kind: PropTypes.string,
       lang: PropTypes.string,
       url: PropTypes.string
+    })
+  ).isRequired,
+  acts: PropTypes.arrayOf(
+    PropTypes.shape({
+      translation: PropTypes.string.isRequired,
+      transcription: PropTypes.string.isRequired,
+      duration: PropTypes.number.isRequired
     })
   ).isRequired
 };
