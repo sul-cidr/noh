@@ -20,63 +20,9 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel measure__channel--large"
       >
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ke
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          i
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ko
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          te
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          n
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          no
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
+        <ScoreTextLine
+          grid={Array []}
+          length={0}
         />
       </div>
       <div
@@ -174,59 +120,105 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel measure__channel--large"
       >
-        <div
-          className="cell cell--2 cell--text"
-        />
-        <div
-          className="cell cell--5 cell--text"
-        >
-          Tachibana no michinari to wa,
-          <span
-            className="cell__character cell__character--begin cell__character--jiutai"
-          />
-          <span
-            className="cell__tooltip"
-          >
-            jiutai
-          </span>
-          <span
-            className="cell__range--low"
-          />
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          waga
-          <span
-            className="cell__character cell__character--end cell__character--jiutai"
-          />
-          <span
-            className="cell__tooltip"
-          >
-            jiutai
-          </span>
-          <span
-            className="cell__range--medium"
-          />
-        </div>
-        <div
-          className="cell cell--2 cell--text"
-        >
-          koto nari.
-          <span
-            className="cell__character cell__character--begin cell__character--end cell__character--shite"
-          />
-          <span
-            className="cell__tooltip"
-          >
-            shite
-          </span>
-          <span
-            className="cell__range--high"
-          />
-        </div>
-        <div
-          className="cell cell--6 cell--text"
+        <ScoreTextLine
+          grid={
+            Array [
+              Object {
+                "length": 1,
+                "start": 0,
+                "style": "normal",
+                "text": "ma",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "ta",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "wa",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ga",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "cho",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "so",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "ha",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "ji",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "me",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "(e)",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
       <div
@@ -365,63 +357,75 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel measure__channel--large"
       >
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ke
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          i
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ko
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          te
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          n
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          no
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
+        <ScoreTextLine
+          grid={
+            Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ni",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "n",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "ji",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "u",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "ni",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "da",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "i",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
       <div
@@ -507,63 +511,9 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel measure__channel--large"
       >
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ke
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          i
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ko
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          te
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          n
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          no
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
+        <ScoreTextLine
+          grid={Array []}
+          length={0}
         />
       </div>
       <div
@@ -661,59 +611,105 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel measure__channel--large"
       >
-        <div
-          className="cell cell--2 cell--text"
-        />
-        <div
-          className="cell cell--5 cell--text"
-        >
-          Tachibana no michinari to wa,
-          <span
-            className="cell__character cell__character--begin cell__character--jiutai"
-          />
-          <span
-            className="cell__tooltip"
-          >
-            jiutai
-          </span>
-          <span
-            className="cell__range--low"
-          />
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          waga
-          <span
-            className="cell__character cell__character--end cell__character--jiutai"
-          />
-          <span
-            className="cell__tooltip"
-          >
-            jiutai
-          </span>
-          <span
-            className="cell__range--medium"
-          />
-        </div>
-        <div
-          className="cell cell--2 cell--text"
-        >
-          koto nari.
-          <span
-            className="cell__character cell__character--begin cell__character--end cell__character--shite"
-          />
-          <span
-            className="cell__tooltip"
-          >
-            shite
-          </span>
-          <span
-            className="cell__range--high"
-          />
-        </div>
-        <div
-          className="cell cell--6 cell--text"
+        <ScoreTextLine
+          grid={
+            Array [
+              Object {
+                "length": 1,
+                "start": 0,
+                "style": "normal",
+                "text": "ma",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "ta",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "wa",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ga",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "cho",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "so",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "ha",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "ji",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "me",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "(e)",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
       <div
@@ -852,63 +848,75 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel measure__channel--large"
       >
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ke
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          i
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          ko
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          te
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          n
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          no
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        >
-          o
-        </div>
-        <div
-          className="cell cell--1 cell--text"
-        />
-        <div
-          className="cell cell--1 cell--text"
+        <ScoreTextLine
+          grid={
+            Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ni",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "n",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "ji",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "u",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "ni",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "da",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "i",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
       <div

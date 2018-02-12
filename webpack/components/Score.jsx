@@ -6,6 +6,7 @@ import CellBeat from "./CellBeat";
 import CellPercussion from "./CellPercussion";
 import NohkanLine from "./NohkanLine";
 import DanceLine from "./DanceLine";
+import ScoreTextLine from "./ScoreTextLine";
 
 function createBeatsArray(grid) {
   const beatsArray = [];
@@ -54,6 +55,9 @@ class Score extends Component {
   }
 
   render() {
+    console.log(this.props.phrases[0]);
+    console.log(this.props.phrases[1]);
+
     const prevBeatNums = this.state.previousPhrase
       ? createBeatsArray(this.state.previousPhrase.beat.grid)
       : [];
@@ -89,20 +93,14 @@ class Score extends Component {
           <div className="measure__grid-container">
             <div className="measure__channel">{prevBeats}</div>
             <div className="measure__channel measure__channel--large">
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text">ke</div>
-              <div className="cell cell--1 cell--text">i</div>
-              <div className="cell cell--1 cell--text">ko</div>
-              <div className="cell cell--1 cell--text">o</div>
-              <div className="cell cell--1 cell--text">te</div>
-              <div className="cell cell--1 cell--text">n</div>
-              <div className="cell cell--1 cell--text">no</div>
-              <div className="cell cell--1 cell--text">o</div>
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
+              <ScoreTextLine
+                grid={
+                  this.state.previousPhrase
+                    ? this.state.previousPhrase.syllableText.grid
+                    : []
+                }
+                length={prevBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <CellPercussion
@@ -137,26 +135,14 @@ class Score extends Component {
           <div className="measure__grid-container">
             <div className="measure__channel">{currentBeats}</div>
             <div className="measure__channel measure__channel--large">
-              <div className="cell cell--2 cell--text" />
-              <div className="cell cell--5 cell--text">
-                Tachibana no michinari to wa,
-                <span className="cell__character cell__character--begin cell__character--jiutai" />
-                <span className="cell__tooltip">jiutai</span>
-                <span className="cell__range--low" />
-              </div>
-              <div className="cell cell--1 cell--text">
-                waga
-                <span className="cell__character cell__character--end cell__character--jiutai" />
-                <span className="cell__tooltip">jiutai</span>
-                <span className="cell__range--medium" />
-              </div>
-              <div className="cell cell--2 cell--text">
-                koto nari.
-                <span className="cell__character cell__character--begin cell__character--end cell__character--shite" />
-                <span className="cell__tooltip">shite</span>
-                <span className="cell__range--high" />
-              </div>
-              <div className="cell cell--6 cell--text" />
+              <ScoreTextLine
+                grid={
+                  this.state.currentPhrase
+                    ? this.state.currentPhrase.syllableText.grid
+                    : []
+                }
+                length={currentBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <CellPercussion
@@ -191,20 +177,14 @@ class Score extends Component {
           <div className="measure__grid-container">
             <div className="measure__channel">{nextBeats}</div>
             <div className="measure__channel measure__channel--large">
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text">ke</div>
-              <div className="cell cell--1 cell--text">i</div>
-              <div className="cell cell--1 cell--text">ko</div>
-              <div className="cell cell--1 cell--text">o</div>
-              <div className="cell cell--1 cell--text">te</div>
-              <div className="cell cell--1 cell--text">n</div>
-              <div className="cell cell--1 cell--text">no</div>
-              <div className="cell cell--1 cell--text">o</div>
-              <div className="cell cell--1 cell--text" />
-              <div className="cell cell--1 cell--text" />
+              <ScoreTextLine
+                grid={
+                  this.state.nextPhrase
+                    ? this.state.nextPhrase.syllableText.grid
+                    : []
+                }
+                length={nextBeatNums.length}
+              />
             </div>
             <div className="measure__channel">
               <CellPercussion
