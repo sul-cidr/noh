@@ -72,6 +72,7 @@
 }
 
 .sidebar__collapsable-title {
+  background-color: $white;
   border-top: $tl-separator;
   padding: 1rem;
 
@@ -79,6 +80,8 @@
 
   h3 {
     font-weight: $fw-bold;
+    flex-shrink: 0;
+    margin-right: 1rem;
 
     @include text(sm);
     @include uppercase();
@@ -89,12 +92,8 @@
   }
 }
 
-.sidebar__collapsable-title--libretto {
-  background-color: $white;
-}
-
 .sidebar__collapsable-title--map {
-  background-color: $white;
+  padding: 0.5rem 1rem;
 }
 
 .video-player {

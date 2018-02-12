@@ -1,4 +1,28 @@
-.highlighted-text__container {}
+.highlighted-text__container {
+  .transcription {
+    .transcription__title {
+      display: none;
+    }
+  }
+  .sidebar__collapsable-title--libretto {
+    .transcription__title {
+      display: block;
+    }
+  }
+
+  &.is-open {
+    .transcription {
+      .transcription__title {
+        display: block;
+      }
+    }
+    .sidebar__collapsable-title--libretto {
+      .transcription__title {
+        display: none;
+      }
+    }
+  }
+}
 
 .transcription {}
 
