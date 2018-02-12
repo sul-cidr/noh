@@ -41,6 +41,11 @@ const App = props => (
           <div className="highlighted-text__container is-open">
             <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
               <h3>Libretto</h3>
+              <div className="transcription__title">
+                <p>
+                  Singing style: <span>{props.singingStyle}</span>
+                </p>
+              </div>
             </div>
             <HighlightedTextContainer
               singingStyle={props.singingStyle}
@@ -49,9 +54,14 @@ const App = props => (
             />
           </div>
 
-          <div className="shodan-timeline__container is-open">
+          <div className="shodan-timeline__container">
             <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
               <h3>Section map</h3>
+              <ShodanTimeline
+                sections={props.sections}
+                maxIntensity={props.maxIntensity}
+                totalDuration={props.videoDuration}
+              />
             </div>
             <ShodanTimeline
               sections={props.sections}
