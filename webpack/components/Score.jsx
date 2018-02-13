@@ -137,26 +137,19 @@ class Score extends Component {
           <div className="measure__grid-container">
             <div className="measure__channel">{currentBeats}</div>
             <div className="measure__channel measure__channel--large">
-              <div className="cell cell--2 cell--text" />
-              <div className="cell cell--5 cell--text">
-                Tachibana no michinari to wa,
-                <span className="cell__character cell__character--begin cell__character--jiutai" />
-                <span className="cell__tooltip">jiutai</span>
-                <span className="cell__range--low" />
-              </div>
-              <div className="cell cell--1 cell--text">
-                waga
-                <span className="cell__character cell__character--end cell__character--jiutai" />
-                <span className="cell__tooltip">jiutai</span>
-                <span className="cell__range--medium" />
-              </div>
-              <div className="cell cell--2 cell--text">
-                koto nari.
-                <span className="cell__character cell__character--begin cell__character--end cell__character--shite" />
-                <span className="cell__tooltip">shite</span>
-                <span className="cell__range--high" />
-              </div>
-              <div className="cell cell--6 cell--text" />
+              <ScoreTextLine
+                textGrid={
+                  this.state.currentPhrase
+                    ? this.state.currentPhrase.syllableText.grid
+                    : []
+                }
+                length={currentBeatNums.length}
+                rangeGrid={
+                  this.state.currentPhrase
+                    ? this.state.currentPhrase.vocalRange.grid
+                    : []
+                }
+              />
             </div>
             <div className="measure__channel">
               <CellPercussion

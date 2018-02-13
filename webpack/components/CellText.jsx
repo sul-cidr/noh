@@ -3,8 +3,16 @@ import PropTypes from "prop-types";
 
 const CellText = props => {
   let rangeSpan = null;
+  let rangeClass = "";
+  if (props.vocalRange === "l") {
+    rangeClass = "low";
+  } else if (props.vocalRange === "m") {
+    rangeClass = "medium";
+  } else if (props.vocalRange === "h") {
+    rangeClass = "high";
+  }
   if (props.vocalRange !== "") {
-    rangeSpan = <span className={`cell__range--${props.vocalRange}`} />;
+    rangeSpan = <span className={`cell__range--${rangeClass}`} />;
   } else {
     rangeSpan = null;
   }

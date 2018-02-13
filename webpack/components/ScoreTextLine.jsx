@@ -42,16 +42,24 @@ const ScoreTextLine = props => {
       }
     }
   }
-  // Have to iterate over grid, and add key with vocal range if that
-  // cell's start falls within the range specificed by the vocalrange grid
-  // entry start + length - 1
+  for (let i = 0; i < props.textGrid.length; i += 1) {
+    for (let j = 0; j < props.rangeGrid.length; j += 1) {
+      if (
+        props.textGrid[i].start >= props.rangeGrid[j].start &&
+        props.textGrid[i].start <
+          props.rangeGrid[j].start + props.rangeGrid[j].length
+      ) {
+        props.textGrid[i].vocalRange = props.rangeGrid[j].text;
+      }
+    }
+  }
   const fullData = fillGrid(props.textGrid, props.length);
   const textCells = fullData.map((cell, idx) => (
     <CellText
       text={cell.text}
       length={cell.length}
       key={`textCell${idx}`} // eslint-disable-line react/no-array-index-key
-      vocalRange="high"
+      vocalRange={cell.vocalRange}
       voiceType={cell.voices && cell.voices[0] ? cell.voices[0] : ""}
       beginning={cell.beginning || false}
       end={cell.end || false}
@@ -65,11 +73,19 @@ ScoreTextLine.propTypes = {
     PropTypes.shape({
       voices: PropTypes.arrayOf(PropTypes.string),
       beginning: PropTypes.bool,
-      end: PropTypes.bool
+      end: PropTypes.bool,
+      start: PropTypes.number,
+      vocalRange: PropTypes.string
     })
   ).isRequired,
   length: PropTypes.number.isRequired,
-  rangeGrid: PropTypes.arrayOf(PropTypes.shape({})).isRequired
+  rangeGrid: PropTypes.arrayOf(
+    PropTypes.shape({
+      start: PropTypes.number,
+      text: PropTypes.string,
+      length: PropTypes.number
+    })
+  ).isRequired
 };
 
 export default ScoreTextLine;
