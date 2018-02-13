@@ -65,6 +65,10 @@
 .sidebar__extras {
   flex-shrink: 0;
   width: 100%;
+
+  h3 {
+    cursor: pointer;
+  }
 }
 
 .sidebar--section {
