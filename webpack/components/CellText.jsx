@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-// We should only create the inside spans if the data is there
 const CellText = props => {
   let rangeSpan = null;
   if (props.vocalRange !== "") {
@@ -12,8 +11,12 @@ const CellText = props => {
   let typeSpan = null;
   let tooltipSpan = null;
   if (props.voiceType !== "") {
+    const beginClass = props.beginning === true ? "cell__character--begin" : "";
+    const endClass = props.end === true ? "cell__character--end" : "";
     typeSpan = (
-      <span className={`cell__character cell__character--${props.voiceType}`} />
+      <span
+        className={`cell__character cell__character--${props.voiceType} ${beginClass} ${endClass}`}
+      />
     );
     tooltipSpan = <span className="cell__tooltip">{props.voiceType}</span>;
   }
@@ -31,12 +34,16 @@ CellText.propTypes = {
   text: PropTypes.string.isRequired,
   length: PropTypes.number.isRequired,
   vocalRange: PropTypes.string,
-  voiceType: PropTypes.string
+  voiceType: PropTypes.string,
+  beginning: PropTypes.bool,
+  end: PropTypes.bool
 };
 
 CellText.defaultProps = {
   vocalRange: "",
-  voiceType: ""
+  voiceType: "",
+  beginning: false,
+  end: false
 };
 
 export default CellText;
