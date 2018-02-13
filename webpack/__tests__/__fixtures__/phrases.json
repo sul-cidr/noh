@@ -85,14 +85,14 @@
           },
           {
             "text": "wa",
-            "voices": [],
+            "voices": ["jiutai"],
             "start": 2,
             "style": "normal",
             "length": 1
           },
           {
             "text": "ga",
-            "voices": [],
+            "voices": ["shite"],
             "start": 3,
             "style": "normal",
             "length": 1
@@ -113,7 +113,7 @@
           },
           {
             "text": "no",
-            "voices": [],
+            "voices": ["jiutai"],
             "start": 6,
             "style": "normal",
             "length": 1
@@ -155,7 +155,7 @@
           },
           {
             "text": "(e)",
-            "voices": [],
+            "voices": ["shite"],
             "start": 12,
             "style": "normal",
             "length": 1

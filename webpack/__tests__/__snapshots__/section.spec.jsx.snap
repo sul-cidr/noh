@@ -575,10 +575,13 @@ exports[`<Section> renders as expected 1`] = `
         "syllableText": Object {
           "grid": Array [
             Object {
+              "beginning": true,
+              "end": true,
               "length": 1,
               "start": 0,
               "style": "normal",
               "text": "ma",
+              "vocalRange": "l",
               "voices": Array [
                 "jiutai",
               ],
@@ -588,6 +591,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 1,
               "style": "normal",
               "text": "ta",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -595,6 +599,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 2,
               "style": "normal",
               "text": "wa",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -602,6 +607,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 3,
               "style": "normal",
               "text": "ga",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -609,6 +615,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 4,
               "style": "normal",
               "text": "cho",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -616,6 +623,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 5,
               "style": "normal",
               "text": "o",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -623,6 +631,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 6,
               "style": "normal",
               "text": "no",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -630,6 +639,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 7,
               "style": "normal",
               "text": "so",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -637,6 +647,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 8,
               "style": "normal",
               "text": "no",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -644,6 +655,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 9,
               "style": "normal",
               "text": "ha",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -651,6 +663,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 10,
               "style": "normal",
               "text": "ji",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -658,6 +671,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 11,
               "style": "normal",
               "text": "me",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -665,6 +679,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 12,
               "style": "normal",
               "text": "(e)",
+              "vocalRange": "l",
               "voices": Array [],
             },
           ],
@@ -837,10 +852,16 @@ exports[`<Section> renders as expected 1`] = `
         "syllableText": Object {
           "grid": Array [
             Object {
+              "length": 2,
+              "start": 0,
+              "text": "",
+            },
+            Object {
               "length": 1,
               "start": 3,
               "style": "normal",
               "text": "ni",
+              "vocalRange": "m",
               "voices": Array [],
             },
             Object {
@@ -848,6 +869,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 4,
               "style": "normal",
               "text": "n",
+              "vocalRange": "m",
               "voices": Array [],
             },
             Object {
@@ -855,6 +877,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 5,
               "style": "normal",
               "text": "no",
+              "vocalRange": "m",
               "voices": Array [],
             },
             Object {
@@ -862,6 +885,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 6,
               "style": "normal",
               "text": "o",
+              "vocalRange": "m",
               "voices": Array [],
             },
             Object {
@@ -869,6 +893,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 7,
               "style": "normal",
               "text": "ji",
+              "vocalRange": "m",
               "voices": Array [],
             },
             Object {
@@ -876,6 +901,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 8,
               "style": "normal",
               "text": "u",
+              "vocalRange": "m",
               "voices": Array [],
             },
             Object {
@@ -883,6 +909,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 9,
               "style": "normal",
               "text": "ni",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -890,6 +917,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 10,
               "style": "normal",
               "text": "da",
+              "vocalRange": "l",
               "voices": Array [],
             },
             Object {
@@ -897,6 +925,7 @@ exports[`<Section> renders as expected 1`] = `
               "start": 11,
               "style": "normal",
               "text": "i",
+              "vocalRange": "l",
               "voices": Array [],
             },
           ],
@@ -23902,10 +23931,13 @@ exports[`<Section> renders as expected 1`] = `
                   "syllableText": Object {
                     "grid": Array [
                       Object {
+                        "beginning": true,
+                        "end": true,
                         "length": 1,
                         "start": 0,
                         "style": "normal",
                         "text": "ma",
+                        "vocalRange": "l",
                         "voices": Array [
                           "jiutai",
                         ],
@@ -23915,6 +23947,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 1,
                         "style": "normal",
                         "text": "ta",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23922,6 +23955,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 2,
                         "style": "normal",
                         "text": "wa",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23929,6 +23963,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 3,
                         "style": "normal",
                         "text": "ga",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23936,6 +23971,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 4,
                         "style": "normal",
                         "text": "cho",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23943,6 +23979,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 5,
                         "style": "normal",
                         "text": "o",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23950,6 +23987,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 6,
                         "style": "normal",
                         "text": "no",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23957,6 +23995,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 7,
                         "style": "normal",
                         "text": "so",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23964,6 +24003,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 8,
                         "style": "normal",
                         "text": "no",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23971,6 +24011,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 9,
                         "style": "normal",
                         "text": "ha",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23978,6 +24019,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 10,
                         "style": "normal",
                         "text": "ji",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23985,6 +24027,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 11,
                         "style": "normal",
                         "text": "me",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -23992,6 +24035,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 12,
                         "style": "normal",
                         "text": "(e)",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                     ],
@@ -24164,10 +24208,16 @@ exports[`<Section> renders as expected 1`] = `
                   "syllableText": Object {
                     "grid": Array [
                       Object {
+                        "length": 2,
+                        "start": 0,
+                        "text": "",
+                      },
+                      Object {
                         "length": 1,
                         "start": 3,
                         "style": "normal",
                         "text": "ni",
+                        "vocalRange": "m",
                         "voices": Array [],
                       },
                       Object {
@@ -24175,6 +24225,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 4,
                         "style": "normal",
                         "text": "n",
+                        "vocalRange": "m",
                         "voices": Array [],
                       },
                       Object {
@@ -24182,6 +24233,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 5,
                         "style": "normal",
                         "text": "no",
+                        "vocalRange": "m",
                         "voices": Array [],
                       },
                       Object {
@@ -24189,6 +24241,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 6,
                         "style": "normal",
                         "text": "o",
+                        "vocalRange": "m",
                         "voices": Array [],
                       },
                       Object {
@@ -24196,6 +24249,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 7,
                         "style": "normal",
                         "text": "ji",
+                        "vocalRange": "m",
                         "voices": Array [],
                       },
                       Object {
@@ -24203,6 +24257,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 8,
                         "style": "normal",
                         "text": "u",
+                        "vocalRange": "m",
                         "voices": Array [],
                       },
                       Object {
@@ -24210,6 +24265,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 9,
                         "style": "normal",
                         "text": "ni",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -24217,6 +24273,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 10,
                         "style": "normal",
                         "text": "da",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                       Object {
@@ -24224,6 +24281,7 @@ exports[`<Section> renders as expected 1`] = `
                         "start": 11,
                         "style": "normal",
                         "text": "i",
+                        "vocalRange": "l",
                         "voices": Array [],
                       },
                     ],
@@ -39933,10 +39991,13 @@ exports[`<Section> renders as expected 1`] = `
                     "syllableText": Object {
                       "grid": Array [
                         Object {
+                          "beginning": true,
+                          "end": true,
                           "length": 1,
                           "start": 0,
                           "style": "normal",
                           "text": "ma",
+                          "vocalRange": "l",
                           "voices": Array [
                             "jiutai",
                           ],
@@ -39946,6 +40007,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 1,
                           "style": "normal",
                           "text": "ta",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39953,6 +40015,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 2,
                           "style": "normal",
                           "text": "wa",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39960,6 +40023,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 3,
                           "style": "normal",
                           "text": "ga",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39967,6 +40031,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 4,
                           "style": "normal",
                           "text": "cho",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39974,6 +40039,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 5,
                           "style": "normal",
                           "text": "o",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39981,6 +40047,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 6,
                           "style": "normal",
                           "text": "no",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39988,6 +40055,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 7,
                           "style": "normal",
                           "text": "so",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -39995,6 +40063,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 8,
                           "style": "normal",
                           "text": "no",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -40002,6 +40071,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 9,
                           "style": "normal",
                           "text": "ha",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -40009,6 +40079,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 10,
                           "style": "normal",
                           "text": "ji",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -40016,6 +40087,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 11,
                           "style": "normal",
                           "text": "me",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -40023,6 +40095,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 12,
                           "style": "normal",
                           "text": "(e)",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                       ],
@@ -40195,10 +40268,16 @@ exports[`<Section> renders as expected 1`] = `
                     "syllableText": Object {
                       "grid": Array [
                         Object {
+                          "length": 2,
+                          "start": 0,
+                          "text": "",
+                        },
+                        Object {
                           "length": 1,
                           "start": 3,
                           "style": "normal",
                           "text": "ni",
+                          "vocalRange": "m",
                           "voices": Array [],
                         },
                         Object {
@@ -40206,6 +40285,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 4,
                           "style": "normal",
                           "text": "n",
+                          "vocalRange": "m",
                           "voices": Array [],
                         },
                         Object {
@@ -40213,6 +40293,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 5,
                           "style": "normal",
                           "text": "no",
+                          "vocalRange": "m",
                           "voices": Array [],
                         },
                         Object {
@@ -40220,6 +40301,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 6,
                           "style": "normal",
                           "text": "o",
+                          "vocalRange": "m",
                           "voices": Array [],
                         },
                         Object {
@@ -40227,6 +40309,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 7,
                           "style": "normal",
                           "text": "ji",
+                          "vocalRange": "m",
                           "voices": Array [],
                         },
                         Object {
@@ -40234,6 +40317,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 8,
                           "style": "normal",
                           "text": "u",
+                          "vocalRange": "m",
                           "voices": Array [],
                         },
                         Object {
@@ -40241,6 +40325,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 9,
                           "style": "normal",
                           "text": "ni",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -40248,6 +40333,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 10,
                           "style": "normal",
                           "text": "da",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                         Object {
@@ -40255,6 +40341,7 @@ exports[`<Section> renders as expected 1`] = `
                           "start": 11,
                           "style": "normal",
                           "text": "i",
+                          "vocalRange": "l",
                           "voices": Array [],
                         },
                       ],
@@ -55800,64 +55887,24 @@ exports[`<Section> renders as expected 1`] = `
                     <div
                       className="measure__channel measure__channel--large"
                     >
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
+                      <ScoreTextLine
+                        length={0}
+                        rangeGrid={Array []}
+                        textGrid={Array []}
                       >
-                        ke
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        i
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        ko
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        o
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        te
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        n
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        no
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        o
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          length={0}
+                          text=""
+                          vocalRange=""
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--0 cell--text"
+                          />
+                        </CellText>
+                      </ScoreTextLine>
                     </div>
                     <div
                       className="measure__channel"
@@ -56076,60 +56123,375 @@ exports[`<Section> renders as expected 1`] = `
                     <div
                       className="measure__channel measure__channel--large"
                     >
-                      <div
-                        className="cell cell--2 cell--text"
-                      />
-                      <div
-                        className="cell cell--5 cell--text"
+                      <ScoreTextLine
+                        length={13}
+                        rangeGrid={
+                          Array [
+                            Object {
+                              "length": 13,
+                              "start": 0,
+                              "style": "normal",
+                              "text": "l",
+                              "voices": Array [],
+                            },
+                          ]
+                        }
+                        textGrid={
+                          Array [
+                            Object {
+                              "beginning": true,
+                              "end": true,
+                              "length": 1,
+                              "start": 0,
+                              "style": "normal",
+                              "text": "ma",
+                              "vocalRange": "l",
+                              "voices": Array [
+                                "jiutai",
+                              ],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 1,
+                              "style": "normal",
+                              "text": "ta",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 2,
+                              "style": "normal",
+                              "text": "wa",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 3,
+                              "style": "normal",
+                              "text": "ga",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 4,
+                              "style": "normal",
+                              "text": "cho",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 5,
+                              "style": "normal",
+                              "text": "o",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 6,
+                              "style": "normal",
+                              "text": "no",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 7,
+                              "style": "normal",
+                              "text": "so",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 8,
+                              "style": "normal",
+                              "text": "no",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 9,
+                              "style": "normal",
+                              "text": "ha",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 10,
+                              "style": "normal",
+                              "text": "ji",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 11,
+                              "style": "normal",
+                              "text": "me",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 12,
+                              "style": "normal",
+                              "text": "(e)",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                          ]
+                        }
                       >
-                        Tachibana no michinari to wa,
-                        <span
-                          className="cell__character cell__character--begin cell__character--jiutai"
-                        />
-                        <span
-                          className="cell__tooltip"
+                        <CellText
+                          beginning={true}
+                          end={true}
+                          key="textCell0"
+                          length={1}
+                          text="ma"
+                          vocalRange="l"
+                          voiceType="jiutai"
                         >
-                          jiutai
-                        </span>
-                        <span
-                          className="cell__range--low"
-                        />
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        waga
-                        <span
-                          className="cell__character cell__character--end cell__character--jiutai"
-                        />
-                        <span
-                          className="cell__tooltip"
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ma
+                            <span
+                              className="cell__character cell__character--jiutai cell__character--begin cell__character--end"
+                            />
+                            <span
+                              className="cell__tooltip"
+                            >
+                              jiutai
+                            </span>
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell1"
+                          length={1}
+                          text="ta"
+                          vocalRange="l"
+                          voiceType=""
                         >
-                          jiutai
-                        </span>
-                        <span
-                          className="cell__range--medium"
-                        />
-                      </div>
-                      <div
-                        className="cell cell--2 cell--text"
-                      >
-                        koto nari.
-                        <span
-                          className="cell__character cell__character--begin cell__character--end cell__character--shite"
-                        />
-                        <span
-                          className="cell__tooltip"
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ta
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell2"
+                          length={1}
+                          text="wa"
+                          vocalRange="l"
+                          voiceType=""
                         >
-                          shite
-                        </span>
-                        <span
-                          className="cell__range--high"
-                        />
-                      </div>
-                      <div
-                        className="cell cell--6 cell--text"
-                      />
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            wa
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell3"
+                          length={1}
+                          text="ga"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ga
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell4"
+                          length={1}
+                          text="cho"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            cho
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell5"
+                          length={1}
+                          text="o"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            o
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell6"
+                          length={1}
+                          text="no"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            no
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell7"
+                          length={1}
+                          text="so"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            so
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell8"
+                          length={1}
+                          text="no"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            no
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell9"
+                          length={1}
+                          text="ha"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ha
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell10"
+                          length={1}
+                          text="ji"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ji
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell11"
+                          length={1}
+                          text="me"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            me
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell12"
+                          length={1}
+                          text="(e)"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            (e)
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                      </ScoreTextLine>
                     </div>
                     <div
                       className="measure__channel"
@@ -56360,64 +56722,310 @@ exports[`<Section> renders as expected 1`] = `
                     <div
                       className="measure__channel measure__channel--large"
                     >
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
+                      <ScoreTextLine
+                        length={13}
+                        rangeGrid={
+                          Array [
+                            Object {
+                              "length": 6,
+                              "start": 3,
+                              "style": "normal",
+                              "text": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 3,
+                              "start": 9,
+                              "style": "normal",
+                              "text": "l",
+                              "voices": Array [],
+                            },
+                          ]
+                        }
+                        textGrid={
+                          Array [
+                            Object {
+                              "length": 2,
+                              "start": 0,
+                              "text": "",
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 3,
+                              "style": "normal",
+                              "text": "ni",
+                              "vocalRange": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 4,
+                              "style": "normal",
+                              "text": "n",
+                              "vocalRange": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 5,
+                              "style": "normal",
+                              "text": "no",
+                              "vocalRange": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 6,
+                              "style": "normal",
+                              "text": "o",
+                              "vocalRange": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 7,
+                              "style": "normal",
+                              "text": "ji",
+                              "vocalRange": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 8,
+                              "style": "normal",
+                              "text": "u",
+                              "vocalRange": "m",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 9,
+                              "style": "normal",
+                              "text": "ni",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 10,
+                              "style": "normal",
+                              "text": "da",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                            Object {
+                              "length": 1,
+                              "start": 11,
+                              "style": "normal",
+                              "text": "i",
+                              "vocalRange": "l",
+                              "voices": Array [],
+                            },
+                          ]
+                        }
                       >
-                        ke
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        i
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        ko
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        o
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        te
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        n
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        no
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      >
-                        o
-                      </div>
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
-                      <div
-                        className="cell cell--1 cell--text"
-                      />
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell0"
+                          length={2}
+                          text=""
+                          vocalRange=""
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--2 cell--text"
+                          />
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell1"
+                          length={1}
+                          text=""
+                          vocalRange=""
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          />
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell2"
+                          length={1}
+                          text="ni"
+                          vocalRange="m"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ni
+                            <span
+                              className="cell__range--medium"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell3"
+                          length={1}
+                          text="n"
+                          vocalRange="m"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            n
+                            <span
+                              className="cell__range--medium"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell4"
+                          length={1}
+                          text="no"
+                          vocalRange="m"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            no
+                            <span
+                              className="cell__range--medium"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell5"
+                          length={1}
+                          text="o"
+                          vocalRange="m"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            o
+                            <span
+                              className="cell__range--medium"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell6"
+                          length={1}
+                          text="ji"
+                          vocalRange="m"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ji
+                            <span
+                              className="cell__range--medium"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell7"
+                          length={1}
+                          text="u"
+                          vocalRange="m"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            u
+                            <span
+                              className="cell__range--medium"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell8"
+                          length={1}
+                          text="ni"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            ni
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell9"
+                          length={1}
+                          text="da"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            da
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell10"
+                          length={1}
+                          text="i"
+                          vocalRange="l"
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          >
+                            i
+                            <span
+                              className="cell__range--low"
+                            />
+                          </div>
+                        </CellText>
+                        <CellText
+                          beginning={false}
+                          end={false}
+                          key="textCell11"
+                          length={1}
+                          text=""
+                          vocalRange=""
+                          voiceType=""
+                        >
+                          <div
+                            className="cell cell--1 cell--text"
+                          />
+                        </CellText>
+                      </ScoreTextLine>
                     </div>
                     <div
                       className="measure__channel"

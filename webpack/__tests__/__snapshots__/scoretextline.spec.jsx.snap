@@ -8,7 +8,7 @@ Array [
     key="textCell0"
     length={1}
     text="ma"
-    vocalRange="high"
+    vocalRange="l"
     voiceType="jiutai"
   />,
   <CellText
@@ -17,26 +17,26 @@ Array [
     key="textCell1"
     length={1}
     text="ta"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
+    beginning={true}
+    end={true}
     key="textCell2"
     length={1}
     text="wa"
-    vocalRange="high"
-    voiceType=""
+    vocalRange="l"
+    voiceType="jiutai"
   />,
   <CellText
-    beginning={false}
-    end={false}
+    beginning={true}
+    end={true}
     key="textCell3"
     length={1}
     text="ga"
-    vocalRange="high"
-    voiceType=""
+    vocalRange="l"
+    voiceType="shite"
   />,
   <CellText
     beginning={false}
@@ -44,7 +44,7 @@ Array [
     key="textCell4"
     length={1}
     text="cho"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -53,17 +53,17 @@ Array [
     key="textCell5"
     length={1}
     text="o"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
+    beginning={true}
+    end={true}
     key="textCell6"
     length={1}
     text="no"
-    vocalRange="high"
-    voiceType=""
+    vocalRange="l"
+    voiceType="jiutai"
   />,
   <CellText
     beginning={false}
@@ -71,7 +71,7 @@ Array [
     key="textCell7"
     length={1}
     text="so"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -80,7 +80,7 @@ Array [
     key="textCell8"
     length={1}
     text="no"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -89,7 +89,7 @@ Array [
     key="textCell9"
     length={1}
     text="ha"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -98,7 +98,7 @@ Array [
     key="textCell10"
     length={1}
     text="ji"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -107,17 +107,28 @@ Array [
     key="textCell11"
     length={1}
     text="me"
-    vocalRange="high"
+    vocalRange="l"
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
+    beginning={true}
+    end={true}
     key="textCell12"
     length={1}
     text="(e)"
-    vocalRange="high"
-    voiceType=""
+    vocalRange="l"
+    voiceType="shite"
   />,
 ]
+`;
+
+exports[`<ScoreTextLine> renders as expected by default 2`] = `
+<CellText
+  beginning={false}
+  end={false}
+  length={13}
+  text=""
+  vocalRange=""
+  voiceType=""
+/>
 `;

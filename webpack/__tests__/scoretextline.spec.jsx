@@ -14,4 +14,14 @@ describe("<ScoreTextLine>", () => {
     );
     expect(component).toMatchSnapshot();
   });
+  it("renders as expected by default", () => {
+    const component = shallow(
+      <ScoreTextLine
+        textGrid={[]}
+        length={13}
+        rangeGrid={phrases.phrases[0].vocalRange.grid}
+      />
+    );
+    expect(component).toMatchSnapshot();
+  });
 });
