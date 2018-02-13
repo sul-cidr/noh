@@ -456,6 +456,11 @@ exports[`<Section> renders as expected 1`] = `
         "dance": Object {
           "grid": Array [
             Object {
+              "length": 1,
+              "start": 0,
+              "text": "",
+            },
+            Object {
               "length": 4,
               "start": 1,
               "style": "normal",
@@ -23778,6 +23783,11 @@ exports[`<Section> renders as expected 1`] = `
                   "dance": Object {
                     "grid": Array [
                       Object {
+                        "length": 1,
+                        "start": 0,
+                        "text": "",
+                      },
+                      Object {
                         "length": 4,
                         "start": 1,
                         "style": "normal",
@@ -39803,6 +39813,11 @@ exports[`<Section> renders as expected 1`] = `
                     },
                     "dance": Object {
                       "grid": Array [
+                        Object {
+                          "length": 1,
+                          "start": 0,
+                          "text": "",
+                        },
                         Object {
                           "length": 4,
                           "start": 1,
@@ -55878,17 +55893,19 @@ exports[`<Section> renders as expected 1`] = `
                     <div
                       className="measure__channel"
                     >
-                      <div
-                        className="cell cell--3"
-                      />
-                      <div
-                        className="cell cell--6 cell--dance"
+                      <DanceLine
+                        grid={Array []}
+                        length={0}
                       >
-                        Sits back on his knee (9)
-                      </div>
-                      <div
-                        className="cell cell--5"
-                      />
+                        <CellDance
+                          length={0}
+                          text=""
+                        >
+                          <div
+                            className="cell cell--0 cell--dance"
+                          />
+                        </CellDance>
+                      </DanceLine>
                     </div>
                   </div>
                 </div>
@@ -56148,17 +56165,55 @@ exports[`<Section> renders as expected 1`] = `
                     <div
                       className="measure__channel"
                     >
-                      <div
-                        className="cell cell--3"
-                      />
-                      <div
-                        className="cell cell--6 cell--dance"
+                      <DanceLine
+                        grid={
+                          Array [
+                            Object {
+                              "length": 1,
+                              "start": 0,
+                              "text": "",
+                            },
+                            Object {
+                              "length": 4,
+                              "start": 1,
+                              "style": "normal",
+                              "text": "9. Shite kneeling facing front.",
+                              "voices": Array [],
+                            },
+                          ]
+                        }
+                        length={13}
                       >
-                        Sits back on his knee (9)
-                      </div>
-                      <div
-                        className="cell cell--7"
-                      />
+                        <CellDance
+                          key="danceCell0"
+                          length={1}
+                          text=""
+                        >
+                          <div
+                            className="cell cell--1 cell--dance"
+                          />
+                        </CellDance>
+                        <CellDance
+                          key="danceCell1"
+                          length={4}
+                          text="9. Shite kneeling facing front."
+                        >
+                          <div
+                            className="cell cell--4 cell--dance"
+                          >
+                            9. Shite kneeling facing front.
+                          </div>
+                        </CellDance>
+                        <CellDance
+                          key="danceCell2"
+                          length={8}
+                          text=""
+                        >
+                          <div
+                            className="cell cell--8 cell--dance"
+                          />
+                        </CellDance>
+                      </DanceLine>
                     </div>
                   </div>
                 </div>
@@ -56398,17 +56453,19 @@ exports[`<Section> renders as expected 1`] = `
                     <div
                       className="measure__channel"
                     >
-                      <div
-                        className="cell cell--3"
-                      />
-                      <div
-                        className="cell cell--6 cell--dance"
+                      <DanceLine
+                        grid={Array []}
+                        length={13}
                       >
-                        Sits back on his knee (9)
-                      </div>
-                      <div
-                        className="cell cell--5"
-                      />
+                        <CellDance
+                          length={13}
+                          text=""
+                        >
+                          <div
+                            className="cell cell--13 cell--dance"
+                          />
+                        </CellDance>
+                      </DanceLine>
                     </div>
                   </div>
                 </div>
