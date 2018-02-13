@@ -5,6 +5,7 @@ import MeasureLabelContainer from "./MeasureLabelContainer";
 import CellBeat from "./CellBeat";
 import CellPercussion from "./CellPercussion";
 import NohkanLine from "./NohkanLine";
+import DanceLine from "./DanceLine";
 
 function createBeatsArray(grid) {
   const beatsArray = [];
@@ -120,11 +121,14 @@ class Score extends Component {
               />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--3" />
-              <div className="cell cell--6 cell--dance">
-                Sits back on his knee (9)
-              </div>
-              <div className="cell cell--5" />
+              <DanceLine
+                grid={
+                  this.state.previousPhrase
+                    ? this.state.previousPhrase.dance.grid
+                    : []
+                }
+                length={prevBeatNums.length}
+              />
             </div>
           </div>
         </div>
@@ -171,11 +175,14 @@ class Score extends Component {
               />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--3" />
-              <div className="cell cell--6 cell--dance">
-                Sits back on his knee (9)
-              </div>
-              <div className="cell cell--7" />
+              <DanceLine
+                grid={
+                  this.state.currentPhrase
+                    ? this.state.currentPhrase.dance.grid
+                    : []
+                }
+                length={currentBeatNums.length}
+              />
             </div>
           </div>
         </div>
@@ -214,11 +221,12 @@ class Score extends Component {
               />
             </div>
             <div className="measure__channel">
-              <div className="cell cell--3" />
-              <div className="cell cell--6 cell--dance">
-                Sits back on his knee (9)
-              </div>
-              <div className="cell cell--5" />
+              <DanceLine
+                grid={
+                  this.state.nextPhrase ? this.state.nextPhrase.dance.grid : []
+                }
+                length={nextBeatNums.length}
+              />
             </div>
           </div>
         </div>

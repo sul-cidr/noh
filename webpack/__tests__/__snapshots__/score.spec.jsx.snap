@@ -98,16 +98,9 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--3"
-        />
-        <div
-          className="cell cell--6 cell--dance"
-        >
-          Sits back on his knee (9)
-        </div>
-        <div
-          className="cell cell--5"
+        <DanceLine
+          grid={Array []}
+          length={0}
         />
       </div>
     </div>
@@ -286,16 +279,19 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--3"
-        />
-        <div
-          className="cell cell--6 cell--dance"
-        >
-          Sits back on his knee (9)
-        </div>
-        <div
-          className="cell cell--7"
+        <DanceLine
+          grid={
+            Array [
+              Object {
+                "length": 4,
+                "start": 1,
+                "style": "normal",
+                "text": "9. Kneeling facing front.",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
     </div>
@@ -464,16 +460,26 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--3"
-        />
-        <div
-          className="cell cell--6 cell--dance"
-        >
-          Sits back on his knee (9)
-        </div>
-        <div
-          className="cell cell--5"
+        <DanceLine
+          grid={
+            Array [
+              Object {
+                "length": 3,
+                "start": 0,
+                "style": "normal",
+                "text": "and gazes in the distance.",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 6,
+                "style": "normal",
+                "text": "9. Sits back on his knee.",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
     </div>
@@ -579,16 +585,9 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--3"
-        />
-        <div
-          className="cell cell--6 cell--dance"
-        >
-          Sits back on his knee (9)
-        </div>
-        <div
-          className="cell cell--5"
+        <DanceLine
+          grid={Array []}
+          length={0}
         />
       </div>
     </div>
@@ -767,16 +766,19 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--3"
-        />
-        <div
-          className="cell cell--6 cell--dance"
-        >
-          Sits back on his knee (9)
-        </div>
-        <div
-          className="cell cell--7"
+        <DanceLine
+          grid={
+            Array [
+              Object {
+                "length": 4,
+                "start": 1,
+                "style": "normal",
+                "text": "9. Kneeling facing front.",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
     </div>
@@ -945,16 +947,26 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       <div
         className="measure__channel"
       >
-        <div
-          className="cell cell--3"
-        />
-        <div
-          className="cell cell--6 cell--dance"
-        >
-          Sits back on his knee (9)
-        </div>
-        <div
-          className="cell cell--5"
+        <DanceLine
+          grid={
+            Array [
+              Object {
+                "length": 3,
+                "start": 0,
+                "style": "normal",
+                "text": "and gazes in the distance.",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 6,
+                "style": "normal",
+                "text": "9. Sits back on his knee.",
+                "voices": Array [],
+              },
+            ]
+          }
+          length={13}
         />
       </div>
     </div>
