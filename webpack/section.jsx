@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
@@ -13,66 +13,116 @@ import ShodanTimeline from "./components/ShodanTimeline";
 import store from "./store";
 import contents from "./contents";
 
-const App = props => (
-  <Provider store={store}>
-    <div className="app-container">
-      <aside className="sidebar sidebar--section">
-        <div className="sidebar__header">
-          <div className="sidebar__back-link">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="7"
-              height="11"
-              viewBox="0 0 7 11"
-            >
-              <path
-                fill="currentColor"
-                d="M0.197894737,5.07381279 L5.31236842,0.193127854 C5.55894737,-0.0421917808 5.95894737,-0.0421917808 6.20552632,0.193127854 L6.80210526,0.762465753 C7.04842105,0.997534247 7.04868421,1.37826484 6.80315789,1.61383562 L2.74973684,5.5 L6.80289474,9.38641553 C7.04868421,9.6219863 7.04815789,10.0027169 6.80184211,10.2377854 L6.20526316,10.8071233 C5.95868421,11.0424429 5.55868421,11.0424429 5.31210526,10.8071233 L0.197894737,5.92618721 C-0.0486842105,5.69086758 -0.0486842105,5.30913242 0.197894737,5.07381279 Z"
-              />
-            </svg>
-            {props.playName}
-          </div>
-          <h1>{props.title}</h1>
-        </div>
-        <div className="sidebar__container">
-          <Narrative narrative={props.narrative} />
-        </div>
-        <div className="sidebar__extras">
-          <div className="highlighted-text__container is-open">
-            <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
-              <h3>Libretto</h3>
-            </div>
-            <HighlightedTextContainer
-              singingStyle={props.singingStyle}
-              phrases={props.captions}
-              currentPhraseID="I/1"
-            />
-          </div>
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHighlightedTextOn: true,
+      isShodanTimelineOn: false
+    };
+  }
 
-          <div className="shodan-timeline__container is-open">
-            <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
-              <h3>Section map</h3>
+  handleToggle(event, toggleName) {
+    if (event.target.tagName === "H3") {
+      this.setState(prevState => ({
+        [toggleName]: !prevState[toggleName]
+      }));
+    }
+  }
+
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="app-container">
+          <aside className="sidebar sidebar--section">
+            <div className="sidebar__header">
+              <div className="sidebar__back-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="11"
+                  viewBox="0 0 7 11"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M0.197894737,5.07381279 L5.31236842,0.193127854 C5.55894737,-0.0421917808 5.95894737,-0.0421917808 6.20552632,0.193127854 L6.80210526,0.762465753 C7.04842105,0.997534247 7.04868421,1.37826484 6.80315789,1.61383562 L2.74973684,5.5 L6.80289474,9.38641553 C7.04868421,9.6219863 7.04815789,10.0027169 6.80184211,10.2377854 L6.20526316,10.8071233 C5.95868421,11.0424429 5.55868421,11.0424429 5.31210526,10.8071233 L0.197894737,5.92618721 C-0.0486842105,5.69086758 -0.0486842105,5.30913242 0.197894737,5.07381279 Z"
+                  />
+                </svg>
+                {this.props.playName}
+              </div>
+              <h1>{this.props.title}</h1>
             </div>
-            <ShodanTimeline
-              sections={props.sections}
-              maxIntensity={props.maxIntensity}
-              totalDuration={props.videoDuration}
-            />
-          </div>
+            <div className="sidebar__container">
+              <Narrative narrative={this.props.narrative} />
+            </div>
+            <div className="sidebar__extras">
+              <div
+                role="presentation"
+                className={`highlighted-text__container ${this.state
+                  .isHighlightedTextOn
+                  ? "is-open"
+                  : ""}`}
+                onClick={event =>
+                  this.handleToggle(event, "isHighlightedTextOn")}
+                onKeyPress={null}
+              >
+                <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
+                  <h3>Libretto</h3>
+                  <div className="transcription__title">
+                    <p>
+                      Singing style: <span>{this.props.singingStyle}</span>
+                    </p>
+                  </div>
+                </div>
+                <HighlightedTextContainer
+                  singingStyle={this.props.singingStyle}
+                  phrases={this.props.captions}
+                  currentPhraseID="I/1"
+                />
+              </div>
+              <div
+                role="presentation"
+                className={`shodan-timeline__container ${this.state
+                  .isShodanTimelineOn
+                  ? "is-open"
+                  : ""}`}
+                onClick={event =>
+                  this.handleToggle(event, "isShodanTimelineOn")}
+                onKeyPress={null}
+              >
+                <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
+                  <h3>Section map</h3>
+                  <ShodanTimeline
+                    sections={this.props.sections}
+                    maxIntensity={this.props.maxIntensity}
+                    totalDuration={this.props.videoDuration}
+                  />
+                </div>
+                <ShodanTimeline
+                  sections={this.props.sections}
+                  maxIntensity={this.props.maxIntensity}
+                  totalDuration={this.props.videoDuration}
+                />
+              </div>
+            </div>
+          </aside>
+          <main>
+            <div className="video-player">
+              <div className="video-container">
+                <MasterVideo
+                  videoUrl={this.props.videoUrl}
+                  tracks={this.props.tracks}
+                />
+              </div>
+              <Score phrases={this.props.phrases} />
+              <ScoreControls />
+            </div>
+          </main>
         </div>
-      </aside>
-      <main>
-        <div className="video-player">
-          <div className="video-container">
-            <MasterVideo videoUrl={props.videoUrl} tracks={props.tracks} />
-          </div>
-          <Score phrases={props.phrases} />
-          <ScoreControls />
-        </div>
-      </main>
-    </div>
-  </Provider>
-);
+      </Provider>
+    );
+  }
+}
 
 App.propTypes = {
   // currentTime: PropTypes.number,
@@ -132,9 +182,12 @@ App.defaultProps = {
   // isPlaying: false
 };
 
-const playName = window.location.pathname.trim().split("/")[1];
-const sectionName = window.location.pathname.trim().split("/")[2];
-
-contents.section(playName, sectionName, props => {
-  render(<App {...props} />, document.getElementById("section"));
-});
+// If main app
+/* istanbul ignore if */
+if (!module.parent) {
+  const playName = window.location.pathname.trim().split("/")[1];
+  const sectionName = window.location.pathname.trim().split("/")[2];
+  contents.section(playName, sectionName, props => {
+    render(<App {...props} />, document.getElementById("section"));
+  });
+}

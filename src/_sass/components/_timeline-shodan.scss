@@ -9,15 +9,30 @@
 }
 
 .shodan-timeline__container {
-  .shodan-map {
-    height: 0;
-    width: 100%;
+  > .shodan-map {
+    display: none;
+  }
+
+  .sidebar__collapsable-title--map {
+    .shodan-map {
+      display: block;
+      height: 2rem;
+    }
   }
 
   &.is-open {
-    .shodan-map {
+    > .shodan-map {
+      display: block;
       height: $shodan-map-height-section;
       margin-top: 0.5rem;
+    }
+
+    .sidebar__collapsable-title--map {
+      padding: 1rem;
+
+      .shodan-map {
+        display: none;
+      }
     }
   }
 }
