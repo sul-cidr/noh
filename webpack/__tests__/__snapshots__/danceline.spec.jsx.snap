@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DanceLine> renders as expected by default 1`] = `
+Array [
+  <CellDance
+    key="danceCell0"
+    length={1}
+    text=""
+  />,
+  <CellDance
+    key="danceCell1"
+    length={4}
+    text="9. Kneeling facing front."
+  />,
+  <CellDance
+    key="danceCell2"
+    length={8}
+    text=""
+  />,
+]
+`;
+
+exports[`<DanceLine> renders as expected with no dance data 1`] = `
+<CellDance
+  length={13}
+  text=""
+/>
+`;

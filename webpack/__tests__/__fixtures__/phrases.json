@@ -568,7 +568,22 @@
       },
       "dance": {
         "value": "",
-        "grid": []
+        "grid": [
+          {
+            "text": "and gazes in the distance.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "9. Sits back on his knee.",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 2
+          }
+        ]
       },
       "phrase": "2"
     },
@@ -793,7 +808,22 @@
       },
       "dance": {
         "value": "",
-        "grid": []
+        "grid": [
+          {
+            "text": "and gazes in the distance.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "9. Sits back on his knee.",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 2
+          }
+        ]
       },
       "phrase": "3"
     }
