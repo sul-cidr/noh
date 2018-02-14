@@ -143,8 +143,14 @@ App.defaultProps = {
   isPlaying: false
 };
 
-const playName = window.location.pathname.trim().split("/")[1];
+// If main app
+/* istanbul ignore if */
+if (!module.parent) {
+  const playName = window.location.pathname.trim().split("/")[1];
+  contents.play(playName, props => {
+    console.log(JSON.stringify(props));
+    render(<App {...props} />, document.getElementById("play"));
+  });
+}
 
-contents.play(playName, props => {
-  render(<App {...props} />, document.getElementById("play"));
-});
+export default App;
