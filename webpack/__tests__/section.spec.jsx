@@ -41,4 +41,20 @@ describe("<Section>", () => {
     h3.simulate("click");
     expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true);
   });
+
+  it("highlighted-text/libretto does not toggle if an element other than H3 gets clicked", () => {
+    const containerSelector = ".highlighted-text__container";
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true); // on by default
+    const h3 = wrapper.find(`${containerSelector} div`).first();
+    h3.simulate("click");
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true);
+  });
+
+  it("shodan-timeline/section map  does not toggle if an element other than H3 gets clicked", () => {
+    const containerSelector = ".shodan-timeline__container";
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(false); // off by default
+    const h3 = wrapper.find(`${containerSelector} div`).first();
+    h3.simulate("click");
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(false);
+  });
 });
