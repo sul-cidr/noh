@@ -2,8 +2,6 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    playerFirst: "./webpack/playerFirst.jsx",
-    playerSecond: "./webpack/playerSecond.jsx",
     play: "./webpack/play.jsx",
     section: "./webpack/section.jsx"
   },
