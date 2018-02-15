@@ -58,4 +58,4 @@ For example, the following markup creates a narrative with three tabs:
 
 Within the content of each narrative, you can link a chunk of text to a specific time in the video using a `<time>` tag. The `datetime` attribute specifies what time the text should jump the video to, while the content of the `title` attribute will show when the user hovers over the text in the browser.
 
-The analytical text for the plays works the same way, but the files are located in the `src/_plays` directory. For Hashitomi, the narrative is in `hashitomi.html.md`, while for Kokaji, it is in `kokaji.html.md`.
+The analytical text for the plays works the same way, but the files are located in the `src/_plays/narratives` directory. For Hashitomi, the narrative is in `hashitomi.html.md`, while for Kokaji, it is in `kokaji.html.md`.
