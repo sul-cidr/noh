@@ -2,8 +2,13 @@ import {
   SET_CURRENT_TIME,
   SET_IS_PLAYING,
   SET_START_TIME,
-  SET_CURRENT_PHRASE_ID
+  SET_CURRENT_PHRASE_ID,
+  SET_SCORE_TOGGLES
 } from "./actions";
+
+export function setScoreToggles(word) {
+  return { type: SET_SCORE_TOGGLES, payload: word };
+}
 
 export function setCurrentTime(word) {
   return { type: SET_CURRENT_TIME, payload: word };

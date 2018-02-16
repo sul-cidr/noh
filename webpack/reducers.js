@@ -2,14 +2,16 @@ import {
   SET_CURRENT_TIME,
   SET_IS_PLAYING,
   SET_START_TIME,
-  SET_CURRENT_PHRASE_ID
+  SET_CURRENT_PHRASE_ID,
+  SET_SCORE_TOGGLES
 } from "./actions";
 
 const DEFAULT_STATE = {
   currentTime: 0,
   isPlaying: false,
   startTime: 0,
-  currentPhraseID: "I/1"
+  currentPhraseID: "",
+  toggles: {}
 };
 
 const setCurrentTime = (state, action) =>
@@ -24,6 +26,9 @@ const setStartTime = (state, action) =>
 const setCurrentPhraseID = (state, action) =>
   Object.assign({}, state, { currentPhraseID: action.payload });
 
+const setScoreToggles = (state, action) =>
+  Object.assign({}, state, { toggles: action.payload });
+
 const rootReducer = (state = DEFAULT_STATE, action) => {
   switch (action.type) {
     case SET_CURRENT_TIME:
@@ -34,7 +39,8 @@ const rootReducer = (state = DEFAULT_STATE, action) => {
       return setStartTime(state, action);
     case SET_CURRENT_PHRASE_ID:
       return setCurrentPhraseID(state, action);
-
+    case SET_SCORE_TOGGLES:
+      return setScoreToggles(state, action);
     default:
       return state;
   }

@@ -115,7 +115,7 @@ export default class App extends Component {
                 />
               </div>
               <Score phrases={this.props.phrases} />
-              <ScoreControls />
+              <ScoreControls isPrevSentenceOn={false} />
             </div>
           </main>
         </div>

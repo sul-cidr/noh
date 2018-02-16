@@ -1,38 +1,100 @@
 import React from "react";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 const MeasureLabelContainer = props => {
   let labels = "";
-  if (props.previous === true) {
+  const { isBeatOn, isTextOn, isPercussionOn, isNohkanOn, isDanceOn } = props;
+  const hasSomeToggleOn = Object.values({
+    isBeatOn,
+    isTextOn,
+    isPercussionOn,
+    isNohkanOn,
+    isDanceOn
+  }).some(value => !!value);
+  if (props.previous === true && hasSomeToggleOn) {
     labels = <div className="measure__label-container">Previous sentence</div>;
-  } else if (props.next === true) {
+  } else if (props.next === true && hasSomeToggleOn) {
     labels = <div className="measure__label-container">Next sentence</div>;
   } else {
-    labels = (
-      <div className="measure__label-container">
-        <div className="measure__channel measure__channel--beat">Beat</div>
-        <div className="measure__channel measure__channel--text measure__channel--large">
+    const measures = [
+      isBeatOn ? (
+        <div
+          key="beatLabel"
+          className="measure__channel measure__channel--beat"
+        >
+          Beat
+        </div>
+      ) : (
+        ""
+      ),
+      isTextOn ? (
+        <div
+          key="textLabel"
+          className="measure__channel measure__channel--text measure__channel--large"
+        >
           Text
         </div>
-        <div className="measure__channel measure__channel--percussion">
+      ) : (
+        ""
+      ),
+      isPercussionOn ? (
+        <div
+          key="percussionLabel"
+          className="measure__channel measure__channel--percussion"
+        >
           Percussion
         </div>
-        <div className="measure__channel measure__channel--nohkan">Nohkan</div>
-        <div className="measure__channel measure__channel--dance">Dance</div>
-      </div>
-    );
+      ) : (
+        ""
+      ),
+      isNohkanOn ? (
+        <div
+          key="nohkanLabel"
+          className="measure__channel measure__channel--nohkan"
+        >
+          Nohkan
+        </div>
+      ) : (
+        ""
+      ),
+      isDanceOn ? (
+        <div
+          key="danceLabel"
+          className="measure__channel measure__channel--dance"
+        >
+          Dance
+        </div>
+      ) : (
+        ""
+      )
+    ];
+    labels = <div className="measure__label-container">{measures}</div>;
   }
   return labels;
 };
 
 MeasureLabelContainer.PropTypes = {
-  previous: propTypes.Bool,
-  next: propTypes.Bool
+  previous: PropTypes.bool,
+  next: PropTypes.bool,
+  isBeatOn: PropTypes.bool,
+  isTextOn: PropTypes.bool,
+  isPercussionOn: PropTypes.bool,
+  isNohkanOn: PropTypes.bool,
+  isDanceOn: PropTypes.bool,
+  isPrevSentenceOn: PropTypes.bool,
+  isNextSentenceOn: PropTypes.bool
 };
 
 MeasureLabelContainer.defaultProps = {
   previous: false,
-  next: false
+  next: false,
+  isBeatOn: true,
+  isTextOn: true,
+  isPercussionOn: true,
+  isNohkanOn: true,
+  isDanceOn: true,
+  isPrevSentenceOn: true,
+  isNextSentenceOn: true
 };
 
 export default MeasureLabelContainer;

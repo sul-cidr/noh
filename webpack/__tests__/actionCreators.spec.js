@@ -2,7 +2,8 @@ import {
   setCurrentTime,
   setIsPlaying,
   setStartTime,
-  setCurrentPhraseID
+  setCurrentPhraseID,
+  setScoreToggles
 } from "../actionCreators";
 
 test("setIsPlaying creates the correct payload", () => {
@@ -19,4 +20,10 @@ test("setStartTime creates the correct payload", () => {
 
 test("setCurrentPhraseID creates the correct payload", () => {
   expect(setCurrentPhraseID("II/1")).toMatchSnapshot();
+});
+
+test("setScoreToggles creates the correct payload", () => {
+  expect(
+    setScoreToggles({ isTextOn: false, isBeatOn: false })
+  ).toMatchSnapshot();
 });

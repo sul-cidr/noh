@@ -18420,7 +18420,7 @@ exports[`<Section> renders as expected 1`] = `
               singingStyle="Sung - Tsuyogin"
             >
               <HighlightedTextContainer
-                currentPhraseID="I/1"
+                currentPhraseID=""
                 currentTime={0}
                 phrases={
                   Array [
@@ -18760,7 +18760,7 @@ exports[`<Section> renders as expected 1`] = `
               >
                 <div>
                   <HighlightedText
-                    currentPhraseID="I/1"
+                    currentPhraseID=""
                     phrases={
                       Array [
                         Object {
@@ -55861,133 +55861,69 @@ exports[`<Section> renders as expected 1`] = `
                   },
                 ]
               }
+              toggles={
+                Object {
+                  "isBeatOn": true,
+                  "isDanceOn": true,
+                  "isNextSentenceOn": true,
+                  "isNohkanOn": true,
+                  "isPercussionOn": true,
+                  "isPrevSentenceOn": false,
+                  "isTextOn": true,
+                  "updateScoreToggles": [Function],
+                }
+              }
             >
               <div
                 className="score"
               >
+                 
                 <div
-                  className="measure measure--prev"
+                  className="measure measure--undefined"
                 >
                   <MeasureLabelContainer
-                    next={false}
-                    previous={true}
-                  >
-                    <div
-                      className="measure__label-container"
-                    >
-                      Previous sentence
-                    </div>
-                  </MeasureLabelContainer>
-                  <div
-                    className="measure__grid-container"
-                  >
-                    <div
-                      className="measure__channel"
-                    />
-                    <div
-                      className="measure__channel measure__channel--large"
-                    >
-                      <ScoreTextLine
-                        length={0}
-                        rangeGrid={Array []}
-                        textGrid={Array []}
-                      >
-                        <CellText
-                          beginning={false}
-                          end={false}
-                          length={0}
-                          text=""
-                          vocalRange=""
-                          voiceType=""
-                        >
-                          <div
-                            className="cell cell--0 cell--text"
-                          />
-                        </CellText>
-                      </ScoreTextLine>
-                    </div>
-                    <div
-                      className="measure__channel"
-                    >
-                      <CellPercussion
-                        length={0}
-                        text="None"
-                      >
-                        <div
-                          className="cell cell--0"
-                        >
-                          None
-                        </div>
-                      </CellPercussion>
-                    </div>
-                    <div
-                      className="measure__channel"
-                    >
-                      <NohkanLine
-                        grid={Array []}
-                        length={0}
-                      >
-                        <CellNohkan
-                          length={0}
-                          text=""
-                        >
-                          <div
-                            className="cell cell--0 cell--nohkan"
-                          />
-                        </CellNohkan>
-                      </NohkanLine>
-                    </div>
-                    <div
-                      className="measure__channel"
-                    >
-                      <DanceLine
-                        grid={Array []}
-                        length={0}
-                      >
-                        <CellDance
-                          length={0}
-                          text=""
-                        >
-                          <div
-                            className="cell cell--0 cell--dance"
-                          />
-                        </CellDance>
-                      </DanceLine>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="measure measure--current"
-                >
-                  <MeasureLabelContainer
+                    isBeatOn={true}
+                    isDanceOn={true}
+                    isNextSentenceOn={true}
+                    isNohkanOn={true}
+                    isPercussionOn={true}
+                    isPrevSentenceOn={false}
+                    isTextOn={true}
                     next={false}
                     previous={false}
+                    undefined={true}
+                    updateScoreToggles={[Function]}
                   >
                     <div
                       className="measure__label-container"
                     >
                       <div
                         className="measure__channel measure__channel--beat"
+                        key="beatLabel"
                       >
                         Beat
                       </div>
                       <div
                         className="measure__channel measure__channel--text measure__channel--large"
+                        key="textLabel"
                       >
                         Text
                       </div>
                       <div
                         className="measure__channel measure__channel--percussion"
+                        key="percussionLabel"
                       >
                         Percussion
                       </div>
                       <div
                         className="measure__channel measure__channel--nohkan"
+                        key="nohkanLabel"
                       >
                         Nohkan
                       </div>
                       <div
                         className="measure__channel measure__channel--dance"
+                        key="danceLabel"
                       >
                         Dance
                       </div>
@@ -56008,24 +55944,20 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText="1"
+                        beatText=""
                         key="beatNum1"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          1
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
-                        beatText="2"
+                        beatText=""
                         key="beatNum2"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          2
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -56036,24 +55968,20 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText="3"
+                        beatText=""
                         key="beatNum4"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          3
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
-                        beatText="4"
+                        beatText=""
                         key="beatNum5"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          4
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -56064,14 +55992,12 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText="5"
+                        beatText=""
                         key="beatNum7"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          5
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText="6"
@@ -56084,14 +56010,6 @@ exports[`<Section> renders as expected 1`] = `
                         </div>
                       </CellBeat>
                       <CellBeat
-                        beatText=""
-                        key="beatNum9"
-                      >
-                        <div
-                          className="cell cell--1 cell--beat"
-                        />
-                      </CellBeat>
-                      <CellBeat
                         beatText="7"
                         key="beatNum10"
                       >
@@ -56100,14 +56018,6 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           7
                         </div>
-                      </CellBeat>
-                      <CellBeat
-                        beatText=""
-                        key="beatNum11"
-                      >
-                        <div
-                          className="cell cell--1 cell--beat"
-                        />
                       </CellBeat>
                       <CellBeat
                         beatText="8"
@@ -56579,12 +56489,21 @@ exports[`<Section> renders as expected 1`] = `
                     </div>
                   </div>
                 </div>
+                 
                 <div
                   className="measure measure--next"
                 >
                   <MeasureLabelContainer
+                    isBeatOn={true}
+                    isDanceOn={true}
+                    isNextSentenceOn={true}
+                    isNohkanOn={true}
+                    isPercussionOn={true}
+                    isPrevSentenceOn={false}
+                    isTextOn={true}
                     next={true}
                     previous={false}
+                    updateScoreToggles={[Function]}
                   >
                     <div
                       className="measure__label-container"
@@ -56607,24 +56526,20 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText="1"
+                        beatText=""
                         key="beatNum1"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          1
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
-                        beatText="2"
+                        beatText=""
                         key="beatNum2"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          2
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -56635,24 +56550,20 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText="3"
+                        beatText=""
                         key="beatNum4"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          3
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
-                        beatText="4"
+                        beatText=""
                         key="beatNum5"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          4
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -56663,14 +56574,12 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText="5"
+                        beatText=""
                         key="beatNum7"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        >
-                          5
-                        </div>
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText="6"
@@ -56683,14 +56592,6 @@ exports[`<Section> renders as expected 1`] = `
                         </div>
                       </CellBeat>
                       <CellBeat
-                        beatText=""
-                        key="beatNum9"
-                      >
-                        <div
-                          className="cell cell--1 cell--beat"
-                        />
-                      </CellBeat>
-                      <CellBeat
                         beatText="7"
                         key="beatNum10"
                       >
@@ -56699,14 +56600,6 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           7
                         </div>
-                      </CellBeat>
-                      <CellBeat
-                        beatText=""
-                        key="beatNum11"
-                      >
-                        <div
-                          className="cell cell--1 cell--beat"
-                        />
                       </CellBeat>
                       <CellBeat
                         beatText="8"
@@ -57080,237 +56973,271 @@ exports[`<Section> renders as expected 1`] = `
               </div>
             </Score>
           </Connect(Score)>
-          <ScoreControls>
-            <div
-              className="score-controls"
+          <Connect(ScoreControls)
+            isPrevSentenceOn={false}
+          >
+            <ScoreControls
+              isBeatOn={true}
+              isDanceOn={true}
+              isNextSentenceOn={true}
+              isNohkanOn={true}
+              isPercussionOn={true}
+              isPrevSentenceOn={false}
+              isTextOn={true}
+              updateScoreToggles={[Function]}
             >
-              <ul
-                className="channel-toggles"
+              <div
+                className="score-controls"
               >
-                <li>
-                  <input
-                    id="scoreControl1"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl1"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                <ul
+                  className="channel-toggles"
+                >
+                  <li>
+                    <input
+                      checked={true}
+                      id="scoreBeat"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scoreBeat"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Beat
-                  </label>
-                </li>
-                <li>
-                  <input
-                    id="scoreControl2"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl2"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Beat
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      checked={true}
+                      id="scoreText"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scoreText"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Text
-                  </label>
-                </li>
-                <li>
-                  <input
-                    id="scoreControl3"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl3"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Text
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      checked={true}
+                      id="scorePercussion"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scorePercussion"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Percussion
-                  </label>
-                </li>
-                <li>
-                  <input
-                    id="scoreControl4"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl4"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Percussion
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      checked={true}
+                      id="scoreNohkan"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scoreNohkan"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Nohkan
-                  </label>
-                </li>
-                <li>
-                  <input
-                    id="scoreControl5"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl5"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Nohkan
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      checked={true}
+                      id="scoreDance"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scoreDance"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Dance
-                  </label>
-                </li>
-              </ul>
-              <ul
-                className="measure-toggles"
-              >
-                <li>
-                  <input
-                    id="scoreControl6"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl6"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Dance
+                    </label>
+                  </li>
+                </ul>
+                <ul
+                  className="measure-toggles"
+                >
+                  <li>
+                    <input
+                      checked={false}
+                      id="scorePrevSentence"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scorePrevSentence"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Prev Measure
-                  </label>
-                </li>
-                <li>
-                  <input
-                    id="scoreControl7"
-                    type="checkbox"
-                  />
-                  <label
-                    htmlFor="scoreControl7"
-                  >
-                    <svg
-                      height="12"
-                      viewBox="0 0 12 12"
-                      width="12"
-                      xmlns="http://www.w3.org/2000/svg"
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Previous Sentence
+                    </label>
+                  </li>
+                  <li>
+                    <input
+                      checked={true}
+                      id="scoreNextSentence"
+                      onChange={[Function]}
+                      onKeyPress={null}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="scoreNextSentence"
                     >
-                      <g
-                        fill="#9aa0a6"
-                        fillRule="evenodd"
+                      <svg
+                        height="12"
+                        viewBox="0 0 12 12"
+                        width="12"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path
-                          d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                          fillRule="nonzero"
-                        />
-                        <path
-                          d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                          transform="rotate(-45 6.152 5.5)"
-                        />
-                      </g>
-                    </svg>
-                    Next Measure
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </ScoreControls>
+                        <g
+                          fill="#9aa0a6"
+                          fillRule="evenodd"
+                        >
+                          <path
+                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
+                            fillRule="nonzero"
+                          />
+                          <path
+                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
+                            transform="rotate(-45 6.152 5.5)"
+                          />
+                        </g>
+                      </svg>
+                      Next Sentence
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </ScoreControls>
+          </Connect(ScoreControls)>
         </div>
       </main>
     </div>
