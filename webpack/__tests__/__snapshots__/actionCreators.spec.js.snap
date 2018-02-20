@@ -21,6 +21,16 @@ Object {
 }
 `;
 
+exports[`setScoreToggles creates the correct payload 1`] = `
+Object {
+  "payload": Object {
+    "isBeatOn": false,
+    "isTextOn": false,
+  },
+  "type": "SET_SCORE_TOGGLES",
+}
+`;
+
 exports[`setStartTime creates the correct payload 1`] = `
 Object {
   "payload": 30,

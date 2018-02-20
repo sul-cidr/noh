@@ -43,3 +43,16 @@ test("it sets currentPhraseID correctly", () => {
     currentPhraseID: "II/1"
   });
 });
+
+test("it sets toggles correctly", () => {
+  const state = reducers(
+    { toggles: { isTextOn: true } },
+    { type: "SET_SCORE_TOGGLES", payload: { isTextOn: false, isBeatOn: false } }
+  );
+  expect(state).toEqual({
+    toggles: {
+      isTextOn: false,
+      isBeatOn: false
+    }
+  });
+});

@@ -5,9 +5,16 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
   className="score"
 >
   <div
-    className="measure measure--prev"
+    className="measure measure--previous"
   >
     <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
       next={false}
       previous={true}
     />
@@ -52,12 +59,21 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       </div>
     </div>
   </div>
+   
   <div
-    className="measure measure--current"
+    className="measure measure--undefined"
   >
     <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
       next={false}
       previous={false}
+      undefined={true}
     />
     <div
       className="measure__grid-container"
@@ -70,11 +86,11 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum0"
         />
         <CellBeat
-          beatText="1"
+          beatText=""
           key="beatNum1"
         />
         <CellBeat
-          beatText="2"
+          beatText=""
           key="beatNum2"
         />
         <CellBeat
@@ -82,11 +98,11 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum3"
         />
         <CellBeat
-          beatText="3"
+          beatText=""
           key="beatNum4"
         />
         <CellBeat
-          beatText="4"
+          beatText=""
           key="beatNum5"
         />
         <CellBeat
@@ -94,7 +110,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum6"
         />
         <CellBeat
-          beatText="5"
+          beatText=""
           key="beatNum7"
         />
         <CellBeat
@@ -102,16 +118,8 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum8"
         />
         <CellBeat
-          beatText=""
-          key="beatNum9"
-        />
-        <CellBeat
           beatText="7"
           key="beatNum10"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum11"
         />
         <CellBeat
           beatText="8"
@@ -308,10 +316,18 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       </div>
     </div>
   </div>
+   
   <div
     className="measure measure--next"
   >
     <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
       next={true}
       previous={false}
     />
@@ -326,11 +342,11 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum0"
         />
         <CellBeat
-          beatText="1"
+          beatText=""
           key="beatNum1"
         />
         <CellBeat
-          beatText="2"
+          beatText=""
           key="beatNum2"
         />
         <CellBeat
@@ -338,11 +354,11 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum3"
         />
         <CellBeat
-          beatText="3"
+          beatText=""
           key="beatNum4"
         />
         <CellBeat
-          beatText="4"
+          beatText=""
           key="beatNum5"
         />
         <CellBeat
@@ -350,7 +366,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum6"
         />
         <CellBeat
-          beatText="5"
+          beatText=""
           key="beatNum7"
         />
         <CellBeat
@@ -358,16 +374,8 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           key="beatNum8"
         />
         <CellBeat
-          beatText=""
-          key="beatNum9"
-        />
-        <CellBeat
           beatText="7"
           key="beatNum10"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum11"
         />
         <CellBeat
           beatText="8"
@@ -534,9 +542,16 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
   className="score"
 >
   <div
-    className="measure measure--prev"
+    className="measure measure--previous"
   >
     <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
       next={false}
       previous={true}
     />
@@ -581,12 +596,21 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       </div>
     </div>
   </div>
+   
   <div
-    className="measure measure--current"
+    className="measure measure--undefined"
   >
     <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
       next={false}
       previous={false}
+      undefined={true}
     />
     <div
       className="measure__grid-container"
@@ -599,11 +623,11 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum0"
         />
         <CellBeat
-          beatText="1"
+          beatText=""
           key="beatNum1"
         />
         <CellBeat
-          beatText="2"
+          beatText=""
           key="beatNum2"
         />
         <CellBeat
@@ -611,11 +635,11 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum3"
         />
         <CellBeat
-          beatText="3"
+          beatText=""
           key="beatNum4"
         />
         <CellBeat
-          beatText="4"
+          beatText=""
           key="beatNum5"
         />
         <CellBeat
@@ -623,7 +647,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum6"
         />
         <CellBeat
-          beatText="5"
+          beatText=""
           key="beatNum7"
         />
         <CellBeat
@@ -631,16 +655,8 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum8"
         />
         <CellBeat
-          beatText=""
-          key="beatNum9"
-        />
-        <CellBeat
           beatText="7"
           key="beatNum10"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum11"
         />
         <CellBeat
           beatText="8"
@@ -837,10 +853,18 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       </div>
     </div>
   </div>
+   
   <div
     className="measure measure--next"
   >
     <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
       next={true}
       previous={false}
     />
@@ -855,11 +879,11 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum0"
         />
         <CellBeat
-          beatText="1"
+          beatText=""
           key="beatNum1"
         />
         <CellBeat
-          beatText="2"
+          beatText=""
           key="beatNum2"
         />
         <CellBeat
@@ -867,11 +891,11 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum3"
         />
         <CellBeat
-          beatText="3"
+          beatText=""
           key="beatNum4"
         />
         <CellBeat
-          beatText="4"
+          beatText=""
           key="beatNum5"
         />
         <CellBeat
@@ -879,7 +903,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum6"
         />
         <CellBeat
-          beatText="5"
+          beatText=""
           key="beatNum7"
         />
         <CellBeat
@@ -887,16 +911,8 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           key="beatNum8"
         />
         <CellBeat
-          beatText=""
-          key="beatNum9"
-        />
-        <CellBeat
           beatText="7"
           key="beatNum10"
-        />
-        <CellBeat
-          beatText=""
-          key="beatNum11"
         />
         <CellBeat
           beatText="8"

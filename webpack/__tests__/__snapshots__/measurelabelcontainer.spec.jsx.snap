@@ -6,30 +6,41 @@ exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
 >
   <div
     className="measure__channel measure__channel--beat"
+    key="beatLabel"
   >
     Beat
   </div>
   <div
     className="measure__channel measure__channel--text measure__channel--large"
+    key="textLabel"
   >
     Text
   </div>
   <div
     className="measure__channel measure__channel--percussion"
+    key="percussionLabel"
   >
     Percussion
   </div>
   <div
     className="measure__channel measure__channel--nohkan"
+    key="nohkanLabel"
   >
     Nohkan
   </div>
   <div
     className="measure__channel measure__channel--dance"
+    key="danceLabel"
   >
     Dance
   </div>
 </div>
+`;
+
+exports[`<MeasureLabelContainer> renders as expected by default with all toggles off 1`] = `
+<div
+  className="measure__label-container"
+/>
 `;
 
 exports[`<MeasureLabelContainer> renders as expected for next 1`] = `

@@ -11,10 +11,21 @@ import ScoreTextLine from "./ScoreTextLine";
 function createBeatsArray(grid) {
   const beatsArray = [];
   for (let i = 0; i < grid.length; i += 1) {
+    beatsArray[i] = "";
     beatsArray[grid[i].start] = grid[i].text;
   }
-  return [...Array(beatsArray.length).keys()].map(i => beatsArray[i] || "");
+  return beatsArray;
 }
+
+export const determineCurrentPhrase = props =>
+  props.currentTime > 0
+    ? props.phrases.length -
+      (props.phrases
+        .filter(Boolean)
+        .reverse()
+        .findIndex(phrase => props.currentTime >= phrase.startTime.value) +
+        1)
+    : 0;
 
 class Score extends Component {
   constructor(props) {
@@ -22,206 +33,108 @@ class Score extends Component {
     this.state = {
       previousPhrase: null,
       currentPhrase: this.props.phrases[0],
-      nextPhrase: this.props.phrases[1]
+      nextPhrase: this.props.phrases[1],
+      toggles: this.props.toggles
     };
   }
 
-  componentWillReceiveProps() {
-    const currentPhraseId = this.determineCurrentPhrase();
+  componentWillReceiveProps(props) {
+    const currentPhraseId = determineCurrentPhrase(props);
     const previousPhraseId = Math.max(currentPhraseId - 1, 0);
-    const nextPhraseId = Math.min(
-      currentPhraseId + 1,
-      this.props.phrases.length
-    );
+    const nextPhraseId = Math.min(currentPhraseId + 1, props.phrases.length);
     this.setState({
-      previousPhrase: this.props.phrases[previousPhraseId],
-      currentPhrase: this.props.phrases[currentPhraseId],
-      nextPhrase: this.props.phrases[nextPhraseId]
+      previousPhrase: props.phrases[previousPhraseId],
+      currentPhrase: props.phrases[currentPhraseId],
+      nextPhrase: props.phrases[nextPhraseId],
+      toggles: props.toggles
     });
   }
 
-  determineCurrentPhrase() {
-    if (this.props.currentTime > 0) {
-      return (
-        this.props.phrases.length -
-        1 -
-        this.props.phrases
-          .filter(Boolean)
-          .reverse()
-          .findIndex(phrase => this.props.currentTime >= phrase.startTime.value)
-      );
-    }
-    return 0;
+  createPhrase(phrase, position) {
+    const beatNums = phrase ? createBeatsArray(phrase.beat.grid) : [];
+    const beats = beatNums.map((num, idx) => (
+      <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
+    ));
+    const percussion = phrase ? phrase.percussion.value : "None";
+    const measureBeats = this.state.toggles.isBeatOn ? (
+      <div className="measure__channel">{beats}</div>
+    ) : (
+      ""
+    );
+    const measureText = this.state.toggles.isTextOn ? (
+      <div className="measure__channel measure__channel--large">
+        <ScoreTextLine
+          textGrid={phrase ? phrase.syllableText.grid : []}
+          length={beatNums.length}
+          rangeGrid={phrase ? phrase.vocalRange.grid : []}
+        />
+      </div>
+    ) : (
+      ""
+    );
+    const measurePercussion = this.state.toggles.isPercussionOn ? (
+      <div className="measure__channel">
+        <CellPercussion text={percussion} length={beatNums.length} />
+      </div>
+    ) : (
+      ""
+    );
+    const measureNohkan = this.state.toggles.isNohkanOn ? (
+      <div className="measure__channel">
+        <NohkanLine
+          grid={phrase ? phrase.nohkan.grid : []}
+          length={beatNums.length}
+        />
+      </div>
+    ) : (
+      ""
+    );
+    const measureDance = this.state.toggles.isDanceOn ? (
+      <div className="measure__channel">
+        <DanceLine
+          grid={phrase ? phrase.dance.grid : []}
+          length={beatNums.length}
+        />
+      </div>
+    ) : (
+      ""
+    );
+    return (
+      <div className={`measure measure--${position}`}>
+        <MeasureLabelContainer
+          {...{ [position]: true }}
+          {...this.state.toggles}
+        />
+        <div className="measure__grid-container">
+          {measureBeats}
+          {measureText}
+          {measurePercussion}
+          {measureNohkan}
+          {measureDance}
+        </div>
+      </div>
+    );
   }
 
   render() {
-    const prevBeatNums = this.state.previousPhrase
-      ? createBeatsArray(this.state.previousPhrase.beat.grid)
-      : [];
-    const currentBeatNums = this.state.currentPhrase
-      ? createBeatsArray(this.state.currentPhrase.beat.grid)
-      : [];
-    const nextBeatNums = this.state.nextPhrase
-      ? createBeatsArray(this.state.nextPhrase.beat.grid)
-      : [];
-
-    const prevBeats = prevBeatNums.map((num, idx) => (
-      <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
-    ));
-    const currentBeats = currentBeatNums.map((num, idx) => (
-      <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
-    ));
-    const nextBeats = nextBeatNums.map((num, idx) => (
-      <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
-    ));
-    const prevPercussion = this.state.previousPhrase
-      ? this.state.previousPhrase.percussion.value
-      : "None";
-    const currentPercussion = this.state.currentPhrase
-      ? this.state.currentPhrase.percussion.value
-      : "None";
-    const nextPercussion = this.state.nextPhrase
-      ? this.state.nextPhrase.percussion.value
-      : "None";
+    let previous = "";
+    if (
+      this.state.previousPhrase !== this.state.currentPhrase &&
+      this.state.toggles.isPrevSentenceOn
+    ) {
+      previous = this.createPhrase(this.state.previousPhrase, "previous");
+    }
+    const current = this.createPhrase(this.state.currentPhrase);
+    let next = "";
+    if (
+      this.state.nextPhrase !== this.state.currentPhrase &&
+      this.state.toggles.isNextSentenceOn
+    ) {
+      next = this.createPhrase(this.state.nextPhrase, "next");
+    }
     return (
       <div className="score">
-        <div className="measure measure--prev">
-          <MeasureLabelContainer previous />
-          <div className="measure__grid-container">
-            <div className="measure__channel">{prevBeats}</div>
-            <div className="measure__channel measure__channel--large">
-              <ScoreTextLine
-                textGrid={
-                  this.state.previousPhrase
-                    ? this.state.previousPhrase.syllableText.grid
-                    : []
-                }
-                length={prevBeatNums.length}
-                rangeGrid={
-                  this.state.previousPhrase
-                    ? this.state.previousPhrase.vocalRange.grid
-                    : []
-                }
-              />
-            </div>
-            <div className="measure__channel">
-              <CellPercussion
-                text={prevPercussion}
-                length={prevBeatNums.length}
-              />
-            </div>
-            <div className="measure__channel">
-              <NohkanLine
-                grid={
-                  this.state.previousPhrase
-                    ? this.state.previousPhrase.nohkan.grid
-                    : []
-                }
-                length={prevBeatNums.length}
-              />
-            </div>
-            <div className="measure__channel">
-              <DanceLine
-                grid={
-                  this.state.previousPhrase
-                    ? this.state.previousPhrase.dance.grid
-                    : []
-                }
-                length={prevBeatNums.length}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="measure measure--current">
-          <MeasureLabelContainer />
-          <div className="measure__grid-container">
-            <div className="measure__channel">{currentBeats}</div>
-            <div className="measure__channel measure__channel--large">
-              <ScoreTextLine
-                textGrid={
-                  this.state.currentPhrase
-                    ? this.state.currentPhrase.syllableText.grid
-                    : []
-                }
-                length={currentBeatNums.length}
-                rangeGrid={
-                  this.state.currentPhrase
-                    ? this.state.currentPhrase.vocalRange.grid
-                    : []
-                }
-              />
-            </div>
-            <div className="measure__channel">
-              <CellPercussion
-                text={currentPercussion}
-                length={currentBeatNums.length}
-              />
-            </div>
-            <div className="measure__channel">
-              <NohkanLine
-                grid={
-                  this.state.currentPhrase
-                    ? this.state.currentPhrase.nohkan.grid
-                    : []
-                }
-                length={currentBeatNums.length}
-              />
-            </div>
-            <div className="measure__channel">
-              <DanceLine
-                grid={
-                  this.state.currentPhrase
-                    ? this.state.currentPhrase.dance.grid
-                    : []
-                }
-                length={currentBeatNums.length}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="measure measure--next">
-          <MeasureLabelContainer next />
-          <div className="measure__grid-container">
-            <div className="measure__channel">{nextBeats}</div>
-            <div className="measure__channel measure__channel--large">
-              <ScoreTextLine
-                textGrid={
-                  this.state.nextPhrase
-                    ? this.state.nextPhrase.syllableText.grid
-                    : []
-                }
-                length={nextBeatNums.length}
-                rangeGrid={
-                  this.state.nextPhrase
-                    ? this.state.nextPhrase.vocalRange.grid
-                    : []
-                }
-              />
-            </div>
-            <div className="measure__channel">
-              <CellPercussion
-                text={nextPercussion}
-                length={nextBeatNums.length}
-              />
-            </div>
-            <div className="measure__channel">
-              <NohkanLine
-                grid={
-                  this.state.nextPhrase ? this.state.nextPhrase.nohkan.grid : []
-                }
-                length={nextBeatNums.length}
-              />
-            </div>
-            <div className="measure__channel">
-              <DanceLine
-                grid={
-                  this.state.nextPhrase ? this.state.nextPhrase.dance.grid : []
-                }
-                length={nextBeatNums.length}
-              />
-            </div>
-          </div>
-        </div>
+        {previous} {current} {next}
       </div>
     );
   }
@@ -244,11 +157,21 @@ Score.propTypes = {
       text: PropTypes.shape({}),
       vocalRange: PropTypes.shape({})
     })
-  ).isRequired
+  ).isRequired,
+  toggles: PropTypes.shape({
+    isBeatOn: PropTypes.bool,
+    isTextOn: PropTypes.bool,
+    isPercussionOn: PropTypes.bool,
+    isNohkanOn: PropTypes.bool,
+    isDanceOn: PropTypes.bool,
+    isPrevSentenceOn: PropTypes.bool,
+    isNextSentenceOn: PropTypes.bool
+  }).isRequired
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime
+  currentTime: state.currentTime,
+  toggles: state.toggles
 });
 
 export const Unwrapped = Score;
