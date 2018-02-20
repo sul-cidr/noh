@@ -4,7 +4,11 @@ exports[`<CellText> renders as expected 1`] = `
 <div
   className="cell cell--2 cell--text"
 >
-  ma
+  <span
+    className="truncate"
+  >
+    ma
+  </span>
   <span
     className="cell__character cell__character--jiutai cell__character--begin cell__character--end"
   />
@@ -23,7 +27,11 @@ exports[`<CellText> renders as expected 2`] = `
 <div
   className="cell cell--2 cell--text"
 >
-  ma
+  <span
+    className="truncate"
+  >
+    ma
+  </span>
   <span
     className="cell__character cell__character--jiutai  cell__character--end"
   />
@@ -42,7 +50,11 @@ exports[`<CellText> renders as expected 3`] = `
 <div
   className="cell cell--2 cell--text"
 >
-  ma
+  <span
+    className="truncate"
+  >
+    ma
+  </span>
   <span
     className="cell__character cell__character--jiutai cell__character--begin "
   />
@@ -61,7 +73,11 @@ exports[`<CellText> renders as expected with no vocal range 1`] = `
 <div
   className="cell cell--2 cell--text"
 >
-  ma
+  <span
+    className="truncate"
+  >
+    ma
+  </span>
   <span
     className="cell__character cell__character--jiutai cell__character--begin cell__character--end"
   />

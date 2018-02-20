@@ -56171,7 +56171,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ma
+                            <span
+                              className="truncate"
+                            >
+                              ma
+                            </span>
                             <span
                               className="cell__character cell__character--jiutai cell__character--begin cell__character--end"
                             />
@@ -56197,7 +56201,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ta
+                            <span
+                              className="truncate"
+                            >
+                              ta
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56215,7 +56223,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            wa
+                            <span
+                              className="truncate"
+                            >
+                              wa
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56233,7 +56245,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ga
+                            <span
+                              className="truncate"
+                            >
+                              ga
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56251,7 +56267,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            cho
+                            <span
+                              className="truncate"
+                            >
+                              cho
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56269,7 +56289,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            o
+                            <span
+                              className="truncate"
+                            >
+                              o
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56287,7 +56311,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            no
+                            <span
+                              className="truncate"
+                            >
+                              no
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56305,7 +56333,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            so
+                            <span
+                              className="truncate"
+                            >
+                              so
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56323,7 +56355,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            no
+                            <span
+                              className="truncate"
+                            >
+                              no
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56341,7 +56377,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ha
+                            <span
+                              className="truncate"
+                            >
+                              ha
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56359,7 +56399,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ji
+                            <span
+                              className="truncate"
+                            >
+                              ji
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56377,7 +56421,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            me
+                            <span
+                              className="truncate"
+                            >
+                              me
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56395,7 +56443,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            (e)
+                            <span
+                              className="truncate"
+                            >
+                              (e)
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56413,7 +56465,11 @@ exports[`<Section> renders as expected 1`] = `
                         <div
                           className="cell cell--13"
                         >
-                          mitsuji
+                          <span
+                            className="truncate"
+                          >
+                            mitsuji
+                          </span>
                         </div>
                       </CellPercussion>
                     </div>
@@ -56430,7 +56486,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--13 cell--nohkan"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellNohkan>
                       </NohkanLine>
                     </div>
@@ -56463,7 +56523,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--1 cell--dance"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellDance>
                         <CellDance
                           key="danceCell1"
@@ -56473,7 +56537,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--4 cell--dance"
                           >
-                            9. Shite kneeling facing front.
+                            <span
+                              className="truncate"
+                            >
+                              9. Shite kneeling facing front.
+                            </span>
                           </div>
                         </CellDance>
                         <CellDance
@@ -56483,7 +56551,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--8 cell--dance"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellDance>
                       </DanceLine>
                     </div>
@@ -56728,7 +56800,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--2 cell--text"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellText>
                         <CellText
                           beginning={false}
@@ -56741,7 +56817,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--1 cell--text"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellText>
                         <CellText
                           beginning={false}
@@ -56755,7 +56835,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ni
+                            <span
+                              className="truncate"
+                            >
+                              ni
+                            </span>
                             <span
                               className="cell__range--medium"
                             />
@@ -56773,7 +56857,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            n
+                            <span
+                              className="truncate"
+                            >
+                              n
+                            </span>
                             <span
                               className="cell__range--medium"
                             />
@@ -56791,7 +56879,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            no
+                            <span
+                              className="truncate"
+                            >
+                              no
+                            </span>
                             <span
                               className="cell__range--medium"
                             />
@@ -56809,7 +56901,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            o
+                            <span
+                              className="truncate"
+                            >
+                              o
+                            </span>
                             <span
                               className="cell__range--medium"
                             />
@@ -56827,7 +56923,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ji
+                            <span
+                              className="truncate"
+                            >
+                              ji
+                            </span>
                             <span
                               className="cell__range--medium"
                             />
@@ -56845,7 +56945,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            u
+                            <span
+                              className="truncate"
+                            >
+                              u
+                            </span>
                             <span
                               className="cell__range--medium"
                             />
@@ -56863,7 +56967,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            ni
+                            <span
+                              className="truncate"
+                            >
+                              ni
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56881,7 +56989,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            da
+                            <span
+                              className="truncate"
+                            >
+                              da
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56899,7 +57011,11 @@ exports[`<Section> renders as expected 1`] = `
                           <div
                             className="cell cell--1 cell--text"
                           >
-                            i
+                            <span
+                              className="truncate"
+                            >
+                              i
+                            </span>
                             <span
                               className="cell__range--low"
                             />
@@ -56916,7 +57032,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--1 cell--text"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellText>
                       </ScoreTextLine>
                     </div>
@@ -56930,7 +57050,11 @@ exports[`<Section> renders as expected 1`] = `
                         <div
                           className="cell cell--13"
                         >
-                          mitsuji
+                          <span
+                            className="truncate"
+                          >
+                            mitsuji
+                          </span>
                         </div>
                       </CellPercussion>
                     </div>
@@ -56947,7 +57071,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--13 cell--nohkan"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellNohkan>
                       </NohkanLine>
                     </div>
@@ -56964,7 +57092,11 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           <div
                             className="cell cell--13 cell--dance"
-                          />
+                          >
+                            <span
+                              className="truncate"
+                            />
+                          </div>
                         </CellDance>
                       </DanceLine>
                     </div>

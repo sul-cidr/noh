@@ -2,7 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CellNohkan = props => (
-  <div className={`cell cell--${props.length} cell--nohkan`}>{props.text}</div>
+  <div className={`cell cell--${props.length} cell--nohkan`}>
+    <span className="truncate">{props.text}</span>
+  </div>
 );
 
 CellNohkan.propTypes = {

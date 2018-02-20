@@ -4,6 +4,10 @@ exports[`<CellPercussion> renders as expected by default 1`] = `
 <div
   className="cell cell--14"
 >
-  mitsuji
+  <span
+    className="truncate"
+  >
+    mitsuji
+  </span>
 </div>
 `;
