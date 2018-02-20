@@ -2,7 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CellPercussion = props => (
-  <div className={`cell cell--${props.length}`}>{props.text}</div>
+  <div className={`cell cell--${props.length}`}>
+    <span className="truncate">{props.text}</span>
+  </div>
 );
 
 CellPercussion.propTypes = {

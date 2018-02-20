@@ -57,10 +57,10 @@
   }
 }
 
-@mixin truncate($width:100%, $display:block) {
+@mixin truncate($width:100%, $display:block, $overflow:clip) {
   display: $display;
   max-width: $width;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: $overflow;
   white-space: nowrap;
 }
