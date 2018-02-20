@@ -4,6 +4,10 @@ exports[`<CellDance> renders as expected by default 1`] = `
 <div
   className="cell cell--3 cell--dance"
 >
-  Naka no takane
+  <span
+    className="truncate"
+  >
+    Naka no takane
+  </span>
 </div>
 `;
