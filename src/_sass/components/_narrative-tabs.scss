@@ -4,12 +4,18 @@
   border-bottom-color: rgba($blue-light, 0);
   border-bottom-style: solid;
   border-bottom-width: 0.0625rem;
+  left: 0;
   margin: 0;
+  padding: 0 1rem;
+  position: fixed;
+  top: 3rem;
+  width: 30%;
 
   @include flex-container($justify:flex-start, $align:stretch);
 }
 
 .react-tabs__tab  {
+  background-color: $white;
   border-bottom-color: $grey-light;
   border-bottom-style: solid;
   border-bottom-width: 0.25rem;
