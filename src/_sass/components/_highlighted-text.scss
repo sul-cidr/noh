@@ -35,6 +35,14 @@
     .transcription__title {
       display: none;
     }
+  }
+  &.disabled {
+    color: $grey-dark;
+
+    .transcription,
+    .transcription__title {
+      display: none;
+    }
 
     &.is-open {
       .sidebar__collapsable-title--libretto {
