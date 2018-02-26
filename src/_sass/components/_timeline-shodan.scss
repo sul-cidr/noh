@@ -30,6 +30,10 @@
     .sidebar__collapsable-title--map {
       padding: 1rem;
 
+      svg {
+        transform: rotate(90deg);
+      }
+
       .shodan-map {
         display: none;
       }
@@ -40,7 +44,7 @@
 .shodan-map__item {
   background-color: $grey-lighter;
   border: 0.0625rem solid $grey-medium;
-  height: 0.5rem;
+  min-height: 0.5rem;
   position: absolute;
   bottom: 0;
 
@@ -55,5 +59,4 @@
 .shodan-map__item--active {
   border: 0.0625rem solid $black;
   background-color: $grey-light;
-  height: 0.625rem;
 }
