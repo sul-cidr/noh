@@ -18,12 +18,12 @@
 }
 
 .score-no-phrases {
-  min-height: $score-channel-large-height;
-  text-align: center;
-  vertical-align: middle;
-  font-style: italic;
+  background-color: $grey-lighter;
   color: $grey-dark;
-  padding: 1rem;
+  font-style: italic;
+  min-height: $timeline-empty-score-height;
+
+  @include flex-container($justify:center);
 }
 
 .measure {
