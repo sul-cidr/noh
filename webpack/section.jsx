@@ -31,6 +31,19 @@ export default class App extends Component {
   }
 
   render() {
+    const toggle = (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="7"
+        height="11"
+        viewBox="0 0 7 11"
+      >
+        <path
+          fill="currentColor"
+          d="M6.80213849,5.07381279 C7.04871743,5.30913242 7.04871743,5.69086758 6.80213849,5.92618721 L1.68792796,10.8071233 C1.44134901,11.0424429 1.04134901,11.0424429 0.794770063,10.8071233 L0.198191113,10.2377854 C-0.0481246674,10.0027169 -0.0486509874,9.6219863 0.197138483,9.38641553 L4.25029638,5.5 L0.196875333,1.61383562 C-0.0486509874,1.37826484 -0.0483878274,0.997534247 0.197927963,0.762465753 L0.794506903,0.193127854 C1.04108585,-0.0421917808 1.44108585,-0.0421917808 1.6876648,0.193127854 L6.80213849,5.07381279 Z"
+        />
+      </svg>
+    );
     return (
       <Provider store={store}>
         <div className="app-container">
@@ -67,7 +80,7 @@ export default class App extends Component {
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
-                  <h3>Libretto</h3>
+                  <h3>{toggle} Libretto</h3>
                   <div className="transcription__title">
                     <p>
                       Singing style: <span>{this.props.singingStyle}</span>
@@ -91,7 +104,7 @@ export default class App extends Component {
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
-                  <h3>Section map</h3>
+                  <h3>{toggle} Section map</h3>
                   <ShodanTimeline
                     sections={this.props.sections}
                     maxIntensity={this.props.maxIntensity}
