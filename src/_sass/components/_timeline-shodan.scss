@@ -30,6 +30,10 @@
     .sidebar__collapsable-title--map {
       padding: 1rem;
 
+      svg {
+        transform: rotate(90deg);
+      }
+
       .shodan-map {
         display: none;
       }
