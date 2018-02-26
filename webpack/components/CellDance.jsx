@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 
 const CellDance = props => (
   <div className={`cell cell--${props.length} cell--dance`}>
-    <span className="truncate">{props.text}</span>
+    <span data-tooltip={props.text} className="truncate">
+      {props.text}
+    </span>
   </div>
 );
 

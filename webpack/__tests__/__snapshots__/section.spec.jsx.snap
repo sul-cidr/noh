@@ -56538,6 +56538,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellNohkan>
@@ -56575,6 +56576,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellDance>
@@ -56588,6 +56590,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip="9. Shite kneeling facing front."
                             >
                               9. Shite kneeling facing front.
                             </span>
@@ -56603,6 +56606,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellDance>
@@ -57149,6 +57153,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellNohkan>
@@ -57170,6 +57175,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellDance>

@@ -6,6 +6,7 @@ exports[`<CellDance> renders as expected by default 1`] = `
 >
   <span
     className="truncate"
+    data-tooltip="Naka no takane"
   >
     Naka no takane
   </span>
