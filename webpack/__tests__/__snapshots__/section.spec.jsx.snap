@@ -56222,6 +56222,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ma"
                             >
                               ma
                             </span>
@@ -56252,6 +56253,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ta"
                             >
                               ta
                             </span>
@@ -56274,6 +56276,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="wa"
                             >
                               wa
                             </span>
@@ -56296,6 +56299,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ga"
                             >
                               ga
                             </span>
@@ -56318,6 +56322,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="cho"
                             >
                               cho
                             </span>
@@ -56340,6 +56345,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="o"
                             >
                               o
                             </span>
@@ -56362,6 +56368,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="no"
                             >
                               no
                             </span>
@@ -56384,6 +56391,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="so"
                             >
                               so
                             </span>
@@ -56406,6 +56414,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="no"
                             >
                               no
                             </span>
@@ -56428,6 +56437,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ha"
                             >
                               ha
                             </span>
@@ -56450,6 +56460,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ji"
                             >
                               ji
                             </span>
@@ -56472,6 +56483,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="me"
                             >
                               me
                             </span>
@@ -56494,6 +56506,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="(e)"
                             >
                               (e)
                             </span>
@@ -56882,6 +56895,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title=""
                             />
                           </div>
                         </CellText>
@@ -56899,6 +56913,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title=""
                             />
                           </div>
                         </CellText>
@@ -56916,6 +56931,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ni"
                             >
                               ni
                             </span>
@@ -56938,6 +56954,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="n"
                             >
                               n
                             </span>
@@ -56960,6 +56977,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="no"
                             >
                               no
                             </span>
@@ -56982,6 +57000,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="o"
                             >
                               o
                             </span>
@@ -57004,6 +57023,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ji"
                             >
                               ji
                             </span>
@@ -57026,6 +57046,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="u"
                             >
                               u
                             </span>
@@ -57048,6 +57069,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ni"
                             >
                               ni
                             </span>
@@ -57070,6 +57092,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="da"
                             >
                               da
                             </span>
@@ -57092,6 +57115,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="i"
                             >
                               i
                             </span>
@@ -57114,6 +57138,7 @@ exports[`<Section> renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title=""
                             />
                           </div>
                         </CellText>
@@ -119000,6 +119025,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ma"
                             >
                               ma
                             </span>
@@ -119030,6 +119056,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ta"
                             >
                               ta
                             </span>
@@ -119052,6 +119079,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="wa"
                             >
                               wa
                             </span>
@@ -119074,6 +119102,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ga"
                             >
                               ga
                             </span>
@@ -119096,6 +119125,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="cho"
                             >
                               cho
                             </span>
@@ -119118,6 +119148,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="o"
                             >
                               o
                             </span>
@@ -119140,6 +119171,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="no"
                             >
                               no
                             </span>
@@ -119162,6 +119194,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="so"
                             >
                               so
                             </span>
@@ -119184,6 +119217,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="no"
                             >
                               no
                             </span>
@@ -119206,6 +119240,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ha"
                             >
                               ha
                             </span>
@@ -119228,6 +119263,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ji"
                             >
                               ji
                             </span>
@@ -119250,6 +119286,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="me"
                             >
                               me
                             </span>
@@ -119272,6 +119309,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="(e)"
                             >
                               (e)
                             </span>
@@ -119316,6 +119354,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellNohkan>
@@ -119353,6 +119392,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellDance>
@@ -119366,6 +119406,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip="9. Shite kneeling facing front."
                             >
                               9. Shite kneeling facing front.
                             </span>
@@ -119381,6 +119422,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellDance>
@@ -119656,6 +119698,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title=""
                             />
                           </div>
                         </CellText>
@@ -119673,6 +119716,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title=""
                             />
                           </div>
                         </CellText>
@@ -119690,6 +119734,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ni"
                             >
                               ni
                             </span>
@@ -119712,6 +119757,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="n"
                             >
                               n
                             </span>
@@ -119734,6 +119780,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="no"
                             >
                               no
                             </span>
@@ -119756,6 +119803,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="o"
                             >
                               o
                             </span>
@@ -119778,6 +119826,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ji"
                             >
                               ji
                             </span>
@@ -119800,6 +119849,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="u"
                             >
                               u
                             </span>
@@ -119822,6 +119872,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="ni"
                             >
                               ni
                             </span>
@@ -119844,6 +119895,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="da"
                             >
                               da
                             </span>
@@ -119866,6 +119918,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title="i"
                             >
                               i
                             </span>
@@ -119888,6 +119941,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              title=""
                             />
                           </div>
                         </CellText>
@@ -119927,6 +119981,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellNohkan>
@@ -119948,6 +120003,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           >
                             <span
                               className="truncate"
+                              data-tooltip=""
                             />
                           </div>
                         </CellDance>
