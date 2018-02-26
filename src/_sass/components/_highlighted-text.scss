@@ -35,6 +35,14 @@
       display: none;
     }
   }
+  &.disabled {
+    color: $grey-dark;
+
+    .transcription,
+    .transcription__title {
+      display: none;
+    }
+  }
 }
 
 .transcription {}
