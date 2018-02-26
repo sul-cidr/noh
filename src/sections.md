@@ -3,7 +3,7 @@ layout: page
 title: Sections
 ---
 
-<h3>Hasitomi sections</h3>
+<h3>Hashitomi sections</h3>
 <ul class="section-list">
   {% for section in site.hashitomi %}
     <li class="section-list-item">
