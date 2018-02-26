@@ -11,10 +11,9 @@ import ScoreTextLine from "./ScoreTextLine";
 function createBeatsArray(grid) {
   const beatsArray = [];
   for (let i = 0; i < grid.length; i += 1) {
-    beatsArray[i] = "";
     beatsArray[grid[i].start] = grid[i].text;
   }
-  return beatsArray;
+  return [...Array(beatsArray.length).keys()].map(i => beatsArray[i] || "");
 }
 
 export const determineCurrentPhrase = props =>
