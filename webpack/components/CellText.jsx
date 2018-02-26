@@ -30,7 +30,9 @@ const CellText = props => {
   }
   return (
     <div className={`cell cell--${props.length} cell--text`}>
-      <span className="truncate">{props.text}</span>
+      <span title={props.text} className="truncate">
+        {props.text}
+      </span>
       {typeSpan}
       {tooltipSpan}
       {rangeSpan}
