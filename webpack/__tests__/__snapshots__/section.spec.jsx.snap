@@ -18060,7 +18060,7 @@ exports[`<Section> renders as expected 1`] = `
           className="sidebar__extras"
         >
           <div
-            className="highlighted-text__container is-open"
+            className="highlighted-text__container is-open "
             onClick={[Function]}
             onKeyPress={null}
             role="presentation"

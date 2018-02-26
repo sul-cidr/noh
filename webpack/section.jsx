@@ -61,7 +61,10 @@ export default class App extends Component {
                 className={`highlighted-text__container ${this.state
                   .isHighlightedTextOn
                   ? "is-open"
-                  : ""}`}
+                  : ""} ${this.props.singingStyle &&
+                this.props.singingStyle !== ""
+                  ? ""
+                  : "disabled"}`}
                 onClick={event =>
                   this.handleToggle(event, "isHighlightedTextOn")}
                 onKeyPress={null}
@@ -147,7 +150,7 @@ App.propTypes = {
       endTime: PropTypes.shape({ value: PropTypes.number })
     })
   ).isRequired,
-  singingStyle: PropTypes.string.isRequired,
+  singingStyle: PropTypes.string,
   // startTime: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   tracks: PropTypes.arrayOf(
@@ -180,6 +183,7 @@ App.defaultProps = {
   // currentTime: 0.0,
   // startTime: 0.0,
   // isPlaying: false
+  singingStyle: ""
 };
 
 // If main app
