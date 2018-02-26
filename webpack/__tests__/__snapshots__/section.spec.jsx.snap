@@ -55944,20 +55944,24 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="1"
                         key="beatNum1"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          1
+                        </div>
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="2"
                         key="beatNum2"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          2
+                        </div>
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -55968,20 +55972,24 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="3"
                         key="beatNum4"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          3
+                        </div>
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="4"
                         key="beatNum5"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          4
+                        </div>
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -55992,12 +56000,14 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="5"
                         key="beatNum7"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          5
+                        </div>
                       </CellBeat>
                       <CellBeat
                         beatText="6"
@@ -56010,6 +56020,14 @@ exports[`<Section> renders as expected 1`] = `
                         </div>
                       </CellBeat>
                       <CellBeat
+                        beatText=""
+                        key="beatNum9"
+                      >
+                        <div
+                          className="cell cell--1 cell--beat"
+                        />
+                      </CellBeat>
+                      <CellBeat
                         beatText="7"
                         key="beatNum10"
                       >
@@ -56018,6 +56036,14 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           7
                         </div>
+                      </CellBeat>
+                      <CellBeat
+                        beatText=""
+                        key="beatNum11"
+                      >
+                        <div
+                          className="cell cell--1 cell--beat"
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText="8"
@@ -56598,20 +56624,24 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="1"
                         key="beatNum1"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          1
+                        </div>
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="2"
                         key="beatNum2"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          2
+                        </div>
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -56622,20 +56652,24 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="3"
                         key="beatNum4"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          3
+                        </div>
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="4"
                         key="beatNum5"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          4
+                        </div>
                       </CellBeat>
                       <CellBeat
                         beatText=""
@@ -56646,12 +56680,14 @@ exports[`<Section> renders as expected 1`] = `
                         />
                       </CellBeat>
                       <CellBeat
-                        beatText=""
+                        beatText="5"
                         key="beatNum7"
                       >
                         <div
                           className="cell cell--1 cell--beat"
-                        />
+                        >
+                          5
+                        </div>
                       </CellBeat>
                       <CellBeat
                         beatText="6"
@@ -56664,6 +56700,14 @@ exports[`<Section> renders as expected 1`] = `
                         </div>
                       </CellBeat>
                       <CellBeat
+                        beatText=""
+                        key="beatNum9"
+                      >
+                        <div
+                          className="cell cell--1 cell--beat"
+                        />
+                      </CellBeat>
+                      <CellBeat
                         beatText="7"
                         key="beatNum10"
                       >
@@ -56672,6 +56716,14 @@ exports[`<Section> renders as expected 1`] = `
                         >
                           7
                         </div>
+                      </CellBeat>
+                      <CellBeat
+                        beatText=""
+                        key="beatNum11"
+                      >
+                        <div
+                          className="cell cell--1 cell--beat"
+                        />
                       </CellBeat>
                       <CellBeat
                         beatText="8"
