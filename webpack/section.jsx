@@ -40,6 +40,19 @@ export default class App extends Component {
       ) : (
         <div className="score score-no-phrases">No score in this section</div>
       );
+    const toggle = (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="5"
+        height="8"
+        viewBox="0 0 5 8"
+      >
+        <path
+          fill="currentColor"
+          d="M4.85867035,3.69004567 C5.03479817,3.86118721 5.03479817,4.13881279 4.85867035,4.30995433 L1.20566283,7.85972604 C1.02953501,8.03086756 0.743820723,8.03086756 0.567692902,7.85972604 L0.14156508,7.44566211 C-0.0343747624,7.2747032 -0.0347507053,6.99780822 0.140813202,6.82648402 L3.03592599,4 L0.140625238,1.17369863 C-0.0347507053,1.00237443 -0.0345627338,0.725479452 0.141377116,0.554520548 L0.56750493,0.140456621 C0.743632752,-0.0306849315 1.02934704,-0.0306849315 1.20547486,0.140456621 L4.85867035,3.69004567 Z"
+        />
+      </svg>
+    );
     return (
       <Provider store={store}>
         <div className="app-container">
@@ -70,13 +83,16 @@ export default class App extends Component {
                 className={`highlighted-text__container ${this.state
                   .isHighlightedTextOn
                   ? "is-open"
-                  : ""}`}
+                  : ""} ${this.props.singingStyle &&
+                this.props.singingStyle !== ""
+                  ? ""
+                  : "disabled"}`}
                 onClick={event =>
                   this.handleToggle(event, "isHighlightedTextOn")}
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
-                  <h3>Libretto</h3>
+                  <h3>{toggle} Libretto</h3>
                   <div className="transcription__title">
                     <p>
                       Singing style: <span>{this.props.singingStyle}</span>
@@ -100,7 +116,7 @@ export default class App extends Component {
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
-                  <h3>Section map</h3>
+                  <h3>{toggle} Section map</h3>
                   <ShodanTimeline
                     sections={this.props.sections}
                     maxIntensity={this.props.maxIntensity}
@@ -155,7 +171,7 @@ App.propTypes = {
       endTime: PropTypes.shape({ value: PropTypes.number })
     })
   ).isRequired,
-  singingStyle: PropTypes.string.isRequired,
+  singingStyle: PropTypes.string,
   // startTime: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   tracks: PropTypes.arrayOf(
@@ -188,6 +204,7 @@ App.defaultProps = {
   // currentTime: 0.0,
   // startTime: 0.0,
   // isPlaying: false
+  singingStyle: ""
 };
 
 // If main app

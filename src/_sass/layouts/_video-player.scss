@@ -91,6 +91,11 @@
     @include uppercase();
   }
 
+  svg {
+    margin-right: 0.5rem;
+    transition: transform 200ms ease-in-out;
+  }
+
   .timeline & {
     display: none;
   }
