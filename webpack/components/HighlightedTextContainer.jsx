@@ -38,7 +38,7 @@ class HighlightedTextContainer extends React.Component {
 
 HighlightedTextContainer.propTypes = {
   currentTime: PropTypes.number.isRequired,
-  singingStyle: PropTypes.string.isRequired,
+  singingStyle: PropTypes.string,
   currentPhraseID: PropTypes.string.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
@@ -50,6 +50,10 @@ HighlightedTextContainer.propTypes = {
     })
   ).isRequired,
   setCurrentPhrase: PropTypes.func.isRequired
+};
+
+HighlightedTextContainer.defaultProps = {
+  singingStyle: ""
 };
 
 const mapStateToProps = state => ({

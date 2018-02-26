@@ -32,7 +32,7 @@ class HighlightedText extends React.Component {
 }
 
 HighlightedText.propTypes = {
-  singingStyle: PropTypes.string.isRequired,
+  singingStyle: PropTypes.string,
   currentPhraseID: PropTypes.string.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
@@ -43,6 +43,10 @@ HighlightedText.propTypes = {
       translation: PropTypes.string
     })
   ).isRequired
+};
+
+HighlightedText.defaultProps = {
+  singingStyle: ""
 };
 
 export default HighlightedText;
