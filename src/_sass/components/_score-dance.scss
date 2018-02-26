@@ -1,0 +1,7 @@
+.cell--dance {
+  position: relative;
+
+  span {
+    @include tooltip();
+  }
+}
