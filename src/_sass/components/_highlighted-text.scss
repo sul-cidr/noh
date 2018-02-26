@@ -21,6 +21,10 @@
       .transcription__title {
         display: none;
       }
+
+      svg {
+        transform: rotate(90deg);
+      }
     }
   }
   &.disabled {
