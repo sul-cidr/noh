@@ -4,6 +4,7 @@ import configureMockStore from "redux-mock-store";
 
 import App from "../section";
 import fixtures from "./__fixtures__/section.json";
+import fixturesNoPhrases from "./__fixtures__/section-no-phrases.json";
 
 describe("<Section>", () => {
   let wrapper;
@@ -24,6 +25,11 @@ describe("<Section>", () => {
 
   it("renders as expected", () => {
     expect(wrapper).toMatchSnapshot();
+  });
+
+  it("renders as expected with no phrases", () => {
+    const component = mount(<App store={store} {...fixturesNoPhrases} />);
+    expect(component).toMatchSnapshot();
   });
 
   it("toggles highlighted-text/libretto", () => {

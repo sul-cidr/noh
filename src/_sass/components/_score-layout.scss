@@ -17,6 +17,15 @@
   width: 100%;
 }
 
+.score-no-phrases {
+  min-height: $score-channel-large-height;
+  text-align: center;
+  vertical-align: middle;
+  font-style: italic;
+  color: $grey-dark;
+  padding: 1rem;
+}
+
 .measure {
   @include flex-container($justify:flex-start, $align:stretch);
 }
