@@ -1,5 +1,5 @@
 ---
-title: Kakekai
+title: Kakeai
 play: Hashitomi
 layout: section
 ---

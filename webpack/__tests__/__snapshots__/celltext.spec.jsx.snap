@@ -6,6 +6,7 @@ exports[`<CellText> renders as expected 1`] = `
 >
   <span
     className="truncate"
+    title="ma"
   >
     ma
   </span>
@@ -29,6 +30,7 @@ exports[`<CellText> renders as expected 2`] = `
 >
   <span
     className="truncate"
+    title="ma"
   >
     ma
   </span>
@@ -52,6 +54,7 @@ exports[`<CellText> renders as expected 3`] = `
 >
   <span
     className="truncate"
+    title="ma"
   >
     ma
   </span>
@@ -75,6 +78,7 @@ exports[`<CellText> renders as expected with no vocal range 1`] = `
 >
   <span
     className="truncate"
+    title="ma"
   >
     ma
   </span>

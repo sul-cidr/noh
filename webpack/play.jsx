@@ -148,7 +148,6 @@ App.defaultProps = {
 if (!module.parent) {
   const playName = window.location.pathname.trim().split("/")[1];
   contents.play(playName, props => {
-    console.log(JSON.stringify(props));
     render(<App {...props} />, document.getElementById("play"));
   });
 }
