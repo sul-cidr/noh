@@ -31,6 +31,15 @@ export default class App extends Component {
   }
 
   render() {
+    const score =
+      this.props.phrases && this.props.phrases.length > 0 ? (
+        [
+          <Score key="score" phrases={this.props.phrases} />,
+          <ScoreControls key="score-controls" isPrevSentenceOn={false} />
+        ]
+      ) : (
+        <div className="score score-no-phrases">No score in this section</div>
+      );
     const toggle = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +139,7 @@ export default class App extends Component {
                   tracks={this.props.tracks}
                 />
               </div>
-              <Score phrases={this.props.phrases} />
-              <ScoreControls isPrevSentenceOn={false} />
+              {score}
             </div>
           </main>
         </div>

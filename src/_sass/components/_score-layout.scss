@@ -17,6 +17,15 @@
   width: 100%;
 }
 
+.score-no-phrases {
+  background-color: $grey-lighter;
+  color: $grey-dark;
+  font-style: italic;
+  min-height: $timeline-empty-score-height;
+
+  @include flex-container($justify:center);
+}
+
 .measure {
   @include flex-container($justify:flex-start, $align:stretch);
 }
