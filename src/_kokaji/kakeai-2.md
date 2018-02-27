@@ -1,5 +1,5 @@
 ---
-title: Kakekai 2
+title: Kakeai 2
 play: Kokaji
 layout: section
 ---
