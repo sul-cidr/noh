@@ -10,6 +10,16 @@
 .act {
   @include flex-container($justify: center);
   @include text(md);
+
+  .transcription {
+
+  }
+
+  .translation {
+    color: $grey-dark;
+    font-style: italic;
+    margin-left: 0.25rem;
+  }
 }
 
 .act__first-end {
