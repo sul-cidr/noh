@@ -3,7 +3,7 @@ title: Hashitomi
 ---
 
 <section id='intro' title='Introduction' class='tabbed-narrative'>
-  <h2>Title</h2>
+  <h2>This is a title/h2>
   <p>Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
