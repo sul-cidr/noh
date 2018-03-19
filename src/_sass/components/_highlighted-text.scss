@@ -46,27 +46,10 @@
       }
     }
   }
-  &.disabled {
-    color: $grey-dark;
-
-    .transcription,
-    .transcription__title {
-      display: none;
-    }
-
-    &.is-open {
-      .sidebar__collapsable-title--libretto {
-        padding: 1rem;
-
-        svg {
-          transform: none;
-        }
-      }
-    }
-  }
 }
 
-.transcription {}
+.transcription {
+}
 
 .transcription__title {
   padding: 0.5rem 1rem;
