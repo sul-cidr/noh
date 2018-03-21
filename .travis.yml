@@ -16,7 +16,7 @@ script:
   - yarn lint
 
 before_deploy:
-  - if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn parse && yarn build; fi
+  - if [ "$TRAVIS_BRANCH" == "contents" ]; then yarn parse && yarn build; fi
 
 env:
   global:
@@ -34,4 +34,4 @@ deploy:
   region: us-east-1
   local_dir: _site
   on:
-    branch: develop
+    branch: contents
