@@ -28,27 +28,6 @@
     }
   }
 
-<<<<<<< HEAD
-=======
-  &.disabled {
-    color: $grey-dark;
-
-    .transcription,
-    .transcription__title {
-      display: none;
-    }
-
-    &.is-open {
-      .sidebar__collapsable-title--libretto {
-        padding: 1rem;
-
-        svg {
-          transform: none;
-        }
-      }
-    }
-  }
->>>>>>> 5f08c5f50d0b5c39dab64764dcbc7ce9f9960ceb
   &.disabled {
     color: $grey-dark;
 
