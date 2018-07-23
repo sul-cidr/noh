@@ -57,8 +57,8 @@ describe("<UnwrappedIntermediaTable>", () => {
         currentTime={200}
       />
     );
-    const currentSection = component.instance().currentSection();
-    expect(currentSection.sectionName.value).toBe("Mondo");
+    const currentSectionIndex = component.instance().findCurrentSectionIndex();
+    expect(currentSectionIndex).toBe(1);
   });
 });
 
