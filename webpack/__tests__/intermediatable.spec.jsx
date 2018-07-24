@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { shallow, mount } from "enzyme";
 import configureMockStore from "redux-mock-store";
 import IntermediaTable, {
   Unwrapped as UnwrappedIntermediaTable
@@ -57,8 +57,31 @@ describe("<UnwrappedIntermediaTable>", () => {
         currentTime={200}
       />
     );
-    const currentSection = component.instance().currentSection();
-    expect(currentSection.sectionName.value).toBe("Mondo");
+    const currentSectionIndex = component.instance().findCurrentSectionIndex();
+    expect(currentSectionIndex).toBe(1);
+  });
+  it("handles failing to find a section correctly", () => {
+    const component = shallow(
+      <UnwrappedIntermediaTable
+        play="hashitomi"
+        sections={sections}
+        currentTime={5000}
+      />
+    );
+    const currentSectionIndex = component.instance().findCurrentSectionIndex();
+    expect(currentSectionIndex).toBe(0);
+  });
+  it("updates state correctly on componentWillReceiveProps", () => {
+    const component = mount(
+      <UnwrappedIntermediaTable
+        play="hashitomi"
+        sections={sections}
+        currentTime={0}
+      />
+    );
+    component.setProps({ currentTime: 200 });
+    component.instance().componentWillReceiveProps();
+    expect(component.state().currentSectionIndex).toBe(1);
   });
 });
 
