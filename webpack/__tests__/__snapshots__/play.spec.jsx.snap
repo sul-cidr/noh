@@ -58,7 +58,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
           "number": "1",
@@ -72,6 +72,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Oshirabe",
         },
+        "sectionUrl": "/kokaji/oshirabe",
         "startTime": Object {},
         "text": Object {},
         "videoDuration": Object {
@@ -101,6 +102,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Musicians walk in",
         },
+        "sectionUrl": "/kokaji/musicians-walk-in",
         "startTime": Object {
           "value": 106,
         },
@@ -143,6 +145,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Nanori",
         },
+        "sectionUrl": "/kokaji/nanori",
         "startTime": Object {
           "value": 236,
         },
@@ -180,7 +183,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Waki tsure & waki",
+          "value": "Waki tsure, waki",
         },
         "percussion": Object {},
         "play": Object {
@@ -189,6 +192,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Mondō-1",
         },
+        "sectionUrl": "/kokaji/mondo-1",
         "startTime": Object {
           "value": 316,
         },
@@ -224,11 +228,11 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Waki, then Jiutai",
+          "value": "Waki, Jiutai",
         },
         "percussion": Object {
           "value": "Congruent",
@@ -239,6 +243,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Ageuta-1",
         },
+        "sectionUrl": "/kokaji/ageuta-1",
         "startTime": Object {
           "value": 523,
         },
@@ -276,7 +281,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Waki tsure and Waki",
+          "value": "Waki tsure,  Waki",
         },
         "percussion": Object {},
         "play": Object {
@@ -285,6 +290,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Dialogue",
         },
+        "sectionUrl": "/kokaji/dialogue",
         "startTime": Object {
           "value": 646,
         },
@@ -331,6 +337,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Monologue",
         },
+        "sectionUrl": "/kokaji/monologue",
         "startTime": Object {
           "value": 680,
         },
@@ -368,7 +375,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Shite & waki",
+          "value": "Shite, Waki",
         },
         "percussion": Object {},
         "play": Object {
@@ -377,8 +384,9 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Mondō-2",
         },
+        "sectionUrl": "/kokaji/mondo-2",
         "startTime": Object {
-          "value": 738,
+          "value": 739,
         },
         "text": Object {
           "value": "Non-congruent",
@@ -413,7 +421,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "1",
@@ -428,6 +436,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Ageuta-2",
         },
+        "sectionUrl": "/kokaji/ageuta-2",
         "startTime": Object {
           "value": 898,
         },
@@ -463,7 +472,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "1",
@@ -478,6 +487,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Kuri",
         },
+        "sectionUrl": "/kokaji/kuri",
         "startTime": Object {
           "value": 1014,
         },
@@ -513,11 +523,11 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Shite and Jiutai",
+          "value": "Shite, Jiutai",
         },
         "percussion": Object {
           "value": "Congruent",
@@ -528,6 +538,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Sashi",
         },
+        "sectionUrl": "/kokaji/sashi",
         "startTime": Object {
           "value": 1075,
         },
@@ -547,7 +558,7 @@ exports[`<Play> renders as expected 1`] = `
       Object {
         "dancePresent": Object {
           "present": "Yes",
-          "value": "Dance to text/Martial mode",
+          "value": "Dance to text / Martial mode",
         },
         "endTime": Object {
           "value": 1746,
@@ -564,11 +575,11 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Shite and Jiutai",
+          "value": "Shite, Jiutai",
         },
         "percussion": Object {
           "value": "Congruent",
@@ -579,6 +590,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Kuse",
         },
+        "sectionUrl": "/kokaji/kuse",
         "startTime": Object {
           "value": 1193,
         },
@@ -606,18 +618,18 @@ exports[`<Play> renders as expected 1`] = `
           "number": "7",
         },
         "narrative": Object {
-          "value": "/kokaji/narratives/kakekai-1.html",
+          "value": "/kokaji/narratives/kakeai-1.html",
         },
         "nokhanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Waki, then Shite",
+          "value": "Waki, Shite",
         },
         "percussion": Object {
           "value": "Non congruent",
@@ -628,6 +640,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Kakeai-1",
         },
+        "sectionUrl": "/kokaji/kakeai-1",
         "startTime": Object {
           "value": 1747,
         },
@@ -663,7 +676,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
@@ -678,6 +691,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Ageuta-3",
         },
+        "sectionUrl": "/kokaji/ageuta-3",
         "startTime": Object {
           "value": 1805,
         },
@@ -713,7 +727,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
           "number": "0",
@@ -727,6 +741,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Raijo",
         },
+        "sectionUrl": "/kokaji/raijo",
         "startTime": Object {
           "value": 1880,
         },
@@ -768,6 +783,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Aikyōgen",
         },
+        "sectionUrl": "/kokaji/aikyogen",
         "startTime": Object {
           "value": 2091,
         },
@@ -803,6 +819,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Prop is brought in",
         },
+        "sectionUrl": "/kokaji/prop-in",
         "startTime": Object {
           "value": 2576,
         },
@@ -834,7 +851,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "1",
@@ -849,6 +866,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Notto",
         },
+        "sectionUrl": "/kokaji/notto",
         "startTime": Object {
           "value": 2719,
         },
@@ -883,11 +901,11 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
-          "number": "1",
-          "value": "Jiutai",
+          "number": "2",
+          "value": "Jiutai, Waki",
         },
         "percussion": Object {
           "value": "Congruent",
@@ -898,6 +916,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Noriji-1",
         },
+        "sectionUrl": "/kokaji/noriji-1",
         "startTime": Object {
           "value": 2921,
         },
@@ -934,7 +953,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
           "number": "0",
@@ -948,6 +967,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Hayafue",
         },
+        "sectionUrl": "/kokaji/hayafue",
         "startTime": Object {
           "value": 3067,
         },
@@ -966,7 +986,7 @@ exports[`<Play> renders as expected 1`] = `
           "value": "Martial mode",
         },
         "endTime": Object {
-          "value": 3195,
+          "value": 3197,
         },
         "intensity": Object {
           "number": "27",
@@ -980,7 +1000,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
           "number": "1",
@@ -995,6 +1015,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Noriji-2",
         },
+        "sectionUrl": "/kokaji/noriji-2",
         "startTime": Object {
           "value": 3151,
         },
@@ -1014,7 +1035,7 @@ exports[`<Play> renders as expected 1`] = `
       Object {
         "dancePresent": Object {
           "present": "Yes",
-          "value": "Pure deance / Martial mode",
+          "value": "Pure dance, Martial mode",
         },
         "endTime": Object {
           "value": 3254,
@@ -1031,7 +1052,7 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
           "number": "0",
@@ -1045,8 +1066,9 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Maibataraki",
         },
+        "sectionUrl": "/kokaji/maibataraki",
         "startTime": Object {
-          "value": 3196,
+          "value": 3198,
         },
         "text": Object {},
         "videoDuration": Object {
@@ -1076,11 +1098,11 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko",
+          "value": "Otsuzumi, Kotsuzumi, Taiko",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Shite and Jiutai",
+          "value": "Shite, Jiutai",
         },
         "percussion": Object {
           "value": "Congruent",
@@ -1091,6 +1113,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Noriji-3",
         },
+        "sectionUrl": "/kokaji/noriji-3",
         "startTime": Object {
           "value": 3255,
         },
@@ -1118,16 +1141,16 @@ exports[`<Play> renders as expected 1`] = `
           "number": "9",
         },
         "narrative": Object {
-          "value": "/kokaji/narratives/kakekai-2.html",
+          "value": "/kokaji/narratives/kakeai-2.html",
         },
         "nokhanPresent": Object {},
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Waki and Shite",
+          "value": "Waki, Shite",
         },
         "percussion": Object {
           "value": "Non congruent",
@@ -1138,6 +1161,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Kakeai-2",
         },
+        "sectionUrl": "/kokaji/kakeai-2",
         "startTime": Object {
           "value": 3370,
         },
@@ -1155,10 +1179,10 @@ exports[`<Play> renders as expected 1`] = `
       Object {
         "dancePresent": Object {
           "present": "Yes",
-          "value": "Dance to text / Martial mode",
+          "value": "Dance to text, Martial mode",
         },
         "endTime": Object {
-          "value": 3534,
+          "value": 3535,
         },
         "intensity": Object {
           "number": "28",
@@ -1172,11 +1196,11 @@ exports[`<Play> renders as expected 1`] = `
         },
         "numberOfPercussion": Object {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi",
+          "value": "Otsuzumi, Kotsuzumi",
         },
         "numberVoices": Object {
           "number": "2",
-          "value": "Shite and Jiutai",
+          "value": "Shite, Jiutai",
         },
         "percussion": Object {
           "value": "Congruent",
@@ -1187,6 +1211,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Kiri",
         },
+        "sectionUrl": "/kokaji/kiri",
         "startTime": Object {
           "value": 3400,
         },
@@ -1206,7 +1231,7 @@ exports[`<Play> renders as expected 1`] = `
       Object {
         "dancePresent": Object {},
         "endTime": Object {
-          "value": 3693,
+          "value": 3692,
         },
         "intensity": Object {
           "number": "0",
@@ -1224,6 +1249,7 @@ exports[`<Play> renders as expected 1`] = `
         "sectionName": Object {
           "value": "Musicians are exiting the stage",
         },
+        "sectionUrl": "/kokaji/exit",
         "startTime": Object {
           "value": 3536,
         },
@@ -2104,7 +2130,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
                           "number": "1",
@@ -2118,6 +2144,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Oshirabe",
                         },
+                        "sectionUrl": "/kokaji/oshirabe",
                         "startTime": Object {},
                         "text": Object {},
                         "videoDuration": Object {
@@ -2147,6 +2174,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Musicians walk in",
                         },
+                        "sectionUrl": "/kokaji/musicians-walk-in",
                         "startTime": Object {
                           "value": 106,
                         },
@@ -2189,6 +2217,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Nanori",
                         },
+                        "sectionUrl": "/kokaji/nanori",
                         "startTime": Object {
                           "value": 236,
                         },
@@ -2226,7 +2255,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Waki tsure & waki",
+                          "value": "Waki tsure, waki",
                         },
                         "percussion": Object {},
                         "play": Object {
@@ -2235,6 +2264,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Mondō-1",
                         },
+                        "sectionUrl": "/kokaji/mondo-1",
                         "startTime": Object {
                           "value": 316,
                         },
@@ -2270,11 +2300,11 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Waki, then Jiutai",
+                          "value": "Waki, Jiutai",
                         },
                         "percussion": Object {
                           "value": "Congruent",
@@ -2285,6 +2315,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Ageuta-1",
                         },
+                        "sectionUrl": "/kokaji/ageuta-1",
                         "startTime": Object {
                           "value": 523,
                         },
@@ -2322,7 +2353,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Waki tsure and Waki",
+                          "value": "Waki tsure,  Waki",
                         },
                         "percussion": Object {},
                         "play": Object {
@@ -2331,6 +2362,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Dialogue",
                         },
+                        "sectionUrl": "/kokaji/dialogue",
                         "startTime": Object {
                           "value": 646,
                         },
@@ -2377,6 +2409,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Monologue",
                         },
+                        "sectionUrl": "/kokaji/monologue",
                         "startTime": Object {
                           "value": 680,
                         },
@@ -2414,7 +2447,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Shite & waki",
+                          "value": "Shite, Waki",
                         },
                         "percussion": Object {},
                         "play": Object {
@@ -2423,8 +2456,9 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Mondō-2",
                         },
+                        "sectionUrl": "/kokaji/mondo-2",
                         "startTime": Object {
-                          "value": 738,
+                          "value": 739,
                         },
                         "text": Object {
                           "value": "Non-congruent",
@@ -2459,7 +2493,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "1",
@@ -2474,6 +2508,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Ageuta-2",
                         },
+                        "sectionUrl": "/kokaji/ageuta-2",
                         "startTime": Object {
                           "value": 898,
                         },
@@ -2509,7 +2544,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "1",
@@ -2524,6 +2559,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Kuri",
                         },
+                        "sectionUrl": "/kokaji/kuri",
                         "startTime": Object {
                           "value": 1014,
                         },
@@ -2559,11 +2595,11 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Shite and Jiutai",
+                          "value": "Shite, Jiutai",
                         },
                         "percussion": Object {
                           "value": "Congruent",
@@ -2574,6 +2610,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Sashi",
                         },
+                        "sectionUrl": "/kokaji/sashi",
                         "startTime": Object {
                           "value": 1075,
                         },
@@ -2593,7 +2630,7 @@ exports[`<Play> renders as expected 1`] = `
                       Object {
                         "dancePresent": Object {
                           "present": "Yes",
-                          "value": "Dance to text/Martial mode",
+                          "value": "Dance to text / Martial mode",
                         },
                         "endTime": Object {
                           "value": 1746,
@@ -2610,11 +2647,11 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Shite and Jiutai",
+                          "value": "Shite, Jiutai",
                         },
                         "percussion": Object {
                           "value": "Congruent",
@@ -2625,6 +2662,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Kuse",
                         },
+                        "sectionUrl": "/kokaji/kuse",
                         "startTime": Object {
                           "value": 1193,
                         },
@@ -2652,18 +2690,18 @@ exports[`<Play> renders as expected 1`] = `
                           "number": "7",
                         },
                         "narrative": Object {
-                          "value": "/kokaji/narratives/kakekai-1.html",
+                          "value": "/kokaji/narratives/kakeai-1.html",
                         },
                         "nokhanPresent": Object {
                           "present": "no",
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Waki, then Shite",
+                          "value": "Waki, Shite",
                         },
                         "percussion": Object {
                           "value": "Non congruent",
@@ -2674,6 +2712,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Kakeai-1",
                         },
+                        "sectionUrl": "/kokaji/kakeai-1",
                         "startTime": Object {
                           "value": 1747,
                         },
@@ -2709,7 +2748,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
@@ -2724,6 +2763,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Ageuta-3",
                         },
+                        "sectionUrl": "/kokaji/ageuta-3",
                         "startTime": Object {
                           "value": 1805,
                         },
@@ -2759,7 +2799,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
                           "number": "0",
@@ -2773,6 +2813,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Raijo",
                         },
+                        "sectionUrl": "/kokaji/raijo",
                         "startTime": Object {
                           "value": 1880,
                         },
@@ -2814,6 +2855,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Aikyōgen",
                         },
+                        "sectionUrl": "/kokaji/aikyogen",
                         "startTime": Object {
                           "value": 2091,
                         },
@@ -2849,6 +2891,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Prop is brought in",
                         },
+                        "sectionUrl": "/kokaji/prop-in",
                         "startTime": Object {
                           "value": 2576,
                         },
@@ -2880,7 +2923,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "1",
@@ -2895,6 +2938,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Notto",
                         },
+                        "sectionUrl": "/kokaji/notto",
                         "startTime": Object {
                           "value": 2719,
                         },
@@ -2929,11 +2973,11 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
-                          "number": "1",
-                          "value": "Jiutai",
+                          "number": "2",
+                          "value": "Jiutai, Waki",
                         },
                         "percussion": Object {
                           "value": "Congruent",
@@ -2944,6 +2988,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Noriji-1",
                         },
+                        "sectionUrl": "/kokaji/noriji-1",
                         "startTime": Object {
                           "value": 2921,
                         },
@@ -2980,7 +3025,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
                           "number": "0",
@@ -2994,6 +3039,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Hayafue",
                         },
+                        "sectionUrl": "/kokaji/hayafue",
                         "startTime": Object {
                           "value": 3067,
                         },
@@ -3012,7 +3058,7 @@ exports[`<Play> renders as expected 1`] = `
                           "value": "Martial mode",
                         },
                         "endTime": Object {
-                          "value": 3195,
+                          "value": 3197,
                         },
                         "intensity": Object {
                           "number": "27",
@@ -3026,7 +3072,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
                           "number": "1",
@@ -3041,6 +3087,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Noriji-2",
                         },
+                        "sectionUrl": "/kokaji/noriji-2",
                         "startTime": Object {
                           "value": 3151,
                         },
@@ -3060,7 +3107,7 @@ exports[`<Play> renders as expected 1`] = `
                       Object {
                         "dancePresent": Object {
                           "present": "Yes",
-                          "value": "Pure deance / Martial mode",
+                          "value": "Pure dance, Martial mode",
                         },
                         "endTime": Object {
                           "value": 3254,
@@ -3077,7 +3124,7 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
                           "number": "0",
@@ -3091,8 +3138,9 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Maibataraki",
                         },
+                        "sectionUrl": "/kokaji/maibataraki",
                         "startTime": Object {
-                          "value": 3196,
+                          "value": 3198,
                         },
                         "text": Object {},
                         "videoDuration": Object {
@@ -3122,11 +3170,11 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "3",
-                          "value": "Otsuzumi + Kotsuzumi + Taiko",
+                          "value": "Otsuzumi, Kotsuzumi, Taiko",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Shite and Jiutai",
+                          "value": "Shite, Jiutai",
                         },
                         "percussion": Object {
                           "value": "Congruent",
@@ -3137,6 +3185,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Noriji-3",
                         },
+                        "sectionUrl": "/kokaji/noriji-3",
                         "startTime": Object {
                           "value": 3255,
                         },
@@ -3164,16 +3213,16 @@ exports[`<Play> renders as expected 1`] = `
                           "number": "9",
                         },
                         "narrative": Object {
-                          "value": "/kokaji/narratives/kakekai-2.html",
+                          "value": "/kokaji/narratives/kakeai-2.html",
                         },
                         "nokhanPresent": Object {},
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Waki and Shite",
+                          "value": "Waki, Shite",
                         },
                         "percussion": Object {
                           "value": "Non congruent",
@@ -3184,6 +3233,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Kakeai-2",
                         },
+                        "sectionUrl": "/kokaji/kakeai-2",
                         "startTime": Object {
                           "value": 3370,
                         },
@@ -3201,10 +3251,10 @@ exports[`<Play> renders as expected 1`] = `
                       Object {
                         "dancePresent": Object {
                           "present": "Yes",
-                          "value": "Dance to text / Martial mode",
+                          "value": "Dance to text, Martial mode",
                         },
                         "endTime": Object {
-                          "value": 3534,
+                          "value": 3535,
                         },
                         "intensity": Object {
                           "number": "28",
@@ -3218,11 +3268,11 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "numberOfPercussion": Object {
                           "number": "2",
-                          "value": "Otsuzumi + Kotsuzumi",
+                          "value": "Otsuzumi, Kotsuzumi",
                         },
                         "numberVoices": Object {
                           "number": "2",
-                          "value": "Shite and Jiutai",
+                          "value": "Shite, Jiutai",
                         },
                         "percussion": Object {
                           "value": "Congruent",
@@ -3233,6 +3283,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Kiri",
                         },
+                        "sectionUrl": "/kokaji/kiri",
                         "startTime": Object {
                           "value": 3400,
                         },
@@ -3252,7 +3303,7 @@ exports[`<Play> renders as expected 1`] = `
                       Object {
                         "dancePresent": Object {},
                         "endTime": Object {
-                          "value": 3693,
+                          "value": 3692,
                         },
                         "intensity": Object {
                           "number": "0",
@@ -3270,6 +3321,7 @@ exports[`<Play> renders as expected 1`] = `
                         "sectionName": Object {
                           "value": "Musicians are exiting the stage",
                         },
+                        "sectionUrl": "/kokaji/exit",
                         "startTime": Object {
                           "value": 3536,
                         },
@@ -3298,10 +3350,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Oshirabe"
                       totalDuration={3693}
+                      url="/kokaji/oshirabe"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Oshirabe"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "0%",
@@ -3309,6 +3365,7 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "4.061738424045491%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
@@ -3319,10 +3376,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Musicians walk in"
                       totalDuration={3693}
+                      url="/kokaji/musicians-walk-in"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Musicians walk in"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "0%",
@@ -3330,6 +3391,7 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "3.4930950446791225%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
@@ -3340,10 +3402,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Nanori"
                       totalDuration={3693}
+                      url="/kokaji/nanori"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Nanori"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "10.344827586206897%",
@@ -3351,6 +3417,7 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "2.139182236663959%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
@@ -3361,10 +3428,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Mondō-1"
                       totalDuration={3693}
+                      url="/kokaji/mondo-1"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Mondō-1"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "13.793103448275861%",
@@ -3372,6 +3443,7 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "5.578120769022475%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
@@ -3382,10 +3454,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Ageuta-1"
                       totalDuration={3693}
+                      url="/kokaji/ageuta-1"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Ageuta-1"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "58.620689655172406%",
@@ -3393,6 +3469,7 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "3.303547251557%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
@@ -3403,10 +3480,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Dialogue"
                       totalDuration={3693}
+                      url="/kokaji/dialogue"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Dialogue"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "13.793103448275861%",
@@ -3414,6 +3495,7 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "0.8935824532900082%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
@@ -3424,10 +3506,14 @@ exports[`<Play> renders as expected 1`] = `
                       maxIntensity={29}
                       name="Monologue"
                       totalDuration={3693}
+                      url="/kokaji/monologue"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Monologue"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "10.344827586206897%",
@@ -3435,405 +3521,501 @@ exports[`<Play> renders as expected 1`] = `
                             "width": "1.57053885729759%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
-                      duration={159}
+                      duration={158}
                       intensity="4"
                       key="Mondō-2"
                       left="21.039805036555645%"
                       maxIntensity={29}
                       name="Mondō-2"
                       totalDuration={3693}
+                      url="/kokaji/mondo-2"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Mondō-2"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "13.793103448275861%",
                             "left": "21.039805036555645%",
-                            "width": "4.305442729488221%",
+                            "width": "4.278364473327918%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={115}
                       intensity="17"
                       key="Ageuta-2"
-                      left="25.345247766043865%"
+                      left="25.318169509883564%"
                       maxIntensity={29}
                       name="Ageuta-2"
                       totalDuration={3693}
+                      url="/kokaji/ageuta-2"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Ageuta-2"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "58.620689655172406%",
-                            "left": "25.345247766043865%",
+                            "left": "25.318169509883564%",
                             "width": "3.113999458434877%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={60}
                       intensity="14"
                       key="Kuri"
-                      left="28.45924722447874%"
+                      left="28.43216896831844%"
                       maxIntensity={29}
                       name="Kuri"
                       totalDuration={3693}
+                      url="/kokaji/kuri"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Kuri"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "48.275862068965516%",
-                            "left": "28.45924722447874%",
+                            "left": "28.43216896831844%",
                             "width": "1.6246953696181965%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={117}
                       intensity="11"
                       key="Sashi"
-                      left="30.08394259409694%"
+                      left="30.056864337936638%"
                       maxIntensity={29}
                       name="Sashi"
                       totalDuration={3693}
+                      url="/kokaji/sashi"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Sashi"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "37.93103448275862%",
-                            "left": "30.08394259409694%",
+                            "left": "30.056864337936638%",
                             "width": "3.168155970755483%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={553}
                       intensity="18"
                       key="Kuse"
-                      left="33.252098564852425%"
+                      left="33.22502030869212%"
                       maxIntensity={29}
                       name="Kuse"
                       totalDuration={3693}
+                      url="/kokaji/kuse"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Kuse"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "62.06896551724138%",
-                            "left": "33.252098564852425%",
+                            "left": "33.22502030869212%",
                             "width": "14.974275656647713%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={57}
                       intensity="7"
                       key="Kakeai-1"
-                      left="48.22637422150014%"
+                      left="48.199295965339836%"
                       maxIntensity={29}
                       name="Kakeai-1"
                       totalDuration={3693}
+                      url="/kokaji/kakeai-1"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Kakeai-1"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "24.137931034482758%",
-                            "left": "48.22637422150014%",
+                            "left": "48.199295965339836%",
                             "width": "1.543460601137287%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={74}
                       intensity="13"
                       key="Ageuta-3"
-                      left="49.76983482263742%"
+                      left="49.74275656647712%"
                       maxIntensity={29}
                       name="Ageuta-3"
                       totalDuration={3693}
+                      url="/kokaji/ageuta-3"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Ageuta-3"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "44.827586206896555%",
-                            "left": "49.76983482263742%",
+                            "left": "49.74275656647712%",
                             "width": "2.0037909558624425%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={210}
                       intensity="10"
                       key="Raijo"
-                      left="51.77362577849986%"
+                      left="51.74654752233956%"
                       maxIntensity={29}
                       name="Raijo"
                       totalDuration={3693}
+                      url="/kokaji/raijo"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Raijo"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "34.48275862068966%",
-                            "left": "51.77362577849986%",
+                            "left": "51.74654752233956%",
                             "width": "5.686433793663688%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={484}
                       intensity="0"
                       key="Aikyōgen"
-                      left="57.46005957216355%"
+                      left="57.43298131600325%"
                       maxIntensity={29}
                       name="Aikyōgen"
                       totalDuration={3693}
+                      url="/kokaji/aikyogen"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Aikyōgen"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "0%",
-                            "left": "57.46005957216355%",
+                            "left": "57.43298131600325%",
                             "width": "13.105875981586786%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={142}
                       intensity="0"
                       key="Prop is brought in"
-                      left="70.56593555375034%"
+                      left="70.53885729759004%"
                       maxIntensity={29}
                       name="Prop is brought in"
                       totalDuration={3693}
+                      url="/kokaji/prop-in"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Prop is brought in"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "0%",
-                            "left": "70.56593555375034%",
+                            "left": "70.53885729759004%",
                             "width": "3.8451123747630653%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={201}
                       intensity="12"
                       key="Notto"
-                      left="74.4110479285134%"
+                      left="74.3839696723531%"
                       maxIntensity={29}
                       name="Notto"
                       totalDuration={3693}
+                      url="/kokaji/notto"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Notto"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "41.37931034482759%",
-                            "left": "74.4110479285134%",
+                            "left": "74.3839696723531%",
                             "width": "5.442729488220959%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={145}
                       intensity="14"
                       key="Noriji-1"
-                      left="79.85377741673436%"
+                      left="79.82669916057407%"
                       maxIntensity={29}
                       name="Noriji-1"
                       totalDuration={3693}
+                      url="/kokaji/noriji-1"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Noriji-1"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "48.275862068965516%",
-                            "left": "79.85377741673436%",
+                            "left": "79.82669916057407%",
                             "width": "3.926347143243975%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={83}
                       intensity="21"
                       key="Hayafue"
-                      left="83.78012455997833%"
+                      left="83.75304630381804%"
                       maxIntensity={29}
                       name="Hayafue"
                       totalDuration={3693}
+                      url="/kokaji/hayafue"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Hayafue"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "72.41379310344827%",
-                            "left": "83.78012455997833%",
+                            "left": "83.75304630381804%",
                             "width": "2.247495261305172%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
-                      duration={44}
+                      duration={46}
                       intensity="27"
                       key="Noriji-2"
-                      left="86.02761982128351%"
+                      left="86.00054156512321%"
                       maxIntensity={29}
                       name="Noriji-2"
                       totalDuration={3693}
+                      url="/kokaji/noriji-2"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Noriji-2"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "93.10344827586206%",
-                            "left": "86.02761982128351%",
-                            "width": "1.1914432710533442%",
+                            "left": "86.00054156512321%",
+                            "width": "1.2455997833739507%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
-                      duration={58}
+                      duration={56}
                       intensity="29"
                       key="Maibataraki"
-                      left="87.21906309233685%"
+                      left="87.24614134849716%"
                       maxIntensity={29}
                       name="Maibataraki"
                       totalDuration={3693}
+                      url="/kokaji/maibataraki"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Maibataraki"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "100%",
-                            "left": "87.21906309233685%",
-                            "width": "1.57053885729759%",
+                            "left": "87.24614134849716%",
+                            "width": "1.5163823449769833%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={114}
                       intensity="24"
                       key="Noriji-3"
-                      left="88.78960194963445%"
+                      left="88.76252369347415%"
                       maxIntensity={29}
                       name="Noriji-3"
                       totalDuration={3693}
+                      url="/kokaji/noriji-3"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Noriji-3"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "82.75862068965517%",
-                            "left": "88.78960194963445%",
+                            "left": "88.76252369347415%",
                             "width": "3.086921202274574%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
                       duration={29}
                       intensity="9"
                       key="Kakeai-2"
-                      left="91.87652315190901%"
+                      left="91.84944489574872%"
                       maxIntensity={29}
                       name="Kakeai-2"
                       totalDuration={3693}
+                      url="/kokaji/kakeai-2"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Kakeai-2"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "31.03448275862069%",
-                            "left": "91.87652315190901%",
+                            "left": "91.84944489574872%",
                             "width": "0.785269428648795%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
-                      duration={134}
+                      duration={135}
                       intensity="28"
                       key="Kiri"
-                      left="92.6617925805578%"
+                      left="92.6347143243975%"
                       maxIntensity={29}
                       name="Kiri"
                       totalDuration={3693}
+                      url="/kokaji/kiri"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Kiri"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "96.55172413793103%",
-                            "left": "92.6617925805578%",
-                            "width": "3.628486325480639%",
+                            "left": "92.6347143243975%",
+                            "width": "3.6555645816409426%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                     <ShodanTimelineBlock
-                      duration={157}
+                      duration={156}
                       intensity="0"
                       key="Musicians are exiting the stage"
-                      left="96.29027890603844%"
+                      left="96.29027890603845%"
                       maxIntensity={29}
                       name="Musicians are exiting the stage"
                       totalDuration={3693}
+                      url="/kokaji/exit"
                     >
                       <div
-                        className="shodan-map__item"
+                        className="shodan-map__item pointer"
                         data-tooltip="Musicians are exiting the stage"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        role="link"
                         style={
                           Object {
                             "height": "0%",
-                            "left": "96.29027890603844%",
-                            "width": "4.251286217167614%",
+                            "left": "96.29027890603845%",
+                            "width": "4.224207961007311%",
                           }
                         }
+                        tabIndex={0}
                       />
                     </ShodanTimelineBlock>
                   </div>
@@ -3861,7 +4043,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
                       "number": "1",
@@ -3875,6 +4057,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Oshirabe",
                     },
+                    "sectionUrl": "/kokaji/oshirabe",
                     "startTime": Object {},
                     "text": Object {},
                     "videoDuration": Object {
@@ -3904,6 +4087,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Musicians walk in",
                     },
+                    "sectionUrl": "/kokaji/musicians-walk-in",
                     "startTime": Object {
                       "value": 106,
                     },
@@ -3946,6 +4130,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Nanori",
                     },
+                    "sectionUrl": "/kokaji/nanori",
                     "startTime": Object {
                       "value": 236,
                     },
@@ -3983,7 +4168,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Waki tsure & waki",
+                      "value": "Waki tsure, waki",
                     },
                     "percussion": Object {},
                     "play": Object {
@@ -3992,6 +4177,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Mondō-1",
                     },
+                    "sectionUrl": "/kokaji/mondo-1",
                     "startTime": Object {
                       "value": 316,
                     },
@@ -4027,11 +4213,11 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Waki, then Jiutai",
+                      "value": "Waki, Jiutai",
                     },
                     "percussion": Object {
                       "value": "Congruent",
@@ -4042,6 +4228,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Ageuta-1",
                     },
+                    "sectionUrl": "/kokaji/ageuta-1",
                     "startTime": Object {
                       "value": 523,
                     },
@@ -4079,7 +4266,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Waki tsure and Waki",
+                      "value": "Waki tsure,  Waki",
                     },
                     "percussion": Object {},
                     "play": Object {
@@ -4088,6 +4275,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Dialogue",
                     },
+                    "sectionUrl": "/kokaji/dialogue",
                     "startTime": Object {
                       "value": 646,
                     },
@@ -4134,6 +4322,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Monologue",
                     },
+                    "sectionUrl": "/kokaji/monologue",
                     "startTime": Object {
                       "value": 680,
                     },
@@ -4171,7 +4360,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Shite & waki",
+                      "value": "Shite, Waki",
                     },
                     "percussion": Object {},
                     "play": Object {
@@ -4180,8 +4369,9 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Mondō-2",
                     },
+                    "sectionUrl": "/kokaji/mondo-2",
                     "startTime": Object {
-                      "value": 738,
+                      "value": 739,
                     },
                     "text": Object {
                       "value": "Non-congruent",
@@ -4216,7 +4406,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "1",
@@ -4231,6 +4421,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Ageuta-2",
                     },
+                    "sectionUrl": "/kokaji/ageuta-2",
                     "startTime": Object {
                       "value": 898,
                     },
@@ -4266,7 +4457,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "1",
@@ -4281,6 +4472,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Kuri",
                     },
+                    "sectionUrl": "/kokaji/kuri",
                     "startTime": Object {
                       "value": 1014,
                     },
@@ -4316,11 +4508,11 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Shite and Jiutai",
+                      "value": "Shite, Jiutai",
                     },
                     "percussion": Object {
                       "value": "Congruent",
@@ -4331,6 +4523,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Sashi",
                     },
+                    "sectionUrl": "/kokaji/sashi",
                     "startTime": Object {
                       "value": 1075,
                     },
@@ -4350,7 +4543,7 @@ exports[`<Play> renders as expected 1`] = `
                   Object {
                     "dancePresent": Object {
                       "present": "Yes",
-                      "value": "Dance to text/Martial mode",
+                      "value": "Dance to text / Martial mode",
                     },
                     "endTime": Object {
                       "value": 1746,
@@ -4367,11 +4560,11 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Shite and Jiutai",
+                      "value": "Shite, Jiutai",
                     },
                     "percussion": Object {
                       "value": "Congruent",
@@ -4382,6 +4575,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Kuse",
                     },
+                    "sectionUrl": "/kokaji/kuse",
                     "startTime": Object {
                       "value": 1193,
                     },
@@ -4409,18 +4603,18 @@ exports[`<Play> renders as expected 1`] = `
                       "number": "7",
                     },
                     "narrative": Object {
-                      "value": "/kokaji/narratives/kakekai-1.html",
+                      "value": "/kokaji/narratives/kakeai-1.html",
                     },
                     "nokhanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Waki, then Shite",
+                      "value": "Waki, Shite",
                     },
                     "percussion": Object {
                       "value": "Non congruent",
@@ -4431,6 +4625,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Kakeai-1",
                     },
+                    "sectionUrl": "/kokaji/kakeai-1",
                     "startTime": Object {
                       "value": 1747,
                     },
@@ -4466,7 +4661,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
@@ -4481,6 +4676,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Ageuta-3",
                     },
+                    "sectionUrl": "/kokaji/ageuta-3",
                     "startTime": Object {
                       "value": 1805,
                     },
@@ -4516,7 +4712,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
                       "number": "0",
@@ -4530,6 +4726,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Raijo",
                     },
+                    "sectionUrl": "/kokaji/raijo",
                     "startTime": Object {
                       "value": 1880,
                     },
@@ -4571,6 +4768,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Aikyōgen",
                     },
+                    "sectionUrl": "/kokaji/aikyogen",
                     "startTime": Object {
                       "value": 2091,
                     },
@@ -4606,6 +4804,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Prop is brought in",
                     },
+                    "sectionUrl": "/kokaji/prop-in",
                     "startTime": Object {
                       "value": 2576,
                     },
@@ -4637,7 +4836,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "1",
@@ -4652,6 +4851,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Notto",
                     },
+                    "sectionUrl": "/kokaji/notto",
                     "startTime": Object {
                       "value": 2719,
                     },
@@ -4686,11 +4886,11 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
-                      "number": "1",
-                      "value": "Jiutai",
+                      "number": "2",
+                      "value": "Jiutai, Waki",
                     },
                     "percussion": Object {
                       "value": "Congruent",
@@ -4701,6 +4901,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Noriji-1",
                     },
+                    "sectionUrl": "/kokaji/noriji-1",
                     "startTime": Object {
                       "value": 2921,
                     },
@@ -4737,7 +4938,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
                       "number": "0",
@@ -4751,6 +4952,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Hayafue",
                     },
+                    "sectionUrl": "/kokaji/hayafue",
                     "startTime": Object {
                       "value": 3067,
                     },
@@ -4769,7 +4971,7 @@ exports[`<Play> renders as expected 1`] = `
                       "value": "Martial mode",
                     },
                     "endTime": Object {
-                      "value": 3195,
+                      "value": 3197,
                     },
                     "intensity": Object {
                       "number": "27",
@@ -4783,7 +4985,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
                       "number": "1",
@@ -4798,6 +5000,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Noriji-2",
                     },
+                    "sectionUrl": "/kokaji/noriji-2",
                     "startTime": Object {
                       "value": 3151,
                     },
@@ -4817,7 +5020,7 @@ exports[`<Play> renders as expected 1`] = `
                   Object {
                     "dancePresent": Object {
                       "present": "Yes",
-                      "value": "Pure deance / Martial mode",
+                      "value": "Pure dance, Martial mode",
                     },
                     "endTime": Object {
                       "value": 3254,
@@ -4834,7 +5037,7 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
                       "number": "0",
@@ -4848,8 +5051,9 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Maibataraki",
                     },
+                    "sectionUrl": "/kokaji/maibataraki",
                     "startTime": Object {
-                      "value": 3196,
+                      "value": 3198,
                     },
                     "text": Object {},
                     "videoDuration": Object {
@@ -4879,11 +5083,11 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "3",
-                      "value": "Otsuzumi + Kotsuzumi + Taiko",
+                      "value": "Otsuzumi, Kotsuzumi, Taiko",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Shite and Jiutai",
+                      "value": "Shite, Jiutai",
                     },
                     "percussion": Object {
                       "value": "Congruent",
@@ -4894,6 +5098,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Noriji-3",
                     },
+                    "sectionUrl": "/kokaji/noriji-3",
                     "startTime": Object {
                       "value": 3255,
                     },
@@ -4921,16 +5126,16 @@ exports[`<Play> renders as expected 1`] = `
                       "number": "9",
                     },
                     "narrative": Object {
-                      "value": "/kokaji/narratives/kakekai-2.html",
+                      "value": "/kokaji/narratives/kakeai-2.html",
                     },
                     "nokhanPresent": Object {},
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Waki and Shite",
+                      "value": "Waki, Shite",
                     },
                     "percussion": Object {
                       "value": "Non congruent",
@@ -4941,6 +5146,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Kakeai-2",
                     },
+                    "sectionUrl": "/kokaji/kakeai-2",
                     "startTime": Object {
                       "value": 3370,
                     },
@@ -4958,10 +5164,10 @@ exports[`<Play> renders as expected 1`] = `
                   Object {
                     "dancePresent": Object {
                       "present": "Yes",
-                      "value": "Dance to text / Martial mode",
+                      "value": "Dance to text, Martial mode",
                     },
                     "endTime": Object {
-                      "value": 3534,
+                      "value": 3535,
                     },
                     "intensity": Object {
                       "number": "28",
@@ -4975,11 +5181,11 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "numberOfPercussion": Object {
                       "number": "2",
-                      "value": "Otsuzumi + Kotsuzumi",
+                      "value": "Otsuzumi, Kotsuzumi",
                     },
                     "numberVoices": Object {
                       "number": "2",
-                      "value": "Shite and Jiutai",
+                      "value": "Shite, Jiutai",
                     },
                     "percussion": Object {
                       "value": "Congruent",
@@ -4990,6 +5196,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Kiri",
                     },
+                    "sectionUrl": "/kokaji/kiri",
                     "startTime": Object {
                       "value": 3400,
                     },
@@ -5009,7 +5216,7 @@ exports[`<Play> renders as expected 1`] = `
                   Object {
                     "dancePresent": Object {},
                     "endTime": Object {
-                      "value": 3693,
+                      "value": 3692,
                     },
                     "intensity": Object {
                       "number": "0",
@@ -5027,6 +5234,7 @@ exports[`<Play> renders as expected 1`] = `
                     "sectionName": Object {
                       "value": "Musicians are exiting the stage",
                     },
+                    "sectionUrl": "/kokaji/exit",
                     "startTime": Object {
                       "value": 3536,
                     },
@@ -5065,7 +5273,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
                         "number": "1",
@@ -5079,6 +5287,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Oshirabe",
                       },
+                      "sectionUrl": "/kokaji/oshirabe",
                       "startTime": Object {},
                       "text": Object {},
                       "videoDuration": Object {
@@ -5108,6 +5317,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Musicians walk in",
                       },
+                      "sectionUrl": "/kokaji/musicians-walk-in",
                       "startTime": Object {
                         "value": 106,
                       },
@@ -5150,6 +5360,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Nanori",
                       },
+                      "sectionUrl": "/kokaji/nanori",
                       "startTime": Object {
                         "value": 236,
                       },
@@ -5187,7 +5398,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Waki tsure & waki",
+                        "value": "Waki tsure, waki",
                       },
                       "percussion": Object {},
                       "play": Object {
@@ -5196,6 +5407,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Mondō-1",
                       },
+                      "sectionUrl": "/kokaji/mondo-1",
                       "startTime": Object {
                         "value": 316,
                       },
@@ -5231,11 +5443,11 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Waki, then Jiutai",
+                        "value": "Waki, Jiutai",
                       },
                       "percussion": Object {
                         "value": "Congruent",
@@ -5246,6 +5458,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Ageuta-1",
                       },
+                      "sectionUrl": "/kokaji/ageuta-1",
                       "startTime": Object {
                         "value": 523,
                       },
@@ -5283,7 +5496,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Waki tsure and Waki",
+                        "value": "Waki tsure,  Waki",
                       },
                       "percussion": Object {},
                       "play": Object {
@@ -5292,6 +5505,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Dialogue",
                       },
+                      "sectionUrl": "/kokaji/dialogue",
                       "startTime": Object {
                         "value": 646,
                       },
@@ -5338,6 +5552,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Monologue",
                       },
+                      "sectionUrl": "/kokaji/monologue",
                       "startTime": Object {
                         "value": 680,
                       },
@@ -5375,7 +5590,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Shite & waki",
+                        "value": "Shite, Waki",
                       },
                       "percussion": Object {},
                       "play": Object {
@@ -5384,8 +5599,9 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Mondō-2",
                       },
+                      "sectionUrl": "/kokaji/mondo-2",
                       "startTime": Object {
-                        "value": 738,
+                        "value": 739,
                       },
                       "text": Object {
                         "value": "Non-congruent",
@@ -5420,7 +5636,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "1",
@@ -5435,6 +5651,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Ageuta-2",
                       },
+                      "sectionUrl": "/kokaji/ageuta-2",
                       "startTime": Object {
                         "value": 898,
                       },
@@ -5470,7 +5687,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "1",
@@ -5485,6 +5702,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Kuri",
                       },
+                      "sectionUrl": "/kokaji/kuri",
                       "startTime": Object {
                         "value": 1014,
                       },
@@ -5520,11 +5738,11 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Shite and Jiutai",
+                        "value": "Shite, Jiutai",
                       },
                       "percussion": Object {
                         "value": "Congruent",
@@ -5535,6 +5753,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Sashi",
                       },
+                      "sectionUrl": "/kokaji/sashi",
                       "startTime": Object {
                         "value": 1075,
                       },
@@ -5554,7 +5773,7 @@ exports[`<Play> renders as expected 1`] = `
                     Object {
                       "dancePresent": Object {
                         "present": "Yes",
-                        "value": "Dance to text/Martial mode",
+                        "value": "Dance to text / Martial mode",
                       },
                       "endTime": Object {
                         "value": 1746,
@@ -5571,11 +5790,11 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Shite and Jiutai",
+                        "value": "Shite, Jiutai",
                       },
                       "percussion": Object {
                         "value": "Congruent",
@@ -5586,6 +5805,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Kuse",
                       },
+                      "sectionUrl": "/kokaji/kuse",
                       "startTime": Object {
                         "value": 1193,
                       },
@@ -5613,18 +5833,18 @@ exports[`<Play> renders as expected 1`] = `
                         "number": "7",
                       },
                       "narrative": Object {
-                        "value": "/kokaji/narratives/kakekai-1.html",
+                        "value": "/kokaji/narratives/kakeai-1.html",
                       },
                       "nokhanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Waki, then Shite",
+                        "value": "Waki, Shite",
                       },
                       "percussion": Object {
                         "value": "Non congruent",
@@ -5635,6 +5855,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Kakeai-1",
                       },
+                      "sectionUrl": "/kokaji/kakeai-1",
                       "startTime": Object {
                         "value": 1747,
                       },
@@ -5670,7 +5891,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
@@ -5685,6 +5906,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Ageuta-3",
                       },
+                      "sectionUrl": "/kokaji/ageuta-3",
                       "startTime": Object {
                         "value": 1805,
                       },
@@ -5720,7 +5942,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
                         "number": "0",
@@ -5734,6 +5956,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Raijo",
                       },
+                      "sectionUrl": "/kokaji/raijo",
                       "startTime": Object {
                         "value": 1880,
                       },
@@ -5775,6 +5998,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Aikyōgen",
                       },
+                      "sectionUrl": "/kokaji/aikyogen",
                       "startTime": Object {
                         "value": 2091,
                       },
@@ -5810,6 +6034,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Prop is brought in",
                       },
+                      "sectionUrl": "/kokaji/prop-in",
                       "startTime": Object {
                         "value": 2576,
                       },
@@ -5841,7 +6066,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "1",
@@ -5856,6 +6081,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Notto",
                       },
+                      "sectionUrl": "/kokaji/notto",
                       "startTime": Object {
                         "value": 2719,
                       },
@@ -5890,11 +6116,11 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
-                        "number": "1",
-                        "value": "Jiutai",
+                        "number": "2",
+                        "value": "Jiutai, Waki",
                       },
                       "percussion": Object {
                         "value": "Congruent",
@@ -5905,6 +6131,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Noriji-1",
                       },
+                      "sectionUrl": "/kokaji/noriji-1",
                       "startTime": Object {
                         "value": 2921,
                       },
@@ -5941,7 +6168,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
                         "number": "0",
@@ -5955,6 +6182,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Hayafue",
                       },
+                      "sectionUrl": "/kokaji/hayafue",
                       "startTime": Object {
                         "value": 3067,
                       },
@@ -5973,7 +6201,7 @@ exports[`<Play> renders as expected 1`] = `
                         "value": "Martial mode",
                       },
                       "endTime": Object {
-                        "value": 3195,
+                        "value": 3197,
                       },
                       "intensity": Object {
                         "number": "27",
@@ -5987,7 +6215,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
                         "number": "1",
@@ -6002,6 +6230,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Noriji-2",
                       },
+                      "sectionUrl": "/kokaji/noriji-2",
                       "startTime": Object {
                         "value": 3151,
                       },
@@ -6021,7 +6250,7 @@ exports[`<Play> renders as expected 1`] = `
                     Object {
                       "dancePresent": Object {
                         "present": "Yes",
-                        "value": "Pure deance / Martial mode",
+                        "value": "Pure dance, Martial mode",
                       },
                       "endTime": Object {
                         "value": 3254,
@@ -6038,7 +6267,7 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
                         "number": "0",
@@ -6052,8 +6281,9 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Maibataraki",
                       },
+                      "sectionUrl": "/kokaji/maibataraki",
                       "startTime": Object {
-                        "value": 3196,
+                        "value": 3198,
                       },
                       "text": Object {},
                       "videoDuration": Object {
@@ -6083,11 +6313,11 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "3",
-                        "value": "Otsuzumi + Kotsuzumi + Taiko",
+                        "value": "Otsuzumi, Kotsuzumi, Taiko",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Shite and Jiutai",
+                        "value": "Shite, Jiutai",
                       },
                       "percussion": Object {
                         "value": "Congruent",
@@ -6098,6 +6328,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Noriji-3",
                       },
+                      "sectionUrl": "/kokaji/noriji-3",
                       "startTime": Object {
                         "value": 3255,
                       },
@@ -6125,16 +6356,16 @@ exports[`<Play> renders as expected 1`] = `
                         "number": "9",
                       },
                       "narrative": Object {
-                        "value": "/kokaji/narratives/kakekai-2.html",
+                        "value": "/kokaji/narratives/kakeai-2.html",
                       },
                       "nokhanPresent": Object {},
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Waki and Shite",
+                        "value": "Waki, Shite",
                       },
                       "percussion": Object {
                         "value": "Non congruent",
@@ -6145,6 +6376,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Kakeai-2",
                       },
+                      "sectionUrl": "/kokaji/kakeai-2",
                       "startTime": Object {
                         "value": 3370,
                       },
@@ -6162,10 +6394,10 @@ exports[`<Play> renders as expected 1`] = `
                     Object {
                       "dancePresent": Object {
                         "present": "Yes",
-                        "value": "Dance to text / Martial mode",
+                        "value": "Dance to text, Martial mode",
                       },
                       "endTime": Object {
-                        "value": 3534,
+                        "value": 3535,
                       },
                       "intensity": Object {
                         "number": "28",
@@ -6179,11 +6411,11 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "numberOfPercussion": Object {
                         "number": "2",
-                        "value": "Otsuzumi + Kotsuzumi",
+                        "value": "Otsuzumi, Kotsuzumi",
                       },
                       "numberVoices": Object {
                         "number": "2",
-                        "value": "Shite and Jiutai",
+                        "value": "Shite, Jiutai",
                       },
                       "percussion": Object {
                         "value": "Congruent",
@@ -6194,6 +6426,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Kiri",
                       },
+                      "sectionUrl": "/kokaji/kiri",
                       "startTime": Object {
                         "value": 3400,
                       },
@@ -6213,7 +6446,7 @@ exports[`<Play> renders as expected 1`] = `
                     Object {
                       "dancePresent": Object {},
                       "endTime": Object {
-                        "value": 3693,
+                        "value": 3692,
                       },
                       "intensity": Object {
                         "number": "0",
@@ -6231,6 +6464,7 @@ exports[`<Play> renders as expected 1`] = `
                       "sectionName": Object {
                         "value": "Musicians are exiting the stage",
                       },
+                      "sectionUrl": "/kokaji/exit",
                       "startTime": Object {
                         "value": 3536,
                       },
@@ -6362,7 +6596,7 @@ exports[`<Play> renders as expected 1`] = `
                   </IntermediaElement>
                   <IntermediaElement
                     fieldName="Type of percussion"
-                    fieldValue="Otsuzumi + Kotsuzumi + Taiko"
+                    fieldValue="Otsuzumi, Kotsuzumi, Taiko"
                   >
                     <div
                       className="intermedia__element"
@@ -6375,7 +6609,7 @@ exports[`<Play> renders as expected 1`] = `
                       <div
                         className="intermedia__value"
                       >
-                        Otsuzumi + Kotsuzumi + Taiko
+                        Otsuzumi, Kotsuzumi, Taiko
                       </div>
                     </div>
                   </IntermediaElement>

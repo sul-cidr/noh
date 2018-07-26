@@ -6,12 +6,14 @@ describe("<ShodanTimeline>", () => {
   const sections = [
     {
       sectionName: { value: "Noriji" },
+      sectionUrl: "/noriji",
       intensity: { number: "17" },
       startTime: { value: 0 },
       endTime: { value: 300 }
     },
     {
       sectionName: { value: "Maibataraki" },
+      sectionUrl: "/maibataraki",
       intensity: { number: "12" },
       startTime: { value: 301 },
       endTime: { value: 1500 }

@@ -20,6 +20,7 @@ class ShodanTimeline extends Component {
         <ShodanTimelineBlock
           key={section.sectionName.value}
           name={section.sectionName.value}
+          url={section.sectionUrl}
           left={`${position}%`}
           maxIntensity={this.props.maxIntensity}
           intensity={section.intensity.number || "0"}
@@ -49,6 +50,7 @@ class ShodanTimeline extends Component {
 ShodanTimeline.propTypes = {
   sections: PropTypes.arrayOf(
     PropTypes.shape({
+      sectionUrl: PropTypes.string,
       sectionName: PropTypes.shape({ value: PropTypes.string }),
       intensity: PropTypes.shape({ number: PropTypes.string }),
       startTime: PropTypes.shape({ value: PropTypes.number }),
