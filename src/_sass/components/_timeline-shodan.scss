@@ -54,6 +54,10 @@
     background-color: $grey-light;
     border-color: $grey-medium;
   }
+
+  &.pointer {
+    cursor: pointer;
+  }
 }
 
 .shodan-map__item--active {
