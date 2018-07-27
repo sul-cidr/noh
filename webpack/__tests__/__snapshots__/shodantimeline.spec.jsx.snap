@@ -13,6 +13,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     maxIntensity={21}
     name="Noriji"
     totalDuration={1800}
+    url="/noriji"
   />
   <ShodanTimelineBlock
     duration={1199}
@@ -22,6 +23,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     maxIntensity={21}
     name="Maibataraki"
     totalDuration={1800}
+    url="/maibataraki"
   />
 </div>
 `;

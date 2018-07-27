@@ -9,13 +9,17 @@ const ShodanTimelineBlock = props => {
   const durationNum = props.duration / props.totalDuration * 100;
   return (
     <div
-      className="shodan-map__item"
+      className={`shodan-map__item ${props.url ? "pointer" : ""}`}
       style={{
         left: props.left,
         width: `${durationNum}%`,
         height: `${heightNum}%`
       }}
       data-tooltip={props.name}
+      onClick={() => props.url && window.location.assign(props.url)}
+      role="link"
+      tabIndex={0}
+      onKeyPress={null}
     />
   );
 };
@@ -23,10 +27,15 @@ const ShodanTimelineBlock = props => {
 ShodanTimelineBlock.propTypes = {
   left: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  url: PropTypes.string,
   maxIntensity: PropTypes.number.isRequired,
   intensity: PropTypes.string.isRequired,
   duration: PropTypes.number.isRequired,
   totalDuration: PropTypes.number.isRequired
+};
+
+ShodanTimelineBlock.defaultProps = {
+  url: ""
 };
 
 export default ShodanTimelineBlock;

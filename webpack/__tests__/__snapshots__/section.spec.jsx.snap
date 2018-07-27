@@ -21355,10 +21355,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Oshirabe"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Oshirabe"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -21366,6 +21370,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "4.061738424045491%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21376,10 +21381,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians walk in"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Musicians walk in"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -21387,6 +21396,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.4930950446791225%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21397,10 +21407,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Nanori"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Nanori"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "10.344827586206897%",
@@ -21408,6 +21422,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "2.139182236663959%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21418,10 +21433,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Mondō-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -21429,6 +21448,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "5.578120769022475%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21439,10 +21459,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "58.620689655172406%",
@@ -21450,6 +21474,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.303547251557%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21460,10 +21485,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Dialogue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Dialogue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -21471,6 +21500,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "0.8935824532900082%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21481,10 +21511,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Monologue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Monologue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "10.344827586206897%",
@@ -21492,6 +21526,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "1.57053885729759%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21502,10 +21537,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Mondō-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -21513,6 +21552,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "4.305442729488221%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21523,10 +21563,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "58.620689655172406%",
@@ -21534,6 +21578,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.113999458434877%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21544,10 +21589,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuri"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kuri"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "48.275862068965516%",
@@ -21555,6 +21604,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "1.6246953696181965%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21565,10 +21615,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Sashi"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Sashi"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "37.93103448275862%",
@@ -21576,6 +21630,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.168155970755483%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21586,10 +21641,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuse"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kuse"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "62.06896551724138%",
@@ -21597,6 +21656,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "14.974275656647713%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21607,10 +21667,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kakeai-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "24.137931034482758%",
@@ -21618,6 +21682,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "1.543460601137287%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21628,10 +21693,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-3"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-3"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "44.827586206896555%",
@@ -21639,6 +21708,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "2.0037909558624425%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21649,10 +21719,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Raijo"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Raijo"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "34.48275862068966%",
@@ -21660,6 +21734,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "5.686433793663688%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21670,10 +21745,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Aikyōgen"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Aikyōgen"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -21681,6 +21760,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "13.105875981586786%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21691,10 +21771,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Prop is brought in"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Prop is brought in"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -21702,6 +21786,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.8451123747630653%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21712,10 +21797,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Notto"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Notto"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "41.37931034482759%",
@@ -21723,6 +21812,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "5.442729488220959%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21733,10 +21823,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "48.275862068965516%",
@@ -21744,6 +21838,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.926347143243975%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21754,10 +21849,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Hayafue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Hayafue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "72.41379310344827%",
@@ -21765,6 +21864,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "2.247495261305172%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21775,10 +21875,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "93.10344827586206%",
@@ -21786,6 +21890,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "1.1914432710533442%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21796,10 +21901,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Maibataraki"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Maibataraki"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "100%",
@@ -21807,6 +21916,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "1.57053885729759%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21817,10 +21927,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-3"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-3"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "82.75862068965517%",
@@ -21828,6 +21942,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.086921202274574%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21838,10 +21953,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kakeai-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "31.03448275862069%",
@@ -21849,6 +21968,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "0.785269428648795%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21859,10 +21979,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kiri"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kiri"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "96.55172413793103%",
@@ -21870,6 +21994,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "3.628486325480639%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -21880,10 +22005,14 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Musicians are exiting the stage"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -21891,6 +22020,7 @@ exports[`<Section> renders as expected 1`] = `
                           "width": "4.251286217167614%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                 </div>
@@ -23111,10 +23241,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Oshirabe"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Oshirabe"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -23122,6 +23256,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "4.061738424045491%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23132,10 +23267,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Musicians walk in"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Musicians walk in"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -23143,6 +23282,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.4930950446791225%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23153,10 +23293,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Nanori"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Nanori"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "10.344827586206897%",
@@ -23164,6 +23308,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "2.139182236663959%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23174,10 +23319,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Mondō-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Mondō-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -23185,6 +23334,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "5.578120769022475%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23195,10 +23345,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Ageuta-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "58.620689655172406%",
@@ -23206,6 +23360,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.303547251557%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23216,10 +23371,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Dialogue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Dialogue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -23227,6 +23386,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "0.8935824532900082%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23237,10 +23397,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Monologue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Monologue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "10.344827586206897%",
@@ -23248,6 +23412,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "1.57053885729759%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23258,10 +23423,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Mondō-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Mondō-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -23269,6 +23438,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "4.305442729488221%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23279,10 +23449,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Ageuta-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "58.620689655172406%",
@@ -23290,6 +23464,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.113999458434877%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23300,10 +23475,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kuri"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kuri"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "48.275862068965516%",
@@ -23311,6 +23490,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "1.6246953696181965%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23321,10 +23501,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Sashi"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Sashi"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "37.93103448275862%",
@@ -23332,6 +23516,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.168155970755483%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23342,10 +23527,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kuse"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kuse"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "62.06896551724138%",
@@ -23353,6 +23542,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "14.974275656647713%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23363,10 +23553,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kakeai-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kakeai-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "24.137931034482758%",
@@ -23374,6 +23568,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "1.543460601137287%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23384,10 +23579,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Ageuta-3"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-3"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "44.827586206896555%",
@@ -23395,6 +23594,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "2.0037909558624425%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23405,10 +23605,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Raijo"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Raijo"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "34.48275862068966%",
@@ -23416,6 +23620,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "5.686433793663688%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23426,10 +23631,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Aikyōgen"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Aikyōgen"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -23437,6 +23646,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "13.105875981586786%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23447,10 +23657,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Prop is brought in"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Prop is brought in"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -23458,6 +23672,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.8451123747630653%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23468,10 +23683,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Notto"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Notto"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "41.37931034482759%",
@@ -23479,6 +23698,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "5.442729488220959%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23489,10 +23709,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Noriji-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "48.275862068965516%",
@@ -23500,6 +23724,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.926347143243975%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23510,10 +23735,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Hayafue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Hayafue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "72.41379310344827%",
@@ -23521,6 +23750,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "2.247495261305172%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23531,10 +23761,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Noriji-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "93.10344827586206%",
@@ -23542,6 +23776,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "1.1914432710533442%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23552,10 +23787,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Maibataraki"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Maibataraki"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "100%",
@@ -23563,6 +23802,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "1.57053885729759%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23573,10 +23813,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Noriji-3"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-3"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "82.75862068965517%",
@@ -23584,6 +23828,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.086921202274574%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23594,10 +23839,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kakeai-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kakeai-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "31.03448275862069%",
@@ -23605,6 +23854,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "0.785269428648795%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23615,10 +23865,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kiri"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kiri"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "96.55172413793103%",
@@ -23626,6 +23880,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "3.628486325480639%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -23636,10 +23891,14 @@ exports[`<Section> renders as expected 1`] = `
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Musicians are exiting the stage"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -23647,6 +23906,7 @@ exports[`<Section> renders as expected 1`] = `
                         "width": "4.251286217167614%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
               </div>
@@ -60447,10 +60707,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Oshirabe"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Oshirabe"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -60458,6 +60722,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "4.061738424045491%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60468,10 +60733,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Musicians walk in"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Musicians walk in"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -60479,6 +60748,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.4930950446791225%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60489,10 +60759,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Nanori"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Nanori"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "10.344827586206897%",
@@ -60500,6 +60774,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "2.139182236663959%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60510,10 +60785,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Mondō-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Mondō-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -60521,6 +60800,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "5.578120769022475%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60531,10 +60811,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Ageuta-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "58.620689655172406%",
@@ -60542,6 +60826,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.303547251557%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60552,10 +60837,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Dialogue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Dialogue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -60563,6 +60852,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "0.8935824532900082%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60573,10 +60863,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Monologue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Monologue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "10.344827586206897%",
@@ -60584,6 +60878,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "1.57053885729759%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60594,10 +60889,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Mondō-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Mondō-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -60605,6 +60904,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "4.305442729488221%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60615,10 +60915,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Ageuta-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "58.620689655172406%",
@@ -60626,6 +60930,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.113999458434877%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60636,10 +60941,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kuri"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kuri"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "48.275862068965516%",
@@ -60647,6 +60956,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "1.6246953696181965%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60657,10 +60967,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Sashi"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Sashi"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "37.93103448275862%",
@@ -60668,6 +60982,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.168155970755483%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60678,10 +60993,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kuse"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kuse"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "62.06896551724138%",
@@ -60689,6 +61008,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "14.974275656647713%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60699,10 +61019,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kakeai-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kakeai-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "24.137931034482758%",
@@ -60710,6 +61034,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "1.543460601137287%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60720,10 +61045,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Ageuta-3"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-3"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "44.827586206896555%",
@@ -60731,6 +61060,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "2.0037909558624425%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60741,10 +61071,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Raijo"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Raijo"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "34.48275862068966%",
@@ -60752,6 +61086,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "5.686433793663688%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60762,10 +61097,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Aikyōgen"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Aikyōgen"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -60773,6 +61112,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "13.105875981586786%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60783,10 +61123,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Prop is brought in"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Prop is brought in"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -60794,6 +61138,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.8451123747630653%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60804,10 +61149,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Notto"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Notto"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "41.37931034482759%",
@@ -60815,6 +61164,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "5.442729488220959%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60825,10 +61175,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Noriji-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "48.275862068965516%",
@@ -60836,6 +61190,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.926347143243975%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60846,10 +61201,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Hayafue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Hayafue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "72.41379310344827%",
@@ -60857,6 +61216,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "2.247495261305172%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60867,10 +61227,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Noriji-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "93.10344827586206%",
@@ -60878,6 +61242,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "1.1914432710533442%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60888,10 +61253,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Maibataraki"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Maibataraki"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "100%",
@@ -60899,6 +61268,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "1.57053885729759%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60909,10 +61279,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Noriji-3"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-3"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "82.75862068965517%",
@@ -60920,6 +61294,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.086921202274574%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60930,10 +61305,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kakeai-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kakeai-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "31.03448275862069%",
@@ -60941,6 +61320,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "0.785269428648795%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60951,10 +61331,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kiri"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kiri"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "96.55172413793103%",
@@ -60962,6 +61346,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "3.628486325480639%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -60972,10 +61357,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Musicians are exiting the stage"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -60983,6 +61372,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                           "width": "4.251286217167614%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                 </div>
@@ -62203,10 +62593,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Oshirabe"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Oshirabe"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -62214,6 +62608,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "4.061738424045491%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62224,10 +62619,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Musicians walk in"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Musicians walk in"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -62235,6 +62634,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.4930950446791225%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62245,10 +62645,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Nanori"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Nanori"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "10.344827586206897%",
@@ -62256,6 +62660,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "2.139182236663959%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62266,10 +62671,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Mondō-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Mondō-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -62277,6 +62686,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "5.578120769022475%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62287,10 +62697,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Ageuta-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "58.620689655172406%",
@@ -62298,6 +62712,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.303547251557%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62308,10 +62723,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Dialogue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Dialogue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -62319,6 +62738,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "0.8935824532900082%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62329,10 +62749,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Monologue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Monologue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "10.344827586206897%",
@@ -62340,6 +62764,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "1.57053885729759%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62350,10 +62775,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Mondō-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Mondō-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -62361,6 +62790,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "4.305442729488221%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62371,10 +62801,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Ageuta-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "58.620689655172406%",
@@ -62382,6 +62816,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.113999458434877%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62392,10 +62827,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Kuri"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kuri"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "48.275862068965516%",
@@ -62403,6 +62842,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "1.6246953696181965%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62413,10 +62853,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Sashi"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Sashi"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "37.93103448275862%",
@@ -62424,6 +62868,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.168155970755483%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62434,10 +62879,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Kuse"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kuse"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "62.06896551724138%",
@@ -62445,6 +62894,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "14.974275656647713%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62455,10 +62905,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Kakeai-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kakeai-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "24.137931034482758%",
@@ -62466,6 +62920,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "1.543460601137287%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62476,10 +62931,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Ageuta-3"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-3"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "44.827586206896555%",
@@ -62487,6 +62946,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "2.0037909558624425%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62497,10 +62957,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Raijo"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Raijo"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "34.48275862068966%",
@@ -62508,6 +62972,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "5.686433793663688%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62518,10 +62983,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Aikyōgen"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Aikyōgen"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -62529,6 +62998,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "13.105875981586786%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62539,10 +63009,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Prop is brought in"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Prop is brought in"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -62550,6 +63024,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.8451123747630653%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62560,10 +63035,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Notto"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Notto"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "41.37931034482759%",
@@ -62571,6 +63050,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "5.442729488220959%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62581,10 +63061,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Noriji-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "48.275862068965516%",
@@ -62592,6 +63076,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.926347143243975%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62602,10 +63087,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Hayafue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Hayafue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "72.41379310344827%",
@@ -62613,6 +63102,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "2.247495261305172%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62623,10 +63113,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Noriji-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "93.10344827586206%",
@@ -62634,6 +63128,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "1.1914432710533442%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62644,10 +63139,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Maibataraki"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Maibataraki"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "100%",
@@ -62655,6 +63154,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "1.57053885729759%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62665,10 +63165,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Noriji-3"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-3"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "82.75862068965517%",
@@ -62676,6 +63180,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.086921202274574%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62686,10 +63191,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Kakeai-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kakeai-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "31.03448275862069%",
@@ -62697,6 +63206,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "0.785269428648795%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62707,10 +63217,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Kiri"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kiri"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "96.55172413793103%",
@@ -62718,6 +63232,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "3.628486325480639%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -62728,10 +63243,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Musicians are exiting the stage"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -62739,6 +63258,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                         "width": "4.251286217167614%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
               </div>
@@ -84158,10 +84678,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Oshirabe"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Oshirabe"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -84169,6 +84693,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "4.061738424045491%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84179,10 +84704,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians walk in"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Musicians walk in"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -84190,6 +84719,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.4930950446791225%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84200,10 +84730,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Nanori"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Nanori"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "10.344827586206897%",
@@ -84211,6 +84745,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "2.139182236663959%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84221,10 +84756,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Mondō-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -84232,6 +84771,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "5.578120769022475%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84242,10 +84782,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "58.620689655172406%",
@@ -84253,6 +84797,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.303547251557%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84263,10 +84808,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Dialogue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Dialogue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -84274,6 +84823,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "0.8935824532900082%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84284,10 +84834,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Monologue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Monologue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "10.344827586206897%",
@@ -84295,6 +84849,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "1.57053885729759%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84305,10 +84860,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Mondō-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "13.793103448275861%",
@@ -84316,6 +84875,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "4.305442729488221%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84326,10 +84886,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "58.620689655172406%",
@@ -84337,6 +84901,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.113999458434877%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84347,10 +84912,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuri"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kuri"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "48.275862068965516%",
@@ -84358,6 +84927,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "1.6246953696181965%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84368,10 +84938,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Sashi"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Sashi"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "37.93103448275862%",
@@ -84379,6 +84953,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.168155970755483%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84389,10 +84964,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuse"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kuse"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "62.06896551724138%",
@@ -84400,6 +84979,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "14.974275656647713%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84410,10 +84990,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kakeai-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "24.137931034482758%",
@@ -84421,6 +85005,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "1.543460601137287%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84431,10 +85016,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-3"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Ageuta-3"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "44.827586206896555%",
@@ -84442,6 +85031,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "2.0037909558624425%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84452,10 +85042,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Raijo"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Raijo"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "34.48275862068966%",
@@ -84463,6 +85057,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "5.686433793663688%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84473,10 +85068,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Aikyōgen"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Aikyōgen"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -84484,6 +85083,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "13.105875981586786%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84494,10 +85094,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Prop is brought in"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Prop is brought in"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -84505,6 +85109,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.8451123747630653%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84515,10 +85120,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Notto"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Notto"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "41.37931034482759%",
@@ -84526,6 +85135,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "5.442729488220959%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84536,10 +85146,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-1"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-1"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "48.275862068965516%",
@@ -84547,6 +85161,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.926347143243975%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84557,10 +85172,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Hayafue"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Hayafue"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "72.41379310344827%",
@@ -84568,6 +85187,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "2.247495261305172%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84578,10 +85198,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "93.10344827586206%",
@@ -84589,6 +85213,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "1.1914432710533442%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84599,10 +85224,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Maibataraki"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Maibataraki"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "100%",
@@ -84610,6 +85239,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "1.57053885729759%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84620,10 +85250,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-3"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Noriji-3"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "82.75862068965517%",
@@ -84631,6 +85265,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.086921202274574%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84641,10 +85276,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-2"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kakeai-2"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "31.03448275862069%",
@@ -84652,6 +85291,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "0.785269428648795%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84662,10 +85302,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kiri"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Kiri"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "96.55172413793103%",
@@ -84673,6 +85317,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "3.628486325480639%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                   <ShodanTimelineBlock
@@ -84683,10 +85328,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
                     totalDuration={3693}
+                    url=""
                   >
                     <div
-                      className="shodan-map__item"
+                      className="shodan-map__item "
                       data-tooltip="Musicians are exiting the stage"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      role="link"
                       style={
                         Object {
                           "height": "0%",
@@ -84694,6 +85343,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           "width": "4.251286217167614%",
                         }
                       }
+                      tabIndex={0}
                     />
                   </ShodanTimelineBlock>
                 </div>
@@ -85914,10 +86564,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Oshirabe"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Oshirabe"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -85925,6 +86579,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "4.061738424045491%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -85935,10 +86590,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Musicians walk in"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Musicians walk in"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -85946,6 +86605,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.4930950446791225%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -85956,10 +86616,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Nanori"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Nanori"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "10.344827586206897%",
@@ -85967,6 +86631,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "2.139182236663959%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -85977,10 +86642,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Mondō-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Mondō-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -85988,6 +86657,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "5.578120769022475%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -85998,10 +86668,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Ageuta-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "58.620689655172406%",
@@ -86009,6 +86683,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.303547251557%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86019,10 +86694,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Dialogue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Dialogue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -86030,6 +86709,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "0.8935824532900082%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86040,10 +86720,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Monologue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Monologue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "10.344827586206897%",
@@ -86051,6 +86735,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "1.57053885729759%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86061,10 +86746,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Mondō-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Mondō-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "13.793103448275861%",
@@ -86072,6 +86761,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "4.305442729488221%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86082,10 +86772,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Ageuta-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "58.620689655172406%",
@@ -86093,6 +86787,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.113999458434877%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86103,10 +86798,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kuri"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kuri"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "48.275862068965516%",
@@ -86114,6 +86813,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "1.6246953696181965%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86124,10 +86824,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Sashi"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Sashi"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "37.93103448275862%",
@@ -86135,6 +86839,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.168155970755483%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86145,10 +86850,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kuse"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kuse"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "62.06896551724138%",
@@ -86156,6 +86865,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "14.974275656647713%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86166,10 +86876,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kakeai-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kakeai-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "24.137931034482758%",
@@ -86177,6 +86891,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "1.543460601137287%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86187,10 +86902,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Ageuta-3"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Ageuta-3"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "44.827586206896555%",
@@ -86198,6 +86917,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "2.0037909558624425%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86208,10 +86928,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Raijo"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Raijo"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "34.48275862068966%",
@@ -86219,6 +86943,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "5.686433793663688%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86229,10 +86954,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Aikyōgen"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Aikyōgen"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -86240,6 +86969,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "13.105875981586786%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86250,10 +86980,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Prop is brought in"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Prop is brought in"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -86261,6 +86995,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.8451123747630653%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86271,10 +87006,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Notto"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Notto"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "41.37931034482759%",
@@ -86282,6 +87021,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "5.442729488220959%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86292,10 +87032,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Noriji-1"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-1"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "48.275862068965516%",
@@ -86303,6 +87047,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.926347143243975%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86313,10 +87058,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Hayafue"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Hayafue"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "72.41379310344827%",
@@ -86324,6 +87073,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "2.247495261305172%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86334,10 +87084,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Noriji-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "93.10344827586206%",
@@ -86345,6 +87099,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "1.1914432710533442%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86355,10 +87110,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Maibataraki"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Maibataraki"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "100%",
@@ -86366,6 +87125,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "1.57053885729759%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86376,10 +87136,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Noriji-3"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Noriji-3"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "82.75862068965517%",
@@ -86387,6 +87151,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.086921202274574%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86397,10 +87162,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kakeai-2"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kakeai-2"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "31.03448275862069%",
@@ -86408,6 +87177,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "0.785269428648795%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86418,10 +87188,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Kiri"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Kiri"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "96.55172413793103%",
@@ -86429,6 +87203,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "3.628486325480639%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
                 <ShodanTimelineBlock
@@ -86439,10 +87214,14 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
                   totalDuration={3693}
+                  url=""
                 >
                   <div
-                    className="shodan-map__item"
+                    className="shodan-map__item "
                     data-tooltip="Musicians are exiting the stage"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    role="link"
                     style={
                       Object {
                         "height": "0%",
@@ -86450,6 +87229,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         "width": "4.251286217167614%",
                       }
                     }
+                    tabIndex={0}
                   />
                 </ShodanTimelineBlock>
               </div>

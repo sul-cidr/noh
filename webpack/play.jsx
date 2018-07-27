@@ -92,6 +92,7 @@ App.propTypes = {
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       play: PropTypes.shape({ value: PropTypes.string }),
+      sectionUrl: PropTypes.string.isRequired,
       sectionName: PropTypes.shape({ value: PropTypes.string }),
       intensity: PropTypes.shape({ number: PropTypes.string }),
       // videoDuration has to be calculated

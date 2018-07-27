@@ -17,32 +17,60 @@
   ],
   "sections": [
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Oshirabe" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Oshirabe"
+      },
       "startTime": {},
-      "endTime": { "value": 105 },
+      "endTime": {
+        "value": 105
+      },
       "intensity": {},
-      "numberVoices": { "number": "1" },
+      "numberVoices": {
+        "number": "1"
+      },
       "voice": {},
       "text": {},
       "numberOfPercussion": {
         "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
       },
-      "percussion": { "value": "Non congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "No" },
+      "percussion": {
+        "value": "Non congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/oshirabe",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/oshirabe.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/oshirabe.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Musicians walk in" },
-      "startTime": { "value": 106 },
-      "endTime": { "value": 235 },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Musicians walk in"
+      },
+      "startTime": {
+        "value": 106
+      },
+      "endTime": {
+        "value": 235
+      },
       "intensity": {},
       "numberVoices": {},
       "voice": {},
@@ -51,482 +79,716 @@
       "percussion": {},
       "nokhanPresent": {},
       "dancePresent": {},
+      "sectionUrl": "/kokaji/musicians-walk-in",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/musicians-walk-in.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/musicians-walk-in.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Nanori" },
-      "startTime": { "value": 236 },
-      "endTime": { "value": 315 },
-      "intensity": { "number": "3" },
-      "numberVoices": { "number": "1", "value": "Waki tsure" },
-      "voice": { "value": "Spoken" },
-      "text": { "value": "Non-congruent" },
-      "numberOfPercussion": { "number": "0" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Nanori"
+      },
+      "startTime": {
+        "value": 236
+      },
+      "endTime": {
+        "value": 315
+      },
+      "intensity": {
+        "number": "3"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Waki tsure"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Non-congruent"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
       "percussion": {},
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "No" },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/nanori",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/nanori.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/nanori.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Mondō-1" },
-      "startTime": { "value": 316 },
-      "endTime": { "value": 522 },
-      "intensity": { "number": "4" },
-      "numberVoices": { "number": "2", "value": "Waki tsure & waki" },
-      "voice": { "value": "Spoken" },
-      "text": { "value": "Non-congruent" },
-      "numberOfPercussion": { "number": "0" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Mondō-1"
+      },
+      "startTime": {
+        "value": 316
+      },
+      "endTime": {
+        "value": 522
+      },
+      "intensity": {
+        "number": "4"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Waki tsure, waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Non-congruent"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
       "percussion": {},
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "No" },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/mondo-1",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/mondo-1.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/mondo-1.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Ageuta-1" },
-      "startTime": { "value": 523 },
-      "endTime": { "value": 645 },
-      "intensity": { "number": "17" },
-      "numberVoices": { "number": "2", "value": "Waki, then Jiutai" },
-      "voice": { "value": "Sung - Yowagin" },
-      "text": { "value": "Hiranori (Congruent)" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "No" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Ageuta-1"
+      },
+      "startTime": {
+        "value": 523
+      },
+      "endTime": {
+        "value": 645
+      },
+      "intensity": {
+        "number": "17"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Waki, Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Yowagin"
+      },
+      "text": {
+        "value": "Hiranori (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/ageuta-1",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/ageuta-1.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-1.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Dialogue" },
-      "startTime": { "value": 646 },
-      "endTime": { "value": 679 },
-      "intensity": { "number": "4" },
-      "numberVoices": { "number": "2", "value": "Waki tsure and Waki" },
-      "voice": { "value": "Spoken" },
-      "text": { "value": "Non-congruent" },
-      "numberOfPercussion": { "number": "0" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Dialogue"
+      },
+      "startTime": {
+        "value": 646
+      },
+      "endTime": {
+        "value": 679
+      },
+      "intensity": {
+        "number": "4"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Waki tsure,  Waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Non-congruent"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
       "percussion": {},
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "No" },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/dialogue",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/dialogue.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/dialogue.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Monologue" },
-      "startTime": { "value": 680 },
-      "endTime": { "value": 738 },
-      "intensity": { "number": "3" },
-      "numberVoices": { "number": "1", "value": "Waki" },
-      "voice": { "value": "Spoken" },
-      "text": { "value": "Non-congruent" },
-      "numberOfPercussion": { "number": "0" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Monologue"
+      },
+      "startTime": {
+        "value": 680
+      },
+      "endTime": {
+        "value": 738
+      },
+      "intensity": {
+        "number": "3"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Non-congruent"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
       "percussion": {},
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "No" },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/monologue",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/monologue.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/monologue.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Mondō-2" },
-      "startTime": { "value": 738 },
-      "endTime": { "value": 897 },
-      "intensity": { "number": "4" },
-      "numberVoices": { "number": "2", "value": "Shite & waki" },
-      "voice": { "value": "Spoken" },
-      "text": { "value": "Non-congruent" },
-      "numberOfPercussion": { "number": "0" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Mondō-2"
+      },
+      "startTime": {
+        "value": 739
+      },
+      "endTime": {
+        "value": 897
+      },
+      "intensity": {
+        "number": "4"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Non-congruent"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
       "percussion": {},
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "No" },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/mondo-2",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/mondo-2.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Ageuta-2" },
-      "startTime": { "value": 898 },
-      "endTime": { "value": 1013 },
-      "intensity": { "number": "17" },
-      "numberVoices": { "number": "1", "value": "Jiutai" },
-      "voice": { "value": "Sung - Yowagin" },
-      "text": { "value": "Hiranori  (Congruent)" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "Yes", "value": "Feminine mode" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "videoDuration": {
+        "value": "01:01:33"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/ageuta-2.html" }
+      "narrative": {
+        "value": "/kokaji/narratives/mondo-2.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Kuri" },
-      "startTime": { "value": 1014 },
-      "endTime": { "value": 1074 },
-      "intensity": { "number": "14" },
-      "numberVoices": { "number": "1", "value": "Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Einori  (Non-congruent) " },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "No" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "play": {
+        "value": "Kokaji"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/kuri.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Sashi" },
-      "startTime": { "value": 1075 },
-      "endTime": { "value": 1192 },
-      "intensity": { "number": "11" },
-      "numberVoices": { "number": "2", "value": "Shite and Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": " Sashinori (Non-congruent)" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "No" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "sectionName": {
+        "value": "Ageuta-2"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/sashi.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Kuse" },
-      "startTime": { "value": 1193 },
-      "endTime": { "value": 1746 },
-      "intensity": { "number": "18" },
-      "numberVoices": { "number": "2", "value": "Shite and Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Hiranori  (Congruent)" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
+      "startTime": {
+        "value": 898
+      },
+      "endTime": {
+        "value": 1013
+      },
+      "intensity": {
+        "number": "17"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Yowagin"
+      },
+      "text": {
+        "value": "Hiranori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
       "dancePresent": {
         "present": "Yes",
-        "value": "Dance to text/Martial mode"
+        "value": "Feminine mode"
       },
+      "sectionUrl": "/kokaji/ageuta-2",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/kuse.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Kakeai-1" },
-      "startTime": { "value": 1747 },
-      "endTime": { "value": 1804 },
-      "intensity": { "number": "7" },
-      "numberVoices": { "number": "2", "value": "Waki, then Shite" },
-      "voice": { "value": "Spoken" },
-      "text": { "value": "Non congruent" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Non congruent" },
-      "nokhanPresent": { "present": "no" },
-      "dancePresent": { "present": "no" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "videoDuration": {
+        "value": "01:01:33"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/kakekai-1.html" }
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-2.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Ageuta-3" },
-      "startTime": { "value": 1805 },
-      "endTime": { "value": 1879 },
-      "intensity": { "number": "13" },
-      "numberVoices": { "number": "2", "value": "Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Hiranori  (Congruent)" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "Yes", "value": "Feminine to Martial mode" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "play": {
+        "value": "Kokaji"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/ageuta-3.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Raijo" },
-      "startTime": { "value": 1880 },
-      "endTime": { "value": 2090 },
-      "intensity": { "number": "10" },
-      "numberVoices": { "number": "0" },
-      "voice": {},
-      "text": {},
+      "sectionName": {
+        "value": "Kuri"
+      },
+      "startTime": {
+        "value": 1014
+      },
+      "endTime": {
+        "value": 1074
+      },
+      "intensity": {
+        "number": "14"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Einori  (Non-congruent) "
+      },
       "numberOfPercussion": {
-        "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
       },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "No" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "percussion": {
+        "value": "Congruent"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/raijo.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Aikyōgen" },
-      "startTime": { "value": 2091 },
-      "endTime": { "value": 2575 },
-      "intensity": { "number": "0" },
-      "numberVoices": { "number": "2", "value": "Aikyōgen and Waki" },
-      "voice": { "value": "Spoken" },
-      "text": {},
-      "numberOfPercussion": { "number": "0" },
-      "percussion": {},
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": {},
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/aikyogen.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Prop is brought in" },
-      "startTime": { "value": 2576 },
-      "endTime": { "value": 2718 },
-      "intensity": { "number": "0" },
-      "numberVoices": {},
-      "voice": {},
-      "text": {},
-      "numberOfPercussion": {},
-      "percussion": {},
-      "nokhanPresent": {},
-      "dancePresent": {},
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/prop-in.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Notto" },
-      "startTime": { "value": 2719 },
-      "endTime": { "value": 2920 },
-      "intensity": { "number": "12" },
-      "numberVoices": { "number": "1", "value": "Waki" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Non-congruent - sashinori" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "No" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/notto.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Noriji-1" },
-      "startTime": { "value": 2921 },
-      "endTime": { "value": 3066 },
-      "intensity": { "number": "14" },
-      "numberVoices": { "number": "1", "value": "Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Ōnori  (Congruent)" },
-      "numberOfPercussion": {
-        "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
-      },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "No" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/noriji-1.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Hayafue" },
-      "startTime": { "value": 3067 },
-      "endTime": { "value": 3150 },
-      "intensity": { "number": "21" },
-      "numberVoices": { "number": "0" },
-      "voice": {},
-      "text": {},
-      "numberOfPercussion": {
-        "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
-      },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Congruent" },
-      "dancePresent": { "present": "Yes", "value": "Martial mode" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/hayafue.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Noriji-2" },
-      "startTime": { "value": 3151 },
-      "endTime": { "value": 3195 },
-      "intensity": { "number": "27" },
-      "numberVoices": { "number": "1", "value": "Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Ōnori  (Congruent)" },
-      "numberOfPercussion": {
-        "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
-      },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": { "present": "Yes", "value": "Martial mode" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/noriji-2.html" }
-    },
-    {
-      "play": { "value": "kokaji" },
-      "sectionName": { "value": "Maibataraki" },
-      "startTime": { "value": 3196 },
-      "endTime": { "value": 3254 },
-      "intensity": { "number": "29" },
-      "numberVoices": { "number": "0" },
-      "voice": {},
-      "text": {},
-      "numberOfPercussion": {
-        "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
-      },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
-      "dancePresent": {
+      "nokhanPresent": {
         "present": "Yes",
-        "value": "Pure deance / Martial mode"
+        "value": "Non congruent"
       },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/kuri",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/maibataraki.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/kuri.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Noriji-3" },
-      "startTime": { "value": 3255 },
-      "endTime": { "value": 3369 },
-      "intensity": { "number": "24" },
-      "numberVoices": { "number": "2", "value": "Shite and Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Ōnori  (Congruent)" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Sashi"
+      },
+      "startTime": {
+        "value": 1075
+      },
+      "endTime": {
+        "value": 1192
+      },
+      "intensity": {
+        "number": "11"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": " Sashinori (Non-congruent)"
+      },
       "numberOfPercussion": {
-        "number": "3",
-        "value": "Otsuzumi + Kotsuzumi + Taiko"
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
       },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "No" },
-      "dancePresent": { "present": "Yes", "value": "Martial mode" },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/sashi",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/noriji-3.html" }
-    },
-    {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Kakeai-2" },
-      "startTime": { "value": 3370 },
-      "endTime": { "value": 3399 },
-      "intensity": { "number": "9" },
-      "numberVoices": { "number": "2", "value": "Waki and Shite" },
-      "voice": { "value": "Spoken" },
-      "text": {},
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Non congruent" },
-      "nokhanPresent": {},
-      "dancePresent": { "present": "No" },
-      "videoUrl": {
-        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      "videoDuration": {
+        "value": "01:01:33"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/kakekai-2.html" }
+      "narrative": {
+        "value": "/kokaji/narratives/sashi.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Kiri" },
-      "startTime": { "value": 3400 },
-      "endTime": { "value": 3534 },
-      "intensity": { "number": "28" },
-      "numberVoices": { "number": "2", "value": "Shite and Jiutai" },
-      "voice": { "value": "Sung - Tsuyogin" },
-      "text": { "value": "Chūnori  (Congruent)" },
-      "numberOfPercussion": { "number": "2", "value": "Otsuzumi + Kotsuzumi" },
-      "percussion": { "value": "Congruent" },
-      "nokhanPresent": { "present": "Yes", "value": "Non congruent" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Kuse"
+      },
+      "startTime": {
+        "value": 1193
+      },
+      "endTime": {
+        "value": 1746
+      },
+      "intensity": {
+        "number": "18"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Hiranori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
       "dancePresent": {
         "present": "Yes",
         "value": "Dance to text / Martial mode"
       },
+      "sectionUrl": "/kokaji/kuse",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/kiri.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/kuse.html"
+      }
     },
     {
-      "play": { "value": "Kokaji" },
-      "sectionName": { "value": "Musicians are exiting the stage" },
-      "startTime": { "value": 3536 },
-      "endTime": { "value": 3693 },
-      "intensity": { "number": "0" },
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Kakeai-1"
+      },
+      "startTime": {
+        "value": 1747
+      },
+      "endTime": {
+        "value": 1804
+      },
+      "intensity": {
+        "number": "7"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Waki, Shite"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Non congruent"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Non congruent"
+      },
+      "nokhanPresent": {
+        "present": "no"
+      },
+      "dancePresent": {
+        "present": "no"
+      },
+      "sectionUrl": "/kokaji/kakeai-1",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/kakeai-1.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Ageuta-3"
+      },
+      "startTime": {
+        "value": 1805
+      },
+      "endTime": {
+        "value": 1879
+      },
+      "intensity": {
+        "number": "13"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Hiranori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Feminine to Martial mode"
+      },
+      "sectionUrl": "/kokaji/ageuta-3",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-3.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Raijo"
+      },
+      "startTime": {
+        "value": 1880
+      },
+      "endTime": {
+        "value": 2090
+      },
+      "intensity": {
+        "number": "10"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "3",
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/raijo",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/raijo.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Aikyōgen"
+      },
+      "startTime": {
+        "value": 2091
+      },
+      "endTime": {
+        "value": 2575
+      },
+      "intensity": {
+        "number": "0"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Aikyōgen and Waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {},
+      "numberOfPercussion": {
+        "number": "0"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {},
+      "sectionUrl": "/kokaji/aikyogen",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/aikyogen.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Prop is brought in"
+      },
+      "startTime": {
+        "value": 2576
+      },
+      "endTime": {
+        "value": 2718
+      },
+      "intensity": {
+        "number": "0"
+      },
       "numberVoices": {},
       "voice": {},
       "text": {},
@@ -534,11 +796,446 @@
       "percussion": {},
       "nokhanPresent": {},
       "dancePresent": {},
+      "sectionUrl": "/kokaji/prop-in",
       "videoUrl": {
         "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       },
-      "videoDuration": { "value": "01:01:33" },
-      "narrative": { "value": "/kokaji/narratives/exit.html" }
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/prop-in.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Notto"
+      },
+      "startTime": {
+        "value": 2719
+      },
+      "endTime": {
+        "value": 2920
+      },
+      "intensity": {
+        "number": "12"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Waki"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Non-congruent - sashinori"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/notto",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/notto.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Noriji-1"
+      },
+      "startTime": {
+        "value": 2921
+      },
+      "endTime": {
+        "value": 3066
+      },
+      "intensity": {
+        "number": "14"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Jiutai, Waki"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Ōnori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "3",
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/noriji-1",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/noriji-1.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Hayafue"
+      },
+      "startTime": {
+        "value": 3067
+      },
+      "endTime": {
+        "value": 3150
+      },
+      "intensity": {
+        "number": "21"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "3",
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Martial mode"
+      },
+      "sectionUrl": "/kokaji/hayafue",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/hayafue.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Noriji-2"
+      },
+      "startTime": {
+        "value": 3151
+      },
+      "endTime": {
+        "value": 3197
+      },
+      "intensity": {
+        "number": "27"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Ōnori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "3",
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Martial mode"
+      },
+      "sectionUrl": "/kokaji/noriji-2",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/noriji-2.html"
+      }
+    },
+    {
+      "play": {
+        "value": "kokaji"
+      },
+      "sectionName": {
+        "value": "Maibataraki"
+      },
+      "startTime": {
+        "value": 3198
+      },
+      "endTime": {
+        "value": 3254
+      },
+      "intensity": {
+        "number": "29"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "3",
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Pure dance, Martial mode"
+      },
+      "sectionUrl": "/kokaji/maibataraki",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/maibataraki.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Noriji-3"
+      },
+      "startTime": {
+        "value": 3255
+      },
+      "endTime": {
+        "value": 3369
+      },
+      "intensity": {
+        "number": "24"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Ōnori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "3",
+        "value": "Otsuzumi, Kotsuzumi, Taiko"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Martial mode"
+      },
+      "sectionUrl": "/kokaji/noriji-3",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/noriji-3.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Kakeai-2"
+      },
+      "startTime": {
+        "value": 3370
+      },
+      "endTime": {
+        "value": 3399
+      },
+      "intensity": {
+        "number": "9"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Waki, Shite"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {},
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Non congruent"
+      },
+      "nokhanPresent": {},
+      "dancePresent": {
+        "present": "No"
+      },
+      "sectionUrl": "/kokaji/kakeai-2",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/kakeai-2.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Kiri"
+      },
+      "startTime": {
+        "value": 3400
+      },
+      "endTime": {
+        "value": 3535
+      },
+      "intensity": {
+        "number": "28"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung - Tsuyogin"
+      },
+      "text": {
+        "value": "Chūnori  (Congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Congruent"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Dance to text, Martial mode"
+      },
+      "sectionUrl": "/kokaji/kiri",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/kiri.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Kokaji"
+      },
+      "sectionName": {
+        "value": "Musicians are exiting the stage"
+      },
+      "startTime": {
+        "value": 3536
+      },
+      "endTime": {
+        "value": 3692
+      },
+      "intensity": {
+        "number": "0"
+      },
+      "numberVoices": {},
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {},
+      "percussion": {},
+      "nokhanPresent": {},
+      "dancePresent": {},
+      "sectionUrl": "/kokaji/exit",
+      "videoUrl": {
+        "value": "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:01:33"
+      },
+      "narrative": {
+        "value": "/kokaji/narratives/exit.html"
+      }
     }
   ],
   "narrative":
