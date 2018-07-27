@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import TabbedNarrative from "./TabbedNarrative";
 import NonTabbedNarrative from "./NonTabbedNarrative";
-import { setStartTime } from "../actionCreators";
+import { setCurrentTime } from "../actionCreators";
 import { getTime } from "../utils";
 
 class Narrative extends Component {
@@ -67,7 +67,7 @@ Narrative.defaultProps = {
 };
 
 const mapDispatchToProps = dispatch => ({
-  updateStartTime: time => dispatch(setStartTime(time))
+  updateStartTime: time => dispatch(setCurrentTime(time))
 });
 
 export const Unwrapped = Narrative;

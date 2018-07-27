@@ -44,14 +44,14 @@ describe("<Narrative>", () => {
     );
   });
 
-  it("triggers the SET_START_TIME action with the right payload", () => {
-    const action = { type: "SET_START_TIME", payload: 50 };
+  it("triggers the SET_CURRENT_TIME action with the right payload", () => {
+    const action = { type: "SET_CURRENT_TIME", payload: 50 };
     wrapper.find("time").simulate("click");
     expect(store.getActions()[0]).toEqual(action);
   });
 
   it("does nothing when the element clicked is not a <time> element", () => {
-    const action = { type: "SET_START_TIME", payload: 50 };
+    const action = { type: "SET_CURRENT_TIME", payload: 50 };
     wrapper.find("a").simulate("click");
     expect(store.getActions()[0]).not.toEqual(action);
   });

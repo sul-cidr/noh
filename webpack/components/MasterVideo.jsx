@@ -15,11 +15,9 @@ class MasterVideo extends Component {
     this.forceUpdate();
   }
 
-  componentDidUpdate(prevProps) {
-    const { startTime } = this.props;
-
-    if (startTime && prevProps.startTime !== startTime && startTime >= 0) {
-      this.video.currentTime = startTime;
+  componentDidUpdate() {
+    if (this.video.currentTime !== this.props.currentTime) {
+      this.video.currentTime = this.props.currentTime;
     }
   }
 
