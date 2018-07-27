@@ -13,12 +13,12 @@ describe("<MasterVideo>", () => {
     expect(component.instance().video).not.toBe(undefined);
   });
 
-  it("updates currentTime when startTime is set", () => {
+  it("updates video currentTime when currentTime prop is set", () => {
     const container = document.createElement("div");
-    const component = mount(<UnwrappedMasterVideo startTime={10} />, {
+    const component = mount(<UnwrappedMasterVideo currentTime={10} />, {
       attachTo: container
-    }).instance();
-    component.componentDidUpdate({ startTime: 0 });
-    expect(component.video.currentTime).toBe(10);
+    });
+    component.setProps({ currentTime: 40 });
+    expect(component.instance().video.currentTime).toBe(40);
   });
 });
