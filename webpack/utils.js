@@ -1,3 +1,5 @@
+/* eslint-disable no-underscore-dangle */
+
 export function getTime(element) {
   const timeString = element.getAttribute("datetime");
   const [hhmmss, millis] = timeString.trim().split(".");
@@ -30,14 +32,14 @@ export function fillGrid(grid, gridLength) {
   for (let i = 0; i < grid.length; i += 1) {
     if (grid[i].start === 0) {
       fullData.push(grid[i]);
-    } else if (grid[i].start === grid[i - 1].length + grid[i - 1].start) {
-      fullData.push(grid[i]);
-    } else if (grid[i].start !== grid[i - 1].length + grid[i - 1].start) {
-      fullData.push({
-        length: grid[i].start - (grid[i - 1].start + grid[i - 1].length),
-        text: "",
-        start: grid[i - 1].start + grid[i - 1].length
-      });
+    } else {
+      if (grid[i].start !== grid[i - 1].length + grid[i - 1].start) {
+        fullData.push({
+          length: grid[i].start - (grid[i - 1].start + grid[i - 1].length),
+          text: "",
+          start: grid[i - 1].start + grid[i - 1].length
+        });
+      }
       fullData.push(grid[i]);
     }
   }
@@ -54,4 +56,11 @@ export function fillGrid(grid, gridLength) {
     });
   }
   return fullData;
+}
+
+// Returns Redux Dev Tools Extension
+export function reduxDevTools() {
+  return (
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
 }

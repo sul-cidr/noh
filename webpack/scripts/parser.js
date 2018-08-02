@@ -106,7 +106,9 @@ export const convertToVtt = (captions, track) => {
     if (track in caption) {
       content = caption[track];
     } else {
-      content = `<c.transcription>${caption.transcription}</c>\n<c.translation>(${caption.translation})</c>`;
+      content = `<c.transcription>${
+        caption.transcription
+      }</c>\n<c.translation>(${caption.translation})</c>`;
     }
     return [index + 1, timeCode, content].join("\n");
   });
@@ -250,7 +252,9 @@ export const main = (configPath, quiet) => {
             .then(data => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
-              sectionData.sectionUrl = `/${play.playName}/${section.sectionName}`;
+              sectionData.sectionUrl = `/${play.playName}/${
+                section.sectionName
+              }`;
               sectionData.videoUrl = { value: play.videoUrl };
               sectionData.videoDuration = { value: play.videoDuration };
               sectionData.phrases = phrases ? processPhrases(phrases.data) : [];
@@ -258,7 +262,9 @@ export const main = (configPath, quiet) => {
                 ? processCaptions(captions.data)
                 : [];
               sectionData.narrative = {
-                value: `/${play.playName}/narratives/${section.sectionName}.html`
+                value: `/${play.playName}/narratives/${
+                  section.sectionName
+                }.html`
               };
               mkdirp.sync(path.join("src", "data", play.playName));
               fs.writeFileSync(
@@ -299,7 +305,7 @@ export const main = (configPath, quiet) => {
         /* eslint-enable no-param-reassign */
         return map;
       }, {});
-      // eslint-disable-next-line no-restricted-syntax
+      // eslint-disable-next-line no-restricted-syntax, guard-for-in
       for (const playName in playSections) {
         if (!quiet) console.info(`- ${playName} (captions)`);
         const play = playSections[playName];

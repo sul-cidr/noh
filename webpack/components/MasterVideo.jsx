@@ -44,13 +44,13 @@ class MasterVideo extends Component {
           }}
           controls
           onTimeUpdate={event => this.props.updateCurrentTime(event)}
-          onPlaying={this.props.updateIsPlaying}
-          onEnded={this.props.updateIsNotPlaying}
-          onPlay={this.props.updateIsNotPlaying}
-          onPause={this.props.updateIsNotPlaying}
-          onStalled={this.props.updateIsNotPlaying}
-          onSeeking={this.props.updateIsNotPlaying}
-          onWaiting={this.props.updateIsNotPlaying}
+          onPlaying={() => this.props.updateIsPlaying(true)}
+          onEnded={() => this.props.updateIsPlaying(false)}
+          onPlay={() => this.props.updateIsPlaying(false)}
+          onPause={() => this.props.updateIsPlaying(false)}
+          onStalled={() => this.props.updateIsPlaying(false)}
+          onSeeking={() => this.props.updateIsPlaying(false)}
+          onWaiting={() => this.props.updateIsPlaying(false)}
         >
           <source src={this.props.videoUrl} type="video/mp4" />
           {tracks}
@@ -68,7 +68,6 @@ MasterVideo.propTypes = {
   startTime: PropTypes.number,
   updateCurrentTime: PropTypes.func,
   updateIsPlaying: PropTypes.func,
-  updateIsNotPlaying: PropTypes.func,
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
@@ -85,7 +84,6 @@ MasterVideo.defaultProps = {
   startTime: 0,
   updateCurrentTime: () => {},
   updateIsPlaying: () => {},
-  updateIsNotPlaying: () => {},
   tracks: []
 };
 
@@ -95,18 +93,17 @@ const mapStateToProps = state => ({
   startTime: state.startTime
 });
 
-// The last two functions should be refactored
-const mapDispatchToProps = dispatch => ({
+export const mapDispatchToProps = dispatch => ({
   updateCurrentTime: event => {
     dispatch(setCurrentTime(event.target.currentTime));
   },
-  updateIsPlaying: () => {
-    dispatch(setIsPlaying(true));
-  },
-  updateIsNotPlaying: () => {
-    dispatch(setIsPlaying(false));
+  updateIsPlaying: isPlaying => {
+    dispatch(setIsPlaying(isPlaying));
   }
 });
 
 export const Unwrapped = MasterVideo;
-export default connect(mapStateToProps, mapDispatchToProps)(MasterVideo);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(MasterVideo);
