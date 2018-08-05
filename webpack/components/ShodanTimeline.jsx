@@ -16,11 +16,17 @@ class ShodanTimeline extends Component {
     const sectionBlocks = [];
     this.props.sections.map(section => {
       // the key here has to change if name is not unique
+      let blockProps;
+      if (this.props.mode === "url") {
+        blockProps = { url: section.sectionUrl };
+      } else {
+        blockProps = { startTime: section.startTime.value };
+      }
       const newBlock = (
         <ShodanTimelineBlock
+          {...blockProps}
           key={section.sectionName.value}
           name={section.sectionName.value}
-          url={section.sectionUrl}
           left={`${position}%`}
           maxIntensity={this.props.maxIntensity}
           intensity={section.intensity.number || "0"}
@@ -58,7 +64,12 @@ ShodanTimeline.propTypes = {
     })
   ).isRequired,
   maxIntensity: PropTypes.number.isRequired,
-  totalDuration: PropTypes.number.isRequired
+  totalDuration: PropTypes.number.isRequired,
+  mode: PropTypes.string
+};
+
+ShodanTimeline.defaultProps = {
+  mode: "startTime"
 };
 
 export default ShodanTimeline;

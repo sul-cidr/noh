@@ -1,11 +1,15 @@
 import React from "react";
+import { Provider } from "react-redux";
 import { mount, shallow } from "enzyme";
-import ShodanTimelineBlock from "../components/ShodanTimelineBlock";
+import configureMockStore from "redux-mock-store";
+import ShodanTimelineBlock, {
+  Unwrapped as UnwrappedShodanTimelineBlock
+} from "../components/ShodanTimelineBlock";
 
 describe("<ShodanTimelineBlock>", () => {
   it("renders as expected", () => {
     const component = shallow(
-      <ShodanTimelineBlock
+      <UnwrappedShodanTimelineBlock
         name="Kiri"
         left="8%"
         intensity="15"
@@ -19,9 +23,24 @@ describe("<ShodanTimelineBlock>", () => {
 
   it("renders as expected with url", () => {
     const component = shallow(
-      <ShodanTimelineBlock
+      <UnwrappedShodanTimelineBlock
         name="Kiri"
         url="/kokaji/kiri"
+        left="8%"
+        intensity="15"
+        maxIntensity={21}
+        duration={10}
+        totalDuration={30}
+      />
+    );
+    expect(component).toMatchSnapshot();
+  });
+
+  it("renders as expected with startTime", () => {
+    const component = shallow(
+      <UnwrappedShodanTimelineBlock
+        name="Kiri"
+        startTime={10}
         left="8%"
         intensity="15"
         maxIntensity={21}
@@ -36,15 +55,17 @@ describe("<ShodanTimelineBlock>", () => {
     window.location.assign = jest.fn();
     const url = "/kokaji/kiri";
     const wrapper = mount(
-      <ShodanTimelineBlock
-        name="Kiri"
-        url={url}
-        left="8%"
-        intensity="15"
-        maxIntensity={21}
-        duration={10}
-        totalDuration={30}
-      />
+      <Provider store={configureMockStore()({})}>
+        <ShodanTimelineBlock
+          name="Kiri"
+          url={url}
+          left="8%"
+          intensity="15"
+          maxIntensity={21}
+          duration={10}
+          totalDuration={30}
+        />
+      </Provider>
     );
     wrapper.find("div").simulate("click");
     expect(window.location.assign).toBeCalledWith(url);
@@ -53,17 +74,88 @@ describe("<ShodanTimelineBlock>", () => {
   it("does not navigate if clicked and no url", () => {
     window.location.assign = jest.fn();
     const wrapper = mount(
-      <ShodanTimelineBlock
-        name="Kiri"
-        url=""
-        left="8%"
-        intensity="15"
-        maxIntensity={21}
-        duration={10}
-        totalDuration={30}
-      />
+      <Provider store={configureMockStore()({})}>
+        <ShodanTimelineBlock
+          name="Kiri"
+          url=""
+          left="8%"
+          intensity="15"
+          maxIntensity={21}
+          duration={10}
+          totalDuration={30}
+        />
+      </Provider>
     );
     wrapper.find("div").simulate("click");
+    expect(window.location.assign).not.toBeCalled();
+  });
+
+  it("triggers the SET_CURRENT_TIME action if startTime is present but url is not", () => {
+    const initialState = { startTime: 10 };
+    const mockStore = configureMockStore();
+    const store = mockStore(initialState);
+    const action = { type: "SET_CURRENT_TIME", payload: 50 };
+    const wrapper = mount(
+      <Provider store={store}>
+        <ShodanTimelineBlock
+          name="Kiri"
+          startTime={50}
+          left="8%"
+          intensity="15"
+          maxIntensity={21}
+          duration={10}
+          totalDuration={30}
+        />
+      </Provider>
+    );
+    wrapper.find("div").simulate("click");
+    expect(store.getActions()[0]).toEqual(action);
+  });
+
+  it("triggers the SET_CURRENT_TIME action if both url and startTime are present", () => {
+    window.location.assign = jest.fn();
+    const initialState = { startTime: 10 };
+    const mockStore = configureMockStore();
+    const store = mockStore(initialState);
+    const action = { type: "SET_CURRENT_TIME", payload: 50 };
+    const url = "/kokaji/kiri";
+    const wrapper = mount(
+      <Provider store={store}>
+        <ShodanTimelineBlock
+          name="Kiri"
+          url={url}
+          startTime={50}
+          left="8%"
+          intensity="15"
+          maxIntensity={21}
+          duration={10}
+          totalDuration={30}
+        />
+      </Provider>
+    );
+    wrapper.find("div").simulate("click");
+    expect(store.getActions()[0]).toEqual(action);
+    expect(window.location.assign).not.toBeCalled();
+  });
+
+  it("does nothing if neither url and startTime are present", () => {
+    window.location.assign = jest.fn();
+    const mockStore = configureMockStore();
+    const store = mockStore({});
+    const wrapper = mount(
+      <Provider store={store}>
+        <ShodanTimelineBlock
+          name="Kiri"
+          left="8%"
+          intensity="15"
+          maxIntensity={21}
+          duration={10}
+          totalDuration={30}
+        />
+      </Provider>
+    );
+    wrapper.find("div").simulate("click");
+    expect(store.getActions().length).toEqual(0);
     expect(window.location.assign).not.toBeCalled();
   });
 });

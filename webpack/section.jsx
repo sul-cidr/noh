@@ -118,6 +118,7 @@ export default class App extends Component {
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
                   <h3>{toggle} Section map</h3>
                   <ShodanTimeline
+                    mode="url"
                     sections={this.props.sections}
                     maxIntensity={this.props.maxIntensity}
                     totalDuration={this.props.videoDuration}
