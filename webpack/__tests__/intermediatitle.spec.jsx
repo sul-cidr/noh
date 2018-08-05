@@ -5,7 +5,7 @@ import IntermediaTitle from "../components/IntermediaTitle";
 describe("<IntermediaTitle>", () => {
   it("renders as expected", () => {
     const component = shallow(
-      <IntermediaTitle play="hashitomi" section="kiri" />
+      <IntermediaTitle sectionUrl="hashitomi/kiri" section="kiri" />
     );
     expect(component).toMatchSnapshot();
   });

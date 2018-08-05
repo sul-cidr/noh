@@ -13,7 +13,7 @@ exports[`<IntermediaTitle> renders as expected 1`] = `
     className="intermedia__value"
   >
     <a
-      href="/hashitomi/kiri"
+      href="hashitomi/kiri"
     >
       kiri
     </a>

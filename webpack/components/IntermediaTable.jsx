@@ -45,7 +45,7 @@ class IntermediaTable extends Component {
       <div className="intermedia-table">
         <IntermediaTitle
           section={section.sectionName.value}
-          play={this.props.play}
+          sectionUrl={section.sectionUrl}
         />
         <IntermediaElement
           fieldName="Voices"
@@ -78,12 +78,12 @@ class IntermediaTable extends Component {
 }
 
 IntermediaTable.propTypes = {
-  play: PropTypes.string.isRequired,
   currentTime: PropTypes.number.isRequired,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       play: PropTypes.shape({ value: PropTypes.string }),
       sectionName: PropTypes.shape({ value: PropTypes.string }),
+      sectionUrl: PropTypes.string.isRequired,
       intensity: PropTypes.shape({ number: PropTypes.string }),
       startTime: PropTypes.shape({ value: PropTypes.number }),
       endTime: PropTypes.shape({ value: PropTypes.number }),
