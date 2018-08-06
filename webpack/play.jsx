@@ -51,10 +51,6 @@ const App = props => (
           </div>
           <div className="timeline">
             <div className="timeline__container">
-              <TimeMarks
-                videoDuration={convertTimeToSeconds(props.videoDuration)}
-                numIntervals={10}
-              />
               <Acts
                 acts={props.acts}
                 duration={convertTimeToSeconds(props.videoDuration)}
