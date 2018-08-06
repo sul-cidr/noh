@@ -2027,24 +2027,90 @@ exports[`<Play> renders as expected 1`] = `
                 >
                   <TimelineIndicator
                     currentTime={0}
-                    dispatch={[Function]}
                     duration={3693}
                     interval={10}
                     playing={false}
+                    updateStartTime={[Function]}
                   >
-                    <div
-                      className="time-indicator-container"
+                    <Draggable
+                      allowAnyClick={false}
+                      axis="x"
+                      bounds={false}
+                      cancel={null}
+                      defaultClassName="react-draggable"
+                      defaultClassNameDragged="react-draggable-dragged"
+                      defaultClassNameDragging="react-draggable-dragging"
+                      defaultPosition={
+                        Object {
+                          "x": 0,
+                          "y": 0,
+                        }
+                      }
+                      disabled={false}
+                      enableUserSelectHack={true}
+                      grid={null}
+                      handle=".time-indicator"
+                      offsetParent={null}
+                      onDrag={[Function]}
+                      onMouseDown={[Function]}
+                      onStart={[Function]}
+                      onStop={[Function]}
+                      position={null}
+                      transform={null}
                     >
-                      <div
-                        className="time-indicator"
-                        style={
+                      <DraggableCore
+                        allowAnyClick={false}
+                        axis="x"
+                        bounds={false}
+                        cancel={null}
+                        defaultClassName="react-draggable"
+                        defaultClassNameDragged="react-draggable-dragged"
+                        defaultClassNameDragging="react-draggable-dragging"
+                        defaultPosition={
                           Object {
-                            "left": "0%",
-                            "position": "relative",
+                            "x": 0,
+                            "y": 0,
                           }
                         }
-                      />
-                    </div>
+                        disabled={false}
+                        enableUserSelectHack={true}
+                        grid={null}
+                        handle=".time-indicator"
+                        offsetParent={null}
+                        onDrag={[Function]}
+                        onMouseDown={[Function]}
+                        onStart={[Function]}
+                        onStop={[Function]}
+                        position={null}
+                        transform={null}
+                      >
+                        <div
+                          className="time-indicator-container react-draggable"
+                          onMouseDown={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                          style={
+                            Object {
+                              "touchAction": "none",
+                              "transform": "translate(0px,0px)",
+                            }
+                          }
+                          transform={null}
+                        >
+                          <div
+                            className="time-indicator"
+                            style={
+                              Object {
+                                "left": "0%",
+                                "position": "relative",
+                                "transform": "none",
+                              }
+                            }
+                          />
+                        </div>
+                      </DraggableCore>
+                    </Draggable>
                   </TimelineIndicator>
                 </Connect(TimelineIndicator)>
                 <ShodanTimeline

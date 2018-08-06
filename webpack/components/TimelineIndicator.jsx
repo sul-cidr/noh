@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+import Draggable from "react-draggable";
+import { setCurrentTime } from "../actionCreators";
 
 class TimelineIndicator extends Component {
   constructor(props) {
@@ -10,6 +12,7 @@ class TimelineIndicator extends Component {
       timer: null
     };
     this.tick = this.tick.bind(this);
+    this.handleDragStop = this.handleDragStop.bind(this);
   }
 
   componentDidMount() {
@@ -57,14 +60,29 @@ class TimelineIndicator extends Component {
     }
   }
 
+  handleDragStop(event) {
+    const element = event.target.parentElement.parentElement;
+    const ratio = (event.clientX - element.offsetLeft) / element.offsetWidth;
+    const progressInSeconds = this.props.duration * ratio;
+    console.log(ratio);
+    console.log(progressInSeconds);
+    this.props.updateStartTime(progressInSeconds);
+  }
+
   render() {
     return (
-      <div className="time-indicator-container">
-        <div
-          className="time-indicator"
-          style={{ left: `${this.calculateProgress()}%`, position: "relative" }}
-        />
-      </div>
+      <Draggable axis="x" handle=".time-indicator" onStop={this.handleDragStop}>
+        <div className="time-indicator-container">
+          <div
+            className="time-indicator"
+            style={{
+              left: `${this.calculateProgress()}%`,
+              position: "relative",
+              transform: "none"
+            }}
+          />
+        </div>
+      </Draggable>
     );
   }
 }
@@ -73,12 +91,14 @@ TimelineIndicator.propTypes = {
   duration: PropTypes.number.isRequired,
   interval: PropTypes.number,
   currentTime: PropTypes.number.isRequired,
-  playing: PropTypes.bool
+  playing: PropTypes.bool,
+  updateStartTime: PropTypes.func
 };
 
 TimelineIndicator.defaultProps = {
   interval: 10, // down to the millisecond it behaves erratically
-  playing: false
+  playing: false,
+  updateStartTime: null
 };
 
 const mapStateToProps = state => ({
@@ -86,5 +106,9 @@ const mapStateToProps = state => ({
   playing: state.isPlaying
 });
 
+const mapDispatchToProps = dispatch => ({
+  updateStartTime: time => dispatch(setCurrentTime(time))
+});
+
 export const Unwrapped = TimelineIndicator;
-export default connect(mapStateToProps)(TimelineIndicator);
+export default connect(mapStateToProps, mapDispatchToProps)(TimelineIndicator);
