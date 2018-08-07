@@ -8,7 +8,6 @@ import IntermediaTable from "./components/IntermediaTable";
 import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
 import TimelineIndicator from "./components/TimelineIndicator";
-import TimeMarks from "./components/TimeMarks";
 import ShodanTimeline from "./components/ShodanTimeline";
 
 import contents from "./contents";
@@ -51,10 +50,6 @@ const App = props => (
           </div>
           <div className="timeline">
             <div className="timeline__container">
-              <TimeMarks
-                videoDuration={convertTimeToSeconds(props.videoDuration)}
-                numIntervals={10}
-              />
               <Acts
                 acts={props.acts}
                 duration={convertTimeToSeconds(props.videoDuration)}
