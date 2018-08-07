@@ -17938,13 +17938,11 @@ exports[`<Section> renders as expected 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
-                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
-                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -17960,7 +17958,6 @@ exports[`<Section> renders as expected 1`] = `
                                       }
                                     }
                                     className=""
-                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -17975,7 +17972,6 @@ exports[`<Section> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
-                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="p"
@@ -17993,7 +17989,6 @@ exports[`<Section> renders as expected 1`] = `
                                               }
                                             }
                                             className=""
-                                            commonClass="interweave"
                                             key="2"
                                             selfClose={false}
                                             tagName="time"
@@ -59904,13 +59899,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
-                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
-                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -59926,7 +59919,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                       }
                                     }
                                     className=""
-                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -59941,7 +59933,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
-                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="p"
@@ -59959,7 +59950,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                               }
                                             }
                                             className=""
-                                            commonClass="interweave"
                                             key="2"
                                             selfClose={false}
                                             tagName="time"
@@ -82525,13 +82515,11 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
-                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
-                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -82547,7 +82535,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                                       }
                                     }
                                     className=""
-                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -82562,7 +82549,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
-                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="p"
@@ -82580,7 +82566,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                                               }
                                             }
                                             className=""
-                                            commonClass="interweave"
                                             key="2"
                                             selfClose={false}
                                             tagName="time"

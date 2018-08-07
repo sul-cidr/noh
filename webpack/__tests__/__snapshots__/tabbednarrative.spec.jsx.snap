@@ -36,7 +36,6 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
       emptyContent={null}
       noHtml={false}
       noHtmlExceptMatchers={false}
-      parsedContent={null}
       tagName="span"
     />
   </TabPanel>
