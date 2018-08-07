@@ -8,7 +8,6 @@ import IntermediaTable from "./components/IntermediaTable";
 import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
 import TimelineIndicator from "./components/TimelineIndicator";
-import TimeMarks from "./components/TimeMarks";
 import ShodanTimeline from "./components/ShodanTimeline";
 
 import contents from "./contents";
