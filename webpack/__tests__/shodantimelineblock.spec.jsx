@@ -51,6 +51,21 @@ describe("<ShodanTimelineBlock>", () => {
     expect(component).toMatchSnapshot();
   });
 
+  it("renders as expected with current section highlighted", () => {
+    const component = shallow(
+      <UnwrappedShodanTimelineBlock
+        name="Kiri"
+        url={window.location.pathname}
+        left="8%"
+        intensity="15"
+        maxIntensity={21}
+        duration={10}
+        totalDuration={30}
+      />
+    );
+    expect(component).toMatchSnapshot();
+  });
+
   it("navigates if clicked and url", () => {
     window.location.assign = jest.fn();
     const url = "/kokaji/kiri";

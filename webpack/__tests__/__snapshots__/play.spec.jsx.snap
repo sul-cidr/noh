@@ -3302,7 +3302,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Oshirabe"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3340,7 +3340,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Musicians walk in"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3378,7 +3378,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Nanori"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3416,7 +3416,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Mondō-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3454,7 +3454,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Ageuta-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3492,7 +3492,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Dialogue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3530,7 +3530,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Monologue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3568,7 +3568,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Mondō-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3606,7 +3606,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Ageuta-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3644,7 +3644,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Kuri"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3682,7 +3682,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Sashi"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3720,7 +3720,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Kuse"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3758,7 +3758,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Kakeai-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3796,7 +3796,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Ageuta-3"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3834,7 +3834,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Raijo"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3872,7 +3872,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Aikyōgen"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3910,7 +3910,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Prop is brought in"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3948,7 +3948,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Notto"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3986,7 +3986,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Noriji-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4024,7 +4024,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Hayafue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4062,7 +4062,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Noriji-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4100,7 +4100,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Maibataraki"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4138,7 +4138,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Noriji-3"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4176,7 +4176,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Kakeai-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4214,7 +4214,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Kiri"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4252,7 +4252,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item "
+                          className="shodan-map__item  "
                           data-tooltip="Musicians are exiting the stage"
                           onClick={[Function]}
                           onKeyPress={null}
