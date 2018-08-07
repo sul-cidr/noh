@@ -32,6 +32,7 @@ exports[`<InterMediaTable> renders as expected while connected 1`] = `
         "sectionName": Object {
           "value": "Nanori",
         },
+        "sectionUrl": "kokaji/nanori",
         "startTime": Object {
           "value": 0,
         },
@@ -67,6 +68,7 @@ exports[`<InterMediaTable> renders as expected while connected 1`] = `
         "sectionName": Object {
           "value": "Mondo",
         },
+        "sectionUrl": "kokaji/mondo",
         "startTime": Object {
           "value": 181,
         },
@@ -87,8 +89,8 @@ exports[`<UnwrappedIntermediaTable> renders as expected 1`] = `
   className="intermedia-table"
 >
   <IntermediaTitle
-    play="hashitomi"
     section="Nanori"
+    sectionUrl="kokaji/nanori"
   />
   <IntermediaElement
     fieldName="Voices"
