@@ -22,11 +22,16 @@ class ShodanTimelineBlock extends Component {
   render() {
     // should actually check to be sure that intensity is not greater than max
     const heightNum =
-      parseInt(this.props.intensity, 10) / this.props.maxIntensity * 100;
-    const durationNum = this.props.duration / this.props.totalDuration * 100;
+      (parseInt(this.props.intensity, 10) / this.props.maxIntensity) * 100;
+    const durationNum = (this.props.duration / this.props.totalDuration) * 100;
+    const pointer = this.props.url ? "pointer" : "";
+    const active =
+      window.location.pathname === this.props.url
+        ? "shodan-map__item--active"
+        : "";
     return (
       <div
-        className={`shodan-map__item ${this.props.url ? "pointer" : ""}`}
+        className={`shodan-map__item ${pointer} ${active}`}
         style={{
           left: this.props.left,
           width: `${durationNum}%`,
@@ -65,4 +70,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = ShodanTimelineBlock;
-export default connect(null, mapDispatchToProps)(ShodanTimelineBlock);
+export default connect(
+  null,
+  mapDispatchToProps
+)(ShodanTimelineBlock);

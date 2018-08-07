@@ -254,7 +254,7 @@ export const main = (configPath, quiet) => {
               const sectionData = processMetadata(metadata.data);
               sectionData.sectionUrl = `/${play.playName}/${
                 section.sectionName
-              }`;
+              }/`;
               sectionData.videoUrl = { value: play.videoUrl };
               sectionData.videoDuration = { value: play.videoDuration };
               sectionData.phrases = phrases ? processPhrases(phrases.data) : [];
