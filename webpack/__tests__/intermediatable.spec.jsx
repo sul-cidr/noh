@@ -10,6 +10,7 @@ const sections = [
     sectionName: {
       value: "Nanori"
     },
+    sectionUrl: "kokaji/nanori",
     intensity: { number: "5" },
     startTime: { value: 0 },
     endTime: { value: 180 },
@@ -25,6 +26,7 @@ const sections = [
     sectionName: {
       value: "Mondo"
     },
+    sectionUrl: "kokaji/mondo",
     intensity: { number: "5" },
     startTime: { value: 181 },
     endTime: { value: 300 },

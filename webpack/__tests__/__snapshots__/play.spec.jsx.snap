@@ -6809,8 +6809,8 @@ exports[`<Play> renders as expected 1`] = `
                   className="intermedia-table"
                 >
                   <IntermediaTitle
-                    play="Kokaji"
                     section="Oshirabe"
+                    sectionUrl="/kokaji/oshirabe"
                   >
                     <div
                       className="intermedia__element intermedia__element--title"
@@ -6824,7 +6824,7 @@ exports[`<Play> renders as expected 1`] = `
                         className="intermedia__value"
                       >
                         <a
-                          href="/Kokaji/Oshirabe"
+                          href="/kokaji/oshirabe"
                         >
                           Oshirabe
                         </a>
