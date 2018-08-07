@@ -1542,11 +1542,13 @@ exports[`<Play> renders as expected 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
+                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
+                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -1562,6 +1564,7 @@ exports[`<Play> renders as expected 1`] = `
                                       }
                                     }
                                     className=""
+                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -1576,6 +1579,7 @@ exports[`<Play> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="h2"
@@ -1591,6 +1595,7 @@ exports[`<Play> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="2"
                                         selfClose={false}
                                         tagName="p"
@@ -1607,6 +1612,7 @@ exports[`<Play> renders as expected 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="3"
                                             selfClose={false}
                                             tagName="time"
@@ -1627,6 +1633,7 @@ exports[`<Play> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="4"
                                         selfClose={false}
                                         tagName="p"
@@ -1643,6 +1650,7 @@ exports[`<Play> renders as expected 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="5"
                                             selfClose={false}
                                             tagName="time"
@@ -1663,6 +1671,7 @@ exports[`<Play> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="6"
                                         selfClose={false}
                                         tagName="h3"
@@ -1678,6 +1687,7 @@ exports[`<Play> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="7"
                                         selfClose={false}
                                         tagName="p"
@@ -1694,6 +1704,7 @@ exports[`<Play> renders as expected 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="8"
                                             selfClose={false}
                                             tagName="time"
@@ -1714,6 +1725,7 @@ exports[`<Play> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="9"
                                         selfClose={false}
                                         tagName="p"
@@ -1730,6 +1742,7 @@ exports[`<Play> renders as expected 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="10"
                                             selfClose={false}
                                             tagName="time"
@@ -1754,6 +1767,7 @@ exports[`<Play> renders as expected 1`] = `
                                   <Element
                                     attributes={Object {}}
                                     className=""
+                                    commonClass="interweave"
                                     key="11"
                                     selfClose={false}
                                     tagName="p"
@@ -3349,7 +3363,6 @@ exports[`<Play> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
-                      startTime={undefined}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock

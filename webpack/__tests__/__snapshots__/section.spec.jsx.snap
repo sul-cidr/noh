@@ -17938,11 +17938,13 @@ exports[`<Section> renders as expected 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
+                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
+                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -17958,6 +17960,7 @@ exports[`<Section> renders as expected 1`] = `
                                       }
                                     }
                                     className=""
+                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -17972,6 +17975,7 @@ exports[`<Section> renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="p"
@@ -17989,6 +17993,7 @@ exports[`<Section> renders as expected 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="2"
                                             selfClose={false}
                                             tagName="time"
@@ -21356,7 +21361,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Oshirabe"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={150}
@@ -21394,7 +21398,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians walk in"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={129}
@@ -21432,7 +21435,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Nanori"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={79}
@@ -21470,7 +21472,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={206}
@@ -21508,7 +21509,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={122}
@@ -21546,7 +21546,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Dialogue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={33}
@@ -21584,7 +21583,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Monologue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={58}
@@ -21622,7 +21620,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={159}
@@ -21660,7 +21657,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={115}
@@ -21698,7 +21694,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuri"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={60}
@@ -21736,7 +21731,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Sashi"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={117}
@@ -21774,7 +21768,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuse"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={553}
@@ -21812,7 +21805,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={57}
@@ -21850,7 +21842,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-3"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={74}
@@ -21888,7 +21879,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Raijo"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={210}
@@ -21926,7 +21916,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Aikyōgen"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={484}
@@ -21964,7 +21953,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Prop is brought in"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={142}
@@ -22002,7 +21990,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Notto"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={201}
@@ -22040,7 +22027,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={145}
@@ -22078,7 +22064,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Hayafue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={83}
@@ -22116,7 +22101,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={44}
@@ -22154,7 +22138,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Maibataraki"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={58}
@@ -22192,7 +22175,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-3"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={114}
@@ -22230,7 +22212,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={29}
@@ -22268,7 +22249,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kiri"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={134}
@@ -22306,7 +22286,6 @@ exports[`<Section> renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={157}
@@ -23554,7 +23533,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="0%"
                   maxIntensity={29}
                   name="Oshirabe"
-                  startTime={undefined}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -59899,11 +59877,13 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
+                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
+                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -59919,6 +59899,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                       }
                                     }
                                     className=""
+                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -59933,6 +59914,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="p"
@@ -59950,6 +59932,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="2"
                                             selfClose={false}
                                             tagName="time"
@@ -61333,7 +61316,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Oshirabe"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={150}
@@ -61371,7 +61353,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Musicians walk in"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={129}
@@ -61409,7 +61390,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Nanori"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={79}
@@ -61447,7 +61427,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Mondō-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={206}
@@ -61485,7 +61464,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Ageuta-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={122}
@@ -61523,7 +61501,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Dialogue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={33}
@@ -61561,7 +61538,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Monologue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={58}
@@ -61599,7 +61575,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Mondō-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={159}
@@ -61637,7 +61612,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Ageuta-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={115}
@@ -61675,7 +61649,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kuri"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={60}
@@ -61713,7 +61686,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Sashi"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={117}
@@ -61751,7 +61723,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kuse"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={553}
@@ -61789,7 +61760,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kakeai-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={57}
@@ -61827,7 +61797,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Ageuta-3"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={74}
@@ -61865,7 +61834,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Raijo"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={210}
@@ -61903,7 +61871,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Aikyōgen"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={484}
@@ -61941,7 +61908,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Prop is brought in"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={142}
@@ -61979,7 +61945,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Notto"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={201}
@@ -62017,7 +61982,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Noriji-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={145}
@@ -62055,7 +62019,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Hayafue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={83}
@@ -62093,7 +62056,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Noriji-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={44}
@@ -62131,7 +62093,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Maibataraki"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={58}
@@ -62169,7 +62130,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Noriji-3"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={114}
@@ -62207,7 +62167,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kakeai-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={29}
@@ -62245,7 +62204,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Kiri"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={134}
@@ -62283,7 +62241,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={157}
@@ -63531,7 +63488,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="0%"
                   maxIntensity={29}
                   name="Oshirabe"
-                  startTime={undefined}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -82515,11 +82471,13 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                               emptyContent={null}
                               noHtml={false}
                               noHtmlExceptMatchers={false}
+                              parsedContent={null}
                               tagName="span"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
+                                commonClass="interweave"
                                 selfClose={false}
                                 tagName="span"
                               >
@@ -82535,6 +82493,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                                       }
                                     }
                                     className=""
+                                    commonClass="interweave"
                                     key="0"
                                     selfClose={false}
                                     tagName="section"
@@ -82549,6 +82508,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                                       <Element
                                         attributes={Object {}}
                                         className=""
+                                        commonClass="interweave"
                                         key="1"
                                         selfClose={false}
                                         tagName="p"
@@ -82566,6 +82526,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                                               }
                                             }
                                             className=""
+                                            commonClass="interweave"
                                             key="2"
                                             selfClose={false}
                                             tagName="time"
@@ -85929,7 +85890,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Oshirabe"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={150}
@@ -85967,7 +85927,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians walk in"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={129}
@@ -86005,7 +85964,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Nanori"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={79}
@@ -86043,7 +86001,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={206}
@@ -86081,7 +86038,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={122}
@@ -86119,7 +86075,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Dialogue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={33}
@@ -86157,7 +86112,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Monologue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={58}
@@ -86195,7 +86149,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Mondō-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={159}
@@ -86233,7 +86186,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={115}
@@ -86271,7 +86223,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuri"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={60}
@@ -86309,7 +86260,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Sashi"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={117}
@@ -86347,7 +86297,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kuse"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={553}
@@ -86385,7 +86334,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={57}
@@ -86423,7 +86371,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Ageuta-3"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={74}
@@ -86461,7 +86408,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Raijo"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={210}
@@ -86499,7 +86445,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Aikyōgen"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={484}
@@ -86537,7 +86482,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Prop is brought in"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={142}
@@ -86575,7 +86519,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Notto"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={201}
@@ -86613,7 +86556,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-1"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={145}
@@ -86651,7 +86593,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Hayafue"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={83}
@@ -86689,7 +86630,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={44}
@@ -86727,7 +86667,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Maibataraki"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={58}
@@ -86765,7 +86704,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Noriji-3"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={114}
@@ -86803,7 +86741,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kakeai-2"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={29}
@@ -86841,7 +86778,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Kiri"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={134}
@@ -86879,7 +86815,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
                     totalDuration={3693}
-                    url={undefined}
                   >
                     <ShodanTimelineBlock
                       duration={157}
@@ -88127,7 +88062,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="0%"
                   maxIntensity={29}
                   name="Oshirabe"
-                  startTime={undefined}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
