@@ -9,6 +9,7 @@ class TimelineIndicator extends Component {
       playedTime: this.calculateCurrentTime(), // milliseconds
       timer: null
     };
+    this.tick = this.tick.bind(this);
   }
 
   componentDidMount() {
@@ -21,9 +22,7 @@ class TimelineIndicator extends Component {
   }
 
   setupTimer() {
-    const timer = setInterval(() => {
-      this.tick();
-    }, this.props.interval);
+    const timer = setInterval(this.tick, this.props.interval);
     this.setState({ timer });
   }
 
@@ -40,7 +39,7 @@ class TimelineIndicator extends Component {
   }
 
   calculateProgress() {
-    return 100 * this.state.playedTime / this.calculateMaxTime();
+    return (100 * this.state.playedTime) / this.calculateMaxTime();
   }
 
   tick() {

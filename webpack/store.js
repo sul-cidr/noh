@@ -1,11 +1,8 @@
 /* eslint-disable no-underscore-dangle */
+import { createStore } from "redux";
+import reducer from "./reducers";
+import { reduxDevTools } from "./utils";
 
-import { createStore } from 'redux';
-import reducer from './reducers';
-
-const store = createStore(
-  reducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+const store = createStore(reducer, reduxDevTools());
 
 export default store;

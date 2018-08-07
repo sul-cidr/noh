@@ -73,7 +73,7 @@ const MeasureLabelContainer = props => {
   return labels;
 };
 
-MeasureLabelContainer.PropTypes = {
+MeasureLabelContainer.propTypes = {
   previous: PropTypes.bool,
   next: PropTypes.bool,
   isBeatOn: PropTypes.bool,

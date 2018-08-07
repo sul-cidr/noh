@@ -1,8 +1,10 @@
+/* eslint-disable no-underscore-dangle */
 import {
   getTime,
   convertTimeToSeconds,
   convertSecondsToHhmmss,
-  fillGrid
+  fillGrid,
+  reduxDevTools
 } from "../utils";
 import phrases from "./__fixtures__/phrases.json";
 
@@ -62,5 +64,18 @@ describe("fillGrid", () => {
     const grid = phrases.phrases[1].nohkan.grid; // eslint-disable-line prefer-destructuring
     const fullData = fillGrid(grid, 13);
     expect(fullData).toMatchSnapshot();
+  });
+});
+
+describe("reduxDevTools", () => {
+  test("it correctly returns the Redux dev tools if available", () => {
+    window.__REDUX_DEVTOOLS_EXTENSION__ = jest.fn();
+    reduxDevTools();
+    expect(window.__REDUX_DEVTOOLS_EXTENSION__).toBeCalled();
+  });
+
+  test("it returns nothing if the Redux dev tools are unavailable", () => {
+    window.__REDUX_DEVTOOLS_EXTENSION__ = null;
+    expect(reduxDevTools()).toBe(null);
   });
 });
