@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<SimpleVideo> renders as expected 1`] = `
-<video
-  controls={true}
-  id="player"
-  src=""
-/>
-`;
