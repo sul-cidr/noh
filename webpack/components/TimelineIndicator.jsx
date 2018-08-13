@@ -9,10 +9,13 @@ class TimelineIndicator extends Component {
     super(props);
     this.state = {
       playedTime: this.calculateCurrentTime(), // milliseconds
-      timer: null
+      timer: null,
+      beingDragged: false
     };
+    this.container = React.createRef();
     this.tick = this.tick.bind(this);
     this.handleDragStop = this.handleDragStop.bind(this);
+    this.handleDragStart = this.handleDragStart.bind(this);
   }
 
   componentDidMount() {
@@ -42,7 +45,9 @@ class TimelineIndicator extends Component {
   }
 
   calculateProgress() {
-    return (100 * this.state.playedTime) / this.calculateMaxTime();
+    const progress = this.state.playedTime / this.calculateMaxTime();
+    const offset = this.container.current.offsetWidth;
+    return progress * offset;
   }
 
   tick() {
@@ -63,26 +68,42 @@ class TimelineIndicator extends Component {
   handleDragStop(event) {
     const element = event.target.parentElement.parentElement;
     const ratio = (event.clientX - element.offsetLeft) / element.offsetWidth;
-    const progressInSeconds = this.props.duration * ratio;
-    console.log(ratio);
-    console.log(progressInSeconds);
-    this.props.updateStartTime(progressInSeconds);
+    const { duration } = this.props;
+    const progressInSeconds = Math.min(duration, Math.max(0, duration * ratio));
+    this.setState({
+      beingDragged: false
+    });
+    this.props.updateCurrentTime(progressInSeconds);
+  }
+
+  handleDragStart() {
+    this.setState({
+      beingDragged: true
+    });
   }
 
   render() {
+    const draggableProps = {};
+    if (
+      this.container.current &&
+      this.props.playing &&
+      !this.state.beingDragged
+    ) {
+      draggableProps.position = { x: this.calculateProgress(), y: 0 };
+    }
     return (
-      <Draggable axis="x" handle=".time-indicator" onStop={this.handleDragStop}>
-        <div className="time-indicator-container">
-          <div
-            className="time-indicator"
-            style={{
-              left: `${this.calculateProgress()}%`,
-              position: "relative",
-              transform: "none"
-            }}
-          />
-        </div>
-      </Draggable>
+      <div ref={this.container} className="time-indicator-container">
+        <Draggable
+          {...draggableProps}
+          axis="x"
+          bounds="parent"
+          handle=".time-indicator"
+          onStop={this.handleDragStop}
+          onStart={this.handleDragStart}
+        >
+          <div className="time-indicator" />
+        </Draggable>
+      </div>
     );
   }
 }
@@ -92,13 +113,13 @@ TimelineIndicator.propTypes = {
   interval: PropTypes.number,
   currentTime: PropTypes.number.isRequired,
   playing: PropTypes.bool,
-  updateStartTime: PropTypes.func
+  updateCurrentTime: PropTypes.func
 };
 
 TimelineIndicator.defaultProps = {
   interval: 10, // down to the millisecond it behaves erratically
   playing: false,
-  updateStartTime: null
+  updateCurrentTime: null
 };
 
 const mapStateToProps = state => ({
@@ -106,9 +127,12 @@ const mapStateToProps = state => ({
   playing: state.isPlaying
 });
 
-const mapDispatchToProps = dispatch => ({
-  updateStartTime: time => dispatch(setCurrentTime(time))
+export const mapDispatchToProps = dispatch => ({
+  updateCurrentTime: time => dispatch(setCurrentTime(time))
 });
 
 export const Unwrapped = TimelineIndicator;
-export default connect(mapStateToProps, mapDispatchToProps)(TimelineIndicator);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TimelineIndicator);

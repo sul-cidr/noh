@@ -2030,38 +2030,15 @@ exports[`<Play> renders as expected 1`] = `
                     duration={3693}
                     interval={10}
                     playing={false}
-                    updateStartTime={[Function]}
+                    updateCurrentTime={[Function]}
                   >
-                    <Draggable
-                      allowAnyClick={false}
-                      axis="x"
-                      bounds={false}
-                      cancel={null}
-                      defaultClassName="react-draggable"
-                      defaultClassNameDragged="react-draggable-dragged"
-                      defaultClassNameDragging="react-draggable-dragging"
-                      defaultPosition={
-                        Object {
-                          "x": 0,
-                          "y": 0,
-                        }
-                      }
-                      disabled={false}
-                      enableUserSelectHack={true}
-                      grid={null}
-                      handle=".time-indicator"
-                      offsetParent={null}
-                      onDrag={[Function]}
-                      onMouseDown={[Function]}
-                      onStart={[Function]}
-                      onStop={[Function]}
-                      position={null}
-                      transform={null}
+                    <div
+                      className="time-indicator-container"
                     >
-                      <DraggableCore
+                      <Draggable
                         allowAnyClick={false}
                         axis="x"
-                        bounds={false}
+                        bounds="parent"
                         cancel={null}
                         defaultClassName="react-draggable"
                         defaultClassNameDragged="react-draggable-dragged"
@@ -2084,33 +2061,49 @@ exports[`<Play> renders as expected 1`] = `
                         position={null}
                         transform={null}
                       >
-                        <div
-                          className="time-indicator-container react-draggable"
-                          onMouseDown={[Function]}
-                          onMouseUp={[Function]}
-                          onTouchEnd={[Function]}
-                          onTouchStart={[Function]}
-                          style={
+                        <DraggableCore
+                          allowAnyClick={false}
+                          axis="x"
+                          bounds="parent"
+                          cancel={null}
+                          defaultClassName="react-draggable"
+                          defaultClassNameDragged="react-draggable-dragged"
+                          defaultClassNameDragging="react-draggable-dragging"
+                          defaultPosition={
                             Object {
-                              "touchAction": "none",
-                              "transform": "translate(0px,0px)",
+                              "x": 0,
+                              "y": 0,
                             }
                           }
+                          disabled={false}
+                          enableUserSelectHack={true}
+                          grid={null}
+                          handle=".time-indicator"
+                          offsetParent={null}
+                          onDrag={[Function]}
+                          onMouseDown={[Function]}
+                          onStart={[Function]}
+                          onStop={[Function]}
+                          position={null}
                           transform={null}
                         >
                           <div
-                            className="time-indicator"
+                            className="time-indicator react-draggable"
+                            onMouseDown={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchStart={[Function]}
                             style={
                               Object {
-                                "left": "0%",
-                                "position": "relative",
-                                "transform": "none",
+                                "touchAction": "none",
+                                "transform": "translate(0px,0px)",
                               }
                             }
+                            transform={null}
                           />
-                        </div>
-                      </DraggableCore>
-                    </Draggable>
+                        </DraggableCore>
+                      </Draggable>
+                    </div>
                   </TimelineIndicator>
                 </Connect(TimelineIndicator)>
                 <ShodanTimeline
