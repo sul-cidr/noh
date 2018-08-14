@@ -11,7 +11,7 @@ $timeline-channel-shodan-height: 4rem;
 $timeline-empty-score-height: 8rem;
 
 $intermedia-table-cell: 1.75rem;
-$shodan-map-height-play: (7 * $intermedia-table-cell);
+$shodan-map-height-play: (7 * $intermedia-table-cell) + $timeline-marks-height;
 $shodan-map-height-section: 10rem;
 // $intermedia-height: $shodan-map-height-play + $timeline-marks-height + $timeline-acts-height;
 $intermedia-height: $shodan-map-height-play + $timeline-acts-height;
