@@ -6,6 +6,7 @@
   position: relative;
   height: $shodan-map-height-play;
   width: 100%;
+  z-index: 20;
 }
 
 .shodan-timeline__container {
@@ -47,6 +48,7 @@
   min-height: 0.5rem;
   position: absolute;
   bottom: 0;
+  opacity: 0.8;
 
   @include tooltip();
 
