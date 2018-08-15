@@ -67,7 +67,16 @@ $score-checkbox-height: 1.5rem;
 }
 
 .measure-toggles {
+  flex-shrink: 0;
+
   li {
     margin-left: 0.625rem;
   }
+}
+
+.video-progress {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  height: 5px;
 }

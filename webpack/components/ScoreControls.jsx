@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setScoreToggles } from "../actionCreators";
+import TimelineIndicator from "./TimelineIndicator";
+
+import { convertTimeToSeconds } from "../utils";
 
 class ScoreControls extends Component {
   constructor(props) {
@@ -130,6 +133,9 @@ class ScoreControls extends Component {
             </label>
           </li>
         </ul>
+        <div className="video-progress">
+          <TimelineIndicator currentTime={10} duration={60} playing={false} />
+        </div>
         <ul className="measure-toggles">
           <li>
             <input
@@ -190,4 +196,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = ScoreControls;
-export default connect(null, mapDispatchToProps)(ScoreControls);
+export default connect(
+  null,
+  mapDispatchToProps
+)(ScoreControls);
