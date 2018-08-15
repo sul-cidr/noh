@@ -4,3 +4,10 @@
 
   @include text(lg);
 }
+
+.cell--unmetered {
+  font-weight: $fw-light;
+  justify-content: center;
+
+  @include text(sm);
+}
