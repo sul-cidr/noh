@@ -58265,6 +58265,96 @@ exports[`<Section> renders as expected 1`] = `
                     </label>
                   </li>
                 </ul>
+                <div
+                  className="video-progress"
+                >
+                  <Connect(TimelineIndicator)
+                    currentTime={10}
+                    duration={60}
+                    playing={false}
+                  >
+                    <TimelineIndicator
+                      currentTime={0}
+                      duration={60}
+                      interval={10}
+                      playing={false}
+                      updateCurrentTime={[Function]}
+                    >
+                      <div
+                        className="time-indicator-container"
+                      >
+                        <Draggable
+                          allowAnyClick={false}
+                          axis="x"
+                          bounds="parent"
+                          cancel={null}
+                          defaultClassName="react-draggable"
+                          defaultClassNameDragged="react-draggable-dragged"
+                          defaultClassNameDragging="react-draggable-dragging"
+                          defaultPosition={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
+                          disabled={false}
+                          enableUserSelectHack={true}
+                          grid={null}
+                          handle=".time-indicator"
+                          offsetParent={null}
+                          onDrag={[Function]}
+                          onMouseDown={[Function]}
+                          onStart={[Function]}
+                          onStop={[Function]}
+                          position={null}
+                          transform={null}
+                        >
+                          <DraggableCore
+                            allowAnyClick={false}
+                            axis="x"
+                            bounds="parent"
+                            cancel={null}
+                            defaultClassName="react-draggable"
+                            defaultClassNameDragged="react-draggable-dragged"
+                            defaultClassNameDragging="react-draggable-dragging"
+                            defaultPosition={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
+                            disabled={false}
+                            enableUserSelectHack={true}
+                            grid={null}
+                            handle=".time-indicator"
+                            offsetParent={null}
+                            onDrag={[Function]}
+                            onMouseDown={[Function]}
+                            onStart={[Function]}
+                            onStop={[Function]}
+                            position={null}
+                            transform={null}
+                          >
+                            <div
+                              className="time-indicator react-draggable"
+                              onMouseDown={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "touchAction": "none",
+                                  "transform": "translate(0px,0px)",
+                                }
+                              }
+                              transform={null}
+                            />
+                          </DraggableCore>
+                        </Draggable>
+                      </div>
+                    </TimelineIndicator>
+                  </Connect(TimelineIndicator)>
+                </div>
                 <ul
                   className="measure-toggles"
                 >
@@ -122794,6 +122884,96 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     </label>
                   </li>
                 </ul>
+                <div
+                  className="video-progress"
+                >
+                  <Connect(TimelineIndicator)
+                    currentTime={10}
+                    duration={60}
+                    playing={false}
+                  >
+                    <TimelineIndicator
+                      currentTime={0}
+                      duration={60}
+                      interval={10}
+                      playing={false}
+                      updateCurrentTime={[Function]}
+                    >
+                      <div
+                        className="time-indicator-container"
+                      >
+                        <Draggable
+                          allowAnyClick={false}
+                          axis="x"
+                          bounds="parent"
+                          cancel={null}
+                          defaultClassName="react-draggable"
+                          defaultClassNameDragged="react-draggable-dragged"
+                          defaultClassNameDragging="react-draggable-dragging"
+                          defaultPosition={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
+                          disabled={false}
+                          enableUserSelectHack={true}
+                          grid={null}
+                          handle=".time-indicator"
+                          offsetParent={null}
+                          onDrag={[Function]}
+                          onMouseDown={[Function]}
+                          onStart={[Function]}
+                          onStop={[Function]}
+                          position={null}
+                          transform={null}
+                        >
+                          <DraggableCore
+                            allowAnyClick={false}
+                            axis="x"
+                            bounds="parent"
+                            cancel={null}
+                            defaultClassName="react-draggable"
+                            defaultClassNameDragged="react-draggable-dragged"
+                            defaultClassNameDragging="react-draggable-dragging"
+                            defaultPosition={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
+                            disabled={false}
+                            enableUserSelectHack={true}
+                            grid={null}
+                            handle=".time-indicator"
+                            offsetParent={null}
+                            onDrag={[Function]}
+                            onMouseDown={[Function]}
+                            onStart={[Function]}
+                            onStop={[Function]}
+                            position={null}
+                            transform={null}
+                          >
+                            <div
+                              className="time-indicator react-draggable"
+                              onMouseDown={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "touchAction": "none",
+                                  "transform": "translate(0px,0px)",
+                                }
+                              }
+                              transform={null}
+                            />
+                          </DraggableCore>
+                        </Draggable>
+                      </div>
+                    </TimelineIndicator>
+                  </Connect(TimelineIndicator)>
+                </div>
                 <ul
                   className="measure-toggles"
                 >

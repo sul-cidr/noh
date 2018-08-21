@@ -111,7 +111,7 @@ class TimelineIndicator extends Component {
 TimelineIndicator.propTypes = {
   duration: PropTypes.number.isRequired,
   interval: PropTypes.number,
-  currentTime: PropTypes.number.isRequired,
+  currentTime: PropTypes.number,
   playing: PropTypes.bool,
   updateCurrentTime: PropTypes.func
 };
@@ -119,7 +119,8 @@ TimelineIndicator.propTypes = {
 TimelineIndicator.defaultProps = {
   interval: 10, // down to the millisecond it behaves erratically
   playing: false,
-  updateCurrentTime: null
+  updateCurrentTime: null,
+  currentTime: 0
 };
 
 const mapStateToProps = state => ({

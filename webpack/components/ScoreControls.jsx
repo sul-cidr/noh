@@ -4,8 +4,6 @@ import { connect } from "react-redux";
 import { setScoreToggles } from "../actionCreators";
 import TimelineIndicator from "./TimelineIndicator";
 
-import { convertTimeToSeconds } from "../utils";
-
 class ScoreControls extends Component {
   constructor(props) {
     super(props);
