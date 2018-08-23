@@ -132,7 +132,10 @@ class ScoreControls extends Component {
           </li>
         </ul>
         <div className="video-progress">
-          <TimelineIndicator currentTime={10} duration={60} playing={false} />
+          <TimelineIndicator
+            startTime={this.props.startTime}
+            duration={this.props.duration}
+          />
         </div>
         <ul className="measure-toggles">
           <li>
@@ -175,7 +178,9 @@ ScoreControls.propTypes = {
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
   isNextSentenceOn: PropTypes.bool,
-  updateScoreToggles: PropTypes.func
+  updateScoreToggles: PropTypes.func,
+  startTime: PropTypes.number,
+  duration: PropTypes.number.isRequired
 };
 
 ScoreControls.defaultProps = {
@@ -186,7 +191,8 @@ ScoreControls.defaultProps = {
   isDanceOn: true,
   isPrevSentenceOn: true,
   isNextSentenceOn: true,
-  updateScoreToggles: () => {}
+  updateScoreToggles: () => {},
+  startTime: 0
 };
 
 const mapDispatchToProps = dispatch => ({

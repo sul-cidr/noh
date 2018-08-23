@@ -17,7 +17,6 @@ exports[`<Play> renders as expected 1`] = `
     ]
   }
   currentTime={0}
-  isPlaying={false}
   maxIntensity={29}
   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
   <h2>Title</h2>
@@ -2023,13 +2022,14 @@ exports[`<Play> renders as expected 1`] = `
                 <Connect(TimelineIndicator)
                   currentTime={0}
                   duration={3693}
-                  playing={false}
+                  startTime={10}
                 >
                   <TimelineIndicator
                     currentTime={0}
                     duration={3693}
                     interval={10}
                     playing={false}
+                    startTime={10}
                     updateCurrentTime={[Function]}
                   >
                     <div

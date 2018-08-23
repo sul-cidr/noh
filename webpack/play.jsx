@@ -56,9 +56,9 @@ const App = props => (
               />
               <div className="shodan-map__container">
                 <TimelineIndicator
+                  startTime={10}
                   currentTime={props.currentTime}
                   duration={convertTimeToSeconds(props.videoDuration)}
-                  playing={props.isPlaying}
                 />
                 <ShodanTimeline
                   sections={props.sections}
@@ -83,7 +83,7 @@ App.propTypes = {
   videoDuration: PropTypes.string.isRequired,
   currentTime: PropTypes.number,
   startTime: PropTypes.number,
-  isPlaying: PropTypes.bool,
+  // isPlaying: PropTypes.bool,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       play: PropTypes.shape({ value: PropTypes.string }),
@@ -135,8 +135,8 @@ App.propTypes = {
 App.defaultProps = {
   title: "",
   currentTime: 0.0,
-  startTime: 0.0,
-  isPlaying: false
+  startTime: 0.0
+  // isPlaying: false
 };
 
 // If main app
