@@ -16,10 +16,35 @@ describe("<UnwrappedScore>", () => {
     isPrevSentenceOn: true,
     isNextSentenceOn: true
   };
+
   it("renders as expected", () => {
     const component = shallow(
       <UnwrappedScore
         phrases={phrases.phrases}
+        currentTime={1193}
+        toggles={allToggles}
+      />
+    );
+    expect(component).toMatchSnapshot();
+  });
+
+  it("renders as expected with unmetered phrases", () => {
+    const fixturesPhrases = phrases.phrases.slice();
+    fixturesPhrases[0].beat = {
+      value: "",
+      grid: [
+        {
+          text: "unmetered",
+          voices: [],
+          start: 12,
+          style: "normal",
+          length: 1
+        }
+      ]
+    };
+    const component = shallow(
+      <UnwrappedScore
+        phrases={fixturesPhrases}
         currentTime={1193}
         toggles={allToggles}
       />

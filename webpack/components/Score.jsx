@@ -51,19 +51,34 @@ class Score extends Component {
 
   createPhrase(phrase, position) {
     const beatNums = phrase ? createBeatsArray(phrase.beat.grid) : [];
-    const beats = beatNums.map((num, idx) => (
-      <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
-    ));
-    const percussion = phrase ? phrase.percussion.value : "None";
+    const [lastBeat] = beatNums.slice(-1);
+    let beats;
+    if (lastBeat && lastBeat.toLowerCase() === "unmetered") {
+      beats = [
+        <CellBeat beatText={lastBeat} length={beatNums.length} key="beatNum0" /> // eslint-disable-line react/no-array-index-key
+      ];
+    } else {
+      beats = beatNums.map((num, idx) => (
+        <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
+      ));
+    }
+    const percussion =
+      phrase && phrase.percussion ? phrase.percussion.value : "None";
     const measureBeats = this.state.toggles.isBeatOn ? (
       <div className="measure__channel">{beats}</div>
     ) : (
       ""
     );
+    let measureTextGrid = [];
+    if (phrase) {
+      measureTextGrid = phrase.text.grid.length
+        ? phrase.text.grid
+        : phrase.syllableText.grid;
+    }
     const measureText = this.state.toggles.isTextOn ? (
       <div className="measure__channel measure__channel--large">
         <ScoreTextLine
-          textGrid={phrase ? phrase.syllableText.grid : []}
+          textGrid={measureTextGrid}
           length={beatNums.length}
           rangeGrid={phrase ? phrase.vocalRange.grid : []}
         />
