@@ -56829,6 +56829,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum0"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56837,6 +56838,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="1"
                         key="beatNum1"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56847,6 +56849,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="2"
                         key="beatNum2"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56857,6 +56860,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum3"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56865,6 +56869,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="3"
                         key="beatNum4"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56875,6 +56880,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="4"
                         key="beatNum5"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56885,6 +56891,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum6"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56893,6 +56900,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="5"
                         key="beatNum7"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56903,6 +56911,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="6"
                         key="beatNum8"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56913,6 +56922,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum9"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56921,6 +56931,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="7"
                         key="beatNum10"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56931,6 +56942,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum11"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -56939,6 +56951,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="8"
                         key="beatNum12"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57528,6 +57541,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum0"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57536,6 +57550,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="1"
                         key="beatNum1"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57546,6 +57561,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="2"
                         key="beatNum2"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57556,6 +57572,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum3"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57564,6 +57581,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="3"
                         key="beatNum4"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57574,6 +57592,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="4"
                         key="beatNum5"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57584,6 +57603,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum6"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57592,6 +57612,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="5"
                         key="beatNum7"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57602,6 +57623,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="6"
                         key="beatNum8"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57612,6 +57634,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum9"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57620,6 +57643,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="7"
                         key="beatNum10"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57630,6 +57654,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum11"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -57638,6 +57663,7 @@ exports[`<Section> renders as expected 1`] = `
                       <CellBeat
                         beatText="8"
                         key="beatNum12"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121460,6 +121486,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum0"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121468,6 +121495,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="1"
                         key="beatNum1"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121478,6 +121506,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="2"
                         key="beatNum2"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121488,6 +121517,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum3"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121496,6 +121526,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="3"
                         key="beatNum4"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121506,6 +121537,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="4"
                         key="beatNum5"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121516,6 +121548,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum6"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121524,6 +121557,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="5"
                         key="beatNum7"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121534,6 +121568,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="6"
                         key="beatNum8"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121544,6 +121579,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum9"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121552,6 +121588,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="7"
                         key="beatNum10"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121562,6 +121599,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum11"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -121570,6 +121608,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="8"
                         key="beatNum12"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122159,6 +122198,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum0"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122167,6 +122207,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="1"
                         key="beatNum1"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122177,6 +122218,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="2"
                         key="beatNum2"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122187,6 +122229,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum3"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122195,6 +122238,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="3"
                         key="beatNum4"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122205,6 +122249,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="4"
                         key="beatNum5"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122215,6 +122260,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum6"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122223,6 +122269,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="5"
                         key="beatNum7"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122233,6 +122280,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="6"
                         key="beatNum8"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122243,6 +122291,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum9"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122251,6 +122300,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="7"
                         key="beatNum10"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122261,6 +122311,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText=""
                         key="beatNum11"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
@@ -122269,6 +122320,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       <CellBeat
                         beatText="8"
                         key="beatNum12"
+                        length={1}
                       >
                         <div
                           className="cell cell--1 cell--beat"
