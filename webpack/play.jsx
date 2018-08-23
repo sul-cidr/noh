@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
+import { Markup } from "interweave";
 
 import Acts from "./components/Acts";
 import IntermediaTable from "./components/IntermediaTable";
@@ -17,6 +18,9 @@ import { convertTimeToSeconds } from "./utils";
 const App = props => (
   <Provider store={store}>
     <div className="app-container">
+      <header>
+        <Markup content={props.header} />
+      </header>
       <aside className="sidebar sidebar--play">
         <div className="sidebar__header">
           <div className="sidebar__back-link">
@@ -79,6 +83,7 @@ const App = props => (
 App.propTypes = {
   title: PropTypes.string,
   narrative: PropTypes.string.isRequired,
+  header: PropTypes.string,
   videoUrl: PropTypes.string.isRequired,
   videoDuration: PropTypes.string.isRequired,
   currentTime: PropTypes.number,
@@ -136,7 +141,8 @@ App.defaultProps = {
   title: "",
   currentTime: 0.0,
   startTime: 0.0,
-  isPlaying: false
+  isPlaying: false,
+  header: ""
 };
 
 // If main app

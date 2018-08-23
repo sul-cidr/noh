@@ -342,6 +342,7 @@ exports[`<Section> renders as expected 1`] = `
     }
   }
   endTime={1746}
+  header="<div>Header</div>"
   intensity={
     Object {
       "number": "18",
@@ -17717,6 +17718,45 @@ exports[`<Section> renders as expected 1`] = `
     <div
       className="app-container"
     >
+      <header>
+        <Markup
+          content="<div>Header</div>"
+          disableLineBreaks={false}
+          disableWhitelist={false}
+          emptyContent={null}
+          noHtml={false}
+          noHtmlExceptMatchers={false}
+          parsedContent={null}
+          tagName="span"
+        >
+          <Element
+            attributes={Object {}}
+            className=""
+            commonClass="interweave"
+            selfClose={false}
+            tagName="span"
+          >
+            <span
+              className="interweave"
+            >
+              <Element
+                attributes={Object {}}
+                className=""
+                commonClass="interweave"
+                key="0"
+                selfClose={false}
+                tagName="div"
+              >
+                <div
+                  className="interweave"
+                >
+                  Header
+                </div>
+              </Element>
+            </span>
+          </Element>
+        </Markup>
+      </header>
       <aside
         className="sidebar sidebar--section"
       >
@@ -58357,6 +58397,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
     }
   }
   endTime={1746}
+  header=""
   intensity={
     Object {
       "number": "18",
@@ -59656,6 +59697,30 @@ exports[`<Section> renders as expected with no phrases 1`] = `
     <div
       className="app-container"
     >
+      <header>
+        <Markup
+          content=""
+          disableLineBreaks={false}
+          disableWhitelist={false}
+          emptyContent={null}
+          noHtml={false}
+          noHtmlExceptMatchers={false}
+          parsedContent={null}
+          tagName="span"
+        >
+          <Element
+            attributes={Object {}}
+            className=""
+            commonClass="interweave"
+            selfClose={false}
+            tagName="span"
+          >
+            <span
+              className="interweave"
+            />
+          </Element>
+        </Markup>
+      </header>
       <aside
         className="sidebar sidebar--section"
       >
@@ -64875,6 +64940,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
     }
   }
   endTime={1746}
+  header="<div>Header</div>"
   intensity={
     Object {
       "number": "18",
@@ -82250,6 +82316,45 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
     <div
       className="app-container"
     >
+      <header>
+        <Markup
+          content="<div>Header</div>"
+          disableLineBreaks={false}
+          disableWhitelist={false}
+          emptyContent={null}
+          noHtml={false}
+          noHtmlExceptMatchers={false}
+          parsedContent={null}
+          tagName="span"
+        >
+          <Element
+            attributes={Object {}}
+            className=""
+            commonClass="interweave"
+            selfClose={false}
+            tagName="span"
+          >
+            <span
+              className="interweave"
+            >
+              <Element
+                attributes={Object {}}
+                className=""
+                commonClass="interweave"
+                key="0"
+                selfClose={false}
+                tagName="div"
+              >
+                <div
+                  className="interweave"
+                >
+                  Header
+                </div>
+              </Element>
+            </span>
+          </Element>
+        </Markup>
+      </header>
       <aside
         className="sidebar sidebar--section"
       >

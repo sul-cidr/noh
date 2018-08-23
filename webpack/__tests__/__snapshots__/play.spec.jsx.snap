@@ -17,6 +17,7 @@ exports[`<Play> renders as expected 1`] = `
     ]
   }
   currentTime={0}
+  header="<div>Header</div>"
   isPlaying={false}
   maxIntensity={29}
   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
@@ -1315,6 +1316,45 @@ exports[`<Play> renders as expected 1`] = `
     <div
       className="app-container"
     >
+      <header>
+        <Markup
+          content="<div>Header</div>"
+          disableLineBreaks={false}
+          disableWhitelist={false}
+          emptyContent={null}
+          noHtml={false}
+          noHtmlExceptMatchers={false}
+          parsedContent={null}
+          tagName="span"
+        >
+          <Element
+            attributes={Object {}}
+            className=""
+            commonClass="interweave"
+            selfClose={false}
+            tagName="span"
+          >
+            <span
+              className="interweave"
+            >
+              <Element
+                attributes={Object {}}
+                className=""
+                commonClass="interweave"
+                key="0"
+                selfClose={false}
+                tagName="div"
+              >
+                <div
+                  className="interweave"
+                >
+                  Header
+                </div>
+              </Element>
+            </span>
+          </Element>
+        </Markup>
+      </header>
       <aside
         className="sidebar sidebar--play"
       >
