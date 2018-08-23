@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
+import { Markup } from "interweave";
 
 import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
@@ -56,6 +57,9 @@ export default class App extends Component {
     return (
       <Provider store={store}>
         <div className="app-container">
+          <header>
+            <Markup content={this.props.header} />
+          </header>
           <aside className="sidebar sidebar--section">
             <div className="sidebar__header">
               <div className="sidebar__back-link">
@@ -80,15 +84,16 @@ export default class App extends Component {
             <div className="sidebar__extras">
               <div
                 role="presentation"
-                className={`highlighted-text__container ${this.state
-                  .isHighlightedTextOn
-                  ? "is-open"
-                  : ""} ${this.props.singingStyle &&
-                this.props.singingStyle !== ""
-                  ? ""
-                  : "disabled"}`}
+                className={`highlighted-text__container ${
+                  this.state.isHighlightedTextOn ? "is-open" : ""
+                } ${
+                  this.props.singingStyle && this.props.singingStyle !== ""
+                    ? ""
+                    : "disabled"
+                }`}
                 onClick={event =>
-                  this.handleToggle(event, "isHighlightedTextOn")}
+                  this.handleToggle(event, "isHighlightedTextOn")
+                }
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
@@ -107,12 +112,12 @@ export default class App extends Component {
               </div>
               <div
                 role="presentation"
-                className={`shodan-timeline__container ${this.state
-                  .isShodanTimelineOn
-                  ? "is-open"
-                  : ""}`}
+                className={`shodan-timeline__container ${
+                  this.state.isShodanTimelineOn ? "is-open" : ""
+                }`}
                 onClick={event =>
-                  this.handleToggle(event, "isShodanTimelineOn")}
+                  this.handleToggle(event, "isShodanTimelineOn")
+                }
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
@@ -154,6 +159,7 @@ App.propTypes = {
   // isPlaying: PropTypes.bool,
   maxIntensity: PropTypes.number.isRequired,
   narrative: PropTypes.string.isRequired,
+  header: PropTypes.string,
   captions: PropTypes.arrayOf(
     PropTypes.shape({
       phraseID: PropTypes.string,
@@ -205,7 +211,8 @@ App.defaultProps = {
   // currentTime: 0.0,
   // startTime: 0.0,
   // isPlaying: false
-  singingStyle: ""
+  singingStyle: "",
+  header: ""
 };
 
 // If main app

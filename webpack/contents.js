@@ -16,7 +16,15 @@ export function getPlay(playName, callback, error) {
         .get(props.narrative)
         .then(resp => {
           props.narrative = resp.data;
-          callback(props);
+          axios
+            .get("/header")
+            .then(headerResponse => {
+              props.header = headerResponse.data;
+              callback(props);
+            })
+            .catch(err => {
+              error(err);
+            });
         })
         .catch(err => {
           error(err);
@@ -35,8 +43,9 @@ export function getSection(playName, sectionName, callback, error) {
       const props = sectionResponse.data;
       props.startTime = props.startTime.value;
       props.endTime = props.endTime.value;
-      props.videoUrl = `${props.videoUrl
-        .value}#t=${props.startTime},${props.endTime}`;
+      props.videoUrl = `${props.videoUrl.value}#t=${props.startTime},${
+        props.endTime
+      }`;
       props.videoDuration = convertTimeToSeconds(props.videoDuration.value);
       props.captions = props.captions.map((caption, index) =>
         Object.assign(caption, { phraseID: index.toString() })
@@ -54,7 +63,15 @@ export function getSection(playName, sectionName, callback, error) {
               props.sections = playResponse.data.sections;
               props.maxIntensity = playResponse.data.maxIntensity;
               props.tracks = playResponse.data.tracks;
-              callback(props);
+              axios
+                .get("/header")
+                .then(headerResponse => {
+                  props.header = headerResponse.data;
+                  callback(props);
+                })
+                .catch(err => {
+                  error(err);
+                });
             })
             .catch(err => {
               error(err);

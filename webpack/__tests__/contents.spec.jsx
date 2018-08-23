@@ -6,6 +6,7 @@ const mock = new MockAdapter(axios);
 
 describe("contents fetcher", () => {
   it("play data is retrieved and the callback invoked", () => {
+    const header = "<div>Header</div>";
     mock.reset();
     mock
       .onGet("/data/hashitomi.json")
@@ -15,14 +16,40 @@ describe("contents fetcher", () => {
         acts: [{ duration: "00:01:00" }]
       })
       .onGet("/hashitomi.html")
-      .reply(200, "Text content");
+      .reply(200, "Text content")
+      .onGet("/header")
+      .reply(200, header);
     contents.play("hashitomi", props => {
       expect(props).toEqual({
         narrative: "Text content",
         title: "Title",
-        acts: [{ duration: 60 }]
+        acts: [{ duration: 60 }],
+        header
       });
     });
+  });
+
+  it("play data is retrieved but header is not and the error callback is invoked", done => {
+    mock.reset();
+    mock
+      .onGet("/data/hashitomi.json")
+      .reply(200, {
+        narrative: "/hashitomi.html",
+        title: "Title",
+        acts: [{ duration: "00:01:00" }]
+      })
+      .onGet("/hashitomi.html")
+      .reply(200, "Text content")
+      .onGet("/header")
+      .reply(500);
+    contents.play(
+      "hashitomi",
+      () => {},
+      () => {
+        expect(true).toBe(true);
+        done();
+      }
+    );
   });
 
   it("play data is not retrieved and the error callback invoked", () => {
@@ -96,7 +123,7 @@ describe("contents fetcher", () => {
     );
   });
 
-  it("section and narrative data is retrieved but play data is not the error callback is invoked", () => {
+  it("section and narrative data is retrieved but play data is not and the error callback is invoked", () => {
     mock.reset();
     mock
       .onGet("/data/hashitomi/kiri.json")
@@ -125,7 +152,7 @@ describe("contents fetcher", () => {
     );
   });
 
-  it("section, narrative, and play data is retrieved and the callback invoked", () => {
+  it("section, narrative, header, and play data is retrieved and the callback invoked", done => {
     const sectionData = {
       narrative: { value: "/hashitomi/narratives/kiri.html" },
       sectionName: { value: "Hashitomi Kiri" },
@@ -152,10 +179,13 @@ describe("contents fetcher", () => {
       .onGet("/hashitomi/narratives/kiri.html")
       .reply(200, "Text content")
       .onGet("/data/hashitomi.json")
-      .reply(200, playData);
+      .reply(200, playData)
+      .onGet("/header")
+      .reply(200, "<div>Header</div>");
     contents.section("hashitomi", "kiri", props => {
       expect(props).toEqual({
         ...sectionData,
+        header: "<div>Header</div>",
         narrative: "Text content",
         title: "Hashitomi Kiri",
         startTime: 60,
@@ -172,6 +202,48 @@ describe("contents fetcher", () => {
         tracks: [{}, {}],
         maxIntensity: 10
       });
+      done();
     });
+  });
+
+  it("section, narrative, and play data is retrieved but header is not and the error callback invoked", done => {
+    const sectionData = {
+      narrative: { value: "/hashitomi/narratives/kiri.html" },
+      sectionName: { value: "Hashitomi Kiri" },
+      startTime: { value: 60 },
+      endTime: { value: 120 },
+      videoUrl: { value: "url" },
+      videoDuration: { value: "00:03:00" },
+      captions: [{}, {}],
+      play: { value: "Hashitomi" },
+      voice: { value: "style" }
+    };
+    const playData = {
+      sections: [
+        { intensity: { number: 10 } },
+        { intensity: { number: null } }
+      ],
+      maxIntensity: 10,
+      tracks: [{}, {}]
+    };
+    mock.reset();
+    mock
+      .onGet("/data/hashitomi/kiri.json")
+      .reply(200, sectionData)
+      .onGet("/hashitomi/narratives/kiri.html")
+      .reply(200, "Text content")
+      .onGet("/data/hashitomi.json")
+      .reply(200, playData)
+      .onGet("/header")
+      .reply(500, "No content");
+    contents.section(
+      "hashitomi",
+      "kiri",
+      () => {},
+      () => {
+        expect(true).toBe(true);
+        done();
+      }
+    );
   });
 });
