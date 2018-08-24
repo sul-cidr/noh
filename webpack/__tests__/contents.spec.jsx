@@ -159,6 +159,7 @@ describe("contents fetcher", () => {
         narrative: "Text content",
         title: "Hashitomi Kiri",
         startTime: 60,
+        duration: 60,
         endTime: 120,
         videoUrl: "url#t=60,120",
         videoDuration: 180,

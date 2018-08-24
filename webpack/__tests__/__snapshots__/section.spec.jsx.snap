@@ -341,6 +341,7 @@ exports[`<Section> renders as expected 1`] = `
       "value": "Dance to text/Martial mode",
     }
   }
+  duration={553}
   endTime={1746}
   intensity={
     Object {
@@ -56749,6 +56750,7 @@ exports[`<Section> renders as expected 1`] = `
               }
               toggles={
                 Object {
+                  "duration": 553,
                   "isBeatOn": true,
                   "isDanceOn": true,
                   "isNextSentenceOn": true,
@@ -56756,6 +56758,7 @@ exports[`<Section> renders as expected 1`] = `
                   "isPercussionOn": true,
                   "isPrevSentenceOn": false,
                   "isTextOn": true,
+                  "startTime": 1193,
                   "updateScoreToggles": [Function],
                 }
               }
@@ -56768,6 +56771,7 @@ exports[`<Section> renders as expected 1`] = `
                   className="measure measure--undefined"
                 >
                   <MeasureLabelContainer
+                    duration={553}
                     isBeatOn={true}
                     isDanceOn={true}
                     isNextSentenceOn={true}
@@ -56777,6 +56781,7 @@ exports[`<Section> renders as expected 1`] = `
                     isTextOn={true}
                     next={false}
                     previous={false}
+                    startTime={1193}
                     undefined={true}
                     updateScoreToggles={[Function]}
                   >
@@ -57508,6 +57513,7 @@ exports[`<Section> renders as expected 1`] = `
                   className="measure measure--next"
                 >
                   <MeasureLabelContainer
+                    duration={553}
                     isBeatOn={true}
                     isDanceOn={true}
                     isNextSentenceOn={true}
@@ -57517,6 +57523,7 @@ exports[`<Section> renders as expected 1`] = `
                     isTextOn={true}
                     next={true}
                     previous={false}
+                    startTime={1193}
                     updateScoreToggles={[Function]}
                   >
                     <div
@@ -58101,10 +58108,13 @@ exports[`<Section> renders as expected 1`] = `
             </Score>
           </Connect(Score)>
           <Connect(ScoreControls)
+            duration={553}
             isPrevSentenceOn={false}
             key="score-controls"
+            startTime={1193}
           >
             <ScoreControls
+              duration={553}
               isBeatOn={true}
               isDanceOn={true}
               isNextSentenceOn={true}
@@ -58112,6 +58122,7 @@ exports[`<Section> renders as expected 1`] = `
               isPercussionOn={true}
               isPrevSentenceOn={false}
               isTextOn={true}
+              startTime={1193}
               updateScoreToggles={[Function]}
             >
               <div
@@ -58291,6 +58302,96 @@ exports[`<Section> renders as expected 1`] = `
                     </label>
                   </li>
                 </ul>
+                <div
+                  className="video-progress"
+                >
+                  <Connect(TimelineIndicator)
+                    duration={553}
+                    startTime={1193}
+                  >
+                    <TimelineIndicator
+                      currentTime={0}
+                      duration={553}
+                      interval={10}
+                      playing={false}
+                      startTime={1193}
+                      updateCurrentTime={[Function]}
+                    >
+                      <div
+                        className="time-indicator-container"
+                      >
+                        <Draggable
+                          allowAnyClick={false}
+                          axis="x"
+                          bounds="parent"
+                          cancel={null}
+                          defaultClassName="react-draggable"
+                          defaultClassNameDragged="react-draggable-dragged"
+                          defaultClassNameDragging="react-draggable-dragging"
+                          defaultPosition={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
+                          disabled={false}
+                          enableUserSelectHack={true}
+                          grid={null}
+                          handle=".time-indicator"
+                          offsetParent={null}
+                          onDrag={[Function]}
+                          onMouseDown={[Function]}
+                          onStart={[Function]}
+                          onStop={[Function]}
+                          position={null}
+                          transform={null}
+                        >
+                          <DraggableCore
+                            allowAnyClick={false}
+                            axis="x"
+                            bounds="parent"
+                            cancel={null}
+                            defaultClassName="react-draggable"
+                            defaultClassNameDragged="react-draggable-dragged"
+                            defaultClassNameDragging="react-draggable-dragging"
+                            defaultPosition={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
+                            disabled={false}
+                            enableUserSelectHack={true}
+                            grid={null}
+                            handle=".time-indicator"
+                            offsetParent={null}
+                            onDrag={[Function]}
+                            onMouseDown={[Function]}
+                            onStart={[Function]}
+                            onStop={[Function]}
+                            position={null}
+                            transform={null}
+                          >
+                            <div
+                              className="time-indicator react-draggable"
+                              onMouseDown={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "touchAction": "none",
+                                  "transform": "translate(0px,0px)",
+                                }
+                              }
+                              transform={null}
+                            />
+                          </DraggableCore>
+                        </Draggable>
+                      </div>
+                    </TimelineIndicator>
+                  </Connect(TimelineIndicator)>
+                </div>
                 <ul
                   className="measure-toggles"
                 >
@@ -58382,6 +58483,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
       "value": "Dance to text/Martial mode",
     }
   }
+  duration={553}
   endTime={1746}
   intensity={
     Object {
@@ -64900,6 +65002,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
       "value": "Dance to text/Martial mode",
     }
   }
+  duration={553}
   endTime={1746}
   intensity={
     Object {
@@ -121304,6 +121407,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
               }
               toggles={
                 Object {
+                  "duration": 553,
                   "isBeatOn": true,
                   "isDanceOn": true,
                   "isNextSentenceOn": true,
@@ -121311,6 +121415,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   "isPercussionOn": true,
                   "isPrevSentenceOn": false,
                   "isTextOn": true,
+                  "startTime": 1193,
                   "updateScoreToggles": [Function],
                 }
               }
@@ -121323,6 +121428,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   className="measure measure--undefined"
                 >
                   <MeasureLabelContainer
+                    duration={553}
                     isBeatOn={true}
                     isDanceOn={true}
                     isNextSentenceOn={true}
@@ -121332,6 +121438,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     isTextOn={true}
                     next={false}
                     previous={false}
+                    startTime={1193}
                     undefined={true}
                     updateScoreToggles={[Function]}
                   >
@@ -122063,6 +122170,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   className="measure measure--next"
                 >
                   <MeasureLabelContainer
+                    duration={553}
                     isBeatOn={true}
                     isDanceOn={true}
                     isNextSentenceOn={true}
@@ -122072,6 +122180,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     isTextOn={true}
                     next={true}
                     previous={false}
+                    startTime={1193}
                     updateScoreToggles={[Function]}
                   >
                     <div
@@ -122656,10 +122765,13 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
             </Score>
           </Connect(Score)>
           <Connect(ScoreControls)
+            duration={553}
             isPrevSentenceOn={false}
             key="score-controls"
+            startTime={1193}
           >
             <ScoreControls
+              duration={553}
               isBeatOn={true}
               isDanceOn={true}
               isNextSentenceOn={true}
@@ -122667,6 +122779,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
               isPercussionOn={true}
               isPrevSentenceOn={false}
               isTextOn={true}
+              startTime={1193}
               updateScoreToggles={[Function]}
             >
               <div
@@ -122846,6 +122959,96 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     </label>
                   </li>
                 </ul>
+                <div
+                  className="video-progress"
+                >
+                  <Connect(TimelineIndicator)
+                    duration={553}
+                    startTime={1193}
+                  >
+                    <TimelineIndicator
+                      currentTime={0}
+                      duration={553}
+                      interval={10}
+                      playing={false}
+                      startTime={1193}
+                      updateCurrentTime={[Function]}
+                    >
+                      <div
+                        className="time-indicator-container"
+                      >
+                        <Draggable
+                          allowAnyClick={false}
+                          axis="x"
+                          bounds="parent"
+                          cancel={null}
+                          defaultClassName="react-draggable"
+                          defaultClassNameDragged="react-draggable-dragged"
+                          defaultClassNameDragging="react-draggable-dragging"
+                          defaultPosition={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
+                          disabled={false}
+                          enableUserSelectHack={true}
+                          grid={null}
+                          handle=".time-indicator"
+                          offsetParent={null}
+                          onDrag={[Function]}
+                          onMouseDown={[Function]}
+                          onStart={[Function]}
+                          onStop={[Function]}
+                          position={null}
+                          transform={null}
+                        >
+                          <DraggableCore
+                            allowAnyClick={false}
+                            axis="x"
+                            bounds="parent"
+                            cancel={null}
+                            defaultClassName="react-draggable"
+                            defaultClassNameDragged="react-draggable-dragged"
+                            defaultClassNameDragging="react-draggable-dragging"
+                            defaultPosition={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
+                            disabled={false}
+                            enableUserSelectHack={true}
+                            grid={null}
+                            handle=".time-indicator"
+                            offsetParent={null}
+                            onDrag={[Function]}
+                            onMouseDown={[Function]}
+                            onStart={[Function]}
+                            onStop={[Function]}
+                            position={null}
+                            transform={null}
+                          >
+                            <div
+                              className="time-indicator react-draggable"
+                              onMouseDown={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "touchAction": "none",
+                                  "transform": "translate(0px,0px)",
+                                }
+                              }
+                              transform={null}
+                            />
+                          </DraggableCore>
+                        </Draggable>
+                      </div>
+                    </TimelineIndicator>
+                  </Connect(TimelineIndicator)>
+                </div>
                 <ul
                   className="measure-toggles"
                 >
