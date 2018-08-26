@@ -1,4 +1,22 @@
-$tl-separator: 0.0625rem solid $border-color;
+/* Wrapper */
+
+$number-columns: 12;
+$col-width: 3rem;
+$gutter-width: 2rem;
+
+$wrapper-small: 60rem;
+$wrapper-large: $number-columns*$col-width + ($number-columns - 1)*$gutter-width;
+
+/* Header */
+
+$header-small-height: 4rem;
+
+/* Videoplayer layout */
+
+$video-player-bottom-margin: 1rem;
+$video-player-height: calc(100vh - #{$header-small-height} - #{$video-player-bottom-margin});
+$border: 0.0625rem solid $border-color;
+
 
 /* Play timeline */
 

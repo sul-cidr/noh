@@ -5,44 +5,50 @@
   align-items: $align;
 }
 
-@mixin text($size) {
- font-size: map-get($font-sizes-sans, $size);
- line-height: map-get($line-heights-sans, $size);
+@mixin text($size, $font:'display') {
+  @if $font == 'display' {
+    font-size: map-get($font-sizes-display, $size);
+    line-height: map-get($line-heights-display, $size);
+  } 
+  @else if $font == 'text' {
+    font-size: map-get($font-sizes-text, $size);
+    line-height: map-get($line-heights-text, $size);
+  }
 }
 
 @mixin uppercase() {
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 @mixin tooltip() {
   &::before {
-    background-color: $black;
-    border-radius: 0.25rem;
-    color: $white;
+    background-color: $brown;
+    border-radius: 0.125rem;
+    color: $beige-light;
     content: attr(data-tooltip);
     display: none;
     padding: 0.375rem 0.5rem;
     position: absolute;
-    top: -2.125rem;
+    top: -2.875rem;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     z-index: 20;
 
-    @include text(md);
+    @include text(xs);
   }
 
   &::after {
     border-style: solid;
     border-width: 0.5rem 0.5rem 0 0.5rem;
-    border-color: $black transparent transparent transparent;
+    border-color: $brown transparent transparent transparent;
     content: "";
     display: none;
     height: 0;
     width: 0;
     position: absolute;
-    top: -0.625rem;
+    top: -0.75rem;
     left: 50%;
     transform: translateX(-50%);
   }
