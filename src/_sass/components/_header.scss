@@ -1,0 +1,46 @@
+.header {
+  background-color: $green;
+  .logo--isotype { display: none; }
+}
+
+.header__content {
+  min-height: $header-small-height;
+
+  @include flex-container();
+}
+
+.header--small {
+  .logo--standard { display: none; }
+}
+
+.logo {
+  display: block;
+  
+  span {
+    display: block;
+  }
+}
+
+.header__nav {
+  ul {
+    @include flex-container();
+  }
+
+  li {
+    a {
+      color: $white80;
+      display: inline-block;
+      padding: 0 0.75rem;
+      text-decoration: none;
+ 
+      @include uppercase();
+    }
+
+    &.active {
+      a {
+        color: $white;
+        font-weight: $fw-semibold;
+      }
+    }
+  }
+}

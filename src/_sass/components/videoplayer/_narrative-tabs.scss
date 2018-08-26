@@ -1,7 +1,7 @@
 .react-tabs {}
 
 .react-tabs__tab-list {
-  border-bottom-color: rgba($blue-light, 0);
+  border-bottom-color: rgba($score_blue-light, 0);
   border-bottom-style: solid;
   border-bottom-width: 0.0625rem;
   left: 0;
@@ -22,18 +22,18 @@
   border-bottom-width: 0.25rem;
   color: $grey-dark;
   flex: 1;
-  font-weight: $fw-bold;
+  font-weight: $fw-semibold;
   padding: 0.625rem 1rem;
   text-align: center;
 
-  @include text(sm);
+  @include text(xxs);
   @include uppercase();
   @include truncate();
 }
 
 .react-tabs__tab--selected {
-  border-bottom-color: $blue-dark;
-  color: $blue-dark;
+  border-bottom-color: $score_blue-dark;
+  color: $score_blue-dark;
 }
 
 .react-tabs__tab-panel {}

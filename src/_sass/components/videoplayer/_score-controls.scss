@@ -2,7 +2,7 @@ $score-controls-height: 2.5rem;
 $score-checkbox-height: 1.5rem;
 
 .score-controls {
-  background-color: $blue-dark;
+  background-color: $score_blue-dark;
   height: $score-controls-height;
   padding: 0 0.625rem;
   width: 100%;
@@ -24,10 +24,10 @@ $score-checkbox-height: 1.5rem;
       &:checked {
         & + label {
           background-color: $white;
-          color: $blue-dark;
+          color: $score_blue-dark;
 
           g {
-            fill: $blue-dark;
+            fill: $score_blue-dark;
           }
         }
       }
@@ -37,7 +37,7 @@ $score-checkbox-height: 1.5rem;
       background-color: rgba($white, 0.25);
       border-radius: 0.125rem;
       color: $white;
-      font-weight: $fw-medium;
+      font-weight: $fw-semibold;
       height: $score-checkbox-height;
       padding: 0.25rem 0.5rem;
 

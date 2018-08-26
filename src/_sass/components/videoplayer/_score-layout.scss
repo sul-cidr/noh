@@ -13,7 +13,7 @@
 
 .score {
   background-color: $white;
-  border-top: $tl-separator;
+  border-top: $border;
   width: 100%;
 }
 
@@ -41,12 +41,12 @@
 }
 
 .measure__label-container {
-  border-right: $tl-separator;
+  border-right: $border;
   flex-basis: $score-label-width;
   flex-shrink: 0;
 
   .measure__channel {
-    border-bottom: $tl-separator;
+    border-bottom: $border;
     font-weight: $fw-bold;
     padding: 0 0.5rem;
 
@@ -64,8 +64,8 @@
 }
 
 .cell {
-  border-bottom: $tl-separator;
-  border-right: $tl-separator;
+  border-bottom: $border;
+  border-right: $border;
   height: $score-channel-height;
   padding: 0 0.25rem;
 
@@ -82,7 +82,7 @@
   color: $black;
 
   .measure__label-container {
-    border-bottom: $tl-separator;
+    border-bottom: $border;
     font-weight: $fw-bold;
     padding: 0 0.5rem;
 
