@@ -3,9 +3,13 @@
 
   {% include head.html %}
 
-  <body>
-    {% include header.html %}
-    <div id="play">
+  <body class="body-play">
+
+    <header class="header">
+      {% include header.html %}
+    </header>
+
+    <div id="play" class="play-container">
     {{ content }}
     </div>
     <script type="text/javascript" src="/assets/play.bundle.js" charset="utf-8"></script>
