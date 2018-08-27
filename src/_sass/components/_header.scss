@@ -33,6 +33,7 @@
       padding: 0 0.75rem;
       text-decoration: none;
  
+      @include text(xs);
       @include uppercase();
     }
 

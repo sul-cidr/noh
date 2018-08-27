@@ -94,7 +94,7 @@
     flex-shrink: 0;
     margin-right: 1rem;
 
-    @include text(sm);
+    @include text(xs);
     @include uppercase();
   }
 

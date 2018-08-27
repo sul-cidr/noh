@@ -56,17 +56,19 @@
   @include flex-container($justify:space-between, $align:baseline);
 
   p {
-    @include text(md);
-
+    @include text(sm);
+    
     span {
       font-weight: $fw-bold;
-
+      
+      @include text(xs);
       @include uppercase();
     }
   }
 }
 
 .transcription__text {
+  font-family: $font-text;
   max-height: 0;
   overflow-y: auto;
 
