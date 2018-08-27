@@ -47,10 +47,10 @@
 
   .measure__channel {
     border-bottom: $border;
-    font-weight: $fw-bold;
+    font-weight: $fw-semibold;
     padding: 0 0.5rem;
 
-    @include text(xs);
+    @include text(xxs);
     @include uppercase();
   }
 }
