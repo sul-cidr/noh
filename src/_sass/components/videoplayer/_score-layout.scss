@@ -1,3 +1,14 @@
+@keyframes bgBlink {
+  0% {
+    background-color: rgba($beige-dark,1);
+  }
+
+  100% {
+    background-color: rgba($beige-dark,0);
+  }
+}
+
+
 @mixin grid-column($n) {
   .cell--#{$n} {
     min-width: $score-cell-width * $n;
@@ -47,10 +58,10 @@
 
   .measure__channel {
     border-bottom: $border;
-    font-weight: $fw-bold;
+    font-weight: $fw-semibold;
     padding: 0 0.5rem;
 
-    @include text(xs);
+    @include text(xxs);
     @include uppercase();
   }
 }
@@ -70,6 +81,7 @@
   padding: 0 0.25rem;
 
   @include flex-container($justify: flex-start);
+  @include text(xs);
 
   .measure__channel--large & {
     height: $score-channel-large-height;
@@ -78,23 +90,31 @@
 
 .measure--next,
 .measure--previous {
-  background-color: $grey-lighter;
+  background-color: $beige-light;
   color: $black;
 
   .measure__label-container {
     border-bottom: $border;
-    font-weight: $fw-bold;
+    font-weight: $fw-semibold;
     padding: 0 0.5rem;
 
     @include flex-container($justify: center);
-    @include text(xs);
+    @include text(xxs);
     @include uppercase();
-  }
-
-  .cell {
   }
 }
 
 .measure--current {
   background-color: $white;
+}
+
+.measure--undefined {
+  animation-timing-function: ease-in-out;
+  animation-duration: 600ms;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  transform-style: preserve-3d;
+  animation-name: bgBlink;
 }

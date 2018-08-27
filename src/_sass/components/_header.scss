@@ -1,5 +1,7 @@
 .header {
   background-color: $green;
+  padding: 0 1rem;
+
   .logo--isotype { display: none; }
 }
 
@@ -11,6 +13,7 @@
 
 .header--small {
   .logo--standard { display: none; }
+  .logo--isotype { display: block; }
 }
 
 .logo {
@@ -33,6 +36,7 @@
       padding: 0 0.75rem;
       text-decoration: none;
  
+      @include text(xs);
       @include uppercase();
     }
 

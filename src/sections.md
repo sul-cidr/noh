@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sections
+menu-active: plays
 ---
 
 <h3>Hashitomi sections</h3>

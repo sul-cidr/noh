@@ -56,17 +56,19 @@
   @include flex-container($justify:space-between, $align:baseline);
 
   p {
-    @include text(md);
-
+    @include text(xs);
+    
     span {
       font-weight: $fw-bold;
-
+      
+      @include text(xxs);
       @include uppercase();
     }
   }
 }
 
 .transcription__text {
+  font-family: $font-text;
   max-height: 0;
   overflow-y: auto;
 
@@ -92,7 +94,7 @@
   flex: 1;
   font-family: $font-text;
 
-  @include text(lg);
+  @include text(xs);
 }
 
 .transcription__original {
