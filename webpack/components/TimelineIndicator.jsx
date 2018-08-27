@@ -33,7 +33,7 @@ class TimelineIndicator extends Component {
   }
 
   calculateCurrentTime() {
-    return 1e3 * this.props.currentTime; // currentTime is given in seconds
+    return 1e3 * (this.props.currentTime - this.props.startTime); // currentTime is given in seconds
   }
 
   calculateRemainingTime() {
@@ -47,7 +47,7 @@ class TimelineIndicator extends Component {
   calculateProgress() {
     const progress = this.state.playedTime / this.calculateMaxTime();
     const offset = this.container.current.offsetWidth;
-    return progress * offset;
+    return Math.min(Math.max(progress * offset, 0), offset);
   }
 
   tick() {
@@ -73,7 +73,7 @@ class TimelineIndicator extends Component {
     this.setState({
       beingDragged: false
     });
-    this.props.updateCurrentTime(progressInSeconds);
+    this.props.updateCurrentTime(progressInSeconds + this.props.startTime);
   }
 
   handleDragStart() {
@@ -111,7 +111,8 @@ class TimelineIndicator extends Component {
 TimelineIndicator.propTypes = {
   duration: PropTypes.number.isRequired,
   interval: PropTypes.number,
-  currentTime: PropTypes.number.isRequired,
+  currentTime: PropTypes.number,
+  startTime: PropTypes.number,
   playing: PropTypes.bool,
   updateCurrentTime: PropTypes.func
 };
@@ -119,7 +120,9 @@ TimelineIndicator.propTypes = {
 TimelineIndicator.defaultProps = {
   interval: 10, // down to the millisecond it behaves erratically
   playing: false,
-  updateCurrentTime: null
+  updateCurrentTime: null,
+  currentTime: 0,
+  startTime: 0
 };
 
 const mapStateToProps = state => ({

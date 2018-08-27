@@ -35,8 +35,10 @@ export function getSection(playName, sectionName, callback, error) {
       const props = sectionResponse.data;
       props.startTime = props.startTime.value;
       props.endTime = props.endTime.value;
-      props.videoUrl = `${props.videoUrl
-        .value}#t=${props.startTime},${props.endTime}`;
+      props.duration = props.endTime - props.startTime;
+      props.videoUrl = `${props.videoUrl.value}#t=${props.startTime},${
+        props.endTime
+      }`;
       props.videoDuration = convertTimeToSeconds(props.videoDuration.value);
       props.captions = props.captions.map((caption, index) =>
         Object.assign(caption, { phraseID: index.toString() })

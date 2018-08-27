@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setScoreToggles } from "../actionCreators";
+import TimelineIndicator from "./TimelineIndicator";
 
 class ScoreControls extends Component {
   constructor(props) {
@@ -130,6 +131,12 @@ class ScoreControls extends Component {
             </label>
           </li>
         </ul>
+        <div className="video-progress">
+          <TimelineIndicator
+            startTime={this.props.startTime}
+            duration={this.props.duration}
+          />
+        </div>
         <ul className="measure-toggles">
           <li>
             <input
@@ -171,7 +178,9 @@ ScoreControls.propTypes = {
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
   isNextSentenceOn: PropTypes.bool,
-  updateScoreToggles: PropTypes.func
+  updateScoreToggles: PropTypes.func,
+  startTime: PropTypes.number,
+  duration: PropTypes.number.isRequired
 };
 
 ScoreControls.defaultProps = {
@@ -182,7 +191,8 @@ ScoreControls.defaultProps = {
   isDanceOn: true,
   isPrevSentenceOn: true,
   isNextSentenceOn: true,
-  updateScoreToggles: () => {}
+  updateScoreToggles: () => {},
+  startTime: 0
 };
 
 const mapDispatchToProps = dispatch => ({
@@ -190,4 +200,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = ScoreControls;
-export default connect(null, mapDispatchToProps)(ScoreControls);
+export default connect(
+  null,
+  mapDispatchToProps
+)(ScoreControls);
