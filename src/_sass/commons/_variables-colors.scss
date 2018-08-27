@@ -8,49 +8,62 @@ $grey-lightest: #f7f9fa;
 
 $black: #141515;
 $white: #fff;
+$white80: rgba(255,255,255,0.8);
 
-$purple: #7b65a6;
-$purple-shade-1: #9a88bf;
-$purple-shade-2: #bdb0d9;
+$green:       #6a755e;
+$green16:       rgba($green, 0.16);
+$green32:       rgba($green, 0.32);
+$red:         #8f1b0e;
+$brown:       #4a4036;
+$brown08:       rgba($brown, 0.08);
+$brown16:       rgba($brown, 0.16);
+$brown32:       rgba($brown, 0.32);
+$brown64:       rgba($brown, 0.64);
+$beige-dark:  #f2ece6;
+$beige-light: #f9f6f3;
 
-$blue-dark: #193a73;
-$blue-dark-shade-1: #395c99;
-$blue-dark-shade-2: #6385bf;
+$bg-color: $beige-light;
+$border-color: $brown16;
 
-$blue-light: #65a6c9;
-$blue-light-shade-1: #87c1e0;
-$blue-light-shade-2: #93c9e6;
+$score_purple: #7b65a6;
+$score_purple-shade-1: #9a88bf;
+$score_purple-shade-2: #bdb0d9;
 
-$green: #4d9990;
-$green-shade-1: #77c7be;
-$green-shade-2: #8cd1c9;
+$score_blue-dark: #193a73;
+$score_blue-dark-shade-1: #395c99;
+$score_blue-dark-shade-2: #6385bf;
 
-$yellow: #e6dc73;
-$yellow-shade-1: #f2ea91;
-$yellow-shade-2: #fff9b3;
+$score_blue-light: #65a6c9;
+$score_blue-light-shade-1: #87c1e0;
+$score_blue-light-shade-2: #93c9e6;
 
-$orange: #e6ab45;
-$orange-shade-1: #f2c16d;
-$orange-shade-2: #ffda99;
+$score_green: #4d9990;
+$score_green-shade-1: #77c7be;
+$score_green-shade-2: #8cd1c9;
 
-$red: #ed4c4f;
-$red-shade-1: #f26f72;
-$red-shade-2: #ff999b;
+$score_yellow: #e6dc73;
+$score_yellow-shade-1: #f2ea91;
+$score_yellow-shade-2: #fff9b3;
 
-$brown: #7d5454;
-$brown-shade-1: #967474;
-$brown-shade-2: #b09999;
+$score_orange: #e6ab45;
+$score_orange-shade-1: #f2c16d;
+$score_orange-shade-2: #ffda99;
 
-$bg-color: $grey-lighter;
-$border-color: rgba($grey-medium, 0.7);
+$score_red: #ed4c4f;
+$score_red-shade-1: #f26f72;
+$score_red-shade-2: #ff999b;
+
+$score_brown: #7d5454;
+$score_brown-shade-1: #967474;
+$score_brown-shade-2: #b09999;
 
 $color-channel-beat: $white;
 $color-channel-text: $white;
-$color-channel-nohkan: rgba($yellow-shade-2, 0.3);
-$color-channel-dance: rgba($orange-shade-2, 0.3);
+$color-channel-nohkan: rgba($score_yellow-shade-2, 0.3);
+$color-channel-dance: rgba($score_orange-shade-2, 0.3);
 
-$color-character-jiutai: $red-shade-1;
-$color-character-aikyogen: $blue-light-shade-1;
-$color-character-shite: $green-shade-1;
-$color-character-waki: $orange-shade-1;
-$color-character-waki-tsure: $yellow-shade-1;
+$color-character-jiutai: $score_red-shade-1;
+$color-character-aikyogen: $score_blue-light-shade-1;
+$color-character-shite: $score_green-shade-1;
+$color-character-waki: $score_orange-shade-1;
+$color-character-waki-tsure: $score_yellow-shade-1;

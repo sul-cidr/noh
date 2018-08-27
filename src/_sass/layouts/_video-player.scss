@@ -1,6 +1,15 @@
+.body-play {
+  background-color: $bg-color;
+}
+
+.play-container {
+  border-bottom: $border;
+  box-shadow: 0 0.125rem 0.5rem $brown08;
+}
+
 .app-container {
   background-color: $bg-color;
-  height: 100vh;
+  height: $video-player-height;
 
   @include flex-container($justify: flex-start, $align: stretch);
 
@@ -11,10 +20,10 @@
 
 .sidebar {
   background-color: $white;
-  border-right: $tl-separator;
+  border-right: $border;
   min-width: 18rem;
   width: 30%;
-  height: 100vh;
+  height: $video-player-height;
 
   @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
 }
@@ -38,7 +47,7 @@
 }
 
 .sidebar__header {
-  background-color: $blue-dark;
+  background-color: $score_blue-dark;
   color: $white;
   padding: 1rem;
   position: relative;
@@ -75,7 +84,7 @@
 
 .sidebar__collapsable-title {
   background-color: $white;
-  border-top: $tl-separator;
+  border-top: $border;
   padding: 1rem;
 
   @include flex-container();
@@ -104,7 +113,7 @@
 }
 
 .video-player {
-  height: 100vh;
+  height: $video-player-height;
 
   @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
 }

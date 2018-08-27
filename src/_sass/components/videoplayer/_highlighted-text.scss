@@ -76,7 +76,7 @@
 }
 
 .transcription__line {
-  font-family: $font-serif;
+  font-family: $font-text;
   margin-bottom: 0.25rem;
   padding: 0.25rem 1rem;
 
@@ -90,7 +90,7 @@
 .transcription__original,
 .transcription__translation {
   flex: 1;
-  font-family: $font-serif;
+  font-family: $font-text;
 
   @include text(lg);
 }
