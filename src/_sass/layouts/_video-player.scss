@@ -47,8 +47,8 @@
 }
 
 .sidebar__header {
-  background-color: $score_blue-dark;
-  color: $white;
+  background-color: $white;
+  color: $green;
   padding: 1rem;
   position: relative;
   width: 100%;
@@ -63,7 +63,7 @@
   top: 50%;
   transform: translateY(-50%);
 
-  @include text(sm);
+  @include text(tn);
   @include uppercase();
 
   svg {

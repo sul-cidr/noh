@@ -9,7 +9,7 @@
   min-width: 18rem;
   padding: 0 1rem;
   position: fixed;
-  top: 3rem;
+  top: 7rem;
   width: 30%;
 
   @include flex-container($justify:flex-start, $align:stretch);
@@ -17,13 +17,13 @@
 
 .react-tabs__tab  {
   background-color: $white;
-  border-bottom-color: $grey-light;
+  border-bottom-color: $brown16;
   border-bottom-style: solid;
   border-bottom-width: 0.25rem;
-  color: $grey-dark;
+  color: $green64;
   flex: 1;
   font-weight: $fw-semibold;
-  padding: 0.625rem 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
 
   @include text(xxs);
@@ -32,12 +32,11 @@
 }
 
 .react-tabs__tab--selected {
-  border-bottom-color: $score_blue-dark;
-  color: $score_blue-dark;
+  border-bottom-color: $green;
+  color: $green;
 }
 
 .react-tabs__tab-panel {}
 
 .react-tabs__tab-panel--selected {}
 
-.interweave {}

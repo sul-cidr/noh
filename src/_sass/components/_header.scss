@@ -1,5 +1,7 @@
 .header {
   background-color: $green;
+  padding: 0 1rem;
+
   .logo--isotype { display: none; }
 }
 
@@ -11,6 +13,7 @@
 
 .header--small {
   .logo--standard { display: none; }
+  .logo--isotype { display: block; }
 }
 
 .logo {
