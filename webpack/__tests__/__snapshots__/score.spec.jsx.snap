@@ -25,7 +25,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         className="measure__channel"
       />
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={0}
@@ -88,7 +88,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         />
       </div>
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={13}
@@ -365,7 +365,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         />
       </div>
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={13}
@@ -544,7 +544,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         className="measure__channel"
       />
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={0}
@@ -667,7 +667,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         />
       </div>
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={13}
@@ -944,7 +944,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         />
       </div>
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={13}
@@ -1123,7 +1123,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         className="measure__channel"
       />
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={0}
@@ -1186,7 +1186,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         />
       </div>
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={13}
@@ -1463,7 +1463,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         />
       </div>
       <div
-        className="measure__channel measure__channel--large"
+        className="measure__channel"
       >
         <ScoreTextLine
           length={13}

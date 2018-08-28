@@ -1,61 +1,31 @@
 @mixin character-overlay($color, $character) {
-  border-top-color: $color;
-
-  &::before {
-    border-color: $color transparent transparent transparent;
-  }
-
-  &::after {
-    border-color: transparent $color transparent transparent;
-  }
-
+  border-left-color: $color;
+  
   & + .cell__tooltip {
-    border: 0.0625rem solid $color;
+    border-left-color: $color;
+    border-top-color: $border-color;
   }
 }
 
 .cell__character {
-  border-top-style: solid;
-  border-top-width: 0.0625rem;
+  border-left-style: solid;
+  border-left-width: 0.0625rem;
   left: 0;
+  height: 100%;
   position: absolute;
   top: 0;
-  width: 100%;
-
-  &::before,
-  &::after {
-    border-style: solid;
-    position: absolute;
-    top: 0;
-  }
-
-  &::before {
-    border-width: 0.25rem 0.25rem 0 0;
-    left: 0;
-  }
-
-  &::after {
-    border-width: 0 0.25rem 0.25rem 0;
-    right: 0;
-  }
-}
-
-.cell__character--begin {
-  &::before {
-    content: '';
-  }
-}
-
-.cell__character--end {
-  &::after {
-    content: '';
-  }
+  width: 0.25rem;
 }
 
 .cell__tooltip {
   background-color: $white;
-  border: $border;
-  bottom: 100%;
+  border-left-style: solid;
+  border-left-width: 0.0625rem;
+  border-right: $border;
+  border-top-style: solid;
+  border-top-width: 0;
+  bottom: calc(100% - 0.0625rem);
+  font-weight: $fw-semibold;
   height: 0;
   left: 0;
   overflow: hidden;
@@ -64,6 +34,13 @@
   transition: height 50ms ease-in-out;
   width: 100%;
   @include flex-container($justify: center);
+  @include text(tn);
+  @include uppercase();
+
+  .measure--previous &,
+  .measure--next & {
+    background-color: $beige-light;
+  }
 }
 
 .cell__character--jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
@@ -74,6 +51,7 @@
 
 .cell--text:hover {
   .cell__tooltip {
+    border-top-width: 0.0625rem;
     height: $tooltip-height;
   }
 }
