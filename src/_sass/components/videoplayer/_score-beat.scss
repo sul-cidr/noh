@@ -2,7 +2,7 @@
   font-weight: $fw-semibold;
   justify-content: center;
 
-  @include text(sm);
+  @include text(xs);
 }
 
 .cell--unmetered {
