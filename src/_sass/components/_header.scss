@@ -1,14 +1,18 @@
 .header {
   background-color: $green;
-  padding: 0 1rem;
 
   .logo--isotype { display: none; }
 }
 
 .header__content {
   min-height: $header-small-height;
+  padding: 0 1rem;
 
   @include flex-container();
+
+  .wrapper & {
+    padding: 0;
+  }
 }
 
 .header--small {
