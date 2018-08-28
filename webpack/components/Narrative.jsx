@@ -33,6 +33,8 @@ class Narrative extends Component {
   narrativeOnClick(event) {
     if (event.target.tagName === "TIME") {
       this.props.updateStartTime(getTime(event.target));
+    } else if (["H1", "H2", "H3", "H4", "H5"].includes(event.target.tagName)) {
+      event.target.classList.toggle("collapsible-closed");
     }
   }
 
@@ -71,4 +73,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = Narrative;
-export default connect(null, mapDispatchToProps)(Narrative);
+export default connect(
+  null,
+  mapDispatchToProps
+)(Narrative);
