@@ -76,7 +76,7 @@ class Score extends Component {
         : phrase.syllableText.grid;
     }
     const measureText = this.state.toggles.isTextOn ? (
-      <div className="measure__channel measure__channel--large">
+      <div className="measure__channel">
         <ScoreTextLine
           textGrid={measureTextGrid}
           length={beatNums.length}

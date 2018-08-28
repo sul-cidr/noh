@@ -30,7 +30,7 @@ const MeasureLabelContainer = props => {
       isTextOn ? (
         <div
           key="textLabel"
-          className="measure__channel measure__channel--text measure__channel--large"
+          className="measure__channel measure__channel--text"
         >
           Text
         </div>
