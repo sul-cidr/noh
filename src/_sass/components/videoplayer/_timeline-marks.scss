@@ -1,6 +1,6 @@
 .time-marks {
-  border-top: $tl-separator;
-  border-bottom: $tl-separator;
+  border-top: $border;
+  border-bottom: $border;
   height: $timeline-marks-height;
   width: 100%;
 
@@ -8,7 +8,7 @@
 }
 
 .time {
-  border-left: $tl-separator;
+  border-left: $border;
   flex-grow: 1;
   height: 100%;
   padding-left: 0.25rem;

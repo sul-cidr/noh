@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setScoreToggles } from "../actionCreators";
+import TimelineIndicator from "./TimelineIndicator";
 
 class ScoreControls extends Component {
   constructor(props) {
@@ -49,7 +50,7 @@ class ScoreControls extends Component {
         height="12"
         viewBox="0 0 12 12"
       >
-        <g fill="#9aa0a6" fillRule="evenodd">
+        <g fill="currentColor" fillRule="evenodd">
           <path
             fillRule="nonzero"
             d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
@@ -130,6 +131,12 @@ class ScoreControls extends Component {
             </label>
           </li>
         </ul>
+        <div className="video-progress">
+          <TimelineIndicator
+            startTime={this.props.startTime}
+            duration={this.props.duration}
+          />
+        </div>
         <ul className="measure-toggles">
           <li>
             <input
@@ -171,7 +178,9 @@ ScoreControls.propTypes = {
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
   isNextSentenceOn: PropTypes.bool,
-  updateScoreToggles: PropTypes.func
+  updateScoreToggles: PropTypes.func,
+  startTime: PropTypes.number,
+  duration: PropTypes.number.isRequired
 };
 
 ScoreControls.defaultProps = {
@@ -182,7 +191,8 @@ ScoreControls.defaultProps = {
   isDanceOn: true,
   isPrevSentenceOn: true,
   isNextSentenceOn: true,
-  updateScoreToggles: () => {}
+  updateScoreToggles: () => {},
+  startTime: 0
 };
 
 const mapDispatchToProps = dispatch => ({
@@ -190,4 +200,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = ScoreControls;
-export default connect(null, mapDispatchToProps)(ScoreControls);
+export default connect(
+  null,
+  mapDispatchToProps
+)(ScoreControls);

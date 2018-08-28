@@ -1,11 +1,20 @@
+---
+menu-active: plays
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
 
-  <body>
-    <div id="section">
-    {{ content }}
+  <body class="body-play">
+
+    <header class="header">
+      {% include header.html %}
+    </header>
+
+    <div id="section" class="play-container">
+      {{ content }}
     </div>
     <script type="text/javascript" src="/assets/section.bundle.js" charset="utf-8"></script>
   </body>

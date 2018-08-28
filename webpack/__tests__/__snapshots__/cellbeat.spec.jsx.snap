@@ -7,3 +7,19 @@ exports[`<CellBeat> renders as expected by default 1`] = `
   1
 </div>
 `;
+
+exports[`<CellBeat> renders as expected with length 1`] = `
+<div
+  className="cell cell--5 cell--beat"
+>
+  1
+</div>
+`;
+
+exports[`<CellBeat> renders as expected with unmetered as text 1`] = `
+<div
+  className="cell cell--1 cell--unmetered"
+>
+  Unmetered
+</div>
+`;

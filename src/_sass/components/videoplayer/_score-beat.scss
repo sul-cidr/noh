@@ -1,0 +1,13 @@
+.cell--beat {
+  font-weight: $fw-semibold;
+  justify-content: center;
+
+  @include text(sm);
+}
+
+.cell--unmetered {
+  font-weight: $fw-light;
+  justify-content: center;
+
+  @include text(sm);
+}

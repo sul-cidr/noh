@@ -4,15 +4,36 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
 <div
   className="time-indicator-container"
 >
-  <div
-    className="time-indicator"
-    style={
+  <Draggable
+    allowAnyClick={false}
+    axis="x"
+    bounds="parent"
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
       Object {
-        "left": "10%",
-        "position": "relative",
+        "x": 0,
+        "y": 0,
       }
     }
-  />
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle=".time-indicator"
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    transform={null}
+  >
+    <div
+      className="time-indicator"
+    />
+  </Draggable>
 </div>
 `;
 
@@ -20,15 +41,36 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
 <div
   className="time-indicator-container"
 >
-  <div
-    className="time-indicator"
-    style={
+  <Draggable
+    allowAnyClick={false}
+    axis="x"
+    bounds="parent"
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
       Object {
-        "left": "10.01%",
-        "position": "relative",
+        "x": 0,
+        "y": 0,
       }
     }
-  />
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle=".time-indicator"
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    transform={null}
+  >
+    <div
+      className="time-indicator"
+    />
+  </Draggable>
 </div>
 `;
 
@@ -36,15 +78,36 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
 <div
   className="time-indicator-container"
 >
-  <div
-    className="time-indicator"
-    style={
+  <Draggable
+    allowAnyClick={false}
+    axis="x"
+    bounds="parent"
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
       Object {
-        "left": "10%",
-        "position": "relative",
+        "x": 0,
+        "y": 0,
       }
     }
-  />
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle=".time-indicator"
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    transform={null}
+  >
+    <div
+      className="time-indicator"
+    />
+  </Draggable>
 </div>
 `;
 
@@ -52,14 +115,35 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
 <div
   className="time-indicator-container"
 >
-  <div
-    className="time-indicator"
-    style={
+  <Draggable
+    allowAnyClick={false}
+    axis="x"
+    bounds="parent"
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
       Object {
-        "left": "10.01%",
-        "position": "relative",
+        "x": 0,
+        "y": 0,
       }
     }
-  />
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle=".time-indicator"
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    transform={null}
+  >
+    <div
+      className="time-indicator"
+    />
+  </Draggable>
 </div>
 `;

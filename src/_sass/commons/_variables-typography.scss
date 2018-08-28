@@ -1,55 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Source+Serif+Pro:400,600');
+
 $grid-height: 4;
 
 // FONTS
 
 $rem-size: 16px;
 
-$font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-serif: Georgia, Times, "Times New Roman", serif;
+$font-display: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-text: 'Source Serif Pro', Georgia, serif;
 
 $fw-light:     300;
 $fw-regular:   400;
-$fw-medium:    500;
 $fw-semibold:  600;
 $fw-bold:      700;
-$fw-extrabold: 800;
-$fw-black:     900;
 
-$fs-sans-2xl:   1.125rem; // 18px
-$fs-sans-xl:        1rem; // 16px
-$fs-sans-lg:    0.875rem; // 14px
-$fs-sans-md:     0.75rem; // 12px
-$fs-sans-sm:   0.6875rem; // 11px
-$fs-sans-xs:    0.625rem; // 10px
-$fs-sans-2xs:  0.5625rem; // 9px
+$fs-display-hg:      2.5rem; // 40px
+$fs-display-xxl:       2rem; // 32px
+$fs-display-xl:      1.5rem; // 24px
+$fs-display-lg:      1.5rem; // 20px
+$fs-display-md:     1.25rem; // 18px
+$fs-display-sm:        1rem; // 16px
+$fs-display-xs:    0.875rem; // 14px
+$fs-display-xxs:    0.75rem; // 12px
+$fs-display-tn:    0.625rem; // 10px
 
-$lh-sans-2xl: 1.333333;   // 24px
-$lh-sans-xl:  1.25;       // 20px
-$lh-sans-lg:  1.428571;   // 20px
-$lh-sans-md:  1.333333;   // 16px
-$lh-sans-sm:  1.454545;   // 16px
-$lh-sans-xs:  1.6;        // 16px
-$lh-sans-2xs: 1.333333;   // 12px
+// 
+// LINE HEIGHT NEEDS TO BE CALCULATED
+// 
 
-$fs-serif-md:       1rem; // 16px
-$lh-serif-md:        1.5; // 20px
+$lh-display-hg:   1.333333; // 24px
+$lh-display-xxl:  1.333333; // 24px
+$lh-display-xl:   1.25;     // 20px
+$lh-display-lg:   1.428571; // 20px
+$lh-display-md:   1.333333; // 16px
+$lh-display-sm:   1.454545; // 16px
+$lh-display-xs:   1.6;      // 16px
+$lh-display-xxs:  1.333333; // 12px
+$lh-display-tn:   1.333333; // 12px
 
-$font-sizes-sans: (
-  2xl: $fs-sans-2xl,
-  xl: $fs-sans-xl,
-  lg: $fs-sans-lg,
-  md: $fs-sans-md,
-  sm: $fs-sans-sm,
-  xs: $fs-sans-xs,
-  2xs: $fs-sans-2xs,
+$fs-text-md:       1rem; // 16px
+$fs-text-sm:   0.875rem; // 14px
+$lh-text-md:        1.5; // 20px
+$lh-text-sm:   1.428571; // 20px
+
+$font-sizes-display: (
+  hg: $fs-display-hg,
+  xxl: $fs-display-xxl,
+  xl: $fs-display-xl,
+  lg: $fs-display-lg,
+  md: $fs-display-md,
+  sm: $fs-display-sm,
+  xs: $fs-display-xs,
+  xxs: $fs-display-xxs,
+  tn: $fs-display-tn,
 );
 
-$line-heights-sans: (
-  2xl: $lh-sans-2xl,
-  xl: $lh-sans-xl,
-  lg: $lh-sans-lg,
-  md: $lh-sans-md,
-  sm: $lh-sans-sm,
-  xs: $lh-sans-xs,
-  2xs: $lh-sans-2xs,
+$line-heights-display: (
+  hg: $lh-display-hg,
+  xxl: $lh-display-xxl,
+  xl: $lh-display-xl,
+  lg: $lh-display-lg,
+  md: $lh-display-md,
+  sm: $lh-display-sm,
+  xs: $lh-display-xs,
+  xxs: $lh-display-xxs,
+  tn: $lh-display-tn,
+);
+
+
+$font-sizes-text: (
+  md: $fs-text-md,
+  sm: $fs-text-sm,
+);
+
+$line-heights-text: (
+  md: $lh-text-md,
+  sm: $lh-text-sm,
 );

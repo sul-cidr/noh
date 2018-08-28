@@ -1,18 +1,18 @@
 .intermedia-table {
   flex-shrink: 0;
   flex-basis: 20rem;
-  border-left: $tl-separator;
+  border-left: $border;
 }
 
 .intermedia__element {
-  border-bottom: $tl-separator;
+  border-bottom: $border;
   height: $intermedia-table-cell;
 
   @include flex-container($justify: flex-start);
 }
 
 .intermedia__element--title {
-  border-top: $tl-separator;
+  border-top: $border;
   height: $timeline-acts-height + $timeline-marks-height;
 
   .intermedia__label,
@@ -23,11 +23,11 @@
 
   }
   .intermedia__label {
-    @include text(sm);
+    @include text(xxs);
   }
 
   .intermedia__value {
-    @include text(xl);
+    @include text(sm);
   }
 }
 
@@ -40,21 +40,21 @@
 
  .intermedia__value__none {
     font-style: italic;
-    color: $grey-dark;
+    color: $brown32;
   }
 }
 
 .intermedia__label {
-  border-right: $tl-separator;
+  border-right: $border;
   font-weight: 700;
   width: 40%;
 
-  @include text(2xs);
+  @include text(tn);
   @include uppercase();
 }
 
 .intermedia__value {
   flex-grow: 1;
 
-  @include text(md);
+  @include text(xs);
 }

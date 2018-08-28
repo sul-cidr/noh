@@ -1,9 +1,11 @@
 * {
-	margin: 0;
-	padding: 0;
 	border: 0;
+	color: $brown;
+	font-family: $font-display;
 	font-size: 100%;
-	font-family: $font-sans;
+	margin: 0;
+	outline: none;
+	padding: 0;
 	vertical-align: baseline;
 }
 
@@ -22,6 +24,10 @@ body {
 
 ol, ul {
 	list-style: none;
+}
+
+a {
+	color: $red;
 }
 
 blockquote, q {
@@ -43,4 +49,8 @@ tr, td {
   margin: 0;
   padding: 0;
   vertical-align: middle;
+}
+
+video {
+  max-width: 100%;
 }

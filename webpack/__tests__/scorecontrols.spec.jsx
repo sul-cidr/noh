@@ -16,13 +16,13 @@ describe("<ScoreControls>", () => {
     store = mockStore(initialState);
     wrapper = mount(
       <Provider store={store}>
-        <ScoreControls updateScoreToggles={jest.fn()} />
+        <ScoreControls updateScoreToggles={jest.fn()} duration={100} />
       </Provider>
     );
   });
 
   it("renders as expected by default", () => {
-    const component = shallow(<UnwrappedScoreControls />);
+    const component = shallow(<UnwrappedScoreControls duration={100} />);
     expect(component).toMatchSnapshot();
   });
 

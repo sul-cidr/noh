@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+<<<<<<< HEAD
+exports[`<TimelineIndicator> renders as expected with interval, currentTime, and is not playing 1`] = `
+<div
+  className="time-indicator-container"
+=======
+exports[`<TimelineIndicator> renders as expected with interval, currentTime, and isPlaying 1`] = `
+<Draggable
+  allowAnyClick={false}
+  axis="x"
+  bounds={false}
+  cancel={null}
+  defaultClassName="react-draggable"
+  defaultClassNameDragged="react-draggable-dragged"
+  defaultClassNameDragging="react-draggable-dragging"
+  defaultPosition={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  disabled={false}
+  enableUserSelectHack={true}
+  grid={null}
+  handle=".time-indicator"
+  offsetParent={null}
+  onDrag={[Function]}
+  onMouseDown={[Function]}
+  onStart={[Function]}
+  onStop={[Function]}
+  position={null}
+  transform={null}
+>>>>>>> [WIP] Draggable timeline indicator using react-draggable
+>
+  <div
+    className="time-indicator-container"
+  >
+    <div
+      className="time-indicator"
+      style={
+        Object {
+          "left": "10%",
+          "position": "relative",
+          "transform": "none",
+        }
+      }
+    />
+  </div>
+</Draggable>
+`;
+
+<<<<<<< HEAD
+exports[`<TimelineIndicator> renders as expected with interval, currentTime, and is playing 1`] = `
+<div
+  className="time-indicator-container"
+>
+  <div
+    className="time-indicator"
+    style={
+      Object {
+        "left": "10.01%",
+        "position": "relative",
+=======
+exports[`<TimelineIndicator> renders as expected with interval, currentTime, and no isPlaying 1`] = `
+<Draggable
+  allowAnyClick={false}
+  axis="x"
+  bounds={false}
+  cancel={null}
+  defaultClassName="react-draggable"
+  defaultClassNameDragged="react-draggable-dragged"
+  defaultClassNameDragging="react-draggable-dragging"
+  defaultPosition={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  disabled={false}
+  enableUserSelectHack={true}
+  grid={null}
+  handle=".time-indicator"
+  offsetParent={null}
+  onDrag={[Function]}
+  onMouseDown={[Function]}
+  onStart={[Function]}
+  onStop={[Function]}
+  position={null}
+  transform={null}
+>
+  <div
+    className="time-indicator-container"
+  >
+    <div
+      className="time-indicator"
+      style={
+        Object {
+          "left": "10%",
+          "position": "relative",
+          "transform": "none",
+        }
+>>>>>>> [WIP] Draggable timeline indicator using react-draggable
+      }
+    />
+  </div>
+</Draggable>
+`;
+
+<<<<<<< HEAD
+exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and is not playing 1`] = `
+<div
+  className="time-indicator-container"
+=======
+exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and isPlaying 1`] = `
+<Draggable
+  allowAnyClick={false}
+  axis="x"
+  bounds={false}
+  cancel={null}
+  defaultClassName="react-draggable"
+  defaultClassNameDragged="react-draggable-dragged"
+  defaultClassNameDragging="react-draggable-dragging"
+  defaultPosition={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  disabled={false}
+  enableUserSelectHack={true}
+  grid={null}
+  handle=".time-indicator"
+  offsetParent={null}
+  onDrag={[Function]}
+  onMouseDown={[Function]}
+  onStart={[Function]}
+  onStop={[Function]}
+  position={null}
+  transform={null}
+>>>>>>> [WIP] Draggable timeline indicator using react-draggable
+>
+  <div
+    className="time-indicator-container"
+  >
+    <div
+      className="time-indicator"
+      style={
+        Object {
+          "left": "10%",
+          "position": "relative",
+          "transform": "none",
+        }
+      }
+    />
+  </div>
+</Draggable>
+`;
+
+<<<<<<< HEAD
+exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and is playing 1`] = `
+<div
+  className="time-indicator-container"
+>
+  <div
+    className="time-indicator"
+    style={
+      Object {
+        "left": "10.01%",
+        "position": "relative",
+=======
+exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and no isPlaying 1`] = `
+<Draggable
+  allowAnyClick={false}
+  axis="x"
+  bounds={false}
+  cancel={null}
+  defaultClassName="react-draggable"
+  defaultClassNameDragged="react-draggable-dragged"
+  defaultClassNameDragging="react-draggable-dragging"
+  defaultPosition={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  disabled={false}
+  enableUserSelectHack={true}
+  grid={null}
+  handle=".time-indicator"
+  offsetParent={null}
+  onDrag={[Function]}
+  onMouseDown={[Function]}
+  onStart={[Function]}
+  onStop={[Function]}
+  position={null}
+  transform={null}
+>
+  <div
+    className="time-indicator-container"
+  >
+    <div
+      className="time-indicator"
+      style={
+        Object {
+          "left": "10%",
+          "position": "relative",
+          "transform": "none",
+        }
+>>>>>>> [WIP] Draggable timeline indicator using react-draggable
+      }
+    />
+  </div>
+</Draggable>
+`;

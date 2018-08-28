@@ -6,7 +6,7 @@ exports[`<Play> renders as expected 1`] = `
     Array [
       Object {
         "duration": 1315,
-        "transcription": "Mae bae",
+        "transcription": "Mae ba",
         "translation": "First Act",
       },
       Object {
@@ -17,7 +17,6 @@ exports[`<Play> renders as expected 1`] = `
     ]
   }
   currentTime={0}
-  isPlaying={false}
   maxIntensity={29}
   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
   <h2>Title</h2>
@@ -1945,7 +1944,7 @@ exports[`<Play> renders as expected 1`] = `
                   Array [
                     Object {
                       "duration": 1315,
-                      "transcription": "Mae bae",
+                      "transcription": "Mae ba",
                       "translation": "First Act",
                     },
                     Object {
@@ -1972,7 +1971,7 @@ exports[`<Play> renders as expected 1`] = `
                     <span
                       className="transcription"
                     >
-                      Mae bae
+                      Mae ba
                     </span>
                      
                     <span
@@ -2023,27 +2022,87 @@ exports[`<Play> renders as expected 1`] = `
                 <Connect(TimelineIndicator)
                   currentTime={0}
                   duration={3693}
-                  playing={false}
+                  startTime={10}
                 >
                   <TimelineIndicator
                     currentTime={0}
-                    dispatch={[Function]}
                     duration={3693}
                     interval={10}
                     playing={false}
+                    startTime={10}
+                    updateCurrentTime={[Function]}
                   >
                     <div
                       className="time-indicator-container"
                     >
-                      <div
-                        className="time-indicator"
-                        style={
+                      <Draggable
+                        allowAnyClick={false}
+                        axis="x"
+                        bounds="parent"
+                        cancel={null}
+                        defaultClassName="react-draggable"
+                        defaultClassNameDragged="react-draggable-dragged"
+                        defaultClassNameDragging="react-draggable-dragging"
+                        defaultPosition={
                           Object {
-                            "left": "0%",
-                            "position": "relative",
+                            "x": 0,
+                            "y": 0,
                           }
                         }
-                      />
+                        disabled={false}
+                        enableUserSelectHack={true}
+                        grid={null}
+                        handle=".time-indicator"
+                        offsetParent={null}
+                        onDrag={[Function]}
+                        onMouseDown={[Function]}
+                        onStart={[Function]}
+                        onStop={[Function]}
+                        position={null}
+                        transform={null}
+                      >
+                        <DraggableCore
+                          allowAnyClick={false}
+                          axis="x"
+                          bounds="parent"
+                          cancel={null}
+                          defaultClassName="react-draggable"
+                          defaultClassNameDragged="react-draggable-dragged"
+                          defaultClassNameDragging="react-draggable-dragging"
+                          defaultPosition={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
+                          disabled={false}
+                          enableUserSelectHack={true}
+                          grid={null}
+                          handle=".time-indicator"
+                          offsetParent={null}
+                          onDrag={[Function]}
+                          onMouseDown={[Function]}
+                          onStart={[Function]}
+                          onStop={[Function]}
+                          position={null}
+                          transform={null}
+                        >
+                          <div
+                            className="time-indicator react-draggable"
+                            onMouseDown={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchStart={[Function]}
+                            style={
+                              Object {
+                                "touchAction": "none",
+                                "transform": "translate(0px,0px)",
+                              }
+                            }
+                            transform={null}
+                          />
+                        </DraggableCore>
+                      </Draggable>
                     </div>
                   </TimelineIndicator>
                 </Connect(TimelineIndicator)>
