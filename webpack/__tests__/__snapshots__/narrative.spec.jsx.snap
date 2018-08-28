@@ -21,7 +21,7 @@ exports[`<UnwrappedNarrative> renders as expected without tabs 1`] = `
   role="presentation"
 >
   <NonTabbedNarrative
-    narrative="Lorem ipsum dolor sit <time datetime='00:00:50'>amet</time>, <a datetime='00:00:50'>consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    narrative="Lorem ipsum dolor sit <time datetime='00:00:50'>amet</time>, <a datetime='00:00:50'>consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <h2 class='collapsible'>Header 2</h2>Ut enim ad minim veniam.<h2 class='collapsible collapsible-closed'>Header 3</h2>Et al."
   />
 </div>
 `;
