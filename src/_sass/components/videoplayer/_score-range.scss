@@ -5,6 +5,7 @@ $cell-range-height: 0.75rem;
 .cell__range--high {
   border-top: 0.0625rem solid $grey-medium;
   bottom: 0;
+  display: none;
   height: $cell-range-height;
   left: 0;
   position: absolute;

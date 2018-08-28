@@ -61,7 +61,7 @@
     font-weight: $fw-semibold;
     padding: 0 0.5rem;
 
-    @include text(xxs);
+    @include text(tn);
     @include uppercase();
   }
 }

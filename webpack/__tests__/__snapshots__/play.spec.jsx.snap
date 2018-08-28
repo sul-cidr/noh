@@ -6,7 +6,7 @@ exports[`<Play> renders as expected 1`] = `
     Array [
       Object {
         "duration": 1315,
-        "transcription": "Mae bae",
+        "transcription": "Mae ba",
         "translation": "First Act",
       },
       Object {
@@ -1944,7 +1944,7 @@ exports[`<Play> renders as expected 1`] = `
                   Array [
                     Object {
                       "duration": 1315,
-                      "transcription": "Mae bae",
+                      "transcription": "Mae ba",
                       "translation": "First Act",
                     },
                     Object {
@@ -1971,7 +1971,7 @@ exports[`<Play> renders as expected 1`] = `
                     <span
                       className="transcription"
                     >
-                      Mae bae
+                      Mae ba
                     </span>
                      
                     <span
