@@ -56795,7 +56795,7 @@ exports[`<Section> renders as expected 1`] = `
                         Beat
                       </div>
                       <div
-                        className="measure__channel measure__channel--text measure__channel--large"
+                        className="measure__channel measure__channel--text"
                         key="textLabel"
                       >
                         Text
@@ -56961,7 +56961,7 @@ exports[`<Section> renders as expected 1`] = `
                       </CellBeat>
                     </div>
                     <div
-                      className="measure__channel measure__channel--large"
+                      className="measure__channel"
                     >
                       <ScoreTextLine
                         length={13}
@@ -57673,7 +57673,7 @@ exports[`<Section> renders as expected 1`] = `
                       </CellBeat>
                     </div>
                     <div
-                      className="measure__channel measure__channel--large"
+                      className="measure__channel"
                     >
                       <ScoreTextLine
                         length={13}
@@ -121452,7 +121452,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         Beat
                       </div>
                       <div
-                        className="measure__channel measure__channel--text measure__channel--large"
+                        className="measure__channel measure__channel--text"
                         key="textLabel"
                       >
                         Text
@@ -121618,7 +121618,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       </CellBeat>
                     </div>
                     <div
-                      className="measure__channel measure__channel--large"
+                      className="measure__channel"
                     >
                       <ScoreTextLine
                         length={13}
@@ -122330,7 +122330,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       </CellBeat>
                     </div>
                     <div
-                      className="measure__channel measure__channel--large"
+                      className="measure__channel"
                     >
                       <ScoreTextLine
                         length={13}

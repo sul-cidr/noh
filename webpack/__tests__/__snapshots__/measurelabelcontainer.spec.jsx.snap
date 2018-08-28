@@ -11,7 +11,7 @@ exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
     Beat
   </div>
   <div
-    className="measure__channel measure__channel--text measure__channel--large"
+    className="measure__channel measure__channel--text"
     key="textLabel"
   >
     Text
