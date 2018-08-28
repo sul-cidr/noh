@@ -6,7 +6,7 @@ describe("<Acts>", () => {
   it("renders as expected by default", () => {
     const acts = [
       { translation: "Musicians", transcription: "", duration: 360 },
-      { translation: "First Act", transcription: "Mae bae", duration: 1293 },
+      { translation: "First Act", transcription: "Mae ba", duration: 1293 },
       { translation: "Second Act", transcription: "Nochi ba", duration: 2400 },
       { translation: "", transcription: "Oshirabe", duration: 360 }
     ];
