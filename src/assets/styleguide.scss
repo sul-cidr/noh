@@ -2,17 +2,3 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "commons/variables";
-@import "commons/mixins";
-@import "commons/reset";
-@import "commons/helpers";
-@import "layouts/layout-commons";
-@import "layouts/video-player";
-@import "components/header";
-@import "components/videoplayer/narrative";
-@import "components/videoplayer/intermedia-table";
-@import "components/videoplayer/highlighted-text";
-@import "components/videoplayer/score";
-@import "components/videoplayer/timeline";
-@import "components/styleguide-colors";
-@import "components/styleguide-typography";
