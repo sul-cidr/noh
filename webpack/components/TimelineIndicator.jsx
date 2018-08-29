@@ -84,11 +84,7 @@ class TimelineIndicator extends Component {
 
   render() {
     const draggableProps = {};
-    if (
-      this.container.current &&
-      this.props.playing &&
-      !this.state.beingDragged
-    ) {
+    if (this.container.current && !this.state.beingDragged) {
       draggableProps.position = { x: this.calculateProgress(), y: 0 };
     }
     return (

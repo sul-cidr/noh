@@ -1923,12 +1923,6 @@ exports[`<Play> renders as expected 1`] = `
                       srcLang="en"
                     />
                   </video>
-                  <h3>
-                    0
-                  </h3>
-                  <span>
-                    0
-                  </span>
                 </div>
               </MasterVideo>
             </Connect(MasterVideo)>
@@ -2058,7 +2052,12 @@ exports[`<Play> renders as expected 1`] = `
                         onMouseDown={[Function]}
                         onStart={[Function]}
                         onStop={[Function]}
-                        position={null}
+                        position={
+                          Object {
+                            "x": 0,
+                            "y": 0,
+                          }
+                        }
                         transform={null}
                       >
                         <DraggableCore
@@ -2084,7 +2083,12 @@ exports[`<Play> renders as expected 1`] = `
                           onMouseDown={[Function]}
                           onStart={[Function]}
                           onStop={[Function]}
-                          position={null}
+                          position={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
                           transform={null}
                         >
                           <div
