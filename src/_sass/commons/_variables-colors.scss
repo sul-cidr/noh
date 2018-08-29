@@ -6,23 +6,31 @@ $grey-light:    #e6ebf0;
 $grey-lighter:  #f2f6f7;
 $grey-lightest: #f7f9fa;
 
-$black: #141515;
-$white: #fff;
+$black: #000000;
+$black16: rgba(0,0,0,0.16);
+$black32: rgba(0,0,0,0.32);
+$black64: rgba(0,0,0,0.64);
+$black80: rgba(0,0,0,0.8);
+
+$white: #ffffff;
 $white16: rgba(255,255,255,0.16);
 $white32: rgba(255,255,255,0.32);
 $white64: rgba(255,255,255,0.64);
 $white80: rgba(255,255,255,0.8);
 
+$red:         #8f1b0e;
+
 $green:       #6a755e;
 $green16:       rgba($green, 0.16);
 $green32:       rgba($green, 0.32);
 $green64:       rgba($green, 0.64);
-$red:         #8f1b0e;
+
 $brown:       #4a4036;
 $brown08:       rgba($brown, 0.08);
 $brown16:       rgba($brown, 0.16);
 $brown32:       rgba($brown, 0.32);
 $brown64:       rgba($brown, 0.64);
+
 $beige-dark:  #f2ece6;
 $beige-light: #f9f6f3;
 
