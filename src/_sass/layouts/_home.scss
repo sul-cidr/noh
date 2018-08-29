@@ -1,0 +1,53 @@
+.home {
+  h1 {
+    text-align: center;
+    font-weight: $fw-bold;
+
+    @include text(hg);
+  }
+
+  p {
+    @include text(lg,'text');
+  }
+
+  blockquote {
+    background-color: $beige-light;
+    margin: 3.5rem 0 ;
+    padding: 2.5rem;
+
+    @include flex-container($justify: center);
+
+    p {
+      font-family: $font-display;
+      font-style: italic;
+      max-width: 45rem;
+      text-align: center;
+    }
+  }
+}
+
+.home__image {
+  background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 30rem;
+  position: relative;
+  
+  &::before {
+    background-image: linear-gradient(180deg, $black16 0%, $black64 100%);
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+.home__content {
+  background-image: 
+    url('https://www.toptal.com/designers/subtlepatterns/patterns/seigaiha.png'),
+    linear-gradient(180deg, $beige-dark 0%, $beige-dark 100%);
+  background-blend-mode: multiply;
+}

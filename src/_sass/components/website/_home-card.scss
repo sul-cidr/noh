@@ -1,0 +1,30 @@
+.home__cards-container {
+  @include flex-container($align: flex-start);
+}
+
+.home__card {
+  width: 18.75rem;
+}
+
+.home__card-header {
+  @include flex-container($justify: center);
+}
+
+.home__card-image {}
+.home__card-icon {}
+
+.home__card-content {
+  background-color: $white;
+  padding: 1.25rem 1.5rem;
+
+  h2 {
+    color: $green;
+    font-weight: $fw-bold;
+
+    @include text(lg);
+  }
+
+  p {
+    @include text(xs,'text');
+  }
+}

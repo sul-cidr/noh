@@ -4,6 +4,15 @@
   .logo--isotype { display: none; }
 }
 
+.header--transparent {
+  background-color: rgba($green, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .header__content {
   min-height: $header-small-height;
   padding: 0 1rem;
