@@ -20,7 +20,7 @@
   @include flex-container();
 
   .wrapper & {
-    padding: 0;
+    padding: 1rem 0;
   }
 }
 
@@ -47,10 +47,15 @@
       color: $white80;
       display: inline-block;
       padding: 0 0.75rem;
+      transition: color $transition;
       text-decoration: none;
  
       @include text(xs);
       @include uppercase();
+
+      &:hover {
+        color: $white;
+      }
     }
 
     &.active {

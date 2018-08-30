@@ -1,0 +1,4 @@
+$transition-speed: 200ms;
+$transition-ease: ease-in-out;
+
+$transition: #{$transition-speed} #{$transition-ease};

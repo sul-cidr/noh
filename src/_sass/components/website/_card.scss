@@ -13,12 +13,17 @@
   position: relative;
   text-decoration: none;
   top: 0;
-  transition: top 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  transition: top $transition, box-shadow $transition;
   width: 18.75rem;
 
   &:hover {
     box-shadow: 0 0.375rem 0.75rem $black16;
     top: -0.25rem;
+    .card__image {
+      &::before {
+        background-color: $brown16;
+      }
+    }
   }
 
   span {
@@ -44,6 +49,7 @@
     position: absolute;
     width: 100%;
     left: 0;
+    transition: background-color $transition;
     top: 0;
     height: 100%;
     z-index: 1;
