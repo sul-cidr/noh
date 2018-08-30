@@ -4,6 +4,15 @@
   .logo--isotype { display: none; }
 }
 
+.header--transparent {
+  background-color: rgba($green, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .header__content {
   min-height: $header-small-height;
   padding: 0 1rem;
@@ -11,7 +20,7 @@
   @include flex-container();
 
   .wrapper & {
-    padding: 0;
+    padding: 1rem 0;
   }
 }
 
@@ -38,10 +47,15 @@
       color: $white80;
       display: inline-block;
       padding: 0 0.75rem;
+      transition: color $transition;
       text-decoration: none;
  
       @include text(xs);
       @include uppercase();
+
+      &:hover {
+        color: $white;
+      }
     }
 
     &.active {

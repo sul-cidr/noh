@@ -4,16 +4,16 @@
         {% include icons/logo.svg %}
     </span>
     <span class="logo--isotype">
-      {% include icons/isotype.svg %}
+      {% include icons/isotype-small.svg %}
     </span>
   </a>
   
   
   <nav class="header__nav">
     <ul>
-      <li class="{% if page.menu-active == 'intermedia' %}active{% endif %}"><a href="/about-intermedia/">About intermedia</a></li>
-      <li class="{% if page.menu-active == 'plays' %}active{% endif %}"><a href="/plays/">Plays</a></li>
-      <li class="{% if page.menu-active == 'elements' %}active{% endif %}"><a href="/elements-of-noh/">Elements of Noh</a></li>
+      <li class="{% if layout.menu-active == 'intermedia' %}active{% endif %}"><a href="/about-intermedia/">About intermedia</a></li>
+      <li class="{% if layout.menu-active == 'plays' %}active{% endif %}"><a href="/plays/">Plays</a></li>
+      <li class="{% if layout.menu-active == 'elements' %}active{% endif %}"><a href="/elements-of-noh/">Elements of Noh</a></li>
     </ul>
   </nav>
 </div>
