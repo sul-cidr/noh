@@ -16,7 +16,7 @@ layout: home
     </blockquote>
     <p>This website hopes to untangle some of the idiomatic “coming together” of media in Noh.  To achieve this the material is divided into following three main sections:</p>
     <div class="cards-container">
-      <a href="#" class="card">
+      <a href="/about-intermedia/" class="card">
         <span class="card__header">
           <span class="card__image" style="background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg')"></span>
           <span class="card__icon">{% include icons/icon-intermedia.svg %}</span>
@@ -26,7 +26,7 @@ layout: home
           <span class="card__description">Defines the notion in general and how it can be applied to the analysis of Noh.</span>
         </span>
       </a>
-      <a href="#" class="card">
+      <a href="/plays/" class="card">
         <span class="card__header">
           <span class="card__image" style="background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg')"></span>
           <span class="card__icon">{% include icons/icon-plays.svg %}</span>
@@ -36,7 +36,7 @@ layout: home
           <span class="card__description">Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings.</span>
         </span>
       </a>
-      <a href="#" class="card">
+      <a href="/elements-of-noh/" class="card">
         <span class="card__header">
           <span class="card__image" style="background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg')"></span>
           <span class="card__icon">{% include icons/icon-elements.svg %}</span>
@@ -49,3 +49,6 @@ layout: home
     </div>
   </div>
 </div>
+
+
+

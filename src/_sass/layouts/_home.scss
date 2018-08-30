@@ -1,7 +1,8 @@
 .home {
   h1 {
-    text-align: center;
     font-weight: $fw-bold;
+    margin-bottom: 2rem;
+    text-align: center;
 
     @include text(hg);
   }
@@ -50,4 +51,5 @@
     url('https://www.toptal.com/designers/subtlepatterns/patterns/seigaiha.png'),
     linear-gradient(180deg, $beige-dark 0%, $beige-dark 100%);
   background-blend-mode: multiply;
+  padding: 3.5rem 0 5.5rem 0;
 }
