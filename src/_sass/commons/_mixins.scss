@@ -11,6 +11,7 @@
     line-height: map-get($line-heights-display, $size);
   } 
   @else if $font == 'text' {
+    font-family: $font-text;
     font-size: map-get($font-sizes-text, $size);
     line-height: map-get($line-heights-text, $size);
   }
