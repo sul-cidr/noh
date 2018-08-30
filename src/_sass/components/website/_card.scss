@@ -1,0 +1,74 @@
+.cards-container {
+  @include flex-container($align: flex-start);
+  padding-top: 3.5rem;
+}
+
+.card {
+  background-color: $white;
+  border: $border;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem $black16;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  top: 0;
+  transition: top 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  width: 18.75rem;
+
+  &:hover {
+    box-shadow: 0 0.375rem 0.75rem $black16;
+    top: -0.25rem;
+  }
+
+  span {
+    display: block;
+  }
+}
+
+.card__header {
+  @include flex-container($justify: center);
+  position: relative;
+}
+
+.card__image {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 9.5rem;
+  position: relative;
+  width: 100%;
+
+  &::before {
+    background-color: $brown40;
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+.card__icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.card__content {
+  padding: 1.25rem 1.5rem;
+}
+
+.card__title {
+  color: $green;
+  font-weight: $fw-bold;
+
+  @include text(lg);
+}
+
+.card__description {
+  @include text(xs,'text');
+}

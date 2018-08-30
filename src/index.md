@@ -15,17 +15,37 @@ layout: home
       <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p> 
     </blockquote>
     <p>This website hopes to untangle some of the idiomatic “coming together” of media in Noh.  To achieve this the material is divided into following three main sections:</p>
-    <div class="home__cards-container">
-      <div class="home__card">
-        <div class="home__card-header">
-          <div class="home__card-image"></div>
-          <div class="home__card-icon"></div>
-        </div>
-        <div class="home__card-content">
-          <h2>Plays</h2>  
-          <p>Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings.</p>  
-        </div>
-      </div> 
+    <div class="cards-container">
+      <a href="#" class="card">
+        <span class="card__header">
+          <span class="card__image" style="background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg')"></span>
+          <span class="card__icon">{% include icons/icon-intermedia.svg %}</span>
+        </span>
+        <span class="card__content">
+          <span class="card__title">Intermedia</span>
+          <span class="card__description">Defines the notion in general and how it can be applied to the analysis of Noh.</span>
+        </span>
+      </a>
+      <a href="#" class="card">
+        <span class="card__header">
+          <span class="card__image" style="background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg')"></span>
+          <span class="card__icon">{% include icons/icon-plays.svg %}</span>
+        </span>
+        <span class="card__content">
+          <span class="card__title">Plays</span>
+          <span class="card__description">Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings.</span>
+        </span>
+      </a>
+      <a href="#" class="card">
+        <span class="card__header">
+          <span class="card__image" style="background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg')"></span>
+          <span class="card__icon">{% include icons/icon-elements.svg %}</span>
+        </span>
+        <span class="card__content">
+          <span class="card__title">Elements of Noh</span>
+          <span class="card__description">Contributes a bottom-up perspective with information about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays.</span>
+        </span>
+      </a>
     </div>
   </div>
 </div>
