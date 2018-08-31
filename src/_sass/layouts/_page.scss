@@ -1,0 +1,27 @@
+.page-content {
+  h2 {
+    color: $brown;
+    font-weight: $fw-bold;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    position: relative;
+    text-align: center;
+
+    @include text(xl);
+
+    &::before {
+      background-color: $red;
+      bottom: 0;
+      content: '';
+      height: 0.125rem;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      width: 4rem;
+    }
+  }
+
+  p {
+    @include text(xl,'text');
+  }
+}
