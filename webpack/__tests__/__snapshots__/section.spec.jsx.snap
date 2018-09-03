@@ -57406,7 +57406,7 @@ exports[`<Section> renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -58048,7 +58048,7 @@ exports[`<Section> renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -122063,7 +122063,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -122705,7 +122705,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"

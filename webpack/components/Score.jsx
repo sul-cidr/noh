@@ -6,6 +6,7 @@ import CellBeat from "./CellBeat";
 import CellPercussion from "./CellPercussion";
 import NohkanLine from "./NohkanLine";
 import DanceLine from "./DanceLine";
+import PercussionLine from "./PercussionLine";
 import ScoreTextLine from "./ScoreTextLine";
 
 function createBeatsArray(grid) {
@@ -62,8 +63,24 @@ class Score extends Component {
         <CellBeat beatText={num} key={`beatNum${idx}`} /> // eslint-disable-line react/no-array-index-key
       ));
     }
-    const percussion =
-      phrase && phrase.percussion ? phrase.percussion.value : "None";
+    let percussion = <CellPercussion text="" length={beatNums.length} />;
+    if (phrase && phrase.percussion) {
+      if (phrase.percussion.grid.length) {
+        percussion = (
+          <PercussionLine
+            grid={phrase.percussion.grid}
+            length={beatNums.length}
+          />
+        );
+      } else if (phrase.percussion.value) {
+        percussion = (
+          <CellPercussion
+            text={phrase.percussion.value}
+            length={beatNums.length}
+          />
+        );
+      }
+    }
     const measureBeats = this.state.toggles.isBeatOn ? (
       <div className="measure__channel">{beats}</div>
     ) : (
@@ -87,9 +104,7 @@ class Score extends Component {
       ""
     );
     const measurePercussion = this.state.toggles.isPercussionOn ? (
-      <div className="measure__channel">
-        <CellPercussion text={percussion} length={beatNums.length} />
-      </div>
+      <div className="measure__channel">{percussion}</div>
     ) : (
       ""
     );

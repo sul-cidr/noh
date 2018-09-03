@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PercussionLine> renders as expected by default 1`] = `
+Array [
+  <CellPercussion
+    key="percussionCell0"
+    length={1}
+    text=""
+  />,
+  <CellPercussion
+    key="percussionCell1"
+    length={1}
+    text="ho"
+  />,
+  <CellPercussion
+    key="percussionCell2"
+    length={1}
+    text="#note"
+  />,
+  <CellPercussion
+    key="percussionCell3"
+    length={1}
+    text=""
+  />,
+  <CellPercussion
+    key="percussionCell4"
+    length={1}
+    text="ho"
+  />,
+  <CellPercussion
+    key="percussionCell5"
+    length={1}
+    text="#note"
+  />,
+  <CellPercussion
+    key="percussionCell6"
+    length={-1}
+    text=""
+  />,
+]
+`;
+
+exports[`<PercussionLine> renders as expected with no percussion data 1`] = `
+<CellPercussion
+  length={13}
+  text=""
+/>
+`;
