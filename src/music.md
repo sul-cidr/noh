@@ -6,22 +6,22 @@ secondary-menu-active: music
 <div class="card-menu card-menu--large">
   <div class="row row--center-x">
     <div class="col col-2">
-      <a href="#" class="card-menu__element card-menu__element--voices">
+      <a href="#" class="card-menu__element" style="background-image: url('/assets/images/voices-small.jpg');">
         <span>Voices</span>
       </a>
     </div>
     <div class="col col-2">
-      <a href="#" class="card-menu__element card-menu__element--taiko">
+      <a href="/music/taiko/" class="card-menu__element" style="background-image: url('/assets/images/taiko-small.jpg');">
         <span>Taiko</span>
       </a>
     </div>
     <div class="col col-2">
-      <a href="#" class="card-menu__element card-menu__element--otsuzumi">
+      <a href="#" class="card-menu__element" style="background-image: url('/assets/images/otsuzumi-kotsuzumi-small.jpg');">
         <span>Otsuzumi & Kotsuzumi</span>
       </a>
     </div>
     <div class="col col-2">
-      <a href="#" class="card-menu__element card-menu__element--nohkan">
+      <a href="#" class="card-menu__element" style="background-image: url('/assets/images/nohkan-small.jpg');">
         <span>Nohkan</span>
       </a>
     </div>

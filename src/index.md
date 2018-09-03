@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<div class="home__image"></div>
+<div class="home__image" style="background-image: url('/assets/images/tatsu-side.jpg');"></div>
 
 <div class="home__content">
   <div class="wrapper">
