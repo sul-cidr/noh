@@ -31,7 +31,8 @@ $card-menu-large-element-size: 8.75rem;
   overflow: hidden;
   padding: 1rem;
   position: relative;
-  transition: box-shadow $transition;
+  top: 0;
+  transition: top $transition, box-shadow $transition;
 
   &::before {
     background-color: $black32;
@@ -47,6 +48,7 @@ $card-menu-large-element-size: 8.75rem;
 
   &:hover {
     box-shadow: 0 0.375rem 0.75rem $black16;
+    top: -0.125rem;
 
     &::before {
       background-color: rgba($black, 0);
@@ -70,7 +72,3 @@ $card-menu-large-element-size: 8.75rem;
   }
 }
 
-.card-menu__element--voices    { background-image: url("./images/voices-small.jpg"); }
-.card-menu__element--taiko     { background-image: url("./images/taiko-small.jpg"); }
-.card-menu__element--otsuzumi  { background-image: url("./images/otsuzumi-kotsuzumi-small.jpg"); }
-.card-menu__element--nohkan    { background-image: url("./images/nohkan-small.jpg"); }
