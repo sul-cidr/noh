@@ -38,7 +38,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       >
         <CellPercussion
           length={0}
-          text="None"
+          text=""
         />
       </div>
       <div
@@ -557,7 +557,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       >
         <CellPercussion
           length={0}
-          text="None"
+          text=""
         />
       </div>
       <div
@@ -1136,7 +1136,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
       >
         <CellPercussion
           length={0}
-          text="None"
+          text=""
         />
       </div>
       <div

@@ -2,7 +2,7 @@
 
 exports[`<CellPercussion> renders as expected by default 1`] = `
 <div
-  className="cell cell--14"
+  className="cell cell--14 cell--percussion "
 >
   <span
     className="truncate"
@@ -10,4 +10,10 @@ exports[`<CellPercussion> renders as expected by default 1`] = `
     mitsuji
   </span>
 </div>
+`;
+
+exports[`<CellPercussion> renders as expected with a note 1`] = `
+<div
+  className="cell cell--14 cell--percussion cell--percussion-chin"
+/>
 `;
