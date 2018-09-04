@@ -13,7 +13,17 @@
     <ul>
       <li class="{% if layout.menu-active == 'intermedia' %}active{% endif %}"><a href="/about-intermedia/">About intermedia</a></li>
       <li class="{% if layout.menu-active == 'plays' %}active{% endif %}"><a href="/plays/">Plays</a></li>
-      <li class="{% if layout.menu-active == 'elements' %}active{% endif %}"><a href="/elements-of-noh/">Elements of Noh</a></li>
+      <li class="dropdown-menu{% if layout.menu-active == 'elements' %} active{% endif %}">
+        <a href="#" class="dropdown-menu__trigger">Elements of Noh</a>
+        <ul class="dropdown-menu__list">
+          <li class="dropdown-menu__title">Elements of Noh</li>
+          <li class="#"><a href="/music/">Music</a></li>
+          <li class="#"><a href="/movement/">Movement</a></li>
+          <li class="#"><a href="/libretti/">Libretti</a></li>
+          <li class="#"><a href="/staging/">Staging</a></li>
+          <li class="#"><a href="/catalog-of-shodan/">Catalog of Shōdan</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
 </div>
