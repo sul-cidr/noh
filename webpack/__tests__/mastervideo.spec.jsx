@@ -83,8 +83,8 @@ describe("<MasterVideo>", () => {
       expect(store.getActions()[0]).toEqual(action);
     });
 
-    it("triggers the SET_IS_PLAYING action with the right payload when seeking", () => {
-      const action = { type: "SET_IS_PLAYING", payload: false };
+    it("triggers the SET_CURRENT_TIME action with the right payload when seeking", () => {
+      const action = { type: "SET_CURRENT_TIME", payload: 10 };
       wrapper.find("video").simulate("seeking");
       expect(store.getActions()[0]).toEqual(action);
     });
