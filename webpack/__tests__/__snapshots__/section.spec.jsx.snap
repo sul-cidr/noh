@@ -24554,7 +24554,6 @@ exports[`<Section> renders as expected 1`] = `
               <MasterVideo
                 currentTime={0}
                 isPlaying={false}
-                startTime={0}
                 tracks={
                   Array [
                     Object {
@@ -24620,12 +24619,6 @@ exports[`<Section> renders as expected 1`] = `
                       srcLang="en"
                     />
                   </video>
-                  <h3>
-                    0
-                  </h3>
-                  <span>
-                    0
-                  </span>
                 </div>
               </MasterVideo>
             </Connect(MasterVideo)>
@@ -57406,7 +57399,7 @@ exports[`<Section> renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -58048,7 +58041,7 @@ exports[`<Section> renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -58343,7 +58336,12 @@ exports[`<Section> renders as expected 1`] = `
                           onMouseDown={[Function]}
                           onStart={[Function]}
                           onStop={[Function]}
-                          position={null}
+                          position={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
                           transform={null}
                         >
                           <DraggableCore
@@ -58369,7 +58367,12 @@ exports[`<Section> renders as expected 1`] = `
                             onMouseDown={[Function]}
                             onStart={[Function]}
                             onStop={[Function]}
-                            position={null}
+                            position={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
                             transform={null}
                           >
                             <div
@@ -64615,7 +64618,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
               <MasterVideo
                 currentTime={0}
                 isPlaying={false}
-                startTime={0}
                 tracks={Array []}
                 updateCurrentTime={[Function]}
                 updateIsPlaying={[Function]}
@@ -64639,12 +64641,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       type="video/mp4"
                     />
                   </video>
-                  <h3>
-                    0
-                  </h3>
-                  <span>
-                    0
-                  </span>
                 </div>
               </MasterVideo>
             </Connect(MasterVideo)>
@@ -89211,7 +89207,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
               <MasterVideo
                 currentTime={0}
                 isPlaying={false}
-                startTime={0}
                 tracks={
                   Array [
                     Object {
@@ -89277,12 +89272,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                       srcLang="en"
                     />
                   </video>
-                  <h3>
-                    0
-                  </h3>
-                  <span>
-                    0
-                  </span>
                 </div>
               </MasterVideo>
             </Connect(MasterVideo)>
@@ -122063,7 +122052,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -122705,7 +122694,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                         text="mitsuji"
                       >
                         <div
-                          className="cell cell--13"
+                          className="cell cell--13 cell--percussion "
                         >
                           <span
                             className="truncate"
@@ -123000,7 +122989,12 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                           onMouseDown={[Function]}
                           onStart={[Function]}
                           onStop={[Function]}
-                          position={null}
+                          position={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
                           transform={null}
                         >
                           <DraggableCore
@@ -123026,7 +123020,12 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                             onMouseDown={[Function]}
                             onStart={[Function]}
                             onStop={[Function]}
-                            position={null}
+                            position={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
                             transform={null}
                           >
                             <div

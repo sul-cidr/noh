@@ -49,14 +49,12 @@ class MasterVideo extends Component {
           onPlay={() => this.props.updateIsPlaying(false)}
           onPause={() => this.props.updateIsPlaying(false)}
           onStalled={() => this.props.updateIsPlaying(false)}
-          onSeeking={() => this.props.updateIsPlaying(false)}
+          onSeeking={event => this.props.updateCurrentTime(event)}
           onWaiting={() => this.props.updateIsPlaying(false)}
         >
           <source src={this.props.videoUrl} type="video/mp4" />
           {tracks}
         </video>
-        <h3>{this.props.currentTime}</h3>
-        <span>{this.props.startTime}</span>
       </div>
     );
   }
@@ -65,7 +63,6 @@ class MasterVideo extends Component {
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
   videoUrl: PropTypes.string,
-  startTime: PropTypes.number,
   updateCurrentTime: PropTypes.func,
   updateIsPlaying: PropTypes.func,
   tracks: PropTypes.arrayOf(
@@ -81,7 +78,6 @@ MasterVideo.propTypes = {
 MasterVideo.defaultProps = {
   currentTime: 0,
   videoUrl: "",
-  startTime: 0,
   updateCurrentTime: () => {},
   updateIsPlaying: () => {},
   tracks: []
@@ -89,8 +85,7 @@ MasterVideo.defaultProps = {
 
 const mapStateToProps = state => ({
   currentTime: state.currentTime,
-  isPlaying: state.isPlaying,
-  startTime: state.startTime
+  isPlaying: state.isPlaying
 });
 
 export const mapDispatchToProps = dispatch => ({

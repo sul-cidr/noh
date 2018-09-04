@@ -799,8 +799,37 @@
         ]
       },
       "percussion": {
-        "value": "mitsuji",
-        "grid": []
+        "value": "tome",
+        "grid": [
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#note",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#note",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          }
+        ]
       },
       "nohkan": {
         "value": "",
