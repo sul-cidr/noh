@@ -37,7 +37,9 @@ collections:
   plays:
     output: true
     permalink: /:path/
-
+  music:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Exclude from processing.
