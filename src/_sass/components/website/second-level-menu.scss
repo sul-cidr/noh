@@ -1,6 +1,8 @@
 .second-level-menu__container {
   background-color: $beige-dark;
   box-shadow: 0 0.25rem 0.75rem $brown32;
+  position: relative;
+  z-index: 1;
 }
 
 .second-level-menu {

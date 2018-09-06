@@ -64,7 +64,7 @@
   }
 }
 
-@mixin truncate($width:100%, $display:block, $overflow:clip) {
+@mixin truncate($width:100%, $display:block, $overflow:ellipsis) {
   display: $display;
   max-width: $width;
   overflow: hidden;
