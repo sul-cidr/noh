@@ -1,0 +1,14 @@
+<div class="card__container">
+  <a href="{{ include.link }}" class="card">
+    <span class="card__header">
+      <span class="card__image" style="background-image: url({{ include.image }})"></span>
+      {% if include.icon %}
+      <span class="card__icon">{% include icons/{{ include.icon }}.svg %}</span>
+      {% endif %}
+    </span>
+    <span class="card__content">
+      <span class="card__title">{{ include.title }}</span>
+      <span class="card__description">{{ include.description }}</span>
+    </span>
+  </a>
+</div>

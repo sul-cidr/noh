@@ -1,6 +1,10 @@
 .cards-container {
-  @include flex-container($align: flex-start);
+  @include flex-container($justify:center, $align: flex-start);
   padding-top: 3.5rem;
+
+  .list-plays & {
+    padding-top: 0;
+  }
 }
 
 .card {
@@ -8,6 +12,7 @@
   border: $border;
   border-radius: 0.25rem;
   box-shadow: 0 0.125rem 0.25rem $black16;
+  display: block;
   height: 25rem;
   overflow: hidden;
   position: relative;
@@ -19,6 +24,7 @@
   &:hover {
     box-shadow: 0 0.375rem 0.75rem $black16;
     top: -0.25rem;
+
     .card__image {
       &::before {
         background-color: $brown16;
@@ -28,6 +34,19 @@
 
   span {
     display: block;
+  }
+}
+
+.card__container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
   }
 }
 
@@ -78,3 +97,11 @@
 .card__description {
   @include text(xs,'text');
 }
+
+.list-plays {
+  background-color: $beige-light;
+  border-bottom: $border;
+  border-top: $border;
+  padding: 2rem 0;
+}
+
