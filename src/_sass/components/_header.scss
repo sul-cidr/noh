@@ -38,31 +38,124 @@
 }
 
 .header__nav {
-  ul {
+  > ul {
     @include flex-container();
-  }
 
-  li {
-    a {
-      color: $white80;
-      display: inline-block;
-      padding: 0 0.75rem;
-      transition: color $transition;
-      text-decoration: none;
- 
-      @include text(xs);
-      @include uppercase();
+    > li {
+      > a {
+        color: $white80;
+        display: inline-block;
+        padding: 0 0.75rem;
+        transition: color $transition;
+        text-decoration: none;
 
-      &:hover {
-        color: $white;
+        @include text(xs);
+        @include uppercase();
+
+        &:hover {
+          color: $white;
+        }
+      }
+
+      .dropdown-menu__trigger {
+        align-items: center;
+        display: flex;
+      
+        @include text(xs);
+        @include uppercase();
+      
+        &::after {
+          border-color: $white80 transparent transparent transparent;
+          border-style: solid;
+          border-width: 0.1875rem 0.1875rem 0 0.1875rem;
+          content: '';
+          display: inline-block;
+          height: 0;
+          width: 0;
+          margin-left: 0.25rem;
+        }
+
+        &:focus {
+          & + .dropdown-menu__list {
+            display: block;
+          }
+        }
+      }
+      
+      &.active {
+        a {
+          color: $white;
+          font-weight: $fw-semibold;
+        }
       }
     }
+  }
+}
 
-    &.active {
-      a {
-        color: $white;
-        font-weight: $fw-semibold;
-      }
+.dropdown-menu {
+  position: relative;
+}
+
+.dropdown-menu__trigger {
+  align-items: center;
+  display: flex;
+
+  @include text(xs);
+  @include uppercase();
+
+  &::after {
+    border-color: $white80 transparent transparent transparent;
+    border-style: solid;
+    border-width: 0.1875rem 0.1875rem 0 0.1875rem;
+    content: '';
+    display: inline-block;
+    height: 0;
+    width: 0;
+    margin-left: 0.25rem;
+  }
+}
+
+.dropdown-menu__list {
+  background-color: $white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.625rem $black32;
+  display: none;
+  left: -0.125rem;
+  padding: 0.875rem;
+  position: absolute;
+  top: -0.875rem;
+  width: 11rem;
+  z-index: 10;
+
+  li {
+    font-weight: $fw-semibold;
+    margin-bottom: 0.625rem;
+
+    @include uppercase();
+
+    a {
+      color: $brown;
+      text-decoration: none;
+      @include text(xxs);
+    }
+  }
+
+  .dropdown-menu__title {
+    align-items: center;
+    display: flex;
+    font-weight: $fw-regular;
+
+    @include text(xs);
+
+    &::after {
+      border-color: $brown transparent transparent transparent;
+      border-style: solid;
+      border-width: 0.1875rem 0.1875rem 0 0.1875rem;
+      content: '';
+      display: inline-block;
+      height: 0;
+      margin-left: 0.25rem;
+      width: 0;
     }
   }
 }

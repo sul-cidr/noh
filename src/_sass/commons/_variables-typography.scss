@@ -25,7 +25,7 @@ $fs-display-xxs:    0.75rem; // 12px
 $fs-display-tn:   0.6875rem; // 11px
 
 // 
-// LINE HEIGHT NEEDS TO BE CALCULATED
+// LINE HEIGHTS NEED TO BE CALCULATED
 // 
 
 $lh-display-hg:   1.333333; // 24px
@@ -38,11 +38,14 @@ $lh-display-xs:   1.6;      // 16px
 $lh-display-xxs:  1.333333; // 12px
 $lh-display-tn:   1.333333; // 12px
 
-$fs-text-lg:       1.25rem; // 20px
+$fs-text-xl:       1.25rem; // 20px
+$fs-text-lg:      1.125rem; // 18px
 $fs-text-md:          1rem; // 16px
 $fs-text-sm:      0.875rem; // 14px
 $fs-text-xs:     0.8125rem; // 13px
-$lh-text-lg:             2; // 40px
+
+$lh-text-xl:             2; // 40px
+$lh-text-lg:      1.777777; // 32px
 $lh-text-md:           1.5; // 24px
 $lh-text-sm:      1.714285; // 24px
 $lh-text-xs:      1.846153; // 24px
@@ -73,6 +76,7 @@ $line-heights-display: (
 
 
 $font-sizes-text: (
+  xl: $fs-text-xl,
   lg: $fs-text-lg,
   md: $fs-text-md,
   sm: $fs-text-sm,
@@ -80,6 +84,7 @@ $font-sizes-text: (
 );
 
 $line-heights-text: (
+  xl: $lh-text-xl,
   lg: $lh-text-lg,
   md: $lh-text-md,
   sm: $lh-text-sm,

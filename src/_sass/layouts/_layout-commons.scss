@@ -2,3 +2,19 @@
   margin: 0 auto;
   max-width: $wrapper-large;
 }
+
+.text-container {
+  @extend .wrapper;
+}
+
+.image-container {
+  background-color: $beige-light;
+  border-bottom: $border;
+  border-top: $border;
+  margin: 4rem 0;
+  padding: 4rem 0;
+
+  img {
+    max-width: 100%;
+  }
+}

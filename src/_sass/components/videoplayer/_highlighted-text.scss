@@ -29,7 +29,10 @@
   }
 
   &.disabled {
-    color: $grey-dark;
+    h3,
+    svg path {
+      color: $brown40;
+    }
 
     .transcription,
     .transcription__title {
@@ -47,8 +50,6 @@
     }
   }
 }
-
-.transcription {}
 
 .transcription__title {
   padding: 0.5rem 1rem;

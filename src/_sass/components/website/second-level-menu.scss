@@ -1,0 +1,42 @@
+.second-level-menu__container {
+  background-color: $beige-dark;
+  box-shadow: 0 0.25rem 0.75rem $brown32;
+  position: relative;
+  z-index: 1;
+}
+
+.second-level-menu {
+  @include flex-container($justify: center);
+
+  li {
+    padding: 0 0.75rem;
+
+    a {
+      border-bottom-color: rgba($brown, 0);
+      border-bottom-style: solid;
+      border-bottom-width: 0.0625rem;
+      color: $green;
+      display: inline-block;
+      padding: 0.6875rem 0 0.75rem 0;
+      transition: color $transition, border-bottom-color $transition;
+      text-decoration: none;
+
+      @include text(xxs);
+      @include uppercase();
+
+      &:hover {
+        border-bottom-color: $brown;
+        color: $brown;
+      }
+    }
+
+    &.active {
+      a {
+        border-bottom-color: $brown;
+        border-bottom-width: 0.125rem;
+        color: $brown;
+        font-weight: $fw-bold;
+      }
+    }
+  }
+}

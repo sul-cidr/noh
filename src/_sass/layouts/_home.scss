@@ -8,7 +8,7 @@
   }
 
   p {
-    @include text(lg,'text');
+    @include text(xl,'text');
   }
 
   blockquote {
@@ -28,7 +28,6 @@
 }
 
 .home__image {
-  background-image: url('https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg');
   background-size: cover;
   background-position: 50% 50%;
   height: 30rem;
