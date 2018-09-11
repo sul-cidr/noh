@@ -1,0 +1,76 @@
+.custom-checkbox {
+  display: flex;
+  position: relative;
+
+  input[type='checkbox'] {
+    display: none;
+  }
+
+  label {
+    align-items: center;
+    color: $brown48;
+    display: flex;
+    height: 1rem;
+    padding-left: 1.375rem;
+    
+    @include text(xs);
+
+    span {
+      color: $brown40;
+      display: inline-block;
+      margin-left: 0.25rem;
+    }
+
+    &::before,
+    &::after {
+      display: inline-block;
+      height: 1rem;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 1rem;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    &::before {
+      background-color: $beige-dark;
+      border-color: $brown16;
+      border-radius: 0.0625rem;
+      border-style: solid;
+      border-width: 0.0625rem;
+      content: '';
+    }
+
+    &::after {
+      align-items: center;
+      display: flex;
+      font-family: $font-icon;
+      font-style: normal;
+      font-weight: normal;
+      justify-content: center;
+
+      @include text(tn);
+    }
+  }
+
+  input[type="checkbox"]:focus + label,
+  input[type="checkbox"]:checked + label {
+    color: $brown;
+
+    span {
+      color: $brown64;
+    }
+  }
+
+  input[type="checkbox"]:focus + label::before,
+  input[type="checkbox"]:checked + label::before {
+    background-color: $green;
+    border-color: $green;
+  }
+
+  input[type="checkbox"]:checked + label::after {
+    color: $white;
+    content: $fa-var-check;
+  }
+}
