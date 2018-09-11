@@ -2,48 +2,50 @@
 
   <div class="wrapper">
 
-    <div class="footer__logo">
-      {% include icons/isotype-large.svg %}
+    <div class="footer__content">
+      <div class="row row--center-x">
+        <div class="col col-3">
+          <div class="footer__logo">
+            {% include icons/isotype-large.svg %}
+          </div>
+        </div>
+        <div class="col col-3">
+          <ul class="footer__nav">
+            <li class="footer__nav-title">Elements of Noh</li>
+            <li class="footer__nav-link"><a href="/music/">Music</a></li>
+            <li class="footer__nav-link"><a href="/movement/">Movement</a></li>
+            <li class="footer__nav-link"><a href="/libretti/">Libretti</a></li>
+            <li class="footer__nav-link"><a href="/staging/">Staging</a></li>
+            <li class="footer__nav-link"><a href="/catalog-of-shodan/">Catalog of Shōdan</a></li>
+          </ul>
+        </div>
+        <div class="col col-3">
+          <ul class="footer__nav">
+            <li class="footer__nav-title"><a href="/about-intermedia/">About intermedia</a></li>
+          </ul>
+          <ul class="footer__nav">
+            <li class="footer__nav-title"><a href="/plays/">Plays</a></li>
+            <li class="footer__nav-link"><a href="/hashitomi/">Hashitomi</a></li>
+            <li class="footer__nav-link"><a href="/kokaji/">Kokaji</a></li>
+          </ul>
+        </div>
+        <div class="col col-3">
+          <ul class="footer__nav">
+            <li class="footer__nav-title"><a href="#">About</a></li>
+          </ul>
+          <ul class="footer__nav">
+            <li class="footer__nav-title"><a href="#">Credits</a></li>
+          </ul>
+          <ul class="footer__nav">
+            <li class="footer__nav-title"><a href="#">Terms and conditions</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+    <div class="footer__copyright">
+      <p>© Kapuscinski/Rose 2018, All rights reserved.</p>
     </div>
-
   </div>
 
 </footer>
