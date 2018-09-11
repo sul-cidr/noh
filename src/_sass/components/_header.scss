@@ -43,9 +43,13 @@
 
     > li {
       > a {
+        border-bottom-style: solid;
+        border-bottom-width: 0.0625rem;
+        border-bottom-color: rgba($green, 0);
         color: $white80;
         display: inline-block;
-        padding: 0 0.75rem;
+        margin: 0 0.75rem;
+        padding: 0.0625rem 0;
         transition: color $transition;
         text-decoration: none;
 
@@ -71,8 +75,10 @@
           content: '';
           display: inline-block;
           height: 0;
-          width: 0;
           margin-left: 0.25rem;
+          position: absolute;
+          right: 0;
+          width: 0;
         }
 
         &:focus {
@@ -84,6 +90,7 @@
       
       &.active {
         a {
+          border-bottom-color: $white;
           color: $white;
           font-weight: $fw-semibold;
         }
