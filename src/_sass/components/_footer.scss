@@ -1,9 +1,55 @@
 .footer {
   background-color: $brown;
+}
 
+.footer__content {
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
 }
 
 .footer__logo {
   color: $white;
   opacity: 0.48;
+}
+
+.footer__nav {
+  margin-bottom: 1rem;
+}
+
+.footer__nav-title,
+.footer__nav-link {
+  @include text(xxs);
+}
+
+.footer__nav-title {
+  color: $white;
+  font-weight: $fw-semibold;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.footer__nav-link {
+  margin-bottom: 0.5rem;
+
+  a {
+    color: $white64;
+    text-decoration: none;
+  }
+}
+
+.footer__copyright {
+  border-top: 0.0625rem solid $white40;
+  padding: 0.5rem 0;
+
+  p {
+    color: $white64;
+    text-align: center;
+  
+    @include text(xxs);
+  }
 }
