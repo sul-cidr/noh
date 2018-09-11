@@ -1887,6 +1887,7 @@ exports[`<Play> renders as expected 1`] = `
                 <div>
                   <video
                     controls={true}
+                    controlsList="nodownload"
                     id="player"
                     onEnded={[Function]}
                     onPause={[Function]}

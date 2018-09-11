@@ -43,6 +43,7 @@ class MasterVideo extends Component {
             this.video = video;
           }}
           controls
+          controlsList="nodownload"
           onTimeUpdate={event => this.props.updateCurrentTime(event)}
           onPlaying={() => this.props.updateIsPlaying(true)}
           onEnded={() => this.props.updateIsPlaying(false)}
