@@ -1,0 +1,9 @@
+<a href="#" class="filters__card" style="background-image:url('{{ include.image }}')">
+  <h4 class="filters__card-title">{{ include.title }}</h4>
+  <ul class="filters__pills-container">
+    {% assign pills = include.pills | split: ',' %}
+    {% for pill in pills %}
+      <li class="filters__pill">{{ pill }}</li>
+    {% endfor %}
+  </ul>  
+</a>
