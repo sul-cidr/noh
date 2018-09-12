@@ -22,6 +22,7 @@ second-level-menu-active: catalog
                 id="type-1"
                 title="Spoken"
                 amount="18"
+                checked="checked"
               %}
             </li>
             <li class="filters__element">
@@ -29,6 +30,7 @@ second-level-menu-active: catalog
                 id="type-2"
                 title="Chanted"
                 amount="18"
+                checked="checked"
               %}
               <ul>
                 <li class="filters__element">
@@ -36,6 +38,7 @@ second-level-menu-active: catalog
                     id="type-21"
                     title="Recitative Chant"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -43,6 +46,7 @@ second-level-menu-active: catalog
                     id="type-22"
                     title="Introduction Chant"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -50,6 +54,7 @@ second-level-menu-active: catalog
                     id="type-23"
                     title="Main Chant"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -57,6 +62,7 @@ second-level-menu-active: catalog
                     id="type-24"
                     title="Closing Chant"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
               </ul>  
@@ -66,6 +72,7 @@ second-level-menu-active: catalog
                 id="type-3"
                 title="Entrance and Exit Music"
                 amount="18"
+                checked="checked"
               %}
             </li>
             <li class="filters__element">
@@ -73,6 +80,7 @@ second-level-menu-active: catalog
                 id="type-4"
                 title="Dance Music"
                 amount="18"
+                checked="checked"
               %}
             </li>
           </ul>
@@ -83,6 +91,7 @@ second-level-menu-active: catalog
                 id="act-1"
                 title="First act (Mae ba)"
                 amount="18"
+                checked="checked"
               %}
               <ul>
                 <li class="filters__element">
@@ -90,6 +99,7 @@ second-level-menu-active: catalog
                     id="act-11"
                     title="Waki enters"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -97,6 +107,7 @@ second-level-menu-active: catalog
                     id="act-12"
                     title="Shite enters"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -104,6 +115,7 @@ second-level-menu-active: catalog
                     id="act-13"
                     title="Dialogue"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -111,6 +123,7 @@ second-level-menu-active: catalog
                     id="act-14"
                     title="Shite performs"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -118,6 +131,7 @@ second-level-menu-active: catalog
                     id="act-15"
                     title="Shite exits"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
               </ul>  
@@ -127,6 +141,7 @@ second-level-menu-active: catalog
                 id="act-1"
                 title="Second act (Nochi ba)"
                 amount="18"
+                checked="checked"
               %}
               <ul>
                 <li class="filters__element">
@@ -134,6 +149,7 @@ second-level-menu-active: catalog
                     id="act-21"
                     title="Waki waits"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -141,6 +157,7 @@ second-level-menu-active: catalog
                     id="act-22"
                     title="Shite re-enters"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -148,6 +165,7 @@ second-level-menu-active: catalog
                     id="act-23"
                     title="Dialogue"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -155,6 +173,7 @@ second-level-menu-active: catalog
                     id="act-24"
                     title="Shite performs"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
                 <li class="filters__element">
@@ -162,6 +181,7 @@ second-level-menu-active: catalog
                     id="act-25"
                     title="Shite exits"
                     amount="18"
+                    checked="checked"
                   %}
                 </li>
               </ul>  
