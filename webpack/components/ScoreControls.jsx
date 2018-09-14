@@ -47,14 +47,14 @@ class ScoreControls extends Component {
       <div className="score-controls">
         <div className="sentence-control">
           <div className="sentence-control__prev">
-            <i class="fas fa-step-backward" />
+            <i className="fas fa-step-backward" />
           </div>
           <div className="sentence-control__status">
             <span className="sentence-control__title">Sentence:</span>
             <span className="sentence-control__current">13/55</span>
           </div>
           <div className="sentence-control__next">
-            <i class="fas fa-step-forward" />
+            <i className="fas fa-step-forward" />
           </div>
         </div>
         <div className="video-progress">
@@ -67,9 +67,9 @@ class ScoreControls extends Component {
           <button className="score-controls__filters-button">Filters</button>
           <div className="score-controls__filters-popup">
             <ul className="channel-toggles">
-              <li class="toggles__title">Lines</li>
+              <li className="toggles__title">Lines</li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scoreBeat"
                     type="checkbox"
@@ -78,12 +78,12 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreBeat">
-                    <span class="custom-checkbox__text">Beat</span>
+                    <span className="custom-checkbox__text">Beat</span>
                   </label>
                 </div>
               </li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scoreText"
                     type="checkbox"
@@ -92,12 +92,12 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreText">
-                    <span class="custom-checkbox__text">Text</span>
+                    <span className="custom-checkbox__text">Text</span>
                   </label>
                 </div>
               </li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scorePercussion"
                     type="checkbox"
@@ -108,12 +108,12 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scorePercussion">
-                    <span class="custom-checkbox__text">Percussion</span>
+                    <span className="custom-checkbox__text">Percussion</span>
                   </label>
                 </div>
               </li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scoreNohkan"
                     type="checkbox"
@@ -122,12 +122,12 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreNohkan">
-                    <span class="custom-checkbox__text">Nohkan</span>
+                    <span className="custom-checkbox__text">Nohkan</span>
                   </label>
                 </div>
               </li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scoreDance"
                     type="checkbox"
@@ -136,15 +136,15 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreDance">
-                    <span class="custom-checkbox__text">Dance</span>
+                    <span className="custom-checkbox__text">Dance</span>
                   </label>
                 </div>
               </li>
             </ul>
             <ul className="measure-toggles">
-              <li class="toggles__title">Sentences</li>
+              <li className="toggles__title">Sentences</li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scorePrevSentence"
                     type="checkbox"
@@ -155,12 +155,14 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scorePrevSentence">
-                    <span class="custom-checkbox__text">Previous Sentence</span>
+                    <span className="custom-checkbox__text">
+                      Previous Sentence
+                    </span>
                   </label>
                 </div>
               </li>
               <li>
-                <div class="custom-checkbox">
+                <div className="custom-checkbox">
                   <input
                     id="scoreNextSentence"
                     type="checkbox"
@@ -171,7 +173,7 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreNextSentence">
-                    <span class="custom-checkbox__text">Next Sentence</span>
+                    <span className="custom-checkbox__text">Next Sentence</span>
                   </label>
                 </div>
               </li>
