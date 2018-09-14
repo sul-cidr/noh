@@ -48,7 +48,7 @@
 
 .sidebar__header {
   background-color: $white;
-  color: $green;
+  color: $brown;
   padding: 1rem;
   position: relative;
   width: 100%;
@@ -90,8 +90,9 @@
   @include flex-container();
 
   h3 {
-    font-weight: $fw-bold;
+    color: $brown;
     flex-shrink: 0;
+    font-weight: $fw-bold;
     margin-right: 1rem;
 
     @include text(xxs);
