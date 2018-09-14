@@ -43,128 +43,127 @@ class ScoreControls extends Component {
   }
 
   render() {
-    const checkboxIcon = (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="12"
-        height="12"
-        viewBox="0 0 12 12"
-      >
-        <g fill="currentColor" fillRule="evenodd">
-          <path
-            fillRule="nonzero"
-            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-          />
-          <path
-            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-            transform="rotate(-45 6.152 5.5)"
-          />
-        </g>
-      </svg>
-    );
     return (
       <div className="score-controls">
-        <ul className="channel-toggles">
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isBeatOn}
-              onChange={event => this.handleToggle(event, "isBeatOn")}
-              onKeyPress={null}
-              id="scoreBeat"
-            />
-            <label htmlFor="scoreBeat">
-              {checkboxIcon}
-              Beat
-            </label>
-          </li>
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isTextOn}
-              onChange={event => this.handleToggle(event, "isTextOn")}
-              onKeyPress={null}
-              id="scoreText"
-            />
-            <label htmlFor="scoreText">
-              {checkboxIcon}
-              Text
-            </label>
-          </li>
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isPercussionOn}
-              onChange={event => this.handleToggle(event, "isPercussionOn")}
-              onKeyPress={null}
-              id="scorePercussion"
-            />
-            <label htmlFor="scorePercussion">
-              {checkboxIcon}
-              Percussion
-            </label>
-          </li>
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isNohkanOn}
-              onChange={event => this.handleToggle(event, "isNohkanOn")}
-              onKeyPress={null}
-              id="scoreNohkan"
-            />
-            <label htmlFor="scoreNohkan">
-              {checkboxIcon}
-              Nohkan
-            </label>
-          </li>
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isDanceOn}
-              onChange={event => this.handleToggle(event, "isDanceOn")}
-              onKeyPress={null}
-              id="scoreDance"
-            />
-            <label htmlFor="scoreDance">
-              {checkboxIcon}
-              Dance
-            </label>
-          </li>
-        </ul>
         <div className="video-progress">
           <TimelineIndicator
             startTime={this.props.startTime}
             duration={this.props.duration}
           />
         </div>
-        <ul className="measure-toggles">
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isPrevSentenceOn}
-              onChange={event => this.handleToggle(event, "isPrevSentenceOn")}
-              onKeyPress={null}
-              id="scorePrevSentence"
-            />
-            <label htmlFor="scorePrevSentence">
-              {checkboxIcon}
-              Previous Sentence
-            </label>
-          </li>
-          <li>
-            <input
-              type="checkbox"
-              checked={this.state.isNextSentenceOn}
-              onChange={event => this.handleToggle(event, "isNextSentenceOn")}
-              onKeyPress={null}
-              id="scoreNextSentence"
-            />
-            <label htmlFor="scoreNextSentence">
-              {checkboxIcon}
-              Next Sentence
-            </label>
-          </li>
-        </ul>
+        <div className="score-controls__filters">
+          <button className="score-controls__filters-button">Filters</button>
+          <div className="score-controls__filters-popup">
+            <ul className="channel-toggles">
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scoreBeat"
+                    type="checkbox"
+                    checked={this.state.isBeatOn}
+                    onChange={event => this.handleToggle(event, "isBeatOn")}
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scoreBeat">
+                    <span class="custom-checkbox__text">Beat</span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scoreText"
+                    type="checkbox"
+                    checked={this.state.isTextOn}
+                    onChange={event => this.handleToggle(event, "isTextOn")}
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scoreText">
+                    <span class="custom-checkbox__text">Text</span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scorePercussion"
+                    type="checkbox"
+                    checked={this.state.isPercussionOn}
+                    onChange={event =>
+                      this.handleToggle(event, "isPercussionOn")
+                    }
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scorePercussion">
+                    <span class="custom-checkbox__text">Percussion</span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scoreNohkan"
+                    type="checkbox"
+                    checked={this.state.isNohkanOn}
+                    onChange={event => this.handleToggle(event, "isNohkanOn")}
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scoreNohkan">
+                    <span class="custom-checkbox__text">Nohkan</span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scoreDance"
+                    type="checkbox"
+                    checked={this.state.isDanceOn}
+                    onChange={event => this.handleToggle(event, "isDanceOn")}
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scoreDance">
+                    <span class="custom-checkbox__text">Dance</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <ul className="measure-toggles">
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scorePrevSentence"
+                    type="checkbox"
+                    checked={this.state.isPrevSentenceOn}
+                    onChange={event =>
+                      this.handleToggle(event, "isPrevSentenceOn")
+                    }
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scorePrevSentence">
+                    <span class="custom-checkbox__text">Previous Sentence</span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div class="custom-checkbox">
+                  <input
+                    id="scoreNextSentence"
+                    type="checkbox"
+                    checked={this.state.isNextSentenceOn}
+                    onChange={event =>
+                      this.handleToggle(event, "isNextSentenceOn")
+                    }
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scoreNextSentence">
+                    <span class="custom-checkbox__text">Next Sentence</span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }

@@ -11,65 +11,47 @@ $score-checkbox-height: 1.5rem;
 
 .channel-toggles,
 .measure-toggles {
+  flex-basis: 50%;
+  flex-grow: 1;
   flex-shrink: 0;
   margin: 0;
-
-  @include flex-container($justify:flex-start, $align:center);
-
+ 
   li {
+    margin-bottom: 0.75rem;
     position: relative;
-
-    input[type="checkbox"] {
-      display: none;
-
-      &:checked {
-        & + label {
-          background-color: $white64;
-          color: $green;
-
-          g {
-            fill: $green;
-          }
-        }
-      }
-    }
-
-    label {
-      background-color: $white32;
-      border-radius: 0.125rem;
-      color: $white;
-      font-weight: $fw-semibold;
-      height: $score-checkbox-height;
-      padding: 0.125rem 0.5rem;
-
-      @include flex-container($justify:flex-start, $align:center);
-      @include text(tn);
-      @include uppercase();
-
-      g {
-        fill: $white;
-      }
-
-      svg {
-        margin-right: 0.25rem;
-      }
-
-      span {
-        margin-left: 0.25rem;
-      }
-    }
   }
 }
 
 .channel-toggles {
-  li {
-    margin-right: 0.625rem;
-  }
+  margin-right: 0.5rem;
 }
 
 .measure-toggles {
-  li {
-    margin-left: 0.625rem;
-  }
+  margin-left: 0.5rem;
 }
 
+.score-controls__filters {
+  position: relative;
+}
+
+.score-controls__filters-button {
+  padding: 0.125rem 0.5rem;
+}
+
+.score-controls__filters-popup {
+  background-color: $white;
+  border-radius: 0.125rem;
+  bottom: 2.5rem;
+  box-shadow: 0 0.125rem 0.75rem $black32;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  width: 18rem;
+  z-index: 10;
+
+  @include flex-container($justify:flex-start, $align:flex-start);
+
+  &::before {
+    
+  }
+}
