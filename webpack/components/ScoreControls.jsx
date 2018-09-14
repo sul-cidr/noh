@@ -45,6 +45,18 @@ class ScoreControls extends Component {
   render() {
     return (
       <div className="score-controls">
+        <div className="sentence-control">
+          <div className="sentence-control__prev">
+            <i class="fas fa-step-backward" />
+          </div>
+          <div className="sentence-control__status">
+            <span className="sentence-control__title">Sentence:</span>
+            <span className="sentence-control__current">13/55</span>
+          </div>
+          <div className="sentence-control__next">
+            <i class="fas fa-step-forward" />
+          </div>
+        </div>
         <div className="video-progress">
           <TimelineIndicator
             startTime={this.props.startTime}
@@ -55,6 +67,7 @@ class ScoreControls extends Component {
           <button className="score-controls__filters-button">Filters</button>
           <div className="score-controls__filters-popup">
             <ul className="channel-toggles">
+              <li class="toggles__title">Lines</li>
               <li>
                 <div class="custom-checkbox">
                   <input
@@ -129,6 +142,7 @@ class ScoreControls extends Component {
               </li>
             </ul>
             <ul className="measure-toggles">
+              <li class="toggles__title">Sentences</li>
               <li>
                 <div class="custom-checkbox">
                   <input

@@ -7,11 +7,10 @@
   }
 
   label {
-    color: $brown48;
     font-size: $fs-display-xs;
     line-height: 1.25;
     padding-left: 1.375rem;
-
+    
     span {
       display: inline-block;
     }
@@ -22,21 +21,21 @@
       height: 1rem;
       left: 0;
       position: absolute;
-      top: 0;
       width: 1rem;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-
+    
     &::before {
       background-color: $beige-dark;
       border-color: $brown16;
-      border-radius: 0.0625rem;
+      border-radius: 0.125rem;
       border-style: solid;
       border-width: 0.0625rem;
       content: '';
+      top: 0;
     }
-
+    
     &::after {
       align-items: center;
       display: flex;
@@ -44,8 +43,13 @@
       font-style: normal;
       font-weight: normal;
       justify-content: center;
+      top: 0.0625rem;
 
-      @include text(tn);
+      @include text(xxs);
+    }
+
+    .custom-checkbox__text {
+      color: $brown48;
     }
   }
 
@@ -53,8 +57,8 @@
   input[type="checkbox"]:checked + label {
     color: $brown;
 
-    span {
-      color: $brown64;
+    .custom-checkbox__text {
+      color: $brown;
     }
   }
 
