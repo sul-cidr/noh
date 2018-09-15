@@ -1,0 +1,84 @@
+.filters__container {
+  background-color: $beige-light;
+  border-bottom: $border;
+  border-top: $border;
+  margin: 4rem 0;
+  padding: 4rem 0;
+}
+
+.filters__content {
+  @include flex-container($justify:flex-start, $align: flex-start);
+}
+
+.filters__controls {
+  flex-shrink: 0;
+  padding-right: 1rem;
+
+  ul {
+    margin-bottom: 2rem;
+  }
+}
+
+.filters__title {
+  margin-bottom: 1rem;
+
+  @include text(sm);
+}
+
+.filters__element {
+  margin-bottom: 0.75rem;
+
+  ul {
+    border-left: 0.125rem solid $brown16;
+    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+  }
+}
+
+.filters__card-container {
+  flex-grow: 1;
+  margin: 0 -1rem;
+  padding-left: 1rem;
+
+  @include flex-container($wrap:wrap, $justify:flex-start, $align: flex-start);
+}
+
+.filters__card {
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 0.125rem;
+  height: 10rem;
+  margin: 1rem;
+  overflow: hidden;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+  text-decoration: none;
+  width: 13.75rem;
+
+  @include flex-container($direction:column, $justify:space-between, $align: flex-start);
+}
+
+.filters__card-title {
+  color: $white;
+  font-weight: $fw-semibold;
+  
+  @include text(md);
+}
+
+.filters__pills-container {
+  @include flex-container($wrap:wrap, $justify:flex-start, $align: flex-end);
+}
+
+.filters__pill {
+  background-color: $black64;
+  border-radius: 0.125rem;
+  color: $white;
+  font-weight: $fw-bold;
+  margin-right: 0.375rem;
+  margin-top: 0.375rem;
+  padding: 0.25rem 0.5rem;
+
+  @include text(tn);
+  @include uppercase();
+}
