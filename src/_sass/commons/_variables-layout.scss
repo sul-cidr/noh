@@ -1,8 +1,8 @@
 /* Wrapper */
 
 $number-columns: 12;
-$col-width: 3rem;
-$gutter-width: 2rem;
+$col-width: 4rem;
+$gutter-width: 1rem;
 
 $wrapper-small: 60rem;
 $wrapper-large: $number-columns*$col-width + ($number-columns - 1)*$gutter-width;
