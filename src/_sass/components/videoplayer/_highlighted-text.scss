@@ -52,6 +52,7 @@
 }
 
 .transcription__title {
+  color: $brown;
   padding: 0.5rem 1rem;
 
   @include flex-container($justify:space-between, $align:baseline);
@@ -79,6 +80,7 @@
 }
 
 .transcription__line {
+	color: $brown;
   font-family: $font-text;
   margin-bottom: 0.25rem;
   padding: 0.25rem 1rem;

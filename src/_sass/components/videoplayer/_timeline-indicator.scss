@@ -28,6 +28,7 @@ $time-indicator-bar: 0.25rem;
 
 .video-progress {
   height: $time-indicator-circle;
+  max-width: 25rem;
   position: relative;
   width: 100%;
 
