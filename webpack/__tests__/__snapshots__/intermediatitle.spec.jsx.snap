@@ -15,7 +15,12 @@ exports[`<IntermediaTitle> renders as expected 1`] = `
     <a
       href="hashitomi/kiri"
     >
-      kiri
+      <span>
+        kiri
+      </span>
+      <i
+        className="fas fa-chevron-right"
+      />
     </a>
   </div>
 </div>
