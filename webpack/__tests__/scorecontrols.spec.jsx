@@ -30,11 +30,21 @@ describe("<ScoreControls>", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  fit("handles checkbox changes", () => {
+  it("handles checkbox changes", () => {
     const action = { type: "SET_SCORE_TOGGLES", payload: {} };
     wrapper.find("input").forEach(input => {
       input.simulate("change");
       expect(store.getActions()[0].type).toEqual(action.type);
     });
+  });
+
+  it("handles filters popup", () => {
+    const popup = wrapper.find("div.score-controls__filters-popup").first();
+    const button = wrapper
+      .find("button.score-controls__filters-button")
+      .first();
+    expect(popup.getDOMNode().className).toContain("hidden");
+    button.simulate("click");
+    expect(popup.getDOMNode().className).not.toContain("hidden");
   });
 });
