@@ -1,6 +1,6 @@
 function attachTabs() {
   var tabClass = "react-tabs__tab";
-  var lu = document.createElement("li");
+  var lu = document.createElement("lu");
   lu.classList.add(`${tabClass}-list`);
 
   var sections = document.querySelectorAll("section.tabbed-narrative");
