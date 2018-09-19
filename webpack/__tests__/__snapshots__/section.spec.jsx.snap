@@ -22321,7 +22321,7 @@ exports[`<Section> renders as expected 1`] = `
             </div>
             <ShodanTimeline
               maxIntensity={29}
-              mode="startTime"
+              mode="url"
               sections={
                 Array [
                   Object {
@@ -23571,7 +23571,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="4.061738424045491%"
                   maxIntensity={29}
                   name="Musicians walk in"
-                  startTime={106}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23580,7 +23579,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="4.061738424045491%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    startTime={106}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23609,7 +23608,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="7.554833468724613%"
                   maxIntensity={29}
                   name="Nanori"
-                  startTime={236}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23618,7 +23616,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="7.554833468724613%"
                     maxIntensity={29}
                     name="Nanori"
-                    startTime={236}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23647,7 +23645,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="9.694015705388573%"
                   maxIntensity={29}
                   name="Mondō-1"
-                  startTime={316}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23656,7 +23653,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="9.694015705388573%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    startTime={316}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23685,7 +23682,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="15.272136474411049%"
                   maxIntensity={29}
                   name="Ageuta-1"
-                  startTime={523}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23694,7 +23690,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="15.272136474411049%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    startTime={523}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23723,7 +23719,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="18.575683725968048%"
                   maxIntensity={29}
                   name="Dialogue"
-                  startTime={646}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23732,7 +23727,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="18.575683725968048%"
                     maxIntensity={29}
                     name="Dialogue"
-                    startTime={646}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23761,7 +23756,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="19.469266179258057%"
                   maxIntensity={29}
                   name="Monologue"
-                  startTime={680}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23770,7 +23764,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="19.469266179258057%"
                     maxIntensity={29}
                     name="Monologue"
-                    startTime={680}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23799,7 +23793,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="21.039805036555645%"
                   maxIntensity={29}
                   name="Mondō-2"
-                  startTime={738}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23808,7 +23801,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="21.039805036555645%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    startTime={738}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23837,7 +23830,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="25.345247766043865%"
                   maxIntensity={29}
                   name="Ageuta-2"
-                  startTime={898}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23846,7 +23838,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="25.345247766043865%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    startTime={898}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23875,7 +23867,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="28.45924722447874%"
                   maxIntensity={29}
                   name="Kuri"
-                  startTime={1014}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23884,7 +23875,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="28.45924722447874%"
                     maxIntensity={29}
                     name="Kuri"
-                    startTime={1014}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23913,7 +23904,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="30.08394259409694%"
                   maxIntensity={29}
                   name="Sashi"
-                  startTime={1075}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23922,7 +23912,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="30.08394259409694%"
                     maxIntensity={29}
                     name="Sashi"
-                    startTime={1075}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23951,7 +23941,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="33.252098564852425%"
                   maxIntensity={29}
                   name="Kuse"
-                  startTime={1193}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23960,7 +23949,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="33.252098564852425%"
                     maxIntensity={29}
                     name="Kuse"
-                    startTime={1193}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23989,7 +23978,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="48.22637422150014%"
                   maxIntensity={29}
                   name="Kakeai-1"
-                  startTime={1747}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23998,7 +23986,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="48.22637422150014%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    startTime={1747}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24027,7 +24015,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="49.76983482263742%"
                   maxIntensity={29}
                   name="Ageuta-3"
-                  startTime={1805}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24036,7 +24023,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="49.76983482263742%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    startTime={1805}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24065,7 +24052,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="51.77362577849986%"
                   maxIntensity={29}
                   name="Raijo"
-                  startTime={1880}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24074,7 +24060,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="51.77362577849986%"
                     maxIntensity={29}
                     name="Raijo"
-                    startTime={1880}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24103,7 +24089,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="57.46005957216355%"
                   maxIntensity={29}
                   name="Aikyōgen"
-                  startTime={2091}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24112,7 +24097,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="57.46005957216355%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    startTime={2091}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24141,7 +24126,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="70.56593555375034%"
                   maxIntensity={29}
                   name="Prop is brought in"
-                  startTime={2576}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24150,7 +24134,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="70.56593555375034%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    startTime={2576}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24179,7 +24163,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="74.4110479285134%"
                   maxIntensity={29}
                   name="Notto"
-                  startTime={2719}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24188,7 +24171,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="74.4110479285134%"
                     maxIntensity={29}
                     name="Notto"
-                    startTime={2719}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24217,7 +24200,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="79.85377741673436%"
                   maxIntensity={29}
                   name="Noriji-1"
-                  startTime={2921}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24226,7 +24208,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="79.85377741673436%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    startTime={2921}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24255,7 +24237,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="83.78012455997833%"
                   maxIntensity={29}
                   name="Hayafue"
-                  startTime={3067}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24264,7 +24245,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="83.78012455997833%"
                     maxIntensity={29}
                     name="Hayafue"
-                    startTime={3067}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24293,7 +24274,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="86.02761982128351%"
                   maxIntensity={29}
                   name="Noriji-2"
-                  startTime={3151}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24302,7 +24282,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="86.02761982128351%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    startTime={3151}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24331,7 +24311,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="87.21906309233685%"
                   maxIntensity={29}
                   name="Maibataraki"
-                  startTime={3196}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24340,7 +24319,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="87.21906309233685%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    startTime={3196}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24369,7 +24348,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="88.78960194963445%"
                   maxIntensity={29}
                   name="Noriji-3"
-                  startTime={3255}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24378,7 +24356,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="88.78960194963445%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    startTime={3255}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24407,7 +24385,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="91.87652315190901%"
                   maxIntensity={29}
                   name="Kakeai-2"
-                  startTime={3370}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24416,7 +24393,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="91.87652315190901%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    startTime={3370}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24445,7 +24422,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="92.6617925805578%"
                   maxIntensity={29}
                   name="Kiri"
-                  startTime={3400}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24454,7 +24430,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="92.6617925805578%"
                     maxIntensity={29}
                     name="Kiri"
-                    startTime={3400}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24483,7 +24459,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="96.29027890603844%"
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
-                  startTime={3536}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24492,7 +24467,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="96.29027890603844%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    startTime={3536}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -62378,7 +62353,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
             </div>
             <ShodanTimeline
               maxIntensity={29}
-              mode="startTime"
+              mode="url"
               sections={
                 Array [
                   Object {
@@ -63628,7 +63603,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="4.061738424045491%"
                   maxIntensity={29}
                   name="Musicians walk in"
-                  startTime={106}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63637,7 +63611,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="4.061738424045491%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    startTime={106}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63666,7 +63640,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="7.554833468724613%"
                   maxIntensity={29}
                   name="Nanori"
-                  startTime={236}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63675,7 +63648,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="7.554833468724613%"
                     maxIntensity={29}
                     name="Nanori"
-                    startTime={236}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63704,7 +63677,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="9.694015705388573%"
                   maxIntensity={29}
                   name="Mondō-1"
-                  startTime={316}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63713,7 +63685,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="9.694015705388573%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    startTime={316}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63742,7 +63714,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="15.272136474411049%"
                   maxIntensity={29}
                   name="Ageuta-1"
-                  startTime={523}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63751,7 +63722,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="15.272136474411049%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    startTime={523}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63780,7 +63751,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="18.575683725968048%"
                   maxIntensity={29}
                   name="Dialogue"
-                  startTime={646}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63789,7 +63759,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="18.575683725968048%"
                     maxIntensity={29}
                     name="Dialogue"
-                    startTime={646}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63818,7 +63788,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="19.469266179258057%"
                   maxIntensity={29}
                   name="Monologue"
-                  startTime={680}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63827,7 +63796,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="19.469266179258057%"
                     maxIntensity={29}
                     name="Monologue"
-                    startTime={680}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63856,7 +63825,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="21.039805036555645%"
                   maxIntensity={29}
                   name="Mondō-2"
-                  startTime={738}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63865,7 +63833,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="21.039805036555645%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    startTime={738}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63894,7 +63862,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="25.345247766043865%"
                   maxIntensity={29}
                   name="Ageuta-2"
-                  startTime={898}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63903,7 +63870,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="25.345247766043865%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    startTime={898}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63932,7 +63899,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="28.45924722447874%"
                   maxIntensity={29}
                   name="Kuri"
-                  startTime={1014}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63941,7 +63907,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="28.45924722447874%"
                     maxIntensity={29}
                     name="Kuri"
-                    startTime={1014}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63970,7 +63936,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="30.08394259409694%"
                   maxIntensity={29}
                   name="Sashi"
-                  startTime={1075}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63979,7 +63944,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="30.08394259409694%"
                     maxIntensity={29}
                     name="Sashi"
-                    startTime={1075}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64008,7 +63973,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="33.252098564852425%"
                   maxIntensity={29}
                   name="Kuse"
-                  startTime={1193}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64017,7 +63981,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="33.252098564852425%"
                     maxIntensity={29}
                     name="Kuse"
-                    startTime={1193}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64046,7 +64010,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="48.22637422150014%"
                   maxIntensity={29}
                   name="Kakeai-1"
-                  startTime={1747}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64055,7 +64018,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="48.22637422150014%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    startTime={1747}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64084,7 +64047,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="49.76983482263742%"
                   maxIntensity={29}
                   name="Ageuta-3"
-                  startTime={1805}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64093,7 +64055,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="49.76983482263742%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    startTime={1805}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64122,7 +64084,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="51.77362577849986%"
                   maxIntensity={29}
                   name="Raijo"
-                  startTime={1880}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64131,7 +64092,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="51.77362577849986%"
                     maxIntensity={29}
                     name="Raijo"
-                    startTime={1880}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64160,7 +64121,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="57.46005957216355%"
                   maxIntensity={29}
                   name="Aikyōgen"
-                  startTime={2091}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64169,7 +64129,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="57.46005957216355%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    startTime={2091}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64198,7 +64158,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="70.56593555375034%"
                   maxIntensity={29}
                   name="Prop is brought in"
-                  startTime={2576}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64207,7 +64166,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="70.56593555375034%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    startTime={2576}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64236,7 +64195,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="74.4110479285134%"
                   maxIntensity={29}
                   name="Notto"
-                  startTime={2719}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64245,7 +64203,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="74.4110479285134%"
                     maxIntensity={29}
                     name="Notto"
-                    startTime={2719}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64274,7 +64232,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="79.85377741673436%"
                   maxIntensity={29}
                   name="Noriji-1"
-                  startTime={2921}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64283,7 +64240,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="79.85377741673436%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    startTime={2921}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64312,7 +64269,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="83.78012455997833%"
                   maxIntensity={29}
                   name="Hayafue"
-                  startTime={3067}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64321,7 +64277,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="83.78012455997833%"
                     maxIntensity={29}
                     name="Hayafue"
-                    startTime={3067}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64350,7 +64306,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="86.02761982128351%"
                   maxIntensity={29}
                   name="Noriji-2"
-                  startTime={3151}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64359,7 +64314,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="86.02761982128351%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    startTime={3151}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64388,7 +64343,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="87.21906309233685%"
                   maxIntensity={29}
                   name="Maibataraki"
-                  startTime={3196}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64397,7 +64351,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="87.21906309233685%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    startTime={3196}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64426,7 +64380,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="88.78960194963445%"
                   maxIntensity={29}
                   name="Noriji-3"
-                  startTime={3255}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64435,7 +64388,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="88.78960194963445%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    startTime={3255}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64464,7 +64417,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="91.87652315190901%"
                   maxIntensity={29}
                   name="Kakeai-2"
-                  startTime={3370}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64473,7 +64425,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="91.87652315190901%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    startTime={3370}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64502,7 +64454,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="92.6617925805578%"
                   maxIntensity={29}
                   name="Kiri"
-                  startTime={3400}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64511,7 +64462,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="92.6617925805578%"
                     maxIntensity={29}
                     name="Kiri"
-                    startTime={3400}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64540,7 +64491,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="96.29027890603844%"
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
-                  startTime={3536}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64549,7 +64499,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="96.29027890603844%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    startTime={3536}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -86947,7 +86897,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
             </div>
             <ShodanTimeline
               maxIntensity={29}
-              mode="startTime"
+              mode="url"
               sections={
                 Array [
                   Object {
@@ -88197,7 +88147,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="4.061738424045491%"
                   maxIntensity={29}
                   name="Musicians walk in"
-                  startTime={106}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88206,7 +88155,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="4.061738424045491%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    startTime={106}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88235,7 +88184,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="7.554833468724613%"
                   maxIntensity={29}
                   name="Nanori"
-                  startTime={236}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88244,7 +88192,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="7.554833468724613%"
                     maxIntensity={29}
                     name="Nanori"
-                    startTime={236}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88273,7 +88221,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="9.694015705388573%"
                   maxIntensity={29}
                   name="Mondō-1"
-                  startTime={316}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88282,7 +88229,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="9.694015705388573%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    startTime={316}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88311,7 +88258,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="15.272136474411049%"
                   maxIntensity={29}
                   name="Ageuta-1"
-                  startTime={523}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88320,7 +88266,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="15.272136474411049%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    startTime={523}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88349,7 +88295,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="18.575683725968048%"
                   maxIntensity={29}
                   name="Dialogue"
-                  startTime={646}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88358,7 +88303,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="18.575683725968048%"
                     maxIntensity={29}
                     name="Dialogue"
-                    startTime={646}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88387,7 +88332,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="19.469266179258057%"
                   maxIntensity={29}
                   name="Monologue"
-                  startTime={680}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88396,7 +88340,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="19.469266179258057%"
                     maxIntensity={29}
                     name="Monologue"
-                    startTime={680}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88425,7 +88369,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="21.039805036555645%"
                   maxIntensity={29}
                   name="Mondō-2"
-                  startTime={738}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88434,7 +88377,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="21.039805036555645%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    startTime={738}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88463,7 +88406,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="25.345247766043865%"
                   maxIntensity={29}
                   name="Ageuta-2"
-                  startTime={898}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88472,7 +88414,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="25.345247766043865%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    startTime={898}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88501,7 +88443,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="28.45924722447874%"
                   maxIntensity={29}
                   name="Kuri"
-                  startTime={1014}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88510,7 +88451,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="28.45924722447874%"
                     maxIntensity={29}
                     name="Kuri"
-                    startTime={1014}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88539,7 +88480,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="30.08394259409694%"
                   maxIntensity={29}
                   name="Sashi"
-                  startTime={1075}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88548,7 +88488,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="30.08394259409694%"
                     maxIntensity={29}
                     name="Sashi"
-                    startTime={1075}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88577,7 +88517,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="33.252098564852425%"
                   maxIntensity={29}
                   name="Kuse"
-                  startTime={1193}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88586,7 +88525,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="33.252098564852425%"
                     maxIntensity={29}
                     name="Kuse"
-                    startTime={1193}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88615,7 +88554,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="48.22637422150014%"
                   maxIntensity={29}
                   name="Kakeai-1"
-                  startTime={1747}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88624,7 +88562,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="48.22637422150014%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    startTime={1747}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88653,7 +88591,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="49.76983482263742%"
                   maxIntensity={29}
                   name="Ageuta-3"
-                  startTime={1805}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88662,7 +88599,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="49.76983482263742%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    startTime={1805}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88691,7 +88628,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="51.77362577849986%"
                   maxIntensity={29}
                   name="Raijo"
-                  startTime={1880}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88700,7 +88636,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="51.77362577849986%"
                     maxIntensity={29}
                     name="Raijo"
-                    startTime={1880}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88729,7 +88665,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="57.46005957216355%"
                   maxIntensity={29}
                   name="Aikyōgen"
-                  startTime={2091}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88738,7 +88673,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="57.46005957216355%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    startTime={2091}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88767,7 +88702,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="70.56593555375034%"
                   maxIntensity={29}
                   name="Prop is brought in"
-                  startTime={2576}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88776,7 +88710,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="70.56593555375034%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    startTime={2576}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88805,7 +88739,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="74.4110479285134%"
                   maxIntensity={29}
                   name="Notto"
-                  startTime={2719}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88814,7 +88747,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="74.4110479285134%"
                     maxIntensity={29}
                     name="Notto"
-                    startTime={2719}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88843,7 +88776,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="79.85377741673436%"
                   maxIntensity={29}
                   name="Noriji-1"
-                  startTime={2921}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88852,7 +88784,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="79.85377741673436%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    startTime={2921}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88881,7 +88813,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="83.78012455997833%"
                   maxIntensity={29}
                   name="Hayafue"
-                  startTime={3067}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88890,7 +88821,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="83.78012455997833%"
                     maxIntensity={29}
                     name="Hayafue"
-                    startTime={3067}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88919,7 +88850,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="86.02761982128351%"
                   maxIntensity={29}
                   name="Noriji-2"
-                  startTime={3151}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88928,7 +88858,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="86.02761982128351%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    startTime={3151}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88957,7 +88887,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="87.21906309233685%"
                   maxIntensity={29}
                   name="Maibataraki"
-                  startTime={3196}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88966,7 +88895,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="87.21906309233685%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    startTime={3196}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88995,7 +88924,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="88.78960194963445%"
                   maxIntensity={29}
                   name="Noriji-3"
-                  startTime={3255}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89004,7 +88932,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="88.78960194963445%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    startTime={3255}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89033,7 +88961,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="91.87652315190901%"
                   maxIntensity={29}
                   name="Kakeai-2"
-                  startTime={3370}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89042,7 +88969,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="91.87652315190901%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    startTime={3370}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89071,7 +88998,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="92.6617925805578%"
                   maxIntensity={29}
                   name="Kiri"
-                  startTime={3400}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89080,7 +89006,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="92.6617925805578%"
                     maxIntensity={29}
                     name="Kiri"
-                    startTime={3400}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89109,7 +89035,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="96.29027890603844%"
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
-                  startTime={3536}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89118,7 +89043,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="96.29027890603844%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    startTime={3536}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
