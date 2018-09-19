@@ -58234,11 +58234,12 @@ exports[`<Section> renders as expected 1`] = `
                 >
                   <button
                     className="score-controls__filters-button"
+                    onClick={[Function]}
                   >
                     Filters
                   </button>
                   <div
-                    className="score-controls__filters-popup"
+                    className="score-controls__filters-popup hidden"
                   >
                     <ul
                       className="channel-toggles"
@@ -122810,11 +122811,12 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                 >
                   <button
                     className="score-controls__filters-button"
+                    onClick={[Function]}
                   >
                     Filters
                   </button>
                   <div
-                    className="score-controls__filters-popup"
+                    className="score-controls__filters-popup hidden"
                   >
                     <ul
                       className="channel-toggles"

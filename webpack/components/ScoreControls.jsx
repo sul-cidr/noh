@@ -25,6 +25,7 @@ class ScoreControls extends Component {
       isPrevSentenceOn,
       isNextSentenceOn
     };
+    this.filtersPopup = null;
     this.handleToggle = this.handleToggle.bind(this);
   }
 
@@ -64,8 +65,18 @@ class ScoreControls extends Component {
           />
         </div>
         <div className="score-controls__filters">
-          <button className="score-controls__filters-button">Filters</button>
-          <div className="score-controls__filters-popup">
+          <button
+            className="score-controls__filters-button"
+            onClick={() => this.filtersPopup.classList.toggle("hidden")}
+          >
+            Filters
+          </button>
+          <div
+            className="score-controls__filters-popup hidden"
+            ref={filtersPopup => {
+              this.filtersPopup = filtersPopup;
+            }}
+          >
             <ul className="channel-toggles">
               <li className="toggles__title">Lines</li>
               <li>
