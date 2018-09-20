@@ -33,8 +33,8 @@ export function getSection(playName, sectionName, callback, error) {
     .get(`/data/${playName}/${sectionName}.json`)
     .then(sectionResponse => {
       const props = sectionResponse.data;
-      props.startTime = props.startTime.value;
-      props.endTime = props.endTime.value;
+      props.startTime = props.startTime.value || 0;
+      props.endTime = props.endTime.value || 0;
       props.duration = props.endTime - props.startTime;
       props.videoUrl = `${props.videoUrl.value}#t=${props.startTime},${
         props.endTime

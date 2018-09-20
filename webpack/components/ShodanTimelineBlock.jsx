@@ -33,9 +33,9 @@ class ShodanTimelineBlock extends Component {
       <div
         className={`shodan-map__item ${pointer} ${active}`}
         style={{
-          left: this.props.left,
-          width: `${durationNum}%`,
-          height: `${heightNum}%`
+          /* left: this.props.left, */
+          width: `${durationNum.toFixed(2)}%`,
+          height: `${heightNum.toFixed(2)}%`
         }}
         data-tooltip={this.props.name}
         onClick={() => this.handleClick()}
