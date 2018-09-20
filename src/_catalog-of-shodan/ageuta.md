@@ -1,6 +1,8 @@
 ---
 layout: website
 name: ageuta 
-filter-act: 
+filter-act: mae ba, shite enters, shite performs
 filter-type: 
 ---
+
+{% include_relative narrative/ageuta.html %}
