@@ -40,6 +40,7 @@ export default class App extends Component {
             isPrevSentenceOn={false}
             startTime={this.props.startTime}
             duration={this.props.duration}
+            phrases={this.props.phrases}
           />
         ]
       ) : (

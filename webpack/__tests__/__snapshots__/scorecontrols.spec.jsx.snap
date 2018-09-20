@@ -7,13 +7,14 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
   <div
     className="sentence-control"
   >
-    <div
+    <button
       className="sentence-control__prev"
+      onClick={[Function]}
     >
       <i
         className="fas fa-step-backward"
       />
-    </div>
+    </button>
     <div
       className="sentence-control__status"
     >
@@ -25,22 +26,262 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
       <span
         className="sentence-control__current"
       >
-        13/55
+        1
+        /
+        3
       </span>
     </div>
-    <div
+    <button
       className="sentence-control__next"
+      onClick={[Function]}
     >
       <i
         className="fas fa-step-forward"
       />
-    </div>
+    </button>
   </div>
   <div
     className="video-progress"
   >
     <Connect(TimelineIndicator)
-      duration={100}
+      duration={2000}
+      startTime={0}
+    />
+  </div>
+  <div
+    className="score-controls__filters"
+  >
+    <button
+      className="score-controls__filters-button"
+      onClick={[Function]}
+    >
+      Filters
+    </button>
+    <div
+      className="score-controls__filters-popup hidden"
+    >
+      <ul
+        className="channel-toggles"
+      >
+        <li
+          className="toggles__title"
+        >
+          Lines
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scoreBeat"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreBeat"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Beat
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scoreText"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreText"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Text
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scorePercussion"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scorePercussion"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Percussion
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scoreNohkan"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreNohkan"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Nohkan
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scoreDance"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreDance"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Dance
+              </span>
+            </label>
+          </div>
+        </li>
+      </ul>
+      <ul
+        className="measure-toggles"
+      >
+        <li
+          className="toggles__title"
+        >
+          Sentences
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scorePrevSentence"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scorePrevSentence"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Previous Sentence
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              id="scoreNextSentence"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreNextSentence"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Next Sentence
+              </span>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ScoreControls> renders as expected by default at the end of the duration time 1`] = `
+<div
+  className="score-controls"
+>
+  <div
+    className="sentence-control"
+  >
+    <button
+      className="sentence-control__prev"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-step-backward"
+      />
+    </button>
+    <div
+      className="sentence-control__status"
+    >
+      <span
+        className="sentence-control__title"
+      >
+        Sentence:
+      </span>
+      <span
+        className="sentence-control__current"
+      >
+        3
+        /
+        3
+      </span>
+    </div>
+    <button
+      className="sentence-control__next"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-step-forward"
+      />
+    </button>
+  </div>
+  <div
+    className="video-progress"
+  >
+    <Connect(TimelineIndicator)
+      duration={2000}
       startTime={0}
     />
   </div>
@@ -247,11 +488,891 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
   }
 >
   <Connect(ScoreControls)
-    duration={100}
+    duration={2000}
+    phrases={
+      Array [
+        Object {
+          "beat": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [
+                  "shite",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "5",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "6",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "7",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "8",
+                "voices": Array [
+                  "shite",
+                ],
+              },
+            ],
+            "value": "",
+          },
+          "dance": Object {
+            "grid": Array [
+              Object {
+                "length": 4,
+                "start": 1,
+                "style": "normal",
+                "text": "9. Kneeling facing front.",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "nohkan": Object {
+            "grid": Array [
+              Object {
+                "length": 2,
+                "start": 1,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 5,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 10,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "percussion": Object {
+            "grid": Array [],
+            "value": "mitsuji",
+          },
+          "phrase": "1",
+          "startTime": Object {
+            "grid": Array [],
+            "value": 1192,
+          },
+          "syllableNumber": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 0,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "5",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "6",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "7",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "5",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "syllableText": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 0,
+                "style": "normal",
+                "text": "ma",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "ta",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "wa",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ga",
+                "voices": Array [
+                  "shite",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "cho",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [
+                  "jiutai",
+                ],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "so",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "ha",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "ji",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "me",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "(e)",
+                "voices": Array [
+                  "shite",
+                ],
+              },
+            ],
+            "value": "",
+          },
+          "text": Object {
+            "grid": Array [],
+            "value": "",
+          },
+          "vocalRange": Object {
+            "grid": Array [
+              Object {
+                "length": 13,
+                "start": 0,
+                "style": "normal",
+                "text": "l",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+        },
+        Object {
+          "beat": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "5",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "6",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "7",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "8",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "dance": Object {
+            "grid": Array [
+              Object {
+                "length": 3,
+                "start": 0,
+                "style": "normal",
+                "text": "and gazes in the distance.",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 6,
+                "style": "normal",
+                "text": "9. Sits back on his knee.",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "nohkan": Object {
+            "grid": Array [
+              Object {
+                "length": 2,
+                "start": 3,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "Naka no takane",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "percussion": Object {
+            "grid": Array [],
+            "value": "",
+          },
+          "phrase": "2",
+          "startTime": Object {
+            "grid": Array [],
+            "value": 1204,
+          },
+          "syllableNumber": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "5",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "syllableText": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ni",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "n",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "ji",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "u",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "ni",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "da",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 11,
+                "style": "normal",
+                "text": "i",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "text": Object {
+            "grid": Array [],
+            "value": "",
+          },
+          "vocalRange": Object {
+            "grid": Array [
+              Object {
+                "length": 6,
+                "start": 3,
+                "style": "normal",
+                "text": "m",
+                "voices": Array [],
+              },
+              Object {
+                "length": 3,
+                "start": 9,
+                "style": "normal",
+                "text": "l",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+        },
+        Object {
+          "beat": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "5",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "6",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "7",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "8",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "dance": Object {
+            "grid": Array [
+              Object {
+                "length": 3,
+                "start": 0,
+                "style": "normal",
+                "text": "and gazes in the distance.",
+                "voices": Array [],
+              },
+              Object {
+                "length": 2,
+                "start": 6,
+                "style": "normal",
+                "text": "9. Sits back on his knee.",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "nohkan": Object {
+            "grid": Array [],
+            "value": "",
+          },
+          "percussion": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "ho",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 2,
+                "style": "normal",
+                "text": "#note",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "ho",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "#note",
+                "voices": Array [],
+              },
+            ],
+            "value": "tome",
+          },
+          "phrase": "3",
+          "startTime": Object {
+            "grid": Array [],
+            "value": 1215,
+          },
+          "syllableNumber": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "1",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "2",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "3",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "4",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "syllableText": Object {
+            "grid": Array [],
+            "value": "",
+          },
+          "text": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "ke",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 4,
+                "style": "normal",
+                "text": "i",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 5,
+                "style": "normal",
+                "text": "ko",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 6,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 7,
+                "style": "normal",
+                "text": "te",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 8,
+                "style": "normal",
+                "text": "n",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 9,
+                "style": "normal",
+                "text": "no",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 10,
+                "style": "normal",
+                "text": "o",
+                "voices": Array [],
+              },
+              Object {
+                "length": 1,
+                "start": 12,
+                "style": "normal",
+                "text": "(o)",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "vocalRange": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 3,
+                "style": "normal",
+                "text": "m",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+        },
+      ]
+    }
     updateScoreToggles={[Function]}
+    updateStartTime={[Function]}
   >
     <ScoreControls
-      duration={100}
+      currentTime={0}
+      duration={2000}
       isBeatOn={true}
       isDanceOn={true}
       isNextSentenceOn={true}
@@ -259,8 +1380,887 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
       isPercussionOn={true}
       isPrevSentenceOn={true}
       isTextOn={true}
+      phrases={
+        Array [
+          Object {
+            "beat": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [
+                    "shite",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "5",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "6",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "7",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 12,
+                  "style": "normal",
+                  "text": "8",
+                  "voices": Array [
+                    "shite",
+                  ],
+                },
+              ],
+              "value": "",
+            },
+            "dance": Object {
+              "grid": Array [
+                Object {
+                  "length": 4,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "9. Kneeling facing front.",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "nohkan": Object {
+              "grid": Array [
+                Object {
+                  "length": 2,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "percussion": Object {
+              "grid": Array [],
+              "value": "mitsuji",
+            },
+            "phrase": "1",
+            "startTime": Object {
+              "grid": Array [],
+              "value": 1192,
+            },
+            "syllableNumber": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "5",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "6",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "7",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 11,
+                  "style": "normal",
+                  "text": "5",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "syllableText": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "ma",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "ta",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "wa",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "ga",
+                  "voices": Array [
+                    "shite",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "cho",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "o",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "so",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "ha",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "ji",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 11,
+                  "style": "normal",
+                  "text": "me",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 12,
+                  "style": "normal",
+                  "text": "(e)",
+                  "voices": Array [
+                    "shite",
+                  ],
+                },
+              ],
+              "value": "",
+            },
+            "text": Object {
+              "grid": Array [],
+              "value": "",
+            },
+            "vocalRange": Object {
+              "grid": Array [
+                Object {
+                  "length": 13,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "l",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+          },
+          Object {
+            "beat": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "5",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "6",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "7",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 12,
+                  "style": "normal",
+                  "text": "8",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "dance": Object {
+              "grid": Array [
+                Object {
+                  "length": 3,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "and gazes in the distance.",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "9. Sits back on his knee.",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "nohkan": Object {
+              "grid": Array [
+                Object {
+                  "length": 2,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "percussion": Object {
+              "grid": Array [],
+              "value": "",
+            },
+            "phrase": "2",
+            "startTime": Object {
+              "grid": Array [],
+              "value": 1204,
+            },
+            "syllableNumber": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 11,
+                  "style": "normal",
+                  "text": "5",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "syllableText": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "ni",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "n",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "o",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "ji",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "u",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "ni",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "da",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 11,
+                  "style": "normal",
+                  "text": "i",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "text": Object {
+              "grid": Array [],
+              "value": "",
+            },
+            "vocalRange": Object {
+              "grid": Array [
+                Object {
+                  "length": 6,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "m",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 3,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "l",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+          },
+          Object {
+            "beat": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "5",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "6",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "7",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 12,
+                  "style": "normal",
+                  "text": "8",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "dance": Object {
+              "grid": Array [
+                Object {
+                  "length": 3,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "and gazes in the distance.",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "9. Sits back on his knee.",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "nohkan": Object {
+              "grid": Array [],
+              "value": "",
+            },
+            "percussion": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "ho",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "#note",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "ho",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "#note",
+                  "voices": Array [],
+                },
+              ],
+              "value": "tome",
+            },
+            "phrase": "3",
+            "startTime": Object {
+              "grid": Array [],
+              "value": 1215,
+            },
+            "syllableNumber": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "1",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "2",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "3",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "4",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "syllableText": Object {
+              "grid": Array [],
+              "value": "",
+            },
+            "text": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "ke",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "i",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "ko",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "o",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "te",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "n",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "o",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 12,
+                  "style": "normal",
+                  "text": "(o)",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "vocalRange": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "m",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+          },
+        ]
+      }
       startTime={0}
       updateScoreToggles={[Function]}
+      updateStartTime={[Function]}
     >
       <div
         className="score-controls"
@@ -268,13 +2268,14 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         <div
           className="sentence-control"
         >
-          <div
+          <button
             className="sentence-control__prev"
+            onClick={[Function]}
           >
             <i
               className="fas fa-step-backward"
             />
-          </div>
+          </button>
           <div
             className="sentence-control__status"
           >
@@ -286,27 +2287,30 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
             <span
               className="sentence-control__current"
             >
-              13/55
+              1
+              /
+              3
             </span>
           </div>
-          <div
+          <button
             className="sentence-control__next"
+            onClick={[Function]}
           >
             <i
               className="fas fa-step-forward"
             />
-          </div>
+          </button>
         </div>
         <div
           className="video-progress"
         >
           <Connect(TimelineIndicator)
-            duration={100}
+            duration={2000}
             startTime={0}
           >
             <TimelineIndicator
               currentTime={0}
-              duration={100}
+              duration={2000}
               interval={10}
               playing={false}
               startTime={0}
