@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: website
 title: Plays
+menu-active: plays
 ---
 
 <div class="list-plays">
