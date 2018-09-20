@@ -11,10 +11,14 @@
   
   <nav class="header__nav">
     <ul>
-      <li class="{% if layout.menu-active == 'intermedia' or page.menu-active == 'intermedia' %}active{% endif %}"><a href="/about-intermedia/">About intermedia</a></li>
-      <li class="{% if layout.menu-active == 'plays' or page.menu-active == 'plays' %}active{% endif %}"><a href="/plays/">Plays</a></li>
-      <li class="dropdown-menu{% if layout.menu-active == 'elements' %} active{% endif %}">
-        <a href="#" class="dropdown-menu__trigger">Elements of Noh</a>
+      <li class="{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %}active{% endif %}">
+        <a class="header__main-link" href="/about-intermedia/">About intermedia</a>
+      </li>
+      <li class="{% if page.menu-active == 'plays' or page.menu-active == 'plays' %}active{% endif %}">
+        <a class="header__main-link" href="/plays/">Plays</a>
+      </li>
+      <li class="dropdown-menu{% if page.menu-active == 'elements' %} active{% endif %}">
+        <a href="#" class="header__main-link dropdown-menu__trigger">Elements of Noh</a>
         <ul class="dropdown-menu__list">
           <li class="dropdown-menu__title">Elements of Noh</li>
           <li class="#"><a href="/music/">Music</a></li>

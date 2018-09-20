@@ -1,9 +1,14 @@
 ---
-layout: instrument
+layout: website
+menu-active: elements
 second-level-menu-active: music
 third-level-menu-active: taiko
 fourth-level-menu-active: sound
 ---
+
+{% include second-menu-elements.html %}
+
+{% include menu-instrument-small.html %}
 
 <main class="page-content">
   <div class="text-container">

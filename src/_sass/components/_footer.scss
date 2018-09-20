@@ -25,7 +25,8 @@
   color: $white;
   font-weight: $fw-semibold;
   margin-bottom: 0.5rem;
-  text-transform: uppercase;
+
+  @include uppercase();
   
   a {
     color: $white;

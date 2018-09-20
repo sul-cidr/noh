@@ -22321,7 +22321,7 @@ exports[`<Section> renders as expected 1`] = `
             </div>
             <ShodanTimeline
               maxIntensity={29}
-              mode="startTime"
+              mode="url"
               sections={
                 Array [
                   Object {
@@ -23571,7 +23571,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="4.061738424045491%"
                   maxIntensity={29}
                   name="Musicians walk in"
-                  startTime={106}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23580,7 +23579,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="4.061738424045491%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    startTime={106}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23609,7 +23608,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="7.554833468724613%"
                   maxIntensity={29}
                   name="Nanori"
-                  startTime={236}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23618,7 +23616,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="7.554833468724613%"
                     maxIntensity={29}
                     name="Nanori"
-                    startTime={236}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23647,7 +23645,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="9.694015705388573%"
                   maxIntensity={29}
                   name="Mondō-1"
-                  startTime={316}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23656,7 +23653,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="9.694015705388573%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    startTime={316}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23685,7 +23682,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="15.272136474411049%"
                   maxIntensity={29}
                   name="Ageuta-1"
-                  startTime={523}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23694,7 +23690,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="15.272136474411049%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    startTime={523}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23723,7 +23719,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="18.575683725968048%"
                   maxIntensity={29}
                   name="Dialogue"
-                  startTime={646}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23732,7 +23727,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="18.575683725968048%"
                     maxIntensity={29}
                     name="Dialogue"
-                    startTime={646}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23761,7 +23756,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="19.469266179258057%"
                   maxIntensity={29}
                   name="Monologue"
-                  startTime={680}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23770,7 +23764,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="19.469266179258057%"
                     maxIntensity={29}
                     name="Monologue"
-                    startTime={680}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23799,7 +23793,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="21.039805036555645%"
                   maxIntensity={29}
                   name="Mondō-2"
-                  startTime={738}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23808,7 +23801,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="21.039805036555645%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    startTime={738}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23837,7 +23830,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="25.345247766043865%"
                   maxIntensity={29}
                   name="Ageuta-2"
-                  startTime={898}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23846,7 +23838,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="25.345247766043865%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    startTime={898}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23875,7 +23867,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="28.45924722447874%"
                   maxIntensity={29}
                   name="Kuri"
-                  startTime={1014}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23884,7 +23875,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="28.45924722447874%"
                     maxIntensity={29}
                     name="Kuri"
-                    startTime={1014}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23913,7 +23904,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="30.08394259409694%"
                   maxIntensity={29}
                   name="Sashi"
-                  startTime={1075}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23922,7 +23912,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="30.08394259409694%"
                     maxIntensity={29}
                     name="Sashi"
-                    startTime={1075}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23951,7 +23941,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="33.252098564852425%"
                   maxIntensity={29}
                   name="Kuse"
-                  startTime={1193}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23960,7 +23949,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="33.252098564852425%"
                     maxIntensity={29}
                     name="Kuse"
-                    startTime={1193}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -23989,7 +23978,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="48.22637422150014%"
                   maxIntensity={29}
                   name="Kakeai-1"
-                  startTime={1747}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -23998,7 +23986,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="48.22637422150014%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    startTime={1747}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24027,7 +24015,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="49.76983482263742%"
                   maxIntensity={29}
                   name="Ageuta-3"
-                  startTime={1805}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24036,7 +24023,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="49.76983482263742%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    startTime={1805}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24065,7 +24052,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="51.77362577849986%"
                   maxIntensity={29}
                   name="Raijo"
-                  startTime={1880}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24074,7 +24060,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="51.77362577849986%"
                     maxIntensity={29}
                     name="Raijo"
-                    startTime={1880}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24103,7 +24089,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="57.46005957216355%"
                   maxIntensity={29}
                   name="Aikyōgen"
-                  startTime={2091}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24112,7 +24097,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="57.46005957216355%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    startTime={2091}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24141,7 +24126,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="70.56593555375034%"
                   maxIntensity={29}
                   name="Prop is brought in"
-                  startTime={2576}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24150,7 +24134,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="70.56593555375034%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    startTime={2576}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24179,7 +24163,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="74.4110479285134%"
                   maxIntensity={29}
                   name="Notto"
-                  startTime={2719}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24188,7 +24171,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="74.4110479285134%"
                     maxIntensity={29}
                     name="Notto"
-                    startTime={2719}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24217,7 +24200,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="79.85377741673436%"
                   maxIntensity={29}
                   name="Noriji-1"
-                  startTime={2921}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24226,7 +24208,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="79.85377741673436%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    startTime={2921}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24255,7 +24237,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="83.78012455997833%"
                   maxIntensity={29}
                   name="Hayafue"
-                  startTime={3067}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24264,7 +24245,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="83.78012455997833%"
                     maxIntensity={29}
                     name="Hayafue"
-                    startTime={3067}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24293,7 +24274,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="86.02761982128351%"
                   maxIntensity={29}
                   name="Noriji-2"
-                  startTime={3151}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24302,7 +24282,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="86.02761982128351%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    startTime={3151}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24331,7 +24311,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="87.21906309233685%"
                   maxIntensity={29}
                   name="Maibataraki"
-                  startTime={3196}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24340,7 +24319,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="87.21906309233685%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    startTime={3196}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24369,7 +24348,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="88.78960194963445%"
                   maxIntensity={29}
                   name="Noriji-3"
-                  startTime={3255}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24378,7 +24356,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="88.78960194963445%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    startTime={3255}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24407,7 +24385,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="91.87652315190901%"
                   maxIntensity={29}
                   name="Kakeai-2"
-                  startTime={3370}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24416,7 +24393,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="91.87652315190901%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    startTime={3370}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24445,7 +24422,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="92.6617925805578%"
                   maxIntensity={29}
                   name="Kiri"
-                  startTime={3400}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24454,7 +24430,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="92.6617925805578%"
                     maxIntensity={29}
                     name="Kiri"
-                    startTime={3400}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -24483,7 +24459,6 @@ exports[`<Section> renders as expected 1`] = `
                   left="96.29027890603844%"
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
-                  startTime={3536}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -24492,7 +24467,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="96.29027890603844%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    startTime={3536}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -58122,180 +58097,38 @@ exports[`<Section> renders as expected 1`] = `
               <div
                 className="score-controls"
               >
-                <ul
-                  className="channel-toggles"
+                <div
+                  className="sentence-control"
                 >
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreBeat"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
+                  <div
+                    className="sentence-control__prev"
+                  >
+                    <i
+                      className="fas fa-step-backward"
                     />
-                    <label
-                      htmlFor="scoreBeat"
+                  </div>
+                  <div
+                    className="sentence-control__status"
+                  >
+                    <span
+                      className="sentence-control__title"
                     >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Beat
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreText"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
+                      Sentence:
+                    </span>
+                    <span
+                      className="sentence-control__current"
+                    >
+                      13/55
+                    </span>
+                  </div>
+                  <div
+                    className="sentence-control__next"
+                  >
+                    <i
+                      className="fas fa-step-forward"
                     />
-                    <label
-                      htmlFor="scoreText"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Text
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scorePercussion"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scorePercussion"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Percussion
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreNohkan"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scoreNohkan"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Nohkan
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreDance"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scoreDance"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Dance
-                    </label>
-                  </li>
-                </ul>
+                  </div>
+                </div>
                 <div
                   className="video-progress"
                 >
@@ -58396,78 +58229,192 @@ exports[`<Section> renders as expected 1`] = `
                     </TimelineIndicator>
                   </Connect(TimelineIndicator)>
                 </div>
-                <ul
-                  className="measure-toggles"
+                <div
+                  className="score-controls__filters"
                 >
-                  <li>
-                    <input
-                      checked={false}
-                      id="scorePrevSentence"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scorePrevSentence"
+                  <button
+                    className="score-controls__filters-button"
+                    onClick={[Function]}
+                  >
+                    Filters
+                  </button>
+                  <div
+                    className="score-controls__filters-popup hidden"
+                  >
+                    <ul
+                      className="channel-toggles"
                     >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
+                      <li
+                        className="toggles__title"
                       >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
+                        Lines
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
                         >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
+                          <input
+                            checked={true}
+                            id="scoreBeat"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
+                          <label
+                            htmlFor="scoreBeat"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Beat
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreText"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                        </g>
-                      </svg>
-                      Previous Sentence
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreNextSentence"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scoreNextSentence"
+                          <label
+                            htmlFor="scoreText"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Text
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scorePercussion"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scorePercussion"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Percussion
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreNohkan"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scoreNohkan"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Nohkan
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreDance"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scoreDance"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Dance
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul
+                      className="measure-toggles"
                     >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
+                      <li
+                        className="toggles__title"
                       >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
+                        Sentences
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
                         >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
+                          <input
+                            checked={false}
+                            id="scorePrevSentence"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
+                          <label
+                            htmlFor="scorePrevSentence"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Previous Sentence
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreNextSentence"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                        </g>
-                      </svg>
-                      Next Sentence
-                    </label>
-                  </li>
-                </ul>
+                          <label
+                            htmlFor="scoreNextSentence"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Next Sentence
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </ScoreControls>
           </Connect(ScoreControls)>
@@ -62407,7 +62354,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
             </div>
             <ShodanTimeline
               maxIntensity={29}
-              mode="startTime"
+              mode="url"
               sections={
                 Array [
                   Object {
@@ -63657,7 +63604,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="4.061738424045491%"
                   maxIntensity={29}
                   name="Musicians walk in"
-                  startTime={106}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63666,7 +63612,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="4.061738424045491%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    startTime={106}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63695,7 +63641,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="7.554833468724613%"
                   maxIntensity={29}
                   name="Nanori"
-                  startTime={236}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63704,7 +63649,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="7.554833468724613%"
                     maxIntensity={29}
                     name="Nanori"
-                    startTime={236}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63733,7 +63678,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="9.694015705388573%"
                   maxIntensity={29}
                   name="Mondō-1"
-                  startTime={316}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63742,7 +63686,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="9.694015705388573%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    startTime={316}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63771,7 +63715,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="15.272136474411049%"
                   maxIntensity={29}
                   name="Ageuta-1"
-                  startTime={523}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63780,7 +63723,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="15.272136474411049%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    startTime={523}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63809,7 +63752,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="18.575683725968048%"
                   maxIntensity={29}
                   name="Dialogue"
-                  startTime={646}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63818,7 +63760,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="18.575683725968048%"
                     maxIntensity={29}
                     name="Dialogue"
-                    startTime={646}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63847,7 +63789,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="19.469266179258057%"
                   maxIntensity={29}
                   name="Monologue"
-                  startTime={680}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63856,7 +63797,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="19.469266179258057%"
                     maxIntensity={29}
                     name="Monologue"
-                    startTime={680}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63885,7 +63826,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="21.039805036555645%"
                   maxIntensity={29}
                   name="Mondō-2"
-                  startTime={738}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63894,7 +63834,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="21.039805036555645%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    startTime={738}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63923,7 +63863,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="25.345247766043865%"
                   maxIntensity={29}
                   name="Ageuta-2"
-                  startTime={898}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63932,7 +63871,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="25.345247766043865%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    startTime={898}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63961,7 +63900,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="28.45924722447874%"
                   maxIntensity={29}
                   name="Kuri"
-                  startTime={1014}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -63970,7 +63908,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="28.45924722447874%"
                     maxIntensity={29}
                     name="Kuri"
-                    startTime={1014}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -63999,7 +63937,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="30.08394259409694%"
                   maxIntensity={29}
                   name="Sashi"
-                  startTime={1075}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64008,7 +63945,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="30.08394259409694%"
                     maxIntensity={29}
                     name="Sashi"
-                    startTime={1075}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64037,7 +63974,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="33.252098564852425%"
                   maxIntensity={29}
                   name="Kuse"
-                  startTime={1193}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64046,7 +63982,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="33.252098564852425%"
                     maxIntensity={29}
                     name="Kuse"
-                    startTime={1193}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64075,7 +64011,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="48.22637422150014%"
                   maxIntensity={29}
                   name="Kakeai-1"
-                  startTime={1747}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64084,7 +64019,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="48.22637422150014%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    startTime={1747}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64113,7 +64048,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="49.76983482263742%"
                   maxIntensity={29}
                   name="Ageuta-3"
-                  startTime={1805}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64122,7 +64056,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="49.76983482263742%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    startTime={1805}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64151,7 +64085,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="51.77362577849986%"
                   maxIntensity={29}
                   name="Raijo"
-                  startTime={1880}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64160,7 +64093,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="51.77362577849986%"
                     maxIntensity={29}
                     name="Raijo"
-                    startTime={1880}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64189,7 +64122,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="57.46005957216355%"
                   maxIntensity={29}
                   name="Aikyōgen"
-                  startTime={2091}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64198,7 +64130,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="57.46005957216355%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    startTime={2091}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64227,7 +64159,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="70.56593555375034%"
                   maxIntensity={29}
                   name="Prop is brought in"
-                  startTime={2576}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64236,7 +64167,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="70.56593555375034%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    startTime={2576}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64265,7 +64196,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="74.4110479285134%"
                   maxIntensity={29}
                   name="Notto"
-                  startTime={2719}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64274,7 +64204,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="74.4110479285134%"
                     maxIntensity={29}
                     name="Notto"
-                    startTime={2719}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64303,7 +64233,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="79.85377741673436%"
                   maxIntensity={29}
                   name="Noriji-1"
-                  startTime={2921}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64312,7 +64241,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="79.85377741673436%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    startTime={2921}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64341,7 +64270,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="83.78012455997833%"
                   maxIntensity={29}
                   name="Hayafue"
-                  startTime={3067}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64350,7 +64278,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="83.78012455997833%"
                     maxIntensity={29}
                     name="Hayafue"
-                    startTime={3067}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64379,7 +64307,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="86.02761982128351%"
                   maxIntensity={29}
                   name="Noriji-2"
-                  startTime={3151}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64388,7 +64315,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="86.02761982128351%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    startTime={3151}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64417,7 +64344,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="87.21906309233685%"
                   maxIntensity={29}
                   name="Maibataraki"
-                  startTime={3196}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64426,7 +64352,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="87.21906309233685%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    startTime={3196}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64455,7 +64381,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="88.78960194963445%"
                   maxIntensity={29}
                   name="Noriji-3"
-                  startTime={3255}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64464,7 +64389,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="88.78960194963445%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    startTime={3255}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64493,7 +64418,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="91.87652315190901%"
                   maxIntensity={29}
                   name="Kakeai-2"
-                  startTime={3370}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64502,7 +64426,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="91.87652315190901%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    startTime={3370}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64531,7 +64455,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="92.6617925805578%"
                   maxIntensity={29}
                   name="Kiri"
-                  startTime={3400}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64540,7 +64463,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="92.6617925805578%"
                     maxIntensity={29}
                     name="Kiri"
-                    startTime={3400}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -64569,7 +64492,6 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   left="96.29027890603844%"
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
-                  startTime={3536}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -64578,7 +64500,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="96.29027890603844%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    startTime={3536}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -86976,7 +86898,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
             </div>
             <ShodanTimeline
               maxIntensity={29}
-              mode="startTime"
+              mode="url"
               sections={
                 Array [
                   Object {
@@ -88226,7 +88148,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="4.061738424045491%"
                   maxIntensity={29}
                   name="Musicians walk in"
-                  startTime={106}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88235,7 +88156,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="4.061738424045491%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    startTime={106}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88264,7 +88185,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="7.554833468724613%"
                   maxIntensity={29}
                   name="Nanori"
-                  startTime={236}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88273,7 +88193,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="7.554833468724613%"
                     maxIntensity={29}
                     name="Nanori"
-                    startTime={236}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88302,7 +88222,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="9.694015705388573%"
                   maxIntensity={29}
                   name="Mondō-1"
-                  startTime={316}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88311,7 +88230,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="9.694015705388573%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    startTime={316}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88340,7 +88259,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="15.272136474411049%"
                   maxIntensity={29}
                   name="Ageuta-1"
-                  startTime={523}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88349,7 +88267,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="15.272136474411049%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    startTime={523}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88378,7 +88296,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="18.575683725968048%"
                   maxIntensity={29}
                   name="Dialogue"
-                  startTime={646}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88387,7 +88304,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="18.575683725968048%"
                     maxIntensity={29}
                     name="Dialogue"
-                    startTime={646}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88416,7 +88333,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="19.469266179258057%"
                   maxIntensity={29}
                   name="Monologue"
-                  startTime={680}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88425,7 +88341,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="19.469266179258057%"
                     maxIntensity={29}
                     name="Monologue"
-                    startTime={680}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88454,7 +88370,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="21.039805036555645%"
                   maxIntensity={29}
                   name="Mondō-2"
-                  startTime={738}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88463,7 +88378,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="21.039805036555645%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    startTime={738}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88492,7 +88407,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="25.345247766043865%"
                   maxIntensity={29}
                   name="Ageuta-2"
-                  startTime={898}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88501,7 +88415,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="25.345247766043865%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    startTime={898}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88530,7 +88444,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="28.45924722447874%"
                   maxIntensity={29}
                   name="Kuri"
-                  startTime={1014}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88539,7 +88452,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="28.45924722447874%"
                     maxIntensity={29}
                     name="Kuri"
-                    startTime={1014}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88568,7 +88481,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="30.08394259409694%"
                   maxIntensity={29}
                   name="Sashi"
-                  startTime={1075}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88577,7 +88489,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="30.08394259409694%"
                     maxIntensity={29}
                     name="Sashi"
-                    startTime={1075}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88606,7 +88518,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="33.252098564852425%"
                   maxIntensity={29}
                   name="Kuse"
-                  startTime={1193}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88615,7 +88526,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="33.252098564852425%"
                     maxIntensity={29}
                     name="Kuse"
-                    startTime={1193}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88644,7 +88555,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="48.22637422150014%"
                   maxIntensity={29}
                   name="Kakeai-1"
-                  startTime={1747}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88653,7 +88563,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="48.22637422150014%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    startTime={1747}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88682,7 +88592,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="49.76983482263742%"
                   maxIntensity={29}
                   name="Ageuta-3"
-                  startTime={1805}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88691,7 +88600,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="49.76983482263742%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    startTime={1805}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88720,7 +88629,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="51.77362577849986%"
                   maxIntensity={29}
                   name="Raijo"
-                  startTime={1880}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88729,7 +88637,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="51.77362577849986%"
                     maxIntensity={29}
                     name="Raijo"
-                    startTime={1880}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88758,7 +88666,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="57.46005957216355%"
                   maxIntensity={29}
                   name="Aikyōgen"
-                  startTime={2091}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88767,7 +88674,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="57.46005957216355%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    startTime={2091}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88796,7 +88703,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="70.56593555375034%"
                   maxIntensity={29}
                   name="Prop is brought in"
-                  startTime={2576}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88805,7 +88711,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="70.56593555375034%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    startTime={2576}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88834,7 +88740,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="74.4110479285134%"
                   maxIntensity={29}
                   name="Notto"
-                  startTime={2719}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88843,7 +88748,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="74.4110479285134%"
                     maxIntensity={29}
                     name="Notto"
-                    startTime={2719}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88872,7 +88777,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="79.85377741673436%"
                   maxIntensity={29}
                   name="Noriji-1"
-                  startTime={2921}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88881,7 +88785,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="79.85377741673436%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    startTime={2921}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88910,7 +88814,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="83.78012455997833%"
                   maxIntensity={29}
                   name="Hayafue"
-                  startTime={3067}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88919,7 +88822,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="83.78012455997833%"
                     maxIntensity={29}
                     name="Hayafue"
-                    startTime={3067}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88948,7 +88851,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="86.02761982128351%"
                   maxIntensity={29}
                   name="Noriji-2"
-                  startTime={3151}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88957,7 +88859,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="86.02761982128351%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    startTime={3151}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -88986,7 +88888,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="87.21906309233685%"
                   maxIntensity={29}
                   name="Maibataraki"
-                  startTime={3196}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -88995,7 +88896,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="87.21906309233685%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    startTime={3196}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89024,7 +88925,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="88.78960194963445%"
                   maxIntensity={29}
                   name="Noriji-3"
-                  startTime={3255}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89033,7 +88933,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="88.78960194963445%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    startTime={3255}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89062,7 +88962,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="91.87652315190901%"
                   maxIntensity={29}
                   name="Kakeai-2"
-                  startTime={3370}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89071,7 +88970,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="91.87652315190901%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    startTime={3370}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89100,7 +88999,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="92.6617925805578%"
                   maxIntensity={29}
                   name="Kiri"
-                  startTime={3400}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89109,7 +89007,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="92.6617925805578%"
                     maxIntensity={29}
                     name="Kiri"
-                    startTime={3400}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -89138,7 +89036,6 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                   left="96.29027890603844%"
                   maxIntensity={29}
                   name="Musicians are exiting the stage"
-                  startTime={3536}
                   totalDuration={3693}
                 >
                   <ShodanTimelineBlock
@@ -89147,7 +89044,7 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     left="96.29027890603844%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    startTime={3536}
+                    startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
                     url=""
@@ -122777,180 +122674,38 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
               <div
                 className="score-controls"
               >
-                <ul
-                  className="channel-toggles"
+                <div
+                  className="sentence-control"
                 >
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreBeat"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
+                  <div
+                    className="sentence-control__prev"
+                  >
+                    <i
+                      className="fas fa-step-backward"
                     />
-                    <label
-                      htmlFor="scoreBeat"
+                  </div>
+                  <div
+                    className="sentence-control__status"
+                  >
+                    <span
+                      className="sentence-control__title"
                     >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Beat
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreText"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
+                      Sentence:
+                    </span>
+                    <span
+                      className="sentence-control__current"
+                    >
+                      13/55
+                    </span>
+                  </div>
+                  <div
+                    className="sentence-control__next"
+                  >
+                    <i
+                      className="fas fa-step-forward"
                     />
-                    <label
-                      htmlFor="scoreText"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Text
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scorePercussion"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scorePercussion"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Percussion
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreNohkan"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scoreNohkan"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Nohkan
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreDance"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scoreDance"
-                    >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
-                        >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
-                          />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
-                          />
-                        </g>
-                      </svg>
-                      Dance
-                    </label>
-                  </li>
-                </ul>
+                  </div>
+                </div>
                 <div
                   className="video-progress"
                 >
@@ -123051,78 +122806,192 @@ exports[`<Section> with no singingStyle renders as expected 1`] = `
                     </TimelineIndicator>
                   </Connect(TimelineIndicator)>
                 </div>
-                <ul
-                  className="measure-toggles"
+                <div
+                  className="score-controls__filters"
                 >
-                  <li>
-                    <input
-                      checked={false}
-                      id="scorePrevSentence"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scorePrevSentence"
+                  <button
+                    className="score-controls__filters-button"
+                    onClick={[Function]}
+                  >
+                    Filters
+                  </button>
+                  <div
+                    className="score-controls__filters-popup hidden"
+                  >
+                    <ul
+                      className="channel-toggles"
                     >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
+                      <li
+                        className="toggles__title"
                       >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
+                        Lines
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
                         >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
+                          <input
+                            checked={true}
+                            id="scoreBeat"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
+                          <label
+                            htmlFor="scoreBeat"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Beat
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreText"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                        </g>
-                      </svg>
-                      Previous Sentence
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      checked={true}
-                      id="scoreNextSentence"
-                      onChange={[Function]}
-                      onKeyPress={null}
-                      type="checkbox"
-                    />
-                    <label
-                      htmlFor="scoreNextSentence"
+                          <label
+                            htmlFor="scoreText"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Text
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scorePercussion"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scorePercussion"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Percussion
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreNohkan"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scoreNohkan"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Nohkan
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreDance"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scoreDance"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Dance
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul
+                      className="measure-toggles"
                     >
-                      <svg
-                        height="12"
-                        viewBox="0 0 12 12"
-                        width="12"
-                        xmlns="http://www.w3.org/2000/svg"
+                      <li
+                        className="toggles__title"
                       >
-                        <g
-                          fill="currentColor"
-                          fillRule="evenodd"
+                        Sentences
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
                         >
-                          <path
-                            d="M6,11.5 C2.96243388,11.5 0.5,9.03756612 0.5,6 C0.5,2.96243388 2.96243388,0.5 6,0.5 C9.03756612,0.5 11.5,2.96243388 11.5,6 C11.5,9.03756612 9.03756612,11.5 6,11.5 Z M6,10.5 C8.48528137,10.5 10.5,8.48528137 10.5,6 C10.5,3.51471863 8.48528137,1.5 6,1.5 C3.51471863,1.5 1.5,3.51471863 1.5,6 C1.5,8.48528137 3.51471863,10.5 6,10.5 Z"
-                            fillRule="nonzero"
+                          <input
+                            checked={false}
+                            id="scorePrevSentence"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                          <path
-                            d="M4.90165043,6 L7.90165043,6 C8.1777928,6 8.40165043,6.22385763 8.40165043,6.5 C8.40165043,6.77614237 8.1777928,7 7.90165043,7 L4.40165043,7 C4.12550805,7 3.90165043,6.77614237 3.90165043,6.5 L3.90165043,4.5 C3.90165043,4.22385763 4.12550805,4 4.40165043,4 C4.6777928,4 4.90165043,4.22385763 4.90165043,4.5 L4.90165043,6 Z"
-                            transform="rotate(-45 6.152 5.5)"
+                          <label
+                            htmlFor="scorePrevSentence"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Previous Sentence
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={true}
+                            id="scoreNextSentence"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
                           />
-                        </g>
-                      </svg>
-                      Next Sentence
-                    </label>
-                  </li>
-                </ul>
+                          <label
+                            htmlFor="scoreNextSentence"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Next Sentence
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </ScoreControls>
           </Connect(ScoreControls)>

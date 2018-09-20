@@ -13,9 +13,32 @@
 
   blockquote {
     background-color: $beige-light;
-    margin: 3.5rem 0 ;
+    margin: 3.5rem 0;
+    overflow: hidden;
     padding: 2.5rem;
+    position: relative;
+    
+    &::before,
+    &::after {
+      content: '';
+      height: 6.25rem;
+      position: absolute;
+      width: 7.5rem;
+      z-index: 0;
+    }
 
+    &::before {
+      background-image: url('./images/quote-opening.svg');
+      left: 2rem;
+      top: -2rem;
+    }
+    
+    &::after {
+      bottom: -2rem;
+      background-image: url('./images/quote-closing.svg');
+      right: 2rem;
+    }
+  
     @include flex-container($justify: center);
 
     p {
@@ -50,5 +73,6 @@
     url('https://www.toptal.com/designers/subtlepatterns/patterns/seigaiha.png'),
     linear-gradient(180deg, $beige-dark 0%, $beige-dark 100%);
   background-blend-mode: multiply;
+  color: $brown;
   padding: 3.5rem 0 5.5rem 0;
 }
