@@ -12,7 +12,7 @@ class ShodanTimelineBlock extends Component {
   }
 
   handleClick() {
-    if (this.props.startTime) {
+    if (this.props.startTime !== null) {
       this.props.updateStartTime(this.props.startTime);
     } else if (this.props.url) {
       window.location.assign(this.props.url);
