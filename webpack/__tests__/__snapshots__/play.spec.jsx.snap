@@ -6815,7 +6815,12 @@ exports[`<Play> renders as expected 1`] = `
                         <a
                           href="/kokaji/oshirabe"
                         >
-                          Oshirabe
+                          <span>
+                            Oshirabe
+                          </span>
+                          <i
+                            className="fas fa-chevron-right"
+                          />
                         </a>
                       </div>
                     </div>

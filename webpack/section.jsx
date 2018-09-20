@@ -131,6 +131,7 @@ export default class App extends Component {
                   />
                 </div>
                 <ShodanTimeline
+                  mode="url"
                   sections={this.props.sections}
                   maxIntensity={this.props.maxIntensity}
                   totalDuration={this.props.videoDuration}

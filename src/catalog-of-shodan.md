@@ -1,14 +1,14 @@
 ---
-layout: page
-second-level-menu-active: catalog
+layout: website
+second-level-menu-active: catalog-shodan
 ---
+
+{% include second-menu-elements.html %}
 
 <main class="page-content">
   <div class="text-container">
-    <h2>Sounds of the Taiko (stick drum)</h2>
+    <h2>Catalog of shodan</h2>
     <p>There are two taiko schools: Komparu and Kanze. Featured NAKATA Hiromi and all examples are from the Komparu tradition.</p>
-    <p>There are five basic sounds and one soundless motion produced on the taiko drum:</p>
-    <p>The taiko players use the following kakegoe: yo, ho, iyo and yoi (ei in Kanze school). The exact pronunciation of vowels as well as dynamic and melodic shape can significantly vary depending on the dramatic context, school and performer. Click below to hear examples of calls for the Komparu tradition:</p>
   </div>
 
   <div class="filters__container">
