@@ -40,6 +40,7 @@ export default class App extends Component {
             isPrevSentenceOn={false}
             startTime={this.props.startTime}
             duration={this.props.duration}
+            phrases={this.props.phrases}
           />
         ]
       ) : (
@@ -131,6 +132,7 @@ export default class App extends Component {
                   />
                 </div>
                 <ShodanTimeline
+                  mode="url"
                   sections={this.props.sections}
                   maxIntensity={this.props.maxIntensity}
                   totalDuration={this.props.videoDuration}

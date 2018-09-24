@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { setScoreToggles } from "../actionCreators";
+import { setCurrentTime, setScoreToggles } from "../actionCreators";
 import TimelineIndicator from "./TimelineIndicator";
+
+export const determineCurrentPhrase = (currentTime, phrases) =>
+  currentTime > 0
+    ? phrases.length -
+      (phrases
+        .filter(Boolean)
+        .reverse()
+        .findIndex(phrase => currentTime >= phrase.startTime.value) +
+        1)
+    : 0;
 
 class ScoreControls extends Component {
   constructor(props) {
@@ -25,6 +35,7 @@ class ScoreControls extends Component {
       isPrevSentenceOn,
       isNextSentenceOn
     };
+    this.filtersPopup = null;
     this.handleToggle = this.handleToggle.bind(this);
   }
 
@@ -43,19 +54,44 @@ class ScoreControls extends Component {
   }
 
   render() {
+    const currentPhraseIndex = determineCurrentPhrase(
+      this.props.currentTime,
+      this.props.phrases
+    );
+    const nextPhraseIndex = Math.min(
+      currentPhraseIndex + 1,
+      this.props.phrases.length - 1
+    );
+    const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
     return (
       <div className="score-controls">
         <div className="sentence-control">
-          <div className="sentence-control__prev">
+          <button
+            className="sentence-control__prev"
+            onClick={() =>
+              this.props.updateStartTime(
+                this.props.phrases[prevPhraseIndex].startTime.value
+              )
+            }
+          >
             <i className="fas fa-step-backward" />
-          </div>
+          </button>
           <div className="sentence-control__status">
             <span className="sentence-control__title">Sentence:</span>
-            <span className="sentence-control__current">13/55</span>
+            <span className="sentence-control__current">
+              {currentPhraseIndex + 1}/{this.props.phrases.length}
+            </span>
           </div>
-          <div className="sentence-control__next">
+          <button
+            className="sentence-control__next"
+            onClick={() =>
+              this.props.updateStartTime(
+                this.props.phrases[nextPhraseIndex].startTime.value
+              )
+            }
+          >
             <i className="fas fa-step-forward" />
-          </div>
+          </button>
         </div>
         <div className="video-progress">
           <TimelineIndicator
@@ -64,8 +100,18 @@ class ScoreControls extends Component {
           />
         </div>
         <div className="score-controls__filters">
-          <button className="score-controls__filters-button">Filters</button>
-          <div className="score-controls__filters-popup">
+          <button
+            className="score-controls__filters-button"
+            onClick={() => this.filtersPopup.classList.toggle("hidden")}
+          >
+            Filters
+          </button>
+          <div
+            className="score-controls__filters-popup hidden"
+            ref={filtersPopup => {
+              this.filtersPopup = filtersPopup;
+            }}
+          >
             <ul className="channel-toggles">
               <li className="toggles__title">Lines</li>
               <li>
@@ -195,7 +241,16 @@ ScoreControls.propTypes = {
   isNextSentenceOn: PropTypes.bool,
   updateScoreToggles: PropTypes.func,
   startTime: PropTypes.number,
-  duration: PropTypes.number.isRequired
+  duration: PropTypes.number.isRequired,
+  currentTime: PropTypes.number.isRequired,
+  phrases: PropTypes.arrayOf(
+    PropTypes.shape({
+      startTime: PropTypes.shape({
+        value: PropTypes.number
+      })
+    })
+  ).isRequired,
+  updateStartTime: PropTypes.func.isRequired
 };
 
 ScoreControls.defaultProps = {
@@ -210,12 +265,17 @@ ScoreControls.defaultProps = {
   startTime: 0
 };
 
+const mapStateToProps = state => ({
+  currentTime: state.currentTime
+});
+
 const mapDispatchToProps = dispatch => ({
-  updateScoreToggles: toggles => dispatch(setScoreToggles(toggles))
+  updateScoreToggles: toggles => dispatch(setScoreToggles(toggles)),
+  updateStartTime: time => dispatch(setCurrentTime(time))
 });
 
 export const Unwrapped = ScoreControls;
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps
 )(ScoreControls);
