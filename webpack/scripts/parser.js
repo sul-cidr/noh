@@ -231,7 +231,7 @@ export const main = (configPath, quiet) => {
   }
   const promises = [];
   try {
-    const plays = JSON.parse(fs.readFileSync(configPath, "utf8"));
+    const { plays } = JSON.parse(fs.readFileSync(configPath, "utf8"));
     plays.forEach(play => {
       if (!quiet) console.info(`Downloading and parsing ${play.playName}:`);
       play.sections.forEach(section => {

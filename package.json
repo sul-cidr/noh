@@ -16,7 +16,9 @@
       "node_modules/.bin/eslint webpack/**/*.{js,jsx} webpack/*.{js,jsx} --quiet",
     "precommit": "lint-staged",
     "parse":
-      "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/parser.js"
+      "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/parser.js",
+    "parse:catalog":
+      "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/catalog.js"
   },
   "lint-staged": {
     "*.{js,jsx,json,css}": ["prettier --write", "git add"]

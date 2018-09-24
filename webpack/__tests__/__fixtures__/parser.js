@@ -843,6 +843,7 @@ Dance,,,,,,,9. Turns to face the waki.,,,,$,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
   `,
   metadataCSV: `
+,Present,Number,Value,Notes (These will be ignored during parsing)
 Play,,,kokaji,
 Section Name,,,Ageuta-3,
 Start Time,,,"30'05""",
@@ -871,32 +872,34 @@ Start time,End time,Translation,Transcription
 "30'05""","30'14""",Translation goes here,tsu u ri ki no mi wo he n ji
 "30'14""","30'23""",Another line of translation,tsu u ri ki
   `,
-  config: [
-    {
-      playName: "kokaji",
-      sections: [
-        {
-          sectionName: "ageuta-1",
-          phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv",
-          captions: "data/captions.csv"
-        },
-        {
-          sectionName: "ageuta-2",
-          phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv"
-        },
-        {
-          sectionName: "ageuta-3",
-          phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv"
-        },
-        {
-          sectionName: "ageuta-4",
-          metadata: "data/metadata.csv"
-        }
-      ]
-    }
-  ]
+  config: {
+    plays: [
+      {
+        playName: "kokaji",
+        sections: [
+          {
+            sectionName: "ageuta-1",
+            phrases: "data/phrases.csv",
+            metadata: "data/metadata.csv",
+            captions: "data/captions.csv"
+          },
+          {
+            sectionName: "ageuta-2",
+            phrases: "data/phrases.csv",
+            metadata: "data/metadata.csv"
+          },
+          {
+            sectionName: "ageuta-3",
+            phrases: "data/phrases.csv",
+            metadata: "data/metadata.csv"
+          },
+          {
+            sectionName: "ageuta-4",
+            metadata: "data/metadata.csv"
+          }
+        ]
+      }
+    ]
+  }
 };
 test(null, null);
