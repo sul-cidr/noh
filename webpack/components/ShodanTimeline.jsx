@@ -20,7 +20,7 @@ class ShodanTimeline extends Component {
       if (this.props.mode === "url") {
         blockProps = { url: section.sectionUrl };
       } else {
-        blockProps = { startTime: section.startTime.value };
+        blockProps = { startTime: section.startTime.value || 0 };
       }
       const newBlock = (
         <ShodanTimelineBlock
@@ -38,8 +38,8 @@ class ShodanTimeline extends Component {
       sectionBlocks.push(newBlock);
       // lack of start and end time data means duration isnt being computed
       const blockWidth =
-        (section.endTime.value - section.startTime.value || 150) /
-        this.props.totalDuration *
+        ((section.endTime.value - section.startTime.value || 150) /
+          this.props.totalDuration) *
         100;
       currentWidth = blockWidth;
       position += currentWidth;

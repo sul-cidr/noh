@@ -3352,6 +3352,7 @@ exports[`<Play> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      startTime={0}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
@@ -3360,7 +3361,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="0%"
                         maxIntensity={29}
                         name="Oshirabe"
-                        startTime={null}
+                        startTime={0}
                         totalDuration={3693}
                         updateStartTime={[Function]}
                         url=""
