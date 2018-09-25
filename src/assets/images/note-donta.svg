@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="8" viewBox="0 0 22 8">
+  <defs>
+    <polygon id="a" points=".797 20.686 5.537 13.606 10.247 20.686"/>
+    <path id="b" d="M11.797,20.686 L16.537,13.606 L21.247,20.686 L11.797,20.686 Z M16.537,14.656 L12.877,20.116 L20.167,20.116 L16.537,14.656 Z"/>
+  </defs>
+  <g fill="#000000" fill-rule="evenodd" transform="translate(0 -13)">
+    <use xlink:href="#a"/>
+    <use xlink:href="#a"/>
+    <use xlink:href="#b"/>
+    <use xlink:href="#b"/>
+  </g>
+</svg>
