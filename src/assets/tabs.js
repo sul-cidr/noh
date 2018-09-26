@@ -38,13 +38,15 @@ function attachTabs() {
   lis[0].click();
 }
 
-// in case the document is already rendered
-if (document.readyState != "loading") attachTabs();
-// modern browsers
-else if (document.addEventListener)
-  document.addEventListener("DOMContentLoaded", attachTabs);
-// IE <= 8
-else
-  document.attachEvent("onreadystatechange", function() {
-    if (document.readyState == "complete") attachTabs();
-  });
+if (document.querySelector("#tabs")) {
+  // in case the document is already rendered
+  if (document.readyState != "loading") attachTabs();
+  // modern browsers
+  else if (document.addEventListener)
+    document.addEventListener("DOMContentLoaded", attachTabs);
+  // IE <= 8
+  else
+    document.attachEvent("onreadystatechange", function() {
+      if (document.readyState == "complete") attachTabs();
+    });
+}
