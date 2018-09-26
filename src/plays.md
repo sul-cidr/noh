@@ -2,6 +2,7 @@
 layout: website
 title: Plays
 menu-active: plays
+permalink: /plays/
 ---
 
 <div class="list-plays">
