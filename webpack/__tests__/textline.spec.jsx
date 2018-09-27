@@ -1,24 +1,26 @@
 import React from "react";
 import { mount, shallow } from "enzyme";
-import TextLine from "../components/TextLine";
+import { UnwrappedLine } from "../components/TextLine";
 
 describe("<TextLine>", () => {
   it("renders as expected with active class", () => {
     const component = shallow(
-      <TextLine
+      <UnwrappedLine
         active
         translation="sample string"
         transcription="another sample string"
+        startTime={10}
       />
     );
     expect(component).toMatchSnapshot();
   });
   it("renders as expected without active class", () => {
     const component = shallow(
-      <TextLine
+      <UnwrappedLine
         active={false}
         translation="sample string"
         transcription="another sample string"
+        startTime={10}
       />
     );
     expect(component).toMatchSnapshot();
@@ -28,10 +30,11 @@ describe("<TextLine>", () => {
     const container = document.createElement("div");
 
     const component = mount(
-      <TextLine
+      <UnwrappedLine
         active
         translation="sample string"
         transcription="another sample string"
+        startTime={10}
       />,
       {
         attachTo: container

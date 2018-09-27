@@ -62,7 +62,7 @@ const mapDispatchToProps = dispatch => ({
   updateStartTime: time => dispatch(setCurrentTime(time))
 });
 
-export const Unwrapped = Line;
+export const UnwrappedLine = Line;
 
 export default connect(
   null,

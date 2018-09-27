@@ -4,16 +4,24 @@ exports[`<TextLine> renders as expected with active class 1`] = `
 <div
   className="transcription__line active"
 >
-  <p
-    className="transcription__original"
+  <button
+    onClick={[Function]}
   >
-    another sample string
-  </p>
-  <p
-    className="transcription__translation"
+    <p
+      className="transcription__original"
+    >
+      another sample string
+    </p>
+  </button>
+  <button
+    onClick={[Function]}
   >
-    sample string
-  </p>
+    <p
+      className="transcription__translation"
+    >
+      sample string
+    </p>
+  </button>
 </div>
 `;
 
@@ -21,15 +29,23 @@ exports[`<TextLine> renders as expected without active class 1`] = `
 <div
   className="transcription__line"
 >
-  <p
-    className="transcription__original"
+  <button
+    onClick={[Function]}
   >
-    another sample string
-  </p>
-  <p
-    className="transcription__translation"
+    <p
+      className="transcription__original"
+    >
+      another sample string
+    </p>
+  </button>
+  <button
+    onClick={[Function]}
   >
-    sample string
-  </p>
+    <p
+      className="transcription__translation"
+    >
+      sample string
+    </p>
+  </button>
 </div>
 `;
