@@ -94,8 +94,10 @@
 
 .transcription__original,
 .transcription__translation {
+  background-color: rgba($white, 0);
   flex: 1;
   font-family: $font-text;
+  text-align: left;
 
   @include text(xs);
 }

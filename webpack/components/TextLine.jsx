@@ -35,11 +35,17 @@ class Line extends Component {
             : "transcription__line"
         }
       >
-        <button onClick={this.handleLineClick}>
-          <p className="transcription__original">{this.props.transcription}</p>
+        <button
+          onClick={this.handleLineClick}
+          className="transcription__original"
+        >
+          {this.props.transcription}
         </button>
-        <button onClick={this.handleLineClick}>
-          <p className="transcription__translation">{this.props.translation}</p>
+        <button
+          onClick={this.handleLineClick}
+          className="transcription__translation"
+        >
+          {this.props.translation}
         </button>
       </div>
     );
