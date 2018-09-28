@@ -16,7 +16,7 @@ script:
   - yarn lint
 
 before_deploy:
-  - if [ "$TRAVIS_BRANCH" == "contents" ]; then yarn parse && yarn build; fi
+  - if [ "$TRAVIS_BRANCH" == "contents" ]; then yarn parse:catalog && yarn parse && yarn build; fi
 
 env:
   global:
