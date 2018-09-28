@@ -843,6 +843,7 @@ Dance,,,,,,,9. Turns to face the waki.,,,,$,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
   `,
   metadataCSV: `
+,Present,Number,Value,Notes,
 Play,,,kokaji,
 Section Name,,,Ageuta-3,
 Start Time,,,"30'05""",

@@ -74,7 +74,7 @@ export const extractVoices = str => [
 
 export const cleanObject = obj =>
   Object.entries(obj).reduce((acc, [key, val]) => {
-    if (val) acc[key] = val;
+    if (val || val === 0) acc[key] = val;
     return acc;
   }, {});
 

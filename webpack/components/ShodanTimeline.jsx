@@ -13,6 +13,8 @@ class ShodanTimeline extends Component {
   createSectionBlocks() {
     let position = 0;
     let currentWidth = 0;
+    let duration = 0;
+    let previousEndTime = 0;
     const sectionBlocks = [];
     this.props.sections.map(section => {
       // the key here has to change if name is not unique
@@ -22,6 +24,7 @@ class ShodanTimeline extends Component {
       } else {
         blockProps = { startTime: section.startTime.value || 0 };
       }
+      console.log(`${section.sectionName.value}: (${previousEndTime - section.startTime.value}) ${duration} [${section.endTime.value - section.startTime.value}] / ${this.props.totalDuration}`)
       const newBlock = (
         <ShodanTimelineBlock
           {...blockProps}
@@ -31,10 +34,11 @@ class ShodanTimeline extends Component {
           maxIntensity={this.props.maxIntensity}
           intensity={section.intensity.number || "0"}
           // lack of start and end time data means duration isnt always being computed
-          duration={section.endTime.value - section.startTime.value || 150}
+          duration={section.endTime.value - previousEndTime}
           totalDuration={this.props.totalDuration}
         />
       );
+      duration += section.endTime.value - section.startTime.value;
       sectionBlocks.push(newBlock);
       // lack of start and end time data means duration isnt being computed
       const blockWidth =
@@ -43,6 +47,7 @@ class ShodanTimeline extends Component {
         100;
       currentWidth = blockWidth;
       position += currentWidth;
+      previousEndTime = section.endTime.value
     });
     return sectionBlocks;
   }
