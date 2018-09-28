@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parser main downloads and parses the catalog of sections 1`] = `
+"{
+  \\"filters\\": [
+    {
+      \\"by\\": \\"type\\",
+      \\"values\\": [
+        [
+          \\"Spoken\\"
+        ],
+        [
+          \\"Chanted\\",
+          \\"Recitative chant\\"
+        ],
+        [
+          \\"Chanted\\",
+          \\"Introduction chant\\"
+        ],
+        [
+          \\"Chanted\\",
+          \\"Main chant\\"
+        ],
+        [
+          \\"Chanted\\",
+          \\"Closing chant\\"
+        ],
+        [
+          \\"Entrance and exit music\\"
+        ],
+        [
+          \\"Dance music\\"
+        ]
+      ]
+    }
+  ],
+  \\"cards\\": [
+    {
+      \\"slug\\": \\"ageuta\\",
+      \\"name\\": \\"Ageuta\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Main chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"ashirai\\",
+      \\"name\\": \\"Ashirai\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"hayafue\\",
+      \\"name\\": \\"Hayafue\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"issei-chant\\",
+      \\"name\\": \\"Issei chant\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Introduction chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"issei-music\\",
+      \\"name\\": \\"Issei music\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"jo-no-mai\\",
+      \\"name\\": \\"Jo no mai\\",
+      \\"pills\\": [
+        [
+          \\"Dance music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"kakaru\\",
+      \\"name\\": \\"Kakaru\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Recitative chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"kakeai\\",
+      \\"name\\": \\"Kakeai\\",
+      \\"pills\\": [
+        [
+          \\"Spoken\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"kiri\\",
+      \\"name\\": \\"Kiri\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Closing chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"kuri\\",
+      \\"name\\": \\"Kuri\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Introduction chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"kuse\\",
+      \\"name\\": \\"Kuse\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Main chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"machiutai\\",
+      \\"name\\": \\"Machiutai\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Introduction chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"maibataraki\\",
+      \\"name\\": \\"Maibataraki\\",
+      \\"pills\\": [
+        [
+          \\"Dance music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"michiyuki\\",
+      \\"name\\": \\"Michiyuki\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Introduction chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"mondo\\",
+      \\"name\\": \\"Mondō\\",
+      \\"pills\\": [
+        [
+          \\"Spoken\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"nanori\\",
+      \\"name\\": \\"Nanori\\",
+      \\"pills\\": [
+        [
+          \\"Spoken\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"nanoribue\\",
+      \\"name\\": \\"Nanoribue\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"noriji\\",
+      \\"name\\": \\"Noriji\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Closing chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"notto-chant\\",
+      \\"name\\": \\"Notto chant\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Recitative chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"notto-music\\",
+      \\"name\\": \\"Notto music\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"raijo\\",
+      \\"name\\": \\"Raijo\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"rongi\\",
+      \\"name\\": \\"Rongi\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Main chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"sageuta\\",
+      \\"name\\": \\"Sageuta\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Main chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"sashi\\",
+      \\"name\\": \\"Sashi\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Recitative chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"shidai-chant\\",
+      \\"name\\": \\"Shidai chant\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Introduction chant\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"shidai-music\\",
+      \\"name\\": \\"Shidai music\\",
+      \\"pills\\": [
+        [
+          \\"Entrance and exit music\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"tsukizerifu\\",
+      \\"name\\": \\"Tsukizerifu\\",
+      \\"pills\\": [
+        [
+          \\"Spoken\\"
+        ]
+      ]
+    },
+    {
+      \\"slug\\": \\"waka\\",
+      \\"name\\": \\"Waka\\",
+      \\"pills\\": [
+        [
+          \\"Chanted\\",
+          \\"Closing chant\\"
+        ]
+      ]
+    }
+  ]
+}"
+`;
