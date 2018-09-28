@@ -22,6 +22,7 @@ $score-checkbox-height: 1.5rem;
 .sentence-control__prev,
 .sentence-control__next {
   @include text(md);
+  background: none;
 }
 
 .sentence-control__prev {

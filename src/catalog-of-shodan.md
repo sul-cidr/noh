@@ -1,6 +1,7 @@
 ---
 layout: website
 second-level-menu-active: catalog-shodan
+permalink: /catalog-of-shodan/
 ---
 
 {% include second-menu-elements.html %}

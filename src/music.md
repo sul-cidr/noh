@@ -2,6 +2,7 @@
 layout: website
 menu-active: elements
 second-level-menu-active: music
+permalink: /music/
 ---
 
 {% include second-menu-elements.html %}
