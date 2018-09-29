@@ -1,52 +1,69 @@
 import fs from "fs";
 import path from "path";
-import { downloadCSV, parserConfig, logError } from "./parser.js";
+import { downloadCSV, parserConfig, logError } from "./parser";
 
-export const main = (configPath) => {
+export const main = configPath => {
   if (!configPath) {
     logError("Usage: parse [path/to/parser.json]");
   }
+  let promises;
   try {
     const { catalog } = JSON.parse(fs.readFileSync(configPath, "utf8"));
-    return Promise.all(
+    promises = Promise.all(
       catalog.filters.map(filter => downloadCSV(filter.url))
-    ).then(responses => {
-      const headers = {};
-      const shodans = {};
-      catalog.filters.map((filter, index) => {
-        const headerRows = responses[index].data
-          .slice(0, filter.headers)
-          .map(row => row.slice(2));
-        headers[[filter.type]] = headerRows[0].map((_, header) =>
-          headerRows.reduce((previousRow, _, row) => [...previousRow, headerRows[row][header]].filter(Boolean), "")
+    )
+      .then(responses => {
+        const headers = {};
+        const shodans = {};
+        catalog.filters.forEach((filter, index) => {
+          const headerRows = responses[index].data
+            .slice(0, filter.headers)
+            .map(row => row.slice(2));
+          headers[[filter.type]] = headerRows[0].map((_, header) =>
+            headerRows.reduce(
+              (previousRow, __, row) =>
+                [...previousRow, headerRows[row][header]].filter(Boolean),
+              ""
+            )
+          );
+          responses[index].data.slice(filter.headers).forEach(row => {
+            const [fileName, name] = row.slice(0, 2);
+            shodans[`${fileName}/${name}`] = [
+              ...(shodans[`${fileName}/${name}`] || []),
+              ...row
+                .slice(2)
+                .map(
+                  (cell, rowIndex) =>
+                    cell ? headers[filter.type][rowIndex] : null
+                )
+                .filter(Boolean)
+            ];
+          });
+        });
+        const filters = Object.entries(headers).map(([key, values]) => ({
+          by: key,
+          values
+        }));
+        const cards = Object.entries(shodans).map(([key, values]) => ({
+          slug: key.split("/")[0],
+          name: key.split("/")[1],
+          pills: values
+        }));
+        return { filters, cards };
+      })
+      .then(catalogToWrite => {
+        fs.writeFileSync(
+          path.join("src", "_data", "catalog.json"),
+          JSON.stringify(catalogToWrite, null, 2)
         );
-        responses[index].data.slice(filter.headers).forEach(row => {
-          const [fileName, name] = row.slice(0, 2);
-          shodans[`${fileName}/${name}`] = [
-            ...(shodans[`${fileName}/${name}`] || []),
-            ...row
-              .slice(2)
-              .map((cell, index) => (cell ? headers[filter.type][index] : null))
-              .filter(Boolean)
-          ]
-        })
+        return catalog;
       });
-      const filters = Object.entries(headers)
-        .map(([key, values]) => ({by: key, values}))
-      const cards = Object.entries(shodans)
-        .map(([key, values]) => ({slug: key.split("/")[0], name: key.split("/")[1], pills: values}))
-      return {filters, cards};
-    }).then(catalog => {
-      fs.writeFileSync(
-        path.join("src", "_data", "catalog.json"),
-        JSON.stringify(catalog, null, 2)
-      );
-      return catalog
-    })
   } catch (error) {
     logError(`Malformed config file ${configPath}`, error);
   }
+  return promises;
 };
+export default main;
 
 // If used as a CLI
 /* istanbul ignore if */
