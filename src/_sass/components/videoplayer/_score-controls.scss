@@ -15,7 +15,9 @@ $score-checkbox-height: 1.5rem;
 
 .sentence-control__prev,
 .sentence-control__next,
-.sentence-control__status {
+.sentence-control__status,
+.score-controls__elapsed-time,
+.score-controls__remaining-time {
   color: $white;
 }
 

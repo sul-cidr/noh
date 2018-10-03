@@ -41,12 +41,22 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
     </button>
   </div>
   <div
+    className="score-controls__elapsed-time"
+  >
+    00:00
+  </div>
+  <div
     className="video-progress"
   >
     <Connect(TimelineIndicator)
       duration={2000}
       startTime={0}
     />
+  </div>
+  <div
+    className="score-controls__remaining-time"
+  >
+    33:20
   </div>
   <div
     className="score-controls__filters"
@@ -278,12 +288,22 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
     </button>
   </div>
   <div
+    className="score-controls__elapsed-time"
+  >
+    25:00
+  </div>
+  <div
     className="video-progress"
   >
     <Connect(TimelineIndicator)
       duration={2000}
       startTime={0}
     />
+  </div>
+  <div
+    className="score-controls__remaining-time"
+  >
+    08:20
   </div>
   <div
     className="score-controls__filters"
@@ -2302,6 +2322,11 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
           </button>
         </div>
         <div
+          className="score-controls__elapsed-time"
+        >
+          00:00
+        </div>
+        <div
           className="video-progress"
         >
           <Connect(TimelineIndicator)
@@ -2400,6 +2425,11 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
               </div>
             </TimelineIndicator>
           </Connect(TimelineIndicator)>
+        </div>
+        <div
+          className="score-controls__remaining-time"
+        >
+          33:20
         </div>
         <div
           className="score-controls__filters"
