@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime, setScoreToggles } from "../actionCreators";
 import TimelineIndicator from "./TimelineIndicator";
+import { convertSecondsToHhmmss } from "../utils";
 
 export const determineCurrentPhrase = (currentTime, phrases) =>
   currentTime > 0
@@ -63,6 +64,12 @@ class ScoreControls extends Component {
       this.props.phrases.length - 1
     );
     const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
+    const remainingTime = convertSecondsToHhmmss(
+      this.props.startTime + this.props.duration - this.props.currentTime
+    ).substr(3);
+    const elapsedTime = convertSecondsToHhmmss(
+      this.props.currentTime - this.props.startTime
+    ).substr(3);
     return (
       <div className="score-controls">
         <div className="sentence-control">
@@ -93,12 +100,14 @@ class ScoreControls extends Component {
             <i className="fas fa-step-forward" />
           </button>
         </div>
+        <div className="score-controls__elapsed-time">{elapsedTime}</div>
         <div className="video-progress">
           <TimelineIndicator
             startTime={this.props.startTime}
             duration={this.props.duration}
           />
         </div>
+        <div className="score-controls__remaining-time">{remainingTime}</div>
         <div className="score-controls__filters">
           <button
             className="score-controls__filters-button"
