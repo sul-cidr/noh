@@ -16,54 +16,59 @@ permalink: /catalog-of-shodan/
     <div class="wrapper">
       <div class="filters__content">
         <div class="filters__controls">
-        {% for filter in site.data.catalog.filters %}
-          <h3 class="filters__title">Filter by {{ filter.by }}</h3>
-          <ul>
-          {% assign last = "" %}
-          {% assign values = filter.values | sort %}
-          {% for value in values %}
-            {% if last != "" and value.size != 1 and value.first != last %}
-                </ul>
-              </li>
+          {% for filter in site.data.catalog.filters %}
+            <h3 class="filters__title">Filter by {{ filter.by }}</h3>
+            <ul>
               {% assign last = "" %}
-            {% endif %}
-            {% if value.size != 1 and value.first != last %}
-              <li class="filters__element">
-                {% include filter-check.html
-                  id=value.first
-                  title=value.first
-                  amount=filter.values.size
-                  checked="checked"
-                %}
-                <ul>
-              {% assign last = value.first %}
-            {% endif %}
-            {% if last != "" and value.size == 1 %}
-                </ul>
-              </li>
-              {% assign last = "" %}
-            {% endif %}
-            <li class="filters__element">
-              {% include filter-check.html
-                id=value
-                title=value.last
-                amount=filter.values.size
-                checked="checked"
-              %}
-            </li>
+              {% assign values = filter.values | sort %}
+              {% for value in values %}
+                {% if last != "" and value.size != 1 and value.first != last %}
+                    </ul>
+                  </li>
+                  {% assign last = "" %}
+                {% endif %}
+                {% if value.size != 1 and value.first != last %}
+                  <li class="filters__element">
+                    {% include filter-check.html
+                      id=value.first
+                      title=value.first
+                      amount=filter.values.size
+                      checked="checked"
+                    %}
+                    <ul>
+                  {% assign last = value.first %}
+                {% endif %}
+                {% if last != "" and value.size == 1 %}
+                    </ul>
+                  </li>
+                  {% assign last = "" %}
+                {% endif %}
+                <li class="filters__element">
+                  {% include filter-check.html
+                    id=value
+                    title=value.last
+                    amount=filter.values.size
+                    checked="checked"
+                  %}
+                </li>
+              {% endfor %}
+              {% if last != "" %}
+                  </ul>
+                </li>
+                {% assign last = "" %}
+              {% endif %}
+            </ul>
           {% endfor %}
-          </ul>
-        {% endfor %}
         </div>
         <div class="filters__card-container">
-        {% for card in site.data.catalog.cards %}
-          {% assign pills = card.pills | uniq | sort | join: ',' %}
-          {% include filter-card.html
-            image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-            title=card.name
-            pills=pills
-          %}
-        {% endfor %}
+          {% for card in site.data.catalog.cards %}
+            {% assign pills = card.pills | uniq | sort | join: ',' %}
+            {% include filter-card.html
+              title=card.name
+              slug=card.slug
+              pills=pills
+            %}
+          {% endfor %}
         </div>
       </div>
     </div>
