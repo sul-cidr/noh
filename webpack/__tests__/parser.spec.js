@@ -251,11 +251,11 @@ describe("parser", () => {
   it("main downloads and parses phrases, metadata, and captions", done => {
     mock.reset();
     mock
-      .onGet(fixtures.config[0].sections[0].phrases)
+      .onGet(fixtures.config.plays[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
-      .onGet(fixtures.config[0].sections[0].metadata)
+      .onGet(fixtures.config.plays[0].sections[0].metadata)
       .reply(200, fixtures.metadataCSV)
-      .onGet(fixtures.config[0].sections[0].captions)
+      .onGet(fixtures.config.plays[0].sections[0].captions)
       .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
@@ -275,11 +275,11 @@ describe("parser", () => {
   it("main writes to console when -q/--quiet is not passed in", done => {
     mock.reset();
     mock
-      .onGet(fixtures.config[0].sections[0].phrases)
+      .onGet(fixtures.config.plays[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
-      .onGet(fixtures.config[0].sections[0].metadata)
+      .onGet(fixtures.config.plays[0].sections[0].metadata)
       .reply(200, fixtures.metadataCSV)
-      .onGet(fixtures.config[0].sections[0].captions)
+      .onGet(fixtures.config.plays[0].sections[0].captions)
       .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
@@ -298,11 +298,11 @@ describe("parser", () => {
   it("main raises an exception when data parsing fails", done => {
     mock.reset();
     mock
-      .onGet(fixtures.config[0].sections[0].phrases)
+      .onGet(fixtures.config.plays[0].sections[0].phrases)
       .reply(200, "")
-      .onGet(fixtures.config[0].sections[0].metadata)
+      .onGet(fixtures.config.plays[0].sections[0].metadata)
       .reply(200, "")
-      .onGet(fixtures.config[0].sections[0].captions)
+      .onGet(fixtures.config.plays[0].sections[0].captions)
       .reply(200, "");
     const spyRead = jest
       .spyOn(fs, "readFileSync")
@@ -321,11 +321,11 @@ describe("parser", () => {
   it("main raises an exception when writing section data to disk fails", done => {
     mock.reset();
     mock
-      .onGet(fixtures.config[0].sections[0].phrases)
+      .onGet(fixtures.config.plays[0].sections[0].phrases)
       .reply(200, "")
-      .onGet(fixtures.config[0].sections[0].metadata)
+      .onGet(fixtures.config.plays[0].sections[0].metadata)
       .reply(200, "")
-      .onGet(fixtures.config[0].sections[0].captions)
+      .onGet(fixtures.config.plays[0].sections[0].captions)
       .reply(200, "");
     const spy = jest
       .spyOn(fs, "readFileSync")
@@ -340,11 +340,11 @@ describe("parser", () => {
   it("main raises an exception when writing caption data to disk fails", done => {
     mock.reset();
     mock
-      .onGet(fixtures.config[0].sections[0].phrases)
+      .onGet(fixtures.config.plays[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
-      .onGet(fixtures.config[0].sections[0].metadata)
+      .onGet(fixtures.config.plays[0].sections[0].metadata)
       .reply(200, fixtures.metadataCSV)
-      .onGet(fixtures.config[0].sections[0].captions)
+      .onGet(fixtures.config.plays[0].sections[0].captions)
       .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
@@ -369,11 +369,11 @@ describe("parser", () => {
   it("main raises an exception when writing play data to disk fails", done => {
     mock.reset();
     mock
-      .onGet(fixtures.config[0].sections[0].phrases)
+      .onGet(fixtures.config.plays[0].sections[0].phrases)
       .reply(200, fixtures.phrasesCSV)
-      .onGet(fixtures.config[0].sections[0].metadata)
+      .onGet(fixtures.config.plays[0].sections[0].metadata)
       .reply(200, fixtures.metadataCSV)
-      .onGet(fixtures.config[0].sections[0].captions)
+      .onGet(fixtures.config.plays[0].sections[0].captions)
       .reply(200, fixtures.captionsCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")

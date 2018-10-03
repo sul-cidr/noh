@@ -843,11 +843,12 @@ Dance,,,,,,,9. Turns to face the waki.,,,,$,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
   `,
   metadataCSV: `
+,Present,Number,Value,Notes (These will be ignored during parsing)
 Play,,,kokaji,
 Section Name,,,Ageuta-3,
 Start Time,,,"30'05""",
 End Time,,,"31'19""",
-Intensity,,13,,
+Intensity,,-,,
 "Number Voices (0,1,2)",,2,Jiutai,
 Voice (Spoken - Sung (Tsu/Yo)),,,Sung - Tsuyogin,
 Text (Rhythmic Setting),,,Congruent - Hiranori,
@@ -871,32 +872,75 @@ Start time,End time,Translation,Transcription
 "30'05""","30'14""",Translation goes here,tsu u ri ki no mi wo he n ji
 "30'14""","30'23""",Another line of translation,tsu u ri ki
   `,
-  config: [
-    {
-      playName: "kokaji",
-      sections: [
-        {
-          sectionName: "ageuta-1",
-          phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv",
-          captions: "data/captions.csv"
-        },
-        {
-          sectionName: "ageuta-2",
-          phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv"
-        },
-        {
-          sectionName: "ageuta-3",
-          phrases: "data/phrases.csv",
-          metadata: "data/metadata.csv"
-        },
-        {
-          sectionName: "ageuta-4",
-          metadata: "data/metadata.csv"
-        }
-      ]
-    }
-  ]
+  catalogCSV: `
+URLS,Names,Spoken,Chanted,Chanted,Chanted,Chanted,Entrance and exit music,Dance music
+,,,Recitative chant,Introduction chant,Main chant,Closing chant,,
+ageuta,Ageuta,,,,X,,,
+ashirai,Ashirai,,,,,,X,
+hayafue,Hayafue,,,,,,X,
+issei-chant,Issei chant,,,X,,,,
+issei-music,Issei music,,,,,,X,
+jo-no-mai,Jo no mai,,,,,,,X
+kakaru,Kakaru,,X,,,,,
+kakeai,Kakeai,X,,,,,,
+kiri,Kiri,,,,,X,,
+kuri,Kuri,,,X,,,,
+kuse,Kuse,,,,X,,,
+machiutai,Machiutai,,,X,,,,
+maibataraki,Maibataraki,,,,,,,X
+michiyuki,Michiyuki,,,X,,,,
+mondo,Mondō,X,,,,,,
+nanori,Nanori,X,,,,,,
+nanoribue,Nanoribue,,,,,,X,
+noriji,Noriji,,,,,X,,
+notto-chant,Notto chant,,X,,,,,
+notto-music,Notto music,,,,,,X,
+raijo,Raijo,,,,,,X,
+rongi,Rongi,,,,X,,,
+sageuta,Sageuta,,,,X,,,
+sashi,Sashi,,X,,,,,
+shidai-chant,Shidai chant,,,X,,,,
+shidai-music,Shidai music,,,,,,X,
+tsukizerifu,Tsukizerifu,X,,,,,,
+waka,Waka,,,,,X,,
+  `,
+  config: {
+    plays: [
+      {
+        playName: "kokaji",
+        sections: [
+          {
+            sectionName: "ageuta-1",
+            phrases: "data/phrases.csv",
+            metadata: "data/metadata.csv",
+            captions: "data/captions.csv"
+          },
+          {
+            sectionName: "ageuta-2",
+            phrases: "data/phrases.csv",
+            metadata: "data/metadata.csv"
+          },
+          {
+            sectionName: "ageuta-3",
+            phrases: "data/phrases.csv",
+            metadata: "data/metadata.csv"
+          },
+          {
+            sectionName: "ageuta-4",
+            metadata: "data/metadata.csv"
+          }
+        ]
+      }
+    ]
+  },
+  catalog: {
+    filters: [
+      {
+        type: "type",
+        headers: 2,
+        url: "data/sections-by-type"
+      }
+    ]
+  }
 };
 test(null, null);
