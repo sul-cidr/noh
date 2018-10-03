@@ -76,6 +76,13 @@ exports[`parser downloadCSV downloads data from a metadata CSV URL 1`] = `
 Object {
   "data": Array [
     Array [
+      "",
+      "Present",
+      "Number",
+      "Value",
+      "Notes (These will be ignored during parsing)",
+    ],
+    Array [
       "Play",
       "",
       "",
@@ -106,7 +113,7 @@ Object {
     Array [
       "Intensity",
       "",
-      "13",
+      "-",
       "",
       "",
     ],
@@ -163,7 +170,7 @@ Object {
   "errors": Array [],
   "meta": Object {
     "aborted": false,
-    "cursor": 402,
+    "cursor": 468,
     "delimiter": ",",
     "linebreak": "
 ",
@@ -1060,20 +1067,44 @@ Object {
 
 exports[`parser main downloads and parses phrases, metadata, and captions 1`] = `
 "{
-  \\"sectionName\\": {},
-  \\"startTime\\": {},
-  \\"endTime\\": {},
-  \\"intensity\\": {},
-  \\"numberVoices\\": {},
-  \\"voice\\": {},
-  \\"text\\": {},
-  \\"numberOfPercussion\\": {},
-  \\"percussion\\": {},
+  \\"play\\": {
+    \\"value\\": \\"kokaji\\"
+  },
+  \\"sectionName\\": {
+    \\"value\\": \\"Ageuta-3\\"
+  },
+  \\"startTime\\": {
+    \\"value\\": 1805
+  },
+  \\"endTime\\": {
+    \\"value\\": 1879
+  },
+  \\"intensity\\": {
+    \\"number\\": \\"-\\"
+  },
+  \\"numberVoices\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Jiutai\\"
+  },
+  \\"voice\\": {
+    \\"value\\": \\"Sung - Tsuyogin\\"
+  },
+  \\"text\\": {
+    \\"value\\": \\"Congruent - Hiranori\\"
+  },
+  \\"numberOfPercussion\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  },
+  \\"percussion\\": {
+    \\"value\\": \\"Congruent\\"
+  },
   \\"nokhanPresent\\": {
-    \\"play\\": \\"No\\"
+    \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
-    \\"play\\": \\"Yes\\"
+    \\"present\\": \\"Yes\\",
+    \\"value\\": \\"Feminine to Martial style\\"
   },
   \\"sectionUrl\\": \\"/kokaji/ageuta-1/\\",
   \\"videoUrl\\": {},
@@ -1601,20 +1632,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
 
 exports[`parser main downloads and parses phrases, metadata, and captions 2`] = `
 "{
-  \\"sectionName\\": {},
-  \\"startTime\\": {},
-  \\"endTime\\": {},
-  \\"intensity\\": {},
-  \\"numberVoices\\": {},
-  \\"voice\\": {},
-  \\"text\\": {},
-  \\"numberOfPercussion\\": {},
-  \\"percussion\\": {},
+  \\"play\\": {
+    \\"value\\": \\"kokaji\\"
+  },
+  \\"sectionName\\": {
+    \\"value\\": \\"Ageuta-3\\"
+  },
+  \\"startTime\\": {
+    \\"value\\": 1805
+  },
+  \\"endTime\\": {
+    \\"value\\": 1879
+  },
+  \\"intensity\\": {
+    \\"number\\": \\"-\\"
+  },
+  \\"numberVoices\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Jiutai\\"
+  },
+  \\"voice\\": {
+    \\"value\\": \\"Sung - Tsuyogin\\"
+  },
+  \\"text\\": {
+    \\"value\\": \\"Congruent - Hiranori\\"
+  },
+  \\"numberOfPercussion\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  },
+  \\"percussion\\": {
+    \\"value\\": \\"Congruent\\"
+  },
   \\"nokhanPresent\\": {
-    \\"play\\": \\"No\\"
+    \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
-    \\"play\\": \\"Yes\\"
+    \\"present\\": \\"Yes\\",
+    \\"value\\": \\"Feminine to Martial style\\"
   },
   \\"sectionUrl\\": \\"/kokaji/ageuta-2/\\",
   \\"videoUrl\\": {},
@@ -2129,20 +2184,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
 
 exports[`parser main downloads and parses phrases, metadata, and captions 3`] = `
 "{
-  \\"sectionName\\": {},
-  \\"startTime\\": {},
-  \\"endTime\\": {},
-  \\"intensity\\": {},
-  \\"numberVoices\\": {},
-  \\"voice\\": {},
-  \\"text\\": {},
-  \\"numberOfPercussion\\": {},
-  \\"percussion\\": {},
+  \\"play\\": {
+    \\"value\\": \\"kokaji\\"
+  },
+  \\"sectionName\\": {
+    \\"value\\": \\"Ageuta-3\\"
+  },
+  \\"startTime\\": {
+    \\"value\\": 1805
+  },
+  \\"endTime\\": {
+    \\"value\\": 1879
+  },
+  \\"intensity\\": {
+    \\"number\\": \\"-\\"
+  },
+  \\"numberVoices\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Jiutai\\"
+  },
+  \\"voice\\": {
+    \\"value\\": \\"Sung - Tsuyogin\\"
+  },
+  \\"text\\": {
+    \\"value\\": \\"Congruent - Hiranori\\"
+  },
+  \\"numberOfPercussion\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  },
+  \\"percussion\\": {
+    \\"value\\": \\"Congruent\\"
+  },
   \\"nokhanPresent\\": {
-    \\"play\\": \\"No\\"
+    \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
-    \\"play\\": \\"Yes\\"
+    \\"present\\": \\"Yes\\",
+    \\"value\\": \\"Feminine to Martial style\\"
   },
   \\"sectionUrl\\": \\"/kokaji/ageuta-3/\\",
   \\"videoUrl\\": {},
@@ -2657,20 +2736,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
 
 exports[`parser main downloads and parses phrases, metadata, and captions 4`] = `
 "{
-  \\"sectionName\\": {},
-  \\"startTime\\": {},
-  \\"endTime\\": {},
-  \\"intensity\\": {},
-  \\"numberVoices\\": {},
-  \\"voice\\": {},
-  \\"text\\": {},
-  \\"numberOfPercussion\\": {},
-  \\"percussion\\": {},
+  \\"play\\": {
+    \\"value\\": \\"kokaji\\"
+  },
+  \\"sectionName\\": {
+    \\"value\\": \\"Ageuta-3\\"
+  },
+  \\"startTime\\": {
+    \\"value\\": 1805
+  },
+  \\"endTime\\": {
+    \\"value\\": 1879
+  },
+  \\"intensity\\": {
+    \\"number\\": \\"-\\"
+  },
+  \\"numberVoices\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Jiutai\\"
+  },
+  \\"voice\\": {
+    \\"value\\": \\"Sung - Tsuyogin\\"
+  },
+  \\"text\\": {
+    \\"value\\": \\"Congruent - Hiranori\\"
+  },
+  \\"numberOfPercussion\\": {
+    \\"number\\": \\"2\\",
+    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  },
+  \\"percussion\\": {
+    \\"value\\": \\"Congruent\\"
+  },
   \\"nokhanPresent\\": {
-    \\"play\\": \\"No\\"
+    \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
-    \\"play\\": \\"Yes\\"
+    \\"present\\": \\"Yes\\",
+    \\"value\\": \\"Feminine to Martial style\\"
   },
   \\"sectionUrl\\": \\"/kokaji/ageuta-4/\\",
   \\"videoUrl\\": {},
@@ -2726,20 +2829,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
   \\"playName\\": \\"kokaji\\",
   \\"sections\\": [
     {
-      \\"sectionName\\": {},
-      \\"startTime\\": {},
-      \\"endTime\\": {},
-      \\"intensity\\": {},
-      \\"numberVoices\\": {},
-      \\"voice\\": {},
-      \\"text\\": {},
-      \\"numberOfPercussion\\": {},
-      \\"percussion\\": {},
+      \\"play\\": {
+        \\"value\\": \\"kokaji\\"
+      },
+      \\"sectionName\\": {
+        \\"value\\": \\"Ageuta-3\\"
+      },
+      \\"startTime\\": {
+        \\"value\\": 1805
+      },
+      \\"endTime\\": {
+        \\"value\\": 1879
+      },
+      \\"intensity\\": {
+        \\"number\\": \\"-\\"
+      },
+      \\"numberVoices\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Jiutai\\"
+      },
+      \\"voice\\": {
+        \\"value\\": \\"Sung - Tsuyogin\\"
+      },
+      \\"text\\": {
+        \\"value\\": \\"Congruent - Hiranori\\"
+      },
+      \\"numberOfPercussion\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      },
+      \\"percussion\\": {
+        \\"value\\": \\"Congruent\\"
+      },
       \\"nokhanPresent\\": {
-        \\"play\\": \\"No\\"
+        \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
-        \\"play\\": \\"Yes\\"
+        \\"present\\": \\"Yes\\",
+        \\"value\\": \\"Feminine to Martial style\\"
       },
       \\"sectionUrl\\": \\"/kokaji/ageuta-1/\\",
       \\"videoUrl\\": {},
@@ -2749,20 +2876,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
       }
     },
     {
-      \\"sectionName\\": {},
-      \\"startTime\\": {},
-      \\"endTime\\": {},
-      \\"intensity\\": {},
-      \\"numberVoices\\": {},
-      \\"voice\\": {},
-      \\"text\\": {},
-      \\"numberOfPercussion\\": {},
-      \\"percussion\\": {},
+      \\"play\\": {
+        \\"value\\": \\"kokaji\\"
+      },
+      \\"sectionName\\": {
+        \\"value\\": \\"Ageuta-3\\"
+      },
+      \\"startTime\\": {
+        \\"value\\": 1805
+      },
+      \\"endTime\\": {
+        \\"value\\": 1879
+      },
+      \\"intensity\\": {
+        \\"number\\": \\"-\\"
+      },
+      \\"numberVoices\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Jiutai\\"
+      },
+      \\"voice\\": {
+        \\"value\\": \\"Sung - Tsuyogin\\"
+      },
+      \\"text\\": {
+        \\"value\\": \\"Congruent - Hiranori\\"
+      },
+      \\"numberOfPercussion\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      },
+      \\"percussion\\": {
+        \\"value\\": \\"Congruent\\"
+      },
       \\"nokhanPresent\\": {
-        \\"play\\": \\"No\\"
+        \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
-        \\"play\\": \\"Yes\\"
+        \\"present\\": \\"Yes\\",
+        \\"value\\": \\"Feminine to Martial style\\"
       },
       \\"sectionUrl\\": \\"/kokaji/ageuta-2/\\",
       \\"videoUrl\\": {},
@@ -2772,20 +2923,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
       }
     },
     {
-      \\"sectionName\\": {},
-      \\"startTime\\": {},
-      \\"endTime\\": {},
-      \\"intensity\\": {},
-      \\"numberVoices\\": {},
-      \\"voice\\": {},
-      \\"text\\": {},
-      \\"numberOfPercussion\\": {},
-      \\"percussion\\": {},
+      \\"play\\": {
+        \\"value\\": \\"kokaji\\"
+      },
+      \\"sectionName\\": {
+        \\"value\\": \\"Ageuta-3\\"
+      },
+      \\"startTime\\": {
+        \\"value\\": 1805
+      },
+      \\"endTime\\": {
+        \\"value\\": 1879
+      },
+      \\"intensity\\": {
+        \\"number\\": \\"-\\"
+      },
+      \\"numberVoices\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Jiutai\\"
+      },
+      \\"voice\\": {
+        \\"value\\": \\"Sung - Tsuyogin\\"
+      },
+      \\"text\\": {
+        \\"value\\": \\"Congruent - Hiranori\\"
+      },
+      \\"numberOfPercussion\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      },
+      \\"percussion\\": {
+        \\"value\\": \\"Congruent\\"
+      },
       \\"nokhanPresent\\": {
-        \\"play\\": \\"No\\"
+        \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
-        \\"play\\": \\"Yes\\"
+        \\"present\\": \\"Yes\\",
+        \\"value\\": \\"Feminine to Martial style\\"
       },
       \\"sectionUrl\\": \\"/kokaji/ageuta-3/\\",
       \\"videoUrl\\": {},
@@ -2795,20 +2970,44 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
       }
     },
     {
-      \\"sectionName\\": {},
-      \\"startTime\\": {},
-      \\"endTime\\": {},
-      \\"intensity\\": {},
-      \\"numberVoices\\": {},
-      \\"voice\\": {},
-      \\"text\\": {},
-      \\"numberOfPercussion\\": {},
-      \\"percussion\\": {},
+      \\"play\\": {
+        \\"value\\": \\"kokaji\\"
+      },
+      \\"sectionName\\": {
+        \\"value\\": \\"Ageuta-3\\"
+      },
+      \\"startTime\\": {
+        \\"value\\": 1805
+      },
+      \\"endTime\\": {
+        \\"value\\": 1879
+      },
+      \\"intensity\\": {
+        \\"number\\": \\"-\\"
+      },
+      \\"numberVoices\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Jiutai\\"
+      },
+      \\"voice\\": {
+        \\"value\\": \\"Sung - Tsuyogin\\"
+      },
+      \\"text\\": {
+        \\"value\\": \\"Congruent - Hiranori\\"
+      },
+      \\"numberOfPercussion\\": {
+        \\"number\\": \\"2\\",
+        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      },
+      \\"percussion\\": {
+        \\"value\\": \\"Congruent\\"
+      },
       \\"nokhanPresent\\": {
-        \\"play\\": \\"No\\"
+        \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
-        \\"play\\": \\"Yes\\"
+        \\"present\\": \\"Yes\\",
+        \\"value\\": \\"Feminine to Martial style\\"
       },
       \\"sectionUrl\\": \\"/kokaji/ageuta-4/\\",
       \\"videoUrl\\": {},
