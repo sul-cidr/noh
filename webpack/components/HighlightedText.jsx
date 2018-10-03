@@ -12,6 +12,7 @@ class HighlightedText extends React.Component {
         translation={phrase.translation}
         transcription={phrase.transcription}
         active={phrase.phraseID === this.props.currentPhraseID}
+        startTime={phrase.startTime}
       />
     ));
   }

@@ -17,15 +17,17 @@ exports[`<HighlightedText> renders as expected 1`] = `
   <div
     className="transcription__text"
   >
-    <Line
+    <Connect(Line)
       active={true}
       key="I/1"
+      startTime={0}
       transcription="transcription line 1"
       translation="translation line 1"
     />
-    <Line
+    <Connect(Line)
       active={false}
       key="I/2"
+      startTime={201}
       transcription="transcription line 2"
       translation="translation line 2"
     />
