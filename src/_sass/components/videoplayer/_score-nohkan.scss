@@ -1,7 +1,3 @@
 .cell--nohkan {
   position: relative;
-
-  span {
-    @include tooltip();
-  }
 }

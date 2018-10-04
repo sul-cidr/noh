@@ -2,10 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CellDance = props => (
-  <div className={`cell cell--${props.length} cell--dance`}>
-    <span data-tooltip={props.text} className="truncate">
-      {props.text}
-    </span>
+  <div
+    data-tooltip={props.text}
+    className={`cell cell--${props.length} cell--dance ${
+      props.text.length > 0 ? "cell--tooltip" : ""
+    }`}
+  >
+    <span className="truncate">{props.text}</span>
   </div>
 );
 
