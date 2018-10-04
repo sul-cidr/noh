@@ -2,7 +2,7 @@
 
 exports[`<CellNohkan> renders as expected by default 1`] = `
 <div
-  className="cell cell--3 cell--nohkan"
+  className="cell cell--3 cell--nohkan cell--tooltip"
 >
   <span
     className="truncate"
