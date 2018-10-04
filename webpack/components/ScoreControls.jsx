@@ -100,14 +100,16 @@ class ScoreControls extends Component {
             <i className="fas fa-step-forward" />
           </button>
         </div>
-        <div className="score-controls__elapsed-time">{elapsedTime}</div>
-        <div className="video-progress">
-          <TimelineIndicator
-            startTime={this.props.startTime}
-            duration={this.props.duration}
-          />
+        <div className="score-controls__time">
+          <div className="score-controls__elapsed-time">{elapsedTime}</div>
+          <div className="video-progress">
+            <TimelineIndicator
+              startTime={this.props.startTime}
+              duration={this.props.duration}
+            />
+          </div>
+          <div className="score-controls__remaining-time">{remainingTime}</div>
         </div>
-        <div className="score-controls__remaining-time">{remainingTime}</div>
         <div className="score-controls__filters">
           <button
             className="score-controls__filters-button"
