@@ -2,11 +2,11 @@
 
 exports[`<CellDance> renders as expected by default 1`] = `
 <div
-  className="cell cell--3 cell--dance"
+  className="cell cell--3 cell--dance cell--tooltip"
+  data-tooltip="Naka no takane"
 >
   <span
     className="truncate"
-    data-tooltip="Naka no takane"
   >
     Naka no takane
   </span>

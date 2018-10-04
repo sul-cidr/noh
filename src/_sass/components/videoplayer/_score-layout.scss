@@ -87,6 +87,16 @@
   .measure__channel--large & {
     height: $score-channel-large-height;
   }
+
+  .truncate {
+    position: absolute;
+    max-width: calc(100% - 0.5rem);
+    left: 0.25rem;
+  }
+}
+
+.cell--tooltip {
+  @include tooltip();
 }
 
 .measure--next,
