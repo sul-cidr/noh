@@ -42,10 +42,15 @@
     @include text(sm);
     
     a {
+      text-decoration: none;
+      @include flex-container($justify: flex-start, $align: baseline);
+
       span {
         display: inline-block;
         margin-right: 0.25rem;
+        @include truncate($width: 9rem);
       }
+
       i {
         animation-timing-function: ease-in-out;
         animation-duration: 600ms;
