@@ -13,9 +13,11 @@ class TimelineIndicator extends Component {
       beingDragged: false
     };
     this.container = React.createRef();
+    this.indicator = React.createRef();
     this.tick = this.tick.bind(this);
-    this.handleDragStop = this.handleDragStop.bind(this);
     this.handleDragStart = this.handleDragStart.bind(this);
+    this.handleDrag = this.handleDrag.bind(this);
+    this.handleDragStop = this.handleDragStop.bind(this);
   }
 
   componentDidMount() {
@@ -65,20 +67,23 @@ class TimelineIndicator extends Component {
     }
   }
 
-  handleDragStop(event) {
-    const element = event.target.parentElement.parentElement;
-    const ratio = (event.clientX - element.offsetLeft) / element.offsetWidth;
-    const { duration } = this.props;
-    const progressInSeconds = Math.min(duration, Math.max(0, duration * ratio));
-    this.setState({
-      beingDragged: false
-    });
-    this.props.updateCurrentTime(progressInSeconds + this.props.startTime);
-  }
-
   handleDragStart() {
     this.setState({
       beingDragged: true
+    });
+  }
+
+  handleDrag() {
+    const { duration } = this.props;
+    const ratio =
+      this.indicator.current.state.x / this.container.current.offsetWidth;
+    const progressInSeconds = Math.min(duration, Math.max(0, duration * ratio));
+    this.props.updateCurrentTime(progressInSeconds + this.props.startTime);
+  }
+
+  handleDragStop() {
+    this.setState({
+      beingDragged: false
     });
   }
 
@@ -91,11 +96,13 @@ class TimelineIndicator extends Component {
       <div ref={this.container} className="time-indicator-container">
         <Draggable
           {...draggableProps}
+          ref={this.indicator}
           axis="x"
           bounds="parent"
           handle=".time-indicator"
-          onStop={this.handleDragStop}
           onStart={this.handleDragStart}
+          onDrag={this.handleDrag}
+          onStop={this.handleDragStop}
         >
           <div className="time-indicator" />
         </Draggable>

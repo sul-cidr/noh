@@ -101,21 +101,7 @@ describe("<TimelineIndicator>", () => {
   });
 
   it("changes internal state when indicator stops being dragged and runs updateCurrentTime prop", () => {
-    const event = {
-      target: {
-        parentElement: {
-          parentElement: {
-            offsetLeft: 10,
-            offsetWidth: 110
-          }
-        }
-      },
-      clientX: 50
-    };
     const duration = 100;
-    const element = event.target.parentElement.parentElement;
-    const ratio = (event.clientX - element.offsetLeft) / element.offsetWidth;
-    const progressInSeconds = Math.min(duration, Math.max(0, duration * ratio));
     const updateCurrentTime = jest.fn();
     const component = TestUtils.renderIntoDocument(
       <UnwrappedTimelineIndicator
@@ -128,57 +114,9 @@ describe("<TimelineIndicator>", () => {
     expect(component.state.beingDragged).toBe(false);
     component.handleDragStart();
     expect(component.state.beingDragged).toBe(true);
-    component.handleDragStop(event);
+    component.handleDrag();
+    component.handleDragStop();
     expect(component.state.beingDragged).toBe(false);
-    expect(updateCurrentTime).toHaveBeenCalledWith(progressInSeconds);
-  });
-
-  it("runs updateCurrentTime prop with 0 if the progress is -Infinity", () => {
-    const event = {
-      target: {
-        parentElement: {
-          parentElement: {
-            offsetLeft: Infinity,
-            offsetWidth: 110
-          }
-        }
-      },
-      clientX: 50
-    };
-    const updateCurrentTime = jest.fn();
-    const component = TestUtils.renderIntoDocument(
-      <UnwrappedTimelineIndicator
-        currentTime={5}
-        duration={10}
-        updateCurrentTime={updateCurrentTime}
-      />
-    );
-    component.handleDragStop(event);
-    expect(updateCurrentTime).toHaveBeenCalledWith(0);
-  });
-
-  it("runs updateCurrentTime prop with duration if the progress is +Infinity", () => {
-    const event = {
-      target: {
-        parentElement: {
-          parentElement: {
-            offsetLeft: 10,
-            offsetWidth: 110
-          }
-        }
-      },
-      clientX: Infinity
-    };
-    const duration = 10;
-    const updateCurrentTime = jest.fn();
-    const component = TestUtils.renderIntoDocument(
-      <UnwrappedTimelineIndicator
-        currentTime={5}
-        duration={duration}
-        updateCurrentTime={updateCurrentTime}
-      />
-    );
-    component.handleDragStop(event);
-    expect(updateCurrentTime).toHaveBeenCalledWith(duration);
+    expect(updateCurrentTime).toHaveBeenCalled();
   });
 });
