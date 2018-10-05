@@ -2,7 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CellNohkan = props => (
-  <div className={`cell cell--${props.length} cell--nohkan`}>
+  <div
+    className={`cell cell--${props.length} cell--nohkan ${
+      props.text.length > 0 ? "cell--tooltip" : ""
+    }`}
+  >
     <span data-tooltip={props.text} className="truncate">
       {props.text}
     </span>

@@ -41,22 +41,26 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
     </button>
   </div>
   <div
-    className="score-controls__elapsed-time"
+    className="score-controls__time"
   >
-    00:00
-  </div>
-  <div
-    className="video-progress"
-  >
-    <Connect(TimelineIndicator)
-      duration={2000}
-      startTime={0}
-    />
-  </div>
-  <div
-    className="score-controls__remaining-time"
-  >
-    33:20
+    <div
+      className="score-controls__elapsed-time"
+    >
+      00:00
+    </div>
+    <div
+      className="video-progress"
+    >
+      <Connect(TimelineIndicator)
+        duration={2000}
+        startTime={0}
+      />
+    </div>
+    <div
+      className="score-controls__remaining-time"
+    >
+      33:20
+    </div>
   </div>
   <div
     className="score-controls__filters"
@@ -288,22 +292,26 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
     </button>
   </div>
   <div
-    className="score-controls__elapsed-time"
+    className="score-controls__time"
   >
-    25:00
-  </div>
-  <div
-    className="video-progress"
-  >
-    <Connect(TimelineIndicator)
-      duration={2000}
-      startTime={0}
-    />
-  </div>
-  <div
-    className="score-controls__remaining-time"
-  >
-    08:20
+    <div
+      className="score-controls__elapsed-time"
+    >
+      25:00
+    </div>
+    <div
+      className="video-progress"
+    >
+      <Connect(TimelineIndicator)
+        duration={2000}
+        startTime={0}
+      />
+    </div>
+    <div
+      className="score-controls__remaining-time"
+    >
+      08:20
+    </div>
   </div>
   <div
     className="score-controls__filters"
@@ -2322,60 +2330,32 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
           </button>
         </div>
         <div
-          className="score-controls__elapsed-time"
+          className="score-controls__time"
         >
-          00:00
-        </div>
-        <div
-          className="video-progress"
-        >
-          <Connect(TimelineIndicator)
-            duration={2000}
-            startTime={0}
+          <div
+            className="score-controls__elapsed-time"
           >
-            <TimelineIndicator
-              currentTime={0}
+            00:00
+          </div>
+          <div
+            className="video-progress"
+          >
+            <Connect(TimelineIndicator)
               duration={2000}
-              interval={10}
-              playing={false}
               startTime={0}
-              updateCurrentTime={[Function]}
             >
-              <div
-                className="time-indicator-container"
+              <TimelineIndicator
+                currentTime={0}
+                duration={2000}
+                interval={10}
+                playing={false}
+                startTime={0}
+                updateCurrentTime={[Function]}
               >
-                <Draggable
-                  allowAnyClick={false}
-                  axis="x"
-                  bounds="parent"
-                  cancel={null}
-                  defaultClassName="react-draggable"
-                  defaultClassNameDragged="react-draggable-dragged"
-                  defaultClassNameDragging="react-draggable-dragging"
-                  defaultPosition={
-                    Object {
-                      "x": 0,
-                      "y": 0,
-                    }
-                  }
-                  disabled={false}
-                  enableUserSelectHack={true}
-                  grid={null}
-                  handle=".time-indicator"
-                  offsetParent={null}
-                  onDrag={[Function]}
-                  onMouseDown={[Function]}
-                  onStart={[Function]}
-                  onStop={[Function]}
-                  position={
-                    Object {
-                      "x": 0,
-                      "y": 0,
-                    }
-                  }
-                  transform={null}
+                <div
+                  className="time-indicator-container"
                 >
-                  <DraggableCore
+                  <Draggable
                     allowAnyClick={false}
                     axis="x"
                     bounds="parent"
@@ -2406,30 +2386,62 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                     }
                     transform={null}
                   >
-                    <div
-                      className="time-indicator react-draggable"
-                      onMouseDown={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchStart={[Function]}
-                      style={
+                    <DraggableCore
+                      allowAnyClick={false}
+                      axis="x"
+                      bounds="parent"
+                      cancel={null}
+                      defaultClassName="react-draggable"
+                      defaultClassNameDragged="react-draggable-dragged"
+                      defaultClassNameDragging="react-draggable-dragging"
+                      defaultPosition={
                         Object {
-                          "touchAction": "none",
-                          "transform": "translate(0px,0px)",
+                          "x": 0,
+                          "y": 0,
+                        }
+                      }
+                      disabled={false}
+                      enableUserSelectHack={true}
+                      grid={null}
+                      handle=".time-indicator"
+                      offsetParent={null}
+                      onDrag={[Function]}
+                      onMouseDown={[Function]}
+                      onStart={[Function]}
+                      onStop={[Function]}
+                      position={
+                        Object {
+                          "x": 0,
+                          "y": 0,
                         }
                       }
                       transform={null}
-                    />
-                  </DraggableCore>
-                </Draggable>
-              </div>
-            </TimelineIndicator>
-          </Connect(TimelineIndicator)>
-        </div>
-        <div
-          className="score-controls__remaining-time"
-        >
-          33:20
+                    >
+                      <div
+                        className="time-indicator react-draggable"
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                          Object {
+                            "touchAction": "none",
+                            "transform": "translate(0px,0px)",
+                          }
+                        }
+                        transform={null}
+                      />
+                    </DraggableCore>
+                  </Draggable>
+                </div>
+              </TimelineIndicator>
+            </Connect(TimelineIndicator)>
+          </div>
+          <div
+            className="score-controls__remaining-time"
+          >
+            33:20
+          </div>
         </div>
         <div
           className="score-controls__filters"
