@@ -3,8 +3,17 @@
   max-width: $wrapper-large;
 }
 
-.text-container {
+.text-container,
+.tabs-container {
   @extend .wrapper;
+}
+
+.tabs-container {
+  background-color: $beige-light;
+
+  .react-tabs__tab-list {
+    padding: 0;
+  }
 }
 
 .image-container {

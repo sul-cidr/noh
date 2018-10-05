@@ -39,6 +39,10 @@ layout: home
       %}
     </div>
   </div>
+  {% include plot.html
+    term="Intermedia"
+    definition="Contributes a bottom-up perspective <a href='https://www.google.com'>with information</a> about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays."
+  %}
 </div>
 
 
