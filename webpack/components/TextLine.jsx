@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime } from "../actionCreators";
 
-// on click of the lines, we want to send an action to update current time
-// to the start time of the phrase clicked.
 class Line extends Component {
   constructor(props) {
     super(props);
