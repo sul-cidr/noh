@@ -10,7 +10,7 @@
     font-size: $fs-display-xs;
     line-height: 1.25;
     padding-left: 1.375rem;
-    
+
     span {
       display: inline-block;
     }
@@ -25,7 +25,7 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-    
+
     &::before {
       background-color: $beige-dark;
       border-color: $brown16;
@@ -35,7 +35,7 @@
       content: '';
       top: 0;
     }
-    
+
     &::after {
       align-items: center;
       display: flex;
@@ -54,7 +54,8 @@
   }
 
   input[type="checkbox"]:focus + label,
-  input[type="checkbox"]:checked + label {
+  input[type="checkbox"]:checked + label,
+  input[type="checkbox"]:indeterminate + label {
     color: $brown;
 
     .custom-checkbox__text {
@@ -63,7 +64,8 @@
   }
 
   input[type="checkbox"]:focus + label::before,
-  input[type="checkbox"]:checked + label::before {
+  input[type="checkbox"]:checked + label::before,
+  input[type="checkbox"]:indeterminate + label::before {
     background-color: $green;
     border-color: $green;
   }
@@ -71,6 +73,11 @@
   input[type="checkbox"]:checked + label::after {
     color: $white;
     content: $fa-var-check;
+  }
+
+  input[type="checkbox"]:indeterminate + label::after {
+    color: $white;
+    content: '';
   }
 }
 
