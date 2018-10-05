@@ -5,7 +5,7 @@ import HighlightedText from "./HighlightedText";
 import { setCurrentPhraseID } from "../actionCreators";
 
 class HighlightedTextContainer extends React.Component {
-  componentWillReceiveProps() {
+  componentDidUpdate() {
     const currentPhraseID = this.determineCurrentPhrase();
     this.props.setCurrentPhrase(currentPhraseID);
   }
@@ -68,6 +68,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = HighlightedTextContainer;
-export default connect(mapStateToProps, mapDispatchToProps)(
-  HighlightedTextContainer
-);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(HighlightedTextContainer);
