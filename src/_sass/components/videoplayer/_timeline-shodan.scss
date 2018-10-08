@@ -7,6 +7,8 @@
   height: $shodan-map-height-play;
   width: 100%;
   z-index: 20;
+
+  @include flex-container($justify:flex-start, $align:flex-end);
 }
 
 .shodan-timeline__container {
@@ -16,14 +18,14 @@
 
   .sidebar__collapsable-title--map {
     .shodan-map {
-      display: block;
+      display: flex;
       height: 2rem;
     }
   }
 
   &.is-open {
     > .shodan-map {
-      display: block;
+      display: flex;
       height: $shodan-map-height-section;
       margin-top: 0.5rem;
     }
@@ -46,8 +48,7 @@
   background-color: $beige-light;
   border: 0.0625rem solid $brown16;
   min-height: 0.5rem;
-  position: absolute;
-  bottom: 0;
+  position: relative;
 
   @include tooltip();
 
