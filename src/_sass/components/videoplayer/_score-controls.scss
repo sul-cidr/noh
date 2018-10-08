@@ -10,6 +10,7 @@ $score-checkbox-height: 1.5rem;
 }
 
 .sentence-control {
+  min-width: 11rem;
   @include flex-container($justify:flex-start);
 }
 
@@ -23,8 +24,9 @@ $score-checkbox-height: 1.5rem;
 
 .sentence-control__prev,
 .sentence-control__next {
-  @include text(md);
   background: none;
+  cursor: pointer;
+  @include text(md);
 }
 
 .sentence-control__prev {
@@ -88,13 +90,18 @@ $score-checkbox-height: 1.5rem;
 }
 
 .score-controls__filters-button {
-  color: $green;
   border-radius: 0.125rem;
+  color: $green;
+  cursor: pointer;
   font-weight: $fw-semibold;
   padding: 0.25rem 0.75rem;
 
   @include text(xxs);
   @include uppercase();
+
+  &:hover {
+    background-color: $beige-light;
+  }
 }
 
 .score-controls__filters-popup {
