@@ -43,7 +43,7 @@ permalink: /catalog-of-shodan/
                   </li>
                   {% assign last = "" %}
                 {% endif %}
-                <li class="filters__element">
+                <li class="filters__element {% if last != "" %}filters__sub-element{% endif %}">
                   {% include filter-check.html
                     id=value
                     title=value.last
