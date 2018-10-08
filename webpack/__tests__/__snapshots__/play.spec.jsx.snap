@@ -3375,6 +3375,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
+                              "left": "0%",
                               "width": "4.061738424045491%",
                             }
                           }
@@ -3412,6 +3413,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
+                              "left": "4.061738424045491%",
                               "width": "3.4930950446791225%",
                             }
                           }
@@ -3449,6 +3451,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "10.344827586206897%",
+                              "left": "7.554833468724613%",
                               "width": "2.139182236663959%",
                             }
                           }
@@ -3486,6 +3489,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "13.793103448275861%",
+                              "left": "9.694015705388573%",
                               "width": "5.578120769022475%",
                             }
                           }
@@ -3523,6 +3527,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "58.620689655172406%",
+                              "left": "15.272136474411049%",
                               "width": "3.303547251557%",
                             }
                           }
@@ -3560,6 +3565,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "13.793103448275861%",
+                              "left": "18.575683725968048%",
                               "width": "0.8935824532900082%",
                             }
                           }
@@ -3597,6 +3603,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "10.344827586206897%",
+                              "left": "19.469266179258057%",
                               "width": "1.57053885729759%",
                             }
                           }
@@ -3634,6 +3641,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "13.793103448275861%",
+                              "left": "21.039805036555645%",
                               "width": "4.278364473327918%",
                             }
                           }
@@ -3671,6 +3679,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "58.620689655172406%",
+                              "left": "25.318169509883564%",
                               "width": "3.113999458434877%",
                             }
                           }
@@ -3708,6 +3717,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "48.275862068965516%",
+                              "left": "28.43216896831844%",
                               "width": "1.6246953696181965%",
                             }
                           }
@@ -3745,6 +3755,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "37.93103448275862%",
+                              "left": "30.056864337936638%",
                               "width": "3.168155970755483%",
                             }
                           }
@@ -3782,6 +3793,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "62.06896551724138%",
+                              "left": "33.22502030869212%",
                               "width": "14.974275656647713%",
                             }
                           }
@@ -3819,6 +3831,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "24.137931034482758%",
+                              "left": "48.199295965339836%",
                               "width": "1.543460601137287%",
                             }
                           }
@@ -3856,6 +3869,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "44.827586206896555%",
+                              "left": "49.74275656647712%",
                               "width": "2.0037909558624425%",
                             }
                           }
@@ -3893,6 +3907,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "34.48275862068966%",
+                              "left": "51.74654752233956%",
                               "width": "5.686433793663688%",
                             }
                           }
@@ -3930,6 +3945,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
+                              "left": "57.43298131600325%",
                               "width": "13.105875981586786%",
                             }
                           }
@@ -3967,6 +3983,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
+                              "left": "70.53885729759004%",
                               "width": "3.8451123747630653%",
                             }
                           }
@@ -4004,6 +4021,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "41.37931034482759%",
+                              "left": "74.3839696723531%",
                               "width": "5.442729488220959%",
                             }
                           }
@@ -4041,6 +4059,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "48.275862068965516%",
+                              "left": "79.82669916057407%",
                               "width": "3.926347143243975%",
                             }
                           }
@@ -4078,6 +4097,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "72.41379310344827%",
+                              "left": "83.75304630381804%",
                               "width": "2.247495261305172%",
                             }
                           }
@@ -4115,6 +4135,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "93.10344827586206%",
+                              "left": "86.00054156512321%",
                               "width": "1.2455997833739507%",
                             }
                           }
@@ -4152,6 +4173,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "100%",
+                              "left": "87.24614134849716%",
                               "width": "1.5163823449769833%",
                             }
                           }
@@ -4189,6 +4211,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "82.75862068965517%",
+                              "left": "88.76252369347415%",
                               "width": "3.086921202274574%",
                             }
                           }
@@ -4226,6 +4249,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "31.03448275862069%",
+                              "left": "91.84944489574872%",
                               "width": "0.785269428648795%",
                             }
                           }
@@ -4263,6 +4287,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "96.55172413793103%",
+                              "left": "92.6347143243975%",
                               "width": "3.6555645816409426%",
                             }
                           }
@@ -4300,6 +4325,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
+                              "left": "96.29027890603845%",
                               "width": "4.224207961007311%",
                             }
                           }

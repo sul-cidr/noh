@@ -10,6 +10,7 @@ exports[`<ShodanTimelineBlock> renders as expected 1`] = `
   style={
     Object {
       "height": "71.42857142857143%",
+      "left": "8%",
       "width": "33.33333333333333%",
     }
   }
@@ -27,6 +28,7 @@ exports[`<ShodanTimelineBlock> renders as expected with current section highligh
   style={
     Object {
       "height": "71.42857142857143%",
+      "left": "8%",
       "width": "33.33333333333333%",
     }
   }
@@ -44,6 +46,7 @@ exports[`<ShodanTimelineBlock> renders as expected with startTime 1`] = `
   style={
     Object {
       "height": "71.42857142857143%",
+      "left": "8%",
       "width": "33.33333333333333%",
     }
   }
@@ -61,6 +64,7 @@ exports[`<ShodanTimelineBlock> renders as expected with url 1`] = `
   style={
     Object {
       "height": "71.42857142857143%",
+      "left": "8%",
       "width": "33.33333333333333%",
     }
   }
