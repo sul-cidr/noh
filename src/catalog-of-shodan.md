@@ -33,7 +33,7 @@ permalink: /catalog-of-shodan/
                       id=value.first
                       title=value.first
                       amount=filter.values.size
-                      checked="checked"
+                      checked=""
                     %}
                     <ul>
                   {% assign last = value.first %}
@@ -48,7 +48,7 @@ permalink: /catalog-of-shodan/
                     id=value
                     title=value.last
                     amount=filter.values.size
-                    checked="checked"
+                    checked=""
                   %}
                 </li>
               {% endfor %}

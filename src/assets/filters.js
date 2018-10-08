@@ -68,7 +68,11 @@ function attachFilters() {
           // Get the intersection of pills with checked
           var show = pills.filter(value => checked.indexOf(value) !== -1)
             .length;
-          elem.style.display = show > 0 ? "block" : "none";
+          if (checked.length === 0) {
+            elem.style.display = "block";
+          } else {
+            elem.style.display = show > 0 ? "block" : "none";
+          }
         });
       },
       false
