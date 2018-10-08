@@ -1,6 +1,8 @@
 {
   "play": { "value": "Kokaji" },
+  "playUrl": "/kokaji/",
   "sectionName": { "value": "Kuse" },
+  "sectionUrl": "/kokaji/kuse/",
   "startTime": 1193,
   "duration": 553,
   "endTime": 1746,
@@ -26,6 +28,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Oshirabe" },
+      "sectionUrl": "/kokaji/oshirabe/",
       "startTime": {},
       "endTime": { "value": 105 },
       "intensity": {},
@@ -48,6 +51,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Musicians walk in" },
+      "sectionUrl": "/kokaji/musicians-walk-in/",
       "startTime": { "value": 106 },
       "endTime": { "value": 235 },
       "intensity": {},
@@ -67,6 +71,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Nanori" },
+      "sectionUrl": "/kokaji/nanori/",
       "startTime": { "value": 236 },
       "endTime": { "value": 315 },
       "intensity": { "number": "3" },
@@ -86,6 +91,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Mondō-1" },
+      "sectionUrl": "/kokaji/mondo-1/",
       "startTime": { "value": 316 },
       "endTime": { "value": 522 },
       "intensity": { "number": "4" },
@@ -105,6 +111,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Ageuta-1" },
+      "sectionUrl": "/kokaji/ageuta-1/",
       "startTime": { "value": 523 },
       "endTime": { "value": 645 },
       "intensity": { "number": "17" },
@@ -124,6 +131,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Dialogue" },
+      "sectionUrl": "/kokaji/dialogue/",
       "startTime": { "value": 646 },
       "endTime": { "value": 679 },
       "intensity": { "number": "4" },
@@ -143,6 +151,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Monologue" },
+      "sectionUrl": "/kokaji/monologue/",
       "startTime": { "value": 680 },
       "endTime": { "value": 738 },
       "intensity": { "number": "3" },
@@ -162,6 +171,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Mondō-2" },
+      "sectionUrl": "/kokaji/mondo-2/",
       "startTime": { "value": 738 },
       "endTime": { "value": 897 },
       "intensity": { "number": "4" },
@@ -181,6 +191,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Ageuta-2" },
+      "sectionUrl": "/kokaji/ageuta-2/",
       "startTime": { "value": 898 },
       "endTime": { "value": 1013 },
       "intensity": { "number": "17" },
@@ -200,6 +211,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Kuri" },
+      "sectionUrl": "/kokaji/kuri/",
       "startTime": { "value": 1014 },
       "endTime": { "value": 1074 },
       "intensity": { "number": "14" },
@@ -219,6 +231,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Sashi" },
+      "sectionUrl": "/kokaji/sashi/",
       "startTime": { "value": 1075 },
       "endTime": { "value": 1192 },
       "intensity": { "number": "11" },
@@ -238,6 +251,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Kuse" },
+      "sectionUrl": "/kokaji/kuse/",
       "startTime": { "value": 1193 },
       "endTime": { "value": 1746 },
       "intensity": { "number": "18" },
@@ -260,6 +274,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Kakeai-1" },
+      "sectionUrl": "/kokaji/kakekai-1/",
       "startTime": { "value": 1747 },
       "endTime": { "value": 1804 },
       "intensity": { "number": "7" },
@@ -279,6 +294,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Ageuta-3" },
+      "sectionUrl": "/kokaji/ageuta-3/",
       "startTime": { "value": 1805 },
       "endTime": { "value": 1879 },
       "intensity": { "number": "13" },
@@ -298,6 +314,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Raijo" },
+      "sectionUrl": "/kokaji/raijo/",
       "startTime": { "value": 1880 },
       "endTime": { "value": 2090 },
       "intensity": { "number": "10" },
@@ -320,6 +337,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Aikyōgen" },
+      "sectionUrl": "/kokaji/aikyogen/",
       "startTime": { "value": 2091 },
       "endTime": { "value": 2575 },
       "intensity": { "number": "0" },
@@ -339,6 +357,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Prop is brought in" },
+      "sectionUrl": "/kokaji/prop-in/",
       "startTime": { "value": 2576 },
       "endTime": { "value": 2718 },
       "intensity": { "number": "0" },
@@ -358,6 +377,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Notto" },
+      "sectionUrl": "/kokaji/notto/",
       "startTime": { "value": 2719 },
       "endTime": { "value": 2920 },
       "intensity": { "number": "12" },
@@ -377,6 +397,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Noriji-1" },
+      "sectionUrl": "/kokaji/noriji-1/",
       "startTime": { "value": 2921 },
       "endTime": { "value": 3066 },
       "intensity": { "number": "14" },
@@ -399,6 +420,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Hayafue" },
+      "sectionUrl": "/kokaji/hayafue/",
       "startTime": { "value": 3067 },
       "endTime": { "value": 3150 },
       "intensity": { "number": "21" },
@@ -421,6 +443,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Noriji-2" },
+      "sectionUrl": "/kokaji/noriji-2/",
       "startTime": { "value": 3151 },
       "endTime": { "value": 3195 },
       "intensity": { "number": "27" },
@@ -443,6 +466,7 @@
     {
       "play": { "value": "kokaji" },
       "sectionName": { "value": "Maibataraki" },
+      "sectionUrl": "/kokaji/maibataraki/",
       "startTime": { "value": 3196 },
       "endTime": { "value": 3254 },
       "intensity": { "number": "29" },
@@ -468,6 +492,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Noriji-3" },
+      "sectionUrl": "/kokaji/noriji-3/",
       "startTime": { "value": 3255 },
       "endTime": { "value": 3369 },
       "intensity": { "number": "24" },
@@ -490,6 +515,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Kakeai-2" },
+      "sectionUrl": "/kokaji/kakekai-2/",
       "startTime": { "value": 3370 },
       "endTime": { "value": 3399 },
       "intensity": { "number": "9" },
@@ -509,6 +535,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Kiri" },
+      "sectionUrl": "/kokaji/kiri/",
       "startTime": { "value": 3400 },
       "endTime": { "value": 3534 },
       "intensity": { "number": "28" },
@@ -531,6 +558,7 @@
     {
       "play": { "value": "Kokaji" },
       "sectionName": { "value": "Musicians are exiting the stage" },
+      "sectionUrl": "/kokaji/exit/",
       "startTime": { "value": 3536 },
       "endTime": { "value": 3693 },
       "intensity": { "number": "0" },
