@@ -40,6 +40,9 @@ collections:
   music:
     output: true
     permalink: /:collection/:path/
+  movement:
+    output: true
+    permalink: /:collection/:path/
   catalog-of-shodan:
     output: true
     permalink: /:collection/:path/
