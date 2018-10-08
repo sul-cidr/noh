@@ -1,0 +1,36 @@
+.introductory-table {
+  margin: 2rem 0;
+
+  @include flex-container($justify: center);
+}
+
+.introductory-table__element {
+  background-color: $beige-light;
+  border-top: $border;
+  min-width: 10rem;
+  // margin: 0 0.5rem;
+}
+
+.introductory-table__term,
+.introductory-table__definition {
+  padding: 0 2rem;
+  text-align: center;
+  height: 2.25rem;
+
+  @include flex-container($justify: center);
+}
+
+.introductory-table__term {
+  border-bottom: $border;
+  color: $green;
+  font-weight: $fw-semibold;
+
+  @include text(xxs);
+  @include uppercase();
+}
+
+.introductory-table__definition {
+  border-bottom: $border;
+
+  @include text(xs);
+}

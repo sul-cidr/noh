@@ -9,10 +9,7 @@ permalink: /libretti/
 
 <main class="page-content">
   <div class="wrapper">
-    {% include menu-instrument-large.html %}
-
     <h2>Libretti</h2>
-
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
   </div>
 </main>

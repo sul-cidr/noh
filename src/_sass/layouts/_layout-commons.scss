@@ -1,19 +1,34 @@
 .wrapper {
   margin: 0 auto;
+  max-width: $wrapper-medium;
+}
+
+.wrapper--large {
   max-width: $wrapper-large;
 }
 
-.text-container,
-.tabs-container {
+.text-container {
   @extend .wrapper;
 }
 
 .tabs-container {
-  background-color: $beige-light;
+  margin: 4rem 0;
 
   .react-tabs__tab-list {
     padding: 0;
   }
+}
+
+.tabs-container__links {
+  border-bottom: $border;
+  .react-tabs__tab-list {
+    border-bottom-width: 0;
+  }
+}
+.tabs-container__content {
+  background-color: $beige-light;
+  border-bottom: $border;
+  padding: 2rem 0;
 }
 
 .image-container {

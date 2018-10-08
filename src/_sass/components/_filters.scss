@@ -40,7 +40,6 @@
 
 .filters__card-container {
   flex-grow: 1;
-  margin: 0 -1rem;
   padding-left: 1rem;
 
   @include flex-container($wrap:wrap, $justify:flex-start, $align: flex-start);
@@ -50,13 +49,13 @@
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 0.125rem;
-  height: 10rem;
+  height: 12.5rem;
   margin: 0.5rem;
   overflow: hidden;
   padding: 0.5rem 0.75rem;
   position: relative;
   text-decoration: none;
-  width: 13.75rem;
+  width: 19rem;
 
   @include flex-container($direction:column, $justify:space-between, $align: flex-start);
 }
