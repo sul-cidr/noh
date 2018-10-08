@@ -47,7 +47,6 @@ class ShodanTimelineBlock extends Component {
 }
 
 ShodanTimelineBlock.propTypes = {
-  left: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   url: PropTypes.string,
   startTime: PropTypes.number,
