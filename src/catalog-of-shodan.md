@@ -16,200 +16,59 @@ permalink: /catalog-of-shodan/
     <div class="wrapper">
       <div class="filters__content">
         <div class="filters__controls">
-          <h3 class="filters__title">Filter by type of section</h3>
-          <ul>
-            <li class="filters__element">
-              {% include filter-check.html 
-                id="type-1"
-                title="Spoken"
-                amount="18"
-                checked="checked"
-              %}
-            </li>
-            <li class="filters__element">
-              {% include filter-check.html 
-                id="type-2"
-                title="Chanted"
-                amount="18"
-                checked="checked"
-              %}
-              <ul>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="type-21"
-                    title="Recitative Chant"
-                    amount="18"
+          {% for filter in site.data.catalog.filters %}
+            <h3 class="filters__title">Filter by {{ filter.by }}</h3>
+            <ul>
+              {% assign last = "" %}
+              {% assign values = filter.values | sort %}
+              {% for value in values %}
+                {% if last != "" and value.size != 1 and value.first != last %}
+                    </ul>
+                  </li>
+                  {% assign last = "" %}
+                {% endif %}
+                {% if value.size != 1 and value.first != last %}
+                  <li class="filters__element">
+                    {% include filter-check.html
+                      id=value.first
+                      title=value.first
+                      amount=filter.values.size
+                      checked="checked"
+                    %}
+                    <ul>
+                  {% assign last = value.first %}
+                {% endif %}
+                {% if last != "" and value.size == 1 %}
+                    </ul>
+                  </li>
+                  {% assign last = "" %}
+                {% endif %}
+                <li class="filters__element {% if last != "" %}filters__sub-element{% endif %}">
+                  {% include filter-check.html
+                    id=value
+                    title=value.last
+                    amount=filter.values.size
                     checked="checked"
                   %}
                 </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="type-22"
-                    title="Introduction Chant"
-                    amount="18"
-                    checked="checked"
-                  %}
+              {% endfor %}
+              {% if last != "" %}
+                  </ul>
                 </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="type-23"
-                    title="Main Chant"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="type-24"
-                    title="Closing Chant"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-              </ul>  
-            </li>
-            <li class="filters__element">
-              {% include filter-check.html 
-                id="type-3"
-                title="Entrance and Exit Music"
-                amount="18"
-                checked="checked"
-              %}
-            </li>
-            <li class="filters__element">
-              {% include filter-check.html 
-                id="type-4"
-                title="Dance Music"
-                amount="18"
-                checked="checked"
-              %}
-            </li>
-          </ul>
-          <h3 class="filters__title">Filter by act</h3>
-          <ul>
-            <li class="filters__element">
-              {% include filter-check.html 
-                id="act-1"
-                title="First act (Mae ba)"
-                amount="18"
-                checked="checked"
-              %}
-              <ul>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-11"
-                    title="Waki enters"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-12"
-                    title="Shite enters"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-13"
-                    title="Dialogue"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-14"
-                    title="Shite performs"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-15"
-                    title="Shite exits"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-              </ul>  
-            </li>
-            <li class="filters__element">
-              {% include filter-check.html 
-                id="act-1"
-                title="Second act (Nochi ba)"
-                amount="18"
-                checked="checked"
-              %}
-              <ul>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-21"
-                    title="Waki waits"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-22"
-                    title="Shite re-enters"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-23"
-                    title="Dialogue"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-24"
-                    title="Shite performs"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-                <li class="filters__element">
-                  {% include filter-check.html 
-                    id="act-25"
-                    title="Shite exits"
-                    amount="18"
-                    checked="checked"
-                  %}
-                </li>
-              </ul>  
-            </li>
-          </ul>
+                {% assign last = "" %}
+              {% endif %}
+            </ul>
+          {% endfor %}
         </div>
         <div class="filters__card-container">
-          {% include filter-card.html
-            image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-            title="Tsukizerifu"
-            pills="Mae ba,Shite enters"
-          %}
-          {% include filter-card.html
-            image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-            title="Tsukizerifu"
-            pills="Mae ba,Shite enters,Chanted,Recitative Chant"
-          %}
-          {% include filter-card.html
-            image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-            title="Tsukizerifu"
-            pills="Mae ba,Shite enters,Chanted,Recitative Chant"
-          %}
-          {% include filter-card.html
-            image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-            title="Tsukizerifu"
-            pills="Mae ba,Shite enters,Chanted,Recitative Chant"
-          %}
+          {% for card in site.data.catalog.cards %}
+            {% assign pills = card.pills | uniq | sort | join: ',' %}
+            {% include filter-card.html
+              title=card.name
+              slug=card.slug
+              pills=pills
+            %}
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -217,4 +76,4 @@ permalink: /catalog-of-shodan/
 
 </main>
 
-
+<script type="text/javascript" src="/assets/filters.js"></script>

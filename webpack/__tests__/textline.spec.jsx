@@ -1,24 +1,27 @@
 import React from "react";
 import { mount, shallow } from "enzyme";
-import TextLine from "../components/TextLine";
+import configureMockStore from "redux-mock-store";
+import TextLine, { UnwrappedLine } from "../components/TextLine";
 
 describe("<TextLine>", () => {
   it("renders as expected with active class", () => {
     const component = shallow(
-      <TextLine
+      <UnwrappedLine
         active
         translation="sample string"
         transcription="another sample string"
+        startTime={10}
       />
     );
     expect(component).toMatchSnapshot();
   });
   it("renders as expected without active class", () => {
     const component = shallow(
-      <TextLine
+      <UnwrappedLine
         active={false}
         translation="sample string"
         transcription="another sample string"
+        startTime={10}
       />
     );
     expect(component).toMatchSnapshot();
@@ -28,10 +31,11 @@ describe("<TextLine>", () => {
     const container = document.createElement("div");
 
     const component = mount(
-      <TextLine
+      <UnwrappedLine
         active
         translation="sample string"
         transcription="another sample string"
+        startTime={10}
       />,
       {
         attachTo: container
@@ -40,5 +44,46 @@ describe("<TextLine>", () => {
     component.line.scrollIntoView = jest.fn();
     component.componentDidUpdate();
     expect(component.line.scrollIntoView.mock.calls.length).toBe(1);
+  });
+
+  it("doesn't scroll to line when not active", () => {
+    const container = document.createElement("div");
+
+    const component = mount(
+      <UnwrappedLine
+        active={false}
+        translation="sample string"
+        transcription="another sample string"
+        startTime={10}
+      />,
+      {
+        attachTo: container
+      }
+    ).instance();
+    component.line.scrollIntoView = jest.fn();
+    component.componentDidUpdate();
+    expect(component.line.scrollIntoView.mock.calls.length).toBe(0);
+  });
+
+  it("correctly updates currentTime when the Textline is clicked", () => {
+    const initialState = { currentTime: 13 };
+    const mockStore = configureMockStore();
+    const store = mockStore(initialState);
+    const wrapper = mount(
+      <TextLine
+        active
+        translation="sample string"
+        transcription="another sample string"
+        startTime={40}
+      />,
+      { context: { store } }
+    );
+
+    wrapper
+      .find("button")
+      .first()
+      .simulate("click");
+    const action = { type: "SET_CURRENT_TIME", payload: 40 };
+    expect(store.getActions()[0]).toEqual(action);
   });
 });

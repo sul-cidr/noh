@@ -5,42 +5,21 @@ import IntermediaTitle from "./IntermediaTitle";
 import IntermediaElement from "./IntermediaElement";
 
 class IntermediaTable extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentSectionIndex: 0
-    };
-  }
-
-  componentWillReceiveProps() {
-    // Whenever props change, e.g. time, check to see if the current section index has changed. If so, update state.
-    const currentSectionIndex = this.findCurrentSectionIndex();
-    if (currentSectionIndex !== this.state.currentSectionIndex) {
-      this.updateIndex(currentSectionIndex);
-    }
-  }
-
   findCurrentSectionIndex() {
     // Determine current sectionIndex based on time
     const currentSectionIndex = this.props.sections.findIndex(
       section =>
-        this.props.currentTime >= section.startTime.value &&
+        this.props.currentTime >= (section.startTime.value || 0) &&
         this.props.currentTime < section.endTime.value
     );
-    // since findIndex returns -1 if it finds nothing, just return the current section index from state
-    if (currentSectionIndex === -1) {
-      return this.state.currentSectionIndex;
-    }
-    return currentSectionIndex;
-  }
-
-  updateIndex(currentSectionIndex) {
-    this.setState({ currentSectionIndex });
+    // findIndex returns -1 if it finds nothing, just return 0 in that case
+    return Math.max(currentSectionIndex, 0);
   }
 
   render() {
     // due to lack of data for start and end time, not always finding current section
-    const section = this.props.sections[this.state.currentSectionIndex];
+    const sectionIndex = this.findCurrentSectionIndex();
+    const section = this.props.sections[sectionIndex];
     return (
       <div className="intermedia-table">
         <IntermediaTitle

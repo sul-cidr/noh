@@ -31,7 +31,7 @@
 
 .logo {
   display: block;
-  
+
   span {
     display: block;
   }
@@ -42,7 +42,7 @@
     @include flex-container();
 
     > li {
-      
+
       &.active {
         .header__main-link {
           border-bottom-color: $white;
@@ -93,15 +93,15 @@
     width: 0;
   }
 
-  &:focus {
-    & + .dropdown-menu__list {
-      display: block;
-    }
-  }
 }
 
 .dropdown-menu {
   position: relative;
+
+  &:hover .dropdown-menu__list {
+      display: block;
+  }
+
 }
 
 .dropdown-menu__trigger {
@@ -152,6 +152,7 @@
     align-items: center;
     display: flex;
     font-weight: $fw-regular;
+    cursor: default;
 
     @include text(xs);
 
