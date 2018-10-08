@@ -33,7 +33,6 @@ class ShodanTimelineBlock extends Component {
       <div
         className={`shodan-map__item ${pointer} ${active}`}
         style={{
-          left: this.props.left,
           width: `${durationNum}%`,
           height: `${heightNum}%`
         }}
@@ -48,7 +47,6 @@ class ShodanTimelineBlock extends Component {
 }
 
 ShodanTimelineBlock.propTypes = {
-  left: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   url: PropTypes.string,
   startTime: PropTypes.number,
