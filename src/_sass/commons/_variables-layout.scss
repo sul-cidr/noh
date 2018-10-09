@@ -4,8 +4,10 @@ $number-columns: 12;
 $col-width: 4rem;
 $gutter-width: 1rem;
 
-$wrapper-small: 60rem;
-$wrapper-large: $number-columns*$col-width + ($number-columns - 1)*$gutter-width;
+$wrapper-small: 40rem;
+$wrapper-medium: 60rem;
+$wrapper-large: 76rem;
+// $wrapper-large: $number-columns*$col-width + ($number-columns - 1)*$gutter-width;
 
 /* Header */
 
