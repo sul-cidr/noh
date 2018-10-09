@@ -1,6 +1,6 @@
 ---
 layout: website
-name: nanori 
+name: notto-chant 
 filter-act: 
 filter-type: 
 second-level-menu-active: catalog-shodan
@@ -10,7 +10,7 @@ second-level-menu-active: catalog-shodan
 
 <main class="page-content">
   <div class="text-container">
-    <h2>nanori</h2>
+    <h2>notto-chant</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
   </div>
 </main>

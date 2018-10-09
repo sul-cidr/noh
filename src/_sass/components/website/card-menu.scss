@@ -1,4 +1,4 @@
-$card-menu-small-element-size: 5rem;
+$card-menu-small-element-size: 5.5rem;
 $card-menu-large-element-size: 8.75rem;
 
 .card-menu {
@@ -75,7 +75,7 @@ $card-menu-large-element-size: 8.75rem;
   transition: box-shadow $transition;
 
   &::before {
-    background-color: $black32;
+    background-color: $black48;
     content: '';
     height: 100%;
     left: 0;
