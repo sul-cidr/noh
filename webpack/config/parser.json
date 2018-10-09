@@ -1,6 +1,6 @@
 {
   "catalog": {
-    "filters": [
+    "sections": [
       {
         "type": "type",
         "headers": 2,
@@ -10,6 +10,18 @@
         "type": "act",
         "headers": 2,
         "url": "https://docs.google.com/spreadsheets/d/1FwHvMAr3KS0LgTIO8QDCY7BRVMDZvSeDBCZ5VJ8OsyU/edit#gid=820412063"
+      }
+    ],
+    "movements": [
+      {
+        "type": "structural",
+        "headers": 2,
+        "url": "https://docs.google.com/spreadsheets/d/1FwHvMAr3KS0LgTIO8QDCY7BRVMDZvSeDBCZ5VJ8OsyU/edit#gid=1776741217"
+      },
+      {
+        "type": "decorative",
+        "headers": 2,
+        "url": "https://docs.google.com/spreadsheets/d/1FwHvMAr3KS0LgTIO8QDCY7BRVMDZvSeDBCZ5VJ8OsyU/edit#gid=290221649"
       }
     ]
   },
