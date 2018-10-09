@@ -13,7 +13,7 @@ permalink: /catalog-of-shodan/
   </div>
 
   <div class="filters__container">
-    <div class="wrapper">
+    <div class="wrapper wrapper--large">
       <div class="filters__content">
         <div class="filters__controls">
           {% for filter in site.data.catalog.filters %}
