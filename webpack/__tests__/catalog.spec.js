@@ -3,9 +3,7 @@ import axios from "axios";
 import mkdirp from "mkdirp";
 import MockAdapter from "axios-mock-adapter";
 
-import {
-  main as catalogMain
-} from "../scripts/catalog";
+import { main as catalogMain } from "../scripts/catalog";
 import fixtures from "./__fixtures__/parser";
 
 const mock = new MockAdapter(axios);
@@ -48,9 +46,7 @@ describe("parser", () => {
 
   it("main downloads and parses the catalog of sections", done => {
     mock.reset();
-    mock
-      .onGet(fixtures.catalog.filters[0].url)
-      .reply(200, fixtures.catalogCSV)
+    mock.onGet(fixtures.catalog.filters[0].url).reply(200, fixtures.catalogCSV);
     const spyRead = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures));
