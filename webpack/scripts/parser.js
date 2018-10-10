@@ -252,6 +252,7 @@ export const main = (configPath, quiet) => {
             .then(data => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
+              sectionData.playUrl = `/${play.playName}/`;
               sectionData.sectionUrl = `/${play.playName}/${
                 section.sectionName
               }/`;
