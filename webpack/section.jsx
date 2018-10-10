@@ -65,18 +65,20 @@ export default class App extends Component {
           <aside className="sidebar sidebar--section">
             <div className="sidebar__header">
               <div className="sidebar__back-link">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="7"
-                  height="11"
-                  viewBox="0 0 7 11"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M0.197894737,5.07381279 L5.31236842,0.193127854 C5.55894737,-0.0421917808 5.95894737,-0.0421917808 6.20552632,0.193127854 L6.80210526,0.762465753 C7.04842105,0.997534247 7.04868421,1.37826484 6.80315789,1.61383562 L2.74973684,5.5 L6.80289474,9.38641553 C7.04868421,9.6219863 7.04815789,10.0027169 6.80184211,10.2377854 L6.20526316,10.8071233 C5.95868421,11.0424429 5.55868421,11.0424429 5.31210526,10.8071233 L0.197894737,5.92618721 C-0.0486842105,5.69086758 -0.0486842105,5.30913242 0.197894737,5.07381279 Z"
-                  />
-                </svg>
-                {this.props.playName}
+                <a href={this.props.playUrl} title={this.props.playName}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="7"
+                    height="11"
+                    viewBox="0 0 7 11"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0.197894737,5.07381279 L5.31236842,0.193127854 C5.55894737,-0.0421917808 5.95894737,-0.0421917808 6.20552632,0.193127854 L6.80210526,0.762465753 C7.04842105,0.997534247 7.04868421,1.37826484 6.80315789,1.61383562 L2.74973684,5.5 L6.80289474,9.38641553 C7.04868421,9.6219863 7.04815789,10.0027169 6.80184211,10.2377854 L6.20526316,10.8071233 C5.95868421,11.0424429 5.55868421,11.0424429 5.31210526,10.8071233 L0.197894737,5.92618721 C-0.0486842105,5.69086758 -0.0486842105,5.30913242 0.197894737,5.07381279 Z"
+                    />
+                  </svg>
+                  {this.props.playName}
+                </a>
               </div>
               <h1>{this.props.title}</h1>
             </div>
@@ -172,9 +174,11 @@ App.propTypes = {
     })
   ).isRequired,
   playName: PropTypes.string.isRequired,
+  playUrl: PropTypes.string.isRequired,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       sectionName: PropTypes.shape({ value: PropTypes.string }),
+      sectionUrl: PropTypes.string.isRequired,
       intensity: PropTypes.shape({ number: PropTypes.string }),
       startTime: PropTypes.shape({ value: PropTypes.number }),
       endTime: PropTypes.shape({ value: PropTypes.number })
