@@ -12,17 +12,18 @@ class ShodanTimeline extends Component {
 
   createSectionBlocks() {
     let position = 0;
-    let currentWidth = 0;
+    let lastEndTime = -1;
     const sectionBlocks = [];
     this.props.sections.map(section => {
       // the key here has to change if name is not unique
+      const duration = section.endTime.value - lastEndTime;
       let blockProps;
       if (this.props.mode === "url") {
         blockProps = { url: section.sectionUrl };
       } else {
         blockProps = { startTime: section.startTime.value || 0 };
       }
-      const newBlock = (
+      sectionBlocks.push(
         <ShodanTimelineBlock
           {...blockProps}
           key={section.sectionName.value}
@@ -30,26 +31,19 @@ class ShodanTimeline extends Component {
           left={`${position}%`}
           maxIntensity={this.props.maxIntensity}
           intensity={section.intensity.number || "0"}
-          // lack of start and end time data means duration isnt always being computed
-          duration={section.endTime.value - section.startTime.value || 150}
+          duration={duration}
           totalDuration={this.props.totalDuration}
         />
       );
-      sectionBlocks.push(newBlock);
-      // lack of start and end time data means duration isnt being computed
-      const blockWidth =
-        ((section.endTime.value - section.startTime.value || 150) /
-          this.props.totalDuration) *
-        100;
-      currentWidth = blockWidth;
-      position += currentWidth;
+      position += 100 * duration / this.props.totalDuration;
+      lastEndTime = section.endTime.value;
     });
     return sectionBlocks;
   }
 
   render() {
     const sectionBlocks = this.createSectionBlocks();
-    return <div className="shodan-map"> {sectionBlocks}</div>;
+    return <div className="shodan-map">{sectionBlocks}</div>;
   }
 }
 

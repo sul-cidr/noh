@@ -2380,7 +2380,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                     onStop={[Function]}
                     position={
                       Object {
-                        "x": 0,
+                        "x": -1,
                         "y": 0,
                       }
                     }
@@ -2411,7 +2411,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                       onStop={[Function]}
                       position={
                         Object {
-                          "x": 0,
+                          "x": -1,
                           "y": 0,
                         }
                       }
@@ -2426,7 +2426,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                         style={
                           Object {
                             "touchAction": "none",
-                            "transform": "translate(0px,0px)",
+                            "transform": "translate(-1px,0px)",
                           }
                         }
                         transform={null}

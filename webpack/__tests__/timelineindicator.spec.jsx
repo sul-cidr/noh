@@ -8,6 +8,13 @@ import {
 } from "../components/TimelineIndicator";
 
 describe("<TimelineIndicator>", () => {
+  it("renders as expected with no interval, initial currentTime, and is not playing", () => {
+    const component = shallow(
+      <UnwrappedTimelineIndicator duration={100} currentTime={0} />
+    );
+    expect(component).toMatchSnapshot();
+  });
+
   it("renders as expected with no interval, currentTime, and is not playing", () => {
     const component = shallow(
       <UnwrappedTimelineIndicator duration={100} currentTime={10} />

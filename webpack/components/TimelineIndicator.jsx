@@ -47,9 +47,10 @@ class TimelineIndicator extends Component {
   }
 
   calculateProgress() {
-    const progress = this.state.playedTime / this.calculateMaxTime();
-    const offset = this.container.current.offsetWidth;
-    return Math.min(Math.max(progress * offset, 0), offset);
+    const progressTime = this.state.playedTime / this.calculateMaxTime();
+    const offset = this.container.current.offsetWidth || 1;
+    const progress = Math.ceil(Math.min(Math.max(progressTime * offset, 0), offset));
+    return progress === 0 ? -1 : progress;
   }
 
   tick() {

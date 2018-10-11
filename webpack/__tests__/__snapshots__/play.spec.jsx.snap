@@ -2060,7 +2060,7 @@ exports[`<Play> renders as expected 1`] = `
                         onStop={[Function]}
                         position={
                           Object {
-                            "x": 0,
+                            "x": -1,
                             "y": 0,
                           }
                         }
@@ -2091,7 +2091,7 @@ exports[`<Play> renders as expected 1`] = `
                           onStop={[Function]}
                           position={
                             Object {
-                              "x": 0,
+                              "x": -1,
                               "y": 0,
                             }
                           }
@@ -2106,7 +2106,7 @@ exports[`<Play> renders as expected 1`] = `
                             style={
                               Object {
                                 "touchAction": "none",
-                                "transform": "translate(0px,0px)",
+                                "transform": "translate(-1px,0px)",
                               }
                             }
                             transform={null}
@@ -3349,9 +3349,8 @@ exports[`<Play> renders as expected 1`] = `
                   <div
                     className="shodan-map"
                   >
-                     
                     <Connect(ShodanTimelineBlock)
-                      duration={150}
+                      duration={106}
                       intensity="0"
                       key="Oshirabe"
                       left="0%"
@@ -3361,7 +3360,7 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={150}
+                        duration={106}
                         intensity="0"
                         left="0%"
                         maxIntensity={29}
@@ -3380,7 +3379,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
-                              "width": "4.061738424045491%",
+                              "width": "2.8702951529921474%",
                             }
                           }
                           tabIndex={0}
@@ -3388,19 +3387,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={129}
+                      duration={130}
                       intensity="0"
                       key="Musicians walk in"
-                      left="4.061738424045491%"
+                      left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
                       startTime={106}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={129}
+                        duration={130}
                         intensity="0"
-                        left="4.061738424045491%"
+                        left="2.8702951529921474%"
                         maxIntensity={29}
                         name="Musicians walk in"
                         startTime={106}
@@ -3417,7 +3416,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
-                              "width": "3.4930950446791225%",
+                              "width": "3.5201733008394256%",
                             }
                           }
                           tabIndex={0}
@@ -3425,19 +3424,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={79}
+                      duration={80}
                       intensity="3"
                       key="Nanori"
-                      left="7.554833468724613%"
+                      left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
                       startTime={236}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={79}
+                        duration={80}
                         intensity="3"
-                        left="7.554833468724613%"
+                        left="6.3904684538315735%"
                         maxIntensity={29}
                         name="Nanori"
                         startTime={236}
@@ -3454,7 +3453,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "10.344827586206897%",
-                              "width": "2.139182236663959%",
+                              "width": "2.166260492824262%",
                             }
                           }
                           tabIndex={0}
@@ -3462,19 +3461,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={206}
+                      duration={207}
                       intensity="4"
                       key="Mondō-1"
-                      left="9.694015705388573%"
+                      left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
                       startTime={316}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={206}
+                        duration={207}
                         intensity="4"
-                        left="9.694015705388573%"
+                        left="8.556728946655836%"
                         maxIntensity={29}
                         name="Mondō-1"
                         startTime={316}
@@ -3491,7 +3490,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "13.793103448275861%",
-                              "width": "5.578120769022475%",
+                              "width": "5.605199025182778%",
                             }
                           }
                           tabIndex={0}
@@ -3499,19 +3498,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={122}
+                      duration={123}
                       intensity="17"
                       key="Ageuta-1"
-                      left="15.272136474411049%"
+                      left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
                       startTime={523}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={122}
+                        duration={123}
                         intensity="17"
-                        left="15.272136474411049%"
+                        left="14.161927971838615%"
                         maxIntensity={29}
                         name="Ageuta-1"
                         startTime={523}
@@ -3528,7 +3527,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "58.620689655172406%",
-                              "width": "3.303547251557%",
+                              "width": "3.3306255077173033%",
                             }
                           }
                           tabIndex={0}
@@ -3536,19 +3535,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={33}
+                      duration={34}
                       intensity="4"
                       key="Dialogue"
-                      left="18.575683725968048%"
+                      left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
                       startTime={646}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={33}
+                        duration={34}
                         intensity="4"
-                        left="18.575683725968048%"
+                        left="17.49255347955592%"
                         maxIntensity={29}
                         name="Dialogue"
                         startTime={646}
@@ -3565,7 +3564,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "13.793103448275861%",
-                              "width": "0.8935824532900082%",
+                              "width": "0.9206607094503114%",
                             }
                           }
                           tabIndex={0}
@@ -3573,19 +3572,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={58}
+                      duration={59}
                       intensity="3"
                       key="Monologue"
-                      left="19.469266179258057%"
+                      left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
                       startTime={680}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={58}
+                        duration={59}
                         intensity="3"
-                        left="19.469266179258057%"
+                        left="18.41321418900623%"
                         maxIntensity={29}
                         name="Monologue"
                         startTime={680}
@@ -3602,7 +3601,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "10.344827586206897%",
-                              "width": "1.57053885729759%",
+                              "width": "1.5976171134578931%",
                             }
                           }
                           tabIndex={0}
@@ -3610,19 +3609,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={158}
+                      duration={159}
                       intensity="4"
                       key="Mondō-2"
-                      left="21.039805036555645%"
+                      left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
                       startTime={739}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={158}
+                        duration={159}
                         intensity="4"
-                        left="21.039805036555645%"
+                        left="20.010831302464123%"
                         maxIntensity={29}
                         name="Mondō-2"
                         startTime={739}
@@ -3639,7 +3638,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "13.793103448275861%",
-                              "width": "4.278364473327918%",
+                              "width": "4.305442729488221%",
                             }
                           }
                           tabIndex={0}
@@ -3647,19 +3646,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={115}
+                      duration={116}
                       intensity="17"
                       key="Ageuta-2"
-                      left="25.318169509883564%"
+                      left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
                       startTime={898}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={115}
+                        duration={116}
                         intensity="17"
-                        left="25.318169509883564%"
+                        left="24.316274031952343%"
                         maxIntensity={29}
                         name="Ageuta-2"
                         startTime={898}
@@ -3676,7 +3675,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "58.620689655172406%",
-                              "width": "3.113999458434877%",
+                              "width": "3.14107771459518%",
                             }
                           }
                           tabIndex={0}
@@ -3684,19 +3683,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={60}
+                      duration={61}
                       intensity="14"
                       key="Kuri"
-                      left="28.43216896831844%"
+                      left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
                       startTime={1014}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={60}
+                        duration={61}
                         intensity="14"
-                        left="28.43216896831844%"
+                        left="27.457351746547523%"
                         maxIntensity={29}
                         name="Kuri"
                         startTime={1014}
@@ -3713,7 +3712,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "48.275862068965516%",
-                              "width": "1.6246953696181965%",
+                              "width": "1.6517736257785%",
                             }
                           }
                           tabIndex={0}
@@ -3721,19 +3720,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={117}
+                      duration={118}
                       intensity="11"
                       key="Sashi"
-                      left="30.056864337936638%"
+                      left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
                       startTime={1075}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={117}
+                        duration={118}
                         intensity="11"
-                        left="30.056864337936638%"
+                        left="29.109125372326023%"
                         maxIntensity={29}
                         name="Sashi"
                         startTime={1075}
@@ -3750,7 +3749,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "37.93103448275862%",
-                              "width": "3.168155970755483%",
+                              "width": "3.1952342269157863%",
                             }
                           }
                           tabIndex={0}
@@ -3758,19 +3757,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={553}
+                      duration={554}
                       intensity="18"
                       key="Kuse"
-                      left="33.22502030869212%"
+                      left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
                       startTime={1193}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={553}
+                        duration={554}
                         intensity="18"
-                        left="33.22502030869212%"
+                        left="32.304359599241806%"
                         maxIntensity={29}
                         name="Kuse"
                         startTime={1193}
@@ -3787,7 +3786,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "62.06896551724138%",
-                              "width": "14.974275656647713%",
+                              "width": "15.001353912808016%",
                             }
                           }
                           tabIndex={0}
@@ -3795,19 +3794,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={57}
+                      duration={58}
                       intensity="7"
                       key="Kakeai-1"
-                      left="48.199295965339836%"
+                      left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
                       startTime={1747}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={57}
+                        duration={58}
                         intensity="7"
-                        left="48.199295965339836%"
+                        left="47.30571351204982%"
                         maxIntensity={29}
                         name="Kakeai-1"
                         startTime={1747}
@@ -3824,7 +3823,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "24.137931034482758%",
-                              "width": "1.543460601137287%",
+                              "width": "1.57053885729759%",
                             }
                           }
                           tabIndex={0}
@@ -3832,19 +3831,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={74}
+                      duration={75}
                       intensity="13"
                       key="Ageuta-3"
-                      left="49.74275656647712%"
+                      left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
                       startTime={1805}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={74}
+                        duration={75}
                         intensity="13"
-                        left="49.74275656647712%"
+                        left="48.87625236934741%"
                         maxIntensity={29}
                         name="Ageuta-3"
                         startTime={1805}
@@ -3861,7 +3860,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "44.827586206896555%",
-                              "width": "2.0037909558624425%",
+                              "width": "2.0308692120227456%",
                             }
                           }
                           tabIndex={0}
@@ -3869,19 +3868,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={210}
+                      duration={211}
                       intensity="10"
                       key="Raijo"
-                      left="51.74654752233956%"
+                      left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
                       startTime={1880}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={210}
+                        duration={211}
                         intensity="10"
-                        left="51.74654752233956%"
+                        left="50.907121581370156%"
                         maxIntensity={29}
                         name="Raijo"
                         startTime={1880}
@@ -3898,7 +3897,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "34.48275862068966%",
-                              "width": "5.686433793663688%",
+                              "width": "5.713512049823991%",
                             }
                           }
                           tabIndex={0}
@@ -3906,19 +3905,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={484}
+                      duration={485}
                       intensity="0"
                       key="Aikyōgen"
-                      left="57.43298131600325%"
+                      left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
                       startTime={2091}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={484}
+                        duration={485}
                         intensity="0"
-                        left="57.43298131600325%"
+                        left="56.620633631194146%"
                         maxIntensity={29}
                         name="Aikyōgen"
                         startTime={2091}
@@ -3935,7 +3934,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
-                              "width": "13.105875981586786%",
+                              "width": "13.132954237747088%",
                             }
                           }
                           tabIndex={0}
@@ -3943,19 +3942,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={142}
+                      duration={143}
                       intensity="0"
                       key="Prop is brought in"
-                      left="70.53885729759004%"
+                      left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
                       startTime={2576}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={142}
+                        duration={143}
                         intensity="0"
-                        left="70.53885729759004%"
+                        left="69.75358786894124%"
                         maxIntensity={29}
                         name="Prop is brought in"
                         startTime={2576}
@@ -3972,7 +3971,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
-                              "width": "3.8451123747630653%",
+                              "width": "3.872190630923369%",
                             }
                           }
                           tabIndex={0}
@@ -3980,19 +3979,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={201}
+                      duration={202}
                       intensity="12"
                       key="Notto"
-                      left="74.3839696723531%"
+                      left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
                       startTime={2719}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={201}
+                        duration={202}
                         intensity="12"
-                        left="74.3839696723531%"
+                        left="73.62577849986461%"
                         maxIntensity={29}
                         name="Notto"
                         startTime={2719}
@@ -4009,7 +4008,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "41.37931034482759%",
-                              "width": "5.442729488220959%",
+                              "width": "5.469807744381262%",
                             }
                           }
                           tabIndex={0}
@@ -4017,19 +4016,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={145}
+                      duration={146}
                       intensity="14"
                       key="Noriji-1"
-                      left="79.82669916057407%"
+                      left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
                       startTime={2921}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={145}
+                        duration={146}
                         intensity="14"
-                        left="79.82669916057407%"
+                        left="79.09558624424587%"
                         maxIntensity={29}
                         name="Noriji-1"
                         startTime={2921}
@@ -4046,7 +4045,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "48.275862068965516%",
-                              "width": "3.926347143243975%",
+                              "width": "3.9534253994042783%",
                             }
                           }
                           tabIndex={0}
@@ -4054,19 +4053,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={83}
+                      duration={84}
                       intensity="21"
                       key="Hayafue"
-                      left="83.75304630381804%"
+                      left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
                       startTime={3067}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={83}
+                        duration={84}
                         intensity="21"
-                        left="83.75304630381804%"
+                        left="83.04901164365015%"
                         maxIntensity={29}
                         name="Hayafue"
                         startTime={3067}
@@ -4083,7 +4082,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "72.41379310344827%",
-                              "width": "2.247495261305172%",
+                              "width": "2.274573517465475%",
                             }
                           }
                           tabIndex={0}
@@ -4091,19 +4090,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={46}
+                      duration={47}
                       intensity="27"
                       key="Noriji-2"
-                      left="86.00054156512321%"
+                      left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
                       startTime={3151}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={46}
+                        duration={47}
                         intensity="27"
-                        left="86.00054156512321%"
+                        left="85.32358516111562%"
                         maxIntensity={29}
                         name="Noriji-2"
                         startTime={3151}
@@ -4120,7 +4119,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "93.10344827586206%",
-                              "width": "1.2455997833739507%",
+                              "width": "1.272678039534254%",
                             }
                           }
                           tabIndex={0}
@@ -4128,19 +4127,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={56}
+                      duration={57}
                       intensity="29"
                       key="Maibataraki"
-                      left="87.24614134849716%"
+                      left="86.59626320064987%"
                       maxIntensity={29}
                       name="Maibataraki"
                       startTime={3198}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={56}
+                        duration={57}
                         intensity="29"
-                        left="87.24614134849716%"
+                        left="86.59626320064987%"
                         maxIntensity={29}
                         name="Maibataraki"
                         startTime={3198}
@@ -4157,7 +4156,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "100%",
-                              "width": "1.5163823449769833%",
+                              "width": "1.543460601137287%",
                             }
                           }
                           tabIndex={0}
@@ -4165,19 +4164,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={114}
+                      duration={115}
                       intensity="24"
                       key="Noriji-3"
-                      left="88.76252369347415%"
+                      left="88.13972380178716%"
                       maxIntensity={29}
                       name="Noriji-3"
                       startTime={3255}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={114}
+                        duration={115}
                         intensity="24"
-                        left="88.76252369347415%"
+                        left="88.13972380178716%"
                         maxIntensity={29}
                         name="Noriji-3"
                         startTime={3255}
@@ -4194,7 +4193,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "82.75862068965517%",
-                              "width": "3.086921202274574%",
+                              "width": "3.113999458434877%",
                             }
                           }
                           tabIndex={0}
@@ -4202,19 +4201,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={29}
+                      duration={30}
                       intensity="9"
                       key="Kakeai-2"
-                      left="91.84944489574872%"
+                      left="91.25372326022203%"
                       maxIntensity={29}
                       name="Kakeai-2"
                       startTime={3370}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={29}
+                        duration={30}
                         intensity="9"
-                        left="91.84944489574872%"
+                        left="91.25372326022203%"
                         maxIntensity={29}
                         name="Kakeai-2"
                         startTime={3370}
@@ -4231,7 +4230,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "31.03448275862069%",
-                              "width": "0.785269428648795%",
+                              "width": "0.8123476848090982%",
                             }
                           }
                           tabIndex={0}
@@ -4239,19 +4238,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={135}
+                      duration={136}
                       intensity="28"
                       key="Kiri"
-                      left="92.6347143243975%"
+                      left="92.06607094503113%"
                       maxIntensity={29}
                       name="Kiri"
                       startTime={3400}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={135}
+                        duration={136}
                         intensity="28"
-                        left="92.6347143243975%"
+                        left="92.06607094503113%"
                         maxIntensity={29}
                         name="Kiri"
                         startTime={3400}
@@ -4268,7 +4267,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "96.55172413793103%",
-                              "width": "3.6555645816409426%",
+                              "width": "3.6826428378012457%",
                             }
                           }
                           tabIndex={0}
@@ -4276,19 +4275,19 @@ exports[`<Play> renders as expected 1`] = `
                       </ShodanTimelineBlock>
                     </Connect(ShodanTimelineBlock)>
                     <Connect(ShodanTimelineBlock)
-                      duration={156}
+                      duration={157}
                       intensity="0"
                       key="Musicians are exiting the stage"
-                      left="96.29027890603845%"
+                      left="95.74871378283237%"
                       maxIntensity={29}
                       name="Musicians are exiting the stage"
                       startTime={3536}
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
-                        duration={156}
+                        duration={157}
                         intensity="0"
-                        left="96.29027890603845%"
+                        left="95.74871378283237%"
                         maxIntensity={29}
                         name="Musicians are exiting the stage"
                         startTime={3536}
@@ -4305,7 +4304,7 @@ exports[`<Play> renders as expected 1`] = `
                           style={
                             Object {
                               "height": "0%",
-                              "width": "4.224207961007311%",
+                              "width": "4.251286217167614%",
                             }
                           }
                           tabIndex={0}
