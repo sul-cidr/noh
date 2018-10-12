@@ -147,3 +147,40 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
   </Draggable>
 </div>
 `;
+
+exports[`<TimelineIndicator> renders as expected with no interval, initial currentTime, and is not playing 1`] = `
+<div
+  className="time-indicator-container"
+>
+  <Draggable
+    allowAnyClick={false}
+    axis="x"
+    bounds="parent"
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle=".time-indicator"
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    transform={null}
+  >
+    <div
+      className="time-indicator"
+    />
+  </Draggable>
+</div>
+`;
