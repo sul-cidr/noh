@@ -122,10 +122,17 @@ class Score extends Component {
   createMeasure(phrase) {
     let measure;
     if (!phrase) {
+      const toggledCount = [
+        this.state.toggles.isBeatOn,
+        this.state.toggles.isTextOn,
+        this.state.toggles.isPercussionOn,
+        this.state.toggles.isNohkanOn,
+        this.state.toggles.isDanceOn
+      ].filter(Boolean).length;
       measure = (
         <div className="measure__grid-container">
-          <div className="measure__channel measure__channel--1">
-            <p>No score in this sentence</p>
+          <div className={`measure__channel measure__channel--${toggledCount}`}>
+            <p className="measure__channel-empty">No score in this sentence</p>
           </div>
         </div>
       );
