@@ -124,8 +124,8 @@ class Score extends Component {
     if (!phrase) {
       measure = (
         <div className="measure__grid-container">
-          <div className="score score-no-phrases">
-            No score in this sentence
+          <div className="measure__channel measure__channel--1">
+            <p>No score in this sentence</p>
           </div>
         </div>
       );
