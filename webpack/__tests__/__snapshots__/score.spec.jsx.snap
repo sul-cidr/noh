@@ -25,9 +25,13 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         className="measure__grid-container"
       >
         <div
-          className="score score-no-phrases"
+          className="measure__channel measure__channel--5"
         >
-          No score in this sentence
+          <p
+            className="measure__channel-empty"
+          >
+            No score in this sentence
+          </p>
         </div>
       </div>
     </div>
@@ -533,9 +537,13 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         className="measure__grid-container"
       >
         <div
-          className="score score-no-phrases"
+          className="measure__channel measure__channel--5"
         >
-          No score in this sentence
+          <p
+            className="measure__channel-empty"
+          >
+            No score in this sentence
+          </p>
         </div>
       </div>
     </div>
@@ -1101,9 +1109,13 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         className="measure__grid-container"
       >
         <div
-          className="score score-no-phrases"
+          className="measure__channel measure__channel--5"
         >
-          No score in this sentence
+          <p
+            className="measure__channel-empty"
+          >
+            No score in this sentence
+          </p>
         </div>
       </div>
     </div>
