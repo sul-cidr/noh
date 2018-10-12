@@ -69,9 +69,9 @@ function attachFilters() {
           var show = pills.filter(value => checked.indexOf(value) !== -1)
             .length;
           if (checked.length === 0) {
-            elem.style.display = "block";
+            elem.style.display = "inherit";
           } else {
-            elem.style.display = show > 0 ? "block" : "none";
+            elem.style.display = show > 0 ? "inherit" : "none";
           }
         });
       },
