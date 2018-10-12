@@ -58,6 +58,25 @@ export function fillGrid(grid, gridLength) {
   return fullData;
 }
 
+export function createBeatsArray(grid) {
+  const beatsArray = [];
+  for (let i = 0; i < grid.length; i += 1) {
+    beatsArray[grid[i].start] = grid[i].text;
+  }
+  return [...Array(beatsArray.length).keys()].map(i => beatsArray[i] || "");
+}
+
+export function determineCurrentPhrase(currentTime, phrases) {
+  return currentTime > 0
+    ? phrases.length -
+        (phrases
+          .filter(Boolean)
+          .reverse()
+          .findIndex(phrase => currentTime >= phrase.startTime.value) +
+          1)
+    : 0;
+}
+
 // Returns Redux Dev Tools Extension
 export function reduxDevTools() {
   return (
