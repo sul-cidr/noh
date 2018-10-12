@@ -16,6 +16,13 @@
   }
 }
 
+@mixin empty-channels($n) {
+  .measure__channel--#{$n} {
+    height: $score-channel-height * $n;
+    justify-content: center;
+  }
+}
+
 @for $i from 1 through $score-grid-columns {
   @include grid-column($i);
 }
@@ -29,8 +36,8 @@
 }
 
 .score-no-phrases {
-  background-color: $grey-lighter;
-  color: $grey-dark;
+  background-color: $beige-light;
+  color: $brown;
   font-style: italic;
   min-height: $timeline-empty-score-height;
   
@@ -45,6 +52,16 @@
   height: $score-channel-height;
   
   @include flex-container($justify:flex-start);
+}
+
+@for $i from 0 through 5 {
+  @include empty-channels($i);
+}
+
+.measure__channel-empty {
+  color: $brown64;
+  font-size: $fs-text-sm;
+  font-style: italic;
 }
 
 .measure__channel--large {

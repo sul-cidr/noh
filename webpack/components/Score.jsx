@@ -1,31 +1,16 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import MeasureLabelContainer from "./MeasureLabelContainer";
+
 import CellBeat from "./CellBeat";
 import CellPercussion from "./CellPercussion";
-import NohkanLine from "./NohkanLine";
 import DanceLine from "./DanceLine";
+import MeasureLabelContainer from "./MeasureLabelContainer";
+import NohkanLine from "./NohkanLine";
 import PercussionLine from "./PercussionLine";
 import ScoreTextLine from "./ScoreTextLine";
 
-function createBeatsArray(grid) {
-  const beatsArray = [];
-  for (let i = 0; i < grid.length; i += 1) {
-    beatsArray[grid[i].start] = grid[i].text;
-  }
-  return [...Array(beatsArray.length).keys()].map(i => beatsArray[i] || "");
-}
-
-export const determineCurrentPhrase = props =>
-  props.currentTime > 0
-    ? props.phrases.length -
-      (props.phrases
-        .filter(Boolean)
-        .reverse()
-        .findIndex(phrase => props.currentTime >= phrase.startTime.value) +
-        1)
-    : 0;
+import { createBeatsArray, determineCurrentPhrase } from "../utils";
 
 class Score extends Component {
   constructor(props) {
@@ -36,22 +21,26 @@ class Score extends Component {
       nextPhrase: this.props.phrases[1],
       toggles: this.props.toggles
     };
+    this.createMeasure = this.createMeasure.bind(this);
+    this.createMeasures = this.createMeasures.bind(this);
+    this.createPhrase = this.createPhrase.bind(this);
   }
 
   componentWillReceiveProps(props) {
-    const currentPhraseId = determineCurrentPhrase(props);
-    const previousPhraseId = Math.max(currentPhraseId - 1, 0);
-    const nextPhraseId = Math.min(currentPhraseId + 1, props.phrases.length);
+    const currentPhraseId = determineCurrentPhrase(
+      props.currentTime,
+      props.phrases
+    );
     this.setState({
-      previousPhrase: props.phrases[previousPhraseId],
+      previousPhrase: props.phrases[currentPhraseId - 1],
       currentPhrase: props.phrases[currentPhraseId],
-      nextPhrase: props.phrases[nextPhraseId],
+      nextPhrase: props.phrases[currentPhraseId + 1],
       toggles: props.toggles
     });
   }
 
-  createPhrase(phrase, position) {
-    const beatNums = phrase ? createBeatsArray(phrase.beat.grid) : [];
+  createMeasures(phrase) {
+    const beatNums = createBeatsArray(phrase.beat.grid);
     const [lastBeat] = beatNums.slice(-1);
     let beats;
     if (lastBeat && lastBeat.toLowerCase() === "unmetered") {
@@ -64,70 +53,100 @@ class Score extends Component {
       ));
     }
     let percussion = <CellPercussion text="" length={beatNums.length} />;
-    if (phrase && phrase.percussion) {
-      if (phrase.percussion.grid.length) {
-        percussion = (
-          <PercussionLine
-            grid={phrase.percussion.grid}
-            length={beatNums.length}
-          />
-        );
-      } else if (phrase.percussion.value) {
-        percussion = (
-          <CellPercussion
-            text={phrase.percussion.value}
-            length={beatNums.length}
-          />
-        );
-      }
+    if (phrase.percussion.grid.length) {
+      percussion = (
+        <PercussionLine
+          grid={phrase.percussion.grid}
+          length={beatNums.length}
+        />
+      );
+    } else if (phrase.percussion.value) {
+      percussion = (
+        <CellPercussion
+          text={phrase.percussion.value}
+          length={beatNums.length}
+        />
+      );
     }
     const measureBeats = this.state.toggles.isBeatOn ? (
-      <div className="measure__channel">{beats}</div>
+      <div className="measure__channel" key="measure-beats">
+        {beats}
+      </div>
     ) : (
       ""
     );
-    let measureTextGrid = [];
-    if (phrase) {
-      measureTextGrid = phrase.text.grid.length
-        ? phrase.text.grid
-        : phrase.syllableText.grid;
-    }
+    const measureTextGrid = phrase.text.grid.length
+      ? phrase.text.grid
+      : phrase.syllableText.grid;
     const measureText = this.state.toggles.isTextOn ? (
-      <div className="measure__channel">
+      <div className="measure__channel" key="measure-text">
         <ScoreTextLine
           textGrid={measureTextGrid}
           length={beatNums.length}
-          rangeGrid={phrase ? phrase.vocalRange.grid : []}
+          rangeGrid={phrase.vocalRange.grid}
         />
       </div>
     ) : (
       ""
     );
     const measurePercussion = this.state.toggles.isPercussionOn ? (
-      <div className="measure__channel">{percussion}</div>
+      <div className="measure__channel" key="measure-percussion">
+        {percussion}
+      </div>
     ) : (
       ""
     );
     const measureNohkan = this.state.toggles.isNohkanOn ? (
-      <div className="measure__channel">
-        <NohkanLine
-          grid={phrase ? phrase.nohkan.grid : []}
-          length={beatNums.length}
-        />
+      <div className="measure__channel" key="measure-nohkan">
+        <NohkanLine grid={phrase.nohkan.grid} length={beatNums.length} />
       </div>
     ) : (
       ""
     );
     const measureDance = this.state.toggles.isDanceOn ? (
-      <div className="measure__channel">
-        <DanceLine
-          grid={phrase ? phrase.dance.grid : []}
-          length={beatNums.length}
-        />
+      <div className="measure__channel" key="measure-dance">
+        <DanceLine grid={phrase.dance.grid} length={beatNums.length} />
       </div>
     ) : (
       ""
     );
+    return [
+      measureBeats,
+      measureText,
+      measurePercussion,
+      measureNohkan,
+      measureDance
+    ];
+  }
+
+  createMeasure(phrase) {
+    let measure;
+    if (!phrase) {
+      const toggledCount = [
+        this.state.toggles.isBeatOn,
+        this.state.toggles.isTextOn,
+        this.state.toggles.isPercussionOn,
+        this.state.toggles.isNohkanOn,
+        this.state.toggles.isDanceOn
+      ].filter(Boolean).length;
+      measure = (
+        <div className="measure__grid-container">
+          <div className={`measure__channel measure__channel--${toggledCount}`}>
+            <p className="measure__channel-empty">No score in this sentence</p>
+          </div>
+        </div>
+      );
+    } else {
+      measure = (
+        <div className="measure__grid-container">
+          {this.createMeasures(phrase)}
+        </div>
+      );
+    }
+    return measure;
+  }
+
+  createPhrase(phrase, position) {
     return (
       <div className={`measure measure--${position}`}>
         <MeasureLabelContainer
@@ -135,35 +154,25 @@ class Score extends Component {
           {...this.state.toggles}
         />
         <div className="measure__grid-container">
-          {measureBeats}
-          {measureText}
-          {measurePercussion}
-          {measureNohkan}
-          {measureDance}
+          {this.createMeasure(phrase)}
         </div>
       </div>
     );
   }
 
   render() {
-    let previous = "";
-    if (
-      this.state.previousPhrase !== this.state.currentPhrase &&
-      this.state.toggles.isPrevSentenceOn
-    ) {
-      previous = this.createPhrase(this.state.previousPhrase, "previous");
-    }
-    const current = this.createPhrase(this.state.currentPhrase);
-    let next = "";
-    if (
-      this.state.nextPhrase !== this.state.currentPhrase &&
-      this.state.toggles.isNextSentenceOn
-    ) {
-      next = this.createPhrase(this.state.nextPhrase, "next");
-    }
+    const previous = this.state.toggles.isPrevSentenceOn
+      ? this.createPhrase(this.state.previousPhrase, "previous")
+      : "";
+    const current = this.createPhrase(this.state.currentPhrase, "current");
+    const next = this.state.toggles.isNextSentenceOn
+      ? this.createPhrase(this.state.nextPhrase, "next")
+      : "";
     return (
       <div className="score">
-        {previous} {current} {next}
+        {previous}
+        {current}
+        {next}
       </div>
     );
   }
