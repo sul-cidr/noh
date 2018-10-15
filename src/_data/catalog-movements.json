@@ -39,7 +39,7 @@
         ],
         [
           "Combinations",
-          "Other"
+          "Other Comb."
         ]
       ]
     },
@@ -51,7 +51,7 @@
         ],
         [
           "Body",
-          "Other"
+          "Other Body"
         ],
         [
           "Body",
@@ -66,7 +66,7 @@
         ],
         [
           "Mimetic",
-          "Other"
+          "Other Mimetic"
         ],
         [
           "Mimetic",
@@ -406,7 +406,7 @@
       "pills": [
         [
           "Combinations",
-          "Other"
+          "Other Comb."
         ]
       ]
     },
@@ -416,7 +416,7 @@
       "pills": [
         [
           "Combinations",
-          "Other"
+          "Other Comb."
         ]
       ]
     },
@@ -426,7 +426,7 @@
       "pills": [
         [
           "Combinations",
-          "Other"
+          "Other Comb."
         ]
       ]
     },
@@ -436,7 +436,7 @@
       "pills": [
         [
           "Combinations",
-          "Other"
+          "Other Comb."
         ]
       ]
     },
@@ -446,7 +446,7 @@
       "pills": [
         [
           "Combinations",
-          "Other"
+          "Other Comb."
         ]
       ]
     },
@@ -528,7 +528,7 @@
       "pills": [
         [
           "Body",
-          "Other"
+          "Other Body"
         ]
       ]
     },
@@ -538,7 +538,7 @@
       "pills": [
         [
           "Body",
-          "Other"
+          "Other Body"
         ]
       ]
     },
@@ -548,7 +548,7 @@
       "pills": [
         [
           "Body",
-          "Other"
+          "Other Body"
         ]
       ]
     },
@@ -621,12 +621,21 @@
       ]
     },
     {
+      "slug": "wig",
+      "name": "Wig",
+      "pills": [
+        [
+          "Head"
+        ]
+      ]
+    },
+    {
       "slug": "bowing",
       "name": "Bowing",
       "pills": [
         [
           "Mimetic",
-          "Other"
+          "Other Mimetic"
         ]
       ]
     },
