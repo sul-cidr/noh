@@ -1,23 +1,26 @@
 /* eslint-disable jsx-a11y/media-has-caption */
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { setCurrentTime, setIsPlaying } from "../actionCreators";
+import React, { Component } from "react"
+import PropTypes from "prop-types"
+import { connect } from "react-redux"
+import { setCurrentTime, setIsPlaying } from "../actionCreators"
 
 class MasterVideo extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
-    this.video = null;
+    this.video = null
   }
 
   componentDidMount() {
-    this.forceUpdate();
+    this.forceUpdate()
   }
 
   componentDidUpdate() {
-    if (this.video.currentTime !== this.props.currentTime) {
-      this.video.currentTime = this.props.currentTime;
+    if (
+      this.props.currentTimeOrigin !== MasterVideo.name &&
+      this.video.currentTime !== this.props.currentTime
+    ) {
+      this.video.currentTime = this.props.currentTime
     }
   }
 
@@ -30,17 +33,17 @@ class MasterVideo extends Component {
         srcLang={track.lang}
         src={track.url}
       />
-    ));
+    ))
   }
 
   render() {
-    const tracks = this.createTracks();
+    const tracks = this.createTracks()
     return (
       <div>
         <video
           id="player"
           ref={video => {
-            this.video = video;
+            this.video = video
           }}
           controls
           controlsList="nodownload"
@@ -57,12 +60,13 @@ class MasterVideo extends Component {
           {tracks}
         </video>
       </div>
-    );
+    )
   }
 }
 
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
+  currentTimeOrigin: PropTypes.string,
   videoUrl: PropTypes.string,
   updateCurrentTime: PropTypes.func,
   updateIsPlaying: PropTypes.func,
@@ -74,32 +78,39 @@ MasterVideo.propTypes = {
       url: PropTypes.string
     })
   )
-};
+}
 
 MasterVideo.defaultProps = {
   currentTime: 0,
+  currentTimeOrigin: "",
   videoUrl: "",
   updateCurrentTime: () => {},
   updateIsPlaying: () => {},
   tracks: []
-};
+}
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime,
+  currentTime: state.currentTime.time,
+  currentTimeOrigin: state.currentTime.origin,
   isPlaying: state.isPlaying
-});
+})
 
 export const mapDispatchToProps = dispatch => ({
   updateCurrentTime: event => {
-    dispatch(setCurrentTime(event.target.currentTime));
+    dispatch(
+      setCurrentTime({
+        time: event.target.currentTime,
+        origin: MasterVideo.name
+      })
+    )
   },
   updateIsPlaying: isPlaying => {
-    dispatch(setIsPlaying(isPlaying));
+    dispatch(setIsPlaying(isPlaying))
   }
-});
+})
 
-export const Unwrapped = MasterVideo;
+export const Unwrapped = MasterVideo
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(MasterVideo);
+)(MasterVideo)

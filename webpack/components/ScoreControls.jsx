@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { setCurrentTime, setScoreToggles } from "../actionCreators";
-import TimelineIndicator from "./TimelineIndicator";
-import { convertSecondsToHhmmss } from "../utils";
+import React, { Component } from "react"
+import PropTypes from "prop-types"
+import { connect } from "react-redux"
+import { setCurrentTime, setScoreToggles } from "../actionCreators"
+import TimelineIndicator from "./TimelineIndicator"
+import { convertSecondsToHhmmss } from "../utils"
 
 export const determineCurrentPhrase = (currentTime, phrases) =>
   currentTime > 0
@@ -13,11 +13,11 @@ export const determineCurrentPhrase = (currentTime, phrases) =>
         .reverse()
         .findIndex(phrase => currentTime >= phrase.startTime.value) +
         1)
-    : 0;
+    : 0
 
 class ScoreControls extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     const {
       isBeatOn,
       isTextOn,
@@ -26,7 +26,7 @@ class ScoreControls extends Component {
       isDanceOn,
       isPrevSentenceOn,
       isNextSentenceOn
-    } = this.props;
+    } = this.props
     this.state = {
       isBeatOn,
       isTextOn,
@@ -35,41 +35,41 @@ class ScoreControls extends Component {
       isDanceOn,
       isPrevSentenceOn,
       isNextSentenceOn
-    };
-    this.filtersPopup = null;
-    this.handleToggle = this.handleToggle.bind(this);
+    }
+    this.filtersPopup = null
+    this.handleToggle = this.handleToggle.bind(this)
   }
 
   componentDidMount() {
-    this.props.updateScoreToggles(this.props);
+    this.props.updateScoreToggles(this.props)
   }
 
   componentDidUpdate() {
-    this.props.updateScoreToggles(this.state);
+    this.props.updateScoreToggles(this.state)
   }
 
   handleToggle(event, toggleName) {
     this.setState({
       [toggleName]: event.target.checked
-    });
+    })
   }
 
   render() {
     const currentPhraseIndex = determineCurrentPhrase(
       this.props.currentTime,
       this.props.phrases
-    );
+    )
     const nextPhraseIndex = Math.min(
       currentPhraseIndex + 1,
       this.props.phrases.length - 1
-    );
-    const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
+    )
+    const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0)
     const remainingTime = convertSecondsToHhmmss(
       this.props.startTime + this.props.duration - this.props.currentTime
-    ).substr(3);
+    ).substr(3)
     const elapsedTime = convertSecondsToHhmmss(
       this.props.currentTime - this.props.startTime
-    ).substr(3);
+    ).substr(3)
     return (
       <div className="score-controls">
         <div className="sentence-control">
@@ -120,7 +120,7 @@ class ScoreControls extends Component {
           <div
             className="score-controls__filters-popup hidden"
             ref={filtersPopup => {
-              this.filtersPopup = filtersPopup;
+              this.filtersPopup = filtersPopup
             }}
           >
             <ul className="channel-toggles">
@@ -238,7 +238,7 @@ class ScoreControls extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
@@ -262,7 +262,7 @@ ScoreControls.propTypes = {
     })
   ).isRequired,
   updateStartTime: PropTypes.func.isRequired
-};
+}
 
 ScoreControls.defaultProps = {
   isBeatOn: true,
@@ -274,19 +274,20 @@ ScoreControls.defaultProps = {
   isNextSentenceOn: true,
   updateScoreToggles: () => {},
   startTime: 0
-};
+}
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime
-});
+  currentTime: state.currentTime.time
+})
 
 const mapDispatchToProps = dispatch => ({
   updateScoreToggles: toggles => dispatch(setScoreToggles(toggles)),
-  updateStartTime: time => dispatch(setCurrentTime(time))
-});
+  updateStartTime: time =>
+    dispatch(setCurrentTime({ time, origin: ScoreControls.name }))
+})
 
-export const Unwrapped = ScoreControls;
+export const Unwrapped = ScoreControls
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(ScoreControls);
+)(ScoreControls)

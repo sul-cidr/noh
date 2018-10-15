@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import IntermediaTitle from "./IntermediaTitle";
-import IntermediaElement from "./IntermediaElement";
+import React, { Component } from "react"
+import { connect } from "react-redux"
+import PropTypes from "prop-types"
+import IntermediaTitle from "./IntermediaTitle"
+import IntermediaElement from "./IntermediaElement"
 
 class IntermediaTable extends Component {
   findCurrentSectionIndex() {
@@ -11,15 +11,15 @@ class IntermediaTable extends Component {
       section =>
         this.props.currentTime >= (section.startTime.value || 0) &&
         this.props.currentTime < section.endTime.value
-    );
+    )
     // findIndex returns -1 if it finds nothing, just return 0 in that case
-    return Math.max(currentSectionIndex, 0);
+    return Math.max(currentSectionIndex, 0)
   }
 
   render() {
     // due to lack of data for start and end time, not always finding current section
-    const sectionIndex = this.findCurrentSectionIndex();
-    const section = this.props.sections[sectionIndex];
+    const sectionIndex = this.findCurrentSectionIndex()
+    const section = this.props.sections[sectionIndex]
     return (
       <div className="intermedia-table">
         <IntermediaTitle
@@ -52,7 +52,7 @@ class IntermediaTable extends Component {
           fieldValue={section.dancePresent.value}
         />
       </div>
-    );
+    )
   }
 }
 
@@ -86,9 +86,9 @@ IntermediaTable.propTypes = {
       narrative: PropTypes.shape({ value: PropTypes.string })
     })
   ).isRequired
-};
+}
 
-const mapStateToProps = state => ({ currentTime: state.currentTime });
+const mapStateToProps = state => ({ currentTime: state.currentTime.time })
 
-export const Unwrapped = IntermediaTable;
-export default connect(mapStateToProps)(IntermediaTable);
+export const Unwrapped = IntermediaTable
+export default connect(mapStateToProps)(IntermediaTable)
