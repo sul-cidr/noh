@@ -22,6 +22,18 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
     >
       section one with many words in title
     </Tab>
+    <Tab
+      className="react-tabs__tab"
+      disabledClassName="react-tabs__tab--disabled"
+      focus={false}
+      id={null}
+      key="section two"
+      panelId={null}
+      selected={false}
+      selectedClassName="react-tabs__tab--selected"
+    >
+      section two
+    </Tab>
   </TabList>
   <TabPanel
     className="react-tabs__tab-panel"
@@ -30,7 +42,24 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
     selectedClassName="react-tabs__tab-panel--selected"
   >
     <Markup
-      content="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br><div title='section two'><p>Different stuff</p></div>"
+      content="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div>"
+      disableLineBreaks={false}
+      disableWhitelist={false}
+      emptyContent={null}
+      noHtml={false}
+      noHtmlExceptMatchers={false}
+      parsedContent={null}
+      tagName="span"
+    />
+  </TabPanel>
+  <TabPanel
+    className="react-tabs__tab-panel"
+    forceRender={false}
+    key="1"
+    selectedClassName="react-tabs__tab-panel--selected"
+  >
+    <Markup
+      content="<div title='section two'><p>Different stuff</p></div>"
       disableLineBreaks={false}
       disableWhitelist={false}
       emptyContent={null}

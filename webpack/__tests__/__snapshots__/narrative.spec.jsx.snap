@@ -8,7 +8,7 @@ exports[`<UnwrappedNarrative> renders as expected with tabs 1`] = `
   role="presentation"
 >
   <TabbedNarrative
-    narrative="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br><div title='section two'><p>Different stuff</p></div>"
+    narrative="<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br /><div title='section two'><p>Different stuff</p></div>"
   />
 </div>
 `;

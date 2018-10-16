@@ -7,7 +7,7 @@ import Narrative, {
 } from "../components/Narrative";
 
 const tabbedAnalysis =
-  "<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br><div title='section two'><p>Different stuff</p></div>";
+  "<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br /><div title='section two'><p>Different stuff</p></div>";
 
 const nonTabbedAnalysis =
   "Lorem ipsum dolor sit <time datetime='00:00:50'>amet</time>, <a datetime='00:00:50'>consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <h2 class='collapsible'>Header 2</h2>Ut enim ad minim veniam.<h2 class='collapsible collapsible-closed'>Header 3</h2>Et al.";
