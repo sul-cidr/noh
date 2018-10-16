@@ -1,9 +1,9 @@
-import React from "react"
-import { shallow } from "enzyme"
-import configureMockStore from "redux-mock-store"
+import React from "react";
+import { shallow } from "enzyme";
+import configureMockStore from "redux-mock-store";
 import IntermediaTable, {
   Unwrapped as UnwrappedIntermediaTable
-} from "../components/IntermediaTable"
+} from "../components/IntermediaTable";
 
 const sections = [
   {
@@ -38,7 +38,7 @@ const sections = [
     nokhanPresent: { value: "Non Congruent" },
     dancePresent: { value: "Dance to text" }
   }
-]
+];
 
 describe("<UnwrappedIntermediaTable>", () => {
   it("renders as expected", () => {
@@ -48,9 +48,9 @@ describe("<UnwrappedIntermediaTable>", () => {
         sections={sections}
         currentTime={10}
       />
-    )
-    expect(component).toMatchSnapshot()
-  })
+    );
+    expect(component).toMatchSnapshot();
+  });
   it("correctly determines current section", () => {
     const component = shallow(
       <UnwrappedIntermediaTable
@@ -58,10 +58,10 @@ describe("<UnwrappedIntermediaTable>", () => {
         sections={sections}
         currentTime={200}
       />
-    )
-    const currentSectionIndex = component.instance().findCurrentSectionIndex()
-    expect(currentSectionIndex).toBe(1)
-  })
+    );
+    const currentSectionIndex = component.instance().findCurrentSectionIndex();
+    expect(currentSectionIndex).toBe(1);
+  });
   it("handles failing to find a section correctly", () => {
     const component = shallow(
       <UnwrappedIntermediaTable
@@ -69,21 +69,21 @@ describe("<UnwrappedIntermediaTable>", () => {
         sections={sections}
         currentTime={5000}
       />
-    )
-    const currentSectionIndex = component.instance().findCurrentSectionIndex()
-    expect(currentSectionIndex).toBe(0)
-  })
-})
+    );
+    const currentSectionIndex = component.instance().findCurrentSectionIndex();
+    expect(currentSectionIndex).toBe(0);
+  });
+});
 
 describe("<InterMediaTable>", () => {
   it("renders as expected while connected", () => {
-    const initialState = { currentTime: { time: 10, origin: "" } }
-    const mockStore = configureMockStore()
-    const store = mockStore(initialState)
+    const initialState = { currentTime: { time: 10, origin: "" } };
+    const mockStore = configureMockStore();
+    const store = mockStore(initialState);
     const wrapper = shallow(
       <IntermediaTable play="hashitomi" sections={sections} />,
       { context: { store } }
-    )
-    expect(wrapper).toMatchSnapshot()
-  })
-})
+    );
+    expect(wrapper).toMatchSnapshot();
+  });
+});

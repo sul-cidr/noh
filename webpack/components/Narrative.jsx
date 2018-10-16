@@ -1,49 +1,49 @@
-import React, { Component } from "react"
-import PropTypes from "prop-types"
-import { connect } from "react-redux"
-import TabbedNarrative from "./TabbedNarrative"
-import NonTabbedNarrative from "./NonTabbedNarrative"
-import { setCurrentTime } from "../actionCreators"
-import { getTime } from "../utils"
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import TabbedNarrative from "./TabbedNarrative";
+import NonTabbedNarrative from "./NonTabbedNarrative";
+import { setCurrentTime } from "../actionCreators";
+import { getTime } from "../utils";
 
 class Narrative extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       narrative: props.narrative,
       tabbed: this.checkIfTabbed()
-    }
+    };
 
-    this.narrativeOnClick = this.narrativeOnClick.bind(this)
+    this.narrativeOnClick = this.narrativeOnClick.bind(this);
   }
 
   componentWillMount() {
-    this.checkIfTabbed(this.state.narrative, this.state.tabIndicator)
+    this.checkIfTabbed(this.state.narrative, this.state.tabIndicator);
   }
 
   checkIfTabbed() {
-    const re = /tabbed-narrative/
+    const re = /tabbed-narrative/;
     if (re.exec(this.props.narrative) != null) {
-      return true
+      return true;
     }
-    return false
+    return false;
   }
 
   narrativeOnClick(event) {
     if (event.target.tagName === "TIME") {
-      this.props.updateStartTime(getTime(event.target))
+      this.props.updateStartTime(getTime(event.target));
     } else if (["H1", "H2", "H3", "H4", "H5"].includes(event.target.tagName)) {
-      event.target.classList.toggle("collapsible-closed")
+      event.target.classList.toggle("collapsible-closed");
     }
   }
 
   render() {
-    let narrative = null
+    let narrative = null;
     if (this.state.tabbed) {
-      narrative = <TabbedNarrative narrative={this.state.narrative} />
+      narrative = <TabbedNarrative narrative={this.state.narrative} />;
     } else {
-      narrative = <NonTabbedNarrative narrative={this.state.narrative} />
+      narrative = <NonTabbedNarrative narrative={this.state.narrative} />;
     }
     return (
       <div
@@ -54,27 +54,27 @@ class Narrative extends Component {
       >
         {narrative}
       </div>
-    )
+    );
   }
 }
 
 Narrative.propTypes = {
   narrative: PropTypes.string,
   updateStartTime: PropTypes.func
-}
+};
 
 Narrative.defaultProps = {
   narrative: "",
   updateStartTime: null
-}
+};
 
 const mapDispatchToProps = dispatch => ({
   updateStartTime: time =>
     dispatch(setCurrentTime({ time, origin: Narrative.name }))
-})
+});
 
-export const Unwrapped = Narrative
+export const Unwrapped = Narrative;
 export default connect(
   null,
   mapDispatchToProps
-)(Narrative)
+)(Narrative);

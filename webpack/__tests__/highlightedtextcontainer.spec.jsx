@@ -1,9 +1,9 @@
-import React from "react"
-import { shallow, mount } from "enzyme"
-import configureMockStore from "redux-mock-store"
+import React from "react";
+import { shallow, mount } from "enzyme";
+import configureMockStore from "redux-mock-store";
 import HighlightedTextContainer, {
   Unwrapped as UnwrappedHighlightedTextContainer
-} from "../components/HighlightedTextContainer"
+} from "../components/HighlightedTextContainer";
 
 const phrases = [
   {
@@ -20,11 +20,11 @@ const phrases = [
     transcription: "transcription line 2",
     translation: "translation line 2"
   }
-]
+];
 
 describe("<UnwrappedHighlightedTextContainer>", () => {
   it("renders as expected unconnected to redux", () => {
-    const setCurrentPhrase = jest.fn()
+    const setCurrentPhrase = jest.fn();
     const component = shallow(
       <UnwrappedHighlightedTextContainer
         currentTime={13}
@@ -33,11 +33,11 @@ describe("<UnwrappedHighlightedTextContainer>", () => {
         currentPhraseID="I/1"
         setCurrentPhrase={setCurrentPhrase}
       />
-    )
-    expect(component).toMatchSnapshot()
-  })
+    );
+    expect(component).toMatchSnapshot();
+  });
   it("correctly determines current phrase id", () => {
-    const setCurrentPhrase = jest.fn()
+    const setCurrentPhrase = jest.fn();
     const component = shallow(
       <UnwrappedHighlightedTextContainer
         currentTime={13}
@@ -46,26 +46,26 @@ describe("<UnwrappedHighlightedTextContainer>", () => {
         currentPhraseID="I/1"
         setCurrentPhrase={setCurrentPhrase}
       />
-    )
-    const calculatedPhraseID = component.instance().determineCurrentPhrase()
-    expect(calculatedPhraseID).toBe("I/2")
-  })
-})
+    );
+    const calculatedPhraseID = component.instance().determineCurrentPhrase();
+    expect(calculatedPhraseID).toBe("I/2");
+  });
+});
 
 describe("HighlightedTextContainer", () => {
   it("dispatches the correct action on componentWillReceiveProps", () => {
     const initialState = {
       currentTime: { time: 13, origin: "HighlightedTextContainer" },
       currentPhraseID: ""
-    }
-    const mockStore = configureMockStore()
-    const store = mockStore(initialState)
+    };
+    const mockStore = configureMockStore();
+    const store = mockStore(initialState);
     const wrapper = mount(
       <HighlightedTextContainer singingStyle="spoken" phrases={phrases} />,
       { context: { store } }
-    )
-    wrapper.setProps({ currentTime: 16 })
-    const action = { type: "SET_CURRENT_PHRASE_ID", payload: "I/2" }
-    expect(store.getActions()[0]).toEqual(action)
-  })
-})
+    );
+    wrapper.setProps({ currentTime: 16 });
+    const action = { type: "SET_CURRENT_PHRASE_ID", payload: "I/2" };
+    expect(store.getActions()[0]).toEqual(action);
+  });
+});

@@ -1,31 +1,31 @@
-import React, { Component } from "react"
-import PropTypes from "prop-types"
-import { connect } from "react-redux"
-import { setCurrentTime } from "../actionCreators"
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { setCurrentTime } from "../actionCreators";
 
 class Line extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.line = null
-    this.handleLineClick = this.handleLineClick.bind(this)
+    this.line = null;
+    this.handleLineClick = this.handleLineClick.bind(this);
   }
 
   componentDidUpdate() {
     if (this.props.active) {
-      this.line.scrollIntoView({ block: "center", behavior: "smooth" })
+      this.line.scrollIntoView({ block: "center", behavior: "smooth" });
     }
   }
 
   handleLineClick() {
-    this.props.updateStartTime(this.props.startTime)
+    this.props.updateStartTime(this.props.startTime);
   }
 
   render() {
     return (
       <div
         ref={line => {
-          this.line = line
+          this.line = line;
         }}
         className={
           this.props.active
@@ -46,7 +46,7 @@ class Line extends Component {
           {this.props.translation}
         </button>
       </div>
-    )
+    );
   }
 }
 
@@ -56,19 +56,19 @@ Line.propTypes = {
   active: PropTypes.bool.isRequired,
   updateStartTime: PropTypes.func,
   startTime: PropTypes.number.isRequired
-}
+};
 
 Line.defaultProps = {
   updateStartTime: null
-}
+};
 
 const mapDispatchToProps = dispatch => ({
   updateStartTime: time => dispatch(setCurrentTime({ time, origin: Line.name }))
-})
+});
 
-export const UnwrappedLine = Line
+export const UnwrappedLine = Line;
 
 export default connect(
   null,
   mapDispatchToProps
-)(Line)
+)(Line);
