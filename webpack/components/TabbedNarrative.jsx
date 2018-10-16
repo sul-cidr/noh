@@ -18,7 +18,7 @@ class TabbedNarrative extends React.Component {
   }
 
   parseNarrative() {
-    const chunks = this.state.narrative.split(/<br\s*\/>/);
+    const chunks = this.state.narrative.split(/<br\s*\/?>/);
     return chunks;
   }
 
