@@ -54,7 +54,10 @@ describe("<UnwrappedHighlightedTextContainer>", () => {
 
 describe("HighlightedTextContainer", () => {
   it("dispatches the correct action on componentWillReceiveProps", () => {
-    const initialState = { currentTime: 13, currentPhraseID: "" };
+    const initialState = {
+      currentTime: { time: 13, origin: "HighlightedTextContainer" },
+      currentPhraseID: ""
+    };
     const mockStore = configureMockStore();
     const store = mockStore(initialState);
     const wrapper = mount(

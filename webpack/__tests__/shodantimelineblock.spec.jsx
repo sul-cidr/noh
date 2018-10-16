@@ -109,7 +109,10 @@ describe("<ShodanTimelineBlock>", () => {
     const initialState = { startTime: 10 };
     const mockStore = configureMockStore();
     const store = mockStore(initialState);
-    const action = { type: "SET_CURRENT_TIME", payload: 50 };
+    const action = {
+      type: "SET_CURRENT_TIME",
+      payload: { time: 50, origin: "ShodanTimelineBlock" }
+    };
     const wrapper = mount(
       <Provider store={store}>
         <ShodanTimelineBlock
@@ -132,7 +135,10 @@ describe("<ShodanTimelineBlock>", () => {
     const initialState = { startTime: 10 };
     const mockStore = configureMockStore();
     const store = mockStore(initialState);
-    const action = { type: "SET_CURRENT_TIME", payload: 50 };
+    const action = {
+      type: "SET_CURRENT_TIME",
+      payload: { time: 50, origin: "ShodanTimelineBlock" }
+    };
     const url = "/kokaji/kiri";
     const wrapper = mount(
       <Provider store={store}>

@@ -49,7 +49,9 @@ class TimelineIndicator extends Component {
   calculateProgress() {
     const progressTime = this.state.playedTime / this.calculateMaxTime();
     const offset = this.container.current.offsetWidth || 1;
-    const progress = Math.ceil(Math.min(Math.max(progressTime * offset, 0), offset));
+    const progress = Math.ceil(
+      Math.min(Math.max(progressTime * offset, 0), offset)
+    );
     return progress === 0 ? -1 : progress;
   }
 
@@ -130,12 +132,13 @@ TimelineIndicator.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime,
+  currentTime: state.currentTime.time,
   playing: state.isPlaying
 });
 
 export const mapDispatchToProps = dispatch => ({
-  updateCurrentTime: time => dispatch(setCurrentTime(time))
+  updateCurrentTime: time =>
+    dispatch(setCurrentTime({ time, origin: TimelineIndicator.name }))
 });
 
 export const Unwrapped = TimelineIndicator;

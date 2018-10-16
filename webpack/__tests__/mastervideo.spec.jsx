@@ -27,9 +27,33 @@ describe("<MasterVideo>", () => {
     expect(component.instance().video.currentTime).toBe(40);
   });
 
+  it("updates video currentTime when currentTime prop is set by a different component", () => {
+    const container = document.createElement("div");
+    const component = mount(<UnwrappedMasterVideo currentTime={10} />, {
+      attachTo: container
+    });
+    component.setProps({
+      currentTime: 40,
+      currentTimeOrigin: "AnotherComponent"
+    });
+    expect(component.instance().video.currentTime).toBe(40);
+  });
+
+  it("does not update video currentTime when currentTime prop is set internally", () => {
+    const container = document.createElement("div");
+    const component = mount(<UnwrappedMasterVideo currentTime={10} />, {
+      attachTo: container
+    });
+    component.setProps({ currentTime: 40, currentTimeOrigin: "MasterVideo" });
+    expect(component.instance().video.currentTime).toBe(10);
+  });
+
   it("dispatches the right function for updateCurrentTime", () => {
     const event = { target: { currentTime: 10 } };
-    const payload = { payload: 10, type: "SET_CURRENT_TIME" };
+    const payload = {
+      payload: { time: 10, origin: "MasterVideo" },
+      type: "SET_CURRENT_TIME"
+    };
     const dispatch = jest.fn();
     mapDispatchToProps(dispatch).updateCurrentTime(event);
     expect(dispatch).toHaveBeenCalledWith(payload);
@@ -48,7 +72,10 @@ describe("<MasterVideo>", () => {
     let store;
 
     beforeEach(() => {
-      const initialState = { currentTime: 10, isPlaying: true };
+      const initialState = {
+        currentTime: { time: 10, origin: "" },
+        isPlaying: true
+      };
       const mockStore = configureMockStore();
 
       store = mockStore(initialState);
@@ -84,7 +111,10 @@ describe("<MasterVideo>", () => {
     });
 
     it("triggers the SET_CURRENT_TIME action with the right payload when seeking", () => {
-      const action = { type: "SET_CURRENT_TIME", payload: 10 };
+      const action = {
+        type: "SET_CURRENT_TIME",
+        payload: { time: 10, origin: "MasterVideo" }
+      };
       wrapper.find("video").simulate("seeking");
       expect(store.getActions()[0]).toEqual(action);
     });
@@ -96,7 +126,10 @@ describe("<MasterVideo>", () => {
     });
 
     it("triggers the SET_CURRENT_TIME action with the right payload when timeupdate", () => {
-      const action = { type: "SET_CURRENT_TIME", payload: 10 };
+      const action = {
+        type: "SET_CURRENT_TIME",
+        payload: { time: 10, origin: "MasterVideo" }
+      };
       wrapper.find("video").simulate("timeupdate");
       expect(store.getActions()[0]).toEqual(action);
     });
@@ -107,7 +140,10 @@ describe("<MasterVideo>", () => {
     let store;
 
     beforeEach(() => {
-      const initialState = { currentTime: 10, isPlaying: false };
+      const initialState = {
+        currentTime: { time: 10, origin: "MasterVideo" },
+        isPlaying: false
+      };
       const mockStore = configureMockStore();
 
       store = mockStore(initialState);

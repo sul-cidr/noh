@@ -77,7 +77,7 @@ describe("<UnwrappedIntermediaTable>", () => {
 
 describe("<InterMediaTable>", () => {
   it("renders as expected while connected", () => {
-    const initialState = { currentTime: 10 };
+    const initialState = { currentTime: { time: 10, origin: "" } };
     const mockStore = configureMockStore();
     const store = mockStore(initialState);
     const wrapper = shallow(

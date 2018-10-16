@@ -208,7 +208,7 @@ Score.propTypes = {
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime,
+  currentTime: state.currentTime.time,
   toggles: state.toggles
 });
 

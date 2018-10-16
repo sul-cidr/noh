@@ -13,7 +13,7 @@ describe("<ScoreControls>", () => {
 
   beforeEach(() => {
     const mockStore = configureMockStore();
-    const initialState = { currentTime: 0 };
+    const initialState = { currentTime: { time: 0, origin: "ScoreControls" } };
     store = mockStore(initialState);
     wrapper = mount(
       <Provider store={store}>
@@ -78,7 +78,7 @@ describe("<ScoreControls>", () => {
   it("handles prev button", () => {
     const action = {
       type: "SET_CURRENT_TIME",
-      payload: phrases[0].startTime.value
+      payload: { time: phrases[0].startTime.value, origin: "ScoreControls" }
     };
     const button = wrapper.find("button.sentence-control__prev").first();
     button.simulate("click");
@@ -88,7 +88,7 @@ describe("<ScoreControls>", () => {
   it("handles next button", () => {
     const action = {
       type: "SET_CURRENT_TIME",
-      payload: phrases[1].startTime.value
+      payload: { time: phrases[1].startTime.value, origin: "ScoreControls" }
     };
     const button = wrapper.find("button.sentence-control__next").first();
     button.simulate("click");

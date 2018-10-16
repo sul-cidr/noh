@@ -45,7 +45,10 @@ describe("<Narrative>", () => {
   });
 
   it("triggers the SET_CURRENT_TIME action with the right payload", () => {
-    const action = { type: "SET_CURRENT_TIME", payload: 50 };
+    const action = {
+      type: "SET_CURRENT_TIME",
+      payload: { time: 50, origin: "Narrative" }
+    };
     wrapper.find("time").simulate("click");
     expect(store.getActions()[0]).toEqual(action);
   });

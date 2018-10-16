@@ -90,10 +90,10 @@ describe("<TimelineIndicator>", () => {
   });
 
   it("dispatches the right function for updateCurrentTime", () => {
-    const event = { currentTime: 10 };
-    const payload = { payload: event, type: "SET_CURRENT_TIME" };
+    const event = { currentTime: { time: 10, origin: "TimelineIndicator" } };
+    const payload = { payload: event.currentTime, type: "SET_CURRENT_TIME" };
     const dispatch = jest.fn();
-    mapDispatchToProps(dispatch).updateCurrentTime(event);
+    mapDispatchToProps(dispatch).updateCurrentTime(event.currentTime.time);
     expect(dispatch).toHaveBeenCalledWith(payload);
   });
 
