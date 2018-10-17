@@ -13,7 +13,7 @@ permalink: /plays/
 <div class="list-plays">
   <div class="cards-container">
     {% for play in site.plays %}
-      {% unless play.url contains ".html" %}
+      {% unless play.url contains "/narratives/" %}
         {% include card.html
           link=play.url
           image=play.image
