@@ -35,7 +35,7 @@ class ShodanTimeline extends Component {
           totalDuration={this.props.totalDuration}
         />
       );
-      position += 100 * duration / this.props.totalDuration;
+      position += (100 * duration) / this.props.totalDuration;
       lastEndTime = section.endTime.value;
     });
     return sectionBlocks;
