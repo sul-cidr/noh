@@ -3,79 +3,29 @@
     {
       "by": "structural",
       "values": [
-        [
-          "Still Position"
-        ],
-        [
-          "Foot Motion",
-          "Walking"
-        ],
-        [
-          "Foot Motion",
-          "Turning"
-        ],
-        [
-          "Foot Motion",
-          "Circling"
-        ],
-        [
-          "Foot Motion",
-          "Circlets"
-        ],
-        [
-          "Foot Motion",
-          "Stamps"
-        ],
-        [
-          "Arm with Fan"
-        ],
-        [
-          "Combinations",
-          "Pointing"
-        ],
-        [
-          "Combinations",
-          "Zigzags"
-        ],
-        [
-          "Combinations",
-          "Other Comb."
-        ]
+        ["Still Position"],
+        ["Foot Motion", "Walking"],
+        ["Foot Motion", "Turning"],
+        ["Foot Motion", "Circling"],
+        ["Foot Motion", "Circlets"],
+        ["Foot Motion", "Stamps"],
+        ["Arm with Fan"],
+        ["Combinations", "Pointing"],
+        ["Combinations", "Zigzags"],
+        ["Combinations", "Other Comb."]
       ]
     },
     {
       "by": "decorative",
       "values": [
-        [
-          "Fan"
-        ],
-        [
-          "Body",
-          "Other Body"
-        ],
-        [
-          "Body",
-          "Stamp Series"
-        ],
-        [
-          "Body",
-          "Switch Knee"
-        ],
-        [
-          "Head"
-        ],
-        [
-          "Mimetic",
-          "Other Mimetic"
-        ],
-        [
-          "Mimetic",
-          "Praying"
-        ],
-        [
-          "Mimetic",
-          "Weeping"
-        ]
+        ["Fan"],
+        ["Body", "Other Body"],
+        ["Body", "Stamp Series"],
+        ["Body", "Switch Knee"],
+        ["Head"],
+        ["Mimetic", "Other Mimetic"],
+        ["Mimetic", "Praying"],
+        ["Mimetic", "Weeping"]
       ]
     }
   ],
@@ -83,591 +33,302 @@
     {
       "slug": "standing",
       "name": "Standing",
-      "pills": [
-        [
-          "Still Position"
-        ],
-        [
-          "Mimetic",
-          "Praying"
-        ]
-      ]
+      "pills": [["Still Position"], ["Mimetic", "Praying"]]
     },
     {
       "slug": "kneeling",
       "name": "Kneeling",
-      "pills": [
-        [
-          "Still Position"
-        ],
-        [
-          "Mimetic",
-          "Praying"
-        ]
-      ]
+      "pills": [["Still Position"], ["Mimetic", "Praying"]]
     },
     {
       "slug": "forward",
       "name": "Forward",
-      "pills": [
-        [
-          "Foot Motion",
-          "Walking"
-        ]
-      ]
+      "pills": [["Foot Motion", "Walking"]]
     },
     {
       "slug": "backward",
       "name": "Backward",
-      "pills": [
-        [
-          "Foot Motion",
-          "Walking"
-        ]
-      ]
+      "pills": [["Foot Motion", "Walking"]]
     },
     {
       "slug": "simple-pivot",
       "name": "Simple Pivot",
-      "pills": [
-        [
-          "Foot Motion",
-          "Turning"
-        ]
-      ]
+      "pills": [["Foot Motion", "Turning"]]
     },
     {
       "slug": "step-pivot",
       "name": "Step Pivot",
-      "pills": [
-        [
-          "Foot Motion",
-          "Turning"
-        ]
-      ]
+      "pills": [["Foot Motion", "Turning"]]
     },
     {
       "slug": "large-circling-l",
       "name": "Large Circling L",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circling"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circling"]]
     },
     {
       "slug": "large-circling-r",
       "name": "Large Circling R",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circling"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circling"]]
     },
     {
       "slug": "circlet",
       "name": "Circlet",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circlets"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circlets"]]
     },
     {
       "slug": "full-circlet",
       "name": "Full Circlet",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circlets"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circlets"]]
     },
     {
       "slug": "circlet-point",
       "name": "Circlet Point",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circlets"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circlets"]]
     },
     {
       "slug": "back-circlet",
       "name": "Back Circlet",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circlets"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circlets"]]
     },
     {
       "slug": "step-circlet",
       "name": "Step Circlet",
-      "pills": [
-        [
-          "Foot Motion",
-          "Circlets"
-        ]
-      ]
+      "pills": [["Foot Motion", "Circlets"]]
     },
     {
       "slug": "single-stamp",
       "name": "Single Stamp",
-      "pills": [
-        [
-          "Foot Motion",
-          "Stamps"
-        ]
-      ]
+      "pills": [["Foot Motion", "Stamps"]]
     },
     {
       "slug": "double-stamps",
       "name": "Double Stamps",
-      "pills": [
-        [
-          "Foot Motion",
-          "Stamps"
-        ]
-      ]
+      "pills": [["Foot Motion", "Stamps"]]
     },
     {
       "slug": "opening",
       "name": "Opening",
-      "pills": [
-        [
-          "Arm with Fan"
-        ]
-      ]
+      "pills": [["Arm with Fan"]]
     },
     {
       "slug": "closing",
       "name": "Closing",
-      "pills": [
-        [
-          "Arm with Fan"
-        ]
-      ]
+      "pills": [["Arm with Fan"]]
     },
     {
       "slug": "move-to-lh",
       "name": "Move to LH",
-      "pills": [
-        [
-          "Arm with Fan"
-        ]
-      ]
+      "pills": [["Arm with Fan"]]
     },
     {
       "slug": "renesting-from-lh",
       "name": "Renesting from LH",
-      "pills": [
-        [
-          "Arm with Fan"
-        ]
-      ]
+      "pills": [["Arm with Fan"]]
     },
     {
       "slug": "reverse-hold",
       "name": "Reverse Hold",
-      "pills": [
-        [
-          "Arm with Fan"
-        ]
-      ]
+      "pills": [["Arm with Fan"]]
     },
     {
       "slug": "renesting-to-standard",
       "name": "Renesting to Standard",
-      "pills": [
-        [
-          "Arm with Fan"
-        ]
-      ]
+      "pills": [["Arm with Fan"]]
     },
     {
       "slug": "forward-point",
       "name": "Forward Point",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "backing-point-closed",
       "name": "Backing Point Closed",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "backing-point-open",
       "name": "Backing Point Open",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "body-turn",
       "name": "Body Turn",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "scooping-point",
       "name": "Scooping Point",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "double-sweep",
       "name": "Double Sweep",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "closure-scoop",
       "name": "Closure Scoop",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "raised-fan",
       "name": "Raised Fan",
-      "pills": [
-        [
-          "Combinations",
-          "Pointing"
-        ]
-      ]
+      "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "large-zigzag",
       "name": "Large Zigzag",
-      "pills": [
-        [
-          "Combinations",
-          "Zigzags"
-        ]
-      ]
+      "pills": [["Combinations", "Zigzags"]]
     },
     {
       "slug": "medium-zigzag",
       "name": "Medium Zigzag",
-      "pills": [
-        [
-          "Combinations",
-          "Zigzags"
-        ]
-      ]
+      "pills": [["Combinations", "Zigzags"]]
     },
     {
       "slug": "small-zigzag",
       "name": "Small Zigzag",
-      "pills": [
-        [
-          "Combinations",
-          "Zigzags"
-        ]
-      ]
+      "pills": [["Combinations", "Zigzags"]]
     },
     {
       "slug": "take-the-corner",
       "name": "Take the Corner",
-      "pills": [
-        [
-          "Combinations",
-          "Other Comb."
-        ]
-      ]
+      "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "corner-extended",
       "name": "Corner Extended",
-      "pills": [
-        [
-          "Combinations",
-          "Other Comb."
-        ]
-      ]
+      "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "open-retreat",
       "name": "Open retreat",
-      "pills": [
-        [
-          "Combinations",
-          "Other Comb."
-        ]
-      ]
+      "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "pivot-to-point",
       "name": "Pivot to Point",
-      "pills": [
-        [
-          "Combinations",
-          "Other Comb."
-        ]
-      ]
+      "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "pivot-to-stepping",
       "name": "Pivot to Stepping",
-      "pills": [
-        [
-          "Combinations",
-          "Other Comb."
-        ]
-      ]
+      "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "cloud-fan",
       "name": "Cloud Fan",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "pillow-fan",
       "name": "Pillow Fan",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "feather-fan",
       "name": "Feather Fan",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "offering-the-fan",
       "name": "Offering the Fan",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "two-hand-fan",
       "name": "Two Hand Fan",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "beckon-fan-one-hand",
       "name": "Beckon Fan One Hand",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "beckon-fan-two-hands",
       "name": "Beckon Fan Two Hands",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "figure-eight-fan",
       "name": "Figure Eight Fan",
-      "pills": [
-        [
-          "Fan"
-        ]
-      ]
+      "pills": [["Fan"]]
     },
     {
       "slug": "point-stamp",
       "name": "Point Stamp",
-      "pills": [
-        [
-          "Body",
-          "Other Body"
-        ]
-      ]
+      "pills": [["Body", "Other Body"]]
     },
     {
       "slug": "jumps",
       "name": "Jumps",
-      "pills": [
-        [
-          "Body",
-          "Other Body"
-        ]
-      ]
+      "pills": [["Body", "Other Body"]]
     },
     {
       "slug": "leap-turn",
       "name": "Leap Turn",
-      "pills": [
-        [
-          "Body",
-          "Other Body"
-        ]
-      ]
+      "pills": [["Body", "Other Body"]]
     },
     {
       "slug": "six-stamps",
       "name": "Six Stamps",
-      "pills": [
-        [
-          "Body",
-          "Stamp Series"
-        ]
-      ]
+      "pills": [["Body", "Stamp Series"]]
     },
     {
       "slug": "six-stamps-circling",
       "name": "Six Stamps Circling",
-      "pills": [
-        [
-          "Body",
-          "Stamp Series"
-        ]
-      ]
+      "pills": [["Body", "Stamp Series"]]
     },
     {
       "slug": "six-and-seven",
       "name": "Six and Seven",
-      "pills": [
-        [
-          "Body",
-          "Stamp Series"
-        ]
-      ]
+      "pills": [["Body", "Stamp Series"]]
     },
     {
       "slug": "single",
       "name": "Single",
-      "pills": [
-        [
-          "Body",
-          "Switch Knee"
-        ]
-      ]
+      "pills": [["Body", "Switch Knee"]]
     },
     {
       "slug": "multiple",
       "name": "Multiple",
-      "pills": [
-        [
-          "Body",
-          "Switch Knee"
-        ]
-      ]
+      "pills": [["Body", "Switch Knee"]]
     },
     {
       "slug": "turn",
       "name": "Turn",
-      "pills": [
-        [
-          "Head"
-        ]
-      ]
+      "pills": [["Head"]]
     },
     {
       "slug": "up-down",
       "name": "Up Down",
-      "pills": [
-        [
-          "Head"
-        ]
-      ]
+      "pills": [["Head"]]
     },
     {
       "slug": "wig",
       "name": "Wig",
-      "pills": [
-        [
-          "Head"
-        ]
-      ]
+      "pills": [["Head"]]
     },
     {
       "slug": "bowing",
       "name": "Bowing",
-      "pills": [
-        [
-          "Mimetic",
-          "Other Mimetic"
-        ]
-      ]
+      "pills": [["Mimetic", "Other Mimetic"]]
     },
     {
       "slug": "l-hand",
       "name": "L Hand",
-      "pills": [
-        [
-          "Mimetic",
-          "Weeping"
-        ]
-      ]
+      "pills": [["Mimetic", "Weeping"]]
     },
     {
       "slug": "r-hand",
       "name": "R Hand",
-      "pills": [
-        [
-          "Mimetic",
-          "Weeping"
-        ]
-      ]
+      "pills": [["Mimetic", "Weeping"]]
     },
     {
       "slug": "both-hands",
       "name": "Both Hands",
-      "pills": [
-        [
-          "Mimetic",
-          "Weeping"
-        ]
-      ]
+      "pills": [["Mimetic", "Weeping"]]
     }
   ]
 }
