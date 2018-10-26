@@ -1,0 +1,223 @@
+{
+  "filters": [
+    {
+      "by": "type",
+      "values": [
+        ["Spoken"],
+        ["Chanted", "Recitative chant"],
+        ["Chanted", "Introduction chant"],
+        ["Chanted", "Main chant"],
+        ["Chanted", "Closing chant"],
+        ["Entrance and exit music"],
+        ["Dance music"]
+      ]
+    },
+    {
+      "by": "act",
+      "values": [
+        ["Mae ba", "Waki enters"],
+        ["Mae ba", "Shite enters"],
+        ["Mae ba", "Dialogue"],
+        ["Mae ba", "Shite performs"],
+        ["Mae ba", "Shite exits"],
+        ["Nochi ba", "Waki waits"],
+        ["Nochi ba", "Shite re-enters"],
+        ["Nochi ba", "Dialogue"],
+        ["Nochi ba", "Shite performs"],
+        ["Nochi ba", "Shite exits"]
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "slug": "ageuta",
+      "name": "Ageuta",
+      "pills": [
+        ["Chanted", "Main chant"],
+        ["Mae ba", "Shite enters"],
+        ["Mae ba", "Shite performs"]
+      ]
+    },
+    {
+      "slug": "ashirai",
+      "name": "Ashirai",
+      "pills": [["Entrance and exit music"], ["Mae ba", "Shite enters"]]
+    },
+    {
+      "slug": "hayafue",
+      "name": "Hayafue",
+      "pills": [["Entrance and exit music"], ["Nochi ba", "Shite re-enters"]]
+    },
+    {
+      "slug": "issei-chant",
+      "name": "Issei chant",
+      "pills": [
+        ["Chanted", "Introduction chant"],
+        ["Mae ba", "Waki enters"],
+        ["Mae ba", "Shite enters"],
+        ["Nochi ba", "Shite re-enters"]
+      ]
+    },
+    {
+      "slug": "issei-music",
+      "name": "Issei music",
+      "pills": [
+        ["Entrance and exit music"],
+        ["Mae ba", "Waki enters"],
+        ["Mae ba", "Shite enters"],
+        ["Nochi ba", "Shite re-enters"]
+      ]
+    },
+    {
+      "slug": "jo-no-mai",
+      "name": "Jo no mai",
+      "pills": [["Dance music"], ["Nochi ba", "Shite performs"]]
+    },
+    {
+      "slug": "kakaru",
+      "name": "Kakaru",
+      "pills": [
+        ["Chanted", "Recitative chant"],
+        ["Mae ba", "Dialogue"],
+        ["Nochi ba", "Waki waits"]
+      ]
+    },
+    {
+      "slug": "kakeai",
+      "name": "Kakeai",
+      "pills": [["Spoken"], ["Mae ba", "Dialogue"]]
+    },
+    {
+      "slug": "kiri",
+      "name": "Kiri",
+      "pills": [["Chanted", "Closing chant"], ["Nochi ba", "Shite exits"]]
+    },
+    {
+      "slug": "kuri",
+      "name": "Kuri",
+      "pills": [["Chanted", "Introduction chant"], ["Mae ba", "Shite performs"]]
+    },
+    {
+      "slug": "kuse",
+      "name": "Kuse",
+      "pills": [
+        ["Chanted", "Main chant"],
+        ["Mae ba", "Shite performs"],
+        ["Nochi ba", "Shite performs"]
+      ]
+    },
+    {
+      "slug": "machiutai",
+      "name": "Machiutai",
+      "pills": [["Chanted", "Introduction chant"], ["Nochi ba", "Waki waits"]]
+    },
+    {
+      "slug": "maibataraki",
+      "name": "Maibataraki",
+      "pills": [["Dance music"], ["Nochi ba", "Shite performs"]]
+    },
+    {
+      "slug": "michiyuki",
+      "name": "Michiyuki",
+      "pills": [["Chanted", "Introduction chant"], ["Mae ba", "Waki enters"]]
+    },
+    {
+      "slug": "mondo",
+      "name": "Mondō",
+      "pills": [
+        ["Spoken"],
+        ["Mae ba", "Dialogue"],
+        ["Mae ba", "Shite exits"],
+        ["Nochi ba", "Dialogue"]
+      ]
+    },
+    {
+      "slug": "nanori",
+      "name": "Nanori",
+      "pills": [["Spoken"], ["Mae ba", "Waki enters"]]
+    },
+    {
+      "slug": "nanoribue",
+      "name": "Nanoribue",
+      "pills": [["Entrance and exit music"], ["Mae ba", "Waki enters"]]
+    },
+    {
+      "slug": "noriji",
+      "name": "Noriji",
+      "pills": [["Chanted", "Closing chant"], ["Nochi ba", "Shite performs"]]
+    },
+    {
+      "slug": "notto-chant",
+      "name": "Notto chant",
+      "pills": [["Chanted", "Recitative chant"], ["Nochi ba", "Waki waits"]]
+    },
+    {
+      "slug": "notto-music",
+      "name": "Notto music",
+      "pills": [["Entrance and exit music"], ["Nochi ba", "Waki waits"]]
+    },
+    {
+      "slug": "raijo",
+      "name": "Raijo",
+      "pills": [["Entrance and exit music"]]
+    },
+    {
+      "slug": "rongi",
+      "name": "Rongi",
+      "pills": [
+        ["Chanted", "Main chant"],
+        ["Mae ba", "Shite exits"],
+        ["Nochi ba", "Dialogue"]
+      ]
+    },
+    {
+      "slug": "sageuta",
+      "name": "Sageuta",
+      "pills": [
+        ["Chanted", "Main chant"],
+        ["Mae ba", "Shite enters"],
+        ["Mae ba", "Shite performs"]
+      ]
+    },
+    {
+      "slug": "sashi",
+      "name": "Sashi",
+      "pills": [
+        ["Chanted", "Recitative chant"],
+        ["Mae ba", "Shite enters"],
+        ["Mae ba", "Dialogue"],
+        ["Mae ba", "Shite performs"]
+      ]
+    },
+    {
+      "slug": "shidai-chant",
+      "name": "Shidai chant",
+      "pills": [
+        ["Chanted", "Introduction chant"],
+        ["Mae ba", "Waki enters"],
+        ["Mae ba", "Shite enters"],
+        ["Mae ba", "Shite performs"]
+      ]
+    },
+    {
+      "slug": "shidai-music",
+      "name": "Shidai music",
+      "pills": [
+        ["Entrance and exit music"],
+        ["Mae ba", "Waki enters"],
+        ["Mae ba", "Shite enters"],
+        ["Mae ba", "Shite performs"]
+      ]
+    },
+    {
+      "slug": "tsukizerifu",
+      "name": "Tsukizerifu",
+      "pills": [["Spoken"], ["Mae ba", "Waki enters"]]
+    },
+    {
+      "slug": "waka",
+      "name": "Waka",
+      "pills": [["Chanted", "Closing chant"], ["Nochi ba", "Shite exits"]]
+    }
+  ]
+}

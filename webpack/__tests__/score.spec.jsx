@@ -1,10 +1,8 @@
 import React from "react";
 import { shallow } from "enzyme";
 import phrases from "./__fixtures__/phrases.json";
-import {
-  Unwrapped as UnwrappedScore,
-  determineCurrentPhrase
-} from "../components/Score";
+import { Unwrapped as UnwrappedScore } from "../components/Score";
+import { determineCurrentPhrase } from "../utils";
 
 describe("<UnwrappedScore>", () => {
   const allToggles = {
@@ -61,7 +59,8 @@ describe("<UnwrappedScore>", () => {
       />
     );
     const calculatedPhraseIndex = determineCurrentPhrase(
-      component.instance().props
+      component.instance().props.currentTime,
+      component.instance().props.phrases
     );
     expect(calculatedPhraseIndex).toBe(0);
     const component2 = shallow(
@@ -72,7 +71,8 @@ describe("<UnwrappedScore>", () => {
       />
     );
     const calculatedPhraseIndex2 = determineCurrentPhrase(
-      component2.instance().props
+      component2.instance().props.currentTime,
+      component2.instance().props.phrases
     );
     expect(calculatedPhraseIndex2).toBe(2);
     const component3 = shallow(
@@ -83,7 +83,8 @@ describe("<UnwrappedScore>", () => {
       />
     );
     const calculatedPhraseIndex3 = determineCurrentPhrase(
-      component3.instance().props
+      component3.instance().props.currentTime,
+      component3.instance().props.phrases
     );
     expect(calculatedPhraseIndex3).toBe(0);
   });

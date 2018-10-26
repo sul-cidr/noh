@@ -1,0 +1,23 @@
+.section-introduction {
+  margin-bottom: 1rem;
+
+  // @include flex-container($justify: flex-start, $align: baseline);
+}
+
+.section-introduction__term {
+  color: $green;
+  flex-basis: 5rem;
+  flex-shrink: 0;
+  font-weight: $fw-semibold;
+
+  @include text(xs);
+  @include uppercase();
+  }
+
+.section-introduction__definition {
+  flex-grow: 1;
+  font-family: $font-text;
+  margin-bottom: 0.5rem;
+
+  @include text(sm, 'text');
+}

@@ -1,0 +1,63 @@
+<div class="filters__container">
+  <div class="wrapper wrapper--large">
+    <div class="filters__content">
+      <div class="filters__controls">
+        {% for filter in include.catalog.filters %}
+          <h3 class="filters__title">Filter by {{ filter.by }}</h3>
+          <ul>
+            {% assign last = "" %}
+            {% assign values = filter.values | sort %}
+            {% for value in values %}
+              {% if last != "" and value.size != 1 and value.first != last %}
+                  </ul>
+                </li>
+                {% assign last = "" %}
+              {% endif %}
+              {% if value.size != 1 and value.first != last %}
+                <li class="filters__element">
+                  {% include filter-check.html
+                    id=value.first
+                    title=value.first
+                    amount=filter.values.size
+                    checked=""
+                  %}
+                  <ul>
+                {% assign last = value.first %}
+              {% endif %}
+              {% if last != "" and value.size == 1 %}
+                  </ul>
+                </li>
+                {% assign last = "" %}
+              {% endif %}
+              <li class="filters__element {% if last != "" %}filters__sub-element{% endif %}">
+                {% include filter-check.html
+                  id=value
+                  title=value.last
+                  amount=filter.values.size
+                  checked=""
+                %}
+              </li>
+            {% endfor %}
+            {% if last != "" %}
+                </ul>
+              </li>
+              {% assign last = "" %}
+            {% endif %}
+          </ul>
+        {% endfor %}
+      </div>
+      <div class="filters__card-container">
+        {% for card in include.catalog.cards %}
+          {% assign pills = card.pills | uniq | sort | join: ',' %}
+          {% include filter-card.html
+            title=card.name
+            slug=card.slug
+            pills=pills
+            images=include.images
+          %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/assets/filters.js"></script>

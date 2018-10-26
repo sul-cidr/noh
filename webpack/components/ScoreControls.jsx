@@ -277,12 +277,13 @@ ScoreControls.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime
+  currentTime: state.currentTime.time
 });
 
 const mapDispatchToProps = dispatch => ({
   updateScoreToggles: toggles => dispatch(setScoreToggles(toggles)),
-  updateStartTime: time => dispatch(setCurrentTime(time))
+  updateStartTime: time =>
+    dispatch(setCurrentTime({ time, origin: ScoreControls.name }))
 });
 
 export const Unwrapped = ScoreControls;

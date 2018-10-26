@@ -88,7 +88,7 @@ IntermediaTable.propTypes = {
   ).isRequired
 };
 
-const mapStateToProps = state => ({ currentTime: state.currentTime });
+const mapStateToProps = state => ({ currentTime: state.currentTime.time });
 
 export const Unwrapped = IntermediaTable;
 export default connect(mapStateToProps)(IntermediaTable);

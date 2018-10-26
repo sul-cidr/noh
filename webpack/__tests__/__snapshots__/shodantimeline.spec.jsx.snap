@@ -4,9 +4,8 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
 <div
   className="shodan-map"
 >
-   
   <Connect(ShodanTimelineBlock)
-    duration={300}
+    duration={301}
     intensity="17"
     key="Noriji"
     left="0%"
@@ -16,10 +15,10 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     totalDuration={1800}
   />
   <Connect(ShodanTimelineBlock)
-    duration={1199}
+    duration={1200}
     intensity="12"
     key="Maibataraki"
-    left="16.666666666666664%"
+    left="16.72222222222222%"
     maxIntensity={21}
     name="Maibataraki"
     startTime={301}

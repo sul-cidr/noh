@@ -16,7 +16,10 @@ class MasterVideo extends Component {
   }
 
   componentDidUpdate() {
-    if (this.video.currentTime !== this.props.currentTime) {
+    if (
+      this.props.currentTimeOrigin !== MasterVideo.name &&
+      this.video.currentTime !== this.props.currentTime
+    ) {
       this.video.currentTime = this.props.currentTime;
     }
   }
@@ -63,6 +66,7 @@ class MasterVideo extends Component {
 
 MasterVideo.propTypes = {
   currentTime: PropTypes.number,
+  currentTimeOrigin: PropTypes.string,
   videoUrl: PropTypes.string,
   updateCurrentTime: PropTypes.func,
   updateIsPlaying: PropTypes.func,
@@ -78,6 +82,7 @@ MasterVideo.propTypes = {
 
 MasterVideo.defaultProps = {
   currentTime: 0,
+  currentTimeOrigin: "",
   videoUrl: "",
   updateCurrentTime: () => {},
   updateIsPlaying: () => {},
@@ -85,13 +90,19 @@ MasterVideo.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime,
+  currentTime: state.currentTime.time,
+  currentTimeOrigin: state.currentTime.origin,
   isPlaying: state.isPlaying
 });
 
 export const mapDispatchToProps = dispatch => ({
   updateCurrentTime: event => {
-    dispatch(setCurrentTime(event.target.currentTime));
+    dispatch(
+      setCurrentTime({
+        time: event.target.currentTime,
+        origin: MasterVideo.name
+      })
+    );
   },
   updateIsPlaying: isPlaying => {
     dispatch(setIsPlaying(isPlaying));

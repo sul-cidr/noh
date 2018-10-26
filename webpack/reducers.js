@@ -7,7 +7,7 @@ import {
 } from "./actions";
 
 const DEFAULT_STATE = {
-  currentTime: 0,
+  currentTime: { time: 0, origin: null },
   isPlaying: false,
   startTime: 0,
   currentPhraseID: "",

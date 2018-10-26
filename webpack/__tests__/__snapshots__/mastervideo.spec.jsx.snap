@@ -3,6 +3,7 @@
 exports[`<MasterVideo> renders as expected 1`] = `
 <MasterVideo
   currentTime={0}
+  currentTimeOrigin=""
   tracks={Array []}
   updateCurrentTime={[Function]}
   updateIsPlaying={[Function]}

@@ -6,6 +6,11 @@
     "trailingComma": "none",
     "jsxBracketSameLine": false,
     "parser": "babylon",
-    "noSemi": true,
-    "rcVerbose": true,
+    "semi": true,
+    "overrides": [
+    {
+        "files": "*.json",
+        "options": { "parser": "json" }
+    }
+  ]
 }

@@ -83,7 +83,10 @@ describe("<TextLine>", () => {
       .find("button")
       .first()
       .simulate("click");
-    const action = { type: "SET_CURRENT_TIME", payload: 40 };
+    const action = {
+      type: "SET_CURRENT_TIME",
+      payload: { time: 40, origin: "Line" }
+    };
     expect(store.getActions()[0]).toEqual(action);
   });
 });

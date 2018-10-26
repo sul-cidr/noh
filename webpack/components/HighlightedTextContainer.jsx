@@ -57,7 +57,7 @@ HighlightedTextContainer.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime,
+  currentTime: state.currentTime.time,
   currentPhraseID: state.currentPhraseID
 });
 
