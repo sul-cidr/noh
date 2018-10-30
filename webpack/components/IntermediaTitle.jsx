@@ -6,7 +6,7 @@ const IntermediaTitle = props => (
   <div className="intermedia__element intermedia__element--title">
     <div className="intermedia__label">Section</div>
     <div className="intermedia__value">
-      <a href={props.sectionUrl}>
+      <a href={props.sectionUrl} title={props.section}>
         <span>{props.section}</span>
         <i className="fas fa-chevron-right" />
       </a>
