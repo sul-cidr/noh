@@ -70,7 +70,7 @@ Narrative.defaultProps = {
 
 const mapDispatchToProps = dispatch => ({
   updateStartTime: time =>
-    dispatch(setCurrentTime({ time, origin: Narrative.name }))
+    dispatch(setCurrentTime({ time, origin: "Narrative" }))
 });
 
 export const Unwrapped = Narrative;
