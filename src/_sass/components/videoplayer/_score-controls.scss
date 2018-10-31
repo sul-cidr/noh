@@ -50,6 +50,7 @@ $score-checkbox-height: 1.5rem;
 .sentence-control__current {
   font-weight: $fw-semibold;
   font-size: $fs-display-md;
+  min-width: 3rem;
 }
 
 .channel-toggles,
