@@ -8,7 +8,7 @@ permalink: /music/
 {% include second-menu-elements.html %}
 
 <main class="page-content">
-  <div class="wrapper">
+  <div class="text-container">
     {% include menu-instrument-large.html %}
 
     <h2>Elements of Music: an Introduction</h2>
