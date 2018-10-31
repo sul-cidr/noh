@@ -14,6 +14,7 @@ exports[`<IntermediaTitle> renders as expected 1`] = `
   >
     <a
       href="hashitomi/kiri"
+      title="kiri"
     >
       <span>
         kiri
