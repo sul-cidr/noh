@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime, setIsPlaying } from "../actionCreators";
 
+const MasterVideoOrigin = "MasterVideo";
+
 class MasterVideo extends Component {
   constructor(props) {
     super(props);
@@ -17,7 +19,7 @@ class MasterVideo extends Component {
 
   componentDidUpdate() {
     if (
-      this.props.currentTimeOrigin !== MasterVideo.name &&
+      this.props.currentTimeOrigin !== MasterVideoOrigin &&
       this.video.currentTime !== this.props.currentTime
     ) {
       this.video.currentTime = this.props.currentTime;
@@ -100,7 +102,7 @@ export const mapDispatchToProps = dispatch => ({
     dispatch(
       setCurrentTime({
         time: event.target.currentTime,
-        origin: MasterVideo.name
+        origin: MasterVideoOrigin
       })
     );
   },
