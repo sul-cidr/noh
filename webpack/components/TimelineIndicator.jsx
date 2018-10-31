@@ -138,7 +138,7 @@ const mapStateToProps = state => ({
 
 export const mapDispatchToProps = dispatch => ({
   updateCurrentTime: time =>
-    dispatch(setCurrentTime({ time, origin: TimelineIndicator.name }))
+    dispatch(setCurrentTime({ time, origin: "TimelineIndicator" }))
 });
 
 export const Unwrapped = TimelineIndicator;

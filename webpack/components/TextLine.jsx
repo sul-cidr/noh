@@ -63,7 +63,7 @@ Line.defaultProps = {
 };
 
 const mapDispatchToProps = dispatch => ({
-  updateStartTime: time => dispatch(setCurrentTime({ time, origin: Line.name }))
+  updateStartTime: time => dispatch(setCurrentTime({ time, origin: "Line" }))
 });
 
 export const UnwrappedLine = Line;

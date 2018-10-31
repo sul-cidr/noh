@@ -65,7 +65,7 @@ ShodanTimelineBlock.defaultProps = {
 
 const mapDispatchToProps = dispatch => ({
   updateStartTime: time =>
-    dispatch(setCurrentTime({ time, origin: ShodanTimelineBlock.name }))
+    dispatch(setCurrentTime({ time, origin: "ShodanTimelineBlock" }))
 });
 
 export const Unwrapped = ShodanTimelineBlock;
