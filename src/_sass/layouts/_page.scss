@@ -27,8 +27,11 @@
   
     @include text(lg,'text');
 
-    strong {
+    * {
       font-family: $font-text;
+    }
+    
+    strong {
       font-weight: $fw-bold;
     }
 
