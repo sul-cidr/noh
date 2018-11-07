@@ -26,6 +26,15 @@
     color: $brown;
   
     @include text(lg,'text');
+
+    strong {
+      font-family: $font-text;
+      font-weight: $fw-bold;
+    }
+
+    em {
+      font-style: italic;
+    }
   }
 }
 
@@ -37,3 +46,4 @@
     max-width: $wrapper-small;
   }
 }
+

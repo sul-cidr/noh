@@ -25,7 +25,7 @@ second-level-menu-active: catalog-shodan
         <div class="introductory-table__definition">Non-congruent</div>
       </div>
     </div> 
-    <p>Popular term among the performers for the final shōdan of a play. It is the second dance-to-text shōdan of a play, the kuse being potentially the first one. In scholarly circles this module is usually differentiated on the basis of its rhythmic organization: it is called noriji when set in ōnori, chūnoriji when set in chūnori, but there is no specific name when set in hiranori.</p>
+    <p>Popular term among <strong>the performers</strong> for the <em>final shōdan</em> of a play. It is the second dance-to-text shōdan of a play, the kuse being potentially the first one. In scholarly circles this module is usually differentiated on the basis of its rhythmic organization: it is called noriji when set in ōnori, chūnoriji when set in chūnori, but there is no specific name when set in hiranori.</p>
     <p>We have used the generic term kiri for the last module of both plays.</p> 
   </div>
 
