@@ -29,6 +29,14 @@ second-level-menu-active: catalog-shodan
     <p>We have used the generic term kiri for the last module of both plays.</p> 
   </div>
 
+  {% include image.html src="/assets/images/nohkan-small.jpg" %}
+
+  {% include image-no-background.html src="/assets/images/nohkan-small.jpg" %}
+  
+  {% include video.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+
+  {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+
   <div class="tabs-container">
     <div class="tabs-container__links">
       <div class="wrapper">

@@ -19,7 +19,7 @@ fourth-level-menu-active: sound
   </div>
 
   {% include image.html src="/assets/images/maibataraki.jpg" %}
-
+  
   <div class="text-container">
     <h2>Taiko Patterns and Rhythmic Organization</h2>
     <p>At a basic level the sounds of the taiko are sequenced to create patterns. Most patterns are eight beats long and typically start on the 2nd or 6th beat of the 8-beat metric unit. However there are patterns as short as two and as long as 24 beats in duration. The patterns are sequenced into larger phrases and sections. They are selected and ordered according to various sets of rules based on their formal function. The sequencing can vary depending on a specific section. The following figure shows one example of standard categories of patterns used in dance and ô-nori chanting; and how they can be sequenced.</p>
