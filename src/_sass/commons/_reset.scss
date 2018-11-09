@@ -27,7 +27,8 @@ ol, ul {
 	list-style: none;
 }
 
-a {
+a,
+time {
 	color: $red;
 	font-family: inherit;
 }

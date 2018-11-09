@@ -31,14 +31,17 @@
   padding: 2rem 0;
 }
 
-.image-container {
+.image-container,
+.video-website {
   background-color: $beige-light;
   border-bottom: $border;
   border-top: $border;
   margin: 4rem 0;
   padding: 4rem 0;
+}
 
-  img {
-    max-width: 100%;
-  }
+.image-container--no-background,
+.video-website--no-background {
+  margin: 2rem 0;
+  padding: 2rem 0;
 }

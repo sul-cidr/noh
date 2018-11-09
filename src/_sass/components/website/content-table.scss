@@ -1,0 +1,32 @@
+.content-table {
+  border-top: $border;
+  @extend .wrapper;
+}
+
+.content-table__row {
+  border-bottom: $border;
+
+  &:nth-child(2n+1) {
+    background-color: rgba($beige-light,0.5);
+  }
+}
+
+.content-table__column {
+  padding: 0.5rem 1rem;
+  min-width: 9rem;
+  vertical-align: top;
+
+  @include text(md, 'text');
+}
+
+.content-table__row--header {
+  .content-table__column {
+    background-color: $beige-light;
+    color: $green;
+    font-weight: $fw-semibold;
+    vertical-align: middle;
+  
+    @include text(xxs);
+    @include uppercase();
+  }
+}
