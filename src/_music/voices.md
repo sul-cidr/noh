@@ -63,24 +63,24 @@ fourth-level-menu-active: sound
     <p>
 Sections in kotoba are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following examples:
     </p>
-    <div id="tabs2"></div>
-    <section id='Hashitomi-Nanori-Inflection' title='Hashitomi Nanori Inflection' class='tabbed-narrative'>
+  </section>
+  <section id='Hashitomi-Nanori-Inflection' title='Hashitomi Nanori Inflection' class='tabbed-narrative'>
       <p>
       Video of Hashitomi-Nanori-Inflection
       </p>
       <p>
 Kotoba delivered by a waki personating a traveling priest. The slow delivery speed in the lower register is well suited for a calm traveling priest.
       </p>
-    </section>
-    <section id='Kokaji-Nanori-Inflection' title='Kokaji Nanori Inflection' class='tabbed-narrative'>
+  </section>
+  <section id='Kokaji-Nanori-Inflection' title='Kokaji Nanori Inflection' class='tabbed-narrative'>
       <p>
       Video of Kokaji Nanori Inflection
       </p>
       <p>
       Kotoba performed by a waki tsure performing a messenger, hastening to deliver an important order. The fast delivery speed and use of the higher register is well suited for a messenger who is in a hurry to deliver an important message.
       </p>
-    </section>
-    <section id='Kokaji-Mondō-Inflection' title='Kokaji Mondō Inflection' class='tabbed-narrative'>
+  </section>
+  <section id='Kokaji-Mondō-Inflection' title='Kokaji Mondō Inflection' class='tabbed-narrative'>
       <p>
     Video of Kokaji Mondō Inflection
       </p>
@@ -93,9 +93,8 @@ Kotoba delivered by a waki personating a traveling priest. The slow delivery spe
       <p>
       These are not to be understood as universal stylistic characteristics, but rather as performance differences, the shite’s less flamboyant style being well suited to a deity. Moreover, the difference between the two styles helps setting apart the divine being from the mere human.
       </p>
-
     </section>
-  </section>
+
 
   <section id='chanted' title='Chanted' class='tabbed-narrative'>
     <p>
