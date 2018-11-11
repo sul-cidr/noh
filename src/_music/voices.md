@@ -63,7 +63,7 @@ fourth-level-menu-active: sound
     <p>
 Sections in kotoba are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following examples:
     </p>
-    <div id="tabs"></div>
+    <div id="tabs2"></div>
     <section id='Hashitomi-Nanori-Inflection' title='Hashitomi Nanori Inflection' class='tabbed-narrative'>
       <p>
       Video of Hashitomi-Nanori-Inflection
