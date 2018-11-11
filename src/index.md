@@ -5,8 +5,7 @@
 layout: home
 ---
 
-<div class="home__image" style="background-image: url('/assets/images/shodan/rongi.jpg');"></div>
-# /assets/images/tatsu-side.jpg previously main image
+<div class="home__image" style="background-image: url('/assets/images/tatsu-side.jpg');"></div>
 <div class="home__content">
   <div class="wrapper">
     <h1>Noh as intermedia</h1>
