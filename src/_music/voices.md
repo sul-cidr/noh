@@ -58,34 +58,38 @@ fourth-level-menu-active: sound
     <p>All vocal production in Nō is uniquely stylized and falls in two general categories: </p>
   </div>
 
-  <div id="tabs"></div>
-  <section id='spoken' title='Spoken' class='tabbed-narrative'>
-    <p>The spoken music called kotoba consists of non-rhythmical prose intoned with a full voice in a rather stylized fashion. Usually, sentences are divided into two parts: a gradual rising tone reaching a peak followed by a falling off.  Colored syllables are used in the excerpts to identify the higher pitch that triggers the following descent.</p>
-    <p>Sections in kotoba are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following examples:</p>
-  </section>
-  <section id='Hashitomi-Nanori-Inflection' title='Hashitomi Nanori Inflection' class='tabbed-narrative'>
-      <p>Video of Hashitomi-Nanori-Inflection
-      </p>
-      <p>Kotoba delivered by a waki personating a traveling priest. The slow delivery speed in the lower register is well suited for a calm traveling priest.</p>
-  </section>
-  <section id='Kokaji-Nanori-Inflection' title='Kokaji Nanori Inflection' class='tabbed-narrative'>
-      <p>Video of Kokaji Nanori Inflection</p>
-      <p>Kotoba performed by a waki tsure performing a messenger, hastening to deliver an important order. The fast delivery speed and use of the higher register is well suited for a messenger who is in a hurry to deliver an important message.</p>
-  </section>
-  <section id='Kokaji-Mondō-Inflection' title='Kokaji Mondō Inflection' class='tabbed-narrative'>
-      <p>Video of Kokaji Mondō Inflection</p>
-      <p>The mondō from Kokaji is a spoken dialogue between the  shite (a divine being)  and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki.</p>
-      <p>The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki.</p>
-      <p>These are not to be understood as universal stylistic characteristics, but rather as performance differences, the shite’s less flamboyant style being well suited to a deity. Moreover, the difference between the two styles helps setting apart the divine being from the mere human.</p>
-    </section>
-
-
-  <section id='chanted' title='Chanted' class='tabbed-narrative'>
-    <p>
-    The chanted music called <em>utai</em> is sung in two different styles: <em>yowagin</em> - a gentler melodic singing and <em>tsuyogin</em> - a more forceful and dramatic one.
-    </p>
-  </section>
-
+  <div class="tabs-container">
+    <div class="tabs-container__links">
+      <div class="wrapper">
+        <div id="tabs"></div>
+      </div>
+    </div>
+    <div class="tabs-container__content">
+      <div class="wrapper">
+        <section id='spoken' title='Spoken' class='tabbed-narrative'>
+          <p>The spoken music called kotoba consists of non-rhythmical prose intoned with a full voice in a rather stylized fashion. Usually, sentences are divided into two parts: a gradual rising tone reaching a peak followed by a falling off.  Colored syllables are used in the excerpts to identify the higher pitch that triggers the following descent.</p>
+          <p>Sections in kotoba are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following examples:</p>
+        </section>
+        <section id='Hashitomi-Nanori-Inflection' title='Hashitomi Nanori Inflection' class='tabbed-narrative'>
+          <p>Video of Hashitomi-Nanori-Inflection</p>
+          <p>Kotoba delivered by a waki personating a traveling priest. The slow delivery speed in the lower register is well suited for a calm traveling priest.</p>
+        </section>
+        <section id='Kokaji-Nanori-Inflection' title='Kokaji Nanori Inflection' class='tabbed-narrative'>
+          <p>Video of Kokaji Nanori Inflection</p>
+          <p>Kotoba performed by a waki tsure performing a messenger, hastening to deliver an important order. The fast delivery speed and use of the higher register is well suited for a messenger who is in a hurry to deliver an important message.</p>
+        </section>
+        <section id='Kokaji-Mondō-Inflection' title='Kokaji Mondō Inflection' class='tabbed-narrative'>
+          <p>Video of Kokaji Mondō Inflection</p>
+          <p>The mondō from Kokaji is a spoken dialogue between the  shite (a divine being)  and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki.</p>
+          <p>The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki.</p>
+          <p>These are not to be understood as universal stylistic characteristics, but rather as performance differences, the shite’s less flamboyant style being well suited to a deity. Moreover, the difference between the two styles helps setting apart the divine being from the mere human.</p>
+        </section>
+      <section id='chanted' title='Chanted' class='tabbed-narrative'>
+        <p>The chanted music called <em>utai</em> is sung in two different styles: <em>yowagin</em> - a gentler melodic singing and <em>tsuyogin</em> - a more forceful and dramatic one.</p>
+      </section>
+      </div>
+    </div>
+  </div>
 </main>
 
 
