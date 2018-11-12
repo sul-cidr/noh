@@ -22,10 +22,30 @@
       width: 4rem;
     }
   }
+
+  img,
+  video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
   p {
     color: $brown;
   
     @include text(lg,'text');
+
+    * {
+      font-family: $font-text;
+    }
+    
+    strong {
+      font-weight: $fw-bold;
+    }
+
+    em {
+      font-style: italic;
+    }
   }
 }
 
@@ -37,3 +57,4 @@
     max-width: $wrapper-small;
   }
 }
+

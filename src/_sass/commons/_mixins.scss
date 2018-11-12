@@ -7,6 +7,7 @@
 
 @mixin text($size, $font:'display') {
   @if $font == 'display' {
+    font-family: $font-display;
     font-size: map-get($font-sizes-display, $size);
     line-height: map-get($line-heights-display, $size);
   } 
