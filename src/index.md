@@ -31,7 +31,7 @@ layout: home
       %}
       {% include card.html
           link="/elements-of-noh"
-          image="/assets/images/shodan/issei-music.jpg"
+          image="/assets/images/Hashitomi-prop-covered.jpg"
           icon="icon-elements"
           title="Elements of Noh"
           description="Contributes a bottom-up perspective with information about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays."
