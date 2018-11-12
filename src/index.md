@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<div class="home__image" style="background-image: url('/assets/images/Hashi4.jpg');"></div>
+<div class="home__image" style="background-image: url('/assets/images/Hashi5.jpg');"></div>
 <div class="home__content">
   <div class="wrapper">
     <h1>Noh as intermedia</h1>
@@ -17,14 +17,14 @@ layout: home
     <div class="cards-container">
       {% include card.html
           link="/about-intermedia"
-          image="/assets/images/shodan/noriji.jpg"
+          image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           icon="icon-intermedia"
           title="About Intermedia"
           description="Defines the notion of Intermedia and how it can be applied to the analysis of Noh."
       %}
       {% include card.html
           link="/plays"
-          image="/assets/images/shodan/kuse.jpg"
+          image="/assets/images/Kokaji-duo2.jpg"
           icon="icon-plays"
           title="Plays"
           description="Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings."
