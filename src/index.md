@@ -20,14 +20,14 @@ layout: home
           image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           icon="icon-intermedia"
           title="About Intermedia"
-          description="Defines the notion of Intermedia and how it can be applied to the analysis of Noh."
+          description="Defines the notion of Intermedia and how it is applied to the analysis of Noh."
       %}
       {% include card.html
           link="/plays"
           image="/assets/images/Kokaji-duo2.jpg"
           icon="icon-plays"
           title="Plays"
-          description="Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings."
+          description="Offers a top-down analytical view of two plays with information about its formal components, intermedia workings and links to constituent elements."
       %}
       {% include card.html
           link="/elements-of-noh"
