@@ -10,7 +10,29 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h2>kneeling</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+    <h3><a href="/movement/" target="_blank">Catalog</a></h3>
+    <h3>Structural Patterns/Still Position</h3>
+    <h2>Kneeling (<em>shita ni i</em>)</h2>
+    <p>The actors kneel on the floor with one knee up and the other one resting on the floor.</p>
   </div>
+
+
+
+<div class="tabs-container">
+  <div class="tabs-container__links">
+    <div class="wrapper">
+      <div id="tabs"></div>
+    </div>
+  </div>
+  <div class="tabs-container__content">
+    <div class="wrapper">
+      <section id="tab-1" title="Front" class="tabbed-narrative">
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+      </section>
+      <section id="tab-2" title="Side" class="tabbed-narrative">
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+      </section>
+    </div>
+  </div>
+</div>
 </main>
