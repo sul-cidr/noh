@@ -9,6 +9,8 @@
 
 .text-container {
   @extend .wrapper;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 
 .tabs-container {
@@ -21,6 +23,7 @@
 
 .tabs-container__links {
   border-bottom: $border;
+
   .react-tabs__tab-list {
     border-bottom-width: 0;
   }
