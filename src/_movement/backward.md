@@ -10,8 +10,8 @@ second-level-menu-active: movement
 <main class="page-content">
   <div class="text-container">
     <h3><a href="/movement/" target="_blank">Movement Catalog:</a> Structural Patterns/Foot Motion</h3>
-      <h2 class="collapsible collapsible-closed">Walking Backward (<em>sagaru</em>)</h2>
-    <p>When moving backward, the toes are lifted as the heel slides back. The slow start and gradual acceleration that characterize the walking rhythm of Noh is an influence of spacio-temporal concept of <em>Jo-ha-kyū</em>. Although subtle in the feminine mode, its effect is strongly pronouned in martial mode.</p>
+      <h2 class="collapsible">Walking Backward (<em>sagaru</em>)</h2>
+    <p>When moving backward, the toes are lifted as the heel slides back. The slow start and gradual acceleration that characterize the walking rhythm of Noh is an influence of spacio-temporal concept <em>jo-ha-kyū</em>. Although subtle in the feminine mode, it is more strongly pronouned in martial mode.</p>
   </div>
 
 <div class="tabs-container">
@@ -25,19 +25,19 @@ second-level-menu-active: movement
       <section id="tab-1" title="Feminine (side)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
-      <section id="tab-2" title="Feminine (close-up side)" class="tabbed-narrative">
+      <section id="tab-2" title="Feminine (side, close)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
-      <section id="tab-3" title="Feminine (close-up front)" class="tabbed-narrative">
+      <section id="tab-3" title="Feminine (front, close)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
       <section id="tab-4" title="Martial (side)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
-      <section id="tab-5" title="Martial (close-up side)" class="tabbed-narrative">
+      <section id="tab-5" title="Martial (side, close)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
-      <section id="tab-6" title="Martial (close-up front)" class="tabbed-narrative">
+      <section id="tab-6" title="Martial (front, close)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
     </div>
