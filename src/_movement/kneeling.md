@@ -10,8 +10,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h3><a href="/movement/" target="_blank">Catalog</a></h3>
-    <h3>Structural Patterns/Still Position</h3>
+    <h3><a href="/movement/" target="_blank">Movement Catalog:</a> Structural Patterns/Still Position</h3>
     <h2>Kneeling (<em>shita ni i</em>)</h2>
     <p>The actors kneel on the floor with one knee up and the other one resting on the floor.</p>
   </div>
