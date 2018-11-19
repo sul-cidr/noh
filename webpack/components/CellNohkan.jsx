@@ -3,13 +3,12 @@ import PropTypes from "prop-types";
 
 const CellNohkan = props => (
   <div
+    data-tooltip={props.text}
     className={`cell cell--${props.length} cell--nohkan ${
       props.text.length > 0 ? "cell--tooltip" : ""
     }`}
   >
-    <span data-tooltip={props.text} className="truncate">
-      {props.text}
-    </span>
+    <span className="truncate">{props.text}</span>
   </div>
 );
 
