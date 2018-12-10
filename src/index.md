@@ -20,21 +20,21 @@ layout: home
           image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           icon="icon-intermedia"
           title="About Intermedia"
-          description="defines the notion of Intermedia and how it is applied to the analysis of Nō."
+          description="defines the notion in general and how it is applied in this study."
       %}
       {% include card.html
           link="/plays"
           image="/assets/images/Kokaji-duo2.jpg"
           icon="icon-plays"
           title="Plays"
-          description="offers a top-down analytical view of two plays with information about its formal components, intermedia workings and links to constituent elements."
+          description="offers video recordings, libretti, scores, and a detailed comparative analysis of two contrasting plays."
       %}
       {% include card.html
           link="/elements-of-noh"
           image="/assets/images/Hashitomi-prop-covered.jpg"
           icon="icon-elements"
           title="Elements of Nō"
-          description="contributes a bottom-up perspective with information about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays."
+          description="presents fundamentals of Nō music, movement, staging, and forms with emphasis on information relevant for the featured plays. "
       %}
     </div>
   </div>
