@@ -18,7 +18,7 @@ permalink: /plays/
             link=play.url
             image=play.image
             title=play.title
-            description="Defines the notion in general and how it can be applied to the analysis of Noh."
+            description=""
           %}
         {% endunless %}
       {% endfor %}
