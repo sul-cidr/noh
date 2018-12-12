@@ -24,7 +24,7 @@ To allow our readers to experience a wide range of expression the project featur
             link=play.url
             image=play.image
             title=play.title
-            description="we need to different images and texts"
+            description="we need two different images and two texts"
           %}
         {% endunless %}
       {% endfor %}
