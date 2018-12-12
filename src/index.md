@@ -20,7 +20,7 @@ layout: home
           image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           icon="icon-intermedia"
           title="About Intermedia"
-      description="defines the notion of <em>intermedia</em> in general and how it is applied in this project."
+      description="defines the notion of intermedia in general and how it is applied in this project."
       %}
       {% include card.html
           link="/plays"
