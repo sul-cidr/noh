@@ -7,7 +7,7 @@ permalink: /plays/
 <main class="page-content">
   <div class="text-container">
     <h2>Plays</h2>``
-    <p>The current Nō repertoire consists of over 220 plays that have traditionally been classified into the following five categories:<br> 
+    <p>The current Nō repertoire consists of over 210 plays that have traditionally been classified into the following five categories:<br> 
 1. God plays (神物) <br> 
 2. Warrior plays (修羅物) <br> 
 3. Woman or“wig” plays (女物) <br> 
