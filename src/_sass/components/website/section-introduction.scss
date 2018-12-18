@@ -20,4 +20,9 @@
   margin-bottom: 0.5rem;
 
   @include text(sm, 'text');
+
+  ul {
+    list-style: disc;
+    margin-left: 1rem;
+  }
 }
