@@ -2,6 +2,7 @@ section.interweave {
   padding: 1rem 0;
 
   p {
+    color: $brown;
     font-family: $font-text;
     margin-bottom: 0.5rem;
 
@@ -12,19 +13,30 @@ section.interweave {
     }
   }
 
+  h2, h3, h4 {
+    color: $brown;
+  }
+
   h2 {
     font-weight: $fw-bold;
     margin-bottom: 0.5rem;
 
-    @include text(lg);
+    @include text(md);
   }
 
   h3 {
-    font-weight: $fw-bold;
+    font-weight: $fw-semibold;
     margin-bottom: 0.5rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
 
-    @include text(md);
+    @include text(sm);
+  }
+
+  h4 {
+    font-weight: $fw-semibold;
+    margin-bottom: 0.5rem;
+
+    @include text(xs);
   }
 
   time {
@@ -32,3 +44,5 @@ section.interweave {
     cursor: pointer;
   }
 }
+
+
