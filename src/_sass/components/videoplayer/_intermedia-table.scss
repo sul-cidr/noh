@@ -58,10 +58,10 @@
         animation-iteration-count: infinite;
         animation-direction: normal;
         animation-fill-mode: forwards;
+        font-size: $fs-display-tn;
+        line-height: $lh-display-tn;
         position: relative;
         top: -0.0625rem;
-  
-        @include text(tn);
       }
 
       &:hover {

@@ -8,7 +8,7 @@
   color: $green;
   flex-basis: 5rem;
   flex-shrink: 0;
-  font-weight: $fw-semibold;
+  font-weight: $fw-bold;
 
   @include text(xs);
   @include uppercase();

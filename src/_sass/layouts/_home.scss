@@ -57,7 +57,7 @@
   position: relative;
   
   &::before {
-    background-image: linear-gradient(180deg, $black16 0%, $black64 100%);
+    background-image: linear-gradient(180deg, $black64 0%, $black16 100%);
     content: '';
     position: absolute;
     width: 100%;
