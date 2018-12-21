@@ -1,8 +1,8 @@
 ---
 layout: website
-name: w-both-hands 
-filter-act: 
-filter-type: 
+name: beckon-two
+filter-act:
+filter-type:
 second-level-menu-active: movement
 ---
 
@@ -10,7 +10,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h2>w-both-hands</h2>
+    <h2>beckon fan two hands</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
   </div>
 </main>
