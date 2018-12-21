@@ -10,7 +10,13 @@ fourth-level-menu-active: sound
 
 {% include menu-instrument-small.html %}
 
+
 <main class="page-content">
+
+  <div class="wrapper">
+    {% include menu-voices.html %}
+  </div>
+
   <div class="text-container">
     <h2>Voices</h2>
     <p>There are six types of actors/singers:</p>

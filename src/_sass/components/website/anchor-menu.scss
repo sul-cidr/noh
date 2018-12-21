@@ -1,0 +1,20 @@
+.anchor-menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $wrapper-small;
+}
+.anchor-menu__element {
+  margin-bottom: 0.75rem;
+
+  a {
+    color: $green;
+    @include text(lg, 'text');
+  }
+
+  &.active {
+    a {
+      font-weight: $fw-bold;
+      text-decoration: none;
+    }
+  }
+}
