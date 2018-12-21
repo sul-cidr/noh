@@ -1,8 +1,8 @@
 ---
 layout: website
-name: forward 
-filter-act: 
-filter-type: 
+name: Walking Forward 
+filter-act:
+filter-type:
 second-level-menu-active: movement
 ---
 
