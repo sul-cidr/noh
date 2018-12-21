@@ -20,7 +20,7 @@ permalink: /plays/
             link=play.url
             image=play.image
             title=play.title
-            description="we need two different images and two texts"
+            description=play.description
           %}
         {% endunless %}
       {% endfor %}

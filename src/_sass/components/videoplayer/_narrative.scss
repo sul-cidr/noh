@@ -7,19 +7,23 @@
   padding: 2.5rem 1rem 2rem 1rem;
 
   .collapsible {
-    align-items: baseline;
+    align-items: center;
     cursor: pointer;
     display: flex;
     justify-content: flex-start;
 
     &::before {
-      content: '›';
-      display: block;
+      align-items: center;
+      content: $fa-var-caret-right;
+      display: flex;
+      font-family: $font-icon;
+      font-size: $fs-display-xxs;
       height: 1rem;
-      line-height: 0.5;
+      justify-content: center;
+      line-height: 1;
       text-align: center;
-      transform: rotate(90deg);
       transform-origin: 50% 50%;
+      transform: rotate(90deg);
       transition: transform 300ms ease-in-out;
       width: 1rem;
     }
@@ -34,5 +38,4 @@
       }
     }
   }
-
 }

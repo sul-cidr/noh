@@ -1,5 +1,7 @@
 .content-table {
   border-top: $border;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   @extend .wrapper;
 }
 
@@ -17,6 +19,10 @@
   vertical-align: top;
 
   @include text(md, 'text');
+
+  p {
+    @include text(md, 'text');
+  }
 }
 
 .content-table__row--header {

@@ -1,0 +1,52 @@
+.video-website {
+}
+
+.video-website__toggle {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  max-width: $wrapper-media;
+  text-align: right;
+  width: 100%;
+
+  &:hover {
+    color: $green;
+
+    & + .video-website__container {
+      .video-website__tooltip {
+        display: block;
+      }
+    }
+  }
+}
+
+.video-website__container {
+  margin: 0 auto;
+  max-width: $wrapper-media;
+  position: relative;
+  width: 100%;
+}
+
+.video-website__tooltip {
+  background-color: $black80;
+  display: none;
+  height: 100%;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.video-website__description {
+
+  h6,
+  p {
+    color: $white;
+  }
+
+  h6 {
+    @include text(lg);
+  }
+}
+
