@@ -9,18 +9,18 @@ layout: home
 <div class="home__content">
   <div class="wrapper">
     <h1>Noh as Intermedia</h1>
-    <p>If one were to define intermedia as a way of forming expression by drawing on relationships between words, music, and visuals, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami (c.1363-c.1443) who is credited with having perfected Nō as it still exists today, wrote in his Fūshikaden that in a successful play:</p> 
+    <p>If one were to define 'intermedia' as a way of forming expression by drawing on relationships between arts, Noh Theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props would be among its world’s most sophisticated and mighty exemplars. Zeami Motokiyo (c.1363-c.1443) who is credited with having perfected Nō as it still exists today, wrote in his <em>Fūshikaden</em> that in a successful play:</p>
     <blockquote>
-      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p> 
+      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.<a href="#quote"><sup>1</sup></a></p>
     </blockquote>
-    <p>This website hopes to untangle some of the idiomatic “coming together” of media in Noh.  To achieve this, the material is divided into the following three sections:</p>
+    <p>In the attempt to untangle some of the unique 'coming together' of artistic media in Noh, the website is divided into the following three sections:</p>
     <div class="cards-container">
       {% include card.html
           link="/about-intermedia"
           image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           icon="icon-intermedia"
           title="About Intermedia"
-      description="defines the notion of intermedia in general and how it is applied in this project."
+      description="contextualizes the notion of intermedia in general and how it is applied in this project."
       %}
       {% include card.html
           link="/plays"
@@ -34,12 +34,11 @@ layout: home
           image="/assets/images/Hashitomi-prop-covered.jpg"
           icon="icon-elements"
           title="Elements of Noh"
-          description="presents fundamentals of Noh music, movement, and staging, as well as catalogs of standard dance patterns and forms used in the featured plays. "
+          description="presents fundamentals of Noh music, movement, and staging, as well as catalogs of standard dance patterns and musical forms used in the featured plays. "
       %}
     </div>
   </div>
 </div>
-
-
-
-
+<div class="text-container">
+    <p>1. Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008, p.xxxx</p>
+    </div>

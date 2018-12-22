@@ -60,7 +60,7 @@ fourth-level-menu-active: sound
   </table>
 
   <div class="text-container">
-    <h2>Sound of the Voice</h2>
+    <h2 id="Sound"> Sound of the Voice</h2>
     <p>All vocal production in Nō is uniquely stylized and falls in two general categories: </p>
   </div>
 
@@ -97,5 +97,3 @@ fourth-level-menu-active: sound
     </div>
   </div>
 </main>
-
-
