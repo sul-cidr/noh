@@ -8,101 +8,64 @@ permalink: /about-intermedia/
 
 <main class="page-content">
 
-<div class="wrapper">
-<ul class="anchor-menu">
-  <li class="anchor-menu__element"> <a href="#about-intermedia">About Intermedia</a></li>
-  <li class="anchor-menu__element"> <a href="#intermedia-index">Intermedia Structure of Noh</a></li>
-</ul>
-</div>
+  <div class="wrapper">
+    <ul class="anchor-menu">
+      <li class="anchor-menu__element"> <a href="#about-intermedia">About Intermedia</a></li>
+      <li class="anchor-menu__element"> <a href="#intermedia-index">Intermedia Structure of Noh</a></li>
+    </ul>
+  </div>
 
   <div class="text-container">
     <h2>About Intermedia</h2>
-    <p>In our definition intermedia is a way of forming artistic expression that draws on relationships between artistic media. Noh theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props is a particularly rich and sophisticated form of Intermedia. Not only it brings together multiple forms of art but each of them plays a substantial part, and the correspondences between them are singular, intricate and wide-ranging.  The goal of this website is to examine and interpret the roles and interactions between media in Noh.
-</p><p>
-It is important to note that not all media will have equal importance at all times. At different moments in a play, any element or combination of them can dominate. It is probably natural though that in a time-based art form like theater particular weight and attention is given to dimensions that change over time. Actively evolving elements like word narratives, musical sequences or dance movement come particularly strongly to the fore of perception due to their constant development. Because changes often have some form of qualitative vector, combinations of media can align these vectors reinforcing each other in dramatic ways.
-</p><p>
-The primary role of time-based components does not mean that elements like costumes or props that are comparatively constant do not play significant roles in what Zeami refers to as "points of concentrated interest." When they appear on the stage for the first time or when they are used for specific dramatic purposes,  they equally can become the center of attention. Even when they remain relatively unchanged, they help in establishing important semantic or aesthetic context.  They are often essential to the understanding of critical moments in the plays.
-</p><p>
-In abstract terms, fundamental relationships between media vectors can be of similarity or contrast. Neither of the two relationships is more impactful than the other. For example, a lively text delivered at the center of the stage with the accompaniment of a full ensemble is not automatically more expressive than a slow-paced call from behind the mirror room with the rest of performers listening with anticipation. Dramatic tension is not merely a function of the combined level of activity or its "loudness." One can observe that the similarity of energy between all of the performers in the former, and the contrast in the latter case were participating in establishing the overall dramatic interest of the scenes. When each element has multiple qualities and dimensions (ex. music with its fluctuations in tempo, rhythmic organization, pitch range, styles of delivery and more), an accurate interpretation of all characteristics and their relationships can become extremely rich and complex. Some prioritizing and subjective interpretation was, therefore, an inevitable part of our analysis.
-</p><p>
-The typical underlying condition for intermedia is the simultaneity of actions in different media layers. In practice, they do not have to start precisely together, be of equal duration or even overlap. The intersection in time is certainly powerful, but to create a strong relationship of meaning and synergy they only need to happen in temporal proximity or sequentially.
-</p><p>
-Our analysis will approach Noh on different formal levels, from full plays, through sections, to very brief but poignant moments or motives. We will also look at two general kinds of correspondences often functioning at the same time ; structural and semantic
-</p><p>
-Structural correspondences in Noh can be:
-</p>
-<ul class="anchor-menu">
-  <li class="anchor-menu__element"> 1. Temporal  (ex., correlation of rhythmic and/or metric flow, tempo changes, formal symmetry/asymmetry ) and</li>
-  <li class="anchor-menu__element"> 2. Qualitative  (ex., expressive character, intensity, motion)</li>
-</ul>
-<p>
-Semantic correspondences include:
-</p>
-<ul class="anchor-menu">
-  <li class="anchor-menu__element"> Mimetic (ex., referring to recognizable objects or actions) and</li>
-  <li class="anchor-menu__element"> Emotional/psychological state (ex, representing anger, sadness, pleasure, anticipation)x</li>
-</ul>
-
-<h2 id="intermedia-index"> Intermedia Structure of Noh</h2>
-
-<p>It is common practice in the context of formal analyses of Noh plays to refer to Zeami's adaptation of the Gagaku concept of Jo- ha- kyû, where sections (shôdan) are grouped in sub-sets to fit within the larger five-part scheme: Jo - Ha-jo - Ha-ha - Ha-kyû - Kyû.
-While we recognized the importance in this formal concept in Zeami's work and occasionally referred to it, it was not well suited for the analysis of the intermedia structure of a Noh play.
-Hence, we developed a method of analysis that is primarily based on perception that aims at showing how the form of a play is articulated through the interaction between its text, music, and dance.
-</p><p>
-Considering that the development of each media throughout the course of a Noh play is more or less prescribed, we ranked all the possible combinations between text, music and dance, where earlier stages of development were assigned a lower rank whereas higher one where given to combinations involving later stages of development.
-This development of the ranking system went through a five step process.</p>
-<h3>Step one: Transformation of each media component
-</h3>
-<p>
-First, we looked at the transformation of each media component over the course of a play, understanding that the development of each one is more or less prescribed.  For example, at the beginning of a play, the 'chant' is often spoken, presented by a single actor, the waki. Its content is more or less factual, providing the audience with information about his identity, where he comes from, where he is going, and why. A solo song or a set of solo songs often follow this introduction. Next, the entrance of the shite often leads to a return to spoken dialogue but this time between the two actors. The songs that typically follow this dialogue involves the chorus with duos that are usually more poetic and abstract in nature as to preserve the mystery around the shite’s identity, that is at least until the second act when the veil around his identity is usually lifted.
-</p><p>
-Understanding that the meaning of the words can be reinforced or modulated depending on context, which is set or affected by the instrumental accompaniment; the rhythmic relationship between text and music; the motion on stage, we also looked at the overall transformation of the music and dance over the course of a play, which is also loosely predetermined.
-In the course of a play, the treatment of the text, music, dance, and the use of space evolve according to the unfolding story. A summary of each component’s generic transformation through the course of a play is listed below. It is important to view this information as reference model rather than strict and absolute trajectories:
-</p><p>
-Text:      It changes from unmetered narrative prose to metered poetry.
-Chant:   It changes from spoken solo, to singing solo, to spoken dialogue, and finally to singing dialogue.
-Music:  It changes from non-congruent to congruent.
-Space:   It changes from a limited use of it, to a quiet dance that starts expanding the use of the stage-space, to a longer dance that is more extensive in its use of stage-space with intensified movements involving the fan and sleeves.
-</p>
-<h3>Step two: Transformation of the rhythmic organization of the each media component
-</h3>
-<p>
-Second, we looked at the transformation of the rhythmic organization of each media component over the course of a play. Once again we noticed prescribed transformations.  The figure below shows the generic rhythmic changes of each component over the duration of a play.
-</p><p>
-The rhythmic organization of the voice moves in waves from spoken solo to non-congruent singing, from spoken duo to congruent singing set in hira-nori. In the second act, it moves from non-congruent singing to congruent singing set this time in either ônori or chûnori. The rhythmic organization of the percussion instruments tends to follow the voice's, starting each act in non-congruent moving to congruent. On the other hand, the nohkan's rhythmic organization is non-congruent almost throughout a play, switching to congruent when accompanying the 'pure' dance.
-</p><p>
-Typically a Noh play will include two if not three dances. The symbol ’ √ ’ indicates where one can be expected. The 1)  √   and 3)  √  are usually a dance-to-text section. In this case, the dance supports the text by mimicking the described action. The 2)  √  is the crown jewel of a play: the ‘pure’ dance. Because of the absence of a text, this dance is more abstract.  But also because of the absence of text, the dance is the sole foreground material in this section; hence it is often grander than the other two.
-It is important to view this information as a reference model rather than strict and absolute trajectories. The analysis of the plays found on this website will help illustrate this point since they both, in their own way, deviate from this model.
-</p>
-<img src="/assets/images/intermediarhythmicstate-nochiba.jpg">
-<h3>Step three: Ranking basic media components based on stage of development
-</h3>
-<p>
-Keeping in mind that our ultimate goal was to rank all possible combinations between text, music and dance, we then considered the overall transformation of each component throughout a play, differentiating between earlier and latter stage of development. This is how we determine the following orders: singing over speaking, congruent over non-congruent, in the context of congruent music: ô-nori / chû-nori over hiranori,  danced section over one without dance, and in the context of a danced section: 'Pure' dance over Dance-to-text. Other considerations included:
-</p><p>
-The nohkan solo with its free rhythm and the fact that it does not participate to the unfolding of the story since it has no text, was assigned the starting level.
-</p><p>
-Because the text of a vocal part contributes to the unfolding of the story, it was given a higher order than the two-hand drums solo.
-</p><p>
-A texture with a larger instrumentation was ranked higher over a smaller one.
-The ‘pure’ dance being the crown jewel of most plays was selected as the highest ranked texture.
-</p><p>
-The figure below summarizes the hierarchies that we established:
-</p>
-<img src="/assets/images/intermediatextures.jpg">
-<h3>Step four: Assignment of ranked position for the textures
-</h3>
-<p>
-Fourth, we defined the texture of a section (shôdan) in terms of its instrumentation, rhythmic structure, and if it includes a dance or not. Considering all possible sections (shôdan), we identified twenty-three textures. We ranked the textures from the simplest to the optimal, as summarized in the following figure (Note that a vocal part marked with the number 2 implies a duo either between two actors, or between the chorus and an actor):
-</p>
-<img src="/assets/images/twentythreetextures.jpg">
-<h3>Step five: Assignment of hierarchical position for the textures found in three Noh plays
-</h3>
-<p>
-Fifth, we based our analysis of the form of a Noh play on the evolution of the textures of its sections (shôdan). Although we moved away from a formal analysis based on the Jo- ha- kyû concept and developed a method of analysis that is primarily based on perception, we still used Zeami's formal design but only as a reference model and as a point of comparison.
-The two plays showcased on this website are Hashitomi (category 3) and Kokaji (category 5).  The former has 19 sections (shôdan), the latter has 20. We compared their structure with Izutsu's, a play written by Zeami that epitomizes his model structure.  When combining these three plays, we found that they include examples of twenty out of the possible twenty-three textures. It is these twenty textures that we have used when plotting the form of each play.
-</p>
-<img src="/assets/images/twentytextures.jpg">
+    <p>In our definition intermedia is a way of forming artistic expression that draws on relationships between artistic media. Noh theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props is a particularly rich and sophisticated form of Intermedia. Not only it brings together multiple forms of art but each of them plays a substantial part, and the correspondences between them are singular, intricate and wide-ranging.  The goal of this website is to examine and interpret the roles and interactions between media in Noh.</p>
+    <p>It is important to note that not all media will have equal importance at all times. At different moments in a play, any element or combination of them can dominate. It is probably natural though that in a time-based art form like theater particular weight and attention is given to dimensions that change over time. Actively evolving elements like word narratives, musical sequences or dance movement come particularly strongly to the fore of perception due to their constant development. Because changes often have some form of qualitative vector, combinations of media can align these vectors reinforcing each other in dramatic ways.</p>
+    <p>The primary role of time-based components does not mean that elements like costumes or props that are comparatively constant do not play significant roles in what Zeami refers to as "points of concentrated interest." When they appear on the stage for the first time or when they are used for specific dramatic purposes,  they equally can become the center of attention. Even when they remain relatively unchanged, they help in establishing important semantic or aesthetic context.  They are often essential to the understanding of critical moments in the plays.</p>
+    <p>In abstract terms, fundamental relationships between media vectors can be of similarity or contrast. Neither of the two relationships is more impactful than the other. For example, a lively text delivered at the center of the stage with the accompaniment of a full ensemble is not automatically more expressive than a slow-paced call from behind the mirror room with the rest of performers listening with anticipation. Dramatic tension is not merely a function of the combined level of activity or its "loudness." One can observe that the similarity of energy between all of the performers in the former, and the contrast in the latter case were participating in establishing the overall dramatic interest of the scenes. When each element has multiple qualities and dimensions (ex. music with its fluctuations in tempo, rhythmic organization, pitch range, styles of delivery and more), an accurate interpretation of all characteristics and their relationships can become extremely rich and complex. Some prioritizing and subjective interpretation was, therefore, an inevitable part of our analysis.</p>
+    <p>The typical underlying condition for intermedia is the simultaneity of actions in different media layers. In practice, they do not have to start precisely together, be of equal duration or even overlap. The intersection in time is certainly powerful, but to create a strong relationship of meaning and synergy they only need to happen in temporal proximity or sequentially.</p>
+    <p>Our analysis will approach Noh on different formal levels, from full plays, through sections, to very brief but poignant moments or motives. We will also look at two general kinds of correspondences often functioning at the same time ; structural and semantic</p>
+    <p>Structural correspondences in Noh can be:</p>
+    <ul class="anchor-menu">
+      <li class="anchor-menu__element"> 1. Temporal  (ex., correlation of rhythmic and/or metric flow, tempo changes, formal symmetry/asymmetry ) and</li>
+      <li class="anchor-menu__element"> 2. Qualitative  (ex., expressive character, intensity, motion)</li>
+    </ul>
+    <p>Semantic correspondences include:</p>
+    <ul class="anchor-menu">
+      <li class="anchor-menu__element"> Mimetic (ex., referring to recognizable objects or actions) and</li>
+      <li class="anchor-menu__element"> Emotional/psychological state (ex, representing anger, sadness, pleasure, anticipation)x</li>
+    </ul>
+    <h2 id="intermedia-index"> Intermedia Structure of Noh</h2>
+    <p>It is common practice in the context of formal analyses of Noh plays to refer to Zeami's adaptation of the Gagaku concept of Jo- ha- kyû, where sections (shôdan) are grouped in sub-sets to fit within the larger five-part scheme: Jo - Ha-jo - Ha-ha - Ha-kyû - Kyû.
+    While we recognized the importance in this formal concept in Zeami's work and occasionally referred to it, it was not well suited for the analysis of the intermedia structure of a Noh play.
+    Hence, we developed a method of analysis that is primarily based on perception that aims at showing how the form of a play is articulated through the interaction between its text, music, and dance.</p>
+    <p>Considering that the development of each media throughout the course of a Noh play is more or less prescribed, we ranked all the possible combinations between text, music and dance, where earlier stages of development were assigned a lower rank whereas higher one where given to combinations involving later stages of development. This development of the ranking system went through a five step process.</p>
+    <h3>Step one: Transformation of each media component</h3>
+    <p>First, we looked at the transformation of each media component over the course of a play, understanding that the development of each one is more or less prescribed.  For example, at the beginning of a play, the 'chant' is often spoken, presented by a single actor, the waki. Its content is more or less factual, providing the audience with information about his identity, where he comes from, where he is going, and why. A solo song or a set of solo songs often follow this introduction. Next, the entrance of the shite often leads to a return to spoken dialogue but this time between the two actors. The songs that typically follow this dialogue involves the chorus with duos that are usually more poetic and abstract in nature as to preserve the mystery around the shite’s identity, that is at least until the second act when the veil around his identity is usually lifted.</p>
+    <p>Understanding that the meaning of the words can be reinforced or modulated depending on context, which is set or affected by the instrumental accompaniment; the rhythmic relationship between text and music; the motion on stage, we also looked at the overall transformation of the music and dance over the course of a play, which is also loosely predetermined. In the course of a play, the treatment of the text, music, dance, and the use of space evolve according to the unfolding story. A summary of each component’s generic transformation through the course of a play is listed below. It is important to view this information as reference model rather than strict and absolute trajectories:</p>
+    <p>Text:      It changes from unmetered narrative prose to metered poetry.
+    Chant:   It changes from spoken solo, to singing solo, to spoken dialogue, and finally to singing dialogue.
+    Music:  It changes from non-congruent to congruent.
+    Space:   It changes from a limited use of it, to a quiet dance that starts expanding the use of the stage-space, to a longer dance that is more extensive in its use of stage-space with intensified movements involving the fan and sleeves.</p>
+    <h3>Step two: Transformation of the rhythmic organization of the each media component</h3>
+    <p>Second, we looked at the transformation of the rhythmic organization of each media component over the course of a play. Once again we noticed prescribed transformations.  The figure below shows the generic rhythmic changes of each component over the duration of a play.</p>
+    <p>The rhythmic organization of the voice moves in waves from spoken solo to non-congruent singing, from spoken duo to congruent singing set in hira-nori. In the second act, it moves from non-congruent singing to congruent singing set this time in either ônori or chûnori. The rhythmic organization of the percussion instruments tends to follow the voice's, starting each act in non-congruent moving to congruent. On the other hand, the nohkan's rhythmic organization is non-congruent almost throughout a play, switching to congruent when accompanying the 'pure' dance.</p>
+    <p>Typically a Noh play will include two if not three dances. The symbol ’ √ ’ indicates where one can be expected. The 1)  √   and 3)  √  are usually a dance-to-text section. In this case, the dance supports the text by mimicking the described action. The 2)  √  is the crown jewel of a play: the ‘pure’ dance. Because of the absence of a text, this dance is more abstract.  But also because of the absence of text, the dance is the sole foreground material in this section; hence it is often grander than the other two.
+    It is important to view this information as a reference model rather than strict and absolute trajectories. The analysis of the plays found on this website will help illustrate this point since they both, in their own way, deviate from this model.</p>
+    <img src="/assets/images/intermediarhythmicstate-nochiba.jpg">
+    <h3>Step three: Ranking basic media components based on stage of development</h3>
+    <p>Keeping in mind that our ultimate goal was to rank all possible combinations between text, music and dance, we then considered the overall transformation of each component throughout a play, differentiating between earlier and latter stage of development. This is how we determine the following orders: singing over speaking, congruent over non-congruent, in the context of congruent music: ô-nori / chû-nori over hiranori,  danced section over one without dance, and in the context of a danced section: 'Pure' dance over Dance-to-text. Other considerations included:</p>
+    <p>The nohkan solo with its free rhythm and the fact that it does not participate to the unfolding of the story since it has no text, was assigned the starting level.</p>
+    <p>Because the text of a vocal part contributes to the unfolding of the story, it was given a higher order than the two-hand drums solo.</p>
+    <p>A texture with a larger instrumentation was ranked higher over a smaller one.
+    The ‘pure’ dance being the crown jewel of most plays was selected as the highest ranked texture.</p>
+    <p>The figure below summarizes the hierarchies that we established:</p>
+    <img src="/assets/images/intermediatextures.jpg">
+    <h3>Step four: Assignment of ranked position for the textures</h3>
+    <p>Fourth, we defined the texture of a section (shôdan) in terms of its instrumentation, rhythmic structure, and if it includes a dance or not. Considering all possible sections (shôdan), we identified twenty-three textures. We ranked the textures from the simplest to the optimal, as summarized in the following figure (Note that a vocal part marked with the number 2 implies a duo either between two actors, or between the chorus and an actor):</p>
+    <img src="/assets/images/twentythreetextures.jpg">
+    <h3>Step five: Assignment of hierarchical position for the textures found in three Noh plays</h3>
+    <p>Fifth, we based our analysis of the form of a Noh play on the evolution of the textures of its sections (shôdan). Although we moved away from a formal analysis based on the Jo- ha- kyû concept and developed a method of analysis that is primarily based on perception, we still used Zeami's formal design but only as a reference model and as a point of comparison.
+    The two plays showcased on this website are Hashitomi (category 3) and Kokaji (category 5).  The former has 19 sections (shôdan), the latter has 20. We compared their structure with Izutsu's, a play written by Zeami that epitomizes his model structure.  When combining these three plays, we found that they include examples of twenty out of the possible twenty-three textures. It is these twenty textures that we have used when plotting the form of each play.</p>
+    <img src="/assets/images/twentytextures.jpg">
 
   </div>
 
