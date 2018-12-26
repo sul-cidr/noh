@@ -1,7 +1,7 @@
 {
   "filters": [
     {
-      "by": "structural",
+      "by": "formal",
       "values": [
         ["Still Position"],
         ["Foot Motion", "Walking"],
@@ -16,16 +16,16 @@
       ]
     },
     {
-      "by": "decorative",
+      "by": "mimetic",
       "values": [
         ["Fan"],
         ["Body", "Other Body"],
         ["Body", "Stamp Series"],
         ["Body", "Switch Knee"],
         ["Head"],
-        ["Mimetic", "Other Mimetic"],
-        ["Mimetic", "Praying"],
-        ["Mimetic", "Weeping"]
+        ["Imitative", "Other Mimetic"],
+        ["Imitative", "Praying"],
+        ["Imitative", "Weeping"]
       ]
     }
   ],
@@ -33,12 +33,12 @@
     {
       "slug": "standing",
       "name": "Standing",
-      "pills": [["Still Position"], ["Mimetic", "Praying"]]
+      "pills": [["Still Position"]]
     },
     {
       "slug": "kneeling",
       "name": "Kneeling",
-      "pills": [["Still Position"], ["Mimetic", "Praying"]]
+      "pills": [["Still Position"]]
     },
     {
       "slug": "forward",
@@ -313,22 +313,32 @@
     {
       "slug": "bowing",
       "name": "Bowing",
-      "pills": [["Mimetic", "Other Mimetic"]]
+      "pills": [["Imitative", "Other Mimetic"]]
+    },
+    {
+      "slug": "standing-p",
+      "name": "Standing in Prayer",
+      "pills": [["Imitative", "Praying"]]
+    },
+    {
+      "slug": "kneeling-p",
+      "name": "Kneeling in Prayer",
+      "pills": [["Imitative", "Praying"]]
     },
     {
       "slug": "l-hand",
       "name": "L Hand",
-      "pills": [["Mimetic", "Weeping"]]
+      "pills": [["Imitative", "Weeping"]]
     },
     {
       "slug": "r-hand",
       "name": "R Hand",
-      "pills": [["Mimetic", "Weeping"]]
+      "pills": [["Imitative", "Weeping"]]
     },
     {
       "slug": "both-hands",
       "name": "Both Hands",
-      "pills": [["Mimetic", "Weeping"]]
+      "pills": [["Imitative", "Weeping"]]
     }
   ]
 }
