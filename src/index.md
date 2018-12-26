@@ -9,7 +9,7 @@ layout: home
 <div class="home__content">
   <div class="wrapper">
     <h1>Noh as Intermedia</h1>
-    <p>If one were to define 'intermedia' as a way of forming expression by drawing on relationships between arts, Noh Theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props would be among its world’s most sophisticated and mighty exemplars. Zeami Motokiyo (c.1363-c.1443) who is credited with having perfected Nō as it still exists today, wrote in his <em>Fūshikaden</em> that in a successful play:</p>
+    <p>If one were to define 'intermedia' as a way of forming expression by drawing on relationships between arts, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami Motokiyo (c.1363-c.1443) who is credited with having perfected Noh as it still exists today, wrote in his <em>Fūshikaden</em> that in a successful play:</p>
     <blockquote>
       <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.<a href="#quote"><sup>1</sup></a></p>
     </blockquote>
@@ -40,5 +40,5 @@ layout: home
   </div>
 </div>
 <div class="text-container">
-    <p>1. Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008, p.xxxx</p>
+    <p>1. Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008, p.48</p>
     </div>

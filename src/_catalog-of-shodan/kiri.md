@@ -1,8 +1,8 @@
 ---
 layout: website
-name: kiri 
-filter-act: 
-filter-type: 
+name: kiri
+filter-act:
+filter-type:
 second-level-menu-active: catalog-shodan
 ---
 
@@ -18,21 +18,21 @@ second-level-menu-active: catalog-shodan
       </div>
       <div class="introductory-table__element">
         <div class="introductory-table__term">Percussion</div>
-        <div class="introductory-table__definition">Congruent</div>
+        <div class="introductory-table__definition">strict</div>
       </div>
       <div class="introductory-table__element">
         <div class="introductory-table__term">Flute</div>
         <div class="introductory-table__definition">Non-congruent</div>
       </div>
-    </div> 
+    </div>
     <p>Popular term among <strong>the performers</strong> for the <em>final shōdan</em> of a play. It is the second dance-to-text shōdan of a play, the kuse being potentially the first one. In scholarly circles this module is usually differentiated on the basis of its rhythmic organization: it is called noriji when set in ōnori, chūnoriji when set in chūnori, but there is no specific name when set in hiranori.</p>
-    <p>We have used the generic term kiri for the last module of both plays.</p> 
+    <p>We have used the generic term kiri for the last module of both plays.</p>
   </div>
 
   {% include image.html src="/assets/images/nohkan-big.jpg" %}
 
   {% include image-no-background.html src="/assets/images/nohkan-big.jpg" %}
-  
+
   {% include video.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
 
   {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
@@ -53,7 +53,7 @@ second-level-menu-active: catalog-shodan
       <td class="content-table__column">The secondary actor is always a male character living in the narrative present hence he is never masked. We usually know much about him since he often introduces himself at the very beginning of a play. He engages the shite and as such provides him with a reason to appear and perform. Plays without a waki are exceptionally few. The waki is always a realistic character. There are three majors types of waki character: a shrine official or retainer; a warrior; or most commonly a traveling priest. In some plays the waki has one or few unmasked companion actors called waki tsure. Featured ARIMATSU Ryôichi is from the Takayasu school.</td>
       <td class="content-table__column">Hôshô, Fukuô, Takayasu</td>
     </tr>
-  </table> 
+  </table>
 
   <div class="tabs-container">
     <div class="tabs-container__links">
@@ -64,7 +64,7 @@ second-level-menu-active: catalog-shodan
     <div class="tabs-container__content">
       <div class="wrapper">
         <section id="intro" title="Hashitomi Kiri" class="tabbed-narrative">
-          <p>Hashitomi’s kiri set in ōnori, is sung in yowagin style by the jiutai and shite, who sings three verses. It is accompanied by the two hand-percussion instruments and the nohkan, who closes the play with its tome pattern.</p>
+            {% include video-no-background-kiri1.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
         </section>
         <section id="part1" title="Kokaji Kiri" class="tabbed-narrative">
           <p><a href="/kokaji/kiri" target="_blank">kiri in Kokaji</a></p>
@@ -74,5 +74,3 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 </main>
-
-
