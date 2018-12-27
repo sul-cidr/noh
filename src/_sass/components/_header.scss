@@ -154,7 +154,9 @@
     font-weight: $fw-regular;
     cursor: default;
 
-    @include text(xs);
+    a {
+      @include text(xs);
+    }
 
     &::after {
       border-color: $brown transparent transparent transparent;

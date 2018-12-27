@@ -1,10 +1,17 @@
 .cards-container {
-  @include flex-container($justify:center, $align: flex-start);
+  margin: 0 auto;
   padding-top: 3.5rem;
-
+  width: $wrapper-medium;
+  
+  @include flex-container($wrap:wrap, $justify:center, $align: flex-start);
+  
   .list-plays & {
     padding-top: 0;
   }
+}
+
+.cards-container--not-centered {
+  justify-content: flex-start;
 }
 
 .card {
@@ -39,16 +46,7 @@
 }
 
 .card__container {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-
-  &:first-child {
-    padding-left: 0;
-  }
-
-  &:last-child {
-    padding-right: 0;
-  }
+  padding: 0.5rem;
 }
 
 .card__header {
