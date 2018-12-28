@@ -11,7 +11,7 @@ layout: home
     <h1>Noh as Intermedia</h1>
     <p>If one were to define 'intermedia' as a way of forming expression by drawing on relationships between arts, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami Motokiyo (c.1363-c.1443) who is credited with having perfected Noh as it still exists today, wrote in his <em>Fūshikaden</em> that in a successful play:</p>
     <blockquote>
-      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.<a href="#quote"><sup>1</sup></a></p>
+      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.<a href="#reference1"><sup>1</sup></a></p>
     </blockquote>
     <p>In the attempt to untangle some of the unique 'coming together' of artistic media in Noh, the website is divided into the following three sections:</p>
     <div class="cards-container">
@@ -27,18 +27,18 @@ layout: home
           image="/assets/images/Kokaji-duo2.jpg"
           icon="icon-plays"
           title="Plays"
-          description="offers video recordings, libretti, scores, and a detailed intermedia analysis of two contrasting plays."
+          description="offers video recordings, text, scores, and a detailed intermedia analysis of two contrasting plays."
       %}
       {% include card.html
           link="/elements-of-noh"
           image="/assets/images/Hashitomi-prop-covered.jpg"
           icon="icon-elements"
           title="Elements of Noh"
-          description="presents fundamentals of Noh music, movement, and staging, as well as catalogs of standard dance patterns and musical forms used in the featured plays. "
+          description="provides fundamentals of Noh music, movement, and staging, as well as catalogs of standard dance patterns and musical forms used in the featured plays. "
       %}
     </div>
   </div>
 </div>
 <div class="text-container">
-    <p>1. Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008, p.48</p>
+    <p><sup id="reference1">1.</sup> Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008, p.48</p>
     </div>

@@ -28,6 +28,11 @@
       width: 1rem;
     }
 
+    &.collapsible-with-background + * {
+      background-color: $green08;
+      padding: 1rem;
+    }
+
     &.collapsible-closed {
       &::before {
         transform: rotate(0deg);

@@ -1,7 +1,7 @@
 {
   "filters": [
     {
-      "by": "structural",
+      "by": "formal",
       "values": [
         ["Still Position"],
         ["Foot Motion", "Walking"],
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "by": "decorative",
+      "by": "mimetic",
       "values": [
         ["Fan"],
         ["Body", "Other Body"],
