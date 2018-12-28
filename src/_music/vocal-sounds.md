@@ -39,9 +39,16 @@ Sections in <em>kotoba</em> are always delivered by an actor, never by the jiuta
     </p>
 
 
-  {% include v-kotoba1.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+    {% include v-kotoba1.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
     {% include vnb-kotoba2.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
-      {% include v-kotoba3.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+    {% include video.html 
+      src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      link="Shite and waki (Roll over for info)"
+      title="Kokaji – Mondō"
+      paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
+      paragraph2="The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki."
+      paragraph3="These are not to be understood as universal stylistic characteristics, but rather as performance differences, the shite’s less flamboyant style being well suited for a deity rather than a mere human played by the waki."
+    %}
 </section>
 
 
