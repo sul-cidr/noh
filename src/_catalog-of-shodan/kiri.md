@@ -64,7 +64,7 @@ second-level-menu-active: catalog-shodan
     <div class="tabs-container__content">
       <div class="wrapper">
         <section id="intro" title="Hashitomi Kiri" class="tabbed-narrative">
-            {% include video-no-background-kiri1.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+            {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
         </section>
         <section id="part1" title="Kokaji Kiri" class="tabbed-narrative">
           <p><a href="/kokaji/kiri" target="_blank">kiri in Kokaji</a></p>

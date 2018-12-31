@@ -32,18 +32,30 @@ fourth-level-menu-active: sound
     <section id="Spoken" title="Spoken" class="tabbed-narrative">
 
     <p>
-    The spoken sections called <em>kotoba</em> consist of non-rhythmical prose intoned with a full voice. Usually, sentences are divided into two parts: a gradual rising tone reaching a peak followed by a falling off.  In the text transcription of the video excerpts the colored syllables are used to identify the higher pitches leading to the descent.
-</p><p>
-Sections in <em>kotoba</em> are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following examples: Hashitomi - Nanori, Kokaji - Nanori, and Kokaji - Mondō
+    The spoken sections called <em>kotoba</em> consist of non-rhythmical prose intoned with a full voice. Usually, sentences are divided into two parts: a gradual rising tone reaching a peak followed by a falling off.  In the text transcription of the video excerpts the colored syllables are used to identify the higher pitches that lead to a descent.
+</p><p><br>
+Sections in <em>kotoba</em> are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following three examples: <br>Hashitomi/Nanori – waki <br>Kokaji/Nanori – waki tsure <br>Kokaji/Mondō – shite and waki.
 
     </p>
 
 
-    {% include v-kotoba1.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
-    {% include vnb-kotoba2.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
-    {% include video.html 
+    {% include video.html
       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      link="Shite and waki (Roll over for info)"
+      link="Waki"
+      title="Hashitomi – Nanori "
+      paragraph1="The calm delivery in the lower register is well suited for a traveling priest."
+    %}
+
+    {% include video-no-background.html
+      src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      link="Waki-tsure"
+      title="Kokaji – Nanori "
+      paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
+    %}
+
+    {% include video.html
+      src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      link="Shite and waki "
       title="Kokaji – Mondō"
       paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
       paragraph2="The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki."
@@ -74,7 +86,12 @@ The chanted music called <em>utai</em> can be sung in two different styles: <em>
        Finally, the lower and higher ranges are extended with the addition of the low ryo and the ryo (E2 and F#2 respectively) for the former, and the kuri and high kuri (C4 and E4 respectively) for that later.
 
        </p>
-        {% include vnb-yowagin.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html
+        src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        link="Yowagin"
+        title="Hagoromo/Kuri"
+        paragraph1="The module is named after the pitch kuri from the higher register. For the most part, the pitch material of the piece focuses on the High pitch with few incursions on the Kuri shown with highlighted text on the video."
+        paragraph2="Upon reaching the kuri’s signature cadential melisma, the hon-yuri, the pitch material switches to the Medium before cadencing on the Low. (The pitch material in this performance is a major second lower than the one shown in the Figure above)."%}
 
 
 
@@ -85,7 +102,12 @@ The chanted music called <em>utai</em> can be sung in two different styles: <em>
 The actors are not attempting to produce specific melodic pitches. Their singing oscillates mainly within a minor third shown below as Low and Medium/High tones. However, at specific moments the Medium/High tone is embellished by higher tones.
 </p>
   {% include image.html src="/assets/images/Tsuyogin-range.jpg" %}
-  {% include vnb-tsuyogin.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+  {% include video-no-background.html
+    src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+    link="Tsuyogin"
+    title="Kokaji/Kuri"
+    paragraph1="The module’s name refers to the high pitch Kuri, hence the module’s melody is set in the higher register. Kokaji’s kuri includes four melodic motions towards the Kuri. They appear as for the kuri’s signature closing melisma called hon-yuri, the pitch module’s pitch material focuses on the Medium/High tone.part of embellishments in several words highlighted in the video with colored syllables."
+  %}
 
 
       </section>
@@ -93,6 +115,5 @@ The actors are not attempting to produce specific melodic pitches. Their singing
         </div>
         </div>
       {% include menu-voices.html %}
-      {% include menu-instrument-small.html %}
-      {% include second-menu-elements.html %}
+
 </main>
