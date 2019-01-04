@@ -26,16 +26,16 @@ second-level-menu-active: movement
   <div class="tabs-container__content">
     <div class="wrapper">
       <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
-        {% include video.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
       <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
-        {% include video.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
       <section id="tab-3" title="Martial (front)" class="tabbed-narrative">
-        {% include video.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
       <section id="tab-4" title="Martial (side)" class="tabbed-narrative">
-        {% include video.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
       </section>
     </div>
   </div>
