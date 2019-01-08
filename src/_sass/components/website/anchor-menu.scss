@@ -2,13 +2,14 @@
   margin-left: auto;
   margin-right: auto;
   max-width: $wrapper-small;
+  padding: 0.5rem;
 }
 .anchor-menu__element {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 
   a {
     color: $green;
-    @include text(lg, 'text');
+    @include text(sm, 'text');
   }
 
   &.active {
