@@ -13,7 +13,7 @@ layout: home
     <p>If one were to define intermedia as a way of forming expression by drawing on relationships between words, music and visuals, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami (c.1363-c.1443) who is credited with having perfected Noh as it still exists today, wrote in his Fûshikaden that in a successful play:</p> 
     <blockquote>
       <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p> 
-      <footer>— Here comes the author <a href="https://google.com">with a link</a></footer>
+      <footer>— <a href="https://google.com">Zeami</a> (tr. Tom Hare)</footer>
     </blockquote>
     <p>This website hopes to untangle some of the idiomatic “coming together” of media in Noh.  To achieve this the material is divided into following three main sections:</p>
     <div class="cards-container">
@@ -41,7 +41,6 @@ layout: home
     </div>
   </div>
 </div>
-
-
-
-
+<div class="text-container">
+  <p><sup id="reference1">1.</sup> Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008,p.48</p>
+</div>
