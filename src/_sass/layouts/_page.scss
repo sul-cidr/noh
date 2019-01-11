@@ -65,14 +65,15 @@
   .sidebar-contents {
     align-items: flex-start;
     display: flex;
-    margin-top: 4rem;
   }
-
+  
   .sidebar-contents__table {
     background-color: $beige-light;
     border: $border;
     flex-basis: 30%;
     margin-right: 2rem;
+    margin-top: 4rem;
+    padding: 0.5rem;
     position: sticky;
     top: 4rem;
   }
