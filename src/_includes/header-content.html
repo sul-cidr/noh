@@ -11,10 +11,10 @@
   
   <nav class="header__nav">
     <ul>
-      <li class="{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %}active{% endif %}">
+      <li class="{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}">
         <a class="header__main-link" href="/about-intermedia/">About intermedia</a>
       </li>
-      <li class="dropdown-menu{% if page.menu-active == 'plays' or page.menu-active == 'plays' %}active{% endif %}">
+      <li class="dropdown-menu{% if page.menu-active == 'plays' or page.menu-active == 'plays' %} active{% endif %}">
         <a class="header__main-link dropdown-menu__trigger">Plays</a>
         <ul class="dropdown-menu__list">
           <li class="dropdown-menu__title"><a href="/plays/">Plays</a></li>
