@@ -89,12 +89,13 @@
 .card__title {
   color: $green;
   font-weight: $fw-bold;
+  margin-bottom: 0.5rem;
 
   @include text(lg);
 }
 
 .card__description {
-  @include text(xs,'text');
+  @include text(sm,'text');
 }
 
 .list-plays {
