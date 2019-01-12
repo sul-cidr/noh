@@ -15,7 +15,7 @@
 
 .header__content {
   min-height: $header-small-height;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
 
   @include flex-container();
 
@@ -60,7 +60,6 @@
   border-bottom-color: rgba($green, 0);
   color: $white80;
   display: inline-block;
-  margin: 0 0.75rem;
   padding: 0.0625rem 0;
   transition: color $transition;
   text-decoration: none;
@@ -90,6 +89,7 @@
     margin-left: 0.25rem;
     position: absolute;
     right: 0;
+    top: 50%;
     width: 0;
   }
 
@@ -97,6 +97,7 @@
 
 .dropdown-menu {
   position: relative;
+  padding: 0 0.75rem 0 2rem;
 
   &:hover .dropdown-menu__list {
       display: block;
@@ -128,11 +129,11 @@
   border-radius: 0.25rem;
   box-shadow: 0 0.125rem 0.625rem $black32;
   display: none;
-  left: -0.125rem;
+  left: 1.125rem;
   padding: 0.875rem;
   position: absolute;
-  top: -0.875rem;
-  width: 10rem;
+  top: -0.8125rem;
+  white-space: nowrap;
   z-index: 10;
 
   li {
@@ -144,29 +145,36 @@
     a {
       color: $brown;
       text-decoration: none;
+
       @include text(xxs);
     }
   }
 
   .dropdown-menu__title {
-    align-items: center;
-    display: flex;
     font-weight: $fw-regular;
     cursor: default;
 
     a {
-      @include text(xs);
-    }
+      align-items: center;
+      display: flex;
+      padding-right: 1rem;
+      position: relative;
 
-    &::after {
-      border-color: $brown transparent transparent transparent;
-      border-style: solid;
-      border-width: 0.1875rem 0.1875rem 0 0.1875rem;
-      content: '';
-      display: inline-block;
-      height: 0;
-      margin-left: 0.25rem;
-      width: 0;
+      @include text(xs);
+
+      &::after {
+        border-color: $brown transparent transparent transparent;
+        border-style: solid;
+        border-width: 0.1875rem 0.1875rem 0 0.1875rem;
+        content: '';
+        display: block;
+        height: 0;
+        margin-left: 0.25rem;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 0;
+      }
     }
   }
 }

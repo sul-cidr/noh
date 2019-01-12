@@ -61,6 +61,31 @@
       font-style: italic;
     }
   }
+
+  .sidebar-contents {
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .sidebar-contents__table {
+    background-color: $beige-light;
+    border: $border;
+    flex-basis: 14rem;
+    flex-shrink: 0;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    position: sticky;
+    top: 4rem;
+
+    h4 {
+      color: $brown;
+      padding: 0.5rem;
+    }
+  }
+
+  .sidebar-contents__section {
+  }
 }
 
 .text-container {
