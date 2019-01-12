@@ -65,3 +65,6 @@ collections:
 
 # required for Travis: https://jekyllrb.com/docs/continuous-integration/travis-ci/
 exclude: [vendor]
+
+plugins:
+  - jekyll-autoprefixer

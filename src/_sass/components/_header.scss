@@ -89,6 +89,7 @@
     margin-left: 0.25rem;
     position: absolute;
     right: 0;
+    top: 50%;
     width: 0;
   }
 
@@ -154,7 +155,8 @@
     cursor: default;
 
     a {
-      display: block;
+      align-items: center;
+      display: flex;
       padding-right: 1rem;
       position: relative;
 
