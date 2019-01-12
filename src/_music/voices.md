@@ -15,7 +15,7 @@ fourth-level-menu-active: roles
   <div class="wrapper sidebar-contents">
     <aside class="sidebar-contents__table">
       {% include menu-voices.html %}
-    </aside> 
+    </aside>
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Roles">Actors</h2>
@@ -61,6 +61,4 @@ fourth-level-menu-active: roles
     </section>
   </div>
 
-  {% include menu-instrument-small.html %}
-  {% include second-menu-elements.html %}
 </main>

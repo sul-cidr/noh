@@ -46,13 +46,13 @@
 
   p {
     color: $brown;
-  
+
     @include text(lg,'text');
 
     * {
       font-family: $font-text;
     }
-    
+
     strong {
       font-weight: $fw-bold;
     }
@@ -66,7 +66,7 @@
     align-items: flex-start;
     display: flex;
   }
-  
+
   .sidebar-contents__table {
     background-color: $beige-light;
     border: $border;
@@ -76,6 +76,7 @@
     margin-top: 4rem;
     padding: 0.5rem;
     position: sticky;
+    position: -webkit-sticky;
     top: 4rem;
 
     h4 {
@@ -96,4 +97,3 @@
     max-width: $wrapper-small;
   }
 }
-

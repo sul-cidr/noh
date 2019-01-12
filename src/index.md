@@ -11,7 +11,7 @@ layout: home
     <h1>Noh as Intermedia</h1>
     <p>If one were to define 'intermedia' as a way of forming expression by drawing on relationships between arts, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami Motokiyo (c.1363-c.1443) who is credited with having perfected Noh as it still exists today, wrote in his <em>Fūshikaden</em> that in a successful play:</p>
     <blockquote>
-      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p> 
+      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p>
       <footer>— <a href="https://google.com">Zeami</a> (tr. Tom Hare)</footer>
     </blockquote>
     <p>In the attempt to untangle some of the unique 'coming together' of artistic media in Noh, the website is divided into the following three sections:</p>

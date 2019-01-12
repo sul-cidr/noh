@@ -26,9 +26,9 @@ third-level-menu-active: taiko
     <p>First, the sequence of the patterns accentuates the melodic shape of the chant which starts in the higher range, moves to the middle  and closes in the low range. This descent is imitated by the nohkan's sequence of patterns, which start with takane followed by naka no takane, both in the instrument's higher range followed by the mi roku no ge whose melodic contour moves from the medium to the low range.</p>
 
     <p>Second, the positioning of the patterns also underlines the structure of the text, which is characterized by a repeated first and last line. The reiteration of the first line is preceded by the nohkan's takane pattern, while the first statement of the last line of text is underlined by the entrance of the mi roku no ge pattern. The naka no takane does not have a specific position, but it is usually played at the point where the vocal line is about to move from the higher to the medium range.</p>
-    
+
     <p>There are exceptions to this basic structure, for instance,  the naka no takane is left out from the  first ageuta from Hashitomi, which is short. Its second ageuta being even shorter, only includes the first nohkan pattern: takane.</p>
-    
+
     <p>Here is the text from the first ageuta from Hashitomi and the position of the two nohkan's patterns:</p>
 
     <h3>Nohkan patterns</h3>
@@ -37,4 +37,3 @@ third-level-menu-active: taiko
 
   </div>
 </main>
-
