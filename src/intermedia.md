@@ -8,12 +8,11 @@ permalink: /about-intermedia/
 
 <main class="page-content">
 
-  <div class="wrapper">
-    <ul class="anchor-menu">
-      <li class="anchor-menu__element"> <a href="#about-intermedia">About Intermedia</a></li>
-      <li class="anchor-menu__element"> <a href="#intermedia-index">Intermedia Structure of Noh</a></li>
-    </ul>
-  </div>
+<div class="wrapper sidebar-contents">
+  <aside class="sidebar-contents__table">
+    {% include menu-intermedia.html %}
+  </aside>
+  <section class="sidebar-contents__section">
 
   <div class="text-container">
     <h2>About Intermedia</h2>
@@ -71,8 +70,7 @@ permalink: /about-intermedia/
     The two plays showcased on this website are Hashitomi (category 3) and Kokaji (category 5).  The former has 19 sections (shôdan), the latter has 20. We compared their structure with Izutsu's, a play written by Zeami that epitomizes his model structure.  When combining these three plays, we found that they include examples of twenty out of the possible twenty-three textures. It is these twenty textures that we have used when plotting the form of each play.</p>
     <img src="/assets/images/twentytextures.jpg">
 
+    </section>
   </div>
-
-
 
 </main>
