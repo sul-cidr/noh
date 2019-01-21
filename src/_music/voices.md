@@ -64,7 +64,7 @@ fourth-level-menu-active: voices
         <p>The vocal production in Noh is highly stylized and falls into two general categories: spoken and chanted</p>
         <h3 id="Spoken">Spoken</h3>
         <p>
-        The spoken sections called <em>kotoba</em> consist of non-rhythmical prose intoned with a full voice. Usually, sentences are divided into two parts: a gradual rising tone reaching a peak followed by a falling off.  In the text transcription of the excerpts the colored syllables are used to identify the higher pitches that lead to a descent. <p><p>
+        The spoken sections called <em>kotoba</em> consist of non-rhythmical prose intoned with a full voice. Usually, sentences are divided into two parts: a gradual rising tone reaching a peak followed by a falling off.  In the text transcription of the excerpts the colored syllables are used to identify the higher pitches that lead to a descent. </p><p>
     Sections in <em>kotoba</em> are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's kotoba can be heard in the following three examples: <br>Hashitomi/Nanori – waki <br>Kokaji/Nanori – waki tsure <br>Kokaji/Mondō – shite and waki.
 
         </p>
@@ -108,7 +108,7 @@ fourth-level-menu-active: voices
             Finally, the lower and higher ranges are extended with the addition of the low ryo and the ryo (E2 and F#2 respectively) for the former, and the kuri and high kuri (C4 and E4 respectively) for that later.
 
             </p>
-            {% include image.html src="/assets/images/Yowagin-range.jpg" %}
+            {% include image-no-background.html src="/assets/images/Yowagin-range.jpg" %}
             <p>
            Pitches being relative they are referred to by name rather than by pitch. The three most important pitches are the Low, Medium, and High (in our example B2, E3, and A3 respectively), and the majority of the chants are set around these three pole-pitches. Intermediate pitches are used to melodically flow from one of these pole-pitches to another.
            Finally, the lower and higher ranges are extended with the addition of the low ryo and the ryo (E2 and F#2 respectively) for the former, and the kuri and high kuri (C4 and E4 respectively) for that later.
@@ -126,10 +126,10 @@ fourth-level-menu-active: voices
           <h4 id="Tsuyogin">Tsuyogin</h4>
 
             <p>While singing in tsuyogin style, the actor uses a notable vibrato with utterances usually contained within a small range span. This style is used for most dramatic passages such as those expressing excitement, bravery, or solemnity.
-     </p><p></p><p>
+     </p><p>
     The actors are not attempting to produce specific melodic pitches. Their singing oscillates mainly within a minor third shown below as Low and Medium/High tones. However, at specific moments the Medium/High tone is embellished by higher tones.
     </p>
-      {% include image.html src="/assets/images/Tsuyogin-range.jpg" %}
+      {% include image-no-background.html src="/assets/images/Tsuyogin-range.jpg" %}
       {% include video-no-background.html
         src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
         link="Tsuyogin"
@@ -157,13 +157,13 @@ fourth-level-menu-active: voices
 
         <p>The example below shows an academic distribution of the twelve syllables in two groups of seven and five; with the group of seven syllables broken into: 1 + 3 + 3, with the first syllable starting on the upbeat preceding the very first beat. The figure also shows that the syllables preceding the first third and fifth beats are held over the downbbeat, as if to avoid competing with the ōtsuzumi’s strong strokes that usually fall on at least one of these downbeats. The fourth caesura occurs on the eighth downbeat in order to separate the two parts.</p>
 
-        {% include image.html
+        {% include image-no-background.html
           src="/assets/images/Tsuzukeutai.jpg"
         %}
 
         <p>Here is a more dynamic distribution of the four caesuras, with a setting that follows the grammatical structure of the text. FOLLOWING JPG NEEDS REPLACING WITH A CORRECT ONE THAT NEEDS CORRECTING IN ITSELF </p>
 
-        {% include image.html
+        {% include image-no-background.html
           src="/assets/images/Tsuzukeutai.jpg"
         %}
 
@@ -179,21 +179,21 @@ fourth-level-menu-active: voices
 
         <p>One method of fitting a larger than twelve syllables line of text within a honji (an eight-beat unit) consist of starting the first syllable of that line on a beat earlier that the standard upbeat to the very first beat. For example, the last line of text of Hashitomi’s first ageuta is comprised of thirteen syllables: 8 + 5.</p>
 
-        {% include image.html
+        {% include image-no-background.html
           src="/assets/images/Firstmethod.jpg"
 
         %}
         <p> In this case, ‘Ta’ the first syllable starts on the eighth downbeat as seen below instead of the usually upbeat to the very first beat:</p>
-        {% include image.html
+        {% include image-no-background.html
           src="/assets/images/Firstmethod2.jpg"
         %}
         <p>Another method of fitting a larger than twelve syllables line of text within a honij (eight-beat unit) consists of introducing measures of two (okuriji), four (toriji), or six (kataji) beats. For example, here are the first three lines of Kokaji’s kiri. Its syllabic structure is: 7 + 5, 7 + 6, and 9 + 5.</p>
 
-        {% include image.html
+        {% include image-no-background.html
           src="/assets/images/Secondmethod.jpg"
         %}
         <p> A toriji (measure of four beats) has been inserted between the second and third honji (eight beat unit) in order to counter-balance the odd syllabic structure of the text. When it comes to measures other than the honji, the toriji is far more common that the two- and six-beat measures.</p>
-        {% include image.html
+        {% include image-no-background.html
           src="/assets/images/Secondmethod2.jpg"
         %}
 
@@ -276,7 +276,8 @@ fourth-level-menu-active: voices
 
         <p>Einori chants are usually accompanied by the ōtsuzumi and kotsuzumi in a congruent setting. The issei-chant from Hashitomi is sung in yowagin style, it focuses on only four pitches:the Medium and High, and their respective  Intermediate pitch a tone lower. It is divided up into two segments: the first one sang by the shite, the second one by the jiutai.</p>
 
-        <p>The hand-percussion instruments start both segments with sparse mitsuij  patterns before moving on with tzusuke patterns.   It is while performing the sparse mitsuji patterns that the ōtsuzumi player has some flexibility to adapt to the melodic line. This is particularly clear with this recording. One can recognized the ōtsuzumi player's use of the flexible kakegoe when performing the first mitsuji patterns, whereas the kotsuzumi player uses the strict kakegoe throughout the chant.</p>
+        <p>The hand-percussion instruments start both segments with sparse mitsuij  patterns before moving on with tzusuke patterns.   It is while performing the sparse mitsuji patterns that the ōtsuzumi player has some flexibility to adapt to the melodic line. This is particularly clear with this recording. One can recognized the ōtsuzumi player's use of the flexible kakegoe when performing the first mitsuji patterns, whereas the kotsuzumi player uses the strict kakegoe throughout the chant.
+        </p>
 
         {% include video.html
           src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
