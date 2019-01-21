@@ -7,7 +7,7 @@ permalink: /plays/
 <main class="page-content">
   <div class="text-container">
     <h2>Plays</h2>
-    <p>Of the nearly 250  plays regularly performed we have chosen two that through their contrast reveal a wide formal and expressive range of Noh. </p>
+    <p>Out of the nearly 250 regularly performed plays we have chosen two that through their contrast reveal a wide formal and expressive range of Noh. </p>
   </div>
 
   <div class="list-plays">

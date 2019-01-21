@@ -15,7 +15,7 @@ permalink: /about-intermedia/
   <section class="sidebar-contents__section">
 
   <div class="text-container">
-    <h2>About Intermedia</h2>
+    <h2 id="intermedia-intro">Introduction</h2>
     <p>In our definition 'intermedia' is a way of forming artistic expression that draws on relationships between media. Noh theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props is a particularly rich and sophisticated form of intermedia. Not only it brings together multiple forms of art but each of them plays a substantial role, and the correspondences between them are singular, intricate and wide-ranging.  The goal of this website is to examine and interpret the parts played by and interactions between media in Noh. In any intermedia work, not all media will have equal importance at all times. At different moments, any element or combination of them can dominate and this can vary further in the perception of an individual listener. Still, some generalizations can be made.</p>
 
     <p>In time-based art forms like theater particular weight and attention must be given to dimensions that change over time. Actively evolving elements such as word narratives, musical sequences or dance movement come particularly strongly to the fore of perception due to their constant change. Their combinations can align to reinforce each other to fulfill a desired dramatic effect.</p>
@@ -36,7 +36,7 @@ permalink: /about-intermedia/
 <p>2. Emotional/psychological (ex, representing anger, sadness, pleasure, anticipation)</p>
 
 
-    <h2 id="intermedia-index"> Intermedia Structure of Noh</h2>
+    <h2 id="intermedia-tools"> Tools of Analysis</h2>
     <p>It is common practice in the context of formal analyses of Noh plays to refer to Zeami's adaptation of the Gagaku concept of Jo-ha-kyū, where sections (shôdan) are grouped in sub-sets to fit within the larger five-part scheme: <br>Jo <br> Ha-Jo <br> Ha-Ha <br> Ha-Kyū <br> Kyū.<br>
     While we recognize the importance of this formal concept in Zeami's work and occasionally referred to it, it was not well suited for the analysis of the intermedia structure of a Noh play.
     Hence, we developed a method of analysis that is primarily based on perception that aims at showing how the form of a play is articulated through the interaction between its text, music, and dance.</p>
@@ -70,7 +70,7 @@ permalink: /about-intermedia/
     The two plays showcased on this website are Hashitomi (category 3) and Kokaji (category 5).  The former has 19 sections (shôdan), the latter has 20. We compared their structure with Izutsu's, a play written by Zeami that epitomizes his model structure.  When combining these three plays, we found that they include examples of twenty out of the possible twenty-three textures. It is these twenty textures that we have used when plotting the form of each play.</p>
     <img src="/assets/images/twentytextures.jpg">
 
-    </section>
-  </div>
 
+  </div>
+</section>
 </main>
