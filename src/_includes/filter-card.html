@@ -1,5 +1,5 @@
 <a href="./{{include.slug}}" data-pills="{{include.pills}}" class="filters__card" style="background-image:url('/assets/images/{{include.images}}/{{include.slug}}.jpg')">
-  <h4 class="filters__card-title">{{ include.title }}</h4>
+  <h6 class="filters__card-title">{{ include.title }}</h6>
   <ul class="filters__pills-container">
     {% assign pills = include.pills | split: ',' %}
     {% for pill in pills %}
