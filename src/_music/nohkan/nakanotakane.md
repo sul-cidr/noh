@@ -11,13 +11,18 @@ third-level-menu-active: nohkan
 {% include menu-instrument-small.html %}
 
 <main class="page-content">
+<div class="wrapper sidebar-contents">
+  <aside class="sidebar-contents__table">
+    {% include nohkan-patterns-catalog.html %}
+  </aside>
+  <section class="sidebar-contents__section">
   <div class="text-container">
     <h2><em>Naka no takane</em></h2>
-    <p><em>Naka no takane</em> is composed of two phrases. Its shoga is:
+    <p>The pattern consists of two phrases with the following shoga:</p><p>
 <em>hi-hyo ru ri<br>
 hi-hyo i-ya
 </em>
-</p><p>The following examples illustrate the difference in expressive inflection given to basic patterns when heard in contrasting contexts. The <em>Naka no takane</em> pattern is first heard in its ‘generic’ form, and then as performed in Kokaji’s <em>Kuse</em> involving a male deity, and in Hashitomi’s <em>Kuse</em> which showcase a young maiden. The stronger attack and faster speed of the former, well fitting in the context of a virile divine being, are contrasted in the latter with a softer attack and slower speed to better reflect the character of a lady.</p>
+</p><p>The following examples illustrate the difference in expressive inflection given to basic patterns in contrasting contexts. The <em>Naka no takane</em> pattern is first heard in its ‘generic’ form, and then as performed in Kokaji’s <em>Kuse</em> involving a male deity, and in Hashitomi’s <em>Kuse</em> which showcase a young maiden. The stronger attack and faster speed of the former, well fitting in the context of a virile divine being, are contrasted in the latter with a softer attack and slower speed to better reflect the character of a lady.</p>
     <div class="tabs-container">
       <div class="tabs-container__links">
         <div class="wrapper">
@@ -28,28 +33,23 @@ hi-hyo i-ya
         <div class="wrapper">
           <section id='generic' title='Generic' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Nohkan-Takane_Shoga.mp4"
-            link="<em>Generic</em>"
-            title="<em>Generic</em>"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Naka_no_takane_Shoga.mp4"
           %}
           </section>
           <section id='Kokaji' title='Kokaji' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Nohkan-Takane_Shoga.mp4"
-            link="<em>Kokaji</em>"
-            title="<em>Kokaji</em>"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Kokaji_Naka_no_takane_Shoga.mp4"
           %}
           </section>
           <section id='Hashitomi' title='Hashitomi' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Nohkan-Takane_Shoga.mp4"
-            link="<em>Hashitomi</em>"
-            title="<em>Hashitomi</em>"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Naka_no_takane_Shoga.mp4"
           %}
           </section>
         </div>
       </div>
     </div>
-
+  </div>
+  </section>
   </div>
 </main>

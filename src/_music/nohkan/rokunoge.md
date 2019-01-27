@@ -11,19 +11,24 @@ third-level-menu-active: nohkan
 {% include menu-instrument-small.html %}
 
 <main class="page-content">
+<div class="wrapper sidebar-contents">
+  <aside class="sidebar-contents__table">
+    {% include nohkan-patterns-catalog.html %}
+  </aside>
+  <section class="sidebar-contents__section">
   <div class="text-container">
     <h2><em>Roku no ge</em></h2>
-    <p><em>Roku no ge</em> is composed of four phrases. Its shoga is:
+    <p>The pattern consists of four phrases with the following shoga:</p><p>
 <em>hi-u ri-u i-ya<br>
-ri-u hyû-i<br>
-hi-hyû i-ya ra ri-(u) ro-i<br>
+ri-u hyū-i<br>
+hi-hyū i-ya ra ri-(u) ro-i<br>
 tsu-ro i-ya
 </em>
-</p>
+</p><p>The bracketed shoga <em>u</em> was traditionally part of the pattern but in our example and in recent times it is not performed.</p>
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Nohkan-Roku_No_Ge_Shoga.mp4"
-  link="<em>Roku_No_Ge</em>"
-  title="<em>Roku_No_Ge</em>"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Roku_no_ge_Shoga.mp4"
 %}
+  </div>
+  </section>
   </div>
 </main>

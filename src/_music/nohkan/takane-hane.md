@@ -11,17 +11,22 @@ third-level-menu-active: nohkan
 {% include menu-instrument-small.html %}
 
 <main class="page-content">
+<div class="wrapper sidebar-contents">
+  <aside class="sidebar-contents__table">
+    {% include nohkan-patterns-catalog.html %}
+  </aside>
+  <section class="sidebar-contents__section">
   <div class="text-container">
     <h2><em>Takane hane</em></h2>
-    <p><em>Takane hane</em> is composed of three phrases. Its shoga is:
+    <p>The pattern consists of three phrases with the following shoga:</p><p>
 <em>o-hya<br>
 ro ru ra<br>
 ri ya ri</em>
 </p>
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Nohkan-Takane_hane_Shoga.mp4"
-  link="<em>Takane hane</em>"
-  title="<em>Takane hane</em>"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Takane_hane_Shoga.mp4"
 %}
+  </div>
+  </section>
   </div>
 </main>
