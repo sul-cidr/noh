@@ -44,7 +44,7 @@ The mode of attack is another important factor that adds to the richness of nohk
 
     <p>Finally, a word about the <em>hishigi</em> – a shrill, high-pitched tone that is rarely used within melodies. It is used primarily as a powerful and striking effect sometimes described as an invocation to gods. It often marks the end of a play, or the beginning or end of a section.</p>
 
-    <h4 id="Catalog">Examples</h4>    <p>In presenting this partial catalog our objective was to record the principal nohkan patterns that can be heard in one or both of the plays featured on this website: Kokaji and Hashitomi.</p>{% include nohkan-patterns.html %}
+    <h4 id="Catalog">Partial Catalog</h4>    <p>In presenting this partial catalog our objective was to record the principal nohkan patterns that can be heard in one or both of the plays featured on this website: Kokaji and Hashitomi.</p>{% include nohkan-patterns.html %}
     <p></p>
     <p>To illustrate how patterns are used to articulate the structure of a section we will use the example of the first <em>Ageuta</em> section from Hashitomi. Three melodic patterns are usually performed during an <em>Ageuta</em> (a sung section): <em>takane, naka no takane,</em> and <em>mi roku no ge</em>. They stand out because they each appear only once and as distinct utterances, played at their own specific point in the section.</p>
 
