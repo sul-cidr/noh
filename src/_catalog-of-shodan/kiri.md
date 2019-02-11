@@ -18,14 +18,14 @@ second-level-menu-active: catalog-shodan
       </div>
       <div class="introductory-table__element">
         <div class="introductory-table__term">Percussion</div>
-        <div class="introductory-table__definition">strict</div>
+        <div class="introductory-table__definition">Strict</div>
       </div>
       <div class="introductory-table__element">
         <div class="introductory-table__term">Flute</div>
         <div class="introductory-table__definition">Non-congruent</div>
       </div>
     </div>
-    <p>Popular term among <strong>the performers</strong> for the <em>final shōdan</em> of a play. It is the second dance-to-text shōdan of a play, the kuse being potentially the first one. In scholarly circles this module is usually differentiated on the basis of its rhythmic organization: it is called noriji when set in ōnori, chūnoriji when set in chūnori, but there is no specific name when set in hiranori.</p>
+    <p><em>Kiri</em> is a popular term among the performers for the final shōdan of a play. Typically after the <em>kuse</em>, it is the second dance-to-text shōdan of a play . In scholarly circles this module is usually differentiated on the basis of its rhythmic organization: it is called <em>noriji</em> when set in <em>ōnori</em>, <em>chūnoriji</em> when set in <em>chūnori</em>, but there is no specific name when set in <em>hiranori</em>.</p>
     <p>We have used the generic term kiri for the last module of both plays.</p>
   </div>
 

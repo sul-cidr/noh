@@ -15,7 +15,7 @@ permalink: /catalog-of-shodan/
  </p><p>
 The following partial catalog is limited to sections from the two plays featured in this website: Kokaji and Hashitomi, as well as those that are included in Zeami’s original formal model. Most descriptions are supported with an informative video example, others are simply limited to a text description.</p>
   </div>
-
+<p id="catalog"></p>
   {% include filters.html catalog=site.data.catalog-sections images="shodan" %}
 
 </main>
