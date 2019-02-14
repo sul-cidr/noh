@@ -30,7 +30,7 @@ second-level-menu-active: catalog-shodan
 
   <p>Although it does not have a predictable formal position, the <em>kakaru</em> often leads to congruent chant, such as an <em>ageuta</em>. Between the two plays there are three <em>kakaru</em>, all three are in Hashitomi. They also share a common function, they are all the last <em>shōdan</em> of their respective part: Waki enters, Dialogue in the first act, and Waki waits in the second one.</p>
 
-  <p>Delivery in <a href="/music/voices#Kotoba"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand,the vibrato associated with the singing mode helps identify that switching point between the two modes.</p>
+  <p>Delivery in <a href="/music/voices#Kotoba"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand,the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
 
   <p>Hashitomi’s first <em>kakaru</em> is the last <em>shōdan</em> of the First act’s ‘Waki enters’ part. It is written for one actor accompanied by the two hand-percussion instruments.</p>
   <p>This is a monologue presented by the waki, a monk living in <em>Unrin-in</em> Temple, who is performing a mass for flowers as an offering to Buddha. After having made a factual statement about the flowers in <em>kotoba</em>, the waki switches to singing in <a href="/music/voices#Yowagin"><em>yowagin</em></a> style, as he emotionally reflects on the lotus plant, since according to esoteric Buddhism, the heart of beings is like an unopened lotus.</p>
@@ -47,6 +47,6 @@ second-level-menu-active: catalog-shodan
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kakaru2_Score.mp4"
     %}
-<p>Hashitomi’s third <em>kakaru</em> is the sole <em>shōdan</em> of the Second act’s ‘Waki waits’ part. It is entirely sung, meaning it does not include any spoken part, and as such it compares very well with a <em>sashi</em>, the main difference between being that this <em>kakaru</em> does not include a nohkan’s part.</p>
+<p>Hashitomi’s third <em>kakaru</em> is the sole <em>shōdan</em> of the Second act’s ‘Waki waits’ part. It is entirely sung, meaning it does not include any spoken part, and as such it compares very well with a <em>sashi</em>, the main difference between them is that the <em>kakaru</em> does not include a nohkan’s part.</p>
     </div>
 </main>

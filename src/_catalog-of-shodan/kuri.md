@@ -11,34 +11,41 @@ second-level-menu-active: catalog-shodan
 <main class="page-content">
   <div class="text-container">
 
-    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Main Chants</h4>
+    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Introduction Chants</h4>
 
-    <h2>Ageuta</h2>
+    <h2>Kuri</h2>
 
   <div class="introductory-table">
     <div class="introductory-table__element">
       <div class="introductory-table__term">Voice</div>
-      <div class="introductory-table__definition">Congruent</div>
+      <div class="introductory-table__definition">Non-congruent</div>
     </div>
     <div class="introductory-table__element">
       <div class="introductory-table__term">Percussion</div>
-      <div class="introductory-table__definition">Strict</div>
+      <div class="introductory-table__definition">Flexible</div>
     </div>
     <div class="introductory-table__element">
-      <div class="introductory-table__term">Flute</div>
+      <div class="introductory-table__term">Nohkan</div>
       <div class="introductory-table__definition">Non-congruent</div>
     </div>
   </div>
 
-  <p>The <em>ageuta</em> chant starts in the higher range and finishes in either the medium or low range. It is set in <a href="/music/voices#Hiranori"><em>hiranori.</em></a></p>
+
+  <p>A high-pitched melodious short <a href="/music/voices#Einori"><em>einori</em></a> chant sung by an actor, usually the shite, or the jiutai, or alternatively, by an actor and the jiutai. Kokaij’s <em>kuri</em> is written for jiutai accompanied by the two hand-percussion and nohkan.
+  Its introduction quality comes from the fact that its narrative serves as a lead into the following <em>shōdan</em>, the <em>sashi</em>, whose narrative is then fully developed in the following <em>kuse</em>.</p>
+
+  <p>Often the <em>kuri</em> follows a <em>shidai</em> or <em>issei</em> when sung by an actor, and precedes a <em>sashi</em> when sung by the jiutai, as it is the case in Kokaji. It alsways closes with a signature melisma called <em>hon-yuri</em>.</p>
+
+  <p>The nohkan performs two patterns during the <em>kuri</em>. The first one, also called <em>kuri</em> is short. It is followed by the longer pattern called <em>yuri</em>.</p>
+
+  <p> Kokaji's <em>kuri</em> is sung in <a href="/music/voices#Tsuyogin"><em>tsuyogin</em></a> style. For the most part, its melody is sung on the Medium/High tone. Yet, the section's name refers to the high pitch <em>kuri</em>; thus, the melody includes four melodic motions towards the <em>kuri</em> tone. They appear as part of embellishments, and are highlighted in bold in the video's text. Finally, the signature closing melisma <em>hon-yuri</em> closes the chant on the Low tone.</p>
+
 
     </div>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Ageuta_Score.mp4"
-      title=""
-      link="Hashitomi – <em>Ageuta 1</em>"
-      paragraph1="The first <em>ageuta</em> in Hashitomi is sung in yowagin mode."
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Kuri_Score.mp4"
+
     %}
 
 </main>
