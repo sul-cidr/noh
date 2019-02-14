@@ -11,34 +11,25 @@ second-level-menu-active: catalog-shodan
 <main class="page-content">
   <div class="text-container">
 
-    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Main Chants</h4>
+    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Entrance music</h4>
 
-    <h2>Ageuta</h2>
+    <h2>Nanoribue</h2>
 
   <div class="introductory-table">
+
     <div class="introductory-table__element">
-      <div class="introductory-table__term">Voice</div>
-      <div class="introductory-table__definition">Congruent</div>
-    </div>
-    <div class="introductory-table__element">
-      <div class="introductory-table__term">Percussion</div>
-      <div class="introductory-table__definition">Strict</div>
-    </div>
-    <div class="introductory-table__element">
-      <div class="introductory-table__term">Flute</div>
+      <div class="introductory-table__term">Nohkan</div>
       <div class="introductory-table__definition">Non-congruent</div>
     </div>
   </div>
+  <p>Quiet, lyrical entrance of male character often used for a waki impersonating a traveling monk. It is usually followed by a prose speech: the <a href="/catalog-of-shodan/nanori"><em>nanori</em></a>.
+  Conversely to other entrance music, it is the actor who signals the beginning of the music by asking the curtain-attendant to rise it, giving the cue to the nohkan player to start the nanoribue.</p>
 
-  <p>The <em>ageuta</em> chant starts in the higher range and finishes in either the medium or low range. It is set in <a href="/music/voices#Hiranori"><em>hiranori.</em></a></p>
-
-    </div>
+  <p>The <em>nanoribue</em> is composed of the sequence of three patterns. While the first two are standard patterns: <a href="/music/nohkan/Nakanotakane"><em>naka no takane</em></a> and <a href="/music/nohkan/Rokunoge"><em>roku no ge</em></a>, the third one is specific to the <em>nanoribue</em>, and its <em>shoga</em> is: hyū ro ra hya u,ro ra ho.</p>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Ageuta_Score.mp4"
-      title=""
-      link="Hashitomi – <em>Ageuta 1</em>"
-      paragraph1="The first <em>ageuta</em> in Hashitomi is sung in yowagin mode."
-    %}
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanoribue_Score.mp4"
 
+    %}
+  </div>
 </main>
