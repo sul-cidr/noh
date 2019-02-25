@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<div class="home__image" style="background-image: url('/assets/images/Hashi5.jpg');"></div>
+<div class="home__image" style="background-image: url('/assets/images/Hashi3.jpg');"></div>
 <div class="home__content">
   <div class="wrapper">
     <h1>Noh as Intermedia</h1>

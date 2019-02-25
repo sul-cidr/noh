@@ -13,7 +13,7 @@ second-level-menu-active: catalog-shodan
 
     <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Main Chants</h4>
 
-    <h2>Ageuta</h2>
+    <h2>Rongi</h2>
 
   <div class="introductory-table">
     <div class="introductory-table__element">
@@ -25,20 +25,16 @@ second-level-menu-active: catalog-shodan
       <div class="introductory-table__definition">Strict</div>
     </div>
     <div class="introductory-table__element">
-      <div class="introductory-table__term">Flute</div>
+      <div class="introductory-table__term">Nohkan</div>
       <div class="introductory-table__definition">Non-congruent</div>
     </div>
   </div>
 
-  <p>The <em>ageuta</em> chant starts in the higher range and finishes in either the medium or low range. It is set in <a href="/music/voices#Hiranori"><em>hiranori.</em></a></p>
-
-    </div>
+  <p>Set in <a href="/music/voices#Hiranori"><em>hiranori</em></a>, the <em>rongi</em> is a sung dialogue between two actors, or between an actor, usually the shite, and the jiutai. Often at the end, the shite alludes to or even reveals his identity, as it is the case with Hashitomi’s <em>rongi</em>.
+  The nohkan’s pattern used to close the <em>shōdan</em> is the <a href="/music/nohkan/Mirokunoge"><em>mi roku no ge</em></a>. The one played in the play is a variation of it.</p>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Ageuta_Score.mp4"
-      title=""
-      link="Hashitomi – <em>Ageuta 1</em>"
-      paragraph1="The first <em>ageuta</em> in Hashitomi is sung in yowagin mode."
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Rongi_Score.mp4"
     %}
-
+</div>
 </main>

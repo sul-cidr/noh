@@ -11,7 +11,7 @@ second-level-menu-active: catalog-shodan
 <main class="page-content">
   <div class="text-container">
 
-    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Main Chants</h4>
+    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Spoken</h4>
 
     <h2>Nanori</h2>
 
