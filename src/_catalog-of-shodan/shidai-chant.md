@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>The introduction <em>shidai-chant</em> is usually but not exclusively sung by the waki. It is often followed by <a href="/catalog-of-shodan/nanori"><em>nanori</em></a>. It is usually preceded by an entrance music also called <em>shidai</em>, so we refer to it as <a href="/catalog-of-shodan/Shidaimusic"><em>shidai-music</em></a> to avoid confusion.  In contrast with the congruent <em>shidai-chant</em>, the <em>shidai-music</em> is non-congruent.</p>
+  <p>The introduction <em>shidai-chant</em> is usually but not exclusively sung by the waki. It is often followed by <a href="/catalog-of-shodan/nanori"><em>nanori</em></a>. It is usually preceded by an entrance music also called <em>shidai</em>, so we refer to it as <a href="/catalog-of-shodan/shidai-music"><em>shidai-music</em></a> to avoid confusion.  In contrast with the congruent <em>shidai-chant</em>, the <em>shidai-music</em> is non-congruent.</p>
 
   <p>Its text is composed of three lines, the second one being a repetition of the first. The syllable pattern is 7-5, 7-5, 7-4, rarely, 7-5, 7-5, 7-5. The first two lines are sung on high pitch, the third start on the medium and concludes on the low pitch.</p>
 
