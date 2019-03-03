@@ -1,13 +1,12 @@
 ---
 layout: website
-second-level-menu-active: catalog-shodan
+second-level-menu-active: catalog-of-shodan
 third-level-menu-active: catalog-of-shodan
 permalink: /catalog-of-shodan/
 ---
 
 {% include second-menu-elements.html %}
 
-{% include menu-instrument-small.html %}
 <main class="page-content">
   <div class="text-container">
     <h2>Catalog of Shōdan</h2>
