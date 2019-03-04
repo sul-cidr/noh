@@ -16,13 +16,12 @@ third-level-menu-active: costumes
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">
-    <h2 id="Nohkan">Nohkan (Flute)</h2>
-    <p> There are three nohkan schools: Morita, Issō and Fujita. Featured MORITA Yasuyoshi and all examples are from the Morita tradition.</p>
-    <h3 id="Sound">Sound</h3>
-<p>
-The scale of this seven-hole instrument, member of the traverse flute family, is rather unusual because of a thin bamboo tube called <em>nodo</em>, inserted between its mouth hole and first finger hole. The nodo distorts natural acoustical behavior of the pipe and as a result its scale consists of microtonal pitches that do not fit any predefined mode and vary from instrument to instrument. It is believed that the <em>nodo</em> helps produce hishigi the highest pitch on the instrument and an important pattern.</p><p>
+    <h2 id="Costumes">Costumes (<em>Hashitomi</em> and <em>Kokaji</em>)</h2>
+    <p> Noh costumes define a characterʼs gender, profession, and rank. Their layered elements are prescribed by tradition and can be found noted at the beginning of the <em>utaibon</em> (libretto). While the types of garments for a given play are regulated, their colors, patterns, and in some cases decorative techniques serve as a tool for the actorʼs expression. In choosing the costume for a character the actor considers the image to be portrayed, the overall atmophere of the performance, and the balance of colors, patterns, and motif sizes as they play off the costumes of other characters. The performer usually has a stock of costumes from which to choose. Heads of schools and other actor families that own theaters as well as some individual actors have costumes collected over a long time span.</p>
 
-The following figure shows the approximate principle pitches produced by one particular nohkan (half-hole pitches were not recorded).  The row of pitches on the second system are the continuation of the first and are produced with an increased airflow using the exact same fingerings as the first. In the case of most world flutes as well as other Japanese traverse flutes like the ryūteki, komabue, and kagurabue, such overblowing would consistently produce pitches an octave higher and as a result extend the same scale. In the case of nohkan, the overblowing of the lowest note results in a pitch a minor tenth higher and with every following note that interval diminishes gradually so that the interval resulting out of the overblowing of the highest note is a major sixth, hence the increased air pressure process adds a new set of pitches to the overall scale.</p>
+<p>
+Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “small-sleeved”, T-shaped, straight-lined, full-length garments similar to a modern kimono, with wrist-length sleeves that have their cuff edge sewn up half way to form a pocket. (2) <em>ōsode</em> or <em>hirosode</em> “broad-sleeved” outer garments. The various styles of <em>ōsode</em> outer garments all have extra wide sleeves, often double the weaving width, that are open at the cuff. These are worn over a <em>kosode</em> and are generally three-quarter length. (3) <em>hakama</em>, variously translated as trousers, pleated pants, or divided skirts depending on how voluminous they are. (4) accessories, including hairbands (<em>kazura-obi</em>), waist sashes (<em>koshi-obi</em>), head covers like crowns, hats, and helmets, and hand-held objects such as fans, prayer beads, weapons, sticks, and ritual objects.</p>
+    <h3 id="Hashitomi-costume">Hashitomi</h3>
 {% include image-no-background.html
   src="/assets/images/Nohkan-fingerings.jpg"
 %}

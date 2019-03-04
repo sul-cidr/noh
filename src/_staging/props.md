@@ -2,7 +2,7 @@
 layout: website
 menu-active: elements
 second-level-menu-active: staging
-third-level-menu-active: costumes
+third-level-menu-active: props
 # nohkan-pattern: takane
 ---
 
@@ -16,7 +16,7 @@ third-level-menu-active: costumes
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">
-    <h2 id="Nohkan">Nohkan (Flute)</h2>
+    <h2 id="Props">Props</h2>
     <p> There are three nohkan schools: Morita, Issō and Fujita. Featured MORITA Yasuyoshi and all examples are from the Morita tradition.</p>
     <h3 id="Sound">Sound</h3>
 <p>
