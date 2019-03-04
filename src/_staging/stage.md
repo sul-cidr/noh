@@ -1,13 +1,13 @@
 ---
 layout: website
 menu-active: elements
-second-level-menu-active: music
-third-level-menu-active: nohkan
+second-level-menu-active: staging
+third-level-menu-active: costumes
 # nohkan-pattern: takane
 ---
 
 {% include second-menu-elements.html %}
-{% include menu-instrument-small.html %}
+{% include menu-staging-small.html %}
 
 <main class="page-content">
 <div class="wrapper sidebar-contents">
