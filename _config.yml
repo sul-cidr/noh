@@ -49,6 +49,9 @@ collections:
   catalog-of-shodan:
     output: true
     permalink: /:collection/:path/
+  staging:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Exclude from processing.
