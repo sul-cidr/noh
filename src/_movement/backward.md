@@ -1,17 +1,21 @@
 ---
 layout: website
-name: WALKING BACKWARD
+name: backward
 filter-act:
-filter-type: 
+filter-type:
 second-level-menu-active: movement
 ---
 {% include second-menu-elements.html %}
 
 <main class="page-content">
   <div class="text-container">
-    <h3><a href="/movement/" target="_blank">Movement Catalog:</a> Structural Patterns/Foot Motion</h3>
-      <h2 class="collapsible">Walking Backward (<em>sagaru</em>)</h2>
-    <p>When moving backward, the toes are lifted as the heel slides back. The slow start and gradual acceleration that characterize the walking rhythm of Noh is an influence of spacio-temporal concept <em>jo-ha-kyū</em>. Although subtle in the feminine mode, it is more strongly pronouned in martial mode.</p>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion</h4>
+    <h2>Walking backward (<em>sagaru</em>)</h2>
+
+    <p>When moving backward, the toes are lifted as the heel slides back.</p>
+
+    <p>The spacio-temporal concept of <em>jo - ha - kyū</em> forms an important aesthetic in Japanese art. The three sections can be translated as introduction/slow - development/acceleration - conclusion/fast. The slow start and gradual acceleration that characterize the walking rhythm of Noh is an undeniable influence of <em>jo - ha - kyū</em>. Although subtle in the feminine mode, its effect on the walking rhythm in martial mode is obvious.</p>
+
   </div>
 
 <div class="tabs-container">
@@ -22,24 +26,31 @@ second-level-menu-active: movement
   </div>
   <div class="tabs-container__content">
     <div class="wrapper">
+
       <section id="tab-1" title="Feminine (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_sagaru_full_Side.mp4" %}
       </section>
-      <section id="tab-2" title="Feminine (side, close)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+
+      <section id="tab-2" title="Feminine (Z. side)" class="tabbed-narrative">
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_sagaru_zoom_Side.mp4" %}
       </section>
-      <section id="tab-3" title="Feminine (front, close)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+
+      <section id="tab-3" title="Feminine (Z.front)" class="tabbed-narrative">
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona__sagaru_zoom_Front.mp4" %}
       </section>
+
       <section id="tab-4" title="Martial (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_sagaru_full_Side.mp4" %}
       </section>
-      <section id="tab-5" title="Martial (side, close)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+
+      <section id="tab-5" title="Martial (Z. side)" class="tabbed-narrative">
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_sagaru_zoom_Side.mp4" %}
       </section>
-      <section id="tab-6" title="Martial (front, close)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4" %}
+
+      <section id="tab-6" title="Martial (Z. front)" class="tabbed-narrative">
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_sagaru_zoom_Front.mp4" %}
       </section>
+
     </div>
   </div>
 </div>

@@ -1,8 +1,8 @@
 ---
 layout: website
-name: kneeling 
-filter-act: 
-filter-type: 
+name: kneeling
+filter-act:
+filter-type:
 second-level-menu-active: movement
 ---
 
