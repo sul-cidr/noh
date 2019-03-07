@@ -9,10 +9,10 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Fan Patterns</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Could Fan (<em>uchiyage</em>)</h2>
 
-    <p>This is a variation on the <a href="movement/open-retreat">Open-retreat pattern (<em>hiraki</em>)</a>. Performed with an opened fan, which is extended out to the right side, then the arms are brought together in front of the body where the fan covers the left hand. As three backing steps are taken, the arms are spread with the right one lifted high.</p>
+    <p>This is a variation on the <a href="/movement/open-retreat">Open-retreat pattern (<em>hiraki</em>)</a>. Performed with an opened fan, which is extended out to the right side, then the arms are brought together in front of the body where the fan covers the left hand. As three backing steps are taken, the arms are spread with the right one lifted high.</p>
 
     <p>This pattern is used as a dynamic way to look into the distance, often something high in the sky like clouds or the moon.</p>
 

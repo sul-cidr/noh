@@ -36,7 +36,7 @@ second-level-menu-active: movement
       </section>
 
       <section id="tab-3" title="Feminine (Z.front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona__sagaru_zoom_Front.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_sagaru_zoom_Front.mp4" %}
       </section>
 
       <section id="tab-4" title="Martial (side)" class="tabbed-narrative">

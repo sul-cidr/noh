@@ -12,9 +12,9 @@ second-level-menu-active: movement
     <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
     <h2>Open-retreat (<em>hiraki</em>)</h2>
 
-    <p>The Open-retreat pattern (<em>hiraki</em>) combines spreading the arms with three back steps. In this video it concludes with the Standing position (<em>kamae</em>).
+    <p>The Open-retreat pattern (<em>hiraki</em>) combines spreading the arms with three back steps. In this video it concludes with the Standing position (<em>kamae</em>).</p>
 
-    <p>This is one of the most common patterns. It does not have a specific time or spatial points within a dance. Because of its ‘retreat’ motion (three back steps), it is most of the time preceded by a forward pattern such as the <a href="movement/forward-point">Forward Point (<em>shikake</em>)</a>, <a href="movement/forward-point">Forward Point (<em>shikake</em>)</a>, or a <a href="movement/large-zigzag">Zigzag (<em>ōzayu</em>)</a>, among others. Originally, the pointing pattern aimed at identifying an object to be contemplated and the Open-retreat as a stepping back motion to better contemplate the identified object. In this video, it is preceded by the Forward Point pattern (<em>shikake</em>).</p>
+    <p>This is one of the most common patterns. It does not have a specific time or spatial points within a dance. Because of its ‘retreat’ motion (three back steps), it is most of the time preceded by a forward pattern such as the <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>, <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>, or a <a href="/movement/large-zigzag">Zigzag (<em>ōzayu</em>)</a>, among others. Originally, the pointing pattern aimed at identifying an object to be contemplated and the Open-retreat as a stepping back motion to better contemplate the identified object. In this video, it is preceded by the Forward Point pattern (<em>shikake</em>).</p>
 
   </div>
 
@@ -41,7 +41,7 @@ second-level-menu-active: movement
       </section>
 
       <section id="tab-4" title="Martial (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Kata-Han_hiraki_Side.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiraki_Side.mp4" %}
       </section>
 
     </div>

@@ -12,7 +12,7 @@ second-level-menu-active: movement
     <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Pointing</h4>
     <h2>Closure Scoop (<em>katashi tome</em>)</h2>
 
-    <p>All Point patterns involve raising the right arm and pointing the fan. The different names come from the motion perform by the arm leading to the pointing conclusion.</p>
+    <p>All 'Point' patterns involve raising the right arm and pointing the fan. The different names come from the motion perform by the arm leading to the pointing conclusion.</p>
 
   </div>
 

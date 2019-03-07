@@ -14,11 +14,9 @@ second-level-menu-active: movement
 
     <p>The Small zigzag (<em>kozayu</em>) combines a left hand point with two steps to the left followed with a right hand lift point with one step to the right.</p>
 
-    <p>When combined with a <a href="movement/scooping-point">Scooping point (<em>kaikomi</em>)</a>, the Small zigzag (<em>kozayu</em>) indicates the end of a section or of a dance.</p>
+    <p>When combined with a <a href="/movement/scooping-point">Scooping point (<em>kaikomi</em>)</a>, the Small zigzag (<em>kozayu</em>) indicates the end of a section or of a dance.</p>
 
-    There are two other zigzag, each one covering a larger amount of stage space: Large zigzag (ôzayu) and the Medium zizag (chûzayu).
-
-    <p>There are two other zigzag, each one covering a larger amount of stage space: the <a href="movement/large-zigzag">Large Zigzag (<em>ōzayu</em>)</a> and the <a href="movement/medium-zigzag">Medium zizag (<em>chūzayu</em>)</a>.</p>
+    <p>There are two other zigzag, each one covering a larger amount of stage space: the <a href="/movement/large-zigzag">Large Zigzag (<em>ōzayu</em>)</a> and the <a href="/movement/medium-zigzag">Medium zizag (<em>chūzayu</em>)</a>.</p>
 
   </div>
 

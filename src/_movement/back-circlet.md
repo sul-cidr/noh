@@ -12,7 +12,7 @@ second-level-menu-active: movement
     <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circlets</h4>
     <h2>Back Circlet (<em>mawari biraki</em>)</h2>
 
-    <p>The Back circlet (<em>mawari biraki</em>) starts with the dancer facing backstage. A <a href="movement/step-pivot">Right Step pivot (<em>migi kakeru</em>)</a> is then concluded with an <a href="movement/open-retreat">Open-retreat (<em>hiraki</em>)</a>.It is often used to conclude a <a href="movement/large-circling-l">Left circling (<em>hidari ōmawari</em>)</a>.</p>
+    <p>The Back circlet (<em>mawari biraki</em>) starts with the dancer facing backstage. A <a href="/movement/step-pivot">Right Step pivot (<em>migi kakeru</em>)</a> is then concluded with an <a href="/movement/open-retreat">Open-retreat (<em>hiraki</em>)</a>.It is often used to conclude a <a href="/movement/large-circling-l">Left circling (<em>hidari ōmawari</em>)</a>.</p>
 
   </div>
 

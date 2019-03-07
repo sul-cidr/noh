@@ -15,7 +15,7 @@ second-level-menu-active: movement
     <p>All Point patterns involve raising the right arm and pointing the fan. The different names come from the motion perform by the arm leading to the pointing conclusion.</p>
 
     <p>As the dancer takes two or three backing steps, he circles his right arm out to the side, up in a high arc, and down in front of the body. This arm motion is called an overhand point. It can be performed with an Open (mi wo kae) or Closed fan (sashi).
-    A comparison with the <a href="movement/backing-point-closed">Backing point with CLosed fan (<em>sashi</em>)</a> pattern illustrates how the open fan dramatically accentuates the arm motions.</p>
+    A comparison with the <a href="/movement/backing-point-closed">Backing point with CLosed fan (<em>sashi</em>)</a> pattern illustrates how the open fan dramatically accentuates the arm motions.</p>
 
   </div>
 

@@ -9,10 +9,10 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Body Patterns: Head</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Head</h4>
     <h2>Up and Down (<em>atama hidari to migi e hiza</em>)</h2>
 
-    <p>While several decorative patterns are clear and conspicuous others are much more subtle, and yet they are as important. This is the case for head motion. It can be expected anytime, but in certain sections such as in the sitting kuse (called <em>iguse</em>), it is one of the very few motion used, thereby increasing its importance.</p>
+    <p>While several mimetic patterns are clear and conspicuous others are much more subtle, and yet they are as important. This is the case for head motion. It can be expected anytime, but in certain sections such as in the sitting kuse (called <em>iguse</em>), it is one of the very few motion used, thereby increasing its importance.</p>
 
     <p>Head motion is used to accentuate a line of text or bring focus to an important moment.  The sudden and angular head motion usually suggests surprise or a search for a specific object.</p>
 
@@ -23,7 +23,7 @@ second-level-menu-active: movement
     <p>The Head patterns on this page are:</p>
     <p>Head up (<em>atama ue e teru</em>): The side view clearly shows that the raising upper body motion facilitates the perception of this head motion.</p>
     <p>Head down (<em>atama shita e kumoru</em>): The side view clearly shows that the bending upper body motion facilitates the perception of this head motion.</p>
-
+</div>
 
 <div class="tabs-container">
   <div class="tabs-container__links">

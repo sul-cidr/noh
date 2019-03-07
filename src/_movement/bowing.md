@@ -13,7 +13,7 @@ second-level-menu-active: movement
     <h2>Bowing (<em>jigi</em>)</h2>
 
     <p>The pattern is a formalized imitation of a typical Shinto movement.</p>
-
+</div>
 
 <div class="tabs-container">
   <div class="tabs-container__links">

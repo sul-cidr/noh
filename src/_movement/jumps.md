@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns</h4>
     <h2>Jumps (<em>migi hidari to ashi nuki tobi shita ni i</em>)</h2>
 
     <p>Jumps are usually found in plays about lively gods, demons, or warriors.They can be used merely for the effect, or they may carry referential meaning.

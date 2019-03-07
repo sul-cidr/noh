@@ -9,18 +9,17 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Body Patterns: Stamps</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Stamps</h4>
     <h2>Six Stamps with Circling (<em>roku hyōshi</em>)</h2>
 
     <p>Stamp series usually starts with the left foot, then alternate right, left feet gradually increasing the speed.  Often, the first and last stamps are loud while those in the middle are softer. It is also customary for the meaning of the stamps to be related to the text.</p>
 
-    <p>This 6 stamp series involves a <a href="movement/large-circle-r">Right Circling (<em>migi ōmawari</em>)</a>. It is always performed in Martial mode.</p>
+    <p>This 6 stamp series involves a <a href="/movement/large-circling-r">Right Circling (<em>migi ōmawari</em>)</a>. It is always performed in Martial mode.</p>
 
     <p>The rhythm of the stamps in the context of the eight-beat unit is shown here. A black dot means a loud stamp, and a white one, a soft stamp:</p>
 
-    {% include image.html src="/assets/images/movement/SixStampsCircling.jpg" %}
+    {% include image-no-background.html src="/assets/images/movement/SixStampsCircling.jpeg" %}
 
-</p>
 
   </div>
 

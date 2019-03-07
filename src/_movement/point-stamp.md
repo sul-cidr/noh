@@ -9,10 +9,10 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Body Patterns: Stamps</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Stamps</h4>
     <h2>Point Stamp (<em>norikomi byōshi</em>)</h2>
 
-    <p>The Point stamp (<em>norikomi byōshi</em>) involves a sequence of unmeasured stamps, starting with a Left foot stamp, Simple right pivot (<em>migi nejiru</em>) , opening the arms with the standard lift point, Right foot stamp (<em>migi hyōshi</em>), Simple left pivot (<em>hidari nejiru</em>) to the front, overhand point leading to a <a href="movement/forward-point">Forward point (<em>shikake</em>)</a>, with a soft Left foot stamp (<em>hidari hyōshi</em>) followed by a Right foot stamp (<em>migi hyōshi</em>).</p>
+    <p>The Point stamp (<em>norikomi byōshi</em>) involves a sequence of unmeasured stamps, starting with a Left foot stamp, Simple right pivot (<em>migi nejiru</em>) , opening the arms with the standard lift point, Right foot stamp (<em>migi hyōshi</em>), Simple left pivot (<em>hidari nejiru</em>) to the front, overhand point leading to a <a href="/movement/forward-point">Forward point (<em>shikake</em>)</a>, with a soft Left foot stamp (<em>hidari hyōshi</em>) followed by a Right foot stamp (<em>migi hyōshi</em>).</p>
 
   </div>
 

@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Switch Knee</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Switch Knee</h4>
     <h2>Multiple Kneeling Switch (<em>gasshi</em>)</h2>
 
     <p>Multiple kneels conveys an impression of vigor whose specific meaning is text related.

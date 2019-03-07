@@ -9,10 +9,10 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Body Patterns: Head</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Head</h4>
     <h2>Grab hair</h2>
 
-    <p>Circling the left arm up to his forehead, the dancer grabs the forelock of the headpiece and lift it up, as if to see better. Similar to <a href="movement/cloud-fan">Cloud fan (<em>uchiyage</em>)</a>, it suggests gazing into the distance.
+    <p>Circling the left arm up to his forehead, the dancer grabs the forelock of the headpiece and lift it up, as if to see better. Similar to <a href="/movement/cloud-fan">Cloud fan (<em>uchiyage</em>)</a>, it suggests gazing into the distance.
     It can be performed either standing or kneeling, in which case its connotation of ‘attempting to better see far ahead” is underlined by the dancer raising on his knee.
 </p>
 

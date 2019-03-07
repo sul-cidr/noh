@@ -12,9 +12,9 @@ second-level-menu-active: movement
     <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
     <h2>Medium Zigzag (<em>chūzayu</em>)</h2>
 
-    <p>The Medium zigzag (<em>chūzayu</em>) resembles the <a href="movement/large-zigzag">Large zigzag (<em>ōzayu</em>)</a> except that the number of steps is smaller. It often functions as a transition between two sections.</p>
+    <p>The Medium zigzag (<em>chūzayu</em>) resembles the <a href="/movement/large-zigzag">Large zigzag (<em>ōzayu</em>)</a> except that the number of steps is smaller. It often functions as a transition between two sections.</p>
 
-    <p>There is a third zigzag pattern that covers even less stage space than the Medium zigzag (<em>chūzayu</em>):The <a href="movement/small-zigzag">Small zigzag (<em>kozayu</em>)</a>.</p>
+    <p>There is a third zigzag pattern that covers even less stage space than the Medium zigzag (<em>chūzayu</em>):The <a href="/movement/small-zigzag">Small zigzag (<em>kozayu</em>)</a>.</p>
 
   </div>
 

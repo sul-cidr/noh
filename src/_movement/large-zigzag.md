@@ -12,11 +12,11 @@ second-level-menu-active: movement
     <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
     <h2>Large Zigzag (<em>ōzayu</em>)</h2>
 
-    <p>Like the two Large circling movements: <a href="movement/large-circling-l">Large Circling to the Left (<em>hidari ōmowari</em>)</a> and  <a href="movement/large-circling-r">Large Circling to the Right (<em>migi ōmowari</em>)</a>, the Large zigzag (<em>ōzayu</em>) is a pattern that covers a fair amount of stage space but it does so in an angular fashion. Moreover, its overall motion from back to front stage gives it a raising-tension quality.</p>
+    <p>Like the two Large circling movements: <a href="/movement/large-circling-l">Large Circling to the Left (<em>hidari ōmowari</em>)</a> and  <a href="/movement/large-circling-r">Large Circling to the Right (<em>migi ōmowari</em>)</a>, the Large zigzag (<em>ōzayu</em>) is a pattern that covers a fair amount of stage space but it does so in an angular fashion. Moreover, its overall motion from back to front stage gives it a raising-tension quality.</p>
 
     <p>The Large zigzag (<em>ōzayu</em>) combines lifting of both arms with a step to the right, a turn to the left accompanied by a lowering of the right arm. After five steps, a turn to the right is accompanied by a raised right arm and a lowered left one, followed by about seven steps.</p>
 
-    <p>There are two other zigzag that each one covering a more limited amount of stage space: <a href="movement/medium-zigzag">Medium zigzag (<em>chūzayu</em>)</a> and the <a href="movement/small-zigzag">Small zigzag (<em>kozayu</em>)</a>.</p>
+    <p>There are two other zigzag that each one covering a more limited amount of stage space: <a href="/movement/medium-zigzag">Medium zigzag (<em>chūzayu</em>)</a> and the <a href="/movement/small-zigzag">Small zigzag (<em>kozayu</em>)</a>.</p>
 
   </div>
 

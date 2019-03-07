@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Decorative Patterns / Fan Patterns</h4>
+    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Offering the Fan (<em>ōgi mae dashi</em>)</h2>
 
     <p>The opened fan is presented horizontally in front of the body. The fan can either be offered from above or from below.</p>
