@@ -41,7 +41,7 @@ second-level-menu-active: movement
       </section>
 
       <section id="tab-4" title="Turn left (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Kata-Han_hiza_tatekae_hidari_Side.mp4" %}
+        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_hidari_Side.mp4" %}
       </section>
 
     </div>

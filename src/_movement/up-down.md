@@ -42,11 +42,11 @@ second-level-menu-active: movement
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_ue_e_teru_Side.mp4" %}
       </section>
 
-      <section id="tab-1" title="Down (front)" class="tabbed-narrative">
+      <section id="tab-3" title="Down (front)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_shita_e_kumoru_Front.mp4" %}
       </section>
 
-      <section id="tab-2" title="Down (side)" class="tabbed-narrative">
+      <section id="tab-4" title="Down (side)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_shita_e_kumoru_Side.mp4" %}
       </section>
 

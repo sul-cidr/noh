@@ -34,11 +34,11 @@ second-level-menu-active: movement
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Side.mp4" %}
       </section>
 
-      <section id="tab-1" title="Leap turn left (front)" class="tabbed-narrative">
+      <section id="tab-3" title="Leap turn left (front)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Front.mp4" %}
       </section>
 
-      <section id="tab-2" title="Leap turn left (side)" class="tabbed-narrative">
+      <section id="tab-4" title="Leap turn left (side)" class="tabbed-narrative">
         {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Side.mp4" %}
       </section>
 
