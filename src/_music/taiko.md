@@ -27,7 +27,7 @@ fourth-level-menu-active: sound
     <p>The taiko players use the following kakegoe: <em>yo, ho, iyo and yoi</em> (<em>ei</em> in Kanze school). The exact pronunciation of vowels as well as dynamic and melodic shape can significantly vary depending on the dramatic context, school and performer. Click below to hear examples of calls for the Komparu tradition:</p>
     {% include taiko-kakegoe.html %}
 
-    <h2 id="Patterns">Rhythmic Organization</h2>
+    <h3 id="Patterns">Rhythmic Organization</h3>
     <p>At a basic level the sounds of the taiko are sequenced to create patterns. Most patterns are eight beats long and typically start on the 2nd or 6th beat of the 8-beat metric unit (<em>honji</em>). However there are patterns as short as two and as long as twenty-four beats in duration. The patterns are sequenced into larger phrases and sections. They are selected and ordered according to various sets of rules based on their formal function. A pattern can assume a following function: Head, First Transition, Ground, Second Transition, or Closing.</p>
     {% include taiko-patterns.html %}
 
@@ -39,13 +39,13 @@ fourth-level-menu-active: sound
 
     <p>Here is an example of a basic sequence of rhythmic patterns, then put in context with the dance <em>maibataraki</em> from Kokaji.</p>
 
-    <h3>Basic sequence of patterns</h3>
+    <h4>Basic sequence of patterns</h4>
     {% include image.html src="/assets/images/basic-cycle-taiko.png" %}
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Cycle_of_patterns.mp4"
     %}
 
-    <h3>Sequence of patterns in Kokaji's Maibataraki</h3>
+    <h4>Sequence of patterns in Kokaji's Maibataraki</h4>
     <p>The <em>maibataraki</em> dance from Kokaji follows immediately a <em>noriji</em> chant. The Closing pattern <em>uchiko</em> that begins the recording followed by the Head pattern <em>kashira</em> are closing the chant module and signal the imminent beginning of the <em>maibataraki</em>, whose principal rhythmic sequence starts with the Head pattern <em>tsuke gashira</em> (third line). The last <em>uchiko</em> and <em>kashira</em> patterns (fifth and sixth lines) form the dance’s Closing section.</p>
 
     {% include image.html src="/assets/images/taiko-maibataraki.png" %}
