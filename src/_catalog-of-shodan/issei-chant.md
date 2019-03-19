@@ -35,7 +35,7 @@ second-level-menu-active: catalog-shodan
     </div>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Isseei_chant_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score.mp4"
       title=""
       link="Hashitomi – <em>Issei</em> chant"
       paragraph1="Sung in yowagin mode by the shite and jiutai."
