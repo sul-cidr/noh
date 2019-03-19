@@ -3,7 +3,6 @@ layout: website
 menu-active: elements
 second-level-menu-active: staging
 third-level-menu-active: masks
-# nohkan-pattern: takane
 ---
 
 {% include second-menu-elements.html %}
@@ -12,110 +11,54 @@ third-level-menu-active: masks
 <main class="page-content">
 <div class="wrapper sidebar-contents">
   <aside class="sidebar-contents__table">
-    {% include menu-nohkan.html %}
+    {% include menu-masks.html %}
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Masks">Masks</h2>
-    <p> There are three nohkan schools: Morita, Issō and Fujita. Featured MORITA Yasuyoshi and all examples are from the Morita tradition.</p>
-    <h3 id="Sound">Sound</h3>
+    <h3 id="Intro">Introduction</h3>
 <p>
-The scale of this seven-hole instrument, member of the traverse flute family, is rather unusual because of a thin bamboo tube called <em>nodo</em>, inserted between its mouth hole and first finger hole. The nodo distorts natural acoustical behavior of the pipe and as a result its scale consists of microtonal pitches that do not fit any predefined mode and vary from instrument to instrument. It is believed that the <em>nodo</em> helps produce hishigi the highest pitch on the instrument and an important pattern.</p><p>
-
-The following figure shows the approximate principle pitches produced by one particular nohkan (half-hole pitches were not recorded).  The row of pitches on the second system are the continuation of the first and are produced with an increased airflow using the exact same fingerings as the first. In the case of most world flutes as well as other Japanese traverse flutes like the ryūteki, komabue, and kagurabue, such overblowing would consistently produce pitches an octave higher and as a result extend the same scale. In the case of nohkan, the overblowing of the lowest note results in a pitch a minor tenth higher and with every following note that interval diminishes gradually so that the interval resulting out of the overblowing of the highest note is a major sixth, hence the increased air pressure process adds a new set of pitches to the overall scale.</p>
-{% include image-no-background.html
-  src="/assets/images/Nohkan-fingerings.jpg"
-%}
-{% include video.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Scale.mp4"
-  title="Nohkan Scale"
-%}
-<p>Whereas Western flutists use the distal phalanges to cover the instrument's key and holes, the nohkan players use their intermediate phalanges allowing for very subtle half-holing that produces additional microtonal fluctuations in the pitch.</p><p>
-
-The microtonal and unregulated pitch material of the nohkan is meant to function independently from the singers. The chant's central pitch is set by the primary actor during the performance, independently from the nohkan's pitches. The overall compatibility of energy and sometimes pitch is part of a natural process happening in response to the circumstances and spirit of a particular performance.  This freedom between the pitch material of the actors and the nohkan is also facilitated by their separation in range, the nohkan being much higher than the chant.</p><p>
-
-The mode of attack is another important factor that adds to the richness of nohkan's sound palette. To enunciate new notes the nohkan players use increased air pressure controlled by the diaphragm. This allows for differing sharpness of attacks from sudden to slurred. Tonguing, a common performance practice of the West involving making a silent use of syllables like "ta" or "da" to break the flow of air is not used.</p>
-
-<h3 id="Patterns">Melodic Patterns</h3>
-    <p>The role of the nohkan is to create an ambiance that reflects the particular emotions of the play, the status or psychological mindset of a character in a given section, as well as to underline the dramatic structure. This is achieved using a collection of just over a hundred melodic patterns and pieces that are shared between different plays. This fixed melodic repertoire consists of different kinds of material: <em>ashirai</em> patterns that are relatively short and are used multiple times throughout each play; special patterns that are associated with particular emotions or situations such as love, shinto rituals, purifications, mantra chanting etc.; pieces that accompany dance, entrances and exits; and pieces used exclusively for kyōgen. In Morita school there are around 20 <em>ashirai</em> patterns, 80 special patterns and pieces for entrance, exit and dance (the number includes variations such as different introduction patterns for dances) and 12 pieces for kyōgen. What adds to the immense richness of the nohkan music is that in performance, the same patterns are inflected with expressive characteristics that serve the demands of a specific play, section and structural moment.</p>
-    <p>
-    In the hope to provide the user with a reference to better appreciate the expressive transformation of the same pattern we asked MORITA Yasuyoshi to perform ‘generic' versions of the patterns that could then be compared with their use within the plays. He was at first reluctant, since no ‘generic’ versions are ever performed. Patterns are always learned and played in the context of a specific play, with a particular character in mind. We appreciate the exception he made for this website and its educational purpose. Within the catalog that follows, two patterns: <a href="/music/nohkan/nakanotakane/"><em>Naka no takane</em></a> and <a href="/music/nohkan/takenemikusari/"><em>Takane mi kusari</em></a>  are first heard in their 'generic' form and then played as performed in Kokaji <em>Kuse</em> involving a male God, compared with Hashitomi <em>Kuse</em> which involves a young maiden.</p>
-
-    <p>The transmission of music for nokan is primarily oral. To help memorization a system of mnemonics called shoga is used. These are also notated. Specific combinations of syllables represent specific melodic contour and fingering relative to central note and mode. The direction of pitch is suggested by the use of vowels, which if ordered from highest to lowest are: i, a, o and u. However, there is no fixed relationship between a single mnemonic syllable and specific pitch or fingering. As a result, written notation has only a secondary role and is not sufficient in itself. Examples of mnemonics include: <em>o, u, hi, ra, ri, ru, ro, hya, hyu, hyo,</em> among others. For example of patterns, the shoga for <em>takane</em> is: "<em>o-hya ra</em>". It is important to note that each syllable represents a sound often composed of a sequence of pitches rather than a single one. Shoga does not carry any information about its duration, since it changes depending on context.</p>
-
-    <p>Finally, a word about the <em>hishigi</em> – a shrill, high-pitched tone that is rarely used within melodies. It is used primarily as a powerful and striking effect sometimes described as an invocation to gods. It often marks the end of a play, or the beginning or end of a section.</p>
-
-    <h4 id="Catalog">Selected Examples</h4>
-    <p>In presenting this selection of melodic materials our objective was to record only the principal 9 <em>ashirai</em> patterns that can be heard in one or both of the plays featured on this website: Kokaji and Hashitomi. For some context, in the notation book of Morita school 14 patterns appear in the play Funabenkei, only 5 in Soshi Arai Komachi, 15 in Kokaji and 8 in Hashitomi</p>
-    {% include nohkan-patterns.html %}
-    <p></p>
-    <p>To illustrate how patterns are used to articulate the structure of a section we will use the example of the first <em>Ageuta</em> section from Hashitomi. Three melodic patterns are usually performed during an <em>Ageuta</em> (a sung section): <em>takane, naka no takane,</em> and <em>mi roku no ge</em>. They stand out because they are relatively short, they each appear only once and as distinct utterances, played at their own specific point in the section.</p>
-
-    <p>First, the sequence of the patterns accentuates the melodic shape of the chant which starts in the higher range, moves to the middle  and closes in the low range. This descent is imitated by the nohkan's sequence of patterns, which start with <em>takane</em> followed by <em>naka no takane</em>, both in the instrument's higher range followed by the <em>mi roku no ge</em> whose melodic contour moves from the medium to the low range.</p>
-
-    <p>Second, the positioning of the patterns also underlines the structure of the text, which is characterized by a repeated first and last line. The reiteration of the first line is preceded by the nohkan's <em>takane</em> pattern, while the first statement of the last line of text is underlined by the entrance of the <em>mi roku no ge</em> pattern. The <em>naka no takane</em> does not have a specific position, but it is usually played at the point where the vocal line is about to move from the higher to the medium range.</p>
-
-    <p>There are exceptions to this basic structure, for instance, the <em>naka no takane</em> is left out from the first ageuta from Hashitomi, which is short. Its second ageuta being even shorter, only includes the first nohkan pattern: <em>takane</em>.</p>
+There are over 200 types of noh masks, grouped in categories and types. One of the most common subdivisions conceives of five groups: god masks, female masks, male masks, spirit masks and demon masks. Masks used in the ritual performance Okina constitute an additional category. </p>
+<p>
+Most masks are associated with a character type (e.g. young woman, middle-aged woman, warrior, demon, etc.) and each shite school may allow a certain character to be performed with different types of mask. Only a few masks are used exclusively to portray a specific character in a single nō play (e.g. Yamamba, Shunkan, Semimaru). In addition, while most mask types are employed across schools, some others are specific to certain schools. For example, the same role of young woman may be portrayed with mask called Waka-onna (Kanze school), Fushiki-zō (Hōshō school), Magojirō or Ko-omote (Kongō school), or Ko-omote (Konparu and Kita schools).</p>
 
 
-    {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Ageuta_Score.mp4"
-    %}
+<p>Masks developed throughout the Muromachi period (1338-1573), and their use was canonized at the beginning of the 17th century. In the late sixteenth century, certain masks from each type were seen as superior and became standards (<em>honmen</em>) that were then replicated following a carving tradition that continues until today. Each of these <em>honmen</em> has a name (e.g. Kojō, Chūjō, Tobide), which is retained as the name of the copy (<em>utsushi</em>), thus establishing identifiable iconography for each name-type. Excellent masks made according to the dimensions and expression of the <em>honmen</em> became viable theatrical tools and are seen as having their own intrinsic identity. </p>
 
+<p>Noh masks are carved using only natural materials and hand tools. A single block of <em>hinoki</em> (Japanese cypress) is carved into the shape of the mask, then it is covered with a white primer made with crushed shell and animal glue. The mask is then painted with mineral pigments. Finally, the carver may deliberately scar the mask to create a patina of age. No fixing agent or varnish is added on top of the mask, making it prone to further damage.</p>
 
+<p>Today both ancient masks and copies are used in performance. Regardless of age, actors treat masks with the utmost care, bowing to them before using them in performance to express respect for the tradition they represent. It is thanks to this carefulness that ancient masks can still be used on stage today, after centuries of use.</p>
 
-    <h3 id="Rhythm">Rhythm</h3>
-    <p>The nohkan performs solo, with the percussion instruments or with percussion instruments and voice. It never plays with the voice alone. For the majority of its repertoire, the nohkan’s part is non-congruent meaning that it is not synchronized to specific beats within the eight-beat unit. Depending on the situation, the nohkan player relies on either the text, the position of an actor on the stage, or an approximate point within the eight-beat unit to determine the beginning and end of their melodic pattern. For instance, when playing the solo piece <em>nanoribue</em>, an entrance music commonly played as the waki is walking onto the stage, the pace of the performance is guided by the time taken by the actor to walk from his entrance point to the speech position.</p><p>
-The <em>nanoribue</em> is based on three <em>ashirai</em> patterns: <em>naka no takane</em>, <em>roku no ge</em>, and an unnamed third one exclusive to the <em>nanoribue</em>.</p>
+<h3 id="Hashitomi">Hashitomi</h3>
 
-{% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Nanoribue.mp4"
-%}
-<p>When performing with the percussion instruments, there are three different types of possible rhythmic arrangements:</p><p>
-1.	The nohkan part is congruent, meaning that it aligns with specific beats of the eight-beat unit (<em>honji</em>). This is the case for all dances and some entrance and exit music.</p><p>
+<h4>Mask: ‘Ko-omote’</h4>
+<p>The name of this type of mask means ‘small face’. The use varies depending on the shite school. Kongō school uses Ko-omote to portray any kind of young female character: from a country girl to a court lady, from a flower spirit to a goddess. </p>
 
-2.	The nohkan's part is non-congruent, meaning that it does not align with the <em>honji</em>’s beats and it is set against a strict percussion part.<br>
-3. The nohkan’s non-congruent part is set against a flexible percussion part.
-</p>
-<h4 id="Congruent">Congruent</h4>
-<p>The nohkan part is congruent for all dances and some entrance and exit music. In these instances, the nohkan’s melodic patterns almost always start on the <em>honji</em>’s second beat or its second half. Its material is developed from short motives that are juxtaposed to create a larger melodic cell. For instance, the melody that accompanies the dance <em>maibataraki</em> found on this website is composed of three melodic motives: a, b, c, where each letter corresponds to an eight-beat melody. These motives performed as a set create a twenty-four beat long melody.
-On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is composed of four patterns, each eight-beat long, labelled: <em>Chū, Kan, Kan no chū,</em> and <em>Ryō</em>.
-</p>
-<div class="tabs-container">
-  <div class="tabs-container__links">
-    <div class="wrapper">
-      <div id="tabs"></div>
-    </div>
-  </div>
-  <div class="tabs-container__content">
-    <div class="wrapper">
-      <section id='Maibataraki' title='Maibataraki' class='tabbed-narrative'>
-      {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Kokaji-Maibataraki-EXCERPT_Score.mp4"
-      %}
-      </section>
-      <section id='Jonomai' title='Jonomai' class='tabbed-narrative'>
-      {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Jonomai-Patterns.mp4"
-      %}
-      </section>
-    </div>
-  </div>
-</div>
-<h4 id="Non-congruent-Strict">Non-congruent in Strict Setting</h4>
-<p>An example of a non-congruent nohkan’s part against a strict percussion part is provided with an excerpt from the <em>Issei</em>-music from Hagoromo. This is an entrance music that typically leads to the <em>Issei</em>-chant, where the percussion’s strict rhythmic setting is maintained against a non-congruent chant.
-After having articulated the beginning of the module with the <em>Hishigi</em> pattern, the nohkan players waits for the fourth <em>honji</em> to freely position the <em>Naka no takane</em> pattern in the span of two <em>honji</em>.
-</p>
-{% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hagoromo-Non-Congruent.mp4"
-%}
-<h4 id="Non-congruent-Flexible">Non-congruent in Flexible Setting</h4>
-<p> An example of a non-congruent nohkan’s part against a flexible percussion part is provided with an excerpt from the <em>Shidai-music</em> from Atsumori. This is an entrance music that typically leads to the <em>Shidai</em>-chant, where the percussion setting switches to strict against a congruent chant.
-After having articulated the beginning of the module with the <em>Hishigi</em> pattern, the nohkan players waits for the fourth <em>honji</em> to freely position the <em>Takane mi kusari</em> pattern in the span of two <em>honji</em>. </p>
+<p>Ko-omote represents the idealized face of an aristocratic young woman from the Heian period (794-1185), which was considered as the standard of elegance in medieval Japan. Ko-omote masks feature a fair complexion, with three thick hairlines neatly combed along the sides and fuzzy eyebrows painted high on the forehead. The teeth are dyed black. This make-up and hair style follow Heian-period aesthetics, though the mask may be used to portray any kind of female character, even from later eras. The mask’s plump cheeks and small lips, and the proportions of the small triangle formed between the eyes, nose and mouth give the mask a youthful look. </p>
 
-{% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Atsumori-Shidai-Non-Congrruent.mp4"
-%}
+<p>The mask is used in combination with a, long black wig (<em>kazura</em>) which, in the case of Hashitomi, is kept bound behind the neck, and hidden under the upper garment. The hair wig is parted in the middle and combed along the sides of the face, in correspondence with the painted hair. The ears of the actor are hidden under the hair.</p>
+
+<p>In the case of Hashitomi, Ko-omote is the standard choice in the Kongō school to represent the face of Yūgao, a young aristocratic lady from the Heian period. The Kanze school uses Waka-onna, offering the alternatives of Ko-omote and Fukai, the mask of a middle-aged woman. The Hōshō school uses its standard young woman mask, Fushikizō.</p>
+
+<p>Shimo-gakari shite schools (Komparu, Kongō, and Kita) schools use Ko-omote for both shite and tsure (companion) roles, though they often distinguish between specific Ko-omote masks reserving certain ones for shite roles and assigning others with less complex expressions for tsure roles. The Kongō school treasures one of the most famous Ko-omote masks, called Yuki-no-Ko-omote (snow Ko-omote), which is said to have been created by the renown mask carver Tatsuemon in the Muromachi period (1338-1573).</p>
+
+<h3 id="Kokaji">Kokaji</h3>
+<h4>First Act Mask: ‘Dōji’</h4>
+
+<p>The name of this mask literally means ‘boy’. The mask is used invariably for either a deity or a spirit in disguise in the first half of a play (e.g. Tamura, Kokaji, Shakkyō) or for roles of Chinese immortal (Makura-jidō, Hōsō, etc.). According to nō conventions, masks are not used for roles of adult males, unless the character is the personification of a supernatural creature, or some other kind of special character.</p>
+
+<p>The mask represents the face of a boy, with natural eyebrows, elongated eyes, and a natural smile. The expression is devoid of any wrinkle or furrows, contributing to a youthful look. The painted uncombed hair suggests young age and is matched with the large black <em>kashira</em> wig used in combination with this mask.</p>
+
+<h4>Second Act Mask: ‘Ō-tobide’</h4>
+
+<p>The name of this mask literally means ‘large jump/pop out’ and refers to its eyes, which appear as if they were popping out of the eye-sockets, and to its larger size in comparison to ‘ko-tobide’. This type of mask is used for a variety of roles, including the deity of Mt. Inari in the form of a fox-god (Kokaji), or the rain and thunder deity Wake-ikazuchi in Kamo.</p>
+
+<p>The mask is entirely covered with gold paint and features golden metal inserts for the eyes. According to noh conventions, gold symbolizes the supernatural nature of a character. The arched eyebrows, open wide round eyes, open mouth, and pointed moustache give the impression of an outburst of energy. The mask is used in combination with red or white <em>kashira</em> wig.</p>
+
+<p>Different masks can be used for the shite in the second half of Kokaji, depending on the performance variant and on the shite school. For the standard version of the play, in which the shite in the second half wears a red wig, the mask usually used is ko-tobide, a smaller mask with a reddish complexion. Ō-tobide, instead, is used for variant performances. The Kongō school, however, allows Ō-tobide to be used even with the standard staging of the play, shown in the video.</p>
+
+<p><em>Contributor: Diego Pellecchia</em></p>
+
 </div>
 </section>
 </div>
