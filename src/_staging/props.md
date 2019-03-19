@@ -64,6 +64,8 @@ third-level-menu-active: props
 </h7>
 <p></p>
     <p>To forge the new sword, the shite and waki mount the platform, take up their hammers, place the sword on the anvil and hammer while the chorus describes their actions. </p>
+{% include image-no-background.html src="/assets/images/Kokaji-spade.png" %}
+{% include image-no-background.html src="/assets/images/Kokaji-wand.png" %}
 
 {% include image-no-background.html src="/assets/images/Kokaji-on-platform.png" %}
 <p><em>Contributor: Monica Bethe</em></p>
