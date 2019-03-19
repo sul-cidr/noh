@@ -48,7 +48,7 @@ third-level-menu-active: props
 
 {% include image-no-background.html src="/assets/images/dwelling-in-back.png" %}
 
-    <p>For the <em>jō-no-mai</em> instrumental dance that follows, the prop serves as a backdrop, somewhat reducing the performance space, but in the final scene, as the chorus narrates Yūgao’s actions of entering the dwelling and receding behind the lattice shutter. The shite steps into the prop, turns full circle within it, and sinks down to the words 'becoming one with the dream,'' face obscured by the fan.</p>
+    <p>For the <em>jō-no-mai</em> instrumental dance that follows, the prop serves as a backdrop, somewhat reducing the performance space, but in the final scene, as the chorus narrates Yūgao’s actions of entering the dwelling and receding behind the lattice shutter. The shite steps into the prop, turns full circle within it, and sinks down to the words 'becoming one with the dream,' face obscured by the fan.</p>
 
 {% include image-no-background.html src="/assets/images/disappear-in-dwelling.png" %}
 
