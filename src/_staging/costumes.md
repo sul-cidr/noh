@@ -26,7 +26,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
     <h3 id="Hashitomi">Hashitomi</h3>
     <h4 id="Hashitomi-Shite1">The shite in the first act: a Village Woman.</h4>
     <p>The stipulated costume for this role is the standard for young women appearing in the first act of a nō, certain details, however, hint at a high status.</p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Hashitomi-Shite1.png" %}
     <p>Mask: Young woman (Kongō school uses Ko-omote)<br>
 <em>Kazura</em>: (woman’s wig, long black hair with center part and bound at the nape of the neck).<br>
 <em>Kazura-obi</em>: (hairband); red ribbon with sections having embroidery on a gold background.<br>
@@ -37,7 +37,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 </p>
     <h4 id="Hashitomi-Shite2">The shite in the second act: Yūgao’s ghost.</h4>
 
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Hashitomi-Shite2.png" %}
     <p>Mask, wig, hairband, collars, surihaku, and fan are the same as for act one. The costume change consists of stripping the outer karaori, and then putting on the following:<br>
 <em>Ōkuchi</em>, (divided skirts); red is typical for court ladies.<br>
 <em>Koshi-obi</em>, (waist sash); red with embroidery on a solid gold ground, not visible under the chōken.<br>
@@ -47,7 +47,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
     <h4 id="Hashitomi-Waki"> The Waki: Monk.</h4>
 
     <p>The nameless travelling monk wears a simple costume in plain, sober colors.</p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Hashitomi-Waki.png" %}
     <p><em>Sumi bōshi</em>: (folded rectangular cloth hat); dark brown
 <em>Eri</em>, (collar)<br>
 <em>Noshime</em>, (plain weave kosode worn by men); monochrome dark blue.<br>
@@ -61,7 +61,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
     <h4 id="Kokaji-Shite1">The shite in act one: a Youth</h4>
 
     <p>The youth here is in fact a manifestation in human form of the Fox deity. The red in his undergarment indicates his young age, and the garment itself is the soft embroidered nuihaku associated with women’s wear, but also worn by children until coming of age.</p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Shite1.png" %}
     <p>Mask: <em>Dōji</em> or <em>Jidō</em><br>
 <em>Kurogashira</em>: (black wig), long, shaggy, loose hair.<br>
 <em>Hachimaki</em>:(headband); kuroji kindon, gold brocaded on black satin. (not seen under the wig)<br>
@@ -74,7 +74,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
     <h4 id="Kokaji-Shite2">The shite in act two: Inari Myōjin, the Fox Deity.</h4>
 
     <p>The figure of a fox on the crown indicates the identity of the deity. His shaggy, bushy, long hair and the bulging eyes of his tobide mask express supernatural energy. He shite wears his happi jacket with the right sleeve slipped off and rolled up in the back so as to free his right arm when he hammer.</p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Shite2.png" %}
     <p>Mask: <em>Kotobide</em> or <em>Ōtobide</em> (Kongō school alternative, also variant performance standard)<br>
 <em>Akagashira</em>, (red shaggy wig), long bushy hair. Variant performances use a white wig, (<em>shirogashira</em>).<br>
 <em>Hachimaki</em> : (headband); akaji <em>kindon</em>, gold brocading on red satin.<br>
@@ -88,7 +88,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 </p>
     <h4 id="Kokaji-Waki1">The waki in act one: The swordsmith Sanjō Munechika</h4>
     <p>In the first act the waki is dressed in “street clothes” The hemp jacket is reminiscent of samurai garb, as is the style of folding the lacquer hat.</p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Waki1.png" %}
     <p><em>Samurai-eboshi </em>: (also <em>ori-eboshi</em>), (black lacquered hat that has been folded down with a small triangle at the front).<br>
 <em>Eri </em>: (collar); blue.<br>
 <em>Atsuita</em> : (brocaded <em>kosode</em>); with alternating blocks of large checks and of concentric flower-filled hexagons on a red ground.<br>
@@ -100,7 +100,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 </p>
     <h4 id="Kokaji-Waki2"> The waki in act two: The swordsmith Sanjō Munechika</h4>
     <p>The waki changes his jacket and hat for the second act. This gives him a more formal attire, more suitable for the encounter with the deity, though hardly suitable for smithing. When actually at work, he slips the right sleeve off so the right arm is unhampered by the broad sleeves when hammering. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Waki2.png" %}
     <p>The <em>Eri</em> (collar), <em>Atsuita</em> (brocaded <em>kosode</em>),<em>Ōkuchi:</em> (divided skirts), <em>Kokatana</em> (small sword), and <em>Otoko-ōgi</em>, man’s fan are all the same as in Act I.<br>
 <em>Kazaori-eboshi</em>, (black lacquered hat that has been folded to the side and tied with cords).<br>
 <em>Chōken</em>, (broad-sleeved gossamer cloak); purple gauze weave with gold design of facing cranes.  (alternative: kamishimo matched suit)<br>
@@ -108,7 +108,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 </p>
     <h4 id="Kokaji-Wakizure"> Wakizure: retainer of the minister Ichijō-in, Tachibana no Michinari</h4>
     <p>The wakizure wears a courtier’s costume, indicated by his round-collared kariginu jacket and his tall courtier’s cap. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Wakizure.png" %}
     <p><em>Eboshi</em> : (lacquered tall hat, Kanze gold, Kongō black); shown here is a <em>Tate-eboshi</em>, a black lacquered tall courtier’s hat.<br>
 <em>Eri</em> : (collar); light blue or navy.<br>
 <em>Atsuita </em>: (brocaded <em>kosode</em>); not visible.<br>
@@ -119,7 +119,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 </p>
     <h4 id="Kokaji-Ai">Ai-kyōgen player: Subsidiary Shrine Diety</h4>
     <p>Small shrines within a shrine complex, known as massha, each have their own deity. In nō the massha deities, performed by the aikyōgen, serve as messangers announcing the advent of the main deity and often perform a short dance. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Ai.png" %}
     <p>Mask: <em>Noborihige</em><br>
 <em>Massha zukin</em>: (susidiary deity’s hat), a cloth hat folded to form a round crown-like top.<br>
 <em>Atsuita</em> : (brocaded <em>kosode</em>); alternating blocks of large checks and hexagons on a red ground.<br>
@@ -131,15 +131,25 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
     <h3 id="Comments">Comments:</h3>
 
     <p>Some of the costumes seen in Hashitomi and Kokaji are used for several roles, but draped differently. For instance, the <em>chōken</em> falls freely when draped on a woman who dances (Hashitomi act II). The cords are tied in a large bow knot over the chest. On the other hand, the <em>chōken</em> is belted when draped on a man, as for the costume of the waki in the second act (Kokaji act II). The cords run vertically and are securely knotted to the waist sash. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+
+    {% include image-no-background.html src="/assets/images/tbdb.png" %}
+
     <p>The <em>mizugoromo</em> is worn over a <em>kosode</em> for the waki monk in Hashitomi and by the shite in act I of Kokaji, though the type of <em>kosode</em> differs, as do the hair and hat, creating different impressions overall. For the kyōgen in Kokaji, however, the <em>mizugoromo</em> is draped over the pantaloon-like <em>kukuri-bakama</em>.</p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+
+
+    {% include image-no-background.html src="/assets/images/btd.png" %}
+
     <p>Brocaded <em>kosode</em> come in two forms: <em>karaori</em> and <em>atsuita</em>. While the karaori can be worn either as an outer (i.e. the shite in act I of Hashitomi) or an inner garment under a broad-sleeved garment, the <em>atsuita</em> is generally an undergarment worn by male characters under various types of broad-sleeved over garments. When one of the sleeves of the over garment is slipped off, the <em>atsuita</em> pattern is exposed more fully. The waki in Kokaji act II removes the right sleeve of the <em>chōken</em> in preparation for working on the sword. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+
+    {% include image-no-background.html src="/assets/images/dbt.png" %}
+
     <p>The shite, likewise, has prepared for work by slipping off the right sleeve of his <em>happi</em> ourter garment. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+
+    {% include image-no-background.html src="/assets/images/dbt.png" %}
+
     <p>The broad sleeves of the <em>ōsode</em> outer garments provide for dynamic stage effect. During the <em>jō-no-mai</em>  dance (Hashitomi act II), the sleeves of the <em>chōken</em> are flipped over the arm and also up over the head, half veiling the face. In Kokaji act II, the Fox deity twirls and flips his sleeves to intensify given moments. </p>
-    {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
+
+    {% include image-no-background.html src="/assets/images/dbt.png" %}
 
 
 <p><em>Contributor: Monica Bethe</em></p>
