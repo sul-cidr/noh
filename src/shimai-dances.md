@@ -5,6 +5,7 @@ filter-act:
 filter-type:
 second-level-menu-active: movement
 third-level-menu-active: dances
+permalink: /shimai-dances/
 ---
 
 {% include second-menu-elements.html %}
