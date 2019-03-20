@@ -16,6 +16,7 @@ third-level-menu-active: costumes
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Costumes">Costumes</h2>
+        <h3 id="Intro">Introduction</h3>
     <p> Noh costumes define a characterʼs gender, profession, and rank. Their layered elements are prescribed by tradition and can be found noted at the beginning of the <em>utaibon</em> (libretto). While the types of garments for a given play are regulated, their colors, patterns, and in some cases mimetic techniques serve as a tool for the actorʼs expression. In choosing the costume for a character the actor considers the image to be portrayed, the overall atmophere of the performance, and the balance of colors, patterns, and motif sizes as they play off the costumes of other characters. The performer usually has a stock of costumes from which to choose. Heads of schools and other actor families that own theaters as well as some individual actors have costumes collected over a long time span.</p>
 
 <p>
@@ -23,7 +24,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <p>[Note: the garments are listed by their Japanese names followed by an English description in parenthesis and then a semicolon. After the semicolon comes a description of the specific garment used for this production.]</p>
 
     <h3 id="Hashitomi">Hashitomi</h3>
-    <h4>The shite in the first act: a Village Woman.</h4>
+    <h4 id="Hashitomi-Shite1">The shite in the first act: a Village Woman.</h4>
     <p>The stipulated costume for this role is the standard for young women appearing in the first act of a nō, certain details, however, hint at a high status.</p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p>Mask: Young woman (Kongō school uses Ko-omote)<br>
@@ -34,7 +35,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Karaori</em>, (kosode with multi-colored woven patterning) iroiri, including red indicating youth; the design here is pinks along fences over a basket-weave motif on alternating blocks of blue, white, and red.<br>
 <em>Kazura ōgi </em>: (woman’s spread-tip fan).
 </p>
-    <h4>The shite in the second act: Yūgao’s ghost.</h4>
+    <h4 id="Hashitomi-Shite2">The shite in the second act: Yūgao’s ghost.</h4>
 
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p>Mask, wig, hairband, collars, surihaku, and fan are the same as for act one. The costume change consists of stripping the outer karaori, and then putting on the following:<br>
@@ -43,7 +44,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Chōken</em>, (broad-sleeved gossamer over garment); woven design of flower carts and mulberry leaves rendered in gold and colored threads.<br>
 </p>
 
-    <h4> The Waki: Monk.</h4>
+    <h4 id="Hashitomi-Waki"> The Waki: Monk.</h4>
 
     <p>The nameless travelling monk wears a simple costume in plain, sober colors.</p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
@@ -57,7 +58,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 </p>
 
     <h3 id="Kokaji">Kokaji</h3>
-    <h4>The shite in act one: a Youth</h4>
+    <h4 id="Kokaji-Shite1">The shite in act one: a Youth</h4>
 
     <p>The youth here is in fact a manifestation in human form of the Fox deity. The red in his undergarment indicates his young age, and the garment itself is the soft embroidered nuihaku associated with women’s wear, but also worn by children until coming of age.</p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
@@ -70,7 +71,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Koshi-obi</em>: (waist sash); embroidered with three paulownia crests.<br>
 <em>Warabe-ōgi</em>, child’s fan.
 </p>
-    <h4>The shite in act two: Inari Myōjin, the Fox Deity.</h4>
+    <h4 id="Kokaji-Shite2">The shite in act two: Inari Myōjin, the Fox Deity.</h4>
 
     <p>The figure of a fox on the crown indicates the identity of the deity. His shaggy, bushy, long hair and the bulging eyes of his tobide mask express supernatural energy. He shite wears his happi jacket with the right sleeve slipped off and rolled up in the back so as to free his right arm when he hammer.</p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
@@ -85,7 +86,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Koshi-obi</em>: (waist sash); embroidered with three temple-gong crests.<br>
 <em>Tsuchi </em>: (smith’s hammer)
 </p>
-    <h4>The waki in act one: The swordsmith Sanjō Munechika</h4>
+    <h4 id="Kokaji-Waki1">The waki in act one: The swordsmith Sanjō Munechika</h4>
     <p>In the first act the waki is dressed in “street clothes” The hemp jacket is reminiscent of samurai garb, as is the style of folding the lacquer hat.</p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p><em>Samurai-eboshi </em>: (also <em>ori-eboshi</em>), (black lacquered hat that has been folded down with a small triangle at the front).<br>
@@ -97,7 +98,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Kokatana</em>: (small sword)<br>
 <em>Otoko-ōgi</em>, man’s fan<br>
 </p>
-    <h4> The waki in act two: The swordsmith Sanjō Munechika</h4>
+    <h4 id="Kokaji-Waki2"> The waki in act two: The swordsmith Sanjō Munechika</h4>
     <p>The waki changes his jacket and hat for the second act. This gives him a more formal attire, more suitable for the encounter with the deity, though hardly suitable for smithing. When actually at work, he slips the right sleeve off so the right arm is unhampered by the broad sleeves when hammering. </p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p>The <em>Eri</em> (collar), <em>Atsuita</em> (brocaded <em>kosode</em>),<em>Ōkuchi:</em> (divided skirts), <em>Kokatana</em> (small sword), and <em>Otoko-ōgi</em>, man’s fan are all the same as in Act I.<br>
@@ -105,7 +106,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Chōken</em>, (broad-sleeved gossamer cloak); purple gauze weave with gold design of facing cranes.  (alternative: kamishimo matched suit)<br>
 <em>Koshi-obi</em> :(waist sash); embroidered with three crests.
 </p>
-    <h4> Wakizure: retainer of the minister Ichijō-in, Tachibana no Michinari</h4>
+    <h4 id="Kokaji-Wakizure"> Wakizure: retainer of the minister Ichijō-in, Tachibana no Michinari</h4>
     <p>The wakizure wears a courtier’s costume, indicated by his round-collared kariginu jacket and his tall courtier’s cap. </p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p><em>Eboshi</em> : (lacquered tall hat, Kanze gold, Kongō black); shown here is a <em>Tate-eboshi</em>, a black lacquered tall courtier’s hat.<br>
@@ -116,7 +117,7 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Koshi-obi</em> :(waist sash); embroidered with three crests.<br>
 <em>Otoko-ōgi</em>, man’s fan.<br>
 </p>
-    <h4>Ai-kyōgen player: Subsidiary Shrine Diety</h4>
+    <h4 id="Kokaji-Ai">Ai-kyōgen player: Subsidiary Shrine Diety</h4>
     <p>Small shrines within a shrine complex, known as massha, each have their own deity. In nō the massha deities, performed by the aikyōgen, serve as messangers announcing the advent of the main deity and often perform a short dance. </p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p>Mask: <em>Noborihige</em><br>
@@ -127,13 +128,13 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 <em>Kyōgen ōgi</em>: (<em>kyōgen</em> fan).
 </p>
 
-    <h3>Comments:</h3>
+    <h3 id="Comments">Comments:</h3>
 
-    <p>Some of the costumes seen in Hashitomi and Kokaji are used for several roles, but draped differently. For instance, the chōken falls freely when draped on a woman who dances (Hashitomi act II). The cords are tied in a large bow knot over the chest. On the other hand, the chōken is belted when draped on a man, as for the costume of the waki in the second act (Kokaji act II). The cords run vertically and are securely knotted to the waist sash. </p>
+    <p>Some of the costumes seen in Hashitomi and Kokaji are used for several roles, but draped differently. For instance, the <em>chōken</em> falls freely when draped on a woman who dances (Hashitomi act II). The cords are tied in a large bow knot over the chest. On the other hand, the <em>chōken</em> is belted when draped on a man, as for the costume of the waki in the second act (Kokaji act II). The cords run vertically and are securely knotted to the waist sash. </p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p>The <em>mizugoromo</em> is worn over a <em>kosode</em> for the waki monk in Hashitomi and by the shite in act I of Kokaji, though the type of <em>kosode</em> differs, as do the hair and hat, creating different impressions overall. For the kyōgen in Kokaji, however, the <em>mizugoromo</em> is draped over the pantaloon-like <em>kukuri-bakama</em>.</p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
-    <p>Brocaded <em>kosode</em> come in two forms: <em>karaori</em> and <em>atsuita</em>. While the karaori can be worn either as an outer (i.e. the shite in act I of Hashitomi) or an inner garment under a broad-sleeved garment, the <em>atsuita</em> is generally an undergarment worn by male characters under various types of broad-sleeved over garments. When one of the sleeves of the over garment is slipped off, the <em>atsuita</em><em> pattern is exposed more fully. The waki in Kokaji act II removes the right sleeve of the <em>chōken</em> in preparation for working on the sword. </p>
+    <p>Brocaded <em>kosode</em> come in two forms: <em>karaori</em> and <em>atsuita</em>. While the karaori can be worn either as an outer (i.e. the shite in act I of Hashitomi) or an inner garment under a broad-sleeved garment, the <em>atsuita</em> is generally an undergarment worn by male characters under various types of broad-sleeved over garments. When one of the sleeves of the over garment is slipped off, the <em>atsuita</em> pattern is exposed more fully. The waki in Kokaji act II removes the right sleeve of the <em>chōken</em> in preparation for working on the sword. </p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
     <p>The shite, likewise, has prepared for work by slipping off the right sleeve of his <em>happi</em> ourter garment. </p>
     {% include image-no-background.html src="/assets/images/Ko-omote2.png" %}
