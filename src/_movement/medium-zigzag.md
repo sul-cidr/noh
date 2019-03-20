@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
     <h2>Medium Zigzag (<em>chūzayu</em>)</h2>
 
     <p>The Medium zigzag (<em>chūzayu</em>) resembles the <a href="/movement/large-zigzag">Large zigzag (<em>ōzayu</em>)</a> except that the number of steps is smaller. It often functions as a transition between two sections.</p>

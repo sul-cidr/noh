@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Feather Fan (<em>hane ōgi</em>)</h2>
 
     <p>The focus of this pattern is a broad sweeping of the extended fan from the right arm out in an arc to the left of the body. Often, the dancer is moving as he performs this pattern.</p>

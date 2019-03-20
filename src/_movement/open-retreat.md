@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
     <h2>Open-retreat (<em>hiraki</em>)</h2>
 
     <p>The Open-retreat pattern (<em>hiraki</em>) combines spreading the arms with three back steps. In this video it concludes with the Standing position (<em>kamae</em>).</p>

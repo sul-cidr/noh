@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
     <h2>Right Pivot to Stepping Forward (<em>migi uke migi hidari to de</em>)</h2>
 
     <p>As suggested by its translated title, this pattern is performed with a <a href="/movement/step-pivot">Right Step Pivot (<em>migi kakeru</em>)</a>, followed by a right and left step as the right hand holding the fan moves forward and up.</p>

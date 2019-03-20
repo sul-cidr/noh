@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Head</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Head</h4>
     <h2>Left and Right Turns (<em>atama hidari to migi e hiza</em>)</h2>
 
     <p>While several mimetic patterns are clear and conspicuous others are much more subtle, and yet they are as important. This is the case for head motion. It can be expected anytime, but in certain sections such as in the sitting kuse (called <em>iguse</em>), it is one of the very few motion used, thereby increasing its importance.</p>

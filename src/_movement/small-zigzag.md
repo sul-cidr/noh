@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
     <h2>Small Zigzag (<em>kozayu</em>)</h2>
 
     <p>The Small zigzag (<em>kozayu</em>) combines a left hand point with two steps to the left followed with a right hand lift point with one step to the right.</p>

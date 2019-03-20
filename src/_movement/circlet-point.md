@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circlets</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circlets</h4>
     <h2>Circlet Point (<em>mawari kaeshi</em>)</h2>
 
     <p>This is a forward motion that involves two complete circlets concluded with a <a href="/movement/forward-point">Forward point</a>.It may be performed in various places on the stage.</p>

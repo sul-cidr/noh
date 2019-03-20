@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Figure Eight Fan (<em>yūken</em>)</h2>
 
     <p>This very dynamic motion of the fan is often used to express intense emotion, whose specific meaning related to the play’s context and words.</p>

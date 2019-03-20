@@ -22,25 +22,25 @@ permalink: /elements/
           link="/movement/"
           image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           title="Movement"
-          description="Provides an interactive video catalog of movement vocabulary in Noh."
+          description="Provides an interactive video catalog of movement vocabulary and analyzes shimai dances from Hashitomi and Kokaji."
       %}
       {% include card.html
           link="/libretti/"
           image="/assets/images/utaibon.png"
-          title="Libretti"
-          description="Romaji transliteration and English translation of Hashitomi and Kokaji."
+          title="Text"
+          description="Introduces the texts of Hashitomi and Kokaji, and presents their libretti in Romaji transliteration and English translation."
       %}
       {% include card.html
           link="/staging/"
           image="/assets/images/Kokaji1.jpg"
           title="Staging"
-          description="Discusses the use of the Noh stage, masks, costumes and props."
+          description="Discusses the use of the Noh stage, masks, costumes and properties."
       %}
       {% include card.html
           link="/catalog-of-shodan/"
           image="/assets/images/voices-big.jpg"
-          title="Catalog of shōdan"
-          description="An interactive video catalog of shōdan – basic formal sections of Noh."
+          title="Catalog of Shōdan"
+          description="An interactive video catalog of shōdan – basic formal units of Noh."
       %}
     </div>
   </div>

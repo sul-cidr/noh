@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Turning</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Turning</h4>
     <h2>Simple pivot (<em>nejiru</em>)</h2>
 
     <p>To perform a Simple pivot to the right (<em>migi nejiru</em>), the dancer slides his right heel out and then slides his left foot parallel to the right one.

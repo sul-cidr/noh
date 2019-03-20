@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion</h4>
     <h2>Walking backward (<em>sagaru</em>)</h2>
 
     <p>When moving backward, the toes are lifted as the heel slides back.</p>

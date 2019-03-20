@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion</h4>
     <h2>Walking forward (<em>deru</em>)</h2>
 
     <p>As the foot slides forward the toes and heel stay in contact with the floor until  the end of the step, at which point the front of the foot raises slightly.</p>

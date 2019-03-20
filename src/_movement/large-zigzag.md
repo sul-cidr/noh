@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
     <h2>Large Zigzag (<em>ōzayu</em>)</h2>
 
     <p>Like the two Large circling movements: <a href="/movement/large-circling-l">Large Circling to the Left (<em>hidari ōmowari</em>)</a> and  <a href="/movement/large-circling-r">Large Circling to the Right (<em>migi ōmowari</em>)</a>, the Large zigzag (<em>ōzayu</em>) is a pattern that covers a fair amount of stage space but it does so in an angular fashion. Moreover, its overall motion from back to front stage gives it a raising-tension quality.</p>

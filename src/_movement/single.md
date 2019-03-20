@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Switch Knee</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Switch Knee</h4>
     <h2>Single Switch (<em>hiza tatekae</em>)</h2>
 
     <p>With one knee on the floor the dancer stands up, turns and falls on the other knee. The switch can be performed to the right knee (<em>hiza tatekae migi</em>), or to the left one (<em>hiza tatekae hidari</em>).

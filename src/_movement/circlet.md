@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circlets</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circlets</h4>
     <h2>Circlet (<em>mawarikomi</em>)</h2>
 
     <p>Right circlets (<em>migi mawarikomi</em>)  and left circlets (<em>hidari mawarikomi</em>) are made of the combination of pivots and steps, producing a complete circle in a small amount of space, taking the dancer one step ahead his starting position, as clearly shown in the side view video.</p>

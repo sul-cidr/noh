@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Stamps</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Stamps</h4>
     <h2>Six and Seven Stamps (<em>roku hyōshi nana byōshi</em>)</h2>
 
     <p>Stamp series usually starts with the left foot, then alternate right, left feet gradually increasing the speed.  Often, the first and last stamps are loud while those in the middle are softer. It is also customary for the meaning of the stamps to be related to the text.</p>

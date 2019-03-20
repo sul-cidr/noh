@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Pointing</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Pointing</h4>
     <h2>Backing Point with Open Fan (<em>mi wo kae</em>)</h2>
 
     <p>All Point patterns involve raising the right arm and pointing the fan. The different names come from the motion perform by the arm leading to the pointing conclusion.</p>

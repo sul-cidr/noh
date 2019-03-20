@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Beckon Fan with One Hand (<em>maneki ōgi migi te nomi</em>)</h2>
 
     <p>This pattern is based on a Japanese gesture used to beckon someone.

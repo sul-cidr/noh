@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circling</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circling</h4>
     <h2>Large Circling to the Left (<em>hidari ōmawari</em>)</h2>
 
     <p>Circling usually refers to moving in a large arc fashion from upstage to downstage and as such it helps define the dancing space. Because it is space-specific, one needs to know the following convention when it comes to numbering the areas on the <a href="/staging/stage">stage</a>.</p>

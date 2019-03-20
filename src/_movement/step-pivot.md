@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Turning</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Turning</h4>
     <h2>Step pivot (<em>kakeru</em>)</h2>
 
     <p>To perform a Step pivot to the right (<em>migi kakeru</em>), the dancer slides his left foot and bring it in front of the right one, and then slides his right foot parallel to the left one.

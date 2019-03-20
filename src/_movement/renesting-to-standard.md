@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Structural Patterns / Arm Motion with Fan</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Arm Motion with Fan</h4>
     <h2>Renesting to the Standard Hold (<em>ōgi mochinaoshi</em>)</h2>
 
 

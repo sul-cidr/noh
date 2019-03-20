@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic Patterns</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns</h4>
     <h2>Leap Turn Right and Left (<em>tobimawari hiza</em>)</h2>
 
     <p>This is another dynamic pattern that can be used merely for the effect, or it may carry referential meaning.

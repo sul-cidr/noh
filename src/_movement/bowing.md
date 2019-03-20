@@ -9,7 +9,7 @@ second-level-menu-active: movement
 
 <main class="page-content">
   <div class="text-container">
-    <h4><a href="/movement#catalog">Catalog of Patterns:</a> Mimetic</h4>
+    <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic</h4>
     <h2>Bowing (<em>jigi</em>)</h2>
 
     <p>The pattern is a formalized imitation of a typical Shinto movement.</p>

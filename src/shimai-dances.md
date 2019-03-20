@@ -4,9 +4,11 @@ name: dances
 filter-act:
 filter-type:
 second-level-menu-active: movement
+third-level-menu-active: dances
 ---
 
 {% include second-menu-elements.html %}
+{% include menu-dances-small.html %}
 
 <main class="page-content">
 <div class="wrapper sidebar-contents">
@@ -15,8 +17,8 @@ second-level-menu-active: movement
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">
-    <h2 id="Intro">Shodans</h2>
-    <p> Links to Kuse and Kiri of both plays:</p>
+    <h2 id="Intro">Shimai Dances</h2>
+    <p> Description and links to Kuse and Kiri of both plays:</p>
 
 
 <h4 id="Hashitomi-Kuse-Front">Hashitomi Kuse Front</h4>
