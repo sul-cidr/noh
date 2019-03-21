@@ -132,24 +132,24 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 
     <p>Some of the costumes seen in Hashitomi and Kokaji are used for several roles, but draped differently. For instance, the <em>chōken</em> falls freely when draped on a woman who dances (Hashitomi act II). The cords are tied in a large bow knot over the chest. On the other hand, the <em>chōken</em> is belted when draped on a man, as for the costume of the waki in the second act (Kokaji act II). The cords run vertically and are securely knotted to the waist sash. </p>
 
-    {% include image-no-background.html src="/assets/images/tbdb.png" %}
+    {% include image-no-background.html src="/assets/images/Choken-compare.png" %}
 
     <p>The <em>mizugoromo</em> is worn over a <em>kosode</em> for the waki monk in Hashitomi and by the shite in act I of Kokaji, though the type of <em>kosode</em> differs, as do the hair and hat, creating different impressions overall. For the kyōgen in Kokaji, however, the <em>mizugoromo</em> is draped over the pantaloon-like <em>kukuri-bakama</em>.</p>
 
 
-    {% include image-no-background.html src="/assets/images/btd.png" %}
+    {% include image-no-background.html src="/assets/images/Mizugoromo-compare.png" %}
 
     <p>Brocaded <em>kosode</em> come in two forms: <em>karaori</em> and <em>atsuita</em>. While the karaori can be worn either as an outer (i.e. the shite in act I of Hashitomi) or an inner garment under a broad-sleeved garment, the <em>atsuita</em> is generally an undergarment worn by male characters under various types of broad-sleeved over garments. When one of the sleeves of the over garment is slipped off, the <em>atsuita</em> pattern is exposed more fully. The waki in Kokaji act II removes the right sleeve of the <em>chōken</em> in preparation for working on the sword. </p>
 
-    {% include image-no-background.html src="/assets/images/dbt.png" %}
+    {% include image-no-background.html src="/assets/images/Karaori-compare.png" %}
 
     <p>The shite, likewise, has prepared for work by slipping off the right sleeve of his <em>happi</em> ourter garment. </p>
 
-    {% include image-no-background.html src="/assets/images/dbt.png" %}
+    {% include image-no-background.html src="/assets/images/Kokaji-Shite2.png" %}
 
-    <p>The broad sleeves of the <em>ōsode</em> outer garments provide for dynamic stage effect. During the <em>jō-no-mai</em>  dance (Hashitomi act II), the sleeves of the <em>chōken</em> are flipped over the arm and also up over the head, half veiling the face. In Kokaji act II, the Fox deity twirls and flips his sleeves to intensify given moments. </p>
+    <p>The broad sleeves of the <em>ōsode</em> outer garments provide for dynamic stage effect. During the <em>jō-no-mai</em>  dance (Hashitomi act II), the sleeves of the <em>chōken</em> are flipped over the arms to intensify given moments. In Kokaji act II, the Fox deity flips his sleeves also up over the head, half veiling the face. </p>
 
-    {% include image-no-background.html src="/assets/images/dbt.png" %}
+    {% include image-no-background.html src="/assets/images/Osode-compare.png" %}
 
 
 <p><em>Contributor: Monica Bethe</em></p>

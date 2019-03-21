@@ -222,7 +222,7 @@ fourth-level-menu-active: voices
         <p><strong>INCLUDE THE APPROPRIATE IMAGE</strong></p>
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_Demonstration.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_Utai.mp4"
           link="Hiranori styles in context"
           title="Hashitomi/Ageuta 1"
         %}
