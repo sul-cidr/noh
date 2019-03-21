@@ -70,22 +70,22 @@ fourth-level-menu-active: voices
         </p>
 
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score.mp4"
           link="Waki"
           title="Hashitomi – Nanori "
           paragraph1="The calm delivery in the lower register is well suited for a traveling priest."
         %}
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score.mp4"
           link="Waki-tsure"
           title="Kokaji – Nanori "
           paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
         %}
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score.mp4"
           link="Shite and waki "
           title="Kokaji – Mondō"
           paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
@@ -115,7 +115,7 @@ fourth-level-menu-active: voices
 
            </p>
             {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hagoromo-Kuri_yowagin_Range.mp4"
             link="Yowagin"
             title="Hagoromo/Kuri"
             paragraph1="The module is named after the pitch kuri from the higher register. For the most part, the pitch material of the piece focuses on the High pitch with few incursions on the Kuri shown with highlighted text on the video."
@@ -131,7 +131,7 @@ fourth-level-menu-active: voices
     </p>
       {% include image-no-background.html src="/assets/images/Tsuyogin-range.jpg" %}
       {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kuri_tsuyogin_Range.mp4"
         link="Tsuyogin"
         title="Kokaji/Kuri"
         paragraph1="The module’s name refers to the high pitch Kuri, hence the module’s melody is set in the higher register. Kokaji’s kuri includes four melodic motions towards the Kuri. They appear as for the kuri’s signature closing melisma called hon-yuri, the pitch module’s pitch material focuses on the Medium/High tone.part of embellishments in several words highlighted in the video with colored syllables."
@@ -167,8 +167,8 @@ fourth-level-menu-active: voices
           src="/assets/images/Tsuzukeutai.jpg"
         %}
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_tsuzukeutai.mp4"
           link="Tsuzuke utai (roll-over for more info)"
           title="Hashitomi/Ageuta-1"
         %}
@@ -197,7 +197,7 @@ fourth-level-menu-active: voices
           src="/assets/images/Secondmethod2.jpg"
         %}
 
-        <h4 id="Mitsuji-utai">h4-Mitsuji-utai</h4>
+        <h4 id="Mitsuji-utai">Mitsuji-utai</h4>
 
         <p>When singing in mitsuji-utai, syllables are rarely held over, hence the honji (8-beat unit) is condensed to fit the text. In other words, the metric structure is manipulated for the benefit of the text's declamation.  Hence, the eight beats of the unit are not equidistant.  Compared with tsuzuke-utai, a setting in mitsuji-utai is more dynamic since the melodic momentum is rarely interrupted by held-over tones.</p>
 
@@ -206,23 +206,23 @@ fourth-level-menu-active: voices
         <p><strong>INCLUDE THE CORRECTED IMAGE</strong></p>
 
         {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_mitsujiuta.mp4"
           link="Mitsuji utai (roll-over for more info)"
           title="Hashitomi/Ageuta 1"
         %}
 
-        <h4 id="Combination">h4-Demonstration in context of a play</h4>
+        <h4 id="Combination">Demonstration in context of a play</h4>
 
         <p>In the context of a chant,  mitsuji-utai and tsuzuke-utai are used alternatively to vary and control the rhythmic flow of the chant. The changes from mitsuji-utai to tsuzuke-utai are not left at the discretion of the performers though, rather the music is entirely written out, and it typically includes back and forth transition between the two. The cycle 'mitsuji- to tsuzuke-utai' always starts with mitsuji-utai leading to tsuzuke-utai, which itself either leads to a cadential pattern or to another mitsuji-utai, to start another cycle.</p>
 
-        <p>It is interesting to note that sparse mitusji patterns are usually used to accompany the part of a chant set in the declamatory mitsuji-utai, where the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular tsuzuke patterns are usually used to accompany part of a chant set in the tsuzuke-utai, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
+        <p>It is interesting to note that sparse Mitsuji patterns are usually used to accompany the part of a chant set in the declamatory mitsuji-utai, where the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular tsuzuke patterns are usually used to accompany part of a chant set in the tsuzuke-utai, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
 
         <p>Here is the actual text setting for the first ageuta from Hashitomi. This chant being rather short, it includes only one motion from mitsuji-utai to tsuzuke-utai, with the first three lines set in mitsuji-utai accompanied with sparse mitsuji patterns in the percussion, and the last three in tsuzuke-utai accompanied with steady tsuzuke patterns in the percussion.</p>
 
         <p><strong>INCLUDE THE APPROPRIATE IMAGE</strong></p>
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_Demonstration.mp4"
           link="Hiranori styles in context"
           title="Hashitomi/Ageuta 1"
         %}
@@ -233,7 +233,7 @@ fourth-level-menu-active: voices
         <p><strong>INCLUDE THE APPROPRIATE IMAGE for Kokaji-Noriji2-Onori</strong></p>
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Noriji2_Onori.mp4"
           link="Ōnori"
           title="Kokaji/Noriji 2"
         %}
@@ -245,7 +245,7 @@ fourth-level-menu-active: voices
         <p>Because of its lively quality, this text setting is often used for description of an active moment, such as a battle. Although, it is common practice for a module whose text is set to chūnori to include passages set in hiranori, its eight beats are almost never contracted akin to mitsuji-utai, rather, they remain steady.</p>
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kiri_Chunori.mp4"
           link="Chūnori"
           title="Kokaji/Kiri"
         %}
@@ -266,8 +266,8 @@ fourth-level-menu-active: voices
 
         <p><strong>INCLUDE THE APPROPRIATE IMAGE</strong></p>
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Sahi_Sashinori.mp4"
           link="Sashinori"
           title="Kokaji/Sashi"
         %}
@@ -279,8 +279,8 @@ fourth-level-menu-active: voices
         <p>The hand-percussion instruments start both segments with sparse mitsuij  patterns before moving on with tzusuke patterns.   It is while performing the sparse mitsuji patterns that the ōtsuzumi player has some flexibility to adapt to the melodic line. This is particularly clear with this recording. One can recognized the ōtsuzumi player's use of the flexible kakegoe when performing the first mitsuji patterns, whereas the kotsuzumi player uses the strict kakegoe throughout the chant.
         </p>
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score.mp4"
           link="Einori"
           title="Hashitomi/Issei"
         %}
