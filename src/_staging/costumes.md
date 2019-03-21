@@ -20,41 +20,41 @@ third-level-menu-active: costumes
     <p> Noh costumes define a characterʼs gender, profession, and rank. Their layered elements are prescribed by tradition and can be found noted at the beginning of the <em>utaibon</em> (libretto). While the types of garments for a given play are regulated, their colors, patterns, and in some cases mimetic techniques serve as a tool for the actorʼs expression. In choosing the costume for a character the actor considers the image to be portrayed, the overall atmophere of the performance, and the balance of colors, patterns, and motif sizes as they play off the costumes of other characters. The performer usually has a stock of costumes from which to choose. Heads of schools and other actor families that own theaters as well as some individual actors have costumes collected over a long time span.</p>
 
 <p>
-Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “small-sleeved”, T-shaped, straight-lined, full-length garments similar to a modern kimono, with wrist-length sleeves that have their cuff edge sewn up half way to form a pocket. (2) <em>ōsode</em> or <em>hirosode</em> “broad-sleeved” outer garments. The various styles of <em>ōsode</em> outer garments all have extra wide sleeves, often double the weaving width, that are open at the cuff. These are worn over a <em>kosode</em> and are generally three-quarter length. (3) <em>hakama</em>, variously translated as trousers, pleated pants, or divided skirts depending on how voluminous they are. (4) accessories, including hairbands (<em>kazura-obi</em>), waist sashes (<em>koshi-obi</em>), head covers like crowns, hats, and helmets, and hand-held objects such as fans, prayer beads, weapons, sticks, and ritual objects.</p>
+Nō costumes can be divided into four basic categories: (1) <em><strong>kosode</strong></em> “small-sleeved”, T-shaped, straight-lined, full-length garments similar to a modern kimono, with wrist-length sleeves that have their cuff edge sewn up half way to form a pocket. (2) <em><strong>ōsode</strong></em> or <em><strong>hirosode</strong></em> “broad-sleeved” outer garments. The various styles of <em>ōsode</em> outer garments all have extra wide sleeves, often double the weaving width, that are open at the cuff. These are worn over a <em>kosode</em> and are generally three-quarter length. (3) <em><strong>hakama</strong></em>, variously translated as trousers, pleated pants, or divided skirts depending on how voluminous they are. (4) <strong>accessories</strong>, including hairbands (<em>kazura-obi</em>), waist sashes (<em>koshi-obi</em>), head covers like crowns, hats, and helmets, and hand-held objects such as fans, prayer beads, weapons, sticks, and ritual objects.</p>
 <p>[Note: the garments are listed by their Japanese names followed by an English description in parenthesis and then a semicolon. After the semicolon comes a description of the specific garment used for this production.]</p>
 
     <h3 id="Hashitomi">Hashitomi</h3>
     <h4 id="Hashitomi-Shite1">The shite in the first act: a Village Woman.</h4>
     <p>The stipulated costume for this role is the standard for young women appearing in the first act of a nō, certain details, however, hint at a high status.</p>
     {% include image-no-background.html src="/assets/images/Hashitomi-Shite1.png" %}
-    <p>Mask: Young woman (Kongō school uses Ko-omote)<br>
-<em>Kazura</em>: (woman’s wig, long black hair with center part and bound at the nape of the neck).<br>
-<em>Kazura-obi</em>: (hairband); red ribbon with sections having embroidery on a gold background.<br>
-<em>Eri</em>: (white and red collars);  indicating high rank
+    <p><strong>Mask</strong>: Young woman (Kongō school uses Ko-omote)<br>
+<em><strong>Kazura</strong></em>: (woman’s wig, long black hair with center part and bound at the nape of the neck).<br>
+<em><strong>Kazura-obi</strong></em>: (hairband); red ribbon with sections having embroidery on a gold background.<br>
+<em><strong>Eri</strong></em>: (white and red collars);  indicating high rank
 <em>Surihaku</em>, (under kosode with gold-leaf stenciled design); white with flower scroll design.<br>
-<em>Karaori</em>, (kosode with multi-colored woven patterning) iroiri, including red indicating youth; the design here is pinks along fences over a basket-weave motif on alternating blocks of blue, white, and red.<br>
-<em>Kazura ōgi </em>: (woman’s spread-tip fan).
+<em><strong>Karaori</strong></em>, (kosode with multi-colored woven patterning) iroiri, including red indicating youth; the design here is pinks along fences over a basket-weave motif on alternating blocks of blue, white, and red.<br>
+<em><strong>Kazura ōgi</strong></em>: (woman’s spread-tip fan).
 </p>
     <h4 id="Hashitomi-Shite2">The shite in the second act: Yūgao’s ghost.</h4>
 
     {% include image-no-background.html src="/assets/images/Hashitomi-Shite2.png" %}
     <p>Mask, wig, hairband, collars, surihaku, and fan are the same as for act one. The costume change consists of stripping the outer karaori, and then putting on the following:<br>
-<em>Ōkuchi</em>, (divided skirts); red is typical for court ladies.<br>
-<em>Koshi-obi</em>, (waist sash); red with embroidery on a solid gold ground, not visible under the chōken.<br>
-<em>Chōken</em>, (broad-sleeved gossamer over garment); woven design of flower carts and mulberry leaves rendered in gold and colored threads.<br>
+<em><strong>Ōkuchi</strong></em>, (divided skirts); red is typical for court ladies.<br>
+<em><strong>Koshi-obi</strong></em>, (waist sash); red with embroidery on a solid gold ground, not visible under the chōken.<br>
+<em><strong>Chōken</strong></em>, (broad-sleeved gossamer over garment); woven design of flower carts and mulberry leaves rendered in gold and colored threads.<br>
 </p>
 
     <h4 id="Hashitomi-Waki"> The Waki: Monk.</h4>
 
     <p>The nameless travelling monk wears a simple costume in plain, sober colors.</p>
     {% include image-no-background.html src="/assets/images/Hashitomi-Waki.png" %}
-    <p><em>Sumi bōshi</em>: (folded rectangular cloth hat); dark brown
-<em>Eri</em>, (collar)<br>
-<em>Noshime</em>, (plain weave kosode worn by men); monochrome dark blue.<br>
-<em>Mizugoromo</em>, (broad-sleeveed travel coat); light brown, bound at the waist.<br>
-<em>Koshi-obi</em>, (waist sash); embroidered or woven rectangular panels decorate the two ends and center back.<br>
-<em>Juzu,</em> (prayer beads); held in the right hand.<br>
-<em>Sumie-ōgi</em>, (fan with ink painting); tucked into the waist band.
+    <p><em><strong>Sumi bōshi</strong></em>: (folded rectangular cloth hat); dark brown
+<em><strong>Eri</strong></em>, (collar)<br>
+<em><strong>Noshime</strong></em>, (plain weave kosode worn by men); monochrome dark blue.<br>
+<em><strong>Mizugoromo</strong></em>, (broad-sleeveed travel coat); light brown, bound at the waist.<br>
+<em><strong>Koshi-obi</strong></em>, (waist sash); embroidered or woven rectangular panels decorate the two ends and center back.<br>
+<em><strong>Juzu</strong>,</em> (prayer beads); held in the right hand.<br>
+<em><strong>Sumie-ōgi</strong></em>, (fan with ink painting); tucked into the waist band.
 </p>
 
     <h3 id="Kokaji">Kokaji</h3>
@@ -62,70 +62,70 @@ Nō costumes can be divided into four basic categories: (1) <em>kosode</em> “
 
     <p>The youth here is in fact a manifestation in human form of the Fox deity. The red in his undergarment indicates his young age, and the garment itself is the soft embroidered nuihaku associated with women’s wear, but also worn by children until coming of age.</p>
     {% include image-no-background.html src="/assets/images/Kokaji-Shite1.png" %}
-    <p>Mask: <em>Dōji</em> or <em>Jidō</em><br>
-<em>Kurogashira</em>: (black wig), long, shaggy, loose hair.<br>
-<em>Hachimaki</em>:(headband); kuroji kindon, gold brocaded on black satin. (not seen under the wig)<br>
-<em>Eri</em>: (collar); white and red, or white and pale blue.<br>
-<em>Nuihaku</em>: (gold-stenciled and embroidered satin kosode), with red; design of gold mist, curtain of many cloths, musical instruments.<br>
-<em>Mizugoromo</em>: (broad-sleeve travelling coat); plain weave, monochrome pale blue.<br>
-<em>Koshi-obi</em>: (waist sash); embroidered with three paulownia crests.<br>
-<em>Warabe-ōgi</em>, child’s fan.
+    <p><strong>Mask</strong>: <em>Dōji</em> or <em>Jidō</em><br>
+<em><strong>Kurogashira</strong></em>: (black wig), long, shaggy, loose hair.<br>
+<em><strong>Hachimaki</strong></em>:(headband); kuroji kindon, gold brocaded on black satin. (not seen under the wig)<br>
+<em><strong>Eri</strong></em>: (collar); white and red, or white and pale blue.<br>
+<em><strong>Nuihaku</strong></em>: (gold-stenciled and embroidered satin kosode), with red; design of gold mist, curtain of many cloths, musical instruments.<br>
+<em><strong>Mizugoromo</strong></em>: (broad-sleeve travelling coat); plain weave, monochrome pale blue.<br>
+<em><strong>Koshi-obi</strong></em>: (waist sash); embroidered with three paulownia crests.<br>
+<em><strong>Warabe-ōgi</strong></em>, child’s fan.
 </p>
     <h4 id="Kokaji-Shite2">The shite in act two: Inari Myōjin, the Fox Deity.</h4>
 
     <p>The figure of a fox on the crown indicates the identity of the deity. His shaggy, bushy, long hair and the bulging eyes of his tobide mask express supernatural energy. He shite wears his happi jacket with the right sleeve slipped off and rolled up in the back so as to free his right arm when he hammer.</p>
     {% include image-no-background.html src="/assets/images/Kokaji-Shite2.png" %}
-    <p>Mask: <em>Kotobide</em> or <em>Ōtobide</em> (Kongō school alternative, also variant performance standard)<br>
-<em>Akagashira</em>, (red shaggy wig), long bushy hair. Variant performances use a white wig, (<em>shirogashira</em>).<br>
-<em>Hachimaki</em> : (headband); akaji <em>kindon</em>, gold brocading on red satin.<br>
-<em>Kitsune kanmuri</em>: (fox crown); round base with a fox figure at the top.<br>
-<em>Eri</em> : (collar); navy or blue.<br>
-<em>Atsuita</em>: (brocaded kosode), <em>dangawari aka-iri</em>, alternate blocks of red and black; design of flower-filled hexagons and clouds over a lightning (<em>inazuma</em>) pattern.<br>
-<em>Hangiri:</em> (patterned divided skirts); gold design of undulating vertical lines (tatewaku) filled with large peony flowers on a red ground.<br>
-<em>Awase happi</em> : (lined broad-sleeved jacket); woven design of large peony scrolls on a green ground.<br>
-<em>Koshi-obi</em>: (waist sash); embroidered with three temple-gong crests.<br>
-<em>Tsuchi </em>: (smith’s hammer)
+    <p><strong>Mask</strong>: <em>Kotobide</em> or <em>Ōtobide</em> (Kongō school alternative, also variant performance standard)<br>
+<em><strong>Akagashira</strong></em>, (red shaggy wig), long bushy hair. Variant performances use a white wig, (<em>shirogashira</em>).<br>
+<em><strong>Hachimaki</strong></em> : (headband); akaji <em>kindon</em>, gold brocading on red satin.<br>
+<em><strong>Kitsune kanmuri</strong></em>: (fox crown); round base with a fox figure at the top.<br>
+<em><strong>Eri</strong></em> : (collar); navy or blue.<br>
+<em><strong>Atsuita</strong></em>: (brocaded kosode), <em>dangawari aka-iri</em>, alternate blocks of red and black; design of flower-filled hexagons and clouds over a lightning (<em>inazuma</em>) pattern.<br>
+<em><strong>Hangiri</strong>:</em> (patterned divided skirts); gold design of undulating vertical lines (tatewaku) filled with large peony flowers on a red ground.<br>
+<em><strong>Awase happi</strong></em> : (lined broad-sleeved jacket); woven design of large peony scrolls on a green ground.<br>
+<em><strong>Koshi-obi</strong></em>: (waist sash); embroidered with three temple-gong crests.<br>
+<em><strong>Tsuchi</strong></em>: (smith’s hammer)
 </p>
     <h4 id="Kokaji-Waki1">The waki in act one: The swordsmith Sanjō Munechika</h4>
     <p>In the first act the waki is dressed in “street clothes” The hemp jacket is reminiscent of samurai garb, as is the style of folding the lacquer hat.</p>
     {% include image-no-background.html src="/assets/images/Kokaji-Waki1.png" %}
-    <p><em>Samurai-eboshi </em>: (also <em>ori-eboshi</em>), (black lacquered hat that has been folded down with a small triangle at the front).<br>
-<em>Eri </em>: (collar); blue.<br>
-<em>Atsuita</em> : (brocaded <em>kosode</em>); with alternating blocks of large checks and of concentric flower-filled hexagons on a red ground.<br>
-<em>Ōkuchi</em> : (divided skirts); white.<br>
-<em>Kake-hitatare</em> : (broad-sleeved jacket of a matched hemp hitatare suit); paste-resist design of cranes and broken ice in a “pine-bark” area division.<br>
-<em>Koshi-obi</em> :(waist sash); embroidered with three crests.<br>
-<em>Kokatana</em>: (small sword)<br>
-<em>Otoko-ōgi</em>, man’s fan<br>
+    <p><em><strong>Samurai-eboshi</strong></em>: (also <em>ori-eboshi</em>), (black lacquered hat that has been folded down with a small triangle at the front).<br>
+<em><strong>Eri</strong></em>: (collar); blue.<br>
+<em><strong>Atsuita</strong></em> : (brocaded <em>kosode</em>); with alternating blocks of large checks and of concentric flower-filled hexagons on a red ground.<br>
+<em><strong>Ōkuchi</strong></em> : (divided skirts); white.<br>
+<em><strong>Kake-hitatare</strong></em> : (broad-sleeved jacket of a matched hemp hitatare suit); paste-resist design of cranes and broken ice in a “pine-bark” area division.<br>
+<em><strong>Koshi-obi</strong></em> :(waist sash); embroidered with three crests.<br>
+<em><strong>Kokatana</strong></em>: (small sword)<br>
+<em><strong>Otoko-ōgi</strong></em>, man’s fan<br>
 </p>
     <h4 id="Kokaji-Waki2"> The waki in act two: The swordsmith Sanjō Munechika</h4>
     <p>The waki changes his jacket and hat for the second act. This gives him a more formal attire, more suitable for the encounter with the deity, though hardly suitable for smithing. When actually at work, he slips the right sleeve off so the right arm is unhampered by the broad sleeves when hammering. </p>
     {% include image-no-background.html src="/assets/images/Kokaji-Waki2.png" %}
     <p>The <em>Eri</em> (collar), <em>Atsuita</em> (brocaded <em>kosode</em>),<em>Ōkuchi:</em> (divided skirts), <em>Kokatana</em> (small sword), and <em>Otoko-ōgi</em>, man’s fan are all the same as in Act I.<br>
-<em>Kazaori-eboshi</em>, (black lacquered hat that has been folded to the side and tied with cords).<br>
-<em>Chōken</em>, (broad-sleeved gossamer cloak); purple gauze weave with gold design of facing cranes.  (alternative: kamishimo matched suit)<br>
-<em>Koshi-obi</em> :(waist sash); embroidered with three crests.
+<em><strong>Kazaori-eboshi</strong></em>, (black lacquered hat that has been folded to the side and tied with cords).<br>
+<em><strong>Chōken</strong></em>, (broad-sleeved gossamer cloak); purple gauze weave with gold design of facing cranes.  (alternative: kamishimo matched suit)<br>
+<em><strong>Koshi-obi</strong></em> :(waist sash); embroidered with three crests.
 </p>
     <h4 id="Kokaji-Wakizure"> Wakizure: retainer of the minister Ichijō-in, Tachibana no Michinari</h4>
     <p>The wakizure wears a courtier’s costume, indicated by his round-collared kariginu jacket and his tall courtier’s cap. </p>
     {% include image-no-background.html src="/assets/images/Kokaji-Wakizure.png" %}
-    <p><em>Eboshi</em> : (lacquered tall hat, Kanze gold, Kongō black); shown here is a <em>Tate-eboshi</em>, a black lacquered tall courtier’s hat.<br>
-<em>Eri</em> : (collar); light blue or navy.<br>
-<em>Atsuita </em>: (brocaded <em>kosode</em>); not visible.<br>
-<em>Ōkuchi </em>: (divided skirts); white.<br>
-<em>Awase kariginu</em> : (lined broad-sleeve courtier’s jacket with round collar and cords at the cuffs); design of gold chrysanthemums over a wave pattern. (<em>seigaiha</em>)<br>
-<em>Koshi-obi</em> :(waist sash); embroidered with three crests.<br>
-<em>Otoko-ōgi</em>, man’s fan.<br>
+    <p><em><strong>Eboshi</strong></em> : (lacquered tall hat, Kanze gold, Kongō black); shown here is a <em>Tate-eboshi</em>, a black lacquered tall courtier’s hat.<br>
+<em><strong>Eri</strong></em> : (collar); light blue or navy.<br>
+<em><strong>Atsuita</strong></em>: (brocaded <em>kosode</em>); not visible.<br>
+<em><strong>Ōkuchi</strong></em>: (divided skirts); white.<br>
+<em><strong>Awase kariginu</strong></em> : (lined broad-sleeve courtier’s jacket with round collar and cords at the cuffs); design of gold chrysanthemums over a wave pattern. (<em>seigaiha</em>)<br>
+<em><strong>Koshi-obi</strong></em> :(waist sash); embroidered with three crests.<br>
+<em><strong>Otoko-ōgi</strong></em>, man’s fan.<br>
 </p>
     <h4 id="Kokaji-Ai">Ai-kyōgen player: Subsidiary Shrine Diety</h4>
     <p>Small shrines within a shrine complex, known as massha, each have their own deity. In nō the massha deities, performed by the aikyōgen, serve as messangers announcing the advent of the main deity and often perform a short dance. </p>
     {% include image-no-background.html src="/assets/images/Kokaji-Ai.png" %}
     <p>Mask: <em>Noborihige</em><br>
-<em>Massha zukin</em>: (susidiary deity’s hat), a cloth hat folded to form a round crown-like top.<br>
-<em>Atsuita</em> : (brocaded <em>kosode</em>); alternating blocks of large checks and hexagons on a red ground.<br>
-<em>Kukuri-bakama</em>: (black pleated trousers with round crests bound at the calves).<br>
-<em>Mizugoromo</em>: (broad-sleeved coat); monochrome green.<br>
-<em>Kyōgen ōgi</em>: (<em>kyōgen</em> fan).
+<em><strong>Massha zukin</strong></em>: (susidiary deity’s hat), a cloth hat folded to form a round crown-like top.<br>
+<em><strong>Atsuita</strong></em> : (brocaded <em>kosode</em>); alternating blocks of large checks and hexagons on a red ground.<br>
+<em><strong>Kukuri-bakama</strong></em>: (black pleated trousers with round crests bound at the calves).<br>
+<em><strong>Mizugoromo</strong></em>: (broad-sleeved coat); monochrome green.<br>
+<em><strong>Kyōgen ōgi</strong></em>: (<em>kyōgen</em> fan).
 </p>
 
     <h3 id="Comments">Comments:</h3>
