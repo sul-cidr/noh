@@ -151,7 +151,7 @@ fourth-level-menu-active: voices
 
         <p>The hiranori setting has two singing styles: <a href="#Tsuzukeutai">tsuzuke-utai</a> and <a href="#Mitsujiutai">mitsuji-utai</a>. The explanation of examples of the two individual styles is followed by a <a href="#Hiranoridemo">demonstration in the context</a> of a section where the two complement each other.</p>
 
-        <h5 id="Tsuzuke-utai">h5-Tsuzuke-utai</h5>
+        <h5 id="Tsuzuke-utai">Tsuzuke-utai</h5>
 
         <p>When singing in tsuzuke-utai, syllables are held over the first, third, and fifth beats, so that the twelve syllables fit within the honji (8-beat unit). In other words, the text is manipulated for the benefit of a steady metric structure, hence the eight beats of the unit are equidistant.</p>
 
@@ -187,7 +187,7 @@ fourth-level-menu-active: voices
         {% include image-no-background.html
           src="/assets/images/Firstmethod2.jpg"
         %}
-        <p>Another method of fitting a larger than twelve syllables line of text within a honij (eight-beat unit) consists of introducing measures of two (okuriji), four (toriji), or six (kataji) beats. For example, here are the first three lines of Kokaji’s kiri. Its syllabic structure is: 7 + 5, 7 + 6, and 9 + 5.</p>
+        <p>Another method of fitting a larger than twelve syllables line of text within a honji (eight-beat unit) consists of introducing measures of two (okuriji), four (toriji), or six (kataji) beats. For example, here are the first three lines of Kokaji’s kiri. Its syllabic structure is: 7 + 5, 7 + 6, and 9 + 5.</p>
 
         {% include image-no-background.html
           src="/assets/images/Secondmethod.jpg"
