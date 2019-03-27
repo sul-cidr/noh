@@ -9,8 +9,7 @@ permalink: /libretti/
 
 <main class="page-content">
   <div class="text-container">
-    <h2>Libretti</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+    <h2>Text</h2>
+    <p>Here we will have articles about Noh texts in general and the two specific plays. In addition we will have the libretti with translation and references to shodan.</p>
   </div>
 </main>
-
