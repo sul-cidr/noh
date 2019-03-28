@@ -66,6 +66,9 @@ Most masks are associated with a character type (e.g. young woman, middle-aged w
 
 <p><em>Contributor: Diego Pellecchia</em></p>
 
+{% include image-no-background.html src="/assets/images/Kyogen-mask2.png" %}
+{% include image-no-background.html src="/assets/images/Kyogen-mask1.png" %}
+
 </div>
 </section>
 </div>
