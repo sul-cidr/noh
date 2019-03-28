@@ -126,10 +126,10 @@ third-level-menu-active: otsuzumi
     <p>When performing dances and some entrance music, the complementarity between the two hand drums is somewhat relaxed as they perform patterns of different length that do not necessarily interlock within an eight-beat unit, as demonstrated with the following excerpts from the dance <em>jo no mai</em>.
     In this example the kotsuzumi’s <em>nagaji</em> pattern is spread over sixteen-beats against the ōtsuzumi's <em>ji</em> pattern that lasts eight-beat. The repeated patterns of the flute and two hand drums are almost hypnotic bringing them to the background and leaving the foreground to the dance.</p>
     <p> Kotsuzumi's <em>nagaji</em> sixteen-beat pattern:</p>
-    {% include image.html src="/assets/images/Kotsuzumi-Nagaji.png" %}
+    {% include image-no-background.html src="/assets/images/Kotsuzumi-Nagaji.png" %}
 
     <p>Ōtsuzumi's <em>ji</em> eight-beat pattern:</p>
-    {% include image.html src="/assets/images/Otsuzumi-Ji.png" %}
+    {% include image-no-background.html src="/assets/images/Otsuzumi-Ji.png" %}
 
     <p>Another interesting point demonstrated with this example, is how the ōtsuzumi's closing <em>shikake</em> pattern brakes the predictability of the repeated patterns. Its steady six strokes and subsequent kakegoe announce the end of the dance and initiate the cadential deccelerando.</p>
     {% include video-no-background.html
@@ -139,14 +139,14 @@ third-level-menu-active: otsuzumi
     <p>When performing intermedia analysis of a <em>shōdan</em> on this website, we have provided summarized scores, merging the ōtsuzumi’s and kotsuzumi’s patterns into a single line.</p>
 
     <p>For example, the following rhythmic patterns:</p>
-    {% include image.html src="/assets/images/MergingRhythms-1.png" %}
+    {% include image-no-background.html src="/assets/images/MergingRhythms-1.png" %}
     <p>have been notated as such:</p>
-     {% include image.html src="/assets/images/MergingRhythms-2.png" %}
+     {% include image-no-background.html src="/assets/images/MergingRhythms-2.png" %}
 
      <p>And these patterns:</p>
-     {% include image.html src="/assets/images/MergingRhythms-3.png" %}
+     {% include image-no-background.html src="/assets/images/MergingRhythms-3.png" %}
      <p>have been written like this:</p>
-     {% include image.html src="/assets/images/MergingRhythms-4.png" %}
+     {% include image-no-background.html src="/assets/images/MergingRhythms-4.png" %}
 
      <p>where the left strokes on the first, third and sixth beats corresponds to the ōtsuzumi’s stroke, the right ones to the kotsuzumi’s. We have followed the same sequencing when merging <em>kakegoe</em> and stroke, thus the <em>'yo''</em> on the second half of the fourth beat is called by the ōtsuzumi player at the same time as the kotsuzumi player performs a <em>pu</em> stroke.</p>
 
