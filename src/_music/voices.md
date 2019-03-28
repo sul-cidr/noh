@@ -125,7 +125,8 @@ fourth-level-menu-active: voices
      </p><p>
     The actors are not attempting to produce specific melodic pitches. Their singing oscillates mainly within a minor third shown below as Low and High tones. However, at specific moments High tones are embellished by higher tones.
     </p>
-      {% include image-no-background.html src="/assets/images/Tsuyogin.png" %}
+
+            {% include image-no-background.html src="/assets/images/Tsuyoggin-range.png" %}
       {% include video-no-background.html
         src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kuri_tsuyogin_Range.mp4"
         link="Tsuyogin"
