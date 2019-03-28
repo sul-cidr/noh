@@ -140,7 +140,7 @@ fourth-level-menu-active: voices
 
         <p> The vocal parts fall into two main categories of rhythm: congruent when their parts align with specific beats, and non-congruent when they do not.</p>
 
-        <h3 id="Congruent">Congruent (hyōshi-ai)</h3>
+        <h3 id="Congruent">Congruent (<em>hyōshi-ai</em>)</h3>
         <p>A Noh chant is said to be congruent when its syllables coincide with the measure’s beats. There are three possible congruent settings: <a href="#Hiranori"><em>hiranori</em></a>, <a href="#Onori"><em>ōnori</em></a>, and <a href="#Chunori"><em>chūnori</em></a>.</p>
 
         <h4 id="Hiranori">Hiranori</h4>
@@ -259,7 +259,7 @@ fourth-level-menu-active: voices
           src="/assets/images/2ndMethod-Rhythm.png"
         %}
 
-        <h3 id="Non-congruent">Non-congruent (hyōshi-awazu)</h3>
+        <h3 id="Non-congruent">Non-congruent (<em>hyōshi-awazu</em>)</h3>
 
         <p>The emphasis for non-congruent chants is on the text and melodic line. With this text setting there is no coordination between syllables and the unit’s eight beats. There are two types of non-congruent chant: <em>sashinori</em> and <em>einori</em>.</p>
 
