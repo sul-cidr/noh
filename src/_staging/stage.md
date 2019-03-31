@@ -13,6 +13,7 @@ third-level-menu-active: stage
   <div class="text-container">
     <h2 id="Stage">Stage</h2>
     <p> introduction with illustrations, explanation of positions on stage</p>
+    <h3 id="Squares"> introduction with illustrations, explanation of positions on stage</h3>
 </div>
 
 </main>
