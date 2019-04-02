@@ -56,6 +56,8 @@ Nō costumes can be divided into four basic categories: (1) <em><strong>kosode<
 <em><strong>Juzu</strong>,</em> (prayer beads); held in the right hand.<br>
 <em><strong>Sumie-ōgi</strong></em>, (fan with ink painting); tucked into the waist band.
 </p>
+    <h4 id="Hashitomi-Ai"> Ai-kyōgen.</h4>
+        {% include image-no-background.html src="/assets/images/Hashitomi-ai.png" %}
 
     <h3 id="Kokaji">Kokaji</h3>
     <h4 id="Kokaji-Shite1">The shite in act one: a Youth</h4>
@@ -147,7 +149,7 @@ Nō costumes can be divided into four basic categories: (1) <em><strong>kosode<
 
     {% include image-no-background.html src="/assets/images/Kokaji-Shite2.png" %}
 
-    <p>The broad sleeves of the <em>ōsode</em> outer garments provide for dynamic stage effect. During the <em>jō-no-mai</em>  dance (Hashitomi act II), the sleeves of the <em>chōken</em> are flipped over the arms to intensify given moments. In Kokaji act II, the Fox deity flips his sleeves also up over the head, half veiling the face. </p>
+    <p>The broad sleeves of the <em>ōsode</em> outer garments provide for dynamic stage effect. During the <em>jō-no-mai</em>  dance (Hashitomi act II), the sleeves of the <em>chōken</em> are flipped over the arms to intensify given moments. In Kokaji act II, the Fox deity twirls his sleeve  raising the arm to half veil the face. </p>
 
     {% include image-no-background.html src="/assets/images/Osode-compare.png" %}
 

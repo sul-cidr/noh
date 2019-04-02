@@ -56,14 +56,14 @@ third-level-menu-active: otsuzumi
 
     <p>The notion of strict synchronization between all players (referred to in Noh as congruency) is also an exception rather than the norm. For the percussionists the first beat of the eight-beat unit, which for Western ensembles would traditionally serve as an accent and a point of rhythmic unity, in Noh is often silent. It is "performed" internally in the mind of the musicians and followed by a note according to an individual's sense of pacing. The notion of “togetherness” is not based on exact coincidence of the attack but on a cohesion of energy and expression. In the same spirit, most of the time the nohkan’s part is metrically independent from the percussion part and there are many instances when that is the case for the chant as well.</p>
 
-    <h3 id="congruency">Congruent/Non-congruent</h3>
-    <p>There are two types of rhythmic correlation between the voice, flute and percussion instruments. The rhythmic correlation is said to be congruent when the nohkan and/or vocal part align with the eight-beat unit(<em>honji</em>), whereas it is said to be non-congruent when they do not.</p>
+    <h3 id="congruency">Strict and Flexible</h3>
+    <p>There are two types of rhythmic correlation between the voice, flute and percussion instruments. The rhythmic correlation is 'strict' when the nohkan and/or vocal part align with the eight-beat unit(<em>honji</em>), whereas it is 'said to be 'flexible' when they do not.</p>
 
-    <p>When performing in a congruent setting the unit's eight beats are 'relatively' periodic with the exception to the duration of the 8th beat, which is usually slightly extended, hence this setting provides rhythmic stability.</p>
+    <p>When performing in a strict setting the unit's eight beats are 'relatively' periodic with the exception to the duration of the 8th beat, which is usually slightly extended, hence this setting provides rhythmic stability.</p>
 
-    <p>On the other hand, when performing in a non-congruent setting the unit's eight beats are not equidistant. The duration of the 1st, 3rd and/or 5th beat can be shortened and the 8th one slightly extended. Also, the tempo is usually slower than in congruent setting, thus providing flexibility to prolong or shorten the duration of the beats.</p>
+    <p>On the other hand, when performing in a flexible setting the unit's eight beats are not equidistant. The duration of the 1st, 3rd and/or 5th beat can be shortened and the 8th one slightly extended. Also, the tempo is usually slower than in strict setting, thus providing flexibility to prolong or shorten the duration of the beats.</p>
 
-    <p>In the non-congruent rhythmic setting, the degree of independence vis-à-vis the eight-beat unit varies according to the instruments:
+    <p>In the flexible rhythmic setting, the degree of independence vis-à-vis the eight-beat unit varies according to the instruments:
     •	A non-congruent vocal line is totally independent from the eight-beat unit, in the sense that it does not start or end on a specific beat, and at no time is it expected to align with a specific beat.
     •	A non-congruent nohkan part begins and ends at some specific points usually related to the text, but the music between these two points in not synchronized within the 8 beat measure.
     •	Finally, a drum part is always connected to the eight-beat measure. Thus, we call a rhythmic setting strict, when the beat is relatively steady. On the other hand, we call a rhythmic setting flexible when the beat is irregular, in which case the music is often characterized by fewer strokes. Percussion parts with a flexible rhythmic setting is performed primarily by the ōtsuzumi and kotsuzumi  since most of the music involving the taiko is strict. Difference between the two rhythmic settings is also accentuated by the <em>kakegoe</em>.  In strict setting the calls are centered equally between beats and have a shorter, more accented quality, whereas in flexible setting the calls start earlier and extend for the duration between beats.</p>
@@ -105,12 +105,12 @@ third-level-menu-active: otsuzumi
         <div class="wrapper">
           <section id='Ashirai_strict' title='Ashirai strict' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai_Strict.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
           %}
           </section>
           <section id='Ashirai_flexible' title='Ashirai flexible' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai_Flexible.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
           %}
           </section>
         </div>
