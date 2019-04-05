@@ -35,7 +35,7 @@ third-level-menu-active: otsuzumi
     <h3 id="Kakegoe">Kakegoe</h3>
     <p>Drummers alternate strokes on the drums with shouts called <em>kakegoe</em>. The most frequently used <em>kakegoe</em> by ōtsuzumi players are: <em>yo, ho, iya, yo-i,</em> and <em>hon-yo</em>, whereas the ones most commonly used by kotsuzumi players are: <em>yo, ho, and iya</em>.</p>
 
-    <p>The ōtsuzumi’s <em>kakegoe</em> <em>iya</em> and <em>yo-i</em> are used to mark endings of a sections so they are not very much impacted by the rhythmic setting. <em>Hon-yo</em> is a call that introduces a section in strict setting so it is relatively consistent as well.</p>
+    <p>The ōtsuzumi’s <em>kakegoe</em> <em>iya</em> and <em>yo-i</em> are used to mark endings of a sections so they are not very much impacted by the rhythmic setting (<a href="#Patterns">explained below</a>). <em>Hon-yo</em> is a call that introduces a section in strict setting so it is relatively consistent as well.</p>
 
     <p>The exact pronunciation of vowels as well as dynamic and melodic shape vary significantly depending on the dramatic context, school and performer. Please click below to hear examples of:</p>
 
