@@ -63,28 +63,7 @@ third-level-menu-active: otsuzumi
     <p>The drum parts are always connected to the eight-beat measure. We call a rhythmic setting 'strict', when the beat is relatively steady. On the other hand, we call a rhythmic setting 'flexible' when the beat is irregular. In the latter case the music is often characterized by fewer strokes, and a slower tempo. Difference between the two rhythmic settings is also accentuated by the <em>kakegoe</em>.  In strict setting the calls are centered equally between beats and have a shorter, more accented quality, In flexible setting the calls start earlier and extend for the duration between beats. Percussion parts in a flexible rhythmic setting are performed primarily by the ōtsuzumi and kotsuzumi since most of the music involving the taiko is strict. </p>
 
     <p>For comparison, a sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
-
-    <div class="tabs-container">
-      <div class="tabs-container__links">
-        <div class="wrapper">
-          <div id="tabs"></div>
-        </div>
-      </div>
-      <div class="tabs-container__content">
-        <div class="wrapper">
-          <section id='Ashirai_strict' title='Ashirai strict' class='tabbed-narrative'>
-          {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
-          %}
-          </section>
-          <section id='Ashirai_flexible' title='Ashirai flexible' class='tabbed-narrative'>
-          {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
-          %}
-          </section>
-        </div>
-      </div>
-    </div>
+<p>  <a href="/music/flexible-strict"> video examples</a></p>
 
     <h4 id="patterns">Patterns</h4>
     <p>The percussionists’ strokes and <em>kakegoe</em> are arranged into patterns of varying duration, that can be as short as two and as long as thirty-two beats. Patterns are then sequenced to produce larger phrases. All three instruments have their own set of patterns but there is a very important relationship between the kotsuzumi and ōtsuzumi, who most of the time work as a pair. Whenever they accompany singers their individual patterns interlock and complement each other to form an eight-beat pattern. The ōtsuzumi with its louder sound is usually more active within the first four of the eight beats while the softer kotsuzumi in the last four. This creates a continuous fluctuation of color and intensity. The combined patterns typically start on the upbeat leading to the first beat of the eight-beat unit (<em>honji</em>).</p>
@@ -109,11 +88,30 @@ third-level-menu-active: otsuzumi
     4.	The degree of rhythmic stability/ambiguity of a phrase is also impacted by its rhythmic setting where a strict setting is more stable than a flexible one. <br>
     5.	 The sparse <em>mitsuji</em> patterns are usually used to accompany a chant set in the declamatory <a href="/music/voices#Mitsuji-utai"><em>mitsuji-utai</em></a>. Hence the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <em>tsuzuke</em> patterns are usually used to accompany a chant set in the <a href="/music/voices#Tsuzuke-utai"><em>tsuzuke-utai</em></a>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
 
-    <p>The music in the next video is spread over five <em>honji</em>, where the first four are set in the sparse <em>mitsuji</em>, the last one in a steady <em>tsuzuke</em>.</p>
+    <p>The following two videos show strict and flexible setting of a mixed sequence. Each version begins with four repetitions of a <em>mitsuji</em> pattern followed by one <em>tsuzuke</em>.</p>
 
-    {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Uchikiri.mp4"
-    %}
+    <div class="tabs-container">
+      <div class="tabs-container__links">
+        <div class="wrapper">
+          <div id="tabs"></div>
+        </div>
+      </div>
+      <div class="tabs-container__content">
+        <div class="wrapper">
+          <section id='Ashirai_strict' title='Ashirai strict' class='tabbed-narrative'>
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
+          %}
+          </section>
+          <section id='Ashirai_flexible' title='Ashirai flexible' class='tabbed-narrative'>
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
+          %}
+          </section>
+        </div>
+      </div>
+    </div>
+
     <h5 id="Uchikiri">Uchikiri pattern</h5>
     <p><em>Uchikiri</em> pattern is often used as a bridge to reestablish a strict rhythmic setting after a flexible section (<em>shōdan</em>) or after a very slow strict one. Hence, it often leads to sections with a strict rhythmic setting such as <em>ageuta</em>, <em>kuse</em>, or <em>sageuta</em>. It is easily recognizable by the ōtsuzumi player’s <em>kakegoe</em>  <em>"ha hon yo"</em>. In this video, the excerpt is extended to include the first beat of the following phrase.</p>
     {% include video-no-background.html
@@ -128,7 +126,7 @@ third-level-menu-active: otsuzumi
     <p>Ōtsuzumi's <em>ji</em> eight-beat pattern:</p>
     {% include image-no-background.html src="/assets/images/Otsuzumi-Ji.png" %}
 
-    <p>Another interesting point demonstrated with this example, is how the ōtsuzumi's closing <em>shikake</em> pattern brakes the predictability of the repeated patterns. Its steady six strokes and subsequent kakegoe announce the end of the dance and initiate the cadential deccelerando.</p>
+    <p>Another interesting point demonstrated with this example, is how the ōtsuzumi's closing (<em>shikake</em>) pattern brakes the predictability of the repeated patterns. Its steady six strokes and subsequent kakegoe announce the end of the dance and initiate a cadential deccelerando.</p>
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Jonomai-RhythmicPatterns.mp4"
     %}
