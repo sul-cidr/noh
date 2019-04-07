@@ -24,7 +24,7 @@ export const voiceStyles = {
   J: "jiutai",
   S: "shite",
   W: "waki",
-  Wt: "waki-tsure",
+  Wt: "wakizure",
   A: "aikyōgen"
 };
 

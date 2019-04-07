@@ -20,7 +20,7 @@ The painted pine tree on the back wall of the stage is also meant to remind us o
 
 The square of the stage proper can be divided into 3 x 3 sub-squares, numbered from 1 to 9.</p><p id="Squares"></p>
 
-    {% include image-no-background.html src="/assets/images/Noh-Stage-2.png" %}
+    {% include image.html src="/assets/images/Noh-Stage-2.png" %}
 
 <p>The sub-squares do not all share the same dramatic potential since a dance motion is more powerful or subdued depending on where it is performed. Squares 3, 4, and 9 are the strongest positions: square 3 because it is the point of convergence of all the audience’s viewing points, square 4 because it is center front stage, and square 9 because it is center stage:</p>
 <p>Square 1 and 8 are used as starting and/or closing location for a dance or dance segment.</p>
@@ -66,7 +66,7 @@ The square of the stage proper can be divided into 3 x 3 sub-squares, numbered f
 <p>Under some Noh stages large empty clay jars are placed to act as resonance bodies to amplify the sound of the shite’s stamping, as well as the sound of the drums, flute, and voices from the jiutai.</p>
 
 
-<p>The simplicity of the Noh stage allows for various reinterpretations of its space. For instance, the stage represents three different places for the entrance of the three characters in Kokaji’s first act entrance. The first one to appear is the waki-tsure, an imperial envoy. Thus, the bridge and stage are understood to be the palace where he works. The second character to enter is the waki, Munechika the swordsmith, and at that moment, the bridge represents his house or factory. Finally, when the shite appears, the bridge as well as the stage should be seen as somewhere outside of Munechika’s house, who at the time is on his way to the Inari shrine. Once Munechika sets on Square 6, we understand it to represent the shrine.
+<p>The simplicity of the Noh stage allows for various reinterpretations of its space. For instance, the stage represents three different places for the entrance of the three characters in Kokaji’s first act entrance. The first one to appear is the wakizure, an imperial envoy. Thus, the bridge and stage are understood to be the palace where he works. The second character to enter is the waki, Munechika the swordsmith, and at that moment, the bridge represents his house or factory. Finally, when the shite appears, the bridge as well as the stage should be seen as somewhere outside of Munechika’s house, who at the time is on his way to the Inari shrine. Once Munechika sets on Square 6, we understand it to represent the shrine.
 In Kokaji’s second act, the addition of a prop helps identify a specific location, since the dais on Square 4 represents Munichika’s forge.</p>
 
 <p>In Hashitomi the waki is a monk living in Unrin-in Temple in Murasakino of Kitayama in Kyoto. Thus, the bridge and stage are understood to represent the temple. Things are little less obvious though with the entrance of the shite, a character who might be seen as a flower and as a ghost of a woman. As the monk is about to celebrate a mass for the flowers he notices an unusual white one among his lot, and as he wonders about it, the shite appearing as a woman speaks for the flower. Some say that she is the flower’s voice, other say that she is physically present.

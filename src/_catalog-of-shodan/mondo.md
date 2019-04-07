@@ -28,7 +28,7 @@ second-level-menu-active: catalog-shodan
   Bold syllables are used in the excerpt to identify the higher pitch that triggers the following descent.</p>
 
   <p>Kokaji’s first <em>mondō</em> is the second <em>shōdan</em> of the First act’s ‘Waki enters’ part. Preceded by a <em>nanori</em>, it maintains the <a href="/music/voices#Spoken"><em>kotoba</em></a> style of delivery but the texture moves from one to two speaking voices.
-  The dialogue is between a waki-tsure impersonating an authoritative Emperor’s envoy, and a waki, the humble swordsmith Munechika Kokaji.</p>
+  The dialogue is between a wakizure impersonating an authoritative Emperor’s envoy, and a waki, the humble swordsmith Munechika Kokaji.</p>
 
   <p>Kokaji’s second <em>mondō</em> is the third out of four <em>shōdan</em> in the First act’s ‘Dialogue’.  It starts with a <em>yobikake</em>, that is a call from the distance. As such, the entrance of the shite in Kokaji's first act is uncommon as it is not preceded by any music. He enters with a <em>yobikake</em>, an unexpected call from the distance, hence the curtain is lifted, yet he is still out of sight in the mirror room, as he delivers this statement intended to the waki who is on stage. The addition of any entrance music would have spoiled the surprise effect.</p>
   <p>This <em>mondō</em> offers two points of comparison between a shite and waki’s <em>kotoba</em> styles.

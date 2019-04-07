@@ -49,7 +49,7 @@ fourth-level-menu-active: voices
         </tr>
         <tr class="content-table__row">
           <td class="content-table__column">Waki</td>
-          <td class="content-table__column">In traditional Noh repertoire the secondary actor is a realistic male character living in the narrative's present hence he is never masked. We usually know who he is from the beginning since he typically introduces himself immediately after arriving on stage. He engages the shite and provides him with a reason to re-appear and perform. Plays without a waki are exceptionally few. There are three majors types of waki characters: a shrine official or retainer; a warrior; but most commonly a traveling priest. In some plays the waki has one or few unmasked companion actors called waki-tsure.</td>
+          <td class="content-table__column">In traditional Noh repertoire the secondary actor is a realistic male character living in the narrative's present hence he is never masked. We usually know who he is from the beginning since he typically introduces himself immediately after arriving on stage. He engages the shite and provides him with a reason to re-appear and perform. Plays without a waki are exceptionally few. There are three majors types of waki characters: a shrine official or retainer; a warrior; but most commonly a traveling priest. In some plays the waki has one or few unmasked companion actors called wakizure.</td>
           <td class="content-table__column">Hōshō<br>Fukuō<br>Takayasu</td>
         </tr>
         <tr class="content-table__row">
@@ -65,7 +65,7 @@ fourth-level-menu-active: voices
         <h3 id="Spoken">Spoken</h3>
         <p>
         The spoken sections called <em>kotoba</em> consist of non-rhythmical prose. Usually, the recitation divides a sentence into two parts: a gradual rising tone reaching a peak followed by a falling off.  The highest pitch falls on the second syllable of the second part. In the text transcription of the excerpts, syllables in bold are used to identify the higher pitches that lead to a descent. </p><p>
-    Sections in <em>kotoba</em> are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's <em>kotoba</em> can be heard in the following three examples: <br>Hashitomi/Nanori – waki <br>Kokaji/Nanori – waki-tsure <br>Kokaji/Mondō – shite and waki.
+    Sections in <em>kotoba</em> are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's <em>kotoba</em> can be heard in the following three examples: <br>Hashitomi/Nanori – waki <br>Kokaji/Nanori – wakizure <br>Kokaji/Mondō – shite and waki.
 
         </p>
 
@@ -79,7 +79,7 @@ fourth-level-menu-active: voices
 
         {% include video-no-background.html
           src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score.mp4"
-          link="Waki-tsure"
+          link="wakizure"
           title="Kokaji – Nanori "
           paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
         %}

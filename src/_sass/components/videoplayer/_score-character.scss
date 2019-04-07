@@ -47,7 +47,7 @@
 .cell__character--aikyogen   { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
 .cell__character--shite      { @include character-overlay($color-character-shite, 'shite'); }
 .cell__character--waki       { @include character-overlay($color-character-waki, 'waki'); }
-.cell__character--waki-tsure { @include character-overlay($color-character-waki-tsure, 'waki-tsure'); }
+.cell__character--wakizure { @include character-overlay($color-character-wakizure, 'wakizure'); }
 
 .cell--text:hover {
   .cell__tooltip {

@@ -32,7 +32,7 @@ second-level-menu-active: catalog-shodan
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score.mp4"
     %}
 
-    <h3>Kokaji’s <em>nanori</em></h3><p> is delivered by a waki-tsure personating an Emperor’s envoy hastening to deliver an important order. It differs from Hashitomi’s <em>nanori</em> in at least two ways: Its speed of delivery is much faster, and the pitch higher, two distinctions well suited for a messenger who is in a hurry to deliver an important missive.</p>
+    <h3>Kokaji’s <em>nanori</em></h3><p> is delivered by a wakizure personating an Emperor’s envoy hastening to deliver an important order. It differs from Hashitomi’s <em>nanori</em> in at least two ways: Its speed of delivery is much faster, and the pitch higher, two distinctions well suited for a messenger who is in a hurry to deliver an important missive.</p>
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score.mp4"

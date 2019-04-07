@@ -118,7 +118,7 @@ describe("parser", () => {
         start: 2,
         style: "justified",
         text: "2. Open-retreat.",
-        voices: ["waki-tsure"]
+        voices: ["wakizure"]
       },
       {
         length: 1,

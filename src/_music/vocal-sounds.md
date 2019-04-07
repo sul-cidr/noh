@@ -48,7 +48,7 @@ Sections in <em>kotoba</em> are always delivered by an actor, never by the jiuta
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
-      link="Waki-tsure"
+      link="wakizure"
       title="Kokaji – Nanori "
       paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
     %}

@@ -30,7 +30,7 @@ second-level-menu-active: catalog-shodan
   </p>
   <p>Kokaji does not include an <em>issei</em>. Although, Hashitomi does include one, it is unusually short since the shite being already on stage hidden in the <em>tsukurimono</em>, there is no need for an extended entrance music.
 </p>
-  <p>As a point of comparison, we included a concert version of Hagoromo’s <em>issei</em>-music, which is used for the entrance of the waki and waki-tsure. The nohkan player opens the shōdan with the <a href="/music/nohkan/Hishigi"><em>hishigi</em></a> pattern followed by the <a href="/music/nohkan/Nakanotakane"><em>naka no takane</em></a> and a variation on the <a href="/music/nohkan/Rokunoge"><em>roku no ge</em></a> pattern, where he repeats the last three lines after having performed the initial four-line pattern.
+  <p>As a point of comparison, we included a concert version of Hagoromo’s <em>issei</em>-music, which is used for the entrance of the waki and wakizure. The nohkan player opens the shōdan with the <a href="/music/nohkan/Hishigi"><em>hishigi</em></a> pattern followed by the <a href="/music/nohkan/Nakanotakane"><em>naka no takane</em></a> and a variation on the <a href="/music/nohkan/Rokunoge"><em>roku no ge</em></a> pattern, where he repeats the last three lines after having performed the initial four-line pattern.
   On the other hand, the nohkan player plays the two-line  <a href="/music/nohkan/Mirokunoge"><em>mi roku no ge</em></a> pattern in the short Hashitomi’s issei-music.
 </p>
     </div>
