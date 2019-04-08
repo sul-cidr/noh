@@ -15,20 +15,31 @@ permalink: /about-intermedia/
   <section class="sidebar-contents__section">
 
   <div class="text-container">
-    <h2 id="intermedia-intro">Introduction</h2>
-    <p>In our definition 'intermedia' is a way of forming artistic expression that draws on the cumulative impact and relationships between media. Noh theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props is a particularly rich and sophisticated form of intermedia. Not only it brings together multiple forms of art, but each of them has been highly refined, plays a substantial role, and the correspondences between them are singular, intricate and wide-ranging. The goal of this website is to examine and interpret the parts played by and interactions between media in Noh.</p>
+    <h2 id="intermedia-intro">About Intermedia</h2>
+    <h3 id="intermedia-intro">Introduction</h3>
+    <p>In our definition 'intermedia' is a way of forming artistic expression that draws on the relationships between media and their cumulative impact. Noh theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props is a particularly rich and sophisticated form of intermedia. Not only it brings together multiple forms of art, but each of them has been highly refined, plays a substantial role, and the correspondences between them are singular, intricate and wide-ranging. The goal of this website is to examine and interpret the parts played by and interactions between media in Noh.</p>
 
-    <p>In any intermedia work, not all media will have equal importance at all times. At different moments, any element or combination of them can dominate, and this can vary further in the perception of an individual listener of particular interests and backgrounds. In our intermedia analysis, we offer an interpretation, but we hope that it will serve as inspiration for other possible ones and that additional resources including those of this website will assist in this process.</p>
+    <p>In any intermedia work, not all media will have equal importance at all times. At different moments, any element or combination of them can dominate, and this can vary further in the perception of an individual listener of particular interests and background. In time-based art forms like the Noh Theater particular weight and attention must be given to dimensions that change over time. Continuously evolving elements such as word narratives, musical sequences and movement of actors, come particularly strongly to the fore of perception due to ongoing change. Their prominent features can align in meaning or structural qualities to reinforce each other and fulfill a desired dramatic effect. But the primary role of the time-based components does not mean that elements like costumes or props that are comparatively constant do not play significant roles in intermedia. Always when they appear on the stage for the first time or when they are used for specific dramatic purposes, they can equally become the center of attention. Even when they remain relatively unchanged, they help in establishing important semantic or aesthetic context. They are essential to the understanding of a play as a whole and at times, focal elements of the dramatic narrative.</p>
 
-    <p>In time-based art forms like the Noh Theater particular weight and attention must be given to dimensions that change over time. Continuously evolving elements such as word narratives, musical sequences and movement of actors, come particularly strongly to the fore of perception due to ongoing change. Their prominent features can align in meaning or form to reinforce each other and fulfill a desired dramatic effect. But the primary role of the time-based components does not mean that elements like costumes or props that are comparatively constant do not play significant roles in intermedia or in what Zeami otherwise refers to as "points of concentrated interest." Always when they appear on the stage for the first time or when they are used for specific dramatic purposes, they can equally become the center of attention. Even when they remain relatively unchanged, they help in establishing important semantic or aesthetic context. They are essential to the understanding of a play as a whole and at times, central elements of the dramatic narrative.</p>
+    <p>The fundamental relationships between the expression of different media are of similarity and contrast. Neither of the two is in itself more dramatically impactful than the other. For example, a lively text delivered at the dominant central position of the stage with the accompaniment of a full ensemble is not automatically more dramatic than an unexpected but slow-paced call from behind the curtain with the rest of performers listening with anticipation. Dramatic tension is not merely a function of the combined level of energy or amount of new information. One can observe that uniformly powerful energy in the former example, and the contrast of action and stillness in the latter case were both achieving great dramatic interest in the scenes. When each element has multiple expressive dimensions (ex. music with its fluctuations in tempo, rhythmic organization, pitch range, styles of delivery and more), the interpretation of all characteristics and their relationships can become extremely rich and complex. Some prioritizing was, therefore, an inevitable part of our analysis.</p>
 
-    <p>The fundamental relationships between the expression of different media are of similarity or contrast. Neither of the two is in itself more dramatically impactful than the other. For example, a lively text delivered at the dominant central position of the stage with the accompaniment of a full ensemble is not automatically more dramatic than an unexpected but slow-paced call from behind the curtain with the rest of performers listening with anticipation. Dramatic tension is not merely a function of the combined level of energy or amount of new information. One can observe that uniformly powerful energy in the former example, and the contrast of action and stillness in the latter case were both achieving great dramatic interest in the scenes. When each element has multiple expressive dimensions (ex. music with its fluctuations in tempo, rhythmic organization, pitch range, styles of delivery and more), the interpretation of all characteristics and their relationships can become extremely rich and complex. Some prioritizing was, therefore, an inevitable part of our analysis.</p>
+    <p>One of the most impactful conditions for intermedia is the simultaneity of activity in different media layers. The intersection in time is undoubtedly powerful, but is not the only possibility. Because the duration of elements in each media in Noh is to various degree flexible, full and exact time synchrony is a rare occurrence. Many compelling intermedia relationships are forged when events in each of the media happen in temporal proximity or sequentially within the window of the viewer's memory. Sometimes, one brief but poignant element will cast a long shadow over a large span of time. All of this complicates the task of intermedia analysis, but to the extent that it is possible, we will attempt to proceed chronologically and cover different formal levels of Noh with comments spanning from full plays, through acts, sub-act sections, and modules, to lines of text and metric units defined by the music.</p>
 
-    <p>One of the most impactful conditions for intermedia is the simultaneity of activity in different media layers. The intersection in time is undoubtedly powerful, but not essential. Because the duration of elements in each media in Noh is to various degree flexible, full and exact time synchrony is a rare occurrence. Many compelling intermedia relationships are forged when events in each of the media happen in temporal proximity or sequentially within the window of the viewer's memory. Sometimes, one brief but poignant action will cast a long shadow over a large span of time. All of this complicates the task of intermedia analysis, but to the extent that it is possible, we will attempt to cover different formal levels of Noh with comments spanning from full plays, through acts, sub-act sections, and modules, to lines of text and metric units defined by the music.</p>
+    <p>In our intermedia analysis, we offer an interpretation, but it is neither exhaustive nor definitive. We hope that it will serve as inspiration for other possible ones and that additional resources including those on this website will assist in this process.</p>
 
-    <h2 id="intermedia-tools"> Tools of Analysis</h2>
-    <p>It is common practice in the context of formal analyses of Noh plays to refer to Zeami's adaptation of the Gagaku concept of Jo-ha-kyū, where sections (shôdan) are grouped in sub-sets to fit within the larger five-part scheme: <br>Jo <br> Ha-Jo <br> Ha-Ha <br> Ha-Kyū <br> Kyū.<br>
-    While we recognize the importance of this formal concept in Zeami's work and occasionally referred to it, it was not well suited for the analysis of the intermedia structure of a Noh play.
+    <h3 id="intermedia-tools"> Tools of Analysis</h3>
+    <p>It is a common practice in the context of formal analysis of Noh plays to refer to Zeami's adaptation of the Gagaku concept of Jo-ha-kyū, where structural modules (shōdan) are grouped in sub-sets to fit within the following five-part scheme:</p>
+
+    <table class="content-table">
+      <tr class="content-table__row">
+        <td class="content-table__column">Jo</td>
+        <td class="content-table__column">Ha-Jo</td>
+        <td class="content-table__column">Ha-Ha</td>
+        <td class="content-table__column">Ha-Kyū</td>
+        <td class="content-table__column">Kyū</td>
+        </tr>
+        </table>
+  <p>  While we recognize the importance of this formal concept in Zeami's work, it is too limiting for the analysis of the intermedia structure of a Noh play.
     Hence, we developed a method of analysis that is primarily based on perception that aims at showing how the form of a play is articulated through the interaction between its text, music, and dance.</p>
     <p>Considering that the development of each media throughout the course of a Noh play is more or less prescribed, we ranked all the possible combinations between text, music and dance, where earlier stages of development were assigned a lower rank whereas higher one where given to combinations involving later stages of development. The defintion of the ranking system went through a five step process.</p>
     <h3>Step one: Transformation of each media component</h3>
@@ -51,14 +62,270 @@ permalink: /about-intermedia/
     <p>A texture with a larger instrumentation was ranked higher over a smaller one.
     The ‘pure’ dance being the crown jewel of most plays was selected as the highest ranked texture.</p>
     <p>The figure below summarizes the hierarchies that we established:</p>
-    <img src="/assets/images/intermediatextures.jpg">
+    {% include image.html src="/assets/images/New-Rhythmic-Organization-2.png" %}
     <h3>Step four: Assignment of ranked position for the textures</h3>
     <p>Fourth, we defined the texture of a section (shôdan) in terms of its instrumentation, rhythmic structure, and if it includes a dance or not. Considering all possible sections (shôdan), we identified twenty-three textures. We ranked the textures from the simplest to the optimal, as summarized in the following figure (Note that a vocal part marked with the number 2 implies a duo either between two actors, or between the chorus and an actor):</p>
-    <img src="/assets/images/twentythreetextures.jpg">
+    {% include image.html src="/assets/images/New-Rhythmic-Organization-1.png" %}
+
     <h3>Step five: Assignment of hierarchical position for the textures found in three Noh plays</h3>
     <p>Fifth, we based our analysis of the form of a Noh play on the evolution of the textures of its sections (shôdan). Although we moved away from a formal analysis based on the Jo- ha- kyû concept and developed a method of analysis that is primarily based on perception, we still used Zeami's formal design but only as a reference model and as a point of comparison.
     The two plays showcased on this website are Hashitomi (category 3) and Kokaji (category 5).  The former has 19 sections (shôdan), the latter has 20. We compared their structure with Izutsu's, a play written by Zeami that epitomizes his model structure.  When combining these three plays, we found that they include examples of twenty out of the possible twenty-three textures. It is these twenty textures that we have used when plotting the form of each play.</p>
-    <img src="/assets/images/twentytextures.jpg">
+    <table class="content-table">
+          <tr class="content-table__row--header">
+            <td class="content-table__column">Intermedia Texture Index (ITI)</td>
+            <td class="content-table__column">Voice</td>
+            <td class="content-table__column">Drums</td>
+            <td class="content-table__column">Flute</td>
+            <td class="content-table__column">Dance</td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">34</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Congruent</td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">33</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">32</td>
+            <td class="content-table__column">Ō/Chūnori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">31</td>
+            <td class="content-table__column">Hiranori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">30</td>
+            <td class="content-table__column">Ō/Chūnori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">29</td>
+            <td class="content-table__column">Hiranori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">28</td>
+            <td class="content-table__column">Ō/Chūnori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">27</td>
+            <td class="content-table__column">Hiranori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">26</td>
+            <td class="content-table__column">Ō/Chūnori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">25</td>
+            <td class="content-table__column">Hiranori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">√</td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">24</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">23</td>
+            <td class="content-table__column">Ō/Chūnori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">22</td>
+            <td class="content-table__column">Hiranori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">21</td>
+            <td class="content-table__column">Ō/Chūnori-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">20</td>
+            <td class="content-table__column">Ō/Chūnori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">19</td>
+            <td class="content-table__column">Hiranori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">18</td>
+            <td class="content-table__column">Ō/Chūnori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">17</td>
+            <td class="content-table__column">Hiranori</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">16</td>
+            <td class="content-table__column">Non-congruent-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">15</td>
+            <td class="content-table__column">Non-congruent-2</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">14</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">13</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">12</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Strict</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">11</td>
+            <td class="content-table__column">Non-congruent-2</td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">10</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">9</td>
+            <td class="content-table__column">Non-congruent-2</td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">8</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">7</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">6</td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">5</td>
+            <td class="content-table__column">Kotoba-2</td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">4</td>
+            <td class="content-table__column">Kotoba-2</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">3</td>
+            <td class="content-table__column">Kotoba</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">2</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Flexible</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row">
+            <td class="content-table__column">1</td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column"> – </td>
+            <td class="content-table__column">Non-congruent</td>
+            <td class="content-table__column"> – </td>
+            </tr>
+            <tr class="content-table__row--header">
+              <td class="content-table__column">ITI</td>
+              <td class="content-table__column">Voice</td>
+              <td class="content-table__column">Drums</td>
+              <td class="content-table__column">Flute</td>
+              <td class="content-table__column">Dance</td>
+            </tr>
+            </table>
+
+
 
 
   </div>
