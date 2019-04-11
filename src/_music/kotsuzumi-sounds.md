@@ -12,7 +12,7 @@ third-level-menu-active: otsuzumi
 
 <main class="page-content"><div class="wrapper sidebar-contents">
   <aside class="sidebar-contents__table">
-    <h4><a href="/music/otsuzumi-kotsuzumi.md"> BACK</a></h4>
+    <h4><a href="/music/otsuzumi-kotsuzumi"> BACK</a></h4>
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">

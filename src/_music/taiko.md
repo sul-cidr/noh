@@ -28,16 +28,16 @@ fourth-level-menu-active: sound
     {% include taiko-kakegoe.html %}
 
     <h3 id="Patterns">Rhythmic Organization</h3>
-    <p>At a basic level the sounds of the taiko are sequenced to create patterns. Most patterns are eight beats long and typically start on the 2nd or 6th beat of the 8-beat metric unit (<em>honji</em>). However there are patterns as short as two and as long as twenty-four beats in duration. The patterns are sequenced into larger phrases and sections. They are selected and ordered according to various sets of rules based on their formal function. A pattern can assume a following function: Head, First Transition, Ground, Second Transition, or Closing.</p>
+    <p>At a basic level the sounds of the taiko are sequenced to create patterns. Most patterns are eight beats long and typically start on the 2nd or 6th beat of the 8-beat metric unit (<em>honji</em>). However there are patterns as short as two and as long as twenty-four beats in duration. The patterns are sequenced into larger phrases and sections. They are selected and ordered according to various sets of rules based on their formal function. A pattern can assume one of the following functions: Head, First Transition, Ground, Second Transition, or Closing.</p>
     {% include taiko-patterns.html %}
 
-    <p>The following figure shows one example of standard categories of patterns used in dance and <em>ōnori</em> chants; and how they can be sequenced.</p>
+    <p>The following figure shows an example of how patterns are sequenced to create a cycle.</p>
     {% include image.html src="/assets/images/taiko-patterns-cycle.png" %}
 
-    <p>This sequence from Head to Closing and back to Head, which follows the Section Opening can function as one large phrase that maybe repeated until Closing Section patterns end the module.
-    The Ground pattern and only the Ground pattern can be repeated multiple times before moving on to the next stage. The phrase is unidirectional and it normally closes with the Head pattern. Moreover, as the sequence moves to a new cycle a different pattern for each category can be used, but the decision about the selection, repetition, or omission of a specific pattern is strictly prescribed and memorized by the performers.</p>
+    <p>This sequence from Head to Closing and back to Head, which follows the Section Opening functions as a cycle that maybe repeated until the Closing Section patterns end the module.
+    The Ground pattern and only the Ground pattern can be repeated multiple times before moving to a pattern from another category. The cycle is unidirectional and it normally closes with the Head pattern. As the sequence moves to a new cycle a different pattern for each category can be used, but the decision about the selection, repetition of a pattern, and/or the omission of a specific category is strictly prescribed and memorized by the performers.</p>
 
-    <p>Here is an example of a basic sequence of rhythmic patterns, then put in context with the dance <em>maibataraki</em> from Kokaji.</p>
+    <p>Here is an example of a basic sequence of rhythmic patterns.</p>
 
     <h4>Basic sequence of patterns</h4>
     {% include image.html src="/assets/images/basic-cycle-taiko.png" %}
@@ -46,7 +46,7 @@ fourth-level-menu-active: sound
     %}
 
     <h4>Sequence of patterns in Kokaji's Maibataraki</h4>
-    <p>The <em>maibataraki</em> dance from Kokaji follows immediately a <em>noriji</em> chant. The Closing pattern <em>uchiko</em> that begins the recording followed by the Head pattern <em>kashira</em> are closing the chant module and signal the imminent beginning of the <em>maibataraki</em>, whose principal rhythmic sequence starts with the Head pattern <em>tsuke gashira</em> (third line). The last <em>uchiko</em> and <em>kashira</em> patterns (fifth and sixth lines) form the dance’s Closing section.</p>
+    <p>The <em>maibataraki</em> dance from Kokaji follows immediately a <em>noriji</em> chant. The Closing pattern <em>uchikomi</em> that begins the recording followed by the Head pattern <em>kashira</em> are closing the chant module and signal the imminent beginning of the <em>maibataraki</em>, whose principal rhythmic sequence starts with the Head pattern <em>tsuke gashira</em> (third line). The last <em>uchikomi</em> and <em>kashira</em> patterns (fifth and sixth lines) form the dance’s Closing section.</p>
 
     {% include image.html src="/assets/images/taiko-maibataraki.png" %}
     {% include video-no-background.html
