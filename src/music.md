@@ -13,10 +13,13 @@ permalink: /music/
 
     <h2>Elements of Music: an Introduction</h2>
 
-    <p>Noh as a form of musical theater, features actors who sing with acompaniment of a an ensemble. The vocal parts can be for soloists or for jiutai (chorus). The hayashi (instrumental ensemble) is comprised of one pitched instrument:  the nohkan (flute), and two unpitched percussion instruments:  the kotsuzumi  (shoulder drum) and ōtsuzumi (hip drum).  From the approximately 250 plays in the current repertoire, about half include a third drum, the taiko (stick drum). It is worth noting that even if in technical terms, the function of the hayashi is to create and maintain the proper mood and flow of a play, the musicians sit on stage facing the audience, and as such they are very much part of the visual aspect of a play.
+    <p>Noh as a form of musical theater which features actors singing with the acompaniment of a an ensemble. The vocal parts can be for soloists or for jiutai (chorus). The hayashi (instrumental ensemble) is comprised of one pitched instrument:  the nohkan (flute), and two unpitched percussion instruments:  the kotsuzumi  (shoulder drum) and ōtsuzumi (hip drum).  From the approximately 250 plays in the current repertoire, about half include a third drum, the taiko (stick drum). It is worth noting that even if in technical terms, the function of the hayashi is to create and maintain the proper mood and flow of a play, the musicians sit on stage facing the audience, and as such they are very much part of the visual aspect of a play.
 </p>
 
-  <p>  Unlike classical Western opera, which puts the composer's original creative act at its center, the music in Noh has no new music composed for individual plays. All plays draw from a single collection of rhythmic and melodic patterns that are adapted to outline and support specific dramatic needs. Many of the same patterns occur multiple times within a single play and in different sections of a play leading to a great unity and self-similarity. But this seeming constriction is more than balanced by enormous number of variants and flexibility with which the patterns are expressively inflected in specific plays and during particular performances. This chapter introduces some of these patterns and how they are used in the context.</p>
+  <p>  Unlike classical Western opera, which puts the composer's original creative act at its center, the music in Noh has no original music composed for individual plays. All plays draw from a common collection of rhythmic and melodic patterns that are adapted to outline and support specific dramatic needs. Many of the same patterns occur multiple times within a single play and in different sections of a play leading to a great unity and self-similarity. But this seeming constriction is more than balanced by enormous number of variants and flexibility with which the patterns are expressively inflected in specific plays and during particular performances.
+
+
+  This chapter introduces some of these patterns and how they are used in the context.</p>
 
 
     <p>
