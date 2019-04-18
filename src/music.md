@@ -31,14 +31,15 @@ permalink: /music/
     <p>On this website, all scores combining more than one instrument are our own transcriptions. We retained the characteristic note-heads of various percussion instruments’ strokes but set them on horizontal lines. Occasionally, due to limited space we have provided summarized scores, merging the ōtsuzumi’s and kotsuzumi’s patterns into a single line.</p>
 
     <p>For example, the following rhythmic patterns:</p>
-    {% include image-no-background.html src="/assets/images/MergingRhythms-1.png" %}
-    <p>have been notated as such:</p>
-     {% include image-no-background.html src="/assets/images/MergingRhythms-2.png" %}
+    {% include image-no-background.html src="/assets/images/Notation-1-Complete.png" %}
+    <p>have been notated as:</p>
+     {% include image-no-background.html src="/assets/images/Notation-1-Condensed.png" %}
+
 
      <p>And these patterns:</p>
-     {% include image-no-background.html src="/assets/images/MergingRhythms-3.png" %}
-     <p>have been written like this:</p>
-     {% include image-no-background.html src="/assets/images/MergingRhythms-4.png" %}
+     {% include image-no-background.html src="/assets/images/Notation-2-Complete.png" %}
+     <p>have been notated as:</p>
+     {% include image-no-background.html src="/assets/images/Notation-2-Condensed.png" %}
 
      <p>where the left strokes on the first, third and sixth beats corresponds to the ōtsuzumi’s stroke, the right ones to the kotsuzumi’s. We have followed the same sequencing when merging <em>kakegoe</em> and stroke, thus the <em>'yo''</em> on the second half of the fourth beat is called by the ōtsuzumi player at the same time as the kotsuzumi player performs a <em>pu</em> stroke.</p>
 
