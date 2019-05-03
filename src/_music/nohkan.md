@@ -49,7 +49,7 @@ The mode of attack is another important factor that adds to the richness of nohk
     <p>In presenting this selection of melodic materials our objective was to record only the principal 9 <em>ashirai</em> patterns that can be heard in one or both of the plays featured on this website: Kokaji and Hashitomi. For some context, in the notation book of Morita school 14 patterns appear in the play Funabenkei, only 5 in Soshi Arai Komachi, 15 in Kokaji and 8 in Hashitomi</p>
     {% include nohkan-patterns.html %}
     <p></p>
-    <p>To illustrate how patterns are used to articulate the structure of a shōdan we will use the example of the first <em>Ageuta</em> section from Hashitomi. Three melodic patterns are usually performed during an <em>Ageuta</em> (a sung section): <em>takane, naka no takane,</em> and <em>mi roku no ge</em>. They stand out because they are relatively short, they each appear only once and as distinct utterances, played at their own specific point in the shōdan.</p>
+    <p>To illustrate how patterns are used to articulate the structure of a shōdan we will use the example of an <em>Ageuta</em>. Three melodic patterns are usually performed during an <em>Ageuta</em> (a sung section): <em>takane, naka no takane,</em> and <em>mi roku no ge</em>. They stand out because they are relatively short, they each appear only once and as distinct utterances, played at their own specific point in the shōdan.</p>
 
     <p>First, the sequence of the patterns accentuates the melodic shape of the chant which starts in the higher range, moves to the middle  and closes in the low range. This descent is imitated by the nohkan's sequence of patterns, which start with <em>takane</em> followed by <em>naka no takane</em>, both in the instrument's higher range followed by the <em>mi roku no ge</em> whose melodic contour moves from the medium to the low range.</p>
 
@@ -79,7 +79,7 @@ The <em>nanoribue</em> is based on three <em>ashirai</em> patterns: <em>naka no 
 </p>
 <h4 id="Congruent">Congruent</h4>
 <p>The nohkan part is 'congruent' when it aligns with specific beats of the eight-beat unit (honji). This is most typically encountered in dances,  entrance and exit music.  In these instances, the nohkan’s melodic patterns almost always start on the <em>honji</em>’s second beat or its second half. Its material is developed from short motives that are juxtaposed to create a larger melodic cell. For instance, the melody that accompanies the dance <em>maibataraki</em> found on this website is composed of three melodic motives: a, b, c, where each letter corresponds to an eight-beat melody. These motives performed as a set create a twenty-four beat long melody.
-On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is composed of four patterns, each eight-beat long, labelled: <em>Chū, Kan, Kan no chū,</em> and <em>Ryō</em>.
+On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is composed of four patterns, each eight-beat long, labelled: <em>Chū, Kan, Kan no chū,</em> and <em>Ryo/em>.
 </p>
 <div class="tabs-container">
   <div class="tabs-container__links">

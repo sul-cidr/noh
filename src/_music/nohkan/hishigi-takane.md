@@ -20,10 +20,10 @@ third-level-menu-active: nohkan
     <h2><em>Hishigi takane mi kusari</em></h2>
     <p>The pattern consists of three phrases with the following shoga:</p><p>
 <em>o-hya ra<br>
-o-hya hi-u hyū i<br>
+o-hya hi-u hyu i<br>
 hi-hyo ru ri
 </em>
-</p><p> The shoga <em>'hi'</em> used for the highest ('shrilling') sound called <em>hishigi</em> is the same as for a standard high pitched sound. In this example the <em>hishigi</em> sound appears in the middle of the second line, while the standard one at the beginning of the third line. To differentiate between them in the video, we used the kanji 日(hi) to represent the <em>hishigi</em> sound and retain the 'hi' for the regular one.  </p>
+</p><p> The shoga <em>'hi'</em> used for the highest ('shrilling') sound called <em>hishigi</em> is the same as for a standard high pitched sound. In this example the <em>hishigi</em> sound appears in the middle of the second line, while the standard one at the beginning of the third line. </p>
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_mi_kusari_Shoga.mp4"
 %}

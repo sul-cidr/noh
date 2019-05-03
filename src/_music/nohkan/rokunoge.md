@@ -20,8 +20,8 @@ third-level-menu-active: nohkan
     <h2><em>Roku no ge</em></h2>
     <p>The pattern consists of four phrases with the following shoga:</p><p>
 <em>hi-u ri-u i-ya<br>
-ri-u hyū-i<br>
-hi-hyū i-ya ra ri-(u) ro-i<br>
+ri-u hyu-i<br>
+hi-hyu i-ya ra ri-(u) ro-i<br>
 tsu-ro i-ya
 </em>
 </p><p>The bracketed shoga <em>u</em> was traditionally part of the pattern but in our example and in recent times it is not performed.</p>
