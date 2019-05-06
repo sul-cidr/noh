@@ -27,7 +27,7 @@ permalink: /about-intermedia/
 
     <p>In our intermedia analysis, we offer an interpretation, but it is neither exhaustive nor definitive. We hope that it will serve as inspiration for other possible ones and that additional resources including those on this website will assist in this process.</p>
 
-    <h3 id="intermedia-tools"> Tools of Analysis</h3>
+    <h3 id="intermedia-tools">Tools of Intermedia Analysis</h3>
     <p>It is a common practice in the context of formal analysis of Noh plays to refer to Zeami's adaptation of the Gagaku concept of Jo-ha-kyū, where structural modules (shōdan) are grouped in sub-sets to fit within the following five-part scheme:</p>
 
     <table class="content-table">
@@ -329,5 +329,5 @@ permalink: /about-intermedia/
 
 
   </div>
-</section>
+</section></div>
 </main>
