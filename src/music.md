@@ -13,13 +13,20 @@ permalink: /music/
 
     <h2>Elements of Music: an Introduction</h2>
 
-    <p>Noh as a form of musical theater which features actors singing with the acompaniment of a an ensemble. The vocal parts can be for soloists or for jiutai (chorus). The hayashi (instrumental ensemble) is comprised of one pitched instrument:  the nohkan (flute), and two unpitched percussion instruments:  the kotsuzumi  (shoulder drum) and ōtsuzumi (hip drum).  From the approximately 250 plays in the current repertoire, about half include a third drum, the taiko (stick drum). It is worth noting that even if in technical terms, the function of the hayashi is to create and maintain the proper mood and flow of a play, the musicians sit on stage facing the audience, and as such they are very much part of the visual aspect of a play.
+    <p>Noh is a form of musical theater which features actors singing with the accompaniment of a an ensemble. Interestingly, the direct translation of the all-encompassing word ongaku (music) is not used by the Noh practitioners. The vocal parts are called utai, while the instrumental ensemble and its music is called hayashi. The vocal music is performed by soloists or jiutai (chorus). The actors sing alone or engage in exchanges with other actors or the juitai but never sing with them simultaneously. The hayashi is comprised of one pitched instrument: the nohkan (flute), and two unpitched percussion instruments: the kotsuzumi (shoulder drum) and ōtsuzumi (hip drum). From the approximately 250 plays in the current repertoire, about half include a third drum, the taiko (stick drum). </p><p>
+
+Paragraph about the hierarchical structure of performers.</p><p>
+
+The music in Noh draws on a common collection of rhythmic and melodic patterns that are adapted to outline and support specific dramatic needs. Many of the same patterns occur multiple times within a single play and in different sections of a play leading to a great unity and self-similarity. But this seeming constriction is well balanced by a richness of variants and tempi, a flexibility with which the patterns are sequenced, and by original expressive inflection of specific plays and particular performances. </p><p>
+
+The melodic language of Noh is not dependent on absolute pitches or scales. With the nohkan being the only pitched instrument there is no possibility for the hayashi to tune to each other. There is no expected pitch coordination between nohkan and utai either although at times they share their general range to outline a common structure. The vocal pitch center is relative. The central note is instigated by the first person who starts the chant. The pitch range is informed by the category of the actor or the character whom they play. The secondary actors signal their lower position by providing lighter, faster and higher pitches (ex. Wakizure in Kokaji). Larger width of the range reflects that the protagonist is a man while narrower a woman. </p><p>
+
+Discussion of rhythm and tempo (article of Takanori Fujita)</p><p>
+
+The loudness of instruments is relatively consistent. The lower register of the flute is naturally softer and is used according to dramatic of formal function.  Similarly the kakegoe (vocal calls of the drummers) as well as chant can match the dramatic character of the scene or protagonist.  </p><p>
+
+TBC 
 </p>
-
-  <p>  Unlike classical Western opera, which puts the composer's original creative act at its center, the music in Noh has no original music composed for individual plays. All plays draw from a common collection of rhythmic and melodic patterns that are adapted to outline and support specific dramatic needs. Many of the same patterns occur multiple times within a single play and in different sections of a play leading to a great unity and self-similarity. But this seeming constriction is more than balanced by enormous number of variants and flexibility with which the patterns are expressively inflected in specific plays and during particular performances.
-
-
-  This chapter introduces some of these patterns and how they are used in the context.</p>
 
 
     <p>
