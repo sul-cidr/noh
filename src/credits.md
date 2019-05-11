@@ -8,23 +8,33 @@ permalink: /credits/
   <div class="text-container">
     <h1>CREDITS</h1>
     <h3>Principal Investigators</h3>
-<p><strong>Takanori Fujita</strong>, Professor, Kyoto City University of Arts
-<br><strong>Jarosław Kapuściński</strong>, Associate Professor of Composition and Intermedia at Stanford University<br>
-<strong>François Rose</strong>, Professor, Conservatory of Music, University of the Pacific & Senior Lecturer, Stanford University</p>
+<p><strong>FUJITA Takanori</strong>, Kyoto City University of Arts
+<br><strong>Jarosław Kapuściński</strong>, Stanford University<br>
+<strong>François Rose</strong>, Stanford University</p>
 
   <h3>Principal Contributors and Advisors</h3>
-  <p><strong>Hisanori Kongō</strong>, Iemoto of the Kongō School, Kyoto<br>
-  <strong>Michishige Udaka</strong>, Noh  Master, Kongō School, Kyoto<br>
-  <strong>Thomas Hare</strong>, "William Sauter LaPorte '28 Professor in Regional Studies" and a Professor of Comparative Literature at Princeton University<br>
-  <strong>Monica Bethe</strong>, Professor, Otani University, Kyoto<br>
-  <strong>Diego Pellecchia</strong>, Associate Professor, Kyoto Sangyo University<br>
+  <p><strong>KONGŌ Hisanori</strong>, Iemoto of the Kongō School, Kyoto<br>
+  <strong>UDAKA Michishige</strong>, Kongō School, Kyoto<br>
+  <strong>Thomas Hare</strong>, Princeton University<br>
+  <strong>Monica Bethe</strong>, Otani University, Kyoto<br>
+  <strong>Diego Pellecchia</strong>, Kyoto Sangyo University<br>
   <strong>Rebecca Teele Ogamo</strong>, Kongō School<br>
-  <strong>Ryo Akama</strong>, Professor, Art Research Center at Ritsumeikan University
+  <strong>AKAMA Ryo</strong>, Ritsumeikan University, Art Research Center. Kyoto
+</p>
+  <h3>Website Development and Design</h3>
+  <p>Center for Interdisciplinary Digital Research, Stanford University Library:<br>
+Scott Bailey, Stanford University<br>
+Javier de la Rosa, Stanford University<br>
+Juan Pablo López Franco<br>
+Glen Worthey, Stanford University<br>
+Vijoy Abraham, Stanford University
 
-  </p>
+</p>
+
+
   <h3>Additional Collaborators</h3>
-  <p>Itsuko Nakamura<br>
-  Yoko Takahashi</p>
+  <p>NAKAMURA Itsuko, American Consortium for Japanese Studies<br>
+  TAKAHASHI Yoko, Kyoto City University of Arts</p>
 
   <h3>Performers</h3>
   <h4>ACADEMIC EXAMPLES</h4>
@@ -77,15 +87,7 @@ permalink: /credits/
 
   </p>
 
-    <h3>Website Development and Design</h3>
-    <p>Center for Interdisciplinary Digital Research, Stanford University Library:<br>
-Scott Bailey, Stanford University<br>
-  Javier de la Rosa, Stanford University<br>
-  Juan Pablo López Franco<br>
-  Glen Worthey, Stanford University<br>
-  Vijoy Abraham, Stanford University
 
-  </p>
 
     <h3>Recording, Academic Examples, Music</h3>
     <p>
