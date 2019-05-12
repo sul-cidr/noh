@@ -78,8 +78,8 @@ The <em>nanoribue</em> is based on three <em>ashirai</em> patterns: <em>naka no 
 3. The nohkan part is non-congruent and set set against a flexible percussion part.
 </p>
 <h4 id="Congruent">Congruent</h4>
-<p>The nohkan part is 'congruent' when it aligns with specific beats of the eight-beat unit (honji). This is most typically encountered in dances,  entrance and exit music.  In these instances, the nohkan’s melodic patterns almost always start on the <em>honji</em>’s second beat or its second half. Its material is developed from short motives that are juxtaposed to create a larger melodic cell. For instance, the melody that accompanies the dance <em>maibataraki</em> found on this website is composed of three melodic motives: a, b, c, where each letter corresponds to an eight-beat melody. These motives performed as a set create a twenty-four beat long melody.
-On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is composed of four patterns, each eight-beat long, labelled: <em>Chū, Kan, Kan no chū,</em> and <em>Ryo/em>.
+<p>The nohkan part is 'congruent' (<em>awase-buki</em>)when it aligns with specific beats of the <em>honji</em>. This is most typically encountered in dances,  entrance and exit music.  In these instances, the nohkan’s melodic patterns almost always start on the <em>honji</em>’s second beat or its second half. Its material is developed from short motives that are juxtaposed to create a larger melodic cell. For instance, the melody that accompanies the dance <em>maibataraki</em> found on this website is composed of three melodic motives: a, b, c, where each letter corresponds to an eight-beat melody. These motives performed as a set create a twenty-four beat long melody.
+On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is composed of four patterns, each eight-beat long, labelled: <em>Chū, Kan, Kan no chū,</em> and <em>Ryo</em>.
 </p>
 <div class="tabs-container">
   <div class="tabs-container__links">
@@ -103,7 +103,7 @@ On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is
   </div>
 </div>
 <h4 id="Non-congruent-Strict">Non-congruent in Strict Setting</h4>
-<p>A nohkan's part is non-congruent when it does not align with the beats of the honji. An example of it against a strict percussion part is provided with an excerpt from the Issei-music from Hagoromo. This is an entrance music that typically leads to the <em>Issei</em>-chant, where the percussion’s strict rhythmic setting is maintained against a non-congruent chant.
+<p>A nohkan's part is 'non-congruent' (<em>ashirai-buki</em>) when it does not align with the beats of the honji. An example of it against a strict percussion part is provided with an excerpt from the Issei-music from Hagoromo. This is an entrance music that typically leads to the <em>Issei</em>-chant, where the percussion’s strict rhythmic setting is maintained against a non-congruent chant.
 After having articulated the beginning of the module with the <em>Hishigi</em> pattern, the nohkan players waits for the fourth <em>honji</em> to freely position the <em>Naka no takane</em> pattern in the span of two <em>honji</em>.
 </p>
 {% include video-no-background.html
