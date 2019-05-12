@@ -41,23 +41,38 @@ second-level-menu-active: catalog-shodan
 
   <p>It is sung by the chorus with the exception of a one or two solos called <em>ageha</em>, that are sung by the shite. There is only one <em>ageha</em> in Hashitomi that is immediately followed by the nohkan’s <a href="/music/nohkan/Takanemikusari"><em>takane mi kusari</em></a> pattern, its single entrance in the <em>shōdan</em>. On the other hand, the shite sings three verses in Kokaji. Having performed its <a href="/music/nohkan/Nakanotakane"><em>naka no takane</em></a> pattern early at the beginning of the <em>shōdan</em>, the nohkan follows the shite’s first <em>ageha</em> with the <em>takane mi kusari</em> pattern and  marks the end of the second one with the  <em>hishigi takane mi kusari</em> pattern. The shite’s third verse is not followed by a nohkan’s pattern, rather it anticipates the beginning of the dance.</p>
 
-  <p>The -<em>kuse</em> segment- is composed of a sequence of <em>shōdan</em>, the last of which is the <em>kuse</em> proper. The -full- <em>kuse</em> refers to a sequence of six <em>shōdan</em>: <a href="/catalog-of-shodan/Shidaimusic"><em>shidai</em></a>,
+  <p>The <em>kuse</em> 'segment' is composed of a sequence of <em>shōdan</em>, the last of which is the <em>kuse</em> proper. The number of <em>shōdan</em> comprising it can vary but a full <em>kuse</em> consists of six: <a href="/catalog-of-shodan/Shidaimusic"><em>shidai</em></a>,
   <a href="/catalog-of-shodan/Isseimusic"><em>issei</em></a>, short dance such as an <em>Iroe mai</em>, <a href="/catalog-of-shodan/Kuri"><em>kuri</em></a>,
-  <a href="/catalog-of-shodan/Sashi"><em>sashi</em></a>, <em>Kuse</em>.Kakitsubata is a good example of a play with a full kuse.
-  There are various variations on this model. For instance, the sequence of <em>shōdan</em> leading to the <em>kuse</em> in the play Yamamba leaves out the short dance, Kokaji's <em>kuse's</em> sequence is limited to  <em>kuri</em> - <em>sashi</em> - <em>kuse</em>, while Hashitomi's <em>kuse</em> stands alone.</p>
+  <a href="/catalog-of-shodan/Sashi"><em>sashi</em></a> and <em>kuse</em>. Kakitsubata is a good example of a play with a full kuse. For an instances of a variations of this model, the sequence of <em>shōdan</em> in the play Yamamba leaves out the short dance, Kokaji's <em>kuse's</em> sequence is limited to  <em>kuri</em>, <em>sashi</em> and <em>kuse</em>, while in Hashitomi <em>kuse</em> stands alone.</p>
 
-  <p>Hashitomi-Kuse</p>
-  <p>Hashitomi’s <em>kuse</em> appears in the second act. It is sung in <a href="/music/voices#Yowagin"><em>yowagin</em></a> style by the jiutai and shite, who sings one verse. It is accompanied by the two hand-percussion instruments and the nohkan.</p>
 
-  {% include video-no-background.html
-    src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kuse_Score.mp4"
-  %}
+  <div class="tabs-container">
+    <div class="tabs-container__links">
+      <div class="wrapper">
+        <div id="tabs"></div>
+      </div>
+    </div>
+    <div class="tabs-container__content">
+      <div class="wrapper">
+      <section id="tab-1" title="Hashitomi-Kuse" class="tabbed-narrative">
+      <p>Hashitomi’s <em>kuse</em> appears in the second act. It is sung in <a href="/music/voices#Yowagin"><em>yowagin</em></a> style by the jiutai and shite, who sings one verse. It is accompanied by the two hand-percussion instruments and the nohkan.</p>
+      {% include video-no-background.html
+        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kuse_Score.mp4"
+      %}
 
-  <p>Kokaji-Kuse</p>
-  <p>Kokaji’s <em>kuse</em> appears in the first act. It is sung in <a href="/music/voices#Tsuyogin"><em>tsuyogin</em></a> style by the jiutai and shite, who sings three verses. It is accompanied by the two hand-percussion instruments and the nohkan.</p>
-  {% include video-no-background.html
-    src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Kuse_Score.mp4"
-  %}
+      </section>
+      <section id="tab-2" title="Kokaji-Kuse" class="tabbed-narrative">
+        <p>Kokaji’s <em>kuse</em> appears in the first act. It is sung in <a href="/music/voices#Tsuyogin"><em>tsuyogin</em></a> style by the jiutai and shite, who sings three verses. It is accompanied by the two hand-percussion instruments and the nohkan.</p>
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Kuse_Score.mp4"
+        %}
+      </section>
+      </div>
+    </div>
+  </div>
+
+
+
 
 </div>
 </main>
