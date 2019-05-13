@@ -28,7 +28,7 @@ second-level-menu-active: catalog-shodan
 
   <p>The <em>notto</em> is divided up into two parts: music and chant. The <em>notto</em>-music is an unsettling introduction that has an evocative character. It is characterized by a percussion accompaniment in strict setting played by the kotsuzumi and the ōtsuzumi, and a non-congruent nohkan part. It always leads to the <a href="/catalog-of-shodan/notto-chant"><em>notto</em>-chant</a>.</p>
 
-  <p>The kosuzumi’s steady eight-beat <em>notto uchi tsume</em> pattern is a signature feature of this <em>shōdan</em>.This steady pattern serves as a foundation superposed with various ōtsuzumi’s patterns and the non-congruent nohkan part composed of five segments:</p>
+  <p>The kosuzumi’s steady eight-beat <em>notto uchi tsume</em> pattern is a signature feature of this <em>shōdan</em>. This steady pattern serves as a foundation superposed with various ōtsuzumi’s patterns and the non-congruent nohkan part composed of five segments:</p>
   <p>1-	Hi-hya u-ta  u-ta  u-ta  u-ta  u-ta  u-ta  u</p>
   <p>2-	Hyū i-ya</p>
   <p>3-	Hiu ri-u</p>
@@ -41,7 +41,7 @@ second-level-menu-active: catalog-shodan
     src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Notto_Music_Score.mp4"
   %}
 
-  <p>The performance of an entrance music varies according to the action on the stage. In the play version, the nohkan player anticipated that he needed to extend duration of the <em>notto</em>-music, hence he interjected a new pattern between the second and third one:</p>
+  <p>The performance of an entrance music varies according to the action on the stage. In the play version, the nohkan player anticipated that he needed to extend the duration of the <em>notto</em>-music, hence he interjected a new pattern between the second and third one:</p>
   <p>O-hya ro-ru-ra</p>
 
     </div>

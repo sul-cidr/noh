@@ -25,9 +25,9 @@ second-level-menu-active: catalog-shodan
       <div class="introductory-table__definition">Non-congruent and Congruent</div>
     </div>
   </div>
-  <p><em>Raijo</em> counts among the <em>hayashigoto</em>, that is <em>shōdan</em> where the hayashi plays the main role. It is composed of two sections: The first one called <em>nakairi-raijo</em>, is slow and non-congruent, creating a stately mood for the exit of one or two characters. The tempo picks up at the end in preparation for the second section which is congruent. This one is called <em>kyōgen-raijo</em>, since it accompanies the entering aikyōgen.</p>
+  <p><em>Raijo</em> iss included in the <em>hayashigoto</em>, that is <em>shōdan</em> where the hayashi plays the main role. It is composed of two sections: The first one called <em>nakairi-raijo</em>, is slow and non-congruent, creating a stately mood for the exit of one or two characters. The tempo picks up at the end in preparation for the second section which is congruent. This one is called <em>kyōgen-raijo</em>, since it accompanies the entering kyōgen actor.</p>
 
-  <p>The featured instrument in the <em>raijo</em> is the nohkan, accompanied by the three percussion instruments whose respective rhythmic patterns merge into a single macro-rhythmic pattern.
+  <p>The featured instrument in the <em>raijo</em> is the nohkan, accompanied by the three percussion instruments whose respective rhythmic patterns merge into a single macro-pattern.
   In this performance, it is after a measure of easing-in that the percussion patterns get settled. The three rhythm layers of the <em>nakairi-raijo's</em> macro-rhythm shows that its beginning is clearly marked by an upbeat stroke on the kotsuzumi’s first beat.</p>
 
   {% include image.html
@@ -50,7 +50,7 @@ second-level-menu-active: catalog-shodan
   <p>2b- Hi hyo i-ya-u ra-ro ra-fu o-hya ro-ru ra-ra</p>
   <p>1c- O-hya rya fu hya ro-ru-ri hi hyo</p>
 
-  <p>The congruent second part, that support the <em>aikyōgen’s</em> entrance, covers five <em>honji</em>. In this case, the first segment is spread over three <em>honji</em>, the second one over two.</p>
+  <p>The congruent second part, that support the kyōgen’s entrance, covers five <em>honji</em>. In this case, the first segment is spread over three <em>honji</em>, the second one over two.</p>
 
   <p>2c- Hi hyo i-ya-u ra-ro ra-fu o-hya ro-ru ra-ra</p>
   <p>1d- O-hya rya fu hya ro-ru-ri hi hyo</p>

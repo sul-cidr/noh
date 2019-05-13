@@ -26,27 +26,42 @@ second-level-menu-active: catalog-shodan
       </div>
       </div>
 
-  <p>A <em>kakaru</em> chant switches mode of delivery from prose to smooth singing in recitative style accompanied by non-congruent percussion, where the text corresponding to the switching point is often emphasized.</p>
+  <p>A <em>kakaru</em> chant switches mode of delivery from prose to smooth singing in recitative style, where the text corresponding to the switching point is often emphasized.</p>
 
-  <p>Although it does not have a predictable formal position, the <em>kakaru</em> often leads to congruent chant, such as an <em>ageuta</em>. Between the two plays there are three <em>kakaru</em>, all three are in Hashitomi. They also share a common function, they are all the last <em>shōdan</em> of their respective part: Waki enters, Dialogue in the first act, and Waki waits in the second one.</p>
+  <p>Although it does not have a predictable formal position, the <em>kakaru</em> often leads to congruent chant, such as an <em>ageuta</em>. Between the two plays there are three <em>kakaru</em>, all three are in Hashitomi. They also share a common function, they are all the last <em>shōdan</em> of their respective part: Waki enters, Dialogue in the First act, and Waki waits in the Second one.</p>
 
-  <p>Delivery in <a href="/music/voices#Spoken"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand,the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
+  <p>Delivery in <a href="/music/voices#Spoken" target="_blank"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand,the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
 
-  <h3>Hashitomi’s first <em>kakaru</em></h3> <p>is the last <em>shōdan</em> of the First act’s ‘Waki enters’ part. It is written for one actor accompanied by the two hand-percussion instruments.</p>
-  <p>This is a monologue presented by the waki, a monk living in <em>Unrin-in</em> Temple, who is performing a mass for flowers as an offering to Buddha. After having made a factual statement about the flowers in <em>kotoba</em>, the waki switches to singing in <a href="/music/voices#Yowagin"><em>yowagin</em></a> style, as he emotionally reflects on the lotus plant, since according to esoteric Buddhism, the heart of beings is like an unopened lotus.</p>
+  <div class="tabs-container">
+    <div class="tabs-container__links">
+      <div class="wrapper">
+        <div id="tabs"></div>
+      </div>
+    </div>
+    <div class="tabs-container__content">
+      <div class="wrapper">
+      <section id="tab-1" title="Hashitomi-Kakaru-1" class="tabbed-narrative">
+      <p>Hashitomi’s first <em>kakaru</em> is the last <em>shōdan</em> of the First act’s ‘Waki enters’ part. It is written for one actor accompanied by the two hand-percussion instruments.</p>
+      <p>This is a monologue presented by the waki, a monk living in <em>Unrin-in</em> Temple, who is performing a mass for flowers as an offering to Buddha. After having made a factual statement about the flowers in <em>kotoba</em>, the waki switches to singing in <a href="/music/voices#Yowagin"target="_blank"><em>yowagin</em></a> style, as he emotionally reflects on the lotus plant, since according to esoteric Buddhism, the heart of beings is like an unopened lotus.</p>
+      {% include video-no-background.html
+        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kakaru1_Score.mp4"
+      %}
+      </section>
+      <section id="tab-2" title="Hashitomi-Kakaru-2" class="tabbed-narrative">
+      <p>Hashitomi’s second <em>kakaru</em> is the last <em>shōdan</em> of the First act’s ‘Dialogue’ part, it leads to an <em>ageuta</em>. It starts in chanting mode, switches to <em>kotoba</em> before concluding in singing mode.</p>
+      <p>This is a dialogue between the waki and shite while the latter's identity is still unknown. (The waki sits further right, the shite between the waki and kotsuzumi player).Both singing parts are in the higher range, sung in <em>yowagin</em>.  The only spoken line in the dialogue is delivered by the shite who cleverly evades answering the waki’s question about her name. The change of timbre let us understand that the shite is not yet ready to reveal her identity.</p>
+      <p>The ambiguity about the shite’s identity is underlined by the two percussion instruments whose material spread over five eight-beat units heavily features the <a href="/music/otsuzumi-kotsuzumi/#Mitsuji" target="_blank"><em>mitsuji</em></a> patterns whose sporadic strokes prevent the emergence of a definite pulse, creating a rhytmic ambiguity that suits well with the ambiguity of the shite's identity.</p>
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kakaru2_Score.mp4"
+        %}
+        <section id="tab-3" title="Hashitomi-Kakaru-3" class="tabbed-narrative">
+        <p>Hashitomi’s third <em>kakaru</em> is the sole <em>shōdan</em> of the Second act’s ‘Waki waits’ part. It is entirely sung, meaning it does not include any spoken part, and as such it compares very well with a <a href="/catalog-of-shodan/sashi" target="_blank"><em>sashi</em></a>, the main difference between them is that the <em>kakaru</em> does not include a nohkan’s part.</p>
+        </section>
+      </section>
+      </div>
+    </div>
+  </div>
 
-  {% include video-no-background.html
-    src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kakaru1_Score.mp4"
-  %}
-  <h3>Hashitomi’s second <em>kakaru</em></h3><p> is the last <em>shōdan</em> of the First act’s ‘Dialogue’ part, it leads to an <em>ageuta</em>. It starts in chanting mode, switches to <em>kotoba</em> before concluding in singing mode.</p>
-  <p>This is a dialogue between the waki and shite while the latter's identity is still unknown. Both singing parts are in the higher range, sung in <em>yowagin</em>.  The only spoken line in the dialogue is delivered by the shite who cleverly evades answering the waki’s question about her name. The change of timbre let us understand that the shite is not yet ready to reveal her identity.</p>
-  <p>The ambiguity about the shite’s identity is underlined by the two percussion instruments whose material spread over five eight-beat units heavily features the <a href="/music/OtsuzumiKotsuzumi#Mitsuji"><em>mitsuji</em></a> patterns whose sporadic strokes prevent the emergence of a definite pulse.</p>
 
-
-
-    {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kakaru2_Score.mp4"
-    %}
-<h3>Hashitomi’s third <em>kakaru</em></h3><p> is the sole <em>shōdan</em> of the Second act’s ‘Waki waits’ part. It is entirely sung, meaning it does not include any spoken part, and as such it compares very well with a <em>sashi</em>, the main difference between them is that the <em>kakaru</em> does not include a nohkan’s part.</p>
     </div>
 </main>

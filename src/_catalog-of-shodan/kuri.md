@@ -31,14 +31,15 @@ second-level-menu-active: catalog-shodan
   </div>
 
 
-  <p>A high-pitched melodious short <a href="/music/voices#Einori"><em>einori</em></a> chant sung by an actor, usually the shite, or the jiutai, or alternatively, by an actor and the jiutai. Kokaij’s <em>kuri</em> is written for jiutai accompanied by the two hand-percussion and nohkan.
-  Its introduction quality comes from the fact that its narrative serves as a lead into the following <em>shōdan</em>, the <em>sashi</em>, whose narrative is then fully developed in the following <em>kuse</em>.</p>
+  <p>A high-pitched melodious short <a href="/music/voices#Einori" target="_blank"><em>einori</em></a> chant sung by an actor, usually the shite, or the jiutai, or alternatively, by an actor and the jiutai. Kokaij’s <em>kuri</em> is written for jiutai accompanied by the <em>hayashi</em>.
+  Its introduction quality comes from the fact that its narrative serves as a lead into the following <em>shōdan</em>, the <a href="/catalog-of-shodan/sashi" target="_blank"><em>sashi</em></a>,
+  whose narrative is then fully developed in the following <a href="/catalog-of-shodan/kuse" target="_blank"><em>kuse</em></a>.</p>
 
-  <p>Often the <em>kuri</em> follows a <em>shidai</em> or <em>issei</em> when sung by an actor, and precedes a <em>sashi</em> when sung by the jiutai, as it is the case in Kokaji. It alsways closes with a signature melisma called <em>hon-yuri</em>.</p>
+  <p>Often the <em>kuri</em> follows a <a href="/catalog-of-shodan/shidai-chant" target="_blank"><em>shidai</em></a> or <a href="/catalog-of-shodan/issei-chant" target="_blank"><em>issei</em></a> when sung by an actor, and precedes a <em>sashi</em> when sung by the jiutai, as it is the case in Kokaji. It alsways closes with a signature melisma called <em>hon-yuri</em>.</p>
 
   <p>The nohkan performs two patterns during the <em>kuri</em>. The first one, also called <em>kuri</em> is short. It is followed by the longer pattern called <em>yuri</em>.</p>
 
-  <p> Kokaji's <em>kuri</em> is sung in <a href="/music/voices#Tsuyogin"><em>tsuyogin</em></a> style. For the most part, its melody is sung on the Medium/High tone. Yet, the section's name refers to the high pitch <em>kuri</em>; thus, the melody includes four melodic motions towards the <em>kuri</em> tone. They appear as part of embellishments, and are highlighted in bold in the video's text. Finally, the signature closing melisma <em>hon-yuri</em> closes the chant on the Low tone.</p>
+  <p> Kokaji's <em>kuri</em> is sung in <a href="/music/voices#Tsuyogin" target="_blank"><em>tsuyogin</em></a> style. For the most part, its melody is sung on the Medium/High tone. Yet, the module's name refers to the high pitch <em>kuri</em>; thus, the melody includes four melodic motions towards the <em>kuri</em> tone. They appear as part of embellishments, and are highlighted in bold in the video's text. Finally, the signature closing melisma <em>hon-yuri</em> closes the chant on the Low tone.</p>
 
 
     </div>

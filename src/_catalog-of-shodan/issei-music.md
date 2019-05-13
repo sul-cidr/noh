@@ -26,12 +26,12 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>Standard entrance music for the shite, hence it is often followed by an <a href="/catalog-of-shodan/issei-chant"><em>issei</em>-chant</a> or sometimes a <a href="/catalog-of-shodan/sashi"><em>sashi</em></a>.
+  <p>Standard entrance music for the shite, hence it is often followed by an <a href="/catalog-of-shodan/issei-chant" target="_blank"><em>issei</em>-chant</a> or sometimes a <a href="/catalog-of-shodan/sashi" target="_blank"><em>sashi</em></a>.
   </p>
   <p>Kokaji does not include an <em>issei</em>. Although, Hashitomi does include one, it is unusually short since the shite being already on stage hidden in the <em>tsukurimono</em>, there is no need for an extended entrance music.
 </p>
-  <p>As a point of comparison, we included a concert version of Hagoromo’s <em>issei</em>-music, which is used for the entrance of the waki and wakizure. The nohkan player opens the shōdan with the <a href="/music/nohkan/Hishigi"><em>hishigi</em></a> pattern followed by the <a href="/music/nohkan/Nakanotakane"><em>naka no takane</em></a> and a variation on the <a href="/music/nohkan/Rokunoge"><em>roku no ge</em></a> pattern, where he repeats the last three lines after having performed the initial four-line pattern.
-  On the other hand, the nohkan player plays the two-line  <a href="/music/nohkan/Mirokunoge"><em>mi roku no ge</em></a> pattern in the short Hashitomi’s issei-music.
+  <p>As a point of comparison, we included a concert version of Hagoromo’s <em>issei</em>-music, which is used for the entrance of the waki and waki-tsure. The nohkan player opens the <em>shōdan</em> with the <a href="/music/nohkan/Hishigi" target="_blank"><em>hishigi</em></a> pattern followed by the <a href="/music/nohkan/Nakanotakane" target="_blank"><em>naka no takane</em></a> and a variation on the <a href="/music/nohkan/Rokunoge" target="_blank"><em>roku no ge</em></a> pattern, where he repeats the last three lines after having performed the initial four-line pattern.
+  As a point of comparison, the nohkan player only plays the two-line  <a href="/music/nohkan/Mirokunoge" target="_blank"><em>mi roku no ge</em></a> pattern in the short Hashitomi’s issei-music.
 </p>
     </div>
 

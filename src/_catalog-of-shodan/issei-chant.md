@@ -26,10 +26,10 @@ second-level-menu-active: catalog-shodan
     </div>
     </div>
 
-    <p>The introduction <em>issei</em>-chant is usually but not exclusively sung by the shite. It is usually preceded by an entrance music also called <em>issei</em>, which we refer to as <em>issei</em>-music to avoid confusion.  In both cases, the percussion part is strict, while the nohkan in the former and vocal parts in the later are non-congruent.
+    <p>The introduction <em>issei</em>-chant is usually but not exclusively sung by the shite. It is usually preceded by an entrance music also called <em>issei</em>, which we refer to as <em>issei</em>-music to avoid confusion.
     </p>
-    <p>Sung in the high register, the syllabic structure of this <a href="/music/voices#Einori"><em>einori.</em></a> chant  is 5-7, 5-7, 5 when based on a Japanese poem.  The text for Hashitomi’s <em>issei</em>-chant comes from a Chinese poem by Emperor Saga (786-842), hence its syllabic structure does not conform to the standard 5-7, 5-7, 5.
-    In contrast with the recitative style of <a href="/music/voices#Sashinori"><em>sashinori</em></a> chant, <em>einori</em> chant is characterized by the prolongation of certain syllables and a vocal line whose contour is more dynamically shaped.
+    <p>Sung in the high register, the syllabic structure of this <a href="/music/voices#Einori" target="_blank"><em>einori.</em></a> chant  is 5-7, 5-7, 5 when based on a Japanese poem.  The text for Hashitomi’s <em>issei</em>-chant comes from a Chinese poem by Emperor Saga (786-842), hence its syllabic structure does not conform to this standard.
+    In contrast with the recitative style of <a href="/music/voices#Sashinori" target="_blank"><em>sashinori</em></a> chant, <em>einori</em> chant is characterized by the prolongation of certain syllables and a vocal line whose contour is more dynamically shaped.
 </p>
 
     </div>
