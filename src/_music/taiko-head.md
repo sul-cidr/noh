@@ -17,8 +17,8 @@ third-level-menu-active: taiko
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">
-    <h2><Head</h2>
-    <p>Head patterns are used to start and end a rhythmic cycle. Rhythmically it uses a mix of short and long durations to create a freer and irregular structure. We find in this category, among others, the kashira and tsuke gashira patterns.</p>
+    <h2>Head</h2>
+    <p>Head patterns are used to start and end a rhythmic cycle. Rhythmically it uses a mix of short and long durations to create a freer and irregular structure. We find in this category, among others, the <em>kashira</em> and <em>tsuke gashira</em> patterns.</p>
 
     <div class="tabs-container">
       <div class="tabs-container__links">
@@ -35,10 +35,10 @@ third-level-menu-active: taiko
         %}
 
         </section>
-        <section id="tab-2" title="Kokaji-Kuse" class="tabbed-narrative">
-          <p>Kokaji’s <em>kuse</em> appears in the first act. It is sung in <a href="/music/voices#Tsuyogin" target="_blank"><em>tsuyogin</em></a> style by the jiutai and shite, who sings three verses. It is accompanied by the two hand-percussion instruments and the nohkan.</p>
+        <section id="tab-2" title="Tsuke gashira" class="tabbed-narrative">
+
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Kuse_Score.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Tsuke_gashira.mp4"
           %}
         </section>
         </div>

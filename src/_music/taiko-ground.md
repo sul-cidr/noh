@@ -21,7 +21,7 @@ third-level-menu-active: taiko
     <p>Ground patterns are rhythmically regular and stable. In a sequence of patterns, it is the only one that can be repeated. Among others, the <em>kizami</em> pattern fits this category.</p>
 
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Taiko-Kizami.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Kizami.mp4"
 %}
   </div>
   </section>
