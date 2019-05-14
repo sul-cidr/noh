@@ -31,7 +31,7 @@ third-level-menu-active: otsuzumi
           <section id='Strict_setting' title='Strict setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score.mp4"
           %}
           {% include image-no-background.html src="/assets/images/congruent.jpg"
           %}
@@ -39,7 +39,7 @@ third-level-menu-active: otsuzumi
           <section id='Flexible_setting' title='Flexible setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score.mp4"
           %}
           {% include image-no-background.html src="/assets/images/non-congruent.jpg" %}
           </section>
