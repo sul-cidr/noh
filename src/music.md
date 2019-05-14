@@ -13,7 +13,11 @@ permalink: /music/
 
     <h2>Elements of Music: an Introduction</h2>
 
-<p>Noh is a form of musical theater which features actors singing with the accompaniment of a an ensemble. Interestingly however, the direct translation of the all-encompassing word <em>ongaku</em> (music) is not used by the Noh practitioners. The vocal parts are called <em>utai</em>, while the instrumental ensemble and its music is called <em>hayashi</em>. The vocal music is performed by soloists or jiutai (chorus). The actors sing alone or engage in exchanges with other actors or the juitai but never sing with them simultaneously. The hayashi is comprised of one pitched instrument: the nohkan (flute), and two unpitched percussion instruments: the kotsuzumi (shoulder drum) and ōtsuzumi (hip drum). About half of the plays in current reperotire include a third drum, the taiko (stick drum).  With a few rare exceptions taiko only joins in for the second half of a play. Between percussion strokes the drummers perform highly expressive vocal calls called <em>kakegoe</em>. </p><p>
+<p>Noh is a form of musical theater. It features actors singing with the accompaniment of an ensemble. The vocal parts are called <em>utai</em>, while the instrumental ensemble and its music are called <em>hayashi</em>. The vocal music is performed by soloists or chorus (<em>jiutai</em>).
+
+The actors sing alone or engage in exchanges with other actors or the juitai but never sing with them simultaneously.
+
+The hayashi is comprised of one pitched instrument: the nohkan (flute), and two unpitched percussion instruments: the kotsuzumi (shoulder drum) and ōtsuzumi (hip drum). About half of the plays in current reperotire include a third drum, the taiko (stick drum).  With a few rare exceptions taiko only joins in for the second half of a play. Between percussion strokes the drummers perform highly expressive vocal calls called <em>kakegoe</em>. </p><p>
 
 The performers in Noh function within a social and musical hirarchy. The most important position in Noh belongs to the shite (main actor) followed by other actors and jiutai (chorus). The shite hires the ensembles and curates the event. All musician have to follow the shite.
 
