@@ -31,7 +31,7 @@ second-level-menu-active: catalog-shodan
   </div>
 
   <p>Set in <a href="/music/voices#Hiranori" target="_blank"><em>hiranori</em></a>, the <em>rongi</em> is a sung dialogue between two actors, or between an actor, usually the shite, and the jiutai. Often at the end, the shite alludes to or even reveals his identity, as it is the case with Hashitomi’s <em>rongi</em>.
-  The nohkan’s pattern used to close the <em>shōdan</em> is the <a href="/music/nohkan/Mirokunoge" target="_blank"><em>mi roku no ge</em></a>. The one played in the play is a variation of it.</p>
+  The nohkan’s pattern commonly used to close the <em>shōdan</em> is the <a href="/music/nohkan/mirokunoge"target="_blank"><em>mi roku no ge</em></a>, as shown with this video. Yet, the closing pattern perfromed in the play is a variation of it.</p>
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Rongi_Score.mp4"

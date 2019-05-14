@@ -48,18 +48,20 @@ second-level-menu-active: catalog-shodan
     %}
 
     </section>
+    s
     <section id="tab-2" title="75%" class="tabbed-narrative">
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-75.mp4"
     %}
+    </section>
 
       <section id="tab-3" title="50%" class="tabbed-narrative">
       {% include video-no-background.html
         src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-50.mp4"
       %}
-      </section>
     </section>
+
     </div>
   </div>
 </div>

@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>The <em>notto</em> is divided up into two parts: music and chant. The <em>notto</em>-music is an unsettling introduction that has an evocative character. It is characterized by a percussion accompaniment in strict setting played by the kotsuzumi and the ōtsuzumi, and a non-congruent nohkan part. It always leads to the <a href="/catalog-of-shodan/notto-chant"><em>notto</em>-chant</a>.</p>
+  <p>The <em>notto</em> is divided up into two parts: music and chant. The <em>notto</em>-music is an unsettling introduction that has an evocative character. It is characterized by a percussion accompaniment in strict setting played by the kotsuzumi and the ōtsuzumi, and a non-congruent nohkan part. It always leads to the <a href="/catalog-of-shodan/notto-chant" target="_blank"><em>notto</em>-chant</a>.</p>
 
   <p>The kosuzumi’s steady eight-beat <em>notto uchi tsume</em> pattern is a signature feature of this <em>shōdan</em>. This steady pattern serves as a foundation superposed with various ōtsuzumi’s patterns and the non-congruent nohkan part composed of five segments:</p>
   <p>1-	Hi-hya u-ta  u-ta  u-ta  u-ta  u-ta  u-ta  u</p>

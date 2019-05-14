@@ -19,7 +19,7 @@ second-level-menu-active: catalog-shodan
     <div class="introductory-table__element">
       <div class="introductory-table__term">Percussion</div>
       <div class="introductory-table__definition">Flexible</div>
-    </div>
+    </div>s
     <div class="introductory-table__element">
       <div class="introductory-table__term">Flute</div>
       <div class="introductory-table__definition">Non-congruent</div>
@@ -28,7 +28,7 @@ second-level-menu-active: catalog-shodan
 
   <p>The <em>ashirai</em> is used as an entrance or exit music for the shite, as well as for on-stage change of costume. It is usually followed by a <em>sashi</em> or <em>kakaru</em>. In Hashitomi’s case, it is followed by an a capella song set in <a href="/music/voices#Sashinori" target="_blank"><em>sashinori</em></a>.
   </p>
-  <p>The nohkan’s part is a variation on the four-line <a href="/music/nohkan/Rokunoge" target="_blank"><em> roku no ge </em></a> pattern. After performing the standard first three lines followed with a variation on the fourth one, the nohkan player repeats the second and third lines followed with the standard fourth one.
+  <p>The nohkan’s part is a variation on the four-line <a href="/music/nohkan/rokunoge"target="_blank"><em>roku no ge</em></a> pattern. After performing the standard first three lines followed with a variation on the fourth one, the nohkan player repeats the second and third lines followed with the standard fourth one.
   </p>
   <p>The concert version presented here is shorter, the nohkan part limited to the <em>roku no ge's</em> four lines.
 </p>

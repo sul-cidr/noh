@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p><em>Oshirabe</em> means ‘to tune’ and it refers to the musicians adjusting their instruments before the performance of a play, therefore, it is not an actual <em>shōdan</em>. It is said to signal to the audience that the performance of the play is about to begin, but for others it serves as a transition from living reality to theater's. </p>
+  <p><em>Oshirabe</em> means ‘to tune’ and it refers to the musicians adjusting their instruments before the performance of a play, therefore, it is not an actual <em>shōdan</em>. It is said to signal to the audience that the performance of the play is about to begin, but for others it serves as a transition from living reality to the theater's. </p>
 
   <p>The performers sit in a prescribed order (facing the curtain, from left to right): Nohkan, kotsuzumi, ōtsuzumi, and taiko if one is used in the play. The sound of the instruments is introduced one at a time. The nohkan player opens and closes the <em>oshirabe</em> with the pattern: <em>ho ho ho fu fu</em>, interposed by the three patterns: <em>ho hya riu</em>, <em>ho hiu hiu</em>, and <em>ro ra riu</em>. The staggered entrance of the percussion instruments follows the sitting order, hence the kotsuzumi enters shortly after the nohkan, followed by the others. Musicians do not attempt to tune to one another, rather they are tuning their instruments to the play’s <em>kurai</em>, that is its overall atmosphere. </p>
 

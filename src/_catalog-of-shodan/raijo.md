@@ -25,16 +25,16 @@ second-level-menu-active: catalog-shodan
       <div class="introductory-table__definition">Non-congruent and Congruent</div>
     </div>
   </div>
-  <p><em>Raijo</em> iss included in the <em>hayashigoto</em>, that is <em>shōdan</em> where the hayashi plays the main role. It is composed of two sections: The first one called <em>nakairi-raijo</em>, is slow and non-congruent, creating a stately mood for the exit of one or two characters. The tempo picks up at the end in preparation for the second section which is congruent. This one is called <em>kyōgen-raijo</em>, since it accompanies the entering kyōgen actor.</p>
+  <p><em>Raijo</em> is an instrumental piece. It is composed of two sections: The first one called <em>nakairi-raijo</em>, is slow and non-congruent, creating a stately mood for the exit of one or two characters. The tempo picks up at the end in preparation for the second section which is congruent. This one is called <em>kyōgen-raijo</em>, since it accompanies the entrancee of the kyōgen actor.</p>
 
-  <p>The featured instrument in the <em>raijo</em> is the nohkan, accompanied by the three percussion instruments whose respective rhythmic patterns merge into a single macro-pattern.
+  <p>The featured instrument is the nohkan, accompanied by the three percussion instruments whose respective rhythmic patterns merge into a single macro-pattern.
   In this performance, it is after a measure of easing-in that the percussion patterns get settled. The three rhythm layers of the <em>nakairi-raijo's</em> macro-rhythm shows that its beginning is clearly marked by an upbeat stroke on the kotsuzumi’s first beat.</p>
 
   {% include image.html
     src="/assets/images/shodan/Figure-1-NOBckgr.png"
   %}
 
-<p>The <em>kyōgen-raijo</em> tempo is faster and being congruent, the <em>kakegoe</em> are shorter. Moreover, its macro-rhythm differs from the <em>nakairi-raijo's</em>, more specifically the kotsuzumi upbeat <em>chi</em> stroke around the first beat has been removed, replaced with a <em>chi</em> stroke on the <em>honji's</em> sixth beat.</p>
+<p>The <em>kyōgen-raijo</em> tempo is faster and being congruent, the <em>kakegoe</em> are shorter. Moreover, its macro-rhythm differs from the <em>nakairi-raijo's</em>, more specifically the kotsuzumi upbeat <em>chi</em> stroke around the first beat has been removed, replaced with one on the <em>honji's</em> sixth beat.</p>
 
   {% include image.html
     src="/assets/images/shodan/Figure-2-NOBckgr.png"

@@ -26,13 +26,13 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>Standard entrance music for the waki, yet in some plays such as in Atsumori among others, the <em>shidai-music</em> is used to introduce the shite. It is usually followed by a chant also called <em>shidai</em>, thus we refer to it as <a href="/catalog-of-shodan/shidai-chant" target="_blank"><em>shidai</em></a>-chant to avoid confusion. The pair usually leads to the <a href="/catalog-of-shodan/Nanori" target="_blank"><em>nanori</em></a>.</p>
+  <p>Standard entrance music for the waki, yet in some plays such as in Atsumori among others, the <em>shidai-music</em> is used to introduce the shite. It is usually followed by a chant also called <em>shidai</em>, thus we refer to it as <a href="/catalog-of-shodan/shidai-chant" target="_blank"><em>shidai</em></a>-chant to avoid confusion. The pair usually leads to the <a href="/catalog-of-shodan/nanori" target="_blank"><em>nanori</em></a>.</p>
 
-  <p>The percussion part in the <em>shidai-music</em> is flexible, whereas it is strict in the <em>shidai-chant</em>. It is the function of the <a href="/music/otsuzumi-kotsuzumi/#Uchiriki" target="_blank"><em>uchiriki</em></a> pattern to conclude the <em>shidai-music</em> and initiate a move from flexible to strict setting.</p>
+  <p>The percussion part in the <em>shidai-music</em> is flexible, whereas it is strict in the <em>shidai-chant</em>. It is the function of the <a href="/music/otsuzumi-kotsuzumi/#Uchikiri" target="_blank"><em>uchikiri</em></a> pattern to conclude the <em>shidai-music</em> and initiate a move from flexible to strict setting.</p>
 
   <p>There is no <em>shidai</em> in the two plays featured on this website, thus we present a concert version of Atsumori’s <em>shidai</em>.
-  The nohkan player opens the shōdan with the <a href="/music/nohkan/Hishigi" target="_blank"><em>hishigi</em></a> pattern. At the fourth <em>honji</em> it introduces the <a href="/music/nohkan/Takanemikusari" target="_blank"><em>takane mikusari</em></a> pattern, as the percussionists are moving from <a href="/music/otsuzumi-kotsuzumi/#Mitsuji" target="_blank"><em>mitsuji</em></a> to <em>tsuzuke</em> patterns.
-  It is after another round of <em>mitusji</em> patterns moving to <em>tsuzuke</em>, that the nohkan player introduces a sequence of unnamed patterns, concluding with the <em>takane-roku no ge</em>, a pattern exclusive the to <em>shidai</em>.</p>
+  The nohkan player opens the shōdan with the <a href="/music/nohkan/hishigi"target="_blank"><em>hishigi</em></a> pattern. At the fourth <em>honji</em>, as the percussionists are moving from <a href="/music/otsuzumi-kotsuzumi/#Mitsuji" target="_blank"><em>mitsuji</em></a> to <em>tsuzuke</em> patterns, the nohkan player introduces the <a href="/music/nohkan/takanemikusari"target="_blank"><em>takane mi kusari</em></a> pattern.
+  It is after another round of <em>mitusji</em> patterns moving to <em>tsuzuke</em>, that he introduces a sequence of unnamed patterns, concluding with the <em>takane-roku no ge</em>, a pattern exclusive the to <em>shidai</em>.</p>
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Atsumori-Shidai_Score.mp4"

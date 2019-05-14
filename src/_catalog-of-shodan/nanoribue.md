@@ -25,7 +25,7 @@ second-level-menu-active: catalog-shodan
   <p>Quiet, lyrical entrance of male character often used for a waki impersonating a traveling monk. It is usually followed by a prose speech: the <a href="/catalog-of-shodan/nanori" target="_blank"><em>nanori</em></a>.
   Conversely to other entrance music, it is the actor who signals the beginning of the music by asking the curtain-attendant to rise it, giving the cue to the nohkan player to start the <em>nanoribue</em>.</p>
 
-  <p>The <em>nanoribue</em> is composed of the sequence of three patterns. While the first two are standard patterns: <a href="/music/nohkan/Nakanotakane" target="_blank"><em>naka no takane</em></a> and <a href="/music/nohkan/Rokunoge" target="_blank"><em>roku no ge</em></a>, the third one is specific to the <em>nanoribue</em>, and its <em>shoga</em> is: <em>hyu ro ra hya u,ro ra ho</em>.</p>
+  <p>The <em>nanoribue</em> is composed of the sequence of three patterns. While the first two are standard patterns: <a href="/music/nohkan/nakanotakane"target="_blank"><em>naka no takane</em></a> and <a href="/music/nohkan/rokunoge"target="_blank"><em>roku no ge</em></a>, the third one is specific to the <em>nanoribue</em>, and its <em>shoga</em> is: <em>hyu ro ra hya u,ro ra ho</em>.</p>
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanoribue_Score.mp4"
