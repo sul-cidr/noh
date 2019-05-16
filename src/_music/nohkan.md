@@ -39,7 +39,7 @@ The mode of attack is another important factor that adds to the richness of nohk
 <h3 id="Patterns">Melodic Patterns</h3>
     <p>The role of the nohkan is to create an ambiance that reflects the particular emotions of the play, the status or psychological mindset of a character in a given <em>shōdan</em>, as well as to underline the dramatic structure. This is achieved using a collection of just over a hundred melodic patterns and pieces that are shared between different plays. This fixed melodic repertoire consists of different kinds of material: <em>ashirai</em> patterns that are relatively short and are used multiple times throughout each play; special patterns that are associated with particular emotions or situations such as love, shinto rituals, purifications, mantra chanting etc.; pieces that accompany dance, entrances and exits; and pieces used exclusively for kyōgen. In Morita school there are around 20 <em>ashirai</em> patterns, 80 special patterns and pieces for entrance, exit and dance (the number includes variations such as different introduction patterns for dances) and 12 pieces for kyōgen. What adds to the immense richness of the nohkan music is that in performance, the same patterns are inflected with expressive characteristics that serve the demands of a specific play, section and structural moment.</p>
     <p>
-    In the hope to provide the user with a reference to better appreciate the expressive transformation of the same pattern we asked MORITA Yasuyoshi to perform 'generic' versions of some patterns whose use in the two plays can then be compared. He was at first reluctant, since no 'generic' versions are ever performed. Patterns are always learned and played in the context of a specific play, with a particular character in mind. We appreciate the exception he made for this website and its educational purpose. Within the catalog that follows, two patterns: <a href="/music/nohkan/nakanotakane/"><em>Naka no takane</em></a> and <a href="/music/nohkan/takenemikusari/"><em>Takane mi kusari</em></a>  are first heard in their 'generic' form and then played as performed in Kokaji <em>Kuse</em> involving a male God, compared with Hashitomi <em>Kuse</em> which involves a young maiden.</p>
+    In the hope to provide the user with a reference to better appreciate the expressive transformation of the same pattern we asked MORITA Yasuyoshi to perform 'generic' versions of some patterns whose use in the two plays can then be compared. He was at first reluctant, since no 'generic' versions are ever performed. Patterns are always learned and played in the context of a specific play, with a particular character in mind. We appreciate the exception he made for this website and its educational purpose. Within the catalog that follows, two patterns: <a href="/music/nohkan/nakanotakane"target="_blank"><em>naka no takane</em></a> and <a href="/music/nohkan/takanemikusari"target="_blank"><em>takane mi kusari</em></a>  are first heard in their 'generic' form and then played as performed in Kokaji <em>kuse</em> involving a male God, compared with Hashitomi <em>kuse</em> which involves a young maiden.</p>
 
     <p>The transmission of music for nokan is primarily oral. To help memorization a system of mnemonics called <em>shoga</em> is used. These are also notated. Specific combinations of syllables represent specific melodic contour. The direction of pitch is suggested by the use of vowels, which if ordered from highest to lowest are: i, a, o and u. However, there is no fixed relationship between a single mnemonic syllable and specific pitch or fingering. As a result, written notation has only a secondary role and is not sufficient in itself. Examples of mnemonics include: <em>o, u, hi, ra, ri, ru, ro, hya, hyu, hyo,</em> among others. For example, the shoga for <em>takane</em> is: "<em>o-hya ra</em>". It is important to note that each syllable represents a sound often composed of a sequence of pitches rather than a single one. Shoga does not carry any information about its duration, since it changes depending on context.</p>
 
@@ -59,7 +59,7 @@ The mode of attack is another important factor that adds to the richness of nohk
 
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Ageuta_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Ageuta_Score_sl.mp4"
     %}
 
 
@@ -69,7 +69,7 @@ The mode of attack is another important factor that adds to the richness of nohk
 The <em>nanoribue</em> is based on three <em>ashirai</em> patterns: <em>naka no takane</em>, <em>roku no ge</em>, and an unnamed third one exclusive to the <em>nanoribue</em>.</p>
 
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Nanoribue.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Nohkan-Hashitomi_Nanoribue_sl.mp4"
 %}
 <p>When performing with the percussion instruments, there are three different types of possible rhythmic arrangements:</p><p>
 1.	The nohkan part is congruent
@@ -96,7 +96,7 @@ On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is
       </section>
       <section id='Jonomai' title='Jonomai' class='tabbed-narrative'>
       {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Jonomai_Patterns_Score.mp4"
+        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Jonomai_Patterns_sl.mp4"
       %}
       </section>
     </div>
@@ -107,14 +107,14 @@ On the other hand, the <em>Jo no mai</em>’s core melody called <em>Ji</em>  is
 After having articulated the beginning of the module with the <em>Hishigi</em> pattern, the nohkan players waits for the fourth <em>honji</em> to freely position the <em>Naka no takane</em> pattern in the span of two <em>honji</em>.
 </p>
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hagoromo-Non-Congruent.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hagoromo-Non-Congruent_sl.mp4"
 %}
 <h4 id="Non-congruent-Flexible">Non-congruent in Flexible Setting</h4>
 <p> An example of a non-congruent nohkan’s part against a flexible percussion part is provided with an excerpt from the <em>Shidai-music</em> from Atsumori. This is an entrance music that typically leads to the <em>Shidai</em>-chant, where the percussion setting switches to strict against a congruent chant.
 After having articulated the beginning of the module with the <em>Hishigi</em> pattern, the nohkan players waits for the fourth <em>honji</em> to freely position the <em>Takane mi kusari</em> pattern in the span of two <em>honji</em>. </p>
 
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Atsumori-Shidai-Non-Congrruent.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Atsumori-Shidai-Non-Congruent_sl.mp4"
 %}
 </div>
 </section>

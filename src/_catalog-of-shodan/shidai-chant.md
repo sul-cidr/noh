@@ -33,7 +33,7 @@ second-level-menu-active: catalog-shodan
   <p>There is no <em>shidai</em> in the two plays featured on this website, thus we present a concert version of Atsumori’s <em>shidai</em>. Sung by the shite, it is followed by a <em>jitori</em> performed by the jiutai. When included, a <em>jitori</em> concludes the <em>shidai</em>, repeating its second and third lines on a very low and quiet tone in a non-congruent fashion.</p>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Atsumori-Shidai_Chant_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Atsumori-Shidai_Chant_Score_sl.mp4"
     %}
 
 </div>

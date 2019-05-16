@@ -22,7 +22,7 @@ third-level-menu-active: nohkan
 <em>hi pi-u hi</em>
 </p><p> The shoga <em>'hi'</em> used for the highest ('shrilling') sound called <em>hishigi</em> is the same as for a standard high pitched sound. </p>
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hishigi_Shoga.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hishigi_Shoga_sl.mp4"
 %}
   </div>
   </section>

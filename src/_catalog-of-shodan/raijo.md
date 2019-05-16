@@ -58,7 +58,7 @@ second-level-menu-active: catalog-shodan
     </div>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Raijo_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Raijo_Score_sl.mp4"
 
     %}
 

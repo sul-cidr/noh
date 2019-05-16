@@ -37,19 +37,19 @@ second-level-menu-active: catalog-shodan
       <section id="tab-1" title="Hashitomi-Nanori" class="tabbed-narrative">
       <p>Hashitomi’s <em>nanori</em> is delivered by a waki impersonating a traveling priest. Although the melodic shape - gradual rising tone followed by a rapid falling off - is customary, the way it is set to text varies. For instance, in Hashitomi's <em>nanori</em>, the slower delivery speed in the lower register is well suited for a calm traveling priest. This is in clear contrast with the <em>nanori</em> from Kokaji.</p>
       {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score.mp4"
+        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score_sl.mp4"
       %}
 
       </section>
       <section id="tab-2" title="Kokaji-Nanori" class="tabbed-narrative">
-        <p>Kokaji’s <em>nanori</em> is delivered by a waki-tsure personating an Emperor’s envoy hastening to deliver an important order. It differs from Hashitomi’s <em>nanori</em> in at least two ways: Its speed of delivery is much faster, and the pitch higher, two distinctions well suited for a messenger who is in a hurry to deliver an important missive.</p>
+        <p>Kokaji’s <em>nanori</em> is delivered by a wakizure personating an Emperor’s envoy hastening to deliver an important order. It differs from Hashitomi’s <em>nanori</em> in at least two ways: Its speed of delivery is much faster, and the pitch higher, two distinctions well suited for a messenger who is in a hurry to deliver an important missive.</p>
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score_sl.mp4"
         %}
       </section>
       </div>
     </div>
-  </div>s
+  </div>
 
 </div>
 </main>

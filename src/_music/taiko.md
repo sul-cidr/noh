@@ -50,7 +50,7 @@ fourth-level-menu-active: sound
 
     {% include image.html src="/assets/images/taiko-maibataraki.png" %}
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Maibataraki_Patterns.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Maibataraki_Patterns_sl.mp4"
     %}
 
   </div>

@@ -86,7 +86,7 @@ third-level-menu-active: otsuzumi
     2.	Rhythmic phrases always begin with a <em>mitsuji</em> pattern leading to a <em>tsuzuke</em>, which itself either leads to a cadential pattern or to another phrase: <em>mitsuji</em> – <em>tsuzuke</em> sequence.<br>
     3.	The ratio <em>mitsuji</em> to <em>tsuzuke</em> patterns of a phrase affects its overall rhythmic stability. Phrases with a larger proportion of <em>mitsuji</em> patterns have a higher degree of rhythmic ambiguity, while phrases that have a larger proportion of <em>tsuzuke</em> patterns have a higher degree of rhythmic stability.<br>
     4.	The degree of rhythmic stability/ambiguity of a phrase is also impacted by its rhythmic setting where a strict setting is more stable than a flexible one. <br>
-    5.	 The sparse <em>mitsuji</em> patterns are usually used to accompany a chant set in the declamatory <a href="/music/voices#Mitsuji-utai"><em>mitsuji-utai</em></a>. Hence the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <em>tsuzuke</em> patterns are usually used to accompany a chant set in the <a href="/music/voices#Tsuzuke-utai"><em>tsuzuke-utai</em></a>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
+    5.	 The sparse <em>mitsuji</em> patterns are usually used to accompany a chant set in the declamatory <a href="/music/voices/#Mitsuji-utai" target="_blank"><em>mitsuji-utai</em></a>. Hence the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <em>tsuzuke</em> patterns are usually used to accompany a chant set in the <a href="/music/voices/#Tsuzuke-utai" target="_blank"><em>tsuzuke-utai</em></a>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
 
     <p>The following two videos show strict and flexible setting of a mixed sequence. Each version begins with four repetitions of a <em>mitsuji</em> pattern followed by one <em>tsuzuke</em>.</p>
 
@@ -115,10 +115,10 @@ third-level-menu-active: otsuzumi
     <h5 id="Uchikiri">Uchikiri pattern</h5>
     <p><em>Uchikiri</em> pattern is often used as a bridge to reestablish a strict rhythmic setting after a flexible section (<em>shōdan</em>) or after a very slow strict one. Hence, it often leads to modules with a strict rhythmic setting such as <em>ageuta</em>, <em>kuse</em>, or <em>sageuta</em>. It is easily recognizable by the ōtsuzumi player’s <em>kakegoe</em>  <em>"ha hon yo"</em>. In this video, the excerpt is extended to include the first beat of the following phrase.</p>
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Uchikiri.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Uchikiri_sl.mp4"
     %}
     <h5 id="Entrance">Entrance and Dance music</h5>
-    <p>When performing dances, noriji and some entrance music, the complementarity between the two hand drums is maintined despite the fact that they perform patterns of different length. This is demonstrated in the following excerpts from the dance <em>jo no mai</em>.
+    <p>When performing dances, <em>noriji</em> and some entrance music, the complementarity between the two hand drums is maintained despite the fact that they perform patterns of different length. This is demonstrated in the following excerpts from the dance <em>jo no mai</em>.
     In this example the kotsuzumi’s <em>nagaji</em> pattern is spread over sixteen-beats against the ōtsuzumi's <em>ji</em> pattern that lasts eight-beat.  </p>
     <p> Kotsuzumi's <em>nagaji</em> sixteen-beat pattern:</p>
     {% include image-no-background.html src="/assets/images/Kotsuzumi-Nagaji.png" %}
@@ -128,7 +128,7 @@ third-level-menu-active: otsuzumi
 
     <p>Another interesting point demonstrated with this example, is how the ōtsuzumi's closing (<em>shikake</em>) pattern brakes the predictability of the repeated patterns. Its steady six strokes and subsequent kakegoe announce the end of the dance and initiate a cadential deccelerando.</p>
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Jonomai-RhythmicPatterns.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Jonomai-RhythmicPatterns_sl.mp4"
     %}
 
 

@@ -22,7 +22,7 @@ third-level-menu-active: nohkan
 <em>o-hya ra</em>
 </p>
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Takane_Shoga.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Takane_Shoga_sl.mp4"
 %}
   </div>
   </section>

@@ -29,7 +29,8 @@ second-level-menu-active: catalog-shodan
   <p>Lively music for the entrance of a dragon, spirit, or deity, as it is the case in Kokaji. It is a nohkan congruent solo accompanied by the three percussion instruments. The  eight-beat introduction melody called <em>kakari</em>, opens with the strident <em>hishigi</em> tone and leads to a seven-<em>honji</em> melody with one motive per <em>honji</em>, identified in the video with letters a to g, respectively. It is repeated three times before leading to the one-<em>honji</em> cadence called <em>tome</em>.
 </p>
 
-  <p>The performance based on Kokaji's <em>hayafue</em> includes the three-<em>honji</em> bridge from the preceding <em>shōdan</em>, a <em>noriji</em>. Then, the taiko performs a complete <a href="/music/taiko/#Patterns" target="_blank"><em>cycle</em></a> of patterns over the melody’s first iteration, and a second one over the rest of the <em>hayafue</em>. The two-hand percussion instruments contribute to the complex rhythmic texture by performing rhythmic ostinati of different durations.
+  <p>The performance on this video is based on Kokaji's <em>hayafue</em> and it includes the three-<em>honji</em> bridge from the preceding <em>shōdan</em>, a <em>noriji</em>.
+  The taiko performs a complete <a href="/music/taiko/#Patterns" target="_blank"><em>cycle</em></a> of patterns over the melody’s first iteration, and a second one over the rest of the <em>hayafue</em>. The two-hand percussion instruments contribute to the complex rhythmic texture by performing rhythmic ostinati of different durations.
   To help appreciate the complexity between the four parts, the <em>hayafue</em> is presented at three different speeds: The original, and at 75% and at 50% of the original speed.
 </p>
 
@@ -41,24 +42,24 @@ second-level-menu-active: catalog-shodan
   </div>
   <div class="tabs-container__content">
     <div class="wrapper">
-    <section id="tab-1" title="Origianl speed" class="tabbed-narrative">
+    <section id="tab-1" title="Original speed" class="tabbed-narrative">
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_Score.mp4"
     %}
 
     </section>
-    s
+
     <section id="tab-2" title="75%" class="tabbed-narrative">
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-75.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-75_sl.mp4"
     %}
     </section>
 
       <section id="tab-3" title="50%" class="tabbed-narrative">
       {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-50.mp4"
+        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-50_sl.mp4"
       %}
     </section>
 

@@ -71,21 +71,21 @@ fourth-level-menu-active: voices
 
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score_sl.mp4"
           link="Waki"
           title="Hashitomi – Nanori "
           paragraph1="The calm delivery in the lower register is well suited for a traveling priest."
         %}
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score_sl.mp4"
           link="wakizure"
           title="Kokaji – Nanori "
           paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
         %}
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score_sl.mp4"
           link="Shite and waki "
           title="Kokaji – Mondō"
           paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
@@ -110,7 +110,7 @@ fourth-level-menu-active: voices
             {% include image-no-background.html src="/assets/images/Yowagin-range.jpg" %}
 
             {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hagoromo-Kuri_yowagin_Range.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hagoromo-Kuri_yowagin_Range_sl.mp4"
             link="Yowagin"
             title="Hagoromo/Kuri"
             paragraph1="The module is named after the <em>kuri </em> tone from the higher register. For the most part, the pitch material of the piece focuses on the High tone with few incursions on the <em>kuri</em> shown in bold in the text of the video."
@@ -128,7 +128,7 @@ fourth-level-menu-active: voices
 
             {% include image-no-background.html src="/assets/images/Tsuyoggin-range.png" %}
       {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kuri_tsuyogin_Range.mp4"
+        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kuri_tsuyogin_Range_sl.mp4"
         link="Tsuyogin"
         title="Kokaji/Kuri"
         paragraph1="The section's name refers to the high pitch <em>kuri</em>; hence this section's melody is set in the higher register. "
@@ -147,7 +147,7 @@ fourth-level-menu-active: voices
 
         <p>Verse consisting of alternating lines of -seven and five- syllables is considered to be the most lyrical and elegant form of Japanese poetry as seen in haiku, waka, and renga, among others. <em>Hiranori</em> is the basic rhythmic form used in Noh where the poetic twelve syllables match with the <em>honji</em>’s eight-beat. Considering that there is a possibility of two syllables per beat for a total of sixteen syllables per <em>honji</em>, this leaves space for four caesuras. The standard positions for the caesuras are beats 1, 3, 5 and 8; dividing the <em>honji</em> in two asymmetric parts: one of four beats and a half, the other one with three beats and a half. The following examples are based on Hashitomi’s first <em>ageuta</em>.</p>
 
-        <p>The <em>hiranori</em> setting has two singing styles: <a href="#Tsuzukeutai"><em>tsuzuke-utai</em></a> and <a href="#Mitsujiutai"><em>mitsuji-utai</em></a>. The explanation of the two individual styles is followed by a <a href="#Hiranoridemo">demonstration in the context</a>, which shows how they can complement each other in a chant.</p>
+        <p>The <em>hiranori</em> setting has two singing styles: <a href="/music/voices/#Tsuzuke-utai" target="_blank"><em>tsuzuke-utai</em></a> and <a href="/music/voices/#Mitsuji-utai" target="_blank"><em>mitsuji-utai</em></a>. The explanation of the two individual styles is followed by a <a href="/music/voices/#Combination" target="_blank">demonstration in context</a>, which shows how they can complement each other in a chant.</p>
 
         <h5 id="Tsuzuke-utai">Tsuzuke-utai</h5>
 
@@ -173,9 +173,9 @@ fourth-level-menu-active: voices
 
         <p> Occasionally, lines of text do not fit within the 7 + 5 model. As a matter of fact, the number of syllables of the first part can vary between two and ten, and between three and eight for the second part.</p>
 
-        <p>There are two adjusting methods to accommodate such case: the first one involves shifting the beat of the text’s very first syllable, whereas the second method involves the insertion of measures of various sizes.</p>
+        <p>Thus, there are two adjusting methods to accommodate such cases: the first one involves starting the line's first syllable on a different beat, whereas the second method involves the insertion of measures of various sizes.</p>
 
-        <p>One method of fitting a larger than twelve syllables line of text within a honji (an eight-beat unit) consist of starting the first syllable of that line on a beat earlier than the standard upbeat to the very first beat. For example, the last line of text of Hashitomi’s first ageuta is comprised of thirteen syllables: 8 + 5.</p>
+        <p>The standard position for the first syllable of a line of text is on the upbeat leading to the <em>honji's</em> first downbeat. Thus, one method of fitting a larger than twelve syllables line of text within a <em>honji</em> consist of starting its first syllable earlier than the standard upbeat to the first beat. For example, the last line of text of Hashitomi’s first ageuta is comprised of thirteen syllables: 8 + 5.</p>
 
         {% include image-no-background.html
           src="/assets/images/FirstMethod-Text.png"
@@ -204,20 +204,20 @@ fourth-level-menu-active: voices
 
         <h4 id="Combination">Demonstration in context of a play</h4>
 
-        <p>In the context of a chant,  <em>mitsuji-utai</em> and <em>tsuzuke-utai</em> are used alternatively to vary and control the rhythmic flow of the chant. The changes from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em> are not left at the discretion of the performers though, rather the music is prescribed, and it typically includes back and forth transition between the two. The cycle '<em>mitsuji</em>- to <em>tsuzuke-utai</em>' always starts with <em>mitsuji-utai</em> leading to <em>tsuzuke-utai</em>, which itself either leads to a cadential pattern or to another <em>mitsuji-utai</em>, to start another cycle.</p>
+        <p>In the context of a chant,  <em>mitsuji-utai</em> and <em>tsuzuke-utai</em> are used alternatively to vary and control the rhythmic flow of the chant. The changes from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em> are not left at the discretion of the performers though, rather the music is prescribed, and it typically includes back and forth transition between the two. The cycle <em>mitsuji</em>- to <em>tsuzuke-utai</em> always starts with <em>mitsuji-utai</em> leading to <em>tsuzuke-utai</em>, which itself either leads to a cadential pattern or to another <em>mitsuji-utai</em>, to start another cycle.</p>
 
-        <p>It is interesting to note that sparse <a href="/music/otsuzumi-kotsuzumi#mitsuji"><em>mitsuji</em></a> patterns are usually used to accompany the part of a chant set in the declamatory <em>mitsuji-utai</em>, where the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <em>tsuzuke</em> patterns are usually used to accompany part of a chant set in the <em>tsuzuke-utai</em>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
+        <p>It is interesting to note that sparse <a href="/music/otsuzumi-kotsuzumi/#Mitsuji" target="_blank"><em>mitsuji</em></a> percussion patterns are usually used to accompany the part of a chant set in the declamatory <em>mitsuji-utai</em>, where the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <a href="/music/otsuzumi-kotsuzumi/#Tsuzuke" target="_blank"><em>tsuzuke</em></a> patterns are usually used to accompany part of a chant set in the <em>tsuzuke-utai</em>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
 
         <p>Here is the actual text setting for the first <em>ageuta</em> from Hashitomi. This chant being rather short, it includes only one motion from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em>, with the first three lines set in <em>mitsuji-utai</em> accompanied with sparse <em>mitsuji</em> patterns in the percussion, and the last three in <em>tsuzuke-utai</em> accompanied with steady <em>tsuzuke</em> patterns in the percussion.</p>
 
-        <p>As it is typical of an <em>ageuta</em>, its first sentence is repeated. The iteration is preceded by an <a href="/music/otsuzumi-kotsuzumi#uchikiri"><em>uchikiri</em></a>.</p>
+        <p>As it is typical of an <em>ageuta</em>, its first sentence is repeated. The iteration is preceded by an <a href="/music/otsuzumi-kotsuzumi/#Uchikiri" target="_blank"><em>uchikiri</em></a>.</p>
 
         {% include image-no-background.html
           src="/assets/images/Hashitomi-Ageuta1_Utai.png"
         %}
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_Utai.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-_Ageuta1_Utai_sl.mp4"
           link="Hiranori styles in context"
           title="Hashitomi/Ageuta 1"
         %}
@@ -254,7 +254,7 @@ fourth-level-menu-active: voices
         {% include image-no-background.html
           src="/assets/images/2ndMethod-Text.png"
         %}
-        <p> A <em>toriji</em> (measure of four beats) has been inserted between the second and third honji (eight beat unit) in order to counter-balance the odd syllabic structure of the text. When it comes to measures other than the <em>honji</em>, the <em>toriji</em> is far more common that the two- and six-beat measures.</p>
+        <p> A <em>toriji</em> (measure of four beats) has been inserted between the second and third <em>honji</em> (eight beat unit) in order to counter-balance the odd syllabic structure of the text. When it comes to measures other than the <em>honji</em>, the <em>toriji</em> is far more common that the two- and six-beat measures.</p>
         {% include image-no-background.html
           src="/assets/images/2ndMethod-Rhythm.png"
         %}
@@ -263,11 +263,12 @@ fourth-level-menu-active: voices
 
         <p>The emphasis for non-congruent chants is on the text and melodic line. With this text setting there is no coordination between syllables and the unit’s eight beats. There are two types of non-congruent chant: <em>sashinori</em> and <em>einori</em>.</p>
 
-        <h4 id="Sashinori">Sashinori</h4>
-
         <p><em>Sashinori</em> chant is always accompanied by the ōtsuzumi and kotsuzumi in a flexible setting, while <em>einori</em> chant can be accompanied by the hand percussion instruments in either strict or flexible setting. If the chant includes a nohkan part it will also be non-congruent.</p>
 
-        <p><em>Sashinori</em> chants are sung in a recitative style. They are usually accompanied by the ōtsuzumi and kotsuzumi in a flexible setting, favoring the sparse <em>mitsuji</em> patterns. On the other hand, the <em>Kuri</em> also accompanied by the two hand-drums in a non-congruent setting favors the <em>tsuzuke</em> pattern.  There is a Japanese expression that describes well the idea behind a non-congruent chant accompanied by non-congruent percussion: <em>fusoku furi</em> which means ‘not separate but not together’.</p>
+
+        <h4 id="Sashinori">Sashinori</h4>
+
+        <p><em>Sashinori</em> chants are sung in a recitative style, accompanied by the ōtsuzumi and kotsuzumi in flexible setting, favoring the sparse <em>mitsuji</em> patterns. On the other hand, the <em>Kuri</em> also accompanied by the two hand-drums in flexible setting, favors the <em>tsuzuke</em> pattern.  There is a Japanese expression that describes well the idea behind a non-congruent chant accompanied by percussions in flexible rhythmic setting: <em>fusoku furi</em> which means ‘not separate but not together’.</p>
 
         <p>The <em>sashi</em> from Kokaji, sung in <em>tsuyogin</em> mode, is composed of two parts. Each one begins by a solo performed the shite followed by a reply by the jiutai. The reply is broken up into melodic lines rhythmically characterized by a pulse that is very slightly accelerated before coming to a sustained tone. The sustained tones are positioned on syllables to reinforce the text's structure or meaning. For the most part, each line stays on the high pitch which is usually preceded with an inflection from below. Finally, the chant concludes on the low tone.</p>
 
@@ -281,13 +282,13 @@ fourth-level-menu-active: voices
 
         <h4 id="Einori">Einori</h4>
 
-        <p>Einori chants are usually accompanied by the ōtsuzumi and kotsuzumi in a strict setting. The <em>issei-chant</em> from Hashitomi is sung in <em>yowagin</em> style, it focuses on only four pitches: the Medium and High, and their respective Intermediate pitch a tone lower. It is divided up into two segments: the first one sung by the shite, the second one by the jiutai.</p>
+        <p>Einori chants are usually accompanied by the ōtsuzumi and kotsuzumi in strict setting. The <em>issei-chant</em> from Hashitomi is sung in <em>yowagin</em> style, it focuses on only four pitches: the Medium and High, and their respective Intermediate pitch a tone lower. It is divided up into two segments: the first one sung by the shite, the second one by the jiutai.</p>
 
         <p>The hand-percussion instruments start both parts with sparse <em>mitsuji</em> patterns before moving on with <em>tsuzuke</em> patterns. It is while performing the <em>mitsuji</em> patterns that the <em>ōtsuzumi</em> player has some flexibility to adapt to the melodic line. This is particularly clear with this recording. One can recognize the ōtsuzumi player's use of the flexible <em>kakegoe</em> when performing the first <em>mitsuji</em> patterns, whereas the kotsuzumi player uses the strict <em>kakegoe</em> throughout the chant.
         </p>
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score.mp4"
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score_sl.mp4"
           link="Einori"
           title="Hashitomi/Issei"
         %}

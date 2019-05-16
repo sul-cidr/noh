@@ -35,7 +35,7 @@ second-level-menu-active: catalog-shodan
   The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki. These two points are not to be understood as universal stylistic characteristics, but rather as performance differences, the shite’s less flamboyant style being well suited to a deity. Moreover, the difference between the two styles helps setting apart the divine being (shite ) from the mere human (waki).</p>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score_sl.mp4"
 
     %}
 </div>

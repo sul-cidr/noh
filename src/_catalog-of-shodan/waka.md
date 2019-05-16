@@ -39,7 +39,7 @@ second-level-menu-active: catalog-shodan
 <p>Hana no iugao</p>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Waka_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Waka_Score_sl.mp4"
     %}
 
 

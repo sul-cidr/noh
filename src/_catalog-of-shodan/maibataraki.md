@@ -56,7 +56,7 @@ second-level-menu-active: catalog-shodan
     <section id="tab-1" title="Original speed" class="tabbed-narrative">
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Score_sl.mp4"
 
     %}
 
@@ -64,13 +64,13 @@ second-level-menu-active: catalog-shodan
     <section id="tab-2" title="75%" class="tabbed-narrative">
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Slowdown-75.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Slowdown-75_sl.mp4"
     %}
     </section>
 
       <section id="tab-3" title="50%" class="tabbed-narrative">
       {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Slowdown-50.mp4"
+        src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Slowdown-50_sl.mp4"
       %}
     </section>
 

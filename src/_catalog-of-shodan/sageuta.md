@@ -29,7 +29,7 @@ second-level-menu-active: catalog-shodan
   <p>Short song with a melody centered on Medium and Low pitches. The <em>sageuta</em> is set in <a href="/music/voices#Hiranori" target="_blank"><em>hiranori</em></a>. It usually precedes an <em>ageuta</em>, as it is the case in Hashitomi.</p>
 
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Sageuta-Score.mp4"
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Sageuta-Score_sl.mp4"
     %}
     </div>
 
