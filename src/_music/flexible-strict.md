@@ -33,15 +33,14 @@ third-level-menu-active: otsuzumi
           {% include video-no-background.html
             src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
           %}
-          {% include image-no-background.html src="/assets/images/congruent.jpg"
-          %}
+
           </section>
           <section id='Flexible_setting' title='Flexible setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
             src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
           %}
-          {% include image-no-background.html src="/assets/images/non-congruent.jpg" %}
+
           </section>
         </div>
       </div>
