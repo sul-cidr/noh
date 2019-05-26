@@ -25,11 +25,15 @@ permalink: /shimai-dances/
 
         <h4 id="Shimai-Maibayashi"> Shimai and Maibayashi</h4>
 
-        <p>Besides dance in the context of a Noh play, there are two other forms of dance. Dance-to-text <em>shōdan</em> such as the <em>kuse</em> and <em>kiri</em> can be performed independently from a play. This form of dance called <em>shimai</em> includes a jiutai usually composed of four members, but no <em>hayashi</em>. Instrumental dances can also be performed independently from a play. This form of dance called <em>maibayashi</em> includes a <em>hayashi</em> and a jiutai usually composed of about five members. </p>
+        <p>Besides dance in the context of a Noh play, there are two other forms of dance. Dance-to-text <em>shōdan</em> such as the <em>kuse</em> and <em>kiri</em> can be performed independently from a play. This form of dance called <em>shimai</em> includes a jiutai usually composed of four members, but no <em>hayashi</em>. Instrumental dances can also be performed independently from a play. This form of dance called <em>maibayashi</em> includes a <em>hayashi</em> and a jiutai with a membership that can vary between three and eight singers. </p>
 
         <p>When performing a <em>shimai</em> or <em>maibayashi</em>, the dancer is not masked and wears a crest-adorned kimono and <em>hakama</em> rather than a costume. Moreover, the fan is larger than the one used for a play. It is also handled differently by the members of the jiutai. Whereas they kneel with hands in their pockets, fans resting on the stage floor when inactive, they hold the fan upwards when singing in a play, but resting on their laps when singing in a <em>shimai</em> or <em>maibayashi</em>.</p>
 
-        <p>Using a jiutai limited to two members, the <em>shimai</em> version of Hashitomi and Kokaji’s <em>kuse</em> and <em>kiri</em> is presented from two different angles: front and side. Each dance is followed by a structural description of its <em>kata</em>, where numbers refer to the stage’s <a href="/staging/stage/#Squares" target="_blank">Squares</a>.</p>
+        <p>Using a jiutai limited to two members, the <em>shimai</em> version of Hashitomi and Kokaji’s <em>kuse</em> and <em>kiri</em> is presented from two different angles: front and side.<br>
+        Each dance is followed by our intepretation of its structure, where  <em>kata</em> are grouped into sequences. The numbers refer to the stage’s <a href="/staging/stage/#Squares" target="_blank">Squares</a><br>.
+        Finally, a word about Kokaji's <em>kuse</em>. It is divided into two parts: The shite sits center-stage during the first part, and dances during the second one. Only its second part is performed when presented as a <em>shimai</em>. <br>
+        We have included both parts to illustrate and stress the point that in a context of little motion, every simple <em>kata</em> such as sliding left or right, head motion, raising on knee, and so on, become important, as each movement carries meaning.
+        </p>
 
         <div class="tabs-container">
       <div class="tabs-container__links">
