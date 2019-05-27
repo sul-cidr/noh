@@ -29,8 +29,8 @@ permalink: /shimai-dances/
 
         <p>When performing a <em>shimai</em> or <em>maibayashi</em>, the dancer is not masked and wears a crest-adorned kimono and <em>hakama</em> rather than a costume. Moreover, the fan is larger than the one used for a play. It is also handled differently by the members of the jiutai. Whereas they kneel with hands in their pockets, fans resting on the stage floor when inactive, they hold the fan upwards when singing in a play, but resting on their laps when singing in a <em>shimai</em> or <em>maibayashi</em>.</p>
 
-        <p>Using a jiutai limited to two members, the <em>shimai</em> version of Hashitomi and Kokaji’s <em>kuse</em> and <em>kiri</em> is presented from two different angles: front and side.<br>
-        Each dance is followed by our intepretation of its structure, where  <em>kata</em> are grouped into sequences. The numbers refer to the stage’s <a href="/staging/stage/#Squares" target="_blank">Squares</a><br>.
+        <p>Using a jiutai limited to two members, the <em>shimai</em> version of Hashitomi and Kokaji’s <em>kuse</em> and <em>kiri</em> is presented from two different angles: front and side.
+        Each dance is followed by our intepretation of its structure, where  <em>kata</em> are grouped into sequences. The numbers refer to the stage’s <a href="/staging/stage/#Squares" target="_blank">Squares</a>.</p><p>
         Finally, a word about Kokaji's <em>kuse</em>. It is divided into two parts: The shite sits center-stage during the first part, and dances during the second one. Only its second part is performed when presented as a <em>shimai</em>. <br>
         We have included both parts to illustrate and stress the point that in a context of little motion, every simple <em>kata</em> such as sliding left or right, head motion, raising on knee, and so on, become important, as each movement carries meaning.
         </p>
