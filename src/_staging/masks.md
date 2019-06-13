@@ -16,6 +16,7 @@ third-level-menu-active: masks
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Masks">Masks</h2>
+    <p><em>By Diego Pellecchia</em></p>
     <h3 id="Intro">Introduction</h3>
 <p>
 There are over 200 types of noh masks, grouped in categories and types. One of the most common subdivisions conceives of five groups: god masks, female masks, male masks, spirit masks and demon masks. Masks used in the ritual performance Okina constitute an additional category. </p>
@@ -64,7 +65,6 @@ Most masks are associated with a character type (e.g. young woman, middle-aged w
 
 <p>Different masks can be used for the shite in the second half of Kokaji, depending on the performance variant and on the shite school. For the standard version of the play, in which the shite in the second half wears a red wig, the mask usually used is ko-tobide, a smaller mask with a reddish complexion. Ō-tobide, instead, is used for variant performances. The Kongō school, however, allows Ō-tobide to be used even with the standard staging of the play, shown in the video.</p>
 
-<p><em>Contributor: Diego Pellecchia</em></p>
 
 {% include image-no-background.html src="/assets/images/Kyogen-mask2.png" %}
 {% include image-no-background.html src="/assets/images/Kyogen-mask1.png" %}

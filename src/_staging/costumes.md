@@ -16,6 +16,7 @@ third-level-menu-active: costumes
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Costumes">Costumes</h2>
+    <p><em>By Monica Bethe</em></p>
         <h3 id="Intro">Introduction</h3>
     <p> Noh costumes define a characterʼs gender, profession, and rank. Their layered elements are prescribed by tradition and can be found noted at the beginning of the <em>utaibon</em> (libretto). While the types of garments for a given play are regulated, their colors, patterns, and in some cases mimetic techniques serve as a tool for the actorʼs expression. In choosing the costume for a character the actor considers the image to be portrayed, the overall atmophere of the performance, and the balance of colors, patterns, and motif sizes as they play off the costumes of other characters. The performer usually has a stock of costumes from which to choose. Heads of schools and other actor families that own theaters as well as some individual actors have costumes collected over a long time span.</p>
 
@@ -154,7 +155,6 @@ Noh costumes can be divided into four basic categories: (1) <em><strong>kosode</
     {% include image-no-background.html src="/assets/images/Osode-compare.png" %}
 
 
-<p><em>Contributor: Monica Bethe</em></p>
 </div>
 </section>
 </div>

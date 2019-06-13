@@ -16,6 +16,7 @@ third-level-menu-active: props
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Props">Properties</h2>
+    <p><em>By Monica Bethe</em></p>
     <h3 id="Intro">Introduction</h3>
     <p> The bare nō stage with a permanent backdrop of a pine-painting and pines along the bridge way serves as the basic environment for all nō performances. The enacted scene lives in the imagination evoked by text, music, and movement. For some plays, however, imagery is made concrete through physical objects. The minimal structures suggestive of huts, tombs, carts, wells, trees, and bells, enhance the visual impact, focus the action, and serve as synecdoches interfacing with the poetic imagery. Handheld objects like pails, hammers, flowers, or swords add an element of reality.</p>
     <h3 id="Hashitomi">Hashitomi</h3>
@@ -68,7 +69,7 @@ third-level-menu-active: props
 {% include image-no-background.html src="/assets/images/Kokaji-wand.png" %}
 
 {% include image-no-background.html src="/assets/images/Kokaji-on-platform.png" %}
-<p><em>Contributor: Monica Bethe</em></p>
+
 </div>
 </section>
 </div>
