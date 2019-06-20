@@ -5,38 +5,37 @@
 layout: home
 ---
 
-<div class="home__image" style="background-image: url('/assets/images/tatsu-side.jpg');"></div>
-
+<div class="home__image" style="background-image: url('/assets/images/Hashi3.jpg');"></div>
 <div class="home__content">
   <div class="wrapper">
-    <h1>Noh as intermedia</h1>
-    <p>If one were to define intermedia as a way of forming expression by drawing on relationships between words, music and visuals, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami (c.1363-c.1443) who is credited with having perfected Noh as it still exists today, wrote in his Fûshikaden that in a successful play:</p> 
+    <h1>Noh as Intermedia</h1>
+    <p>If one were to define 'intermedia' as a way of forming expression by drawing on relationships between arts, Noh Theater would be among its world’s most sophisticated and mighty exemplars. Zeami Motokiyo (c.1363-c.1443) who is credited with having perfected Noh as it still exists today, wrote in his <em>Fūshikaden</em> that in a successful play:</p>
     <blockquote>
-      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p> 
-      <footer>— <a href="https://google.com">Zeami</a> (tr. Tom Hare)</footer>
+      <p class="blockquote__paragraph">… words should hold interest; the melody should be attractive; points of concentrated interest should be enacted with strong visual appeal. When all these elements come together at once, the entire audience is enchanted.</p>
+      <footer>— <a href="#reference1">Zeami</a></footer>
     </blockquote>
-    <p>This website hopes to untangle some of the idiomatic “coming together” of media in Noh.  To achieve this the material is divided into following three main sections:</p>
+    <p>In the attempt to untangle some of the unique 'coming together' of artistic media in Noh, the website is divided into the following three sections:</p>
     <div class="cards-container">
       {% include card.html
           link="/about-intermedia"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
+          image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           icon="icon-intermedia"
-          title="Intermedia"
-          description="Defines the notion in general and how it can be applied to the analysis of Noh."
+          title="About Intermedia"
+      description="contextualizes the notion of intermedia in general and how it is applied in this project."
       %}
       {% include card.html
           link="/plays"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
+          image="/assets/images/Kokaji-duo2.jpg"
           icon="icon-plays"
           title="Plays"
-          description="Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings."
+          description="offers video recordings, text, scores, and a detailed intermedia analysis of two contrasting plays."
       %}
       {% include card.html
-          link="/elements-of-noh"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
+          link="/elements"
+          image="/assets/images/Hashitomi-prop-covered.jpg"
           icon="icon-elements"
-          title="Intermedia"
-          description="Contributes a bottom-up perspective with information about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays."
+          title="Elements of Noh"
+          description="provides fundamentals of Noh music, movement, text and staging, as well as catalogs of standard dance patterns and musical forms used in the featured plays. "
       %}
     </div>
   </div>

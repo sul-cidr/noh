@@ -1,6 +1,6 @@
 ---
 layout: play
 title: Hashitomi
-image: https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg
-description: "Description of Hashitomi"
+image: /assets/images/Hashi4.jpg
+description: "Belonging to the third category of Woman or “Wig” plays (女物), it engulfs the viewers in a tender dream-like world of a female protagonist, a ghost of young Lady Yūgao appearing as a flower and reminiscing on her romantic encounter with Prince Genji."
 ---

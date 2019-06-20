@@ -23,7 +23,7 @@
         ["Body", "Stamp Series"],
         ["Body", "Switch Knee"],
         ["Head"],
-        ["Imitative", "Other Mimetic"],
+        ["Imitative", "Bowing"],
         ["Imitative", "Praying"],
         ["Imitative", "Weeping"]
       ]
@@ -42,12 +42,12 @@
     },
     {
       "slug": "forward",
-      "name": "Forward",
+      "name": "Walking Forward",
       "pills": [["Foot Motion", "Walking"]]
     },
     {
       "slug": "backward",
-      "name": "Backward",
+      "name": "Walking Backward",
       "pills": [["Foot Motion", "Walking"]]
     },
     {
@@ -62,12 +62,12 @@
     },
     {
       "slug": "large-circling-l",
-      "name": "Large Circling L",
+      "name": "Large Circling to the Left",
       "pills": [["Foot Motion", "Circling"]]
     },
     {
       "slug": "large-circling-r",
-      "name": "Large Circling R",
+      "name": "Large Circling to the Right",
       "pills": [["Foot Motion", "Circling"]]
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "slug": "single-stamp",
-      "name": "Single Stamp",
+      "name": "Single Foot Stamp",
       "pills": [["Foot Motion", "Stamps"]]
     },
     {
@@ -107,32 +107,32 @@
     },
     {
       "slug": "opening",
-      "name": "Opening",
+      "name": "Fan Opening",
       "pills": [["Arm with Fan"]]
     },
     {
       "slug": "closing",
-      "name": "Closing",
+      "name": "Fan Closing",
       "pills": [["Arm with Fan"]]
     },
     {
       "slug": "move-to-lh",
-      "name": "Move to LH",
+      "name": "Fan Moving to the Left Hand",
       "pills": [["Arm with Fan"]]
     },
     {
       "slug": "renesting-from-lh",
-      "name": "Renesting from LH",
+      "name": "Fan Renesting to the Right Hand",
       "pills": [["Arm with Fan"]]
     },
     {
       "slug": "reverse-hold",
-      "name": "Reverse Hold",
+      "name": "Fan Reverse Hold",
       "pills": [["Arm with Fan"]]
     },
     {
       "slug": "renesting-to-standard",
-      "name": "Renesting to Standard",
+      "name": "Fan Renesting to Standard Hold",
       "pills": [["Arm with Fan"]]
     },
     {
@@ -142,17 +142,12 @@
     },
     {
       "slug": "backing-point-closed",
-      "name": "Backing Point Closed",
+      "name": "Backing Point with Closed Fan",
       "pills": [["Combinations", "Pointing"]]
     },
     {
       "slug": "backing-point-open",
-      "name": "Backing Point Open",
-      "pills": [["Combinations", "Pointing"]]
-    },
-    {
-      "slug": "body-turn",
-      "name": "Body Turn",
+      "name": "Backing Point with Open Fan",
       "pills": [["Combinations", "Pointing"]]
     },
     {
@@ -197,22 +192,22 @@
     },
     {
       "slug": "corner-extended",
-      "name": "Corner Extended",
+      "name": "Take the Corner with Extended Fan",
       "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "open-retreat",
-      "name": "Open retreat",
+      "name": "Open Retreat",
       "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "pivot-to-point",
-      "name": "Pivot to Point",
+      "name": "Right Pivot to Forward Point",
       "pills": [["Combinations", "Other Comb."]]
     },
     {
       "slug": "pivot-to-stepping",
-      "name": "Pivot to Stepping",
+      "name": "Right Pivot to Stepping Forward",
       "pills": [["Combinations", "Other Comb."]]
     },
     {
@@ -242,12 +237,12 @@
     },
     {
       "slug": "beckon-fan-one-hand",
-      "name": "Beckon Fan One Hand",
+      "name": "Beckon Fan with One Hand",
       "pills": [["Fan"]]
     },
     {
       "slug": "beckon-fan-two-hands",
-      "name": "Beckon Fan Two Hands",
+      "name": "Beckon Fan with Two Hands",
       "pills": [["Fan"]]
     },
     {
@@ -267,7 +262,7 @@
     },
     {
       "slug": "leap-turn",
-      "name": "Leap Turn",
+      "name": "Leap Turn Right and Left",
       "pills": [["Body", "Other Body"]]
     },
     {
@@ -277,27 +272,27 @@
     },
     {
       "slug": "six-stamps-circling",
-      "name": "Six Stamps Circling",
+      "name": "Six Stamps with Circling",
       "pills": [["Body", "Stamp Series"]]
     },
     {
       "slug": "six-and-seven",
-      "name": "Six and Seven",
+      "name": "Six and Seven Stamps",
       "pills": [["Body", "Stamp Series"]]
     },
     {
       "slug": "single",
-      "name": "Single",
+      "name": "Single Switch",
       "pills": [["Body", "Switch Knee"]]
     },
     {
       "slug": "multiple",
-      "name": "Multiple",
+      "name": "Multiple Kneeling",
       "pills": [["Body", "Switch Knee"]]
     },
     {
       "slug": "turn",
-      "name": "Turn",
+      "name": "Left and Right Turns",
       "pills": [["Head"]]
     },
     {
@@ -313,7 +308,7 @@
     {
       "slug": "bowing",
       "name": "Bowing",
-      "pills": [["Imitative", "Other Mimetic"]]
+      "pills": [["Imitative", "Bowing"]]
     },
     {
       "slug": "standing-p",
@@ -327,17 +322,17 @@
     },
     {
       "slug": "l-hand",
-      "name": "L Hand",
+      "name": "Weeping with Left Hand",
       "pills": [["Imitative", "Weeping"]]
     },
     {
       "slug": "r-hand",
-      "name": "R Hand",
+      "name": "Weeping with Right Hand",
       "pills": [["Imitative", "Weeping"]]
     },
     {
       "slug": "both-hands",
-      "name": "Both Hands",
+      "name": "Weeping with Both Hands",
       "pills": [["Imitative", "Weeping"]]
     }
   ]

@@ -1,6 +1,6 @@
 ---
 layout: play
 title: Kokaji
-image: https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg
-description: "Description of Kokaji"
+image: /assets/images/Kokaji1.jpg
+description: "Representing the fifth category of Final or Demon plays (鬼物), Kokaji shows off two male characters, the swordsmith Munechika and a powerful deity from the Inari Shrine as they work together to produce a mighty blade for the Emperor."
 ---

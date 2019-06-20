@@ -9,8 +9,8 @@ permalink: /libretti/
 
 <main class="page-content">
   <div class="text-container">
-    <h2>Libretti</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+    <h2>Text</h2>
+    <p>In preparation.
+    This section will be contributed by Tom Hare</p>
   </div>
 </main>
-

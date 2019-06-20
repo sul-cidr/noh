@@ -1,8 +1,8 @@
 ---
 layout: website
-name: shidai-chant 
-filter-act: 
-filter-type: 
+name: shidai-chant
+filter-act:
+filter-type:
 second-level-menu-active: catalog-shodan
 ---
 
@@ -10,7 +10,31 @@ second-level-menu-active: catalog-shodan
 
 <main class="page-content">
   <div class="text-container">
-    <h2>shidai-chant</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+
+    <h4><a href="/catalog-of-shodan#catalog">Catalog of Shōdan:</a> Introduction Chants</h4>
+
+    <h2>Shidai-chant</h2>
+
+  <div class="introductory-table">
+    <div class="introductory-table__element">
+      <div class="introductory-table__term">Voice</div>
+      <div class="introductory-table__definition">Congruent</div>
+    </div>
+    <div class="introductory-table__element">
+      <div class="introductory-table__term">Percussion</div>
+      <div class="introductory-table__definition">Strict</div>
+    </div>
   </div>
+
+  <p>The introduction <em>shidai-chant</em> is usually but not exclusively sung by the waki. It is often followed by <a href="/catalog-of-shodan/nanori" target="_blank"><em>nanori</em></a>. It is usually preceded by an entrance music also called <em>shidai</em>, so we refer to it as <a href="/catalog-of-shodan/shidai-music" target="_blank"><em>shidai-music</em></a> to avoid confusion.  In contrast with the congruent <em>shidai-chant</em>, the <em>shidai-music</em> is non-congruent.</p>
+
+  <p>Its text is composed of three lines, the second one being a repetition of the first. The syllable pattern is 7-5, 7-5, 7-4, rarely, 7-5, 7-5, 7-5. The first two lines are sung on high pitch, the third start on the medium and concludes on the low pitch.</p>
+
+  <p>There is no <em>shidai</em> in the two plays featured on this website, thus we present a concert version of Atsumori’s <em>shidai</em>. Sung by the shite, it is followed by a <em>jitori</em> performed by the jiutai. When included, a <em>jitori</em> concludes the <em>shidai</em>, repeating its second and third lines on a very low and quiet tone in a non-congruent fashion.</p>
+
+    {% include video-no-background.html
+      src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Atsumori-Shidai_Chant_Score_sl.mp4"
+    %}
+
+</div>
 </main>

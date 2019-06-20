@@ -6,8 +6,8 @@ permalink: /plays/
 ---
 <main class="page-content">
   <div class="text-container">
-    <h2>List of plays</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+    <h2>Plays</h2>
+    <p>Out of the nearly 250 regularly performed plays we have chosen two that through their contrast reveal a wide formal and expressive range of Noh. </p>
   </div>
 
   <div class="list-plays">
@@ -24,4 +24,5 @@ permalink: /plays/
       {% endfor %}
     </div>
   </div>
+
 </main>

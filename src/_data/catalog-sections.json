@@ -147,6 +147,11 @@
       "pills": [["Entrance and exit music"], ["Nochi ba", "Waki waits"]]
     },
     {
+      "slug": "oshirabe",
+      "name": "Oshirabe",
+      "pills": []
+    },
+    {
       "slug": "raijo",
       "name": "Raijo",
       "pills": [["Entrance and exit music"]]
@@ -198,11 +203,6 @@
         ["Mae ba", "Shite enters"],
         ["Mae ba", "Shite performs"]
       ]
-    },
-    {
-      "slug": "tsukizerifu",
-      "name": "Tsukizerifu",
-      "pills": [["Spoken"], ["Mae ba", "Waki enters"]]
     },
     {
       "slug": "waka",

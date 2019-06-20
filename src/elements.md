@@ -6,41 +6,41 @@ permalink: /elements/
 ---
 <main class="page-content">
   <div class="text-container">
-    <h2>List of plays</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+    <h2>Elements of Noh</h2>
+    <p>To better appreciate the intermedia dimensions of Noh it is helpful to know about the unique expressive possibilities of its individual media and the standard vocabulary of formal sections (shōdan). In addition to the relevant chapters developed for this website, which are mainly focused on elements found in the two analyzed plays, the reader can refer to the affiliated <a href="https://jparc.online/nogaku/"> website 'Nōgaku' </a> at the Japanese Performing Arts Research Consortium <a href="https://jparc.online/"> (JPARC)</a> where a wider context is provided.</p>
   </div>
 
   <div class="list-plays">
     <div class="cards-container cards-container--not-centered">
       {% include card.html
           link="/music/"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
+          image="/assets/images/hayashi.jpg"
           title="Music"
-          description="Defines the notion in general and how it can be applied to the analysis of Noh."
+          description="Includes information about vocal styles, instrumental sounds, rhythmic organization and a catalog of nohkan patterns."
       %}
       {% include card.html
           link="/movement/"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
+          image="/assets/images/Hashitomi-2shite-profile-close.jpg"
           title="Movement"
-          description="Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings."
+          description="Provides an interactive video catalog of movement vocabulary and analyzes shimai dances from Hashitomi and Kokaji."
       %}
       {% include card.html
           link="/libretti/"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-          title="Libretti"
-          description="Contributes a bottom-up perspective with information about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays."
+          image="/assets/images/utaibon.png"
+          title="Text"
+          description="Introduces the texts of Hashitomi and Kokaji, and presents their libretti in Romaji transliteration and English translation."
       %}
       {% include card.html
           link="/staging/"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
+          image="/assets/images/Kokaji1.jpg"
           title="Staging"
-          description="Offers a top-down analytical view of two plays with links to information about its constituent elements and inner workings."
+          description="Discusses the use of the Noh stage, masks, costumes and properties."
       %}
       {% include card.html
           link="/catalog-of-shodan/"
-          image="https://i.pinimg.com/originals/11/dd/dd/11dddd3819c2dea16a4074d375a1c58b.jpg"
-          title="Catalog of shōdan"
-          description="Contributes a bottom-up perspective with information about the fundamentals of music, dance, staging and formal organization that is especially relevant to the two analyzed plays."
+          image="/assets/images/voices-big.jpg"
+          title="Catalog of Shōdan"
+          description="An interactive video catalog of shōdan – basic formal units of Noh."
       %}
     </div>
   </div>

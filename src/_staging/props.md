@@ -1,0 +1,77 @@
+---
+layout: website
+menu-active: elements
+second-level-menu-active: staging
+third-level-menu-active: props
+---
+
+{% include second-menu-elements.html %}
+{% include menu-staging-small.html %}
+
+<main class="page-content">
+<div class="wrapper sidebar-contents">
+  <aside class="sidebar-contents__table">
+    {% include menu-props.html %}
+  </aside>
+  <section class="sidebar-contents__section">
+  <div class="text-container">
+    <h2 id="Props">Properties</h2>
+    <p><em>By Monica Bethe</em></p>
+    <h3 id="Intro">Introduction</h3>
+    <p> The bare nō stage with a permanent backdrop of a pine-painting and pines along the bridge way serves as the basic environment for all nō performances. The enacted scene lives in the imagination evoked by text, music, and movement. For some plays, however, imagery is made concrete through physical objects. The minimal structures suggestive of huts, tombs, carts, wells, trees, and bells, enhance the visual impact, focus the action, and serve as synecdoches interfacing with the poetic imagery. Handheld objects like pails, hammers, flowers, or swords add an element of reality.</p>
+    <h3 id="Hashitomi">Hashitomi</h3>
+    <p>
+    The large property used in Hashitomi represents her delapidated <strong>dwelling</strong>. The rectangular cube has a thatched roof on top. It is constructed out of a square base made of bent bamboo with bamboo poles at the corners that are held in place with a bamboo frame at the top. Unique to Hashitomi is the half-size bamboo lattice shutter that can be raised and lowered using long poles attached to the bottom corners. A green vine with small dangling silver and gold gourds winds through the lattice on the shutter and along the structural poles. The vine represents the the yūgao ('evening face') plant and serves as a counterpoint to the flower imagery that runs through the text.</p>
+    <p>While today shite actors assemble the large properties like the dwelling for Hashitomi before each performance, during the Edo period specialists known as 'property makers (<em>tsukurimono shi</em>) were connected to the acting troupes. The illustrated notes they kept specify the construction of the props. The Komparu-school notes shown below (<em>Okura ryū tsukurimono hiroku</em>; Okura Secret Notes on Properties) are particularly detailed.</p>
+{% include image-no-background.html src="/assets/images/Okura-dwelling.png" %}
+    <h7>Dwelling property for Hashitomi. Ōkura ryū tsukurimono hiroku (Ōkura School Secret Records on Stage Properties) by Yamamura Kyūzaemon. Noh Theater Research Institute of Hōsei University. Available at    <a href="http://www.dh-jac.net/db1/books/results1024.php?f1=nohken-y17-29&f12=1&enter=jparc&skip=17&-max=1&enter=jparc">JPARC</a>
+      or  <a href="https://nohken.ws.hosei.ac.jp/nohken_material/htmls/index/pages/y17/29.html">Hōsei University.</a>
+</h7>
+<p></p>
+
+    <p>In Hashitomi, the property is brought out after the kyōgen interlude and establishes the shift of scene from Unrin’in to Gojo. When it is carried onto the stage, it appears as a curtained thatch-roofed hut. The attendants carrying the prop must coordinate their movements with each other and also with the shite walking inside, invisible and imperceptible. </p>
+{% include image-no-background.html src="/assets/images/carrying-dwelling.png" %}
+    <p>Yūgao’s dwelling can be placed in several areas – on the bridge, at right stage center (<em>waki sho</em>, square 2), or, as in this production and as is standard for most huts, in upstage center (<em>daishō mae</em>, square 8). The attendants center the prop, secure the curtain hem at the bottom and leave before the waki begins to sing.</p>
+
+    <p>The waki, arriving at Gojo, finds the dwell 'as of old' with the evening-face gourds empty and the place overgrown with weeds. We do not see them yet, but the tiny silver gourds hanging from vines twisted about the skeletal framework of the dwelling create an ambiant glitter and are a distinguishing feature of the property. </p>
+
+    <p>The waki facing diagonally back towards the dwelling focuses all the attention on it during the <em>issei</em> entrance music. The nochijite’s opening song eminates from behind the curtain. During the Ageuta 2, two stage attendants in coordinated motions release and then lower the curtain to reveal a bamboo framework with a half-length lattice shutter that half obscures the upper figure of Yūgao’s ghost.</p>
+
+{% include image-no-background.html src="/assets/images/uncovering-dwelling.png" %}
+
+    <p>The upward-lifting shutter is typical of Heian-period architecture (<em>shinden-zukuri</em>), and the screen-like effect of the lowered shutter recalls the court custom whereby ladies were separated off behind bamboo screens so their faces were hidden but the hems of their garments exposed.  </p>
+
+{% include image-no-background.html src="/assets/images/lattice.png" %}
+
+    <p>On the promise that the monk will pray for her, Yūgao’s ghost steps out of the dwelling thus transforming the stage space into the memory-world of her encounter with Genji. The action of lifting the shutter with long sticks from behind and of her leaving the prop are described concurrently in words chanted by the chorus: “The vine-covered lattice shutter pushes open/revealing her form as she steps out.” Here oral narration is mimicked in movement.</p>
+
+    <p>Similarly, in the middle of the kuse during the narration of Genji’s first encounter with Yūgao, the actions replicate the words. The shite performs the actions of Genji and his retainer Koremitsu in turn. As the chorus sings, “The flower was picked and presented” the shite goes to the property, takes hold of one of the dangling gourds towards the top, tugs at it, and then places it on the horizontally-held open fan so as to present it to Genji.  </p>
+
+{% include image-no-background.html src="/assets/images/dwelling-in-back.png" %}
+
+    <p>For the <em>jō-no-mai</em> instrumental dance that follows, the prop serves as a backdrop, somewhat reducing the performance space, but in the final scene, as the chorus narrates Yūgao’s actions of entering the dwelling and receding behind the lattice shutter. The shite steps into the prop, turns full circle within it, and sinks down to the words 'becoming one with the dream,' face obscured by the fan.</p>
+
+{% include image-no-background.html src="/assets/images/disappear-in-dwelling.png" %}
+
+    <h3 id="Kokaji">Kokaji</h3>
+    <p>The property used in Kokaji is a platform representing the sword smithery. Brought out after the interlude before the second act, it is placed downstage center (<em>shōsaki</em>, square 4). The platform defines a space within a larger space, a room within a building, a stage within the stage. </p>
+
+    <p>The single platform has a black and gold checkerboard cloth cover with red center and a sacred fencing around three sides. Corner posts stand at the front corners and along the two sides. Hanging folded paper streamers hang from a rope spanning post to post, indicating a Shinto method of demarkating sacred space. The corner posts may also hold large purification streamers (<em>hei</em>).</p>
+
+    <p>Several hand props rest on the platform: (1) a Shintō purification rod <em>gohei</em>) with folded paper streamers, which the waki will use to purify the smithery in preparation for making the sword; (2) an anvil (<em>kanatoko</em>), (3) a hammer (<em>tsuchi</em>), and (4) the body of an unforged sword (<em>katanami</em>). The shite carries his own hammer.</p>
+{% include image-no-background.html src="/assets/images/Kokaji-platform.png" %}
+    <h7>The platform for Kokaji with the handprops laid on it and specifications for making them. Ōkura ryū tsukurimono hiroku (Ōkura School Secret Records on Stage Properties) by Yamamura Kyūzaemon. Noh Theater Research Institute of Hōsei University. Available at <a href="http://www.dh-jac.net/db1/books/results1024.php?f1=nohken-y17-29&f12=1&enter=jparc&max=1&skip=34&enter=jparc#">JPARC</a>
+      or  <a href="https://nohken.ws.hosei.ac.jp/nohken_material/htmls/index/pages/y17/29.html">Hōsei University.</a>
+</h7>
+<p></p>
+    <p>To forge the new sword, the shite and waki mount the platform, take up their hammers, place the sword on the anvil and hammer while the chorus describes their actions. </p>
+{% include image-no-background.html src="/assets/images/Kokaji-spade.png" %}
+{% include image-no-background.html src="/assets/images/Kokaji-wand.png" %}
+
+{% include image-no-background.html src="/assets/images/Kokaji-on-platform.png" %}
+
+</div>
+</section>
+</div>
+
+</main>
