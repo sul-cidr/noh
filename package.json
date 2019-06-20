@@ -37,7 +37,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": ">=0.18.1",
     "axios-mock-adapter": "^1.10.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2017": "^6.24.1",
