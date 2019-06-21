@@ -72,6 +72,7 @@ exclude: [vendor]
 keep_files:  # all these files are built and/or copied to the _site/ folder by webpack
   - assets/play.bundle.js
   - assets/section.bundle.js
+  - data
 
 plugins:
   - jekyll-autoprefixer

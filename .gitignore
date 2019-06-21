@@ -5,6 +5,7 @@ node_modules
 vendor/bundle
 .bundle/config
 
-src/data
+data/
+src/_data/
 
 coverage/
