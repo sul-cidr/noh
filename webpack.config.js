@@ -6,8 +6,8 @@ module.exports = {
     section: "./webpack/section.jsx"
   },
   output: {
-    path: path.resolve(__dirname, "src/assets/"),
-    filename: "[name].bundle.js"
+    path: path.resolve(__dirname, "_site/"),
+    filename: "assets/[name].bundle.js"
   },
   resolve: {
     extensions: [".js", ".jsx"]
