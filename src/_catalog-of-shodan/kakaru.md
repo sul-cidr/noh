@@ -26,11 +26,20 @@ second-level-menu-active: catalog-shodan
       </div>
       </div>
 
-  <p>A <em>kakaru</em> chant switches mode of delivery from prose to smooth singing in recitative style, where the text corresponding to the switching point is often emphasized.</p>
+    <p>
+    A <em>kakaru</em> chant switches mode of delivery from prose to smooth singing in recitative style, where the text corresponding to the switching point is often emphasized.</p>
 
-  <p>Although it does not have a predictable formal position, the <em>kakaru</em> often leads to congruent chant, such as an <em>ageuta</em>. Between the two plays there are three <em>kakaru</em>, all three are in Hashitomi. They also share a common function, they are all the last <em>shōdan</em> of their respective part: Waki enters, Dialogue in the First act, and Waki waits in the Second one.</p>
+    <p>
+    Typically, the <em>kakaru</em> follows a dialogue such as a <em>mondō</em> or <em>kakeai</em>, leading to a congruent song such as an <em>ageuta</em>. In other words, it plays the important function of concluding a verbal exchange between two characters, thus it is often sung antiphonally, serving as a bridge between <em>kotoba</em> and congruent singing. The congruent chant is often sung by the jiutai, uniting the voices of the two interacting characters.</p>
 
-  <p>Delivery in <a href="/music/voices#Spoken" target="_blank"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand,the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
+    <p>
+    <em>Kakaru</em> is a verb that means to start or to get into something.  Thus, one could argue that it could be understood to mean: getting ready to move on to congruent singing. Often accompanied by the two drums in flexible mode, it never includes a nohkan part. Hashitomi’s second <em>kakaru</em> is an example of a typical one. </p>
+
+    <p>
+    There are three <em>kakaru</em> in Hashitomi, and they all share a common function, they are the last <em>shōdan</em> of their respective part: Waki enters, Dialogue in the First act, and Waki waits in the Second act.</p>
+
+    <p>Delivery in <a href="/music/voices#Spoken" target="_blank"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand, the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
+
 
   <div class="tabs-container">
     <div class="tabs-container__links">
