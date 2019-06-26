@@ -301,7 +301,7 @@ export const main = (configPath, quiet) => {
           map[play.playName] = play;
           map[play.playName].sections = [];
           map[play.playName].captions = [];
-          map[play.playName].narrative = `/narratives/${play.playName}`;
+          map[play.playName].narrative = `/narratives/${play.playName}/`;
         }
         map[play.playName].captions.push(...section.captions);
         delete section.captions;
