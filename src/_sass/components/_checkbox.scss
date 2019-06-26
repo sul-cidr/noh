@@ -37,6 +37,8 @@
     }
 
     &::after {
+      @include text(xxs);
+
       align-items: center;
       display: flex;
       font-family: $font-icon;
@@ -44,8 +46,6 @@
       font-weight: normal;
       justify-content: center;
       top: 0.0625rem;
-
-      @include text(xxs);
     }
 
     .custom-checkbox__text {
