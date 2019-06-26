@@ -1,6 +1,13 @@
 import fs from "fs";
+import mkdirp from "mkdirp";
 import path from "path";
 import { downloadCSV, parserConfig, logError } from "./parser";
+
+// catalog data is used at (Jekyll) build time to create (thenceforth) static
+//  catalog pages, so we'll write the necessary data into the Jeykll source
+//  folder:
+const dataFolder = path.join("src", "_data");
+mkdirp.sync(dataFolder);
 
 export const main = configPath => {
   if (!configPath) {
@@ -54,7 +61,7 @@ export const main = configPath => {
         })
         .then(catalogToWrite =>
           fs.writeFileSync(
-            path.join("src", "_data", `catalog-${key}.json`),
+            path.join(dataFolder, `catalog-${key}.json`),
             JSON.stringify(catalogToWrite, null, 2)
           )
         );

@@ -2,10 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules
+vendor/bundle
+.bundle/config
 
-src/data
-
-src/assets/bundle.js
-src/assets/*.bundle.js
+data/
+src/_data/
 
 coverage/
