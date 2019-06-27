@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime, setScoreToggles } from "../actionCreators";
-import TimelineIndicator from "./TimelineIndicator";
+import TimelineScrubber from "./TimelineScrubber";
 import { convertSecondsToHhmmss } from "../utils";
 
 const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
@@ -113,7 +113,7 @@ class ScoreControls extends Component {
         <div className="score-controls__time">
           <div className="score-controls__elapsed-time">{elapsedTime}</div>
           <div className="video-progress">
-            <TimelineIndicator
+            <TimelineScrubber
               startTime={this.props.startTime}
               duration={this.props.duration}
             />
