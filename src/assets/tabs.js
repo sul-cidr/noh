@@ -20,6 +20,7 @@ function attachTabs() {
       var li = document.createElement("li");
       li.classList.add(tabClass);
       li.setAttribute("role", "tab");
+      li.setAttribute("aria-controls", section.id);
       // Activate the first tab by default
       if (idx == 0) {
         section.style.display = "block";
@@ -29,7 +30,6 @@ function attachTabs() {
         section.style.display = "none";
         li.setAttribute("aria-selected", "false");
       }
-      li.setAttribute("aria-controls", "tabs-" + (idx + 1));
       li.appendChild(document.createTextNode(section.title));
       li.addEventListener("click", function() {
         activateTab(null, section.id);
