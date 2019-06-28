@@ -1,7 +1,7 @@
 var tabClass = "react-tabs__tab";
 
 function attachTabs() {
-  /* This function is run after the page loads. It iterates 
+  /* This function is run after the page loads. It iterates
    * through the "dehydrated" tab containers on the page and
    * "hydrates" their tab link bar and contents sections, selecting
    * the first tab by default.
@@ -14,7 +14,7 @@ function attachTabs() {
   var containers = document.querySelectorAll("div.tabs-container");
   containers.forEach(function(container) {
     var ul = document.createElement("ul");
-    ul.classList.add(`${tabClass}-list`);
+    ul.classList.add(tabClass + "-list");
     var sections = container.querySelectorAll("section");
     sections.forEach(function(section, idx) {
       var li = document.createElement("li");
@@ -24,7 +24,7 @@ function attachTabs() {
       // Activate the first tab by default
       if (idx == 0) {
         section.style.display = "block";
-        li.classList.add(`${tabClass}--selected`);
+        li.classList.add(tabClass + "--selected");
         li.setAttribute("aria-selected", "true");
       } else {
         section.style.display = "none";
@@ -42,7 +42,7 @@ function attachTabs() {
   if (window.location.hash) activateTab();
 }
 
-function activateTab(hashEvent, tabID = null) {
+function activateTab(hashEvent, tabID) {
   /* This function is called when a tab link is clicked in any of
    * the tab containers on the page, and also when the window's hash
    * fragment changes. It activates the tab IDed in the parameter or the URL
@@ -52,7 +52,7 @@ function activateTab(hashEvent, tabID = null) {
    * otherwise will cause the browser to scroll too far.
    */
 
-  if (tabID == null && window.location.hash)
+  if (tabID === "undefined" && window.location.hash)
     tabID = window.location.hash.slice(1);
 
   var containers = document.querySelectorAll("div.tabs-container");
@@ -67,14 +67,14 @@ function activateTab(hashEvent, tabID = null) {
     if (matchedSectionIndex < 0) return;
 
     var ul = container.querySelector("ul");
-    var lis = ul.querySelectorAll(`li.${tabClass}`);
+    var lis = ul.querySelectorAll("li." + tabClass);
     // Deactivate/activate the tabs and content panes
     lis.forEach(function(li_, liIndex) {
       if (liIndex != matchedSectionIndex) {
-        li_.classList.remove(`${tabClass}--selected`);
+        li_.classList.remove(tabClass + "--selected");
         li_.setAttribute("aria-selected", "false");
       } else {
-        li_.classList.add(`${tabClass}--selected`);
+        li_.classList.add(tabClass + "--selected");
         li_.setAttribute("aria-selected", "true");
       }
     });
