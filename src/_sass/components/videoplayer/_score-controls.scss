@@ -7,6 +7,7 @@ $score-checkbox-height: 1.5rem;
   padding: 0 0.625rem;
   width: 100%;
   @include flex-container();
+  user-select: none;
 }
 
 .sentence-control {
