@@ -45,11 +45,11 @@ function attachTabs() {
 function activateTab(hashEvent, tabID = null) {
   /* This function is called when a tab link is clicked in any of
    * the tab containers on the page, and also when the window's hash
-   * fragment changes. It activates the specified tab and, if invoked
-   * due to a hash fragment change, scrolls the view to the top of
-   * the relevant tab container. The scrolling is ncessary because
-   * otherwise the ID placement will cause the browser to scroll to the
-   * tab's content pane, which is too low.
+   * fragment changes. It activates the tab IDed in the parameter or the URL
+   * and, if invoked due to a hash fragment change, scrolls the window to the
+   * top of the proper tab container. The manual scrolling is ncessary because
+   * the placement of the tab IDs (in the section body, rather than the link)
+   * otherwise will cause the browser to scroll too far.
    */
 
   if (tabID == null && window.location.hash)
