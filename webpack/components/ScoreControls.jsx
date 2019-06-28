@@ -5,6 +5,8 @@ import { setCurrentTime, setScoreToggles } from "../actionCreators";
 import TimelineIndicator from "./TimelineIndicator";
 import { convertSecondsToHhmmss } from "../utils";
 
+const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+
 export const determineCurrentPhrase = (currentTime, phrases) =>
   currentTime > 0
     ? phrases.length -
@@ -65,10 +67,18 @@ class ScoreControls extends Component {
     );
     const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
     const remainingTime = convertSecondsToHhmmss(
-      this.props.startTime + this.props.duration - this.props.currentTime
+      clamp(
+        this.props.startTime + this.props.duration - this.props.currentTime,
+        0,
+        this.props.duration
+      )
     ).substr(3);
     const elapsedTime = convertSecondsToHhmmss(
-      this.props.currentTime - this.props.startTime
+      clamp(
+        this.props.currentTime - this.props.startTime,
+        0,
+        this.props.duration
+      )
     ).substr(3);
     return (
       <div className="score-controls">
