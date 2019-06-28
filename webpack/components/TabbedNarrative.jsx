@@ -4,6 +4,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Markup } from "interweave";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { PassThrough } from "stream";
 
 class TabbedNarrative extends React.Component {
   constructor(props) {
@@ -18,7 +19,10 @@ class TabbedNarrative extends React.Component {
   }
 
   parseNarrative() {
-    const chunks = this.state.narrative.split(/<br\s*\/?>/);
+    const nar = document.createElement("div");
+    nar.innerHTML = this.state.narrative;
+    const sections = nar.querySelectorAll("section");
+    const chunks = Array.from(sections).map(elt => elt.outerHTML);
     return chunks;
   }
 
