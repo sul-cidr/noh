@@ -5,7 +5,7 @@ const SectionControls = props => (
   <div className="section-controls-container">
     <a href={props.prevSectionURL}>
       <button
-        className="score-controls__filters-button"
+        className="section-controls__button"
         disabled={props.prevSectionURL === ""}
       >
         Previous section
@@ -13,7 +13,7 @@ const SectionControls = props => (
     </a>
     <a href={props.nextSectionURL}>
       <button
-        className="score-controls__filters-button"
+        className="section-controls__button"
         disabled={props.nextSectionURL === ""}
       >
         Next Section
