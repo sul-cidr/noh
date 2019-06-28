@@ -140,6 +140,14 @@ export default class App extends Component {
                   totalDuration={this.props.videoDuration}
                 />
               </div>
+              <div className="section-controls-container">
+                <button className="score-controls__filters-button">
+                  Previous section
+                </button>
+                <button className="score-controls__filters-button">
+                  Next Section
+                </button>
+              </div>
             </div>
           </aside>
           <main>
