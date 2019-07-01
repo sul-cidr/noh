@@ -1,0 +1,15 @@
+.section-controls-container {
+  background-color: $green;
+  padding: 0.25rem;
+  height: 2.5rem;
+  @include flex-container($justify:center);
+
+  button {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  button:disabled {
+    background-color: $brown40;
+  }
+}
