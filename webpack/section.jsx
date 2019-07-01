@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
+import throttle from "lodash.throttle";
 
 import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
@@ -13,6 +14,13 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import store from "./store";
 import contents from "./contents";
+import { saveState } from "./localStorage";
+
+store.subscribe(
+  throttle(() => {
+    saveState({ toggles: store.getState().toggles });
+  }, 2000)
+);
 
 export default class App extends Component {
   constructor(props) {

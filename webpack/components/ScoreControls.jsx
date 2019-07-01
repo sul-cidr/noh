@@ -287,7 +287,14 @@ ScoreControls.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime.time
+  currentTime: state.currentTime.time,
+  isBeatOn: state.toggles.isBeatOn,
+  isTextOn: state.toggles.isTextOn,
+  isPercussionOn: state.toggles.isPercussionOn,
+  isNohkanOn: state.toggles.isNohkanOn,
+  isDanceOn: state.toggles.isDanceOn,
+  isPrevSentenceOn: state.toggles.isPrevSentenceOn,
+  isNextSentenceOn: state.toggles.isNextSentenceOn
 });
 
 const mapDispatchToProps = dispatch => ({
