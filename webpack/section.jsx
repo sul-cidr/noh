@@ -27,10 +27,15 @@ export default class App extends Component {
     const sectionIndex = this.props.sections.findIndex(
       section => section.sectionName.value === this.props.sectionName.value
     );
-    const prevSectionIndex = sectionIndex - 1;
-    const nextSectionIndex = sectionIndex + 1;
-    const prevSectionURL = this.props.sections[prevSectionIndex].sectionUrl;
-    const nextSectionURL = this.props.sections[nextSectionIndex].sectionUrl;
+    let prevSectionURL = "";
+    let nextSectionURL = "";
+    if (sectionIndex !== 0) {
+      prevSectionURL = this.props.sections[sectionIndex - 1].sectionUrl;
+    }
+    if (sectionIndex !== this.props.sections.length - 1) {
+      nextSectionURL = this.props.sections[sectionIndex + 1].sectionUrl;
+    }
+
     return [prevSectionURL, nextSectionURL];
   }
 
