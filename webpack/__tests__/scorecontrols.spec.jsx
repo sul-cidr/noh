@@ -2,6 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import { shallow, mount } from "enzyme";
 import configureMockStore from "redux-mock-store";
+import { DEFAULT_STATE } from "../reducers";
 import ScoreControls, {
   Unwrapped as UnwrappedScoreControls
 } from "../components/ScoreControls";
@@ -13,8 +14,7 @@ describe("<ScoreControls>", () => {
 
   beforeEach(() => {
     const mockStore = configureMockStore();
-    const initialState = { currentTime: { time: 0, origin: "ScoreControls" } };
-    store = mockStore(initialState);
+    store = mockStore(DEFAULT_STATE);
     wrapper = mount(
       <Provider store={store}>
         <ScoreControls
