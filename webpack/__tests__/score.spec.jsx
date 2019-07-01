@@ -5,7 +5,7 @@ import { Unwrapped as UnwrappedScore } from "../components/Score";
 import { determineCurrentPhrase } from "../utils";
 
 describe("<UnwrappedScore>", () => {
-  const allToggles = {
+  const allTogglesOn = {
     isBeatOn: true,
     isTextOn: true,
     isPercussionOn: true,
@@ -15,12 +15,44 @@ describe("<UnwrappedScore>", () => {
     isNextSentenceOn: true
   };
 
+  const allTogglesOff = {
+    isBeatOn: false,
+    isTextOn: false,
+    isPercussionOn: false,
+    isNohkanOn: false,
+    isDanceOn: false,
+    isPrevSentenceOn: false,
+    isNextSentenceOn: false
+  };
+
   it("renders as expected", () => {
     const component = shallow(
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1193}
-        toggles={allToggles}
+        toggles={allTogglesOn}
+      />
+    );
+    expect(component).toMatchSnapshot();
+  });
+
+  it("renders as expected with all filters off", () => {
+    const component = shallow(
+      <UnwrappedScore
+        phrases={phrases.phrases}
+        currentTime={1193}
+        toggles={allTogglesOff}
+      />
+    );
+    expect(component).toMatchSnapshot();
+  });
+
+  it("renders as expected", () => {
+    const component = shallow(
+      <UnwrappedScore
+        phrases={phrases.phrases}
+        currentTime={1193}
+        toggles={allTogglesOn}
       />
     );
     expect(component).toMatchSnapshot();
@@ -44,7 +76,7 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={fixturesPhrases}
         currentTime={1193}
-        toggles={allToggles}
+        toggles={allTogglesOn}
       />
     );
     expect(component).toMatchSnapshot();
@@ -55,7 +87,7 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1193}
-        toggles={allToggles}
+        toggles={allTogglesOn}
       />
     );
     const calculatedPhraseIndex = determineCurrentPhrase(
@@ -67,7 +99,7 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1216}
-        toggles={allToggles}
+        toggles={allTogglesOn}
       />
     );
     const calculatedPhraseIndex2 = determineCurrentPhrase(
@@ -79,7 +111,7 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={0}
-        toggles={allToggles}
+        toggles={allTogglesOn}
       />
     );
     const calculatedPhraseIndex3 = determineCurrentPhrase(
@@ -94,7 +126,7 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1213}
-        toggles={allToggles}
+        toggles={allTogglesOn}
       />
     );
     component.instance().componentWillReceiveProps(component.instance().props);
@@ -108,7 +140,7 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1213}
-        toggles={allToggles}
+        toggles={allTogglesOn}
       />
     );
     component.state().currentPhrase = null;
