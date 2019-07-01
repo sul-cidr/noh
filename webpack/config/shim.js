@@ -4,3 +4,5 @@
 global.requestAnimationFrame = callback => {
   setTimeout(callback, 0);
 };
+
+jest.mock("lodash.debounce", () => jest.fn(fn => fn));
