@@ -1,4 +1,9 @@
-import reducers from "../reducers";
+import reducers, { DEFAULT_STATE } from "../reducers";
+
+test("it sets default state correctly", () => {
+  const state = reducers(undefined, { type: null, payload: null });
+  expect(state).toEqual(DEFAULT_STATE);
+});
 
 test("it sets currentTime correctly", () => {
   const state = reducers(
