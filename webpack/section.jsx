@@ -8,6 +8,7 @@ import Narrative from "./components/Narrative";
 import HighlightedTextContainer from "./components/HighlightedTextContainer";
 import Score from "./components/Score";
 import ScoreControls from "./components/ScoreControls";
+import SectionControls from "./components/SectionControls";
 import ShodanTimeline from "./components/ShodanTimeline";
 
 import store from "./store";
@@ -22,6 +23,22 @@ export default class App extends Component {
     };
   }
 
+  getSectionURLS() {
+    const sectionIndex = this.props.sections.findIndex(
+      section => section.sectionName.value === this.props.sectionName.value
+    );
+    let prevSectionURL = "";
+    let nextSectionURL = "";
+    if (sectionIndex !== 0) {
+      prevSectionURL = this.props.sections[sectionIndex - 1].sectionUrl;
+    }
+    if (sectionIndex !== this.props.sections.length - 1) {
+      nextSectionURL = this.props.sections[sectionIndex + 1].sectionUrl;
+    }
+
+    return [prevSectionURL, nextSectionURL];
+  }
+
   handleToggle(event, toggleName) {
     if (event.target.tagName === "H3") {
       this.setState(prevState => ({
@@ -31,6 +48,8 @@ export default class App extends Component {
   }
 
   render() {
+    const prevSectionURL = this.getSectionURLS()[0];
+    const nextSectionURL = this.getSectionURLS()[1];
     const score =
       this.props.phrases && this.props.phrases.length > 0 ? (
         [
@@ -140,6 +159,10 @@ export default class App extends Component {
                   totalDuration={this.props.videoDuration}
                 />
               </div>
+              <SectionControls
+                prevSectionURL={prevSectionURL}
+                nextSectionURL={nextSectionURL}
+              />
             </div>
           </aside>
           <main>
@@ -175,6 +198,9 @@ App.propTypes = {
   ).isRequired,
   playName: PropTypes.string.isRequired,
   playUrl: PropTypes.string.isRequired,
+  sectionName: PropTypes.shape({
+    value: PropTypes.string
+  }).isRequired,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       sectionName: PropTypes.shape({ value: PropTypes.string }),

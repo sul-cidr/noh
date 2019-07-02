@@ -1,0 +1,29 @@
+.section-controls-container {
+  background-color: $green;
+  padding: 0.25rem;
+  height: 2.5rem;
+  @include flex-container($justify:space-between);
+
+  .section-controls__button {
+    border-radius: 0.125rem;
+    color: $green;
+    cursor: pointer;
+    font-weight: $fw-semibold;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+
+    @include text(xxs);
+    @include uppercase();
+
+    &:hover {
+      background-color: $beige-light;
+    }
+
+    &:disabled {
+      background-color: $brown40;
+      cursor: default;
+    }
+}
+
+}

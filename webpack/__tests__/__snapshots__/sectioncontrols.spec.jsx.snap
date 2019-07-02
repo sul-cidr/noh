@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionControls> renders a disabled button as expected 1`] = `
+<div
+  className="section-controls-container"
+>
+  <a
+    href=""
+  >
+    <button
+      className="section-controls__button"
+      disabled={true}
+    >
+      Previous section
+    </button>
+  </a>
+  <a
+    href="kuse"
+  >
+    <button
+      className="section-controls__button"
+      disabled={false}
+    >
+      Next Section
+    </button>
+  </a>
+</div>
+`;
+
+exports[`<SectionControls> renders as expected by default 1`] = `
+<div
+  className="section-controls-container"
+>
+  <a
+    href="kiri"
+  >
+    <button
+      className="section-controls__button"
+      disabled={false}
+    >
+      Previous section
+    </button>
+  </a>
+  <a
+    href="kuse"
+  >
+    <button
+      className="section-controls__button"
+      disabled={false}
+    >
+      Next Section
+    </button>
+  </a>
+</div>
+`;
