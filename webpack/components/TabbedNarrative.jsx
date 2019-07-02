@@ -18,7 +18,10 @@ class TabbedNarrative extends React.Component {
   }
 
   parseNarrative() {
-    const chunks = this.state.narrative.split(/<br\s*\/?>/);
+    const nar = document.createElement("div");
+    nar.innerHTML = this.state.narrative;
+    const sections = nar.querySelectorAll("section");
+    const chunks = Array.from(sections).map(elt => elt.outerHTML);
     return chunks;
   }
 

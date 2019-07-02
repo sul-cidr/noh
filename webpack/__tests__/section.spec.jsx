@@ -5,6 +5,7 @@ import configureMockStore from "redux-mock-store";
 import App from "../section";
 import fixtures from "./__fixtures__/section.json";
 import fixturesNoPhrases from "./__fixtures__/section-no-phrases.json";
+import fixturesFirstAndLast from "./__fixtures__/multiple-sections.json";
 
 describe("<Section>", () => {
   let wrapper;
@@ -78,6 +79,40 @@ describe("<Section> with no singingStyle", () => {
     const store = mockStore(initialState);
     fixtures.singingStyle = null;
     const wrapper = mount(<App store={store} {...fixtures} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("<Section> that is first in play", () => {
+  it("renders as expected", () => {
+    const initialState = {
+      currentTime: 0,
+      isPlaying: false,
+      startTime: 0,
+      currentPhraseID: "I/1"
+    };
+    const mockStore = configureMockStore();
+
+    const store = mockStore(initialState);
+    const wrapper = mount(<App store={store} {...fixturesFirstAndLast[0]} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("<Section> that is last in play", () => {
+  it("renders as expected", () => {
+    const initialState = {
+      currentTime: 3401,
+      isPlaying: false,
+      startTime: 3401,
+      currentPhraseID: "I/1"
+    };
+    const mockStore = configureMockStore();
+
+    const store = mockStore(initialState);
+    const wrapper = mount(<App store={store} {...fixturesFirstAndLast[1]} />);
 
     expect(wrapper).toMatchSnapshot();
   });

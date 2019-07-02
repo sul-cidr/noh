@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -6,14 +7,14 @@ module.exports = {
     section: "./webpack/section.jsx"
   },
   output: {
-    path: path.resolve(__dirname, "src/assets/"),
-    filename: "[name].bundle.js"
+    path: path.resolve(__dirname, "_site/"),
+    filename: "assets/[name].bundle.js"
   },
   resolve: {
     extensions: [".js", ".jsx"]
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
@@ -23,5 +24,17 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new CopyWebpackPlugin(
+      [
+        {
+          from: "data/**",
+          to: "",
+          flatten: false
+        }
+      ],
+      { copyUnmodified: true }
+    )
+  ]
 };

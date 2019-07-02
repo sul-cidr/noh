@@ -5,6 +5,11 @@ import path from "path";
 import Papa from "papaparse";
 import { convertSecondsToHhmmss } from "../utils";
 
+// this data is loaded dynamically from the React app, so we'll create it
+//  outside the Jeykll source folder, and copy it to the build folder with
+//  webpack at build time:
+const dataFolder = path.join("data");
+
 export const parserConfig = path.join("webpack", "config", "parser.json");
 
 export const regexps = {
@@ -237,8 +242,7 @@ export const main = (configPath, quiet) => {
       play.sections.forEach(section => {
         if (!quiet) console.info(`- ${section.sectionName}`);
         const sectionFilePath = path.join(
-          "src",
-          "data",
+          dataFolder,
           play.playName,
           section.sectionName
         );
@@ -267,7 +271,7 @@ export const main = (configPath, quiet) => {
                   section.sectionName
                 }.html`
               };
-              mkdirp.sync(path.join("src", "data", play.playName));
+              mkdirp.sync(path.join(dataFolder, play.playName));
               fs.writeFileSync(
                 sectionFileName,
                 JSON.stringify(sectionData, null, 2)
@@ -297,7 +301,7 @@ export const main = (configPath, quiet) => {
           map[play.playName] = play;
           map[play.playName].sections = [];
           map[play.playName].captions = [];
-          map[play.playName].narrative = `/narratives/${play.playName}`;
+          map[play.playName].narrative = `/narratives/${play.playName}/`;
         }
         map[play.playName].captions.push(...section.captions);
         delete section.captions;
@@ -310,8 +314,8 @@ export const main = (configPath, quiet) => {
       for (const playName in playSections) {
         if (!quiet) console.info(`- ${playName} (captions)`);
         const play = playSections[playName];
-        mkdirp.sync(path.join("src", "data", "captions"));
-        const trackFilePath = path.join("src", "data", "captions", playName);
+        mkdirp.sync(path.join(dataFolder, "captions"));
+        const trackFilePath = path.join(dataFolder, "captions", playName);
         play.tracks = [];
         // eslint-disable-next-line no-restricted-syntax
         for (const track of ["translation", "transcription", "combined"]) {
@@ -331,8 +335,8 @@ export const main = (configPath, quiet) => {
           )
         );
         if (!quiet) console.info(`- ${playName}`);
-        mkdirp.sync(path.join("src", "data"));
-        const playFilePath = path.join("src", "data", playName);
+        mkdirp.sync(dataFolder);
+        const playFilePath = path.join(dataFolder, playName);
         const playFileName = `${playFilePath}.json`;
         fs.writeFileSync(playFileName, JSON.stringify(play, null, 2));
       }
