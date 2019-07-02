@@ -18,7 +18,9 @@ Run `bundle install` and `yarn`
 
 `yarn lint` runs `eslint` with settings per .eslintrc.json.
 
-'yarn parse' will extract all the data from the PI's speadsheets into json files for the app to consume.
+`yarn parse` will extract the core data from the PI's speadsheets into json files for the app to consume.
+
+`yarn parse:catalog` will extract the catalog of shodan data from the PI's speadsheets into json files that are used to generate static pages for the site.
 
 The project also includes and is set up for prettier. I recommend setting up your text editor to use both eslint and prettier for consistent code formatting. However, to ensure that files that get into the repo are minimally consistently formatted, the repo is set up to run prettier on any git staged js files.
 
