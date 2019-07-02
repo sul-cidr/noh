@@ -2,7 +2,7 @@
   background-color: $green;
   padding: 0.25rem;
   height: 2.5rem;
-  @include flex-container($justify:center);
+  @include flex-container($justify:space-between);
 
   .section-controls__button {
     border-radius: 0.125rem;
@@ -22,6 +22,7 @@
 
     &:disabled {
       background-color: $brown40;
+      cursor: default;
     }
 }
 
