@@ -5,8 +5,8 @@ exports[`<MasterVideo> renders as expected 1`] = `
   currentTime={0}
   currentTimeOrigin=""
   tracks={Array []}
-  updateCurrentTime={[Function]}
-  updateIsPlaying={[Function]}
+  updateCurrentTime={null}
+  updateIsPlaying={null}
   videoUrl=""
 >
   <div>

@@ -86,8 +86,8 @@ MasterVideo.defaultProps = {
   currentTime: 0,
   currentTimeOrigin: "",
   videoUrl: "",
-  updateCurrentTime: () => {},
-  updateIsPlaying: () => {},
+  updateCurrentTime: null,
+  updateIsPlaying: null,
   tracks: []
 };
 
