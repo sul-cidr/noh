@@ -1406,7 +1406,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
       isNextSentenceOn={true}
       isNohkanOn={true}
       isPercussionOn={true}
-      isPrevSentenceOn={true}
+      isPrevSentenceOn={false}
       isTextOn={true}
       phrases={
         Array [
@@ -2587,7 +2587,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                   className="custom-checkbox"
                 >
                   <input
-                    checked={true}
+                    checked={false}
                     id="scorePrevSentence"
                     onChange={[Function]}
                     onKeyPress={null}

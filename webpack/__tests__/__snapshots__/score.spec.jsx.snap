@@ -1084,6 +1084,608 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
 </div>
 `;
 
+exports[`<UnwrappedScore> renders as expected 2`] = `
+<div
+  className="score"
+>
+  <div
+    className="measure measure--previous"
+  >
+    <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
+      next={false}
+      previous={true}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__grid-container"
+      >
+        <div
+          className="measure__channel measure__channel--5"
+        >
+          <p
+            className="measure__channel-empty"
+          >
+            No score in this sentence
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="measure measure--current"
+  >
+    <MeasureLabelContainer
+      current={true}
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
+      next={false}
+      previous={false}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__grid-container"
+      >
+        <div
+          className="measure__channel"
+          key="measure-beats"
+        >
+          <CellBeat
+            beatText=""
+            key="beatNum0"
+            length={1}
+          />
+          <CellBeat
+            beatText="1"
+            key="beatNum1"
+            length={1}
+          />
+          <CellBeat
+            beatText="2"
+            key="beatNum2"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum3"
+            length={1}
+          />
+          <CellBeat
+            beatText="3"
+            key="beatNum4"
+            length={1}
+          />
+          <CellBeat
+            beatText="4"
+            key="beatNum5"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum6"
+            length={1}
+          />
+          <CellBeat
+            beatText="5"
+            key="beatNum7"
+            length={1}
+          />
+          <CellBeat
+            beatText="6"
+            key="beatNum8"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum9"
+            length={1}
+          />
+          <CellBeat
+            beatText="7"
+            key="beatNum10"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum11"
+            length={1}
+          />
+          <CellBeat
+            beatText="8"
+            key="beatNum12"
+            length={1}
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-text"
+        >
+          <ScoreTextLine
+            length={13}
+            rangeGrid={
+              Array [
+                Object {
+                  "length": 13,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "l",
+                  "voices": Array [],
+                },
+              ]
+            }
+            textGrid={
+              Array [
+                Object {
+                  "length": 1,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "ma",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "ta",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 2,
+                  "style": "normal",
+                  "text": "wa",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "ga",
+                  "voices": Array [
+                    "shite",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "cho",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "o",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [
+                    "jiutai",
+                  ],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "so",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "ha",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "ji",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 11,
+                  "style": "normal",
+                  "text": "me",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 12,
+                  "style": "normal",
+                  "text": "(e)",
+                  "voices": Array [
+                    "shite",
+                  ],
+                },
+              ]
+            }
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-percussion"
+        >
+          <CellPercussion
+            length={13}
+            text="mitsuji"
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-nohkan"
+        >
+          <NohkanLine
+            grid={
+              Array [
+                Object {
+                  "length": 2,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-dance"
+        >
+          <DanceLine
+            grid={
+              Array [
+                Object {
+                  "length": 4,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "9. Kneeling facing front.",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="measure measure--next"
+  >
+    <MeasureLabelContainer
+      isBeatOn={true}
+      isDanceOn={true}
+      isNextSentenceOn={true}
+      isNohkanOn={true}
+      isPercussionOn={true}
+      isPrevSentenceOn={true}
+      isTextOn={true}
+      next={true}
+      previous={false}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__grid-container"
+      >
+        <div
+          className="measure__channel"
+          key="measure-beats"
+        >
+          <CellBeat
+            beatText=""
+            key="beatNum0"
+            length={1}
+          />
+          <CellBeat
+            beatText="1"
+            key="beatNum1"
+            length={1}
+          />
+          <CellBeat
+            beatText="2"
+            key="beatNum2"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum3"
+            length={1}
+          />
+          <CellBeat
+            beatText="3"
+            key="beatNum4"
+            length={1}
+          />
+          <CellBeat
+            beatText="4"
+            key="beatNum5"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum6"
+            length={1}
+          />
+          <CellBeat
+            beatText="5"
+            key="beatNum7"
+            length={1}
+          />
+          <CellBeat
+            beatText="6"
+            key="beatNum8"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum9"
+            length={1}
+          />
+          <CellBeat
+            beatText="7"
+            key="beatNum10"
+            length={1}
+          />
+          <CellBeat
+            beatText=""
+            key="beatNum11"
+            length={1}
+          />
+          <CellBeat
+            beatText="8"
+            key="beatNum12"
+            length={1}
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-text"
+        >
+          <ScoreTextLine
+            length={13}
+            rangeGrid={
+              Array [
+                Object {
+                  "length": 6,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "m",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 3,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "l",
+                  "voices": Array [],
+                },
+              ]
+            }
+            textGrid={
+              Array [
+                Object {
+                  "length": 1,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "ni",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 4,
+                  "style": "normal",
+                  "text": "n",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 5,
+                  "style": "normal",
+                  "text": "no",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "o",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 7,
+                  "style": "normal",
+                  "text": "ji",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "u",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 9,
+                  "style": "normal",
+                  "text": "ni",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 10,
+                  "style": "normal",
+                  "text": "da",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 11,
+                  "style": "normal",
+                  "text": "i",
+                  "voices": Array [],
+                },
+              ]
+            }
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-percussion"
+        >
+          <CellPercussion
+            length={13}
+            text=""
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-nohkan"
+        >
+          <NohkanLine
+            grid={
+              Array [
+                Object {
+                  "length": 2,
+                  "start": 3,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 1,
+                  "start": 8,
+                  "style": "normal",
+                  "text": "Naka no takane",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-dance"
+        >
+          <DanceLine
+            grid={
+              Array [
+                Object {
+                  "length": 3,
+                  "start": 0,
+                  "style": "normal",
+                  "text": "and gazes in the distance.",
+                  "voices": Array [],
+                },
+                Object {
+                  "length": 2,
+                  "start": 6,
+                  "style": "normal",
+                  "text": "9. Sits back on his knee.",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<UnwrappedScore> renders as expected with all filters off 1`] = `
+<div
+  className="score"
+>
+  <div
+    className="measure measure--current"
+  >
+    <MeasureLabelContainer
+      current={true}
+      isBeatOn={false}
+      isDanceOn={false}
+      isNextSentenceOn={false}
+      isNohkanOn={false}
+      isPercussionOn={false}
+      isPrevSentenceOn={false}
+      isTextOn={false}
+      next={false}
+      previous={false}
+    />
+    <div
+      className="measure__grid-container"
+    >
+      <div
+        className="measure__grid-container"
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
 <div
   className="score"

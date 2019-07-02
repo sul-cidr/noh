@@ -11,7 +11,15 @@ const DEFAULT_STATE = {
   isPlaying: false,
   startTime: 0,
   currentPhraseID: "",
-  toggles: {}
+  toggles: {
+    isBeatOn: true,
+    isTextOn: true,
+    isPercussionOn: true,
+    isNohkanOn: true,
+    isDanceOn: true,
+    isPrevSentenceOn: false,
+    isNextSentenceOn: true
+  }
 };
 
 const setCurrentTime = (state, action) =>
@@ -46,4 +54,5 @@ const rootReducer = (state = DEFAULT_STATE, action) => {
   }
 };
 
+export { DEFAULT_STATE };
 export default rootReducer;
