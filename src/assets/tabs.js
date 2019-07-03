@@ -42,7 +42,7 @@ function attachTabs() {
   if (window.location.hash) activateTab(undefined, undefined, true);
 }
 
-function activateTab(hashEvent, eltID, scrollToElt = false) {
+function activateTab(hashEvent, eltID, scrollToElt) {
   /* This function is called when a tab link is clicked in any of
    * the tab containers on the page, and also when the window's hash
    * fragment changes. It activates the tab IDed in the parameter or the URL
