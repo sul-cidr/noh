@@ -14,13 +14,9 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import store from "./store";
 import contents from "./contents";
-import { saveState } from "./localStorage";
-
-store.subscribe(
-  throttle(() => {
-    saveState({ toggles: store.getState().toggles });
-  }, 2000)
-);
+import { setCurrentTime } from "./actionCreators";
+import { saveState as saveStateToLocalStorage } from "./localStorage";
+import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 
 export default class App extends Component {
   constructor(props) {
@@ -29,6 +25,34 @@ export default class App extends Component {
       isHighlightedTextOn: true,
       isShodanTimelineOn: false
     };
+
+    const {
+      startTime,
+      playName,
+      sectionName: { value: sectionName }
+    } = this.props;
+    const {
+      currentTime: { origin: storedOrigin }
+    } = store.getState();
+    const origin = `${playName}/${sectionName}`;
+
+    store.subscribe(
+      throttle(() => {
+        const {
+          toggles,
+          currentTime: { time }
+        } = store.getState();
+        saveStateToLocalStorage({ toggles });
+        saveStateToSessionStorage({ currentTime: { time, origin } });
+      }, 2000)
+    );
+
+    // override currentTime stored in sessionStorage if it
+    //  doesn't come from an appropriate context
+    const [play, section] = storedOrigin.split("/");
+    if (play !== playName || ![sectionName, undefined].includes(section)) {
+      store.dispatch(setCurrentTime({ time: startTime, origin }));
+    }
   }
 
   getSectionURLS() {

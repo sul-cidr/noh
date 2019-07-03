@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
+import throttle from "lodash.throttle";
 
 import Acts from "./components/Acts";
 import IntermediaTable from "./components/IntermediaTable";
@@ -12,10 +13,35 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import contents from "./contents";
 import store from "./store";
+import { setCurrentTime } from "./actionCreators";
 import { convertTimeToSeconds } from "./utils";
+import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 
-// eslint-disable-next-line react/prefer-stateless-function
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    const { title: origin, currentTime } = this.props;
+    const {
+      currentTime: { origin: storedOrigin }
+    } = store.getState();
+
+    store.subscribe(
+      throttle(() => {
+        const {
+          currentTime: { time }
+        } = store.getState();
+        saveStateToSessionStorage({ currentTime: { time, origin } });
+      }, 2000)
+    );
+
+    // override currentTime stored in sessionStorage if it
+    //  doesn't come from an appropriate context
+    if (storedOrigin.split("/")[0] !== origin) {
+      store.dispatch(setCurrentTime({ time: currentTime, origin }));
+    }
+  }
+
   render() {
     const {
       acts,
