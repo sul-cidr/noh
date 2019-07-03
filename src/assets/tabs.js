@@ -83,10 +83,17 @@ function activateTab(hashEvent, tabID) {
       else section_.style.display = "block";
     });
 
-    if (hashEvent) container.scrollIntoView();
+    if (hashEvent) tabLi.scrollIntoView();
   });
 }
 
 window.addEventListener("hashchange", activateTab, false);
 
-attachTabs();
+document.querySelectorAll('[href*="#"]').forEach(function(link) {
+  link.addEventListener("click", function(event) {
+    if (link.href == document.location.href) {
+      event.preventDefault();
+      activateTab(null, link.hash.slice(1));
+    }
+  });
+});
