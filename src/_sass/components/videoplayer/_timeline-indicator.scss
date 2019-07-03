@@ -1,8 +1,5 @@
 $svg-big: 9;
 $svg-small: 1;
-$time-indicator-circle: 1rem;
-$time-indicator-bar: 0.25rem;
-$time-indicator-offset: 1rem;
 
 .shodan-map__container {
   .time-indicator-container {
@@ -24,43 +21,5 @@ $time-indicator-offset: 1rem;
     z-index: 10;
     cursor: col-resize;
     left: -4px;
-  }
-}
-
-.video-progress {
-  height: $time-indicator-circle;
-  max-width: 25rem;
-  position: relative;
-  width: calc(100% + #{$time-indicator-offset});
-
-  .time-indicator-container {
-    &::before {
-      border-radius: $time-indicator-bar;
-      background-color: $white;
-      content: '';
-      height: $time-indicator-bar;
-      left: 50%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      width: calc(100% - #{$time-indicator-offset});
-    }
-  }
-
-  .time-indicator {
-    cursor: col-resize;
-    height: $time-indicator-circle;
-    width: $time-indicator-circle;
-
-    &::after {
-      background-color: $white;
-      border-radius: $time-indicator-circle;
-      content: '';
-      height: $time-indicator-circle;
-      position: absolute;
-      top: 0;
-      // opacity: .5;
-      width: $time-indicator-circle;
-    }
   }
 }
