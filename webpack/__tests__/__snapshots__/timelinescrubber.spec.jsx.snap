@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimelineScrubber> renders as expected by default 1`] = `
+<TimelineScrubber
+  currentTime={0}
+  duration={100}
+  setIsPlaying={[MockFunction]}
+  startTime={0}
+  updateCurrentTime={[MockFunction]}
+>
+  <div
+    className="timeline-scrubber"
+    onBlur={[Function]}
+    onMouseDown={[Function]}
+    onMouseMove={[Function]}
+    onMouseUp={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="timeline-scrubber__handle"
+      role="button"
+      style={
+        Object {
+          "left": "0%",
+        }
+      }
+      tabIndex={0}
+    />
+  </div>
+</TimelineScrubber>
+`;

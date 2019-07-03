@@ -51,7 +51,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
     <div
       className="video-progress"
     >
-      <Connect(TimelineIndicator)
+      <Connect(TimelineScrubber)
         duration={2000}
         startTime={0}
       />
@@ -302,7 +302,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
     <div
       className="video-progress"
     >
-      <Connect(TimelineIndicator)
+      <Connect(TimelineScrubber)
         duration={2000}
         startTime={0}
       />
@@ -2340,102 +2340,38 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
           <div
             className="video-progress"
           >
-            <Connect(TimelineIndicator)
+            <Connect(TimelineScrubber)
               duration={2000}
               startTime={0}
             >
-              <TimelineIndicator
+              <TimelineScrubber
                 currentTime={0}
                 duration={2000}
-                interval={10}
-                playing={false}
                 startTime={0}
                 updateCurrentTime={[Function]}
               >
                 <div
-                  className="time-indicator-container"
+                  className="timeline-scrubber"
+                  onBlur={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseMove={[Function]}
+                  onMouseUp={[Function]}
+                  role="button"
+                  tabIndex={0}
                 >
-                  <Draggable
-                    allowAnyClick={false}
-                    axis="x"
-                    bounds="parent"
-                    cancel={null}
-                    defaultClassName="react-draggable"
-                    defaultClassNameDragged="react-draggable-dragged"
-                    defaultClassNameDragging="react-draggable-dragging"
-                    defaultPosition={
+                  <div
+                    className="timeline-scrubber__handle"
+                    role="button"
+                    style={
                       Object {
-                        "x": 0,
-                        "y": 0,
+                        "left": "0%",
                       }
                     }
-                    disabled={false}
-                    enableUserSelectHack={true}
-                    grid={null}
-                    handle=".time-indicator"
-                    offsetParent={null}
-                    onDrag={[Function]}
-                    onMouseDown={[Function]}
-                    onStart={[Function]}
-                    onStop={[Function]}
-                    position={
-                      Object {
-                        "x": -1,
-                        "y": 0,
-                      }
-                    }
-                    transform={null}
-                  >
-                    <DraggableCore
-                      allowAnyClick={false}
-                      axis="x"
-                      bounds="parent"
-                      cancel={null}
-                      defaultClassName="react-draggable"
-                      defaultClassNameDragged="react-draggable-dragged"
-                      defaultClassNameDragging="react-draggable-dragging"
-                      defaultPosition={
-                        Object {
-                          "x": 0,
-                          "y": 0,
-                        }
-                      }
-                      disabled={false}
-                      enableUserSelectHack={true}
-                      grid={null}
-                      handle=".time-indicator"
-                      offsetParent={null}
-                      onDrag={[Function]}
-                      onMouseDown={[Function]}
-                      onStart={[Function]}
-                      onStop={[Function]}
-                      position={
-                        Object {
-                          "x": -1,
-                          "y": 0,
-                        }
-                      }
-                      transform={null}
-                    >
-                      <div
-                        className="time-indicator react-draggable"
-                        onMouseDown={[Function]}
-                        onMouseUp={[Function]}
-                        onTouchEnd={[Function]}
-                        onTouchStart={[Function]}
-                        style={
-                          Object {
-                            "touchAction": "none",
-                            "transform": "translate(-1px,0px)",
-                          }
-                        }
-                        transform={null}
-                      />
-                    </DraggableCore>
-                  </Draggable>
+                    tabIndex={0}
+                  />
                 </div>
-              </TimelineIndicator>
-            </Connect(TimelineIndicator)>
+              </TimelineScrubber>
+            </Connect(TimelineScrubber)>
           </div>
           <div
             className="score-controls__remaining-time"
