@@ -83,3 +83,24 @@ export function reduxDevTools() {
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   );
 }
+
+// Parse URL Fragments of the form `#key1=val1&key2=val2...` and returns
+//  an object of the form `{ key1: val1, key2: val2 ... }`.
+export function parseUrlFragment() {
+  return window.location.hash
+    .slice(1)
+    .split("&")
+    .reduce((accumulator, kvPair) => {
+      const [key, value] = kvPair.split("=");
+      return Object.assign({ [key]: value }, accumulator);
+    }, {});
+}
+
+// Given an integer value or a timestamp of the form <<hh:>mm:>ss, returns
+//  an integer value representing the timestamp in seconds.
+export function validateTimestamp(timestamp) {
+  if (!Number.isNaN(Number(timestamp))) return Number(timestamp);
+  if (/^(?:\d{1,2}:)?(?:\d{2}:)?\d{2}$/.exec(timestamp))
+    return convertTimeToSeconds(timestamp);
+  return false;
+}
