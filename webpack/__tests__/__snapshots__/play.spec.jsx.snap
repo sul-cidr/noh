@@ -1846,7 +1846,7 @@ exports[`<Play> renders as expected 1`] = `
             >
               <MasterVideo
                 currentTime={0}
-                currentTimeOrigin={null}
+                currentTimeOrigin="Kokaji"
                 isPlaying={false}
                 startTime={0}
                 tracks={
