@@ -37,14 +37,16 @@ describe("convertTimeToSeconds", () => {
     expect(convertTimeToSeconds(time)).toEqual(expectedTime);
   });
 
-  test("it defaults to 0 for invalid times", () => {
-    const time = "01:01:90.001";
-    expect(convertTimeToSeconds(time)).toEqual(0);
+  test("it correctly converts time expressed in mm:ss to seconds", () => {
+    const time = "42:17";
+    const expectedTime = 2537;
+    expect(convertTimeToSeconds(time)).toEqual(expectedTime);
   });
 
-  test("it defaults to 0 for bad formatted times", () => {
-    const time = "Dec 1st 2017 01:01:90.001";
-    expect(convertTimeToSeconds(time)).toEqual(0);
+  test("it correctly converts time expressed in ss to seconds", () => {
+    const time = "17";
+    const expectedTime = 17;
+    expect(convertTimeToSeconds(time)).toEqual(expectedTime);
   });
 });
 

@@ -10,9 +10,8 @@ export function getTime(element) {
 
 // Converts time from hh:mm:ss to seconds
 export function convertTimeToSeconds(hhmmss) {
-  const timeFormat = `01/01/1970 ${hhmmss} GMT`;
-  const time = Date.parse(timeFormat);
-  return time / 1e3 || 0.0;
+  const [ss, mm, hh] = hhmmss.split(":").reverse();
+  return Date.UTC(1970, 0, 1, +hh || 0, +mm || 0, +ss || 0) / 1000;
 }
 
 // Converts time in seconds to hh:mm:ss
