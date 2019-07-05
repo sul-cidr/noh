@@ -41,6 +41,8 @@ class TimelineScrubber extends Component {
     // this prevents a little jankiness observable in FF
     // (related: https://bugzilla.mozilla.org/show_bug.cgi?id=1507193)
     this.updateCurrentTime = debounce(this.props.updateCurrentTime, 5);
+
+    this.updateScrubberHandle();
   }
 
   componentDidUpdate(prevProps) {
