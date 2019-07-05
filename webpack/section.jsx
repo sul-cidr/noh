@@ -17,8 +17,18 @@ import contents from "./contents";
 import { setCurrentTime } from "./actionCreators";
 import { saveState as saveStateToLocalStorage } from "./localStorage";
 import { saveState as saveStateToSessionStorage } from "./sessionStorage";
+import { parseUrlFragment, validateTimestamp } from "./utils";
 
 export default class App extends Component {
+  static updateTimeFromUrlFrag() {
+    // check for a URL fragment of the form `#startTime=<timestamp>` and
+    // proceed accordingly
+    const urlFragParams = parseUrlFragment();
+    const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
+    if (seekToTime)
+      store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -53,6 +63,9 @@ export default class App extends Component {
     if (play !== playName || ![sectionName, undefined].includes(section)) {
       store.dispatch(setCurrentTime({ time: startTime, origin }));
     }
+
+    window.addEventListener("hashchange", App.updateTimeFromUrlFrag, false);
+    App.updateTimeFromUrlFrag();
   }
 
   getSectionURLS() {
