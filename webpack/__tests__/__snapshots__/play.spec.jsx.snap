@@ -1266,12 +1266,11 @@ exports[`<Play> renders as expected 1`] = `
   startTime={0}
   store={
     Object {
-      "clearActions": [Function],
       "dispatch": [Function],
-      "getActions": [Function],
       "getState": [Function],
       "replaceReducer": [Function],
       "subscribe": [Function],
+      Symbol(observable): [Function],
     }
   }
   title="Kokaji"

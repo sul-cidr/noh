@@ -14,10 +14,23 @@ import ShodanTimeline from "./components/ShodanTimeline";
 import contents from "./contents";
 import store from "./store";
 import { setCurrentTime } from "./actionCreators";
-import { convertTimeToSeconds } from "./utils";
+import {
+  convertTimeToSeconds,
+  parseUrlFragment,
+  validateTimestamp
+} from "./utils";
 import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 
 export default class App extends Component {
+  static updateTimeFromUrlFrag() {
+    // check for a URL fragment of the form `#startTime=<timestamp>` and
+    // proceed accordingly
+    const urlFragParams = parseUrlFragment();
+    const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
+    if (seekToTime)
+      store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
+  }
+
   constructor(props) {
     super(props);
 
@@ -40,6 +53,11 @@ export default class App extends Component {
     if (storedOrigin.split("/")[0] !== origin) {
       store.dispatch(setCurrentTime({ time: currentTime, origin }));
     }
+
+    // set up a listener for hashchange events, and then process any URL frag that
+    //  may have been included at page-load time
+    window.addEventListener("hashchange", App.updateTimeFromUrlFrag, false);
+    App.updateTimeFromUrlFrag();
   }
 
   render() {
