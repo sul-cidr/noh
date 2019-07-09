@@ -79,238 +79,238 @@ permalink: /about-intermedia/
             <td class="content-table__column">Dance</td>
           </tr>
           <tr class="content-table__row">
-            <td class="content-table__column">34</td>
+            <td class="content-table__column">(34)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Congruent</td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">33</td>
+            <td class="content-table__column">(33)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">32</td>
+            <td class="content-table__column">(32)</td>
             <td class="content-table__column">Ō/Chūnori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">31</td>
+            <td class="content-table__column">(31)</td>
             <td class="content-table__column">Hiranori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">30</td>
+            <td class="content-table__column">(30)</td>
             <td class="content-table__column">Ō/Chūnori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">29</td>
+            <td class="content-table__column">(29)</td>
             <td class="content-table__column">Hiranori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">28</td>
+            <td class="content-table__column">(28)</td>
             <td class="content-table__column">Ō/Chūnori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">27</td>
+            <td class="content-table__column">(27)</td>
             <td class="content-table__column">Hiranori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">26</td>
+            <td class="content-table__column">(26)</td>
             <td class="content-table__column">Ō/Chūnori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">25</td>
+            <td class="content-table__column">(25)</td>
             <td class="content-table__column">Hiranori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">√</td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">24</td>
+            <td class="content-table__column">(24)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">23</td>
+            <td class="content-table__column">(23)</td>
             <td class="content-table__column">Ō/Chūnori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">22</td>
+            <td class="content-table__column">(22)</td>
             <td class="content-table__column">Hiranori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">21</td>
+            <td class="content-table__column">(21)</td>
             <td class="content-table__column">Ō/Chūnori-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">20</td>
+            <td class="content-table__column">(20)</td>
             <td class="content-table__column">Ō/Chūnori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">19</td>
+            <td class="content-table__column">(19)</td>
             <td class="content-table__column">Hiranori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">18</td>
+            <td class="content-table__column">(18)</td>
             <td class="content-table__column">Ō/Chūnori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">17</td>
+            <td class="content-table__column">(17)</td>
             <td class="content-table__column">Hiranori</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">16</td>
+            <td class="content-table__column">(16)</td>
             <td class="content-table__column">Non-congruent-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">15</td>
+            <td class="content-table__column">(15)</td>
             <td class="content-table__column">Non-congruent-2</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">14</td>
+            <td class="content-table__column">(14)</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">13</td>
+            <td class="content-table__column">(13)</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">12</td>
+            <td class="content-table__column">(12)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Strict</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">11</td>
+            <td class="content-table__column">(11)</td>
             <td class="content-table__column">Non-congruent-2</td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">10</td>
+            <td class="content-table__column">(10)</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">9</td>
+            <td class="content-table__column">(9)</td>
             <td class="content-table__column">Non-congruent-2</td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">8</td>
+            <td class="content-table__column">(8)</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">7</td>
+            <td class="content-table__column">(7)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">6</td>
+            <td class="content-table__column">(6)</td>
             <td class="content-table__column">Non-congruent</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">5</td>
+            <td class="content-table__column">(5)</td>
             <td class="content-table__column">Kotoba-2</td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">4</td>
+            <td class="content-table__column">(4)</td>
             <td class="content-table__column">Kotoba-2</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">3</td>
+            <td class="content-table__column">(3)</td>
             <td class="content-table__column">Kotoba</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">2</td>
+            <td class="content-table__column">(2)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Flexible</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row">
-            <td class="content-table__column">1</td>
+            <td class="content-table__column">(1)</td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column"> – </td>
             <td class="content-table__column">Non-congruent</td>

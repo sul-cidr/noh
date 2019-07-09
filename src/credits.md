@@ -22,11 +22,13 @@ permalink: /credits/
   <strong>AKAMA Ryo</strong>, Ritsumeikan University, Art Research Center. Kyoto
 </p>
   <h4>Website Development and Design</h4>
-  <p>Center for Interdisciplinary Digital Research, Stanford University Library:<br>
+  <p>Center for Interdisciplinary Digital Research (CIDR), Stanford University Library:<br>
+<strong>Glen Worthey</strong>, Stanford University<br>
 <strong>Scott Bailey</strong>, Stanford University<br>
+<strong>Peter Broadwell</strong><br>
 <strong>Javier de la Rosa</strong>, Stanford University<br>
 <strong>Juan Pablo López Franco</strong><br>
-<strong>Glen Worthey</strong>, Stanford University<br>
+<strong>Simon Wiles</strong><br>
 <strong>Vijoy Abraham</strong>, Stanford University
 
 </p>
@@ -40,7 +42,7 @@ permalink: /credits/
 
   <h4>Performers</h4>
   <h5>ACADEMIC EXAMPLES</h5>
-  <p>Dancer:  <strong>KNOGŌ Tatsunori</strong><br>
+  <p>Dancer:  <strong>KONGŌ Tatsunori</strong><br>
   Singers:  <strong>UDAKA Tatsushige</strong>, <strong>UDAKA Norishige</strong>, <strong>ARIMATSU Ryōichi</strong><br>
   Drum stick:  <strong>NAKATA Hiromi</strong><br>
   Shoulder drum: <strong>HAYASHI Yamato</strong><br>
