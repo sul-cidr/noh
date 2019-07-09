@@ -18,7 +18,7 @@ second-level-menu-active: catalog-shodan
   <div class="introductory-table">
     <div class="introductory-table__element">
       <div class="introductory-table__term">Voice</div>
-      <div class="introductory-table__definition">Non-congruent</div>
+      <div class="introductory-table__definition">Unmetered</div>
     </div>
   </div>
 
