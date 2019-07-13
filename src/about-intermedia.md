@@ -15,8 +15,8 @@ permalink: /about-intermedia/
   <section class="sidebar-contents__section">
 
   <div class="text-container">
-    <h2 id="intermedia-intro">About Intermedia</h2>
-    <h3 id="intermedia-intro">Introduction</h3>
+    <h2 id="intermedia-intro">Intermedia</h2>
+    <h3>Introduction</h3>
     <p>In our definition 'intermedia' is a way of forming artistic expression that draws on the relationships between media and their cumulative impact. Noh theater, which combines literature, vocal and instrumental music, stage movement, dance, masks, costumes, and props is a particularly rich and sophisticated form of intermedia. Not only it brings together multiple forms of art, but each of them has been highly refined, plays a substantial role, and the correspondences between them are singular, intricate and wide-ranging. The goal of this website is to examine and interpret the parts played by and interactions between media in Noh.</p>
 
     <p>In any intermedia work, not all media will have equal importance at all times. At different moments, any element or combination of them can dominate, and this can vary further in the perception of an individual listener of particular interests and background. In time-based art forms like the Noh Theater particular weight and attention must be given to dimensions that change over time. Continuously evolving elements such as word narratives, musical sequences and movement of actors, come particularly strongly to the fore of perception due to ongoing change. Their prominent features can align in meaning or structural qualities to reinforce each other and fulfill a desired dramatic effect. But the primary role of the time-based components does not mean that elements like costumes or props that are comparatively constant do not play significant roles in intermedia. Always when they appear on the stage for the first time or when they are used for specific dramatic purposes, they can equally become the center of attention. Even when they remain relatively unchanged, they help in establishing important semantic or aesthetic context. They are essential to the understanding of a play as a whole and at times, focal elements of the dramatic narrative.</p>
@@ -325,7 +325,7 @@ permalink: /about-intermedia/
             </tr>
             </table>
 
-
+<h2 id="noh-as-intermedia">Noh as Intermedia</h2>
 
 
   </div>
