@@ -11,18 +11,8 @@
 
   <nav class="header__nav">
     <ul>
-      <li class="{% if page.menu-active == 'help' or page.menu-active == 'help' %} active{% endif %}">
-        <a class="header__main-link" href="/help/"><strong>[?]</strong></a>
-        </li>
-
-        <li class="dropdown-menu{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}">
-          <a class="header__main-link dropdown-menu__trigger">Intermedia</a>
-          <ul class="dropdown-menu__list">
-            <li class="dropdown-menu__title"><a href="/about-intermedia/">Intermedia</a></li>
-            <li><a href="/about-intermedia/#intermedia-intro">About</a></li>
-            <li><a href="/about-intermedia/#intermedia-tools">Tools of Analysis</a></li>
-            <li><a href="/about-intermedia/#noh-as-intermedia">Noh as Intermedia</a></li>
-          </ul>
+      <li class="{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}">
+        <a class="header__main-link" href="/about-intermedia/">Intermedia</a>
         </li>
       <li class="dropdown-menu{% if page.menu-active == 'plays' or page.menu-active == 'plays' %} active{% endif %}">
         <a class="header__main-link dropdown-menu__trigger">Plays</a>
