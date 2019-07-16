@@ -43,7 +43,7 @@ Sections in <em>kotoba</em> are always delivered by an actor, never by the jiuta
       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
       link="Waki"
       title="Hashitomi – Nanori "
-      paragraph1="The calm delivery in the lower register is well suited for a traveling priest."
+      paragraph1="The calm delivery in the lower register is well suited for a traveling monk."
     %}
 
     {% include video-no-background.html

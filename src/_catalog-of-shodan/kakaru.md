@@ -51,7 +51,7 @@ second-level-menu-active: catalog-shodan
       <div class="wrapper">
       <section id="tab-1" title="Hashitomi-Kakaru-1" class="tabbed-narrative">
       <p>Hashitomi’s first <em>kakaru</em> is the last <em>shōdan</em> of the First act’s ‘Waki enters’ part. It is set for one actor accompanied by the two hand-percussion instruments.</p>
-      <p>This is a monologue presented by the waki, a monk living in <em>Unrin-in</em> Temple, who is performing a mass for flowers as an offering to Buddha. After having made a factual statement about the flowers in <em>kotoba</em>, the waki switches to singing in <a href="/music/voices#Yowagin" target="_blank"><em>yowagin</em></a> style, as he emotionally reflects on the lotus plant, since according to esoteric Buddhism, the heart of beings is like an unopened lotus.</p>
+      <p>This is a monologue presented by the waki, a monk living in <em>Unrin-in</em> Temple, who is performing a service for flowers as an offering to Buddha. After having made a factual statement about the flowers in <em>kotoba</em>, the waki switches to singing in <a href="/music/voices#Yowagin" target="_blank"><em>yowagin</em></a> style, as he emotionally reflects on the lotus plant, since according to esoteric Buddhism, the heart of beings is like an unopened lotus.</p>
       {% include video-no-background.html
         src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Kakaru1_Score_sl.mp4"
       %}
