@@ -35,7 +35,7 @@ second-level-menu-active: catalog-shodan
     <div class="tabs-container__content">
       <div class="wrapper">
       <section id="tab-1" title="Hashitomi-Nanori" class="tabbed-narrative">
-      <p>Hashitomi’s <em>nanori</em> is delivered by a waki impersonating a traveling priest. Although the melodic shape - gradual rising tone followed by a rapid falling off - is customary, the way it is set to text varies. For instance, in Hashitomi's <em>nanori</em>, the slower delivery speed in the lower register is well suited for a calm traveling priest. This is in clear contrast with the <em>nanori</em> from Kokaji.</p>
+      <p>Hashitomi’s <em>nanori</em> is delivered by a waki impersonating a traveling monk. Although the melodic shape - gradual rising tone followed by a rapid falling off - is customary, the way it is set to text varies. For instance, in Hashitomi's <em>nanori</em>, the slower delivery speed in the lower register is well suited for a calm traveling monk. This is in clear contrast with the <em>nanori</em> from Kokaji.</p>
       {% include video-no-background.html
         src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score_sl.mp4"
       %}
