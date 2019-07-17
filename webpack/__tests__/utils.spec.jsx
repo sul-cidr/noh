@@ -4,7 +4,8 @@ import {
   convertTimeToSeconds,
   convertSecondsToHhmmss,
   fillGrid,
-  reduxDevTools
+  reduxDevTools,
+  validateTimestamp
 } from "../utils";
 import phrases from "./__fixtures__/phrases.json";
 
@@ -36,14 +37,16 @@ describe("convertTimeToSeconds", () => {
     expect(convertTimeToSeconds(time)).toEqual(expectedTime);
   });
 
-  test("it defaults to 0 for invalid times", () => {
-    const time = "01:01:90.001";
-    expect(convertTimeToSeconds(time)).toEqual(0);
+  test("it correctly converts time expressed in mm:ss to seconds", () => {
+    const time = "42:17";
+    const expectedTime = 2537;
+    expect(convertTimeToSeconds(time)).toEqual(expectedTime);
   });
 
-  test("it defaults to 0 for bad formatted times", () => {
-    const time = "Dec 1st 2017 01:01:90.001";
-    expect(convertTimeToSeconds(time)).toEqual(0);
+  test("it correctly converts time expressed in ss to seconds", () => {
+    const time = "17";
+    const expectedTime = 17;
+    expect(convertTimeToSeconds(time)).toEqual(expectedTime);
   });
 });
 
@@ -77,5 +80,25 @@ describe("reduxDevTools", () => {
   test("it returns nothing if the Redux dev tools are unavailable", () => {
     window.__REDUX_DEVTOOLS_EXTENSION__ = null;
     expect(reduxDevTools()).toBe(null);
+  });
+});
+
+describe("validateTimestamp", () => {
+  test("it correctly returns simple integers", () => {
+    const timestamp = "3600";
+    const expectedReturn = 3600;
+    expect(validateTimestamp(timestamp)).toBe(expectedReturn);
+  });
+
+  test("it correctly returns hh:mm:ss-format timestamps as seconds", () => {
+    const timestamp = "1:12:54";
+    const expectedReturn = 4374;
+    expect(validateTimestamp(timestamp)).toBe(expectedReturn);
+  });
+
+  test("it returns false for unparseable timestamps", () => {
+    const timestamp = "abc";
+    const expectedReturn = false;
+    expect(validateTimestamp(timestamp)).toBe(expectedReturn);
   });
 });
