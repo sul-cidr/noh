@@ -12,7 +12,7 @@ permalink: /plays/
   <section class="sidebar-contents__section">
 
 <div class="text-container">
-    <h2 id="plays-intro">About the Plays</h2>
+    <h2 id="plays-intro">Why Hashitomi and Kokaji?</h2>
     <p><em>By Tom Hare</em>
 </p>
     <p>The modern repertory of noh comprehends more than two hundred plays, depending on how one counts them, so what is it that makes these two particular plays, <em>Kokaji</em> and <em>Hashitomi</em>, the focus of this project?</p>
