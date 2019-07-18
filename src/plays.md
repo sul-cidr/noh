@@ -5,11 +5,6 @@ menu-active: plays
 permalink: /plays/
 ---
 <main class="page-content">
-<div class="wrapper sidebar-contents">
-  <aside class="sidebar-contents__table">
-    {% include menu-plays.html %}
-  </aside>
-  <section class="sidebar-contents__section">
 
 <div class="text-container">
     <h2 id="plays-intro">Why Hashitomi and Kokaji?</h2>
@@ -122,7 +117,5 @@ from time to time, allow your thoughts to settle down upon it, dewdrops on the p
 </p>
   </div>
 
-</section>
-</div>
 
 </main>
