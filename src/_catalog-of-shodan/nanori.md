@@ -23,7 +23,7 @@ second-level-menu-active: catalog-shodan
   </div>
 
   <p>Prose speech in which the character, usually the waki, identifies himself and explains the reason for his presence at the location.
-  There are two <em>nanori</em> among the two plyas and they provide examples of the declamation style favored by some waki schools, where words are first delivered on a single repeated tone whose pulse accelerates as it decidedly raises in pitch and gradually descends towards the end of sentence, creating a melodic contour that embodies the <em>jo-ha-kyū</em> principle. These 'melodic curves' follow the grammatical structure of the text, the peak being reached just before the end of the sentence.
+  There are two <em>nanori</em> among the two plays and they provide examples of the declamation style, where words are first delivered on a single repeated tone whose pulse accelerates as it decidedly raises in pitch and gradually descends towards the end of sentence, creating a melodic contour that embodies the <em>jo-ha-kyū</em> principle. These 'melodic curves' follow the grammatical structure of the text, the peak being reached just before the end of the sentence.
   Bold syllables are used in the examples to identify the higher pitch that triggers the following descent.</p>
 
   <div class="tabs-container">
@@ -42,7 +42,7 @@ second-level-menu-active: catalog-shodan
 
       </section>
       <section id="tab-2" title="Kokaji-Nanori" class="tabbed-narrative">
-        <p>Kokaji’s <em>nanori</em> is delivered by a wakizure personating an Emperor’s envoy hastening to deliver an important order. It differs from Hashitomi’s <em>nanori</em> in at least two ways: Its speed of delivery is much faster, and the pitch higher, two distinctions well suited for a messenger who is in a hurry to deliver an important missive.</p>
+        <p>Kokaji’s <em>nanori</em> is delivered by a wakizure in the role of an Emperor’s envoy hastening to deliver an important order. It differs from Hashitomi’s <em>nanori</em> in at least two ways: Its speed of delivery is much faster, and the pitch higher, two distinctions well suited for a messenger who is in a hurry to deliver an important missive.</p>
         {% include video-no-background.html
           src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score_sl.mp4"
         %}
