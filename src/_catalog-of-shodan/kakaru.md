@@ -26,20 +26,16 @@ second-level-menu-active: catalog-shodan
       </div>
       </div>
 
-    <p>
-    A <em>kakaru</em> chant switches mode of delivery from prose to smooth singing in recitative style, where the text corresponding to the switching point is often emphasized.</p>
+      <p>
+    <em>Kakaru</em> means to initiate or to get into something, which in this case refers to a transition from a spoken narrative to singning and music. It can mix kotoba and singing in non-congruent mode. When switching from speaking to singing, a subtle expressive emphasis results for the first words that are sung. <em>Kakaru</em> can be accompanied by the two drums in flexible mode but never by the nohkan.</p>
 
-    <p>
-    Typically, the <em>kakaru</em> follows a dialogue such as a <em>mondō</em> or <em>kakeai</em>, leading to a congruent song such as an <em>ageuta</em>. In other words, it plays the important function of concluding a verbal exchange between two characters, thus it is often sung antiphonally, serving as a bridge between <em>kotoba</em> and congruent singing. The congruent chant is often sung by the jiutai, uniting the voices of the two interacting characters.</p>
+    <p><em>Kakaru</em> typically follows a spoken dialogue like a <em>mondō</em> or <em>kakeai</em> and leads to a congruent song such as an <em>ageuta</em>. Serving as a bridge from a conversation, it is often also sung antiphonally. The following shōdan is frequently sung by the jiutai, who takes over from shite and waki, and can speak for them merged into one voice. </p>
 
-    <p>
-    <em>Kakaru</em> is a verb that means to start or to get into something.  Thus, one could argue that it could be understood to mean: getting ready to move on to congruent singing. Often accompanied by the two drums in flexible mode, it never includes a nohkan part. Hashitomi’s second <em>kakaru</em> is an example of a typical one. </p>
+    <p>There are three <em>kakaru</em> in Hashitomi presented below. The example of second <em>kakaru</em> is a typical one. Kakaru 1 and 3 are monologues. However, all three share the function of preparing for a dramatic shift, the arrival of the shite or his prominent role. They are all the last shōdan leading to the new sections: Shite Enters, Shite Performs and Shite Re-enters, respectively.</p>
 
-    <p>
-    There are three <em>kakaru</em> in Hashitomi, and they all share a common function, they are the last <em>shōdan</em> of their respective part: Waki enters, Dialogue in the First act, and Waki waits in the Second act.</p>
 
     <p>Delivery in <a href="/music/voices#Spoken" target="_blank"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand, the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
-
+<p>Although the name <em>kakaru</em> appears in the chanting books of most schools, the term is not normally adopted as a name of shōdan in Japanese academic context. Instead of <em>kakaru</em>, the relevant segments are referred to as <em>kakeai</em> (dialogue), <em>sashi</em> or are given no name.
 
   <div class="tabs-container">
     <div class="tabs-container__links">
