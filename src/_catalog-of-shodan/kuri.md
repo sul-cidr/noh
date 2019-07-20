@@ -31,7 +31,7 @@ second-level-menu-active: catalog-shodan
   </div>
 
 
-  <p>A high-pitched melodious short <a href="/music/voices#Einori" target="_blank"><em>einori</em></a> chant sung by an actor, usually the shite, or the jiutai, or alternatively, by an actor and the jiutai. Kokaij’s <em>kuri</em> is set for jiutai accompanied by the <em>hayashi</em>.
+  <p>A high-pitched melodious and short <a href="/music/voices#Einori" target="_blank"><em>einori</em></a> is sung usually by the shite, or the jiutai, or alternatively, by both. Kokaji’s <em>kuri</em> is set for jiutai accompanied by ōtsuzumi, kotsuzumi and nohkan.
   It is classified among the Introduction chants since its narrative serves as a lead into the following <em>shōdan</em>, the <a href="/catalog-of-shodan/sashi" target="_blank"><em>sashi</em></a>,
   whose narrative is then fully developed in the next <a href="/catalog-of-shodan/kuse" target="_blank"><em>kuse</em></a>.</p>
 
