@@ -22,7 +22,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>Conversation in prose between the shite and waki, usually used to reveal some information about the shite’s past and/or their identity.</p>
+  <p>Conversation between the shite and waki in <a href="/music/voices/#Spoken">kotoba</a> or <a href="/music/voices/#Sashinori">sashinori</a>, usually used to reveal some information about the shite’s past and/or their identity.</p>
 
   <p>Between the two plays there are two <em>mondō</em>, both are in Kokaji. They provide examples of the declamation style, where words are first delivered on a single repeated tone whose pulse accelerates as it decidedly raises in pitch and gradually descends towards the end of sentence, creating a melodic contour that embodies the <em>jo-ha-kyū</em> principle. These 'melodic curves' follow the grammatical structure of the text, the peak being reached just before the end of the sentence.
   Bold syllables are used in the excerpt to identify the higher pitch that triggers the following descent.</p>
