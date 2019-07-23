@@ -21,13 +21,18 @@
     top: -0.125rem;
   }
 
-  a {
+  a, div {
     color: $green;
+    cursor: pointer;
     text-decoration: none;
     display: flex;
     text-align: center;
     height: 5rem;
     width: 10rem;
     @include flex-container($justify:center);
+  }
+
+  .audio_playing {
+    background-color: $beige-dark;
   }
 }
