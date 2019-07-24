@@ -22,7 +22,7 @@
   background-color: $white;
   border-right: $border;
   min-width: 18rem;
-  width: 30%;
+  width: 35%;
   height: $video-player-height;
 
   @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
