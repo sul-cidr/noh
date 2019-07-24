@@ -13,7 +13,13 @@
   font-size: $fs-display-md;
   font-weight: $fw-regular;
   margin: 0.5rem;
+  height: 5rem;
+  width: 10rem;
   position: relative;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  @include flex-container($justify:center);
   transition: top $transition, box-shadow $transition;
 
   &:hover {
@@ -21,18 +27,28 @@
     top: -0.125rem;
   }
 
-  a, div {
+  a, .audio-label {
     color: $green;
-    cursor: pointer;
     text-decoration: none;
-    display: flex;
-    text-align: center;
     height: 5rem;
     width: 10rem;
     @include flex-container($justify:center);
+    z-index: 1;
   }
 
-  .audio_playing {
-    background-color: $beige-dark;
+  .audio-player::after, .audio-playing:after {
+    font-family: 'FontAwesome';
+    font-size: 5rem;
+    color: $beige-darker;
+    position: absolute;
+    z-index: -1;
   }
+  .audio-player:after {
+    left: 3.5rem;
+    content: "\f04b";
+  }
+  .audio-playing:after {
+    content: "\f04c";
+  }
+
 }

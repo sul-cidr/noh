@@ -6,22 +6,26 @@
     <source src="{{ include.src }}" type="audio/mpeg">
     No browser audio support.
   </audio>
-  <div id="{{ controls_id }}">{{include.text}}</div> 
+  <div id="{{ controls_id }}" class="audio-label audio-player">{{include.text}}</div>
 </li>
+
 <script>
   var controls = document.getElementById("{{ controls_id }}");
   var player = document.getElementById("{{ player_id }}");
 
   player.onended = function() {
-    controls.classList.remove('audio_playing');
+    controls.classList.remove('audio-playing');
+    controls.classList.add('audio-player');
   }
 
   controls.onclick = function() {
-    if (controls.classList.contains('audio_playing')) {
-      controls.classList.remove('audio_playing');
+    if (controls.classList.contains('audio-playing')) {
+      controls.classList.remove('audio-playing');
+      controls.classList.add('audio-player');
       player.pause();
     } else {
-      controls.classList.add('audio_playing');
+      controls.classList.remove('audio-player');
+      controls.classList.add('audio-playing');
       player.play();
     }
   }
