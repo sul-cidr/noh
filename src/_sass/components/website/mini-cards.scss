@@ -36,18 +36,18 @@
     z-index: 1;
   }
 
-  .audio-player::after, .audio-playing:after {
+  .audio-player::after, .audio-playing::after {
     font-family: 'FontAwesome';
     font-size: 5rem;
     color: $beige-darker;
     position: absolute;
     z-index: -1;
   }
-  .audio-player:after {
+  .audio-player::after {
     left: 3.5rem;
     content: "\f04b";
   }
-  .audio-playing:after {
+  .audio-playing::after {
     content: "\f04c";
   }
 
