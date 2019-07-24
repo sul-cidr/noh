@@ -21,11 +21,6 @@ class HighlightedText extends React.Component {
     const lines = this.createLines();
     return (
       <div className="transcription">
-        <div className="transcription__title">
-          <p>
-            Singing style: <span>{this.props.singingStyle}</span>
-          </p>
-        </div>
         <div className="transcription__text">{lines}</div>
       </div>
     );
@@ -33,7 +28,6 @@ class HighlightedText extends React.Component {
 }
 
 HighlightedText.propTypes = {
-  singingStyle: PropTypes.string,
   currentPhraseID: PropTypes.string.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
@@ -44,10 +38,6 @@ HighlightedText.propTypes = {
       translation: PropTypes.string
     })
   ).isRequired
-};
-
-HighlightedText.defaultProps = {
-  singingStyle: ""
 };
 
 export default HighlightedText;
