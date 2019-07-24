@@ -7,7 +7,7 @@ permalink: /text/
 
 {% include second-menu-elements.html %}
 
-{% include menu-libretti-small.html %}
+{% include menu-text-large.html %}
 
 <main class="page-content">
   <div class="text-container">
