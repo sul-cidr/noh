@@ -67,24 +67,6 @@ describe("<Section>", () => {
   });
 });
 
-describe("<Section> with no singingStyle", () => {
-  it("renders as expected", () => {
-    const initialState = {
-      currentTime: 0,
-      isPlaying: false,
-      startTime: 0,
-      currentPhraseID: "I/1"
-    };
-    const mockStore = configureMockStore();
-
-    const store = mockStore(initialState);
-    fixtures.singingStyle = null;
-    const wrapper = mount(<App store={store} {...fixtures} />);
-
-    expect(wrapper).toMatchSnapshot();
-  });
-});
-
 describe("<Section> that is first in play", () => {
   it("renders as expected", () => {
     const initialState = {

@@ -5,16 +5,6 @@ exports[`<HighlightedText> renders as expected 1`] = `
   className="transcription"
 >
   <div
-    className="transcription__title"
-  >
-    <p>
-      Singing style: 
-      <span>
-        spoken
-      </span>
-    </p>
-  </div>
-  <div
     className="transcription__text"
   >
     <Connect(Line)

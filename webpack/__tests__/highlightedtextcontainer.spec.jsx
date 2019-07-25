@@ -28,7 +28,6 @@ describe("<UnwrappedHighlightedTextContainer>", () => {
     const component = shallow(
       <UnwrappedHighlightedTextContainer
         currentTime={13}
-        singingStyle="spoken"
         phrases={phrases}
         currentPhraseID="I/1"
         setCurrentPhrase={setCurrentPhrase}
@@ -41,7 +40,6 @@ describe("<UnwrappedHighlightedTextContainer>", () => {
     const component = shallow(
       <UnwrappedHighlightedTextContainer
         currentTime={13}
-        singingStyle="spoken"
         phrases={phrases}
         currentPhraseID="I/1"
         setCurrentPhrase={setCurrentPhrase}
@@ -60,10 +58,9 @@ describe("HighlightedTextContainer", () => {
     };
     const mockStore = configureMockStore();
     const store = mockStore(initialState);
-    const wrapper = mount(
-      <HighlightedTextContainer singingStyle="spoken" phrases={phrases} />,
-      { context: { store } }
-    );
+    const wrapper = mount(<HighlightedTextContainer phrases={phrases} />, {
+      context: { store }
+    });
     wrapper.setProps({ currentTime: 16 });
     const action = { type: "SET_CURRENT_PHRASE_ID", payload: "I/2" };
     expect(store.getActions()[0]).toEqual(action);
