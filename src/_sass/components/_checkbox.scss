@@ -10,6 +10,7 @@
     font-size: $fs-display-xs;
     line-height: 1.25;
     padding-left: 1.375rem;
+    color: $brown;
 
     span {
       display: inline-block;
@@ -67,7 +68,7 @@
   input[type="checkbox"]:checked + label::before,
   input[type="checkbox"]:indeterminate + label::before {
     background-color: $green;
-    border-color: $green;
+    border-color: $brown80;
   }
 
   input[type="checkbox"]:checked + label::after {
