@@ -21,11 +21,7 @@ describe("<HighlightedText>", () => {
       }
     ];
     const component = shallow(
-      <HighlightedText
-        singingStyle="spoken"
-        phrases={phrases}
-        currentPhraseID="I/1"
-      />
+      <HighlightedText phrases={phrases} currentPhraseID="I/1" />
     );
     expect(component).toMatchSnapshot();
   });
