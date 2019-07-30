@@ -17,6 +17,8 @@
   padding-right: 1rem;
   position: sticky;
   top: 0;
+  overflow-y: scroll;
+  max-height: 100vh;
 
   ul {
     margin-bottom: 2rem;
