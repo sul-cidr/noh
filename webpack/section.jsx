@@ -154,10 +154,6 @@ export default class App extends Component {
                 role="presentation"
                 className={`highlighted-text__container ${
                   this.state.isHighlightedTextOn ? "is-open" : ""
-                } ${
-                  this.props.singingStyle && this.props.singingStyle !== ""
-                    ? ""
-                    : "disabled"
                 }`}
                 onClick={event =>
                   this.handleToggle(event, "isHighlightedTextOn")
@@ -166,14 +162,8 @@ export default class App extends Component {
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
                   <h3>{toggle} Libretto</h3>
-                  <div className="transcription__title">
-                    <p>
-                      Singing style: <span>{this.props.singingStyle}</span>
-                    </p>
-                  </div>
                 </div>
                 <HighlightedTextContainer
-                  singingStyle={this.props.singingStyle}
                   phrases={this.props.captions}
                   currentPhraseID="I/1"
                 />
@@ -255,7 +245,6 @@ App.propTypes = {
       endTime: PropTypes.shape({ value: PropTypes.number })
     })
   ).isRequired,
-  singingStyle: PropTypes.string,
   startTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
@@ -283,13 +272,6 @@ App.propTypes = {
       vocalRange: PropTypes.shape({})
     })
   ).isRequired
-};
-
-App.defaultProps = {
-  // currentTime: 0.0,
-  // startTime: 0,
-  // isPlaying: false
-  singingStyle: ""
 };
 
 // If main app
