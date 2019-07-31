@@ -9,6 +9,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
   >
     <button
       className="sentence-control__prev"
+      disabled={true}
       onClick={[Function]}
     >
       <i
@@ -33,6 +34,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
     </div>
     <button
       className="sentence-control__next"
+      disabled={false}
       onClick={[Function]}
     >
       <i
@@ -260,6 +262,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
   >
     <button
       className="sentence-control__prev"
+      disabled={false}
       onClick={[Function]}
     >
       <i
@@ -284,6 +287,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
     </div>
     <button
       className="sentence-control__next"
+      disabled={true}
       onClick={[Function]}
     >
       <i
@@ -2299,6 +2303,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         >
           <button
             className="sentence-control__prev"
+            disabled={true}
             onClick={[Function]}
           >
             <i
@@ -2323,6 +2328,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
           </div>
           <button
             className="sentence-control__next"
+            disabled={false}
             onClick={[Function]}
           >
             <i
