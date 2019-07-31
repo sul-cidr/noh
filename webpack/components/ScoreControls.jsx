@@ -66,10 +66,11 @@ class ScoreControls extends Component {
         .findIndex(phrase => currentTime >= phrase.startTime.value) +
         1);
 
-    const nextPhraseIndex = Math.min(
-      currentPhraseIndex + 1,
-      phrases.length - 1
-    );
+    const lastPhraseStartTime = phrases[phrases.length - 1].startTime.value;
+    const nextPhraseIndex =
+      currentTime >= lastPhraseStartTime
+        ? null
+        : Math.min(currentPhraseIndex + 1, phrases.length - 1);
     const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
 
     return [prevPhraseIndex, currentPhraseIndex, nextPhraseIndex];
