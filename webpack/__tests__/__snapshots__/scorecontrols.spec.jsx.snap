@@ -26,7 +26,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
       <span
         className="sentence-control__current"
       >
-        1
+        4
         /
         3
       </span>
@@ -1395,11 +1395,12 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         },
       ]
     }
+    startTime={1192}
     updateScoreToggles={[MockFunction]}
     updateStartTime={[MockFunction]}
   >
     <ScoreControls
-      currentTime={0}
+      currentTime={1192}
       duration={2000}
       isBeatOn={true}
       isDanceOn={true}
@@ -2286,7 +2287,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
           },
         ]
       }
-      startTime={0}
+      startTime={1192}
       updateScoreToggles={[Function]}
       updateStartTime={[Function]}
     >
@@ -2342,12 +2343,12 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
           >
             <Connect(TimelineScrubber)
               duration={2000}
-              startTime={0}
+              startTime={1192}
             >
               <TimelineScrubber
-                currentTime={0}
+                currentTime={1192}
                 duration={2000}
-                startTime={0}
+                startTime={1192}
                 updateCurrentTime={[Function]}
               >
                 <div
