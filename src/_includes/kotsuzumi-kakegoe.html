@@ -1,5 +1,9 @@
 <ul class="mini-cards__container">
-  {% if page.nohkan-pattern != 'takane' %}<li class="mini-cards__element"><a href="/soundfiles/kotsuzumi-yo.m4a" target="_blank">yo</a></li>{% endif %}
-  {% if page.nohkan-pattern != 'takane-hane' %}<li class="mini-cards__element"><a href="/music/nohkan/takane-hane" target="_blank">ho</a></li>{% endif %}
-  {% if page.nohkan-pattern != 'takane' %}<li class="mini-cards__element"><a href="/music/nohkan/takane" target="_blank">iya</a></li>{% endif %}
+{% include audio-clip.html src="kotsuzumi-yo-noncongruent_01.m4a" text="yo (flexible)" %}
+{% include audio-clip.html src="kotsuzumi-yo.m4a" text="yo (strict)" %}
+{% include audio-clip.html src="kotsuzumi-ho.m4a" text="ho (flexible)" %}
+{% include audio-clip.html src="kotsuzumi-ho-noncongruent_01.m4a" text="ho (strict)" %}
+
+{% include audio-clip.html src="kotsuzumi-iya_01.m4a" text="iya (flexible)" %}
+{% include audio-clip.html src="kotsuzumi-iyo.m4a" text="iyo (strict)" %}
 </ul>
