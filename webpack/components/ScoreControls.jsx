@@ -101,6 +101,10 @@ class ScoreControls extends Component {
         <div className="sentence-control">
           <button
             className="sentence-control__prev"
+            disabled={
+              this.props.currentTime <= this.props.startTime ||
+              prevPhraseIndex === null
+            }
             onClick={() =>
               prevPhraseIndex !== null &&
               this.props.updateStartTime(
@@ -120,6 +124,7 @@ class ScoreControls extends Component {
           </div>
           <button
             className="sentence-control__next"
+            disabled={nextPhraseIndex === null}
             onClick={() =>
               nextPhraseIndex !== null &&
               this.props.updateStartTime(
