@@ -79,6 +79,22 @@ describe("<ScoreControls>", () => {
   });
 
   it("handles prev button", () => {
+    const mockStore = configureMockStore();
+    const defaultState = DEFAULT_STATE;
+    defaultState.currentTime.time = phrases[1].startTime.value;
+    store = mockStore(defaultState);
+    wrapper = mount(
+      <Provider store={store}>
+        <ScoreControls
+          phrases={phrases}
+          duration={2000}
+          startTime={phrases[0].startTime.value}
+          updateScoreToggles={jest.fn()}
+          updateStartTime={jest.fn()}
+        />
+      </Provider>
+    );
+
     const action = {
       type: "SET_CURRENT_TIME",
       payload: { time: phrases[0].startTime.value, origin: "ScoreControls" }
