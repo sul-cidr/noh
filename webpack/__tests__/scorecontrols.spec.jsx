@@ -14,11 +14,14 @@ describe("<ScoreControls>", () => {
 
   beforeEach(() => {
     const mockStore = configureMockStore();
-    store = mockStore(DEFAULT_STATE);
+    const defaultState = DEFAULT_STATE;
+    defaultState.currentTime.time = phrases[0].startTime.value;
+    store = mockStore(defaultState);
     wrapper = mount(
       <Provider store={store}>
         <ScoreControls
           phrases={phrases}
+          startTime={phrases[0].startTime.value}
           duration={2000}
           updateScoreToggles={jest.fn()}
           updateStartTime={jest.fn()}
