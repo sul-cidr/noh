@@ -113,4 +113,51 @@ describe("<ScoreControls>", () => {
     button.simulate("click");
     expect(store.getActions()[1]).toEqual(action);
   });
+
+  it("ignores prev button when currentTime is outside section (earlier)", () => {
+    const mockStore = configureMockStore();
+    const defaultState = DEFAULT_STATE;
+    defaultState.currentTime.time = 0;
+    store = mockStore(defaultState);
+    wrapper = mount(
+      <Provider store={store}>
+        <ScoreControls
+          phrases={phrases}
+          duration={2000}
+          startTime={phrases[0].startTime.value}
+          updateScoreToggles={jest.fn()}
+          updateStartTime={jest.fn()}
+        />
+      </Provider>
+    );
+
+    const action = undefined;
+    const button = wrapper.find("button.sentence-control__prev").first();
+    button.simulate("click");
+    expect(store.getActions()[1]).toEqual(action);
+  });
+
+  it("ignores next button when currentTime is outside section (later)", () => {
+    const mockStore = configureMockStore();
+    const defaultState = DEFAULT_STATE;
+    const duration = 2000;
+    defaultState.currentTime.time = phrases[0].startTime.value + duration + 10;
+    store = mockStore(defaultState);
+    wrapper = mount(
+      <Provider store={store}>
+        <ScoreControls
+          phrases={phrases}
+          duration={duration}
+          startTime={phrases[0].startTime.value}
+          updateScoreToggles={jest.fn()}
+          updateStartTime={jest.fn()}
+        />
+      </Provider>
+    );
+
+    const action = undefined;
+    const button = wrapper.find("button.sentence-control__next").first();
+    button.simulate("click");
+    expect(store.getActions()[1]).toEqual(action);
+  });
 });
