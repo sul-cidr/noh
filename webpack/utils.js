@@ -76,6 +76,40 @@ export function determineCurrentPhrase(currentTime, phrases) {
     : 0;
 }
 
+export function determinePhraseIndices({
+  currentTime,
+  duration,
+  startTime,
+  phrases
+}) {
+  if (currentTime < startTime) {
+    return [null, null, 0];
+  }
+  // The ugly +1 is here to account for fractions of seconds; not 100%
+  //  satisfactory, but doing it properly would mean rewriting a lot of code.
+  if (currentTime > startTime + duration + 1) {
+    return [phrases.length - 1, null, null];
+  }
+
+  const currentPhraseIndex =
+    phrases.length -
+    (phrases
+      .filter(Boolean)
+      .reverse()
+      .findIndex(phrase => currentTime >= phrase.startTime.value) +
+      1);
+
+  const lastPhraseStartTime = phrases[phrases.length - 1].startTime.value;
+  const nextPhraseIndex =
+    currentTime >= lastPhraseStartTime
+      ? null
+      : Math.min(currentPhraseIndex + 1, phrases.length - 1);
+  const prevPhraseIndex =
+    currentPhraseIndex > 0 ? currentPhraseIndex - 1 : null;
+
+  return [prevPhraseIndex, currentPhraseIndex, nextPhraseIndex];
+}
+
 // Returns Redux Dev Tools Extension
 export function reduxDevTools() {
   return (
