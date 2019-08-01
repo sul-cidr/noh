@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime, setScoreToggles } from "../actionCreators";
 import TimelineScrubber from "./TimelineScrubber";
-import { convertSecondsToHhmmss } from "../utils";
+import { convertSecondsToHhmmss, determinePhraseIndices } from "../utils";
 
 const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
 
@@ -46,42 +46,12 @@ class ScoreControls extends Component {
     });
   }
 
-  determinePhraseIndices() {
-    const { currentTime, duration, startTime, phrases } = this.props;
-
-    if (currentTime < startTime) {
-      return [null, null, 0];
-    }
-    // The ugly +1 is here to account for fractions of seconds; not 100%
-    //  satisfactory, but doing it properly would mean rewriting a lot of code.
-    if (currentTime > startTime + duration + 1) {
-      return [phrases.length - 1, null, null];
-    }
-
-    const currentPhraseIndex =
-      phrases.length -
-      (phrases
-        .filter(Boolean)
-        .reverse()
-        .findIndex(phrase => currentTime >= phrase.startTime.value) +
-        1);
-
-    const lastPhraseStartTime = phrases[phrases.length - 1].startTime.value;
-    const nextPhraseIndex =
-      currentTime >= lastPhraseStartTime
-        ? null
-        : Math.min(currentPhraseIndex + 1, phrases.length - 1);
-    const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
-
-    return [prevPhraseIndex, currentPhraseIndex, nextPhraseIndex];
-  }
-
   render() {
     const [
       prevPhraseIndex,
       currentPhraseIndex,
       nextPhraseIndex
-    ] = this.determinePhraseIndices();
+    ] = determinePhraseIndices(this.props);
     const remainingTime = convertSecondsToHhmmss(
       clamp(
         this.props.startTime + this.props.duration - this.props.currentTime,

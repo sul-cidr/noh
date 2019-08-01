@@ -98,7 +98,12 @@ export default class App extends Component {
     const score =
       this.props.phrases && this.props.phrases.length > 0 ? (
         [
-          <Score key="score" phrases={this.props.phrases} />,
+          <Score
+            key="score"
+            startTime={this.props.startTime}
+            duration={this.props.duration}
+            phrases={this.props.phrases}
+          />,
           <ScoreControls
             key="score-controls"
             isPrevSentenceOn={false}
