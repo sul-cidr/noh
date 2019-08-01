@@ -1,7 +1,6 @@
-
 <ul class="mini-cards__container">
-  {% if page.nohkan-pattern != 'takane' %}<li class="mini-cards__element"><a href="/music/nohkan/takane" target="_blank">yo</a></li>{% endif %}
-  {% if page.nohkan-pattern != 'nakanotakane' %}<li class="mini-cards__element"><a href="/music/nohkan/nakanotakane" target="_blank">ho</a></li>{% endif %}
-  {% if page.nohkan-pattern != 'takane-hane' %}<li class="mini-cards__element"><a href="/music/nohkan/takane-hane" target="_blank">iya</a></li>{% endif %}
-  {% if page.nohkan-pattern != 'takanemikusari' %}<li class="mini-cards__element"><a href="/music/nohkan/takanemikusari" target="_blank">yoi</a></li>{% endif %}
+  {% include audio-clip.html src="http://d7rcwrflqckpu.cloudfront.net/soundfiles/taiko-ho.m4a" text="ho" %}
+  {% include audio-clip.html src="http://d7rcwrflqckpu.cloudfront.net/soundfiles/taiko-iya.m4a" text="iya" %}
+  {% include audio-clip.html src="http://d7rcwrflqckpu.cloudfront.net/soundfiles/taiko-yo.m4a" text="yo" %}
+  {% include audio-clip.html src="http://d7rcwrflqckpu.cloudfront.net/soundfiles/taiko-yoi.m4a" text="yoi" %}
 </ul>

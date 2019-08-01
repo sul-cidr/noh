@@ -134,6 +134,8 @@ Hosei University, The Nogami Memorial Noh Theater Research Institute;<br>
 Ritusmeikan University, Art Research Center;<br>
  University of the Pacific</p>
 
+ <h2>SPECIAL THANKS</h2>
+ <p>TOKUMARU Yoshihiko<br>YUASA Joji<br>TAKAHASHI Terumi
   </div>
 
 </main>
