@@ -65,17 +65,6 @@ export function createBeatsArray(grid) {
   return [...Array(beatsArray.length).keys()].map(i => beatsArray[i] || "");
 }
 
-export function determineCurrentPhrase(currentTime, phrases) {
-  return currentTime > 0
-    ? phrases.length -
-        (phrases
-          .filter(Boolean)
-          .reverse()
-          .findIndex(phrase => currentTime >= phrase.startTime.value) +
-          1)
-    : 0;
-}
-
 export function determinePhraseIndices({
   currentTime,
   duration,
