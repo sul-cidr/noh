@@ -28,6 +28,11 @@ $score-checkbox-height: 1.5rem;
   background: none;
   cursor: pointer;
   @include text(md);
+
+  &:disabled {
+    cursor: default;
+    opacity: .4;
+  }
 }
 
 .sentence-control__prev {
