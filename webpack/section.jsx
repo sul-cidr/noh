@@ -96,25 +96,29 @@ export default class App extends Component {
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const score =
-      this.props.phrases && this.props.phrases.length > 0 ? (
-        [
-          <Score
-            key="score"
-            startTime={this.props.startTime}
-            duration={this.props.duration}
-            phrases={this.props.phrases}
-          />,
-          <ScoreControls
-            key="score-controls"
-            isPrevSentenceOn={false}
-            startTime={this.props.startTime}
-            duration={this.props.duration}
-            phrases={this.props.phrases}
-          />
-        ]
-      ) : (
-        <div className="score score-no-phrases">No score in this section</div>
-      );
+      this.props.phrases && this.props.phrases.length > 0
+        ? [
+            <Score
+              key="score"
+              startTime={this.props.startTime}
+              duration={this.props.duration}
+              phrases={this.props.phrases}
+            />
+          ]
+        : [
+            <div key="score" className="score score-no-phrases">
+              No score in this section
+            </div>
+          ];
+    score.push(
+      <ScoreControls
+        key="score-controls"
+        isPrevSentenceOn={false}
+        startTime={this.props.startTime}
+        duration={this.props.duration}
+        phrases={this.props.phrases}
+      />
+    );
     const toggle = (
       <svg
         xmlns="http://www.w3.org/2000/svg"

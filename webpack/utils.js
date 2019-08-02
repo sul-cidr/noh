@@ -71,6 +71,9 @@ export function determinePhraseIndices({
   startTime,
   phrases
 }) {
+  if (phrases.length == 0) {
+    return [null, null, null];
+  }
   if (currentTime < startTime) {
     return [null, null, 0];
   }
