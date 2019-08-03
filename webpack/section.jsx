@@ -117,7 +117,17 @@ export default class App extends Component {
         startTime={this.props.startTime}
         duration={this.props.duration}
         phrases={this.props.phrases}
-      />
+      />);
+    const shodan_name = this.props.shodanType.hasOwnProperty("value") ? (
+      <a
+        href={"/catalog-of-shodan/" + this.props.shodanType.value}
+        title={this.props.title}
+        target="_blank"
+      >
+        {this.props.title}
+      </a>
+    ) : (
+      this.props.title
     );
     const toggle = (
       <svg
@@ -153,7 +163,7 @@ export default class App extends Component {
                   {this.props.playName}
                 </a>
               </div>
-              <h1>{this.props.title}</h1>
+              <h1>{shodan_name}</h1>
             </div>
             <div className="sidebar__container">
               <Narrative narrative={this.props.narrative} />
@@ -261,6 +271,7 @@ App.propTypes = {
   startTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
+  shodanType: PropTypes.shape({ value: PropTypes.string }),
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
