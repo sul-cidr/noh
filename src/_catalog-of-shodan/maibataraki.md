@@ -76,6 +76,9 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 </div>
-
+<h3>Examples in the Plays:</h3>
+<p>
+<a href="/kokaji/maibataraki/" target="_blank">Kokaji - Maibataraki</a>
+</p>
 </div>
 </main>

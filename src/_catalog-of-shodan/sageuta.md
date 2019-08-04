@@ -31,6 +31,10 @@ second-level-menu-active: catalog-shodan
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Sageuta-Score_sl.mp4"
     %}
-    </div>
 
+    <h3>Example in the Play:</h3>
+    <p>
+    <a href="/hashitomi/sageuta/" target="_blank">Hashitomi - Sageuta</a>
+    </p>
+        </div>
 </main>

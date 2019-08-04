@@ -35,7 +35,7 @@ second-level-menu-active: catalog-shodan
 
 
     <p>Delivery in <a href="/music/voices#Spoken" target="_blank"><em>kotoba</em></a> is recognizable by the declamation's rising tone, identified in the video with bold syllables. On the other hand, the vibrato associated with the singing mode helps identify the switching point between the two modes.</p>
-<p>Although the name <em>kakaru</em> appears in the chanting books of most schools, the term is not normally adopted as a name of shōdan in Japanese academic context. Instead of <em>kakaru</em>, the relevant segments are referred to as <em>kakeai</em> (dialogue), <em>sashi</em> or are given no name.
+<p>Although the name <em>kakaru</em> appears in the chanting books of most schools, the term is not normally adopted as a name of shōdan in Japanese academic context. Instead of <em>kakaru</em>, the relevant segments are referred to as <em>kakeai</em> (dialogue), <em>sashi</em> or are given no name.</p>
 
   <div class="tabs-container">
     <div class="tabs-container__links">
@@ -69,7 +69,12 @@ second-level-menu-active: catalog-shodan
       </div>
     </div>
   </div>
-
+  <h3>Examples in the Play:</h3>
+  <p>
+  <a href="/hashitomi/kakaru-1/" target="_blank">Hashitomi - Kakaru 1</a><br>
+  <a href="/hashitomi/kakaru-2/" target="_blank">Hashitomi - Kakaru 2</a><br>
+  <a href="/hashitomi/kakaru-3/" target="_blank">Hashitomi - Kakaru 3</a>
+  </p>
 
     </div>
 </main>

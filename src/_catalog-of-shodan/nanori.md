@@ -50,6 +50,10 @@ second-level-menu-active: catalog-shodan
       </div>
     </div>
   </div>
-
+  <h3>Examples in the Plays:</h3>
+  <p>
+  <a href="/hashitomi/nanori/" target="_blank">Hashitomi - Nanori</a><br>
+  <a href="/kokaji/nanori/" target="_blank">Kokaji - Nanori</a>
+  </p>
 </div>
 </main>

@@ -38,5 +38,10 @@ second-level-menu-active: catalog-shodan
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score_sl.mp4"
 
     %}
+    <h3>Examples in the Play:</h3>
+    <p>
+    <a href="/kokaji/mondo-1/" target="_blank">Kokaji - Mondō 1</a><br>
+    <a href="/kokaji/mondo-2/" target="_blank">Kokaji - Mondō 2</a>
+    </p>
 </div>
 </main>

@@ -32,7 +32,7 @@ second-level-menu-active: catalog-shodan
     In contrast with the recitative style of <a href="/music/voices#Sashinori" target="_blank"><em>sashinori</em></a> chant, <em>einori</em> chant is characterized by the prolongation of certain syllables and a vocal line whose contour is more dynamically shaped.
 </p>
 
-    </div>
+
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score_sl.mp4"
@@ -40,5 +40,9 @@ second-level-menu-active: catalog-shodan
       link="Hashitomi – <em>Issei</em> chant"
       paragraph1="Sung in yowagin mode by the shite and jiutai."
     %}
-
+    <h3>Example in the Play:</h3>
+    <p>
+    <a href="/hashitomi/issei/" target="_blank">Hashitomi - Issei</a>
+    </p>
+        </div>
 </main>

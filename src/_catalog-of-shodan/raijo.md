@@ -55,11 +55,15 @@ second-level-menu-active: catalog-shodan
   <p>2c- Hi hyo i-ya-u ra-ro ra-fu o-hya ro-ru ra-ra</p>
   <p>1d- O-hya rya fu hya ro-ru-ri hi hyo</p>
 
-    </div>
+
 
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Raijo_Score_sl.mp4"
 
     %}
-
+    <h3>Example in the Play:</h3>
+    <p>
+    <a href="/kokaji/raijo/" target="_blank">Kokaji - Raijo</a>
+    </p>
+        </div>
 </main>

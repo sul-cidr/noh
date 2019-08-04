@@ -44,5 +44,10 @@ second-level-menu-active: catalog-shodan
   <p>The performance of an entrance music varies according to the action on the stage. In the play version, the nohkan player anticipated that he needed to extend the duration of the <em>notto</em>-music, hence he interjected a new pattern between the second and third one:</p>
   <p>O-hya ro-ru-ra</p>
 
+  <h3>Example in the Play:</h3>
+  <p>
+  <a href="/kokaji/notto/" target="_blank">Kokaji - Notto</a>
+  </p>
+
     </div>
 </main>

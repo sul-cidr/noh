@@ -35,6 +35,9 @@ second-level-menu-active: catalog-shodan
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Notto_Song_Score.mp4"
     %}
-
+    <h3>Example in the Play:</h3>
+    <p>
+    <a href="/kokaji/notto/" target="_blank">Kokaji - Notto</a>
+    </p>
 </div>
 </main>
