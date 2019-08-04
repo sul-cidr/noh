@@ -1,6 +1,7 @@
 ---
 layout: website
 name: dances
+title: Shimai Dances
 filter-act:
 filter-type:
 second-level-menu-active: movement
@@ -17,7 +18,7 @@ permalink: /shimai-dances/
     <h2 id="Intro">Shimai Dances</h2>
         <p>Using a jiutai limited to two members, the <em>shimai</em> version of Hashitomi and Kokaji’s <em>kuse</em> and <em>kiri</em> is presented from two different angles: front and side.
         Each dance is followed by our intepretation of its structure, where  <em>kata</em> are grouped into sequences. The numbers refer to the stage’s <a href="/staging/stage/#Squares" target="_blank">Squares</a>.</p><p>
-      The Kokaji's <em>kuse</em> is divided into two parts: The shite sits center-stage during the first part, and dances during the second one. Only its second part is performed when presented as a <em>shimai</em>. 
+      The Kokaji's <em>kuse</em> is divided into two parts: The shite sits center-stage during the first part, and dances during the second one. Only its second part is performed when presented as a <em>shimai</em>.
         We have included both parts to illustrate and stress the point that in a context of little motion, every simple <em>kata</em> such as sliding left or right, head motion, raising on knee, and so on, become important, as each movement carries meaning.
         </p>
 

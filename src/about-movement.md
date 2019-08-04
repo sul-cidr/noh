@@ -17,7 +17,7 @@ permalink: /about-movement/
     </aside>
     <section class="sidebar-contents__section">
   <div class="text-container">
-    <h2 class="collapsible collapsible-closed">Movement</h2>
+    <h2 class="collapsible collapsible-closed" id="Intro">Movement</h2>
 
   <p>Despite its apparent minimalism the movement in Noh is vital, sophisticated and performed with greatest precision. It serves structural, easthetic and narrative functions. It co-creates <em>kurai</em>, the overarching essential expressive quality of the play.</p>
 
@@ -35,7 +35,8 @@ permalink: /about-movement/
 
 <h4 id="Mimetic">Mimetic kata</h4>
 <p>They serve to add depth to the narrative rather than establish structure. Commonly used mimetically to illustrate meaning of sung text, they are often focused on one body part with a unique stipulation ex. if the fan is closed or open. They become more frequent as the play progresses and are normally found in such narrative shōdan as <em>kuse</em> and <em>kiri</em>.</p>
-
+<h3></h3>
+<p>For more information and video examples of kata please refer to the <a href="/movement/" target="_blank">Catalog of Kata</a>. The recordings feature KONGŌ Tatsunori.</p>
 
 <h3 id="Modes">Modes of Movement</h3>
 <p>Zeami (c.1363 - c.1443) in his theoretical work has defined three basic modes of movement:<br>
@@ -58,8 +59,9 @@ Instrumental dances can also be performed independently from a play. This form o
 
 <p>When performing a <em>shimai</em> or <em>maibayashi</em>, the dancer is not masked and wears a crest-adorned <em>kimono</em> and  <em>hakama</em> rather than a costume. Moreover, the fan is larger than the one used in a play, and it is handled differently by the members of the jiutai. Whereas they kneel with hands in their pockets, fans resting on the stage floor when inactive, they hold the fan upwards when singing in a play, but hold it resting on their laps when singing in a <em>shimai</em> or <em>maibayashi</em>.</p>
 
-<p>The substantial yet not exhaustive Catalog of Kata and Shimai Dances found on this website feature KONGŌ Tatsunori from the Kongō school.
-</p>
+<h3></h3>
+<p>For video examples and analysis of shimai from Hashitomi and Kokaji please refer to <a href="/shimai-dances/" target="_blank">Shimai Dances</a>. The recordings feature KONGŌ Tatsunori accompanied by the chanting of brothers UDAKA Tatsushige and Norishige.</p>
+<h3></h3>
 <p> For more information about movement please see an extended chapter at the <a href="https://jparc.online/nogaku/performance/movement/">JPARC Nōgaku Site</a>.</p>
   </div>
   </section>

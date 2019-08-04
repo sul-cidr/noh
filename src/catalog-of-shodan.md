@@ -1,5 +1,7 @@
 ---
 layout: website
+title: Catalog of Shōdan
+menu-active: elements
 second-level-menu-active: catalog-of-shodan
 third-level-menu-active: catalog-of-shodan
 permalink: /catalog-of-shodan/
