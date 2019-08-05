@@ -74,6 +74,10 @@ function attachFilters() {
             elem.style.display = show > 0 ? "inherit" : "none";
           }
         });
+        // Avoid jump scrolling down to last (often invisible) card
+        document
+          .querySelectorAll("a.filters__card")[0]
+          .parentElement.scrollIntoView();
       },
       false
     );
