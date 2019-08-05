@@ -69,6 +69,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
   >
     <button
       className="score-controls__filters-button"
+      disabled={false}
       onClick={[Function]}
     >
       Filters
@@ -322,6 +323,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
   >
     <button
       className="score-controls__filters-button"
+      disabled={false}
       onClick={[Function]}
     >
       Filters
@@ -2391,6 +2393,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         >
           <button
             className="score-controls__filters-button"
+            disabled={false}
             onClick={[Function]}
           >
             Filters

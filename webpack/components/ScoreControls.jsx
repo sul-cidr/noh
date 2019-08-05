@@ -87,9 +87,10 @@ class ScoreControls extends Component {
           <div className="sentence-control__status">
             <span className="sentence-control__title">Sentence:</span>
             <span className="sentence-control__current">
-              {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/{
-                this.props.phrases.length
-              }
+              {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/{this
+                .props.phrases.length
+                ? this.props.phrases.length
+                : "--"}
             </span>
           </div>
           <button
@@ -119,6 +120,7 @@ class ScoreControls extends Component {
           <button
             className="score-controls__filters-button"
             onClick={() => this.filtersPopup.classList.toggle("hidden")}
+            disabled={!this.props.phrases.length}
           >
             Filters
           </button>
