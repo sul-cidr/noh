@@ -10,7 +10,7 @@ import NohkanLine from "./NohkanLine";
 import PercussionLine from "./PercussionLine";
 import ScoreTextLine from "./ScoreTextLine";
 
-import { createBeatsArray, determineCurrentPhrase } from "../utils";
+import { createBeatsArray, determinePhraseIndices } from "../utils";
 
 class Score extends Component {
   constructor(props) {
@@ -27,14 +27,16 @@ class Score extends Component {
   }
 
   componentWillReceiveProps(props) {
-    const currentPhraseId = determineCurrentPhrase(
-      props.currentTime,
-      props.phrases
-    );
+    const [
+      prevPhraseIndex,
+      currentPhraseIndex,
+      nextPhraseIndex
+    ] = determinePhraseIndices(props);
+
     this.setState({
-      previousPhrase: props.phrases[currentPhraseId - 1],
-      currentPhrase: props.phrases[currentPhraseId],
-      nextPhrase: props.phrases[currentPhraseId + 1],
+      previousPhrase: props.phrases[prevPhraseIndex],
+      currentPhrase: props.phrases[currentPhraseIndex],
+      nextPhrase: props.phrases[nextPhraseIndex],
       toggles: props.toggles
     });
   }
