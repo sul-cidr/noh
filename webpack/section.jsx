@@ -117,15 +117,33 @@ export default class App extends Component {
         startTime={this.props.startTime}
         duration={this.props.duration}
         phrases={this.props.phrases}
-      />);
-    const shodan_name = this.props.shodanType.hasOwnProperty("value") ? (
-      <a
-        href={"/catalog-of-shodan/" + this.props.shodanType.value}
-        title={this.props.title}
-        target="_blank"
-      >
-        {this.props.title}
-      </a>
+      />
+    );
+    const shodanName = this.props.shodanType.value ? (
+      <span>
+        <a
+          className="shodan__outlink"
+          href={`/catalog-of-shodan/${this.props.shodanType.value}`}
+          title={`Open the page for ${
+            this.props.title
+          } in the Catalog of Shōdan`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {this.props.title}
+        </a>{" "}
+        <a
+          className="shodan__link-icon"
+          href={`/catalog-of-shodan/${this.props.shodanType.value}`}
+          title={`Open the page for ${
+            this.props.title
+          } in the Catalog of Shōdan`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {"\uf05a"}
+        </a>
+      </span>
     ) : (
       this.props.title
     );
@@ -163,7 +181,7 @@ export default class App extends Component {
                   {this.props.playName}
                 </a>
               </div>
-              <h1>{shodan_name}</h1>
+              <h1>{shodanName}</h1>
             </div>
             <div className="sidebar__container">
               <Narrative narrative={this.props.narrative} />
@@ -297,6 +315,9 @@ App.propTypes = {
     })
   ).isRequired
 };
+
+// Just in case the Shōdan Type line in the data spreadsheet isn't filled in
+App.defaultProps = { shodanType: { value: undefined } };
 
 // If main app
 /* istanbul ignore if */
