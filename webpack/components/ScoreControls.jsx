@@ -3,19 +3,9 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { setCurrentTime, setScoreToggles } from "../actionCreators";
 import TimelineScrubber from "./TimelineScrubber";
-import { convertSecondsToHhmmss } from "../utils";
+import { convertSecondsToHhmmss, determinePhraseIndices } from "../utils";
 
 const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
-
-export const determineCurrentPhrase = (currentTime, phrases) =>
-  currentTime > 0
-    ? phrases.length -
-      (phrases
-        .filter(Boolean)
-        .reverse()
-        .findIndex(phrase => currentTime >= phrase.startTime.value) +
-        1)
-    : 0;
 
 class ScoreControls extends Component {
   constructor(props) {
@@ -57,15 +47,11 @@ class ScoreControls extends Component {
   }
 
   render() {
-    const currentPhraseIndex = determineCurrentPhrase(
-      this.props.currentTime,
-      this.props.phrases
-    );
-    const nextPhraseIndex = Math.min(
-      currentPhraseIndex + 1,
-      this.props.phrases.length - 1
-    );
-    const prevPhraseIndex = Math.max(currentPhraseIndex - 1, 0);
+    const [
+      prevPhraseIndex,
+      currentPhraseIndex,
+      nextPhraseIndex
+    ] = determinePhraseIndices(this.props);
     const remainingTime = convertSecondsToHhmmss(
       clamp(
         this.props.startTime + this.props.duration - this.props.currentTime,
@@ -85,7 +71,12 @@ class ScoreControls extends Component {
         <div className="sentence-control">
           <button
             className="sentence-control__prev"
+            disabled={
+              this.props.currentTime <= this.props.startTime ||
+              prevPhraseIndex === null
+            }
             onClick={() =>
+              prevPhraseIndex !== null &&
               this.props.updateStartTime(
                 this.props.phrases[prevPhraseIndex].startTime.value
               )
@@ -96,12 +87,16 @@ class ScoreControls extends Component {
           <div className="sentence-control__status">
             <span className="sentence-control__title">Sentence:</span>
             <span className="sentence-control__current">
-              {currentPhraseIndex + 1}/{this.props.phrases.length}
+              {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/{
+                this.props.phrases.length
+              }
             </span>
           </div>
           <button
             className="sentence-control__next"
+            disabled={nextPhraseIndex === null}
             onClick={() =>
+              nextPhraseIndex !== null &&
               this.props.updateStartTime(
                 this.props.phrases[nextPhraseIndex].startTime.value
               )
