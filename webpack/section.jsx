@@ -85,7 +85,7 @@ export default class App extends Component {
   }
 
   handleToggle(event, toggleName) {
-    if (event.target.tagName === "H3") {
+    if (["H3", "path", "svg"].includes(event.target.tagName)) {
       this.setState(prevState => ({
         [toggleName]: !prevState[toggleName]
       }));
