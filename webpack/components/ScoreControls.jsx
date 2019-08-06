@@ -85,8 +85,24 @@ class ScoreControls extends Component {
             <i className="fas fa-step-backward" />
           </button>
           <div className="sentence-control__status">
-            <span className="sentence-control__title">Sentence:</span>
-            <span className="sentence-control__current">
+            <span
+              className={
+                "sentence-control__title " +
+                (!this.props.phrases.length
+                  ? "sentence-control__title-disabled"
+                  : "")
+              }
+            >
+              Sentence:
+            </span>
+            <span
+              className={
+                "sentence-control__current " +
+                (!this.props.phrases.length
+                  ? "sentence-control__current-disabled"
+                  : "")
+              }
+            >
               {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/{this
                 .props.phrases.length
                 ? this.props.phrases.length
