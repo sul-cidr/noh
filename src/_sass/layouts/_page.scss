@@ -122,7 +122,9 @@
     padding: 0.5rem;
     position: sticky;
     position: -webkit-sticky;
-    top: 4rem;
+    top: 0;
+    overflow-y: scroll;
+    max-height: 100vh;
 
     h4 {
       color: $brown;
