@@ -111,7 +111,7 @@ $score-checkbox-height: 1.5rem;
   @include text(xxs);
   @include uppercase();
 
-  &:hover {
+  &:not(:disabled):hover {
     background-color: $beige-light;
   }
 
