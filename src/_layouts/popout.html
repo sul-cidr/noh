@@ -111,19 +111,37 @@
   const playName = window.location.pathname.trim().split("/")[2];
 
   if (playName in plays) {
+    let timeFrom, timeTo;
     let mediaFragUrl = plays[playName].videoUrl;
     const urlFragParams = parseUrlFragment();
     if (Object.keys(urlFragParams).includes("t")) {
-      const [timeFrom, timeTo] = urlFragParams.t.split(',');
-      this.timeFrom = validateTimestamp(timeFrom) || "";
-      this.timeTo = validateTimestamp(timeTo) || "";
-      mediaFragUrl = `${mediaFragUrl}#t=${this.timeFrom},${this.timeTo}`.replace(/,$/, "");
+      [timeFrom, timeTo] = urlFragParams.t.split(',');
+      timeFrom = validateTimestamp(timeFrom) || "";
+      timeTo = validateTimestamp(timeTo) || "";
+      mediaFragUrl = `${mediaFragUrl}#t=${timeFrom},${timeTo}`.replace(/,$/, "");
     }
 
     const video = document.createElement("video");
     video.setAttribute("controls", "");
     video.setAttribute("controlslist", "nodownload");
-    video.autoplay = true;
+    video.autoplay = Object.keys(urlFragParams).includes("autoplay");
+    if (Object.keys(urlFragParams).includes("autoclose")) {
+      if (timeTo) {
+        video.addEventListener("pause", (event) => {
+          console.log(video.currentTime);
+          console.log(timeTo);
+          if (video.currentTime.toFixed(0) == timeTo) {
+            window.close();
+          }
+        });
+      } else {
+        video.addEventListener("ended", (event) => {
+          console.log(video.currentTime);
+          console.log(timeTo);
+          window.close();
+        });
+      }
+    }
 
     const source = document.createElement("source");
     source.setAttribute("src", mediaFragUrl);
