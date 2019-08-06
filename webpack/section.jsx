@@ -107,7 +107,7 @@ export default class App extends Component {
           ]
         : [
             <div key="score" className="score score-no-phrases">
-              No score in this section
+              No score in this shōdan
             </div>
           ];
     score.push(
