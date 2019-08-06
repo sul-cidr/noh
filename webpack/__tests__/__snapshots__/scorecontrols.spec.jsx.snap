@@ -17,7 +17,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
       />
     </button>
     <div
-      className="sentence-control__status"
+      className="sentence-control__status "
     >
       <span
         className="sentence-control__title"
@@ -271,7 +271,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
       />
     </button>
     <div
-      className="sentence-control__status"
+      className="sentence-control__status "
     >
       <span
         className="sentence-control__title"
@@ -2313,7 +2313,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
             />
           </button>
           <div
-            className="sentence-control__status"
+            className="sentence-control__status "
           >
             <span
               className="sentence-control__title"
