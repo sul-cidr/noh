@@ -8,7 +8,7 @@ const SectionControls = props => (
         className="section-controls__button"
         disabled={props.prevSectionURL === ""}
       >
-        Previous section
+        Previous Shōdan
       </button>
     </a>
     <a href={props.nextSectionURL}>
@@ -16,7 +16,7 @@ const SectionControls = props => (
         className="section-controls__button"
         disabled={props.nextSectionURL === ""}
       >
-        Next Section
+        Next Shōdan
       </button>
     </a>
   </div>
