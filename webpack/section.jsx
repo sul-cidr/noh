@@ -169,7 +169,11 @@ export default class App extends Component {
                 }
                 onKeyPress={null}
               >
-                <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
+                <div
+                  className={`sidebar__collapsable-title sidebar__collapsable-title--libretto ${
+                    this.props.captions.length ? "" : "disabled"
+                  }`}
+                >
                   <h3>{toggle} Libretto</h3>
                 </div>
                 <HighlightedTextContainer
