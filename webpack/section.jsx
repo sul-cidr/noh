@@ -188,7 +188,7 @@ export default class App extends Component {
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
-                  <h3>{toggle} Section map</h3>
+                  <h3>{toggle} Shōdan map</h3>
                   <ShodanTimeline
                     mode="url"
                     sections={this.props.sections}
