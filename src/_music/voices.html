@@ -1,299 +1,406 @@
----
-layout: website
-menu-active: elements
-second-level-menu-active: music
-third-level-menu-active: voices
-fourth-level-menu-active: voices
----
+---
+layout: website
+menu-active: elements
+second-level-menu-active: music
+third-level-menu-active: voices
+fourth-level-menu-active: voices
+---
+
+{% include second-menu-elements.html %}
+
+{% include menu-instrument-small.html %}
+
+<main class="page-content">
+
+  <div class="wrapper sidebar-contents">
+    <aside class="sidebar-contents__table">
+      {% include menu-voices.html %}
+    </aside>
+    <section class="sidebar-contents__section">
+      <div class="text-container">
+        <h2 id="Roles">Actors</h2>
+        <p>There are five performing and one non-performing type of actors in Noh:</p>
+      </div>
+      <table class="content-table">
+        <tr class="content-table__row--header">
+          <td class="content-table__column">Type of Actor</td>
+          <td class="content-table__column">Role</td>
+          <td class="content-table__column">Schools</td>
+        </tr>
+        <tr class="content-table__row">
+          <td id="Shite" class="content-table__column"><strong>Shite</strong></td>
+          <td class="content-table__column">The primary actor and vocal soloist is usually masked. In some plays the shite has a companion actor called the shite-tsure who can also be masked. Although the tsure can also dance, if only one is to dance it will always be the shite. The story revolves around him. At first, we usually know nothing if not very little about his true identity. Often, he is a character from another world, embodying for example a divine being or deceased person. In the latter case, (and considering that most plays are composed of two acts) the first act shite is often a spirit who has taken the form of a person, and the ghost or apparition of the same spirit in the second act. In some plays the shite has one or few companion actors called <strong>Shite Tsure</strong>.</td>
+          <td class="content-table__column">Kanze<br>Hōshō<br>Komparu<br>Kongō<br>Kita</td>
+        </tr>
+        <tr class="content-table__row">
+          <td id="Waki" class="content-table__column"><strong>Waki</strong></td>
+          <td class="content-table__column">In traditional Noh repertoire the secondary actor is a realistic male character living in the narrative's present hence he is never masked. We usually know who he is from the beginning since he typically introduces himself immediately after arriving on stage. He engages the shite and provides him with a reason to re-appear and perform. Plays without a waki are exceptionally few. There are three majors types of waki characters: a shrine official or retainer; a warrior; but most commonly a traveling monk. In some plays the waki has one or few unmasked companion actors called <strong>Wakizure.</td>
+          <td class="content-table__column">Hōshō<br>Fukuō<br>Takayasu</td>
+        </tr>
+        <tr class="content-table__row">
+          <td id="Jiutai" class="content-table__column"><strong>Jiutai</strong></td>
+          <td class="content-table__column">It is in the early 17th century that the chorus called jiutai became a permanent stage member. Originally, the shite and waki sung in unison what constitutes today's jiutai's part. The members of the group are not masked. Today's standard membership varies between 6 and 10 performers. For selected academic examples we have used a two-person jiutai. The role of the jiutai is to keep the story going, setting the scene, describing the characters and actions.  It does not have an identity of its own within the story. Singing in unison only, it can either be a narrator or ‘speak’ for the shite or waki. Its first singing moment in a play called <em>shodō</em>, always marks an important point in the development of a play. The members of the jiutai are always from the same school as the shite.</td>
+          <td class="content-table__column">Same as shite</td>
+        </tr>
+
+        <tr id="Kokata" class="content-table__row">
+          <td class="content-table__column"><strong>Kokata</strong></td>
+          <td class="content-table__column">A role performed by a child actor. In a play the kokata is always from the same school as the shite.</td>
+          <td class="content-table__column">Same as shite</td>
+        </tr>
+        <tr class="content-table__row">
+          <td id="Koken" class="content-table__column"><strong>Kōken</strong></td>
+          <td class="content-table__column">Often perceived as ‘assistant’, the kōken is in fact an important non-performing actor. The shite’s kōken is typically his senior and always from the same school. His active function is to oversee all stage activity, help with on stage changing of costume when necessary, prompting in a normal voice if the shite forgets a line and handling props as required. He also has the responsibility to take over should the shite be unable to complete the performance. Sitting in the back stage-right, the kōken provides the shite with an important anchoring presence on stage.</td>
+          <td class="content-table__column">Same as shite</td>
+        </tr>
+        <tr class="content-table__row">
+          <td id="Ai" class="content-table__column"><strong>Ai-kyōgen</strong></td>
+          <td class="content-table__column">Most plays are composed of two acts. The first one is usually concluded by the exit of the mae-shite (first act shite). During the time he changes costume to transform into the nochi-shite (second act shite) an ai-kyōgen performs the interlude between two acts. Usually not masked and a realistic character, he often provides a summary of the first act and context for the second by engaging in a discussion with the waki if the latter has remained on stage. When the ai-kyōgen plays the role of a diety it can be masked as it is the case in Kokaji. </td>
+          <td class="content-table__column">Ōkura<br>Izumi</td>
+        </tr>
+      </table>
+
+    <div class="text-container">
+        <h2 id="Sound">Vocal Sounds</h2>
+        <p>The vocal production in Noh is highly stylized. It is based on diaphragmatic breathing that reverberates through head, chest and oral cavity. It is meant to project sufficient loudness even when the singer wears a mask. </p><p>The vocal tone-center is relative. The central tone is instigated by the first person who starts a chant. The tone range is informed by the character he is impersonating. The secondary actor signal his lower position by providing lighter, faster and higher tones (ex. Wakizure in Kokaji). Larger width of the range can reflect that the protagonist is a man while narrower a woman. </p><p>There are two general styles of <em>utai</em>: spoken and chanted. Both are intoned in full voice and never in falsetto. </p>
 
-{% include second-menu-elements.html %}
-
-{% include menu-instrument-small.html %}
-
-<main class="page-content">
-
-  <div class="wrapper sidebar-contents">
-    <aside class="sidebar-contents__table">
-      {% include menu-voices.html %}
-    </aside>
-    <section class="sidebar-contents__section">
-      <div class="text-container">
-        <h2 id="Roles">Actors</h2>
-        <p>There are five types of actors in Noh:</p>
-      </div>
-      <table class="content-table">
-        <tr class="content-table__row--header">
-          <td class="content-table__column">Type of Actor</td>
-          <td class="content-table__column">Role</td>
-          <td class="content-table__column">Schools</td>
-        </tr>
-        <tr class="content-table__row">
-          <td class="content-table__column">Shite</td>
-          <td class="content-table__column">The primary actor and vocal soloist is usually masked. In some plays the shite has a companion actor called the shite-tsure who can also be masked. Although the tsure can also dance, if only one is to dance it will always be the shite. The story revolves around him. At first, we usually know nothing if not very little about his true identity. Often, he is a character from another world, embodying for example a divine being or deceased person. In the latter case, (and considering that most plays are composed of two acts) the first act shite is often a spirit who has taken the form of a person, and the ghost or apparition of the same spirit in the second act.</td>
-          <td class="content-table__column">Kanze<br>Hōshō<br>Komparu<br>Kongō<br>Kita</td>
-        </tr>
-        <tr class="content-table__row">
-          <td class="content-table__column">Kokata</td>
-          <td class="content-table__column">A role performed by a child actor. In a play the kokata is always from the same school as the shite.</td>
-          <td class="content-table__column">Same as shite</td>
-        </tr>
-        <tr class="content-table__row">
-          <td class="content-table__column">Jiutai</td>
-          <td class="content-table__column">It is in the early 17th century that the chorus called jiutai became a permanent stage member. Originally, the shite and waki sung in unison what constitutes today's jiutai's part. The members of the group are not masked. Today's standard membership varies between 6 and 10 performers. For selected academic examples we have used a two-person jiutai. The role of the jiutai is to keep the story going, setting the scene, describing the characters and actions.  It does not have an identity of its own within the story. Singing in unison only, it can either be a narrator or ‘speak’ for the shite or waki. Its first singing moment in a play called <em>shodō</em>, always marks an important point in the development of a play. The members of the jiutai are always from the same school as the shite. </td>
-          <td class="content-table__column">Same as shite</td>
-        </tr>
-        <tr class="content-table__row">
-          <td class="content-table__column">Kōken</td>
-          <td class="content-table__column">Often perceived as ‘assistant’, the kōken is in fact an important non-performing actor. The shite’s kōken is typically his senior and always from the same school. His active function is to oversee all stage activity, help with on stage changing of costume when necessary, prompting in a normal voice if the shite forgets a line and handling props as required. He also has the responsibility to take over should the shite be unable to complete the performance. Sitting in the back stage-right, the kōken provides the shite with an important anchoring presence on stage.</td>
-          <td class="content-table__column">Same as shite</td>
-        </tr>
-        <tr class="content-table__row">
-          <td class="content-table__column">Waki</td>
-          <td class="content-table__column">In traditional Noh repertoire the secondary actor is a realistic male character living in the narrative's present hence he is never masked. We usually know who he is from the beginning since he typically introduces himself immediately after arriving on stage. He engages the shite and provides him with a reason to re-appear and perform. Plays without a waki are exceptionally few. There are three majors types of waki characters: a shrine official or retainer; a warrior; but most commonly a traveling priest. In some plays the waki has one or few unmasked companion actors called wakizure.</td>
-          <td class="content-table__column">Hōshō<br>Fukuō<br>Takayasu</td>
-        </tr>
-        <tr class="content-table__row">
-          <td class="content-table__column">Ai-kyōgen</td>
-          <td class="content-table__column">Most plays are composed of two acts. The first one is usually concluded by the exit of the mae-shite (first act shite). During the time he changes costume to transform into the nochi-shite (second act shite) an ai-kyōgen performs the interlude between two acts. Usually not masked and a realistic character, he often provides a summary of the first act and context for the second by engaging in a discussion with the waki if the latter has remained on stage. When the ai-kyōgen plays the role of a diety it can be masked as it is the case in Kokaji. </td>
-          <td class="content-table__column">Ōkura<br>Izumi</td>
-        </tr>
-      </table>
-
-    <div class="text-container">
-        <h2 id="Sound">Vocal Sounds</h2>
-        <p>The vocal production in Noh is highly stylized. It is based on diaphragmatic breathing that reverberates through head, chest and oral cavity. It is meant to project sufficient loudness even when the singer wears a mask. </p><p>The vocal pitch center is relative. The central note is instigated by the first person who starts a chant. The pitch range is informed by the category of the actor or the character whom they play. The secondary actors signal their lower position by providing lighter, faster and higher pitches (ex. Wakizure in Kokaji). Larger width of the range can reflect that the protagonist is a man while narrower a woman. </p><p>There are two general styles of <em>utai</em>: spoken and chanted. Both are intoned in full voice and never in falsetto. </p>
-        <h3 id="Spoken">Spoken</h3>
+        <h3 id="Spoken">Spoken</h3>
+        <p>
+        The spoken sections called <em>kotoba</em> consist of unmetered prose. Usually, the recitation divides a sentence into two parts: a gradual rising tone reaching a peak followed by a falling off.  The highest tone falls on the second syllable of the second part. In the text transcription of the excerpts, syllables in bold are used to identify the higher tones that lead to a descent. </p>
+        <p>
+        Sections in <em>kotoba</em>  are always delivered by an actor or two, but never by the jiutai. When considering the dramatic unfolding of a play, the difference between the two is important. The text delivered in <em>kotoba</em>  by a single actor tends to be factual, whereas spoken text between two actors usually carries information that furthers and nourishes the unfolding drama.</p>
         <p>
-        The spoken sections called <em>kotoba</em> consist of non-rhythmical prose. Usually, the recitation divides a sentence into two parts: a gradual rising tone reaching a peak followed by a falling off.  The highest pitch falls on the second syllable of the second part. In the text transcription of the excerpts, syllables in bold are used to identify the higher pitches that lead to a descent. </p><p>
-    Sections in <em>kotoba</em> are always delivered by an actor, never by the jiutai. The difference in style between the shite's and waki's <em>kotoba</em> can be heard in the following three examples: <br>Hashitomi/Nanori – waki <br>Kokaji/Nanori – wakizure <br>Kokaji/Mondō – shite and waki.
+        The difference in style between the shite's and waki's <em>kotoba</em> can be heard in the following three examples:</p>
+        <div class="tabs-container">
+          <div class="tabs-container__links">
+            <div class="wrapper">
+              <div id="KotobaStyles"></div>
+            </div>
+          </div>
+          <div class="tabs-container__content">
+            <div class="wrapper">
+              <section title="Waki" id="KotobaWaki">
+                {% include video-no-background.html
+
+                  src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score_sl.mp4"
+
+                  link=""
+
+                  title="Hashitomi – Nanori "
+
+                  paragraph1="The calm delivery in the lower register is well suited for a traveling monk."
+
+                %}
+
+              </section>
+              <section title="Wakizure" id="KotobaWakizure">
+
+                {% include video-no-background.html
+
+                  src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score_sl.mp4"
+
+                  link=""
+
+                  title="Kokaji – Nanori "
+
+                  paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
+
+                %}
+
+
+              </section>
+              <section title="Shite and Waki" id="KotobaShiteWaki">
+                {% include video-no-background.html
+
+                  src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score_sl.mp4"
+
+                  link=""
+
+                  title="Kokaji – Mondō"
 
-        </p>
+                  paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
 
+                  paragraph2="The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki."
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Nanori_Score_sl.mp4"
-          link="Waki"
-          title="Hashitomi – Nanori "
-          paragraph1="The calm delivery in the lower register is well suited for a traveling priest."
-        %}
+                %}
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Nanori_Score_sl.mp4"
-          link="wakizure"
-          title="Kokaji – Nanori "
-          paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
-        %}
+              </section>
+            </div>
+          </div>
+        </div>
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Mondō_Score_sl.mp4"
-          link="Shite and waki "
-          title="Kokaji – Mondō"
-          paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
-          paragraph2="The first point relates to the gradual rising tone. While they both use a rising line to get to a peak-tone, the overall ascent of the shite’s line is more subdued compared with the waki’s. The second point relates to the rhythm of delivery, the shite’s being much slower than the waki."
-        %}
+
 
-            <h3 id="Chanted">Chanted</h3>
-            <p>
-    The chanted music called <em>utai</em> can be sung in two different styles: <em>yowagin</em> – a gentler melodic singing and <em>tsuyogin</em> – a more forceful and dramatic one.
-            </p>
+
 
-          <h4 id="Yowagin">Yowagin</h4>
-            <p>
-            When singing in <em>yowagin</em> style, the actor uses a modest vibrato producing melodies with clearly perceptible stable pitches. This style is used for passages expressing elegance and pathos.
-             </p><p>
-            Even if the tonal center of a chant in Noh is not absolute but determined by the performer, the chant’s intervals are fixed. The entire range covers two octaves and it is divided into four register zones: Very low, Low, Prime, and High, each one covering more or less the span of a perfect fourth.
-             </p><p>
-            Tones being relative they are referred to by name rather than by pitch. The three most important tones are the Low, Medium, and High (in our example B2, E3, and A3 respectively), and the majority of the chants are set around these three nuclear-tones. Intermediate pitches are used to melodically flow from one of these nuclear-tones to another.</p><p>
-            Finally, the lower and higher ranges are extended with the addition of the low <em>ryo</em> and the <em>ryo</em> (E2 and F#2 respectively) for the former, and the <em>kuri</em> and high <em>kuri</em> (C4 and E4 respectively) for that later.
+
+            <h3 id="Chanted">Chanted</h3>
+            <p>
+    The chanted music called <em>utai</em> can be sung in two different styles: <em>yowagin</em> – a gentler melodic singing and <em>tsuyogin</em> – a more forceful and dramatic one.
+            </p>
+
+          <h4 id="Yowagin">Yowagin</h4>
+            <p>
+            When singing in <em>yowagin</em> style, the actor uses a modest vibrato producing melodies with clearly perceptible stable tones. This style is used for passages expressing elegance and pathos.
+             </p><p>
+            Even if the tonal center of a chant in Noh is not absolute but determined by the performer, the chant’s intervals are fixed. The entire range covers two octaves and is divided into four register zones: Very low, Low, Medium, and High, each one covering more or less the span of a perfect fourth.
+             </p><p>
+            Tones being relative are referred to by a general name. The three most important tones are the Low, Medium, and High (in our example B2, E3, and A3 respectively), and the majority of the chants are set around these three nuclear-tones. Intermediate tones are used to melodically flow from a nuclear-tone to another.</p><p>
+            Finally, the lower and higher ranges are extended with the addition of the low <em>ryo</em> and the <em>ryo</em> (E2 and F#2 respectively) for the former, and the <em>kuri</em> and high <em>kuri</em> (C4 and E4 respectively) for that latter.
+
+            </p>
+            {% include image-no-background.html src="/assets/images/Yowagin-range.jpg" %}
+
+            {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hagoromo-Kuri_yowagin_Range_sl.mp4"
+            link="Yowagin"
+            title="Hagoromo/Kuri"
+            paragraph1="The module is named after the <em>kuri </em> tone from the higher register. For the most part, the melodic material of the piece focuses on the High tone with few incursions on the <em>kuri</em> shown in bold in the text of the video."
+            paragraph2="Upon reaching the <em>kuri</em>’s signature cadential melisma, the <em>hon-yuri</em>, the melodic material switches to the Medium before cadencing on the Low. (The pitch material in this performance is a major second lower than the one shown in the Figure above)."
+            paragraph3="The registers in the video are symbolized by the following letters: L (Low), M (Medium), H (High), K (Kuri)."%}
+
+
+
+          <h4 id="Tsuyogin">Tsuyogin</h4>
+
+            <p>While singing in tsuyogin style, the actor uses a notable vibrato with utterances usually contained within a small range span. This style is used for most dramatic passages expressing celebration, excitement, bravery, or solemnity, among others.
+     </p><p>
+    The actors do not attempt to produce specific melodic tones. Their singing oscillates mainly within a minor third shown below as Low and High tones. However, at specific moments the High tone is embellished with higher ones.
+    </p>
+
+            {% include image-no-background.html src="/assets/images/Tsuyoggin-range.png" %}
+      {% include video-no-background.html
+        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kuri_tsuyogin_Range_sl.mp4"
+        link="Tsuyogin"
+        title="Kokaji/Kuri"
+        paragraph1="The section's name refers to the high tone <em>kuri</em>; hence this section's melody is set in the higher register. "
+        paragraph2="The registers in the video are symbolized by the following letters: L (Low), H (High), K (Kuri)."
+      %}
+
+
+        <h2 id="Rhythm"> Vocal Rhythm</h2>
+
+        <p> The vocal parts fall into two main categories of rhythm: congruent when their parts align with specific beats, and non-congruent when they do not.</p>
+
+        <h3 id="Congruent">Congruent (<em>hyōshi-ai</em>)</h3>
+        <p>A Noh chant is said to be congruent when its syllables coincide with the measure’s beats. There are three possible congruent settings: <a href="/music/voices#Hiranori" target="_blank"><em>hiranori</em></a>, <a href="/music/voices#Onori" target="_blank"><em>ōnori</em></a>, and <a href="/music/voices#Chunori" target="_blank"><em>chūnori</em></a>.</p>
+
+        <h4 id="Hiranori">Hiranori</h4>
+
+        <p>Verse consisting of alternating lines of -seven and five- syllables is considered to be the most lyrical and elegant form of Japanese poetry as seen in haiku, waka, and renga, among others. <em>Hiranori</em> is the basic rhythmic form used in Noh where the poetic twelve syllables match with the <em>honji</em>’s eight-beat. Considering that there is a possibility of two syllables per beat for a total of sixteen syllables per <em>honji</em>, this leaves space for four caesuras. The standard positions for the caesuras are on beats 1, 3, 5 and 8; dividing the <em>honji</em> in two asymmetric hemistichs: one of four beats and a half, the other one with three beats and a half.</p>
+
+        <p>The <em>hiranori</em> setting has two singing styles: <a href="/music/voices/#Tsuzuke-utai" target="_blank"><em>tsuzuke-utai</em></a> and <a href="/music/voices/#Mitsuji-utai" target="_blank"><em>mitsuji-utai</em></a>. The explanation of the two individual styles is followed by a <a href="/music/voices/#Combination" target="_blank">demonstration in context</a>, which shows how they can complement each other in a chant.The following examples are based on Hashitomi’s first <em>ageuta</em>.</p>
+        <div class="tabs-container">
+          <div class="tabs-container__links">
+            <div class="wrapper">
+              <div id="HiranoriStyles"></div>
+            </div>
+          </div>
+          <div class="tabs-container__content">
+            <div class="wrapper">
+              <section title="Tsuzuke-Utai" id="Tsuzuke-Utai">
 
-            </p>
-            {% include image-no-background.html src="/assets/images/Yowagin-range.jpg" %}
 
-            {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hagoromo-Kuri_yowagin_Range_sl.mp4"
-            link="Yowagin"
-            title="Hagoromo/Kuri"
-            paragraph1="The module is named after the <em>kuri </em> tone from the higher register. For the most part, the pitch material of the piece focuses on the High tone with few incursions on the <em>kuri</em> shown in bold in the text of the video."
-            paragraph2="Upon reaching the <em>kuri</em>’s signature cadential melisma, the <em>hon-yuri</em>, the pitch material switches to the Medium before cadencing on the Low. (The pitch material in this performance is a major second lower than the one shown in the Figure above)."
-            paragraph3="The registers in the video are symbolized by the following letters: L (Low), M (Medium), H (High), K (Kuri)."%}
 
+                  <p>When singing in <em>tsuzuke-utai</em>, syllables are held over the first, third, and fifth beats, so that the twelve syllables fit within the <em>honji</em>. In other words, the text is manipulated for the benefit of a steady metric structure, hence the eight beats of the unit are divided in a periodic manner.</p>
 
 
-          <h4 id="Tsuyogin">Tsuyogin</h4>
 
-            <p>While singing in tsuyogin style, the actor uses a notable vibrato with utterances usually contained within a small range span. This style is used for most dramatic passages expressing celebration, excitement, bravery, or solemnity, among others.
-     </p><p>
-    The actors are not attempting to produce specific melodic pitches. Their singing oscillates mainly within a minor third shown below as Low and High tones. However, at specific moments High tones are embellished by higher tones.
-    </p>
+                  <p>The example below shows an academic distribution of the twelve syllables in two groups of seven and five; with the group of seven syllables broken into: 1 + 3 + 3, with the first syllable starting on the upbeat preceding the very first beat. The figure also shows that the syllables preceding the first third and fifth beats are held over the downbeat, as if to avoid competing with the drums' strong strokes that usually fall on at least one of these downbeats. The fourth caesura occurs on the eighth downbeat in order to separate the two lines.</p>
 
-            {% include image-no-background.html src="/assets/images/Tsuyoggin-range.png" %}
-      {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kuri_tsuyogin_Range_sl.mp4"
-        link="Tsuyogin"
-        title="Kokaji/Kuri"
-        paragraph1="The section's name refers to the high pitch <em>kuri</em>; hence this section's melody is set in the higher register. "
-        paragraph2="The registers in the video are symbolized by the following letters: L (Low), H (High), E (Embellishment)."
-      %}
 
 
-        <h2 id="Rhythm"> Vocal Rhythm</h2>
+                  {% include image-no-background.html
 
-        <p> The vocal parts fall into two main categories of rhythm: congruent when their parts align with specific beats, and non-congruent when they do not.</p>
+                    src="/assets/images/StrictHiranori.png"
 
-        <h3 id="Congruent">Congruent (<em>hyōshi-ai</em>)</h3>
-        <p>A Noh chant is said to be congruent when its syllables coincide with the measure’s beats. There are three possible congruent settings: <a href="/music/voices#Hiranori" target="_blank"><em>hiranori</em></a>, <a href="/music/voices#Onori" target="_blank"><em>ōnori</em></a>, and <a href="/music/voices#Chunori" target="_blank"><em>chūnori</em></a>.</p>
+                  %}
 
-        <h4 id="Hiranori">Hiranori</h4>
 
-        <p>Verse consisting of alternating lines of -seven and five- syllables is considered to be the most lyrical and elegant form of Japanese poetry as seen in haiku, waka, and renga, among others. <em>Hiranori</em> is the basic rhythmic form used in Noh where the poetic twelve syllables match with the <em>honji</em>’s eight-beat. Considering that there is a possibility of two syllables per beat for a total of sixteen syllables per <em>honji</em>, this leaves space for four caesuras. The standard positions for the caesuras are on beats 1, 3, 5 and 8; dividing the <em>honji</em> in two asymmetric hemistichs: one of four beats and a half, the other one with three beats and a half.</p>
 
-        <p>The <em>hiranori</em> setting has two singing styles: <a href="/music/voices/#Tsuzuke-utai" target="_blank"><em>tsuzuke-utai</em></a> and <a href="/music/voices/#Mitsuji-utai" target="_blank"><em>mitsuji-utai</em></a>. The explanation of the two individual styles is followed by a <a href="/music/voices/#Combination" target="_blank">demonstration in context</a>, which shows how they can complement each other in a chant.The following examples are based on Hashitomi’s first <em>ageuta</em>.</p>
+                  <p>Here is a more dynamic distribution of the four caesuras, with a setting that follows the grammatical structure of the text.  </p>
 
-        <h5 id="Tsuzuke-utai">Tsuzuke-utai</h5>
 
-        <p>When singing in <em>tsuzuke-utai</em>, syllables are held over the first, third, and fifth beats, so that the twelve syllables fit within the <em>honji</em>. In other words, the text is manipulated for the benefit of a steady metric structure, hence the eight beats of the unit are divided in a periodic manner.</p>
 
-        <p>The example below shows an academic distribution of the twelve syllables in two groups of seven and five; with the group of seven syllables broken into: 1 + 3 + 3, with the first syllable starting on the upbeat preceding the very first beat. The figure also shows that the syllables preceding the first third and fifth beats are held over the downbeat, as if to avoid competing with the drums' strong strokes that usually fall on at least one of these downbeats. The fourth caesura occurs on the eighth downbeat in order to separate the two lines.</p>
+                  {% include image-no-background.html
 
-        {% include image-no-background.html
-          src="/assets/images/StrictHiranori.png"
-        %}
+                    src="/assets/images/Hashitomi-Ageuta1_tsuzukeutai.png"
 
-        <p>Here is a more dynamic distribution of the four caesuras, with a setting that follows the grammatical structure of the text.  </p>
+                  %}
 
-        {% include image-no-background.html
-          src="/assets/images/Hashitomi-Ageuta1_tsuzukeutai.png"
-        %}
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_tsuzukeutai.mp4"
-          link="Tsuzuke utai"
-          title="Hashitomi/Ageuta-1"
-        %}
 
-        <h5 id="Mitsuji-utai">Mitsuji-utai</h5>
+                  {% include video-no-background.html
 
-        <p>When singing in <em>mitsuji-utai</em>, syllables are rarely held over, hence the <em>honji</em> is condensed to fit the text. In other words, the metric structure is manipulated for the benefit of the text's declamation.  Hence, the eight beats of the unit are not periodic.  Compared with <em>tsuzuke-utai</em>, a setting in <em>mitsuji-utai</em> is more dynamic since the melodic momentum is rarely interrupted by held-over tones.</p>
+                    src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_tsuzukeutai.mp4"
 
-        <p>Here is the text from Hashitomi’s first <em>ageuta</em> set in <em>mitsuji-utai</em>, where the condensed first, third, and fifth beats are shown in boxes.</p>
-        {% include image-no-background.html
-          src="/assets/images/Hashitomi-Ageuta1_mitsujiuta.png"
-        %}
+                    link="Tsuzuke utai"
 
-        {% include video.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_mitsujiuta.mp4"
-          link="Mitsuji-utai"
-          title="Hashitomi/Ageuta 1"
-        %}
+                    title="Hashitomi/Ageuta-1"
 
-        <h5 id="Combination">Examples in context</h5>
+                  %}
 
-        <p>In the context of a chant,  <em>mitsuji-utai</em> and <em>tsuzuke-utai</em> are used alternatively to vary and control the rhythmic flow of the chant. The changes from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em> are not left at the discretion of the performers though, rather the music is prescribed, and it typically includes back and forth transition between the two. The cycle <em>mitsuji</em>- to <em>tsuzuke-utai</em> always starts with <em>mitsuji-utai</em> leading to <em>tsuzuke-utai</em>, which itself either leads to a cadential pattern or to another <em>mitsuji-utai</em>, to start another cycle.</p>
 
-        <p>It is interesting to note that sparse <a href="/music/otsuzumi-kotsuzumi/#Mitsuji" target="_blank"><em>mitsuji</em></a> percussion patterns are usually used to accompany the part of a chant set in the declamatory <em>mitsuji-utai</em>, where the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <a href="/music/otsuzumi-kotsuzumi/#Tsuzuke" target="_blank"><em>tsuzuke</em></a> patterns are usually used to accompany part of a chant set in the <em>tsuzuke-utai</em>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
 
-        <p>Here is the actual text setting for the first <em>ageuta</em> from Hashitomi. This chant being rather short, it includes only one motion from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em>, with the first three lines set in <em>mitsuji-utai</em> accompanied with sparse <em>mitsuji</em> patterns in the percussion, and the last three in <em>tsuzuke-utai</em> accompanied with steady <em>tsuzuke</em> patterns in the percussion.</p>
+              </section>
+              <section title="Mitsuji-Utai" id="Mitsuji-Utai">
+                      <p>When singing in <em>mitsuji-utai</em>, syllables are rarely held over, hence the <em>honji</em> is condensed to fit the text. In other words, the metric structure is manipulated for the benefit of the text's declamation.  Hence, the eight beats of the unit are not periodic.  Compared with <em>tsuzuke-utai</em>, a setting in <em>mitsuji-utai</em> is more dynamic since the melodic momentum is rarely interrupted by held-over tones.</p>
 
-        <p>As it is typical of an <em>ageuta</em>, its first sentence is repeated. The iteration is preceded by an <a href="/music/otsuzumi-kotsuzumi/#Uchikiri" target="_blank"><em>uchikiri</em></a>.</p>
 
-        {% include image-no-background.html
-          src="/assets/images/Hashitomi-Ageuta1_Utai.png"
-        %}
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_Utai_sl.mp4"
-          link="Hiranori styles in context"
-          title="Hashitomi/Ageuta 1"
-        %}
-        <h4 id="Onori">Ōnori</h4>
+                      <p>Here is the text from Hashitomi’s first <em>ageuta</em> set in <em>mitsuji-utai</em>, where the condensed first, third, and fifth beats are shown in boxes.</p>
 
-        <p>A text setting in <em>ōnori</em> has one syllable per beat. The first syllable of each line of text comes on the second or second beat-and-half. Because of its periodic quality, this text setting is often used before or after a dance or in the concluding module (<em>shōdan</em>) of a play: the <em>kiri</em>.</p>
+                      {% include image-no-background.html
 
-        {% include image-no-background.html
-          src="/assets/images/Onori.png"
-        %}
+                        src="/assets/images/Hashitomi-Ageuta1_mitsujiuta.png"
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Noriji2_Onori.mp4"
-          link="Ōnori"
-          title="Kokaji/Noriji 2"
-        %}
+                      %}
 
-        <h4 id="Chunori">Chūnori</h4>
 
-        <p>Text set in chūnori has two syllables per beat. The first syllable of each line of text typically comes on the first or first beat and a half, with a complete line finishing within the span of a single <em>honji</em>.</p>
 
-        <p>Because of its lively quality, this text setting is often used for description of an active moment, such as a battle. Although, it is common practice for a <em>shōdan</em> whose text is set to <em>chūnori</em> to include passages set in <em>hiranori</em>, its eight beats are almost never contracted akin to <em>mitsuji-utai</em>, rather, they remain steady.</p>
-        {% include image-no-background.html
-          src="/assets/images/Chunori.png"
-        %}
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kiri_Chunori.mp4"
-          link="Chūnori"
-          title="Kokaji/Kiri"
-        %}
+                      {% include video-no-background.html
 
-        <h4 id="TextSetting">Text setting exceptions</h4>
+                        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_mitsujiuta.mp4"
 
-        <p> Occasionally, lines of text do not fit within the 7 + 5 model. The number of syllables for the first hemistich can vary between two and ten, and between three and eight for the second one. Hence, there are two methods that allow for the rhythmic adjustment of syllables: the first one involves starting the line's first syllable on a different beat, whereas the second method involves the insertion of measures of various sizes.</p>
+                        link="Mitsuji-utai"
 
-        <p>The standard position for the first syllable of a line of text is on the upbeat leading to the <em>honji's</em> first downbeat. Thus, one method of fitting a larger than twelve syllables line of text within a <em>honji</em> consist of starting its first syllable earlier than the standard upbeat to the first beat. For example, the last line of text of Hashitomi’s first ageuta is comprised of thirteen syllables: 8 + 5.</p>
+                        title="Hashitomi/Ageuta 1"
 
-        {% include image-no-background.html
-          src="/assets/images/FirstMethod-Text.png"
-          %}
+                      %}
 
-        <p>In this case, ‘Ta’ the first syllable starts on the eighth downbeat as seen below instead of the usual upbeat to the very first beat:</p>
+              </section>
+              <section title="Examples in Context" id="ExamplesInContext">
+                <p>In the context of a chant,  <em>mitsuji-utai</em> and <em>tsuzuke-utai</em> are used alternatively to vary and control the rhythmic flow of the chant. The changes from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em> are not left at the discretion of the performers though, rather the music is prescribed, and it typically includes back and forth transition between the two. The cycle <em>mitsuji</em>- to <em>tsuzuke-utai</em> always starts with <em>mitsuji-utai</em> leading to <em>tsuzuke-utai</em>, which itself either leads to a cadential pattern or to another <em>mitsuji-utai</em>, to start another cycle.</p>
 
-        {% include image-no-background.html
-          src="/assets/images/FirstMethod-Rhythm.png"
-        %}
 
-        <p>The second method of setting lines of text that exceed twelve syllables consists of introducing measures of two (<em>okuriji</em>), four (<em>toriji</em>), or six (<em>kataji</em>) beats. For example, here are the first three lines of Kokaji’s kiri. Its syllabic structure is: 7 + 5, 7 + 6, and 9 + 5.</p>
 
-        {% include image-no-background.html
-          src="/assets/images/2ndMethod-Text.png"
-        %}
-        <p> A <em>toriji</em> (measure of four beats) has been inserted between the second and third <em>honji</em> (eight beat unit) in order to counter-balance the odd syllabic structure of the text. When it comes to measures other than the <em>honji</em>, the <em>toriji</em> is far more common that the two- and six-beat measures.</p>
-        {% include image-no-background.html
-          src="/assets/images/2ndMethod-Rhythm.png"
-        %}
+                <p>It is interesting to note that sparse <a href="/music/otsuzumi-kotsuzumi/#Mitsuji" target="_blank"><em>mitsuji</em></a> percussion patterns are usually used to accompany the part of a chant set in the declamatory <em>mitsuji-utai</em>, where the limited number of percussion strokes is counter-balanced by the melodic line unfolding with little or no rests. On the other hand, the regular <a href="/music/otsuzumi-kotsuzumi/#Tsuzuke" target="_blank"><em>tsuzuke</em></a> patterns are usually used to accompany part of a chant set in the <em>tsuzuke-utai</em>, where syllables held over to accommodate the measure’s eight beats, creates rest in the melodic line that are counter-balanced by the steady percussion strokes.</p>
 
-        <h3 id="Non-congruent">Non-congruent (<em>hyōshi-awazu</em>)</h3>
 
-        <p>The emphasis for non-congruent chants is on the text and melodic line. With this text setting there is no coordination between syllables and the unit’s eight beats. There are two types of non-congruent chant: <em>sashinori</em> and <em>einori</em>.</p>
 
-        <p><em>Sashinori</em> chant is always accompanied by the ōtsuzumi and kotsuzumi in a flexible setting, while <em>einori</em> chant can be accompanied by the hand percussion instruments in either strict or flexible setting. If the chant includes a nohkan part it will also be non-congruent.</p>
+                <p>Here is the actual text setting for the first <em>ageuta</em> from Hashitomi. This chant being rather short, it includes only one motion from <em>mitsuji-utai</em> to <em>tsuzuke-utai</em>, with the first three lines set in <em>mitsuji-utai</em> accompanied with sparse <em>mitsuji</em> patterns in the percussion, and the last three in <em>tsuzuke-utai</em> accompanied with steady <em>tsuzuke</em> patterns in the percussion.</p>
 
 
-        <h4 id="Sashinori">Sashinori</h4>
 
-        <p><em>Sashinori</em> chants are sung in a recitative style, accompanied by the ōtsuzumi and kotsuzumi in flexible setting, favoring the sparse <em>mitsuji</em> patterns. On the other hand, the <em>Kuri</em> also accompanied by the two hand-drums in flexible setting, favors the <em>tsuzuke</em> pattern.  There is a Japanese expression that describes well the idea behind a non-congruent chant accompanied by percussions in flexible rhythmic setting: <em>fusoku furi</em> which means ‘not separate but not together’.</p>
+                <p>As it is typical of an <em>ageuta</em>, its first sentence is repeated. The iteration is preceded by an <a href="/music/otsuzumi-kotsuzumi/#Uchikiri" target="_blank"><em>uchikiri</em></a>.</p>
 
-        <p>The <em>sashi</em> from Kokaji, sung in <em>tsuyogin</em> mode, is composed of two parts. Each one begins by a solo performed the shite followed by a reply by the jiutai. The reply is broken up into melodic lines rhythmically characterized by a pulse that is very slightly accelerated before coming to a sustained tone. The sustained tones are positioned on syllables to reinforce the text's structure or meaning. For the most part, each line stays on the high pitch which is usually preceded with an inflection from below. Finally, the chant concludes on the low tone.</p>
 
-        <p>The provided score for this excerpt shows the first part is composed of six lines, each one concluded by a sustained tone: the first one presented by the shite the next five by the jiutai, identified in the score with the numbers 1 to 6. It is the two percussionists' responsibility to position their four <em>mitsuji</em> patterns against these six lines.</p>
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Sahi_Sashinori.mp4"
-          link="Sashinori"
-          title="Kokaji/Sashi"
-        %}
+                {% include image-no-background.html
 
-        <h4 id="Einori">Einori</h4>
+                  src="/assets/images/Hashitomi-Ageuta1_Utai.png"
 
-        <p>Einori chants are usually accompanied by the ōtsuzumi and kotsuzumi in strict setting. The <em>issei-chant</em> from Hashitomi is sung in <em>yowagin</em> style, it focuses on only four pitches: the Medium and High, and their respective Intermediate pitch a tone lower. It is divided up into two segments: the first one sung by the shite, the second one by the jiutai.</p>
+                %}
 
-        <p>The hand-percussion instruments start both parts with sparse <em>mitsuji</em> patterns before moving on with <em>tsuzuke</em> patterns. It is while performing the <em>mitsuji</em> patterns that the <em>ōtsuzumi</em> player has some flexibility to adapt to the melodic line. This is particularly clear with this recording. One can recognize the ōtsuzumi player's use of the flexible <em>kakegoe</em> when performing the first <em>mitsuji</em> patterns, whereas the kotsuzumi player uses the strict <em>kakegoe</em> throughout the chant.
-        </p>
 
-        {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score_sl.mp4"
-          link="Einori"
-          title="Hashitomi/Issei"
-        %}
-      </div>
-    </section>
-  </div>
 
-</main>
+                {% include video-no-background.html
+
+                  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Hashitomi-Ageuta1_Utai_sl.mp4"
+
+                  link="Hiranori styles in context"
+
+                  title="Hashitomi/Ageuta 1"
+
+                %}
+
+              </section>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <h4 id="Onori">Ōnori</h4>
+
+        <p>A text setting in <em>ōnori</em> has one syllable per beat. The first syllable of each line of text comes on the second or second beat-and-half. Because of its periodic quality, this text setting is often used before or after a dance or in the concluding module (<em>shōdan</em>) of a play: the <em>kiri</em>.</p>
+
+        {% include image-no-background.html
+          src="/assets/images/Onori.png"
+        %}
+
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Noriji2_Onori.mp4"
+          link="Ōnori"
+          title="Kokaji/Noriji 2"
+        %}
+
+        <h4 id="Chunori">Chūnori</h4>
+
+        <p>Text set in chūnori has two syllables per beat. The first syllable of each line of text typically comes on the first or first beat and a half, with a complete line finishing within the span of a single <em>honji</em>.</p>
+
+        <p>Because of its lively quality, this text setting is often used for description of an active moment, such as a battle. Although, it is common practice for a <em>shōdan</em> whose text is set to <em>chūnori</em> to include passages set in <em>hiranori</em>, its eight beats are almost never contracted akin to <em>mitsuji-utai</em>, rather, they remain steady.</p>
+        {% include image-no-background.html
+          src="/assets/images/Chunori.png"
+        %}
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Kiri_Chunori.mp4"
+          link="Chūnori"
+          title="Kokaji/Kiri"
+        %}
+
+        <h4 id="TextSetting">Text setting exceptions</h4>
+
+        <p> Occasionally, lines of text do not fit within the 7 + 5 model. The number of syllables for the first hemistich can vary between two and ten, and between three and eight for the second one. Hence, there are two methods that allow for the rhythmic adjustment of syllables: the first one involves starting the line's first syllable on a different beat, whereas the second method involves the insertion of measures of various sizes.</p>
+
+        <p>The standard position for the first syllable of a line of text is on the upbeat leading to the <em>honji's</em> first downbeat. Thus, one method of fitting a larger than twelve syllables line of text within a <em>honji</em> consist of starting its first syllable earlier than the standard upbeat to the first beat. For example, the last line of text of Hashitomi’s first ageuta is comprised of thirteen syllables: 8 + 5.</p>
+
+        {% include image-no-background.html
+          src="/assets/images/FirstMethod-Text.png"
+          %}
+
+        <p>In this case, ‘Ta’ the first syllable starts on the eighth downbeat as seen below instead of the usual upbeat to the very first beat:</p>
+
+        {% include image-no-background.html
+          src="/assets/images/FirstMethod-Rhythm.png"
+        %}
+
+        <p>The second method of setting lines of text that exceed twelve syllables consists of introducing measures of two (<em>okuriji</em>), four (<em>toriji</em>), or six (<em>kataji</em>) beats. For example, here are the first three lines of Kokaji’s kiri. Its syllabic structure is: 7 + 5, 7 + 6, and 9 + 5.</p>
+
+        {% include image-no-background.html
+          src="/assets/images/2ndMethod-Text.png"
+        %}
+        <p> A <em>toriji</em> (measure of four beats) has been inserted between the second and third <em>honji</em> (eight beat unit) in order to counter-balance the odd syllabic structure of the text. When it comes to measures other than the <em>honji</em>, the <em>toriji</em> is far more common that the two- and six-beat measures.</p>
+        {% include image-no-background.html
+          src="/assets/images/2ndMethod-Rhythm.png"
+        %}
+
+        <h3 id="Non-congruent">Non-congruent (<em>hyōshi-awazu</em>)</h3>
+
+        <p>The emphasis for non-congruent chants is on the text and melodic line. With this text setting there is no coordination between syllables and the unit’s eight beats. There are two types of non-congruent chant: <em>sashinori</em> and <em>einori</em>.</p>
+
+        <p><em>Sashinori</em> chant is always accompanied by the ōtsuzumi and kotsuzumi in a flexible setting, while <em>einori</em> chant can be accompanied by the hand percussion instruments in either strict or flexible setting. If the chant includes a nohkan part it will also be non-congruent.</p>
+
+
+        <h4 id="Sashinori">Sashinori</h4>
+
+        <p><em>Sashinori</em> chants are sung in a recitative style, accompanied by the ōtsuzumi and kotsuzumi in flexible setting, favoring the sparse <em>mitsuji</em> patterns. On the other hand, the <em>Kuri</em> also accompanied by the two hand-drums in flexible setting, favors the <em>tsuzuke</em> pattern.  There is a Japanese expression that describes well the idea behind a non-congruent chant accompanied by percussions in flexible rhythmic setting: <em>fusoku furi</em> which means ‘not separate but not together’.</p>
+
+        <p>The <em>sashi</em> from Kokaji, sung in <em>tsuyogin</em> mode, is composed of two parts. Each one begins by a solo performed the shite followed by a reply by the jiutai. The reply is broken up into melodic lines rhythmically characterized by a pulse that is very slightly accelerated before coming to a sustained tone. The sustained tones are positioned on syllables that reinforce the text's structure or meaning. For the most part, each line stays on the high tone which is usually preceded with an inflection from below. Finally, the chant concludes on the low tone.</p>
+
+        <p>The provided score for this excerpt shows the first part is composed of six lines, each one concluded by a sustained tone: the first one presented by the shite the next five by the jiutai, identified in the score with the numbers 1 to 6. It is the two percussionists' responsibility to position their four <em>mitsuji</em> patterns against these six lines.</p>
+
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kokaji-Sahi_Sashinori.mp4"
+          link="Sashinori"
+          title="Kokaji/Sashi"
+        %}
+
+        <h4 id="Einori">Einori</h4>
+
+        <p>Einori chants are usually accompanied by the ōtsuzumi and kotsuzumi in strict setting. The <em>issei-chant</em> from Hashitomi is sung in <em>yowagin</em> style, it focuses on only four tones: the Medium and High, and their respective Intermediate tones a second lower. It is divided up into two segments: the first one sung by the shite, the second one by the jiutai.</p>
+
+        <p>The hand-percussion instruments start both parts with sparse <em>mitsuji</em> patterns before moving on with <em>tsuzuke</em> patterns. It is while performing the <em>mitsuji</em> patterns that the ōtsuzumi player has some flexibility to adapt to the melodic line. This is particularly clear with this recording. One can recognize the ōtsuzumi player's use of the flexible <em>kakegoe</em> when performing the first <em>mitsuji</em> patterns, whereas the kotsuzumi player uses the strict <em>kakegoe</em> throughout the chant.
+        </p>
+
+        {% include video-no-background.html
+          src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Issei_chant_Score_sl.mp4"
+          link="Einori"
+          title="Hashitomi/Issei"
+        %}
+      </div>
+    </section>
+  </div>
+
+</main>

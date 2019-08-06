@@ -11,15 +11,28 @@
 
   <nav class="header__nav">
     <ul>
-      <li class="{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}">
-        <a class="header__main-link" href="/about-intermedia/">About intermedia</a>
-      </li>
+      <li class="{% if page.menu-active == 'help' or page.menu-active == 'help' %} active{% endif %}">
+        <a class="header__main-link" href="/help/">[?]</a>
+        </li>
+
+        <li class="dropdown-menu{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}">
+          <a class="header__main-link dropdown-menu__trigger">Intermedia</a>
+          <ul class="dropdown-menu__list">
+            <li class="dropdown-menu__title"><a href="/about-intermedia/">Intermedia</a></li>
+            <li><a href="/about-intermedia/">Apropos</a></li>
+            <li><a href="/about-intermedia/#intermedia-tools">Tools of Analysis</a></li>
+            <li><a href="/about-intermedia/#noh-as-intermedia">Noh as Intermedia</a></li>
+          </ul>
+        </li>
       <li class="dropdown-menu{% if page.menu-active == 'plays' or page.menu-active == 'plays' %} active{% endif %}">
         <a class="header__main-link dropdown-menu__trigger">Plays</a>
         <ul class="dropdown-menu__list">
           <li class="dropdown-menu__title"><a href="/plays/">Plays</a></li>
+          <li><a href="/plays/">Why...?</a></li>
           <li><a href="/hashitomi/">Hashitomi</a></li>
+          <li><a href="/hashitomi/oshirabe/">– by Shōdan</a></li>
           <li><a href="/kokaji/">Kokaji</a></li>
+          <li><a href="/kokaji/oshirabe/">– by Shōdan</a></li>
         </ul>
       </li>
       <li class="dropdown-menu{% if page.menu-active == 'elements' %} active{% endif %}">
@@ -28,9 +41,9 @@
           <li class="dropdown-menu__title"><a href="/elements/">Elements of Noh</a></li>
           <li><a href="/music/">Music</a></li>
           <li><a href="/about-movement/">Movement</a></li>
-          <li><a href="/libretti/">Text</a></li>
+          <li><a href="/text/">Text</a></li>
           <li><a href="/staging/">Staging</a></li>
-          <li><a href="/catalog-of-shodan/">Catalog of Shōdan</a></li>
+          <li><a href="/form/">Form</a></li>
         </ul>
       </li>
     </ul>

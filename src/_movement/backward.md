@@ -14,7 +14,7 @@ second-level-menu-active: movement
 
     <p>When moving backward, the toes are lifted as the heel slides back.</p>
 
-    <p>The spacio-temporal concept of <em>jo - ha - kyū</em> forms an important aesthetic in Japanese art. The three sections can be translated as introduction/slow - development/acceleration - conclusion/fast. The slow start and gradual acceleration that characterize the walking rhythm of Noh is an undeniable influence of <em>jo - ha - kyū</em>. Although subtle in the feminine mode, its effect on the walking rhythm in martial mode is obvious.</p>
+    <p>The spacio-temporal concept of <em>Jo-ha-kyū</em> forms an important aesthetic in Japanese art. The three sections can be translated as introduction/slow - development/acceleration - conclusion/fast. The slow start and gradual acceleration that characterize the walking rhythm of Noh is an undeniable influence of <a href="/form/#Intro /" target="_blank"><em>Jo-ha-kyū</em></a>. Although subtle in the feminine mode, its effect on the walking rhythm in martial mode is obvious.</p>
 
   </div>
 

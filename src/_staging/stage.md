@@ -3,15 +3,20 @@ layout: website
 menu-active: elements
 second-level-menu-active: staging
 third-level-menu-active: stage
-# nohkan-pattern: takane
 ---
 
 {% include second-menu-elements.html %}
 {% include menu-staging-small.html %}
 
 <main class="page-content">
+<div class="wrapper sidebar-contents">
+  <aside class="sidebar-contents__table">
+    {% include menu-stage.html %}
+  </aside>
+  <section class="sidebar-contents__section">
   <div class="text-container">
-    <h2 id="Stage">Stage</h2>
+    <h2 id="Intro">Stage</h2>
+    <h3>Introduction</h3>
     <p> The Noh stage is unique in its shape and components. First of all, it has a single entrance/exit for the actors designated by a multicolored curtain on the back-right side (directions are given in relationship with an imaginary actor standing in center stage facing the front audience). It opens up to a bridge sided with three pine trees that leads to the stage proper. This is the main space and is square in shape. </p>
     <p>A pine tree adorns the back wall and an extended space in the back and right side of the stage accommodate the musicians and jiutai’s members, respectively. The stage has four pillars and is covered by a roof that extends over the bridge. There is a small sliding door on the back-left corner of the stage that the stage attendants and jiutai members use to enter and leave the stage. Finally, the audience seating space spreads in a semi-circle from the right side to the front of the stage.</p>
 
@@ -59,17 +64,18 @@ third-level-menu-active: stage
   It is flanked by three pine trees used to divide the bridge into three parts. They are numbered from 1 to 3, where Pine 1 referring to the one closer to the stage, Pine 3 closer to the curtain.</p>
 
   <p>Under some Noh stages large empty clay jars are placed to act as resonance bodies to amplify the sound of the shite’s stamping, as well as the sound of the drums, flute, and voices from the jiutai.</p>
-
+<h3 id="Kokaji">Kokaji</h3>
   <p>The simplicity of the Noh stage allows for various reinterpretations of its space. For instance, the stage represents three different location for the entrance of the three characters in Kokaji’s first act entrance.
   The first one to appear is the wakizure, an imperial envoy. Thus, the bridge and stage are understood to be the palace where he works.
   The second character to enter is the waki, Munechika the swordsmith, and at that moment, the bridge represents his house or factory.
   Finally, when the shite appears, the bridge as well as the stage should be seen as somewhere outside of Munechika’s house.
   In Kokaji’s second act, the addition of a <a href="/staging/props/#Kokaji" target="_blank">prop</a> helps identify a specific location, since the dais on Square 4 represents Munichika’s forge.</p>
-
-  <p>In Hashitomi the waki is a monk living in Unrin-in Temple in northern Kyoto. Thus, the bridge and stage are understood to represent that temple. Things are little less obvious though with the entrance of the shite, a character who might be seen as a flower or as the ghost of a woman. As the monk is about to celebrate a mass for the flowers he notices an unusual white one among his lot, and as he wonders about it, the shite appearing as a woman speaks for the flower. Some say that she is the flower’s voice, other say that she is physically present.
+<h3 id="Hashitomi">Hashitomi</h3>
+  <p>In Hashitomi the waki is a monk living in Unrin-in Temple in northern Kyoto. Thus, the bridge and stage are understood to represent that temple. Things are little less obvious though with the entrance of the shite, a character who might be seen as a flower or as the ghost of a woman. As the monk is about to celebrate a service for the flowers he notices an unusual white one among his lot, and as he wonders about it, the shite appearing as a woman speaks for the flower. Some say that she is the flower’s voice, other say that she is physically present.
   The choreography adopted by the Kongō school appears to support the former. The large distance between the two characters involved in a dialogue – the waki kneeling at Square 6 while the shite is standing on the Bridge at the Second Pine – could suggest that the waki can hear but maybe not see her.
   In Hashitomi’s second act, like in Kokaji’s, a <a href="/staging/props/#Hashitomi" target="_blank">prop</a> is brought in. It helps identify a specific location, since the prop standing on Square 8 represents the woman’s dwelling.</p>
 
 </div>
-
+</section>
+</div>
 </main>

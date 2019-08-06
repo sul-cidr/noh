@@ -26,13 +26,16 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p><em>Oshirabe</em> means ‘to tune’ and it refers to the musicians adjusting their instruments before the performance of a play, therefore, it is not an actual <em>shōdan</em>. It is said to signal to the audience that the performance of the play is about to begin, but for others it serves as a transition from living reality to the theater's. </p>
+  <p><em>Oshirabe</em> is a short musical piece that is heard before a play. The musicians perform it in the anteroom separated from the audience by the lowered curtain. It announces that the performance is about to begin and establishes the expressive character of the play. It offers a transition from everyday life to the art of theater. </p>
+  <p>Oshirabe means ‘to tune,’ and it refers to the musicians adjusting their instruments. As such, it is not considered an actual shōdan module of a play.
+  The tuning is needed because each percussion instrument is reassembled right before a performance, and no sound-making is allowed in the back of the stage. It is the musicians' first opportunity to hear and adjust their instruments. The tuning does not involve attempts to match one another's pitch. Instead, they are attuning to the play’s <em>kurai</em>, or its overall atmosphere. Because all <em>oshirabe</em> consist of the same musical material, it is its unique, expressive inflection that a regular audience member can pick up on. After finishing, the musicians bow to each other reinforcing their unity as a group and walk onto the stage.</p>
 
-  <p>The performers sit in a prescribed order (facing the curtain, from left to right): Nohkan, kotsuzumi, ōtsuzumi, and taiko if one is used in the play. The sound of the instruments is introduced one at a time. The nohkan player opens and closes the <em>oshirabe</em> with the pattern: <em>ho ho ho fu fu</em>, interposed by the three patterns: <em>ho hya riu</em>, <em>ho hiu hiu</em>, and <em>ro ra riu</em>. The staggered entrance of the percussion instruments follows the sitting order, hence the kotsuzumi enters shortly after the nohkan, followed by the others. Musicians do not attempt to tune to one another, rather they are tuning their instruments to the play’s <em>kurai</em>, that is its overall atmosphere. </p>
+
+  <p>The performers sit in a prescribed order (facing the curtain, from left to right): nohkan, kotsuzumi, ōtsuzumi, and taiko if one is used in the play. The sound of the instruments is introduced one at a time. The nohkan player opens and closes the <em>oshirabe</em> with the pattern: <em>ho ho ho fu fu</em>, interposed by the three patterns: <em>ho hya riu</em>, <em>ho hiu hiu</em>, and <em>ro ra riu</em>. The staggered entrance of the percussion instruments follows the sitting order, hence the kotsuzumi enters shortly after the nohkan, followed by the others. </p>
 
   <p>The nohkan’s five-pattern melody and the prescribed sequenced entrance of the percussion instruments is common to all <em>oshirabe</em>.
   Yet differences in its performance help set different moods.
-  An obvious difference between Kokaji’s <em>oshirabe</em> with Hashitomi’s relates to timbre since the instrumentation of the former includes a taiko, whereas the latter does not. Subtle differences can also make a difference. For instance, the performance of Hashitomi’s <em>oshirabe</em> on this website is longer than Kokaji’s by more than twenty seconds, suggesting that the musicians felt that longer durations were appropriate to set the mood for a play about a young lady, compared with shorter durations for a play featuring a dynamic deity. </p>
+  An obvious difference between Kokaji’s <em>oshirabe</em> with Hashitomi’s relates to timbre since the instrumentation of the former includes a taiko, whereas the latter does not. Subtle differences can also make a difference. For instance, the performance of Hashitomi’s <em>oshirabe</em> in our recordings is longer than Kokaji’s by more than twenty seconds, suggesting that the musicians felt that longer durations were appropriate to set the mood for a play about a young woman or a flower, compared with shorter durations for a play featuring a dynamic deity. </p>
 
 
     <div class="tabs-container">
@@ -57,6 +60,10 @@ second-level-menu-active: catalog-shodan
         </div>
       </div>
     </div>
-
+    <h3>Examples in the Plays:</h3>
+    <p>
+    <a href="/hashitomi/oshirabe/" target="_blank">Hashitomi - Oshirabe</a><br>
+    <a href="/kokaji/oshirabe/" target="_blank">Kokaji - Oshirabe</a>
+    </p>
 </div>
 </main>

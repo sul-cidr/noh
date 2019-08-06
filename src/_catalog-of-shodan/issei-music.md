@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>Standard entrance music for the shite, hence it is often followed by an <a href="/catalog-of-shodan/issei-chant" target="_blank"><em>issei</em>-chant</a> or sometimes a <a href="/catalog-of-shodan/sashi" target="_blank"><em>sashi</em></a>.
+  <p>Standard entrance music for the shite, hence it is often followed by an <a href="/catalog-of-shodan/issei-chant" target="_blank"><em>issei</em>-chant</a> or a <a href="/catalog-of-shodan/sashi" target="_blank"><em>sashi</em></a>.
   </p>
   <p>Kokaji does not include an <em>issei</em>. Although, Hashitomi does include one, it is unusually short since the shite being already on stage hidden in the <em>tsukurimono</em>, there is no need for an extended entrance music.</p>
 

@@ -41,7 +41,10 @@ second-level-menu-active: catalog-shodan
     {% include video-no-background.html
       src="http://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Hashitomi-Waka_Score_sl.mp4"
     %}
-
+    <h3>Example in the Play:</h3>
+    <p>
+    <a href="/hashitomi/waka/" target="_blank">Hashitomi - Waka</a>
+    </p>
 
 
 </div>

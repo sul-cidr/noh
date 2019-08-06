@@ -22,15 +22,14 @@ third-level-menu-active: otsuzumi
 <h3 id="Strokes">Strokes</h3>
     <h4 id="Otsu-strokes">Strokes of the Ōtsuzumi</h4>
     <p>There are three basic sounds produced on the ōtsuzumi drum:</p>
-    <p><a href="/music/otsuzumi-sounds"> video examples</a></p>
-<!--{% include otsuzumi-sounds.html %}
--->
+
+{% include otsuzumi-sounds.html %}
+
 
     <h4 id="Kotsu-strokes">Strokes of the Kotsuzumi</h4>
 
     <p>There are four basic sounds produced on the kotsuzumi drum:</p>
-  <p>  <a href="/music/kotsuzumi-sounds"> video examples</a></p>
-<!--{% include kotsuzumi-sounds.html %}-->
+{% include kotsuzumi-sounds.html %}
 
     <h3 id="Kakegoe">Kakegoe</h3>
     <p>Drummers alternate strokes on the drums with shouts called <em>kakegoe</em>. The most frequently used by ōtsuzumi players are: <em>yo, ho, iya, yo-i,</em> and <em>hon-yo</em>, whereas for kotsuzumi players: <em>yo, ho, and iya</em>.</p>
@@ -52,8 +51,34 @@ third-level-menu-active: otsuzumi
     <h4 id="strictness">Strict and Flexible</h4>
     <p>The drum parts are always connected to the eight-beat measure. We call a rhythmic setting 'strict' when the beat is relatively steady and 'flexible' when the beat is irregular. In the latter case the music is often characterized by fewer strokes, and a slower tempo. Difference between the two rhythmic settings is also accentuated by the <em>kakegoe</em>.  In strict setting the calls are centered equally between beats and have a shorter, more accented quality, In flexible setting the calls start earlier and can extend for the duration between beats. Percussion parts in a flexible rhythmic setting are performed primarily by the ōtsuzumi and kotsuzumi since most of the music involving the taiko is strict. </p>
 
-    <p>For comparison, a sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
-<p>  <a href="/music/flexible-strict"> video examples</a></p>
+    <p>For comparison, an Ashirai sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
+
+    <div class="tabs-container">
+      <div class="tabs-container__links">
+        <div class="wrapper">
+          <div id="tabs"></div>
+        </div>
+      </div>
+      <div class="tabs-container__content">
+        <div class="wrapper">
+          <section id='Strict_setting' title='Strict setting' class='tabbed-narrative'>
+
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
+          %}
+
+          </section>
+          <section id='Flexible_setting' title='Flexible setting' class='tabbed-narrative'>
+
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
+          %}
+
+          </section>
+        </div>
+      </div>
+    </div>
+
 
     <h4 id="patterns">Patterns</h4>
     <p>The percussionists’ strokes and <em>kakegoe</em> are arranged into patterns of varying duration, that can be as short as two and as long as thirty-two beats. Patterns are then sequenced to produce larger phrases. Although the ōtsuzumi and kotsuzumi have their own set of patterns, they usually work as a pair. Thus, when accompanying singers their individual patterns interlock and complement each other to form an single combined eight-beat pattern. The ōtsuzumi with its louder sound is usually more active within the first four of the eight beats while the softer kotsuzumi in the last four. This creates a continuous fluctuation of color and intensity. The combined patterns typically start on the upbeat leading to the first beat of the eight-beat unit (<em>honji</em>).</p>
@@ -62,11 +87,53 @@ third-level-menu-active: otsuzumi
 
     <h5 id="Mitsuji">Mitsuji</h5>
     <p><em>Mitsuji</em> patterns are characterized by a smaller number of strokes and a degree of rhythmic ambiguity that increases the dependance on <em>kakegoe</em> to maintain cohesion.  They can be performed in strict or flexible rhythmic setting as shown in the following examples:</p>
-    <p>  <a href="/music/mitsuji"> video examples</a></p>
+    <div class="tabs-container">
+      <div class="tabs-container__links">
+        <div class="wrapper">
+          <div id="tabs"></div>
+        </div>
+      </div>
+      <div class="tabs-container__content">
+        <div class="wrapper">
+          <section id='Mitusji_strict' title='Mitsuji strict' class='tabbed-narrative'>
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Strict.mp4"
+          %}
+          </section>
+          <section id='Mitusji_flexible' title='Mitusji flexible' class='tabbed-narrative'>
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Flexible.mp4"
+          %}
+          </section>
+        </div>
+      </div>
+    </div>
+
 
     <h5 id="Tsuzuke">Tsuzuke</h5>
     <p><em>Tsuzuke</em> patterns are characterized by a larger number of strokes and relative rhythmic stability. The respective patterns of the two instruments spread and interlock to cover the entire eight-beat unit. They can be performed in a strict or flexible rhythmic setting, as shown in the following examples:</p>
-    <p>  <a href="/music/tsuzuke"> video examples</a></p>
+    <div class="tabs-container">
+      <div class="tabs-container__links">
+        <div class="wrapper">
+          <div id="tabs"></div>
+        </div>
+      </div>
+      <div class="tabs-container__content">
+        <div class="wrapper">
+          <section id='Tsuzuke_strict' title='Tsuzuke strict' class='tabbed-narrative'>
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Strict.mp4"
+          %}
+          </section>
+          <section id='Tsuzuke_flexible' title='Tsuzuke flexible' class='tabbed-narrative'>
+          {% include video-no-background.html
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Flexible.mp4"
+          %}
+          </section>
+        </div>
+      </div>
+    </div>
+
 
       <h5 id="Sequence">Mixed Sequence</h5>
     <p>The sequencing of <em>mitsuji</em> and <em>tsuzuke</em> patterns creates phrases whose rhythm moves like waves: from rhythmic ambiguity created by the sporadic attacks of the <em>mitsuji</em> patterns, to rhythmic clarity coming from the steadier <em>tsuzuke</em> patterns, and back to ambiguity with the beginning of the next phrase’s <em>mitsuji</em> patterns and so on.</p>
