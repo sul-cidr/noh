@@ -12,7 +12,7 @@ $score-checkbox-height: 1.5rem;
 
 .sentence-control {
   min-width: 11rem;
-  @include flex-container($justify:flex-start);
+  @include flex-container($justify:space-around);
 }
 
 .sentence-control__prev,
@@ -45,18 +45,23 @@ $score-checkbox-height: 1.5rem;
 
 .sentence-control__status {
   @include flex-container($justify:flex-start, $align:baseline);
+
+  &.disabled span {
+    cursor: default;
+    opacity: .4;
+  }
 }
 
 .sentence-control__title {
   font-weight: $fw-regular;
-  font-size: $fs-display-xs;
+  font-size: $fs-display-sm;
   margin-right: 0.25rem;
 }
 
 .sentence-control__current {
   font-weight: $fw-semibold;
   font-size: $fs-display-md;
-  min-width: 3rem;
+  min-width: 2rem;
 }
 
 .channel-toggles,
@@ -108,6 +113,11 @@ $score-checkbox-height: 1.5rem;
 
   &:hover {
     background-color: $beige-light;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: .4;
   }
 }
 
