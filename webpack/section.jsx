@@ -124,24 +124,17 @@ export default class App extends Component {
         <a
           className="shodan__outlink"
           href={`/catalog-of-shodan/${this.props.shodanType.value}`}
-          title={`Open the page for ${
-            this.props.title
-          } in the Catalog of Shōdan`}
+          title={`Open the page for “${this.props.title.replace(
+            /-\d+$/,
+            ""
+          )}” in the Catalog of Shōdan`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {this.props.title}
-        </a>{" "}
-        <a
-          className="shodan__link-icon"
-          href={`/catalog-of-shodan/${this.props.shodanType.value}`}
-          title={`Open the page for ${
-            this.props.title
-          } in the Catalog of Shōdan`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {"\uf05a"}
+          {this.props.title}{" "}
+          <sup>
+            <i className="fas fa-info-circle" />
+          </sup>
         </a>
       </span>
     ) : (
