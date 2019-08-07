@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    a.noh-logo {
+      left: 2%;
+      position: absolute;
+      top: 2%;
+      z-index: 2;
+    }
+    svg, a.credits {
+      opacity: .5;
+      transition: opacity .2s ease;
+    }
+    a.credits {
+      color: white;
+      font-family: sans-serif;
+      font-size: .8em;
+      position: absolute;
+      right: 2%;
+      text-decoration: none;
+      top: 2%;
+      z-index: 2;
+    }
+    body:hover svg, body:hover a.credits {
+      opacity: 1;
+    }
+    svg:hover, a.credits:hover {
+      filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, .7));
+    }
+    video {
+      background: #000;
+      height: 100vh;
+      width: 100vw;
+    }
+    p {
+      color: gray;
+      font-family: sans;
+      font-size: 2em;
+      padding: 0 5%;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <a href="/" target="_tab" class="noh-logo">{% include icons/logo.svg %}</a>
+  <a href="/credits/" target="_tab" class="credits">© Fujita/Kapuscinski/Rose 2019, All rights reserved.</a>
+
+<script>
+
+  const plays = {
+    kokaji: {
+      videoUrl: "http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4",
+      tracks: {
+        Translation: "/data/captions/kokaji.translation.vtt",
+        Transcription: "/data/captions/kokaji.transcription.vtt",
+        Combined: "/data/captions/kokaji.combined.vtt"
+      }
+    },
+    hashitomi: {
+      videoUrl: "http://d7rcwrflqckpu.cloudfront.net/HASHITOMI_ProRes_sl.mp4",
+      tracks: {
+        Translation: "/data/captions/hashitomi.translation.vtt",
+        Transcription: "/data/captions/hashitomi.transcription.vtt",
+        Combined: "/data/captions/hashitomi.combined.vtt"
+      }
+    }
+  }
+
+  // Parse URL Fragments of the form `#key1=val1&key2=val2...` and return
+  //  an object of the form `{ key1: val1, key2: val2 ... }`.
+  function parseUrlFragment() {
+    return window.location.hash
+      .slice(1)
+      .split("&")
+      .reduce((accumulator, kvPair) => {
+        const [key, value] = kvPair.split("=");
+        return Object.assign({ [key]: value }, accumulator);
+      }, {});
+  }
+
+  // Converts time from hh:mm:ss to seconds
+  function convertTimeToSeconds(hhmmss) {
+    const [ss, mm, hh] = hhmmss.split(":").reverse();
+    return Date.UTC(1970, 0, 1, +hh || 0, +mm || 0, +ss || 0) / 1000;
+  }
+
+  // Given an integer value or a timestamp of the form <<hh:>mm:>ss, returns
+  //  an integer value representing the timestamp in seconds.
+  function validateTimestamp(timestamp) {
+    if (!Number.isNaN(Number(timestamp))) return Number(timestamp);
+    if (/^(?:\d{1,2}:)?(?:\d{2}:)?\d{2}$/.exec(timestamp))
+      return convertTimeToSeconds(timestamp);
+    return false;
+  }
+
+  const playName = window.location.pathname.trim().split("/")[2];
+
+  if (playName in plays) {
+    let timeFrom, timeTo;
+    let mediaFragUrl = plays[playName].videoUrl;
+    const urlFragParams = parseUrlFragment();
+    if (Object.keys(urlFragParams).includes("t")) {
+      [timeFrom, timeTo] = urlFragParams.t.split(',');
+      timeFrom = validateTimestamp(timeFrom) || "";
+      timeTo = validateTimestamp(timeTo) || "";
+      mediaFragUrl = `${mediaFragUrl}#t=${timeFrom},${timeTo}`.replace(/,$/, "");
+    }
+
+    const video = document.createElement("video");
+    video.setAttribute("controls", "");
+    video.setAttribute("controlslist", "nodownload");
+    video.autoplay = Object.keys(urlFragParams).includes("autoplay");
+    if (Object.keys(urlFragParams).includes("autoclose")) {
+      if (timeTo) {
+        video.addEventListener("pause", (event) => {
+          console.log(video.currentTime);
+          console.log(timeTo);
+          if (video.currentTime.toFixed(0) == timeTo) {
+            window.close();
+          }
+        });
+      } else {
+        video.addEventListener("ended", (event) => {
+          console.log(video.currentTime);
+          console.log(timeTo);
+          window.close();
+        });
+      }
+    }
+
+    const source = document.createElement("source");
+    source.setAttribute("src", mediaFragUrl);
+    source.setAttribute("type", "video/mp4");
+    video.appendChild(source);
+
+    for (const [label, src] of Object.entries(plays[playName].tracks)) {
+      const track = document.createElement("track");
+      track.setAttribute("label", label);
+      track.setAttribute("src", src);
+      track.setAttribute("srclang", "en");
+      track.setAttribute("kind", "subtitles");
+      video.appendChild(track);
+
+    }
+    document.body.appendChild(video);
+
+  } else {
+    document.body.innerHTML = `<p>Cannot find “${playName}” -- please check your URL.</p>`
+  }
+</script>
+
+</body>
+
+</html>
