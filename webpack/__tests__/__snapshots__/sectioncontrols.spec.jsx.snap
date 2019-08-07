@@ -11,7 +11,7 @@ exports[`<SectionControls> renders a disabled button as expected 1`] = `
       className="section-controls__button"
       disabled={true}
     >
-      Previous section
+      Previous Shōdan
     </button>
   </a>
   <a
@@ -21,7 +21,7 @@ exports[`<SectionControls> renders a disabled button as expected 1`] = `
       className="section-controls__button"
       disabled={false}
     >
-      Next Section
+      Next Shōdan
     </button>
   </a>
 </div>
@@ -38,7 +38,7 @@ exports[`<SectionControls> renders as expected by default 1`] = `
       className="section-controls__button"
       disabled={false}
     >
-      Previous section
+      Previous Shōdan
     </button>
   </a>
   <a
@@ -48,7 +48,7 @@ exports[`<SectionControls> renders as expected by default 1`] = `
       className="section-controls__button"
       disabled={false}
     >
-      Next Section
+      Next Shōdan
     </button>
   </a>
 </div>

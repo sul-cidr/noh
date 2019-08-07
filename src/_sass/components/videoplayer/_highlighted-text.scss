@@ -28,6 +28,13 @@
     }
   }
 
+  .sidebar__collapsable-title--libretto {
+    &.disabled {
+      opacity: .4;
+      pointer-events: none;
+    }
+  }
+
   &.disabled {
     h3,
     svg path {
@@ -59,10 +66,10 @@
 
   p {
     @include text(xs);
-    
+
     span {
       font-weight: $fw-bold;
-      
+
       @include text(xxs);
       @include uppercase();
     }

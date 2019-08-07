@@ -38,17 +38,18 @@
 
   .audio-player::after, .audio-playing::after {
     font-family: 'FontAwesome';
-    font-size: 5rem;
-    color: $beige-darker;
+    font-size: 1.5rem;
+    color: $green64;
     position: absolute;
     z-index: -1;
+    right: .25rem;
+    bottom: .1rem;
   }
   .audio-player::after {
-    left: 3.5rem;
-    content: "\f04b";
+    content: $fa-var-play;
   }
   .audio-playing::after {
-    content: "\f04c";
+    content: $fa-var-pause;
   }
 
 }

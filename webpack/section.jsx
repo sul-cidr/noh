@@ -32,7 +32,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isHighlightedTextOn: true,
+      isHighlightedTextOn: props.captions.length > 0,
       isShodanTimelineOn: false
     };
 
@@ -85,7 +85,7 @@ export default class App extends Component {
   }
 
   handleToggle(event, toggleName) {
-    if (event.target.tagName === "H3") {
+    if (["H3", "path", "svg"].includes(event.target.tagName)) {
       this.setState(prevState => ({
         [toggleName]: !prevState[toggleName]
       }));
@@ -96,20 +96,50 @@ export default class App extends Component {
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const score =
-      this.props.phrases && this.props.phrases.length > 0 ? (
-        [
-          <Score key="score" phrases={this.props.phrases} />,
-          <ScoreControls
-            key="score-controls"
-            isPrevSentenceOn={false}
-            startTime={this.props.startTime}
-            duration={this.props.duration}
-            phrases={this.props.phrases}
-          />
-        ]
-      ) : (
-        <div className="score score-no-phrases">No score in this section</div>
-      );
+      this.props.phrases && this.props.phrases.length > 0
+        ? [
+            <Score
+              key="score"
+              startTime={this.props.startTime}
+              duration={this.props.duration}
+              phrases={this.props.phrases}
+            />
+          ]
+        : [
+            <div key="score" className="score score-no-phrases">
+              No score in this shōdan
+            </div>
+          ];
+    score.push(
+      <ScoreControls
+        key="score-controls"
+        isPrevSentenceOn={false}
+        startTime={this.props.startTime}
+        duration={this.props.duration}
+        phrases={this.props.phrases}
+      />
+    );
+    const shodanName = this.props.shodanType.value ? (
+      <span>
+        <a
+          className="shodan__outlink"
+          href={`/catalog-of-shodan/${this.props.shodanType.value}`}
+          title={`Open the page for “${this.props.title.replace(
+            /-\d+$/,
+            ""
+          )}” in the Catalog of Shōdan`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {this.props.title}{" "}
+          <sup>
+            <i className="fas fa-info-circle" />
+          </sup>
+        </a>
+      </span>
+    ) : (
+      this.props.title
+    );
     const toggle = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +174,7 @@ export default class App extends Component {
                   {this.props.playName}
                 </a>
               </div>
-              <h1>{this.props.title}</h1>
+              <h1>{shodanName}</h1>
             </div>
             <div className="sidebar__container">
               <Narrative narrative={this.props.narrative} />
@@ -160,7 +190,11 @@ export default class App extends Component {
                 }
                 onKeyPress={null}
               >
-                <div className="sidebar__collapsable-title sidebar__collapsable-title--libretto">
+                <div
+                  className={`sidebar__collapsable-title sidebar__collapsable-title--libretto ${
+                    this.props.captions.length ? "" : "disabled"
+                  }`}
+                >
                   <h3>{toggle} Libretto</h3>
                 </div>
                 <HighlightedTextContainer
@@ -179,7 +213,7 @@ export default class App extends Component {
                 onKeyPress={null}
               >
                 <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
-                  <h3>{toggle} Section map</h3>
+                  <h3>{toggle} Shōdan map</h3>
                   <ShodanTimeline
                     mode="url"
                     sections={this.props.sections}
@@ -248,6 +282,7 @@ App.propTypes = {
   startTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
+  shodanType: PropTypes.shape({ value: PropTypes.string }),
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
@@ -273,6 +308,9 @@ App.propTypes = {
     })
   ).isRequired
 };
+
+// Just in case the Shōdan Type line in the data spreadsheet isn't filled in
+App.defaultProps = { shodanType: { value: undefined } };
 
 // If main app
 /* istanbul ignore if */

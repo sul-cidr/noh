@@ -53,6 +53,10 @@
   position: relative;
   width: 100%;
 
+  .shodan__outlink {
+    text-decoration: none;
+  }
+
   h1 {
     text-align: center;
   }

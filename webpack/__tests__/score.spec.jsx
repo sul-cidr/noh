@@ -2,7 +2,7 @@ import React from "react";
 import { shallow } from "enzyme";
 import phrases from "./__fixtures__/phrases.json";
 import { Unwrapped as UnwrappedScore } from "../components/Score";
-import { determineCurrentPhrase } from "../utils";
+import { determinePhraseIndices } from "../utils";
 
 describe("<UnwrappedScore>", () => {
   const allTogglesOn = {
@@ -87,38 +87,42 @@ describe("<UnwrappedScore>", () => {
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1193}
+        startTime={phrases.phrases[0].startTime.value}
+        duration={2000}
         toggles={allTogglesOn}
       />
     );
-    const calculatedPhraseIndex = determineCurrentPhrase(
-      component.instance().props.currentTime,
-      component.instance().props.phrases
+    let { 1: currentPhraseIndex } = determinePhraseIndices(
+      component.instance().props
     );
-    expect(calculatedPhraseIndex).toBe(0);
+
+    expect(currentPhraseIndex).toBe(0);
     const component2 = shallow(
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={1216}
+        startTime={phrases.phrases[0].startTime.value}
+        duration={2000}
         toggles={allTogglesOn}
       />
     );
-    const calculatedPhraseIndex2 = determineCurrentPhrase(
-      component2.instance().props.currentTime,
-      component2.instance().props.phrases
-    );
-    expect(calculatedPhraseIndex2).toBe(2);
+    ({ 1: currentPhraseIndex } = determinePhraseIndices(
+      component2.instance().props
+    ));
+    expect(currentPhraseIndex).toBe(2);
     const component3 = shallow(
       <UnwrappedScore
         phrases={phrases.phrases}
         currentTime={0}
+        startTime={phrases.phrases[0].startTime.value}
+        duration={2000}
         toggles={allTogglesOn}
       />
     );
-    const calculatedPhraseIndex3 = determineCurrentPhrase(
-      component3.instance().props.currentTime,
-      component3.instance().props.phrases
-    );
-    expect(calculatedPhraseIndex3).toBe(0);
+    ({ 1: currentPhraseIndex } = determinePhraseIndices(
+      component3.instance().props
+    ));
+    expect(currentPhraseIndex).toBe(null);
   });
 
   it("sets state correctly on componentWillReceiveProps", () => {
