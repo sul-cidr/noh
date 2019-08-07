@@ -119,6 +119,27 @@ export default class App extends Component {
         phrases={this.props.phrases}
       />
     );
+    const shodanName = this.props.shodanType.value ? (
+      <span>
+        <a
+          className="shodan__outlink"
+          href={`/catalog-of-shodan/${this.props.shodanType.value}`}
+          title={`Open the page for “${this.props.title.replace(
+            /-\d+$/,
+            ""
+          )}” in the Catalog of Shōdan`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {this.props.title}{" "}
+          <sup>
+            <i className="fas fa-info-circle" />
+          </sup>
+        </a>
+      </span>
+    ) : (
+      this.props.title
+    );
     const toggle = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +174,7 @@ export default class App extends Component {
                   {this.props.playName}
                 </a>
               </div>
-              <h1>{this.props.title}</h1>
+              <h1>{shodanName}</h1>
             </div>
             <div className="sidebar__container">
               <Narrative narrative={this.props.narrative} />
@@ -261,6 +282,7 @@ App.propTypes = {
   startTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
+  shodanType: PropTypes.shape({ value: PropTypes.string }),
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
@@ -286,6 +308,9 @@ App.propTypes = {
     })
   ).isRequired
 };
+
+// Just in case the Shōdan Type line in the data spreadsheet isn't filled in
+App.defaultProps = { shodanType: { value: undefined } };
 
 // If main app
 /* istanbul ignore if */
