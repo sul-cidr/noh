@@ -9,24 +9,37 @@ class TabbedNarrative extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      narrative: props.narrative
+      activeTab: 0,
+      chunks: null,
+      titles: null
     };
+
+    this.handleDomRef = this.handleDomRef.bind(this);
   }
 
   componentWillMount() {
-    this.parseNarrative();
+    const [chunks, titles] = this.parseNarrative();
+    this.setState({ chunks, titles });
+  }
+
+  /* As an alternative to using findDOMNode() to locate the dummy narrative
+   * <div> to scroll up to, use the domRef function callback provided by
+   * react-tabs. This function is triggered on every mount event, which
+   * includes all tab changes when the component is in controlled mode. */
+  handleDomRef(tabsRef) {
+    if (tabsRef !== null) {
+      /* Assumption: the children of the Tabs component element are always the
+       * TabList (a <ul>), followed by the TabPanel <div>s in index order */
+      tabsRef.childNodes[this.state.activeTab + 1].firstChild.scrollIntoView();
+    }
   }
 
   parseNarrative() {
     const nar = document.createElement("div");
-    nar.innerHTML = this.state.narrative;
+    nar.innerHTML = this.props.narrative;
     const sections = nar.querySelectorAll("section");
     const chunks = Array.from(sections).map(elt => elt.outerHTML);
-    return chunks;
-  }
 
-  panelTitles() {
-    const chunks = this.parseNarrative();
     const re = /title=['"][\w\s]+['"]/;
     const titles = [];
     for (let i = 0; i < chunks.length; i += 1) {
@@ -35,22 +48,26 @@ class TabbedNarrative extends React.Component {
       const title = pieces[1].slice(1, -1);
       titles.push(title);
     }
-    return titles;
+
+    return [chunks, titles];
   }
 
   render() {
-    const chunks = this.parseNarrative();
-    const titles = this.panelTitles();
-    const narrativeTabList = titles.map(title => (
+    const narrativeTabList = this.state.titles.map(title => (
       <Tab key={title}>{title}</Tab>
     ));
-    const narrativeTabs = chunks.map((chunk, index) => (
+    const narrativeTabs = this.state.chunks.map((chunk, index) => (
       <TabPanel key={index}>
+        <div className="narrative-scroll_target" />
         <Markup content={chunk} />
       </TabPanel>
     ));
     return (
-      <Tabs>
+      <Tabs
+        domRef={this.handleDomRef}
+        selectedIndex={this.state.activeTab}
+        onSelect={activeTab => this.setState({ activeTab })}
+      >
         <TabList>{narrativeTabList}</TabList>
         {narrativeTabs}
       </Tabs>
