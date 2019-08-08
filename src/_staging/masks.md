@@ -55,7 +55,7 @@ Most masks are associated with a character type (e.g. young woman, middle-aged w
 <p>The mask represents the face of a boy, with natural eyebrows, elongated eyes, and a natural smile. The expression is devoid of any wrinkle or furrows, contributing to a youthful look. The painted uncombed hair suggests young age and is matched with the large black <em>kashira</em> wig used in combination with this mask.</p>
 {% include image-no-background.html src="/assets/images/Doji1.png" %}
 {% include image-no-background.html src="/assets/images/O-tobide1.png" %}
-<h4>Second Act Mask: ‘Ō-tobide’</h4>
+<h4 id="Kokaji2">Second Act Mask: ‘Ō-tobide’</h4>
 
 <p>The name of this mask literally means ‘large jump/pop out’ and refers to its eyes, which appear as if they were popping out of the eye-sockets, and to its larger size in comparison to ‘ko-tobide’. This type of mask is used for a variety of roles, including the deity of Mt. Inari in the form of a fox-god (Kokaji), or the rain and thunder deity Wake-ikazuchi in Kamo.</p>
 
@@ -65,7 +65,7 @@ Most masks are associated with a character type (e.g. young woman, middle-aged w
 
 <p>Different masks can be used for the shite in the second half of Kokaji, depending on the performance variant and on the shite school. For the standard version of the play, in which the shite in the second half wears a red wig, the mask usually used is ko-tobide, a smaller mask with a reddish complexion. Ō-tobide, instead, is used for variant performances. The Kongō school, however, allows Ō-tobide to be used even with the standard staging of the play, shown in the video.</p>
 
-
+<h4 id="Kokaji3">Ai-kyōgen Mask: ‘......’</h4>
 {% include image-no-background.html src="/assets/images/Kyogen-mask2.png" %}
 {% include image-no-background.html src="/assets/images/Kyogen-mask1.png" %}
 
