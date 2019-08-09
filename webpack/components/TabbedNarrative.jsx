@@ -1,37 +1,30 @@
-/* eslint-disable react/no-array-index-key */
-
 import React from "react";
 import PropTypes from "prop-types";
 import { Markup } from "interweave";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class TabbedNarrative extends React.Component {
+  /* This function is triggered on all tab changes, as well as some other
+   * events. It is used to scroll the visible tab panel to the top upon
+   * activation, if necessary. */
+  static handleDomRef(tabsRef) {
+    if (tabsRef !== null) {
+      const { parentElement } = tabsRef;
+      parentElement.scrollTop = 0;
+    }
+  }
+
   constructor(props) {
     super(props);
     this.state = {
-      activeTab: 0,
       chunks: null,
       titles: null
     };
-
-    this.handleDomRef = this.handleDomRef.bind(this);
   }
 
   componentWillMount() {
     const [chunks, titles] = this.parseNarrative();
     this.setState({ chunks, titles });
-  }
-
-  /* As an alternative to using findDOMNode() to locate the dummy narrative
-   * <div> to scroll up to, use the domRef function callback provided by
-   * react-tabs. This function is triggered on every mount event, which
-   * includes all tab changes when the component is in controlled mode. */
-  handleDomRef(tabsRef) {
-    if (tabsRef !== null) {
-      /* Assumption: the children of the Tabs component element are always the
-       * TabList (a <ul>), followed by the TabPanel <div>s in index order */
-      tabsRef.childNodes[this.state.activeTab + 1].firstChild.scrollIntoView();
-    }
   }
 
   parseNarrative() {
@@ -56,18 +49,13 @@ class TabbedNarrative extends React.Component {
     const narrativeTabList = this.state.titles.map(title => (
       <Tab key={title}>{title}</Tab>
     ));
-    const narrativeTabs = this.state.chunks.map((chunk, index) => (
-      <TabPanel key={index}>
-        <div className="narrative-scroll_target" />
+    const narrativeTabs = this.state.chunks.map(chunk => (
+      <TabPanel key={chunk}>
         <Markup content={chunk} />
       </TabPanel>
     ));
     return (
-      <Tabs
-        domRef={this.handleDomRef}
-        selectedIndex={this.state.activeTab}
-        onSelect={activeTab => this.setState({ activeTab })}
-      >
+      <Tabs domRef={this.handleDomRef}>
         <TabList>{narrativeTabList}</TabList>
         {narrativeTabs}
       </Tabs>
@@ -76,11 +64,7 @@ class TabbedNarrative extends React.Component {
 }
 
 TabbedNarrative.propTypes = {
-  narrative: PropTypes.string
-};
-
-TabbedNarrative.defaultProps = {
-  narrative: ""
+  narrative: PropTypes.string.isRequired
 };
 
 export default TabbedNarrative;

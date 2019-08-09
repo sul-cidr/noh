@@ -1519,7 +1519,14 @@ exports[`<Play> renders as expected 1`] = `
                           className="react-tabs__tab-panel"
                           forceRender={false}
                           id="react-tabs-1"
-                          key=".1:$0"
+                          key=".1:$<section id=0\\"intro\\" title=0\\"Introduction\\" class=0\\"tabbed-narrative\\">
+  <h2>Title</h2>
+  <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h3>Subtitle</h3>
+  <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>"
                           selected={true}
                           selectedClassName="react-tabs__tab-panel--selected"
                           tabId="react-tabs-0"
@@ -1773,7 +1780,10 @@ exports[`<Play> renders as expected 1`] = `
                           className="react-tabs__tab-panel"
                           forceRender={false}
                           id="react-tabs-3"
-                          key=".1:$1"
+                          key=".1:$<section id=0\\"part1\\" title=0\\"Part I\\" class=0\\"tabbed-narrative\\">
+  <h2>Part I</h2>
+  <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>"
                           selected={false}
                           selectedClassName="react-tabs__tab-panel--selected"
                           tabId="react-tabs-2"
@@ -1789,7 +1799,10 @@ exports[`<Play> renders as expected 1`] = `
                           className="react-tabs__tab-panel"
                           forceRender={false}
                           id="react-tabs-5"
-                          key=".1:$2"
+                          key=".1:$<section id=0\\"part2\\" title=0\\"Part II\\" class=0\\"tabbed-narrative\\">
+  <h2>Part II</h2>
+  <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=230.303\\" title=0\\"00=212=298.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</section>"
                           selected={false}
                           selectedClassName="react-tabs__tab-panel--selected"
                           tabId="react-tabs-4"
