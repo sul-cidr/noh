@@ -1,5 +1,5 @@
 ---
-title: Jo no mai
+title: jonomai
 play: Hashitomi
 layout: section
 ---
