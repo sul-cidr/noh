@@ -39,3 +39,15 @@
     }
   }
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: max-height 0.8s ease-in-out;
+  max-height: 50px;
+}
+
+.sticky-hidden {
+  max-height: 0;
+}
