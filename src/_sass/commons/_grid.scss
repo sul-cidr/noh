@@ -2,6 +2,7 @@ $retina: '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)';
 
 $grid-columns: 12 !default;
 $grid-gutter: 1rem;
+$col-gutter: .2rem;
 
 @mixin grid-column($size, $n) {
   .col-#{$n} {
@@ -28,6 +29,8 @@ $grid-gutter: 1rem;
   flex-grow: 1;
   flex-basis: 0;
   max-width: 100%;
+  margin-left: $col-gutter;
+  margin-right: $col-gutter;
 }
 
 .row {
@@ -37,7 +40,6 @@ $grid-gutter: 1rem;
   flex-grow: 0;
   flex-shrink: 1;
   flex-wrap: wrap;
-  margin: 0 -#{$grid-gutter};
 }
 
 .row--center-x {
