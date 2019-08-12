@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>Lively music for the entrance of a dragon, spirit, or deity, as it is the case in Kokaji. It is a nohkan congruent solo accompanied by the three percussion instruments. The  eight-beat introduction melody called <em>kakari</em>, opens with the strident <em>hishigi</em> tone and leads to a seven-<em>honji</em> melody with one motive per <em>honji</em>, identified in the video with letters a to g, respectively. It is repeated three times before leading to the one-<em>honji</em> cadence called <em>tome</em>.
+  <p>Lively music for the entrance of a dragon, spirit, or deity, as it is the case in Kokaji. It is a nohkan congruent solo accompanied by the three percussion instruments. The  eight-beat introduction melody called <em>kakari</em>, opens with the strident <em>hishigi</em> tone and leads to a seven-<em>honji</em> melody with one segment per <em>honji</em>, identified in the video with letters a to g, respectively. It is repeated three times before leading to the one-<em>honji</em> cadence called <em>tome</em>.
 </p>
 
   <p>The performance on this video is based on Kokaji's <em>hayafue</em> and it includes the three-<em>honji</em> bridge from the preceding <em>shōdan</em>, a <em>noriji</em>.

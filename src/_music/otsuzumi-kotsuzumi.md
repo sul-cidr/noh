@@ -1,4 +1,4 @@
----
+jonomai---
 layout: website
 menu-active: elements
 second-level-menu-active: music
@@ -175,7 +175,7 @@ third-level-menu-active: otsuzumi
       src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Uchikiri_sl.mp4"
     %}
     <h5 id="Entrance">Entrance and Dance music</h5>
-    <p>When performing dances, <em>noriji</em> and some entrance music, the complementarity between the two hand drums is maintained despite the fact that they perform patterns of different length. This is demonstrated in the following excerpts from the dance <em>jo no mai</em>.
+    <p>When performing dances, <em>noriji</em> and some entrance music, the complementarity between the two hand drums is maintained despite the fact that they perform patterns of different length. This is demonstrated in the following excerpts from the dance <em>jonomai</em>.
     In this example the kotsuzumi’s <em>nagaji</em> pattern is spread over sixteen-beats against the ōtsuzumi's <em>ji</em> pattern that lasts eight-beat.  </p>
     <p> Kotsuzumi's <em>nagaji</em> sixteen-beat pattern:</p>
     {% include image-no-background.html src="/assets/images/Kotsuzumi-Nagaji.png" %}
