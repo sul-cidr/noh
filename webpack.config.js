@@ -32,6 +32,11 @@ module.exports = {
           from: "data/**",
           to: "",
           flatten: false
+        },
+        {
+          from:
+            "node_modules/vanilla-back-to-top/dist/vanilla-back-to-top.min.js",
+          to: "assets"
         }
       ],
       { copyUnmodified: true }

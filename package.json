@@ -56,7 +56,8 @@
     "react-draggable": "^3.0.5",
     "react-redux": "^5.0.6",
     "react-tabs": "^2.1.1",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "vanilla-back-to-top": "^7.2.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.10.0",
