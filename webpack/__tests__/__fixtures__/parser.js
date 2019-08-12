@@ -880,7 +880,7 @@ ashirai,Ashirai,,,,,,X,
 hayafue,Hayafue,,,,,,X,
 issei-chant,Issei chant,,,X,,,,
 issei-music,Issei music,,,,,,X,
-jo-no-mai,Jo no mai,,,,,,,X
+jonomai,Jonomai,,,,,,,X
 kakaru,Kakaru,,X,,,,,
 kakeai,Kakeai,X,,,,,,
 kiri,Kiri,,,,,X,,

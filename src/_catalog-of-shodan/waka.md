@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>High pitch song set in <a href="/music/voices#Einori" target="_blank"><em>einori</em></a> characterized by use of melisma. It often follows a slow dance such as the <a href="/catalog-of-shodan/jo-no-mai" target="_blank"><em>jonomai</em></a>, as it is the case in Hashitomi.
+  <p>High pitch song set in <a href="/music/voices#Einori" target="_blank"><em>einori</em></a> characterized by use of melisma. It often follows a slow dance such as the <a href="/catalog-of-shodan/jonomai" target="_blank"><em>jonomai</em></a>, as it is the case in Hashitomi.
   It conforms to the traditional Japanese <em>waka</em> poetry made of 31 syllables, spread over two verses: the first one counts 5 + 7 + 5 syllables and the second one: 7 + 7 syllables. In Hashitomi the first verse is delivered during the <em>waka</em>, while the second one opens the following <em>shōdan</em>, the <a href="/catalog-of-shodan/kiri" target="_blank"><em>kiri</em></a> with its last line of seven syllables repeated three times.</p>
 
 <p>Waka:</p>
