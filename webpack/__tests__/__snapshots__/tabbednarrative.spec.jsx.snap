@@ -4,6 +4,7 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
 <Tabs
   defaultFocus={false}
   defaultIndex={null}
+  domRef={[Function]}
   forceRenderTabPanel={false}
   selectedIndex={null}
 >
