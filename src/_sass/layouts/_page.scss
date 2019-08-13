@@ -121,10 +121,9 @@
     margin-top: 4rem;
     padding: 0.5rem;
     position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+    top: 50px;
     overflow-y: auto;
-    max-height: 100vh;
+    max-height: calc(100vh - 50px - 10px); // the extra 10px is to allow a little space at the bottom
 
     h4 {
       color: $brown;
