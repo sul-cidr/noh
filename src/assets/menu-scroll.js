@@ -1,38 +1,44 @@
 var secondLevelMenu = document.querySelector(
   "nav.second-level-menu__container"
 );
-// Get the offset position and height of the navbar
-var menuTop = secondLevelMenu.offsetTop;
-var menuHeight = secondLevelMenu.offsetHeight;
 
-var stickyMenu = secondLevelMenu.cloneNode((deep = true));
-stickyMenu.classList.add("sticky");
-document.body.append(stickyMenu);
+if (secondLevelMenu !== null) {
+  // Get the offset position and height of the navbar
+  var menuTop = secondLevelMenu.offsetTop;
+  var menuHeight = secondLevelMenu.offsetHeight;
 
-var prevScrollPos = window.pageYOffset;
+  var stickyMenu = secondLevelMenu.cloneNode((deep = true));
+  stickyMenu.classList.add("sticky");
+  document.body.append(stickyMenu);
 
-function headerShowHide() {
-  var currentScrollPos = window.pageYOffset;
+  var prevScrollPos = window.pageYOffset;
 
-  // Scrolling up
-  if (prevScrollPos > currentScrollPos) {
-    if (currentScrollPos > menuTop) {
-      // Slide out floating header if we're not near the page top
-      stickyMenu.classList.add("visible");
+  function headerShowHide() {
+    var currentScrollPos = window.pageYOffset;
+
+    // Scrolling up
+    if (prevScrollPos > currentScrollPos) {
+      if (currentScrollPos > menuTop) {
+        // Slide out floating header if we're not near the page top
+        stickyMenu.classList.add("visible");
+      } else {
+        // If we scroll into the page top, let header "dock" normally
+        stickyMenu.setAttribute("style", "display: none");
+        stickyMenu.classList.remove("visible");
+        setTimeout(
+          () => stickyMenu.setAttribute("style", "display: block"),
+          210
+        );
+      }
+      // Scrolling down
     } else {
-      // If we scroll into the page top, let header "dock" normally
-      stickyMenu.setAttribute("style", "display: none");
-      stickyMenu.classList.remove("visible");
-      setTimeout(() => stickyMenu.setAttribute("style", "display: block"), 210);
+      // Slide in (hide) the header if we're scrolling down in the page middle
+      if (currentScrollPos > menuTop + menuHeight) {
+        stickyMenu.classList.remove("visible");
+      }
     }
-    // Scrolling down
-  } else {
-    // Slide in (hide) the header if we're scrolling down in the page middle
-    if (currentScrollPos > menuTop + menuHeight) {
-      stickyMenu.classList.remove("visible");
-    }
+    prevScrollPos = currentScrollPos;
   }
-  prevScrollPos = currentScrollPos;
-}
 
-window.addEventListener("scroll", headerShowHide);
+  window.addEventListener("scroll", headerShowHide);
+}
