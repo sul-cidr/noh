@@ -101,6 +101,18 @@ describe("<TimelineScrubber>", () => {
     component.instance().handleMouseUp();
     expect(component.state().mouseDown).toBe(false);
     expect(component.state().progress).toBe(0.75);
+
+    // mouseWheel with a negative deltaY should advance the video by 2%
+    component
+      .instance()
+      .handleMouseWheel({ nativeEvent: { deltaY: -50 }, persist: () => null });
+    expect(component.state().progress).toBe(0.77);
+
+    // mouseWheel with a positive deltaY should rewind (retreat?!) the vidoe by 2%
+    component
+      .instance()
+      .handleMouseWheel({ nativeEvent: { deltaY: 50 }, persist: () => null });
+    expect(component.state().progress).toBe(0.75);
   });
 
   it("dispatches the right function for updateCurrentTime", () => {
