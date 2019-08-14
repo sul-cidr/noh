@@ -114,6 +114,12 @@
     let timeFrom, timeTo;
     let mediaFragUrl = plays[playName].videoUrl;
     const urlFragParams = parseUrlFragment();
+
+    if (Object.keys(urlFragParams).includes("fullscreen")) {
+      window.moveTo(0,0);
+      window.resizeTo(screen.availWidth, screen.availHeight);
+    }
+
     if (Object.keys(urlFragParams).includes("t")) {
       [timeFrom, timeTo] = urlFragParams.t.split(',');
       timeFrom = validateTimestamp(timeFrom) || "";
