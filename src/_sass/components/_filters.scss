@@ -16,9 +16,9 @@
   flex-shrink: 0;
   padding-right: 1rem;
   position: sticky;
-  top: 0;
+  top: 50px;
   overflow-y: auto;
-  max-height: 100vh;
+  max-height: calc(100vh - 50px - 10px); // the extra 10px is to allow a little space at the bottom
 
   ul {
     margin-bottom: 2rem;
