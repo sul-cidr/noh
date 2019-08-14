@@ -96,12 +96,16 @@ class TimelineScrubber extends Component {
 
   handleMouseWheel(event) {
     const wheelDown = debounce(() => {
-      this.setState({ progress: this.state.progress - 0.02 });
+      this.setState({
+        progress: clamp(this.state.progress - 0.02, 0, 1)
+      });
       this.updateTime();
     }, 5);
 
     const wheelUp = debounce(() => {
-      this.setState({ progress: this.state.progress + 0.02 });
+      this.setState({
+        progress: clamp(this.state.progress + 0.02, 0, 1)
+      });
       this.updateTime();
     }, 5);
 
