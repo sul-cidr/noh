@@ -16,6 +16,7 @@ $card-menu-large-element-size: 8.75rem;
     
     span {
       @include text(xs);
+      padding: 0 .2rem;
     }
   }
   
