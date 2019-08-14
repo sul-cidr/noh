@@ -37,6 +37,12 @@ permalink: /elements/
           description="Discusses the use of the Noh stage, masks, costumes and properties."
       %}
       {% include card.html
+          link="/form/"
+          image="/assets/images/behindlattice.png"
+          title="Form"
+          description="Summarizes the classical formal design and explains its modular (shōdan) construction."
+      %}
+      {% include card.html
           link="/catalog-of-shodan/"
           image="/assets/images/voices-big.jpg"
           title="Catalog of Shōdan"
