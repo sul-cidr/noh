@@ -39,9 +39,9 @@ class TabbedNarrative extends React.Component {
       const titleString = re.exec(chunks[i]);
       const pieces = titleString[0].split("=");
       const title = pieces[1].slice(1, -1);
+      chunks[i] = chunks[i].replace(`title="${title}"`, "");
       titles.push(title);
     }
-
     return [chunks, titles];
   }
 
