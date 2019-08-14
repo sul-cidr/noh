@@ -72,7 +72,7 @@ IntermediaTable.propTypes = {
       }),
       voice: PropTypes.shape({ value: PropTypes.string }),
       text: PropTypes.shape({ value: PropTypes.string }),
-      numberOfPercussion: PropTypes.shape({ number: PropTypes.string }),
+      numberOfPercussion: PropTypes.shape({ value: PropTypes.string }),
       percussion: PropTypes.shape({ value: PropTypes.string }),
       nokhanPresent: PropTypes.shape({
         present: PropTypes.string,

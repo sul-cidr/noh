@@ -8,10 +8,12 @@
     "test": "node_modules/.bin/jest",
     "test:update": "node_modules/.bin/jest -u",
     "coverage": "node_modules/.bin/jest --coverage",
+    "checkdata":
+      "if [ ! -d \"data\" ]; then yarn parse; fi && if [ ! -d \"src/_data\" ]; then yarn parse:catalog; fi",
     "build":
-      "bundle exec jekyll clean && bundle exec jekyll build && node_modules/.bin/webpack -p --mode production",
+      "yarn checkdata && bundle exec jekyll clean && bundle exec jekyll build && node_modules/.bin/webpack -p --mode production",
     "dev":
-      "if [ ! -d \"data\" ]; then yarn parse; fi && if [ ! -d \"src/_data\" ]; then yarn parse:catalog; fi && yarn concurrently \"node_modules/.bin/webpack --mode development --watch\" \"bundle exec jekyll serve\"",
+      "yarn checkdata && yarn concurrently \"node_modules/.bin/webpack --mode development --watch\" \"bundle exec jekyll serve\"",
     "lint":
       "node_modules/.bin/eslint webpack/**/*.{js,jsx} webpack/*.{js,jsx} --quiet",
     "precommit": "lint-staged",
@@ -56,7 +58,8 @@
     "react-draggable": "^3.0.5",
     "react-redux": "^5.0.6",
     "react-tabs": "^2.1.1",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "vanilla-back-to-top": "^7.2.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.10.0",

@@ -124,10 +124,7 @@ export default class App extends Component {
         <a
           className="shodan__outlink"
           href={`/catalog-of-shodan/${this.props.shodanType.value}`}
-          title={`Open the page for “${this.props.title.replace(
-            /-\d+$/,
-            ""
-          )}” in the Catalog of Shōdan`}
+          title="Definition"
           target="_blank"
           rel="noopener noreferrer"
         >
