@@ -4,7 +4,7 @@ Noh as Intermedia is a React/Redux application built on top of Jekyll. It uses y
 
 ## Setup
 
-Run `bundle install` and `yarn`
+Run `bundle install --path vendor/bundle` and `yarn`
 
 ## Development
 
