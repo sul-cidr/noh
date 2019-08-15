@@ -111,7 +111,7 @@ class TimelineScrubber extends Component {
 
     event.persist();
     const { deltaX, deltaY } = event.nativeEvent;
-    const [dominant] = [deltaX, deltaY].sort(
+    const [dominant] = [deltaX, -deltaY].sort(
       (a, b) => Math.abs(b) - Math.abs(a)
     );
     if (dominant > 0) {
