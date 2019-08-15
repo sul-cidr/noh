@@ -14,6 +14,7 @@ exports[`<TimelineScrubber> renders as expected by default 1`] = `
     onMouseDown={[Function]}
     onMouseMove={[Function]}
     onMouseUp={[Function]}
+    onWheel={[Function]}
     role="button"
     tabIndex={0}
   >
