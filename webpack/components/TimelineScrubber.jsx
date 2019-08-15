@@ -110,7 +110,11 @@ class TimelineScrubber extends Component {
     }, 5);
 
     event.persist();
-    if (event.nativeEvent.deltaY > 0) {
+    const { deltaX, deltaY } = event.nativeEvent;
+    const [dominant] = [deltaX, deltaY].sort(
+      (a, b) => Math.abs(b) - Math.abs(a)
+    );
+    if (dominant > 0) {
       // scrolling down (yep...)
       wheelDown();
     } else {
