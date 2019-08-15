@@ -22,7 +22,7 @@ Run `bundle install --path vendor/bundle` and `yarn`
 
 `yarn parse` will extract the core data from the PI's speadsheets into json files for the app to consume.
 
-`yarn parse:catalog` will extract the catalog of shodan data from the PI's speadsheets into json files that are used to generate static pages for the site.
+`yarn parse:catalog` will extract the catalogs of shōdan and kata (movement) data from the PI's speadsheets into json files that are used to generate static pages for the site.
 
 `contents` is the branch that is deployed to the staging version of the site. Additions and edits to the long-form static scholarly content of the site -- play narratives, essays, descriptions -- are made to the markdown and HTML files here. The `develop` branch is merged into `contents` before deploying a site update.
 
