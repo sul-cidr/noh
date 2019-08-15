@@ -24,6 +24,8 @@ Run `bundle install --path vendor/bundle` and `yarn`
 
 `yarn parse:catalog` will extract the catalog of shodan data from the PI's speadsheets into json files that are used to generate static pages for the site.
 
+`contents` is the branch that is deployed to the staging version of the site. Additions and edits to the long-form static scholarly content of the site -- play narratives, essays, descriptions -- are made to the markdown and HTML files here. The `develop` branch is merged into `contents` before deploying a site update.
+
 The project also includes and is set up for prettier. We recommend setting up your text editor to use both eslint and prettier for consistent code formatting. However, to ensure that files that get into the repo are minimally consistently formatted, the repo is set up to run prettier on any git staged js files.
 
 ## Adding new JS bundles/entry-points
@@ -58,6 +60,6 @@ For example, the following markup creates a narrative with three tabs:
         </p>
     </section>
 
-Within the content of each narrative, you can link a chunk of text to a specific time in the video using a `<time>` tag. The `datetime` attribute specifies what time the text should jump the video to, while the content of the `title` attribute will show when the user hovers over the text in the browser.
+The analytical text for the plays works the same way, but the files are located in the `src/_plays/narratives/` directory. For Hashitomi, the narrative is in `hashitomi.html`, while for Kokaji, it is in `kokaji.html`.
 
-The analytical text for the plays works the same way, but the files are located in the `src/_plays/narratives` directory. For Hashitomi, the narrative is in `hashitomi.html`, while for Kokaji, it is in `kokaji.html`.
+Templates are available for inserting various components into the "Level 0" static scholarly content (tabs, tables, images, video and audio players) and into the "Level 1" and "Level 2" interactive portions of the site (video links, tabs, tables of contents). See the [wiki](https://github.com/sul-cidr/noh/wiki/List-of-HTML-components) for further documentation.
