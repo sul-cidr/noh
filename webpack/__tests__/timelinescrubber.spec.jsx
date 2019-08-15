@@ -108,10 +108,22 @@ describe("<TimelineScrubber>", () => {
       .handleMouseWheel({ nativeEvent: { deltaY: 50 }, persist: () => null });
     expect(component.state().progress).toBe(0.77);
 
-    // mouseWheel with a negative deltaY should rewind (retreat?!) the vidoe by 2%
+    // mouseWheel with a negative deltaY should rewind (retreat?!) the video by 2%
     component
       .instance()
       .handleMouseWheel({ nativeEvent: { deltaY: -50 }, persist: () => null });
+    expect(component.state().progress).toBe(0.75);
+
+    // mouseWheel with a positive deltaX should rewind the video by 2%
+    component
+      .instance()
+      .handleMouseWheel({ nativeEvent: { deltaX: 50 }, persist: () => null });
+    expect(component.state().progress).toBe(0.73);
+
+    // mouseWheel with a negative deltaX should advance the video by 2%
+    component
+      .instance()
+      .handleMouseWheel({ nativeEvent: { deltaX: -50 }, persist: () => null });
     expect(component.state().progress).toBe(0.75);
   });
 
