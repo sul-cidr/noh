@@ -6,7 +6,7 @@
           <h3 class="filters__title">Filter by {{ filter.by }}</h3>
           <ul>
             {% assign last = "" %}
-            {% assign values = filter.values | sort %}
+            {% assign values = filter.values %}
             {% for value in values %}
               {% if last != "" and value.size != 1 and value.first != last %}
                   </ul>
@@ -48,7 +48,7 @@
       </div>
       <div class="filters__card-container">
         {% for card in include.catalog.cards %}
-          {% assign pills = card.pills | uniq | sort | join: ',' %}
+          {% assign pills = card.pills | uniq | join: ',' %}
           {% include filter-card.html
             title=card.name
             slug=card.slug
