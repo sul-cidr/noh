@@ -11,7 +11,7 @@
     "checkdata":
       "if [ ! -d \"data\" ]; then yarn parse; fi && if [ ! -d \"src/_data\" ]; then yarn parse:catalog; fi",
     "build":
-      "yarn checkdata && bundle exec jekyll clean && bundle exec jekyll build && node_modules/.bin/webpack -p --mode production",
+      "yarn parse && yarn parse:catalog && bundle exec jekyll clean && bundle exec jekyll build && node_modules/.bin/webpack -p --mode production",
     "dev":
       "yarn checkdata && yarn concurrently \"node_modules/.bin/webpack --mode development --watch\" \"bundle exec jekyll serve\"",
     "lint":
