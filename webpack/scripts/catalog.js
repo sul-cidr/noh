@@ -17,6 +17,7 @@ export const main = configPath => {
   try {
     const { catalog } = JSON.parse(fs.readFileSync(configPath, "utf8"));
     Object.keys(catalog).forEach(key => {
+      console.info(`Downloading and parsing: ${key}`);
       promises = Promise.all(
         catalog[[key]].map(filter => downloadCSV(filter.url))
       )
