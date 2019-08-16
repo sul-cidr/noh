@@ -2,6 +2,7 @@
 // all percussion cells
 ////////////////////////
 .cell--percussion {
+  @include flex-container($justify: center);
   background-repeat: no-repeat;
   background-size: 16px;
   position: relative;
