@@ -51,8 +51,9 @@
     width: 0;
     position: absolute;
     top: -0.75rem;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
+    z-index: 20;
   }
 
   &:hover {
