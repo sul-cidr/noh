@@ -12,16 +12,7 @@ exports[`<Acts> renders as expected by default 1`] = `
         "width": "8.157715839564922%",
       }
     }
-  >
-     
-    <span
-      className="translation"
-    >
-      (
-      Musicians
-      )
-    </span>
-  </div>
+  />
   <div
     className="act__first-end"
     key="act-end-Musicians-8.157715839564922"
@@ -44,14 +35,6 @@ exports[`<Acts> renders as expected by default 1`] = `
       className="transcription"
     >
       Mae ba
-    </span>
-     
-    <span
-      className="translation"
-    >
-      (
-      First Act
-      )
     </span>
   </div>
   <div
@@ -77,14 +60,6 @@ exports[`<Acts> renders as expected by default 1`] = `
     >
       Nochi ba
     </span>
-     
-    <span
-      className="translation"
-    >
-      (
-      Second Act
-      )
-    </span>
   </div>
   <div
     className="act__first-end"
@@ -109,7 +84,6 @@ exports[`<Acts> renders as expected by default 1`] = `
     >
       Oshirabe
     </span>
-     
   </div>
 </div>
 `;
