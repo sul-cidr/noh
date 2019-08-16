@@ -1971,14 +1971,6 @@ exports[`<Play> renders as expected 1`] = `
                     >
                       Mae ba
                     </span>
-                     
-                    <span
-                      className="translation"
-                    >
-                      (
-                      First Act
-                      )
-                    </span>
                   </div>
                   <div
                     className="act__first-end"
@@ -2002,14 +1994,6 @@ exports[`<Play> renders as expected 1`] = `
                       className="transcription"
                     >
                       Nochi ba
-                    </span>
-                     
-                    <span
-                      className="translation"
-                    >
-                      (
-                      Second Act
-                      )
                     </span>
                   </div>
                 </div>
