@@ -55,12 +55,20 @@
   }
 
   &:hover {
-    &::before {
-      display: block;
-    }
+    &::before,
     &::after {
       display: block;
     }
+  }
+}
+
+@mixin tooltip-center {
+  @include tooltip();
+
+  &::before,
+  &::after {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
