@@ -12,11 +12,6 @@ class Acts extends Component {
       ) : (
         ""
       );
-      const translation = act.translation ? (
-        <span className="translation">({act.translation})</span>
-      ) : (
-        ""
-      );
       left += width;
       const actEnd =
         index < length ? (
