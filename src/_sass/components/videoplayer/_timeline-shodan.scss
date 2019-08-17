@@ -60,6 +60,16 @@
   &.pointer {
     cursor: pointer;
   }
+
+  &.dan-1,&.dan-3,&.dan-5 {
+    background-color: $green16;
+    border: 0.0625rem solid $green32;
+    &:hover {
+      background-color: $green32;
+      border-color: $green64;
+    }
+  }
+
 }
 
 .shodan-map__item--active {

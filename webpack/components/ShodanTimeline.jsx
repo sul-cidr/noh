@@ -33,6 +33,7 @@ class ShodanTimeline extends Component {
           intensity={section.intensity.number || "0"}
           duration={duration}
           totalDuration={this.props.totalDuration}
+          dan={section.dan}
         />
       );
       position += (100 * duration) / this.props.totalDuration;
@@ -54,7 +55,11 @@ ShodanTimeline.propTypes = {
       sectionName: PropTypes.shape({ value: PropTypes.string }),
       intensity: PropTypes.shape({ number: PropTypes.string }),
       startTime: PropTypes.shape({ value: PropTypes.number }),
-      endTime: PropTypes.shape({ value: PropTypes.number })
+      endTime: PropTypes.shape({ value: PropTypes.number }),
+      dan: PropTypes.shape({
+        number: PropTypes.string,
+        value: PropTypes.string
+      })
     })
   ).isRequired,
   maxIntensity: PropTypes.number.isRequired,
