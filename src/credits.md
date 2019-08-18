@@ -23,13 +23,13 @@ permalink: /credits/
 </p>
   <h4>Website Development and Design</h4>
   <p>Center for Interdisciplinary Digital Research (CIDR), Stanford University Library:<br>
-<strong>Glen Worthey</strong>, Stanford University<br>
-<strong>Scott Bailey</strong>, Stanford University<br>
+<strong>Glen Worthey</strong><br>
+<strong>Scott Bailey</strong><br>
 <strong>Peter Broadwell</strong><br>
-<strong>Javier de la Rosa</strong>, Stanford University<br>
+<strong>Javier de la Rosa</strong><br>
 <strong>Juan Pablo López Franco</strong><br>
 <strong>Simon Wiles</strong><br>
-<strong>Vijoy Abraham</strong>, Stanford University
+<strong>Vijoy Abraham</strong>
 
 </p>
 
@@ -38,7 +38,8 @@ permalink: /credits/
 
   <h4>Additional Collaborators</h4>
   <p><strong>NAKAMURA Itsuko</strong>, American Consortium for Japanese Studies<br>
-  <strong>TAKAHASHI Yoko</strong>, Kyoto City University of Arts</p>
+  <strong>TAKAHASHI Yoko</strong>, Kyoto City University of Arts
+  <br><strong>David Yu</strong>, Center for Teaching and Learning at the University of the Pacific</p>
 
   <h4>Performers</h4>
   <h5>ACADEMIC EXAMPLES</h5>
@@ -93,34 +94,34 @@ permalink: /credits/
 
 
 
-    <h4>Recording, Academic Examples, Music</h4>
+    <h4>Recording</h4>
+    <h5>Academic Examples: Music</h5>
     <p>
   Sound: <strong>KAWASAKI Yoshihiro</strong>,  <strong>FUKUMIYA Kiyoaki</strong>, <strong>INOUE Hifumi</strong>, Kyoto Technical Office and Design Lab NADI<br>
   Camera: <strong>YAMAJI Masanori</strong>, <strong>NAGAI Ayako</strong>, <strong>OKADA Kota</strong>, from Ritsumeikan University Art Research Center
 
   </p>
 
-    <h4>Recording, Academic Examples, Dance</h4>
+    <h5>Academic Examples: Dance</h5>
     <p>
   Sound: Prof. <strong>NISHIURA Takanobu</strong>, <strong>FUKUMORI Takahiro</strong>, <strong>IKEFUJI Daisuke</strong>, <strong>MIZUONO Tomoyuki</strong> from Ritsumeikan University, College of Information Science and Engineering, Department of Media Technology<br>
   Camera:  <strong>YAMAJI Masanori</strong>,  <strong>OKADA Kota</strong>, <strong>MATSUSHIRO Takanobu</strong>, from Ritsumeikan University Art Research Center<br>
 
   </p>
 
-    <h4>Recordings of Plays</h4>
+    <h5>Plays</h5>
     <p>
   Camera: <strong>NEMOTO Taro</strong>, <strong>SHIMIZU Motomi</strong>.<br>
   Sound: <strong>FUKUMIYA Kiyoaki</strong>, <strong>INOUE Hifumi</strong>, Kyoto Technical Office and Design Lab NADI
 
   </p>
 
-    <h4>Sound Postproduction</h4>
-    <p><strong>Robert Bassett</strong>, Recording studio at the University of the Pacific
+    <h4>Postproduction</h4>
+    <h5>Sound</h5>
+    <p><strong>Robert Bassett</strong>, Recording Studio at the University of the Pacific  </p>
 
-  </p>
-
-    <h4>Graphic Design Consulation</h4>
-  <p><strong>David Yu</strong>, Center for Teaching and Learning at the University of the Pacific</p>
+    <h5>Video</h5>
+    <p><strong>Jason Alarcon</strong></p>
 
 
   <h2>SPONSORS</h2>
@@ -135,7 +136,7 @@ Ritusmeikan University, Art Research Center;<br>
  University of the Pacific</p>
 
  <h2>SPECIAL THANKS</h2>
- <p>TOKUMARU Yoshihiko<br>YUASA Joji<br>TAKAHASHI Terumi
+ <p>TOKUMARU Yoshihiko<br>YUASA Joji<br>TAKAHASHI Terumi</p>
   </div>
 
 </main>
