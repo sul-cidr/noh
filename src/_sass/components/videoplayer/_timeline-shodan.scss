@@ -50,7 +50,7 @@
   min-height: 0.5rem;
   position: relative;
 
-  @include tooltip();
+  @include tooltip-center();
 
   &:hover {
     background-color: $beige-dark;
