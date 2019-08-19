@@ -7,8 +7,8 @@ class Acts extends Component {
     let left = 0;
     return this.props.acts.map((act, index) => {
       const width = (100 * act.duration) / this.props.duration;
-      const transcription = act.transcription ? (
-        <span className="transcription">{act.transcription}</span>
+      const translation = act.translation ? (
+        <span className="translation">({act.translation})</span>
       ) : (
         ""
       );
@@ -29,7 +29,7 @@ class Acts extends Component {
           className="act"
           style={{ width: `${width}%` }}
         >
-          {transcription}
+          {translation}
         </div>,
         actEnd
       ];
