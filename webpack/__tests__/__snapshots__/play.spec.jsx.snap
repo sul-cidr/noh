@@ -1966,18 +1966,8 @@ exports[`<Play> renders as expected 1`] = `
                       }
                     }
                   >
-                    <span
-                      className="transcription"
-                    >
-                      Mae ba
-                    </span>
-                     
-                    <span
-                      className="translation"
-                    >
-                      (
+                    <span>
                       First Act
-                      )
                     </span>
                   </div>
                   <div
@@ -1998,18 +1988,8 @@ exports[`<Play> renders as expected 1`] = `
                       }
                     }
                   >
-                    <span
-                      className="transcription"
-                    >
-                      Nochi ba
-                    </span>
-                     
-                    <span
-                      className="translation"
-                    >
-                      (
+                    <span>
                       Second Act
-                      )
                     </span>
                   </div>
                 </div>
