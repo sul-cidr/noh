@@ -65,14 +65,10 @@
 @mixin tooltip-center {
   @include tooltip();
 
-  &::before {
-    border-radius: 0.125rem;
-  }
-
   &::before,
   &::after {
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-0.5rem);
   }
 }
 
