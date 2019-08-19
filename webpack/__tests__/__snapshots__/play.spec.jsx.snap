@@ -1966,10 +1966,8 @@ exports[`<Play> renders as expected 1`] = `
                       }
                     }
                   >
-                    <span
-                      className="transcription"
-                    >
-                      Mae ba
+                    <span>
+                      First Act
                     </span>
                   </div>
                   <div
@@ -1990,10 +1988,8 @@ exports[`<Play> renders as expected 1`] = `
                       }
                     }
                   >
-                    <span
-                      className="transcription"
-                    >
-                      Nochi ba
+                    <span>
+                      Second Act
                     </span>
                   </div>
                 </div>
