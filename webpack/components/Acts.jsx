@@ -7,11 +7,7 @@ class Acts extends Component {
     let left = 0;
     return this.props.acts.map((act, index) => {
       const width = (100 * act.duration) / this.props.duration;
-      const translation = act.translation ? (
-        <span className="translation">({act.translation})</span>
-      ) : (
-        ""
-      );
+      const translation = act.translation ? <span>{act.translation}</span> : "";
       left += width;
       const actEnd =
         index < length ? (
