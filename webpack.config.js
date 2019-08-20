@@ -29,6 +29,11 @@ module.exports = {
     new CopyWebpackPlugin(
       [
         {
+          from: "src/favicon/**",
+          to: "",
+          flatten: true
+        },
+        {
           from: "data/**",
           to: "",
           flatten: false

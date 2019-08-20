@@ -57,14 +57,15 @@ collections:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - favicon/
 
 # required for Travis: https://jekyllrb.com/docs/continuous-integration/travis-ci/
 exclude: [vendor]
@@ -74,6 +75,20 @@ keep_files:  # all these files are built and/or copied to the _site/ folder by w
   - assets/section.bundle.js
   - assets/vanilla-back-to-top.min.js
   - data
+  - android-chrome-192x192.png
+  - android-chrome-512x512.png
+  - apple-touch-icon.png
+  - browserconfig.xml
+  - favicon.ico
+  - favicon-16x16.png
+  - favicon-32x32.png
+  - mstile-70x70.png
+  - mstile-144x144.png
+  - mstile-150x150.png
+  - mstile-310x150.png
+  - mstile-310x310.png
+  - safari-pinned-tab.svg
+  - site.webmanifest
 
 plugins:
   - jekyll-autoprefixer
