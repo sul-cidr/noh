@@ -23,14 +23,19 @@ const CellText = props => {
     const endClass = props.end === true ? "cell__character--end" : "";
     typeSpan = (
       <span
-        className={`cell__character cell__character--${props.voiceType} ${beginClass} ${endClass}`}
+        className={`cell__character cell__character--${
+          props.voiceType
+        } ${beginClass} ${endClass}`}
       />
     );
     tooltipSpan = <span className="cell__tooltip">{props.voiceType}</span>;
   }
   return (
     <div className={`cell cell--${props.length} cell--text`}>
-      <span title={props.text} className="truncate">
+      <span
+        title={props.text}
+        className={`truncate ${props.voiceType !== "" ? "voice__label" : ""}`}
+      >
         {props.text}
       </span>
       {typeSpan}
