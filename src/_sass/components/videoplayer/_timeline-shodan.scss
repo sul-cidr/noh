@@ -52,22 +52,38 @@
 
   @include tooltip-center();
 
-  &:hover {
-    background-color: $beige-dark;
-    border-color: $brown64;
-  }
-
   &.pointer {
     cursor: pointer;
   }
 
-  &.dan-1,&.dan-3,&.dan-5 {
-    background-color: $green16;
-    border: 0.0625rem solid $green32;
-    &:hover {
-      background-color: $green32;
-      border-color: $green64;
-    }
+  &.dan-1 {
+    background-color: $dan_1_fill;
+    border: 0.0625rem solid $dan_1_edge;
+  }
+
+  &.dan-2 {
+    background-color: $dan_2_fill;
+    border: 0.0625rem solid $dan_2_edge;
+  }
+
+  &.dan-3 {
+    background-color: $dan_3_fill;
+    border: 0.0625rem solid $dan_3_edge;
+  }
+
+  &.dan-4 {
+    background-color: $dan_4_fill;
+    border: 0.0625rem solid $dan_4_edge;
+  }
+
+  &.dan-5 {
+    background-color: $dan_5_fill;
+    border: 0.0625rem solid $dan_5_edge;
+  }
+
+  &:hover {
+    background-color: $beige-dark;
+    border-color: $brown64;
   }
 
 }
