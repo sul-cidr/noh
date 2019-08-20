@@ -67,7 +67,8 @@ ShodanTimelineBlock.propTypes = {
 ShodanTimelineBlock.defaultProps = {
   url: "",
   startTime: null,
-  updateStartTime: null
+  updateStartTime: null,
+  dan: { number: "", value: "" }
 };
 
 const mapDispatchToProps = dispatch => ({

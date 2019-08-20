@@ -283,11 +283,10 @@ App.propTypes = {
       })
     })
   ).isRequired,
+  shodanType: PropTypes.shape({ value: PropTypes.string }),
   startTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  shodanType: PropTypes.shape({ value: PropTypes.string }),
-  dan: PropTypes.shape({ number: PropTypes.string, value: PropTypes.string }),
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
@@ -313,6 +312,10 @@ App.propTypes = {
     })
   ).isRequired,
   text: PropTypes.shape({ value: PropTypes.string }).isRequired
+};
+
+App.defaultProps = {
+  shodanType: { value: "" }
 };
 
 // If main app
