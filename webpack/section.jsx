@@ -192,7 +192,7 @@ export default class App extends Component {
                     this.props.captions.length ? "" : "disabled"
                   }`}
                 >
-                  <h3>{toggle} Libretto</h3>
+                  <h3>{toggle} Text</h3>
                 </div>
                 <HighlightedTextContainer
                   phrases={this.props.captions}

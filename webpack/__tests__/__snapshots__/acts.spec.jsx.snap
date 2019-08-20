@@ -13,13 +13,8 @@ exports[`<Acts> renders as expected by default 1`] = `
       }
     }
   >
-     
-    <span
-      className="translation"
-    >
-      (
+    <span>
       Musicians
-      )
     </span>
   </div>
   <div
@@ -40,18 +35,8 @@ exports[`<Acts> renders as expected by default 1`] = `
       }
     }
   >
-    <span
-      className="transcription"
-    >
-      Mae ba
-    </span>
-     
-    <span
-      className="translation"
-    >
-      (
+    <span>
       First Act
-      )
     </span>
   </div>
   <div
@@ -72,18 +57,8 @@ exports[`<Acts> renders as expected by default 1`] = `
       }
     }
   >
-    <span
-      className="transcription"
-    >
-      Nochi ba
-    </span>
-     
-    <span
-      className="translation"
-    >
-      (
+    <span>
       Second Act
-      )
     </span>
   </div>
   <div
@@ -103,13 +78,6 @@ exports[`<Acts> renders as expected by default 1`] = `
         "width": "8.157715839564922%",
       }
     }
-  >
-    <span
-      className="transcription"
-    >
-      Oshirabe
-    </span>
-     
-  </div>
+  />
 </div>
 `;

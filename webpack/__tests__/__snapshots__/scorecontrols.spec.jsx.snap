@@ -2365,6 +2365,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                   onMouseDown={[Function]}
                   onMouseMove={[Function]}
                   onMouseUp={[Function]}
+                  onWheel={[Function]}
                   role="button"
                   tabIndex={0}
                 >

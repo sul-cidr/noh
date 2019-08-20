@@ -2,12 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CellPercussion = props => {
-  let percussionClass = "";
-  let percussionContent = <span className="truncate">{props.text}</span>;
-  if (props.text.startsWith("#")) {
-    percussionClass = `cell--percussion-${props.text.slice(1)}`;
-    percussionContent = "";
-  }
+  const percussionClass = props.text.startsWith("#")
+    ? `cell--percussion-${props.text.slice(1)}`
+    : "";
+  const percussionContent = props.text.startsWith("#") ? "" : props.text;
   return (
     <div
       className={`cell cell--${

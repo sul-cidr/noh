@@ -21,6 +21,7 @@ class TimelineScrubber extends Component {
     this.handleMouseDown = this.handleMouseDown.bind(this);
     this.handleMouseMove = this.handleMouseMove.bind(this);
     this.handleMouseUp = this.handleMouseUp.bind(this);
+    this.handleMouseWheel = this.handleMouseWheel.bind(this);
 
     this.resetScrubber = this.resetScrubber.bind(this);
     this.updateTime = this.updateTime.bind(this);
@@ -93,6 +94,35 @@ class TimelineScrubber extends Component {
     this.resetScrubber();
   }
 
+  handleMouseWheel(event) {
+    const wheelDown = debounce(() => {
+      this.setState({
+        progress: clamp(this.state.progress - 0.02, 0, 1)
+      });
+      this.updateTime();
+    }, 5);
+
+    const wheelUp = debounce(() => {
+      this.setState({
+        progress: clamp(this.state.progress + 0.02, 0, 1)
+      });
+      this.updateTime();
+    }, 5);
+
+    event.persist();
+    const { deltaX, deltaY } = event.nativeEvent;
+    const [dominant] = [deltaX, -deltaY].sort(
+      (a, b) => Math.abs(b) - Math.abs(a)
+    );
+    if (dominant > 0) {
+      // scrolling down (yep...)
+      wheelDown();
+    } else {
+      // scrolling up
+      wheelUp();
+    }
+  }
+
   render() {
     return (
       <div
@@ -104,6 +134,7 @@ class TimelineScrubber extends Component {
         onMouseUp={this.handleMouseUp}
         onMouseMove={this.handleMouseMove}
         onBlur={this.resetScrubber}
+        onWheel={this.handleMouseWheel}
       >
         <div
           role="button"

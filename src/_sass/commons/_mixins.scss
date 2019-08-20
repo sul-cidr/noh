@@ -10,7 +10,7 @@
     font-family: $font-display;
     font-size: map-get($font-sizes-display, $size);
     line-height: map-get($line-heights-display, $size);
-  } 
+  }
   @else if $font == 'text' {
     font-family: $font-text;
     font-size: map-get($font-sizes-text, $size);
@@ -26,15 +26,14 @@
 @mixin tooltip() {
   &::before {
     background-color: $brown;
-    border-radius: 0.125rem;
+    border-radius: 0.125rem 0.125rem 0.125rem 0;
     color: $beige-light;
     content: attr(data-tooltip);
     display: none;
     padding: 0.375rem 0.5rem;
     position: absolute;
     top: -2.875rem;
-    left: 10%;
-    transform: translateX(-10%);
+    left: 0.5rem;
     white-space: nowrap;
     z-index: 20;
 
@@ -51,17 +50,25 @@
     width: 0;
     position: absolute;
     top: -0.75rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0.5rem;
+    z-index: 20;
   }
 
   &:hover {
-    &::before {
-      display: block;
-    }
+    &::before,
     &::after {
       display: block;
     }
+  }
+}
+
+@mixin tooltip-center {
+  @include tooltip();
+
+  &::before,
+  &::after {
+    left: 50%;
+    transform: translateX(-0.5rem);
   }
 }
 
