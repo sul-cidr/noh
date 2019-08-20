@@ -33,7 +33,7 @@ second-level-menu-active: catalog-shodan
 
   <p>The performers sit in a prescribed order (facing the curtain, from left to right): nohkan, kotsuzumi, ōtsuzumi, and taiko if one is used in the play. The sound of the instruments is introduced one at a time. The nohkan player opens and closes the <em>oshirabe</em> with the pattern: <em>ho ho ho fu fu</em>, interposed by the three patterns: <em>ho hya riu</em>, <em>ho hiu hiu</em>, and <em>ro ra riu</em>. The staggered entrance of the percussion instruments follows the sitting order, hence the kotsuzumi enters shortly after the nohkan, followed by the others. </p>
 
-  <p>The nohkan’s five-pattern melody and the prescribed sequenced entrance of the percussion instruments is common to all <em>oshirabe</em>.
+  <p>The three-part nohkan’s melody with its first and third in the low range, middle one in the higher, and the prescribed sequenced entrance of the percussion instruments is common to all <em>oshirabe</em>. 
   Yet differences in its performance help set different moods.
   An obvious difference between Kokaji’s <em>oshirabe</em> with Hashitomi’s relates to timbre since the instrumentation of the former includes a taiko, whereas the latter does not. Subtle differences can also make a difference. For instance, the performance of Hashitomi’s <em>oshirabe</em> in our recordings is longer than Kokaji’s by more than twenty seconds, suggesting that the musicians felt that longer durations were appropriate to set the mood for a play about a young woman or a flower, compared with shorter durations for a play featuring a dynamic deity. </p>
 
