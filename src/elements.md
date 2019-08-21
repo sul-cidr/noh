@@ -25,7 +25,7 @@ permalink: /elements/
           description="Provides an interactive video catalog of movement vocabulary and analyzes shimai dances from Hashitomi and Kokaji."
       %}
       {% include card.html
-          link="/libretti/"
+          link="/text/"
           image="/assets/images/utaibon.png"
           title="Text"
           description="Introduces the texts of Hashitomi and Kokaji, and presents their libretti in Romaji transliteration and English translation."
