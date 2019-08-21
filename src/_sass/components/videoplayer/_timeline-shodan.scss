@@ -81,8 +81,23 @@
     border: 0.0625rem solid $dan_5_edge;
   }
 
+  &.dan-6 {
+    background-color: $dan_6_fill;
+    border: 0.0625rem solid $dan_6_edge;
+  }
+
+  &.dan-7 {
+    background-color: $dan_7_fill;
+    border: 0.0625rem solid $dan_7_edge;
+  }
+
+  &.dan-8 {
+    background-color: $dan_8_fill;
+    border: 0.0625rem solid $dan_8_edge;
+  }
+
   &:hover {
-    background-color: $beige-dark;
+    background-color: $dan_hover;
     border-color: $brown64;
   }
 
