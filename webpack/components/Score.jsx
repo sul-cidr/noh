@@ -86,6 +86,7 @@ class Score extends Component {
           textGrid={measureTextGrid}
           length={beatNums.length}
           rangeGrid={phrase.vocalRange.grid}
+          textIsCongruent={this.props.textIsCongruent}
         />
       </div>
     ) : (
@@ -206,7 +207,8 @@ Score.propTypes = {
     isDanceOn: PropTypes.bool,
     isPrevSentenceOn: PropTypes.bool,
     isNextSentenceOn: PropTypes.bool
-  }).isRequired
+  }).isRequired,
+  textIsCongruent: PropTypes.bool.isRequired
 };
 
 const mapStateToProps = state => ({

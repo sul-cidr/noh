@@ -12,6 +12,7 @@ describe("<CellText>", () => {
         vocalRange="l"
         beginning
         end
+        textIsCongruent
       />
     );
     expect(component).toMatchSnapshot();
@@ -23,6 +24,7 @@ describe("<CellText>", () => {
         vocalRange="m"
         beginning={false}
         end
+        textIsCongruent={false}
       />
     );
     expect(component2).toMatchSnapshot();
@@ -34,13 +36,21 @@ describe("<CellText>", () => {
         vocalRange="h"
         beginning
         end={false}
+        textIsCongruent
       />
     );
     expect(component3).toMatchSnapshot();
   });
   it("renders as expected with no vocal range", () => {
     const component = shallow(
-      <CellText text="ma" length={2} voiceType="jiutai" beginning end />
+      <CellText
+        text="ma"
+        length={2}
+        voiceType="jiutai"
+        beginning
+        end
+        textIsCongruent
+      />
     );
     expect(component).toMatchSnapshot();
   });

@@ -31,6 +31,7 @@ describe("<UnwrappedScore>", () => {
         phrases={phrases.phrases}
         currentTime={1193}
         toggles={allTogglesOn}
+        textIsCongruent
       />
     );
     expect(component).toMatchSnapshot();
@@ -42,6 +43,7 @@ describe("<UnwrappedScore>", () => {
         phrases={phrases.phrases}
         currentTime={1193}
         toggles={allTogglesOff}
+        textIsCongruent={false}
       />
     );
     expect(component).toMatchSnapshot();
@@ -53,6 +55,7 @@ describe("<UnwrappedScore>", () => {
         phrases={phrases.phrases}
         currentTime={1193}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     expect(component).toMatchSnapshot();
@@ -77,6 +80,7 @@ describe("<UnwrappedScore>", () => {
         phrases={fixturesPhrases}
         currentTime={1193}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     expect(component).toMatchSnapshot();
@@ -90,6 +94,7 @@ describe("<UnwrappedScore>", () => {
         startTime={phrases.phrases[0].startTime.value}
         duration={2000}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     let { 1: currentPhraseIndex } = determinePhraseIndices(
@@ -104,6 +109,7 @@ describe("<UnwrappedScore>", () => {
         startTime={phrases.phrases[0].startTime.value}
         duration={2000}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     ({ 1: currentPhraseIndex } = determinePhraseIndices(
@@ -117,6 +123,7 @@ describe("<UnwrappedScore>", () => {
         startTime={phrases.phrases[0].startTime.value}
         duration={2000}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     ({ 1: currentPhraseIndex } = determinePhraseIndices(
@@ -131,6 +138,7 @@ describe("<UnwrappedScore>", () => {
         phrases={phrases.phrases}
         currentTime={1213}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     component.instance().componentWillReceiveProps(component.instance().props);
@@ -145,6 +153,7 @@ describe("<UnwrappedScore>", () => {
         phrases={phrases.phrases}
         currentTime={1213}
         toggles={allTogglesOn}
+        textIsCongruent={false}
       />
     );
     component.state().currentPhrase = null;
