@@ -46,14 +46,16 @@ CellText.propTypes = {
   vocalRange: PropTypes.string,
   voiceType: PropTypes.string,
   beginning: PropTypes.bool,
-  end: PropTypes.bool
+  end: PropTypes.bool,
+  textIsCongruent: PropTypes.bool
 };
 
 CellText.defaultProps = {
   vocalRange: "",
   voiceType: "",
   beginning: false,
-  end: false
+  end: false,
+  textIsCongruent: false
 };
 
 export default CellText;

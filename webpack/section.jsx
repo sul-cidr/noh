@@ -95,6 +95,7 @@ export default class App extends Component {
   render() {
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
+    const textIsCongruent = /(?<!non-)congruent/.test(this.props.text.value);
     const score =
       this.props.phrases && this.props.phrases.length > 0
         ? [
@@ -103,6 +104,7 @@ export default class App extends Component {
               startTime={this.props.startTime}
               duration={this.props.duration}
               phrases={this.props.phrases}
+              textIsCongruent={textIsCongruent}
             />
           ]
         : [
@@ -303,7 +305,8 @@ App.propTypes = {
       text: PropTypes.shape({}),
       vocalRange: PropTypes.shape({})
     })
-  ).isRequired
+  ).isRequired,
+  text: PropTypes.shape({ value: PropTypes.string }).isRequired
 };
 
 // Just in case the Shōdan Type line in the data spreadsheet isn't filled in
