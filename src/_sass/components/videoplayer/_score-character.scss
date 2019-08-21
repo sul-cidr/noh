@@ -7,7 +7,11 @@
   }
 }
 
-.cell__character {
+.cell__character--jiutai,
+.cell__character--aikyogen,
+.cell__character--shite,
+.cell__character--waki,
+.cell__character--wakizure {
   border-left-style: solid;
   border-left-width: 0.1875rem;
   left: 0;
@@ -16,6 +20,12 @@
   top: 0;
   width: 0.25rem;
 }
+
+.cell__character--jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
+.cell__character--aikyogen   { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
+.cell__character--shite      { @include character-overlay($color-character-shite, 'shite'); }
+.cell__character--waki       { @include character-overlay($color-character-waki, 'waki'); }
+.cell__character--wakizure   { @include character-overlay($color-character-wakizure, 'wakizure'); }
 
 .cell__tooltip {
   background-color: $white;
@@ -47,12 +57,6 @@
     background-color: $beige-light;
   }
 }
-
-.cell__character--jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
-.cell__character--aikyogen   { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
-.cell__character--shite      { @include character-overlay($color-character-shite, 'shite'); }
-.cell__character--waki       { @include character-overlay($color-character-waki, 'waki'); }
-.cell__character--wakizure { @include character-overlay($color-character-wakizure, 'wakizure'); }
 
 .cell--text:hover {
   .cell__tooltip {
