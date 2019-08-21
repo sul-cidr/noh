@@ -9,7 +9,7 @@
 
 .cell__character {
   border-left-style: solid;
-  border-left-width: 0.0625rem;
+  border-left-width: 0.1875rem;
   left: 0;
   height: 100%;
   position: absolute;
@@ -20,7 +20,7 @@
 .cell__tooltip {
   background-color: $white;
   border-left-style: solid;
-  border-left-width: 0.0625rem;
+  border-left-width: 0.1875rem;
   border-top-style: solid;
   border-top-width: 0;
   bottom: calc(100% - 0.0625rem);
