@@ -10,6 +10,7 @@ describe("<ScoreTextLine>", () => {
         textGrid={phrases.phrases[0].syllableText.grid}
         length={13}
         rangeGrid={phrases.phrases[0].vocalRange.grid}
+        textIsCongruent
       />
     );
     expect(component).toMatchSnapshot();
@@ -20,6 +21,7 @@ describe("<ScoreTextLine>", () => {
         textGrid={[]}
         length={13}
         rangeGrid={phrases.phrases[0].vocalRange.grid}
+        textIsCongruent={false}
       />
     );
     expect(component).toMatchSnapshot();
