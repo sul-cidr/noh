@@ -18,7 +18,6 @@
   height: 100%;
   position: absolute;
   top: 0;
-  width: 0.25rem;
 }
 
 .cell__character--jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
@@ -26,6 +25,10 @@
 .cell__character--shite      { @include character-overlay($color-character-shite, 'shite'); }
 .cell__character--waki       { @include character-overlay($color-character-waki, 'waki'); }
 .cell__character--wakizure   { @include character-overlay($color-character-wakizure, 'wakizure'); }
+
+.cell__character .truncate {
+  left: 0.5rem;
+}
 
 .cell__tooltip {
   background-color: $white;
@@ -45,7 +48,7 @@
   @include text(tn);
   @include uppercase();
   line-height: $tooltip-height;
-  padding-left: 0.25rem;
+  padding-left: calc(0.5rem - 0.1875rem);  // <left offset of span.truncate for text> - <width of colored border>
 
   &.cell__tooltip--centered {
     padding: 0;
