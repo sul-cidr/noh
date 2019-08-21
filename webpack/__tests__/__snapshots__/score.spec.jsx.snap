@@ -189,6 +189,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
                 },
               ]
             }
+            textIsCongruent={false}
           />
         </div>
         <div
@@ -443,6 +444,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
                 },
               ]
             }
+            textIsCongruent={false}
           />
         </div>
         <div
@@ -761,6 +763,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
                 },
               ]
             }
+            textIsCongruent={true}
           />
         </div>
         <div
@@ -1015,6 +1018,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
                 },
               ]
             }
+            textIsCongruent={true}
           />
         </div>
         <div
@@ -1333,6 +1337,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
                 },
               ]
             }
+            textIsCongruent={false}
           />
         </div>
         <div
@@ -1587,6 +1592,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
                 },
               ]
             }
+            textIsCongruent={false}
           />
         </div>
         <div
@@ -1875,6 +1881,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
                 },
               ]
             }
+            textIsCongruent={false}
           />
         </div>
         <div
@@ -2129,6 +2136,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
                 },
               ]
             }
+            textIsCongruent={false}
           />
         </div>
         <div

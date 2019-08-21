@@ -8,6 +8,7 @@ Array [
     key="textCell0"
     length={1}
     text="ma"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType="jiutai"
   />,
@@ -17,6 +18,7 @@ Array [
     key="textCell1"
     length={1}
     text="ta"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -26,6 +28,7 @@ Array [
     key="textCell2"
     length={1}
     text="wa"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType="jiutai"
   />,
@@ -35,6 +38,7 @@ Array [
     key="textCell3"
     length={1}
     text="ga"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType="shite"
   />,
@@ -44,6 +48,7 @@ Array [
     key="textCell4"
     length={1}
     text="cho"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -53,6 +58,7 @@ Array [
     key="textCell5"
     length={1}
     text="o"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -62,6 +68,7 @@ Array [
     key="textCell6"
     length={1}
     text="no"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType="jiutai"
   />,
@@ -71,6 +78,7 @@ Array [
     key="textCell7"
     length={1}
     text="so"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -80,6 +88,7 @@ Array [
     key="textCell8"
     length={1}
     text="no"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -89,6 +98,7 @@ Array [
     key="textCell9"
     length={1}
     text="ha"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -98,6 +108,7 @@ Array [
     key="textCell10"
     length={1}
     text="ji"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -107,6 +118,7 @@ Array [
     key="textCell11"
     length={1}
     text="me"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType=""
   />,
@@ -116,6 +128,7 @@ Array [
     key="textCell12"
     length={1}
     text="(e)"
+    textIsCongruent={true}
     vocalRange="l"
     voiceType="shite"
   />,
@@ -128,6 +141,7 @@ exports[`<ScoreTextLine> renders as expected by default 2`] = `
   end={false}
   length={13}
   text=""
+  textIsCongruent={false}
   vocalRange=""
   voiceType=""
 />
