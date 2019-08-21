@@ -23,16 +23,28 @@ const CellText = props => {
     const endClass = props.end === true ? "cell__character--end" : "";
     typeSpan = (
       <span
-        className={`cell__character cell__character--${props.voiceType} ${beginClass} ${endClass}`}
+        className={`cell__character cell__character--${
+          props.voiceType
+        } ${beginClass} ${endClass}`}
       />
     );
-    tooltipSpan = <span className="cell__tooltip">{props.voiceType}</span>;
+    tooltipSpan = (
+      <span
+        className={`cell__tooltip${
+          props.textIsCongruent ? " cell__tooltip--centered" : ""
+        }`}
+      >
+        {props.voiceType}
+      </span>
+    );
   }
   return (
     <div className={`cell cell--${props.length} cell--text`}>
-      <span title={props.text} className="truncate">
-        {props.text}
-      </span>
+      {props.textIsCongruent ? (
+        props.text
+      ) : (
+        <span className="truncate">{props.text}</span>
+      )}
       {typeSpan}
       {tooltipSpan}
       {rangeSpan}
@@ -46,14 +58,16 @@ CellText.propTypes = {
   vocalRange: PropTypes.string,
   voiceType: PropTypes.string,
   beginning: PropTypes.bool,
-  end: PropTypes.bool
+  end: PropTypes.bool,
+  textIsCongruent: PropTypes.bool
 };
 
 CellText.defaultProps = {
   vocalRange: "",
   voiceType: "",
   beginning: false,
-  end: false
+  end: false,
+  textIsCongruent: false
 };
 
 export default CellText;

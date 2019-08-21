@@ -57,6 +57,7 @@ const ScoreTextLine = props => {
   const textCells = fullData.map((cell, idx) => (
     <CellText
       text={cell.text}
+      textIsCongruent={props.textIsCongruent}
       length={cell.length}
       key={`textCell${idx}`} // eslint-disable-line react/no-array-index-key
       vocalRange={cell.vocalRange}
@@ -85,7 +86,8 @@ ScoreTextLine.propTypes = {
       text: PropTypes.string,
       length: PropTypes.number
     })
-  ).isRequired
+  ).isRequired,
+  textIsCongruent: PropTypes.bool.isRequired
 };
 
 export default ScoreTextLine;
