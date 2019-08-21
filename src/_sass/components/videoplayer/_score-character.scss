@@ -1,6 +1,6 @@
 @mixin character-overlay($color, $character) {
   border-left-color: $color;
-  
+
   & + .cell__tooltip {
     border-left-color: $color;
     border-top-color: $border-color;
@@ -29,12 +29,18 @@
   left: 0;
   overflow: hidden;
   position: absolute;
-  text-align: center;
+  text-align: left;
   transition: height 50ms ease-in-out;
   width: 100%;
-  @include flex-container($justify: center);
   @include text(tn);
   @include uppercase();
+  line-height: $tooltip-height;
+  padding-left: 0.25rem;
+
+  &.cell__tooltip--centered {
+    padding: 0;
+    text-align: center;
+  }
 
   .measure--previous &,
   .measure--next & {

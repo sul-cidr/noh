@@ -28,7 +28,15 @@ const CellText = props => {
         } ${beginClass} ${endClass}`}
       />
     );
-    tooltipSpan = <span className="cell__tooltip">{props.voiceType}</span>;
+    tooltipSpan = (
+      <span
+        className={`cell__tooltip${
+          props.textIsCongruent ? " cell__tooltip--centered" : ""
+        }`}
+      >
+        {props.voiceType}
+      </span>
+    );
   }
   return (
     <div className={`cell cell--${props.length} cell--text`}>
