@@ -1,7 +1,7 @@
 ---
 layout: website
 title: Terms of Use
-menu-active:
+menu-active: about
 permalink: /terms-of-use/
 ---
 <main class="page-content">

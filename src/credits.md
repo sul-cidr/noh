@@ -1,7 +1,7 @@
 ---
 layout: website
 title: Credits
-menu-active:
+menu-active: about
 permalink: /credits/
 ---
 <main class="page-content">
