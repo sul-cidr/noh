@@ -32,10 +32,6 @@ class ScoreControls extends Component {
     this.handleToggle = this.handleToggle.bind(this);
   }
 
-  componentDidMount() {
-    this.props.updateScoreToggles(this.props);
-  }
-
   componentDidUpdate() {
     this.props.updateScoreToggles(this.state);
   }
