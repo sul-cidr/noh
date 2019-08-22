@@ -46,6 +46,7 @@ describe("<ScoreControls>", () => {
   it("renders as expected by default at the end of the duration time", () => {
     const component = shallow(
       <UnwrappedScoreControls
+        updateScoreToggles={jest.fn()}
         updateStartTime={jest.fn()}
         updStartTime={jest.fn()}
         phrases={phrases}
