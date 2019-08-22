@@ -3,7 +3,8 @@ import {
   setIsPlaying,
   setStartTime,
   setCurrentPhraseID,
-  setScoreToggles
+  setScoreToggles,
+  setNarrativeTab
 } from "../actionCreators";
 
 test("setIsPlaying creates the correct payload", () => {
@@ -26,4 +27,8 @@ test("setScoreToggles creates the correct payload", () => {
   expect(
     setScoreToggles({ isTextOn: false, isBeatOn: false })
   ).toMatchSnapshot();
+});
+
+test("setNarrativeTab creates the correct payload", () => {
+  expect(setNarrativeTab(1)).toMatchSnapshot();
 });

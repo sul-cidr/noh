@@ -1,14 +1,19 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import { Unwrapped as TabbedNarrative } from "../components/TabbedNarrative";
+import { Provider } from "react-redux";
+import configureMockStore from "redux-mock-store";
+import { DEFAULT_STATE } from "../reducers";
+import TabbedNarrative, {
+  Unwrapped as UnwrappedTabbedNarrative
+} from "../components/TabbedNarrative";
 
 describe("<TabbedNarrative>", () => {
   const tabbedAnalysis =
-    "<div title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></div><br /><div title='section two'><p>Different stuff</p></div>";
+    "<section title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></section><br /><section title='section two'><p>Different stuff</p></section>";
 
   it("renders as expected", () => {
     const component = shallow(
-      <TabbedNarrative
+      <UnwrappedTabbedNarrative
         narrative={tabbedAnalysis}
         narrativeTab={0}
         updateNarrativeTab={() => jest.fn()}
@@ -20,7 +25,7 @@ describe("<TabbedNarrative>", () => {
   it("ref handler runs with tabs ref", () => {
     const component = mount(
       <div className="narrative" role="presentation">
-        <TabbedNarrative
+        <UnwrappedTabbedNarrative
           narrative={tabbedAnalysis}
           narrativeTab={0}
           updateNarrativeTab={() => jest.fn()}
@@ -33,12 +38,32 @@ describe("<TabbedNarrative>", () => {
 
   it("ref handler runs with null input", () => {
     const component = shallow(
-      <TabbedNarrative
+      <UnwrappedTabbedNarrative
         narrative={tabbedAnalysis}
         narrativeTab={0}
         updateNarrativeTab={() => jest.fn()}
       />
     );
     component.instance().handleDomRef(null);
+  });
+
+  it("updates store correctly on tab change", () => {
+    const mockStore = configureMockStore();
+    const defaultState = DEFAULT_STATE;
+    const store = mockStore(defaultState);
+    const wrapper = mount(
+      <Provider store={store}>
+        <TabbedNarrative
+          narrative={tabbedAnalysis}
+          narrativeTab={0}
+          updateNarrativeTab={() => jest.fn()}
+        />
+      </Provider>
+    );
+
+    const action = { type: "SET_NARRATIVE_TAB", payload: 1 };
+    const button = wrapper.find("li.react-tabs__tab").last();
+    button.simulate("click");
+    expect(store.getActions()[0]).toEqual(action);
   });
 });

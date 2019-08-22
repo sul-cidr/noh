@@ -11,6 +11,65 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
 >
   <TabList
     className="react-tabs__tab-list"
-  />
+  >
+    <Tab
+      className="react-tabs__tab"
+      disabledClassName="react-tabs__tab--disabled"
+      focus={false}
+      id={null}
+      key="section one with many words in title"
+      panelId={null}
+      selected={false}
+      selectedClassName="react-tabs__tab--selected"
+    >
+      section one with many words in title
+    </Tab>
+    <Tab
+      className="react-tabs__tab"
+      disabledClassName="react-tabs__tab--disabled"
+      focus={false}
+      id={null}
+      key="section two"
+      panelId={null}
+      selected={false}
+      selectedClassName="react-tabs__tab--selected"
+    >
+      section two
+    </Tab>
+  </TabList>
+  <TabPanel
+    className="react-tabs__tab-panel"
+    forceRender={false}
+    key="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor sit amet.</p></section>"
+    selectedClassName="react-tabs__tab-panel--selected"
+  >
+    <Markup
+      content="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor sit amet.</p></section>"
+      disableLineBreaks={false}
+      disableWhitelist={false}
+      emptyContent={null}
+      noHtml={false}
+      noHtmlExceptMatchers={false}
+      parsedContent={null}
+      tagName="div"
+    />
+  </TabPanel>
+  <TabPanel
+    className="react-tabs__tab-panel"
+    forceRender={false}
+    key="<section ><p>Different stuff</p></section>"
+    selectedClassName="react-tabs__tab-panel--selected"
+  >
+    <Markup
+      content="<section ><p>Different stuff</p></section>"
+      disableLineBreaks={false}
+      disableWhitelist={false}
+      emptyContent={null}
+      noHtml={false}
+      noHtmlExceptMatchers={false}
+      parsedContent={null}
+      tagName="div"
+    />
+  </TabPanel>
 </Tabs>
 `;
