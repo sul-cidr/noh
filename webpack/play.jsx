@@ -174,6 +174,10 @@ App.propTypes = {
         present: PropTypes.string,
         value: PropTypes.string
       }),
+      dan: PropTypes.shape({
+        number: PropTypes.string,
+        value: PropTypes.string
+      }),
       captions: PropTypes.Array,
       narrative: PropTypes.shape({ value: PropTypes.string })
     })

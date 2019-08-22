@@ -275,13 +275,18 @@ App.propTypes = {
       sectionUrl: PropTypes.string.isRequired,
       intensity: PropTypes.shape({ number: PropTypes.string }),
       startTime: PropTypes.shape({ value: PropTypes.number }),
-      endTime: PropTypes.shape({ value: PropTypes.number })
+      endTime: PropTypes.shape({ value: PropTypes.number }),
+      shodanType: PropTypes.shape({ value: PropTypes.string }),
+      dan: PropTypes.shape({
+        number: PropTypes.string,
+        value: PropTypes.string
+      })
     })
   ).isRequired,
+  shodanType: PropTypes.shape({ value: PropTypes.string }),
   startTime: PropTypes.number.isRequired,
   duration: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  shodanType: PropTypes.shape({ value: PropTypes.string }),
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
@@ -309,8 +314,9 @@ App.propTypes = {
   text: PropTypes.shape({ value: PropTypes.string }).isRequired
 };
 
-// Just in case the Shōdan Type line in the data spreadsheet isn't filled in
-App.defaultProps = { shodanType: { value: undefined } };
+App.defaultProps = {
+  shodanType: { value: "" }
+};
 
 // If main app
 /* istanbul ignore if */
