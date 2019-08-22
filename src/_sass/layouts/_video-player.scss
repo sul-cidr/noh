@@ -29,11 +29,15 @@
 }
 
 .sidebar__container {
+  display: flex;
   flex-grow: 1;
   overflow: hidden;
   position: relative;
 
-  @include flex-container($direction:column);
+  .react-tabs {
+    min-height: 0;
+    height: 100%;
+  }
 
   &::after {
     background-image: linear-gradient(rgba($white, 0) 0%, rgba($white, 1) 100%);
