@@ -4,7 +4,8 @@ import {
   SET_START_TIME,
   SET_CURRENT_PHRASE_ID,
   SET_SCORE_TOGGLES,
-  SET_SIDEBAR_STATE
+  SET_SIDEBAR_STATE,
+  SET_NARRATIVE_TAB
 } from "./actions";
 
 export function setScoreToggles(word) {
@@ -29,4 +30,8 @@ export function setCurrentPhraseID(idString) {
 
 export function setSidebarState(sidebarState) {
   return { type: SET_SIDEBAR_STATE, payload: sidebarState };
+}
+
+export function setNarrativeTab(narrativeTabId) {
+  return { type: SET_NARRATIVE_TAB, payload: narrativeTabId };
 }
