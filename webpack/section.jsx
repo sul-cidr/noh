@@ -184,7 +184,9 @@ export default class App extends Component {
               <div
                 role="presentation"
                 className={`highlighted-text__container ${
-                  this.state.isHighlightedTextOn ? "is-open" : ""
+                  this.state.isHighlightedTextOn && this.props.captions.length
+                    ? "is-open"
+                    : ""
                 }`}
                 onClick={event =>
                   this.handleToggle(event, "isHighlightedTextOn")
