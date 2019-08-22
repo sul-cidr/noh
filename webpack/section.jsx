@@ -14,7 +14,7 @@ import ShodanTimeline from "./components/ShodanTimeline";
 
 import store from "./store";
 import contents from "./contents";
-import { setCurrentTime } from "./actionCreators";
+import { setCurrentTime, setSidebarState } from "./actionCreators";
 import { saveState as saveStateToLocalStorage } from "./localStorage";
 import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 import { parseUrlFragment, validateTimestamp } from "./utils";
@@ -31,10 +31,7 @@ export default class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      isHighlightedTextOn: props.captions.length > 0,
-      isShodanTimelineOn: false
-    };
+    this.state = store.getState().sidebarState;
 
     const {
       startTime,
@@ -49,11 +46,15 @@ export default class App extends Component {
     store.subscribe(
       throttle(() => {
         const {
+          sidebarState,
           toggles,
           currentTime: { time }
         } = store.getState();
         saveStateToLocalStorage({ toggles });
-        saveStateToSessionStorage({ currentTime: { time, origin } });
+        saveStateToSessionStorage({
+          currentTime: { time, origin },
+          sidebarState
+        });
       }, 2000)
     );
 
@@ -86,9 +87,10 @@ export default class App extends Component {
 
   handleToggle(event, toggleName) {
     if (["H3", "path", "svg"].includes(event.target.tagName)) {
-      this.setState(prevState => ({
-        [toggleName]: !prevState[toggleName]
-      }));
+      this.setState(
+        prevState => ({ [toggleName]: !prevState[toggleName] }),
+        () => store.dispatch(setSidebarState(this.state))
+      );
     }
   }
 

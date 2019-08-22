@@ -3,7 +3,8 @@ import {
   SET_IS_PLAYING,
   SET_START_TIME,
   SET_CURRENT_PHRASE_ID,
-  SET_SCORE_TOGGLES
+  SET_SCORE_TOGGLES,
+  SET_SIDEBAR_STATE
 } from "./actions";
 
 export function setScoreToggles(word) {
@@ -24,4 +25,8 @@ export function setStartTime(word) {
 
 export function setCurrentPhraseID(idString) {
   return { type: SET_CURRENT_PHRASE_ID, payload: idString };
+}
+
+export function setSidebarState(sidebarState) {
+  return { type: SET_SIDEBAR_STATE, payload: sidebarState };
 }
