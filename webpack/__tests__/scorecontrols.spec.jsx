@@ -101,7 +101,7 @@ describe("<ScoreControls>", () => {
     };
     const button = wrapper.find("button.sentence-control__prev").first();
     button.simulate("click");
-    expect(store.getActions()[1]).toEqual(action);
+    expect(store.getActions()[0]).toEqual(action);
   });
 
   it("handles next button", () => {
@@ -111,7 +111,7 @@ describe("<ScoreControls>", () => {
     };
     const button = wrapper.find("button.sentence-control__next").first();
     button.simulate("click");
-    expect(store.getActions()[1]).toEqual(action);
+    expect(store.getActions()[0]).toEqual(action);
   });
 
   it("ignores prev button when currentTime is outside section (earlier)", () => {
