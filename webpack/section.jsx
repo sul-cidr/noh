@@ -46,6 +46,7 @@ export default class App extends Component {
     store.subscribe(
       throttle(() => {
         const {
+          narrativeTab,
           sidebarState,
           toggles,
           currentTime: { time }
@@ -53,6 +54,7 @@ export default class App extends Component {
         saveStateToLocalStorage({ toggles });
         saveStateToSessionStorage({
           currentTime: { time, origin },
+          narrativeTab,
           sidebarState
         });
       }, 2000)
