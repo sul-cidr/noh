@@ -17848,7 +17848,7 @@ exports[`<Section> renders as expected 1`] = `
                 onKeyPress={null}
                 role="presentation"
               >
-                <TabbedNarrative
+                <Connect(TabbedNarrative)
                   narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -17868,259 +17868,283 @@ exports[`<Section> renders as expected 1`] = `
 </section>
 "
                 >
-                  <Tabs
-                    defaultFocus={false}
-                    defaultIndex={null}
-                    domRef={[Function]}
-                    forceRenderTabPanel={false}
-                    selectedIndex={null}
+                  <TabbedNarrative
+                    narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
+    <p>
+    Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    </p>
+</section>
+<br />
+<section id='part1' title='Part I' class='tabbed-narrative'>
+    <p>
+    Part I. Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</section>
+<br   />
+<section id=\\"part2\\" title=\\"Part II\\" class=\\"tabbed-narrative\\">
+    <p>
+    Part II. Lorem ipsum dolor sit amet, <time datetime='00:00:30.303' title='00:12:98.987'>consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+</section>
+"
+                    narrativeTab={0}
+                    updateNarrativeTab={[Function]}
                   >
-                    <UncontrolledTabs
-                      className="react-tabs"
+                    <Tabs
+                      defaultFocus={false}
+                      defaultIndex={null}
                       domRef={[Function]}
-                      focus={false}
                       forceRenderTabPanel={false}
                       onSelect={[Function]}
                       selectedIndex={0}
                     >
-                      <div
+                      <UncontrolledTabs
                         className="react-tabs"
-                        data-tabs={true}
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
+                        domRef={[Function]}
+                        focus={false}
+                        forceRenderTabPanel={false}
+                        onSelect={[Function]}
+                        selectedIndex={0}
                       >
-                        <TabList
-                          className="react-tabs__tab-list"
-                          key=".0"
+                        <div
+                          className="react-tabs"
+                          data-tabs={true}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
                         >
-                          <ul
+                          <TabList
                             className="react-tabs__tab-list"
-                            role="tablist"
+                            key=".0"
                           >
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-0"
-                              key=".$Introduction"
-                              panelId="react-tabs-1"
-                              selected={true}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
+                            <ul
+                              className="react-tabs__tab-list"
+                              role="tablist"
                             >
-                              <li
-                                aria-controls="react-tabs-1"
-                                aria-disabled="false"
-                                aria-selected="true"
-                                className="react-tabs__tab react-tabs__tab--selected"
+                              <Tab
+                                className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-0"
-                                role="tab"
-                                tabIndex="0"
+                                key=".$Introduction"
+                                panelId="react-tabs-1"
+                                selected={true}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Introduction
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-2"
-                              key=".$Part I"
-                              panelId="react-tabs-3"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-3"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-1"
+                                  aria-disabled="false"
+                                  aria-selected="true"
+                                  className="react-tabs__tab react-tabs__tab--selected"
+                                  id="react-tabs-0"
+                                  role="tab"
+                                  tabIndex="0"
+                                >
+                                  Introduction
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-2"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part I"
+                                panelId="react-tabs-3"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part I
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-4"
-                              key=".$Part II"
-                              panelId="react-tabs-5"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-5"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-3"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-2"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part I
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-4"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part II"
+                                panelId="react-tabs-5"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part II
-                              </li>
-                            </Tab>
-                          </ul>
-                        </TabList>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-1"
-                          key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
+                                <li
+                                  aria-controls="react-tabs-5"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-4"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part II
+                                </li>
+                              </Tab>
+                            </ul>
+                          </TabList>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-1"
+                            key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                          selected={true}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-0"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-0"
-                            className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                            id="react-tabs-1"
-                            role="tabpanel"
+                            selected={true}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-0"
                           >
-                            <Markup
-                              content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
+                            <div
+                              aria-labelledby="react-tabs-0"
+                              className="react-tabs__tab-panel react-tabs__tab-panel--selected"
+                              id="react-tabs-1"
+                              role="tabpanel"
+                            >
+                              <Markup
+                                content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                              disableLineBreaks={false}
-                              disableWhitelist={false}
-                              emptyContent={null}
-                              noHtml={false}
-                              noHtmlExceptMatchers={false}
-                              parsedContent={null}
-                              tagName="div"
-                            >
-                              <Element
-                                attributes={Object {}}
-                                className=""
-                                commonClass="interweave"
-                                selfClose={false}
+                                disableLineBreaks={false}
+                                disableWhitelist={false}
+                                emptyContent={null}
+                                noHtml={false}
+                                noHtmlExceptMatchers={false}
+                                parsedContent={null}
                                 tagName="div"
                               >
-                                <div
-                                  className="interweave"
+                                <Element
+                                  attributes={Object {}}
+                                  className=""
+                                  commonClass="interweave"
+                                  selfClose={false}
+                                  tagName="div"
                                 >
-                                  <Element
-                                    attributes={
-                                      Object {
-                                        "className": "tabbed-narrative",
-                                        "id": "intro",
-                                      }
-                                    }
-                                    className=""
-                                    commonClass="interweave"
-                                    key="0"
-                                    selfClose={false}
-                                    tagName="section"
+                                  <div
+                                    className="interweave"
                                   >
-                                    <section
-                                      className="interweave tabbed-narrative"
-                                      id="intro"
+                                    <Element
+                                      attributes={
+                                        Object {
+                                          "className": "tabbed-narrative",
+                                          "id": "intro",
+                                        }
+                                      }
+                                      className=""
+                                      commonClass="interweave"
+                                      key="0"
+                                      selfClose={false}
+                                      tagName="section"
                                     >
-                                      
-    
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="1"
-                                        selfClose={false}
-                                        tagName="p"
+                                      <section
+                                        className="interweave tabbed-narrative"
+                                        id="intro"
                                       >
-                                        <p
-                                          className="interweave"
-                                        >
-                                          
-    Intro. Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:10.000",
-                                                "title": "00:10:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="2"
-                                            selfClose={false}
-                                            tagName="time"
-                                          >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:10.000"
-                                              title="00:10:98.987"
-                                            >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                        
     
-                                        </p>
-                                      </Element>
-                                      
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="1"
+                                          selfClose={false}
+                                          tagName="p"
+                                        >
+                                          <p
+                                            className="interweave"
+                                          >
+                                            
+    Intro. Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:10.000",
+                                                  "title": "00:10:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="2"
+                                              selfClose={false}
+                                              tagName="time"
+                                            >
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:10.000"
+                                                title="00:10:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    
+                                          </p>
+                                        </Element>
+                                        
 
-                                    </section>
-                                  </Element>
-                                </div>
-                              </Element>
-                            </Markup>
-                          </div>
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-3"
-                          key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
+                                      </section>
+                                    </Element>
+                                  </div>
+                                </Element>
+                              </Markup>
+                            </div>
+                          </TabPanel>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-3"
+                            key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part I. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-2"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-2"
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-2"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-2"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-3"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                          <TabPanel
                             className="react-tabs__tab-panel"
-                            id="react-tabs-3"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-5"
-                          key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
+                            forceRender={false}
+                            id="react-tabs-5"
+                            key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part II. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=230.303\\" title=0\\"00=212=298.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-4"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-4"
-                            className="react-tabs__tab-panel"
-                            id="react-tabs-5"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                      </div>
-                    </UncontrolledTabs>
-                  </Tabs>
-                </TabbedNarrative>
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-4"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-4"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-5"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                        </div>
+                      </UncontrolledTabs>
+                    </Tabs>
+                  </TabbedNarrative>
+                </Connect(TabbedNarrative)>
               </div>
             </Narrative>
           </Connect(Narrative)>
@@ -92829,7 +92853,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                 onKeyPress={null}
                 role="presentation"
               >
-                <TabbedNarrative
+                <Connect(TabbedNarrative)
                   narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -92849,259 +92873,283 @@ exports[`<Section> renders as expected with no phrases 1`] = `
 </section>
 "
                 >
-                  <Tabs
-                    defaultFocus={false}
-                    defaultIndex={null}
-                    domRef={[Function]}
-                    forceRenderTabPanel={false}
-                    selectedIndex={null}
+                  <TabbedNarrative
+                    narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
+    <p>
+    Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    </p>
+</section>
+<br />
+<section id='part1' title='Part I' class='tabbed-narrative'>
+    <p>
+    Part I. Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</section>
+<br   />
+<section id=\\"part2\\" title=\\"Part II\\" class=\\"tabbed-narrative\\">
+    <p>
+    Part II. Lorem ipsum dolor sit amet, <time datetime='00:00:30.303' title='00:12:98.987'>consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+</section>
+"
+                    narrativeTab={0}
+                    updateNarrativeTab={[Function]}
                   >
-                    <UncontrolledTabs
-                      className="react-tabs"
+                    <Tabs
+                      defaultFocus={false}
+                      defaultIndex={null}
                       domRef={[Function]}
-                      focus={false}
                       forceRenderTabPanel={false}
                       onSelect={[Function]}
                       selectedIndex={0}
                     >
-                      <div
+                      <UncontrolledTabs
                         className="react-tabs"
-                        data-tabs={true}
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
+                        domRef={[Function]}
+                        focus={false}
+                        forceRenderTabPanel={false}
+                        onSelect={[Function]}
+                        selectedIndex={0}
                       >
-                        <TabList
-                          className="react-tabs__tab-list"
-                          key=".0"
+                        <div
+                          className="react-tabs"
+                          data-tabs={true}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
                         >
-                          <ul
+                          <TabList
                             className="react-tabs__tab-list"
-                            role="tablist"
+                            key=".0"
                           >
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-12"
-                              key=".$Introduction"
-                              panelId="react-tabs-13"
-                              selected={true}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
+                            <ul
+                              className="react-tabs__tab-list"
+                              role="tablist"
                             >
-                              <li
-                                aria-controls="react-tabs-13"
-                                aria-disabled="false"
-                                aria-selected="true"
-                                className="react-tabs__tab react-tabs__tab--selected"
+                              <Tab
+                                className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-12"
-                                role="tab"
-                                tabIndex="0"
+                                key=".$Introduction"
+                                panelId="react-tabs-13"
+                                selected={true}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Introduction
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-14"
-                              key=".$Part I"
-                              panelId="react-tabs-15"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-15"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-13"
+                                  aria-disabled="false"
+                                  aria-selected="true"
+                                  className="react-tabs__tab react-tabs__tab--selected"
+                                  id="react-tabs-12"
+                                  role="tab"
+                                  tabIndex="0"
+                                >
+                                  Introduction
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-14"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part I"
+                                panelId="react-tabs-15"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part I
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-16"
-                              key=".$Part II"
-                              panelId="react-tabs-17"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-17"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-15"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-14"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part I
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-16"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part II"
+                                panelId="react-tabs-17"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part II
-                              </li>
-                            </Tab>
-                          </ul>
-                        </TabList>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-13"
-                          key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
+                                <li
+                                  aria-controls="react-tabs-17"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-16"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part II
+                                </li>
+                              </Tab>
+                            </ul>
+                          </TabList>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-13"
+                            key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                          selected={true}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-12"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-12"
-                            className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                            id="react-tabs-13"
-                            role="tabpanel"
+                            selected={true}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-12"
                           >
-                            <Markup
-                              content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
+                            <div
+                              aria-labelledby="react-tabs-12"
+                              className="react-tabs__tab-panel react-tabs__tab-panel--selected"
+                              id="react-tabs-13"
+                              role="tabpanel"
+                            >
+                              <Markup
+                                content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                              disableLineBreaks={false}
-                              disableWhitelist={false}
-                              emptyContent={null}
-                              noHtml={false}
-                              noHtmlExceptMatchers={false}
-                              parsedContent={null}
-                              tagName="div"
-                            >
-                              <Element
-                                attributes={Object {}}
-                                className=""
-                                commonClass="interweave"
-                                selfClose={false}
+                                disableLineBreaks={false}
+                                disableWhitelist={false}
+                                emptyContent={null}
+                                noHtml={false}
+                                noHtmlExceptMatchers={false}
+                                parsedContent={null}
                                 tagName="div"
                               >
-                                <div
-                                  className="interweave"
+                                <Element
+                                  attributes={Object {}}
+                                  className=""
+                                  commonClass="interweave"
+                                  selfClose={false}
+                                  tagName="div"
                                 >
-                                  <Element
-                                    attributes={
-                                      Object {
-                                        "className": "tabbed-narrative",
-                                        "id": "intro",
-                                      }
-                                    }
-                                    className=""
-                                    commonClass="interweave"
-                                    key="0"
-                                    selfClose={false}
-                                    tagName="section"
+                                  <div
+                                    className="interweave"
                                   >
-                                    <section
-                                      className="interweave tabbed-narrative"
-                                      id="intro"
+                                    <Element
+                                      attributes={
+                                        Object {
+                                          "className": "tabbed-narrative",
+                                          "id": "intro",
+                                        }
+                                      }
+                                      className=""
+                                      commonClass="interweave"
+                                      key="0"
+                                      selfClose={false}
+                                      tagName="section"
                                     >
-                                      
-    
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="1"
-                                        selfClose={false}
-                                        tagName="p"
+                                      <section
+                                        className="interweave tabbed-narrative"
+                                        id="intro"
                                       >
-                                        <p
-                                          className="interweave"
-                                        >
-                                          
-    Intro. Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:10.000",
-                                                "title": "00:10:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="2"
-                                            selfClose={false}
-                                            tagName="time"
-                                          >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:10.000"
-                                              title="00:10:98.987"
-                                            >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                        
     
-                                        </p>
-                                      </Element>
-                                      
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="1"
+                                          selfClose={false}
+                                          tagName="p"
+                                        >
+                                          <p
+                                            className="interweave"
+                                          >
+                                            
+    Intro. Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:10.000",
+                                                  "title": "00:10:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="2"
+                                              selfClose={false}
+                                              tagName="time"
+                                            >
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:10.000"
+                                                title="00:10:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    
+                                          </p>
+                                        </Element>
+                                        
 
-                                    </section>
-                                  </Element>
-                                </div>
-                              </Element>
-                            </Markup>
-                          </div>
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-15"
-                          key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
+                                      </section>
+                                    </Element>
+                                  </div>
+                                </Element>
+                              </Markup>
+                            </div>
+                          </TabPanel>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-15"
+                            key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part I. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-14"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-14"
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-14"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-14"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-15"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                          <TabPanel
                             className="react-tabs__tab-panel"
-                            id="react-tabs-15"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-17"
-                          key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
+                            forceRender={false}
+                            id="react-tabs-17"
+                            key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part II. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=230.303\\" title=0\\"00=212=298.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-16"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-16"
-                            className="react-tabs__tab-panel"
-                            id="react-tabs-17"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                      </div>
-                    </UncontrolledTabs>
-                  </Tabs>
-                </TabbedNarrative>
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-16"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-16"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-17"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                        </div>
+                      </UncontrolledTabs>
+                    </Tabs>
+                  </TabbedNarrative>
+                </Connect(TabbedNarrative)>
               </div>
             </Narrative>
           </Connect(Narrative)>
@@ -99674,7 +99722,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                 onKeyPress={null}
                 role="presentation"
               >
-                <TabbedNarrative
+                <Connect(TabbedNarrative)
                   narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -99694,259 +99742,283 @@ exports[`<Section> that is first in play renders as expected 1`] = `
 </section>
 "
                 >
-                  <Tabs
-                    defaultFocus={false}
-                    defaultIndex={null}
-                    domRef={[Function]}
-                    forceRenderTabPanel={false}
-                    selectedIndex={null}
+                  <TabbedNarrative
+                    narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
+    <p>
+    Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    </p>
+</section>
+<br />
+<section id='part1' title='Part I' class='tabbed-narrative'>
+    <p>
+    Part I. Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</section>
+<br   />
+<section id=\\"part2\\" title=\\"Part II\\" class=\\"tabbed-narrative\\">
+    <p>
+    Part II. Lorem ipsum dolor sit amet, <time datetime='00:00:30.303' title='00:12:98.987'>consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+</section>
+"
+                    narrativeTab={0}
+                    updateNarrativeTab={[Function]}
                   >
-                    <UncontrolledTabs
-                      className="react-tabs"
+                    <Tabs
+                      defaultFocus={false}
+                      defaultIndex={null}
                       domRef={[Function]}
-                      focus={false}
                       forceRenderTabPanel={false}
                       onSelect={[Function]}
                       selectedIndex={0}
                     >
-                      <div
+                      <UncontrolledTabs
                         className="react-tabs"
-                        data-tabs={true}
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
+                        domRef={[Function]}
+                        focus={false}
+                        forceRenderTabPanel={false}
+                        onSelect={[Function]}
+                        selectedIndex={0}
                       >
-                        <TabList
-                          className="react-tabs__tab-list"
-                          key=".0"
+                        <div
+                          className="react-tabs"
+                          data-tabs={true}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
                         >
-                          <ul
+                          <TabList
                             className="react-tabs__tab-list"
-                            role="tablist"
+                            key=".0"
                           >
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-42"
-                              key=".$Introduction"
-                              panelId="react-tabs-43"
-                              selected={true}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
+                            <ul
+                              className="react-tabs__tab-list"
+                              role="tablist"
                             >
-                              <li
-                                aria-controls="react-tabs-43"
-                                aria-disabled="false"
-                                aria-selected="true"
-                                className="react-tabs__tab react-tabs__tab--selected"
+                              <Tab
+                                className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-42"
-                                role="tab"
-                                tabIndex="0"
+                                key=".$Introduction"
+                                panelId="react-tabs-43"
+                                selected={true}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Introduction
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-44"
-                              key=".$Part I"
-                              panelId="react-tabs-45"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-45"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-43"
+                                  aria-disabled="false"
+                                  aria-selected="true"
+                                  className="react-tabs__tab react-tabs__tab--selected"
+                                  id="react-tabs-42"
+                                  role="tab"
+                                  tabIndex="0"
+                                >
+                                  Introduction
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-44"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part I"
+                                panelId="react-tabs-45"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part I
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-46"
-                              key=".$Part II"
-                              panelId="react-tabs-47"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-47"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-45"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-44"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part I
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-46"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part II"
+                                panelId="react-tabs-47"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part II
-                              </li>
-                            </Tab>
-                          </ul>
-                        </TabList>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-43"
-                          key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
+                                <li
+                                  aria-controls="react-tabs-47"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-46"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part II
+                                </li>
+                              </Tab>
+                            </ul>
+                          </TabList>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-43"
+                            key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                          selected={true}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-42"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-42"
-                            className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                            id="react-tabs-43"
-                            role="tabpanel"
+                            selected={true}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-42"
                           >
-                            <Markup
-                              content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
+                            <div
+                              aria-labelledby="react-tabs-42"
+                              className="react-tabs__tab-panel react-tabs__tab-panel--selected"
+                              id="react-tabs-43"
+                              role="tabpanel"
+                            >
+                              <Markup
+                                content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                              disableLineBreaks={false}
-                              disableWhitelist={false}
-                              emptyContent={null}
-                              noHtml={false}
-                              noHtmlExceptMatchers={false}
-                              parsedContent={null}
-                              tagName="div"
-                            >
-                              <Element
-                                attributes={Object {}}
-                                className=""
-                                commonClass="interweave"
-                                selfClose={false}
+                                disableLineBreaks={false}
+                                disableWhitelist={false}
+                                emptyContent={null}
+                                noHtml={false}
+                                noHtmlExceptMatchers={false}
+                                parsedContent={null}
                                 tagName="div"
                               >
-                                <div
-                                  className="interweave"
+                                <Element
+                                  attributes={Object {}}
+                                  className=""
+                                  commonClass="interweave"
+                                  selfClose={false}
+                                  tagName="div"
                                 >
-                                  <Element
-                                    attributes={
-                                      Object {
-                                        "className": "tabbed-narrative",
-                                        "id": "intro",
-                                      }
-                                    }
-                                    className=""
-                                    commonClass="interweave"
-                                    key="0"
-                                    selfClose={false}
-                                    tagName="section"
+                                  <div
+                                    className="interweave"
                                   >
-                                    <section
-                                      className="interweave tabbed-narrative"
-                                      id="intro"
+                                    <Element
+                                      attributes={
+                                        Object {
+                                          "className": "tabbed-narrative",
+                                          "id": "intro",
+                                        }
+                                      }
+                                      className=""
+                                      commonClass="interweave"
+                                      key="0"
+                                      selfClose={false}
+                                      tagName="section"
                                     >
-                                      
-    
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="1"
-                                        selfClose={false}
-                                        tagName="p"
+                                      <section
+                                        className="interweave tabbed-narrative"
+                                        id="intro"
                                       >
-                                        <p
-                                          className="interweave"
-                                        >
-                                          
-    Intro. Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:10.000",
-                                                "title": "00:10:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="2"
-                                            selfClose={false}
-                                            tagName="time"
-                                          >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:10.000"
-                                              title="00:10:98.987"
-                                            >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                        
     
-                                        </p>
-                                      </Element>
-                                      
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="1"
+                                          selfClose={false}
+                                          tagName="p"
+                                        >
+                                          <p
+                                            className="interweave"
+                                          >
+                                            
+    Intro. Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:10.000",
+                                                  "title": "00:10:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="2"
+                                              selfClose={false}
+                                              tagName="time"
+                                            >
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:10.000"
+                                                title="00:10:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    
+                                          </p>
+                                        </Element>
+                                        
 
-                                    </section>
-                                  </Element>
-                                </div>
-                              </Element>
-                            </Markup>
-                          </div>
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-45"
-                          key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
+                                      </section>
+                                    </Element>
+                                  </div>
+                                </Element>
+                              </Markup>
+                            </div>
+                          </TabPanel>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-45"
+                            key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part I. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-44"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-44"
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-44"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-44"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-45"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                          <TabPanel
                             className="react-tabs__tab-panel"
-                            id="react-tabs-45"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-47"
-                          key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
+                            forceRender={false}
+                            id="react-tabs-47"
+                            key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part II. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=230.303\\" title=0\\"00=212=298.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-46"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-46"
-                            className="react-tabs__tab-panel"
-                            id="react-tabs-47"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                      </div>
-                    </UncontrolledTabs>
-                  </Tabs>
-                </TabbedNarrative>
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-46"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-46"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-47"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                        </div>
+                      </UncontrolledTabs>
+                    </Tabs>
+                  </TabbedNarrative>
+                </Connect(TabbedNarrative)>
               </div>
             </Narrative>
           </Connect(Narrative)>
@@ -106365,7 +106437,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                 onKeyPress={null}
                 role="presentation"
               >
-                <TabbedNarrative
+                <Connect(TabbedNarrative)
                   narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -106385,259 +106457,283 @@ exports[`<Section> that is last in play renders as expected 1`] = `
 </section>
 "
                 >
-                  <Tabs
-                    defaultFocus={false}
-                    defaultIndex={null}
-                    domRef={[Function]}
-                    forceRenderTabPanel={false}
-                    selectedIndex={null}
+                  <TabbedNarrative
+                    narrative="<section id='intro' title='Introduction' class='tabbed-narrative'>
+    <p>
+    Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    </p>
+</section>
+<br />
+<section id='part1' title='Part I' class='tabbed-narrative'>
+    <p>
+    Part I. Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</section>
+<br   />
+<section id=\\"part2\\" title=\\"Part II\\" class=\\"tabbed-narrative\\">
+    <p>
+    Part II. Lorem ipsum dolor sit amet, <time datetime='00:00:30.303' title='00:12:98.987'>consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+</section>
+"
+                    narrativeTab={0}
+                    updateNarrativeTab={[Function]}
                   >
-                    <UncontrolledTabs
-                      className="react-tabs"
+                    <Tabs
+                      defaultFocus={false}
+                      defaultIndex={null}
                       domRef={[Function]}
-                      focus={false}
                       forceRenderTabPanel={false}
                       onSelect={[Function]}
                       selectedIndex={0}
                     >
-                      <div
+                      <UncontrolledTabs
                         className="react-tabs"
-                        data-tabs={true}
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
+                        domRef={[Function]}
+                        focus={false}
+                        forceRenderTabPanel={false}
+                        onSelect={[Function]}
+                        selectedIndex={0}
                       >
-                        <TabList
-                          className="react-tabs__tab-list"
-                          key=".0"
+                        <div
+                          className="react-tabs"
+                          data-tabs={true}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
                         >
-                          <ul
+                          <TabList
                             className="react-tabs__tab-list"
-                            role="tablist"
+                            key=".0"
                           >
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-48"
-                              key=".$Introduction"
-                              panelId="react-tabs-49"
-                              selected={true}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
+                            <ul
+                              className="react-tabs__tab-list"
+                              role="tablist"
                             >
-                              <li
-                                aria-controls="react-tabs-49"
-                                aria-disabled="false"
-                                aria-selected="true"
-                                className="react-tabs__tab react-tabs__tab--selected"
+                              <Tab
+                                className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-48"
-                                role="tab"
-                                tabIndex="0"
+                                key=".$Introduction"
+                                panelId="react-tabs-49"
+                                selected={true}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Introduction
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-50"
-                              key=".$Part I"
-                              panelId="react-tabs-51"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-51"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-49"
+                                  aria-disabled="false"
+                                  aria-selected="true"
+                                  className="react-tabs__tab react-tabs__tab--selected"
+                                  id="react-tabs-48"
+                                  role="tab"
+                                  tabIndex="0"
+                                >
+                                  Introduction
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-50"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part I"
+                                panelId="react-tabs-51"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part I
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-52"
-                              key=".$Part II"
-                              panelId="react-tabs-53"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-53"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-51"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-50"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part I
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-52"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part II"
+                                panelId="react-tabs-53"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part II
-                              </li>
-                            </Tab>
-                          </ul>
-                        </TabList>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-49"
-                          key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
+                                <li
+                                  aria-controls="react-tabs-53"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-52"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part II
+                                </li>
+                              </Tab>
+                            </ul>
+                          </TabList>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-49"
+                            key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                          selected={true}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-48"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-48"
-                            className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                            id="react-tabs-49"
-                            role="tabpanel"
+                            selected={true}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-48"
                           >
-                            <Markup
-                              content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
+                            <div
+                              aria-labelledby="react-tabs-48"
+                              className="react-tabs__tab-panel react-tabs__tab-panel--selected"
+                              id="react-tabs-49"
+                              role="tabpanel"
+                            >
+                              <Markup
+                                content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                              disableLineBreaks={false}
-                              disableWhitelist={false}
-                              emptyContent={null}
-                              noHtml={false}
-                              noHtmlExceptMatchers={false}
-                              parsedContent={null}
-                              tagName="div"
-                            >
-                              <Element
-                                attributes={Object {}}
-                                className=""
-                                commonClass="interweave"
-                                selfClose={false}
+                                disableLineBreaks={false}
+                                disableWhitelist={false}
+                                emptyContent={null}
+                                noHtml={false}
+                                noHtmlExceptMatchers={false}
+                                parsedContent={null}
                                 tagName="div"
                               >
-                                <div
-                                  className="interweave"
+                                <Element
+                                  attributes={Object {}}
+                                  className=""
+                                  commonClass="interweave"
+                                  selfClose={false}
+                                  tagName="div"
                                 >
-                                  <Element
-                                    attributes={
-                                      Object {
-                                        "className": "tabbed-narrative",
-                                        "id": "intro",
-                                      }
-                                    }
-                                    className=""
-                                    commonClass="interweave"
-                                    key="0"
-                                    selfClose={false}
-                                    tagName="section"
+                                  <div
+                                    className="interweave"
                                   >
-                                    <section
-                                      className="interweave tabbed-narrative"
-                                      id="intro"
+                                    <Element
+                                      attributes={
+                                        Object {
+                                          "className": "tabbed-narrative",
+                                          "id": "intro",
+                                        }
+                                      }
+                                      className=""
+                                      commonClass="interweave"
+                                      key="0"
+                                      selfClose={false}
+                                      tagName="section"
                                     >
-                                      
-    
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="1"
-                                        selfClose={false}
-                                        tagName="p"
+                                      <section
+                                        className="interweave tabbed-narrative"
+                                        id="intro"
                                       >
-                                        <p
-                                          className="interweave"
-                                        >
-                                          
-    Intro. Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:10.000",
-                                                "title": "00:10:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="2"
-                                            selfClose={false}
-                                            tagName="time"
-                                          >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:10.000"
-                                              title="00:10:98.987"
-                                            >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                        
     
-                                        </p>
-                                      </Element>
-                                      
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="1"
+                                          selfClose={false}
+                                          tagName="p"
+                                        >
+                                          <p
+                                            className="interweave"
+                                          >
+                                            
+    Intro. Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:10.000",
+                                                  "title": "00:10:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="2"
+                                              selfClose={false}
+                                              tagName="time"
+                                            >
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:10.000"
+                                                title="00:10:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    
+                                          </p>
+                                        </Element>
+                                        
 
-                                    </section>
-                                  </Element>
-                                </div>
-                              </Element>
-                            </Markup>
-                          </div>
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-51"
-                          key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
+                                      </section>
+                                    </Element>
+                                  </div>
+                                </Element>
+                              </Markup>
+                            </div>
+                          </TabPanel>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-51"
+                            key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part I. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-50"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-50"
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-50"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-50"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-51"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                          <TabPanel
                             className="react-tabs__tab-panel"
-                            id="react-tabs-51"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-53"
-                          key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
+                            forceRender={false}
+                            id="react-tabs-53"
+                            key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
     <p>
     Part II. Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=230.303\\" title=0\\"00=212=298.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-52"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-52"
-                            className="react-tabs__tab-panel"
-                            id="react-tabs-53"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                      </div>
-                    </UncontrolledTabs>
-                  </Tabs>
-                </TabbedNarrative>
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-52"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-52"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-53"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                        </div>
+                      </UncontrolledTabs>
+                    </Tabs>
+                  </TabbedNarrative>
+                </Connect(TabbedNarrative)>
               </div>
             </Narrative>
           </Connect(Narrative)>

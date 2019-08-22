@@ -6,7 +6,8 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
   defaultIndex={null}
   domRef={[Function]}
   forceRenderTabPanel={false}
-  selectedIndex={null}
+  onSelect={[Function]}
+  selectedIndex={0}
 >
   <TabList
     className="react-tabs__tab-list"
