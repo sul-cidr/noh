@@ -1,13 +1,23 @@
-.react-tabs {}
-  
 .react-tabs__tab-list {
   border-bottom-color: rgba($score_blue-light, 0);
   border-bottom-style: solid;
   border-bottom-width: 0.0625rem;
   margin: 0;
   padding: 0 1rem;
+  z-index: 1;
 
   @include flex-container($justify:flex-start, $align:stretch);
+}
+
+.react-tabs__tab-list::before {
+  background-color: white;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .react-tabs__tab  {
