@@ -56,7 +56,9 @@ class TabbedNarrative extends React.Component {
         <Markup tagName="div" content={chunk} />
       </TabPanel>
     ));
-    const { narrativeTab, updateNarrativeTab } = this.props;
+    const { updateNarrativeTab } = this.props;
+    let { narrativeTab } = this.props;
+    narrativeTab = Math.min(narrativeTab, this.state.titles.length - 1);
     return (
       <Tabs
         domRef={this.handleDomRef}
