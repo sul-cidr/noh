@@ -66,4 +66,27 @@ describe("<TabbedNarrative>", () => {
     button.simulate("click");
     expect(store.getActions()[0]).toEqual(action);
   });
+
+  it("shows a tab even when received `narrativeTab` is out of range", () => {
+    const storedNarrativeTabIndex = 7; // arbitrary value > # tabs in fixture,
+    // to simulate navigating from shōdan with
+    // more tabs
+    const component = mount(
+      <div className="narrative" role="presentation">
+        <UnwrappedTabbedNarrative
+          narrative={tabbedAnalysis}
+          narrativeTab={storedNarrativeTabIndex}
+          updateNarrativeTab={() => jest.fn()}
+        />
+      </div>
+    );
+    const tabsComponent = component.find("Tabs");
+    const tabs = component.find("Tab");
+    const maxAcceptableNarrativeTabIndex = tabs.length - 1;
+
+    expect(tabs.last().props().selected).toEqual(true);
+    expect(tabsComponent.props().selectedIndex).toEqual(
+      maxAcceptableNarrativeTabIndex
+    );
+  });
 });
