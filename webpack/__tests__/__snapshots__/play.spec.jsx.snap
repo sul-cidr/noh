@@ -1554,16 +1554,16 @@ exports[`<Play> renders as expected 1`] = `
                               noHtml={false}
                               noHtmlExceptMatchers={false}
                               parsedContent={null}
-                              tagName="span"
+                              tagName="div"
                             >
                               <Element
                                 attributes={Object {}}
                                 className=""
                                 commonClass="interweave"
                                 selfClose={false}
-                                tagName="span"
+                                tagName="div"
                               >
-                                <span
+                                <div
                                   className="interweave"
                                 >
                                   <Element
@@ -1771,7 +1771,7 @@ exports[`<Play> renders as expected 1`] = `
 
                                     </section>
                                   </Element>
-                                </span>
+                                </div>
                               </Element>
                             </Markup>
                           </div>
