@@ -12,7 +12,7 @@ import ScoreControls from "./components/ScoreControls";
 import SectionControls from "./components/SectionControls";
 import ShodanTimeline from "./components/ShodanTimeline";
 
-import store from "./store";
+import initializeStore from "./store";
 import contents from "./contents";
 import { setCurrentTime, setSidebarState } from "./actionCreators";
 import { saveState as saveStateToLocalStorage } from "./localStorage";
@@ -20,18 +20,12 @@ import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 import { parseUrlFragment, validateTimestamp } from "./utils";
 
 export default class App extends Component {
-  static updateTimeFromUrlFrag() {
-    // check for a URL fragment of the form `#startTime=<timestamp>` and
-    // proceed accordingly
-    const urlFragParams = parseUrlFragment();
-    const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
-    if (seekToTime)
-      store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
-  }
 
   constructor(props) {
     super(props);
-    this.state = store.getState().sidebarState;
+    const browserStorageKey = "section";
+    this.store = initializeStore(browserStorageKey);
+    this.state = this.store.getState().sidebarState;
 
     const {
       startTime,
@@ -40,23 +34,23 @@ export default class App extends Component {
     } = this.props;
     const {
       currentTime: { origin: storedOrigin }
-    } = store.getState();
+    } = this.store.getState();
     const origin = `${playName}/${sectionName}`;
 
-    store.subscribe(
+    this.store.subscribe(
       throttle(() => {
         const {
           narrativeTab,
           sidebarState,
           toggles,
           currentTime: { time }
-        } = store.getState();
-        saveStateToLocalStorage({ toggles });
+        } = this.store.getState();
+        saveStateToLocalStorage({ toggles }, browserStorageKey);
         saveStateToSessionStorage({
           currentTime: { time, origin },
           narrativeTab,
           sidebarState
-        });
+        }, browserStorageKey);
       }, 2000)
     );
 
@@ -64,11 +58,11 @@ export default class App extends Component {
     //  doesn't come from an appropriate context
     const [play, section] = storedOrigin.split("/");
     if (play !== playName || ![sectionName, undefined].includes(section)) {
-      store.dispatch(setCurrentTime({ time: startTime, origin }));
+      this.store.dispatch(setCurrentTime({ time: startTime, origin }));
     }
 
-    window.addEventListener("hashchange", App.updateTimeFromUrlFrag, false);
-    App.updateTimeFromUrlFrag();
+    window.addEventListener("hashchange", this.updateTimeFromUrlFrag.bind(this), false);
+    this.updateTimeFromUrlFrag();
   }
 
   getSectionURLS() {
@@ -87,11 +81,20 @@ export default class App extends Component {
     return [prevSectionURL, nextSectionURL];
   }
 
+  updateTimeFromUrlFrag() {
+    // check for a URL fragment of the form `#startTime=<timestamp>` and
+    // proceed accordingly
+    const urlFragParams = parseUrlFragment();
+    const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
+    if (seekToTime)
+      this.store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
+  }
+
   handleToggle(event, toggleName) {
     if (["H3", "path", "svg"].includes(event.target.tagName)) {
       this.setState(
         prevState => ({ [toggleName]: !prevState[toggleName] }),
-        () => store.dispatch(setSidebarState(this.state))
+        () => this.store.dispatch(setSidebarState(this.state))
       );
     }
   }
@@ -157,7 +160,7 @@ export default class App extends Component {
       </svg>
     );
     return (
-      <Provider store={store}>
+      <Provider store={this.store}>
         <div className="app-container">
           <aside className="sidebar sidebar--section">
             <div className="sidebar__header">
