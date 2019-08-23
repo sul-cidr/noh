@@ -76,7 +76,7 @@ function attachFilters() {
         });
         // Avoid jump scrolling down to last (often invisible) card, while
         // ensuring the top row of cards isn't obscured by the sticky header
-        document.querySelector("div.filters__container").scrollIntoView();
+        document.getElementById("catalog").scrollIntoView();
       },
       false
     );
