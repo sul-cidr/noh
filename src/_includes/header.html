@@ -1,9 +1,12 @@
+{% assign page_type = "header__video-page" %}
+
 {% if layout.full-width-header == false %}
-<div class="wrapper">
+  {% assign page_type = "" %}
+  <div class="wrapper">
 {% endif %}
 
-  {% include header-content.html %}
+{% include header-content.html header_type=page_type %}
 
 {% if layout.full-width-header == false %}
-</div>
+  </div>
 {% endif %}

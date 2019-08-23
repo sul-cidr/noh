@@ -38,6 +38,7 @@
 }
 
 .header__nav {
+
   > ul {
     @include flex-container();
 
@@ -52,6 +53,10 @@
       }
     }
   }
+}
+
+.header__video-page {
+  padding: 0 1.25rem 0 0;
 }
 
 .header__main-link {
