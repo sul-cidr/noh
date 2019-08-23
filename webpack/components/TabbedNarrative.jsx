@@ -51,7 +51,7 @@ class TabbedNarrative extends React.Component {
     ));
     const narrativeTabs = this.state.chunks.map(chunk => (
       <TabPanel key={chunk}>
-        <Markup content={chunk} />
+        <Markup tagName="div" content={chunk} />
       </TabPanel>
     ));
     return (
