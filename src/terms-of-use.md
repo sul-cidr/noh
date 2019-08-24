@@ -8,7 +8,10 @@ permalink: /terms-of-use/
   <div class="text-container">
     <h1>TERMS OF USE</h1>
     <h4>Section Header</h4>
-    <p>Terms of use go here :)</p>
+    <p>Terms of use go here :)
+
+
+</p>
   </div>
 
 </main>
