@@ -96,14 +96,13 @@
     border: 0.0625rem solid $dan_8_edge;
   }
 
+  &.shodan-map__item--active {
+    background-color: $brown32;
+    border: 0.0625rem solid $brown32;
+  }
+
   &:hover {
     background-color: $dan_hover;
     border-color: $brown64;
   }
-
-}
-
-.shodan-map__item--active {
-  background-color: $brown32;
-  border: 0.0625rem solid $brown32;
 }
