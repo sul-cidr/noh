@@ -147,7 +147,7 @@ export default class App extends Component {
           rel="noopener noreferrer"
         >
           {this.props.title}{" "}
-          <sup>
+          <sup className="shodan__outlink-circlei">
             <i className="fas fa-info-circle" />
           </sup>
         </a>

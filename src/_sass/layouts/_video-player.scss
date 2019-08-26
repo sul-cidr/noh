@@ -59,6 +59,12 @@
 
   .shodan__outlink {
     text-decoration: none;
+    font-family: $font-display;
+  }
+
+  .shodan__outlink-circlei {
+    text-decoration: none;
+    color: $grey-dark;
   }
 
   h1 {
