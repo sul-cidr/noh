@@ -30,6 +30,8 @@ class ScoreControls extends Component {
     };
     this.filtersPopup = null;
     this.handleToggle = this.handleToggle.bind(this);
+    this.hideFilters = this.hideFilters.bind(this);
+    this.showFilters = this.showFilters.bind(this);
   }
 
   componentDidUpdate() {
@@ -40,6 +42,22 @@ class ScoreControls extends Component {
     this.setState({
       [toggleName]: event.target.checked
     });
+  }
+
+  hideFilters(event) {
+    if (!this.filtersPopup.contains(event.target)) {
+      event.preventDefault();
+      event.stopPropagation();
+      this.filtersPopup.classList.add("hidden");
+      document.body.removeEventListener("click", this.hideFilters);
+    }
+  }
+
+  showFilters() {
+    if (this.filtersPopup.classList.contains("hidden")) {
+      this.filtersPopup.classList.remove("hidden");
+      document.body.addEventListener("click", this.hideFilters);
+    }
   }
 
   render() {
@@ -119,7 +137,7 @@ class ScoreControls extends Component {
         <div className="score-controls__filters">
           <button
             className="score-controls__filters-button"
-            onClick={() => this.filtersPopup.classList.toggle("hidden")}
+            onClick={this.showFilters}
             disabled={!this.props.phrases.length}
           >
             Filters
