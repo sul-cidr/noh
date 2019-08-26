@@ -25,7 +25,8 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     const sharedStorageKey = "shared";
-    this.store = initializeStore(sharedStorageKey);
+    const playStorageKey = "play";
+    this.store = initializeStore([sharedStorageKey, playStorageKey]);
     const { title: origin, currentTime } = this.props;
     const {
       currentTime: { origin: storedOrigin }
@@ -34,12 +35,14 @@ export default class App extends Component {
     this.store.subscribe(
       throttle(() => {
         const {
-          currentTime: { time }
+          currentTime: { time },
+          narrativeTab
         } = this.store.getState();
         saveStateToSessionStorage(
           { currentTime: { time, origin } },
           sharedStorageKey
         );
+        saveStateToSessionStorage({ narrativeTab }, playStorageKey);
       }, 2000)
     );
 
