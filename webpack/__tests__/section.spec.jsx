@@ -6,7 +6,6 @@ import App from "../section";
 import fixtures from "./__fixtures__/section.json";
 import fixturesNoPhrases from "./__fixtures__/section-no-phrases.json";
 import fixturesFirstAndLast from "./__fixtures__/multiple-sections.json";
-import _store from "../store";
 
 describe("<Section>", () => {
   let wrapper;
@@ -103,8 +102,9 @@ describe("<Section> that is last in play", () => {
 
 describe("<Section> with a URL frag", () => {
   it("sets currentTime appropriately based on URL frag", () => {
-    mount(<App store={_store} {...fixtures} />);
-    _store.dispatch = jest.fn();
+    const wrapper = mount(<App {...fixtures} />);
+    const { store } = wrapper.find("Provider").props();
+    store.dispatch = jest.fn();
 
     window.location.hash = "#startTime=1000";
     window.dispatchEvent(new HashChangeEvent("hashchange"));
@@ -113,6 +113,6 @@ describe("<Section> with a URL frag", () => {
       payload: { time: 1000, origin: "URL_FRAG" },
       type: "SET_CURRENT_TIME"
     };
-    expect(_store.dispatch).toHaveBeenCalledWith(payload);
+    expect(store.dispatch).toHaveBeenCalledWith(payload);
   });
 });
