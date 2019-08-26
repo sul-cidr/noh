@@ -24,8 +24,8 @@ import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 export default class App extends Component {
   constructor(props) {
     super(props);
-    const browserStorageKey = "play";
-    this.store = initializeStore(browserStorageKey);
+    const sharedStorageKey = "shared";
+    this.store = initializeStore(sharedStorageKey);
     const { title: origin, currentTime } = this.props;
     const {
       currentTime: { origin: storedOrigin }
@@ -36,7 +36,10 @@ export default class App extends Component {
         const {
           currentTime: { time }
         } = this.store.getState();
-        saveStateToSessionStorage({ currentTime: { time, origin } }, browserStorageKey);
+        saveStateToSessionStorage(
+          { currentTime: { time, origin } },
+          sharedStorageKey
+        );
       }, 2000)
     );
 
@@ -48,7 +51,11 @@ export default class App extends Component {
 
     // set up a listener for hashchange events, and then process any URL frag that
     //  may have been included at page-load time
-    window.addEventListener("hashchange", this.updateTimeFromUrlFrag.bind(this), false);
+    window.addEventListener(
+      "hashchange",
+      this.updateTimeFromUrlFrag.bind(this),
+      false
+    );
     this.updateTimeFromUrlFrag();
   }
 
@@ -58,7 +65,9 @@ export default class App extends Component {
     const urlFragParams = parseUrlFragment();
     const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
     if (seekToTime)
-      this.store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
+      this.store.dispatch(
+        setCurrentTime({ time: seekToTime, origin: "URL_FRAG" })
+      );
   }
 
   render() {

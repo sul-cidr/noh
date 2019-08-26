@@ -20,11 +20,11 @@ import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 import { parseUrlFragment, validateTimestamp } from "./utils";
 
 export default class App extends Component {
-
   constructor(props) {
     super(props);
-    const browserStorageKey = "section";
-    this.store = initializeStore(browserStorageKey);
+    const sharedStorageKey = "shared";
+    const sectionStorageKey = "section";
+    this.store = initializeStore([sharedStorageKey, sectionStorageKey]);
     this.state = this.store.getState().sidebarState;
 
     const {
@@ -45,12 +45,15 @@ export default class App extends Component {
           toggles,
           currentTime: { time }
         } = this.store.getState();
-        saveStateToLocalStorage({ toggles }, browserStorageKey);
-        saveStateToSessionStorage({
-          currentTime: { time, origin },
-          narrativeTab,
-          sidebarState
-        }, browserStorageKey);
+        saveStateToLocalStorage({ toggles }, sectionStorageKey);
+        saveStateToSessionStorage(
+          { currentTime: { time, origin } },
+          sharedStorageKey
+        );
+        saveStateToSessionStorage(
+          { narrativeTab, sidebarState },
+          sectionStorageKey
+        );
       }, 2000)
     );
 
@@ -61,7 +64,11 @@ export default class App extends Component {
       this.store.dispatch(setCurrentTime({ time: startTime, origin }));
     }
 
-    window.addEventListener("hashchange", this.updateTimeFromUrlFrag.bind(this), false);
+    window.addEventListener(
+      "hashchange",
+      this.updateTimeFromUrlFrag.bind(this),
+      false
+    );
     this.updateTimeFromUrlFrag();
   }
 
@@ -87,7 +94,9 @@ export default class App extends Component {
     const urlFragParams = parseUrlFragment();
     const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
     if (seekToTime)
-      this.store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
+      this.store.dispatch(
+        setCurrentTime({ time: seekToTime, origin: "URL_FRAG" })
+      );
   }
 
   handleToggle(event, toggleName) {
