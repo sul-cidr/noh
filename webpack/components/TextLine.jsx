@@ -5,9 +5,7 @@ import { setCurrentTime } from "../actionCreators";
 
 class Line extends Component {
   static markupSpeaker(text) {
-    const parts = text
-      .split(/^\[(SHITE|JIUTAI|WAKI|KYŌGEN|WAKIZURE)\]\s+/, 3)
-      .filter(Boolean);
+    const parts = text.split(/^\[([^\]]+)\]\s+/, 3).filter(Boolean);
     return parts.length === 2 ? (
       <React.Fragment>
         <strong>{parts[0]}</strong>: {parts[1]}
