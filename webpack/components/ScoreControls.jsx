@@ -45,6 +45,7 @@ class ScoreControls extends Component {
   }
 
   hideFilters(event) {
+    /* istanbul ignore else */
     if (!this.filtersPopup.contains(event.target)) {
       event.preventDefault();
       event.stopPropagation();
