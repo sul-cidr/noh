@@ -1,4 +1,5 @@
 import React from "react";
+import TestUtils from "react-dom/test-utils";
 import { Provider } from "react-redux";
 import { shallow, mount } from "enzyme";
 import configureMockStore from "redux-mock-store";
@@ -70,13 +71,46 @@ describe("<ScoreControls>", () => {
   });
 
   it("handles filters popup", () => {
-    const popup = wrapper.find("div.score-controls__filters-popup").first();
-    const button = wrapper
-      .find("button.score-controls__filters-button")
-      .first();
-    expect(popup.getDOMNode().className).toContain("hidden");
-    button.simulate("click");
-    expect(popup.getDOMNode().className).not.toContain("hidden");
+    const component = TestUtils.renderIntoDocument(
+      <Provider store={store}>
+        <ScoreControls
+          phrases={phrases}
+          startTime={phrases[0].startTime.value}
+          duration={2000}
+          updateScoreToggles={jest.fn()}
+          updateStartTime={jest.fn()}
+        />
+      </Provider>
+    );
+
+    const panel = TestUtils.findRenderedDOMComponentWithClass(
+      component,
+      "score-controls__filters-popup"
+    );
+    const button = TestUtils.findRenderedDOMComponentWithClass(
+      component,
+      "score-controls__filters-button"
+    );
+
+    // filters panel starts hidden
+    expect(panel.className).toContain("hidden");
+
+    // after a click on the button, it is no longer hidden
+    TestUtils.Simulate.click(button);
+    expect(panel.className).not.toContain("hidden");
+
+    // clicks on the button when the filters panel is open do not execute the hiding/event-listener-attaching code
+    // note: actually clicking on the button when the filters panel is open in a real browser will result in the
+    //       panel being closed; this is because the button code is not executed, but the click event bubbles to
+    //       the level of document.body, where the attached listener is invoked.  ReactTestUtils doesn't bubble the
+    //       events beyond React's own synthetic event system, so that effect is not present in the test environment.
+    TestUtils.Simulate.click(button);
+    expect(panel.className).not.toContain("hidden");
+
+    // clicks anywhere outside the filters panel will close the panel if it's open
+    // note: this includes on the button in normal circumstances -- see above.
+    document.body.dispatchEvent(new Event("click"));
+    expect(panel.className).toContain("hidden");
   });
 
   it("handles prev button", () => {
