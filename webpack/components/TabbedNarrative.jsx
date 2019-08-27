@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import { Markup } from "interweave";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { setNarrativeTab } from "../actionCreators";
 
 class TabbedNarrative extends React.Component {
   constructor(props) {
@@ -54,8 +56,15 @@ class TabbedNarrative extends React.Component {
         <Markup tagName="div" content={chunk} />
       </TabPanel>
     ));
+    const { updateNarrativeTab } = this.props;
+    let { narrativeTab } = this.props;
+    narrativeTab = Math.min(narrativeTab, this.state.titles.length - 1);
     return (
-      <Tabs domRef={this.handleDomRef}>
+      <Tabs
+        domRef={this.handleDomRef}
+        selectedIndex={narrativeTab}
+        onSelect={index => updateNarrativeTab(index)}
+      >
         <TabList>{narrativeTabList}</TabList>
         {narrativeTabs}
       </Tabs>
@@ -64,7 +73,21 @@ class TabbedNarrative extends React.Component {
 }
 
 TabbedNarrative.propTypes = {
-  narrative: PropTypes.string.isRequired
+  narrative: PropTypes.string.isRequired,
+  narrativeTab: PropTypes.number.isRequired,
+  updateNarrativeTab: PropTypes.func.isRequired
 };
 
-export default TabbedNarrative;
+const mapDispatchToProps = dispatch => ({
+  updateNarrativeTab: index => dispatch(setNarrativeTab(index))
+});
+
+const mapStateToProps = state => ({
+  narrativeTab: state.narrativeTab
+});
+
+export const Unwrapped = TabbedNarrative;
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TabbedNarrative);

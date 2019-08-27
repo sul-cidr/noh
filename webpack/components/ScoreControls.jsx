@@ -32,10 +32,6 @@ class ScoreControls extends Component {
     this.handleToggle = this.handleToggle.bind(this);
   }
 
-  componentDidMount() {
-    this.props.updateScoreToggles(this.props);
-  }
-
   componentDidUpdate() {
     this.props.updateScoreToggles(this.state);
   }
@@ -261,7 +257,7 @@ ScoreControls.propTypes = {
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
   isNextSentenceOn: PropTypes.bool,
-  updateScoreToggles: PropTypes.func,
+  updateScoreToggles: PropTypes.func.isRequired,
   startTime: PropTypes.number,
   duration: PropTypes.number.isRequired,
   currentTime: PropTypes.number.isRequired,
@@ -283,7 +279,6 @@ ScoreControls.defaultProps = {
   isDanceOn: true,
   isPrevSentenceOn: true,
   isNextSentenceOn: true,
-  updateScoreToggles: () => {},
   startTime: 0
 };
 
