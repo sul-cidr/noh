@@ -57,14 +57,18 @@
   position: relative;
   width: 100%;
 
+  .shodan__outlink-circlei {
+    text-decoration: none;
+    color: $brown40;
+  }
+
   .shodan__outlink {
     text-decoration: none;
     font-family: $font-display;
-  }
 
-  .shodan__outlink-circlei {
-    text-decoration: none;
-    color: $grey-dark;
+    &:hover .shodan__outlink-circlei {
+      color: $red;
+    }
   }
 
   h1 {
