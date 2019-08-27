@@ -92,7 +92,7 @@
   margin-bottom: 0.25rem;
   padding: 0.25rem 1rem;
 
-  @include flex-container($justify:flex-start, $align:baseline);
+  @include flex-container($justify:flex-start, $align:flex-start);
 
   &.active {
     background-color: $beige-light;
