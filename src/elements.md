@@ -12,6 +12,12 @@ permalink: /elements/
 
   <div class="list-plays">
     <div class="cards-container cards-container--not-centered">
+    {% include card.html
+        link="/actors/"
+        image="/assets/images/actor.png"
+        title="Actors"
+        description="Lists the categories of actors and their roles in Noh."
+    %}
       {% include card.html
           link="/music/"
           image="/assets/images/hayashi.jpg"
@@ -32,7 +38,7 @@ permalink: /elements/
       %}
       {% include card.html
           link="/staging/"
-          image="/assets/images/Kokaji1.jpg"
+          image="/assets/images/Kokaji2.png"
           title="Staging"
           description="Discusses the use of the Noh stage, masks, costumes and properties."
       %}
