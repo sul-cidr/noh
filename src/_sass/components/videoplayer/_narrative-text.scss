@@ -42,6 +42,14 @@ section.interweave {
   time {
     text-decoration: underline;
     cursor: pointer;
+    &::before {
+      font-family: $font-icon;
+      font-size: x-small;
+      content: $fa-var-forward;
+      display: inline-block;
+      color: $brown40;
+      padding-left: .1rem;
+    }
   }
 }
 
