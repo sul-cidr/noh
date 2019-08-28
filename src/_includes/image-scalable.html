@@ -1,0 +1,6 @@
+{% assign alignment = "image-center" %}
+{% if include.align == "left" %}
+  {% assign alignment = "image-left" %}
+{% endif %}
+
+<img class="scalable {{ alignment }}" src="{{ include.src }}" alt="{{ alignment }}" width="{{ include.scale }}" height="{{ include.scale }}"/>
