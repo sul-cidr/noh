@@ -17789,7 +17789,9 @@ exports[`<Section> renders as expected 1`] = `
               >
                 Kuse
                  
-                <sup>
+                <sup
+                  className="shodan__outlink-circlei"
+                >
                   <i
                     className="fas fa-info-circle"
                   />
