@@ -21,6 +21,13 @@ Object {
 }
 `;
 
+exports[`setNarrativeTab creates the correct payload 1`] = `
+Object {
+  "payload": 1,
+  "type": "SET_NARRATIVE_TAB",
+}
+`;
+
 exports[`setScoreToggles creates the correct payload 1`] = `
 Object {
   "payload": Object {

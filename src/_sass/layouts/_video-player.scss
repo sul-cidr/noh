@@ -29,11 +29,15 @@
 }
 
 .sidebar__container {
+  display: flex;
   flex-grow: 1;
   overflow: hidden;
   position: relative;
 
-  @include flex-container($direction:column);
+  .react-tabs {
+    min-height: 0;
+    height: 100%;
+  }
 
   &::after {
     background-image: linear-gradient(rgba($white, 0) 0%, rgba($white, 1) 100%);
@@ -53,8 +57,18 @@
   position: relative;
   width: 100%;
 
+  .shodan__outlink-circlei {
+    text-decoration: none;
+    color: $brown40;
+  }
+
   .shodan__outlink {
     text-decoration: none;
+    font-family: $font-display;
+
+    &:hover .shodan__outlink-circlei {
+      color: $red;
+    }
   }
 
   h1 {
@@ -80,6 +94,7 @@
 .sidebar__extras {
   flex-shrink: 0;
   width: 100%;
+  z-index: 1;
 
   h3 {
     cursor: pointer;

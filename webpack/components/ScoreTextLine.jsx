@@ -62,8 +62,6 @@ const ScoreTextLine = props => {
       key={`textCell${idx}`} // eslint-disable-line react/no-array-index-key
       vocalRange={cell.vocalRange}
       voiceType={cell.voices && cell.voices[0] ? cell.voices[0] : ""}
-      beginning={cell.beginning || false}
-      end={cell.end || false}
     />
   ));
   return textCells;

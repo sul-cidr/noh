@@ -30,10 +30,8 @@ class ScoreControls extends Component {
     };
     this.filtersPopup = null;
     this.handleToggle = this.handleToggle.bind(this);
-  }
-
-  componentDidMount() {
-    this.props.updateScoreToggles(this.props);
+    this.hideFilters = this.hideFilters.bind(this);
+    this.showFilters = this.showFilters.bind(this);
   }
 
   componentDidUpdate() {
@@ -44,6 +42,23 @@ class ScoreControls extends Component {
     this.setState({
       [toggleName]: event.target.checked
     });
+  }
+
+  hideFilters(event) {
+    /* istanbul ignore else */
+    if (!this.filtersPopup.contains(event.target)) {
+      event.preventDefault();
+      event.stopPropagation();
+      this.filtersPopup.classList.add("hidden");
+      document.body.removeEventListener("click", this.hideFilters);
+    }
+  }
+
+  showFilters() {
+    if (this.filtersPopup.classList.contains("hidden")) {
+      this.filtersPopup.classList.remove("hidden");
+      document.body.addEventListener("click", this.hideFilters);
+    }
   }
 
   render() {
@@ -123,7 +138,7 @@ class ScoreControls extends Component {
         <div className="score-controls__filters">
           <button
             className="score-controls__filters-button"
-            onClick={() => this.filtersPopup.classList.toggle("hidden")}
+            onClick={this.showFilters}
             disabled={!this.props.phrases.length}
           >
             Filters
@@ -261,7 +276,7 @@ ScoreControls.propTypes = {
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
   isNextSentenceOn: PropTypes.bool,
-  updateScoreToggles: PropTypes.func,
+  updateScoreToggles: PropTypes.func.isRequired,
   startTime: PropTypes.number,
   duration: PropTypes.number.isRequired,
   currentTime: PropTypes.number.isRequired,
@@ -283,7 +298,6 @@ ScoreControls.defaultProps = {
   isDanceOn: true,
   isPrevSentenceOn: true,
   isNextSentenceOn: true,
-  updateScoreToggles: () => {},
   startTime: 0
 };
 

@@ -12,22 +12,11 @@ class Narrative extends Component {
 
     this.state = {
       narrative: props.narrative,
-      tabbed: this.checkIfTabbed()
+      // there are no non-tabbed narratives...
+      tabbed: /tabbed-narrative/.exec(this.props.narrative) != null
     };
 
     this.narrativeOnClick = this.narrativeOnClick.bind(this);
-  }
-
-  componentWillMount() {
-    this.checkIfTabbed(this.state.narrative, this.state.tabIndicator);
-  }
-
-  checkIfTabbed() {
-    const re = /tabbed-narrative/;
-    if (re.exec(this.props.narrative) != null) {
-      return true;
-    }
-    return false;
   }
 
   narrativeOnClick(event) {

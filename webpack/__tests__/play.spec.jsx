@@ -3,13 +3,14 @@ import { mount } from "enzyme";
 
 import App from "../play";
 import fixtures from "./__fixtures__/play.json";
-import store from "../store";
 
 describe("<Play>", () => {
+  let store;
   let wrapper;
 
   beforeEach(() => {
-    wrapper = mount(<App store={store} {...fixtures} />);
+    wrapper = mount(<App {...fixtures} />);
+    ({ store } = wrapper.find("Provider").props());
   });
 
   it("renders as expected", () => {

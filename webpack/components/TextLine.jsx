@@ -4,6 +4,17 @@ import { connect } from "react-redux";
 import { setCurrentTime } from "../actionCreators";
 
 class Line extends Component {
+  static markupSpeaker(text) {
+    const parts = text.split(/^\[([^\]]+)\]\s+/, 3).filter(Boolean);
+    return parts.length === 2 ? (
+      <React.Fragment>
+        <strong>{parts[0]}</strong>: {parts[1]}
+      </React.Fragment>
+    ) : (
+      text
+    );
+  }
+
   constructor(props) {
     super(props);
 
@@ -37,13 +48,13 @@ class Line extends Component {
           onClick={this.handleLineClick}
           className="transcription__original"
         >
-          {this.props.transcription}
+          {Line.markupSpeaker(this.props.transcription)}
         </button>
         <button
           onClick={this.handleLineClick}
           className="transcription__translation"
         >
-          {this.props.translation}
+          {Line.markupSpeaker(this.props.translation)}
         </button>
       </div>
     );
