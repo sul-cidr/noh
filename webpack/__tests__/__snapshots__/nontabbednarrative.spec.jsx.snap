@@ -3,12 +3,8 @@
 exports[`<NonTabbedNarrative> renders as expected 1`] = `
 <Markup
   content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  disableLineBreaks={false}
-  disableWhitelist={false}
   emptyContent={null}
-  noHtml={false}
-  noHtmlExceptMatchers={false}
   parsedContent={null}
-  tagName="span"
+  tagName="div"
 />
 `;

@@ -45,11 +45,7 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
   >
     <Markup
       content="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor sit amet.</p></section>"
-      disableLineBreaks={false}
-      disableWhitelist={false}
       emptyContent={null}
-      noHtml={false}
-      noHtmlExceptMatchers={false}
       parsedContent={null}
       tagName="div"
     />
@@ -62,11 +58,7 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
   >
     <Markup
       content="<section ><p>Different stuff</p></section>"
-      disableLineBreaks={false}
-      disableWhitelist={false}
       emptyContent={null}
-      noHtml={false}
-      noHtmlExceptMatchers={false}
       parsedContent={null}
       tagName="div"
     />

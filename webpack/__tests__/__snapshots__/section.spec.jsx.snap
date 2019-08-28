@@ -18018,24 +18018,14 @@ exports[`<Section> renders as expected 1`] = `
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                                disableLineBreaks={false}
-                                disableWhitelist={false}
                                 emptyContent={null}
-                                noHtml={false}
-                                noHtmlExceptMatchers={false}
                                 parsedContent={null}
                                 tagName="div"
                               >
                                 <Element
-                                  attributes={Object {}}
-                                  className=""
-                                  commonClass="interweave"
-                                  selfClose={false}
                                   tagName="div"
                                 >
-                                  <div
-                                    className="interweave"
-                                  >
+                                  <div>
                                     <Element
                                       attributes={
                                         Object {
@@ -18043,29 +18033,20 @@ exports[`<Section> renders as expected 1`] = `
                                           "id": "intro",
                                         }
                                       }
-                                      className=""
-                                      commonClass="interweave"
                                       key="0"
-                                      selfClose={false}
                                       tagName="section"
                                     >
                                       <section
-                                        className="interweave tabbed-narrative"
+                                        className="tabbed-narrative"
                                         id="intro"
                                       >
                                         
     
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="1"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             
     Intro. Lorem ipsum dolor sit amet, 
                                             <Element
@@ -18075,14 +18056,10 @@ exports[`<Section> renders as expected 1`] = `
                                                   "title": "00:10:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="2"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:10.000"
                                                 title="00:10:98.987"
                                               >
@@ -93023,24 +93000,14 @@ exports[`<Section> renders as expected with no phrases 1`] = `
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                                disableLineBreaks={false}
-                                disableWhitelist={false}
                                 emptyContent={null}
-                                noHtml={false}
-                                noHtmlExceptMatchers={false}
                                 parsedContent={null}
                                 tagName="div"
                               >
                                 <Element
-                                  attributes={Object {}}
-                                  className=""
-                                  commonClass="interweave"
-                                  selfClose={false}
                                   tagName="div"
                                 >
-                                  <div
-                                    className="interweave"
-                                  >
+                                  <div>
                                     <Element
                                       attributes={
                                         Object {
@@ -93048,29 +93015,20 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                           "id": "intro",
                                         }
                                       }
-                                      className=""
-                                      commonClass="interweave"
                                       key="0"
-                                      selfClose={false}
                                       tagName="section"
                                     >
                                       <section
-                                        className="interweave tabbed-narrative"
+                                        className="tabbed-narrative"
                                         id="intro"
                                       >
                                         
     
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="1"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             
     Intro. Lorem ipsum dolor sit amet, 
                                             <Element
@@ -93080,14 +93038,10 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                                                   "title": "00:10:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="2"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:10.000"
                                                 title="00:10:98.987"
                                               >
@@ -99892,24 +99846,14 @@ exports[`<Section> that is first in play renders as expected 1`] = `
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                                disableLineBreaks={false}
-                                disableWhitelist={false}
                                 emptyContent={null}
-                                noHtml={false}
-                                noHtmlExceptMatchers={false}
                                 parsedContent={null}
                                 tagName="div"
                               >
                                 <Element
-                                  attributes={Object {}}
-                                  className=""
-                                  commonClass="interweave"
-                                  selfClose={false}
                                   tagName="div"
                                 >
-                                  <div
-                                    className="interweave"
-                                  >
+                                  <div>
                                     <Element
                                       attributes={
                                         Object {
@@ -99917,29 +99861,20 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                                           "id": "intro",
                                         }
                                       }
-                                      className=""
-                                      commonClass="interweave"
                                       key="0"
-                                      selfClose={false}
                                       tagName="section"
                                     >
                                       <section
-                                        className="interweave tabbed-narrative"
+                                        className="tabbed-narrative"
                                         id="intro"
                                       >
                                         
     
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="1"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             
     Intro. Lorem ipsum dolor sit amet, 
                                             <Element
@@ -99949,14 +99884,10 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                                                   "title": "00:10:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="2"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:10.000"
                                                 title="00:10:98.987"
                                               >
@@ -106607,24 +106538,14 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
     </p>
 </section>"
-                                disableLineBreaks={false}
-                                disableWhitelist={false}
                                 emptyContent={null}
-                                noHtml={false}
-                                noHtmlExceptMatchers={false}
                                 parsedContent={null}
                                 tagName="div"
                               >
                                 <Element
-                                  attributes={Object {}}
-                                  className=""
-                                  commonClass="interweave"
-                                  selfClose={false}
                                   tagName="div"
                                 >
-                                  <div
-                                    className="interweave"
-                                  >
+                                  <div>
                                     <Element
                                       attributes={
                                         Object {
@@ -106632,29 +106553,20 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                                           "id": "intro",
                                         }
                                       }
-                                      className=""
-                                      commonClass="interweave"
                                       key="0"
-                                      selfClose={false}
                                       tagName="section"
                                     >
                                       <section
-                                        className="interweave tabbed-narrative"
+                                        className="tabbed-narrative"
                                         id="intro"
                                       >
                                         
     
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="1"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             
     Intro. Lorem ipsum dolor sit amet, 
                                             <Element
@@ -106664,14 +106576,10 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                                                   "title": "00:10:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="2"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:10.000"
                                                 title="00:10:98.987"
                                               >
