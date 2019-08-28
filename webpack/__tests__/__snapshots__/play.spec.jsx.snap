@@ -1264,15 +1264,6 @@ exports[`<Play> renders as expected 1`] = `
     ]
   }
   startTime={0}
-  store={
-    Object {
-      "dispatch": [Function],
-      "getState": [Function],
-      "replaceReducer": [Function],
-      "subscribe": [Function],
-      Symbol(observable): [Function],
-    }
-  }
   title="Kokaji"
   tracks={
     Array [
@@ -1396,7 +1387,7 @@ exports[`<Play> renders as expected 1`] = `
                 onKeyPress={null}
                 role="presentation"
               >
-                <TabbedNarrative
+                <Connect(TabbedNarrative)
                   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
   <h2>Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -1417,111 +1408,135 @@ exports[`<Play> renders as expected 1`] = `
 </section>
 "
                 >
-                  <Tabs
-                    defaultFocus={false}
-                    defaultIndex={null}
-                    domRef={[Function]}
-                    forceRenderTabPanel={false}
-                    selectedIndex={null}
+                  <TabbedNarrative
+                    narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
+  <h2>Title</h2>
+  <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h3>Subtitle</h3>
+  <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+<p><br /></p>
+<section id=\\"part1\\" title=\\"Part I\\" class=\\"tabbed-narrative\\">
+  <h2>Part I</h2>
+  <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+<p><br /></p>
+<section id=\\"part2\\" title=\\"Part II\\" class=\\"tabbed-narrative\\">
+  <h2>Part II</h2>
+  <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:30.303\\" title=\\"00:12:98.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</section>
+"
+                    narrativeTab={0}
+                    updateNarrativeTab={[Function]}
                   >
-                    <UncontrolledTabs
-                      className="react-tabs"
+                    <Tabs
+                      defaultFocus={false}
+                      defaultIndex={null}
                       domRef={[Function]}
-                      focus={false}
                       forceRenderTabPanel={false}
                       onSelect={[Function]}
                       selectedIndex={0}
                     >
-                      <div
+                      <UncontrolledTabs
                         className="react-tabs"
-                        data-tabs={true}
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
+                        domRef={[Function]}
+                        focus={false}
+                        forceRenderTabPanel={false}
+                        onSelect={[Function]}
+                        selectedIndex={0}
                       >
-                        <TabList
-                          className="react-tabs__tab-list"
-                          key=".0"
+                        <div
+                          className="react-tabs"
+                          data-tabs={true}
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
                         >
-                          <ul
+                          <TabList
                             className="react-tabs__tab-list"
-                            role="tablist"
+                            key=".0"
                           >
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-0"
-                              key=".$Introduction"
-                              panelId="react-tabs-1"
-                              selected={true}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
+                            <ul
+                              className="react-tabs__tab-list"
+                              role="tablist"
                             >
-                              <li
-                                aria-controls="react-tabs-1"
-                                aria-disabled="false"
-                                aria-selected="true"
-                                className="react-tabs__tab react-tabs__tab--selected"
+                              <Tab
+                                className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-0"
-                                role="tab"
-                                tabIndex="0"
+                                key=".$Introduction"
+                                panelId="react-tabs-1"
+                                selected={true}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Introduction
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-2"
-                              key=".$Part I"
-                              panelId="react-tabs-3"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-3"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-1"
+                                  aria-disabled="false"
+                                  aria-selected="true"
+                                  className="react-tabs__tab react-tabs__tab--selected"
+                                  id="react-tabs-0"
+                                  role="tab"
+                                  tabIndex="0"
+                                >
+                                  Introduction
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-2"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part I"
+                                panelId="react-tabs-3"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part I
-                              </li>
-                            </Tab>
-                            <Tab
-                              className="react-tabs__tab"
-                              disabledClassName="react-tabs__tab--disabled"
-                              focus={false}
-                              id="react-tabs-4"
-                              key=".$Part II"
-                              panelId="react-tabs-5"
-                              selected={false}
-                              selectedClassName="react-tabs__tab--selected"
-                              tabRef={[Function]}
-                            >
-                              <li
-                                aria-controls="react-tabs-5"
-                                aria-disabled="false"
-                                aria-selected="false"
+                                <li
+                                  aria-controls="react-tabs-3"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-2"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part I
+                                </li>
+                              </Tab>
+                              <Tab
                                 className="react-tabs__tab"
+                                disabledClassName="react-tabs__tab--disabled"
+                                focus={false}
                                 id="react-tabs-4"
-                                role="tab"
-                                tabIndex={null}
+                                key=".$Part II"
+                                panelId="react-tabs-5"
+                                selected={false}
+                                selectedClassName="react-tabs__tab--selected"
+                                tabRef={[Function]}
                               >
-                                Part II
-                              </li>
-                            </Tab>
-                          </ul>
-                        </TabList>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-1"
-                          key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
+                                <li
+                                  aria-controls="react-tabs-5"
+                                  aria-disabled="false"
+                                  aria-selected="false"
+                                  className="react-tabs__tab"
+                                  id="react-tabs-4"
+                                  role="tab"
+                                  tabIndex={null}
+                                >
+                                  Part II
+                                </li>
+                              </Tab>
+                            </ul>
+                          </TabList>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-1"
+                            key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
   <h2>Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -1529,18 +1544,18 @@ exports[`<Play> renders as expected 1`] = `
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>"
-                          selected={true}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-0"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-0"
-                            className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                            id="react-tabs-1"
-                            role="tabpanel"
+                            selected={true}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-0"
                           >
-                            <Markup
-                              content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
+                            <div
+                              aria-labelledby="react-tabs-0"
+                              className="react-tabs__tab-panel react-tabs__tab-panel--selected"
+                              id="react-tabs-1"
+                              role="tabpanel"
+                            >
+                              <Markup
+                                content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
   <h2>Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -1548,276 +1563,277 @@ exports[`<Play> renders as expected 1`] = `
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>"
-                              disableLineBreaks={false}
-                              disableWhitelist={false}
-                              emptyContent={null}
-                              noHtml={false}
-                              noHtmlExceptMatchers={false}
-                              parsedContent={null}
-                              tagName="span"
-                            >
-                              <Element
-                                attributes={Object {}}
-                                className=""
-                                commonClass="interweave"
-                                selfClose={false}
-                                tagName="span"
+                                disableLineBreaks={false}
+                                disableWhitelist={false}
+                                emptyContent={null}
+                                noHtml={false}
+                                noHtmlExceptMatchers={false}
+                                parsedContent={null}
+                                tagName="div"
                               >
-                                <span
-                                  className="interweave"
+                                <Element
+                                  attributes={Object {}}
+                                  className=""
+                                  commonClass="interweave"
+                                  selfClose={false}
+                                  tagName="div"
                                 >
-                                  <Element
-                                    attributes={
-                                      Object {
-                                        "className": "tabbed-narrative",
-                                        "id": "intro",
-                                      }
-                                    }
-                                    className=""
-                                    commonClass="interweave"
-                                    key="0"
-                                    selfClose={false}
-                                    tagName="section"
+                                  <div
+                                    className="interweave"
                                   >
-                                    <section
-                                      className="interweave tabbed-narrative"
-                                      id="intro"
+                                    <Element
+                                      attributes={
+                                        Object {
+                                          "className": "tabbed-narrative",
+                                          "id": "intro",
+                                        }
+                                      }
+                                      className=""
+                                      commonClass="interweave"
+                                      key="0"
+                                      selfClose={false}
+                                      tagName="section"
                                     >
-                                      
-  
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="1"
-                                        selfClose={false}
-                                        tagName="h2"
+                                      <section
+                                        className="interweave tabbed-narrative"
+                                        id="intro"
                                       >
-                                        <h2
-                                          className="interweave"
-                                        >
-                                          Title
-                                        </h2>
-                                      </Element>
-                                      
+                                        
   
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="2"
-                                        selfClose={false}
-                                        tagName="p"
-                                      >
-                                        <p
-                                          className="interweave"
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="1"
+                                          selfClose={false}
+                                          tagName="h2"
                                         >
-                                          Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:10.000",
-                                                "title": "00:10:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="3"
-                                            selfClose={false}
-                                            tagName="time"
+                                          <h2
+                                            className="interweave"
                                           >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:10.000"
-                                              title="00:10:98.987"
-                                            >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                        </p>
-                                      </Element>
-                                      
+                                            Title
+                                          </h2>
+                                        </Element>
+                                        
   
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="4"
-                                        selfClose={false}
-                                        tagName="p"
-                                      >
-                                        <p
-                                          className="interweave"
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="2"
+                                          selfClose={false}
+                                          tagName="p"
                                         >
-                                          Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:20",
-                                                "title": "00:11:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="5"
-                                            selfClose={false}
-                                            tagName="time"
+                                          <p
+                                            className="interweave"
                                           >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:20"
-                                              title="00:11:98.987"
-                                            >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                      </Element>
-                                      
-  
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="6"
-                                        selfClose={false}
-                                        tagName="h3"
-                                      >
-                                        <h3
-                                          className="interweave"
-                                        >
-                                          Subtitle
-                                        </h3>
-                                      </Element>
-                                      
-  
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="7"
-                                        selfClose={false}
-                                        tagName="p"
-                                      >
-                                        <p
-                                          className="interweave"
-                                        >
-                                          Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:10.000",
-                                                "title": "00:10:98.987",
+                                            Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:10.000",
+                                                  "title": "00:10:98.987",
+                                                }
                                               }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="8"
-                                            selfClose={false}
-                                            tagName="time"
-                                          >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:10.000"
-                                              title="00:10:98.987"
+                                              className=""
+                                              commonClass="interweave"
+                                              key="3"
+                                              selfClose={false}
+                                              tagName="time"
                                             >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                        </p>
-                                      </Element>
-                                      
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:10.000"
+                                                title="00:10:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                          </p>
+                                        </Element>
+                                        
   
-                                      <Element
-                                        attributes={Object {}}
-                                        className=""
-                                        commonClass="interweave"
-                                        key="9"
-                                        selfClose={false}
-                                        tagName="p"
-                                      >
-                                        <p
-                                          className="interweave"
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="4"
+                                          selfClose={false}
+                                          tagName="p"
                                         >
-                                          Lorem ipsum dolor sit amet, 
-                                          <Element
-                                            attributes={
-                                              Object {
-                                                "dateTime": "00:00:20",
-                                                "title": "00:11:98.987",
-                                              }
-                                            }
-                                            className=""
-                                            commonClass="interweave"
-                                            key="10"
-                                            selfClose={false}
-                                            tagName="time"
+                                          <p
+                                            className="interweave"
                                           >
-                                            <time
-                                              className="interweave"
-                                              dateTime="00:00:20"
-                                              title="00:11:98.987"
+                                            Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:20",
+                                                  "title": "00:11:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="5"
+                                              selfClose={false}
+                                              tagName="time"
                                             >
-                                              consectetur
-                                            </time>
-                                          </Element>
-                                           adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                      </Element>
-                                      
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:20"
+                                                title="00:11:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                          </p>
+                                        </Element>
+                                        
+  
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="6"
+                                          selfClose={false}
+                                          tagName="h3"
+                                        >
+                                          <h3
+                                            className="interweave"
+                                          >
+                                            Subtitle
+                                          </h3>
+                                        </Element>
+                                        
+  
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="7"
+                                          selfClose={false}
+                                          tagName="p"
+                                        >
+                                          <p
+                                            className="interweave"
+                                          >
+                                            Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:10.000",
+                                                  "title": "00:10:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="8"
+                                              selfClose={false}
+                                              tagName="time"
+                                            >
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:10.000"
+                                                title="00:10:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                          </p>
+                                        </Element>
+                                        
+  
+                                        <Element
+                                          attributes={Object {}}
+                                          className=""
+                                          commonClass="interweave"
+                                          key="9"
+                                          selfClose={false}
+                                          tagName="p"
+                                        >
+                                          <p
+                                            className="interweave"
+                                          >
+                                            Lorem ipsum dolor sit amet, 
+                                            <Element
+                                              attributes={
+                                                Object {
+                                                  "dateTime": "00:00:20",
+                                                  "title": "00:11:98.987",
+                                                }
+                                              }
+                                              className=""
+                                              commonClass="interweave"
+                                              key="10"
+                                              selfClose={false}
+                                              tagName="time"
+                                            >
+                                              <time
+                                                className="interweave"
+                                                dateTime="00:00:20"
+                                                title="00:11:98.987"
+                                              >
+                                                consectetur
+                                              </time>
+                                            </Element>
+                                             adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                          </p>
+                                        </Element>
+                                        
 
-                                    </section>
-                                  </Element>
-                                </span>
-                              </Element>
-                            </Markup>
-                          </div>
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-3"
-                          key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
+                                      </section>
+                                    </Element>
+                                  </div>
+                                </Element>
+                              </Markup>
+                            </div>
+                          </TabPanel>
+                          <TabPanel
+                            className="react-tabs__tab-panel"
+                            forceRender={false}
+                            id="react-tabs-3"
+                            key=".1:$<section id=0\\"part1\\"  class=0\\"tabbed-narrative\\">
   <h2>Part I</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-2"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-2"
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-2"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-2"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-3"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                          <TabPanel
                             className="react-tabs__tab-panel"
-                            id="react-tabs-3"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                        <TabPanel
-                          className="react-tabs__tab-panel"
-                          forceRender={false}
-                          id="react-tabs-5"
-                          key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
+                            forceRender={false}
+                            id="react-tabs-5"
+                            key=".1:$<section id=0\\"part2\\"  class=0\\"tabbed-narrative\\">
   <h2>Part II</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=230.303\\" title=0\\"00=212=298.987\\">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 </section>"
-                          selected={false}
-                          selectedClassName="react-tabs__tab-panel--selected"
-                          tabId="react-tabs-4"
-                        >
-                          <div
-                            aria-labelledby="react-tabs-4"
-                            className="react-tabs__tab-panel"
-                            id="react-tabs-5"
-                            role="tabpanel"
-                          />
-                        </TabPanel>
-                      </div>
-                    </UncontrolledTabs>
-                  </Tabs>
-                </TabbedNarrative>
+                            selected={false}
+                            selectedClassName="react-tabs__tab-panel--selected"
+                            tabId="react-tabs-4"
+                          >
+                            <div
+                              aria-labelledby="react-tabs-4"
+                              className="react-tabs__tab-panel"
+                              id="react-tabs-5"
+                              role="tabpanel"
+                            />
+                          </TabPanel>
+                        </div>
+                      </UncontrolledTabs>
+                    </Tabs>
+                  </TabbedNarrative>
+                </Connect(TabbedNarrative)>
               </div>
             </Narrative>
           </Connect(Narrative)>
@@ -3338,6 +3354,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={106}
                         intensity="0"
                         left="0%"
@@ -3349,7 +3371,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Oshirabe"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3375,6 +3397,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={130}
                         intensity="0"
                         left="2.8702951529921474%"
@@ -3386,7 +3414,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Musicians walk in"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3412,6 +3440,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={80}
                         intensity="3"
                         left="6.3904684538315735%"
@@ -3423,7 +3457,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Nanori"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3449,6 +3483,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={207}
                         intensity="4"
                         left="8.556728946655836%"
@@ -3460,7 +3500,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Mondō-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3486,6 +3526,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={123}
                         intensity="17"
                         left="14.161927971838615%"
@@ -3497,7 +3543,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Ageuta-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3523,6 +3569,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={34}
                         intensity="4"
                         left="17.49255347955592%"
@@ -3534,7 +3586,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Dialogue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3560,6 +3612,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={59}
                         intensity="3"
                         left="18.41321418900623%"
@@ -3571,7 +3629,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Monologue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3597,6 +3655,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={159}
                         intensity="4"
                         left="20.010831302464123%"
@@ -3608,7 +3672,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Mondō-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3634,6 +3698,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={116}
                         intensity="17"
                         left="24.316274031952343%"
@@ -3645,7 +3715,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Ageuta-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3671,6 +3741,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={61}
                         intensity="14"
                         left="27.457351746547523%"
@@ -3682,7 +3758,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Kuri"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3708,6 +3784,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={118}
                         intensity="11"
                         left="29.109125372326023%"
@@ -3719,7 +3801,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Sashi"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3745,6 +3827,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={554}
                         intensity="18"
                         left="32.304359599241806%"
@@ -3756,7 +3844,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Kuse"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3782,6 +3870,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={58}
                         intensity="7"
                         left="47.30571351204982%"
@@ -3793,7 +3887,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Kakeai-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3819,6 +3913,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={75}
                         intensity="13"
                         left="48.87625236934741%"
@@ -3830,7 +3930,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Ageuta-3"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3856,6 +3956,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={211}
                         intensity="10"
                         left="50.907121581370156%"
@@ -3867,7 +3973,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Raijo"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3893,6 +3999,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={485}
                         intensity="0"
                         left="56.620633631194146%"
@@ -3904,7 +4016,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Aikyōgen"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3930,6 +4042,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={143}
                         intensity="0"
                         left="69.75358786894124%"
@@ -3941,7 +4059,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Prop is brought in"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3967,6 +4085,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={202}
                         intensity="12"
                         left="73.62577849986461%"
@@ -3978,7 +4102,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Notto"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4004,6 +4128,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={146}
                         intensity="14"
                         left="79.09558624424587%"
@@ -4015,7 +4145,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Noriji-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4041,6 +4171,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={84}
                         intensity="21"
                         left="83.04901164365015%"
@@ -4052,7 +4188,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Hayafue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4078,6 +4214,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={47}
                         intensity="27"
                         left="85.32358516111562%"
@@ -4089,7 +4231,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Noriji-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4115,6 +4257,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={57}
                         intensity="29"
                         left="86.59626320064987%"
@@ -4126,7 +4274,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Maibataraki"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4152,6 +4300,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={115}
                         intensity="24"
                         left="88.13972380178716%"
@@ -4163,7 +4317,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Noriji-3"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4189,6 +4343,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={30}
                         intensity="9"
                         left="91.25372326022203%"
@@ -4200,7 +4360,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Kakeai-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4226,6 +4386,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={136}
                         intensity="28"
                         left="92.06607094503113%"
@@ -4237,7 +4403,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Kiri"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4263,6 +4429,12 @@ exports[`<Play> renders as expected 1`] = `
                       totalDuration={3693}
                     >
                       <ShodanTimelineBlock
+                        dan={
+                          Object {
+                            "number": "",
+                            "value": "",
+                          }
+                        }
                         duration={157}
                         intensity="0"
                         left="95.74871378283237%"
@@ -4274,7 +4446,7 @@ exports[`<Play> renders as expected 1`] = `
                         url=""
                       >
                         <div
-                          className="shodan-map__item  "
+                          className="shodan-map__item   "
                           data-tooltip="Musicians are exiting the stage"
                           onClick={[Function]}
                           onKeyPress={null}

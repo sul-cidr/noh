@@ -8,8 +8,8 @@ describe("<TextLine>", () => {
     const component = shallow(
       <UnwrappedLine
         active
-        translation="sample string"
-        transcription="another sample string"
+        translation="[KYŌGEN] sample string"
+        transcription="[KYŌGEN] another sample string"
         startTime={10}
       />
     );

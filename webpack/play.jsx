@@ -12,7 +12,7 @@ import TimelineIndicator from "./components/TimelineIndicator";
 import ShodanTimeline from "./components/ShodanTimeline";
 
 import contents from "./contents";
-import store from "./store";
+import initializeStore from "./store";
 import { setCurrentTime } from "./actionCreators";
 import {
   convertTimeToSeconds,
@@ -22,42 +22,55 @@ import {
 import { saveState as saveStateToSessionStorage } from "./sessionStorage";
 
 export default class App extends Component {
-  static updateTimeFromUrlFrag() {
-    // check for a URL fragment of the form `#startTime=<timestamp>` and
-    // proceed accordingly
-    const urlFragParams = parseUrlFragment();
-    const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
-    if (seekToTime)
-      store.dispatch(setCurrentTime({ time: seekToTime, origin: "URL_FRAG" }));
-  }
-
   constructor(props) {
     super(props);
-
+    const sharedStorageKey = "shared";
+    const playStorageKey = "play";
+    this.store = initializeStore([sharedStorageKey, playStorageKey]);
     const { title: origin, currentTime } = this.props;
     const {
       currentTime: { origin: storedOrigin }
-    } = store.getState();
+    } = this.store.getState();
 
-    store.subscribe(
+    this.store.subscribe(
       throttle(() => {
         const {
-          currentTime: { time }
-        } = store.getState();
-        saveStateToSessionStorage({ currentTime: { time, origin } });
+          currentTime: { time },
+          narrativeTab
+        } = this.store.getState();
+        saveStateToSessionStorage(
+          { currentTime: { time, origin } },
+          sharedStorageKey
+        );
+        saveStateToSessionStorage({ narrativeTab }, playStorageKey);
       }, 2000)
     );
 
     // override currentTime stored in sessionStorage if it
     //  doesn't come from an appropriate context
     if (storedOrigin.split("/")[0] !== origin) {
-      store.dispatch(setCurrentTime({ time: currentTime, origin }));
+      this.store.dispatch(setCurrentTime({ time: currentTime, origin }));
     }
 
     // set up a listener for hashchange events, and then process any URL frag that
     //  may have been included at page-load time
-    window.addEventListener("hashchange", App.updateTimeFromUrlFrag, false);
-    App.updateTimeFromUrlFrag();
+    window.addEventListener(
+      "hashchange",
+      this.updateTimeFromUrlFrag.bind(this),
+      false
+    );
+    this.updateTimeFromUrlFrag();
+  }
+
+  updateTimeFromUrlFrag() {
+    // check for a URL fragment of the form `#startTime=<timestamp>` and
+    // proceed accordingly
+    const urlFragParams = parseUrlFragment();
+    const seekToTime = validateTimestamp(urlFragParams.startTime); // returns false on absent or unparseable timestamp
+    if (seekToTime)
+      this.store.dispatch(
+        setCurrentTime({ time: seekToTime, origin: "URL_FRAG" })
+      );
   }
 
   render() {
@@ -75,7 +88,7 @@ export default class App extends Component {
     } = this.props;
 
     return (
-      <Provider store={store}>
+      <Provider store={this.store}>
         <div className="app-container">
           <aside className="sidebar sidebar--play">
             <div className="sidebar__header">
@@ -172,6 +185,10 @@ App.propTypes = {
       }),
       dancePresent: PropTypes.shape({
         present: PropTypes.string,
+        value: PropTypes.string
+      }),
+      dan: PropTypes.shape({
+        number: PropTypes.string,
         value: PropTypes.string
       }),
       captions: PropTypes.Array,

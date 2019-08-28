@@ -2,7 +2,7 @@
 
 exports[`<ShodanTimelineBlock> renders as expected 1`] = `
 <div
-  className="shodan-map__item  "
+  className="shodan-map__item   "
   data-tooltip="Kiri"
   onClick={[Function]}
   onKeyPress={null}
@@ -19,7 +19,7 @@ exports[`<ShodanTimelineBlock> renders as expected 1`] = `
 
 exports[`<ShodanTimelineBlock> renders as expected with current section highlighted 1`] = `
 <div
-  className="shodan-map__item pointer shodan-map__item--active"
+  className="shodan-map__item pointer shodan-map__item--active "
   data-tooltip="Kiri"
   onClick={[Function]}
   onKeyPress={null}
@@ -36,8 +36,25 @@ exports[`<ShodanTimelineBlock> renders as expected with current section highligh
 
 exports[`<ShodanTimelineBlock> renders as expected with startTime 1`] = `
 <div
-  className="shodan-map__item  "
+  className="shodan-map__item   "
   data-tooltip="Kiri"
+  onClick={[Function]}
+  onKeyPress={null}
+  role="link"
+  style={
+    Object {
+      "height": "71.42857142857143%",
+      "width": "33.33333333333333%",
+    }
+  }
+  tabIndex={0}
+/>
+`;
+
+exports[`<ShodanTimelineBlock> renders as expected with subdivision info 1`] = `
+<div
+  className="shodan-map__item   dan-5"
+  data-tooltip="Shite Exits: Kiri"
   onClick={[Function]}
   onKeyPress={null}
   role="link"
@@ -53,7 +70,7 @@ exports[`<ShodanTimelineBlock> renders as expected with startTime 1`] = `
 
 exports[`<ShodanTimelineBlock> renders as expected with url 1`] = `
 <div
-  className="shodan-map__item pointer "
+  className="shodan-map__item pointer  "
   data-tooltip="Kiri"
   onClick={[Function]}
   onKeyPress={null}

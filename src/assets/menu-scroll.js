@@ -1,3 +1,4 @@
+/* eslint-disable */
 var secondLevelMenu = document.querySelector(
   "nav.second-level-menu__container"
 );
@@ -18,6 +19,14 @@ if (secondLevelMenu !== null) {
 
     // Scrolling up
     if (prevScrollPos > currentScrollPos) {
+      if (prevScrollPos - currentScrollPos > 100) {
+        // A jump of this size has been initiated by an anchor or some
+        //  (significant) change to the viewport height -- in this
+        //  case, we want to make sure the menu is stowed away.
+        stickyMenu.classList.remove("visible");
+        prevScrollPos = currentScrollPos;
+        return;
+      }
       if (currentScrollPos > menuTop) {
         // Slide out floating header if we're not near the page top
         stickyMenu.classList.add("visible");

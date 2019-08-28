@@ -3,7 +3,9 @@ import {
   SET_IS_PLAYING,
   SET_START_TIME,
   SET_CURRENT_PHRASE_ID,
-  SET_SCORE_TOGGLES
+  SET_SCORE_TOGGLES,
+  SET_SIDEBAR_STATE,
+  SET_NARRATIVE_TAB
 } from "./actions";
 
 const DEFAULT_STATE = {
@@ -19,7 +21,9 @@ const DEFAULT_STATE = {
     isDanceOn: true,
     isPrevSentenceOn: false,
     isNextSentenceOn: true
-  }
+  },
+  sidebarState: {},
+  narrativeTab: 0
 };
 
 const setCurrentTime = (state, action) =>
@@ -37,6 +41,12 @@ const setCurrentPhraseID = (state, action) =>
 const setScoreToggles = (state, action) =>
   Object.assign({}, state, { toggles: action.payload });
 
+const setSidebarState = (state, action) =>
+  Object.assign({}, state, { sidebarState: action.payload });
+
+const setNarrativeTab = (state, action) =>
+  Object.assign({}, state, { narrativeTab: action.payload });
+
 const rootReducer = (state = DEFAULT_STATE, action) => {
   switch (action.type) {
     case SET_CURRENT_TIME:
@@ -49,6 +59,10 @@ const rootReducer = (state = DEFAULT_STATE, action) => {
       return setCurrentPhraseID(state, action);
     case SET_SCORE_TOGGLES:
       return setScoreToggles(state, action);
+    case SET_SIDEBAR_STATE:
+      return setSidebarState(state, action);
+    case SET_NARRATIVE_TAB:
+      return setNarrativeTab(state, action);
     default:
       return state;
   }

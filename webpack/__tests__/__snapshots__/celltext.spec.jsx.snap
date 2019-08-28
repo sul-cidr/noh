@@ -2,11 +2,11 @@
 
 exports[`<CellText> renders as expected 1`] = `
 <div
-  className="cell cell--2 cell--text"
+  className="cell cell--2 cell--text cell__character"
 >
   ma
   <span
-    className="cell__character cell__character--jiutai cell__character--begin cell__character--end"
+    className="cell__character--jiutai"
   />
   <span
     className="cell__tooltip cell__tooltip--centered"
@@ -21,7 +21,7 @@ exports[`<CellText> renders as expected 1`] = `
 
 exports[`<CellText> renders as expected 2`] = `
 <div
-  className="cell cell--2 cell--text"
+  className="cell cell--2 cell--text cell__character"
 >
   <span
     className="truncate"
@@ -29,7 +29,7 @@ exports[`<CellText> renders as expected 2`] = `
     ma
   </span>
   <span
-    className="cell__character cell__character--jiutai  cell__character--end"
+    className="cell__character--jiutai"
   />
   <span
     className="cell__tooltip"
@@ -44,11 +44,11 @@ exports[`<CellText> renders as expected 2`] = `
 
 exports[`<CellText> renders as expected 3`] = `
 <div
-  className="cell cell--2 cell--text"
+  className="cell cell--2 cell--text cell__character"
 >
   ma
   <span
-    className="cell__character cell__character--jiutai cell__character--begin "
+    className="cell__character--jiutai"
   />
   <span
     className="cell__tooltip cell__tooltip--centered"
@@ -63,11 +63,11 @@ exports[`<CellText> renders as expected 3`] = `
 
 exports[`<CellText> renders as expected with no vocal range 1`] = `
 <div
-  className="cell cell--2 cell--text"
+  className="cell cell--2 cell--text cell__character"
 >
   ma
   <span
-    className="cell__character cell__character--jiutai cell__character--begin cell__character--end"
+    className="cell__character--jiutai"
   />
   <span
     className="cell__tooltip cell__tooltip--centered"

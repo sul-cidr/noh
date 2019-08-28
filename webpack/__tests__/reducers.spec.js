@@ -61,3 +61,11 @@ test("it sets toggles correctly", () => {
     }
   });
 });
+
+test("it sets narrativeTab correctly", () => {
+  const state = reducers(
+    { narrativeTab: 1 },
+    { type: "SET_NARRATIVE_TAB", payload: 1 }
+  );
+  expect(state).toEqual({ narrativeTab: 1 });
+});

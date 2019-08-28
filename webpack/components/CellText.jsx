@@ -19,15 +19,7 @@ const CellText = props => {
   let typeSpan = null;
   let tooltipSpan = null;
   if (props.voiceType !== "") {
-    const beginClass = props.beginning === true ? "cell__character--begin" : "";
-    const endClass = props.end === true ? "cell__character--end" : "";
-    typeSpan = (
-      <span
-        className={`cell__character cell__character--${
-          props.voiceType
-        } ${beginClass} ${endClass}`}
-      />
-    );
+    typeSpan = <span className={`cell__character--${props.voiceType}`} />;
     tooltipSpan = (
       <span
         className={`cell__tooltip${
@@ -39,7 +31,11 @@ const CellText = props => {
     );
   }
   return (
-    <div className={`cell cell--${props.length} cell--text`}>
+    <div
+      className={`cell cell--${props.length} cell--text${
+        props.voiceType ? " cell__character" : ""
+      }`}
+    >
       {props.textIsCongruent ? (
         props.text
       ) : (
@@ -57,16 +53,12 @@ CellText.propTypes = {
   length: PropTypes.number.isRequired,
   vocalRange: PropTypes.string,
   voiceType: PropTypes.string,
-  beginning: PropTypes.bool,
-  end: PropTypes.bool,
   textIsCongruent: PropTypes.bool
 };
 
 CellText.defaultProps = {
   vocalRange: "",
   voiceType: "",
-  beginning: false,
-  end: false,
   textIsCongruent: false
 };
 

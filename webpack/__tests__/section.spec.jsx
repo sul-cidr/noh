@@ -6,7 +6,6 @@ import App from "../section";
 import fixtures from "./__fixtures__/section.json";
 import fixturesNoPhrases from "./__fixtures__/section-no-phrases.json";
 import fixturesFirstAndLast from "./__fixtures__/multiple-sections.json";
-import _store from "../store";
 
 describe("<Section>", () => {
   let wrapper;
@@ -36,10 +35,10 @@ describe("<Section>", () => {
 
   it("toggles highlighted-text/libretto", () => {
     const containerSelector = ".highlighted-text__container";
-    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true); // on by default
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(false); // off by default
     const h3 = wrapper.find(`${containerSelector} h3`).first();
     h3.simulate("click");
-    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(false);
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true);
   });
 
   it("toggles shodan-timeline/section map", () => {
@@ -52,7 +51,7 @@ describe("<Section>", () => {
 
   it("highlighted-text/libretto does not toggle if an element other than H3 gets clicked", () => {
     const containerSelector = ".highlighted-text__container";
-    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true); // on by default
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true); // from previous test
     const h3 = wrapper.find(`${containerSelector} div`).first();
     h3.simulate("click");
     expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true);
@@ -60,10 +59,10 @@ describe("<Section>", () => {
 
   it("shodan-timeline/section map  does not toggle if an element other than H3 gets clicked", () => {
     const containerSelector = ".shodan-timeline__container";
-    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(false); // off by default
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true); // from previous test
     const h3 = wrapper.find(`${containerSelector} div`).first();
     h3.simulate("click");
-    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(false);
+    expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true);
   });
 });
 
@@ -103,8 +102,9 @@ describe("<Section> that is last in play", () => {
 
 describe("<Section> with a URL frag", () => {
   it("sets currentTime appropriately based on URL frag", () => {
-    mount(<App store={_store} {...fixtures} />);
-    _store.dispatch = jest.fn();
+    const wrapper = mount(<App {...fixtures} />);
+    const { store } = wrapper.find("Provider").props();
+    store.dispatch = jest.fn();
 
     window.location.hash = "#startTime=1000";
     window.dispatchEvent(new HashChangeEvent("hashchange"));
@@ -113,6 +113,6 @@ describe("<Section> with a URL frag", () => {
       payload: { time: 1000, origin: "URL_FRAG" },
       type: "SET_CURRENT_TIME"
     };
-    expect(_store.dispatch).toHaveBeenCalledWith(payload);
+    expect(store.dispatch).toHaveBeenCalledWith(payload);
   });
 });

@@ -24,6 +24,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 source: src
 markdown: kramdown
+kramdown:
+  footnote_backlink_inline: true
 # theme: minima
 
 # Collection settings

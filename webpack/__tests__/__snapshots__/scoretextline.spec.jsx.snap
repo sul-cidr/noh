@@ -3,8 +3,6 @@
 exports[`<ScoreTextLine> renders as expected by default 1`] = `
 Array [
   <CellText
-    beginning={true}
-    end={true}
     key="textCell0"
     length={1}
     text="ma"
@@ -13,8 +11,6 @@ Array [
     voiceType="jiutai"
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell1"
     length={1}
     text="ta"
@@ -23,8 +19,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={true}
-    end={true}
     key="textCell2"
     length={1}
     text="wa"
@@ -33,8 +27,6 @@ Array [
     voiceType="jiutai"
   />,
   <CellText
-    beginning={true}
-    end={true}
     key="textCell3"
     length={1}
     text="ga"
@@ -43,8 +35,6 @@ Array [
     voiceType="shite"
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell4"
     length={1}
     text="cho"
@@ -53,8 +43,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell5"
     length={1}
     text="o"
@@ -63,8 +51,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={true}
-    end={true}
     key="textCell6"
     length={1}
     text="no"
@@ -73,8 +59,6 @@ Array [
     voiceType="jiutai"
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell7"
     length={1}
     text="so"
@@ -83,8 +67,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell8"
     length={1}
     text="no"
@@ -93,8 +75,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell9"
     length={1}
     text="ha"
@@ -103,8 +83,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell10"
     length={1}
     text="ji"
@@ -113,8 +91,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={false}
-    end={false}
     key="textCell11"
     length={1}
     text="me"
@@ -123,8 +99,6 @@ Array [
     voiceType=""
   />,
   <CellText
-    beginning={true}
-    end={true}
     key="textCell12"
     length={1}
     text="(e)"
@@ -137,8 +111,6 @@ Array [
 
 exports[`<ScoreTextLine> renders as expected by default 2`] = `
 <CellText
-  beginning={false}
-  end={false}
   length={13}
   text=""
   textIsCongruent={false}

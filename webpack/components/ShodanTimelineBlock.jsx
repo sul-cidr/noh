@@ -25,18 +25,24 @@ class ShodanTimelineBlock extends Component {
       (parseInt(this.props.intensity, 10) / this.props.maxIntensity) * 100;
     const durationNum = (this.props.duration / this.props.totalDuration) * 100;
     const pointer = this.props.url ? "pointer" : "";
+    const danClass = this.props.dan.number
+      ? `dan-${this.props.dan.number}`
+      : "";
     const active =
       window.location.pathname === this.props.url
         ? "shodan-map__item--active"
         : "";
+    const tooltipText = this.props.dan.value
+      ? `${this.props.dan.value}: ${this.props.name}`
+      : `${this.props.name}`;
     return (
       <div
-        className={`shodan-map__item ${pointer} ${active}`}
+        className={`shodan-map__item ${pointer} ${active} ${danClass}`}
         style={{
           width: `${durationNum}%`,
           height: `${heightNum}%`
         }}
-        data-tooltip={this.props.name}
+        data-tooltip={tooltipText}
         onClick={() => this.handleClick()}
         role="link"
         tabIndex={0}
@@ -54,13 +60,15 @@ ShodanTimelineBlock.propTypes = {
   intensity: PropTypes.string.isRequired,
   duration: PropTypes.number.isRequired,
   totalDuration: PropTypes.number.isRequired,
-  updateStartTime: PropTypes.func
+  updateStartTime: PropTypes.func,
+  dan: PropTypes.shape({ number: PropTypes.string, value: PropTypes.string })
 };
 
 ShodanTimelineBlock.defaultProps = {
   url: "",
   startTime: null,
-  updateStartTime: null
+  updateStartTime: null,
+  dan: { number: "", value: "" }
 };
 
 const mapDispatchToProps = dispatch => ({
