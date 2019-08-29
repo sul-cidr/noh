@@ -13,11 +13,37 @@ class TabbedNarrative extends React.Component {
       titles: null
     };
 
+    const hookupMouseovers = function hookupMouseovers() {
+      document.querySelectorAll("[data-highlight-dans]").forEach(targetElem => {
+        targetElem.addEventListener("mouseover", ({ target }) => {
+          const sectionIndices = target.attributes[
+            "data-highlight-dans"
+          ].value.split(",");
+          sectionIndices.forEach(index => {
+            document
+              .querySelector(`[data-index="${index}"]`)
+              .classList.add("shodan-map__item--highlight");
+          });
+        });
+        targetElem.addEventListener("mouseout", ({ target }) => {
+          const sectionIndices = target.attributes[
+            "data-highlight-dans"
+          ].value.split(",");
+          sectionIndices.forEach(index => {
+            document
+              .querySelector(`[data-index="${index}"]`)
+              .classList.remove("shodan-map__item--highlight");
+          });
+        });
+      });
+    };
+
     /* This function is triggered on all tab changes, as well as some other
     * events. It is used to scroll the visible tab panel to the top upon
     * activation, if necessary. */
     this.handleDomRef = tabsRef => {
       if (tabsRef !== null) {
+        hookupMouseovers();
         const { parentElement } = tabsRef;
         parentElement.scrollTop = 0;
       }
@@ -53,7 +79,7 @@ class TabbedNarrative extends React.Component {
     ));
     const narrativeTabs = this.state.chunks.map(chunk => (
       <TabPanel key={chunk}>
-        <Markup tagName="div" content={chunk} />
+        <Markup tagName="div" allowAttributes content={chunk} />
       </TabPanel>
     ));
     const { updateNarrativeTab } = this.props;
