@@ -18013,6 +18013,7 @@ exports[`<Section> renders as expected 1`] = `
                               role="tabpanel"
                             >
                               <Markup
+                                allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -21963,6 +21964,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -21970,6 +21976,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Oshirabe"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22006,6 +22013,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22013,6 +22025,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Musicians walk in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22049,6 +22062,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22056,6 +22074,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Nanori"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22092,6 +22111,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22099,6 +22123,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22135,6 +22160,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22142,6 +22172,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22178,6 +22209,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22185,6 +22221,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Dialogue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22221,6 +22258,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22228,6 +22270,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Monologue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22264,6 +22307,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22271,6 +22319,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22307,6 +22356,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22314,6 +22368,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22350,6 +22405,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22357,6 +22417,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22393,6 +22454,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22400,6 +22466,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Sashi"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22436,6 +22503,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22443,6 +22515,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuse"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22479,6 +22552,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22486,6 +22564,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22522,6 +22601,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22529,6 +22613,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22565,6 +22650,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22572,6 +22662,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Raijo"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22608,6 +22699,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22615,6 +22711,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Aikyōgen"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22651,6 +22748,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22658,6 +22760,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Prop is brought in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22694,6 +22797,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22701,6 +22809,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Notto"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22737,6 +22846,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22744,6 +22858,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22780,6 +22895,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22787,6 +22907,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Hayafue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22823,6 +22944,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22830,6 +22956,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22866,6 +22993,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22873,6 +23005,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Maibataraki"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22909,6 +23042,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22916,6 +23054,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22952,6 +23091,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -22959,6 +23103,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -22995,6 +23140,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -23002,6 +23152,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kiri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -23038,6 +23189,11 @@ exports[`<Section> renders as expected 1`] = `
                       left="95.72163552667209%"
                       maxIntensity={29}
                       name="Musicians are exiting the stage"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -23045,6 +23201,7 @@ exports[`<Section> renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Musicians are exiting the stage"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -24317,6 +24474,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24324,6 +24486,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Oshirabe"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24360,6 +24523,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24367,6 +24535,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Musicians walk in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24403,6 +24572,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24410,6 +24584,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Nanori"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24446,6 +24621,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24453,6 +24633,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24489,6 +24670,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24496,6 +24682,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24532,6 +24719,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24539,6 +24731,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Dialogue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24575,6 +24768,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24582,6 +24780,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Monologue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24618,6 +24817,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24625,6 +24829,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24661,6 +24866,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24668,6 +24878,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24704,6 +24915,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24711,6 +24927,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24747,6 +24964,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24754,6 +24976,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Sashi"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24790,6 +25013,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24797,6 +25025,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuse"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24833,6 +25062,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24840,6 +25074,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24876,6 +25111,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24883,6 +25123,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24919,6 +25160,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24926,6 +25172,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Raijo"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -24962,6 +25209,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -24969,6 +25221,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Aikyōgen"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25005,6 +25258,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25012,6 +25270,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Prop is brought in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25048,6 +25307,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25055,6 +25319,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Notto"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25091,6 +25356,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25098,6 +25368,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25134,6 +25405,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25141,6 +25417,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Hayafue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25177,6 +25454,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25184,6 +25466,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25220,6 +25503,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25227,6 +25515,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Maibataraki"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25263,6 +25552,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25270,6 +25564,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25306,6 +25601,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25313,6 +25613,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25349,6 +25650,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25356,6 +25662,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kiri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -25392,6 +25699,11 @@ exports[`<Section> renders as expected 1`] = `
                     left="95.72163552667209%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -25399,6 +25711,7 @@ exports[`<Section> renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Musicians are exiting the stage"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -92995,6 +93308,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                               role="tabpanel"
                             >
                               <Markup
+                                allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -94444,6 +94758,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94451,6 +94770,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Oshirabe"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94487,6 +94807,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94494,6 +94819,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Musicians walk in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94530,6 +94856,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94537,6 +94868,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Nanori"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94573,6 +94905,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94580,6 +94917,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94616,6 +94954,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94623,6 +94966,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94659,6 +95003,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94666,6 +95015,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Dialogue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94702,6 +95052,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94709,6 +95064,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Monologue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94745,6 +95101,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94752,6 +95113,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94788,6 +95150,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94795,6 +95162,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94831,6 +95199,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94838,6 +95211,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94874,6 +95248,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94881,6 +95260,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Sashi"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94917,6 +95297,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94924,6 +95309,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuse"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -94960,6 +95346,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -94967,6 +95358,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95003,6 +95395,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95010,6 +95407,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95046,6 +95444,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95053,6 +95456,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Raijo"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95089,6 +95493,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95096,6 +95505,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Aikyōgen"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95132,6 +95542,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95139,6 +95554,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Prop is brought in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95175,6 +95591,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95182,6 +95603,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Notto"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95218,6 +95640,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95225,6 +95652,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95261,6 +95689,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95268,6 +95701,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Hayafue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95304,6 +95738,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95311,6 +95750,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95347,6 +95787,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95354,6 +95799,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Maibataraki"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95390,6 +95836,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95397,6 +95848,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95433,6 +95885,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95440,6 +95897,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95476,6 +95934,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95483,6 +95946,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kiri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -95519,6 +95983,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="95.72163552667209%"
                       maxIntensity={29}
                       name="Musicians are exiting the stage"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -95526,6 +95995,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Musicians are exiting the stage"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -96798,6 +97268,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -96805,6 +97280,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Oshirabe"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -96841,6 +97317,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -96848,6 +97329,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Musicians walk in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -96884,6 +97366,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -96891,6 +97378,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Nanori"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -96927,6 +97415,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -96934,6 +97427,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -96970,6 +97464,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -96977,6 +97476,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97013,6 +97513,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97020,6 +97525,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Dialogue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97056,6 +97562,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97063,6 +97574,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Monologue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97099,6 +97611,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97106,6 +97623,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97142,6 +97660,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97149,6 +97672,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97185,6 +97709,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97192,6 +97721,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97228,6 +97758,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97235,6 +97770,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Sashi"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97271,6 +97807,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97278,6 +97819,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuse"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97314,6 +97856,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97321,6 +97868,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97357,6 +97905,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97364,6 +97917,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97400,6 +97954,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97407,6 +97966,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Raijo"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97443,6 +98003,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97450,6 +98015,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Aikyōgen"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97486,6 +98052,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97493,6 +98064,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Prop is brought in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97529,6 +98101,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97536,6 +98113,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Notto"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97572,6 +98150,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97579,6 +98162,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97615,6 +98199,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97622,6 +98211,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Hayafue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97658,6 +98248,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97665,6 +98260,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97701,6 +98297,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97708,6 +98309,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Maibataraki"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97744,6 +98346,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97751,6 +98358,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97787,6 +98395,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97794,6 +98407,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97830,6 +98444,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97837,6 +98456,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kiri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -97873,6 +98493,11 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="95.72163552667209%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -97880,6 +98505,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Musicians are exiting the stage"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -99841,6 +100467,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                               role="tabpanel"
                             >
                               <Markup
+                                allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -101256,6 +101883,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101263,6 +101895,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Oshirabe"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101299,6 +101932,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101306,6 +101944,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Musicians walk in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101342,6 +101981,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101349,6 +101993,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Nanori"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101385,6 +102030,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101392,6 +102042,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101428,6 +102079,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101435,6 +102091,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101471,6 +102128,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101478,6 +102140,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Dialogue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101514,6 +102177,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101521,6 +102189,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Monologue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101557,6 +102226,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101564,6 +102238,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101600,6 +102275,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101607,6 +102287,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101643,6 +102324,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101650,6 +102336,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101686,6 +102373,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101693,6 +102385,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Sashi"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101729,6 +102422,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101736,6 +102434,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuse"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101772,6 +102471,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101779,6 +102483,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101815,6 +102520,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101822,6 +102532,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101858,6 +102569,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101865,6 +102581,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Raijo"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101901,6 +102618,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101908,6 +102630,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Aikyōgen"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101944,6 +102667,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101951,6 +102679,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Prop is brought in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -101987,6 +102716,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -101994,6 +102728,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Notto"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102030,6 +102765,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102037,6 +102777,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102073,6 +102814,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102080,6 +102826,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Hayafue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102116,6 +102863,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102123,6 +102875,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102159,6 +102912,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102166,6 +102924,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Maibataraki"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102202,6 +102961,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102209,6 +102973,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102245,6 +103010,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102252,6 +103022,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -102288,6 +103059,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -102295,6 +103071,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kiri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -103533,6 +104310,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103540,6 +104322,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Oshirabe"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103576,6 +104359,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103583,6 +104371,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Musicians walk in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103619,6 +104408,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103626,6 +104420,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Nanori"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103662,6 +104457,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103669,6 +104469,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103705,6 +104506,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103712,6 +104518,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103748,6 +104555,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103755,6 +104567,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Dialogue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103791,6 +104604,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103798,6 +104616,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Monologue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103834,6 +104653,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103841,6 +104665,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103877,6 +104702,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103884,6 +104714,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103920,6 +104751,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103927,6 +104763,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -103963,6 +104800,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -103970,6 +104812,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Sashi"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104006,6 +104849,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104013,6 +104861,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuse"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104049,6 +104898,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104056,6 +104910,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104092,6 +104947,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104099,6 +104959,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104135,6 +104996,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104142,6 +105008,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Raijo"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104178,6 +105045,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104185,6 +105057,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Aikyōgen"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104221,6 +105094,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104228,6 +105106,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Prop is brought in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104264,6 +105143,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104271,6 +105155,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Notto"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104307,6 +105192,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104314,6 +105204,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104350,6 +105241,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104357,6 +105253,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Hayafue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104393,6 +105290,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104400,6 +105302,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104436,6 +105339,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104443,6 +105351,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Maibataraki"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104479,6 +105388,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104486,6 +105400,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104522,6 +105437,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104529,6 +105449,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -104565,6 +105486,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -104572,6 +105498,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kiri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -106533,6 +107460,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                               role="tabpanel"
                             >
                               <Markup
+                                allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -107948,6 +108876,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -107955,6 +108888,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Oshirabe"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -107991,6 +108925,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -107998,6 +108937,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Musicians walk in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108034,6 +108974,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108041,6 +108986,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Nanori"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108077,6 +109023,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108084,6 +109035,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108120,6 +109072,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108127,6 +109084,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108163,6 +109121,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108170,6 +109133,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Dialogue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108206,6 +109170,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108213,6 +109182,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Monologue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108249,6 +109219,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108256,6 +109231,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Mondō-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108292,6 +109268,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108299,6 +109280,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108335,6 +109317,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108342,6 +109329,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108378,6 +109366,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108385,6 +109378,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Sashi"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108421,6 +109415,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108428,6 +109427,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kuse"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108464,6 +109464,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108471,6 +109476,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108507,6 +109513,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108514,6 +109525,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Ageuta-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108550,6 +109562,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108557,6 +109574,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Raijo"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108593,6 +109611,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108600,6 +109623,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Aikyōgen"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108636,6 +109660,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108643,6 +109672,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Prop is brought in"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108679,6 +109709,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108686,6 +109721,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Notto"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108722,6 +109758,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108729,6 +109770,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-1"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108765,6 +109807,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108772,6 +109819,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Hayafue"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108808,6 +109856,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108815,6 +109868,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108851,6 +109905,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108858,6 +109917,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Maibataraki"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108894,6 +109954,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108901,6 +109966,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Noriji-3"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108937,6 +110003,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108944,6 +110015,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kakeai-2"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -108980,6 +110052,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
+                      sectionIndex={
+                        Object {
+                          "number": "",
+                        }
+                      }
                       startTime={null}
                       totalDuration={3693}
                       updateStartTime={[Function]}
@@ -108987,6 +110064,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     >
                       <div
                         className="shodan-map__item pointer  "
+                        data-index=""
                         data-tooltip="Kiri"
                         onClick={[Function]}
                         onKeyPress={null}
@@ -110225,6 +111303,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110232,6 +111315,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Oshirabe"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110268,6 +111352,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110275,6 +111364,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Musicians walk in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110311,6 +111401,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110318,6 +111413,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Nanori"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110354,6 +111450,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110361,6 +111462,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110397,6 +111499,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110404,6 +111511,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110440,6 +111548,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110447,6 +111560,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Dialogue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110483,6 +111597,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110490,6 +111609,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Monologue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110526,6 +111646,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110533,6 +111658,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Mondō-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110569,6 +111695,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110576,6 +111707,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110612,6 +111744,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110619,6 +111756,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuri"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110655,6 +111793,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110662,6 +111805,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Sashi"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110698,6 +111842,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110705,6 +111854,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kuse"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110741,6 +111891,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110748,6 +111903,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110784,6 +111940,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110791,6 +111952,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Ageuta-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110827,6 +111989,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110834,6 +112001,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Raijo"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110870,6 +112038,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110877,6 +112050,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Aikyōgen"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110913,6 +112087,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110920,6 +112099,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Prop is brought in"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110956,6 +112136,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -110963,6 +112148,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Notto"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -110999,6 +112185,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111006,6 +112197,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-1"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -111042,6 +112234,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111049,6 +112246,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Hayafue"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -111085,6 +112283,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111092,6 +112295,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -111128,6 +112332,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111135,6 +112344,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Maibataraki"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -111171,6 +112381,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111178,6 +112393,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Noriji-3"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -111214,6 +112430,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111221,6 +112442,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kakeai-2"
                       onClick={[Function]}
                       onKeyPress={null}
@@ -111257,6 +112479,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
+                    sectionIndex={
+                      Object {
+                        "number": "",
+                      }
+                    }
                     startTime={null}
                     totalDuration={3693}
                     updateStartTime={[Function]}
@@ -111264,6 +112491,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                   >
                     <div
                       className="shodan-map__item pointer  "
+                      data-index=""
                       data-tooltip="Kiri"
                       onClick={[Function]}
                       onKeyPress={null}

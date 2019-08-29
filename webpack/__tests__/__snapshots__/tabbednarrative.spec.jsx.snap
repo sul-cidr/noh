@@ -44,6 +44,7 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
     selectedClassName="react-tabs__tab-panel--selected"
   >
     <Markup
+      allowAttributes={true}
       content="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor sit amet.</p></section>"
       emptyContent={null}
       parsedContent={null}
@@ -57,6 +58,7 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
     selectedClassName="react-tabs__tab-panel--selected"
   >
     <Markup
+      allowAttributes={true}
       content="<section ><p>Different stuff</p></section>"
       emptyContent={null}
       parsedContent={null}
