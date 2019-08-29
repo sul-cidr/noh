@@ -19,7 +19,7 @@ exports[`<Play> renders as expected 1`] = `
   currentTime={0}
   maxIntensity={29}
   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -67,6 +67,9 @@ exports[`<Play> renders as expected 1`] = `
         },
         "play": Object {
           "value": "Kokaji",
+        },
+        "sectionIndex": Object {
+          "number": "1",
         },
         "sectionName": Object {
           "value": "Oshirabe",
@@ -1340,7 +1343,7 @@ exports[`<Play> renders as expected 1`] = `
         >
           <Connect(Narrative)
             narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1361,7 +1364,7 @@ exports[`<Play> renders as expected 1`] = `
           >
             <Narrative
               narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1389,7 +1392,7 @@ exports[`<Play> renders as expected 1`] = `
               >
                 <Connect(TabbedNarrative)
                   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1410,7 +1413,7 @@ exports[`<Play> renders as expected 1`] = `
                 >
                   <TabbedNarrative
                     narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1537,7 +1540,7 @@ exports[`<Play> renders as expected 1`] = `
                             forceRender={false}
                             id="react-tabs-1"
                             key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=0\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1557,7 +1560,7 @@ exports[`<Play> renders as expected 1`] = `
                               <Markup
                                 allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1589,10 +1592,17 @@ exports[`<Play> renders as expected 1`] = `
                                         
   
                                         <Element
+                                          attributes={
+                                            Object {
+                                              "data-highlight-dans": "1",
+                                            }
+                                          }
                                           key="1"
                                           tagName="h2"
                                         >
-                                          <h2>
+                                          <h2
+                                            data-highlight-dans="1"
+                                          >
                                             Title
                                           </h2>
                                         </Element>
@@ -2078,6 +2088,9 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "play": Object {
                           "value": "Kokaji",
+                        },
+                        "sectionIndex": Object {
+                          "number": "1",
                         },
                         "sectionName": Object {
                           "value": "Oshirabe",
@@ -3286,6 +3299,11 @@ exports[`<Play> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      sectionIndex={
+                        Object {
+                          "number": "1",
+                        }
+                      }
                       startTime={0}
                       totalDuration={3693}
                     >
@@ -3303,7 +3321,7 @@ exports[`<Play> renders as expected 1`] = `
                         name="Oshirabe"
                         sectionIndex={
                           Object {
-                            "number": "",
+                            "number": "1",
                           }
                         }
                         startTime={0}
@@ -3313,7 +3331,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
-                          data-index=""
+                          data-index="1"
                           data-tooltip="Oshirabe"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4589,6 +4607,9 @@ exports[`<Play> renders as expected 1`] = `
                     "play": Object {
                       "value": "Kokaji",
                     },
+                    "sectionIndex": Object {
+                      "number": "1",
+                    },
                     "sectionName": Object {
                       "value": "Oshirabe",
                     },
@@ -5818,6 +5839,9 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "play": Object {
                         "value": "Kokaji",
+                      },
+                      "sectionIndex": Object {
+                        "number": "1",
                       },
                       "sectionName": Object {
                         "value": "Oshirabe",
