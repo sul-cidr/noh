@@ -51,6 +51,10 @@ section.tabbed-narrative {
       padding-left: .1rem;
     }
   }
+
+  [data-highlight-dans]:hover {
+    background-color: $beige-light;
+  }
 }
 
 
