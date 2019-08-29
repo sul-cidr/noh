@@ -13,29 +13,31 @@ class TabbedNarrative extends React.Component {
       titles: null
     };
 
-    const hookupMouseovers = function hookupMouseovers() {
-      document.querySelectorAll("[data-highlight-dans]").forEach(targetElem => {
-        targetElem.addEventListener("mouseover", ({ target }) => {
-          const sectionIndices = target.attributes[
-            "data-highlight-dans"
-          ].value.split(",");
-          sectionIndices.forEach(index => {
-            document
-              .querySelector(`[data-index="${index}"]`)
-              .classList.add("shodan-map__item--highlight");
+    const hookupMouseovers = function hookupMouseovers(container) {
+      container
+        .querySelectorAll("[data-highlight-dans]")
+        .forEach(targetElem => {
+          targetElem.addEventListener("mouseover", ({ target }) => {
+            const sectionIndices = target.attributes[
+              "data-highlight-dans"
+            ].value.split(",");
+            sectionIndices.forEach(index => {
+              container
+                .querySelector(`[data-index="${index}"]`)
+                .classList.add("shodan-map__item--highlight");
+            });
+          });
+          targetElem.addEventListener("mouseout", ({ target }) => {
+            const sectionIndices = target.attributes[
+              "data-highlight-dans"
+            ].value.split(",");
+            sectionIndices.forEach(index => {
+              container
+                .querySelector(`[data-index="${index}"]`)
+                .classList.remove("shodan-map__item--highlight");
+            });
           });
         });
-        targetElem.addEventListener("mouseout", ({ target }) => {
-          const sectionIndices = target.attributes[
-            "data-highlight-dans"
-          ].value.split(",");
-          sectionIndices.forEach(index => {
-            document
-              .querySelector(`[data-index="${index}"]`)
-              .classList.remove("shodan-map__item--highlight");
-          });
-        });
-      });
     };
 
     /* This function is triggered on all tab changes, as well as some other
@@ -43,7 +45,8 @@ class TabbedNarrative extends React.Component {
     * activation, if necessary. */
     this.handleDomRef = tabsRef => {
       if (tabsRef !== null) {
-        hookupMouseovers();
+        const appContainer = tabsRef.closest(".app-container");
+        if (appContainer) hookupMouseovers(appContainer);
         const { parentElement } = tabsRef;
         parentElement.scrollTop = 0;
       }
