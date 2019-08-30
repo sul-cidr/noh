@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { setCurrentTime, setIsPlaying } from "../actionCreators";
+import { setCurrentTime } from "../actionCreators";
 
 const MasterVideoOrigin = "MasterVideo";
 
@@ -50,13 +50,7 @@ class MasterVideo extends Component {
           controls
           controlsList="nodownload"
           onTimeUpdate={event => this.props.updateCurrentTime(event)}
-          onPlaying={() => this.props.updateIsPlaying(true)}
-          onEnded={() => this.props.updateIsPlaying(false)}
-          onPlay={() => this.props.updateIsPlaying(false)}
-          onPause={() => this.props.updateIsPlaying(false)}
-          onStalled={() => this.props.updateIsPlaying(false)}
           onSeeking={event => this.props.updateCurrentTime(event)}
-          onWaiting={() => this.props.updateIsPlaying(false)}
         >
           <source src={this.props.videoUrl} type="video/mp4" />
           {tracks}
@@ -71,7 +65,6 @@ MasterVideo.propTypes = {
   currentTimeOrigin: PropTypes.string,
   videoUrl: PropTypes.string,
   updateCurrentTime: PropTypes.func,
-  updateIsPlaying: PropTypes.func,
   tracks: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
@@ -87,14 +80,12 @@ MasterVideo.defaultProps = {
   currentTimeOrigin: "",
   videoUrl: "",
   updateCurrentTime: null,
-  updateIsPlaying: null,
   tracks: []
 };
 
 const mapStateToProps = state => ({
   currentTime: state.currentTime.time,
-  currentTimeOrigin: state.currentTime.origin,
-  isPlaying: state.isPlaying
+  currentTimeOrigin: state.currentTime.origin
 });
 
 export const mapDispatchToProps = dispatch => ({
@@ -105,9 +96,6 @@ export const mapDispatchToProps = dispatch => ({
         origin: MasterVideoOrigin
       })
     );
-  },
-  updateIsPlaying: isPlaying => {
-    dispatch(setIsPlaying(isPlaying));
   }
 });
 

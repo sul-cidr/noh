@@ -1,6 +1,5 @@
 import {
   SET_CURRENT_TIME,
-  SET_IS_PLAYING,
   SET_START_TIME,
   SET_CURRENT_PHRASE_ID,
   SET_SCORE_TOGGLES,
@@ -14,10 +13,6 @@ export function setScoreToggles(word) {
 
 export function setCurrentTime(word) {
   return { type: SET_CURRENT_TIME, payload: word };
-}
-
-export function setIsPlaying(word) {
-  return { type: SET_IS_PLAYING, payload: word };
 }
 
 export function setStartTime(word) {

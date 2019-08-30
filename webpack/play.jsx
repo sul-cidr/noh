@@ -160,7 +160,6 @@ App.propTypes = {
   videoDuration: PropTypes.string.isRequired,
   currentTime: PropTypes.number,
   startTime: PropTypes.number,
-  // isPlaying: PropTypes.bool,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       play: PropTypes.shape({ value: PropTypes.string }),

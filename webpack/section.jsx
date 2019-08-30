@@ -270,7 +270,6 @@ export default class App extends Component {
 
 App.propTypes = {
   // currentTime: PropTypes.number,
-  // isPlaying: PropTypes.bool,
   maxIntensity: PropTypes.number.isRequired,
   narrative: PropTypes.string.isRequired,
   captions: PropTypes.arrayOf(
