@@ -49,8 +49,6 @@ describe("", () => {
         inst.attributes["data-highlight-shodans"] !== undefined
     );
 
-    console.log(sectionTitle);
-
     const shodanBlock = TestUtils.findAllInRenderedTree(
       component,
       inst =>
