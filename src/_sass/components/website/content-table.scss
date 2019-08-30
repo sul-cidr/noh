@@ -12,10 +12,10 @@
     background-color: rgba($beige-light,0.5);
   }
 
-  &.--beige {
+  &.beige {
     background-color: rgba($beige-light,0.5);
   }
-  &.--white {
+  &.white {
     background-color: $white;
   }
 }
@@ -31,7 +31,7 @@
     @include text(md, 'text');
   }
 
-  &.--greentext {
+  &.greentext {
     color: $green;
     font-weight: $fw-semibold;
     vertical-align: middle;
@@ -39,10 +39,10 @@
     @include uppercase();
   }
 
-  &.--beige {
+  &.beige {
     background-color: rgba($beige-light,0.5);
   }
-  &.--white {
+  &.white {
     background-color: $white;
   }
 }
