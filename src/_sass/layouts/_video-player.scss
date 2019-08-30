@@ -25,7 +25,7 @@
   width: 35%;
   height: $video-player-height;
 
-  @include flex-container($direction:column, $justify:flex-start, $align: flex-start);
+  @include flex-container($direction:column, $justify:flex-start, $align: stretch);
 }
 
 .sidebar__container {
