@@ -39,7 +39,7 @@ permalink: /text-kokaji/
   <td class="content-table__column"></td> </tr> <tr class="content-table__row">
   <td class="content-table__column">
   <h5>Wakizure:</h5>
-  <em> Waki-tsure:Somo kore wa <br>
+  <em> Wakizure:Somo kore wa <br>
   Ichijō-no-In ni tsukae-tatematsuru. <br>
   Tachibana-no-Michinari to wa waga koto nari. <br>
   Sate mo mikado kon’ya kidoku  no go-reimu, mashimashite. <br>
@@ -285,7 +285,7 @@ inagara Shin no midare wo shizume. <br>
 Mata Yō-tei ga Kei no tsurugi<br>
 Shiujt'n no hikari wo ubaeri.</em></td>
 <td class="content-table__column"><h5> Jiutai:</h5>
-  Once with such a blade, the Emperor's Three-Foot Sword,<br>
+  Once with such a blade, the Emperor's Three-Foot Sword,[^1]<br>
 subdued the rebellion of the Ts'in by its reputation alone.<br>
 Again, the Yang Emperor, with his sword Kei<br>
 outshone the brilliance of the House of Chou.</td>
@@ -800,14 +800,13 @@ Once more he leaps upon the mass of clouds,<br>
 Again, more he leaps upon the mass of clouds,<br>
 and return to Higashiyama, the eastern mountains, the peak of Mt. Inari!</td>
 </tr>
-
-
-
-
 
         </table>
         </div>
     </section>
+
+
+
   </div>
 
 </main>
