@@ -1,4 +1,4 @@
-time, a.popout {
+time, [onclick^="window.open('/popout/"] {
     text-decoration: underline;
     cursor: pointer;
     &::before {
