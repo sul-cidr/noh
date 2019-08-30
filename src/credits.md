@@ -71,7 +71,7 @@ permalink: /credits/
  <h5>Kokaji</h5>
   <p> Shite: <strong>UDAKA Tatsushige</strong><br>
   Waki: <strong>ARIMATSU Ryōichi</strong><br>
-  Waki-tsure: <strong>HARA Riku</strong><br>
+  Wakizure: <strong>HARA Riku</strong><br>
   Kyōgen: <strong>SHIGEYAMA Shime</strong><br>
   Drum stick:  <strong>MAEKAWA Mitsunaga</strong><br>
   Shoulder drum: <strong>NARITA Tatsushi</strong><br>

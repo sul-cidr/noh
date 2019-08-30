@@ -60,7 +60,7 @@ and perform a memorial service for the flowers.</td>
         </tr>
 
         <tr class="content-table__row--header">
-        <td id="Kakaru-1" class="content-table__column">Waki Enters: Kakaru-1
+        <td id="Kakaru-1" class="content-table__column">Waki Enters: Kakaru-1</td>
         <td class="content-table__column"></td>
         </tr>
 
@@ -86,7 +86,7 @@ and perform a memorial service for the flowers.</td>
         </tr>
 
         <tr class="content-table__row--header">
-        <td id="Shite-enters" class="content-table__column">Shite Enters: Song
+        <td id="Shite-enters" class="content-table__column">Shite Enters: Song</td>
         <td class="content-table__column"></td>
         </tr>
 
@@ -106,7 +106,7 @@ and perform a memorial service for the flowers.</td>
         </tr>
 
         <tr class="content-table__row--header">
-        <td id="Dialogue" class="content-table__column">Dialogue: Kakeai
+        <td id="Dialogue" class="content-table__column">Dialogue: Kakeai</td>
         <td class="content-table__column"></td>
         </tr>
 
@@ -178,7 +178,7 @@ and perform a memorial service for the flowers.</td>
         </tr>
 
         <tr class="content-table__row--header">
-              <td id="Kakaru-2" class="content-table__column">Dialogue: Kakaru-2
+              <td id="Kakaru-2" class="content-table__column">Dialogue: Kakaru-2</td>
               <td class="content-table__column"></td>
               </tr>
       <tr class="content-table__row">
@@ -230,7 +230,7 @@ and perform a memorial service for the flowers.</td>
       </tr>
 
       <tr class="content-table__row--header">
-            <td id="Shite-exits" class="content-table__column">Shite Exits: Ageuta-1
+            <td id="Shite-exits" class="content-table__column">Shite Exits: Ageuta-1</td>
             <td class="content-table__column"></td>
             </tr>
     <tr class="content-table__row">
@@ -541,7 +541,7 @@ and perform a memorial service for the flowers.</td>
           <td class="content-table__column"></td>
         </tr>
 
-<tr class="content-table__row--header"><td id="Waki-waits" class="content-table__column">Waki Waits: Kakaru 3
+<tr class="content-table__row--header"><td id="Waki-waits" class="content-table__column">Waki Waits: Kakaru 3</td>
 <td class="content-table__column"></td>
                     </tr>
 <tr class="content-table__row">
@@ -560,10 +560,10 @@ and perform a memorial service for the flowers.</td>
             the dwelling and its evening faces. <br>
             Gourds now often empty, <br>
             and (Genken’s) Yen Yüan’s home overgrown with weeds.
-            <td>
+            </td>
                     </tr>
 <tr class="content-table__row--header">
-<td id="Shite-re-enters" class="content-table__column">Shite Re-enters: Issei
+<td id="Shite-re-enters" class="content-table__column">Shite Re-enters: Issei</td>
 <td class="content-table__column"></td>
                           </tr>
 <tr class="content-table__row">
@@ -590,7 +590,7 @@ and perform a memorial service for the flowers.</td>
                                 </tr>
 
 <tr class="content-table__row--header">
-  <td id="Sageuta" class="content-table__column">Shite Re-enters: Sageuta
+  <td id="Sageuta" class="content-table__column">Shite Re-enters: Sageuta</td>
 <td class="content-table__column"></td>
                                         </tr>
 <tr class="content-table__row">
@@ -599,11 +599,11 @@ and perform a memorial service for the flowers.</td>
             Rosan no yuki no akebono.</em></td>
 <td class="content-table__column"><h5>Shite:</h5>
             But what dampens the sleeves is<br>
-            dawn on the snow on Mount Lu. <td>
+            dawn on the snow on Mount Lu. </td>
                                         </tr>
 
 <tr class="content-table__row--header">
-  <td id="Ageuta-2" class="content-table__column">Shite Re-enters: Ageuta 2
+  <td id="Ageuta-2" class="content-table__column">Shite Re-enters: Ageuta 2</td>
 <td class="content-table__column"></td>
                                                 </tr>
 <tr class="content-table__row">
@@ -618,11 +618,11 @@ and perform a memorial service for the flowers.</td>
           Through the east window the limpid moon<br>
           on the zither stand casts its light. <br>
           Beyond the hedge, the autumn mountains. <br>
-          Such a desolate evening!<td>
+          Such a desolate evening!</td>
                                                 </tr>
 
 <tr class="content-table__row--header">
-<td id="Dialogue2" class="content-table__column">Dialogue: Rongi
+<td id="Dialogue2" class="content-table__column">Dialogue: Rongi</td>
 <td class="content-table__column"></td>
                                                        </tr>
 <tr class="content-table__row">
@@ -697,7 +697,7 @@ Will you pray for my soul?</td>
 <tr class="content-table__row">
 <td class="content-table__column">
 <h5>Jiutai:</h5>
-<em> Nakanaka ni.</em>
+<em> Nakanaka ni.</em></td>
 <td class="content-table__column">
 <h5>Jiutai:</h5>
 Certainly I will.</td>
@@ -728,7 +728,7 @@ revealing her form as she steps out. <br>
 At the sight tears flow without stopping.  </td>
 </tr>
 <tr class="content-table__row--header">
-  <td id="Shite-performs2" class="content-table__column">Shite Performs: Kuse
+  <td id="Shite-performs2" class="content-table__column">Shite Performs: Kuse</td>
     <td class="content-table__column"></td>
   </tr>
   <tr class="content-table__row">
@@ -771,7 +771,7 @@ At the sight tears flow without stopping.  </td>
                 <em> Genji tsukuzuku to goranjite</em></td>
                 <td class="content-table__column">
                    <h5>Shite:</h5>
-                   Genji, gazing at it intently, <td>
+                   Genji, gazing at it intently, </td>
                    </tr>
                    <tr class="content-table__row"></tr>
                    <tr class="content-table__row">
@@ -786,8 +786,7 @@ At the sight tears flow without stopping.  </td>
                          yorube no sue wo tanoman <br>
                          to i-ishu wo eiji owashimasu. <br>
                        Orite koso...</em></td>
-                         <td class="content-table__column">
-                          <h5>Jiutai:</h5> “Of you passing in the distance…” he asked, <br>
+                       <td class="content-table__column"><h5>Jiutai:</h5> “Of you passing in the distance…” he asked, <br>
                          and if I had not answered about the flower <br>
                          forever we must have remained strangers. We were brought together <br>
                          by the fan touched by our hands, in a joyous pledge of love. <br>
@@ -798,7 +797,7 @@ At the sight tears flow without stopping.  </td>
                          and composed a poem.<br>
                          If you pick it...  </td>
                           </tr>
-<tr class="content-table__row--header"> <td id="Shite-exits2" class="content-table__column">Shite Exits: Waka
+<tr class="content-table__row--header"> <td id="Shite-exits2" class="content-table__column">Shite Exits: Waka</td>
 <td class="content-table__column"></td> </tr> <tr class="content-table__row">
 <td class="content-table__column">
   <h5>Shite:</h5>
@@ -809,10 +808,10 @@ Tasokare ni </em></td>
   <h5> Shite:</h5>
   If you pick it<br>
   Then, indeed, you will know it<br>
-  In the twilight <td>
+  In the twilight </td>
   </tr>
   <tr class="content-table__row--header">
-<td id="Kiri" class="content-table__column">Shite Exits: Kiri
+<td id="Kiri" class="content-table__column">Shite Exits: Kiri</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -851,14 +850,16 @@ I beg of you,” she said, and </td>
 
 <tr class="content-table__row"></tr> <tr class="content-table__row"> <td class="content-table__column"> <h5>Jiutai:</h5> <em> Iuzuke no tori no ne,</em></td>
 <td class="content-table__column"> <h5>Jiutai:</h5>  As she spoke the crowing of the cocks,</td> </tr>
-<tr class="content-table__row"></tr> <tr class="content-table__row"> <td class="content-table__column"> <h5>Shite:</h5> <em> kane mo shikiri ni. <br>
+<tr class="content-table__row"></tr> <tr class="content-table__row">
+<td class="content-table__column"> <h5>Shite:</h5> <em> kane mo shikiri ni. <br>
 Tsuge wataru shinonome.</em></td>
 
 <td class="content-table__column"> <h5>Shite:</h5>  the tolling of the bells, too, <br>
 announce the coming of dawn.</td>
 </tr>
 
-<tr class="content-table__row"></tr> <tr class="content-table__row"> <td class="content-table__column"> <h5>Jiutai:</h5> <em> Asama nimo narinubeshi. <br>
+<tr class="content-table__row"></tr> <tr class="content-table__row">
+<td class="content-table__column"> <h5>Jiutai:</h5> <em> Asama nimo narinubeshi. <br>
 Akenu saki ni to Iugao no yadori. <br>
 Akenu saki ni to Iugao no yadori no. <br>
 Mata hashitomi no uchi ni irite, <br>
