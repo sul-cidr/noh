@@ -19,7 +19,7 @@ exports[`<Play> renders as expected 1`] = `
   currentTime={0}
   maxIntensity={29}
   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -67,6 +67,9 @@ exports[`<Play> renders as expected 1`] = `
         },
         "play": Object {
           "value": "Kokaji",
+        },
+        "sectionIndex": Object {
+          "number": "1",
         },
         "sectionName": Object {
           "value": "Oshirabe",
@@ -1340,7 +1343,7 @@ exports[`<Play> renders as expected 1`] = `
         >
           <Connect(Narrative)
             narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1361,7 +1364,7 @@ exports[`<Play> renders as expected 1`] = `
           >
             <Narrative
               narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1389,7 +1392,7 @@ exports[`<Play> renders as expected 1`] = `
               >
                 <Connect(TabbedNarrative)
                   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1410,7 +1413,7 @@ exports[`<Play> renders as expected 1`] = `
                 >
                   <TabbedNarrative
                     narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1537,7 +1540,7 @@ exports[`<Play> renders as expected 1`] = `
                             forceRender={false}
                             id="react-tabs-1"
                             key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=0\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1555,32 +1558,23 @@ exports[`<Play> renders as expected 1`] = `
                               role="tabpanel"
                             >
                               <Markup
+                                allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
-  <h2>Title</h2>
+  <h2 data-highlight-dans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>"
-                                disableLineBreaks={false}
-                                disableWhitelist={false}
                                 emptyContent={null}
-                                noHtml={false}
-                                noHtmlExceptMatchers={false}
                                 parsedContent={null}
                                 tagName="div"
                               >
                                 <Element
-                                  attributes={Object {}}
-                                  className=""
-                                  commonClass="interweave"
-                                  selfClose={false}
                                   tagName="div"
                                 >
-                                  <div
-                                    className="interweave"
-                                  >
+                                  <div>
                                     <Element
                                       attributes={
                                         Object {
@@ -1588,28 +1582,26 @@ exports[`<Play> renders as expected 1`] = `
                                           "id": "intro",
                                         }
                                       }
-                                      className=""
-                                      commonClass="interweave"
                                       key="0"
-                                      selfClose={false}
                                       tagName="section"
                                     >
                                       <section
-                                        className="interweave tabbed-narrative"
+                                        className="tabbed-narrative"
                                         id="intro"
                                       >
                                         
   
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
+                                          attributes={
+                                            Object {
+                                              "data-highlight-dans": "1",
+                                            }
+                                          }
                                           key="1"
-                                          selfClose={false}
                                           tagName="h2"
                                         >
                                           <h2
-                                            className="interweave"
+                                            data-highlight-dans="1"
                                           >
                                             Title
                                           </h2>
@@ -1617,16 +1609,10 @@ exports[`<Play> renders as expected 1`] = `
                                         
   
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="2"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
@@ -1635,14 +1621,10 @@ exports[`<Play> renders as expected 1`] = `
                                                   "title": "00:10:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="3"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:10.000"
                                                 title="00:10:98.987"
                                               >
@@ -1655,16 +1637,10 @@ exports[`<Play> renders as expected 1`] = `
                                         
   
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="4"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
@@ -1673,14 +1649,10 @@ exports[`<Play> renders as expected 1`] = `
                                                   "title": "00:11:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="5"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:20"
                                                 title="00:11:98.987"
                                               >
@@ -1693,32 +1665,20 @@ exports[`<Play> renders as expected 1`] = `
                                         
   
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="6"
-                                          selfClose={false}
                                           tagName="h3"
                                         >
-                                          <h3
-                                            className="interweave"
-                                          >
+                                          <h3>
                                             Subtitle
                                           </h3>
                                         </Element>
                                         
   
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="7"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
@@ -1727,14 +1687,10 @@ exports[`<Play> renders as expected 1`] = `
                                                   "title": "00:10:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="8"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:10.000"
                                                 title="00:10:98.987"
                                               >
@@ -1747,16 +1703,10 @@ exports[`<Play> renders as expected 1`] = `
                                         
   
                                         <Element
-                                          attributes={Object {}}
-                                          className=""
-                                          commonClass="interweave"
                                           key="9"
-                                          selfClose={false}
                                           tagName="p"
                                         >
-                                          <p
-                                            className="interweave"
-                                          >
+                                          <p>
                                             Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
@@ -1765,14 +1715,10 @@ exports[`<Play> renders as expected 1`] = `
                                                   "title": "00:11:98.987",
                                                 }
                                               }
-                                              className=""
-                                              commonClass="interweave"
                                               key="10"
-                                              selfClose={false}
                                               tagName="time"
                                             >
                                               <time
-                                                className="interweave"
                                                 dateTime="00:00:20"
                                                 title="00:11:98.987"
                                               >
@@ -2142,6 +2088,9 @@ exports[`<Play> renders as expected 1`] = `
                         },
                         "play": Object {
                           "value": "Kokaji",
+                        },
+                        "sectionIndex": Object {
+                          "number": "1",
                         },
                         "sectionName": Object {
                           "value": "Oshirabe",
@@ -3350,6 +3299,11 @@ exports[`<Play> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
+                      sectionIndex={
+                        Object {
+                          "number": "1",
+                        }
+                      }
                       startTime={0}
                       totalDuration={3693}
                     >
@@ -3365,6 +3319,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="0%"
                         maxIntensity={29}
                         name="Oshirabe"
+                        sectionIndex={
+                          Object {
+                            "number": "1",
+                          }
+                        }
                         startTime={0}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3372,6 +3331,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index="1"
                           data-tooltip="Oshirabe"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3408,6 +3368,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="2.8702951529921474%"
                         maxIntensity={29}
                         name="Musicians walk in"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={106}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3415,6 +3380,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Musicians walk in"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3451,6 +3417,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="6.3904684538315735%"
                         maxIntensity={29}
                         name="Nanori"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={236}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3458,6 +3429,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Nanori"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3494,6 +3466,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="8.556728946655836%"
                         maxIntensity={29}
                         name="Mondō-1"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={316}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3501,6 +3478,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Mondō-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3537,6 +3515,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="14.161927971838615%"
                         maxIntensity={29}
                         name="Ageuta-1"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={523}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3544,6 +3527,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Ageuta-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3580,6 +3564,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="17.49255347955592%"
                         maxIntensity={29}
                         name="Dialogue"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={646}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3587,6 +3576,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Dialogue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3623,6 +3613,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="18.41321418900623%"
                         maxIntensity={29}
                         name="Monologue"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={680}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3630,6 +3625,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Monologue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3666,6 +3662,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="20.010831302464123%"
                         maxIntensity={29}
                         name="Mondō-2"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={739}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3673,6 +3674,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Mondō-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3709,6 +3711,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="24.316274031952343%"
                         maxIntensity={29}
                         name="Ageuta-2"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={898}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3716,6 +3723,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Ageuta-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3752,6 +3760,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="27.457351746547523%"
                         maxIntensity={29}
                         name="Kuri"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={1014}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3759,6 +3772,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Kuri"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3795,6 +3809,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="29.109125372326023%"
                         maxIntensity={29}
                         name="Sashi"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={1075}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3802,6 +3821,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Sashi"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3838,6 +3858,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="32.304359599241806%"
                         maxIntensity={29}
                         name="Kuse"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={1193}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3845,6 +3870,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Kuse"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3881,6 +3907,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="47.30571351204982%"
                         maxIntensity={29}
                         name="Kakeai-1"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={1747}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3888,6 +3919,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Kakeai-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3924,6 +3956,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="48.87625236934741%"
                         maxIntensity={29}
                         name="Ageuta-3"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={1805}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3931,6 +3968,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Ageuta-3"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -3967,6 +4005,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="50.907121581370156%"
                         maxIntensity={29}
                         name="Raijo"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={1880}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -3974,6 +4017,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Raijo"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4010,6 +4054,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="56.620633631194146%"
                         maxIntensity={29}
                         name="Aikyōgen"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={2091}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4017,6 +4066,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Aikyōgen"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4053,6 +4103,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="69.75358786894124%"
                         maxIntensity={29}
                         name="Prop is brought in"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={2576}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4060,6 +4115,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Prop is brought in"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4096,6 +4152,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="73.62577849986461%"
                         maxIntensity={29}
                         name="Notto"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={2719}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4103,6 +4164,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Notto"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4139,6 +4201,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="79.09558624424587%"
                         maxIntensity={29}
                         name="Noriji-1"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={2921}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4146,6 +4213,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Noriji-1"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4182,6 +4250,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="83.04901164365015%"
                         maxIntensity={29}
                         name="Hayafue"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3067}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4189,6 +4262,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Hayafue"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4225,6 +4299,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="85.32358516111562%"
                         maxIntensity={29}
                         name="Noriji-2"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3151}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4232,6 +4311,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Noriji-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4268,6 +4348,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="86.59626320064987%"
                         maxIntensity={29}
                         name="Maibataraki"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3198}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4275,6 +4360,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Maibataraki"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4311,6 +4397,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="88.13972380178716%"
                         maxIntensity={29}
                         name="Noriji-3"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3255}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4318,6 +4409,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Noriji-3"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4354,6 +4446,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="91.25372326022203%"
                         maxIntensity={29}
                         name="Kakeai-2"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3370}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4361,6 +4458,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Kakeai-2"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4397,6 +4495,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="92.06607094503113%"
                         maxIntensity={29}
                         name="Kiri"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3400}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4404,6 +4507,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Kiri"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4440,6 +4544,11 @@ exports[`<Play> renders as expected 1`] = `
                         left="95.74871378283237%"
                         maxIntensity={29}
                         name="Musicians are exiting the stage"
+                        sectionIndex={
+                          Object {
+                            "number": "",
+                          }
+                        }
                         startTime={3536}
                         totalDuration={3693}
                         updateStartTime={[Function]}
@@ -4447,6 +4556,7 @@ exports[`<Play> renders as expected 1`] = `
                       >
                         <div
                           className="shodan-map__item   "
+                          data-index=""
                           data-tooltip="Musicians are exiting the stage"
                           onClick={[Function]}
                           onKeyPress={null}
@@ -4496,6 +4606,9 @@ exports[`<Play> renders as expected 1`] = `
                     },
                     "play": Object {
                       "value": "Kokaji",
+                    },
+                    "sectionIndex": Object {
+                      "number": "1",
                     },
                     "sectionName": Object {
                       "value": "Oshirabe",
@@ -5726,6 +5839,9 @@ exports[`<Play> renders as expected 1`] = `
                       },
                       "play": Object {
                         "value": "Kokaji",
+                      },
+                      "sectionIndex": Object {
+                        "number": "1",
                       },
                       "sectionName": Object {
                         "value": "Oshirabe",

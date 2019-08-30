@@ -102,8 +102,26 @@
   }
 
   &.shodan-map__item--active {
-    border: 0.1250rem solid $red;
+    border: 0.125rem solid $red;
     border-bottom-style: none;
   }
 
+  &.shodan-map__item--highlight::after {
+    // This is more verbose than might be expected because the ::after pseudo-element
+    //  on these divs is also used by the tooltip mixin, and some styles need to be
+    //  reverted as a result.
+    background-color: $red;
+    border: none;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position:absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(0);
+    width: 100%;
+  }
 }

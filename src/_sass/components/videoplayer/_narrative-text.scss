@@ -1,4 +1,4 @@
-section.interweave {
+section.tabbed-narrative {
   padding: 1rem 0;
 
   p {
@@ -50,6 +50,10 @@ section.interweave {
       color: $brown40;
       padding-left: .1rem;
     }
+  }
+
+  [data-highlight-dans]:hover {
+    background-color: $beige-light;
   }
 }
 
