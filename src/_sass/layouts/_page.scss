@@ -177,6 +177,22 @@ img.scalable {
   }
 }
 
+div.scalable {
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  &.wrapper-small {
+    max-width: $wrapper-small;
+  }
+  &.wrapper-medium {
+    max-width: $wrapper-medium;
+  }
+  &.wrapper-large {
+    max-width: $wrapper-large;
+  }
+}
+
 #back-to-top {
   background-color: $green;
 }

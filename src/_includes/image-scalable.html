@@ -3,4 +3,13 @@
   {% assign alignment = "image-left" %}
 {% endif %}
 
-<img class="scalable {{ alignment }}" src="{{ include.src }}" alt="{{ alignment }}" width="{{ include.scale }}" height="{{ include.scale }}"/>
+{% assign wrapper_class = "wrapper-small" %}
+{% if include.column_size == "medium" %}
+  {% assign wrapper_class = "wrapper-medium" %}
+{% elsif include.column_size == "large" %}
+  {% assign wrapper_class = "wrapper-large" %}
+{% endif %}
+
+<div class="scalable {{ wrapper_class }}">
+  <img class="scalable {{ alignment }}" src="{{ include.src }}" alt="{{ alignment }}" width="{{ include.scale }}" height="{{ include.scale }}"/>
+</div>
