@@ -21964,7 +21964,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22013,7 +22013,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22062,7 +22062,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22111,7 +22111,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22160,7 +22160,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22209,7 +22209,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22258,7 +22258,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22307,7 +22307,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22356,7 +22356,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22405,7 +22405,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22454,7 +22454,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22503,7 +22503,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22552,7 +22552,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22601,7 +22601,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22650,7 +22650,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22699,7 +22699,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22748,7 +22748,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22797,7 +22797,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22846,7 +22846,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22895,7 +22895,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22944,7 +22944,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -22993,7 +22993,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -23042,7 +23042,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -23091,7 +23091,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -23140,7 +23140,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -23189,7 +23189,7 @@ exports[`<Section> renders as expected 1`] = `
                       left="95.72163552667209%"
                       maxIntensity={29}
                       name="Musicians are exiting the stage"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -24474,7 +24474,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24523,7 +24523,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24572,7 +24572,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24621,7 +24621,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24670,7 +24670,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24719,7 +24719,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24768,7 +24768,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24817,7 +24817,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24866,7 +24866,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24915,7 +24915,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -24964,7 +24964,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25013,7 +25013,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25062,7 +25062,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25111,7 +25111,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25160,7 +25160,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25209,7 +25209,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25258,7 +25258,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25307,7 +25307,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25356,7 +25356,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25405,7 +25405,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25454,7 +25454,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25503,7 +25503,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25552,7 +25552,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25601,7 +25601,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25650,7 +25650,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -25699,7 +25699,7 @@ exports[`<Section> renders as expected 1`] = `
                     left="95.72163552667209%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -94758,7 +94758,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -94807,7 +94807,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -94856,7 +94856,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -94905,7 +94905,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -94954,7 +94954,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95003,7 +95003,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95052,7 +95052,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95101,7 +95101,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95150,7 +95150,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95199,7 +95199,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95248,7 +95248,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95297,7 +95297,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95346,7 +95346,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95395,7 +95395,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95444,7 +95444,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95493,7 +95493,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95542,7 +95542,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95591,7 +95591,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95640,7 +95640,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95689,7 +95689,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95738,7 +95738,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95787,7 +95787,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95836,7 +95836,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95885,7 +95885,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95934,7 +95934,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -95983,7 +95983,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       left="95.72163552667209%"
                       maxIntensity={29}
                       name="Musicians are exiting the stage"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -97268,7 +97268,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97317,7 +97317,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97366,7 +97366,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97415,7 +97415,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97464,7 +97464,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97513,7 +97513,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97562,7 +97562,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97611,7 +97611,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97660,7 +97660,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97709,7 +97709,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97758,7 +97758,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97807,7 +97807,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97856,7 +97856,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97905,7 +97905,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -97954,7 +97954,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98003,7 +98003,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98052,7 +98052,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98101,7 +98101,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98150,7 +98150,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98199,7 +98199,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98248,7 +98248,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98297,7 +98297,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98346,7 +98346,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98395,7 +98395,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98444,7 +98444,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -98493,7 +98493,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     left="95.72163552667209%"
                     maxIntensity={29}
                     name="Musicians are exiting the stage"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -101883,7 +101883,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -101932,7 +101932,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -101981,7 +101981,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102030,7 +102030,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102079,7 +102079,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102128,7 +102128,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102177,7 +102177,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102226,7 +102226,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102275,7 +102275,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102324,7 +102324,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102373,7 +102373,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102422,7 +102422,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102471,7 +102471,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102520,7 +102520,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102569,7 +102569,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102618,7 +102618,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102667,7 +102667,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102716,7 +102716,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102765,7 +102765,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102814,7 +102814,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102863,7 +102863,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102912,7 +102912,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -102961,7 +102961,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -103010,7 +103010,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -103059,7 +103059,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -104310,7 +104310,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104359,7 +104359,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104408,7 +104408,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104457,7 +104457,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104506,7 +104506,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104555,7 +104555,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104604,7 +104604,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104653,7 +104653,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104702,7 +104702,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104751,7 +104751,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104800,7 +104800,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104849,7 +104849,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104898,7 +104898,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104947,7 +104947,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -104996,7 +104996,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105045,7 +105045,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105094,7 +105094,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105143,7 +105143,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105192,7 +105192,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105241,7 +105241,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105290,7 +105290,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105339,7 +105339,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105388,7 +105388,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105437,7 +105437,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -105486,7 +105486,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -108876,7 +108876,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -108925,7 +108925,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="2.8702951529921474%"
                       maxIntensity={29}
                       name="Musicians walk in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -108974,7 +108974,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="6.3904684538315735%"
                       maxIntensity={29}
                       name="Nanori"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109023,7 +109023,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="8.556728946655836%"
                       maxIntensity={29}
                       name="Mondō-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109072,7 +109072,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="14.161927971838615%"
                       maxIntensity={29}
                       name="Ageuta-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109121,7 +109121,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="17.49255347955592%"
                       maxIntensity={29}
                       name="Dialogue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109170,7 +109170,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="18.41321418900623%"
                       maxIntensity={29}
                       name="Monologue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109219,7 +109219,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="20.010831302464123%"
                       maxIntensity={29}
                       name="Mondō-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109268,7 +109268,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="24.316274031952343%"
                       maxIntensity={29}
                       name="Ageuta-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109317,7 +109317,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="27.457351746547523%"
                       maxIntensity={29}
                       name="Kuri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109366,7 +109366,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="29.109125372326023%"
                       maxIntensity={29}
                       name="Sashi"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109415,7 +109415,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="32.304359599241806%"
                       maxIntensity={29}
                       name="Kuse"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109464,7 +109464,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="47.30571351204982%"
                       maxIntensity={29}
                       name="Kakeai-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109513,7 +109513,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="48.87625236934741%"
                       maxIntensity={29}
                       name="Ageuta-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109562,7 +109562,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="50.907121581370156%"
                       maxIntensity={29}
                       name="Raijo"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109611,7 +109611,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="56.620633631194146%"
                       maxIntensity={29}
                       name="Aikyōgen"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109660,7 +109660,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="69.75358786894124%"
                       maxIntensity={29}
                       name="Prop is brought in"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109709,7 +109709,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="73.62577849986461%"
                       maxIntensity={29}
                       name="Notto"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109758,7 +109758,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="79.09558624424587%"
                       maxIntensity={29}
                       name="Noriji-1"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109807,7 +109807,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="83.04901164365015%"
                       maxIntensity={29}
                       name="Hayafue"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109856,7 +109856,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="85.32358516111562%"
                       maxIntensity={29}
                       name="Noriji-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109905,7 +109905,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="86.54210668832927%"
                       maxIntensity={29}
                       name="Maibataraki"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -109954,7 +109954,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="88.13972380178717%"
                       maxIntensity={29}
                       name="Noriji-3"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -110003,7 +110003,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="91.25372326022205%"
                       maxIntensity={29}
                       name="Kakeai-2"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -110052,7 +110052,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       left="92.06607094503114%"
                       maxIntensity={29}
                       name="Kiri"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "",
                         }
@@ -111303,7 +111303,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="0%"
                     maxIntensity={29}
                     name="Oshirabe"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111352,7 +111352,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="2.8702951529921474%"
                     maxIntensity={29}
                     name="Musicians walk in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111401,7 +111401,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="6.3904684538315735%"
                     maxIntensity={29}
                     name="Nanori"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111450,7 +111450,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="8.556728946655836%"
                     maxIntensity={29}
                     name="Mondō-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111499,7 +111499,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="14.161927971838615%"
                     maxIntensity={29}
                     name="Ageuta-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111548,7 +111548,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="17.49255347955592%"
                     maxIntensity={29}
                     name="Dialogue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111597,7 +111597,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="18.41321418900623%"
                     maxIntensity={29}
                     name="Monologue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111646,7 +111646,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="20.010831302464123%"
                     maxIntensity={29}
                     name="Mondō-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111695,7 +111695,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="24.316274031952343%"
                     maxIntensity={29}
                     name="Ageuta-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111744,7 +111744,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="27.457351746547523%"
                     maxIntensity={29}
                     name="Kuri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111793,7 +111793,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="29.109125372326023%"
                     maxIntensity={29}
                     name="Sashi"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111842,7 +111842,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="32.304359599241806%"
                     maxIntensity={29}
                     name="Kuse"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111891,7 +111891,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="47.30571351204982%"
                     maxIntensity={29}
                     name="Kakeai-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111940,7 +111940,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="48.87625236934741%"
                     maxIntensity={29}
                     name="Ageuta-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -111989,7 +111989,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="50.907121581370156%"
                     maxIntensity={29}
                     name="Raijo"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112038,7 +112038,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="56.620633631194146%"
                     maxIntensity={29}
                     name="Aikyōgen"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112087,7 +112087,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="69.75358786894124%"
                     maxIntensity={29}
                     name="Prop is brought in"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112136,7 +112136,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="73.62577849986461%"
                     maxIntensity={29}
                     name="Notto"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112185,7 +112185,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="79.09558624424587%"
                     maxIntensity={29}
                     name="Noriji-1"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112234,7 +112234,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="83.04901164365015%"
                     maxIntensity={29}
                     name="Hayafue"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112283,7 +112283,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="85.32358516111562%"
                     maxIntensity={29}
                     name="Noriji-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112332,7 +112332,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="86.54210668832927%"
                     maxIntensity={29}
                     name="Maibataraki"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112381,7 +112381,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="88.13972380178717%"
                     maxIntensity={29}
                     name="Noriji-3"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112430,7 +112430,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="91.25372326022205%"
                     maxIntensity={29}
                     name="Kakeai-2"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }
@@ -112479,7 +112479,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     left="92.06607094503114%"
                     maxIntensity={29}
                     name="Kiri"
-                    sectionIndex={
+                    shodanIndex={
                       Object {
                         "number": "",
                       }

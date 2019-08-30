@@ -15,11 +15,11 @@ class TabbedNarrative extends React.Component {
 
     const hookupMouseovers = function hookupMouseovers(container) {
       container
-        .querySelectorAll("[data-highlight-dans]")
+        .querySelectorAll("[data-highlight-shodans]")
         .forEach(targetElem => {
           targetElem.addEventListener("mouseover", ({ target }) => {
             const sectionIndices = target.attributes[
-              "data-highlight-dans"
+              "data-highlight-shodans"
             ].value.split(",");
             sectionIndices.forEach(index => {
               container
@@ -31,7 +31,7 @@ class TabbedNarrative extends React.Component {
           });
           targetElem.addEventListener("mouseout", ({ target }) => {
             const sectionIndices = target.attributes[
-              "data-highlight-dans"
+              "data-highlight-shodans"
             ].value.split(",");
             sectionIndices.forEach(index => {
               container

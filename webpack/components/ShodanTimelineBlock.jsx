@@ -42,7 +42,7 @@ class ShodanTimelineBlock extends Component {
           width: `${durationNum}%`,
           height: `${heightNum}%`
         }}
-        data-index={this.props.sectionIndex.number}
+        data-index={this.props.shodanIndex.number}
         data-tooltip={tooltipText}
         onClick={() => this.handleClick()}
         role="link"
@@ -63,7 +63,7 @@ ShodanTimelineBlock.propTypes = {
   totalDuration: PropTypes.number.isRequired,
   updateStartTime: PropTypes.func,
   dan: PropTypes.shape({ number: PropTypes.string, value: PropTypes.string }),
-  sectionIndex: PropTypes.shape({ number: PropTypes.string })
+  shodanIndex: PropTypes.shape({ number: PropTypes.string })
 };
 
 ShodanTimelineBlock.defaultProps = {
@@ -71,7 +71,7 @@ ShodanTimelineBlock.defaultProps = {
   startTime: null,
   updateStartTime: null,
   dan: { number: "", value: "" },
-  sectionIndex: { number: "" }
+  shodanIndex: { number: "" }
 };
 
 const mapDispatchToProps = dispatch => ({

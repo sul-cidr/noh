@@ -19,7 +19,7 @@ exports[`<Play> renders as expected 1`] = `
   currentTime={0}
   maxIntensity={29}
   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -68,13 +68,13 @@ exports[`<Play> renders as expected 1`] = `
         "play": Object {
           "value": "Kokaji",
         },
-        "sectionIndex": Object {
-          "number": "1",
-        },
         "sectionName": Object {
           "value": "Oshirabe",
         },
         "sectionUrl": "/kokaji/oshirabe",
+        "shodanIndex": Object {
+          "number": "1",
+        },
         "startTime": Object {},
         "text": Object {},
         "videoDuration": Object {
@@ -1343,7 +1343,7 @@ exports[`<Play> renders as expected 1`] = `
         >
           <Connect(Narrative)
             narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1364,7 +1364,7 @@ exports[`<Play> renders as expected 1`] = `
           >
             <Narrative
               narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1392,7 +1392,7 @@ exports[`<Play> renders as expected 1`] = `
               >
                 <Connect(TabbedNarrative)
                   narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1413,7 +1413,7 @@ exports[`<Play> renders as expected 1`] = `
                 >
                   <TabbedNarrative
                     narrative="<section id=\\"intro\\" title=\\"Introduction\\" class=\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1540,7 +1540,7 @@ exports[`<Play> renders as expected 1`] = `
                             forceRender={false}
                             id="react-tabs-1"
                             key=".1:$<section id=0\\"intro\\"  class=0\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=0\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=0\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=210.000\\" title=0\\"00=210=298.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=0\\"00=200=220\\" title=0\\"00=211=298.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1560,7 +1560,7 @@ exports[`<Play> renders as expected 1`] = `
                               <Markup
                                 allowAttributes={true}
                                 content="<section id=\\"intro\\"  class=\\"tabbed-narrative\\">
-  <h2 data-highlight-dans=\\"1\\">Title</h2>
+  <h2 data-highlight-shodans=\\"1\\">Title</h2>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:10.000\\" title=\\"00:10:98.987\\">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <p>Lorem ipsum dolor sit amet, <time datetime=\\"00:00:20\\" title=\\"00:11:98.987\\">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Subtitle</h3>
@@ -1594,14 +1594,14 @@ exports[`<Play> renders as expected 1`] = `
                                         <Element
                                           attributes={
                                             Object {
-                                              "data-highlight-dans": "1",
+                                              "data-highlight-shodans": "1",
                                             }
                                           }
                                           key="1"
                                           tagName="h2"
                                         >
                                           <h2
-                                            data-highlight-dans="1"
+                                            data-highlight-shodans="1"
                                           >
                                             Title
                                           </h2>
@@ -2089,13 +2089,13 @@ exports[`<Play> renders as expected 1`] = `
                         "play": Object {
                           "value": "Kokaji",
                         },
-                        "sectionIndex": Object {
-                          "number": "1",
-                        },
                         "sectionName": Object {
                           "value": "Oshirabe",
                         },
                         "sectionUrl": "/kokaji/oshirabe",
+                        "shodanIndex": Object {
+                          "number": "1",
+                        },
                         "startTime": Object {},
                         "text": Object {},
                         "videoDuration": Object {
@@ -3299,7 +3299,7 @@ exports[`<Play> renders as expected 1`] = `
                       left="0%"
                       maxIntensity={29}
                       name="Oshirabe"
-                      sectionIndex={
+                      shodanIndex={
                         Object {
                           "number": "1",
                         }
@@ -3319,7 +3319,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="0%"
                         maxIntensity={29}
                         name="Oshirabe"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "1",
                           }
@@ -3368,7 +3368,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="2.8702951529921474%"
                         maxIntensity={29}
                         name="Musicians walk in"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3417,7 +3417,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="6.3904684538315735%"
                         maxIntensity={29}
                         name="Nanori"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3466,7 +3466,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="8.556728946655836%"
                         maxIntensity={29}
                         name="Mondō-1"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3515,7 +3515,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="14.161927971838615%"
                         maxIntensity={29}
                         name="Ageuta-1"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3564,7 +3564,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="17.49255347955592%"
                         maxIntensity={29}
                         name="Dialogue"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3613,7 +3613,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="18.41321418900623%"
                         maxIntensity={29}
                         name="Monologue"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3662,7 +3662,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="20.010831302464123%"
                         maxIntensity={29}
                         name="Mondō-2"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3711,7 +3711,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="24.316274031952343%"
                         maxIntensity={29}
                         name="Ageuta-2"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3760,7 +3760,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="27.457351746547523%"
                         maxIntensity={29}
                         name="Kuri"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3809,7 +3809,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="29.109125372326023%"
                         maxIntensity={29}
                         name="Sashi"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3858,7 +3858,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="32.304359599241806%"
                         maxIntensity={29}
                         name="Kuse"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3907,7 +3907,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="47.30571351204982%"
                         maxIntensity={29}
                         name="Kakeai-1"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -3956,7 +3956,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="48.87625236934741%"
                         maxIntensity={29}
                         name="Ageuta-3"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4005,7 +4005,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="50.907121581370156%"
                         maxIntensity={29}
                         name="Raijo"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4054,7 +4054,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="56.620633631194146%"
                         maxIntensity={29}
                         name="Aikyōgen"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4103,7 +4103,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="69.75358786894124%"
                         maxIntensity={29}
                         name="Prop is brought in"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4152,7 +4152,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="73.62577849986461%"
                         maxIntensity={29}
                         name="Notto"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4201,7 +4201,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="79.09558624424587%"
                         maxIntensity={29}
                         name="Noriji-1"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4250,7 +4250,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="83.04901164365015%"
                         maxIntensity={29}
                         name="Hayafue"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4299,7 +4299,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="85.32358516111562%"
                         maxIntensity={29}
                         name="Noriji-2"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4348,7 +4348,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="86.59626320064987%"
                         maxIntensity={29}
                         name="Maibataraki"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4397,7 +4397,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="88.13972380178716%"
                         maxIntensity={29}
                         name="Noriji-3"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4446,7 +4446,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="91.25372326022203%"
                         maxIntensity={29}
                         name="Kakeai-2"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4495,7 +4495,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="92.06607094503113%"
                         maxIntensity={29}
                         name="Kiri"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4544,7 +4544,7 @@ exports[`<Play> renders as expected 1`] = `
                         left="95.74871378283237%"
                         maxIntensity={29}
                         name="Musicians are exiting the stage"
-                        sectionIndex={
+                        shodanIndex={
                           Object {
                             "number": "",
                           }
@@ -4607,13 +4607,13 @@ exports[`<Play> renders as expected 1`] = `
                     "play": Object {
                       "value": "Kokaji",
                     },
-                    "sectionIndex": Object {
-                      "number": "1",
-                    },
                     "sectionName": Object {
                       "value": "Oshirabe",
                     },
                     "sectionUrl": "/kokaji/oshirabe",
+                    "shodanIndex": Object {
+                      "number": "1",
+                    },
                     "startTime": Object {},
                     "text": Object {},
                     "videoDuration": Object {
@@ -5840,13 +5840,13 @@ exports[`<Play> renders as expected 1`] = `
                       "play": Object {
                         "value": "Kokaji",
                       },
-                      "sectionIndex": Object {
-                        "number": "1",
-                      },
                       "sectionName": Object {
                         "value": "Oshirabe",
                       },
                       "sectionUrl": "/kokaji/oshirabe",
+                      "shodanIndex": Object {
+                        "number": "1",
+                      },
                       "startTime": Object {},
                       "text": Object {},
                       "videoDuration": Object {

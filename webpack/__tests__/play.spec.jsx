@@ -46,8 +46,10 @@ describe("", () => {
       component,
       inst =>
         TestUtils.isDOMComponent(inst) &&
-        inst.attributes["data-highlight-dans"] !== undefined
+        inst.attributes["data-highlight-shodans"] !== undefined
     );
+
+    console.log(sectionTitle);
 
     const shodanBlock = TestUtils.findAllInRenderedTree(
       component,
