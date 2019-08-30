@@ -11,6 +11,13 @@
   &:nth-child(2n+1) {
     background-color: rgba($beige-light,0.5);
   }
+
+  &.--beige {
+    background-color: rgba($beige-light,0.5);
+  }
+  &.--white {
+    background-color: $white;
+  }
 }
 
 .content-table__column {
@@ -22,6 +29,21 @@
 
   p {
     @include text(md, 'text');
+  }
+
+  &.--greentext {
+    color: $green;
+    font-weight: $fw-semibold;
+    vertical-align: middle;
+    @include text(xxs);
+    @include uppercase();
+  }
+
+  &.--beige {
+    background-color: rgba($beige-light,0.5);
+  }
+  &.--white {
+    background-color: $white;
   }
 }
 
