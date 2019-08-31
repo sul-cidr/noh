@@ -99,10 +99,10 @@ and perform a memorial service for the flowers.</td>
           Hanatatematsuru.</em></td>
 
           <td class="content-table__column"><h5>Shite:</h5>
-            As when the hand takes them,<br>
+            <p markdown="1">As when the hand takes them,[^1]<br>
             the hand itself sullies them.<br>
             To the Buddhas of the Three Realms<br>
-            I offer them as they are.</td>
+            I offer them as they are.</p></td>
         </tr>
 
         <tr class="content-table__row--header">
@@ -160,8 +160,8 @@ and perform a memorial service for the flowers.</td>
 
                 <td class="content-table__column">
                 <h5>Waki:</h5>
-                Indeed, it is an 'evening face'!<br>
-                Who is it that has offered this flower
+                <p markdown="1">Indeed, it is an 'evening face'![^2]<br>
+                Who is it that has offered this flower</p>
                 </td>
               </tr>
                 <tr class="content-table__row"></tr>
@@ -214,7 +214,7 @@ and perform a memorial service for the flowers.</td>
                       </td>
                       <td class="content-table__column">
                       <h5>Waki:</h5>
-                      At a certain mansion</td>
+                      <p markdown="1">At a certain mansion [^3]</p></td>
       </tr>
                       <tr class="content-table__row"></tr>
                 <tr class="content-table__row">
@@ -554,12 +554,12 @@ and perform a memorial service for the flowers.</td>
             Kusa Gannen ga chimata ni shigeshi.
             </em></td>
 <td class="content-table__column"><h5>Waki:</h5>
-            Following what I was told earlier <br>
+            <p markdown="1">Following what I was told earlier <br>
             I have come to Gojo to see: <br>
             Indeed, the mansion, as in the past, <br>
             the dwelling and its evening faces. <br>
             Gourds now often empty, <br>
-            and (Genken’s) Yen Yüan’s home overgrown with weeds.
+            and (Genken’s) Yen Yüan’s home overgrown with weeds[^4].</p>
             </td>
                     </tr>
 <tr class="content-table__row--header">
@@ -598,8 +598,8 @@ and perform a memorial service for the flowers.</td>
             <em> Saredomo sode wo uruosuwa<br>
             Rosan no yuki no akebono.</em></td>
 <td class="content-table__column"><h5>Shite:</h5>
-            But what dampens the sleeves is<br>
-            dawn on the snow on Mount Lu. </td>
+            <p markdown="1">But what dampens the sleeves is<br>
+            dawn on the snow on Mount Lu.[^5]</p> </td>
                                         </tr>
 
 <tr class="content-table__row--header">
@@ -614,11 +614,11 @@ and perform a memorial service for the flowers.</td>
         Shiushō no aki no yama. <br>
         Monosugo no iubeya.</em></td>
 <td class="content-table__column"><h5>Jiutai:</h5>
-          Through the east window the limpid moon <br>
+          <p markdown="1">Through the east window the limpid moon <br>
           Through the east window the limpid moon<br>
           on the zither stand casts its light. <br>
           Beyond the hedge, the autumn mountains. <br>
-          Such a desolate evening!</td>
+          Such a desolate evening![^6]</p></td>
                                                 </tr>
 
 <tr class="content-table__row--header">
@@ -748,7 +748,7 @@ At the sight tears flow without stopping.  </td>
         Shiraki ōgi no tsumaitō kogashi tarishini. <br>
         Kono hana wo orite mairasuru. </em></td>
         <td class="content-table__column"><h5> Jiutai:</h5>
-          At that time, Genji, <br>
+          <p markdown="1">At that time, Genji, [^7]<br>
           the Middle Captain as he was called, <br>
           shared the grass pillow of this 'evening face' for a brief rest. <br>
           Through the night they heard from next door, <br>
@@ -876,3 +876,17 @@ just so, becoming one with the dream.   </td> </tr>
   </div>
 
 </main>
+
+[^1]: Tanka by Sōjō Henjō (816-890) from the Imperial anthology of waka: Gosen-shū, compiled in 951.
+
+[^2]: The reference to the <em>yūgao</em> flower may allude to the occasion when Prince Genji met Lady Yūgao in <em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.'
+
+[^3]: Allusion to Lady Yūgao's mansion from <em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.'
+
+[^4]: The poem by Tachibana no Tadamoto (10th century) is about two Confucius disciples Gannen and Genken, who pursued their spiritual studies in great poverty. The <em> hyōtan</em> is a flower that looks like small gourds. The reference to ‘gourds are often empty’ is a metaphor for poverty.
+
+[^5]: Based on a poem by Po Chū-i (772-846).
+
+[^6]: Based on a poem from the <em>Shinsen Rōei-shū </em> by the T’ang poet Fang Kan.
+
+[^7]: The poetic text includes two references to <em>Genji Monogatari</em>, both from letters written by Lady Yūgao.</p>
