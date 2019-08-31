@@ -762,7 +762,7 @@ At the sight tears flow without stopping.  </td>
             Beckoning to Koremitsu, <br>
             “Pick that flower for me,” he ordered. <br>
             On a white fan, its edges perfumed with incense, <br>
-            the flower was picked and presented. </td>
+            the flower was picked and presented. </p></td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
@@ -889,4 +889,4 @@ just so, becoming one with the dream.   </td> </tr>
 
 [^6]: Based on a poem from the <em>Shinsen Rōei-shū </em> by the T’ang poet Fang Kan.
 
-[^7]: The poetic text includes two references to <em>Genji Monogatari</em>, both from letters written by Lady Yūgao.</p>
+[^7]: The poetic text includes two references to <em>Genji Monogatari</em>, both from letters written by Lady Yūgao.
