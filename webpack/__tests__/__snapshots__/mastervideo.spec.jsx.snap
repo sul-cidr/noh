@@ -6,7 +6,6 @@ exports[`<MasterVideo> renders as expected 1`] = `
   currentTimeOrigin=""
   tracks={Array []}
   updateCurrentTime={null}
-  updateIsPlaying={null}
   videoUrl=""
 >
   <div>
@@ -14,14 +13,8 @@ exports[`<MasterVideo> renders as expected 1`] = `
       controls={true}
       controlsList="nodownload"
       id="player"
-      onEnded={[Function]}
-      onPause={[Function]}
-      onPlay={[Function]}
-      onPlaying={[Function]}
       onSeeking={[Function]}
-      onStalled={[Function]}
       onTimeUpdate={[Function]}
-      onWaiting={[Function]}
     >
       <source
         src=""

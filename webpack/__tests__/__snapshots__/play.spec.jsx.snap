@@ -1821,7 +1821,6 @@ exports[`<Play> renders as expected 1`] = `
               <MasterVideo
                 currentTime={0}
                 currentTimeOrigin="Kokaji"
-                isPlaying={false}
                 startTime={0}
                 tracks={
                   Array [
@@ -1846,7 +1845,6 @@ exports[`<Play> renders as expected 1`] = `
                   ]
                 }
                 updateCurrentTime={[Function]}
-                updateIsPlaying={[Function]}
                 videoUrl="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
               >
                 <div>
@@ -1854,14 +1852,8 @@ exports[`<Play> renders as expected 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
-                    onEnded={[Function]}
-                    onPause={[Function]}
-                    onPlay={[Function]}
-                    onPlaying={[Function]}
                     onSeeking={[Function]}
-                    onStalled={[Function]}
                     onTimeUpdate={[Function]}
-                    onWaiting={[Function]}
                   >
                     <source
                       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
@@ -1967,8 +1959,6 @@ exports[`<Play> renders as expected 1`] = `
                   <TimelineIndicator
                     currentTime={0}
                     duration={3693}
-                    interval={10}
-                    playing={false}
                     startTime={10}
                     updateCurrentTime={[Function]}
                   >

@@ -27,7 +27,12 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     onMouseDown={[Function]}
     onStart={[Function]}
     onStop={[Function]}
-    position={null}
+    position={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
     transform={null}
   >
     <div
@@ -64,7 +69,12 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     onMouseDown={[Function]}
     onStart={[Function]}
     onStop={[Function]}
-    position={null}
+    position={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
     transform={null}
   >
     <div
@@ -101,7 +111,12 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     onMouseDown={[Function]}
     onStart={[Function]}
     onStop={[Function]}
-    position={null}
+    position={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
     transform={null}
   >
     <div
@@ -138,7 +153,12 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     onMouseDown={[Function]}
     onStart={[Function]}
     onStop={[Function]}
-    position={null}
+    position={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
     transform={null}
   >
     <div
@@ -175,7 +195,12 @@ exports[`<TimelineIndicator> renders as expected with no interval, initial curre
     onMouseDown={[Function]}
     onStart={[Function]}
     onStop={[Function]}
-    position={null}
+    position={
+      Object {
+        "x": -1,
+        "y": 0,
+      }
+    }
     transform={null}
   >
     <div

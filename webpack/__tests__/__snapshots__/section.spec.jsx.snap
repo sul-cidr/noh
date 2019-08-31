@@ -25795,7 +25795,6 @@ exports[`<Section> renders as expected 1`] = `
               <MasterVideo
                 currentTime={1193}
                 currentTimeOrigin="Kokaji/Kuse"
-                isPlaying={false}
                 tracks={
                   Array [
                     Object {
@@ -25819,7 +25818,6 @@ exports[`<Section> renders as expected 1`] = `
                   ]
                 }
                 updateCurrentTime={[Function]}
-                updateIsPlaying={[Function]}
                 videoUrl="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
               >
                 <div>
@@ -25827,14 +25825,8 @@ exports[`<Section> renders as expected 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
-                    onEnded={[Function]}
-                    onPause={[Function]}
-                    onPlay={[Function]}
-                    onPlaying={[Function]}
                     onSeeking={[Function]}
-                    onStalled={[Function]}
                     onTimeUpdate={[Function]}
-                    onWaiting={[Function]}
                   >
                     <source
                       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
@@ -98568,10 +98560,8 @@ exports[`<Section> renders as expected with no phrases 1`] = `
               <MasterVideo
                 currentTime={1193}
                 currentTimeOrigin="Kokaji/Kuse"
-                isPlaying={false}
                 tracks={Array []}
                 updateCurrentTime={[Function]}
-                updateIsPlaying={[Function]}
                 videoUrl="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
               >
                 <div>
@@ -98579,14 +98569,8 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
-                    onEnded={[Function]}
-                    onPause={[Function]}
-                    onPlay={[Function]}
-                    onPlaying={[Function]}
                     onSeeking={[Function]}
-                    onStalled={[Function]}
                     onTimeUpdate={[Function]}
-                    onWaiting={[Function]}
                   >
                     <source
                       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
@@ -105561,10 +105545,8 @@ exports[`<Section> that is first in play renders as expected 1`] = `
               <MasterVideo
                 currentTime={1193}
                 currentTimeOrigin="Kokaji/Oshirabe"
-                isPlaying={false}
                 tracks={Array []}
                 updateCurrentTime={[Function]}
-                updateIsPlaying={[Function]}
                 videoUrl="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
               >
                 <div>
@@ -105572,14 +105554,8 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
-                    onEnded={[Function]}
-                    onPause={[Function]}
-                    onPlay={[Function]}
-                    onPlaying={[Function]}
                     onSeeking={[Function]}
-                    onStalled={[Function]}
                     onTimeUpdate={[Function]}
-                    onWaiting={[Function]}
                   >
                     <source
                       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
@@ -112554,10 +112530,8 @@ exports[`<Section> that is last in play renders as expected 1`] = `
               <MasterVideo
                 currentTime={1193}
                 currentTimeOrigin="Kokaji/Kiri"
-                isPlaying={false}
                 tracks={Array []}
                 updateCurrentTime={[Function]}
-                updateIsPlaying={[Function]}
                 videoUrl="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
               >
                 <div>
@@ -112565,14 +112539,8 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
-                    onEnded={[Function]}
-                    onPause={[Function]}
-                    onPlay={[Function]}
-                    onPlaying={[Function]}
                     onSeeking={[Function]}
-                    onStalled={[Function]}
                     onTimeUpdate={[Function]}
-                    onWaiting={[Function]}
                   >
                     <source
                       src="http://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746"
