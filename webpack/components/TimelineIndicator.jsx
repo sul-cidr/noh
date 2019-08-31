@@ -7,39 +7,17 @@ import { setCurrentTime } from "../actionCreators";
 class TimelineIndicator extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      playedTime: this.calculateCurrentTime(), // milliseconds
-      timer: null,
-      beingDragged: false
-    };
     this.container = React.createRef();
     this.indicator = React.createRef();
-    this.tick = this.tick.bind(this);
-    this.handleDragStart = this.handleDragStart.bind(this);
     this.handleDrag = this.handleDrag.bind(this);
-    this.handleDragStop = this.handleDragStop.bind(this);
   }
 
   componentDidMount() {
-    this.setupTimer();
-    this.tick();
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.state.timer);
-  }
-
-  setupTimer() {
-    const timer = setInterval(this.tick, this.props.interval);
-    this.setState({ timer });
+    this.forceUpdate();
   }
 
   calculateCurrentTime() {
     return 1e3 * (this.props.currentTime - this.props.startTime); // currentTime is given in seconds
-  }
-
-  calculateRemainingTime() {
-    return this.calculateMaxTime() - this.state.playedTime;
   }
 
   calculateMaxTime() {
@@ -47,33 +25,14 @@ class TimelineIndicator extends Component {
   }
 
   calculateProgress() {
-    const progressTime = this.state.playedTime / this.calculateMaxTime();
-    const offset = this.container.current.offsetWidth || 1;
+    const progressTime = this.calculateCurrentTime() / this.calculateMaxTime();
+    const offset = this.container.current
+      ? this.container.current.offsetWidth
+      : 1;
     const progress = Math.ceil(
       Math.min(Math.max(progressTime * offset, 0), offset)
     );
     return progress === 0 ? -1 : progress;
-  }
-
-  tick() {
-    if (this.props.playing) {
-      this.setState({
-        playedTime: this.state.playedTime + this.props.interval
-      });
-    } else {
-      this.setState({
-        playedTime: this.calculateCurrentTime()
-      });
-    }
-    if (this.calculateRemainingTime() <= 0) {
-      clearInterval(this.state.timer);
-    }
-  }
-
-  handleDragStart() {
-    this.setState({
-      beingDragged: true
-    });
   }
 
   handleDrag() {
@@ -84,28 +43,16 @@ class TimelineIndicator extends Component {
     this.props.updateCurrentTime(progressInSeconds + this.props.startTime);
   }
 
-  handleDragStop() {
-    this.setState({
-      beingDragged: false
-    });
-  }
-
   render() {
-    const draggableProps = {};
-    if (this.container.current && !this.state.beingDragged) {
-      draggableProps.position = { x: this.calculateProgress(), y: 0 };
-    }
     return (
       <div ref={this.container} className="time-indicator-container">
         <Draggable
-          {...draggableProps}
+          position={{ x: this.calculateProgress(), y: 0 }}
           ref={this.indicator}
           axis="x"
           bounds="parent"
           handle=".time-indicator"
-          onStart={this.handleDragStart}
           onDrag={this.handleDrag}
-          onStop={this.handleDragStop}
         >
           <div className="time-indicator" />
         </Draggable>
@@ -116,24 +63,19 @@ class TimelineIndicator extends Component {
 
 TimelineIndicator.propTypes = {
   duration: PropTypes.number.isRequired,
-  interval: PropTypes.number,
   currentTime: PropTypes.number,
   startTime: PropTypes.number,
-  playing: PropTypes.bool,
   updateCurrentTime: PropTypes.func
 };
 
 TimelineIndicator.defaultProps = {
-  interval: 10, // down to the millisecond it behaves erratically
-  playing: false,
   updateCurrentTime: null,
   currentTime: 0,
   startTime: 0
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime.time,
-  playing: state.isPlaying
+  currentTime: state.currentTime.time
 });
 
 export const mapDispatchToProps = dispatch => ({
