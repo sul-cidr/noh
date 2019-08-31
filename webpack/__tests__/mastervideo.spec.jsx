@@ -59,22 +59,13 @@ describe("<MasterVideo>", () => {
     expect(dispatch).toHaveBeenCalledWith(payload);
   });
 
-  it("dispatches the right function for updateIsPlaying", () => {
-    const isPlaying = true;
-    const payload = { payload: true, type: "SET_IS_PLAYING" };
-    const dispatch = jest.fn();
-    mapDispatchToProps(dispatch).updateIsPlaying(isPlaying);
-    expect(dispatch).toHaveBeenCalledWith(payload);
-  });
-
   describe("HTML5 video playing", () => {
     let wrapper;
     let store;
 
     beforeEach(() => {
       const initialState = {
-        currentTime: { time: 10, origin: "" },
-        isPlaying: true
+        currentTime: { time: 10, origin: "" }
       };
       const mockStore = configureMockStore();
 
@@ -84,30 +75,6 @@ describe("<MasterVideo>", () => {
           <MasterVideo />
         </Provider>
       );
-    });
-
-    it("triggers the SET_IS_PLAYING action with the right payload when play", () => {
-      const action = { type: "SET_IS_PLAYING", payload: false };
-      wrapper.find("video").simulate("play");
-      expect(store.getActions()[0]).toEqual(action);
-    });
-
-    it("triggers the SET_IS_PLAYING action with the right payload when pause", () => {
-      const action = { type: "SET_IS_PLAYING", payload: false };
-      wrapper.find("video").simulate("pause");
-      expect(store.getActions()[0]).toEqual(action);
-    });
-
-    it("triggers the SET_IS_PLAYING action with the right payload when ended", () => {
-      const action = { type: "SET_IS_PLAYING", payload: false };
-      wrapper.find("video").simulate("ended");
-      expect(store.getActions()[0]).toEqual(action);
-    });
-
-    it("triggers the SET_IS_PLAYING action with the right payload when stalled", () => {
-      const action = { type: "SET_IS_PLAYING", payload: false };
-      wrapper.find("video").simulate("stalled");
-      expect(store.getActions()[0]).toEqual(action);
     });
 
     it("triggers the SET_CURRENT_TIME action with the right payload when seeking", () => {
@@ -119,44 +86,12 @@ describe("<MasterVideo>", () => {
       expect(store.getActions()[0]).toEqual(action);
     });
 
-    it("triggers the SET_IS_PLAYING action with the right payload when waiting", () => {
-      const action = { type: "SET_IS_PLAYING", payload: false };
-      wrapper.find("video").simulate("waiting");
-      expect(store.getActions()[0]).toEqual(action);
-    });
-
     it("triggers the SET_CURRENT_TIME action with the right payload when timeupdate", () => {
       const action = {
         type: "SET_CURRENT_TIME",
         payload: { time: 10, origin: "MasterVideo" }
       };
       wrapper.find("video").simulate("timeupdate");
-      expect(store.getActions()[0]).toEqual(action);
-    });
-  });
-
-  describe("HTML5 video not playing", () => {
-    let wrapper;
-    let store;
-
-    beforeEach(() => {
-      const initialState = {
-        currentTime: { time: 10, origin: "MasterVideo" },
-        isPlaying: false
-      };
-      const mockStore = configureMockStore();
-
-      store = mockStore(initialState);
-      wrapper = mount(
-        <Provider store={store}>
-          <MasterVideo />
-        </Provider>
-      );
-    });
-
-    it("triggers the SET_IS_PLAYING action with the right payload when playing", () => {
-      const action = { type: "SET_IS_PLAYING", payload: true };
-      wrapper.find("video").simulate("playing");
       expect(store.getActions()[0]).toEqual(action);
     });
   });
