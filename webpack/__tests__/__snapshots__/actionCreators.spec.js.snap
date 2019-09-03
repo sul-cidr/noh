@@ -14,13 +14,6 @@ Object {
 }
 `;
 
-exports[`setIsPlaying creates the correct payload 1`] = `
-Object {
-  "payload": true,
-  "type": "SET_IS_PLAYING",
-}
-`;
-
 exports[`setNarrativeTab creates the correct payload 1`] = `
 Object {
   "payload": 1,
