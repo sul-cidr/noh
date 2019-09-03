@@ -53,7 +53,12 @@ function activateTab(hashEvent, eltID, scrollToElt) {
   if (eltID === undefined && window.location.hash)
     eltID = window.location.hash.slice(1);
 
-  var section = document.querySelector("section#" + eltID);
+  try {
+    var section = document.querySelector("section#" + eltID);
+  } catch {
+    section = null;
+    scrollToElt = false;
+  }
   if (section) {
     [].forEach.call(section.parentElement.children, function(_section) {
       _section.style.display = "none";

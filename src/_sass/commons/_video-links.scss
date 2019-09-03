@@ -1,0 +1,12 @@
+time, [onclick^="window.open('/popout/"] {
+    text-decoration: underline;
+    cursor: pointer;
+    &::before {
+        font-family: $font-icon;
+        font-size: 70%;
+        content: $fa-var-forward;
+        display: inline-block;
+        color: $brown40;
+        padding-left: .1rem;
+    }
+}

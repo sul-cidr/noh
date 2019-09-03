@@ -1,0 +1,15 @@
+{% assign alignment = "image-center" %}
+{% if include.align == "left" %}
+  {% assign alignment = "image-left" %}
+{% endif %}
+
+{% assign wrapper_class = "wrapper-small" %}
+{% if include.column_size == "medium" %}
+  {% assign wrapper_class = "wrapper-medium" %}
+{% elsif include.column_size == "large" %}
+  {% assign wrapper_class = "wrapper-large" %}
+{% endif %}
+
+<div class="scalable {{ wrapper_class }}">
+  <img class="scalable {{ alignment }}" src="{{ include.src }}" alt="{{ alignment }}" width="{{ include.scale }}" height="{{ include.scale }}"/>
+</div>

@@ -34,6 +34,7 @@ class ShodanTimeline extends Component {
           duration={duration}
           totalDuration={this.props.totalDuration}
           dan={section.dan}
+          shodanIndex={section.shodanIndex}
         />
       );
       position += (100 * duration) / this.props.totalDuration;

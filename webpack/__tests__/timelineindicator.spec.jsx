@@ -60,51 +60,12 @@ describe("<TimelineIndicator>", () => {
     ReactDOM.unmountComponentAtNode(container);
   });
 
-  it("sets and run the inner timer", () => {
-    jest.useFakeTimers();
-    expect(setInterval.mock.calls.length).toBe(0);
-    mount(
-      <UnwrappedTimelineIndicator
-        duration={100}
-        interval={10}
-        currentTime={10}
-        playing
-      />
-    );
-    expect(setInterval.mock.calls.length).toBe(1);
-  });
-
-  it("clears the timer after video is played", () => {
-    const component = mount(
-      <UnwrappedTimelineIndicator
-        duration={100}
-        interval={10}
-        currentTime={101}
-        playing
-      />
-    );
-    component.instance().tick();
-    expect(component.instance().calculateRemainingTime()).toBeLessThanOrEqual(
-      0
-    );
-  });
-
   it("dispatches the right function for updateCurrentTime", () => {
     const event = { currentTime: { time: 10, origin: "TimelineIndicator" } };
     const payload = { payload: event.currentTime, type: "SET_CURRENT_TIME" };
     const dispatch = jest.fn();
     mapDispatchToProps(dispatch).updateCurrentTime(event.currentTime.time);
     expect(dispatch).toHaveBeenCalledWith(payload);
-  });
-
-  it("changes internal state when indicator is being dragged", () => {
-    const component = TestUtils.renderIntoDocument(
-      <UnwrappedTimelineIndicator duration={100} currentTime={5} />
-    );
-    TestUtils.Simulate.mouseDown(component.container);
-    expect(component.state.beingDragged).toBe(false);
-    component.handleDragStart();
-    expect(component.state.beingDragged).toBe(true);
   });
 
   it("changes internal state when indicator stops being dragged and runs updateCurrentTime prop", () => {
@@ -118,12 +79,7 @@ describe("<TimelineIndicator>", () => {
       />
     );
     TestUtils.Simulate.mouseDown(component.container);
-    expect(component.state.beingDragged).toBe(false);
-    component.handleDragStart();
-    expect(component.state.beingDragged).toBe(true);
     component.handleDrag();
-    component.handleDragStop();
-    expect(component.state.beingDragged).toBe(false);
     expect(updateCurrentTime).toHaveBeenCalled();
   });
 });

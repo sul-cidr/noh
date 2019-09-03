@@ -86,6 +86,9 @@
     display: block;
     margin: 0 auto;
     max-width: $wrapper-media;
+  }
+
+  video {
     width: 100%;
   }
 
@@ -165,6 +168,28 @@
   ::marker {
     color: $brown;
     @include text(md,'text');
+  }
+}
+
+img.scalable {
+  &.image-left {
+    display: inline;
+  }
+}
+
+div.scalable {
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  &.wrapper-small {
+    max-width: $wrapper-small;
+  }
+  &.wrapper-medium {
+    max-width: $wrapper-medium;
+  }
+  &.wrapper-large {
+    max-width: $wrapper-large;
   }
 }
 

@@ -6,27 +6,20 @@ import TimelineIndicator from "./TimelineIndicator";
 const Timeline = props => (
   <div className="timeline">
     <h2>Timeline Area</h2>
-    <TimelineIndicator
-      duration={1 * 60 + 44}
-      currentTime={props.currentTime}
-      playing={props.isPlaying}
-    />
+    <TimelineIndicator duration={1 * 60 + 44} currentTime={props.currentTime} />
   </div>
 );
 
 Timeline.propTypes = {
-  currentTime: PropTypes.number,
-  isPlaying: PropTypes.bool
+  currentTime: PropTypes.number
 };
 
 Timeline.defaultProps = {
-  currentTime: 0,
-  isPlaying: false
+  currentTime: 0
 };
 
 const mapStateToProps = state => ({
-  currentTime: state.currentTime,
-  isPlaying: state.isPlaying
+  currentTime: state.currentTime
 });
 
 export const UnwrappedTimeline = Timeline;
