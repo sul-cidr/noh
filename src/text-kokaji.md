@@ -35,11 +35,11 @@ permalink: /text-kokaji/
         </tr>
 
   <tr class="content-table__row--header">
-  <td id="Waki-enters" class="content-table__column">Waki Enters: Nanori
+  <td id="Waki-enters" class="content-table__column">Waki Enters: Nanori</td>
   <td class="content-table__column"></td> </tr> <tr class="content-table__row">
   <td class="content-table__column">
   <h5>Wakizure:</h5>
-  <em> Waki-tsure:Somo kore wa <br>
+  <em> Wakizure:Somo kore wa <br>
   Ichijō-no-In ni tsukae-tatematsuru. <br>
   Tachibana-no-Michinari to wa waga koto nari. <br>
   Sate mo mikado kon’ya kidoku  no go-reimu, mashimashite. <br>
@@ -62,7 +62,7 @@ permalink: /text-kokaji/
 
 
   <tr class="content-table__row--header">
-        <td id="Mondo-1" class="content-table__column">Waki Enters: Mondō 1
+        <td id="Mondo-1" class="content-table__column">Waki Enters: Mondō 1</td>
         <td class="content-table__column"></td>
         </tr>
 <tr class="content-table__row">
@@ -136,7 +136,7 @@ Let me repeat the imperial command!</td>
 
 
 <tr class="content-table__row--header">
-<td id="Ageuta-1" class="content-table__column">Waki Enters: Ageuta 1
+<td id="Ageuta-1" class="content-table__column">Waki Enters: Ageuta 1</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -165,7 +165,7 @@ I must place my trust only in this.</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Shite-enters" class="content-table__column">Shite Enters: Dialogue
+<td id="Shite-enters" class="content-table__column">Shite Enters: Dialogue</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -181,7 +181,7 @@ Hurry! make the sword. </td>
 <td class="content-table__column"> <h5>Waki:</h5> Yes! sir.</td>
 </tr>
 
-<tr class="content-table__row--header"> <td id="Monologue" class="content-table__column">Shite Enters: Monologue
+<tr class="content-table__row--header"> <td id="Monologue" class="content-table__column">Shite Enters: Monologue</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -194,10 +194,10 @@ Kono koto kisei mōsabaya to zonji-sōro. </em></td>
 Such a command can be carried out if I ask for divine help. <br>
 As my family deity is Inari no Myojin, <br>
 I will go at once to Inari, <br>
-and pray concerning this matter.<td>
+and pray concerning this matter.</td>
 </tr>
 <tr class="content-table__row--header">
-<td id="Dialogue" class="content-table__column">Dialogue: Mondō 2
+<td id="Dialogue" class="content-table__column">Dialogue: Mondō 2</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -242,14 +242,14 @@ No matter how I consider it, the matter is most strange.</td>
 
 <tr class="content-table__row"></tr> <tr class="content-table__row"> <td class="content-table__column"> <h5>Shite:</h5> <em> Geni geni sore wa saru koto naredomo <br>
 ware nomi shireba moro bito made mo. <br>
-Ten ni koe ari, chi ni hibiku.<em></td>
+Ten ni koe ari, chi ni hibiku.</em></td>
 <td class="content-table__column"> <h5>Shite:</h5> In truth, it is as you say. It is said: To know a thing one's self,<br>
 it is to find it is known by all.<br>
 A voice in heaven, echoes on the earth!</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Ageuta-2" class="content-table__column">Dialogue: Ageuta 2
+<td id="Ageuta-2" class="content-table__column">Dialogue: Ageuta 2</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -277,7 +277,7 @@ will be realized as you wish. <br>
 It must be realized.</td>
 </tr>
 
-<tr class="content-table__row--header"> <td id="Shite-performs" class="content-table__column">Shite Performs: Kuri
+<tr class="content-table__row--header"> <td id="Shite-performs" class="content-table__column">Shite Performs: Kuri</td>
 <td class="content-table__column"></td> </tr>
 <tr class="content-table__row">
 <td class="content-table__column"><h5>Jiutai:</h5> <em> Sore Kan-nō sanseki no tsurugi<br>
@@ -285,21 +285,21 @@ inagara Shin no midare wo shizume. <br>
 Mata Yō-tei ga Kei no tsurugi<br>
 Shiujt'n no hikari wo ubaeri.</em></td>
 <td class="content-table__column"><h5> Jiutai:</h5>
-  Once with such a blade, the Emperor's Three-Foot Sword,<br>
+  <p markdown="1">Once with such a blade, the Emperor's Three-Foot Sword[^1],<br>
 subdued the rebellion of the Ts'in by its reputation alone.<br>
 Again, the Yang Emperor, with his sword Kei<br>
-outshone the brilliance of the House of Chou.</td>
+outshone the brilliance of the House of Chou.</p></td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Sashi" class="content-table__column">Shite Performs: Sashi
+<td id="Sashi" class="content-table__column">Shite Performs: Sashi</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
 <td class="content-table__column"><h5>Shite:</h5>
 <em>Sono nochi Gensō Kō-tei no Shōki Daijin mo,</em></td>
 <td class="content-table__column"><h5>Shite:</h5>
-In later years, the Emperor Huan Tsung's Minister Chung K'ei too,</td>
+<p markdown="1">In later years, the Emperor Huan Tsung's Minister Chung K'ei too,[^2]</p></td>
 </tr>
 <tr class="content-table__row"></tr>
 <tr class="content-table__row">
@@ -327,7 +327,7 @@ and the destruction they sought was not achieved.</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Kuse" class="content-table__column">Shite Performs: Kuse
+<td id="Kuse" class="content-table__column">Shite Performs: Kuse</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -344,16 +344,16 @@ kaeru koto yo to urayami, <br>
 itsu ka warera mo kaeru nami no, <br>
 koromode ni arama shi to omoi-tsuzukete-yuku hodo ni.</em></td>
 <td class="content-table__column"><h5> Jiutai:</h5>
-And so, it was in the early days of our history, <br>
+<p markdown="1">And so, it was in the early days of our history, <br>
 the Twelfth of the Imperial Line, the Emperor Keiko,<br>
-had a son known by the name Yamato-dake. <br>
+had a son known by the name Yamato-dake.[^3] <br>
 The wild barbarians! he received the order to subdue them. <br>
 The barrier check points far behind as yet further to the East. <br>
 The road of his journey to the Eastern provinces took him. <br>
 Even at Ise and Owari the waves on the sea rise and return! <br>
 With envy he wondered always, <br>
 when he too might find himslef, with foam-drenched sleeves<br>
-returning home, even as he continued on his way.</td>
+returning home, even as he continued on his way.</p></td>
 </tr>
 <tr class="content-table__row"></tr>
 <tr class="content-table__row">
@@ -443,7 +443,7 @@ set your heart at rest and go home now.</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Shite-exits" class="content-table__column">Shite Exits: Kakeai 1
+<td id="Shite-exits" class="content-table__column">Shite Exits: Kakeai 1</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -470,7 +470,7 @@ And at that time, if you will but wait for me.</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Ageuta-3" class="content-table__column">Shite Exits: Ageuta 3
+<td id="Ageuta-3" class="content-table__column">Shite Exits: Ageuta 3</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -599,8 +599,9 @@ On this matter, rest assured.</td>
           <td class="content-table__column"></td>
         </tr>
 
-<tr class="content-table__row--header"> <td id="Waki-waits" class="content-table__column">Waki Waits: Notto
-<td class="content-table__column"></td> </tr> <tr class="content-table__row">
+<tr class="content-table__row--header"> <td id="Waki-waits" class="content-table__column">Waki Waits: Notto</td>
+<td class="content-table__column"></td> </tr>
+<tr class="content-table__row">
 <td class="content-table__column"><h5>Waki:</h5> <em> Munechika choku ni shitagatte <br>
 fujō wo hedatsuru nanae no shime<br>
 shi-hō ni honzon no kake tatematsuri<br>
@@ -636,7 +637,7 @@ which I am now the master of. </td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Noriji-1" class="content-table__column">Waki Waits: Noriji-1
+<td id="Noriji-1" class="content-table__column">Waki Waits: Noriji-1</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -676,7 +677,7 @@ Hear and grant my prayer </td>
 
 </tr>
 
-<tr class="content-table__row--header"> <td id="Shite-performs2" class="content-table__column">Shite Performs: Noriji 2
+<tr class="content-table__row--header"> <td id="Shite-performs2" class="content-table__column">Shite Performs: Noriji 2</td>
 <td class="content-table__column"></td> </tr> <tr class="content-table__row">
 <td class="content-table__column"><h5>Wakizure:</h5> <em> Ika ni ya Munechika choku no tsurugi.<br>
 Ika ni ya Munechika choku no tsurugi.<br>
@@ -689,7 +690,7 @@ Trust and have faith! Only trust!</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Noriji3" class="content-table__column">Shite Performs: Noriji 3
+<td id="Noriji3" class="content-table__column">Shite Performs: Noriji 3</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -734,7 +735,7 @@ echoes throughout heaven and earth - How it resounds!</td>
 </tr>
 
 <tr class="content-table__row--header">
-      <td id="Shite-exits2" class="content-table__column">Shite Exits: Kakeai 2
+      <td id="Shite-exits2" class="content-table__column">Shite Exits: Kakeai 2</td>
       <td class="content-table__column"></td>
       </tr>
 <tr class="content-table__row">
@@ -756,7 +757,7 @@ Kogitsune to ura ni azayakani.</em></td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Kiri" class="content-table__column">Shite Exits: Kiri
+<td id="Kiri" class="content-table__column">Shite Exits: Kiri</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -788,7 +789,7 @@ Kore made nari to ii-sutete,<br>
 mata mura-kumo ni tobi-norite,<br>
 Higashiyama Inari no mine ni zo kaerikeru.</em></td>
 <td class="content-table__column"> <h5>Jiutai:</h5>
-First under Heaven:<br>
+<p  markdown="1">First under Heaven:<br>
 The sword with two inscriptions!<br>
 It will rule the land to the four seas,<br>
 celebrate the abundance of the five staple crops.<br>
@@ -798,16 +799,21 @@ come to aid you in fulfilling your task.<br>
 Now, I am done!" So saying, takes his leave.<br>
 Once more he leaps upon the mass of clouds,<br>
 Again, more he leaps upon the mass of clouds,<br>
-and return to Higashiyama, the eastern mountains, the peak of Mt. Inari!</td>
+and return to Higashiyama, the eastern mountains, the peak of Mt. Inari!</p></td>
 </tr>
-
-
-
-
 
         </table>
+
         </div>
     </section>
+
+
+
   </div>
 
 </main>
+[^1]: It starts with a reference to Liu Bang (256 – 195 BC), the founding Emperor of the Han dynasty. It is said that shortly before dying he exclaimed that “wielding a three-foot sword, as a commoner I conquered the world.” It is followed by a reference to Yang Jian (541 – 604 AD) the first Emperor of the Sui Dynasty and his sword Kei who defeated the House of Chou.
+
+[^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.
+
+[^3]: Emperor Keikō feared the brutal temperament of his son who had slewed his elder brother. Thus, to keep him at distance, he sent him to the Eastern provinces, but before leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
