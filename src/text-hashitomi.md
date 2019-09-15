@@ -1,5 +1,6 @@
 ---
 layout: website
+title: Text of Hashitomi
 menu-active: elements
 second-level-menu-active: libretti
 third-level-menu-active: hashitomi
@@ -20,7 +21,7 @@ permalink: /text-hashitomi/
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Hashitomi">Hashitomi Text</h2>
-        <p> <em>Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
+        <h6> Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</h6>
 
 
         <table class="content-table">
@@ -178,7 +179,7 @@ and perform a memorial service for the flowers.</td>
         </tr>
 
         <tr class="content-table__row--header">
-              <td id="Kakaru-2" class="content-table__column">Dialogue: Kakaru-2</td>
+              <td id="Kakaru-2" class="content-table__column">Shite exits: Kakaru-2</td>
               <td class="content-table__column"></td>
               </tr>
       <tr class="content-table__row">

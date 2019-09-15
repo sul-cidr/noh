@@ -1,5 +1,6 @@
 ---
 layout: website
+title: Text of Kokaji
 menu-active: elements
 second-level-menu-active: libretti
 third-level-menu-active: kokaji
@@ -21,7 +22,7 @@ permalink: /text-kokaji/
       <div class="text-container">
         <h2 id="Hashitomi">Kokaji Text</h2>
 
-        <p> <em>Author unknown<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
+        <h6>Author unknown<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</h6>
 
         <table class="content-table">
 
@@ -165,7 +166,7 @@ I must place my trust only in this.</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Shite-enters" class="content-table__column">Shite Enters: Dialogue</td>
+<td id="Shite-enters" class="content-table__column">Waki Enters: Dialogue</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -181,7 +182,7 @@ Hurry! make the sword. </td>
 <td class="content-table__column"> <h5>Waki:</h5> Yes! sir.</td>
 </tr>
 
-<tr class="content-table__row--header"> <td id="Monologue" class="content-table__column">Shite Enters: Monologue</td>
+<tr class="content-table__row--header"> <td id="Monologue" class="content-table__column">Waki Enters: Monologue</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
