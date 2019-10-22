@@ -22,7 +22,7 @@ permalink: /about-movement/
           <h2 class="collapsible collapsible-closed" id="Intro">Movement</h2>
 
           <p>Despite its apparent minimalism the movement in Noh is vital, sophisticated and performed with greatest
-            precision. It serves structural, easthetic and narrative functions. It co-creates <em>kurai</em>, the
+            precision. It serves structural, easthetic and narrative functions. It co-creates <a href="/about-intermedia/#Kurai" target="_blank"><em>kurai</em></a>, the
             overarching essential expressive quality of the play.</p>
 
           <p>It's structural role consists of guiding viewers through the form of the plays by using predictable devices

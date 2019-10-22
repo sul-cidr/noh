@@ -346,7 +346,7 @@ itsu ka warera mo kaeru nami no, <br>
 koromode ni arama shi to omoi-tsuzukete-yuku hodo ni.</em></td>
 <td class="content-table__column"><h5> Jiutai:</h5>
 <p markdown="1">And so, it was in the early days of our history, <br>
-the Twelfth of the Imperial Line, the Emperor Keiko,<br>
+the Twelfth of the Imperial Line, the Emperor Keikō,<br>
 had a son known by the name Yamato-dake.[^3] <br>
 The wild barbarians! he received the order to subdue them. <br>
 The barrier check points far behind as yet further to the East. <br>
