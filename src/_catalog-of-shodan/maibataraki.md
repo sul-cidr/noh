@@ -26,7 +26,7 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>This is a virile and animated dance that accompanies the dance of a God-dragon, demon, or a deity as it is the case in Kokaji. It is always accompanied by the three percussion instruments and the nohkan.</p>
+  <p><em>Maibataraki</em> is a virile and animated dance well suited for among others: dragon gods, goblins, or a deity appearing in Kokaji. It is always accompanied by the three percussion instruments and the nohkan.</p>
 
   <p>The <em>maibataraki</em> like all instrumental dances has a three-layered structure articulated by the nohkan, percussion instruments and the choreography of the dance.
   The nohkan provides a cyclical melodic background, and through its recurring patterns it articulates the dance’s three parts: <em>kakari</em>, <em>ji</em>, and <em>dan</em>. The leading percussion instrument, the taiko uses its distinguishable <a href="/music/taiko-head" target="_blank"><em>kashira</em></a> pattern to articulate the beginning and closing of its rhythmic cycles, which are well synchronized with the nohkan's patterns, thereby helping articulate the dance’s three sections.</p>
@@ -78,7 +78,7 @@ second-level-menu-active: catalog-shodan
 </div>
 <h3>Examples in the Plays:</h3>
 <p>
-<a href="/kokaji/maibataraki/" target="_blank">Kokaji - Maibataraki</a>
+<a href="/kokaji/maibataraki/" target="_blank">Kokaji - <em>Maibataraki</em></a>
 </p>
 </div>
 </main>

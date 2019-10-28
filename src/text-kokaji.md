@@ -753,8 +753,8 @@ On the face of it I strike: "Munechika, Swordsmith"!</td>
 <h5>Shite:</h5>
 <em> Shintai toki no deshi nareba.<br>
 Kogitsune to ura ni azayakani.</em></td>
-<td class="content-table__column"> <h5>Shite:</h5>  As your timely apprentice the god:
-"Little Fox", I skillfully strike on the reverse.</td>
+<td class="content-table__column"> <h5>Shite:</h5>  <p markdown="1">As your timely apprentice the god:
+"Little Fox"[^4], I skillfully strike on the reverse.</p></td>
 </tr>
 
 <tr class="content-table__row--header">
@@ -818,3 +818,5 @@ and return to Higashiyama, the eastern mountains, the peak of Mt. Inari!</p></td
 [^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.
 
 [^3]: Emperor Keikō feared the brutal temperament of his son who had slewed his elder brother. Thus, to keep him at distance, he sent him to the Eastern provinces, but before leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
+
+[^4]: The deity’s use of ‘Little Fox’ as his signature comes from the fact that foxes, often regarded as messengers are associated with various Inari shrines.
