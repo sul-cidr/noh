@@ -22,7 +22,7 @@ permalink: /text-kokaji/
       <div class="text-container">
         <h2 id="Hashitomi">Kokaji Text</h2>
 
-        <h6>Author unknown<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</h6>
+        <p><em>Author unknown<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
 
         <table class="content-table">
 

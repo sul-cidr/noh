@@ -21,7 +21,7 @@ permalink: /text-hashitomi/
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Hashitomi">Hashitomi Text</h2>
-        <h6> Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</h6>
+        <p><em> Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
 
 
         <table class="content-table">
