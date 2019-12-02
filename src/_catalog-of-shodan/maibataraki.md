@@ -26,22 +26,19 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p><em>Maibataraki</em> is a virile and animated dance well suited for among others: dragon gods, goblins, or a deity appearing in Kokaji. It is always accompanied by the three percussion instruments and the nohkan.</p>
-
-  <p>The <em>maibataraki</em> like all instrumental dances has a three-layered structure articulated by the nohkan, percussion instruments and the choreography of the dance.
-  The nohkan provides a cyclical melodic background, and through its recurring patterns it articulates the dance’s three parts: <em>kakari</em>, <em>ji</em>, and <em>dan</em>. The leading percussion instrument, the taiko uses its distinguishable <a href="/music/taiko-head" target="_blank"><em>kashira</em></a> pattern to articulate the beginning and closing of its rhythmic cycles, which are well synchronized with the nohkan's patterns, thereby helping articulate the dance’s three sections.</p>
+  <p><em>Maibataraki</em> is a virile and animated dance well suited for several types of characters, including dragon gods, goblins, or a deity appearing in Kokaji. Like all instrumental dances it has three layers: the dance, the nohkan, and the percussion instruments. The <em>maibataraki</em> always includes taiko. The nohkan provides a cyclical melodic background, and through its recurring patterns it articulates the dance’s three parts: <em>kakari</em>, <em>ji</em>, and <em>dan</em>. The leading percussion instrument, the taiko uses its distinguishable <a href="/music/taiko-head" target="_blank"><em>kashira</em></a> pattern to articulate the beginning and closing of its rhythmic cycles, which are synchronized with the nohkan's patterns, thereby helping articulate the dance’s three sections.</p>
 
   <h3>Kakari</h3>
-  <p>Translated as ‘initiating something’, the <em>kakari</em> is used to set the dance’s dynamic and upbeat mood. It is spread over two eight-beat measures (<em>honji</em>). The taiko who is leading the percussion section opens and closes with <em>kashira</em> pattern that clearly delineates the section’s boundaries.</p>
+  <p>Translated as ‘initiating something,’ the <em>kakari</em> is used to set the dance’s dynamic and upbeat mood. It is spread over two eight-beat measures (<em>honji</em>). The taiko leading the percussion section opens and closes with a <em>kashira</em> pattern that clearly delineates the section’s boundaries.</p>
 
   <h3>Ji</h3>
-  <p>Standing for 'ground', <em>Ji</em> is a section where the nohkan player introduces a core sequence of segments. It consists of three that we labelled: a, b, and c, each one lasting one <em>honji</em>. They have a clear melodic quality that contrasts with the opening rhythmic patterns. The sequence can be interrupted after any of the three segments to move on to the closing <em>dan</em> section. In this recording, the <em>Ji</em> is played twice, but the second time, segment 'c' is dropped as the ensemble starts the closing section afer the segment 'b'. The duration of the <em>Ji</em>  coincides with the taiko’s first cycle of patterns clearly perceptible with its opening and closing <em>kashira</em> pattern.</p>
+  <p><em>Ji</em>, or ‘ground’, is a section in which the nohkan player introduces a core sequence of segments. It consists of three that we labelled a, b, and c, each one lasting one <em>honji</em>. They have a clear melodic quality that contrasts with the opening rhythmic patterns. The sequence can be interrupted after any of the three segments to move on to the closing <em>dan</em> section. In this recording, the <em>Ji</em> is played twice, but the second time, segment 'c' is dropped as the ensemble starts the closing section after the segment 'b.' The duration of the <em>Ji</em>  coincides with the taiko’s first cycle of patterns, clearly perceptible with its opening and closing <em>kashira</em> pattern.</p>
 
   <h3>Dan</h3>
-  <p>The beginning and end of the last section of the dance are once again clearly marked by the <em>hayashi</em>. The nohkan starts the four-<em>honji</em> <em>dan</em> with two new one-<em>honji</em> segments that help mark the start of the section. They are followed by a return of its segment ‘a’, which leads to the cadential pattern <em>tome</em>. Its sequence of segments can be summarized as: d, e, a, <em>tome</em>.
-  The taiko patterns also help articulate the beginning of the <em>dan</em>. First, it finishes a cycle right at the beginning of the <em>dan</em>, at which point it drops out during the <em>dan's</em> first <em>honji</em>, thus creating a sudden change of density.</p>
+  <p>The beginning and end of the last section of the dance are once again clearly marked by the <em>hayashi</em>. The nohkan starts the four-<em>honji</em> <em>dan</em> with two new one-<em>honji</em> segments that help mark the start of the section. They are followed by a return of its segment ‘a,’ which leads to the cadential pattern <em>tome</em>. Its sequence of segments can be summarized with d, e, a, <em>tome</em>.
+The taiko helps articulate the beginning of the <em>dan</em> by dropping out during the first <em>honji</em> and creating a sudden decrease in density.</p>
 
-  <p>To help appreciate the complexity between the <em>hayashi's</em> four parts, the <em>maibataraki</em> is presented at three different speeds: The original, and at 75% and at 50% of the original speed.
+  <p>To help appreciate the complexity between the <em>hayashi's</em> four parts, the <em>maibataraki</em> is presented at three different speeds: the original, 75% of the original speed, and 50% of the original speed.
 </p>
 
 <div class="tabs-container">
