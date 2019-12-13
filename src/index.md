@@ -28,7 +28,7 @@ layout: home
           image="/assets/images/Kokaji-duo2.jpg"
           icon="icon-plays"
           title="Plays"
-          description="offers detailed intermedia analysis of two contrasting plays"
+          description="offers detailed intermedia analysis of two contrasting full plays and their comprising sections"
       %}
       {% include card.html
           link="/elements"
