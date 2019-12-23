@@ -7,7 +7,7 @@ permalink: /elements/
 <main class="page-content">
   <div class="text-container">
     <h2>Elements of Noh</h2>
-    <p>To better appreciate the intermedia dimensions of Noh it is helpful to know about the unique expressive possibilities of its individual media and the standard vocabulary of formal sections (shōdan). In addition to the relevant chapters developed for this website, which are mainly focused on elements found in the two analyzed plays, the reader can refer to the affiliated <a href="https://jparc.online/nogaku/"> website 'Nōgaku' </a> at the Japanese Performing Arts Research Consortium <a href="https://jparc.online/"> (JPARC)</a> where a wider context is provided.</p>
+    <p>To better appreciate the intermedia dimensions of Noh it is helpful to know about the unique expressive possibilities of its individual media and the standard vocabulary of formal sections (shōdan). In addition to the relevant chapters developed for this website, which are mainly focused on elements found in the two analyzed plays, the reader can refer to the affiliated <a href="https://jparc.online/nogaku/"> website 'Nōgaku' </a> at the Japanese Performing Arts Research Consortium <a href="https://jparc.online/"> (JPARC)</a> where more information in a wider context is provided.</p>
   </div>
 
   <div class="list-plays">
