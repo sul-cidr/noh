@@ -1,5 +1,6 @@
 ---
 layout: website
+title: Text of Hashitomi
 menu-active: elements
 second-level-menu-active: libretti
 third-level-menu-active: hashitomi
@@ -20,7 +21,7 @@ permalink: /text-hashitomi/
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Hashitomi">Hashitomi Text</h2>
-        <p> <em>Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
+        <p><em> Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
 
 
         <table class="content-table">
@@ -178,7 +179,7 @@ and perform a memorial service for the flowers.</td>
         </tr>
 
         <tr class="content-table__row--header">
-              <td id="Kakaru-2" class="content-table__column">Dialogue: Kakaru-2</td>
+              <td id="Kakaru-2" class="content-table__column">Shite exits: Kakaru-2</td>
               <td class="content-table__column"></td>
               </tr>
       <tr class="content-table__row">
@@ -386,10 +387,10 @@ and perform a memorial service for the flowers.</td>
   Well then, the one known as Lady Yūgao was the daughter<br>
   of a middle captain of the third rank, and <br>
   owing to certain circumstances,<br>
-  she came to live in seclusion in the area of Gojo.<br>
+  she came to live in seclusion in the area of Gojō.<br>
   Also, at that time Hikaru Genji,<br>
   was paying regular visits to the home of Lady Rokujo.<br>
-  On occasion, he would pass through the Gojo area<br>
+  On occasion, he would pass through the Gojō area<br>
   and it happened that there was a simple dwelling there,<br>
   with ‘evening faces’ blooming in splendid profusion.<br>
   He called Koremitsu to him,<br>
@@ -477,7 +478,7 @@ and perform a memorial service for the flowers.</td>
   the merit emanating from your Reverence,<br>
   the spirit of Lady Yūgao appeared to you in order<br>
   to ask that you offer prayers for her deliverance.<br>
-  If that is the case, you should go now to the Gojo area,<br>
+  If that is the case, you should go now to the Gojō area,<br>
   where a miracle will surely occur.<br>
   Then, you should pray for her enlightenment,<br>
   as she requested of you. </td>
@@ -493,7 +494,7 @@ and perform a memorial service for the flowers.</td>
   <td class="content-table__column">
                   <h5>Waki:</h5>
   As I also believe this to be true, <br>
-  I will go to the Gojo area and pray there<br>
+  I will go to the Gojō area and pray there<br>
   for the ghost of Lady Yūgao and her deliverance.</td>
 
   </tr>
@@ -555,7 +556,7 @@ and perform a memorial service for the flowers.</td>
             </em></td>
 <td class="content-table__column"><h5>Waki:</h5>
             <p markdown="1">Following what I was told earlier <br>
-            I have come to Gojo to see: <br>
+            I have come to Gojō to see: <br>
             Indeed, the mansion, as in the past, <br>
             the dwelling and its evening faces. <br>
             Gourds now often empty, <br>

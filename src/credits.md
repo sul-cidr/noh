@@ -36,6 +36,9 @@ permalink: /credits/
   <h4>Translation of Noh Plays</h4>
   <p><strong>Rebecca Teele Ogamo</strong>, Kongō School</p>
 
+  <h4>Editor</h4>
+  <p><strong>Ellen O'Connell Whittet</strong>, University of California, Santa Barbara</p>
+
   <h4>Additional Collaborators</h4>
   <p><strong>NAKAMURA Itsuko</strong>, American Consortium for Japanese Studies<br>
   <strong>TAKAHASHI Yoko</strong>, Kyoto City University of Arts

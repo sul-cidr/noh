@@ -1,5 +1,6 @@
 ---
 layout: website
+title: Text of Kokaji
 menu-active: elements
 second-level-menu-active: libretti
 third-level-menu-active: kokaji
@@ -21,7 +22,7 @@ permalink: /text-kokaji/
       <div class="text-container">
         <h2 id="Hashitomi">Kokaji Text</h2>
 
-        <p> <em>Author unknown<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
+        <p><em>Author unknown<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
 
         <table class="content-table">
 
@@ -165,7 +166,7 @@ I must place my trust only in this.</td>
 </tr>
 
 <tr class="content-table__row--header">
-<td id="Shite-enters" class="content-table__column">Shite Enters: Dialogue</td>
+<td id="Shite-enters" class="content-table__column">Waki Enters: Dialogue</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -181,7 +182,7 @@ Hurry! make the sword. </td>
 <td class="content-table__column"> <h5>Waki:</h5> Yes! sir.</td>
 </tr>
 
-<tr class="content-table__row--header"> <td id="Monologue" class="content-table__column">Shite Enters: Monologue</td>
+<tr class="content-table__row--header"> <td id="Monologue" class="content-table__column">Waki Enters: Monologue</td>
 <td class="content-table__column"></td>
 </tr>
 <tr class="content-table__row">
@@ -345,7 +346,7 @@ itsu ka warera mo kaeru nami no, <br>
 koromode ni arama shi to omoi-tsuzukete-yuku hodo ni.</em></td>
 <td class="content-table__column"><h5> Jiutai:</h5>
 <p markdown="1">And so, it was in the early days of our history, <br>
-the Twelfth of the Imperial Line, the Emperor Keiko,<br>
+the Twelfth of the Imperial Line, the Emperor Keikō,<br>
 had a son known by the name Yamato-dake.[^3] <br>
 The wild barbarians! he received the order to subdue them. <br>
 The barrier check points far behind as yet further to the East. <br>
@@ -752,8 +753,8 @@ On the face of it I strike: "Munechika, Swordsmith"!</td>
 <h5>Shite:</h5>
 <em> Shintai toki no deshi nareba.<br>
 Kogitsune to ura ni azayakani.</em></td>
-<td class="content-table__column"> <h5>Shite:</h5>  As your timely apprentice the god:
-"Little Fox", I skillfully strike on the reverse.</td>
+<td class="content-table__column"> <h5>Shite:</h5>  <p markdown="1">As your timely apprentice the god:
+"Little Fox"[^4], I skillfully strike on the reverse.</p></td>
 </tr>
 
 <tr class="content-table__row--header">
@@ -817,3 +818,5 @@ and return to Higashiyama, the eastern mountains, the peak of Mt. Inari!</p></td
 [^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.
 
 [^3]: Emperor Keikō feared the brutal temperament of his son who had slewed his elder brother. Thus, to keep him at distance, he sent him to the Eastern provinces, but before leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
+
+[^4]: The deity’s use of ‘Little Fox’ as his signature comes from the fact that foxes, often regarded as messengers are associated with various Inari shrines.
