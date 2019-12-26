@@ -1,7 +1,7 @@
 language: ruby
 
 rvm:
-  - 2.3.3
+  - 2.3
 
 install:
   - nvm install v8.4
