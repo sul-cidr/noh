@@ -127,7 +127,7 @@ permalink: /about-movement/
             accompanied by the chanting of brothers UDAKA Tatsushige and Norishige.</p>
           <h3></h3>
           <p> For more information about movement please see an extended chapter at the <a
-              href="https://jparc.online/nogaku/performance/movement/">JPARC Nōgaku Site</a>.</p>
+              href="https://jparc.online/nogaku/performance/movement/"  target="_blank">JPARC Nōgaku Site</a>.</p>
         </div>
       </section>
     </div>
