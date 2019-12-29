@@ -14,7 +14,7 @@ second-level-menu-active: movement
 
     <p>The Open-retreat pattern (<em>hiraki</em>) combines spreading the arms with three back steps. In this video it concludes with the Standing position (<em>kamae</em>).</p>
 
-    <p>This is one of the most common patterns. It does not have a specific time or spatial points within a dance. Because of its ‘retreat’ motion (three back steps), it is most of the time preceded by a forward pattern such as the <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>, <a href="/movement/scooping-point">Scooping Point (<em>kaikomi</em>)</a>, or a <a href="/movement/large-zigzag">Zigzag (<em>ōzayu</em>)</a>, among others. Originally, the pointing pattern aimed at identifying an object to be contemplated and the Open-retreat as a stepping back motion to better contemplate the identified object. In this video, it is preceded by the Forward Point pattern (<em>shikake</em>).</p>
+    <p>This is one of the most common patterns. It does not have a specific time or spatial points within a dance. Because of its ‘retreat’ motion (three back steps), it is most of the time preceded by a forward pattern such as the <a href="/movement/forward-point"target="_blank">Forward Point (<em>shikake</em>)</a>, <a href="/movement/scooping-point"target="_blank">Scooping Point (<em>kaikomi</em>)</a>, or a <a href="/movement/large-zigzag"target="_blank">Zigzag (<em>ōzayu</em>)</a>, among others. Originally, the pointing pattern aimed at identifying an object to be contemplated and the Open-retreat as a stepping back motion to better contemplate the identified object. In this video, it is preceded by the Forward Point pattern (<em>shikake</em>).</p>
 
   </div>
 

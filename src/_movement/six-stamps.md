@@ -14,7 +14,7 @@ second-level-menu-active: movement
 
     <p>Stamp series usually starts with the left foot, then alternate right, left feet gradually increasing the speed.  Often, the first and last stamps are loud while those in the middle are softer. It is also customary for the meaning of the stamps to be related to the text.</p>
 
-    <p>This 6 stamp series closes with a <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>. It is performed in Martial mode.</p>
+    <p>This 6 stamp series closes with a <a href="/movement/forward-point" target="_blank">Forward Point (<em>shikake</em>)</a>. It is performed in Martial mode.</p>
 
     <p>The rhythm of the stamps in the context of the eight-beat unit is shown here. A black dot means a loud stamp, and a white one, a soft stamp:</p>
 

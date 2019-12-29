@@ -14,7 +14,7 @@ second-level-menu-active: movement
 
     <p>The pattern either symbolizes actual praying or a request that prayers being said for his soul.
     The pattern appears at moment of intense emotion.
-    It can be performed with the <a href="/movement/l-hand">Left (<em>shiori hidari</em>)</a> or Right (<em>shiori migi</em>), or with <a href="/movement/both-hands">Both hands (<em>shiori ryote</em>)</a>.</p>
+    It can be performed with the <a href="/movement/l-hand" target="_blank">Left (<em>shiori hidari</em>)</a> or Right (<em>shiori migi</em>), or with <a href="/movement/both-hands" target="_blank">Both hands (<em>shiori ryote</em>)</a>.</p>
 
 </div>
 <div class="tabs-container">

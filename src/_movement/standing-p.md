@@ -13,7 +13,7 @@ second-level-menu-active: movement
     <h2>Standing (<em>tachi gassho</em>)</h2>
 
     <p>The pattern either symbolizes actual praying or a request that prayers being said for his soul.
-    It can be performed Standing (<em>tachi gassho</em>) or <a href="/movement/kneeling-p">Kneeling (<em>shita gassho</em>)</a>.</p>
+    It can be performed Standing (<em>tachi gassho</em>) or <a href="/movement/kneeling-p" target="_blank">Kneeling (<em>shita gassho</em>)</a>.</p>
 </div>
 
 <div class="tabs-container">

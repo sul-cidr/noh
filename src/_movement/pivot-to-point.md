@@ -12,7 +12,7 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
     <h2>Right Pivot to Forward Point (<em>migi sasoi</em>)</h2>
 
-    <p>As suggested by its translated title, this pattern is performed with a <a href="/movement/simple-pivot">Right Pivot (<em>migi nejiru</em>)</a>, a <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>, and with a fan in <a href="/movement/reverse-hold">Reverse hold (<em>ōgi taori</em>)</a>.</p>
+    <p>As suggested by its translated title, this pattern is performed with a <a href="/movement/simple-pivot" target="_blank">Right Pivot (<em>migi nejiru</em>)</a>, a <a href="/movement/forward-point" target="_blank">Forward Point (<em>shikake</em>)</a>, and with a fan in <a href="/movement/reverse-hold" target="_blank">Reverse hold (<em>ōgi taori</em>)</a>.</p>
 
 
   </div>
