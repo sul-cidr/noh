@@ -51,7 +51,7 @@ third-level-menu-active: otsuzumi
     <h4 id="strictness">Strict and Flexible</h4>
     <p>The drum parts are always connected to the eight-beat measure. We call a rhythmic setting 'strict' when the beat is relatively steady and 'flexible' when the beat is irregular. In the latter case the music is often characterized by fewer strokes, and a slower tempo. Difference between the two rhythmic settings is also accentuated by the <em>kakegoe</em>.  In strict setting the calls are centered equally between beats and have a shorter, more accented quality, In flexible setting the calls start earlier and can extend for the duration between beats. Percussion parts in a flexible rhythmic setting are performed primarily by the ōtsuzumi and kotsuzumi since most of the music involving the taiko is strict. </p>
 
-    <p>For comparison, an Ashirai sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
+    <p id='Settings'>For comparison, an Ashirai sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
 
     <div class="tabs-container">
       <div class="tabs-container__links">
