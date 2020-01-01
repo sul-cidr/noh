@@ -15,7 +15,7 @@ second-level-menu-active: movement
     <p>To perform a Simple pivot to the right (<em>migi nejiru</em>), the dancer slides his right heel out and then slides his left foot parallel to the right one.
     To turn left (<em>hidari nejiru</em>), the movement is reversed.</p>
 
-    <p>The Simple pivot produces a softer turn than the <a href="/movement/step-pivot">Step pivot</a>.</p>
+    <p>The Simple pivot produces a softer turn than the <a href="/movement/step-pivot/" target="_blank">Step pivot</a>.</p>
 
   </div>
 

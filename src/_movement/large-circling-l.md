@@ -12,7 +12,7 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circling</h4>
     <h2>Large Circling to the Left (<em>hidari ōmawari</em>)</h2>
 
-    <p>Circling usually refers to moving in a large arc fashion from upstage to downstage and as such it helps define the dancing space. Because it is space-specific, one needs to know the following convention when it comes to numbering the areas on the <a href="/staging/stage" target="_blank">stage</a>.</p>
+    <p>Circling usually refers to moving in a large arc fashion from upstage to downstage and as such it helps define the dancing space. Because it is space-specific, one needs to know the following convention when it comes to numbering the areas on the <a href="/staging/stage/#Squares" target="_blank">stage</a>.</p>
 
     <p>The strongest stage positions are: Squares 3 and 4 because they are the closest to the audience and Square 9 since it is center stage.  When performing a large left circle (<em>ōmawari</em>) the dancer moves from Squares 9 (or 4) to 6 and then to 8. This overall motion from front to backstage, from a strong stage position to a weaker one has the effect of releasing the tension.</p>
 
