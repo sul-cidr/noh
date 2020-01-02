@@ -34,8 +34,8 @@ layout: home
           link="/elements"
           image="/assets/images/Hashitomi-prop-covered.jpg"
           icon="icon-elements"
-          title="Elements of Noh"
-          description="provides fundamentals of Noh music, movement, text and staging, as well as catalogs of standard dance patterns and musical forms used in the featured plays"
+          title="Elements"
+          description="provides fundamentals of Noh's form, music, movement, text and staging, as well as catalogs of standard dance patterns and musical forms used in the featured plays"
       %}
     </div>
   </div>
