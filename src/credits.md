@@ -5,12 +5,18 @@ menu-active: about
 permalink: /credits/
 ---
 <main class="page-content">
+
   <div class="text-container">
+ <h4></h4>
+{% include image-scalable.html src="/assets/images/logos.png" scale="50%" align="center" column_size="large" %}
+<h4></h4>
     <h1>CREDITS</h1>
+
     <h4>Principal Investigators</h4>
 <p><strong>FUJITA Takanori</strong>, Kyoto City University of Arts
 <br><strong>Jarosław Kapuściński</strong>, Stanford University<br>
 <strong>François Rose</strong>, Stanford University</p>
+<p>The project is a cooperation of Research Center for Japanese Traditional Music at Kyoto City University of Arts and Department of Music at Stanford University</p>
 
   <h4>Principal Contributors and Advisors</h4>
   <p><strong>KONGŌ Hisanori</strong>, Iemoto of the Kongō School, Kyoto<br>
@@ -130,10 +136,9 @@ permalink: /credits/
   <h2>SPONSORS</h2>
   <p>Freeman Spogli Institute for International Studies, Japan Fund, Stanford University;<br>
   Stanford University Library, Center for Interdisciplinary Digital Research (CIDR);<br>
- School of Humanities and Sciences, Department of Music;<br>
+ Stanford University, Department of Music;<br>
  Stanford University, Shenson Family Fund;<br>
  Stanford Center for East Asian Studies;<br>
- Kyoto City University of the Arts, Research Center for Japanese Traditional Music;<br>
 Hosei University, The Nogami Memorial Noh Theater Research Institute;<br>
 Ritusmeikan University, Art Research Center;<br>
  University of the Pacific</p>
