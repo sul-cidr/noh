@@ -122,6 +122,6 @@ Recognizing the proper <em>kurai</em> helps the performers achieve a better leve
 </section></div>
 </main>
 
-[^1]: For more precise explanation of *komi* see Fujita (2019a and 2019b) “Layers and elasticity in the rhythm of Noh songs: taking komi’ and its social background” in <a href="https://scholarworks.iu.edu/journals/index.php/emt/article/view/28817" target="_blank">*Thought and play in musical rhythm*</a>. Eds. Wolf, Blum and Hasty,  Oxford UP, 2019. “The Community of Classical Japanese Music Transmission: The Preservation Imperative and the Production of Change in Nō.”
+[^1]: For more precise explanation of *komi* see Fujita (2019a and 2019b) “Layers and elasticity in the rhythm of Noh songs: taking komi’ and its social background” in *Thought and play in musical rhythm*</a>. Eds. Wolf, Blum and Hasty,  Oxford UP, 2019. <a href="https://scholarworks.iu.edu/journals/index.php/emt/article/view/28817" target="_blank">“The Community of Classical Japanese Music Transmission: The Preservation Imperative and the Production of Change in Nō.”</a>
 
 [^2]: Private interview with UDAKA Tatsushige, October, 2018.
