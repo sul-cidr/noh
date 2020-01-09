@@ -8,7 +8,7 @@ permalink: /credits/
 
   <div class="text-container">
  <h4></h4>
-{% include image-scalable.html src="/assets/images/logos.png" scale="50%" align="center" column_size="large" %}
+{% include image-scalable.html src="/assets/images/logos.png" scale="70%" align="center" column_size="large" %}
 <h4></h4>
     <h1>CREDITS</h1>
 
@@ -137,6 +137,7 @@ permalink: /credits/
   <p>Freeman Spogli Institute for International Studies, Japan Fund, Stanford University;<br>
   Stanford University Library, Center for Interdisciplinary Digital Research (CIDR);<br>
  Stanford University, Department of Music;<br>
+ Research Center for Japanese Traditional Music, Kyoto City University of Arts; <br>
  Stanford University, Shenson Family Fund;<br>
  Stanford Center for East Asian Studies;<br>
 Hosei University, The Nogami Memorial Noh Theater Research Institute;<br>
