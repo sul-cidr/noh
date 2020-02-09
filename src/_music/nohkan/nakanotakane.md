@@ -33,12 +33,12 @@ hi-hyo i-ya
         <div class="wrapper">
           <section id='generic' title='Generic' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Naka_no_takane_Shoga_sl.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Naka_no_takane_Shoga.mp4"
           %}
           </section>
           <section id='Kokaji' title='Kokaji' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Kokaji_Naka_no_takane_Shoga_sl.mp4"
+            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Kokaji_Naka_no_takane_Shoga.mp4"
           %}
           </section>
           <section id='Hashitomi' title='Hashitomi' class='tabbed-narrative'>

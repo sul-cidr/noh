@@ -44,7 +44,7 @@ hi-hyo ru ri
 </section>
 <section id='Hashitomi' title='Hashitomi' class='tabbed-narrative'>
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Takane_mi_kusari_Shoga_sl.mp4"
+  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Takane_mi_kusari_Shoga.mp4"
 %}
 </section>
   </div>
