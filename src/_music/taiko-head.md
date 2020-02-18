@@ -18,7 +18,7 @@ third-level-menu-active: taiko
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2>Head</h2>
-    <p>Head patterns are used to start and end a rhythmic cycle. Rhythmically it uses a mix of short and long durations to create a freer and irregular structure. We find in this category, among others, the <em>kashira</em> and <em>tsuke gashira</em> patterns.</p>
+    <p>Head patterns start and end a rhythmic cycle. Rhythmically, they use a mix of short and long durations to create a freer and irregular structure. We find in this category the <em>kashira</em> and <em>tsuke gashira</em> patterns, among others.</p>
 
     <div class="tabs-container">
       <div class="tabs-container__links">
