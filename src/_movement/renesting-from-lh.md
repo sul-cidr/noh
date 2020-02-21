@@ -13,8 +13,9 @@ second-level-menu-active: movement
     <h2>Renesting to the Right Hand (<em>ōgi mochinaoshi</em>)</h2>
 
 
-    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, and various motions involving it.
-    While the <a href="/movement/move-to-lh" target="_blank">Fan to the left hand pattern (<em>ōgi hidari e</em>)</a> is often quite ostentatious, the re-nesting of the fan (<em>ōgi mochinaoshi</em>) is often done inconspicuously.</p>
+    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, which involve various motions.
+    While the <a href="/movement/move-to-lh">Fan to the left hand pattern (<em>ōgi hidari e</em>)</a> can be ostentatious, the re-nesting of the fan (<em>ōgi mochinaoshi</em>) is often done inconspicuously.</p>
+
 
   </div>
 

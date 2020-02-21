@@ -12,7 +12,7 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Circlets</h4>
     <h2>Full Circlet (<em>chū mawari ashi kakezu</em>)</h2>
 
-    <p>The Full circlet is an almost complete small circle that takes the dancer one step behind his starting position, as clearly shown in the side view video. It is often performed on backstage <a href="/staging/stage/#Squares" target="_blank">Square 8 and sometimes Square 1</a>.</p>
+    <p>The Full circlet is a nearly-complete small circle that takes the dancer one step behind his starting position, shown in the side view video. It is often performed on backstage <a href="/staging/stage">Square 8 and sometimes Square 1</a>.</p>
 
   </div>
 

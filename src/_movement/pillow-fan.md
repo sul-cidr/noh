@@ -12,9 +12,9 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Pillow Fan (<em>makura no ōgi</em>)</h2>
 
-    <p>The opened fan is nestled in the crook of the dancer's left arm and raised to obscure his face as he kneels. In order to hide his face, he must be facing right.</p>
+    <p>The opened fan is nestled in the crook of the dancer's left arm and raised to obscure his face as he kneels. To hide his face, he must be facing right.</p>
 
-    <p>The pattern suggests laying the head against a pillow, sleeping or dreaming.  It may also be used to indicate embarrassment or the disappearance of the character, so it could also belongs in the mimetic group of patterns.</p>
+    <p>The pattern suggests laying the head against a pillow, giving the impression that the character is sleeping or dreaming.  It may also be used to indicate embarrassment or the disappearance of the character, so it could also belongs in the mimetic group of patterns.</p>
 
   </div>
 

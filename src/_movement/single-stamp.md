@@ -13,11 +13,12 @@ second-level-menu-active: movement
     <h2>Single Stamp (<em>hyōshi</em>)</h2>
 
 
-    <p>Stamps can be performed singly, doubly or in sequence of 4 to 16.  While single and double stamps fall in the category of Structural patterns, sequences of stamps constitute a Mimetic pattern.</p>
+    <p>Stamps can be performed singly, doubly, or in sequence of four to sixteen.  While single and double stamps fall in the category of Structural patterns, sequences of stamps constitute a Mimetic pattern.</p>
 
-    <p>Most dances start with a single or double stamp, and most Noh performances conclude with a double stamp. Moreover, some single stamps are also integrated into some extended patterns such as the <a href="/movement/large-zigzag" target="_blank">Large zig-zag (<em>ōzayu</em>)</a>.</p>
+    <p>Most dances start with a single or double stamp, and most Noh performances conclude with a double stamp. Moreover, some single stamps are also integrated into extended patterns, such as the <a href="/movement/large-zigzag">Large zig-zag (<em>ōzayu</em>)</a>.</p>
 
-    <p>For feminine roles, the Single foot stamp (<em>hyōshi</em>) is performed with the foot slowly rising just above the ankle and gently dropping, creating a soft beat. Although, the Right foot stamp (<em>migi hyōshi</em>) and Left foot stamp (<em>hidari hyōshi</em>) can be perform in martial mode, they are shown here performed in feminine mode only.</p>
+    <p>For feminine roles, the Single foot stamp (<em>hyōshi</em>) is performed with the foot slowly rising just above the ankle and gently dropping, creating a soft beat. Although, the Right foot stamp (<em>migi hyōshi</em>) and Left foot stamp (<em>hidari hyōshi</em>) can be performed in Martial mode, we show them here performed in feminine mode only.</p>
+
 
   </div>
 

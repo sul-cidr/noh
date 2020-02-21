@@ -13,8 +13,8 @@ second-level-menu-active: movement
     <h2>Reverse Hold (<em>ōgi taori</em>)</h2>
 
 
-    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, and various motions involving it.
-    For a Pointed reverse hold (<em>ōgi taori</em>), the fan is half-closed and the grasp reversed so that the fan paper is held among the outside of the arm and points back.</p>
+    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, which involve various motions. For a Pointed reverse hold (<em>ōgi taori</em>), the fan is half-closed and the grasp reversed so that the fan paper is held along the outside of the arm and points back.</p>
+
 
   </div>
 

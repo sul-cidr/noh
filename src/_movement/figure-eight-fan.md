@@ -12,7 +12,7 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Figure Eight Fan (<em>yūken</em>)</h2>
 
-    <p>This very dynamic motion of the fan is often used to express intense emotion, whose specific meaning related to the play’s context and words.</p>
+    <p>The performer often uses this dynamic motion of the fan to express intense emotion, the specific meaning of which is related to the play’s context and words.</p>
 
   </div>
 

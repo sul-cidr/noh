@@ -12,8 +12,8 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns</h4>
     <h2>Leap Turn Right and Left (<em>tobimawari hiza</em>)</h2>
 
-    <p>This is another dynamic pattern that can be used merely for the effect, or it may carry referential meaning.
-    This pattern is always performed in martial mode.</p>
+    <p>The Leap turn is a bouncy spin around to the front. It can be performed in a right- or leftward direction. This is another dynamic pattern that is often used to suggest, for instance, an ascent to heaven, or soaring up mountain's peaks. 
+    This pattern is always performed in Martial mode.</p>
 
   </div>
 

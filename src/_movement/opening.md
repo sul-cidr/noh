@@ -13,8 +13,9 @@ second-level-menu-active: movement
     <h2>Opening fan (<em>ōgi hiraki</em>)</h2>
 
 
-    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, and various motions involving it.
-    A closed fan is held in the right hand, while an open fan is held in the fist of the right hand.</p>
+    <p>Fan motion accentuates arm motion. There are various ways of holding it, and the fan can perform various motions.
+    The performer holds the closed fan in the right hand, while he holds an open fan in the fist of his right hand.</p>
+
 
     <p>Opening the fan (<em>ōgi hiraki</em>) marks the beginning of a new section in a dance.</p>
 

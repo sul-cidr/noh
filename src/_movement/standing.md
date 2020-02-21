@@ -12,9 +12,7 @@ second-level-menu-active: movement
   <div class="text-container">
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Still Position</h4>
     <h2>Standing (<em>kamae</em>)</h2>
-    <p>The standing posture is fundamental since actors maintain it whenever they are standing still: bent knees, straight back, and pulled-up chin. The Standing Feminine position differs from the Martial one. The arms are closer to the body and the feet are closer together. The posture allows for maximum balance when wearing a mask that greatly limits one’s vision, an important fact considering that most shite roles use a mask.</p>
-
-    <p>One of the dancer-shite with whom we worked with, UDAKA Tatsushige pointed out that this posture allows for maximum balance when wearing a mask that greatly limits one’s vision, an important fact considering that most shite roles require a masked dancer.</p>
+    <p>Actors maintain the fundamental standing posture whenever they are standing still, with bent knees, a straight back, and a pulled-up chin. The Standing Feminine position differs from the Martial one because the arms are closer to the body and the feet closer together. This posture allows for maximum balance when wearing a mask that limits one’s vision, an important consideration since most shite roles use a mask.</p>
 
   </div>
 

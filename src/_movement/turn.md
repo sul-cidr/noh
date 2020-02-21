@@ -12,19 +12,20 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Head</h4>
     <h2>Left and Right Turns (<em>atama hidari to migi e hiza</em>)</h2>
 
-    <p>While several mimetic patterns are clear and conspicuous others are much more subtle, and yet they are as important. This is the case for head motion. It can be expected anytime, but in certain sections such as in the sitting kuse (called <em>iguse</em>), it is one of the very few motion used, thereby increasing its importance.</p>
+    <p>While several mimetic patterns are clear, others are more subtle, yet just as important. This is the case for head motion. It can occur anytime, but in certain sections, such as in the sitting <em>Kuse</em> (called <em>Iguse</em>), it is one of only a few motions, which increases its importance.</p>
 
-    <p>Head motion is used to accentuate a line of text or bring focus to an important moment.  The sudden and angular head motion usually suggests surprise or a search for a specific object.</p>
+<p>Head motion is used to accentuate a line of text or to bring focus to an important moment.  A sudden and angular head motion usually suggests surprise or a search for some object.</p>
 
-    <p>A pulled-in chin characterizes the basic position of the head and is needed since most shite's roles require a masked dancer. The pulled-in chin allows the mask to lay straight on the dancer’s face, and this is important since head motion changes the light on the mask, which alters its expression.</p>
+<p>The basic position of the head includes a pulled-in chin, which is important since most shites’ roles require a masked dancer. The pulled-in chin allows the mask to lay straight on the dancer’s face, a head motion that changes the light on the mask, altering its expression.</p>
 
-    <p>The head motions on this website are performed by a shite actor who would normally be masked, yet his clear facial expressions would lead one to believe otherwise.</p>
+<p>The head motions on this website are performed by a shite actor who would normally be masked. Yet, his suggestive facial expressions could give the impression that they are more commonly performed by an unmasked actor.</p>
+
 
     <p>The Head patterns on this page are:</p>
     <p>Left turn (<em>atama hidari e</em>)</p>
     <p>Right turn (<em>atame migi e</em>)</p>
     <p>Left, Right, Left turns (<em>atama omote tsukai</em>)</p>
-    <p>Left, Right, Left, Right, down (<em>atama ue yori shita e omote tsukai</em>): This head motion suggests the actor is following a wind carried object, insect, or animal as it is about to come down on the ground.</p>
+    <p>Left, Right, Left, Right, down (<em>atama ue yori shita e omote tsukai</em>): This head motion suggests the actor is following a wind-carried object, insect, or animal that is about to touch the ground.</p>
 
   </div>
 

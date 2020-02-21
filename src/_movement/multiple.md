@@ -12,8 +12,8 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Switch Knee</h4>
     <h2>Multiple Kneeling Switch (<em>gasshi</em>)</h2>
 
-    <p>Multiple kneels conveys an impression of vigor whose specific meaning is text related.
-    It is always performed in Martial mode.</p>
+    <p>Kneeling multiple times convey an impression of vigor whose specific meaning is text-related. It is always performed in Martial mode.</p>
+
 
 
   </div>

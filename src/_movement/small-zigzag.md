@@ -12,11 +12,12 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Zigzags</h4>
     <h2>Small Zigzag (<em>kozayu</em>)</h2>
 
-    <p>The Small zigzag (<em>kozayu</em>) combines a left hand point with two steps to the left followed with a right hand lift point with one step to the right.</p>
+    <p>The Small zigzag (<em>kozayu</em>) combines a left-hand point with two steps to the left, followed with a right hand-lift point with one step to the right.</p>
 
-    <p>When combined with a <a href="/movement/scooping-point" target="_blank">Scooping point (<em>kaikomi</em>)</a>, the Small zigzag (<em>kozayu</em>) indicates the end of a section or of a dance.</p>
+<p>When combined with a <a href="/movement/scooping-point">Scooping point (<em>kaikomi</em>)</a>, the Small zigzag (<em>kozayu</em>) indicates the end of a section or dance.</p>
 
-    <p>There are two other zigzag, each one covering a larger amount of stage space: the <a href="/movement/large-zigzag" target="_blank">Large Zigzag (<em>ōzayu</em>)</a> and the <a href="/movement/medium-zigzag" target="_blank">Medium zizag (<em>chūzayu</em>)</a>.</p>
+<p>There are two other zigzags, each one covering a larger space on stage: the <a href="/movement/large-zigzag">Large Zigzag (<em>ōzayu</em>)</a> and the <a href="/movement/medium-zigzag">Medium Zizag (<em>chūzayu</em>)</a>.
+</p>
 
   </div>
 

@@ -12,9 +12,9 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Offering the Fan (<em>ōgi mae dashi</em>)</h2>
 
-    <p>The opened fan is presented horizontally in front of the body. The fan can either be offered from above or from below.</p>
+    <p>The performer presents the opened fan horizontally in front of his body. The fan can either be offered with a downward or upward motion of the extended left arm.</p>
 
-    <p>As implied by it name, this pattern suggests that an object is passing from one person to another.This pattern can also suggests that the dancer is looking out at something.</p>
+    <p>As the name implies, this pattern suggests that an object is passing from one person to another. This pattern can also suggest the dancer is looking out at something.</p>
 
   </div>
 
