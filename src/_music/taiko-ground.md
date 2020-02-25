@@ -18,7 +18,8 @@ third-level-menu-active: taiko
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2>Ground</h2>
-    <p>Ground patterns are rhythmically regular and stable. In a sequence of patterns, it is the only one that can be repeated. Among others, the <em>kizami</em> pattern fits this category.</p>
+    <p>Ground patterns are rhythmically regular and stable. In a sequence of patterns, they are the only ones that can be repeated. The <em>kizami</em> is one example, among other patterns, playing a ground function.
+</p>
 
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Kizami.mp4"

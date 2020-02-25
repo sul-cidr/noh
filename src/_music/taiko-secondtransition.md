@@ -18,7 +18,7 @@ third-level-menu-active: taiko
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2>Second transition</h2>
-    <p>Second transition patterns are used to move from the Ground to the Closing pattern, so the rhythm is usually slowing down. Fitting this function is the <em>age</em> pattern, among others.</p>
+    <p>Second transition patterns move from the Ground to the Closing pattern, so the rhythm usually slows down. The <em>age</em> is one example, among other patterns,  playing this transitional function.</p>
 
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Ue_ge_yori.mp4"

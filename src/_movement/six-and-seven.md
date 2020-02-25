@@ -12,12 +12,12 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Body Patterns: Stamps</h4>
     <h2>Six and Seven Stamps (<em>roku hyōshi nana byōshi</em>)</h2>
 
-    <p>Stamp series usually starts with the left foot, then alternate right, left feet gradually increasing the speed.  Often, the first and last stamps are loud while those in the middle are softer. It is also customary for the meaning of the stamps to be related to the text.</p>
+    <p>Stamp series usually starts with the left foot, then alternates right and left feet, gradually increasing the speed.  Often, the first and last stamps are loud while those in the middle are softer. It is also customary for the meaning of the stamps to be connected to the text.</p>
 
     <p>This 6 + 7 stamp series involves a Small Right Circle (<em>migi komawari</em>). It is always performed in Martial mode.</p>
 
-    <p>The rhythm of the stamps in the context of the eight-beat unit is shown here. A black dot means a loud stamp, and a white one, a soft stamp:</p>
-
+    p>We show the rhythm of the stamps in the context of the eight-beat unit here. A black dot means a loud stamp, and a white one, a soft stamp:</p>
+    
     {% include image-no-background.html src="/assets/images/movement/SixSevenStamps.jpeg" %}
 
 

@@ -12,8 +12,8 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic / Praying</h4>
     <h2>Standing (<em>tachi gassho</em>)</h2>
 
-    <p>The pattern either symbolizes actual praying or a request that prayers being said for his soul.
-    It can be performed Standing (<em>tachi gassho</em>) or <a href="/movement/kneeling-p">Kneeling (<em>shita gassho</em>)</a>.</p>
+    <p>The pattern symbolizes either praying or a request for someone else to pray for his soul. It can be performed Standing (<em>tachi gassho</em>) or <a href="/movement/kneeling-p">Kneeling (<em>shita gassho</em>)</a>.
+</p>
 </div>
 
 <div class="tabs-container">

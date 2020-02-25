@@ -12,10 +12,9 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot Motion: Turning</h4>
     <h2>Step pivot (<em>kakeru</em>)</h2>
 
-    <p>To perform a Step pivot to the right (<em>migi kakeru</em>), the dancer slides his left foot and bring it in front of the right one, and then slides his right foot parallel to the left one.
-    To turn left (<em>hidari kakeru</em>), the movement is reversed.</p>
+    <p>To perform a Step pivot to the right (<em>migi kakeru</em>), the dancer slides his left foot and brings it in front of the right one, then slides his right foot parallel to the left one. To turn left (<em>hidari kakeru</em>), the movement is reversed.</p>
 
-    <p>The Step pivot produces a sharper turn than the <a href="/movement/simple-pivot">Simple pivot</a>.</p>
+    <p>The Step pivot produces a sharper turn than the <a href="/movement/simple-pivot/" target="_blank">Simple pivot</a>.</p>
 
   </div>
 

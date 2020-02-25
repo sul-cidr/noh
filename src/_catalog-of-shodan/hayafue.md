@@ -26,12 +26,12 @@ second-level-menu-active: catalog-shodan
     </div>
   </div>
 
-  <p>Lively music for the entrance of a dragon, spirit, or deity, as it is the case in Kokaji. It is a nohkan congruent solo accompanied by the three percussion instruments. The  eight-beat introduction melody called <em>kakari</em>, opens with the strident <em>hishigi</em> tone and leads to a seven-<em>honji</em> melody with one segment per <em>honji</em>, identified in the video with letters a to g, respectively. It is repeated three times before leading to the one-<em>honji</em> cadence called <em>tome</em>.
+  <p>Lively music for the entrance of a dragon, spirit, or deity, as it is the case in Kokaji. It is a nohkan congruent solo accompanied by the three percussion instruments. The  eight-beat introduction melody called <em>kakari</em> opens with the strident <a href="/music/nohkan/hishigi" target="_blank"><em>hishigi</em></a> tone and leads to a seven-<em>honji</em> melody with one segment per <em>honji</em>, identified in the video with letters a to g, respectively. It is repeated three times before leading to the one-<em>honji</em> cadence called <em>tome</em>.
 </p>
 
-  <p>The performance on this video is based on Kokaji's <em>hayafue</em> and it includes the three-<em>honji</em> bridge from the preceding <em>shōdan</em>, a <em>noriji</em>.
+  <p>The performance in this video is based on Kokaji's <em>hayafue</em> and includes the three-<em>honji</em> bridge from the preceding <em>shōdan</em>, a <em>noriji</em>.
   The taiko performs a complete <a href="/music/taiko/#Patterns" target="_blank"><em>cycle</em></a> of patterns over the melody’s first iteration, and a second one over the rest of the <em>hayafue</em>. The two-hand percussion instruments contribute to the complex rhythmic texture by performing rhythmic ostinati of different durations.
-  To help appreciate the complexity between the four parts, the <em>hayafue</em> is presented at three different speeds: The original, and at 75% and at 50% of the original speed.
+  To help appreciate the complexity between the four parts, the <em>hayafue</em> is presented at three different speeds: the original, at 75%, and at 50% of the original speed.
 </p>
 
 <div class="tabs-container">

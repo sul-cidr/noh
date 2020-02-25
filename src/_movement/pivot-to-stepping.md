@@ -12,9 +12,9 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations</h4>
     <h2>Right Pivot to Stepping Forward (<em>migi uke migi hidari to de</em>)</h2>
 
-    <p>As suggested by its translated title, this pattern is performed with a <a href="/movement/step-pivot">Right Step Pivot (<em>migi kakeru</em>)</a>, followed by a right and left step as the right hand holding the fan moves forward and up.</p>
+    <p>As suggested by the translated title, this pattern is performed with a <a href="/movement/step-pivot" target="_blank">Right Step Pivot (<em>migi kakeru</em>)</a>, followed by a right and left step as the right hand holding the fan moves forward and up.</p>
 
-    <p>This pattern is often used as a preparation for an <a href="/movement/open-retreat">Open-retreat (<em>hiraki</em>)</a>.</p>
+    <p>This pattern is often used as a preparation for an <a href="/movement/open-retreat" target="_blank">Open-retreat (<em>hiraki</em>)</a>.</p>
 
   </div>
 

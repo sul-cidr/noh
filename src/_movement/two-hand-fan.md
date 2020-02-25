@@ -12,8 +12,8 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan Patterns</h4>
     <h2>Two Hand Fan (<em>ōgi taira ni mochi hidari te soe</em>)</h2>
 
-    <p>The fan is held out in front of the body with two hands as if presenting something.
-    The fan can either be closed or opened, or even replaced with a prop.</p>
+    <p>The performer holds the fan in front of the body with two hands as if presenting something. The fan can either be opened or closed, or even replaced with a prop.
+</p>
 
   </div>
 

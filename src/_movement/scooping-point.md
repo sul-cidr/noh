@@ -12,11 +12,10 @@ second-level-menu-active: movement
     <h4><a href="/movement/">Catalog of Patterns:</a> Structural Patterns / Foot and Arm Combinations: Pointing</h4>
     <h2>Scooping Point (<em>kaikomi</em>)</h2>
 
-    <p>All Point patterns involve raising the right arm and pointing the fan. The different names come from the motion perform by the arm leading to the pointing conclusion.</p>
+    <p>All Point patterns involve raising the right arm and pointing the fan. The different names come from the motion of the arm leading to the pointing conclusion.</p>
 
-    <p> The Scooping point (<em>kaikomi</em>) is a very popular pattern. It can be used by itself or in a sequence of patterns. The movement begins with a Right Step Pivot (<em>migi kakeru</em>), and a lifting of the extended left arm. As the dancer turns to face front stage with his extended right arm circling in an arc coming down in front of the body before raising at shoulder level and pointing forward. This last motion of the arm is called an Extend point. (Sometimes when performed with a closed fan, the Extend point is replaced with an Overhand point.)
+    <p> The Scooping point (<em>kaikomi</em>) is a popular pattern. It can be used alone or in a sequence of patterns. The movement begins with a Right Step Pivot (<em>migi kakeru</em>), and a lifting of the extended left arm. As the dancer turns to face front stage, his extended right arm circles in an arc that comes down in front of the body before raising to shoulder level and pointing forward. This last motion of the arm is called an Extend point. (Sometimes when performed with a closed fan, the Extend point is replaced with an Overhand point.) </p>
 
-    </p>
   </div>
 
 

@@ -18,7 +18,7 @@ second-level-menu-active: movement
     <p>This Forward point pattern (<em>shikake</em> ) combines forward steps, lifting the right arm and bringing the fan in line with the body’s central axis.
     This is one of the most common patterns. It does not have a specific time or spatial position within a dance. Hence depending on context, that is music and text, it can be found in the same dance used for one segment as an opening gesture, and as a closing gesture for another segment.</p>
 
-    <p>Although it can be performed by itself it is very often followed by the <a href="/movement/open-retreat">Open-retreat pattern (<em>hiraki</em>)</a>, which combines three backing steps while spreading the arms before concluding with the Standing position (<em>kamae</em>). It is that sequence that is shown here.</p>
+    <p>Although it can be performed by itself it is very often followed by the <a href="/movement/open-retreat" target="_blank">Open-retreat pattern (<em>hiraki</em>)</a>, which combines three backing steps while spreading the arms before concluding with the Standing position (<em>kamae</em>). It is that sequence that is shown here.</p>
 
 
 

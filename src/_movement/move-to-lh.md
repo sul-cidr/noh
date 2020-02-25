@@ -13,9 +13,10 @@ second-level-menu-active: movement
     <h2>Moving to the Left Hand (<em>ōgi hidari e</em>)</h2>
 
 
-    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, and various motions involving it.
-    For a Left hand hold (<em>ōgi hidari e</em>), the fan is held in the left hand grasping it in its middle.</p>
-    <p>This pattern is often used to mark the end of a section in a dance.</p>
+    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, which involve performing various motions.
+    For a Left hand hold (<em>ōgi hidari e</em>), the performer holds the fan in the left hand, grasping it in its middle.</p>
+    <p>This pattern often marks the end of a section in a dance.</p>
+
 
 
   </div>

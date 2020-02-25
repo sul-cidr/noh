@@ -13,8 +13,9 @@ second-level-menu-active: movement
     <h2>Renesting to the Standard Hold (<em>ōgi mochinaoshi</em>)</h2>
 
 
-    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, and various motions involving it.
-    <em>Ōgi mochinaoshi</em> means to re-nest the fan, may it be from a <a href="/movement/move-to-lh">Fan to the left hand pattern (<em>ōgi hidari e</em>)</a> or a <a href="/movement/reverse-hold">Reverse hold (<em>ogi taori</em>)</a>.</p>
+    <p>Fan motion helps accentuate arm motion. There are various ways of holding the fan, and various motions for using it.
+    <em>Ōgi mochinaoshi</em> means to re-nest the fan, either from a <a href="/movement/move-to-lh">Fan to the left-hand pattern (<em>ōgi hidari e</em>)</a> or a <a href="/movement/reverse-hold">Reverse hold (<em>ogi taori</em>)</a>.</p>
+
 
   </div>
 

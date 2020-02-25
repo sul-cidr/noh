@@ -18,7 +18,7 @@ third-level-menu-active: taiko
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2>Closing</h2>
-    <p>Closing patterns are used to indicate the end of the cycle leading to the Head pattern of the next one. Fitting this function is the <em>uchikiri</em>, among others.</p>
+    <p>Closing patterns indicate the end of the cycle and lead to the Head pattern of the next one. The <em>uchikiri</em> is one example, among other patterns, playing a closing function.</p>
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Uchikiri.mp4"
 %}
