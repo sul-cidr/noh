@@ -17,8 +17,8 @@ class TabbedNarrative extends React.Component {
       container
         .querySelectorAll("[data-highlight-shodans]")
         .forEach(targetElem => {
-          targetElem.addEventListener("mouseover", ({ target }) => {
-            const sectionIndices = target.attributes[
+          targetElem.addEventListener("mouseover", (/* event */) => {
+            const sectionIndices = targetElem.attributes[
               "data-highlight-shodans"
             ].value.split(",");
             sectionIndices.forEach(index => {
@@ -29,8 +29,8 @@ class TabbedNarrative extends React.Component {
                 );
             });
           });
-          targetElem.addEventListener("mouseout", ({ target }) => {
-            const sectionIndices = target.attributes[
+          targetElem.addEventListener("mouseout", (/* event */) => {
+            const sectionIndices = targetElem.attributes[
               "data-highlight-shodans"
             ].value.split(",");
             sectionIndices.forEach(index => {
