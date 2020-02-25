@@ -104,7 +104,7 @@ class ScoreControls extends Component {
               !this.props.phrases.length ? "disabled" : ""
             }`}
           >
-            <span className="sentence-control__title">Sentence:</span>
+            <span className="sentence-control__title">Measure:</span>
             <span className="sentence-control__current">
               {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/{this
                 .props.phrases.length
