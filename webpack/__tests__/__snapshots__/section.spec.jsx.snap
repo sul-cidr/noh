@@ -91445,7 +91445,7 @@ exports[`<Section> renders as expected 1`] = `
                     <span
                       className="sentence-control__title"
                     >
-                      Sentence:
+                      Measure:
                     </span>
                     <span
                       className="sentence-control__current"
@@ -98630,7 +98630,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     <span
                       className="sentence-control__title"
                     >
-                      Sentence:
+                      Measure:
                     </span>
                     <span
                       className="sentence-control__current"
@@ -105615,7 +105615,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     <span
                       className="sentence-control__title"
                     >
-                      Sentence:
+                      Measure:
                     </span>
                     <span
                       className="sentence-control__current"
@@ -112600,7 +112600,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     <span
                       className="sentence-control__title"
                     >
-                      Sentence:
+                      Measure:
                     </span>
                     <span
                       className="sentence-control__current"
