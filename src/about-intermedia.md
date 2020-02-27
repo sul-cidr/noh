@@ -117,6 +117,10 @@ Recognizing the proper <em>kurai</em> helps the performers achieve a better leve
 <p>–––––––––––––––––––––––––––––</p>
 <p>Noh is an intermedia art form of great expressive coherence. It breaths Yin and Yang as if in a fractal design. Through the fluidity of intermedia materials it embraces the impermanence of things and people. The abstract quality of its forms invites the audiences to engage deeply and become part of a rich and unique intermedia experience of Noh. </p>
 
+<div markdown="1">
+* footnotes will be placed here
+{:footnotes}
+</div>
 
   </div>
 </section></div>

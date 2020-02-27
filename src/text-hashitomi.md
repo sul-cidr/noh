@@ -870,12 +870,15 @@ sono mama yume to zo nari ni keru. </em></td>
 before dawn breaks, to the dwelling of the 'evening face'", <br>
 she says, and again goes within the lattice shutter, <br>
 just so, becoming one with the dream.   </td> </tr>
+</table>
 
-        </table>
+<div markdown="1">
+* footnotes will be placed here (do not remove this line or indent this <div> element!)
+{:footnotes}
+</div>
         </div>
     </section>
   </div>
-
 </main>
 
 [^1]: Tanka by Sōjō Henjō (816-890) from the Imperial anthology of waka: Gosen-shū, compiled in 951.
