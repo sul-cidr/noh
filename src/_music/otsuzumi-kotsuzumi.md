@@ -17,7 +17,7 @@ third-level-menu-active: otsuzumi
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Okotsu">Ōtsuzumi (hip drum) & Kotsuzumi (shoulder drum)</h2>
-<p>Because the two drums almost always play together in alternating or interlocking patterns, they form a sort of meta-instrument. For this reason we are presenting them together.
+<p>The ōtsuzumi and kotsuzumi two drums almost always play together in alternating or interlocking patterns, as such, they form a sort of meta-instrument. For this reason we are presenting them together.
 </p>
 <p>There are five ōtsuzumi schools: Ōkura, Kanze, Ishii, Kadono and Takayasu. Featured TANIGUCHI Masatoshi and all ōtsuzumi examples are from the Ishii tradition. </p><p>There are four kotsuzumi schools: Ōkura, Kanze, Kō, and Kōsei. Featured HAYASHI Yamato and all kotsuzumi examples are from the Kō tradition.</p>
 <h3 id="Strokes">Strokes</h3>
@@ -52,7 +52,7 @@ third-level-menu-active: otsuzumi
     <h4 id="strictness">Strict and Flexible</h4>
     <p>The drum parts are connected to the eight-beat measure. We call a rhythmic setting 'strict' when the beat is relatively steady and 'flexible' when the beat is irregular. In the latter case, the music is often characterized by fewer strokes and a slower tempo. The difference between the two rhythmic settings is also accentuated by the <em>kakegoe</em>.  In strict setting, the calls are centered between beats and have a shorter, more accented quality. In flexible setting, the calls start earlier and can extend for the duration between beats. Percussion parts in a flexible rhythmic setting are performed primarily by the ōtsuzumi and kotsuzumi since most of the music involving the taiko is strict.</p>
 
-    <p id='Settings'>For comparison, an Ashirai sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
+    <p id='Settings'>For comparison, an <em>Ashirai</em> sequence of four eight-beat measures is performed in a strict and flexible setting.</p>
 
     <div class="tabs-container">
       <div class="tabs-container__links">
