@@ -19,7 +19,7 @@ third-level-menu-active: nohkan
   <div class="text-container">
     <h2><em>Hishigi</em></h2>
     <p>The pattern consists of one phrase with the following <em>shōga</em>:</p><p>
-<em>hi pi-u hi</em>, where the <em>’hi’</em>, stands for the highest (‘shrilling’) sound, also called <em>hishigi</em></p>
+<em>hi pi-u hi</em>, where the '<em>hi</em>', stands for the highest (‘shrilling’) sound, also called <em>hishigi</em></p>
 
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hishigi_Shoga_sl.mp4"

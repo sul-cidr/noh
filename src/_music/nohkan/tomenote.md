@@ -19,7 +19,7 @@ third-level-menu-active: nohkan
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2><em>Tome no te</em></h2>
-    <p>The pattern consists of two phrases with the following shoga:</p><p>
+    <p>The pattern consists of two phrases with the following <em>shōga</em>:</p><p>
 <em>o-hya ri ya ri<br>
 hi-hyo ru ri
 </em>

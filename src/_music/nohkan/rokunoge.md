@@ -24,7 +24,7 @@ ri-u hyu-i<br>
 hi-hyu i-ya ra ri-(u) ro-i<br>
 tsu-ro i-ya
 </em>
-</p><p>The bracketed <em>shoga</em> '<em>u</em>'' was traditionally part of the pattern, but it is not performed anymore.</p>
+</p><p>The bracketed <em>shōga</em> '<em>u</em>' was traditionally part of the pattern, but it is not performed anymore.</p>
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Roku_No_Ge_Shoga_sl.mp4"
 %}
