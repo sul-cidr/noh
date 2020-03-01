@@ -17,7 +17,7 @@ third-level-menu-active: otsuzumi
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2 id="Okotsu">Ōtsuzumi (hip drum) & Kotsuzumi (shoulder drum)</h2>
-<p>The ōtsuzumi and kotsuzumi two drums almost always play together in alternating or interlocking patterns, as such, they form a sort of meta-instrument. For this reason we are presenting them together.
+<p>The hip drum ōtsuzumi and the shoulder drum kotsuzumi almost always play together in alternating or interlocking patterns, and as such, they form a sort of meta-instrument. For this reason we are presenting them together.
 </p>
 <p>There are five ōtsuzumi schools: Ōkura, Kanze, Ishii, Kadono and Takayasu. Featured TANIGUCHI Masatoshi and all ōtsuzumi examples are from the Ishii tradition. </p><p>There are four kotsuzumi schools: Ōkura, Kanze, Kō, and Kōsei. Featured HAYASHI Yamato and all kotsuzumi examples are from the Kō tradition.</p>
 <h3 id="Strokes">Strokes</h3>
