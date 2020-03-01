@@ -17,7 +17,7 @@ fourth-level-menu-active: sound
   <div class="text-container">
     <h2 id="Taiko">Taiko (Stick Drum)</h2>
 
-    <p>There are two taiko schools: Komparu and Kanze. Featured NAKATA Hiromi and all examples are from the Komparu tradition.</p>
+    <p>There are two taiko schools: Komparu and Kanze. Featured NAKATA Hiromi and all musical examples are from the Komparu tradition.</p>
     <h3 id="Strokes">Strokes</h3>
     <p>There are five basic sounds and one soundless motion (<em>kesubachi</em>) produced on the taiko drum:</p>
 
@@ -28,7 +28,7 @@ fourth-level-menu-active: sound
     {% include taiko-kakegoe.html %}
 
     <h3 id="Patterns">Rhythmic Organization</h3>
-    <p>At a basic level, the sounds of the taiko are sequenced to create patterns. Most patterns are eight beats long and typically start on the 2nd or 6th beat of the 8-beat metric unit (<em>honji</em>). However, there are patterns as short as two and as long as forty-eight beats. The patterns are sequenced into larger phrases and sections. They are selected and ordered according to various sets of rules based on their formal function. A pattern can assume one of the following functions: Head, First Transition, Ground, Second Transition, or Closing.</p>
+    <p>The sounds of the taiko are sequenced to create patterns. Most patterns are eight beats long and typically start on the 2nd or 6th beat of the 8-beat metric unit (<em>honji</em>). However, there are patterns as short as two and as long as forty-eight beats. The patterns are sequenced into larger phrases and sections. They are selected and ordered according to various sets of rules based on their formal function. A pattern can assume one of the following functions: Head, First Transition, Ground, Second Transition, or Closing.</p>
     {% include taiko-patterns.html %}
 
     <p>The following figure shows an example of how patterns are sequenced to create a cycle.</p>

@@ -18,7 +18,7 @@ third-level-menu-active: nohkan
   <section class="sidebar-contents__section">
   <div class="text-container">
     <h2><em>Takane</em></h2>
-    <p>The pattern consists of one phrase with the following shoga:</p><p>
+    <p>The pattern consists of one phrase with the following <em>shōga</em>:</p><p>
 <em>o-hya ra</em>
 </p>
 {% include video-no-background.html

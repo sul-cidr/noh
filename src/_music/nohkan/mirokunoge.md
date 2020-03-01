@@ -16,11 +16,11 @@ third-level-menu-active: nohkan
   </aside>
   <section class="sidebar-contents__section">
   <div class="text-container">
-  <h2><em>Mi roku no ge</em></h2> <p>The pattern consists of two phrases with the following shoga:</p><p>
+  <h2><em>Mi roku no ge</em></h2> <p>The pattern consists of two phrases with the following <em>shōga</em>:</p><p>
 <em>hi-u ra ri-(u) ro-i<br>
 tsu-ro i-ya
 </em>
-</p><p>The bracketed shoga <em>u</em> was traditionally part of the pattern but in our example and in recent times it is not performed.</p>
+</p><p>The bracketed <em>shōga</em> '<em>u</em>' was traditionally part of the pattern but in our example and in recent times it is not performed.</p>
 {% include video-no-background.html
   src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Mi_Roku_No_Ge_Shoga_sl.mp4"
 %}
