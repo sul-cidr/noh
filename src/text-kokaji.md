@@ -802,17 +802,17 @@ Once more he leaps upon the mass of clouds,<br>
 Again, more he leaps upon the mass of clouds,<br>
 and return to Higashiyama, the eastern mountains, the peak of Mt. Inari!</p></td>
 </tr>
+</table>
 
-        </table>
-
+<div markdown="1">
+* footnotes will be placed here (do not remove this line or indent this <div> element!)
+{:footnotes}
+</div>
         </div>
     </section>
-
-
-
   </div>
-
 </main>
+
 [^1]: It starts with a reference to Liu Bang (256 – 195 BC), the founding Emperor of the Han dynasty. It is said that shortly before dying he exclaimed that “wielding a three-foot sword, as a commoner I conquered the world.” It is followed by a reference to Yang Jian (541 – 604 AD) the first Emperor of the Sui Dynasty and his sword Kei who defeated the House of Chou.
 
 [^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.

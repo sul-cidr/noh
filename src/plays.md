@@ -134,6 +134,12 @@ All these features of <em>Hashitomi</em> make it an excellent resource for inves
 That these two plays bear the hallmarks of different aesthetic, geographical and ideological strains makes them a particularly instructive pair for study.
 
 </p>
+
+<div markdown="1">
+* footnotes will be placed here
+{:footnotes}
+</div>
+
   </div>
 
 </main>
