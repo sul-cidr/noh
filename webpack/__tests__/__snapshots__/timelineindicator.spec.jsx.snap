@@ -33,6 +33,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
         "y": 0,
       }
     }
+    scale={1}
     transform={null}
   >
     <div
@@ -75,6 +76,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
         "y": 0,
       }
     }
+    scale={1}
     transform={null}
   >
     <div
@@ -117,6 +119,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
         "y": 0,
       }
     }
+    scale={1}
     transform={null}
   >
     <div
@@ -159,6 +162,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
         "y": 0,
       }
     }
+    scale={1}
     transform={null}
   >
     <div
@@ -201,6 +205,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, initial curre
         "y": 0,
       }
     }
+    scale={1}
     transform={null}
   >
     <div
