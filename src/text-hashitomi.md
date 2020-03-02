@@ -23,8 +23,7 @@ permalink: /text-hashitomi/
         <h2 id="Hashitomi">Hashitomi Text</h2>
         <p><em> Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)<br>Kongō School Version<br>Translated by Rebecca Teele Ogamo</em></p>
 
-
-        <table class="content-table">
+        <table class="content-table--libretto">
 
         <tr class="content-table__row--header">
         <td id="Act1" class="content-table__column"><H3>ACT 1</H3></td>
@@ -523,7 +522,7 @@ and perform a memorial service for the flowers.</td>
   In due time then, I will expect you there.</td>
 
   </tr>
-   
+
                       <tr class="content-table__row"></tr>
                 <tr class="content-table__row">
                         <td class="content-table__column">
