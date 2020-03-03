@@ -23,7 +23,7 @@ third-level-menu-active: taiko
 </p>
 
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Oroshi.mp4"
+  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Oroshi.mp4"
 %}
   </div>
   </section>

@@ -45,7 +45,7 @@ third-level-menu-active: otsuzumi
 
     <p>Each of these calls can take shape depending on context. They not only help set the mood, they are also an important communication tool, helping the musicians coordinate acceleration and slow-down. The example below is a shorter version of <em>ashirai</em>, played expressively for the play Aoi no ue. It illustrates how the two percussionists use <em>kakegoe</em> to manage changes of tempo. In the video, the ōtsuzumi and kotsuzumi alternate their calls with drumming strokes. Because the ōtsuzumi player initiates patterns, he has a leading role in establishing the tempo and mood, but both players influence each other in creating a cumulative tempo.</p>
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Front.mp4"
+      src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Front.mp4"
     %}
     <h3 id="Rhythm">Rhythmic Organization</h3>
 
@@ -65,14 +65,14 @@ third-level-menu-active: otsuzumi
           <section id='Strict_setting' title='Strict setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
           %}
 
           </section>
           <section id='Flexible_setting' title='Flexible setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
           %}
 
           </section>
@@ -98,12 +98,12 @@ third-level-menu-active: otsuzumi
         <div class="wrapper">
           <section id='Mitusji_strict' title='Mitsuji strict' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Strict.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Strict.mp4"
           %}
           </section>
           <section id='Mitusji_flexible' title='Mitusji flexible' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Flexible.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Flexible.mp4"
           %}
           </section>
         </div>
@@ -123,12 +123,12 @@ third-level-menu-active: otsuzumi
         <div class="wrapper">
           <section id='Tsuzuke_strict' title='Tsuzuke strict' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Strict.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Strict.mp4"
           %}
           </section>
           <section id='Tsuzuke_flexible' title='Tsuzuke flexible' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Flexible.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Flexible.mp4"
           %}
           </section>
         </div>
@@ -159,12 +159,12 @@ third-level-menu-active: otsuzumi
         <div class="wrapper">
           <section id='Ashirai_strict' title='Ashirai strict' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
           %}
           </section>
           <section id='Ashirai_flexible' title='Ashirai flexible' class='tabbed-narrative'>
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
           %}
           </section>
         </div>
@@ -174,7 +174,7 @@ third-level-menu-active: otsuzumi
     <h5 id="Uchikiri">Uchikiri pattern</h5>
     <p><em>Uchikiri</em> pattern is often used as a bridge to reestablish a strict rhythmic setting after a flexible module (<em>shōdan</em>) or after a very slow, strict one. It often leads to <em>shōdan</em> with a strict rhythmic setting such as <em>Ageuta</em>, <em>Kuse</em>, or <em>Sageuta</em>. It is easily recognizable by the ōtsuzumi player’s <em>kakegoe</em>  <em>"ha hon yo"</em>. In this video, the excerpt is extended to include the first beat of the following phrase.</p>
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Uchikiri_sl.mp4"
+      src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Uchikiri_sl.mp4"
     %}
     <h5 id="Entrance">Entrance and Dance music</h5>
     <p>When performing dances, <em>Noriji</em>, and some entrance music, the musicians maintain complementarity between the two hand drums despite the fact that they perform patterns of different length. This is demonstrated in the following excerpts from the dance <em>Jonomai</em>. In this example the kotsuzumi’s <em>nagaji</em> pattern is spread over sixteen-beats against the ōtsuzumi's <em>ji</em> pattern that lasts eight-beat.  </p>
@@ -186,7 +186,7 @@ third-level-menu-active: otsuzumi
 
     <p>Another noteworthy point is how the ōtsuzumi's closing (<em>shikake</em>) pattern breaks the predictability of the repeated patterns. Its steady six strokes and subsequent <em>kakegoe</em> announce the end of the dance and initiate a cadential deccelerando.</p>
     {% include video-no-background.html
-      src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Jonomai-RhythmicPatterns_sl.mp4"
+      src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/PercDuo-Jonomai-RhythmicPatterns_sl.mp4"
     %}
 
 

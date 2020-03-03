@@ -29,19 +29,19 @@ second-level-menu-active: movement
     <div class="wrapper">
 
       <section id="tab-1" title="Turn right (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_migi_Front.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_migi_Front.mp4" %}
       </section>
 
       <section id="tab-2" title="Turn right (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_migi_Side.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_migi_Side.mp4" %}
       </section>
 
       <section id="tab-3" title="Turn left (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_hidari_Front.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_hidari_Front.mp4" %}
       </section>
 
       <section id="tab-4" title="Turn left (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_hidari_Side.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Han_hiza_tatekae_hidari_Side.mp4" %}
       </section>
 
     </div>

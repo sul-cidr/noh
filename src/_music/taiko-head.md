@@ -31,14 +31,14 @@ third-level-menu-active: taiko
         <section id="tab-1" title="Kashira" class="tabbed-narrative">
 
         {% include video-no-background.html
-          src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Kashira.mp4"
+          src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Kashira.mp4"
         %}
 
         </section>
         <section id="tab-2" title="Tsuke gashira" class="tabbed-narrative">
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Tsuke_gashira.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Tsuke_gashira.mp4"
           %}
         </section>
         </div>

@@ -31,14 +31,14 @@ third-level-menu-active: otsuzumi
           <section id='Strict_setting' title='Strict setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
           %}
 
           </section>
           <section id='Flexible_setting' title='Flexible setting' class='tabbed-narrative'>
 
           {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
+            src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
           %}
 
           </section>
