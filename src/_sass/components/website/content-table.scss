@@ -5,6 +5,11 @@
   @extend .wrapper;
 }
 
+.content-table--libretto {
+  margin-top: 0;
+  @extend .content-table;
+}
+
 .content-table__row {
   border-bottom: $border;
 

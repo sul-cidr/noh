@@ -22,7 +22,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
       <span
         className="sentence-control__title"
       >
-        Sentence:
+        Measure:
       </span>
       <span
         className="sentence-control__current"
@@ -276,7 +276,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
       <span
         className="sentence-control__title"
       >
-        Sentence:
+        Measure:
       </span>
       <span
         className="sentence-control__current"
@@ -2318,7 +2318,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
             <span
               className="sentence-control__title"
             >
-              Sentence:
+              Measure:
             </span>
             <span
               className="sentence-control__current"
