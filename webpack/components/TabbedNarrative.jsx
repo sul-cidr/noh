@@ -51,12 +51,11 @@ class TabbedNarrative extends React.Component {
       if (tabsRef !== null) {
         const appContainer = tabsRef.closest(".app-container");
         if (appContainer) hookupMouseovers(appContainer);
-        if (appContainer)
-          appContainer
-            .querySelectorAll("a[_onclick]")
-            .forEach(link =>
-              link.setAttribute("onclick", link.getAttribute("_onclick"))
-            );
+        tabsRef
+          .querySelectorAll("a[_onclick]")
+          .forEach(link =>
+            link.setAttribute("onclick", link.getAttribute("_onclick"))
+          );
         const { parentElement } = tabsRef;
         parentElement.scrollTop = 0;
       }
@@ -130,4 +129,7 @@ const mapStateToProps = state => ({
 });
 
 export const Unwrapped = TabbedNarrative;
-export default connect(mapStateToProps, mapDispatchToProps)(TabbedNarrative);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TabbedNarrative);
