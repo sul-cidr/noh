@@ -8,25 +8,21 @@ exports[`<TextLine> renders as expected with active class 1`] = `
     className="transcription__original"
     onClick={[Function]}
   >
-    <React.Fragment>
-      <strong>
-        KYŌGEN
-      </strong>
-      : 
-      another sample string
-    </React.Fragment>
+    <strong>
+      KYŌGEN
+    </strong>
+    : 
+    another sample string
   </button>
   <button
     className="transcription__translation"
     onClick={[Function]}
   >
-    <React.Fragment>
-      <strong>
-        KYŌGEN
-      </strong>
-      : 
-      sample string
-    </React.Fragment>
+    <strong>
+      KYŌGEN
+    </strong>
+    : 
+    sample string
   </button>
 </div>
 `;
