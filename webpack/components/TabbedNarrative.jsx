@@ -45,12 +45,18 @@ class TabbedNarrative extends React.Component {
     };
 
     /* This function is triggered on all tab changes, as well as some other
-    * events. It is used to scroll the visible tab panel to the top upon
-    * activation, if necessary. */
+     * events. It is used to scroll the visible tab panel to the top upon
+     * activation, if necessary. */
     this.handleDomRef = tabsRef => {
       if (tabsRef !== null) {
         const appContainer = tabsRef.closest(".app-container");
         if (appContainer) hookupMouseovers(appContainer);
+        if (appContainer)
+          appContainer
+            .querySelectorAll("a[_onclick]")
+            .forEach(link =>
+              link.setAttribute("onclick", link.getAttribute("_onclick"))
+            );
         const { parentElement } = tabsRef;
         parentElement.scrollTop = 0;
       }
@@ -86,7 +92,11 @@ class TabbedNarrative extends React.Component {
     ));
     const narrativeTabs = this.state.chunks.map(chunk => (
       <TabPanel key={chunk}>
-        <Markup tagName="div" allowAttributes content={chunk} />
+        <Markup
+          tagName="div"
+          allowAttributes
+          content={chunk.replace(/\bonclick=/g, "_onclick=")}
+        />
       </TabPanel>
     ));
     const { updateNarrativeTab } = this.props;
@@ -120,7 +130,4 @@ const mapStateToProps = state => ({
 });
 
 export const Unwrapped = TabbedNarrative;
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(TabbedNarrative);
+export default connect(mapStateToProps, mapDispatchToProps)(TabbedNarrative);
