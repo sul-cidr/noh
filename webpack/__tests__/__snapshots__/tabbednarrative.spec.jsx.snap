@@ -40,12 +40,12 @@ exports[`<TabbedNarrative> renders as expected 1`] = `
   <TabPanel
     className="react-tabs__tab-panel"
     forceRender={false}
-    key="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor sit amet.</p></section>"
+    key="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor <a href=\\"#0\\" onclick=\\"window.open()\\">sit</a> amet.</p></section>"
     selectedClassName="react-tabs__tab-panel--selected"
   >
     <Markup
       allowAttributes={true}
-      content="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor sit amet.</p></section>"
+      content="<section  class=\\"tabbed-narrative\\"><p>Lorem ipsum dolor <a href=\\"#0\\" _onclick=\\"window.open()\\">sit</a> amet.</p></section>"
       emptyContent={null}
       parsedContent={null}
       tagName="div"

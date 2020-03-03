@@ -9,7 +9,7 @@ import TabbedNarrative, {
 
 describe("<TabbedNarrative>", () => {
   const tabbedAnalysis =
-    "<section title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor sit amet.</p></section><br /><section title='section two'><p>Different stuff</p></section>";
+    "<section title='section one with many words in title' class='tabbed-narrative'><p>Lorem ipsum dolor <a href='#0' onclick='window.open()'>sit</a> amet.</p></section><br /><section title='section two'><p>Different stuff</p></section>";
 
   it("renders as expected", () => {
     const component = shallow(
@@ -34,6 +34,7 @@ describe("<TabbedNarrative>", () => {
     );
     const tabN = component.find("TabbedNarrative");
     tabN.instance().handleDomRef(tabN.getDOMNode());
+    expect(tabN.getDOMNode().querySelectorAll("a[onclick]").length).toEqual(1);
   });
 
   it("ref handler runs with null input", () => {
