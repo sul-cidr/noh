@@ -26,6 +26,7 @@ source: src
 markdown: kramdown
 kramdown:
   footnote_backlink_inline: true
+  footnote_backlink: '&#8617;&#65038;'
 # theme: minima
 
 # Collection settings

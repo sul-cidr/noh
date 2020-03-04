@@ -154,6 +154,10 @@
   ol, ul {
     list-style: decimal;
   }
+  li {
+    font-family: "Source Serif Pro", Georgia, serif;
+    color: $brown;
+  }
   p {
     color: $brown;
     @include text(md,'text');
