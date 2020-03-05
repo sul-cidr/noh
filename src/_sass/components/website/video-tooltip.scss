@@ -4,6 +4,7 @@
 .video-website__toggle {
   background-color: $black48;
   color: $white;
+  cursor: help;
   display: inline-block;
   margin: 0 auto 0.5rem auto;
   max-width: $wrapper-media;
@@ -11,11 +12,13 @@
   position: absolute;
   right: 0;
   text-align: right;
+  text-decoration: none;
   top: 0;
   z-index: 11;
 
-  .fas {
-    margin-left: 0.5rem;
+  strong {
+    margin-right: 0.5rem;
+    text-decoration: underline;
   }
 
   &:hover {
