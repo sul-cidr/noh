@@ -45,6 +45,38 @@
 
 }
 
+#content-table--iti__show-all {
+  display: none;
+
+  ~ label {
+    float:right;
+    text-transform: uppercase;
+
+    &::before {
+      content: "show all";
+    }
+  }
+
+  &:checked {
+    ~ label::before {
+      content: "collapse";
+    }
+
+    ~ .content-table--iti {
+
+      &::after {
+        display: none;
+      }
+
+      tbody {
+        max-height: none;
+      }
+    }
+  }
+
+}
+
+
 .content-table__row {
   border-bottom: $border;
 
