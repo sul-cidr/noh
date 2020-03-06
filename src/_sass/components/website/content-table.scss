@@ -10,6 +10,14 @@
   @extend .content-table;
 }
 
+.content-table--iti {
+  @extend .content-table;
+
+  .content-table__column {
+    min-width: auto;
+  }
+}
+
 .content-table__row {
   border-bottom: $border;
 
