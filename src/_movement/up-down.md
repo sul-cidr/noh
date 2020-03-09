@@ -36,19 +36,19 @@ second-level-menu-active: movement
     <div class="wrapper">
 
       <section id="tab-1" title="Up (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_ue_e_teru_Front.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_ue_e_teru_Front.mp4" %}
       </section>
 
       <section id="tab-2" title="Up (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_ue_e_teru_Side.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_ue_e_teru_Side.mp4" %}
       </section>
 
       <section id="tab-3" title="Down (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_shita_e_kumoru_Front.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_shita_e_kumoru_Front.mp4" %}
       </section>
 
       <section id="tab-4" title="Down (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_shita_e_kumoru_Side.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_shita_e_kumoru_Side.mp4" %}
       </section>
 
     </div>

@@ -21,7 +21,7 @@ third-level-menu-active: taiko
     <p>Second transition patterns move from the Ground to the Closing pattern, so the rhythm usually slows down. The <em>age</em> is one example, among other patterns,  playing this transitional function.</p>
 
 {% include video-no-background.html
-  src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Ue_ge_yori.mp4"
+  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Ue_ge_yori.mp4"
 %}
   </div>
   </section>

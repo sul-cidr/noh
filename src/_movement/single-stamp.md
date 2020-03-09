@@ -33,19 +33,19 @@ second-level-menu-active: movement
     <div class="wrapper">
 
       <section id="tab-1" title="Feminine Right foot (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_migi_hyoshi_Front.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_migi_hyoshi_Front.mp4" %}
       </section>
 
       <section id="tab-2" title="Feminine Right foot (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_migi_hyoshi_Side.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_migi_hyoshi_Side.mp4" %}
       </section>
 
       <section id="tab-3" title="Feminine Left foot (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_hidari_hyoshi_Front.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_hidari_hyoshi_Front.mp4" %}
       </section>
 
       <section id="tab-4" title="Feminine Left foot (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_hidari_hyoshi_Side.mp4" %}
+        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_hidari_hyoshi_Side.mp4" %}
       </section>
 
     </div>
