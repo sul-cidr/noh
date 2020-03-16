@@ -32,7 +32,7 @@ fourth-level-menu-active:
 
 
     {% include video.html
-      src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
       link="Waki"
       title="Hashitomi – Nanori "
       paragraph1="The calm delivery in the lower register is well suited for a traveling monk."
@@ -48,7 +48,7 @@ The chanted music called <em>utai</em> can be sung in two different styles: <em>
         </p>
 
   {% include video-no-background.html
-    src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+    src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
     link="Tsuyogin"
     title="Kokaji/Kuri"
     paragraph1="The module’s name refers to the high pitch Kuri, hence the module’s melody is set in the higher register. Kokaji’s kuri includes four melodic motions towards the Kuri. They appear as for the kuri’s signature closing melisma called hon-yuri, the pitch module’s pitch material focuses on the Medium/High tone.part of embellishments in several words highlighted in the video with colored syllables."

@@ -34,17 +34,17 @@ hi-hyo ru ri
     <div class="wrapper">
 <section id='generic' title='Generic' class='tabbed-narrative'>
 {% include video-no-background.html
-  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Takane_mi_kusari_Shoga.mp4"
+  src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_mi_kusari_Shoga.mp4"
 %}
 </section>
 <section id='Kokaji' title='Kokaji' class='tabbed-narrative'>
 {% include video-no-background.html
-  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Kokaji_Takane_mi_kusari_Shoga.mp4"
+  src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Kokaji_Takane_mi_kusari_Shoga.mp4"
 %}
 </section>
 <section id='Hashitomi' title='Hashitomi' class='tabbed-narrative'>
 {% include video-no-background.html
-  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Takane_mi_kusari_Shoga_sl.mp4"
+  src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Takane_mi_kusari_Shoga_sl.mp4"
 %}
 </section>
   </div>

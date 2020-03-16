@@ -43,7 +43,7 @@ fourth-level-menu-active: sound
     <h4>Basic sequence of patterns</h4>
     {% include image.html src="/assets/images/basic-cycle-taiko.png" %}
     {% include video-no-background.html
-      src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Cycle_of_patterns.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Taiko-Cycle_of_patterns.mp4"
     %}
 
     <h4>Sequence of patterns in Kokaji's Maibataraki</h4>
@@ -51,7 +51,7 @@ fourth-level-menu-active: sound
 
     {% include image.html src="/assets/images/taiko-maibataraki.png" %}
     {% include video-no-background.html
-      src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Taiko-Maibataraki_Patterns_sl.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Taiko-Maibataraki_Patterns_sl.mp4"
     %}
 
   </div>

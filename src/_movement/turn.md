@@ -39,19 +39,19 @@ second-level-menu-active: movement
     <div class="wrapper">
 
       <section id="tab-1" title="Left turn" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_hidari_e_Front.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Atama_hidari_e_Front.mp4" %}
       </section>
 
       <section id="tab-2" title="Right turn" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_migi_e_Front.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Atama_migi_e_Front.mp4" %}
       </section>
 
       <section id="tab-3" title="Left-Right-Left turns" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_omote_tsukai_Front.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Atama_omote_tsukai_Front.mp4" %}
       </section>
 
       <section id="tab-4" title="Left-Right-Left-Right-Down" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Atama_ue_yori_shita_e_omote_tsukai_Front.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Atama_ue_yori_shita_e_omote_tsukai_Front.mp4" %}
       </section>
 
     </div>
