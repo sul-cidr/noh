@@ -32,19 +32,19 @@ second-level-menu-active: movement
     <div class="wrapper">
 
       <section id="tab-1" title="Front" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_Front.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_Front.mp4" %}
       </section>
 
       <section id="tab-2" title="Close-up front" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_CloseFront.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_CloseFront.mp4" %}
       </section>
 
       <section id="tab-3" title="Side" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_Side.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_Side.mp4" %}
       </section>
 
       <section id="tab-4" title="Close-up side" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_CloseSide.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_CloseSide.mp4" %}
       </section>
 
     </div>
