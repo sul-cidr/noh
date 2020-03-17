@@ -34,17 +34,17 @@ $card-menu-large-element-size: 8.75rem;
       }
 
       &::after {
-        border-color: $beige-light transparent transparent transparent;
-        border-style: solid;
-        border-width: 0.625rem 0.625rem 0 0.625rem;
-        bottom: -2.625rem;
+        background-color: $beige-light;
+        bottom: -2.5rem;
+        box-shadow: 0.1875rem 0.125rem 0.1875rem -0.125rem $black16;
         content: '';
         display: inline-block;
-        height: 0;
+        height: 1rem;
         left: 50%;
         position: absolute;
-        transform: translateX(-50%);
-        width: 0;
+        transform: translateX(-50%) rotate(45deg);
+        width: 1rem;
+        z-index: 0;
       }    
     }
   }
