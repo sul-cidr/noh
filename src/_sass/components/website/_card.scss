@@ -26,12 +26,16 @@
   flex-shrink: 0;
   height: 25rem;
   margin: 0.5rem;
-  max-width: 19rem;
+  max-width: 15rem;
   overflow: hidden;
   position: relative;
   text-decoration: none;
   top: 0;
   transition: top $transition, box-shadow $transition;
+
+  @media #{$desktop-up} {
+    max-width: 19rem;
+  }
 
   &:hover {
     box-shadow: 0 0.375rem 0.75rem $black16;
