@@ -5,12 +5,20 @@
     "singleQuote": false,
     "trailingComma": "none",
     "jsxBracketSameLine": false,
-    "parser": "babylon",
+    "parser": "babel",
     "semi": true,
     "overrides": [
     {
         "files": "*.json",
         "options": { "parser": "json" }
+    },
+    {
+        "files": ["*.html", "*.md"],
+        "options": { "parser": "html" }
+    },
+    {
+        "files": ["*.css", "*.scss"],
+        "options": { "parser": "scss" }
     }
   ]
 }
