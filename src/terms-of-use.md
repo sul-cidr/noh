@@ -4,6 +4,7 @@ title: Terms of Use
 menu-active: about
 permalink: /terms-of-use/
 ---
+
 <main class="page-content">
   <div class="text-container">
     <div class="wrapper wrapper--small">

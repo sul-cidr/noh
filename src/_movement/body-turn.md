@@ -1,8 +1,8 @@
 ---
 layout: website
-name: body-turn 
-filter-act: 
-filter-type: 
+name: body-turn
+filter-act:
+filter-type:
 second-level-menu-active: movement
 ---
 
