@@ -45,7 +45,7 @@ second-level-menu-active: catalog-shodan
     <section id="tab-1" title="Original speed" class="tabbed-narrative">
 
     {% include video-no-background.html
-      src="https://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_Score.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Hayafue_Score.mp4"
     %}
 
     </section>
@@ -53,13 +53,13 @@ second-level-menu-active: catalog-shodan
     <section id="tab-2" title="75%" class="tabbed-narrative">
 
     {% include video-no-background.html
-      src="https://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-75_sl.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-75_sl.mp4"
     %}
     </section>
 
       <section id="tab-3" title="50%" class="tabbed-narrative">
       {% include video-no-background.html
-        src="https://d7rcwrflqckpu.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-50_sl.mp4"
+        src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Hayafue_SlowDown-50_sl.mp4"
       %}
     </section>
 

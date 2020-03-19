@@ -22,6 +22,7 @@ permalink: /shimai-dances/
           
           Kokaji's <em>Kuse</em> is divided into two parts: The shite sits center-stage during the first part, and dances during the second one. Usually, only the second part is performed when presented as a <em>shimai</em>. We have included both parts to illustrate and stress the point that in a context of little motion, every simple <em>kata</em> carries meaning, may the movement be as simple as a sliding left or right, a head motion, raising on knee, and so on.
         </p>
+
     </div>
 
         <div class="tabs-container">

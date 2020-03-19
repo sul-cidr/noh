@@ -40,21 +40,21 @@ Sections in <em>kotoba</em> are always delivered by an actor, never by the jiuta
 
 
     {% include video.html
-      src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
       link="Waki"
       title="Hashitomi – Nanori "
       paragraph1="The calm delivery in the lower register is well suited for a traveling monk."
     %}
 
     {% include video-no-background.html
-      src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
       link="wakizure"
       title="Kokaji – Nanori "
       paragraph1="The fast speed and use of the higher register is well suited for delivering an urgent order."
     %}
 
     {% include video.html
-      src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+      src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
       link="Shite and waki "
       title="Kokaji – Mondō"
       paragraph1="The mondō from Kokaji is a spoken dialogue between the shite (a divine being) and waki (sword maker). The former sits on the left, and the latter on the right. This example offers two points of comparison between the kotoba styles of shite and waki."
@@ -87,7 +87,7 @@ The chanted music called <em>utai</em> can be sung in two different styles: <em>
 
        </p>
         {% include video-no-background.html
-        src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+        src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         link="Yowagin"
         title="Hagoromo/Kuri"
         paragraph1="The module is named after the pitch kuri from the higher register. For the most part, the pitch material of the piece focuses on the High pitch with few incursions on the Kuri shown with highlighted text on the video."
@@ -103,7 +103,7 @@ The actors are not attempting to produce specific melodic pitches. Their singing
 </p>
   {% include image.html src="/assets/images/Tsuyogin-range.jpg" %}
   {% include video-no-background.html
-    src="https://d7rcwrflqckpu.cloudfront.net/bh626gj8179_sl.mp4"
+    src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
     link="Tsuyogin"
     title="Kokaji/Kuri"
     paragraph1="The module’s name refers to the high pitch Kuri, hence the module’s melody is set in the higher register. Kokaji’s kuri includes four melodic motions towards the Kuri. They appear as for the kuri’s signature closing melisma called hon-yuri, the pitch module’s pitch material focuses on the Medium/High tone.part of embellishments in several words highlighted in the video with colored syllables."

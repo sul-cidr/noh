@@ -22,7 +22,7 @@ tsu-ro i-ya
 </em>
 </p><p>The bracketed <em>shōga</em> '<em>u</em>' was traditionally part of the pattern but in our example and in recent times it is not performed.</p>
 {% include video-no-background.html
-  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Mi_Roku_No_Ge_Shoga_sl.mp4"
+  src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Mi_Roku_No_Ge_Shoga_sl.mp4"
 %}
   </div>
   </section>

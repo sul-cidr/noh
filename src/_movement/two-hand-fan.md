@@ -27,11 +27,11 @@ second-level-menu-active: movement
     <div class="wrapper">
 
       <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_ogi_taira_ni_mochi_hidari_te_soe_Front.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_ogi_taira_ni_mochi_hidari_te_soe_Front.mp4" %}
       </section>
 
       <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
-        {% include video-no-background.html src="https://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kata-Ona_ogi_taira_ni_mochi_hidari_te_soe_Side.mp4" %}
+        {% include video-no-background.html src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_ogi_taira_ni_mochi_hidari_te_soe_Side.mp4" %}
       </section>
 
     </div>

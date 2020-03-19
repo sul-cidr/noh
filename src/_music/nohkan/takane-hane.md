@@ -24,7 +24,7 @@ ro ru ra<br>
 ri ya ri</em>
 </p>
 {% include video-no-background.html
-  src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Takane_Hane_Shoga_sl.mp4"
+  src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_Hane_Shoga_sl.mp4"
 %}
   </div>
   </section>
