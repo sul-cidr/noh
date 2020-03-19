@@ -1,49 +1,73 @@
 <div class="header__content">
   <a href="/" class="logo">
     <span class="logo--standard">
-        {% include icons/logo.svg %}
+      {% include icons/logo.svg %}
     </span>
     <span class="logo--isotype">
       {% include icons/isotype-small.svg %}
     </span>
   </a>
 
-
   <nav class="header__nav">
     <ul>
-      <li class="dropdown-menu{% if page.menu-active == 'about' or page.menu-active == 'about' %} active{% endif %}">
+      <li
+        class="dropdown-menu{% if page.menu-active == 'about' or page.menu-active == 'about' %} active{% endif %}"
+      >
         <a class="header__main-link dropdown-menu__trigger">About</a>
         <ul class="dropdown-menu__list">
           <li class="dropdown-menu__title"><a href="/">About</a></li>
           <li><a href="/guide/">Guide</a></li>
           <li><a href="/credits/">Credits</a></li>
-          <li class="footer__nav-link"><a href="/terms-of-use/">Terms of Use</a></li>
-          <li><a href="mailto:contact-noh@lists.stanford.edu?subject=Noh as Intermedia">Contact us</a></li>
-
+          <li class="footer__nav-link">
+            <a href="/terms-of-use/">Terms of Use</a>
+          </li>
+          <li>
+            <a
+              href="mailto:contact-noh@lists.stanford.edu?subject=Noh as Intermedia"
+              >Contact us</a
+            >
+          </li>
         </ul>
       </li>
-      <li class="dropdown-menu{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}">
+      <li
+        class="dropdown-menu{% if page.menu-active == 'intermedia' or page.menu-active == 'intermedia' %} active{% endif %}"
+      >
         <a class="header__main-link dropdown-menu__trigger">Intermedia</a>
         <ul class="dropdown-menu__list">
-          <li class="dropdown-menu__title"><a href="/about-intermedia/">Intermedia</a></li>
+          <li class="dropdown-menu__title">
+            <a href="/about-intermedia/">Intermedia</a>
+          </li>
           <li><a href="/about-intermedia/">À propos</a></li>
-          <li><a href="/about-intermedia/#noh-as-intermedia">Noh as Intermedia</a></li>
+          <li>
+            <a href="/about-intermedia/#noh-as-intermedia">Noh as Intermedia</a>
+          </li>
         </ul>
       </li>
-      <li class="dropdown-menu{% if page.menu-active == 'plays' or page.menu-active == 'plays' %} active{% endif %}">
+      <li
+        class="dropdown-menu{% if page.menu-active == 'plays' or page.menu-active == 'plays' %} active{% endif %}"
+      >
         <a class="header__main-link dropdown-menu__trigger">Plays</a>
         <ul class="dropdown-menu__list">
           <li class="dropdown-menu__title"><a href="/plays/">Plays</a></li>
           <li><a href="/plays/">Why These Plays? </a></li>
-          <li><a href="/hashitomi/">Hashitomi </a><a href="/hashitomi/oshirabe/">| Sections</a></li>
-          <li><a href="/kokaji/">Kokaji </a><a href="/kokaji/oshirabe/">| Sections</a></li>
-
+          <li>
+            <a href="/hashitomi/">Hashitomi </a
+            ><a href="/hashitomi/oshirabe/">| Sections</a>
+          </li>
+          <li>
+            <a href="/kokaji/">Kokaji </a
+            ><a href="/kokaji/oshirabe/">| Sections</a>
+          </li>
         </ul>
       </li>
-      <li class="dropdown-menu{% if page.menu-active == 'elements' %} active{% endif %}">
+      <li
+        class="dropdown-menu{% if page.menu-active == 'elements' %} active{% endif %}"
+      >
         <a class="header__main-link dropdown-menu__trigger">Elements</a>
         <ul class="dropdown-menu__list">
-          <li class="dropdown-menu__title"><a href="/elements/">Elements</a></li>
+          <li class="dropdown-menu__title">
+            <a href="/elements/">Elements</a>
+          </li>
           <li><a href="/form/">Form</a></li>
           <li><a href="/actors/">Actors</a></li>
           <li><a href="/music/">Music</a></li>
@@ -52,10 +76,8 @@
           <li><a href="/staging/">Staging</a></li>
           <li><a href="/catalog-of-shodan/">* Catalog of Shōdan</a></li>
           <li><a href="/movement/">* Catalog of Kata</a></li>
-
         </ul>
       </li>
-
     </ul>
   </nav>
 </div>
