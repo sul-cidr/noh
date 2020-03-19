@@ -1,0 +1,16 @@
+
+$device-tablet:  48rem; // 768px
+$device-desktop: 60rem; // 960px
+
+$one-pixel:   0.0625rem;
+
+$mobile-only: '(max-width: #{$device-tablet - $one-pixel})';
+
+$tablet-up:   '(min-width: #{$device-tablet})';
+$tablet-down: '(max-width: #{$device-desktop - $one-pixel})';
+$tablet-only: '(min-width: #{$device-tablet}) and (max-width: #{$device-desktop - $one-pixel})';
+
+$desktop-up:  '(min-width: #{$device-desktop})';
+
+$touch:       '(hover: none) and (pointer: coarse)';
+$not-touch:   '(hover: hover) or (pointer: fine)';
