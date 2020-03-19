@@ -525,23 +525,14 @@ permalink: /about-intermedia/
           experience of Noh.
         </p>
 
+        <!-- prettier-ignore -->
         <div markdown="1">
-          * footnotes will be placed here {:footnotes}
-        </div>
+* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+{:footnotes}
+[^1]: For more precise explanation of *komi* see Fujita (2019a and 2019b) “Layers and elasticity in the rhythm of Noh songs: taking komi’ and its social background” in *Thought and play in musical rhythm*. Eds. Wolf, Blum and Hasty, Oxford UP, 2019. <a href="https://scholarworks.iu.edu/journals/index.php/emt/article/view/28817" target="_blank">“The Community of Classical Japanese Music Transmission: The Preservation Imperative and the Production of Change in Nō.”</a>
+[^2]: Private interview with UDAKA Tatsushige, October, 2018.
+</div>
       </div>
     </section>
   </div>
 </main>
-
-[^1]: For more precise explanation of *komi* see Fujita (2019a and 2019b)
-“Layers and elasticity in the rhythm of Noh songs: taking komi’ and its social
-background” in *Thought and play in musical rhythm*. Eds. Wolf, Blum and Hasty,
-Oxford UP, 2019.
-<a
-  href="https://scholarworks.iu.edu/journals/index.php/emt/article/view/28817"
-  target="_blank"
-  >“The Community of Classical Japanese Music Transmission: The Preservation
-  Imperative and the Production of Change in Nō.”</a
->
-
-[^2]: Private interview with UDAKA Tatsushige, October, 2018.
