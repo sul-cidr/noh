@@ -1,25 +1,12 @@
 $card-menu-small-element-size: 5.5rem;
-$card-menu-large-element-size: 8.75rem;
+$card-menu-large-element-size-mobile: 7rem;
+$card-menu-large-element-size-desktop: 8.75rem;
 
 .card-menu {
   padding: 2rem 0;
-}
-
-.card-menu--small {
-  background-color: $beige-light;
-
+  
   @include flex-container($justify: center, $align: center);
 
-  .card-menu__element {
-    height: $card-menu-small-element-size;
-    width: $card-menu-small-element-size;
-    
-    span {
-      @include text(xs);
-      padding: 0 .2rem;
-    }
-  }
-  
   li {
     padding: 0 1rem;
     position: relative;
@@ -50,12 +37,31 @@ $card-menu-large-element-size: 8.75rem;
   }
 }
 
+.card-menu--small {
+  background-color: $beige-light;
+
+  .card-menu__element {
+    height: $card-menu-small-element-size;
+    width: $card-menu-small-element-size;
+    
+    span {
+      @include text(xs);
+      padding: 0 .2rem;
+    }
+  }
+}
+
 .card-menu--large {
   padding: 2rem 0 1rem 0;
 
   .card-menu__element {
-    height: $card-menu-large-element-size;
-    width: $card-menu-large-element-size;
+    height: $card-menu-large-element-size-mobile;
+    width: $card-menu-large-element-size-mobile;
+
+    @media #{$desktop-up} {
+      height: $card-menu-large-element-size-desktop;
+      width: $card-menu-large-element-size-desktop;
+      }
 
     span {
       @include text(sm);
