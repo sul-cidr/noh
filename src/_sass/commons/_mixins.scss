@@ -84,3 +84,10 @@
   text-overflow: $overflow;
   white-space: nowrap;
 }
+
+@mixin wrapper() {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $wrapper-medium;
+  padding: 0 1rem;
+}

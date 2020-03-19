@@ -2,16 +2,20 @@
   border-top: $border;
   margin-bottom: 4rem;
   margin-top: 4rem;
-  @extend .wrapper;
+  width: 100%;
+  @include wrapper();
 }
 
 .content-table--libretto {
+  border-top: $border;
+  margin-bottom: 4rem;
   margin-top: 0;
-  @extend .content-table;
 }
 
 .content-table--iti {
-  @extend .content-table;
+  border-top: $border;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 
   thead {
     display: block;
@@ -94,13 +98,12 @@
 
 .content-table__column {
   padding: 0.5rem 1rem;
-  min-width: 9rem;
   vertical-align: top;
 
-  @include text(md, 'text');
+  @include text(sm, 'text');
 
   p {
-    @include text(md, 'text');
+    @include text(sm, 'text');
   }
 
   &.greentext {
