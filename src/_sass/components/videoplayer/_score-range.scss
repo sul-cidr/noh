@@ -12,9 +12,9 @@ $cell-range-height: 0.75rem;
   width: 100%;
 
   &::before {
-    background-image: url('../assets/images/vocal-range-low.svg');
+    background-image: url("../assets/images/vocal-range-low.svg");
     position: absolute;
-    content: '';
+    content: "";
     height: $cell-range-height/3;
     width: 100%;
   }

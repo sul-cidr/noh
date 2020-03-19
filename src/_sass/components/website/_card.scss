@@ -2,9 +2,9 @@
   margin: 0 auto;
   padding-top: 3.5rem;
   width: $wrapper-medium;
-  
-  @include flex-container($wrap:wrap, $justify:center, $align: flex-start);
-  
+
+  @include flex-container($wrap: wrap, $justify: center, $align: flex-start);
+
   .list-plays & {
     padding-top: 0;
   }
@@ -63,7 +63,7 @@
 
   &::before {
     background-color: $brown40;
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     left: 0;
@@ -95,7 +95,7 @@
 }
 
 .card__description {
-  @include text(sm,'text');
+  @include text(sm, "text");
 }
 
 .list-plays {
@@ -105,4 +105,3 @@
   margin: 4rem 0;
   padding: 2rem 0;
 }
-

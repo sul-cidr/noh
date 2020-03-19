@@ -9,7 +9,7 @@
 .filters__content {
   padding: 0 1rem;
 
-  @include flex-container($justify:flex-start, $align: flex-start);
+  @include flex-container($justify: flex-start, $align: flex-start);
 }
 
 .filters__controls {
@@ -18,7 +18,9 @@
   position: sticky;
   top: 50px;
   overflow-y: auto;
-  max-height: calc(100vh - 50px - 10px); // the extra 10px is to allow a little space at the bottom
+  max-height: calc(
+    100vh - 50px - 10px
+  ); // the extra 10px is to allow a little space at the bottom
 
   ul {
     margin-bottom: 2rem;
@@ -47,7 +49,11 @@
   flex-grow: 1;
   padding-left: 1rem;
 
-  @include flex-container($wrap:wrap, $justify:flex-start, $align: flex-start);
+  @include flex-container(
+    $wrap: wrap,
+    $justify: flex-start,
+    $align: flex-start
+  );
 }
 
 .filters__card {
@@ -62,7 +68,11 @@
   text-decoration: none;
   width: 19rem;
 
-  @include flex-container($direction:column, $justify:space-between, $align: flex-start);
+  @include flex-container(
+    $direction: column,
+    $justify: space-between,
+    $align: flex-start
+  );
 }
 
 .filters__card-title {
@@ -73,7 +83,7 @@
 }
 
 .filters__pills-container {
-  @include flex-container($wrap:wrap, $justify:flex-start, $align: flex-end);
+  @include flex-container($wrap: wrap, $justify: flex-start, $align: flex-end);
 }
 
 .filters__pill {

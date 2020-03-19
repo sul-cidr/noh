@@ -1,7 +1,11 @@
 .mini-cards__container {
   padding: 0 2rem;
 
-  @include flex-container($wrap:wrap, $justify:flex-start, $align:flex-start);
+  @include flex-container(
+    $wrap: wrap,
+    $justify: flex-start,
+    $align: flex-start
+  );
 }
 
 .mini-cards__element {
@@ -19,7 +23,7 @@
   cursor: pointer;
   display: flex;
   text-align: center;
-  @include flex-container($justify:center);
+  @include flex-container($justify: center);
   transition: top $transition, box-shadow $transition;
 
   &:hover {
@@ -27,23 +31,25 @@
     top: -0.125rem;
   }
 
-  a, .audio-label {
+  a,
+  .audio-label {
     color: $green;
     text-decoration: none;
     height: 5rem;
     width: 10rem;
-    @include flex-container($justify:center);
+    @include flex-container($justify: center);
     z-index: 1;
   }
 
-  .audio-player::after, .audio-playing::after {
-    font-family: 'FontAwesome';
+  .audio-player::after,
+  .audio-playing::after {
+    font-family: "FontAwesome";
     font-size: 1.5rem;
     color: $green64;
     position: absolute;
     z-index: -1;
-    right: .25rem;
-    bottom: .1rem;
+    right: 0.25rem;
+    bottom: 0.1rem;
   }
   .audio-player::after {
     content: $fa-var-play;
@@ -51,5 +57,4 @@
   .audio-playing::after {
     content: $fa-var-pause;
   }
-
 }

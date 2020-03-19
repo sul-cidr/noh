@@ -14,7 +14,7 @@
     &::before {
       background-color: $red;
       bottom: 0;
-      content: '';
+      content: "";
       height: 0.125rem;
       left: 50%;
       position: absolute;
@@ -36,7 +36,7 @@
     &::before {
       background-color: $red;
       bottom: 0;
-      content: '';
+      content: "";
       height: 0.125rem;
       left: 50%;
       position: absolute;
@@ -95,7 +95,7 @@
   p {
     color: $brown;
 
-    @include text(lg,'text');
+    @include text(lg, "text");
 
     * {
       font-family: $font-text;
@@ -126,7 +126,9 @@
     position: sticky;
     top: 50px;
     overflow-y: auto;
-    max-height: calc(100vh - 50px - 10px); // the extra 10px is to allow a little space at the bottom
+    max-height: calc(
+      100vh - 50px - 10px
+    ); // the extra 10px is to allow a little space at the bottom
 
     h4 {
       color: $brown;
@@ -151,7 +153,8 @@
 .footnotes {
   margin: 2rem auto 2rem auto;
   max-width: 40rem;
-  ol, ul {
+  ol,
+  ul {
     list-style: decimal;
   }
   li {
@@ -160,7 +163,7 @@
   }
   p {
     color: $brown;
-    @include text(md,'text');
+    @include text(md, "text");
     strong {
       font-weight: $fw-bold;
     }
@@ -171,7 +174,7 @@
   }
   ::marker {
     color: $brown;
-    @include text(md,'text');
+    @include text(md, "text");
   }
 }
 
