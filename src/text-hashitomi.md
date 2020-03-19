@@ -1127,25 +1127,19 @@ permalink: /text-hashitomi/
           </tr>
         </table>
 
+        <!-- prettier-ignore -->
         <div markdown="1">
-          * footnotes will be placed here (do not remove this line or indent
-          this div element!) {:footnotes}
-        </div>
+* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+{:footnotes}
+[^1]: Tanka by Sōjō Henjō (816-890) from the Imperial anthology of waka: Gosen-shū, compiled in 951.
+[^2]: The reference to the <em>yūgao</em> flower may allude to the occasion when Prince Genji met Lady Yūgao in <em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.'
+[^3]: Allusion to Lady Yūgao's mansion from <em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.'
+[^4]: The poem by Tachibana no Tadamoto (10th century) is about two Confucius disciples Gannen and Genken, who pursued their spiritual studies in great poverty. The <em> hyōtan</em> is a flower that looks like small gourds. The reference to ‘gourds are often empty’ is a metaphor for poverty.
+[^5]: Based on a poem by Po Chū-i (772-846).
+[^6]: Based on a poem from the <em>Shinsen Rōei-shū </em> by the T’ang poet Fang Kan.
+[^7]: The poetic text includes two references to <em>Genji Monogatari</em>, both from letters written by Lady Yūgao.
+</div>
       </div>
     </section>
   </div>
 </main>
-
-[^1]: Tanka by Sōjō Henjō (816-890) from the Imperial anthology of waka:
-Gosen-shū, compiled in 951. [^2]: The reference to the <em>yūgao</em> flower may
-allude to the occasion when Prince Genji met Lady Yūgao in
-<em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.' [^3]: Allusion to
-Lady Yūgao's mansion from <em>Genji Monogatari</em> : Chapter 4: 'The Twilight
-Beauty.' [^4]: The poem by Tachibana no Tadamoto (10th century) is about two
-Confucius disciples Gannen and Genken, who pursued their spiritual studies in
-great poverty. The <em> hyōtan</em> is a flower that looks like small gourds.
-The reference to ‘gourds are often empty’ is a metaphor for poverty. [^5]: Based
-on a poem by Po Chū-i (772-846). [^6]: Based on a poem from the
-<em>Shinsen Rōei-shū </em> by the T’ang poet Fang Kan. [^7]: The poetic text
-includes two references to <em>Genji Monogatari</em>, both from letters written
-by Lady Yūgao.

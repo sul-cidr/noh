@@ -1275,24 +1275,16 @@ permalink: /text-kokaji/
           </tr>
         </table>
 
+        <!-- prettier-ignore -->
         <div markdown="1">
-          * footnotes will be placed here (do not remove this line or indent
-          this div element!) {:footnotes}
-        </div>
+* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+{:footnotes}
+[^1]: It starts with a reference to Liu Bang (256 – 195 BC), the founding Emperor of the Han dynasty. It is said that shortly before dying he exclaimed that “wielding a three-foot sword, as a commoner I conquered the world.” It is followed by a reference to Yang Jian (541 – 604 AD) the first Emperor of the Sui Dynasty and his sword Kei who defeated the House of Chou.
+[^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.
+[^3]: Emperor Keikō feared the brutal temperament of his son who had slewed his elder brother. Thus, to keep him at distance, he sent him to the Eastern provinces, but before leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
+[^4]: The deity’s use of ‘Little Fox’ as his signature comes from the fact that foxes, often regarded as messengers are associated with various Inari shrines.
+</div>
       </div>
     </section>
   </div>
 </main>
-
-[^1]: It starts with a reference to Liu Bang (256 – 195 BC), the founding
-Emperor of the Han dynasty. It is said that shortly before dying he exclaimed
-that “wielding a three-foot sword, as a commoner I conquered the world.” It is
-followed by a reference to Yang Jian (541 – 604 AD) the first Emperor of the Sui
-Dynasty and his sword Kei who defeated the House of Chou. [^2]: The Emperor Huan
-Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his
-defense with a sword. [^3]: Emperor Keikō feared the brutal temperament of his
-son who had slewed his elder brother. Thus, to keep him at distance, he sent him
-to the Eastern provinces, but before leaving, Yamato-dake met with his aunt
-Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
-[^4]: The deity’s use of ‘Little Fox’ as his signature comes from the fact that
-foxes, often regarded as messengers are associated with various Inari shrines.
