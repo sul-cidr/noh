@@ -48,9 +48,8 @@ export const toCamelCase = str =>
   str
     .toLowerCase()
     .trim()
-    .replace(
-      regexps.groupedLetters,
-      (ltr, idx) => (idx === 0 ? ltr.toLowerCase() : ltr.toUpperCase())
+    .replace(regexps.groupedLetters, (ltr, idx) =>
+      idx === 0 ? ltr.toLowerCase() : ltr.toUpperCase()
     )
     .replace(regexps.whiteSpaces, "");
 
@@ -111,9 +110,7 @@ export const convertToVtt = (captions, track) => {
     if (track in caption) {
       content = caption[track];
     } else {
-      content = `<c.transcription>${
-        caption.transcription
-      }</c>\n<c.translation>(${caption.translation})</c>`;
+      content = `<c.transcription>${caption.transcription}</c>\n<c.translation>(${caption.translation})</c>`;
     }
     return [index + 1, timeCode, content].join("\n");
   });
@@ -249,17 +246,15 @@ export const main = (configPath, quiet) => {
         const sectionFileName = `${sectionFilePath}.json`;
         promises.push(
           Promise.all(
-            [section.phrases, section.metadata, section.captions].map(
-              url => (url ? downloadCSV(url) : null)
+            [section.phrases, section.metadata, section.captions].map(url =>
+              url ? downloadCSV(url) : null
             )
           )
             .then(data => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
               sectionData.playUrl = `/${play.playName}/`;
-              sectionData.sectionUrl = `/${play.playName}/${
-                section.sectionName
-              }/`;
+              sectionData.sectionUrl = `/${play.playName}/${section.sectionName}/`;
               sectionData.videoUrl = { value: play.videoUrl };
               sectionData.videoDuration = { value: play.videoDuration };
               sectionData.phrases = phrases ? processPhrases(phrases.data) : [];
@@ -267,9 +262,7 @@ export const main = (configPath, quiet) => {
                 ? processCaptions(captions.data)
                 : [];
               sectionData.narrative = {
-                value: `/${play.playName}/narratives/${
-                  section.sectionName
-                }.html`
+                value: `/${play.playName}/narratives/${section.sectionName}.html`
               };
               mkdirp.sync(path.join(dataFolder, play.playName));
               fs.writeFileSync(

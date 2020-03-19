@@ -163,7 +163,4 @@ export const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = TimelineScrubber;
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(TimelineScrubber);
+export default connect(mapStateToProps, mapDispatchToProps)(TimelineScrubber);

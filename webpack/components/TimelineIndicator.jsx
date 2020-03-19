@@ -84,7 +84,4 @@ export const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = TimelineIndicator;
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(TimelineIndicator);
+export default connect(mapStateToProps, mapDispatchToProps)(TimelineIndicator);

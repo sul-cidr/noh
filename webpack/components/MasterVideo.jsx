@@ -100,7 +100,4 @@ export const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = MasterVideo;
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(MasterVideo);
+export default connect(mapStateToProps, mapDispatchToProps)(MasterVideo);
