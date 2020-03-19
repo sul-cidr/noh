@@ -2,7 +2,7 @@
   background-color: $green;
   padding: 0.25rem;
   height: 2.5rem;
-  @include flex-container($justify:space-between);
+  @include flex-container($justify: space-between);
 
   .section-controls__button {
     border-radius: 0.125rem;
@@ -25,5 +25,4 @@
       cursor: default;
     }
   }
-
 }

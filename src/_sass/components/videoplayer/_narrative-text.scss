@@ -7,14 +7,16 @@ section.tabbed-narrative {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 
-    @include text(sm, 'text');
+    @include text(sm, "text");
 
     * {
       font-family: $font-text;
     }
   }
 
-  h2, h3, h4 {
+  h2,
+  h3,
+  h4 {
     color: $brown;
   }
 
@@ -44,5 +46,3 @@ section.tabbed-narrative {
     background-color: $beige-light;
   }
 }
-
-

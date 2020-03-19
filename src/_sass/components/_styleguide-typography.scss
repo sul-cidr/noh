@@ -5,7 +5,11 @@
   padding: 1rem;
   width: 40rem;
 
-  @include flex-container($direction:row, $justify:flex-start, $align: baseline);
+  @include flex-container(
+    $direction: row,
+    $justify: flex-start,
+    $align: baseline
+  );
 }
 
 .text-size {

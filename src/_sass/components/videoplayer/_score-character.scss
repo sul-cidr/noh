@@ -20,11 +20,21 @@
   top: 0;
 }
 
-.cell__character--jiutai     { @include character-overlay($color-character-jiutai, 'jiutai'); }
-.cell__character--aikyogen   { @include character-overlay($color-character-aikyogen, 'aikyogen'); }
-.cell__character--shite      { @include character-overlay($color-character-shite, 'shite'); }
-.cell__character--waki       { @include character-overlay($color-character-waki, 'waki'); }
-.cell__character--wakizure   { @include character-overlay($color-character-wakizure, 'wakizure'); }
+.cell__character--jiutai {
+  @include character-overlay($color-character-jiutai, "jiutai");
+}
+.cell__character--aikyogen {
+  @include character-overlay($color-character-aikyogen, "aikyogen");
+}
+.cell__character--shite {
+  @include character-overlay($color-character-shite, "shite");
+}
+.cell__character--waki {
+  @include character-overlay($color-character-waki, "waki");
+}
+.cell__character--wakizure {
+  @include character-overlay($color-character-wakizure, "wakizure");
+}
 
 .cell__character .truncate {
   left: 0.5rem;
@@ -48,7 +58,9 @@
   @include text(tn);
   @include uppercase();
   line-height: $tooltip-height;
-  padding-left: calc(0.5rem - 0.1875rem);  // <left offset of span.truncate for text> - <width of colored border>
+  padding-left: calc(
+    0.5rem - 0.1875rem
+  ); // <left offset of span.truncate for text> - <width of colored border>
 
   &.cell__tooltip--centered {
     padding: 0;

@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
 
-  input[type='checkbox'] {
+  input[type="checkbox"] {
     display: none;
   }
 
@@ -33,7 +33,7 @@
       border-radius: 0.125rem;
       border-style: solid;
       border-width: 0.0625rem;
-      content: '';
+      content: "";
       top: 0;
     }
 
@@ -78,7 +78,7 @@
 
   input[type="checkbox"]:indeterminate + label::after {
     color: $white;
-    content: '';
+    content: "";
   }
 }
 

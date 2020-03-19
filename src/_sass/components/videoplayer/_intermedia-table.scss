@@ -3,7 +3,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-  
+
   100% {
     transform: translateX(100%);
     opacity: 0;
@@ -32,15 +32,14 @@
     font-weight: 700;
     height: $timeline-acts-height + $timeline-marks-height;
     padding: 0 0.5rem;
-
   }
   .intermedia__label {
     @include text(xxs);
   }
-  
+
   .intermedia__value {
     @include text(sm);
-    
+
     a {
       text-decoration: none;
       @include flex-container($justify: flex-start, $align: baseline);
@@ -70,7 +69,6 @@
         }
       }
     }
-
   }
 }
 
@@ -81,7 +79,7 @@
 
   @include flex-container($justify: flex-start);
 
- .intermedia__value__none {
+  .intermedia__value__none {
     font-style: italic;
     color: $brown32;
   }
