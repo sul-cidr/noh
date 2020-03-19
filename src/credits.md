@@ -7,9 +7,8 @@ permalink: /credits/
 <main class="page-content">
 
   <div class="text-container">
- <h4></h4>
-{% include image-scalable.html src="/assets/images/logos.png" scale="70%" align="center" column_size="large" %}
-<h4></h4>
+    <div class="wrapper wrapper--small">
+    {% include image-scalable.html src="/assets/images/logos.png" scale="70%" align="center" column_size="large" %}
     <h1>CREDITS</h1>
 
     <h4>Principal Investigators</h4>
@@ -146,6 +145,7 @@ Ritusmeikan University, Art Research Center;<br>
 
  <h2>SPECIAL THANKS</h2>
  <p>TOKUMARU Yoshihiko<br>YUASA Joji<br>TAKAHASHI Terumi</p>
+    </div>
   </div>
 
 </main>
