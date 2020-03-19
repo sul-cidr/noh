@@ -48,9 +48,7 @@
   h3,
   h4,
   h5 {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $wrapper-small;
+      max-width: $wrapper-small;
     padding: 1rem 0;
     position: relative;
   }
@@ -86,6 +84,7 @@
     display: block;
     margin: 0 auto;
     max-width: $wrapper-media;
+    width: 100%;
   }
 
   video {
@@ -137,14 +136,16 @@
       padding: 0.5rem;
     }
   }
+
+  .sidebar-contents__section {
+    max-width: $wrapper-small;
+    margin-left: 1rem;
+  }
 }
 
 .text-container {
   p {
     margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $wrapper-small;
   }
 }
 
