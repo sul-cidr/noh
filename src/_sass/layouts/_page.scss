@@ -118,15 +118,19 @@
   .sidebar-contents__table {
     background-color: $beige-light;
     border: $border;
-    flex-basis: 14rem;
+    flex-basis: 11rem;
     flex-shrink: 0;
-    margin-right: 2rem;
+    margin-right: 1rem;
     margin-top: 2rem;
     padding: 0.5rem;
     position: sticky;
     top: 50px;
     overflow-y: auto;
     max-height: calc(100vh - 50px - 10px); // the extra 10px is to allow a little space at the bottom
+
+    @media #{$desktop-up} {
+      flex-basis: 14rem;
+    }
 
     h4 {
       color: $brown;
