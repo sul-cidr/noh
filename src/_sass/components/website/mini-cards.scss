@@ -1,26 +1,28 @@
 .mini-cards__container {
-  padding: 0 2rem;
+  margin: 0 -0.5rem;
+  padding: 0 1rem;
 
   @include flex-container($wrap:wrap, $justify:flex-start, $align:flex-start);
 }
 
 .mini-cards__element {
   background-color: $beige-light;
-  border: $border;
-  color: $brown;
   border-radius: 0.25rem;
+  border: $border;
   box-shadow: 0 0.125rem 0.25rem $black16;
-  font-size: $fs-display-md;
-  font-weight: $fw-regular;
-  margin: 0.5rem;
-  height: 5rem;
-  width: 10rem;
-  position: relative;
+  color: $brown;
   cursor: pointer;
   display: flex;
+  font-size: $fs-display-md;
+  font-weight: $fw-regular;
+  height: 5rem;
+  margin: 0.5rem;
+  position: relative;
   text-align: center;
-  @include flex-container($justify:center);
   transition: top $transition, box-shadow $transition;
+  width: 10rem;
+
+  @include flex-container($justify:center);
 
   &:hover {
     box-shadow: 0 0.375rem 0.75rem $black16;

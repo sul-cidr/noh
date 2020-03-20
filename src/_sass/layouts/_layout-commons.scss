@@ -1,16 +1,21 @@
 .wrapper {
-  margin: 0 auto;
-  max-width: $wrapper-medium;
+  @include wrapper();
+}
+
+.wrapper--small {
+  max-width: $wrapper-small;
 }
 
 .wrapper--large {
-  max-width: $wrapper-large;
+  max-width: 100%;
 }
 
 .text-container {
-  @extend .wrapper;
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
+  max-width: $wrapper-small;
 }
 
 .tabs-container {
