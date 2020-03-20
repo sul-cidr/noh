@@ -48,9 +48,11 @@ layout: home
       of Noh's form, music, movement, text and staging, as well as catalogs of
       standard dance patterns and musical forms used in the featured plays" %}
     </div>
+    <!-- prettier-ignore -->
+    <div markdown="1">
+* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+{:footnotes}
+[^1]: Translated by Tom Hare in <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>, Columbia University Press, 2008, p. 48.
+</div>
   </div>
 </div>
-
-[^1]: Translated by Tom Hare in
-<em>Zeami: Performance Notes (Translations from the Asian Classics)</em>,
-Columbia University Press, 2008,p.48
