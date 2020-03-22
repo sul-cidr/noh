@@ -72,7 +72,7 @@ permalink: /intermedia/
     The two plays showcased on this website are Hashitomi (category 3) and Kokaji (category 5).  The former has 19 sections (shôdan), the latter has 20. We compared their structure with Izutsu's, a play written by Zeami that epitomizes his model structure.  When combining these three plays, we found that they include examples of twenty out of the possible twenty-three textures. It is these twenty textures that we have used when plotting the form of each play.</p>
     <table class="content-table">
           <tr class="content-table__row--header">
-            <td class="content-table__column">Intermedia Texture Index (ITI)</td>
+            <td class="content-table__column">Index of Intermedia (IoI)</td>
             <td class="content-table__column">Voice</td>
             <td class="content-table__column">Drums</td>
             <td class="content-table__column">Flute</td>
@@ -317,7 +317,7 @@ permalink: /intermedia/
             <td class="content-table__column"> – </td>
             </tr>
             <tr class="content-table__row--header">
-              <td class="content-table__column">ITI</td>
+              <td class="content-table__column">IoI</td>
               <td class="content-table__column">Voice</td>
               <td class="content-table__column">Drums</td>
               <td class="content-table__column">Flute</td>

@@ -11,11 +11,12 @@ permalink: /catalog-of-shodan/
 
 <main class="page-content">
   <div class="text-container">
+  {% include menu-form-small.html %}
     <h2>Catalog of Shōdan</h2>
     <p>
       The following partial catalog is limited to modules (<em>shōdan</em>) from the two plays featured in this website: Kokaji and
       Hashitomi. To prioritize information about musical characteristics the <em>shōdan</em> were recorded in a
-      recital-style performance, and the videos overlaid with simplified notation. </p>
+      recital-style performance, and the videos were overlaid with simplified notation of the music. </p>
   </div>
   <a id="catalog"></a>
   {% include filters.html catalog=site.data.catalog-sections images="shodan" %}
