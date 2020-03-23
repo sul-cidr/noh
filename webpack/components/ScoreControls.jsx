@@ -106,10 +106,8 @@ class ScoreControls extends Component {
           >
             <span className="sentence-control__title">Measure:</span>
             <span className="sentence-control__current">
-              {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/{this
-                .props.phrases.length
-                ? this.props.phrases.length
-                : "--"}
+              {currentPhraseIndex == null ? "--" : currentPhraseIndex + 1}/
+              {this.props.phrases.length ? this.props.phrases.length : "--"}
             </span>
           </div>
           <button
@@ -319,7 +317,4 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = ScoreControls;
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(ScoreControls);
+export default connect(mapStateToProps, mapDispatchToProps)(ScoreControls);

@@ -80,7 +80,4 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = ShodanTimelineBlock;
-export default connect(
-  null,
-  mapDispatchToProps
-)(ShodanTimelineBlock);
+export default connect(null, mapDispatchToProps)(ShodanTimelineBlock);

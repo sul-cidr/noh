@@ -1,4 +1,4 @@
-$retina: '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)';
+$retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 $grid-columns: 12 !default;
 $grid-gutter: 1rem;
@@ -18,8 +18,8 @@ $grid-gutter: 1rem;
   }
 }
 
-[class^='col-'],
-[class*=' col-'] {
+[class^="col-"],
+[class*=" col-"] {
   padding-left: $grid-gutter;
   padding-right: $grid-gutter;
 }
@@ -48,8 +48,8 @@ $grid-gutter: 1rem;
 .no-gutter {
   margin: 0;
 
-  > [class^='col-'],
-  [class*=' col-'] {
+  > [class^="col-"],
+  [class*=" col-"] {
     padding: 0;
   }
 }

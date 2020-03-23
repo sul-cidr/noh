@@ -41,9 +41,8 @@ export const main = configPath => {
                 ...(shodans[`${fileName}/${name}`] || []),
                 ...row
                   .slice(2)
-                  .map(
-                    (cell, rowIndex) =>
-                      cell ? headers[filter.type][rowIndex] : null
+                  .map((cell, rowIndex) =>
+                    cell ? headers[filter.type][rowIndex] : null
                   )
                   .filter(Boolean)
               ];

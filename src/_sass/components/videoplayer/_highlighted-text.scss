@@ -30,7 +30,7 @@
 
   .sidebar__collapsable-title--libretto {
     &.disabled {
-      opacity: .4;
+      opacity: 0.4;
       pointer-events: none;
     }
   }
@@ -62,7 +62,7 @@
   color: $brown;
   padding: 0.5rem 1rem;
 
-  @include flex-container($justify:space-between, $align:baseline);
+  @include flex-container($justify: space-between, $align: baseline);
 
   p {
     @include text(xs);
@@ -87,12 +87,12 @@
 }
 
 .transcription__line {
-	color: $brown;
+  color: $brown;
   font-family: $font-text;
   margin-bottom: 0.25rem;
   padding: 0.25rem 1rem;
 
-  @include flex-container($justify:flex-start, $align:flex-start);
+  @include flex-container($justify: flex-start, $align: flex-start);
 
   &.active {
     background-color: $beige-light;

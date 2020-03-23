@@ -63,7 +63,4 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export const Unwrapped = Narrative;
-export default connect(
-  null,
-  mapDispatchToProps
-)(Narrative);
+export default connect(null, mapDispatchToProps)(Narrative);

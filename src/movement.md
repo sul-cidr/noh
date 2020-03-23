@@ -7,15 +7,13 @@ third-level-menu-active: kata
 permalink: /movement/
 ---
 
-{% include second-menu-elements.html %}
-{% include menu-dances-small.html %}
+{% include second-menu-elements.html %} {% include menu-dances-small.html %}
 
 <main class="page-content">
   <div class="text-container">
     <h2>Catalog of Kata</h2>
-
   </div>
   <a id="catalog"></a>
-  {% include filters.html catalog=site.data.catalog-movements images="movement" %}
-
+  {% include filters.html catalog=site.data.catalog-movements images="movement"
+  %}
 </main>

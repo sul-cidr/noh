@@ -3,12 +3,15 @@ layout: default
 full-width-header: false
 ---
 
-{{ content }}
-
-{% include footer.html %}
+{{ content }} {% include footer.html %}
 
 <script type="text/javascript" src="/assets/tabs.js"></script>
-<script type="text/javascript" src="/assets/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop()</script>
+<script
+  type="text/javascript"
+  src="/assets/vanilla-back-to-top.min.js"
+></script>
+<script>
+  addBackToTop();
+</script>
 
 <script type="text/javascript" src="/assets/menu-scroll.js"></script>

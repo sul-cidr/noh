@@ -1,16 +1,19 @@
-{% assign player_id = include.src | append: "_player" %}
-{% assign controls_id = include.src | append: "_controls" %}
+{% assign player_id = include.src | append: "_player" %} {% assign controls_id =
+include.src | append: "_controls" %}
 
 <li class="mini-cards__element">
-  <audio id="{{ player_id }}"
+  <audio
+    id="{{ player_id }}"
     onended="
       document.getElementById('{{ controls_id }}').classList.remove('audio-playing');
       document.getElementById('{{ controls_id }}').classList.add('audio-player');"
   >
-    <source src="{{ include.src }}" type="audio/mpeg">
+    <source src="{{ include.src }}" type="audio/mpeg" />
     No browser audio support.
   </audio>
-  <div id="{{ controls_id }}" class="audio-label audio-player"
+  <div
+    id="{{ controls_id }}"
+    class="audio-label audio-player"
     onclick="
       if (this.classList.contains('audio-playing')) {
         this.classList.remove('audio-playing');
@@ -21,5 +24,7 @@
         this.classList.add('audio-playing');
         document.getElementById('{{ player_id }}').play();
       }"
-  >{{include.text}}</div>
+  >
+    {{include.text}}
+  </div>
 </li>
