@@ -41,13 +41,7 @@ permalink: /elements/
       transliteration and English translation." %} {% include card.html
       link="/staging/" image="/assets/images/Kokaji2.png" title="Staging"
       description="Discusses the use of the Noh stage, masks, costumes and
-      properties." %} {% include card.html link="/movement/"
-      image="/assets/images/movement/open-retreat.jpg" title="Catalog of Kata"
-      description="An interactive video catalog of standard vocabulary of
-      movement." %} {% include card.html link="/catalog-of-shodan/"
-      image="/assets/images/recital-style.png" title="Catalog of Shōdan"
-      description="An interactive video catalog of basic structural modules of
-      Noh performed in recital style." %}
+      properties." %}
     </div>
   </div>
 </main>
