@@ -1,10 +1,10 @@
 <div class="video-website">
   <div class="video-website__container">
     {% if include.link %}
-      <a class="video-website__toggle" href="">
-        <strong>{{ include.link }}</strong>
-        <i class="fas fa-info-circle"></i>
-      </a>
+    <a class="video-website__toggle" href="">
+      <strong>{{ include.link }}</strong>
+      <i class="fas fa-info-circle"></i>
+    </a>
     {% endif %}
     <div class="video-website__tooltip">
       <div class="video-website__description">
@@ -15,7 +15,7 @@
       </div>
     </div>
     <video id="player" controls="" controlslist="nodownload">
-      <source src="{{ include.src }}" type="video/mp4">
+      <source src="{{ include.src }}" type="video/mp4" />
     </video>
   </div>
 </div>

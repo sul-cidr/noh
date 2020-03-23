@@ -1,9 +1,14 @@
-<a href="./{{include.slug}}" target="_blank" data-pills="{{include.pills}}" class="filters__card" style="background-image:url('/assets/images/{{include.images}}/{{include.slug}}.jpg')">
+<a
+  href="./{{include.slug}}"
+  target="_blank"
+  data-pills="{{include.pills}}"
+  class="filters__card"
+  style="background-image:url('/assets/images/{{include.images}}/{{include.slug}}.jpg')"
+>
   <h6 class="filters__card-title">{{ include.title }}</h6>
   <ul class="filters__pills-container">
-    {% assign pills = include.pills | split: ',' %}
-    {% for pill in pills %}
-      <li class="filters__pill">{{ pill }}</li>
+    {% assign pills = include.pills | split: ',' %} {% for pill in pills %}
+    <li class="filters__pill">{{ pill }}</li>
     {% endfor %}
   </ul>
 </a>

@@ -12,7 +12,7 @@ $svg-small: 1;
   }
 
   .time-indicator {
-    background-image: url('./images/current-position-indicator.svg');
+    background-image: url("./images/current-position-indicator.svg");
     background-repeat: no-repeat;
     height: calc(100% + #{$timeline-acts-height});
     position: absolute;

@@ -36,24 +36,37 @@
 
   .content-table__column {
     min-width: auto;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
-  td:nth-of-type(1) { width: 6%; }
-  td:nth-of-type(2) { width: 19%; }
-  td:nth-of-type(3) { width: 9%; }
-  td:nth-of-type(4) { width: 19%; }
-  td:nth-of-type(5) { width: 9%; }
-  td:nth-of-type(6) { width: 19%; }
-  td:nth-of-type(7) { width: 19%; }
-
+  td:nth-of-type(1) {
+    width: 6%;
+  }
+  td:nth-of-type(2) {
+    width: 19%;
+  }
+  td:nth-of-type(3) {
+    width: 9%;
+  }
+  td:nth-of-type(4) {
+    width: 19%;
+  }
+  td:nth-of-type(5) {
+    width: 9%;
+  }
+  td:nth-of-type(6) {
+    width: 19%;
+  }
+  td:nth-of-type(7) {
+    width: 19%;
+  }
 }
 
 #content-table--iti__show-all {
   display: none;
 
   ~ label {
-    float:right;
+    float: right;
     text-transform: uppercase;
 
     &::before {
@@ -67,7 +80,6 @@
     }
 
     ~ .content-table--iti {
-
       &::after {
         display: none;
       }
@@ -77,19 +89,17 @@
       }
     }
   }
-
 }
-
 
 .content-table__row {
   border-bottom: $border;
 
-  &:nth-child(2n+1) {
-    background-color: rgba($beige-light,0.5);
+  &:nth-child(2n + 1) {
+    background-color: rgba($beige-light, 0.5);
   }
 
   &.beige {
-    background-color: rgba($beige-light,0.5);
+    background-color: rgba($beige-light, 0.5);
   }
   &.white {
     background-color: $white;
@@ -100,10 +110,10 @@
   padding: 0.5rem 1rem;
   vertical-align: top;
 
-  @include text(sm, 'text');
+  @include text(sm, "text");
 
   p {
-    @include text(sm, 'text');
+    @include text(sm, "text");
   }
 
   &.greentext {
@@ -115,7 +125,7 @@
   }
 
   &.beige {
-    background-color: rgba($beige-light,0.5);
+    background-color: rgba($beige-light, 0.5);
   }
   &.white {
     background-color: $white;

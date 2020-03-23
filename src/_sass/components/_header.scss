@@ -1,7 +1,9 @@
 .header {
   background-color: $green;
 
-  .logo--isotype { display: none; }
+  .logo--isotype {
+    display: none;
+  }
 }
 
 .header--transparent {
@@ -25,8 +27,12 @@
 }
 
 .header--small {
-  .logo--standard { display: none; }
-  .logo--isotype { display: block; }
+  .logo--standard {
+    display: none;
+  }
+  .logo--isotype {
+    display: block;
+  }
 }
 
 .logo {
@@ -42,7 +48,6 @@
     @include flex-container();
 
     > li {
-
       &.active {
         .header__main-link {
           border-bottom-color: $white;
@@ -88,7 +93,7 @@
     border-color: $white80 transparent transparent transparent;
     border-style: solid;
     border-width: 0.1875rem 0.1875rem 0 0.1875rem;
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     height: 0;
@@ -129,18 +134,18 @@
     font-weight: $fw-regular;
     cursor: default;
 
-      align-items: center;
-      display: flex;
-      padding-right: 1rem;
-      position: relative;
+    align-items: center;
+    display: flex;
+    padding-right: 1rem;
+    position: relative;
 
-      @include text(xs);
+    @include text(xs);
 
     &::after {
       border-color: $brown transparent transparent transparent;
       border-style: solid;
       border-width: 0.1875rem 0.1875rem 0 0.1875rem;
-      content: '';
+      content: "";
       display: block;
       height: 0;
       margin-left: 0.25rem;

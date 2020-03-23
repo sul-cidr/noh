@@ -12,7 +12,7 @@ $score-checkbox-height: 1.5rem;
 
 .sentence-control {
   min-width: 11rem;
-  @include flex-container($justify:space-around);
+  @include flex-container($justify: space-around);
 }
 
 .sentence-control__prev,
@@ -31,7 +31,7 @@ $score-checkbox-height: 1.5rem;
 
   &:disabled {
     cursor: default;
-    opacity: .4;
+    opacity: 0.4;
   }
 }
 
@@ -44,11 +44,11 @@ $score-checkbox-height: 1.5rem;
 }
 
 .sentence-control__status {
-  @include flex-container($justify:flex-start, $align:baseline);
+  @include flex-container($justify: flex-start, $align: baseline);
 
   &.disabled span {
     cursor: default;
-    opacity: .4;
+    opacity: 0.4;
   }
 }
 
@@ -117,7 +117,7 @@ $score-checkbox-height: 1.5rem;
 
   &:disabled {
     cursor: default;
-    opacity: .4;
+    opacity: 0.4;
   }
 }
 
@@ -132,13 +132,13 @@ $score-checkbox-height: 1.5rem;
   width: 18rem;
   z-index: 11;
 
-  @include flex-container($justify:flex-start, $align:flex-start);
+  @include flex-container($justify: flex-start, $align: flex-start);
 
   &::before {
     background-color: $white;
     box-shadow: 0.1875rem 0.1875rem 0.375rem $black32;
     bottom: -0.375rem;
-    content: '';
+    content: "";
     height: 0.75rem;
     position: absolute;
     right: 1.5rem;
@@ -155,7 +155,7 @@ $score-checkbox-height: 1.5rem;
 .score-controls__time {
   height: 100%;
   width: 100%;
-  @include flex-container($justify:center);
+  @include flex-container($justify: center);
 }
 
 .score-controls__elapsed-time {

@@ -1,8 +1,8 @@
 ---
 layout: website
-name: pivot 
-filter-act: 
-filter-type: 
+name: pivot
+filter-act:
+filter-type:
 second-level-menu-active: movement
 ---
 

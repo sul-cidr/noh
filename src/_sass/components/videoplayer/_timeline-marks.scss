@@ -15,7 +15,7 @@
 
   @include flex-container($justify: flex-start);
   @include text(md);
-  @include truncate($display:flex);
+  @include truncate($display: flex);
 
   &:first-child {
     border-left: none;

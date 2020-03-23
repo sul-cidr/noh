@@ -8,9 +8,7 @@ const CellPercussion = props => {
   const percussionContent = props.text.startsWith("#") ? "" : props.text;
   return (
     <div
-      className={`cell cell--${
-        props.length
-      } cell--percussion ${percussionClass}`}
+      className={`cell cell--${props.length} cell--percussion ${percussionClass}`}
     >
       {percussionContent}
     </div>

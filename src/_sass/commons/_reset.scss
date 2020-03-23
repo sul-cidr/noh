@@ -1,59 +1,76 @@
 * {
-	border: 0;
-	font-family: $font-display;
-	font-size: 100%;
-	margin: 0;
-	outline: none;
-	padding: 0;
-	vertical-align: baseline;
+  border: 0;
+  font-family: $font-display;
+  font-size: 100%;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
 a,
 time {
-	color: $red;
-	font-family: inherit;
+  color: $red;
+  font-family: inherit;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 sup {
-	font-size: smaller;
-	vertical-align: super;
+  font-size: smaller;
+  vertical-align: super;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-tr, td {
+tr,
+td {
   margin: 0;
   padding: 0;
   vertical-align: middle;
@@ -63,6 +80,7 @@ video {
   max-width: 100%;
 }
 
-.fa, .fas {
-	font-family: $font-icon;
+.fa,
+.fas {
+  font-family: $font-icon;
 }
