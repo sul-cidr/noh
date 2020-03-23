@@ -37,6 +37,19 @@ $card-menu-large-element-size-desktop: 8.75rem;
   }
 }
 
+.card-menu--small {
+  background-color: $beige-light;
+
+  .card-menu__element {
+    height: $card-menu-small-element-size;
+    width: $card-menu-small-element-size;
+
+    span {
+      @include text(xs);
+    }
+  }
+}
+
 .card-menu--large {
   padding: 2rem 0 1rem 0;
 
