@@ -11,6 +11,7 @@ permalink: /catalog-of-shodan/
 
 <main class="page-content">
   <div class="text-container">
+    {% include menu-form-small.html %}
     <div class="wrapper wrapper--small">
       <h2>Catalog of Shōdan</h2>
       <p>
@@ -18,7 +19,7 @@ permalink: /catalog-of-shodan/
         from the two plays featured in this website: Kokaji and Hashitomi. To
         prioritize information about musical characteristics the
         <em>shōdan</em> were recorded in a recital-style performance, and the
-        videos overlaid with simplified notation.
+        videos were overlaid with simplified notation of the music.
       </p>
     </div>
   </div>

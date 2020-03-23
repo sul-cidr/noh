@@ -264,9 +264,7 @@ permalink: /intermedia/
         </p>
         <table class="content-table">
           <tr class="content-table__row--header">
-            <td class="content-table__column">
-              Intermedia Texture Index (ITI)
-            </td>
+            <td class="content-table__column">Index of Intermedia (IoI)</td>
             <td class="content-table__column">Voice</td>
             <td class="content-table__column">Drums</td>
             <td class="content-table__column">Flute</td>
@@ -511,7 +509,7 @@ permalink: /intermedia/
             <td class="content-table__column">–</td>
           </tr>
           <tr class="content-table__row--header">
-            <td class="content-table__column">ITI</td>
+            <td class="content-table__column">IoI</td>
             <td class="content-table__column">Voice</td>
             <td class="content-table__column">Drums</td>
             <td class="content-table__column">Flute</td>
