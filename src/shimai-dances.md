@@ -59,9 +59,9 @@ permalink: /shimai-dances/
         <div class="wrapper">
           <section id="tab-1" title="Hashitomi-Kuse" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Front_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Side_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Side_Score_sl.mp4"
             %}
             <p><u>Opening sequence</u></p>
             <p>8. Kneeling – Stand-up, Left stamp, Step forward, Right Stamp</p>
@@ -118,9 +118,9 @@ permalink: /shimai-dances/
 
           <section id="tab-2" title="Hashitomi-Kiri" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Front_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Side_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Side_Score_sl.mp4"
             %}
             <table class="content-table" width="200">
               <tr class="content-table__row">
@@ -456,9 +456,9 @@ permalink: /shimai-dances/
 
           <section id="tab-3" title="Kokaji-Kuse" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kokaji_Kuse_Dance_Front_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kuse_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kokaji_Kuse_Dance_Side_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kuse_Dance_Side_Score_sl.mp4"
             %}
 
             <p><u>Sitting part of the dance</u></p>
@@ -523,9 +523,9 @@ permalink: /shimai-dances/
 
           <section id="tab-4" title="Kokaji-Kiri" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kokaji_Kiri_Dance_Front_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kiri_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d7rcwrflqckpu.cloudfront.net/Dance_sl/Kokaji_Kiri_Dance_Side_Score_sl.mp4"
+            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kiri_Dance_Side_Score_sl.mp4"
             %}
 
             <p><u>Opening sequence</u></p>
