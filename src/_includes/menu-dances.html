@@ -1,13 +1,36 @@
-<h4>Shimai Dances</h4>
-<ul class="anchor-menu">
-  <li
-    class="anchor-menu__element {% if page.fourth-level-menu-active == 'roles' %}active{% endif %}"
-  >
-    <a href="#Intro">Introduction</a>
-  </li>
-  <li
-    class="anchor-menu__element {% if page.fourth-level-menu-active == 'roles' %}active{% endif %}"
-  >
-    <a href="#tabs">Dances</a>
-  </li>
-</ul>
+<nav class="third-level-menu__container">
+  <div class="wrapper">
+    <ul class="card-menu card-menu--small">
+      <li
+        class="{% if page.third-level-menu-active == 'introduction' %}active{% endif %}"
+      >
+        <a
+          href="/about-movement/"
+          class="card-menu__element"
+          style="background-image: url('/assets/images/utaibon.png');"
+          ><span>Introduction</span></a
+        >
+      </li>
+      <li
+        class="{% if page.third-level-menu-active == 'dances' %}active{% endif %}"
+      >
+        <a
+          href="/shimai-dances/"
+          class="card-menu__element"
+          style="background-image: url('/assets/images/movement/shimai.png');"
+          ><span>Shimai Dances</span></a
+        >
+      </li>
+      <li
+        class="{% if page.third-level-menu-active == 'kata' %}active{% endif %}"
+      >
+        <a
+          href="/movement/"
+          class="card-menu__element"
+          style="background-image: url('/assets/images/movement/figure-eight-fan.jpg');"
+          ><span>Catalog of Kata</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
