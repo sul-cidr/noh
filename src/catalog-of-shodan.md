@@ -7,11 +7,10 @@ third-level-menu-active: catalog-of-shodan
 permalink: /catalog-of-shodan/
 ---
 
-{% include second-menu-elements.html %}
+{% include second-menu-elements.html %} {% include menu-form-small.html %}
 
 <main class="page-content">
   <div class="text-container">
-    {% include menu-form-small.html %}
     <div class="wrapper wrapper--small">
       <h2>Catalog of Shōdan</h2>
       <p>
