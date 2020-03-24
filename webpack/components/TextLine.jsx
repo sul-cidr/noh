@@ -79,7 +79,4 @@ const mapDispatchToProps = dispatch => ({
 
 export const UnwrappedLine = Line;
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(Line);
+export default connect(null, mapDispatchToProps)(Line);

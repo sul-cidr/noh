@@ -1,25 +1,12 @@
 $card-menu-small-element-size: 5.5rem;
-$card-menu-large-element-size: 8.75rem;
+$card-menu-large-element-size-mobile: 7rem;
+$card-menu-large-element-size-desktop: 8.75rem;
 
 .card-menu {
   padding: 2rem 0;
-}
-
-.card-menu--small {
-  background-color: $beige-light;
 
   @include flex-container($justify: center, $align: center);
 
-  .card-menu__element {
-    height: $card-menu-small-element-size;
-    width: $card-menu-small-element-size;
-    
-    span {
-      @include text(xs);
-      padding: 0 .2rem;
-    }
-  }
-  
   li {
     padding: 0 1rem;
     position: relative;
@@ -30,7 +17,7 @@ $card-menu-large-element-size: 8.75rem;
 
         &::before {
           background-color: rgba($black, 0);
-        }    
+        }
       }
 
       &::after {
@@ -38,14 +25,28 @@ $card-menu-large-element-size: 8.75rem;
         border-style: solid;
         border-width: 0.625rem 0.625rem 0 0.625rem;
         bottom: -2.625rem;
-        content: '';
+        content: "";
         display: inline-block;
         height: 0;
         left: 50%;
         position: absolute;
         transform: translateX(-50%);
         width: 0;
-      }    
+      }
+    }
+  }
+}
+
+.card-menu--small {
+  background-color: $beige-light;
+
+  .card-menu__element {
+    height: $card-menu-small-element-size;
+    width: $card-menu-small-element-size;
+
+    span {
+      @include text(xs);
+      padding: 0 0.2rem;
     }
   }
 }
@@ -54,8 +55,13 @@ $card-menu-large-element-size: 8.75rem;
   padding: 2rem 0 1rem 0;
 
   .card-menu__element {
-    height: $card-menu-large-element-size;
-    width: $card-menu-large-element-size;
+    height: $card-menu-large-element-size-mobile;
+    width: $card-menu-large-element-size-mobile;
+
+    @media #{$desktop-up} {
+      height: $card-menu-large-element-size-desktop;
+      width: $card-menu-large-element-size-desktop;
+    }
 
     span {
       @include text(sm);
@@ -77,7 +83,7 @@ $card-menu-large-element-size: 8.75rem;
 
   &::before {
     background-color: $black48;
-    content: '';
+    content: "";
     height: 100%;
     left: 0;
     position: absolute;
@@ -109,4 +115,3 @@ $card-menu-large-element-size: 8.75rem;
     z-index: 1;
   }
 }
-

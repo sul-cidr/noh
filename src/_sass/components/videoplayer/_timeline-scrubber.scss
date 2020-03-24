@@ -18,7 +18,7 @@ $time-indicator-offset: 1rem;
     &::after {
       background-color: $white;
       border-radius: $time-indicator-bar;
-      content: '';
+      content: "";
       height: $time-indicator-bar;
       left: 0;
       pointer-events: none;

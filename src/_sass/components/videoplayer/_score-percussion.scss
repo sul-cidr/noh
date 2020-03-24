@@ -8,7 +8,6 @@
   position: relative;
 }
 
-
 /////////////////////////////////
 // single-image percussion cells
 /////////////////////////////////
@@ -25,23 +24,52 @@
 .cell--percussion-obtr,
 .cell--percussion-osae,
 .cell--percussion-owtr,
-.cell--percussion-shon { background-position: center; }
+.cell--percussion-shon {
+  background-position: center;
+}
 
-.cell--percussion-chun { background-image: url('./images/note-chun.svg'); }
-.cell--percussion-dain { background-image: url('./images/note-dain.svg'); }
-.cell--percussion-don  { background-image: url('./images/note-don.svg'); }
-.cell--percussion-kata { background-image: url('./images/note-kata.svg'); }
-.cell--percussion-kbci { background-image: url('./images/note-kbci.svg'); }
-.cell--percussion-kesu { background-image: url('./images/note-kesu.svg'); }
-.cell--percussion-kopu { background-image: url('./images/note-kopu.svg'); }
-.cell--percussion-kwci { background-image: url('./images/note-kwci.svg'); }
-.cell--percussion-kwtr { background-image: url('./images/note-kwtr.svg'); }
-.cell--percussion-obci { background-image: url('./images/note-obci.svg'); }
-.cell--percussion-obtr { background-image: url('./images/note-obtr.svg'); }
-.cell--percussion-osae { background-image: url('./images/note-osae.svg'); }
-.cell--percussion-owtr { background-image: url('./images/note-owtr.svg'); }
-.cell--percussion-shon { background-image: url('./images/note-shon.svg'); }
-
+.cell--percussion-chun {
+  background-image: url("./images/note-chun.svg");
+}
+.cell--percussion-dain {
+  background-image: url("./images/note-dain.svg");
+}
+.cell--percussion-don {
+  background-image: url("./images/note-don.svg");
+}
+.cell--percussion-kata {
+  background-image: url("./images/note-kata.svg");
+}
+.cell--percussion-kbci {
+  background-image: url("./images/note-kbci.svg");
+}
+.cell--percussion-kesu {
+  background-image: url("./images/note-kesu.svg");
+}
+.cell--percussion-kopu {
+  background-image: url("./images/note-kopu.svg");
+}
+.cell--percussion-kwci {
+  background-image: url("./images/note-kwci.svg");
+}
+.cell--percussion-kwtr {
+  background-image: url("./images/note-kwtr.svg");
+}
+.cell--percussion-obci {
+  background-image: url("./images/note-obci.svg");
+}
+.cell--percussion-obtr {
+  background-image: url("./images/note-obtr.svg");
+}
+.cell--percussion-osae {
+  background-image: url("./images/note-osae.svg");
+}
+.cell--percussion-owtr {
+  background-image: url("./images/note-owtr.svg");
+}
+.cell--percussion-shon {
+  background-image: url("./images/note-shon.svg");
+}
 
 ///////////////////////////////////////////
 // composed percussion cells -- two images
@@ -56,20 +84,43 @@
 .cell--percussion-wtbc,
 .cell--percussion-wtko,
 .cell--percussion-wtwc,
-.cell--percussion-wtwt { background-position:  calc(50% - 9px) center, calc(50% + 9px) center; }
+.cell--percussion-wtwt {
+  background-position: calc(50% - 9px) center, calc(50% + 9px) center;
+}
 
-.cell--percussion-bcbc { background-image: url("./images/note-obci.svg"), url("./images/note-obci.svg");}
-.cell--percussion-bcwc { background-image: url("./images/note-obci.svg"), url("./images/note-kwci.svg");}
-.cell--percussion-bcwt { background-image: url("./images/note-obci.svg"), url("./images/note-owtr.svg"); }
-.cell--percussion-btbc { background-image: url("./images/note-obtr.svg"), url("./images/note-obci.svg"); }
-.cell--percussion-btko { background-image: url("./images/note-obtr.svg"), url("./images/note-kopu.svg"); }
-.cell--percussion-btwc { background-image: url("./images/note-obtr.svg"), url("./images/note-kwci.svg"); }
-.cell--percussion-btwt { background-image: url("./images/note-obtr.svg"), url("./images/note-owtr.svg"); }
-.cell--percussion-wtbc { background-image: url("./images/note-owtr.svg"), url("./images/note-obci.svg"); }
-.cell--percussion-wtko { background-image: url("./images/note-owtr.svg"), url("./images/note-kopu.svg"); }
-.cell--percussion-wtwc { background-image: url("./images/note-owtr.svg"), url("./images/note-kwci.svg"); }
-.cell--percussion-wtwt { background-image: url("./images/note-owtr.svg"), url("./images/note-owtr.svg"); }
-
+.cell--percussion-bcbc {
+  background-image: url("./images/note-obci.svg"), url("./images/note-obci.svg");
+}
+.cell--percussion-bcwc {
+  background-image: url("./images/note-obci.svg"), url("./images/note-kwci.svg");
+}
+.cell--percussion-bcwt {
+  background-image: url("./images/note-obci.svg"), url("./images/note-owtr.svg");
+}
+.cell--percussion-btbc {
+  background-image: url("./images/note-obtr.svg"), url("./images/note-obci.svg");
+}
+.cell--percussion-btko {
+  background-image: url("./images/note-obtr.svg"), url("./images/note-kopu.svg");
+}
+.cell--percussion-btwc {
+  background-image: url("./images/note-obtr.svg"), url("./images/note-kwci.svg");
+}
+.cell--percussion-btwt {
+  background-image: url("./images/note-obtr.svg"), url("./images/note-owtr.svg");
+}
+.cell--percussion-wtbc {
+  background-image: url("./images/note-owtr.svg"), url("./images/note-obci.svg");
+}
+.cell--percussion-wtko {
+  background-image: url("./images/note-owtr.svg"), url("./images/note-kopu.svg");
+}
+.cell--percussion-wtwc {
+  background-image: url("./images/note-owtr.svg"), url("./images/note-kwci.svg");
+}
+.cell--percussion-wtwt {
+  background-image: url("./images/note-owtr.svg"), url("./images/note-owtr.svg");
+}
 
 /////////////////////////////////////////////
 // composed percussion cells -- text + image
@@ -84,7 +135,9 @@
 .cell--percussion-yoch,
 .cell--percussion-yoibc,
 .cell--percussion-yopu,
-.cell--percussion-yowi { background-position:  calc(50% + 10px) center; }
+.cell--percussion-yowi {
+  background-position: calc(50% + 10px) center;
+}
 
 .cell--percussion-hobc {
   background-image: url("./images/note-obci.svg");

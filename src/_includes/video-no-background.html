@@ -1,6 +1,5 @@
 <div class="video-website--no-background">
   <div class="video-website__container">
-
     <a class="video-website__toggle" href="javascript:void(0)">
       {% if include.link %}<strong>{{ include.link }}</strong>{% endif %}
       <i class="fas fa-info-circle"></i>
@@ -8,14 +7,19 @@
 
     <div class="video-website__tooltip">
       <div class="video-website__description">
-        {% if include.title %}<h6>{{ include.title }}</h6>{% endif %}
-        {% if include.paragraph1 %}<p>{{ include.paragraph1 }}</p>{% endif %}
-        {% if include.paragraph2 %}<p>{{ include.paragraph2 }}</p>{% endif %}
-        {% if include.paragraph3 %}<p>{{ include.paragraph3 }}</p>{% endif %}
+        {% if include.title %}
+        <h6>{{ include.title }}</h6>
+        {% endif %} {% if include.paragraph1 %}
+        <p>{{ include.paragraph1 }}</p>
+        {% endif %} {% if include.paragraph2 %}
+        <p>{{ include.paragraph2 }}</p>
+        {% endif %} {% if include.paragraph3 %}
+        <p>{{ include.paragraph3 }}</p>
+        {% endif %}
       </div>
     </div>
     <video id="player" controls="" controlslist="nodownload">
-      <source src="{{ include.src }}" type="video/mp4">
+      <source src="{{ include.src }}" type="video/mp4" />
     </video>
   </div>
 </div>

@@ -27,7 +27,7 @@
   margin-bottom: 0.5rem;
 
   @include uppercase();
-  
+
   a {
     color: $white;
     text-decoration: none;
@@ -50,7 +50,7 @@
   p {
     color: $white64;
     text-align: center;
-  
+
     @include text(xxs);
   }
 }

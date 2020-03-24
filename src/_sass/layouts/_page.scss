@@ -14,7 +14,7 @@
     &::before {
       background-color: $red;
       bottom: 0;
-      content: '';
+      content: "";
       height: 0.125rem;
       left: 50%;
       position: absolute;
@@ -36,7 +36,7 @@
     &::before {
       background-color: $red;
       bottom: 0;
-      content: '';
+      content: "";
       height: 0.125rem;
       left: 50%;
       position: absolute;
@@ -48,8 +48,6 @@
   h3,
   h4,
   h5 {
-    margin-left: auto;
-    margin-right: auto;
     max-width: $wrapper-small;
     padding: 1rem 0;
     position: relative;
@@ -86,6 +84,7 @@
     display: block;
     margin: 0 auto;
     max-width: $wrapper-media;
+    width: 100%;
   }
 
   video {
@@ -95,7 +94,7 @@
   p {
     color: $brown;
 
-    @include text(lg,'text');
+    @include text(lg, "text");
 
     * {
       font-family: $font-text;
@@ -118,29 +117,37 @@
   .sidebar-contents__table {
     background-color: $beige-light;
     border: $border;
-    flex-basis: 14rem;
+    flex-basis: 11rem;
     flex-shrink: 0;
-    margin-right: 2rem;
+    margin-right: 1rem;
     margin-top: 2rem;
     padding: 0.5rem;
     position: sticky;
     top: 50px;
     overflow-y: auto;
-    max-height: calc(100vh - 50px - 10px); // the extra 10px is to allow a little space at the bottom
+    max-height: calc(
+      100vh - 50px - 10px
+    ); // the extra 10px is to allow a little space at the bottom
+
+    @media #{$desktop-up} {
+      flex-basis: 14rem;
+    }
 
     h4 {
       color: $brown;
       padding: 0.5rem;
     }
   }
+
+  .sidebar-contents__section {
+    max-width: $wrapper-small;
+    margin-left: 1rem;
+  }
 }
 
 .text-container {
   p {
     margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $wrapper-small;
   }
 }
 
@@ -151,7 +158,8 @@
 .footnotes {
   margin: 2rem auto 2rem auto;
   max-width: 40rem;
-  ol, ul {
+  ol,
+  ul {
     list-style: decimal;
   }
   li {
@@ -160,7 +168,7 @@
   }
   p {
     color: $brown;
-    @include text(md,'text');
+    @include text(md, "text");
     strong {
       font-weight: $fw-bold;
     }
@@ -171,7 +179,7 @@
   }
   ::marker {
     color: $brown;
-    @include text(md,'text');
+    @include text(md, "text");
   }
 }
 
@@ -198,5 +206,6 @@ div.scalable {
 }
 
 #back-to-top {
-  background-color: $green;
+  background-color: $white;
+  color: $green;
 }

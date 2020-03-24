@@ -1,10 +1,11 @@
 .cards-container {
   margin: 0 auto;
   padding-top: 3.5rem;
+
+  @include flex-container($wrap: wrap, $justify: center, $align: flex-start);
+
   width: $wrapper-medium;
-  
-  @include flex-container($wrap:wrap, $justify:center, $align: flex-start);
-  
+
   .list-plays & {
     padding-top: 0;
   }
@@ -12,22 +13,31 @@
 
 .cards-container--not-centered {
   justify-content: flex-start;
+  width: $wrapper-medium;
 }
 
 .card {
   background-color: $white;
-  border: $border;
   border-radius: 0.25rem;
+  border: $border;
   box-shadow: 0 0.125rem 0.25rem $black16;
   color: $brown;
   display: block;
+  flex-basis: 14.5rem;
+  flex-grow: 1;
+  flex-shrink: 0;
   height: 25rem;
+  margin: 0.5rem;
+  max-width: 15rem;
   overflow: hidden;
   position: relative;
   text-decoration: none;
   top: 0;
   transition: top $transition, box-shadow $transition;
-  width: 18.75rem;
+
+  @media #{$desktop-up} {
+    max-width: 19rem;
+  }
 
   &:hover {
     box-shadow: 0 0.375rem 0.75rem $black16;
@@ -46,7 +56,6 @@
 }
 
 .card__container {
-  padding: 0.5rem;
 }
 
 .card__header {
@@ -63,7 +72,7 @@
 
   &::before {
     background-color: $brown40;
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     left: 0;
@@ -95,7 +104,7 @@
 }
 
 .card__description {
-  @include text(sm,'text');
+  @include text(sm, "text");
 }
 
 .list-plays {
@@ -105,4 +114,3 @@
   margin: 4rem 0;
   padding: 2rem 0;
 }
-

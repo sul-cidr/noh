@@ -129,7 +129,4 @@ const mapStateToProps = state => ({
 });
 
 export const Unwrapped = TabbedNarrative;
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(TabbedNarrative);
+export default connect(mapStateToProps, mapDispatchToProps)(TabbedNarrative);

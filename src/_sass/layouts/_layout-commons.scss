@@ -1,16 +1,21 @@
 .wrapper {
-  margin: 0 auto;
-  max-width: $wrapper-medium;
+  @include wrapper();
+}
+
+.wrapper--small {
+  max-width: $wrapper-small;
 }
 
 .wrapper--large {
-  max-width: $wrapper-large;
+  max-width: 100%;
 }
 
 .text-container {
-  @extend .wrapper;
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
+  max-width: $wrapper-small;
 }
 
 .tabs-container {
@@ -50,9 +55,14 @@
   padding: 2rem 0;
 }
 
-.figure-caption {
+// the doubling of the class in the selector below is a deliberate hack to
+//  increase its specifity to trump `.text-container p` which is compiled
+//  later in the stylesheet.
+.figure-caption.figure-caption p {
   padding: 2rem 0 0 0;
   color: #4a4036;
   font-family: "Source Serif Pro", Georgia, serif;
   font-size: 1rem;
+  margin: 0;
+  max-width: none;
 }
