@@ -14,12 +14,10 @@ second-level-menu-active: movement
     <h2>Kneeling (<em>shita gassho</em>)</h2>
 
     <p>
-      The pattern either symbolizes actual praying or a request that prayers
-      being said for his soul. It can be performed
-      <a href="/movement/standing-p" target="_blank"
-        >Standing (<em>tachi gassho</em>)</a
-      >
-      or Kneeling (<em>shita gassho</em>).
+      The pattern either symbolizes praying or a request for prayers for his
+      soul.It can be performed
+      <a href="/movement/standing-p">Standing (<em>tachi gassho</em>)</a> or
+      Kneeling (<em>shita gassho</em>).
     </p>
   </div>
   <div class="tabs-container">
@@ -32,13 +30,13 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_gassho_shita_ni_gassho_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_gassho_shita_ni_gassho_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_gassho_shita_ni_gassho_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_gassho_shita_ni_gassho_Side.mp4"
           %}
         </section>
       </div>

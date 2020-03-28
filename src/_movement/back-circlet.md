@@ -22,10 +22,10 @@ second-level-menu-active: movement
       <a href="/movement/step-pivot" target="_blank"
         >Right Step pivot (<em>migi kakeru</em>)</a
       >
-      is then concluded with an
+      concludes with an
       <a href="/movement/open-retreat" target="_blank"
         >Open-retreat (<em>hiraki</em>)</a
-      >.It is often used to conclude a
+      >.It is often concludes a
       <a href="/movement/large-circling-l" target="_blank"
         >Left circling (<em>hidari ōmawari</em>)</a
       >.
@@ -42,13 +42,13 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mawari_biraki_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mawari_biraki_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mawari_biraki_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mawari_biraki_Side.mp4"
           %}
         </section>
       </div>

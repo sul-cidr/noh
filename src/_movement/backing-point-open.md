@@ -18,16 +18,16 @@ second-level-menu-active: movement
 
     <p>
       All Point patterns involve raising the right arm and pointing the fan. The
-      different names come from the motion perform by the arm leading to the
-      pointing conclusion.
+      different names come from the motion of the arm leading to the pointing
+      conclusion.
     </p>
 
     <p>
-      As the dancer takes two or three backing steps, he circles his right arm
-      out to the side, up in a high arc, and down in front of the body. This arm
-      motion is called an overhand point. It can be performed with an Open (mi
+      As the dancer takes two or three steps back, he circles his right arm out
+      to the side, up in a high arc, and down in front of the body. This arm
+      motion is called an “overhand point.” It can be performed with an Open (mi
       wo kae) or Closed fan (sashi). A comparison with the
-      <a href="/movement/backing-point-closed" target="_blank"
+      <a href="/movement/backing-point-closed"
         >Backing point with Closed fan (<em>sashi</em>)</a
       >
       pattern illustrates how the open fan dramatically accentuates the arm
@@ -45,25 +45,25 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mi_wo_kae_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mi_wo_kae_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mi_wo_kae_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_mi_wo_kae_Side.mp4"
           %}
         </section>
 
         <section id="tab-3" title="Martial (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_mi_wo_kae_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_mi_wo_kae_Front.mp4"
           %}
         </section>
 
         <section id="tab-4" title="Martial (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_mi_wo_kae_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_mi_wo_kae_Side.mp4"
           %}
         </section>
       </div>

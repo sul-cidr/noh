@@ -40,13 +40,13 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_sasoi_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_sasoi_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_sasoi_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_sasoi_Side.mp4"
           %}
         </section>
       </div>

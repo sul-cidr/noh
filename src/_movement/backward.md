@@ -16,7 +16,7 @@ second-level-menu-active: movement
     </h4>
     <h2>Walking backward (<em>sagaru</em>)</h2>
 
-    <p>When moving backward, the toes are lifted as the heel slides back.</p>
+    <p>When moving backward, the toes lift as the heel slides back.</p>
 
     <p>
       The spacio-temporal concept of <em>Jo-ha-kyū</em> forms an important
@@ -26,7 +26,7 @@ second-level-menu-active: movement
       is an undeniable influence of
       <a href="/form/#Intro /" target="_blank"><em>Jo-ha-kyū</em></a
       >. Although subtle in the feminine mode, its effect on the walking rhythm
-      in martial mode is obvious.
+      in martial mode is clear.
     </p>
   </div>
 
@@ -40,37 +40,37 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_sagaru_full_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_sagaru_full_Side.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (Z. side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_sagaru_zoom_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_sagaru_zoom_Side.mp4"
           %}
         </section>
 
         <section id="tab-3" title="Feminine (Z.front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_sagaru_zoom_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_sagaru_zoom_Front.mp4"
           %}
         </section>
 
         <section id="tab-4" title="Martial (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_sagaru_full_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_sagaru_full_Side.mp4"
           %}
         </section>
 
         <section id="tab-5" title="Martial (Z. side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_sagaru_zoom_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_sagaru_zoom_Side.mp4"
           %}
         </section>
 
         <section id="tab-6" title="Martial (Z. front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_sagaru_zoom_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_sagaru_zoom_Front.mp4"
           %}
         </section>
       </div>

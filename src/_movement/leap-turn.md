@@ -35,7 +35,7 @@ second-level-menu-active: movement
           class="tabbed-narrative"
         >
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Front.mp4"
           %}
         </section>
 
@@ -45,7 +45,7 @@ second-level-menu-active: movement
           class="tabbed-narrative"
         >
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Side.mp4"
           %}
         </section>
 
@@ -55,7 +55,7 @@ second-level-menu-active: movement
           class="tabbed-narrative"
         >
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Front.mp4"
           %}
         </section>
 
@@ -65,7 +65,7 @@ second-level-menu-active: movement
           class="tabbed-narrative"
         >
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Side.mp4"
           %}
         </section>
       </div>

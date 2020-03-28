@@ -20,8 +20,8 @@ second-level-menu-active: movement
       Fan motion helps accentuate arm motion. There are various ways of holding
       the fan, and various motions involving it. The closing of the fan (<em
         >ōgi subomeru</em
-      >) can be performed ceremoniously at the end of a dance, or
-      inconspicuously anytime close to the end of a dance.
+      >) can be performed solemnly at the end of a dance, or inconspicuously
+      anytime close to the end of a dance.
     </p>
   </div>
 
@@ -35,25 +35,25 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Front" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Close-up front" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseFront.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseFront.mp4"
           %}
         </section>
 
         <section id="tab-3" title="Side" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Side.mp4"
           %}
         </section>
 
         <section id="tab-4" title="Close-up side" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseSide.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseSide.mp4"
           %}
         </section>
       </div>

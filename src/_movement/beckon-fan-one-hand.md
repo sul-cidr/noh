@@ -17,8 +17,10 @@ second-level-menu-active: movement
     <h2>Beckon Fan with One Hand (<em>maneki ōgi migi te nomi</em>)</h2>
 
     <p>
-      This pattern is based on a Japanese gesture used to beckon someone. It can
-      also be used to suggest falling rain.
+      This pattern is based on a Japanese gesture used to beckon to someone. It
+      can also be performed with
+      <a href="/movement/beckon-fan-two-hands/" target="_blank">two hands</a>.
+      It is sometimes used to suggest falling rain.
     </p>
   </div>
 
@@ -32,13 +34,13 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_maneki_ogi_migi_te_nomi_Front.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_maneki_ogi_migi_te_nomi_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_maneki_ogi_migi_te_nomi_Side.mp4"
+          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_maneki_ogi_migi_te_nomi_Side.mp4"
           %}
         </section>
       </div>
