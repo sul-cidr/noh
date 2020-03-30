@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <rect id="seigaiha-a" width="120" height="120" x="0" y="0"/>
+    <g id="seigaiha-b">
+      <circle cx="60" cy="60" r="59" fill="#F4F5F6" stroke="#000000" stroke-opacity="0.03" stroke-width="3"/>
+      <circle cx="60" cy="60" r="47" fill="#F4F5F6" stroke="#000000" stroke-opacity="0.03" stroke-width="3"/>
+      <circle cx="60" cy="60" r="35" fill="#F4F5F6" stroke="#000000" stroke-opacity="0.03" stroke-width="3"/>
+      <circle cx="60" cy="60" r="23" fill="#F4F5F6" stroke="#000000" stroke-opacity="0.03" stroke-width="3"/>
+      <circle cx="60" cy="60" r="11" fill="#F4F5F6" stroke="#000000" stroke-opacity="0.03" stroke-width="3"/>
+    </g>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use xlink:href="#seigaiha-a"/>
+    <use xlink:href="#seigaiha-b" transform="translate(0 -30)"/>
+    <use xlink:href="#seigaiha-b" transform="translate(-60)"/>
+    <use xlink:href="#seigaiha-b" transform="translate(60)"/>
+    <use xlink:href="#seigaiha-b" transform="translate(0 30)"/>
+    <use xlink:href="#seigaiha-b" transform="translate(-60 60)"/>
+    <use xlink:href="#seigaiha-b" transform="translate(60 60)"/>
+    <use xlink:href="#seigaiha-b" transform="translate(0 90)"/>
+  </g>
+</svg>
