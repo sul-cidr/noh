@@ -96,3 +96,97 @@
   max-width: $wrapper-medium;
   padding: 0 1rem;
 }
+
+@mixin home-button($type: "regular") {
+  border-style: solid;
+  border-width: 0.125rem;
+  border-radius: 0.125rem;
+  display: inline-block;
+  font-weight: $fw-semibold;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color $transition, color $transition;
+
+  @if $type == "regular" {
+    background-color: rgba($red, 1);
+    border-color: $red;
+    color: $white;
+
+    &:hover {
+      background-color: rgba($red, 0);
+      color: $red;
+    }
+  }
+  @elseif $type == "catalog" {
+    background-color: rgba($green, 1);
+    border-color: $green;
+    color: $white;
+
+    &::before {
+      content: $fa-var-th;
+      font-family: $font-icon;
+      font-size: $fs-text-sm;
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      background-color: rgba($green, 0);
+      color: $green;
+    }
+  }
+}
+
+@mixin card($color: $white, $hover: true) {
+  background-color: $color;
+  border-radius: 0.25rem;
+  border: $border;
+  box-shadow: 0 0.125rem 0.25rem $black16;
+  position: relative;
+
+  @if $hover {
+    top: 0;
+    transition: top $transition, box-shadow $transition;
+
+    &:hover {
+      box-shadow: 0 0.375rem 0.75rem $black16;
+      top: -0.25rem;
+    }
+  }
+}
+
+@mixin seigaiha($color: $white) {
+  $alpha1: 0.3;
+  $alpha2: 1-$alpha1;
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    background-blend-mode: multiply;
+    background-image: url("./images/seigaiha.svg"),
+      linear-gradient(180deg, $color 0%, $color 100%);
+    background-position: 50% 50%;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
+
+  &::after {
+    background-image: linear-gradient(
+      180deg,
+      rgba($color, $alpha2) 0%,
+      rgba($color, $alpha1) 100%
+    );
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}

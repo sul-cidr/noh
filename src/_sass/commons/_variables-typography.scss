@@ -39,12 +39,14 @@ $lh-display-xs: 1.6; // 16px
 $lh-display-xxs: 1.333333; // 12px
 $lh-display-tn: 1.333333; // 12px
 
+$fs-text-xxl: 1.5rem; // 24px
 $fs-text-xl: 1.25rem; // 20px
 $fs-text-lg: 1.125rem; // 18px
 $fs-text-md: 1rem; // 16px
 $fs-text-sm: 0.875rem; // 14px
 $fs-text-xs: 0.8125rem; // 13px
 
+$lh-text-xxl: 1.5; // 36px
 $lh-text-xl: 1.6; // 32px
 $lh-text-lg: 1.555556; // 28px
 $lh-text-md: 1.5; // 24px
@@ -76,6 +78,7 @@ $line-heights-display: (
 );
 
 $font-sizes-text: (
+  xxl: $fs-text-xxl,
   xl: $fs-text-xl,
   lg: $fs-text-lg,
   md: $fs-text-md,
@@ -84,6 +87,7 @@ $font-sizes-text: (
 );
 
 $line-heights-text: (
+  xxl: $lh-text-xxl,
   xl: $lh-text-xl,
   lg: $lh-text-lg,
   md: $lh-text-md,

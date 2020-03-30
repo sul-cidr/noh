@@ -16,18 +16,6 @@ permalink: /plays/
         particular plays, <em>Kokaji</em> and <em>Hashitomi</em>, the focus of
         this project?
       </p>
-    </div>
-  </div>
-  <div class="list-plays">
-    <div class="cards-container">
-      {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
-      {% include card.html link=play.url image=play.image title=play.title
-      description=play.description %} {% endunless %} {% endfor %}
-    </div>
-  </div>
-
-  <div class="text-container">
-    <div class="wrapper wrapper--small">
       <p>
         Books and electronic media on noh, in both Japanese and Western
         languages, have generally categorized their content according to the
