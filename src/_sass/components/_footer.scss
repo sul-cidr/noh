@@ -18,7 +18,7 @@
 
 .footer__nav-title,
 .footer__nav-link {
-  @include text(xxs);
+  @include text(xs);
 }
 
 .footer__nav-title {
@@ -56,6 +56,6 @@
     color: $white64;
     text-align: center;
 
-    @include text(xxs);
+    @include text(xs);
   }
 }
