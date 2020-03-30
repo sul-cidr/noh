@@ -60,8 +60,9 @@ q:after {
 }
 
 sup {
-  font-size: smaller;
-  vertical-align: super;
+  margin-left: 0.125rem;
+  position: relative;
+  top: -0.5rem;
 }
 
 table {
