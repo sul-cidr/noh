@@ -5,6 +5,7 @@ $card-menu-large-element-size-desktop: 8.75rem;
 .home-element {
   margin-bottom: 10rem;
   text-decoration: none;
+  overflow: hidden;
 
   @include card($color: $beige-dark);
   @include flex-container($justify: center, $align: center);
