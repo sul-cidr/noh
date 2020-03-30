@@ -25,7 +25,7 @@ layout: home
 </div>
 <div class="home__intermedia">
   <div class="wrapper">
-    <h1 class="home-section__title">Noh as Intermedia</h1>
+    <h1 class="home-section__title">What is Intermedia?</h1>
     <p class="home__intermedia-description">
       Intermedia works draw their expression from relationships between media.
       Typically, they combine two or more media layers. The layers may include:
@@ -44,8 +44,6 @@ layout: home
       cultures: Wayang Kulit, Kunqu, Wagner’s operas, Fluxus Happenings, MTV or
       Bollywood, to name a few.
     </p>
-
-    <!-- prettier-ignore -->
   </div>
 </div>
 
@@ -57,7 +55,6 @@ layout: home
       artistic media in Noh, the website is divided into the following three
       sections:
     </p>
-
     {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
     {% include home-play.html link=play.url image=play.image title=play.title
     description=play.description %} {% endunless %} {% endfor %}
@@ -79,6 +76,7 @@ layout: home
       wider context is provided.
     </p>
 
+    <!-- prettier-ignore -->
     {% include home-element.html link="/form/"
     link-catalog="/catalog-of-shodan/" name-catalog="Catalog of Shōdan"
     image="/assets/images/behindlattice.png" title="Form"
@@ -103,12 +101,12 @@ layout: home
   </div>
 </div>
 
+<!-- prettier-ignore -->
 <div class="wrapper">
   <div markdown="1">
-    * Footnotes must be added below (see
-    https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-    {:footnotes} [^1]: Translated by Tom Hare in
-    <em>Zeami: Performance Notes (Translations from the Asian Classics)</em>,
-    Columbia University Press, 2008, p. 48.
+* Footnotes must be added below (see
+https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+{:footnotes}
+[^1]: Translated by Tom Hare in<em>Zeami: Performance Notes (Translations from the Asian Classics)</em>,Columbia University Press, 2008, p. 48.
   </div>
 </div>

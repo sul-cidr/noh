@@ -161,6 +161,10 @@
   max-width: 40rem;
   padding: 2rem 0;
 
+  .home & {
+    margin: 0 auto;
+  }
+
   ol,
   ul {
     list-style: decimal;
