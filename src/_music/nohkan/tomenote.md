@@ -55,12 +55,12 @@ third-level-menu-active: nohkan
             <div class="wrapper">
               <section id="generic" title="Generic" class="tabbed-narrative">
                 {% include video-no-background.html
-                src="http://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Tome_No_Te_Shoga.mp4"
+                src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Tome_No_Te_Shoga.mp4"
                 %}
               </section>
               <section id="Kokaji" title="Kokaji" class="tabbed-narrative">
                 {% include video-no-background.html
-                src="http://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Kokaji_Tome_no_te_Shoga.mp4"
+                src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Kokaji_Tome_no_te_Shoga.mp4"
                 %}
               </section>
               <section
@@ -69,7 +69,7 @@ third-level-menu-active: nohkan
                 class="tabbed-narrative"
               >
                 {% include video-no-background.html
-                src="http://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Tome_no_te_Shoga.mp4"
+                src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Tome_no_te_Shoga.mp4"
                 %}
               </section>
             </div>

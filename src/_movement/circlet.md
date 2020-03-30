@@ -35,25 +35,25 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Right (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_marawikomi_Front.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_marawikomi_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Right (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_mawarikomi_Side.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_mawarikomi_Side.mp4"
           %}
         </section>
 
         <section id="tab-3" title="Left (front)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_mawarikomi_Front.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_mawarikomi_Front.mp4"
           %}
         </section>
 
         <section id="tab-4" title="Left (side)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_mawarikomi_Side.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_mawarikomi_Side.mp4"
           %}
         </section>
       </div>

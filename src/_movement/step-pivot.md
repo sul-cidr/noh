@@ -40,25 +40,25 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Feminine (Right)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_wo_kakeru.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_wo_kakeru.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Feminine (Left)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_wo_kakeru.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_wo_kakeru.mp4"
           %}
         </section>
 
         <section id="tab-3" title="Martial (Right)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_migi_wo_kakeru.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_migi_wo_kakeru.mp4"
           %}
         </section>
 
         <section id="tab-4" title="Martial (Left)" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_hidari_wo_kakeru.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_hidari_wo_kakeru.mp4"
           %}
         </section>
       </div>

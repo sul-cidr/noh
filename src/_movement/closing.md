@@ -35,25 +35,25 @@ second-level-menu-active: movement
       <div class="wrapper">
         <section id="tab-1" title="Front" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Front.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Front.mp4"
           %}
         </section>
 
         <section id="tab-2" title="Close-up front" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseFront.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseFront.mp4"
           %}
         </section>
 
         <section id="tab-3" title="Side" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Side.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_Side.mp4"
           %}
         </section>
 
         <section id="tab-4" title="Close-up side" class="tabbed-narrative">
           {% include video-no-background.html
-          src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseSide.mp4"
+          src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_subomeru_CloseSide.mp4"
           %}
         </section>
       </div>
