@@ -1,0 +1,50 @@
+$card-menu-small-element-size: 5.5rem;
+$card-menu-large-element-size-mobile: 7rem;
+$card-menu-large-element-size-desktop: 8.75rem;
+
+.home-play {
+  margin-bottom: 10rem;
+
+  @include card($color: $beige-light);
+  @include flex-container($justify: flex-start, $align: center);
+
+  &:last-child {
+    margin-bottom: 5rem;
+  }
+}
+
+.home-play__image {
+  background-position: 50% 50%;
+  background-size: cover;
+  flex-shrink: 0;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+}
+
+.home-play__content {
+  margin-left: auto;
+  padding: 4rem;
+  width: 60%;
+
+  li {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.home-play__title {
+  color: $brown;
+  margin-bottom: 1rem;
+
+  @include text(xxl);
+}
+
+.home-play__description {
+  margin-bottom: 1rem;
+
+  @include text(lg, "text");
+}

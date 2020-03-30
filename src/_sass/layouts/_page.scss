@@ -152,31 +152,42 @@
 }
 
 .footnote {
-  font-size: small;
+  font-size: 0.75rem;
 }
 
 .footnotes {
-  margin: 2rem auto 2rem auto;
+  border-top: $border;
+  margin: 2rem 0;
   max-width: 40rem;
+  padding: 2rem 0;
+
   ol,
   ul {
     list-style: decimal;
   }
+
   li {
-    font-family: "Source Serif Pro", Georgia, serif;
     color: $brown;
+    font-family: $font-text;
+    margin-left: 1rem;
   }
+
   p {
     color: $brown;
+
     @include text(md, "text");
+
     strong {
       font-weight: $fw-bold;
     }
+
     em {
       font-style: italic;
     }
+
     margin-bottom: 1rem;
   }
+
   ::marker {
     color: $brown;
     @include text(md, "text");
@@ -197,9 +208,11 @@ div.scalable {
   &.wrapper-small {
     max-width: $wrapper-small;
   }
+
   &.wrapper-medium {
     max-width: $wrapper-medium;
   }
+
   &.wrapper-large {
     max-width: $wrapper-large;
   }

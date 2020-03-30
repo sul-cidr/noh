@@ -1,0 +1,17 @@
+<div class="home-play">
+  <div
+    class="home-play__image"
+    style="background-image: url({{ include.image }})"
+  ></div>
+  <div class="home-play__content">
+    <h3 class="home-play__title">{{ include.title }}</h3>
+    <p class="home-play__description">{{ include.description }}</p>
+    <ul>
+      <li>
+        <a href="{{ include.link }}" class="home-button--regular"
+          >View the {{ include.title }} analysis</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

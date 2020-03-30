@@ -1,0 +1,26 @@
+<div
+  class="home-element {% if include.reverse %} home-element--reverse {% endif %}"
+>
+  <div
+    class="home-element__image"
+    style="background-image: url({{ include.image }})"
+  ></div>
+  <div class="home-element__content">
+    <h3 class="home-element__title">{{ include.title }}</h3>
+    <p class="home-element__description">{{ include.description }}</p>
+    <ul>
+      <li>
+        <a href="{{ include.link }}" class="home-button--regular"
+          >Go to {{ include.title }}</a
+        >
+      </li>
+      {% if include.link-catalog %}
+      <li>
+        <a href="{{ include.link-catalog }}" class="home-button--catalog"
+          >See the {{ include.name-catalog }}</a
+        >
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
