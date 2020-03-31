@@ -22,10 +22,15 @@
   font-weight: $fw-semibold;
   padding: 0.5rem;
   text-align: center;
+  transition: color $transition;
 
   @include text(xxs);
   @include uppercase();
   @include truncate();
+
+  &:hover {
+    color: rgba($green, 1);
+  }
 }
 
 .react-tabs__tab--selected {

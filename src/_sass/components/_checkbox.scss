@@ -4,13 +4,20 @@
 
   input[type="checkbox"] {
     display: none;
+    cursor: pointer;
   }
 
   label {
+    color: $brown;
+    cursor: pointer;
     font-size: $fs-display-xs;
     line-height: 1.25;
     padding-left: 1.375rem;
-    color: $brown;
+    transition: color $transition;
+
+    &:hover {
+      color: rgba($brown, 0.8);
+    }
 
     span {
       display: inline-block;
