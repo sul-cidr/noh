@@ -2,6 +2,11 @@ time,
 [onclick^="window.open('/popout/"] {
   text-decoration: underline;
   cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
+
   &::before {
     font-family: $font-icon;
     font-size: 70%;
