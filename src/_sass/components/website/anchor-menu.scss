@@ -10,6 +10,10 @@
   a {
     color: $green;
     @include text(xs);
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &.active {

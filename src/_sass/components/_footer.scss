@@ -10,6 +10,11 @@
 .footer__logo {
   color: $white;
   opacity: 0.48;
+  transition: opacity $transition;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .footer__nav {
@@ -29,8 +34,13 @@
   @include uppercase();
 
   a {
-    color: $white;
+    color: $white80;
     text-decoration: none;
+    transition: color $transition;
+
+    &:hover {
+      color: $white;
+    }
   }
 }
 
@@ -40,6 +50,11 @@
   a {
     color: $white64;
     text-decoration: none;
+    transition: color $transition;
+
+    &:hover {
+      color: $white;
+    }
   }
 
   ul {

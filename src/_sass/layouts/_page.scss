@@ -109,6 +109,12 @@
     }
   }
 
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   .sidebar-contents {
     align-items: flex-start;
     display: flex;
