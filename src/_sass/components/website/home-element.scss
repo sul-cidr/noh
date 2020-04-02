@@ -2,35 +2,43 @@ $card-menu-small-element-size: 5.5rem;
 $card-menu-large-element-size-mobile: 7rem;
 $card-menu-large-element-size-desktop: 8.75rem;
 
-.home-element {
-  margin-bottom: 10rem;
-  text-decoration: none;
-  overflow: hidden;
-
-  @include card($color: $beige-dark);
-  @include flex-container($justify: center, $align: center);
-
-  &:last-child {
-    margin-bottom: 5rem;
-  }
+.home-elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 4rem;
 }
 
-.home-element--reverse {
-  flex-direction: row-reverse;
+.home-element {
+  flex-shrink: 0;
+  overflow: hidden;
+  text-decoration: none;
+
+  @include card($color: $beige-dark);
+  @include flex-container(
+    $direction: column,
+    $justify: flex-start,
+    $align: center
+  );
 }
 
 .home-element__image {
   background-position: 50% 50%;
   background-size: cover;
   flex-shrink: 0;
-  padding-top: 33%;
-  width: 50%;
+  padding-top: 55%;
+  width: 100%;
 }
 
 .home-element__content {
-  margin-left: 4rem;
-  margin-right: 2rem;
-  width: 23.75rem;
+  height: 100%;
+  margin: 2rem;
+
+  @include flex-container(
+    $direction: column,
+    $justify: space-between,
+    $align: flex-start
+  );
 
   li {
     margin-bottom: 1rem;
@@ -50,7 +58,7 @@ $card-menu-large-element-size-desktop: 8.75rem;
 }
 
 .home-element__description {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   @include text(lg, "text");
 }

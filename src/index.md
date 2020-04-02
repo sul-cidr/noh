@@ -76,28 +76,30 @@ layout: home
       wider context is provided.
     </p>
 
-    <!-- prettier-ignore -->
-    {% include home-element.html link="/form/"
-    link-catalog="/catalog-of-shodan/" name-catalog="Catalog of Shōdan"
-    image="/assets/images/behindlattice.png" title="Form"
-    description="Summarizes the classical formal design and explains its modular
-    (<em>shōdan</em>) construction." %} {% include home-element.html
-    link="/actors/" image="/assets/images/actor.png" title="Actors"
-    description="Lists the categories of actors and their roles in Noh."
-    reverse=true %} {% include home-element.html link="/music/"
-    image="/assets/images/hayashi.jpg" title="Music" description="Includes
-    information about vocal styles, instrumental sounds, rhythmic organization
-    and a catalog of nohkan patterns." %} {% include home-element.html
-    link="/about-movement/" link-catalog="/movement/" name-catalog="Catalog of
-    Kata" image="/assets/images/Hashitomi-2shite-profile-close.jpg"
-    title="Movement" description="Introduces principle dance forms, and analyzes
-    shimai dances from Hashitomi and Kokaji." reverse=true %} {% include
-    home-element.html link="/text/" image="/assets/images/utaibon.png"
-    title="Text" description="Introduces categories of text and presents
-    libretti of Hashitomi and Kokaji in Romaji transliteration and English
-    translation." %} {% include home-element.html link="/staging/"
-    image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
-    the use of the Noh stage, masks, costumes and properties." reverse=true %}
+    <div class="home-elements">
+      <!-- prettier-ignore -->
+      {% include home-element.html link="/form/"
+      link-catalog="/catalog-of-shodan/" name-catalog="Catalog of Shōdan"
+      image="/assets/images/behindlattice.png" title="Form"
+      description="Summarizes the classical formal design and explains its
+      modular (<em>shōdan</em>) construction." %} {% include home-element.html
+      link="/actors/" image="/assets/images/actor.png" title="Actors"
+      description="Lists the categories of actors and their roles in Noh." %} {%
+      include home-element.html link="/music/"
+      image="/assets/images/hayashi.jpg" title="Music" description="Includes
+      information about vocal styles, instrumental sounds, rhythmic organization
+      and a catalog of nohkan patterns." %} {% include home-element.html
+      link="/about-movement/" link-catalog="/movement/" name-catalog="Catalog of
+      Kata" image="/assets/images/Hashitomi-2shite-profile-close.jpg"
+      title="Movement" description="Introduces principle dance forms, and
+      analyzes shimai dances from Hashitomi and Kokaji." %} {% include
+      home-element.html link="/text/" image="/assets/images/utaibon.png"
+      title="Text" description="Introduces categories of text and presents
+      libretti of Hashitomi and Kokaji in Romaji transliteration and English
+      translation." %} {% include home-element.html link="/staging/"
+      image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
+      the use of the Noh stage, masks, costumes and properties." %}
+    </div>
   </div>
 </div>
 

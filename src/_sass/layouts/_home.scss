@@ -15,10 +15,11 @@
 }
 
 .home__hero-content {
-  height: 70vh;
+  height: 50vh;
   min-height: 30rem;
+  padding-bottom: 4rem;
 
-  @include flex-container($justify: flex-end, $align: center);
+  @include flex-container($justify: flex-end, $align: flex-end);
 }
 
 .blockquote__paragraph {
@@ -26,11 +27,12 @@
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: 0;
+  min-width: 40rem;
   position: relative;
   text-align: right;
-  width: 80%;
+  width: 70%;
 
-  @include text(xxl, "text");
+  @include text(xl, "text");
 
   &::before,
   &::after {
@@ -97,7 +99,7 @@
 .home__elements,
 .home__plays {
   color: $brown;
-  padding: 5rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .home-section__title {

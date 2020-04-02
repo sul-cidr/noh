@@ -3,14 +3,18 @@ $card-menu-large-element-size-mobile: 7rem;
 $card-menu-large-element-size-desktop: 8.75rem;
 
 .home-play {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   overflow: hidden;
 
   @include card($color: $beige-light);
-  @include flex-container($justify: flex-start, $align: center);
+  @include flex-container(
+    $direction: column,
+    $justify: flex-start,
+    $align: stretch
+  );
 
-  &:last-child {
-    margin-bottom: 5rem;
+  @media #{$tablet-up} {
+    flex-direction: row;
   }
 }
 
@@ -18,15 +22,28 @@ $card-menu-large-element-size-desktop: 8.75rem;
   background-position: 50% 50%;
   background-size: cover;
   flex-shrink: 0;
-  position: absolute;
-  height: 100%;
-  width: 40%;
+  width: 100%;
+  padding-top: 33%;
+
+  @media #{$tablet-up} {
+    width: 40%;
+  }
+  @media #{$desktop-up} {
+    padding-top: 0;
+  }
 }
 
 .home-play__content {
-  margin-left: auto;
-  padding: 4rem;
-  width: 60%;
+  padding: 2rem;
+  width: 100%;
+
+  @media #{$tablet-up} {
+    width: 60%;
+  }
+
+  @media #{$desktop-up} {
+    padding: 4rem;
+  }
 
   li {
     margin-bottom: 1rem;
@@ -45,7 +62,7 @@ $card-menu-large-element-size-desktop: 8.75rem;
 }
 
 .home-play__description {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   @include text(lg, "text");
 }
