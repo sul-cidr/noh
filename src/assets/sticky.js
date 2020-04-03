@@ -2,27 +2,42 @@
 
 const sections = Array.from(
   document.querySelectorAll(".anchor-menu__element a")
-).map(link => document.querySelector(link.hash));
+).map(({ hash }) => document.querySelector(hash));
 
 const isInViewport = (elem, { top, height } = elem.getBoundingClientRect()) =>
   top <= window.innerHeight && top + height >= 0;
 
+const isAboveViewport = (elem, { top } = elem.getBoundingClientRect()) =>
+  top <= window.innerHeight;
+
+const highlightLinkById = id => {
+  document
+    .querySelectorAll(`.anchor-menu__element a.current`)
+    .forEach(link => link.classList.remove("current"));
+  document
+    .querySelector(`.anchor-menu__element a[href="#${id}"]`)
+    .classList.add("current");
+};
+
 const observer = new IntersectionObserver(entries => {
   entries.forEach((/* entry */) => {
-    sections.some(section => {
+    const found = sections.some(section => {
       if (isInViewport(section)) {
-        document
-          .querySelectorAll(`.anchor-menu__element a.current`)
-          .forEach(link => link.classList.remove("current"));
-        document
-          .querySelector(
-            `.anchor-menu__element a[href="#${section.getAttribute("id")}"]`
-          )
-          .classList.add("current");
+        highlightLinkById(section.getAttribute("id"));
         return true;
       }
       return false;
     });
+    if (!found) {
+      // highlight the closest one off the top of the screen
+      sections.every(section => {
+        if (isAboveViewport(section)) {
+          highlightLinkById(section.getAttribute("id"));
+          return true;
+        }
+        return false;
+      });
+    }
   });
 });
 
