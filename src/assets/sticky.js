@@ -19,7 +19,13 @@ const highlightLinkById = id => {
     .classList.add("current");
 };
 
+let skipnext = false;
+
 const observer = new IntersectionObserver(entries => {
+  if (skipnext) {
+    skipnext = false;
+    return;
+  }
   entries.forEach((/* entry */) => {
     const found = sections.some(section => {
       if (isInViewport(section)) {
@@ -41,4 +47,12 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
+window.addEventListener(
+  "hashchange",
+  (/* event */) => {
+    skipnext = true;
+    highlightLinkById(document.location.hash.slice(1));
+  },
+  false
+);
 sections.forEach(section => observer.observe(section));
