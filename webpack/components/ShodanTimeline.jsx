@@ -12,9 +12,8 @@ class ShodanTimeline extends Component {
     danBlocks.forEach(danBlock => {
       const section = danBlock;
       const position = 0;
-      const lastEndTime = 0;
-      const duration = section.endTime.value - lastEndTime;
       const sectionStartTime = section.startTime.value || 0;
+      const duration = section.endTime.value - sectionStartTime;
       const blockProps =
         this.props.mode === "url"
           ? { url: section.sectionUrl }
