@@ -33,29 +33,34 @@
       "videoDuration": "01:27:47",
       "acts": [
         {
-          "translation": "",
+          "translation": "Intro.",
           "transcription": "",
-          "duration": "00:03:41"
+          "duration": "00:03:41",
+          "shodanIndices": [1, 2]
         },
         {
           "translation": "Act I",
           "transcription": "Mae ba",
-          "duration": "00:19:35"
+          "duration": "00:19:35",
+          "shodanIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11]
         },
         {
           "translation": "Interlude",
           "transcription": "",
-          "duration": "00:16:06"
+          "duration": "00:16:06",
+          "shodanIndices": [12, 13]
         },
         {
           "translation": "Act II",
           "transcription": "Nochi ba",
-          "duration": "00:44:25"
+          "duration": "00:44:25",
+          "shodanIndices": [14, 15, 16, 17, 18, 19, 20, 21, 22]
         },
         {
-          "translation": "",
+          "translation": "Exit",
           "transcription": "",
-          "duration": "00:04:03"
+          "duration": "00:04:03",
+          "shodanIndices": [23]
         }
       ],
       "sections": [

@@ -9,6 +9,14 @@
   z-index: 20;
 
   @include flex-container($justify: flex-start, $align: flex-end);
+
+  div {
+    @include flex-container($justify: flex-start, $align: flex-end);
+  }
+
+  span {
+    display: none;
+  }
 }
 
 .shodan-timeline__container {

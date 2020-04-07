@@ -136,6 +136,7 @@ export default class App extends Component {
                       duration={convertTimeToSeconds(videoDuration)}
                     />
                     <ShodanTimeline
+                      acts={acts}
                       sections={sections}
                       maxIntensity={maxIntensity}
                       totalDuration={convertTimeToSeconds(videoDuration)}
