@@ -7,49 +7,10 @@ import ShodanTimelineBlock from "./ShodanTimelineBlock";
 const slug = string => string.toLocaleLowerCase().replace(" ", "-");
 
 class ShodanTimeline extends Component {
-  constructor(props) {
-    super(props);
-    this.createSectionBlocks = this.createSectionBlocks.bind(this);
-  }
-
-  createSectionBlocks() {
-    let position = 0;
-    let lastEndTime = -1;
-    const sectionBlocks = [];
-    this.props.sections.map(section => {
-      // the key here has to change if name is not unique
-      const duration = section.endTime.value - lastEndTime;
-      let blockProps;
-      if (this.props.mode === "url") {
-        blockProps = { url: section.sectionUrl };
-      } else {
-        blockProps = { startTime: section.startTime.value || 0 };
-      }
-      sectionBlocks.push(
-        <ShodanTimelineBlock
-          {...blockProps}
-          key={section.sectionName.value}
-          name={section.sectionName.value}
-          left={`${position}%`}
-          maxIntensity={this.props.maxIntensity}
-          intensity={section.intensity.number || "0"}
-          duration={duration}
-          totalDuration={this.props.totalDuration}
-          dan={section.dan}
-          shodanIndex={section.shodanIndex}
-        />
-      );
-      position += (100 * duration) / this.props.totalDuration;
-      lastEndTime = section.endTime.value;
-    });
-    return sectionBlocks;
-  }
-
   createSectionBlocksForDan(danBlocks, danDuration) {
     const sectionBlocks = [];
     danBlocks.forEach(danBlock => {
       const section = danBlock;
-      // console.log(section, position, lastEndTime);
       const position = 0;
       const lastEndTime = 0;
       const duration = section.endTime.value - lastEndTime;
@@ -76,32 +37,20 @@ class ShodanTimeline extends Component {
     return sectionBlocks;
   }
 
-  createDanBlocksForAct(act, actStartTime, actEndTime) {
-    // let position = 0;
-    let lastEndTime = -1;
-
+  createDanBlocksForAct(act) {
     const danBlocks = [];
     let currentDan;
-    let currentDanDuration = 0;
     let currentDanBlock;
 
     this.props.sections.forEach(section => {
-      const sectionStartTime = section.startTime.value || 0;
-      const sectionDuration = section.endTime.value - lastEndTime;
-
       if (act.shodanIndices.includes(+section.shodanIndex.number)) {
         if ((section.dan.value || "") !== currentDan) {
           currentDan = section.dan.value || "";
           if (currentDanBlock) danBlocks.push(currentDanBlock);
           currentDanBlock = [];
-          currentDanDuration = 0;
         }
-        currentDanDuration += sectionDuration;
         currentDanBlock.push(section);
       }
-
-      // position += (100 * duration) / this.props.totalDuration;
-      lastEndTime = section.endTime.value;
     });
     if (currentDanBlock) danBlocks.push(currentDanBlock);
     return danBlocks.map(danBlock => {
@@ -111,7 +60,6 @@ class ShodanTimeline extends Component {
           (section.endTime.value - (section.startTime.value || 0)),
         0
       );
-      console.log(danDuration, act.duration);
       return (
         <div
           className={`dan dan-${slug(danBlock[0].dan.value || "")} dan-${
@@ -130,10 +78,7 @@ class ShodanTimeline extends Component {
 
   createActBlocks() {
     const actBlocks = [];
-    let startTime = 0;
-    let endTime = -1;
     this.props.acts.forEach(act => {
-      endTime += act.duration;
       actBlocks.push(
         <div
           className={`act ${slug(act.translation)}`}
@@ -143,19 +88,15 @@ class ShodanTimeline extends Component {
           }}
         >
           <span>{act.translation}</span>
-          {this.createDanBlocksForAct(act, startTime, endTime)}
+          {this.createDanBlocksForAct(act)}
         </div>
       );
-      startTime += act.duration;
     });
     return actBlocks;
   }
 
   render() {
-    // console.log(this.props.acts);
-    // console.log(this.props.sections);
     const actBlocks = this.createActBlocks();
-    // console.log(actBlocks);
     return <div className="shodan-map">{actBlocks}</div>;
   }
 }

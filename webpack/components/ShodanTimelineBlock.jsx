@@ -23,11 +23,6 @@ class ShodanTimelineBlock extends Component {
     // should actually check to be sure that intensity is not greater than max
     const heightNum =
       (parseInt(this.props.intensity, 10) / this.props.maxIntensity) * 100;
-    // console.log(
-    //   this.props.duration,
-    //   this.props.totalDuration,
-    //   this.props.duration / this.props.totalDuration
-    // );
     const durationNum = (this.props.duration / this.props.totalDuration) * 100;
     const pointer = this.props.url ? "pointer" : "";
     const active =
