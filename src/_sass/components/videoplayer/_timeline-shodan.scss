@@ -1,10 +1,12 @@
 .shodan-map__container {
+  padding-top: 20px;
   position: relative;
 }
 
 .shodan-map {
-  position: relative;
+  box-sizing: content-box;
   height: $shodan-map-height-play;
+  position: relative;
   width: 100%;
   z-index: 20;
 
@@ -14,8 +16,26 @@
     @include flex-container($justify: flex-start, $align: flex-end);
   }
 
+  .act {
+    border-right: 1px solid rgba($brown, 0.5);
+    box-sizing: content-box;
+    position: relative;
+  }
+
   span {
-    display: none;
+    align-items: center;
+    border-right: 0.0625rem solid rgba($brown, 0.5);
+    border-bottom: 0.0625rem solid rgba($brown, 0.5);
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 100%;
+    box-sizing: content-box;
   }
 }
 
