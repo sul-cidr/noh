@@ -16,37 +16,6 @@ permalink: /about-intermedia/
         <h3>À propos</h3>
 
         <p>
-          Intermedia works draw their expression from relationships between
-          media. Typically, they combine two or more media layers. The layers
-          may include: spoken or sung text, acting, visual staging, costume,
-          movement, dance and music. Diverse and powerful examples of intermedia
-          can be found across epochs and cultures: Wayang Kulit, Kunqu, Wagner’s
-          operas, Fluxus Happenings, MTV or Bollywood, to name a few. Noh is one
-          of the oldest and most elaborate among them. It was conceived as
-          multilayered intermedia art form at its inception six centuries ago.
-          Mainly transmitted orally ever since it has evolved but it has also
-          retained most of its workings making it one of the oldest preserved
-          and continuously performed forms of intermedia in the world. Not only
-          it brings together multiple layers, each of which has been highly
-          refined and plays a substantial role, but the correspondences between
-          them are singular, intricate and wide-ranging. We believe that its
-          essence and power is in a fascinating and unique intermedia language
-          of expression that our project attempts to elucidate.
-        </p>
-
-        <p>
-          This section of the website is devoted to the general characteristics
-          of Noh as intermedia. It presents intermedia relationships seen in
-          entire plays and repertoire overall. In-depth analysis focusing on
-          intermedia in specific plays, acts, <em>dan</em> and
-          <em>shōdan</em> are presented in other parts of the website. To
-          support the discovery of intermedia in Noh in a bottom-up view, we
-          offer also under
-          <a href="/elements/" target="_blank">Elements of Noh</a> introductions
-          to individual layers and their building blocks.
-        </p>
-
-        <p>
           To fully appreciate intermedia workings of Noh it is very helpful to
           understand its form. Noh’s structure consists of sections
           (<em>dan</em>) that represent common events of the dramatic

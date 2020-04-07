@@ -18,43 +18,41 @@ layout: home
           <br />When all these elements come together at once, <br />the entire
           audience is enchanted.
         </p>
-        <p class="blockquote__footer" markdown="1">— Zeami[^1]</p>
+        <p class="blockquote__footer">— Zeami (tr. Tom Hare)</p>
       </blockquote>
     </div>
   </div>
 </div>
 <div class="home__intermedia">
   <div class="wrapper">
-    <h1 class="home-section__title">What is Intermedia?</h1>
+    <h1 class="home-section__title">Why Noh as Intermedia?</h1>
     <p class="home__intermedia-description">
-      Intermedia works draw their expression from relationships between media.
-      Typically, they combine two or more media layers. The layers may include:
+      Intermedia art forms draw their expression from interactions between
+      media. Typically, they combine layers of media such as textual, visual and
+      aural. Diverse and prominent examples can be found across epochs and
+      cultures: Wayang Kulit, Kunqu, Western opera, Fluxus happenings, MTV or
+      Bollywood, to name a few. Noh is one of the oldest and most elaborate
+      among them. Its layers include: spoken and sung text, stage movement and
+      dance, costumes, masks, staging, and music. Each of the layers has been
+      highly refined and plays a substantial role. Moreover, the correspondences
+      between them are singular, intricate and wide-ranging.
     </p>
-    <ul class="home__intermedia-list">
-      <li>Spoken or sung text</li>
-      <li>Acting</li>
-      <li>Visual staging</li>
-      <li>Costume</li>
-      <li>Movement</li>
-      <li>Dance</li>
-      <li>Music</li>
-    </ul>
     <p class="home__intermedia-description">
-      Diverse and powerful examples of intermedia can be found across epochs and
-      cultures: Wayang Kulit, Kunqu, Wagner’s operas, Fluxus Happenings, MTV or
-      Bollywood, to name a few.
+      The <a href="/about-intermedia/" target="_blank">INTERMEDIA</a> section of
+      the website is devoted to intermedia characteristics of Noh in general. It
+      discusses the combined effects in entire plays and repertoire overall. Our
+      observations are based on provided in-depth analyses of specific
+      <a href="#Plays">PLAYS</a>, their <em>dan</em> and <em>shōdan</em>. To
+      ground the exploration we also offer under
+      <a href="#Elements">ELEMENTS</a>, introductions to individual layers of
+      media and their building blocks.
     </p>
   </div>
 </div>
 
 <div class="home__plays">
   <div class="wrapper">
-    <h2 class="home-section__title">Plays</h2>
-    <p class="home-section__description">
-      In the attempt to untangle some of the unique 'coming together' of
-      artistic media in Noh, the website is divided into the following three
-      sections:
-    </p>
+    <h2 id="Plays" class="home-section__title">Plays</h2>
     {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
     {% include home-play.html link=play.url image=play.image title=play.title
     description=play.description %} {% endunless %} {% endfor %}
@@ -63,19 +61,7 @@ layout: home
 
 <div class="home__elements">
   <div class="wrapper">
-    <h2 class="home-section__title">Elements of Noh</h2>
-    <p class="home-section__description">
-      To better appreciate the intermedia dimensions of Noh, it is helpful to
-      know about its structure, and the expressive possibilities of its
-      individual elements. In addition to the relevant chapters developed for
-      this website, which are mainly focused on elements found in the two
-      analyzed plays, the reader can refer to the affiliated
-      <a href="https://jparc.online/nogaku/"> website 'Nōgaku' </a> at the
-      Japanese Performing Arts Research Consortium
-      <a href="https://jparc.online/"> (JPARC)</a> where more information in a
-      wider context is provided.
-    </p>
-
+    <h2 id="Elements" class="home-section__title">Elements</h2>
     <div class="home-elements">
       <!-- prettier-ignore -->
       {% include home-element.html link="/form/"
@@ -100,15 +86,18 @@ layout: home
       image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
       the use of the Noh stage, masks, costumes and properties." %}
     </div>
+    <p class="home-section__description">
+      To better appreciate the intermedia dimensions of Noh, it is helpful to
+      know about its structure, and the expressive possibilities of its
+      individual elements. In addition to the relevant chapters developed for
+      this website, which are mainly focused on elements found in the two
+      analyzed plays, the reader can refer to the affiliated
+      <a href="https://jparc.online/nogaku/"> website 'Nōgaku' </a> at the
+      Japanese Performing Arts Research Consortium
+      <a href="https://jparc.online/"> (JPARC)</a> where more information in a
+      wider context is provided.
+    </p>
   </div>
 </div>
 
 <!-- prettier-ignore -->
-<div class="wrapper">
-  <div markdown="1">
-* Footnotes must be added below (see
-https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-{:footnotes}
-[^1]: Translated by Tom Hare in<em>Zeami: Performance Notes (Translations from the Asian Classics)</em>,Columbia University Press, 2008, p. 48.
-  </div>
-</div>
