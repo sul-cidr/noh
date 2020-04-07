@@ -14,12 +14,12 @@ $svg-small: 1;
   .time-indicator {
     background-image: url("./images/current-position-indicator.svg");
     background-repeat: no-repeat;
-    height: calc(100% + #{$timeline-acts-height});
+    cursor: col-resize;
+    height: 100%;
+    left: 0.25rem;
     position: absolute;
-    top: -$timeline-acts-height;
+    top: 0;
     width: 0.6875rem;
     z-index: 10;
-    cursor: col-resize;
-    left: -4px;
   }
 }

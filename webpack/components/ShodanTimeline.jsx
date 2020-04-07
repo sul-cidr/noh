@@ -99,7 +99,7 @@ class ShodanTimeline extends Component {
 
   render() {
     const actBlocks = this.createActBlocks();
-    return <div className="shodan-map">{actBlocks}</div>;
+    return <div className="act-map">{actBlocks}</div>;
   }
 }
 
