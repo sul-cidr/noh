@@ -62,6 +62,7 @@ class ShodanTimeline extends Component {
       );
       return (
         <div
+          key={`dan-block-${danBlock[0].dan.number}`}
           className={`dan dan-${slug(danBlock[0].dan.value || "")} dan-${
             danBlock[0].dan.number
           }`}
@@ -81,6 +82,7 @@ class ShodanTimeline extends Component {
     this.props.acts.forEach(act => {
       actBlocks.push(
         <div
+          key={`act-block-${slug(act.translation)}`}
           className={`act ${slug(act.translation)}`}
           style={{
             width: `${100 * (act.duration / this.props.totalDuration)}%`,
