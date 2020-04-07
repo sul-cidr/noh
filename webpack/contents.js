@@ -54,7 +54,11 @@ export function getSection(playName, sectionName, callback, error) {
               props.sections = playResponse.data.sections;
               props.maxIntensity = playResponse.data.maxIntensity;
               props.tracks = playResponse.data.tracks;
-              props.acts = playResponse.data.acts;
+              props.acts = playResponse.data.acts.map(act =>
+                Object.assign(act, {
+                  duration: convertTimeToSeconds(act.duration)
+                })
+              );
               callback(props);
             })
             .catch(err => {
