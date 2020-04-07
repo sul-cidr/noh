@@ -40,8 +40,16 @@
 }
 
 .shodan-timeline__container {
+  span {
+    display: none;
+  }
+
   > .shodan-map {
     display: none;
+  }
+
+  .act {
+    border: none;
   }
 
   .sidebar__collapsable-title--map {
