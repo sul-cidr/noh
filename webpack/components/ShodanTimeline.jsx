@@ -7,17 +7,22 @@ import ShodanTimelineBlock from "./ShodanTimelineBlock";
 const slug = string => string.toLocaleLowerCase().replace(" ", "-");
 
 class ShodanTimeline extends Component {
-  createSectionBlocksForDan(danBlocks, danDuration) {
+  createSectionBlocksForDan(danBlock, danDuration) {
     const sectionBlocks = [];
-    danBlocks.forEach(danBlock => {
-      const section = danBlock;
+    danBlock.forEach((section, index, array) => {
       const position = 0;
       const sectionStartTime = section.startTime.value || 0;
-      const duration = section.endTime.value - sectionStartTime;
+
+      const duration =
+        index + 1 in array
+          ? array[index + 1].startTime.value - sectionStartTime
+          : (danBlock[0].startTime.value || 0) + danDuration - sectionStartTime;
+
       const blockProps =
         this.props.mode === "url"
           ? { url: section.sectionUrl }
           : { startTime: sectionStartTime };
+
       sectionBlocks.push(
         <ShodanTimelineBlock
           {...blockProps}
@@ -36,29 +41,27 @@ class ShodanTimeline extends Component {
     return sectionBlocks;
   }
 
-  createDanBlocksForAct(act) {
+  createDanBlocks(sections, actEndTime, actDuration) {
     const danBlocks = [];
     let currentDan;
     let currentDanBlock;
 
-    this.props.sections.forEach(section => {
-      if (act.shodanIndices.includes(+section.shodanIndex.number)) {
-        if ((section.dan.value || "") !== currentDan) {
-          currentDan = section.dan.value || "";
-          if (currentDanBlock) danBlocks.push(currentDanBlock);
-          currentDanBlock = [];
-        }
-        currentDanBlock.push(section);
+    sections.forEach(section => {
+      if ((section.dan.value || "") !== currentDan) {
+        currentDan = section.dan.value || "";
+        if (currentDanBlock) danBlocks.push(currentDanBlock);
+        currentDanBlock = [];
       }
+      currentDanBlock.push(section);
     });
+
     if (currentDanBlock) danBlocks.push(currentDanBlock);
-    return danBlocks.map(danBlock => {
-      const danDuration = danBlock.reduce(
-        (accumulator, section) =>
-          accumulator +
-          (section.endTime.value - (section.startTime.value || 0)),
-        0
-      );
+
+    return danBlocks.map((danBlock, index, array) => {
+      const danDuration =
+        index + 1 in array
+          ? array[index + 1][0].startTime.value - danBlock[0].startTime.value
+          : actEndTime - (danBlock[0].startTime.value || 0);
       return (
         <div
           key={`dan-block-${danBlock[0].dan.number}`}
@@ -66,7 +69,7 @@ class ShodanTimeline extends Component {
             danBlock[0].dan.number
           }`}
           style={{
-            width: `${100 * (danDuration / act.duration)}%`,
+            width: `${100 * (danDuration / actDuration)}%`,
             height: "100%"
           }}
         >
@@ -76,20 +79,24 @@ class ShodanTimeline extends Component {
     });
   }
 
-  createActBlocks() {
+  createActBlocks(acts) {
     const actBlocks = [];
-    this.props.acts.forEach(act => {
+    acts.forEach(({ act, endTime, duration }) => {
+      const actSections = this.props.sections.filter(section =>
+        act.shodanIndices.includes(+section.shodanIndex.number)
+      );
+
       actBlocks.push(
         <div
           key={`act-block-${slug(act.translation)}`}
           className={`act ${slug(act.translation)}`}
           style={{
-            width: `${100 * (act.duration / this.props.totalDuration)}%`,
+            width: `${100 * (duration / this.props.totalDuration)}%`,
             height: "100%"
           }}
         >
           <span>{act.translation}</span>
-          {this.createDanBlocksForAct(act)}
+          {this.createDanBlocks(actSections, endTime, duration)}
         </div>
       );
     });
@@ -97,7 +104,30 @@ class ShodanTimeline extends Component {
   }
 
   render() {
-    const actBlocks = this.createActBlocks();
+    const acts = this.props.acts.map((act, index, array) => {
+      const startTime =
+        this.props.sections.find(
+          section => +section.shodanIndex.number === act.shodanIndices[0]
+        ).startTime.value || 0;
+      if (index + 1 in array) {
+        const nextSection = this.props.sections.find(
+          section =>
+            +section.shodanIndex.number === array[index + 1].shodanIndices[0]
+        );
+        return {
+          act,
+          endTime: +nextSection.startTime.value,
+          duration: +nextSection.startTime.value - startTime
+        };
+      }
+      return {
+        act,
+        endTime: this.props.totalDuration,
+        duration: this.props.totalDuration - startTime
+      };
+    });
+
+    const actBlocks = this.createActBlocks(acts);
     return <div className="act-map">{actBlocks}</div>;
   }
 }
