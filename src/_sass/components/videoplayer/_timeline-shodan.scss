@@ -156,11 +156,17 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
 
   .act {
     border: none;
+    &::before {
+      content: none;
+    }
   }
 
   .dan {
     background-color: $white;
     border: none;
+    &::before {
+      content: none;
+    }
   }
 
   .sidebar__collapsable-title--map {
