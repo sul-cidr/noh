@@ -6,6 +6,8 @@ $dan-5: #665e3b;
 $alpha: 0.15;
 $alpha-hover: 0.25;
 
+$non-trsp-border: 0.0625rem solid #e2e0de;
+
 @mixin hover($color, $alpha, $alpha-hover) {
   background-color: rgba($color, $alpha);
 
@@ -38,10 +40,32 @@ $alpha-hover: 0.25;
   text-align: center;
   width: 100%;
   z-index: 2;
+}
+
+.act {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+
+  &:not(:last-child) {
+    &::before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-right: $non-trsp-border;
+    }
+
+    span {
+      border-right: $non-trsp-border;
+    }
+  }
 
   span {
     align-items: center;
-    border-right: $border;
     border-bottom: $border;
     display: flex;
     font-size: 12px;
@@ -55,25 +79,23 @@ $alpha-hover: 0.25;
   }
 }
 
-.act {
-  align-items: flex-end;
-  border-right: $border;
-  border-bottom: $border;
-  display: flex;
-  height: 100%;
-  justify-content: flex-start;
-  position: relative;
-  text-align: center;
-}
-
 .dan {
   align-items: flex-end;
-  border-right: 0.0625rem solid rgba($brown, 0.2);
   display: flex;
   height: 100%;
   justify-content: flex-start;
   position: relative;
   text-align: center;
+
+  &:not(:last-child) {
+    &::before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-right: $non-trsp-border;
+    }
+  }
 
   &.dan-1 {
     @include hover($dan-1, $alpha, $alpha-hover);
