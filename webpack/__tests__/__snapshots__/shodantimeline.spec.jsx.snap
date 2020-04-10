@@ -2,27 +2,739 @@
 
 exports[`<ShodanTimeline> renders as expected 1`] = `
 <div
-  className="shodan-map"
+  className="act-map"
 >
-  <Connect(ShodanTimelineBlock)
-    duration={301}
-    intensity="17"
-    key="Noriji"
-    left="0%"
-    maxIntensity={21}
-    name="Noriji"
-    startTime={0}
-    totalDuration={1800}
-  />
-  <Connect(ShodanTimelineBlock)
-    duration={1200}
-    intensity="12"
-    key="Maibataraki"
-    left="16.72222222222222%"
-    maxIntensity={21}
-    name="Maibataraki"
-    startTime={301}
-    totalDuration={1800}
-  />
+  <div
+    className="act intro."
+    key="act-block-intro."
+    style={
+      Object {
+        "height": "100%",
+        "width": "13.055555555555557%",
+      }
+    }
+  >
+    <span>
+      Intro.
+    </span>
+    <div
+      className="dan dan- dan-7"
+      key="dan-block-7"
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "7",
+          }
+        }
+        duration={106}
+        intensity="6"
+        key="Oshirabe"
+        left="0%"
+        maxIntensity={21}
+        name="Oshirabe"
+        shodanIndex={
+          Object {
+            "number": "1",
+          }
+        }
+        startTime={0}
+        totalDuration={235}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "8",
+          }
+        }
+        duration={129}
+        intensity="0"
+        key="Musicians walk in"
+        left="0%"
+        maxIntensity={21}
+        name="Musicians walk in"
+        shodanIndex={
+          Object {
+            "number": "2",
+          }
+        }
+        startTime={106}
+        totalDuration={235}
+      />
+    </div>
+  </div>
+  <div
+    className="act act-i"
+    key="act-block-act-i"
+    style={
+      Object {
+        "height": "100%",
+        "width": "103%",
+      }
+    }
+  >
+    <span>
+      Act I
+    </span>
+    <div
+      className="dan dan-waki-enters dan-1"
+      key="dan-block-1"
+      style={
+        Object {
+          "height": "100%",
+          "width": "27.130528586839265%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Enters",
+          }
+        }
+        duration={80}
+        intensity="3"
+        key="Nanori"
+        left="0%"
+        maxIntensity={21}
+        name="Nanori"
+        shodanIndex={
+          Object {
+            "number": "3",
+          }
+        }
+        startTime={235}
+        totalDuration={503}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Enters",
+          }
+        }
+        duration={207}
+        intensity="4"
+        key="Mondō-1"
+        left="0%"
+        maxIntensity={21}
+        name="Mondō-1"
+        shodanIndex={
+          Object {
+            "number": "4",
+          }
+        }
+        startTime={315}
+        totalDuration={503}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Enters",
+          }
+        }
+        duration={124}
+        intensity="22"
+        key="Ageuta-1"
+        left="0%"
+        maxIntensity={21}
+        name="Ageuta-1"
+        shodanIndex={
+          Object {
+            "number": "5",
+          }
+        }
+        startTime={522}
+        totalDuration={503}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Enters",
+          }
+        }
+        duration={14}
+        intensity="4"
+        key="Dialogue"
+        left="0%"
+        maxIntensity={21}
+        name="Dialogue"
+        shodanIndex={
+          Object {
+            "number": "6",
+          }
+        }
+        startTime={646}
+        totalDuration={503}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Enters",
+          }
+        }
+        duration={78}
+        intensity="3"
+        key="Monologue"
+        left="0%"
+        maxIntensity={21}
+        name="Monologue"
+        shodanIndex={
+          Object {
+            "number": "7",
+          }
+        }
+        startTime={660}
+        totalDuration={503}
+      />
+    </div>
+    <div
+      className="dan dan-dialogue dan-3"
+      key="dan-block-3"
+      style={
+        Object {
+          "height": "100%",
+          "width": "14.94066882416397%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "3",
+            "value": "Dialogue",
+          }
+        }
+        duration={160}
+        intensity="4"
+        key="Mondō-2"
+        left="0%"
+        maxIntensity={21}
+        name="Mondō-2"
+        shodanIndex={
+          Object {
+            "number": "8",
+          }
+        }
+        startTime={738}
+        totalDuration={277}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "3",
+            "value": "Dialogue",
+          }
+        }
+        duration={117}
+        intensity="19"
+        key="Ageuta-2"
+        left="0%"
+        maxIntensity={21}
+        name="Ageuta-2"
+        shodanIndex={
+          Object {
+            "number": "9",
+          }
+        }
+        startTime={898}
+        totalDuration={277}
+      />
+    </div>
+    <div
+      className="dan dan-shite-performs dan-4"
+      key="dan-block-4"
+      style={
+        Object {
+          "height": "100%",
+          "width": "39.482200647249186%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "4",
+            "value": "Shite Performs",
+          }
+        }
+        duration={61}
+        intensity="14"
+        key="Kuri"
+        left="0%"
+        maxIntensity={21}
+        name="Kuri"
+        shodanIndex={
+          Object {
+            "number": "10",
+          }
+        }
+        startTime={1015}
+        totalDuration={732}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "4",
+            "value": "Shite Performs",
+          }
+        }
+        duration={118}
+        intensity="11"
+        key="Sashi"
+        left="0%"
+        maxIntensity={21}
+        name="Sashi"
+        shodanIndex={
+          Object {
+            "number": "11",
+          }
+        }
+        startTime={1076}
+        totalDuration={732}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "4",
+            "value": "Shite Performs",
+          }
+        }
+        duration={553}
+        intensity="31"
+        key="Kuse"
+        left="0%"
+        maxIntensity={21}
+        name="Kuse"
+        shodanIndex={
+          Object {
+            "number": "12",
+          }
+        }
+        startTime={1194}
+        totalDuration={732}
+      />
+    </div>
+    <div
+      className="dan dan-shite-exits dan-5"
+      key="dan-block-5"
+      style={
+        Object {
+          "height": "100%",
+          "width": "18.446601941747574%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "5",
+            "value": "Shite Exits",
+          }
+        }
+        duration={58}
+        intensity="9"
+        key="Kakeai-1"
+        left="0%"
+        maxIntensity={21}
+        name="Kakeai-1"
+        shodanIndex={
+          Object {
+            "number": "13",
+          }
+        }
+        startTime={1747}
+        totalDuration={342}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "5",
+            "value": "Shite Exits",
+          }
+        }
+        duration={75}
+        intensity="25"
+        key="Ageuta-3"
+        left="0%"
+        maxIntensity={21}
+        name="Ageuta-3"
+        shodanIndex={
+          Object {
+            "number": "14",
+          }
+        }
+        startTime={1805}
+        totalDuration={342}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "5",
+            "value": "Shite Exits",
+          }
+        }
+        duration={209}
+        intensity="12"
+        key="Raijo"
+        left="0%"
+        maxIntensity={21}
+        name="Raijo"
+        shodanIndex={
+          Object {
+            "number": "15",
+          }
+        }
+        startTime={1880}
+        totalDuration={342}
+      />
+    </div>
+  </div>
+  <div
+    className="act interlude"
+    key="act-block-interlude"
+    style={
+      Object {
+        "height": "100%",
+        "width": "34.72222222222222%",
+      }
+    }
+  >
+    <span>
+      Interlude
+    </span>
+    <div
+      className="dan dan- dan-6"
+      key="dan-block-6"
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "6",
+          }
+        }
+        duration={487}
+        intensity="3"
+        key="Ai-kyōgen"
+        left="0%"
+        maxIntensity={21}
+        name="Ai-kyōgen"
+        shodanIndex={
+          Object {
+            "number": "16",
+          }
+        }
+        startTime={2089}
+        totalDuration={625}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "8",
+          }
+        }
+        duration={138}
+        intensity="0"
+        key="Prop is brought in"
+        left="0%"
+        maxIntensity={21}
+        name="Prop is brought in"
+        shodanIndex={
+          Object {
+            "number": "17",
+          }
+        }
+        startTime={2576}
+        totalDuration={625}
+      />
+    </div>
+  </div>
+  <div
+    className="act act-ii"
+    key="act-block-act-ii"
+    style={
+      Object {
+        "height": "100%",
+        "width": "45.666666666666664%",
+      }
+    }
+  >
+    <span>
+      Act II
+    </span>
+    <div
+      className="dan dan-waki-waits dan-1"
+      key="dan-block-1"
+      style={
+        Object {
+          "height": "100%",
+          "width": "42.94403892944039%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Waits",
+          }
+        }
+        duration={196}
+        intensity="14"
+        key="Notto"
+        left="0%"
+        maxIntensity={21}
+        name="Notto"
+        shodanIndex={
+          Object {
+            "number": "18",
+          }
+        }
+        startTime={2714}
+        totalDuration={353}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "1",
+            "value": "Waki Waits",
+          }
+        }
+        duration={157}
+        intensity="21"
+        key="Noriji-1"
+        left="0%"
+        maxIntensity={21}
+        name="Noriji-1"
+        shodanIndex={
+          Object {
+            "number": "19",
+          }
+        }
+        startTime={2910}
+        totalDuration={353}
+      />
+    </div>
+    <div
+      className="dan dan-shite-re-enters dan-2"
+      key="dan-block-2"
+      style={
+        Object {
+          "height": "100%",
+          "width": "10.097323600973237%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "2",
+            "value": "Shite Re-enters",
+          }
+        }
+        duration={83}
+        intensity="24"
+        key="Hayafue"
+        left="0%"
+        maxIntensity={21}
+        name="Hayafue"
+        shodanIndex={
+          Object {
+            "number": "20",
+          }
+        }
+        startTime={3067}
+        totalDuration={83}
+      />
+    </div>
+    <div
+      className="dan dan-shite-performs dan-4"
+      key="dan-block-4"
+      style={
+        Object {
+          "height": "100%",
+          "width": "26.763990267639905%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "4",
+            "value": "Shite Performs",
+          }
+        }
+        duration={48}
+        intensity="30"
+        key="Noriji-2"
+        left="0%"
+        maxIntensity={21}
+        name="Noriji-2"
+        shodanIndex={
+          Object {
+            "number": "21",
+          }
+        }
+        startTime={3150}
+        totalDuration={220}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "4",
+            "value": "Shite Performs",
+          }
+        }
+        duration={56}
+        intensity="34"
+        key="Maibataraki"
+        left="0%"
+        maxIntensity={21}
+        name="Maibataraki"
+        shodanIndex={
+          Object {
+            "number": "22",
+          }
+        }
+        startTime={3198}
+        totalDuration={220}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "4",
+            "value": "Shite Performs",
+          }
+        }
+        duration={116}
+        intensity="28"
+        key="Noriji-3"
+        left="0%"
+        maxIntensity={21}
+        name="Noriji-3"
+        shodanIndex={
+          Object {
+            "number": "23",
+          }
+        }
+        startTime={3254}
+        totalDuration={220}
+      />
+    </div>
+    <div
+      className="dan dan-shite-exits dan-5"
+      key="dan-block-5"
+      style={
+        Object {
+          "height": "100%",
+          "width": "20.194647201946474%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "5",
+            "value": "Shite Exits",
+          }
+        }
+        duration={30}
+        intensity="9"
+        key="Kakeai-2"
+        left="0%"
+        maxIntensity={21}
+        name="Kakeai-2"
+        shodanIndex={
+          Object {
+            "number": "24",
+          }
+        }
+        startTime={3370}
+        totalDuration={166}
+      />
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "5",
+            "value": "Shite Exits",
+          }
+        }
+        duration={136}
+        intensity="32"
+        key="Kiri"
+        left="0%"
+        maxIntensity={21}
+        name="Kiri"
+        shodanIndex={
+          Object {
+            "number": "25",
+          }
+        }
+        startTime={3400}
+        totalDuration={166}
+      />
+    </div>
+  </div>
+  <div
+    className="act exit"
+    key="act-block-exit"
+    style={
+      Object {
+        "height": "100%",
+        "width": "-96.44444444444444%",
+      }
+    }
+  >
+    <span>
+      Exit
+    </span>
+    <div
+      className="dan dan- dan-8"
+      key="dan-block-8"
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    >
+      <Connect(ShodanTimelineBlock)
+        dan={
+          Object {
+            "number": "8",
+          }
+        }
+        duration={-1736}
+        intensity="0"
+        key="Exit of the Musicians"
+        left="0%"
+        maxIntensity={21}
+        name="Exit of the Musicians"
+        shodanIndex={
+          Object {
+            "number": "26",
+          }
+        }
+        startTime={3536}
+        totalDuration={-1736}
+      />
+    </div>
+  </div>
 </div>
 `;
