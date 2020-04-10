@@ -41,10 +41,6 @@ $card-menu-large-element-size-desktop: 8.75rem;
     width: 60%;
   }
 
-  @media #{$desktop-up} {
-    padding: 4rem;
-  }
-
   li {
     margin-bottom: 1rem;
 
@@ -56,9 +52,10 @@ $card-menu-large-element-size-desktop: 8.75rem;
 
 .home-play__title {
   color: $brown;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: $fw-semibold;
 
-  @include text(xxl);
+  @include text(xl);
 }
 
 .home-play__description {
