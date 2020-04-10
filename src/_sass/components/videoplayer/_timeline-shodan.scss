@@ -1,12 +1,26 @@
-$dan-1: #61394e;
-$dan-2: #fccdab;
+$dan-5: #61394e;
+$dan-4: #fccdab;
 $dan-3: #ab3b3d;
-$dan-4: #d59a2f;
-$dan-5: #665e3b;
-$alpha: 0.15;
-$alpha-hover: 0.25;
+$dan-2: #d59a2f;
+$dan-1: #665e3b;
+$alpha: 0.1;
+$alpha-hover: 0.15;
+$shodan-bg-color: hsl(240, 3%, 88%);
+$shodan-bg-color-dan-hover: hsl(240, 3%, 77%);
+$shodan-bg-color-hover: hsl(240, 3%, 66%);
 
-$non-trsp-border: 0.0625rem solid #e2e0de;
+@mixin separator() {
+  &:not(:last-child) {
+    &::before {
+      background-color: $shodan-bg-color;
+      content: "";
+      position: absolute;
+      height: 100%;
+      right: 0;
+      width: 0.0625rem;
+    }
+  }
+}
 
 @mixin hover($color, $alpha, $alpha-hover) {
   background-color: rgba($color, $alpha);
@@ -14,9 +28,9 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
   &:hover {
     background-color: rgba($color, $alpha-hover);
     .shodan-map__item {
-      background-color: #bbb;
+      background-color: $shodan-bg-color-dan-hover;
       &:hover {
-        background-color: #999;
+        background-color: $shodan-bg-color-hover;
       }
     }
   }
@@ -50,17 +64,11 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
   position: relative;
   text-align: center;
 
-  &:not(:last-child) {
-    &::before {
-      position: absolute;
-      content: "";
-      height: 100%;
-      width: 100%;
-      border-right: $non-trsp-border;
-    }
+  @include separator();
 
+  &:not(:last-child) {
     span {
-      border-right: $non-trsp-border;
+      border-right: $border;
     }
   }
 
@@ -84,18 +92,11 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
   display: flex;
   height: 100%;
   justify-content: flex-start;
+  padding-top: 1rem;
   position: relative;
   text-align: center;
 
-  &:not(:last-child) {
-    &::before {
-      position: absolute;
-      content: "";
-      height: 100%;
-      width: 100%;
-      border-right: $non-trsp-border;
-    }
-  }
+  @include separator();
 
   &.dan-1 {
     @include hover($dan-1, $alpha, $alpha-hover);
@@ -120,13 +121,13 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
 }
 
 .shodan-map__item {
-  background-color: #ddd;
-  border: 0.0625rem solid rgba($black, 0.2);
+  background-color: $shodan-bg-color;
+  border: 0.0625rem solid rgba($black, 0.15);
   min-height: 0.5rem;
   position: relative;
 
   &:hover {
-    background-color: #999;
+    background-color: $shodan-bg-color-hover;
   }
 
   @include tooltip-center();
@@ -136,12 +137,12 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
   }
 
   &.shodan-map__item--active {
-    background-color: #999;
+    background-color: $shodan-bg-color-hover;
     border-bottom-style: none;
   }
 
   &.shodan-map__item--highlight {
-    background-color: #999;
+    background-color: $shodan-bg-color-hover;
   }
 }
 
@@ -164,9 +165,23 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
   .dan {
     background-color: $white;
     border: none;
+    padding-top: 0;
+
     &::before {
       content: none;
     }
+
+    &:hover {
+      background-color: $white;
+      .shodan-map__item {
+        background-color: $shodan-bg-color;
+        min-height: 0.0625rem;
+      }
+    }
+  }
+
+  .shodan-map__item {
+    min-height: 0.0625rem;
   }
 
   .sidebar__collapsable-title--map {
@@ -181,6 +196,10 @@ $non-trsp-border: 0.0625rem solid #e2e0de;
       display: flex;
       height: $shodan-map-height-section;
       margin-top: 0.5rem;
+    }
+
+    .shodan-map__item {
+      min-height: 0.375rem;
     }
 
     .sidebar__collapsable-title--map {
