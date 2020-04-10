@@ -2,6 +2,7 @@ import React from "react";
 import { mount } from "enzyme";
 import TestUtils from "react-dom/test-utils";
 
+import { convertTimeToSeconds } from "../utils";
 import App from "../play";
 import fixtures from "./__fixtures__/play.json";
 
@@ -9,8 +10,15 @@ describe("<Play>", () => {
   let store;
   let wrapper;
 
+  const props = fixtures;
+  if (props.acts) {
+    props.acts = props.acts.map(act =>
+      Object.assign(act, { duration: convertTimeToSeconds(act.duration) })
+    );
+  }
+
   beforeEach(() => {
-    wrapper = mount(<App {...fixtures} />);
+    wrapper = mount(<App {...props} />);
     ({ store } = wrapper.find("Provider").props());
   });
 
