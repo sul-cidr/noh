@@ -27,25 +27,25 @@ layout: home
   <div class="wrapper">
     <h1 class="home-section__title">Why Noh as Intermedia?</h1>
     <p class="home__intermedia-description">
-      Intermedia art forms draw their expression from interactions between
-      media. Typically, they combine layers of media such as textual, visual and
-      aural. Diverse and prominent examples can be found across epochs and
-      cultures: Wayang Kulit, Kunqu, Western opera, Fluxus happenings, MTV or
-      Bollywood, to name a few. Noh is one of the oldest and most elaborate
-      among them. Its layers include: spoken and sung text, stage movement and
-      dance, costumes, masks, staging, and music. Each of the layers has been
-      highly refined and plays a substantial role. Moreover, the correspondences
-      between them are singular, intricate and wide-ranging.
+      Intermedia art draws its expression from interactions between media. Its
+      forms combine layers such as textual, visual and aural. Diverse and
+      prominent examples can be found across epochs and cultures: Wayang Kulit,
+      Kunqu, Western opera, Fluxus happenings, MTV or Bollywood, to name a few.
+      Noh is one of the oldest and most elaborate among them. Its layers
+      include: spoken and sung text, stage movement and dance, costumes, masks,
+      staging, and music. Each of the layers in Noh has been highly refined and
+      plays a substantial role. Moreover, the correspondences between them are
+      singular, intricate and wide-ranging.
     </p>
     <p class="home__intermedia-description">
       The <a href="/about-intermedia/" target="_blank">INTERMEDIA</a> section of
-      the website is devoted to intermedia characteristics of Noh in general. It
-      discusses the combined effects in entire plays and repertoire overall. Our
-      observations are based on provided in-depth analyses of specific
+      the website is devoted to Noh in general. It discusses the combined
+      effects of entire plays and the repertoire overall. Our observations are
+      based on provided in-depth analyses of specific
       <a href="#Plays">PLAYS</a>, their <em>dan</em> and <em>shōdan</em>. To
-      ground the exploration we also offer under
-      <a href="#Elements">ELEMENTS</a>, introductions to individual layers of
-      media and their building blocks.
+      ground the exploration, the <a href="#Elements">ELEMENTS</a> section
+      offers introductions to individual layers of media and their building
+      blocks.
     </p>
   </div>
 </div>
@@ -86,17 +86,17 @@ layout: home
       image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
       the use of the Noh stage, masks, costumes and properties." %}
     </div>
-    <p class="home-section__description">
-      To better appreciate the intermedia dimensions of Noh, it is helpful to
-      know about its structure, and the expressive possibilities of its
-      individual elements. In addition to the relevant chapters developed for
-      this website, which are mainly focused on elements found in the two
-      analyzed plays, the reader can refer to the affiliated
-      <a href="https://jparc.online/nogaku/"> website 'Nōgaku' </a> at the
-      Japanese Performing Arts Research Consortium
-      <a href="https://jparc.online/"> (JPARC)</a> where more information in a
-      wider context is provided.
-    </p>
+  </div>
+  <div class="home__plays">
+    <div class="wrapper">
+      <p class="home__intermedia-description">
+        This website was developed in cooperation with the Japanese Performing
+        Arts Research Consortium
+        <a href="https://jparc.online/"> (JPARC)</a>. We would like to invite
+        our readers to visit also an affiliated website
+        <a href="https://jparc.online/nogaku/">'Nōgaku.' </a>
+      </p>
+    </div>
   </div>
 </div>
 
