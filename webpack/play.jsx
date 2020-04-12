@@ -108,7 +108,10 @@ export default class App extends Component {
               </div>
               <div className="timeline">
                 <div className="timeline__container">
-                  <div className="shodan-map__container">
+                  <div
+                    className="shodan-map__container"
+                    data-intro="The center of navigation is the Shōdan Map consisting of blocks representing the shōdan’s Index of Intermedia. Clicking on a block moves the video to the beginning of that shōdan. Sliding the button through the video timeline at the bottom of the video screen updates the time position within the map. Both interactions result in updating the corresponding summary info in the bottom right table."
+                  >
                     <TimelineIndicator
                       startTime={10}
                       currentTime={currentTime}
