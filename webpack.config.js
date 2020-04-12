@@ -42,6 +42,14 @@ module.exports = {
           from:
             "node_modules/vanilla-back-to-top/dist/vanilla-back-to-top.min.js",
           to: "assets"
+        },
+        {
+          from: "node_modules/intro.js/minified/intro.min.js",
+          to: "assets"
+        },
+        {
+          from: "node_modules/intro.js/minified/introjs.min.css",
+          to: "assets"
         }
       ],
       { copyUnmodified: true }
