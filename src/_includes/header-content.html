@@ -34,6 +34,11 @@
           >Noh as Intermedia</a
         >
       </li>
+      {% if page.layout == 'play' or page.layout == 'section' %}
+      <li>
+        <a class="header__main-link" onClick="{introJs().start();}">Guide</a>
+      </li>
+      {% endif %}
     </ul>
   </nav>
 </div>
