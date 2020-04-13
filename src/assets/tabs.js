@@ -1,5 +1,7 @@
 var tabClass = "react-tabs__tab";
 
+var jumpInProgress = false;
+
 function attachTabs() {
   /* This function is run after the page loads. It iterates
    * through the "dehydrated" tab containers on the page and
@@ -75,10 +77,16 @@ function activateTab(hashEvent, eltID, scrollToElt) {
     tabLi.setAttribute("aria-selected", "true");
     section.style.display = "block";
 
-    if (hashEvent || scrollToElt) tabLi.scrollIntoView();
+    if (hashEvent || scrollToElt) {
+      jumpInProgress = true;
+      tabLi.scrollIntoView();
+    }
   } else {
     // Be sure to scroll to a non-tab anchors as well, if they're clicked
-    if (scrollToElt) document.getElementById(eltID).scrollIntoView();
+    if (scrollToElt) {
+      jumpInProgress = true;
+      document.getElementById(eltID).scrollIntoView();
+    }
   }
 }
 
@@ -91,9 +99,14 @@ window.addEventListener("hashchange", activateTab, false);
  * focus -- or, if it the link is to a non-tab achor, its target will be
  * scrolled into view.
  */
+const docURL = new URL(document.location.href);
+docURL.hash = "";
+
 document.querySelectorAll('[href*="#"]').forEach(function(link) {
+  const linkURL = new URL(link.href);
+  linkURL.hash = "";
   link.addEventListener("click", function(event) {
-    if (link.href == document.location.href) {
+    if (linkURL.href == docURL.href) {
       event.preventDefault();
       activateTab(null, link.hash.slice(1), true);
     }
