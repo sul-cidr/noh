@@ -8,6 +8,7 @@ $alpha-hover: 0.15;
 $shodan-bg-color: hsl(240, 3%, 88%);
 $shodan-bg-color-dan-hover: hsl(240, 3%, 77%);
 $shodan-bg-color-hover: hsl(240, 3%, 66%);
+$shodan-bg-color-active: hsl(240, 3%, 55%);
 
 @mixin separator() {
   &:not(:last-child) {
@@ -118,6 +119,34 @@ $shodan-bg-color-hover: hsl(240, 3%, 66%);
   &.dan-8 {
     @include hover($white, 0, 0.1);
   }
+
+  .shodan-timeline__container & {
+    background-color: $white;
+    border: none;
+    padding-top: 0;
+
+    &::before {
+      content: none;
+    }
+
+    &:hover {
+      background-color: $white;
+      .shodan-map__item {
+        background-color: $shodan-bg-color-dan-hover;
+        &:hover {
+          background-color: $shodan-bg-color-hover;
+        }
+
+        &.shodan-map__item--active {
+          background-color: $shodan-bg-color-active;
+        }
+
+        &.shodan-map__item--highlight {
+          background-color: $shodan-bg-color-dan-hover;
+        }
+      }
+    }
+  }
 }
 
 .shodan-map__item {
@@ -137,11 +166,11 @@ $shodan-bg-color-hover: hsl(240, 3%, 66%);
   }
 
   &.shodan-map__item--active {
-    background-color: $shodan-bg-color-hover;
+    background-color: $shodan-bg-color-active;
   }
 
   &.shodan-map__item--highlight {
-    background-color: $shodan-bg-color-hover;
+    background-color: $shodan-bg-color-dan-hover;
   }
 }
 
@@ -161,25 +190,8 @@ $shodan-bg-color-hover: hsl(240, 3%, 66%);
     }
   }
 
-  .dan {
-    background-color: $white;
-    border: none;
-    padding-top: 0;
-
-    &::before {
-      content: none;
-    }
-
-    &:hover {
-      background-color: $white;
-      .shodan-map__item {
-        background-color: $shodan-bg-color;
-      }
-    }
-  }
-
   .shodan-map__item {
-    min-height: 0.375rem;
+    min-height: 0.25rem;
   }
 
   .sidebar__collapsable-title--map {
