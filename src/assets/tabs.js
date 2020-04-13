@@ -1,5 +1,7 @@
 var tabClass = "react-tabs__tab";
 
+// Checked in menu-scroll.js to avoid showing the sticky sub-nav
+// menu bar when scrolling up due to clicking an in-page anchor
 var jumpInProgress = false;
 
 function attachTabs() {
