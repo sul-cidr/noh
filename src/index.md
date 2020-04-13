@@ -18,50 +18,46 @@ layout: home
           <br />When all these elements come together at once, <br />the entire
           audience is enchanted.
         </p>
-        <p class="blockquote__footer">— Zeami (tr. Tom Hare)</p>
+        <p class="blockquote__footer">
+          — Zeami <em>Fūshikaden</em> (tr. Tom Hare)
+        </p>
       </blockquote>
     </div>
   </div>
 </div>
 <div class="home__intermedia">
   <div class="wrapper">
-    <h1 class="home-section__title">Why Noh as Intermedia?</h1>
+    <h1 class="home-section__title">Why Noh and Intermedia</h1>
     <p class="home__intermedia-description">
-      Intermedia art draws its expression from interactions between media. Its
-      forms combine layers such as textual, visual and aural. Diverse and
-      prominent examples can be found across epochs and cultures: Wayang Kulit,
-      Kunqu, Western opera, Fluxus happenings, MTV or Bollywood, to name a few.
-      Noh is one of the oldest and most elaborate among them. Its layers
-      include: spoken and sung text, stage movement and dance, costumes, masks,
-      staging, and music. Each of the layers in Noh has been highly refined and
-      plays a substantial role. Moreover, the correspondences between them are
-      singular, intricate and wide-ranging.
+      Six centuries ago, the co-creator of Noh Theater, its greatest playwright
+      and theorist, Zeami, linked the plays' success to the cultivation and the
+      'coming together' of text, visuals and music. Today, the expressive
+      interaction of these three layers might be called
+      <strong><em>intermedia</em></strong
+      >. Whereas the individual artistic elements of Noh have been studied
+      extensively, the interaction between them not nearly as much. This project
+      is intended to contribute to the understanding and appreciation of Noh by
+      narrowing this gap. Grounded in the knowledge of
+      <a href="#Elements">ELEMENTS</a> and an in-depth intermedia analysis of
+      two <a href="#Plays">PLAYS</a> we lead to general conclusions about
+      <a href="/about-intermedia/" target="_blank">NOH AS INTERMEDIA</a>.
     </p>
     <p class="home__intermedia-description">
-      The <a href="/about-intermedia/" target="_blank">INTERMEDIA</a> section of
-      the website is devoted to Noh in general. It discusses the combined
-      effects of entire plays and the repertoire overall. Our observations are
-      based on provided in-depth analyses of specific
-      <a href="#Plays">PLAYS</a>, their <em>dan</em> and <em>shōdan</em>. To
-      ground the exploration, the <a href="#Elements">ELEMENTS</a> section
-      offers introductions to individual layers of media and their building
-      blocks.
+      The authors wish to express deepest gratitude to our
+      <a href="/credits/">collaborators</a> and most importantly to the
+      <a href="http://www.kongou-net.com/index.html">Kongō School of Noh</a> for
+      partnering with the project.
     </p>
-  </div>
-</div>
-
-<div class="home__plays">
-  <div class="wrapper">
-    <h2 id="Plays" class="home-section__title">Plays</h2>
-    {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
-    {% include home-play.html link=play.url image=play.image title=play.title
-    description=play.description %} {% endunless %} {% endfor %}
   </div>
 </div>
 
 <div class="home__elements">
   <div class="wrapper">
     <h2 id="Elements" class="home-section__title">Elements</h2>
+    <p class="home__intermedia-description">
+      The following pages offer introductions to the formal design of Noh, and
+      the building blocks of individual layers.
+    </p>
     <div class="home-elements">
       <!-- prettier-ignore -->
       {% include home-element.html link="/form/"
@@ -85,6 +81,19 @@ layout: home
       translation." %} {% include home-element.html link="/staging/"
       image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
       the use of the Noh stage, masks, costumes and properties." %}
+    </div>
+  </div>
+
+  <div class="home__plays">
+    <div class="wrapper">
+      <h2 id="Plays" class="home-section__title">Plays</h2>
+      <p class="home__intermedia-description">
+        These pages feature complete recordings and the in-depth interemdia
+        analysis of two contrasting plays.
+      </p>
+      {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
+      {% include home-play.html link=play.url image=play.image title=play.title
+      description=play.description %} {% endunless %} {% endfor %}
     </div>
   </div>
   <div class="home__plays">
