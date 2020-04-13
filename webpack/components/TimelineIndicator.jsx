@@ -45,7 +45,7 @@ class TimelineIndicator extends Component {
 
   render() {
     return (
-      <div ref={this.container} className="time-indicator-container">
+      <div ref={this.container}>
         <Draggable
           position={{ x: this.calculateProgress(), y: 0 }}
           ref={this.indicator}
