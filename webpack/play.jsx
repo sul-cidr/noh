@@ -4,7 +4,6 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import throttle from "lodash.throttle";
 
-import Acts from "./components/Acts";
 import IntermediaTable from "./components/IntermediaTable";
 import MasterVideo from "./components/MasterVideo";
 import Narrative from "./components/Narrative";
@@ -125,10 +124,6 @@ export default class App extends Component {
               </div>
               <div className="timeline">
                 <div className="timeline__container">
-                  <Acts
-                    acts={acts}
-                    duration={convertTimeToSeconds(videoDuration)}
-                  />
                   <div className="shodan-map__container">
                     <TimelineIndicator
                       startTime={10}
@@ -136,6 +131,7 @@ export default class App extends Component {
                       duration={convertTimeToSeconds(videoDuration)}
                     />
                     <ShodanTimeline
+                      acts={acts}
                       sections={sections}
                       maxIntensity={maxIntensity}
                       totalDuration={convertTimeToSeconds(videoDuration)}

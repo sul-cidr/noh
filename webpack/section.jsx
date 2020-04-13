@@ -236,6 +236,7 @@ export default class App extends Component {
                     sections={this.props.sections}
                     maxIntensity={this.props.maxIntensity}
                     totalDuration={this.props.videoDuration}
+                    acts={this.props.acts}
                   />
                 </div>
                 <ShodanTimeline
@@ -243,6 +244,7 @@ export default class App extends Component {
                   sections={this.props.sections}
                   maxIntensity={this.props.maxIntensity}
                   totalDuration={this.props.videoDuration}
+                  acts={this.props.acts}
                 />
               </div>
               <SectionControls
@@ -286,6 +288,7 @@ App.propTypes = {
   sectionName: PropTypes.shape({
     value: PropTypes.string
   }).isRequired,
+  acts: PropTypes.arrayOf(PropTypes.object).isRequired,
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       sectionName: PropTypes.shape({ value: PropTypes.string }),

@@ -2,7 +2,7 @@
   background-color: $white;
   height: $intermedia-height;
 
-  @include flex-container($justify: flex-start, $align: flex-start);
+  @include flex-container($justify: flex-start, $align: stretch);
 }
 
 .timeline__container {
