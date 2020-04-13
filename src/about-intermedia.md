@@ -12,111 +12,7 @@ permalink: /about-intermedia/
     </aside>
     <section class="sidebar-contents__section">
       <div class="text-container">
-        <h2 id="intermedia-intro">Intermedia</h2>
-        <h3>À propos</h3>
-
-        <p>
-          Intermedia works draw their expression from relationships between
-          media. Typically, they combine two or more media layers. The layers
-          may include: spoken or sung text, acting, visual staging, costume,
-          movement, dance and music. Diverse and powerful examples of intermedia
-          can be found across epochs and cultures: Wayang Kulit, Kunqu, Wagner’s
-          operas, Fluxus Happenings, MTV or Bollywood, to name a few. Noh is one
-          of the oldest and most elaborate among them. It was conceived as
-          multilayered intermedia art form at its inception six centuries ago.
-          Mainly transmitted orally ever since it has evolved but it has also
-          retained most of its workings making it one of the oldest preserved
-          and continuously performed forms of intermedia in the world. Not only
-          it brings together multiple layers, each of which has been highly
-          refined and plays a substantial role, but the correspondences between
-          them are singular, intricate and wide-ranging. We believe that its
-          essence and power is in a fascinating and unique intermedia language
-          of expression that our project attempts to elucidate.
-        </p>
-
-        <p>
-          This section of the website is devoted to the general characteristics
-          of Noh as intermedia. It presents intermedia relationships seen in
-          entire plays and repertoire overall. In-depth analysis focusing on
-          intermedia in specific plays, acts, <em>dan</em> and
-          <em>shōdan</em> are presented in other parts of the website. To
-          support the discovery of intermedia in Noh in a bottom-up view, we
-          offer also under
-          <a href="/elements/" target="_blank">Elements of Noh</a> introductions
-          to individual layers and their building blocks.
-        </p>
-
-        <p>
-          To fully appreciate intermedia workings of Noh it is very helpful to
-          understand its form. Noh’s structure consists of sections
-          (<em>dan</em>) that represent common events of the dramatic
-          development, which in turn are composed of modules (<em>shōdan</em>)
-          of different but standardized function as well. Various forms of
-          poetry, movement, rhythm, melodic shape and instrumentation help
-          articulate these structures. With the
-          <a href="/form/" target="_blank">form of Noh</a> being highly
-          codified, an informed viewer can follow how intermedia articulate
-          these structures, even when listening to a play for the first time. To
-          help our readers orient themselves further and build useful intermedia
-          expectations, we have developed visual representations of each play’s
-          structure using an
-          <a href="/form/#IoI" target="_blank">Index of Intermedia</a> (IoI).
-          Its formula integrates information from multiple media layers into a
-          <a href="/hashitomi" target="_blank">single graph</a>. To ground the
-          viewers’ expectations in a more detailed way, the website offers also
-          intermedia
-          <a href="/hashitomi/ageuta-1/" target="_blank">‘scores’</a> for
-          individual modules (<em>shōdan</em>). They provide notation for the
-          intermedia layers of text, music, and dance. The viewers have the
-          option of shaping their focus by activating in the scores all or any
-          layers that they want to see.
-        </p>
-        <p>
-          The style of performance is also intermedia in nature. Each of the
-          layers is performed with inflections appropriate for a given play,
-          role or circumstance. To bring into focus these styles and their
-          expressive range we use side-by-side comparisons of video examples.
-          One example is the
-          <a href="/music/otsuzumi-kotsuzumi/#strictness" target="_blank"
-            >comparison of rhythmic settings</a
-          >
-          of percussion instruments. These can show even the very subtle
-          differences between distinct modes of singing, dancing or musical
-          accompaniment that are related to particular character or situation.
-          In performing arts in general but in Noh in particular it is not just
-          the “what” but very much the “how” that matters.
-        </p>
-
-        <p>
-          Finally, the idea to present Noh as intermedia required a new kind of
-          publication. We opted for an audiovisual interactive format for two
-          main reasons. Firstly, we considered it imperative that to explain
-          intermedia we must include intermedia examples as audiovisual
-          documentation. On our website, the readers have access to an extensive
-          set of video illustrations with elements of Noh as well as two full
-          plays.
-        </p>
-        <p>
-          Secondly, the interactivity or non-linearity of presentation gives the
-          intermedia material a chance to be explored from multiple angles and
-          with different depth that matches the needs of the reader and leaves
-          more space for their own interpretation. For example, it is possible
-          for a dance-focused reader to start with chapters about traditional
-          <a href="about-movement" target="_blank">movement</a> elements in Noh
-          or by customizing the score of a particular dance <em>shōdan</em> to
-          feature information about its sequence <em>kata</em>. With this
-          information they can then approach a larger intermedia context. We are
-          aware that analysis of intermedia is extremely time consuming. Just to
-          discuss the impact of music, one could address fluctuations in tempo,
-          rhythmic organization, pitch motion and range, styles of delivery and
-          more. Accounting for all expressive dimensions in all media and
-          analyzing the complete network of intermedia relationships is
-          prohibitively complex and perhaps impossible. Interactivity enables
-          therefore exploration of Noh as intermedia in a more intuitive and
-          personal way that fits the experience and interest of the readers.
-        </p>
-
-        <h3 id="noh-as-intermedia">Noh as Intermedia</h3>
+        <h2 id="noh-as-intermedia">Noh as Intermedia</h2>
         <p>
           How Noh is put together as intermedia is intricate, original and
           somewhat of a paradox. Despite significant independence of media
@@ -131,9 +27,9 @@ permalink: /about-intermedia/
           artists that while applying and engaging deeply with ideals of their
           time they created an art that is timeless.
         </p>
-        <h4 id="breath">
+        <h3 id="breath">
           The Breath of Yin and Yang
-        </h4>
+        </h3>
         <p>
           Mostly metaphorically but also literally, ‘breath’ is one of the
           primary unifying elements of Noh. It is the central model for the
@@ -285,9 +181,9 @@ permalink: /about-intermedia/
           them in powerful but subtle way.
         </p>
 
-        <h4 id="fluidity">
+        <h3 id="fluidity">
           Fluidity of Time, Space and Identity
-        </h4>
+        </h3>
         <p>
           Striving for a Yin and Yang equilibrium is also one of the causes that
           all in Noh is always fluid and gradual. The timing of events within
@@ -377,9 +273,9 @@ permalink: /about-intermedia/
           Genji talks about Lady Yūgao establishes the most direct connection.
           It is through intermedia that the richness of the identity is created.
         </p>
-        <h4 id="abstraction">
+        <h3 id="abstraction">
           Engaging Abstraction
-        </h4>
+        </h3>
         <p>
           Intermedia, by immersing all senses can help imitate reality but
           theatrical traditions differ in the level of realism of
@@ -416,9 +312,9 @@ permalink: /about-intermedia/
           synchronicity. When words cease, having done their part, we are left
           with the pure spirit, beautiful and vulnerable to our gaze.
         </p>
-        <h4 id="Kurai">
+        <h3 id="Kurai">
           <em>Kurai</em>
-        </h4>
+        </h3>
 
         <p>
           Noh actors and musicians often use the word <em>kurai</em>, which

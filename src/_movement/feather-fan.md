@@ -17,15 +17,15 @@ second-level-menu-active: movement
     <h2>Feather Fan (<em>hane ōgi</em>)</h2>
 
     <p>
-      The focus of this pattern is a broad sweeping of the extended fan from the
-      right arm out in an arc to the left of the body. Often, the dancer is
+      The focus of this pattern is a broad sweeping of the extended fan in an
+      arc from the right arm to the left of the body. Often, the dancer is
       moving as he performs this pattern.
     </p>
 
     <p>
-      The poetic name of this pattern comes from the fact that flapping of the
-      fan and the swish sound of the sleeves emanating from this movement is
-      reminiscent of a bird’s plumage fluttering in the wind.
+      The poetic name of this pattern comes from the flapping of the fan and the
+      swishing sound of the sleeves, reminiscent of a bird’s plumage fluttering
+      in the wind.
     </p>
   </div>
 

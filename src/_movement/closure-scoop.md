@@ -18,8 +18,14 @@ second-level-menu-active: movement
 
     <p>
       All 'Point' patterns involve raising the right arm and pointing the fan.
-      The different names come from the motion perform by the arm leading to the
-      pointing conclusion.
+      The different names come from the motion performed by the arm leading to
+      the pointing conclusion.
+    </p>
+
+    <p>
+      A variation on the
+      <a href="/movement/scooping-point/" target="_blank">Scooping Point</a>, it
+      always functions as a cadential pattern.
     </p>
   </div>
 

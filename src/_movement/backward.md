@@ -16,7 +16,7 @@ second-level-menu-active: movement
     </h4>
     <h2>Walking backward (<em>sagaru</em>)</h2>
 
-    <p>When moving backward, the toes are lifted as the heel slides back.</p>
+    <p>When moving backward, the toes lift as the heel slides back.</p>
 
     <p>
       The spacio-temporal concept of <em>Jo-ha-kyū</em> forms an important
@@ -26,7 +26,7 @@ second-level-menu-active: movement
       is an undeniable influence of
       <a href="/form/#Intro /" target="_blank"><em>Jo-ha-kyū</em></a
       >. Although subtle in the feminine mode, its effect on the walking rhythm
-      in martial mode is obvious.
+      in martial mode is clear.
     </p>
   </div>
 

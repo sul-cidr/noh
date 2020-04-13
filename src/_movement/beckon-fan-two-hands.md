@@ -17,8 +17,10 @@ second-level-menu-active: movement
     <h2>Beckon Fan with Two Hands (<em>maneki ōgi ryote</em>)</h2>
 
     <p>
-      This pattern is based on a Japanese gesture used to beckon someone. It can
-      also be used to suggest falling rain.
+      This pattern is based on a Japanese gesture used to beckon to someone. It
+      can also be performed with
+      <a href="/movement/beckon-fan-one-hand/" target="_blank">one hand</a>. It
+      is sometimes used to suggest falling rain.
     </p>
   </div>
 

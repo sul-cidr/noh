@@ -18,16 +18,15 @@ second-level-menu-active: movement
 
     <p>
       This is a variation on the
-      <a href="/movement/open-retreat" target="_blank"
-        >Open-retreat pattern (<em>hiraki</em>)</a
+      <a href="/movement/open-retreat">Open-retreat pattern (<em>hiraki</em>)</a
       >. Performed with an opened fan, which is extended out to the right side,
-      then the arms are brought together in front of the body where the fan
-      covers the left hand. As three backing steps are taken, the arms are
-      spread with the right one lifted high.
+      the arms come together in front of the body where the fan covers the left
+      hand. As the dancer takes three steps back, he spreads his arms with the
+      right one lifted high.
     </p>
 
     <p>
-      This pattern is used as a dynamic way to look into the distance, often
+      This pattern is a dynamic way to look into the distance, often at
       something high in the sky like clouds or the moon.
     </p>
   </div>

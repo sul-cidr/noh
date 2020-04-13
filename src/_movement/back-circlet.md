@@ -22,10 +22,10 @@ second-level-menu-active: movement
       <a href="/movement/step-pivot" target="_blank"
         >Right Step pivot (<em>migi kakeru</em>)</a
       >
-      is then concluded with an
+      concludes with an
       <a href="/movement/open-retreat" target="_blank"
         >Open-retreat (<em>hiraki</em>)</a
-      >.It is often used to conclude a
+      >.It is often concludes a
       <a href="/movement/large-circling-l" target="_blank"
         >Left circling (<em>hidari ōmawari</em>)</a
       >.

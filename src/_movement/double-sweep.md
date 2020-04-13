@@ -18,16 +18,16 @@ second-level-menu-active: movement
 
     <p>
       All Point patterns involve raising the right arm and pointing the fan. The
-      different names come from the motion perform by the arm leading to the
-      pointing conclusion.
+      different names come from the motion, in which the performer’s arm leads
+      to the pointing conclusion.
     </p>
 
     <p>
       The Double sweep (<em>sashi wake</em>) combines a left Overhand point, a
-      Left turn, three steps forward and a sweep of the right arm as the left
-      one completes the downward motion of the an Overhand point. In this
-      example it is performed in martial mode, followed by a circling to the
-      right with a fan still in pointing position.
+      Left turn, three steps forward, and a sweep of the right arm as the left
+      one completes the downward motion of the Overhand point. In this example,
+      it is performed in Martial mode, followed by a circling to the right with
+      a fan still in pointing position.
     </p>
   </div>
 

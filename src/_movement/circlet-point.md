@@ -17,10 +17,10 @@ second-level-menu-active: movement
     <h2>Circlet Point (<em>mawari kaeshi</em>)</h2>
 
     <p>
-      This is a forward motion that involves two complete circlets concluded
-      with a
-      <a href="/movement/forward-point" target="_blank">Forward point</a>.It may
-      be performed in various places on the stage.
+      This forward motion involves two complete
+      <a href="/movement/circlet/" target="_blank">Circlets</a> and concludes
+      with a <a href="/movement/forward-point">Forward point</a>. It can be
+      performed in various places on the stage.
     </p>
   </div>
 
