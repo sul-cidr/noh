@@ -95,6 +95,14 @@
   @include seigaiha($beige-light);
 }
 
+.home__website {
+  background-color: $beige-dark;
+  color: $brown;
+  padding: 3rem 0 3rem 0;
+
+  @include seigaiha($beige-dark);
+}
+
 .home__intermedia,
 .home__elements,
 .home__plays {
@@ -133,9 +141,13 @@
 
 .home__intermedia-description {
   color: $brown;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   @include text(xl, "text");
+
+  strong {
+    font-family: $font-text;
+  }
 }
 
 .home__intermedia-list {
@@ -147,6 +159,12 @@
 
     @include text(xl, "text");
   }
+}
+
+.home__website-description {
+  margin-bottom: 0;
+
+  @include text(xl, "text");
 }
 
 .home-button--regular {
