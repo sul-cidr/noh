@@ -7,12 +7,25 @@ time,
     text-decoration: none;
   }
 
-  &::before {
-    font-family: $font-icon;
-    font-size: 70%;
+  &::after {
+    color: rgba($red, 0.8);
     content: $fa-var-forward;
     display: inline-block;
-    color: $brown40;
+    font-family: $font-icon;
+    font-size: 70%;
+    margin-left: 0.125rem;
+    padding-left: 0.1rem;
+  }
+}
+
+.link__popout-window {
+  &::after {
+    color: rgba($red, 1);
+    content: $fa-var-external-link;
+    display: inline-block;
+    font-family: $font-icon;
+    font-size: 70%;
+    margin-left: 0.125rem;
     padding-left: 0.1rem;
   }
 }

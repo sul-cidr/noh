@@ -131,6 +131,7 @@ permalink: /about-intermedia/
           <a
             id="jono1"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/hashitomi/#t=01:05:05,01:05:27&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in the <em>kakari</em> section</a
           >, at the point when the shite is facing front at Square 3, the
@@ -139,6 +140,7 @@ permalink: /about-intermedia/
           <a
             id="jono2"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/hashitomi/#t=01:10:29,01:10:50&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in the first <em>dan</em></a
           >, similar stop and start occurs on Square 2 leading to walking across
@@ -146,6 +148,7 @@ permalink: /about-intermedia/
           <a
             id="jono3"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/hashitomi/#t=01:13:51,01:14:08&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in the second <em>dan</em></a
           >
@@ -376,12 +379,14 @@ permalink: /about-intermedia/
           <a
             id="jono1"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/hashitomi/#t=01:04:21,01:07:46&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in <em>Jonomai</em></a
           >, and from sentence 3 to sentence 8
           <a
             id="jono1"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/kokaji/#t=00:53:29,00:53:51&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in <em>Maibataraki</em></a
           >. As you may see, The two dances are different in tempo, size of
@@ -481,12 +486,14 @@ permalink: /about-intermedia/
           <a
             id="jono1"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/hashitomi/#t=01:04:21,01:07:46&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in <em>Jonomai</em></a
           >, and from sentence 3 to sentence 8
           <a
             id="jono1"
             href="#0"
+            class="link__popout-window"
             onclick="window.open('/popout/kokaji/#t=00:53:29,00:53:51&autoplay&autoclose', 'new', 'width=640,height=360');return false;"
             >in <em>Maibataraki</em></a
           >. As you may see, The two dances are different in tempo, size of
