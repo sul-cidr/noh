@@ -14,11 +14,10 @@ second-level-menu-active: movement
     <h2>Jumps (<em>migi hidari to ashi nuki tobi shita ni i</em>)</h2>
 
     <p>
-      Jumps are usually found in plays about lively gods, demons, or
-      warriors.They can be used merely for the effect, or they may carry
-      referential meaning. In this example the dancer takes two steps in
-      preparation for the jump. This pattern is always performed in martial
-      mode.
+      Jumps usually feature in plays about lively gods, demons, or warriors.
+      They can be used merely for the effect, or they may carry referential
+      meaning. In this example, the dancer takes two steps in preparation for
+      the jump. This pattern is always performed in martial mode.
     </p>
   </div>
 

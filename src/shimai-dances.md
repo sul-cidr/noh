@@ -13,42 +13,41 @@ permalink: /shimai-dances/
 
 <main class="page-content">
   <div class="text-container">
-    <div class="wrapper wrapper--small">
-      <h2 id="Intro">Shimai Dances</h2>
-      <p>
-        Using a jiutai limited to two members, the <em>shimai</em> version of
-        Hashitomi and Kokaji’s <em>Kuse</em> and <em>Kiri</em> are presented
-        from two different angles: front and side. Each dance is followed by our
-        interpretation of its structure, where <em>kata</em> are grouped into
-        segments, and where numbers refer to the stage’s
-        <a href="/staging/stage/#Squares" target="_blank">Squares</a>.
-      </p>
+    <h2 id="Intro">Shimai Dances</h2>
+    <p>
+      Using a jiutai limited to two members, the <em>shimai</em> version of
+      Hashitomi and Kokaji’s <em>Kuse</em> and <em>Kiri</em> are presented from
+      two different angles: front and side. Each dance is followed by our
+      interpretation of its structure, where <em>kata</em> are grouped into
+      segments, and where numbers refer to the stage’s
+      <a href="/staging/stage/#Squares" target="_blank">Squares</a>.
+    </p>
 
-      <p>
-        The shite's lines divide the text into sections, while sections are
-        organized into parts according to the changing topics. Our structuring
-        of the dance into sections matches with the text's. On the other hand,
-        its sub-division into segments is based on <em>kata</em> that are known
-        to be used as closing or opening movements, such as,
-        <a href="/movement/single-stamp/" target="_blank">stamping</a>,
-        <a href="/movement/opening/" target="_blank">opening</a>, closing, and
-        reverse holding of the fan, the sequence <em>kata</em>
-        <a href="/movement/forward-point/" target="_blank">Forward Point</a> and
-        Open retreat, among others. The analysis shows that parts and segments
-        are often slightly out of phase. We speculate that avoiding 'cadencing'
-        text and dance at the same time, might help maintain the dance's flow.
-      </p>
+    <p>
+      The shite's lines divide the text into sections, while sections are
+      organized into parts according to the changing topics. Our structuring of
+      the dance into sections matches with the text's. On the other hand, its
+      sub-division into segments is based on <em>kata</em> that are known to be
+      used as closing or opening movements, such as,
+      <a href="/movement/single-stamp/" target="_blank">stamping</a>,
+      <a href="/movement/opening/" target="_blank">opening</a>, closing, and
+      reverse holding of the fan, the sequence <em>kata</em>
+      <a href="/movement/forward-point/" target="_blank">Forward Point</a> and
+      Open retreat, among others. The analysis shows that parts and segments are
+      often slightly out of phase. We speculate that avoiding 'cadencing' text
+      and dance at the same time, might help maintain the dance's flow.
+    </p>
 
-      <p>
-        Kokaji's <em>Kuse</em> is divided into two parts: The shite sits
-        center-stage during the first part, and dances during the second one.
-        Usually, only the second part is performed when presented as a
-        <em>shimai</em>. We have included both parts to illustrate and stress
-        the point that in a context of little motion, every simple
-        <em>kata</em> carries meaning, may the movement be as simple as a
-        sliding left or right, a head motion, raising on knee, and so on.
-      </p>
-    </div>
+    <p>
+      Kokaji's <em>Kuse</em> is divided into two parts: The shite sits
+      center-stage during the first part, and dances during the second one.
+      Usually, only the second part is performed when presented as a
+      <em>shimai</em>. We have included both parts to illustrate and stress the
+      point that in a context of little motion, every simple
+      <em>kata</em> carries meaning, may the movement be as simple as a sliding
+      left or right, a head motion, raising on knee, and so on.
+    </p>
+
     <div class="tabs-container">
       <div class="tabs-container__links">
         <div class="wrapper">
@@ -59,9 +58,9 @@ permalink: /shimai-dances/
         <div class="wrapper">
           <section id="tab-1" title="Hashitomi-Kuse" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Front_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Side_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Side_Score_sl.mp4"
             %}
             <p><u>Opening sequence</u></p>
             <p>8. Kneeling – Stand-up, Left stamp, Step forward, Right Stamp</p>
@@ -118,9 +117,9 @@ permalink: /shimai-dances/
 
           <section id="tab-2" title="Hashitomi-Kiri" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Front_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Side_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Side_Score_sl.mp4"
             %}
             <table class="content-table" width="200">
               <tr class="content-table__row">
@@ -456,9 +455,9 @@ permalink: /shimai-dances/
 
           <section id="tab-3" title="Kokaji-Kuse" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kuse_Dance_Front_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kuse_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kuse_Dance_Side_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kuse_Dance_Side_Score_sl.mp4"
             %}
 
             <p><u>Sitting part of the dance</u></p>
@@ -523,9 +522,9 @@ permalink: /shimai-dances/
 
           <section id="tab-4" title="Kokaji-Kiri" class="tabbed-narrative">
             {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kiri_Dance_Front_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kiri_Dance_Front_Score_sl.mp4"
             %} {% include video-no-background.html
-            src="http://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji_Kiri_Dance_Side_Score_sl.mp4"
+            src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kiri_Dance_Side_Score_sl.mp4"
             %}
 
             <p><u>Opening sequence</u></p>

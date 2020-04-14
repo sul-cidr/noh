@@ -19,9 +19,9 @@ second-level-menu-active: movement
     <p>
       Right circlets (<em>migi mawarikomi</em>) and left circlets (<em
         >hidari mawarikomi</em
-      >) are made of the combination of pivots and steps, producing a complete
-      circle in a small amount of space, taking the dancer one step ahead his
-      starting position, as clearly shown in the side view video.
+      >) consist of a combination of pivots and steps, producing a complete
+      small circle that take the dancer one step ahead of his starting position,
+      shown in the side view video.
     </p>
   </div>
 

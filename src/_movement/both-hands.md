@@ -14,15 +14,12 @@ second-level-menu-active: movement
     <h2>Weeping with Both Hands (<em>shiori ryote</em>)</h2>
 
     <p>
-      The pattern either symbolizes actual praying or a request that prayers
-      being said for his soul. The pattern appears at moment of intense emotion.
-      It can be performed with the
-      <a href="/movement/l-hand" target="_blank"
-        >Left (<em>shiori hidari</em>)</a
-      >
-      or
-      <a href="/movement/r-hand" target="_blank">Right (<em>shiori migi</em>)</a
-      >, or with Both hands (<em>shiori ryote</em>).
+      The pattern either symbolizes praying or a request for prayers to be said
+      for his soul. The pattern appears in moments of intense emotion. It can be
+      performed with the
+      <a href="/movement/l-hand">Left (<em>shiori hidari</em>)</a> or
+      <a href="/movement/r-hand">Right (<em>shiori migi</em>)</a>, or with both
+      hands (<em>shiori ryote</em>).
     </p>
   </div>
 

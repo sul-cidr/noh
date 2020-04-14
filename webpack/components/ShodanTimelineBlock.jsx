@@ -25,9 +25,6 @@ class ShodanTimelineBlock extends Component {
       (parseInt(this.props.intensity, 10) / this.props.maxIntensity) * 100;
     const durationNum = (this.props.duration / this.props.totalDuration) * 100;
     const pointer = this.props.url ? "pointer" : "";
-    const danClass = this.props.dan.number
-      ? `dan-${this.props.dan.number}`
-      : "";
     const active =
       window.location.pathname === this.props.url
         ? "shodan-map__item--active"
@@ -37,7 +34,7 @@ class ShodanTimelineBlock extends Component {
       : `${this.props.name}`;
     return (
       <div
-        className={`shodan-map__item ${pointer} ${active} ${danClass}`}
+        className={`shodan-map__item ${pointer} ${active} shodan-map__item--${this.props.shodanIndex.number}`}
         style={{
           width: `${durationNum}%`,
           height: `${heightNum}%`

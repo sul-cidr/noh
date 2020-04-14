@@ -20,8 +20,8 @@ second-level-menu-active: movement
       Fan motion helps accentuate arm motion. There are various ways of holding
       the fan, and various motions involving it. The closing of the fan (<em
         >ōgi subomeru</em
-      >) can be performed ceremoniously at the end of a dance, or
-      inconspicuously anytime close to the end of a dance.
+      >) can be performed solemnly at the end of a dance, or inconspicuously
+      anytime close to the end of a dance.
     </p>
   </div>
 
