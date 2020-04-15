@@ -48,6 +48,10 @@
     @include flex-container();
 
     > li {
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+
       &.active {
         .header__main-link {
           border-bottom-color: $white;

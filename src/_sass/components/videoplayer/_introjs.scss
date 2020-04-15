@@ -1,0 +1,72 @@
+.introjs-tooltip {
+}
+.introjs-tooltiptext {
+  color: $brown;
+  font-family: $font-text;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+
+  @include text(sm, "text");
+}
+.introjs-bullets {
+  .active {
+  }
+}
+
+.introjs-progress {
+}
+.introjs-progressbar {
+}
+.introjs-arrow {
+}
+.introjs-tooltipbuttons {
+}
+
+.introjs-button {
+  background-image: none;
+  background-color: $white;
+  border: 0.0625rem solid $green;
+  border-radius: 0.125rem;
+  color: $green;
+  cursor: pointer;
+  font-weight: $fw-semibold;
+  padding: 0.25rem 0.75rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+
+  @include text(xxs);
+  @include uppercase();
+
+  &:hover {
+    background-color: $green08;
+    border: 0.0625rem solid $green;
+    box-shadow: 0 0.125rem 0.25rem $black16;
+  }
+
+  &:active,
+  &:focus {
+    background-image: none;
+  }
+
+  &.introjs-skipbutton {
+  }
+  &.introjs-donebutton {
+  }
+  &.introjs-prevbutton {
+  }
+  &.introjs-nextbutton {
+  }
+
+  &.introjs-disabled {
+    background-color: $brown08;
+    border-color: $green32;
+    color: $green64;
+    cursor: default;
+
+    &:hover {
+      background-color: $brown08;
+      border-color: $green32;
+      box-shadow: none;
+    }
+  }
+}
