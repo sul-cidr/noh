@@ -189,12 +189,20 @@ export default class App extends Component {
                   {this.props.playName}
                 </a>
               </div>
-              <h1>{shodanName}</h1>
+              <h1 data-intro="This link opens a new tab with the Shōdan's associated definition page.">
+                {shodanName}
+              </h1>
             </div>
-            <div className="sidebar__container">
+            <div
+              className="sidebar__container"
+              data-intro="Comments, analysis, Text and the Shōdan Map are located on this container. It is divided in two: ‘Aspects’ introduces basic comments about the shōdan, while “Intermedia’ presents its intermedia analysis."
+            >
               <Narrative narrative={this.props.narrative} />
             </div>
-            <div className="sidebar__extras">
+            <div
+              className="sidebar__extras"
+              data-intro="The Text and Shōdan Map sub-sections can be open or collapsed by clicking on the title or the 'arrow' icon. Moreover, the lines of text are clickable and advance the video and score to their matching position within the shōdan. On the other hand, clicking on a block in the Shōdan Map updates the video to the beginning of the Intermedia analysis of the corresponding shōdan."
+            >
               <div
                 role="presentation"
                 className={`highlighted-text__container ${

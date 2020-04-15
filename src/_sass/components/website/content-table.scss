@@ -66,8 +66,19 @@
   display: none;
 
   ~ label {
+    border: 0.0625rem solid $green;
+    border-radius: 0.125rem;
+    color: $green;
+    cursor: pointer;
     float: right;
+    font-weight: $fw-semibold;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    padding: 0.25rem 0.75rem;
     text-transform: uppercase;
+
+    @include text(xxs);
+    @include uppercase();
 
     &::before {
       content: "show all";
@@ -107,6 +118,7 @@
 }
 
 .content-table__column {
+  color: $brown;
   padding: 0.5rem 1rem;
   vertical-align: top;
 
