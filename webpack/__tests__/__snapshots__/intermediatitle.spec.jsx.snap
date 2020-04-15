@@ -11,6 +11,7 @@ exports[`<IntermediaTitle> renders as expected 1`] = `
   </div>
   <div
     className="intermedia__value"
+    data-intro="Clicking on the red link at the top of the table, leads to its intermedia analysis on the Shōdan Level."
   >
     <a
       href="hashitomi/kiri"

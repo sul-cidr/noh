@@ -1634,27 +1634,6 @@ exports[`<Play> renders as expected 1`] = `
         <div
           className="sidebar__header"
         >
-          <div
-            className="sidebar__back-link"
-          >
-            <a
-              href="/plays"
-              title="Plays"
-            >
-              <svg
-                height="11"
-                viewBox="0 0 7 11"
-                width="7"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.197894737,5.07381279 L5.31236842,0.193127854 C5.55894737,-0.0421917808 5.95894737,-0.0421917808 6.20552632,0.193127854 L6.80210526,0.762465753 C7.04842105,0.997534247 7.04868421,1.37826484 6.80315789,1.61383562 L2.74973684,5.5 L6.80289474,9.38641553 C7.04868421,9.6219863 7.04815789,10.0027169 6.80184211,10.2377854 L6.20526316,10.8071233 C5.95868421,11.0424429 5.55868421,11.0424429 5.31210526,10.8071233 L0.197894737,5.92618721 C-0.0486842105,5.69086758 -0.0486842105,5.30913242 0.197894737,5.07381279 Z"
-                  fill="currentColor"
-                />
-              </svg>
-              Back to plays
-            </a>
-          </div>
           <h1>
             Kokaji
           </h1>
@@ -1910,8 +1889,8 @@ exports[`<Play> renders as expected 1`] = `
                                         className="tabbed-narrative"
                                         id="intro"
                                       >
-
-
+                                        
+  
                                         <Element
                                           attributes={
                                             Object {
@@ -1927,14 +1906,14 @@ exports[`<Play> renders as expected 1`] = `
                                             Title
                                           </h2>
                                         </Element>
-
-
+                                        
+  
                                         <Element
                                           key="2"
                                           tagName="p"
                                         >
                                           <p>
-                                            Lorem ipsum dolor sit amet,
+                                            Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
                                                 Object {
@@ -1955,14 +1934,14 @@ exports[`<Play> renders as expected 1`] = `
                                              adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                           </p>
                                         </Element>
-
-
+                                        
+  
                                         <Element
                                           key="4"
                                           tagName="p"
                                         >
                                           <p>
-                                            Lorem ipsum dolor sit amet,
+                                            Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
                                                 Object {
@@ -1983,8 +1962,8 @@ exports[`<Play> renders as expected 1`] = `
                                              adipisicing elit. Excepteur sint occaecat cupidatat non sproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                           </p>
                                         </Element>
-
-
+                                        
+  
                                         <Element
                                           key="6"
                                           tagName="h3"
@@ -1993,14 +1972,14 @@ exports[`<Play> renders as expected 1`] = `
                                             Subtitle
                                           </h3>
                                         </Element>
-
-
+                                        
+  
                                         <Element
                                           key="7"
                                           tagName="p"
                                         >
                                           <p>
-                                            Lorem ipsum dolor sit amet,
+                                            Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
                                                 Object {
@@ -2021,14 +2000,14 @@ exports[`<Play> renders as expected 1`] = `
                                              adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                           </p>
                                         </Element>
-
-
+                                        
+  
                                         <Element
                                           key="9"
                                           tagName="p"
                                         >
                                           <p>
-                                            Lorem ipsum dolor sit amet,
+                                            Lorem ipsum dolor sit amet, 
                                             <Element
                                               attributes={
                                                 Object {
@@ -2049,7 +2028,7 @@ exports[`<Play> renders as expected 1`] = `
                                              adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                           </p>
                                         </Element>
-
+                                        
 
                                       </section>
                                     </Element>
@@ -2214,6 +2193,7 @@ exports[`<Play> renders as expected 1`] = `
             >
               <div
                 className="shodan-map__container"
+                data-intro="The center of navigation is the Shōdan Map consisting of blocks representing the shōdan’s Index of Intermedia. Clicking on a block moves the video to the beginning of that shōdan. Sliding the button through the video timeline at the bottom of the video screen updates the time position within the map. Both interactions result in updating the corresponding summary info in the bottom right table."
               >
                 <Connect(TimelineIndicator)
                   currentTime={0}
@@ -8647,6 +8627,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="intermedia__value"
+                        data-intro="Clicking on the red link at the top of the table, leads to its intermedia analysis on the Shōdan Level."
                       >
                         <a
                           href="/kokaji/oshirabe/"
