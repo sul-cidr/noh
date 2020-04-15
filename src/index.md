@@ -33,14 +33,13 @@ layout: home
       and theorist, Zeami, linked the plays' success to the cultivation and the
       'coming together' of text, visuals and music. Today, the expressive
       interaction of these three layers might be called
-      <strong><em>intermedia</em></strong
-      >. Whereas the individual artistic elements of Noh have been studied
-      extensively, the interaction between them not nearly as much. This project
-      is intended to contribute to the understanding and appreciation of Noh by
-      narrowing this gap. Grounded in the knowledge of
-      <a href="#Elements">ELEMENTS</a> and an in-depth intermedia analysis of
-      two <a href="#Plays">PLAYS</a> we lead to general conclusions about
-      <a href="/about-intermedia/" target="_blank">NOH AS INTERMEDIA</a>.
+      <strong>intermedia</strong>. Whereas the individual artistic elements of
+      Noh have been studied extensively, the interaction between them not nearly
+      as much. This project is intended to contribute to the understanding and
+      appreciation of Noh by narrowing this gap. Grounded in the knowledge of
+      <a href="#Elements">Elements</a> and an in-depth intermedia analysis of
+      two <a href="#Plays">Plays</a> we lead to general conclusions about
+      <a href="/about-intermedia/" target="_blank">Noh as intermedia</a>.
     </p>
     <p class="home__intermedia-description">
       The authors wish to express deepest gratitude to our
@@ -83,29 +82,29 @@ layout: home
       the use of the Noh stage, masks, costumes and properties." %}
     </div>
   </div>
-
-  <div class="home__plays">
-    <div class="wrapper">
-      <h2 id="Plays" class="home-section__title">Plays</h2>
-      <p class="home__intermedia-description">
-        These pages feature complete recordings and the in-depth interemdia
-        analysis of two contrasting plays.
-      </p>
-      {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
-      {% include home-play.html link=play.url image=play.image title=play.title
-      description=play.description %} {% endunless %} {% endfor %}
-    </div>
+</div>
+<div class="home__plays">
+  <div class="wrapper">
+    <h2 id="Plays" class="home-section__title">Plays</h2>
+    <p class="home__intermedia-description">
+      These pages feature complete recordings and the in-depth interemdia
+      analysis of two contrasting plays.
+    </p>
+    {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
+    {% include home-play.html link=play.url image=play.image title=play.title
+    description=play.description %} {% endunless %} {% endfor %}
   </div>
-  <div class="home__plays">
-    <div class="wrapper">
-      <p class="home__intermedia-description">
-        This website was developed in cooperation with the Japanese Performing
-        Arts Research Consortium
-        <a href="https://jparc.online/"> (JPARC)</a>. We would like to invite
-        our readers to visit also an affiliated website
-        <a href="https://jparc.online/nogaku/">'Nōgaku.' </a>
-      </p>
-    </div>
+</div>
+
+<div class="home__website">
+  <div class="wrapper">
+    <p class="home__website-description">
+      This website was developed in cooperation with the
+      <a href="https://jparc.online/">
+        Japanese Performing Arts Research Consortium</a
+      >. We would like to invite our readers to visit also an affiliated website
+      <a href="https://jparc.online/nogaku/">'Nōgaku.' </a>
+    </p>
   </div>
 </div>
 

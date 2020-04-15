@@ -1,5 +1,5 @@
 .page-content {
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
 
   h1 {
     color: $brown;
@@ -116,8 +116,7 @@
   }
 
   .sidebar-contents {
-    align-items: flex-start;
-    display: flex;
+    @include flex-container($justify: flex-start, $align: flex-start);
   }
 
   .sidebar-contents__table {
@@ -225,6 +224,22 @@ div.scalable {
 
   &.wrapper-large {
     max-width: $wrapper-large;
+  }
+}
+
+.schools {
+  margin-bottom: 2rem;
+
+  @include flex-container($justify: flex-start, $align: flex-start);
+
+  li {
+    background-color: $beige-light;
+    color: $brown;
+    font-family: $font-text;
+    margin-right: 1rem;
+    padding: 0.25rem 0.5rem;
+
+    @include text(md, "text");
   }
 }
 

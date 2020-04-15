@@ -19,32 +19,34 @@ permalink: /text-hashitomi/
       <div class="text-container">
         <h2 id="Hashitomi">Hashitomi Text</h2>
 
-        <p>
-          <em>
-            Author unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or
-            Ninagawa)<br />Kongō School Version<br />Translated by Rebecca Teele
-            Ogamo</em
-          >
-        </p>
+        <table class="content-table">
+          <tr class="content-table__row">
+            <td class="content-table__column" width="25%">
+              <strong>Author</strong>
+            </td>
+            <td class="content-table__column">
+              Unknown (possibly Naitō Saemon, or Naitō Tōzaemon, or Ninagawa)
+            </td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <strong>School Version</strong>
+            </td>
+            <td class="content-table__column">Kongō</td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column"><strong>Translation</strong></td>
+            <td class="content-table__column">Rebecca Teele Ogamo</td>
+          </tr>
+        </table>
+
+        <h3 id="Act1">ACT 1</h3>
 
         <table class="content-table--libretto">
-          <tr class="content-table__row--header">
-            <td id="Act1" class="content-table__column"><h3>ACT 1</h3></td>
-
-            <td class="content-table__column"></td>
-          </tr>
-
-          <tr class="content-table__row">
-            <td class="content-table__column"></td>
-
-            <td class="content-table__column"></td>
-          </tr>
-
           <tr class="content-table__row--header">
             <td id="Waki-enters" class="content-table__column">
               Waki Enters: Nanori
             </td>
-
             <td class="content-table__column"></td>
           </tr>
 
@@ -420,15 +422,11 @@ permalink: /text-hashitomi/
               She disappears in the shadow of the flowers.
             </td>
           </tr>
+        </table>
 
-          <tr class="content-table__row--header">
-            <td id="Aikyogen" class="content-table__column">
-              <h3>Aikyōgen</h3>
-            </td>
+        <h3 id="Aikyogen">AIKYŌGEN</h3>
 
-            <td class="content-table__column"></td>
-          </tr>
-
+        <table class="content-table--libretto">
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Kyōgen:</h5>
@@ -946,19 +944,11 @@ permalink: /text-hashitomi/
               I’ll do as you say.
             </td>
           </tr>
+        </table>
 
-          <tr class="content-table__row--header">
-            <td id="Act2" class="content-table__column"><h3>ACT 2</h3></td>
+        <h3 id="Act2">ACT 2</h3>
 
-            <td class="content-table__column"></td>
-          </tr>
-
-          <tr class="content-table__row">
-            <td class="content-table__column"></td>
-
-            <td class="content-table__column"></td>
-          </tr>
-
+        <table class="content-table--libretto">
           <tr class="content-table__row--header">
             <td id="Waki-waits" class="content-table__column">
               Waki Waits: Kakaru 3

@@ -55,6 +55,9 @@
           font-weight: $fw-semibold;
         }
       }
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
     }
   }
 }
@@ -78,7 +81,6 @@
 }
 
 .dropdown-menu {
-  margin-left: 2rem;
   position: relative;
   padding: 1rem 0.75rem;
 

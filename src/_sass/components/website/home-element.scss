@@ -32,7 +32,7 @@ $card-menu-large-element-size-desktop: 8.75rem;
 
 .home-element__content {
   height: 100%;
-  margin: 2rem;
+  padding: 2rem;
 
   @include flex-container(
     $direction: column,
