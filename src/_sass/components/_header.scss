@@ -75,6 +75,7 @@
   padding: 0.0625rem 0;
   transition: color $transition;
   text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     color: $white;
@@ -85,6 +86,7 @@
 }
 
 .dropdown-menu {
+  cursor: default;
   position: relative;
   padding: 1rem 0.75rem;
 
@@ -102,6 +104,7 @@
 .dropdown-menu__trigger {
   align-items: center;
   display: flex;
+  cursor: default;
 
   @include text(xs);
   @include uppercase();
