@@ -392,7 +392,7 @@ permalink: /about-intermedia/
           Recognizing the proper <em>kurai</em> helps the performers achieve a
           better level of synchronization (or sharing of the yin-yang breath) of
           music and dance. As we may find in the
-          <a href="/form/#ITI2" target="_blank">ITI ranking list</a>, the
+          <a href="/IoI/" target="_blank">IoI ranking list</a>, the
           ‘non-congruent’ rhythm, which does not follow the standard 8-beat
           frame, and flexible drumming, which does not clearly present 8-beat
           strokes, occupy a large part of Noh drama. Also, in the first stage of
