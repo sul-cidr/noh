@@ -14,27 +14,33 @@ permalink: /text-kokaji/
     <aside class="sidebar-contents__table">
       {% include menu-Kokaji.html %}
     </aside>
+
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Hashitomi">Kokaji Text</h2>
 
-        <p>
-          <em
-            >Author unknown<br />Kongō School Version<br />Translated by Rebecca
-            Teele Ogamo</em
-          >
-        </p>
-
-        <table class="content-table--libretto">
-          <tr class="content-table__row--header">
-            <td id="Act1" class="content-table__column"><h3>ACT 1</h3></td>
-            <td class="content-table__column"></td>
+        <table class="content-table">
+          <tr class="content-table__row">
+            <td class="content-table__column" width="25%">
+              <strong>Author</strong>
+            </td>
+            <td class="content-table__column">Unknown</td>
           </tr>
           <tr class="content-table__row">
-            <td class="content-table__column"></td>
-            <td class="content-table__column"></td>
+            <td class="content-table__column">
+              <strong>School Version</strong>
+            </td>
+            <td class="content-table__column">Kongō</td>
           </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column"><strong>Translation</strong></td>
+            <td class="content-table__column">Rebecca Teele Ogamo</td>
+          </tr>
+        </table>
 
+        <h3 id="Act1">ACT 1</h3>
+
+        <table class="content-table--libretto">
           <tr class="content-table__row--header">
             <td id="Waki-enters" class="content-table__column">
               Waki Enters: Nanori
@@ -792,12 +798,11 @@ permalink: /text-kokaji/
               Without a sign of where he went, he vanished.
             </td>
           </tr>
-          <tr class="content-table__row--header">
-            <td id="Aikyogen" class="content-table__column">
-              <h3>Aikyōgen</h3>
-            </td>
-            <td class="content-table__column"></td>
-          </tr>
+        </table>
+
+        <h3 id="Aikyogen">AIKYŌGEN</h3>
+
+        <table class="content-table--libretto">
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Kyōgen:</h5>
@@ -921,15 +926,11 @@ permalink: /text-kokaji/
               On this matter, rest assured.
             </td>
           </tr>
-          <tr class="content-table__row--header">
-            <td id="Act2" class="content-table__column"><h3>ACT 2</h3></td>
-            <td class="content-table__column"></td>
-          </tr>
-          <tr class="content-table__row">
-            <td class="content-table__column"></td>
-            <td class="content-table__column"></td>
-          </tr>
+        </table>
 
+        <h3 id="Act2">ACT 2</h3>
+
+        <table class="content-table--libretto">
           <tr class="content-table__row--header">
             <td id="Waki-waits" class="content-table__column">
               Waki Waits: Notto

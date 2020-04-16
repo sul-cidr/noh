@@ -11,6 +11,11 @@ $card-menu-large-element-size-desktop: 8.75rem;
     padding: 0 1rem;
     position: relative;
 
+    span {
+      padding: 0 0.5rem;
+
+      @include text(xs);
+    }
     &.active {
       .card-menu__element {
         box-shadow: 0 0.375rem 0.75rem $black16;
