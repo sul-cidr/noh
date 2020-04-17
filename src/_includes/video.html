@@ -1,17 +1,29 @@
+<!-- {% comment %} Liquid is bad at boolean algebra -- and prettier makes a mess of these assignments. {% endcomment %}
+{% if include.link and include.link != empty %}{% assign has_link = true %}{% endif %}
+{% if include.title and include.title != empty %}{% assign has_title = true %}{% endif %}
+{% if include.paragraph1 and include.paragraph1 != empty %}{% assign has_paragraph1 = true %}{% endif %}
+{% if include.paragraph2 and include.paragraph2 != empty %}{% assign has_paragraph2 = true %}{% endif %}
+{% if include.paragraph3 and include.paragraph3 != empty %}{% assign has_paragraph3 = true %}{% endif %}-->
 <div class="video-website">
   <div class="video-website__container">
-    {% if include.link %}
-    <a class="video-website__toggle" href="">
-      <strong>{{ include.link }}</strong>
+    {% if has_link or has_title or has_paragraph1 %}
+    <a class="video-website__toggle" href="javascript:void(0)">
+      {% if has_link %}<strong>{{ include.link }}</strong>{% endif %}
       <i class="fas fa-info-circle"></i>
     </a>
     {% endif %}
+
     <div class="video-website__tooltip">
       <div class="video-website__description">
+        {% if has_title %}
         <h6>{{ include.title }}</h6>
+        {% endif %} {% if has_paragraph1 %}
         <p>{{ include.paragraph1 }}</p>
+        {% endif %} {% if has_paragraph2 %}
         <p>{{ include.paragraph2 }}</p>
+        {% endif %} {% if has_paragraph3 %}
         <p>{{ include.paragraph3 }}</p>
+        {% endif %}
       </div>
     </div>
     <video id="player" controls="" controlslist="nodownload">
