@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<TimelineIndicator> renders as expected with interval, currentTime, and is not playing 1`] = `
-<div
-  className="time-indicator-container"
->
+<div>
   <Draggable
     allowAnyClick={false}
     axis="x"
@@ -44,9 +42,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
 `;
 
 exports[`<TimelineIndicator> renders as expected with interval, currentTime, and is playing 1`] = `
-<div
-  className="time-indicator-container"
->
+<div>
   <Draggable
     allowAnyClick={false}
     axis="x"
@@ -87,9 +83,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
 `;
 
 exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and is not playing 1`] = `
-<div
-  className="time-indicator-container"
->
+<div>
   <Draggable
     allowAnyClick={false}
     axis="x"
@@ -130,9 +124,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
 `;
 
 exports[`<TimelineIndicator> renders as expected with no interval, currentTime, and is playing 1`] = `
-<div
-  className="time-indicator-container"
->
+<div>
   <Draggable
     allowAnyClick={false}
     axis="x"
@@ -173,9 +165,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
 `;
 
 exports[`<TimelineIndicator> renders as expected with no interval, initial currentTime, and is not playing 1`] = `
-<div
-  className="time-indicator-container"
->
+<div>
   <Draggable
     allowAnyClick={false}
     axis="x"

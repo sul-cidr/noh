@@ -30,7 +30,7 @@ class ShodanTimeline extends Component {
           name={section.sectionName.value}
           left={`${position}%`}
           maxIntensity={this.props.maxIntensity}
-          intensity={section.intensity.number || "0"}
+          intensity={section.intensity.number}
           duration={duration}
           totalDuration={danDuration}
           dan={section.dan}
@@ -55,7 +55,7 @@ class ShodanTimeline extends Component {
       currentDanBlock.push(section);
     });
 
-    if (currentDanBlock) danBlocks.push(currentDanBlock);
+    danBlocks.push(currentDanBlock);
 
     return danBlocks.map((danBlock, index, array) => {
       const danDuration =
