@@ -71,8 +71,16 @@
     text-decoration: none;
     font-family: $font-display;
 
-    &:hover .shodan__outlink-circlei {
-      color: $red;
+    sup {
+      margin-left: 0.125rem;
+      position: relative;
+      font-family: $font-icon;
+      font-size: 80%;
+      top: 0;
+
+      i {
+        color: rgba($red, 0.8);
+      }
     }
   }
 
@@ -93,6 +101,23 @@
     margin-right: 0.375rem;
     position: relative;
     top: 0.125rem;
+  }
+}
+
+.sidebar__catalog-link {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+
+  @include text(tn);
+  @include uppercase();
+
+  svg {
+    margin-left: 0.375rem;
+    position: relative;
+    top: 0.0625rem;
+    width: 0.625rem;
   }
 }
 
