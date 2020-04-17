@@ -19,17 +19,17 @@ if (secondLevelMenu !== null) {
 
     // Scrolling up
     if (prevScrollPos > currentScrollPos) {
-      if (prevScrollPos - currentScrollPos > 100) {
-        // A jump of this size has been initiated by an anchor or some
-        //  (significant) change to the viewport height -- in this
-        //  case, we want to make sure the menu is stowed away.
-        stickyMenu.classList.remove("visible");
-        prevScrollPos = currentScrollPos;
+      if (Math.abs(prevScrollPos - currentScrollPos < 1)) {
+        // Scrolling to in-page anchor links can produce sub-pixel
+        // "settling" scrolls; ignore these
         return;
       }
       if (currentScrollPos > menuTop) {
         // Slide out floating header if we're not near the page top
-        stickyMenu.classList.add("visible");
+        // and we're not scrolling due to clicking an achor link
+        if (!jumpInProgress) {
+          stickyMenu.classList.add("visible");
+        }
       } else {
         // If we scroll into the page top, let header "dock" normally
         stickyMenu.setAttribute("style", "display: none");
@@ -47,6 +47,7 @@ if (secondLevelMenu !== null) {
       }
     }
     prevScrollPos = currentScrollPos;
+    jumpInProgress = false;
   }
 
   window.addEventListener("scroll", headerShowHide);
