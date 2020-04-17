@@ -2,6 +2,7 @@ import React from "react";
 import { mount } from "enzyme";
 import configureMockStore from "redux-mock-store";
 
+import { convertTimeToSeconds } from "../utils";
 import App from "../section";
 import fixtures from "./__fixtures__/section.json";
 import fixturesNoPhrases from "./__fixtures__/section-no-phrases.json";
@@ -10,6 +11,33 @@ import fixturesFirstAndLast from "./__fixtures__/multiple-sections.json";
 describe("<Section>", () => {
   let wrapper;
   let store;
+
+  [
+    fixtures,
+    fixturesNoPhrases,
+    fixturesFirstAndLast[0],
+    fixturesFirstAndLast[1]
+  ].map(_props => {
+    const props = _props;
+    // if (props.acts) {
+    //   props.acts = props.acts.map(act =>
+    //     Object.assign(act, {
+    //       duration: convertTimeToSeconds(act.duration)
+    //     })
+    //   );
+    // }
+    props.startTime = props.startTime.value || 0;
+    props.endTime = props.endTime.value;
+    props.duration = props.endTime - props.startTime;
+    props.playName = props.play.value;
+    props.title = props.sectionName.value;
+    props.videoUrl = `${props.videoUrl.value}#t=${props.startTime},${props.endTime}`;
+    props.videoDuration = convertTimeToSeconds(props.videoDuration.value);
+    props.captions = props.captions.map((caption, index) =>
+      Object.assign(caption, { phraseID: index.toString() })
+    );
+    return props;
+  });
 
   beforeEach(() => {
     const initialState = {
@@ -52,8 +80,8 @@ describe("<Section>", () => {
   it("highlighted-text/libretto does not toggle if an element other than H3 gets clicked", () => {
     const containerSelector = ".highlighted-text__container";
     expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true); // from previous test
-    const h3 = wrapper.find(`${containerSelector} div`).first();
-    h3.simulate("click");
+    const div = wrapper.find(`${containerSelector} div`).first();
+    div.simulate("click");
     expect(wrapper.find(containerSelector).hasClass("is-open")).toEqual(true);
   });
 
