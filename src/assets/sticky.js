@@ -1,7 +1,7 @@
 // Ensure the current section in the sticky jump menu is highlighted.
 
 const sections = Array.from(
-  document.querySelectorAll(".anchor-menu__element a")
+  document.querySelectorAll(".anchor-menu__element a[href^='#'")
 ).map(({ hash }) => document.querySelector(hash));
 
 const isInViewport = (elem, { top, height } = elem.getBoundingClientRect()) =>
