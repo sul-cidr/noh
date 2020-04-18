@@ -1,4 +1,7 @@
-<!-- {% comment %} Liquid is bad at boolean algebra -- and prettier makes a mess of these assignments. {% endcomment %}
+<!--{% comment %} Liquid is bad at boolean algebra -- and prettier makes a mess of these assignments.
+It's also necessary to reset these variables on every rendering of the template, apparently... {% endcomment %}
+{% assign has_link = false %}{% assign has_title = false %}
+{% assign has_paragraph1 = false %}{% assign has_paragraph2 = false %}{% assign has_paragraph3 = false %}
 {% if include.link and include.link != empty %}{% assign has_link = true %}{% endif %}
 {% if include.title and include.title != empty %}{% assign has_title = true %}{% endif %}
 {% if include.paragraph1 and include.paragraph1 != empty %}{% assign has_paragraph1 = true %}{% endif %}
