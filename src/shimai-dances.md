@@ -121,333 +121,257 @@ permalink: /shimai-dances/
             %} {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Side_Score_sl.mp4"
             %}
-            <table class="content-table" width="200">
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext " width="33%">
-                  Text
-                </td>
-                <td class="content-table__column white greentext" width="33%">
-                  Translation
-                </td>
-                <td class="content-table__column white greentext" width="34%">
-                  Dance
-                </td>
+            <table class="shimai-table">
+              <tr class="shimai-table__row--header">
+                <td class="shimai-table__column" colspan="4">Text</td>
+                <td class="shimai-table__column" colspan="2">Kata</td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">Waka</td>
-                <td class="content-table__column white"></td>
-                <td class="content-table__column white greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--bottom" rowspan="3">
+                  Waka
+                </td>
+                <td class="shimai-table__column with-line--bottom" rowspan="3">
+                  <strong>Shite</strong>
+                </td>
+                <td class="shimai-table__column">Orite Koso</td>
+                <td class="shimai-table__column">If you pick it</td>
+                <td class="shimai-table__column">8. Kneeling with open fan</td>
+                <td class="shimai-table__column with-line--bottom" rowspan="7">
                   Opening sequence
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">Shite:</td>
-                <td class="content-table__column white"></td>
-                <td class="content-table__column white "></td>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">Soraka tomo mime</td>
+                <td class="shimai-table__column">
+                  Then indeed you will know it
+                </td>
+                <td class="shimai-table__column">8. Stand up, Ageha</td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
-                  Orite koso
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--bottom">
+                  Tasokare ni
                 </td>
-                <td class="content-table__column white greentext ">
-                  If you pick it.
+                <td class="shimai-table__column with-line--bottom">
+                  In the twilight
                 </td>
-                <td class="content-table__column white greentext ">
-                  8. Kneeling
-                </td>
+                <td class="shimai-table__column">8. Medium Zigzag</td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
-                  “Sore ka tomo mime”
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--bottom" rowspan="14">
+                  Kiri - Part I
                 </td>
-                <td class="content-table__column white greentext ">
-                  Then, indeed, you will know it,
+                <td class="shimai-table__column" rowspan="4">
+                  <strong>Jiutai</strong>
                 </td>
-                <td class="content-table__column white greentext ">
-                  8. Stand-up, Ageha
-                </td>
+                <td class="shimai-table__column">Honobono mieshi</td>
+                <td class="shimai-table__column">Faintly visible</td>
+                <td class="shimai-table__column with-line--left"></td>
               </tr>
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
-                  “tasokare ni…”
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">Hana no iugao</td>
+                <td class="shimai-table__column">
+                  the flowering 'evening face'
                 </td>
-                <td class="content-table__column white greentext ">
-                  in the twilight…
-                </td>
-                <td class="content-table__column white greentext ">
-                  8. Medium Zigzag
-                </td>
+                <td class="shimai-table__column with-line--left"></td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Kiri – Part I
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">Hana no iugao</td>
+                <td class="shimai-table__column">
+                  the flowering 'evening face'
                 </td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table__column white "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Jiutai:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table__column white "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Honobono mieshi
-                </td>
-                <td class="content-table__column beige greentext ">
-                  Faintly visible
-                </td>
-                <td class="content-table__column white greentext "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Hana no iugao.
-                </td>
-                <td class="content-table__column beige greentext ">
-                  The flowering 'evening face'
-                </td>
-                <td class="content-table__column white greentext "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Hana no iugao.
-                </td>
-                <td class="content-table__column beige greentext ">
-                  The flowering 'evening face'
-                </td>
-                <td class="content-table__column white greentext ">
+                <td class="shimai-table__column with-line--left">
                   9. Scooping point
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Hana no iugao.
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">Hana no iugao</td>
+                <td class="shimai-table__column">
+                  the flowering 'evening face'
                 </td>
-                <td class="content-table__column beige greentext ">
-                  The flowering 'evening face'
-                </td>
-                <td class="content-table__column white greentext ">
+                <td
+                  class="shimai-table__column with-line--bottom with-line--left"
+                >
                   9. Open retreat
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext"></td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table__column beige greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column"><strong>Shite</strong></td>
+                <td class="shimai-table__column">
+                  Tsui no yadori wa shirase mo-ōshitsu.
+                </td>
+                <td class="shimai-table__column">
+                  “As my final home I have shown you
+                </td>
+                <td class="shimai-table__column">9. Stand facing front</td>
+                <td class="shimai-table__column with-line--bottom" rowspan="10">
                   1st segment
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Shite:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table__column beige "></td>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column"><strong>Jiutai</strong></td>
+                <td class="shimai-table__column">Tsune ni wa tomurai.</td>
+                <td class="shimai-table__column">Always pray for me</td>
+                <td class="shimai-table__column">9. Left Simple pivot</td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Tsui no yadori wa
-                </td>
-                <td class="content-table__column beige greentext">
-                  “As my final home
-                </td>
-                <td class="content-table_column beige greentext">
-                  9. Standing facing front
-                </td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  shirase mo-ōshitsu.
-                </td>
-                <td class="content-table__column beige greentext">
-                  have shown you
-                </td>
-                <td class="content-table_column beige "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Jiutai:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table_column beige "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Tsune ni wa tomurai.
-                </td>
-                <td class="content-table__column beige greentext">
-                  Always pray for me
-                </td>
-                <td class="content-table_column beige greentext">
-                  9. L. Simple pivot
-                </td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Shite:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table_column beige "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
-                  Owashimase to.
-                </td>
-                <td class="content-table__column beige greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column"><strong>Shite</strong></td>
+                <td class="shimai-table__column">Owashimase to.</td>
+                <td class="shimai-table__column">
                   I beg of you,” she said, and
                 </td>
-                <td class="content-table_column beige greentext">
-                  9. Facing left, <br />R. Simple pivot facing front
+                <td class="shimai-table__column">9. Facing left</td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column" rowspan="3">
+                  <strong>Jiutai</strong>
                 </td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Jiutai:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table_column beige "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
+                <td class="shimai-table__column" rowspan="3">
                   Iuzuke no tori no ne,
                 </td>
-                <td class="content-table__column beige greentext">
+                <td class="shimai-table__column" rowspan="3">
                   As she spoke the crowing of the cocks,
                 </td>
-                <td class="content-table_column beige greentext">
-                  9. Six Steps towards 4.<br />4. R. Step pivot, facing right<br />Two
-                  Steps forward
+                <td class="shimai-table__column">
+                  9. Right Simple pivot, facing front
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Shite:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table_column beige "></td>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">9. Six steps towards 4.</td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">
+                  4. Right step pivot, facing right
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--bottom" rowspan="4">
+                  <strong>Shite</strong>
+                </td>
+                <td class="shimai-table__column" rowspan="3">
                   kane mo shikiri ni.
                 </td>
-                <td class="content-table__column beige greentext">
+                <td class="shimai-table__column" rowspan="3">
                   the tolling of the bells, too,
                 </td>
-                <td class="content-table_column beige greentext">
-                  4. Left Circlet, facing left<br />Forward point
+                <td class="shimai-table__column">4. Two steps forward</td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">
+                  4. Left Circlet, facing left
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">4. Forward pointing</td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--bottom">
                   Tsuge wataru shinonome.
                 </td>
-                <td class="content-table__column beige greentext">
+                <td class="shimai-table__column with-line--bottom">
                   announce the coming of dawn.
                 </td>
-                <td class="content-table_column beige greentext">
+                <td class="shimai-table__column with-line--bottom">
                   4. Cloud fan
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column beige greentext">Jiutai:</td>
-                <td class="content-table__column beige "></td>
-                <td class="content-table_column beige "></td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">Part II</td>
-                <td class="content-table__column white "></td>
-                <td class="content-table__column white greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column" rowspan="13">
+                  Kiri - Part II
+                </td>
+                <td class="shimai-table__column" rowspan="13">
+                  <strong>Jiutai</strong>
+                </td>
+                <td class="shimai-table__column">Asama nimo narinubeshi.</td>
+                <td class="shimai-table__column">
+                  As nothing will be hidden in the morning light,
+                </td>
+                <td class="shimai-table__column">
+                  4. Right step pivot, Right Circle to 9.
+                </td>
+                <td class="shimai-table__column with-line--bottom" rowspan="5">
                   2nd segment
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
-                  Asama nimo narinubeshi.
-                </td>
-                <td class="content-table__column white greentext">
-                  As nothing will be hidden in the morning light,
-                </td>
-                <td class="content-table_column white greentext">
-                  4. Right Step pivot<br />Right Circle to 9.
-                </td>
-              </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column" rowspan="2">
                   Akenu saki ni to Iugao no yadori.
                 </td>
-                <td class="content-table__column white greentext">
+                <td class="shimai-table__column" rowspan="2">
                   “Before dawn breaks, to the dwelling of the 'evening face',
                 </td>
-                <td class="content-table_column white greentext">
-                  9. Right Step pivot<br />
-                  Go to 3.<br />
-                  3. Take the corner<br />
-                  3. Left Circle to 5.
+                <td class="shimai-table__column">
+                  9. Right Step pivot, Go to 3.
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column">
+                  3. Take the corner, Large Circle
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column" rowspan="2">
                   Akenu saki ni to Iugao no yadori no.
                 </td>
-                <td class="content-table__column white greentext">
+                <td class="shimai-table__column" rowspan="2">
                   before dawn breaks, to the dwelling of the 'evening face'",
                 </td>
-                <td class="content-table_column white greentext">
-                  5. Forward point towards the back<br />
-                  Open retreat
+                <td class="shimai-table__column">
+                  5. Forward point towards the back
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white "></td>
-                <td class="content-table__column white "></td>
-                <td class="content-table__column beige greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--bottom">
+                  5. Open retreat
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column" rowspan="4">
+                  Mata hashitomi no uchi ni irite,
+                </td>
+                <td class="shimai-table__column" rowspan="4">
+                  she says, and again goes within the lattice shutter,
+                </td>
+                <td class="shimai-table__column with-line--left">
+                  5. Go to 9.
+                </td>
+                <td class="shimai-table__column" rowspan="8">
                   Closing sequence
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
-                  Mata hashitomi no uchi ni irite,
-                </td>
-                <td class="content-table__column white greentext">
-                  she says, and again goes within the lattice shutter,
-                </td>
-                <td class="content-table_column beige greentext">
-                  5. Go to 9.<br />9. Right Simple pivot<br />Go to 8.<br />8.
-                  Fan to the left hand
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--left">
+                  9. Right Simple pivot, Go to 8.
                 </td>
               </tr>
-
-              <tr class="content-table__row">
-                <td class="content-table__column white greentext">
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--left">
+                  8. Fan to the left hand
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--left">
+                  8. Circlet facing right
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column" rowspan="3">
                   sono mama yume to zo nari ni keru.
                 </td>
-                <td class="content-table__column white greentext">
+                <td class="shimai-table__column" rowspan="3">
                   just so, becoming one with the dream.
                 </td>
-                <td class="content-table_column beige greentext">
-                  8.Circlet facing right<br />8. Pillow fan<br />Go to 8.<br />8.
-                  Fan to the left hand<br />
-                  Renesting the fan<br />Closure loop<br />Kneeling
+                <td class="shimai-table__column with-line--left">
+                  8. Pillow fan
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--left">
+                  8. Renesting the fan
+                </td>
+              </tr>
+              <tr class="shimai-table__row">
+                <td class="shimai-table__column with-line--left">
+                  8. Closure scoop, Kneeling
                 </td>
               </tr>
             </table>

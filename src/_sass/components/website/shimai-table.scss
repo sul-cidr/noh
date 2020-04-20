@@ -1,0 +1,79 @@
+$shimai-dark-border: 0.0625rem solid $brown;
+$shimai-header-border: 0.0625rem solid rgba($brown, 0.5);
+.shimai-table {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  width: 100%;
+  @include wrapper();
+}
+
+.shimai-table__row {
+}
+
+.shimai-table__column {
+  background-color: $white;
+  border-right: $border;
+  border-bottom: $border;
+  color: $brown;
+  padding: 0.5rem;
+  vertical-align: top;
+
+  @include text(xs, "text");
+
+  p {
+    @include text(xs, "text");
+  }
+
+  &.greentext {
+    color: $green;
+    font-weight: $fw-semibold;
+    @include text(xxs);
+    @include uppercase();
+  }
+
+  &.beige {
+    background-color: rgba($beige-light, 1);
+  }
+  &.beige-dark {
+    background-color: rgba($beige-dark, 0.6);
+  }
+  &.green {
+    background-color: rgba($green, 0.1);
+  }
+  &.red {
+    background-color: rgba($red, 0.1);
+  }
+  &.white {
+    background-color: $white;
+  }
+}
+
+.shimai-table__row--header {
+  .shimai-table__column {
+    background-color: $beige-dark;
+    border-bottom: $shimai-header-border;
+    border-right: $shimai-header-border;
+    border-top: $shimai-header-border;
+    color: $green;
+    font-weight: $fw-bold;
+    text-align: center;
+    vertical-align: middle;
+
+    @include text(xxs);
+    @include uppercase();
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.with-line--bottom {
+  border-bottom: $shimai-dark-border;
+}
+.with-line--left {
+  border-left: $shimai-dark-border;
+}
+.with-line--right {
+  border-right: $shimai-dark-border;
+}
