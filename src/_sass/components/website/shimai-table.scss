@@ -1,5 +1,5 @@
 $shimai-dark-border: 0.0625rem solid $brown;
-$shimai-header-border: 0.0625rem solid rgba($brown, 0.5);
+$shimai-header-border: 0.0625rem solid $beige-dark;
 .shimai-table {
   margin-bottom: 4rem;
   margin-top: 4rem;
@@ -66,14 +66,4 @@ $shimai-header-border: 0.0625rem solid rgba($brown, 0.5);
       border-right: none;
     }
   }
-}
-
-.with-line--bottom {
-  border-bottom: $shimai-dark-border;
-}
-.with-line--left {
-  border-left: $shimai-dark-border;
-}
-.with-line--right {
-  border-right: $shimai-dark-border;
 }
