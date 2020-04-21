@@ -2193,7 +2193,7 @@ exports[`<Play> renders as expected 1`] = `
             >
               <div
                 className="shodan-map__container"
-                data-intro="The center of navigation is the Shōdan Map consisting of blocks representing the shōdan’s Index of Intermedia. Clicking on a block moves the video to the beginning of that shōdan. Sliding the button through the video timeline at the bottom of the video screen updates the time position within the map. Both interactions result in updating the corresponding summary info in the bottom right table."
+                id="stepPlayShodanMap"
               >
                 <Connect(TimelineIndicator)
                   currentTime={0}
@@ -8627,7 +8627,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="intermedia__value"
-                        data-intro="Clicking on the red link at the top of the table, leads to its intermedia analysis on the Shōdan Level."
+                        id="stepPlayShodanLink"
                       >
                         <a
                           href="/kokaji/oshirabe/"
