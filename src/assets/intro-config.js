@@ -1,3 +1,4 @@
+/* global introJs */
 const playSteps = {
   steps: [
     {
@@ -20,7 +21,7 @@ const playSteps = {
   ]
 };
 
-const shodanSteps = {
+const sectionSteps = {
   steps: [
     {
       element: "#stepShodanNarrative",
@@ -54,7 +55,12 @@ const shodanSteps = {
   ]
 };
 
-function startIntro(steps) {
-  var intro = introJs();
-  intro.setOptions(steps).start();
-}
+window.startIntroPlay = function startIntroPlay() {
+  const intro = introJs();
+  intro.setOptions(playSteps).start();
+};
+
+window.startIntroSection = function startIntroSection() {
+  const intro = introJs();
+  intro.setOptions(sectionSteps).start();
+};
