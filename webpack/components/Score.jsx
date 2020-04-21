@@ -172,10 +172,7 @@ class Score extends Component {
       ? this.createPhrase(this.state.nextPhrase, "next")
       : "";
     return (
-      <div
-        className="score"
-        data-intro="An intermedia score can be found under the video."
-      >
+      <div className="score" id="stepShodanScore">
         {previous}
         {current}
         {next}

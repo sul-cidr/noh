@@ -202,16 +202,10 @@ export default class App extends Component {
               <h1>{this.props.title}</h1>
               {shodanLink}
             </div>
-            <div
-              className="sidebar__container"
-              data-intro="Comments, analysis, Text and the Shōdan Map are located on this container. It is divided in two: ‘Aspects’ introduces basic comments about the shōdan, while “Intermedia’ presents its intermedia analysis."
-            >
+            <div className="sidebar__container" id="stepShodanNarrative">
               <Narrative narrative={this.props.narrative} />
             </div>
-            <div
-              className="sidebar__extras"
-              data-intro="The Text and Shōdan Map sub-sections can be open or collapsed by clicking on the title or the 'arrow' icon. Moreover, the lines of text are clickable and advance the video and score to their matching position within the shōdan. On the other hand, clicking on a block in the Shōdan Map updates the video to the beginning of the Intermedia analysis of the corresponding shōdan."
-            >
+            <div className="sidebar__extras">
               <div
                 role="presentation"
                 className={`highlighted-text__container ${
@@ -228,6 +222,7 @@ export default class App extends Component {
                   className={`sidebar__collapsable-title sidebar__collapsable-title--libretto ${
                     this.props.captions.length ? "" : "disabled"
                   }`}
+                  id="stepShodanLibretto"
                 >
                   <h3>{toggle} Text</h3>
                 </div>
@@ -246,7 +241,10 @@ export default class App extends Component {
                 }
                 onKeyPress={null}
               >
-                <div className="sidebar__collapsable-title sidebar__collapsable-title--map">
+                <div
+                  className="sidebar__collapsable-title sidebar__collapsable-title--map"
+                  id="stepShodanShodanMap"
+                >
                   <h3>{toggle} Shōdan map</h3>
                   <ShodanTimeline
                     mode="url"
