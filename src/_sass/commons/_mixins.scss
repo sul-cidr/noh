@@ -30,24 +30,16 @@
 
 @mixin tooltip($type: "shodan") {
   @if $type == "dan" {
-    &::before,
-    &::after {
-      z-index: 15;
-    }
-
     &::before {
-      background-color: $brown;
-      color: $beige-light;
+      background-color: $beige-dark;
+      color: $brown;
+      box-shadow: 0 0.375rem 0.75rem $black16;
     }
 
     &::after {
-      border-color: $brown transparent transparent transparent;
+      border-color: $beige-dark transparent transparent transparent;
     }
   } @else if $type == "shodan" {
-    &::before,
-    &::after {
-      z-index: 20;
-    }
     &::before {
       background-color: $brown;
       color: $beige-light;
@@ -57,21 +49,20 @@
       border-color: $brown transparent transparent transparent;
     }
   }
-
   &::before,
   &::after {
     display: none;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
+    z-index: 20;
   }
 
   &::before {
-    box-shadow: 0 0.375rem 0.75rem $black16;
     border-radius: 0.125rem;
     content: attr(data-tooltip);
-    padding: 0.25rem 0.5rem;
-    top: -2.625rem;
+    padding: 0.375rem 0.5rem;
+    top: -2.875rem;
     white-space: nowrap;
 
     @include text(xs);
