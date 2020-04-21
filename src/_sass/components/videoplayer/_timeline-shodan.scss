@@ -98,7 +98,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
   position: relative;
   text-align: center;
 
-  @include separator();
+  @include tooltip($type: "dan");
 
   &.dan-1 {
     @include highlight($dan-1, $alpha, $alpha-hover);
@@ -132,6 +132,13 @@ $shodan-bg-color-active: rgba($red, 0.6);
           background-color: $white;
         }
       }
+    }
+  }
+
+  &.dan-no-tooltip {
+    &::before,
+    &::after {
+      content: none;
     }
   }
 
@@ -191,7 +198,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
     }
   }
 
-  @include tooltip-center();
+  @include tooltip($type: "shodan");
 
   &.pointer {
     cursor: pointer;
@@ -230,6 +237,13 @@ $shodan-bg-color-active: rgba($red, 0.6);
     .act-map {
       display: flex;
       height: 2rem;
+    }
+
+    .dan-no-tooltip {
+      &::before,
+      &::after {
+        content: none;
+      }
     }
   }
 
