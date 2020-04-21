@@ -30,16 +30,16 @@ layout: home
     <h1 class="home-section__title">Why Noh and Intermedia</h1>
     <p class="home__intermedia-description">
       Six centuries ago, the co-creator of Noh Theater, its greatest playwright
-      and theorist, Zeami, linked the plays' success to the cultivation and the
+      and theorist, Zeami, linked plays' success to the cultivation and the
       'coming together' of text, visuals and music. Today, the expressive
       interaction of these three layers might be called
       <strong>intermedia</strong>. Whereas the individual artistic elements of
       Noh have been studied extensively, the interaction between them not nearly
       as much. This project is intended to contribute to the understanding and
-      appreciation of Noh by narrowing this gap. Grounded in the knowledge of
-      <a href="#Elements">Elements</a> and an in-depth intermedia analysis of
-      two <a href="#Plays">Plays</a> we lead to general conclusions about
-      <a href="/about-intermedia/" target="_blank">Noh as intermedia</a>.
+      appreciation of Noh by narrowing this gap. It offers introductions to
+      <a href="#Elements">Elements</a> of Noh and an in-depth intermedia
+      analysis of two <a href="#Plays">Plays</a> that lead to general discussion
+      about <a href="/about-intermedia/" target="_blank">Noh as intermedia</a>.
     </p>
     <p class="home__intermedia-description">
       The authors wish to express deepest gratitude to our

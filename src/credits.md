@@ -19,9 +19,9 @@ permalink: /credits/
         <strong>François Rose</strong>, Stanford University
       </p>
       <p>
-        The project is a cooperation of Research Center for Japanese Traditional
-        Music at Kyoto City University of Arts and Department of Music at
-        Stanford University
+        The project is a cooperation of the Research Center for Japanese
+        Traditional Music at Kyoto City University of Arts and the Department of
+        Music at Stanford University with the Kongō School of Noh.
       </p>
 
       <h4>Principal Contributors and Advisors</h4>
@@ -32,7 +32,7 @@ permalink: /credits/
         <strong>Monica Bethe</strong>, Otani University, Kyoto<br />
         <strong>Diego Pellecchia</strong>, Kyoto Sangyo University<br />
         <strong>Rebecca Teele Ogamo</strong>, Kongō School<br />
-        <strong>AKAMA Ryo</strong>, Ritsumeikan University, Art Research Center.
+        <strong>AKAMA Ryo</strong>, Ritsumeikan University, Art Research Center,
         Kyoto
       </p>
       <h4>Website Development and Design</h4>
