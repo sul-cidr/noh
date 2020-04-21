@@ -2,7 +2,7 @@ import axios from "axios";
 import { convertTimeToSeconds } from "./utils";
 
 export function getPlay(playName, callback, error) {
-  error = error || console.error; // eslint-disable-line no-param-reassign
+  error = error || console.error; // eslint-disable-line no-param-reassign,no-console
   axios
     .get(`/data/${playName}.json`)
     .then(res => {
@@ -28,7 +28,7 @@ export function getPlay(playName, callback, error) {
 }
 
 export function getSection(playName, sectionName, callback, error) {
-  error = error || console.error; // eslint-disable-line no-param-reassign
+  error = error || console.error; // eslint-disable-line no-param-reassign,no-console
   axios
     .get(`/data/${playName}/${sectionName}.json`)
     .then(sectionResponse => {

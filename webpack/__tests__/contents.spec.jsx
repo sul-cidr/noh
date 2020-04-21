@@ -142,6 +142,7 @@ describe("contents fetcher", () => {
         { intensity: { number: 10 } },
         { intensity: { number: null } }
       ],
+      acts: [{ duration: "00:01:00" }],
       maxIntensity: 10,
       tracks: [{}, {}]
     };
@@ -171,6 +172,7 @@ describe("contents fetcher", () => {
           { intensity: { number: null } }
         ],
         tracks: [{}, {}],
+        acts: [{ duration: 60 }],
         maxIntensity: 10
       });
     });

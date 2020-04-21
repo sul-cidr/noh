@@ -76,6 +76,7 @@ function attachFilters() {
         });
         // Avoid jump scrolling down to last (often invisible) card, while
         // ensuring the top row of cards isn't obscured by the sticky header
+        jumpInProgress = true;
         document.getElementById("catalog").scrollIntoView();
       },
       false

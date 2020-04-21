@@ -34,7 +34,7 @@ second-level-menu-active: movement
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section id="tab-1" title="Right (front)" class="tabbed-narrative">
+        <section id="tab-1" title="Right (front)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Atama_grabbing_the_forelock.mp4"
           %}

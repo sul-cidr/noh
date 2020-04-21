@@ -107,20 +107,12 @@ third-level-menu-active: otsuzumi
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section
-                id="Strict_setting"
-                title="Strict setting"
-                class="tabbed-narrative"
-              >
+              <section id="Strict_setting" title="Strict setting">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
                 %}
               </section>
-              <section
-                id="Flexible_setting"
-                title="Flexible setting"
-                class="tabbed-narrative"
-              >
+              <section id="Flexible_setting" title="Flexible setting">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
                 %}
@@ -168,20 +160,12 @@ third-level-menu-active: otsuzumi
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section
-                id="Mitusji_strict"
-                title="Mitsuji strict"
-                class="tabbed-narrative"
-              >
+              <section id="Mitusji_strict" title="Mitsuji strict">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Strict.mp4"
                 %}
               </section>
-              <section
-                id="Mitusji_flexible"
-                title="Mitusji flexible"
-                class="tabbed-narrative"
-              >
+              <section id="Mitusji_flexible" title="Mitusji flexible">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/PercDuo-O_koai_K_mitsuji_Flexible.mp4"
                 %}
@@ -206,20 +190,12 @@ third-level-menu-active: otsuzumi
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section
-                id="Tsuzuke_strict"
-                title="Tsuzuke strict"
-                class="tabbed-narrative"
-              >
+              <section id="Tsuzuke_strict" title="Tsuzuke strict">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Strict.mp4"
                 %}
               </section>
-              <section
-                id="Tsuzuke_flexible"
-                title="Tsuzuke flexible"
-                class="tabbed-narrative"
-              >
+              <section id="Tsuzuke_flexible" title="Tsuzuke flexible">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/PercDuo-O_warutsuzuke_K_tsuzuke_Flexible.mp4"
                 %}
@@ -287,20 +263,12 @@ third-level-menu-active: otsuzumi
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section
-                id="Ashirai_strict"
-                title="Ashirai strict"
-                class="tabbed-narrative"
-              >
+              <section id="Ashirai_strict" title="Ashirai strict">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/PercDuo-Ashirai-Strict.mp4"
                 %}
               </section>
-              <section
-                id="Ashirai_flexible"
-                title="Ashirai flexible"
-                class="tabbed-narrative"
-              >
+              <section id="Ashirai_flexible" title="Ashirai flexible">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/PercDuo-Ashirai-Flexible.mp4"
                 %}

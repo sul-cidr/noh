@@ -3,9 +3,11 @@
 exports[`<ScoreControls> renders as expected by default 1`] = `
 <div
   className="score-controls"
+  data-intro="The bar offers two methods of navigating within a shōdan"
 >
   <div
     className="sentence-control"
+    data-intro="Clicking on either the backward or forward buttons around ‘Sentence’ updates the video and score by increments of sentences. "
   >
     <button
       className="sentence-control__prev"
@@ -44,6 +46,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
   </div>
   <div
     className="score-controls__time"
+    data-intro="Or scrolling this slider for increments in seconds."
   >
     <div
       className="score-controls__elapsed-time"
@@ -66,6 +69,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
   </div>
   <div
     className="score-controls__filters"
+    data-intro="Users can control the layers displayed in the intermedia score."
   >
     <button
       className="score-controls__filters-button"
@@ -257,9 +261,11 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
 exports[`<ScoreControls> renders as expected by default at the end of the duration time 1`] = `
 <div
   className="score-controls"
+  data-intro="The bar offers two methods of navigating within a shōdan"
 >
   <div
     className="sentence-control"
+    data-intro="Clicking on either the backward or forward buttons around ‘Sentence’ updates the video and score by increments of sentences. "
   >
     <button
       className="sentence-control__prev"
@@ -298,6 +304,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
   </div>
   <div
     className="score-controls__time"
+    data-intro="Or scrolling this slider for increments in seconds."
   >
     <div
       className="score-controls__elapsed-time"
@@ -320,6 +327,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
   </div>
   <div
     className="score-controls__filters"
+    data-intro="Users can control the layers displayed in the intermedia score."
   >
     <button
       className="score-controls__filters-button"
@@ -2299,9 +2307,11 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
     >
       <div
         className="score-controls"
+        data-intro="The bar offers two methods of navigating within a shōdan"
       >
         <div
           className="sentence-control"
+          data-intro="Clicking on either the backward or forward buttons around ‘Sentence’ updates the video and score by increments of sentences. "
         >
           <button
             className="sentence-control__prev"
@@ -2340,6 +2350,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         </div>
         <div
           className="score-controls__time"
+          data-intro="Or scrolling this slider for increments in seconds."
         >
           <div
             className="score-controls__elapsed-time"
@@ -2391,6 +2402,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         </div>
         <div
           className="score-controls__filters"
+          data-intro="Users can control the layers displayed in the intermedia score."
         >
           <button
             className="score-controls__filters-button"

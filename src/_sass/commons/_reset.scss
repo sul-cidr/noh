@@ -62,12 +62,7 @@ q:after {
 sup {
   margin-left: 0.125rem;
   position: relative;
-  font-family: $font-icon;
-  font-size: 80%;
-
-  i {
-    color: rgba($red, 0.8);
-  }
+  top: -0.5rem;
 }
 
 table {

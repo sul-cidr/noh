@@ -8,9 +8,12 @@
       "value": "Oshirabe"
     },
     "sectionUrl": "/kokaji/oshirabe/",
-    "startTime": 1193,
-    "duration": 553,
-    "endTime": 1746,
+    "startTime": {
+      "value": 1193
+    },
+    "endTime": {
+      "value": 1746
+    },
     "intensity": {
       "number": "18"
     },
@@ -40,13 +43,47 @@
       "value": "Dance to text/Martial mode"
     },
     "videoUrl": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746",
-    "videoDuration": 3693,
+    "videoDuration": {
+      "value": "01:01:33"
+    },
     "phrases": [],
     "captions": [],
     "narrative": "<section id='intro' title='Introduction' class='tabbed-narrative'>\n    <p>\n    Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.\n    </p>\n</section>\n<br />\n<section id='part1' title='Part I' class='tabbed-narrative'>\n    <p>\n    Part I. Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n    </p>\n</section>\n<br   />\n<section id=\"part2\" title=\"Part II\" class=\"tabbed-narrative\">\n    <p>\n    Part II. Lorem ipsum dolor sit amet, <time datetime='00:00:30.303' title='00:12:98.987'>consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n    </p>\n</section>\n",
     "playName": "Kokaji",
     "singingStyle": "Sung - Tsuyogin",
     "title": "Oshirabe",
+    "acts": [
+      {
+        "translation": "Intro.",
+        "transcription": "",
+        "duration": "00:03:56",
+        "shodanIndices": [1, 2]
+      },
+      {
+        "translation": "Act I",
+        "transcription": "Mae ba",
+        "duration": "00:30:54",
+        "shodanIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+      },
+      {
+        "translation": "Interlude",
+        "transcription": "",
+        "duration": "00:10:23",
+        "shodanIndices": [16, 17]
+      },
+      {
+        "translation": "Act II",
+        "transcription": "Nochi ba",
+        "duration": "00:13:42",
+        "shodanIndices": [18, 19, 20, 21, 22, 23, 24, 25]
+      },
+      {
+        "translation": "Exit",
+        "transcription": "",
+        "duration": "00:02:37",
+        "shodanIndices": [26]
+      }
+    ],
     "sections": [
       {
         "play": {
@@ -55,12 +92,13 @@
         "sectionName": {
           "value": "Oshirabe"
         },
-        "sectionUrl": "/kokaji/oshirabe/",
         "startTime": {},
         "endTime": {
           "value": 105
         },
-        "intensity": {},
+        "intensity": {
+          "number": "6"
+        },
         "numberVoices": {
           "number": "1"
         },
@@ -68,10 +106,10 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Non congruent"
+          "value": "Unmetered"
         },
         "nokhanPresent": {
           "present": "Yes",
@@ -80,8 +118,19 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "oshirabe"
+        },
+        "dan": {
+          "number": "7"
+        },
+        "shodanIndex": {
+          "number": "1"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/oshirabe/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -97,14 +146,15 @@
         "sectionName": {
           "value": "Musicians walk in"
         },
-        "sectionUrl": "/kokaji/musicians-walk-in/",
         "startTime": {
           "value": 106
         },
         "endTime": {
-          "value": 235
+          "value": 234
         },
-        "intensity": {},
+        "intensity": {
+          "number": "0"
+        },
         "numberVoices": {},
         "voice": {},
         "text": {},
@@ -112,8 +162,17 @@
         "percussion": {},
         "nokhanPresent": {},
         "dancePresent": {},
+        "shodanType": {},
+        "dan": {
+          "number": "8"
+        },
+        "shodanIndex": {
+          "number": "2"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/musicians-walk-in/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -129,25 +188,24 @@
         "sectionName": {
           "value": "Nanori"
         },
-        "sectionUrl": "/kokaji/nanori/",
         "startTime": {
-          "value": 236
+          "value": 235
         },
         "endTime": {
-          "value": 315
+          "value": 314
         },
         "intensity": {
           "number": "3"
         },
         "numberVoices": {
           "number": "1",
-          "value": "Waki tsure"
+          "value": "Wakizure"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -159,8 +217,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "nanori"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "3"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/nanori/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -176,25 +246,24 @@
         "sectionName": {
           "value": "Mondō-1"
         },
-        "sectionUrl": "/kokaji/mondo-1/",
         "startTime": {
-          "value": 316
+          "value": 315
         },
         "endTime": {
-          "value": 522
+          "value": 521
         },
         "intensity": {
           "number": "4"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki tsure & waki"
+          "value": "Wakizure, waki"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -206,8 +275,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "mondo"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "4"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/mondo-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -223,42 +304,53 @@
         "sectionName": {
           "value": "Ageuta-1"
         },
-        "sectionUrl": "/kokaji/ageuta-1/",
         "startTime": {
-          "value": 523
+          "value": 522
         },
         "endTime": {
           "value": 645
         },
         "intensity": {
-          "number": "17"
+          "number": "22"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki, then Jiutai"
+          "value": "Waki, Jiutai"
         },
         "voice": {
-          "value": "Sung - Yowagin"
+          "value": "Sung (yowagin)"
         },
         "text": {
-          "value": "Hiranori (Congruent)"
+          "value": "Hiranori (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "ageuta"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "5"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/ageuta-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -274,25 +366,24 @@
         "sectionName": {
           "value": "Dialogue"
         },
-        "sectionUrl": "/kokaji/dialogue/",
         "startTime": {
           "value": 646
         },
         "endTime": {
-          "value": 679
+          "value": 659
         },
         "intensity": {
           "number": "4"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki tsure and Waki"
+          "value": "Wakizure,  Waki"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -304,8 +395,18 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {},
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "6"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/dialogue/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -321,12 +422,11 @@
         "sectionName": {
           "value": "Monologue"
         },
-        "sectionUrl": "/kokaji/monologue/",
         "startTime": {
-          "value": 680
+          "value": 660
         },
         "endTime": {
-          "value": 738
+          "value": 737
         },
         "intensity": {
           "number": "3"
@@ -339,7 +439,7 @@
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -351,8 +451,18 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {},
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "7"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/monologue/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -368,7 +478,6 @@
         "sectionName": {
           "value": "Mondō-2"
         },
-        "sectionUrl": "/kokaji/mondo-2/",
         "startTime": {
           "value": 738
         },
@@ -380,13 +489,13 @@
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite & waki"
+          "value": "Shite, Waki"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -398,8 +507,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "mondo"
+        },
+        "dan": {
+          "number": "3",
+          "value": "Dialogue"
+        },
+        "shodanIndex": {
+          "number": "8"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/mondo-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -415,43 +536,53 @@
         "sectionName": {
           "value": "Ageuta-2"
         },
-        "sectionUrl": "/kokaji/ageuta-2/",
         "startTime": {
           "value": 898
         },
         "endTime": {
-          "value": 1013
+          "value": 1014
         },
         "intensity": {
-          "number": "17"
+          "number": "19"
         },
         "numberVoices": {
           "number": "1",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Yowagin"
+          "value": "Sung (yowagin)"
         },
         "text": {
-          "value": "Hiranori  (Congruent)"
+          "value": "Hiranori  (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Feminine mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "ageuta"
+        },
+        "dan": {
+          "number": "3",
+          "value": "Dialogue"
+        },
+        "shodanIndex": {
+          "number": "9"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/ageuta-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -467,12 +598,11 @@
         "sectionName": {
           "value": "Kuri"
         },
-        "sectionUrl": "/kokaji/kuri/",
         "startTime": {
-          "value": 1014
+          "value": 1015
         },
         "endTime": {
-          "value": 1074
+          "value": 1075
         },
         "intensity": {
           "number": "14"
@@ -482,27 +612,39 @@
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Einori  (Non-congruent) "
+          "value": "Einori  (non-congruent) "
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "kuri"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "10"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kuri/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -518,42 +660,53 @@
         "sectionName": {
           "value": "Sashi"
         },
-        "sectionUrl": "/kokaji/sashi/",
         "startTime": {
-          "value": 1075
+          "value": 1076
         },
         "endTime": {
-          "value": 1192
+          "value": 1193
         },
         "intensity": {
           "number": "11"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": " Sashinori (Non-congruent)"
+          "value": "Sashinori (non-congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Flexible"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "sashi"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "11"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/sashi/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -569,43 +722,54 @@
         "sectionName": {
           "value": "Kuse"
         },
-        "sectionUrl": "/kokaji/kuse/",
         "startTime": {
-          "value": 1193
+          "value": 1194
         },
         "endTime": {
           "value": 1746
         },
         "intensity": {
-          "number": "18"
+          "number": "31"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Hiranori  (Congruent)"
+          "value": "Hiranori  (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "Yes",
-          "value": "Dance to text/Martial mode"
+          "value": "Dance to text"
         },
+        "shodanType": {
+          "value": "kuse"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "12"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kuse/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -621,7 +785,6 @@
         "sectionName": {
           "value": "Kakeai-1"
         },
-        "sectionUrl": "/kokaji/kakekai-1/",
         "startTime": {
           "value": 1747
         },
@@ -629,24 +792,24 @@
           "value": 1804
         },
         "intensity": {
-          "number": "7"
+          "number": "9"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki, then Shite"
+          "value": "Waki, Shite"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Non congruent"
+          "value": "Flexible"
         },
         "nokhanPresent": {
           "present": "no"
@@ -654,14 +817,26 @@
         "dancePresent": {
           "present": "no"
         },
+        "shodanType": {
+          "value": "kakeai"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "13"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kakeai-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
         },
         "narrative": {
-          "value": "/kokaji/narratives/kakekai-1.html"
+          "value": "/kokaji/narratives/kakeai-1.html"
         }
       },
       {
@@ -671,7 +846,6 @@
         "sectionName": {
           "value": "Ageuta-3"
         },
-        "sectionUrl": "/kokaji/ageuta-3/",
         "startTime": {
           "value": 1805
         },
@@ -679,34 +853,45 @@
           "value": 1879
         },
         "intensity": {
-          "number": "13"
+          "number": "25"
         },
         "numberVoices": {
-          "number": "2",
+          "number": "1",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Hiranori  (Congruent)"
+          "value": "Hiranori (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "No"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Feminine to Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "ageuta"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "14"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/ageuta-3/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -722,15 +907,14 @@
         "sectionName": {
           "value": "Raijo"
         },
-        "sectionUrl": "/kokaji/raijo/",
         "startTime": {
           "value": 1880
         },
         "endTime": {
-          "value": 2090
+          "value": 2088
         },
         "intensity": {
-          "number": "10"
+          "number": "12"
         },
         "numberVoices": {
           "number": "0"
@@ -739,20 +923,32 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Flexible, then strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "raijo"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "15"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/raijo/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -766,37 +962,48 @@
           "value": "Kokaji"
         },
         "sectionName": {
-          "value": "Aikyōgen"
+          "value": "Ai-kyōgen"
         },
-        "sectionUrl": "/kokaji/aikyogen/",
         "startTime": {
-          "value": 2091
+          "value": 2089
         },
         "endTime": {
           "value": 2575
         },
         "intensity": {
-          "number": "0"
+          "number": "3"
         },
         "numberVoices": {
-          "number": "2",
-          "value": "Aikyōgen and Waki"
+          "number": "1",
+          "value": "Ai-kyōgen"
         },
         "voice": {
           "value": "Spoken"
         },
-        "text": {},
+        "text": {
+          "value": "Unmetered"
+        },
         "numberOfPercussion": {
           "number": "0"
         },
         "percussion": {},
         "nokhanPresent": {
-          "present": "Yes",
-          "value": "Non congruent"
+          "present": "no"
         },
         "dancePresent": {},
+        "shodanType": {
+          "value": "ai-kyogen"
+        },
+        "dan": {
+          "number": "6"
+        },
+        "shodanIndex": {
+          "number": "16"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/aikyogen/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -812,12 +1019,11 @@
         "sectionName": {
           "value": "Prop is brought in"
         },
-        "sectionUrl": "/kokaji/prop-in/",
         "startTime": {
           "value": 2576
         },
         "endTime": {
-          "value": 2718
+          "value": 2713
         },
         "intensity": {
           "number": "0"
@@ -829,8 +1035,17 @@
         "percussion": {},
         "nokhanPresent": {},
         "dancePresent": {},
+        "shodanType": {},
+        "dan": {
+          "number": "8"
+        },
+        "shodanIndex": {
+          "number": "17"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/prop-in/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -846,42 +1061,53 @@
         "sectionName": {
           "value": "Notto"
         },
-        "sectionUrl": "/kokaji/notto/",
         "startTime": {
-          "value": 2719
+          "value": 2714
         },
         "endTime": {
-          "value": 2920
+          "value": 2909
         },
         "intensity": {
-          "number": "12"
+          "number": "14"
         },
         "numberVoices": {
           "number": "1",
           "value": "Waki"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Non-congruent - sashinori"
+          "value": "Sashinori (non-congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "notto-chant"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Waits"
+        },
+        "shodanIndex": {
+          "number": "18"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/notto/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -897,32 +1123,31 @@
         "sectionName": {
           "value": "Noriji-1"
         },
-        "sectionUrl": "/kokaji/noriji-1/",
         "startTime": {
-          "value": 2921
+          "value": 2910
         },
         "endTime": {
           "value": 3066
         },
         "intensity": {
-          "number": "14"
+          "number": "21"
         },
         "numberVoices": {
-          "number": "1",
+          "number": "2",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Ōnori  (Congruent)"
+          "value": "Ōnori (congruent)"
         },
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "No"
@@ -930,8 +1155,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "noriji"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Waits"
+        },
+        "shodanIndex": {
+          "number": "19"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/noriji-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -947,15 +1184,14 @@
         "sectionName": {
           "value": "Hayafue"
         },
-        "sectionUrl": "/kokaji/hayafue/",
         "startTime": {
           "value": 3067
         },
         "endTime": {
-          "value": 3150
+          "value": 3149
         },
         "intensity": {
-          "number": "21"
+          "number": "24"
         },
         "numberVoices": {
           "number": "0"
@@ -964,21 +1200,32 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
           "value": "Congruent"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "hayafue"
+        },
+        "dan": {
+          "number": "2",
+          "value": "Shite Re-enters"
+        },
+        "shodanIndex": {
+          "number": "20"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/hayafue/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -994,43 +1241,53 @@
         "sectionName": {
           "value": "Noriji-2"
         },
-        "sectionUrl": "/kokaji/noriji-2/",
         "startTime": {
-          "value": 3151
+          "value": 3150
         },
         "endTime": {
-          "value": 3195
+          "value": 3197
         },
         "intensity": {
-          "number": "27"
+          "number": "30"
         },
         "numberVoices": {
           "number": "1",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Ōnori  (Congruent)"
+          "value": "Ōnori (congruent)"
         },
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "noriji"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "21"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/noriji-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1046,15 +1303,14 @@
         "sectionName": {
           "value": "Maibataraki"
         },
-        "sectionUrl": "/kokaji/maibataraki/",
         "startTime": {
-          "value": 3196
+          "value": 3198
         },
         "endTime": {
-          "value": 3254
+          "value": 3253
         },
         "intensity": {
-          "number": "29"
+          "number": "34"
         },
         "numberVoices": {
           "number": "0"
@@ -1063,21 +1319,33 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Congruent"
         },
         "dancePresent": {
           "present": "Yes",
-          "value": "Pure deance / Martial mode"
+          "value": "Instrumental dance"
         },
+        "shodanType": {
+          "value": "maibataraki"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "22"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/maibataraki/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1093,42 +1361,52 @@
         "sectionName": {
           "value": "Noriji-3"
         },
-        "sectionUrl": "/kokaji/noriji-3/",
         "startTime": {
-          "value": 3255
+          "value": 3254
         },
         "endTime": {
           "value": 3369
         },
         "intensity": {
-          "number": "24"
+          "number": "28"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Ōnori  (Congruent)"
+          "value": "Ōnori (congruent)"
         },
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "No"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "noriji"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "23"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/noriji-3/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1144,7 +1422,6 @@
         "sectionName": {
           "value": "Kakeai-2"
         },
-        "sectionUrl": "/kokaji/kakekai-2/",
         "startTime": {
           "value": 3370
         },
@@ -1156,31 +1433,45 @@
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki and Shite"
+          "value": "Waki, Shite"
         },
         "voice": {
           "value": "Spoken"
         },
-        "text": {},
+        "text": {
+          "value": "Unmetered"
+        },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Non congruent"
+          "value": "Flexible"
         },
         "nokhanPresent": {},
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "kakeai"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "24"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kakeai-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
         },
         "narrative": {
-          "value": "/kokaji/narratives/kakekai-2.html"
+          "value": "/kokaji/narratives/kakeai-2.html"
         }
       },
       {
@@ -1190,49 +1481,102 @@
         "sectionName": {
           "value": "Kiri"
         },
-        "sectionUrl": "/kokaji/kiri/",
         "startTime": {
           "value": 3400
         },
         "endTime": {
-          "value": 3534
+          "value": 3535
         },
         "intensity": {
-          "number": "28"
+          "number": "32"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Chūnori  (Congruent)"
+          "value": "Chū- & hiranori (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "Yes",
-          "value": "Dance to text / Martial mode"
+          "value": "Dance to text"
         },
+        "shodanType": {
+          "value": "kiri"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "25"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kiri/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
         },
         "narrative": {
           "value": "/kokaji/narratives/kiri.html"
+        }
+      },
+      {
+        "play": {
+          "value": "Kokaji"
+        },
+        "sectionName": {
+          "value": "Exit of the Musicians"
+        },
+        "startTime": {
+          "value": 3536
+        },
+        "endTime": {
+          "value": 3692
+        },
+        "intensity": {
+          "number": "0"
+        },
+        "numberVoices": {},
+        "voice": {},
+        "text": {},
+        "numberOfPercussion": {},
+        "percussion": {},
+        "nokhanPresent": {},
+        "dancePresent": {},
+        "shodanType": {},
+        "dan": {
+          "number": "8"
+        },
+        "shodanIndex": {
+          "number": "26"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/exit/",
+        "videoUrl": {
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+        },
+        "videoDuration": {
+          "value": "01:01:33"
+        },
+        "narrative": {
+          "value": "/kokaji/narratives/exit.html"
         }
       }
     ],
@@ -1243,50 +1587,78 @@
     "play": {
       "value": "Kokaji"
     },
-    "playUrl": "/kokaji/",
     "sectionName": {
-      "value": "Kiri"
+      "value": "Exit of the Musicians"
     },
-    "sectionUrl": "/kokaji/kiri/",
-    "startTime": 1193,
-    "duration": 553,
-    "endTime": 1746,
+    "startTime": {
+      "value": 3536
+    },
+    "endTime": {
+      "value": 3692
+    },
     "intensity": {
-      "number": "18"
+      "number": "0"
     },
-    "numberVoices": {
-      "number": "2",
-      "value": "Shite and Jiutai"
+    "numberVoices": {},
+    "voice": {},
+    "text": {},
+    "numberOfPercussion": {},
+    "percussion": {},
+    "nokhanPresent": {},
+    "dancePresent": {},
+    "shodanType": {},
+    "dan": {
+      "number": "8"
     },
-    "voice": {
-      "value": "Sung - Tsuyogin"
+    "shodanIndex": {
+      "number": "26"
     },
-    "text": {
-      "value": "Hiranori  (Congruent)"
+    "playUrl": "/kokaji/",
+    "sectionUrl": "/kokaji/exit/",
+    "videoUrl": {
+      "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
     },
-    "numberOfPercussion": {
-      "number": "2",
-      "value": "Otsuzumi + Kotsuzumi"
+    "videoDuration": {
+      "value": "01:01:33"
     },
-    "percussion": {
-      "value": "Congruent"
-    },
-    "nokhanPresent": {
-      "present": "Yes",
-      "value": "Non congruent"
-    },
-    "dancePresent": {
-      "present": "Yes",
-      "value": "Dance to text/Martial mode"
-    },
-    "videoUrl": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4#t=1193,1746",
-    "videoDuration": 3693,
     "phrases": [],
     "captions": [],
-    "narrative": "<section id='intro' title='Introduction' class='tabbed-narrative'>\n    <p>\n    Intro. Lorem ipsum dolor sit amet, <time datetime='00:00:10.000' title='00:10:98.987'>consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.\n    </p>\n</section>\n<br />\n<section id='part1' title='Part I' class='tabbed-narrative'>\n    <p>\n    Part I. Lorem ipsum dolor sit amet, <time datetime='00:00:20' title='00:11:98.987'>consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n    </p>\n</section>\n<br   />\n<section id=\"part2\" title=\"Part II\" class=\"tabbed-narrative\">\n    <p>\n    Part II. Lorem ipsum dolor sit amet, <time datetime='00:00:30.303' title='00:12:98.987'>consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n    </p>\n</section>\n",
+    "narrative": "<section id=\"Aspects\" title=\"Aspects\" class=\"tabbed-narrative\">\n  <div class=\"section-introduction\">\n    <div class=\"section-introduction__term\">Synopsis</div>\n    <div class=\"section-introduction__definition\">n/a</div>\n  </div>\n  <div class=\"section-introduction\">\n    <div class=\"section-introduction__term\">Text</div>\n    <div class=\"section-introduction__definition\">n/a</div>\n  </div>\n  <div class=\"section-introduction\">\n    <div class=\"section-introduction__term\">Music</div>\n    <div class=\"section-introduction__definition\">n/a</div>\n  </div>\n  <div class=\"section-introduction\">\n    <div class=\"section-introduction__term\">Visuals</div>\n    <div class=\"section-introduction__definition\">\n      Two stage assistants remove the stage property, before the performers\n      leave the stage.\n    </div>\n  </div>\n</section>\n\n<section id=\"intermedia\" title=\"Intermedia\" class=\"tabbed-narrative\">\n  <p>\n    The exit of the actors and musicians happens in silence. The shite is the\n    first one to exit, followed by the waki. If a <em>tsukurimono</em> was used\n    in the play, the stage assistants would then procede with its removal. In\n    all cases, it is once the actor or stage assistant has passed the Second\n    pine that the curtain is lifted, and pulled back down once he has entered\n    the anteroom. From this point, the musicians exit in the same order they\n    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko\n    players. Upon reaching the Second pine, the curtain is pulled back partially\n    on one side. As for the jiutai members, they exit through the back left side\n    door starting with the back row members. Even as they are exiting the stage,\n    actors, assistants and musicians exhibit great modesty and decorum. Thus,\n    the audience holds its applause until the last musician is about exit.\n  </p>\n</section>\n",
     "playName": "Kokaji",
     "singingStyle": "Sung - Tsuyogin",
     "title": "Kiri",
+    "acts": [
+      {
+        "translation": "Intro.",
+        "transcription": "",
+        "duration": "00:03:56",
+        "shodanIndices": [1, 2]
+      },
+      {
+        "translation": "Act I",
+        "transcription": "Mae ba",
+        "duration": "00:30:54",
+        "shodanIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+      },
+      {
+        "translation": "Interlude",
+        "transcription": "",
+        "duration": "00:10:23",
+        "shodanIndices": [16, 17]
+      },
+      {
+        "translation": "Act II",
+        "transcription": "Nochi ba",
+        "duration": "00:13:42",
+        "shodanIndices": [18, 19, 20, 21, 22, 23, 24, 25]
+      },
+      {
+        "translation": "Exit",
+        "transcription": "",
+        "duration": "00:02:37",
+        "shodanIndices": [26]
+      }
+    ],
     "sections": [
       {
         "play": {
@@ -1295,12 +1667,13 @@
         "sectionName": {
           "value": "Oshirabe"
         },
-        "sectionUrl": "/kokaji/oshirabe/",
         "startTime": {},
         "endTime": {
           "value": 105
         },
-        "intensity": {},
+        "intensity": {
+          "number": "6"
+        },
         "numberVoices": {
           "number": "1"
         },
@@ -1308,10 +1681,10 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Non congruent"
+          "value": "Unmetered"
         },
         "nokhanPresent": {
           "present": "Yes",
@@ -1320,8 +1693,19 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "oshirabe"
+        },
+        "dan": {
+          "number": "7"
+        },
+        "shodanIndex": {
+          "number": "1"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/oshirabe/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1337,14 +1721,15 @@
         "sectionName": {
           "value": "Musicians walk in"
         },
-        "sectionUrl": "/kokaji/musicians-walk-in/",
         "startTime": {
           "value": 106
         },
         "endTime": {
-          "value": 235
+          "value": 234
         },
-        "intensity": {},
+        "intensity": {
+          "number": "0"
+        },
         "numberVoices": {},
         "voice": {},
         "text": {},
@@ -1352,8 +1737,17 @@
         "percussion": {},
         "nokhanPresent": {},
         "dancePresent": {},
+        "shodanType": {},
+        "dan": {
+          "number": "8"
+        },
+        "shodanIndex": {
+          "number": "2"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/musicians-walk-in/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1369,25 +1763,24 @@
         "sectionName": {
           "value": "Nanori"
         },
-        "sectionUrl": "/kokaji/nanori/",
         "startTime": {
-          "value": 236
+          "value": 235
         },
         "endTime": {
-          "value": 315
+          "value": 314
         },
         "intensity": {
           "number": "3"
         },
         "numberVoices": {
           "number": "1",
-          "value": "Waki tsure"
+          "value": "Wakizure"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -1399,8 +1792,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "nanori"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "3"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/nanori/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1416,25 +1821,24 @@
         "sectionName": {
           "value": "Mondō-1"
         },
-        "sectionUrl": "/kokaji/mondo-1/",
         "startTime": {
-          "value": 316
+          "value": 315
         },
         "endTime": {
-          "value": 522
+          "value": 521
         },
         "intensity": {
           "number": "4"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki tsure & waki"
+          "value": "Wakizure, waki"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -1446,8 +1850,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "mondo"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "4"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/mondo-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1463,42 +1879,53 @@
         "sectionName": {
           "value": "Ageuta-1"
         },
-        "sectionUrl": "/kokaji/ageuta-1/",
         "startTime": {
-          "value": 523
+          "value": 522
         },
         "endTime": {
           "value": 645
         },
         "intensity": {
-          "number": "17"
+          "number": "22"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki, then Jiutai"
+          "value": "Waki, Jiutai"
         },
         "voice": {
-          "value": "Sung - Yowagin"
+          "value": "Sung (yowagin)"
         },
         "text": {
-          "value": "Hiranori (Congruent)"
+          "value": "Hiranori (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "ageuta"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "5"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/ageuta-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1514,25 +1941,24 @@
         "sectionName": {
           "value": "Dialogue"
         },
-        "sectionUrl": "/kokaji/dialogue/",
         "startTime": {
           "value": 646
         },
         "endTime": {
-          "value": 679
+          "value": 659
         },
         "intensity": {
           "number": "4"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki tsure and Waki"
+          "value": "Wakizure,  Waki"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -1544,8 +1970,18 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {},
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "6"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/dialogue/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1561,12 +1997,11 @@
         "sectionName": {
           "value": "Monologue"
         },
-        "sectionUrl": "/kokaji/monologue/",
         "startTime": {
-          "value": 680
+          "value": 660
         },
         "endTime": {
-          "value": 738
+          "value": 737
         },
         "intensity": {
           "number": "3"
@@ -1579,7 +2014,7 @@
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -1591,8 +2026,18 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {},
+        "dan": {
+          "number": "1",
+          "value": "Waki Enters"
+        },
+        "shodanIndex": {
+          "number": "7"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/monologue/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1608,7 +2053,6 @@
         "sectionName": {
           "value": "Mondō-2"
         },
-        "sectionUrl": "/kokaji/mondo-2/",
         "startTime": {
           "value": 738
         },
@@ -1620,13 +2064,13 @@
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite & waki"
+          "value": "Shite, Waki"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non-congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "0"
@@ -1638,8 +2082,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "mondo"
+        },
+        "dan": {
+          "number": "3",
+          "value": "Dialogue"
+        },
+        "shodanIndex": {
+          "number": "8"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/mondo-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1655,43 +2111,53 @@
         "sectionName": {
           "value": "Ageuta-2"
         },
-        "sectionUrl": "/kokaji/ageuta-2/",
         "startTime": {
           "value": 898
         },
         "endTime": {
-          "value": 1013
+          "value": 1014
         },
         "intensity": {
-          "number": "17"
+          "number": "19"
         },
         "numberVoices": {
           "number": "1",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Yowagin"
+          "value": "Sung (yowagin)"
         },
         "text": {
-          "value": "Hiranori  (Congruent)"
+          "value": "Hiranori  (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Feminine mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "ageuta"
+        },
+        "dan": {
+          "number": "3",
+          "value": "Dialogue"
+        },
+        "shodanIndex": {
+          "number": "9"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/ageuta-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1707,12 +2173,11 @@
         "sectionName": {
           "value": "Kuri"
         },
-        "sectionUrl": "/kokaji/kuri/",
         "startTime": {
-          "value": 1014
+          "value": 1015
         },
         "endTime": {
-          "value": 1074
+          "value": 1075
         },
         "intensity": {
           "number": "14"
@@ -1722,27 +2187,39 @@
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Einori  (Non-congruent) "
+          "value": "Einori  (non-congruent) "
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "kuri"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "10"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kuri/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1758,42 +2235,53 @@
         "sectionName": {
           "value": "Sashi"
         },
-        "sectionUrl": "/kokaji/sashi/",
         "startTime": {
-          "value": 1075
+          "value": 1076
         },
         "endTime": {
-          "value": 1192
+          "value": 1193
         },
         "intensity": {
           "number": "11"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": " Sashinori (Non-congruent)"
+          "value": "Sashinori (non-congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Flexible"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "sashi"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "11"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/sashi/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1809,43 +2297,54 @@
         "sectionName": {
           "value": "Kuse"
         },
-        "sectionUrl": "/kokaji/kuse/",
         "startTime": {
-          "value": 1193
+          "value": 1194
         },
         "endTime": {
           "value": 1746
         },
         "intensity": {
-          "number": "18"
+          "number": "31"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Hiranori  (Congruent)"
+          "value": "Hiranori  (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "Yes",
-          "value": "Dance to text/Martial mode"
+          "value": "Dance to text"
         },
+        "shodanType": {
+          "value": "kuse"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "12"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kuse/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1861,7 +2360,6 @@
         "sectionName": {
           "value": "Kakeai-1"
         },
-        "sectionUrl": "/kokaji/kakekai-1/",
         "startTime": {
           "value": 1747
         },
@@ -1869,24 +2367,24 @@
           "value": 1804
         },
         "intensity": {
-          "number": "7"
+          "number": "9"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki, then Shite"
+          "value": "Waki, Shite"
         },
         "voice": {
           "value": "Spoken"
         },
         "text": {
-          "value": "Non congruent"
+          "value": "Unmetered"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Non congruent"
+          "value": "Flexible"
         },
         "nokhanPresent": {
           "present": "no"
@@ -1894,14 +2392,26 @@
         "dancePresent": {
           "present": "no"
         },
+        "shodanType": {
+          "value": "kakeai"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "13"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kakeai-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
         },
         "narrative": {
-          "value": "/kokaji/narratives/kakekai-1.html"
+          "value": "/kokaji/narratives/kakeai-1.html"
         }
       },
       {
@@ -1911,7 +2421,6 @@
         "sectionName": {
           "value": "Ageuta-3"
         },
-        "sectionUrl": "/kokaji/ageuta-3/",
         "startTime": {
           "value": 1805
         },
@@ -1919,34 +2428,45 @@
           "value": 1879
         },
         "intensity": {
-          "number": "13"
+          "number": "25"
         },
         "numberVoices": {
-          "number": "2",
+          "number": "1",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Hiranori  (Congruent)"
+          "value": "Hiranori (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "No"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Feminine to Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "ageuta"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "14"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/ageuta-3/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -1962,15 +2482,14 @@
         "sectionName": {
           "value": "Raijo"
         },
-        "sectionUrl": "/kokaji/raijo/",
         "startTime": {
           "value": 1880
         },
         "endTime": {
-          "value": 2090
+          "value": 2088
         },
         "intensity": {
-          "number": "10"
+          "number": "12"
         },
         "numberVoices": {
           "number": "0"
@@ -1979,20 +2498,32 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Flexible, then strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "raijo"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "15"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/raijo/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2006,37 +2537,48 @@
           "value": "Kokaji"
         },
         "sectionName": {
-          "value": "Aikyōgen"
+          "value": "Ai-kyōgen"
         },
-        "sectionUrl": "/kokaji/aikyogen/",
         "startTime": {
-          "value": 2091
+          "value": 2089
         },
         "endTime": {
           "value": 2575
         },
         "intensity": {
-          "number": "0"
+          "number": "3"
         },
         "numberVoices": {
-          "number": "2",
-          "value": "Aikyōgen and Waki"
+          "number": "1",
+          "value": "Ai-kyōgen"
         },
         "voice": {
           "value": "Spoken"
         },
-        "text": {},
+        "text": {
+          "value": "Unmetered"
+        },
         "numberOfPercussion": {
           "number": "0"
         },
         "percussion": {},
         "nokhanPresent": {
-          "present": "Yes",
-          "value": "Non congruent"
+          "present": "no"
         },
         "dancePresent": {},
+        "shodanType": {
+          "value": "ai-kyogen"
+        },
+        "dan": {
+          "number": "6"
+        },
+        "shodanIndex": {
+          "number": "16"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/aikyogen/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2052,12 +2594,11 @@
         "sectionName": {
           "value": "Prop is brought in"
         },
-        "sectionUrl": "/kokaji/prop-in/",
         "startTime": {
           "value": 2576
         },
         "endTime": {
-          "value": 2718
+          "value": 2713
         },
         "intensity": {
           "number": "0"
@@ -2069,8 +2610,17 @@
         "percussion": {},
         "nokhanPresent": {},
         "dancePresent": {},
+        "shodanType": {},
+        "dan": {
+          "number": "8"
+        },
+        "shodanIndex": {
+          "number": "17"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/prop-in/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2086,42 +2636,53 @@
         "sectionName": {
           "value": "Notto"
         },
-        "sectionUrl": "/kokaji/notto/",
         "startTime": {
-          "value": 2719
+          "value": 2714
         },
         "endTime": {
-          "value": 2920
+          "value": 2909
         },
         "intensity": {
-          "number": "12"
+          "number": "14"
         },
         "numberVoices": {
           "number": "1",
           "value": "Waki"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Non-congruent - sashinori"
+          "value": "Sashinori (non-congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "notto-chant"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Waits"
+        },
+        "shodanIndex": {
+          "number": "18"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/notto/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2137,32 +2698,31 @@
         "sectionName": {
           "value": "Noriji-1"
         },
-        "sectionUrl": "/kokaji/noriji-1/",
         "startTime": {
-          "value": 2921
+          "value": 2910
         },
         "endTime": {
           "value": 3066
         },
         "intensity": {
-          "number": "14"
+          "number": "21"
         },
         "numberVoices": {
-          "number": "1",
+          "number": "2",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Ōnori  (Congruent)"
+          "value": "Ōnori (congruent)"
         },
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "No"
@@ -2170,8 +2730,20 @@
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "noriji"
+        },
+        "dan": {
+          "number": "1",
+          "value": "Waki Waits"
+        },
+        "shodanIndex": {
+          "number": "19"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/noriji-1/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2187,15 +2759,14 @@
         "sectionName": {
           "value": "Hayafue"
         },
-        "sectionUrl": "/kokaji/hayafue/",
         "startTime": {
           "value": 3067
         },
         "endTime": {
-          "value": 3150
+          "value": 3149
         },
         "intensity": {
-          "number": "21"
+          "number": "24"
         },
         "numberVoices": {
           "number": "0"
@@ -2204,21 +2775,32 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
           "value": "Congruent"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "hayafue"
+        },
+        "dan": {
+          "number": "2",
+          "value": "Shite Re-enters"
+        },
+        "shodanIndex": {
+          "number": "20"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/hayafue/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2234,43 +2816,53 @@
         "sectionName": {
           "value": "Noriji-2"
         },
-        "sectionUrl": "/kokaji/noriji-2/",
         "startTime": {
-          "value": 3151
+          "value": 3150
         },
         "endTime": {
-          "value": 3195
+          "value": 3197
         },
         "intensity": {
-          "number": "27"
+          "number": "30"
         },
         "numberVoices": {
           "number": "1",
           "value": "Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Ōnori  (Congruent)"
+          "value": "Ōnori (congruent)"
         },
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "noriji"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "21"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/noriji-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2286,15 +2878,14 @@
         "sectionName": {
           "value": "Maibataraki"
         },
-        "sectionUrl": "/kokaji/maibataraki/",
         "startTime": {
-          "value": 3196
+          "value": 3198
         },
         "endTime": {
-          "value": 3254
+          "value": 3253
         },
         "intensity": {
-          "number": "29"
+          "number": "34"
         },
         "numberVoices": {
           "number": "0"
@@ -2303,21 +2894,33 @@
         "text": {},
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Congruent"
         },
         "dancePresent": {
           "present": "Yes",
-          "value": "Pure deance / Martial mode"
+          "value": "Instrumental dance"
         },
+        "shodanType": {
+          "value": "maibataraki"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "22"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/maibataraki/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2333,42 +2936,52 @@
         "sectionName": {
           "value": "Noriji-3"
         },
-        "sectionUrl": "/kokaji/noriji-3/",
         "startTime": {
-          "value": 3255
+          "value": 3254
         },
         "endTime": {
           "value": 3369
         },
         "intensity": {
-          "number": "24"
+          "number": "28"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Ōnori  (Congruent)"
+          "value": "Ōnori (congruent)"
         },
         "numberOfPercussion": {
           "number": "3",
-          "value": "Otsuzumi + Kotsuzumi + Taiko"
+          "value": "Ōtsuzumi, Kotsuzumi, Taiko"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "No"
         },
         "dancePresent": {
-          "present": "Yes",
-          "value": "Martial mode"
+          "present": "Yes"
         },
+        "shodanType": {
+          "value": "noriji"
+        },
+        "dan": {
+          "number": "4",
+          "value": "Shite Performs"
+        },
+        "shodanIndex": {
+          "number": "23"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/noriji-3/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
@@ -2384,7 +2997,6 @@
         "sectionName": {
           "value": "Kakeai-2"
         },
-        "sectionUrl": "/kokaji/kakekai-2/",
         "startTime": {
           "value": 3370
         },
@@ -2396,31 +3008,45 @@
         },
         "numberVoices": {
           "number": "2",
-          "value": "Waki and Shite"
+          "value": "Waki, Shite"
         },
         "voice": {
           "value": "Spoken"
         },
-        "text": {},
+        "text": {
+          "value": "Unmetered"
+        },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Non congruent"
+          "value": "Flexible"
         },
         "nokhanPresent": {},
         "dancePresent": {
           "present": "No"
         },
+        "shodanType": {
+          "value": "kakeai"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "24"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kakeai-2/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
         },
         "narrative": {
-          "value": "/kokaji/narratives/kakekai-2.html"
+          "value": "/kokaji/narratives/kakeai-2.html"
         }
       },
       {
@@ -2430,49 +3056,102 @@
         "sectionName": {
           "value": "Kiri"
         },
-        "sectionUrl": "/kokaji/kiri/",
         "startTime": {
           "value": 3400
         },
         "endTime": {
-          "value": 3534
+          "value": 3535
         },
         "intensity": {
-          "number": "28"
+          "number": "32"
         },
         "numberVoices": {
           "number": "2",
-          "value": "Shite and Jiutai"
+          "value": "Shite, Jiutai"
         },
         "voice": {
-          "value": "Sung - Tsuyogin"
+          "value": "Sung (tsuyogin)"
         },
         "text": {
-          "value": "Chūnori  (Congruent)"
+          "value": "Chū- & hiranori (congruent)"
         },
         "numberOfPercussion": {
           "number": "2",
-          "value": "Otsuzumi + Kotsuzumi"
+          "value": "Ōtsuzumi, Kotsuzumi"
         },
         "percussion": {
-          "value": "Congruent"
+          "value": "Strict"
         },
         "nokhanPresent": {
           "present": "Yes",
-          "value": "Non congruent"
+          "value": "Non-congruent"
         },
         "dancePresent": {
           "present": "Yes",
-          "value": "Dance to text / Martial mode"
+          "value": "Dance to text"
         },
+        "shodanType": {
+          "value": "kiri"
+        },
+        "dan": {
+          "number": "5",
+          "value": "Shite Exits"
+        },
+        "shodanIndex": {
+          "number": "25"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/kiri/",
         "videoUrl": {
-          "value": "http://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
         },
         "videoDuration": {
           "value": "01:01:33"
         },
         "narrative": {
           "value": "/kokaji/narratives/kiri.html"
+        }
+      },
+      {
+        "play": {
+          "value": "Kokaji"
+        },
+        "sectionName": {
+          "value": "Exit of the Musicians"
+        },
+        "startTime": {
+          "value": 3536
+        },
+        "endTime": {
+          "value": 3692
+        },
+        "intensity": {
+          "number": "0"
+        },
+        "numberVoices": {},
+        "voice": {},
+        "text": {},
+        "numberOfPercussion": {},
+        "percussion": {},
+        "nokhanPresent": {},
+        "dancePresent": {},
+        "shodanType": {},
+        "dan": {
+          "number": "8"
+        },
+        "shodanIndex": {
+          "number": "26"
+        },
+        "playUrl": "/kokaji/",
+        "sectionUrl": "/kokaji/exit/",
+        "videoUrl": {
+          "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+        },
+        "videoDuration": {
+          "value": "01:01:33"
+        },
+        "narrative": {
+          "value": "/kokaji/narratives/exit.html"
         }
       }
     ],

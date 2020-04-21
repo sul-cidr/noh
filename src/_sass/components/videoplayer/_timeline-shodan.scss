@@ -1,14 +1,14 @@
-$dan-5: #61394e;
-$dan-4: #fccdab;
-$dan-3: #ab3b3d;
-$dan-2: #d59a2f;
 $dan-1: #665e3b;
+$dan-2: #d59a2f;
+$dan-3: #ab3b3d;
+$dan-4: #fccdab;
+$dan-5: #61394e;
 $alpha: 0.1;
 $alpha-hover: 0.15;
-$shodan-bg-color: hsl(240, 3%, 88%);
-$shodan-bg-color-dan-hover: hsl(240, 3%, 77%);
-$shodan-bg-color-hover: hsl(240, 3%, 66%);
-$shodan-bg-color-active: hsl(240, 3%, 55%);
+$shodan-bg-color: hsl(240, 3%, 82%);
+$shodan-bg-color-dan-hover: hsl(240, 3%, 65%);
+$shodan-bg-color-hover: hsl(240, 3%, 50%);
+$shodan-bg-color-active: rgba($red, 0.6);
 
 @mixin separator() {
   &:not(:last-child) {
@@ -170,7 +170,7 @@ $shodan-bg-color-active: hsl(240, 3%, 55%);
   }
 
   &.shodan-map__item--highlight {
-    background-color: $shodan-bg-color-dan-hover;
+    background-color: $shodan-bg-color-hover;
   }
 }
 

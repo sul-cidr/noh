@@ -53,21 +53,17 @@ third-level-menu-active: nohkan
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section id="generic" title="Generic" class="tabbed-narrative">
+              <section id="generic" title="Generic">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Tome_No_Te_Shoga.mp4"
                 %}
               </section>
-              <section id="Kokaji" title="Kokaji" class="tabbed-narrative">
+              <section id="Kokaji" title="Kokaji">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Kokaji_Tome_no_te_Shoga.mp4"
                 %}
               </section>
-              <section
-                id="Hashitomi"
-                title="Hashitomi"
-                class="tabbed-narrative"
-              >
+              <section id="Hashitomi" title="Hashitomi">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Tome_no_te_Shoga.mp4"
                 %}

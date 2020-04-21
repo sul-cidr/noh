@@ -3,6 +3,7 @@
 exports[`<UnwrappedScore> handles null state correctly 1`] = `
 <div
   className="score"
+  data-intro="An intermedia score can be found under the video."
 >
   <div
     className="measure measure--previous"
@@ -517,6 +518,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
 exports[`<UnwrappedScore> renders as expected 1`] = `
 <div
   className="score"
+  data-intro="An intermedia score can be found under the video."
 >
   <div
     className="measure measure--previous"
@@ -1091,6 +1093,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
 exports[`<UnwrappedScore> renders as expected 2`] = `
 <div
   className="score"
+  data-intro="An intermedia score can be found under the video."
 >
   <div
     className="measure measure--previous"
@@ -1665,6 +1668,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
 exports[`<UnwrappedScore> renders as expected with all filters off 1`] = `
 <div
   className="score"
+  data-intro="An intermedia score can be found under the video."
 >
   <div
     className="measure measure--current"
@@ -1695,6 +1699,7 @@ exports[`<UnwrappedScore> renders as expected with all filters off 1`] = `
 exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
 <div
   className="score"
+  data-intro="An intermedia score can be found under the video."
 >
   <div
     className="measure measure--previous"
