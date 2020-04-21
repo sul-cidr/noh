@@ -29,41 +29,25 @@ second-level-menu-active: movement
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section
-          id="tab-1"
-          title="Leap turn right (front)"
-          class="tabbed-narrative"
-        >
+        <section id="tab-1" title="Leap turn right (front)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Front.mp4"
           %}
         </section>
 
-        <section
-          id="tab-2"
-          title="Leap turn right (side)"
-          class="tabbed-narrative"
-        >
+        <section id="tab-2" title="Leap turn right (side)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_migi_hiza_Side.mp4"
           %}
         </section>
 
-        <section
-          id="tab-3"
-          title="Leap turn left (front)"
-          class="tabbed-narrative"
-        >
+        <section id="tab-3" title="Leap turn left (front)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Front.mp4"
           %}
         </section>
 
-        <section
-          id="tab-4"
-          title="Leap turn left (side)"
-          class="tabbed-narrative"
-        >
+        <section id="tab-4" title="Leap turn left (side)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_tobimawari_hidari_hiza_Side.mp4"
           %}

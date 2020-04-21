@@ -33,25 +33,25 @@ second-level-menu-active: movement
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section id="tab-1" title="Front" class="tabbed-narrative">
+        <section id="tab-1" title="Front">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_Front.mp4"
           %}
         </section>
 
-        <section id="tab-2" title="Close-up front" class="tabbed-narrative">
+        <section id="tab-2" title="Close-up front">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_CloseFront.mp4"
           %}
         </section>
 
-        <section id="tab-3" title="Side" class="tabbed-narrative">
+        <section id="tab-3" title="Side">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_Side.mp4"
           %}
         </section>
 
-        <section id="tab-4" title="Close-up side" class="tabbed-narrative">
+        <section id="tab-4" title="Close-up side">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ogi_hidari_e_CloseSide.mp4"
           %}

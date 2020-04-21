@@ -32,16 +32,12 @@ third-level-menu-active: taiko
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section id="tab-1" title="Kashira" class="tabbed-narrative">
+              <section id="tab-1" title="Kashira">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Taiko-Kashira.mp4"
                 %}
               </section>
-              <section
-                id="tab-2"
-                title="Tsuke gashira"
-                class="tabbed-narrative"
-              >
+              <section id="tab-2" title="Tsuke gashira">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Taiko-Tsuke_gashira.mp4"
                 %}

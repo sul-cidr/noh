@@ -36,25 +36,25 @@ second-level-menu-active: movement
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section id="tab-1" title="Feminine (Right)" class="tabbed-narrative">
+        <section id="tab-1" title="Feminine (Right)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_migi_wo_nejiru.mp4"
           %}
         </section>
 
-        <section id="tab-2" title="Feminine (Left)" class="tabbed-narrative">
+        <section id="tab-2" title="Feminine (Left)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Ona_hidari_wo_nejiru.mp4"
           %}
         </section>
 
-        <section id="tab-3" title="Martial (Right)" class="tabbed-narrative">
+        <section id="tab-3" title="Martial (Right)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_migi_wo_nejiru.mp4"
           %}
         </section>
 
-        <section id="tab-4" title="Martial (Left)" class="tabbed-narrative">
+        <section id="tab-4" title="Martial (Left)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_hidari_wo_nejiru.mp4"
           %}
