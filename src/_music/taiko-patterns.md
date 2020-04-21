@@ -21,7 +21,7 @@ fourth-level-menu-active:
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section id="Spoken" title="Spoken" class="tabbed-narrative">
+        <section id="Spoken" title="Spoken">
           <p>
             The spoken sections called <em>kotoba</em> consist of non-rhythmical
             prose intoned with a full voice. Usually, sentences are divided into
@@ -36,7 +36,7 @@ fourth-level-menu-active:
           in the lower register is well suited for a traveling monk." %}
         </section>
 
-        <section id="Chanted" title="Chanted" class="tabbed-narrative">
+        <section id="Chanted" title="Chanted">
           <p>
             The chanted music called <em>utai</em> can be sung in two different
             styles: <em>yowagin</em> – a gentler melodic singing and

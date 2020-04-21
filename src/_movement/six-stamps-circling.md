@@ -45,13 +45,13 @@ second-level-menu-active: movement
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section id="tab-1" title="Martial (front)" class="tabbed-narrative">
+        <section id="tab-1" title="Martial (front)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_roku_hyoshi_Front.mp4"
           %}
         </section>
 
-        <section id="tab-2" title="Martial (side)" class="tabbed-narrative">
+        <section id="tab-2" title="Martial (side)">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-Han_roku_hyoshi_Side.mp4"
           %}

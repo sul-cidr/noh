@@ -86,16 +86,12 @@ second-level-menu-active: catalog-shodan
       </div>
       <div class="tabs-container__content">
         <div class="wrapper">
-          <section
-            id="tab-1"
-            title="Hashitomi-Oshirabe"
-            class="tabbed-narrative"
-          >
+          <section id="tab-1" title="Hashitomi-Oshirabe">
             {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Hashitomi-Oshirabe-Shoga.mp4"
             %}
           </section>
-          <section id="tab-2" title="Kokaji-Oshirabe" class="tabbed-narrative">
+          <section id="tab-2" title="Kokaji-Oshirabe">
             {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Oshirabe-Shoga.mp4"
             %}

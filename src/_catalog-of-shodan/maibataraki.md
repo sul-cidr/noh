@@ -91,18 +91,18 @@ second-level-menu-active: catalog-shodan
       </div>
       <div class="tabs-container__content">
         <div class="wrapper">
-          <section id="tab-1" title="Original speed" class="tabbed-narrative">
+          <section id="tab-1" title="Original speed">
             {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Score_sl.mp4"
             %}
           </section>
-          <section id="tab-2" title="75%" class="tabbed-narrative">
+          <section id="tab-2" title="75%">
             {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Slowdown-75_sl.mp4"
             %}
           </section>
 
-          <section id="tab-3" title="50%" class="tabbed-narrative">
+          <section id="tab-3" title="50%">
             {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Shodan_sl/Kokaji-Maibataraki_Slowdown-50_sl.mp4"
             %}

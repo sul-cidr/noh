@@ -26,12 +26,12 @@ second-level-menu-active: movement
     </div>
     <div class="tabs-container__content">
       <div class="wrapper">
-        <section id="tab-1" title="Front" class="tabbed-narrative">
+        <section id="tab-1" title="Front">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-kneelingBasicPosture_Front.mp4"
           %}
         </section>
-        <section id="tab-2" title="Side" class="tabbed-narrative">
+        <section id="tab-2" title="Side">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kata-KneelingBasicPosition_Side.mp4"
           %}

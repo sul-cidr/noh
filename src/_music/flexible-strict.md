@@ -24,20 +24,12 @@ third-level-menu-active: otsuzumi
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section
-                id="Strict_setting"
-                title="Strict setting"
-                class="tabbed-narrative"
-              >
+              <section id="Strict_setting" title="Strict setting">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Kakegoe-Strict_Score_sl.mp4"
                 %}
               </section>
-              <section
-                id="Flexible_setting"
-                title="Flexible setting"
-                class="tabbed-narrative"
-              >
+              <section id="Flexible_setting" title="Flexible setting">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Kakegoe-Flexible_Score_sl.mp4"
                 %}
