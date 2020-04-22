@@ -28,42 +28,26 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "7",
-          }
-        }
+        dan="7"
         duration={106}
         intensity="6"
         key="Oshirabe"
         left="0%"
         maxIntensity={21}
         name="Oshirabe"
-        shodanIndex={
-          Object {
-            "number": "1",
-          }
-        }
+        shodanIndex="1"
         startTime={0}
         totalDuration={235}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "8",
-          }
-        }
+        dan="8"
         duration={129}
         intensity="0"
         key="Musicians walk in"
         left="0%"
         maxIntensity={21}
         name="Musicians walk in"
-        shodanIndex={
-          Object {
-            "number": "2",
-          }
-        }
+        shodanIndex="2"
         startTime={106}
         totalDuration={235}
       />
@@ -93,107 +77,62 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Enters",
-          }
-        }
+        dan="1"
         duration={80}
         intensity="3"
         key="Nanori"
         left="0%"
         maxIntensity={21}
         name="Nanori"
-        shodanIndex={
-          Object {
-            "number": "3",
-          }
-        }
+        shodanIndex="3"
         startTime={235}
         totalDuration={503}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Enters",
-          }
-        }
+        dan="1"
         duration={207}
         intensity="4"
         key="Mondō-1"
         left="0%"
         maxIntensity={21}
         name="Mondō-1"
-        shodanIndex={
-          Object {
-            "number": "4",
-          }
-        }
+        shodanIndex="4"
         startTime={315}
         totalDuration={503}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Enters",
-          }
-        }
+        dan="1"
         duration={124}
         intensity="22"
         key="Ageuta-1"
         left="0%"
         maxIntensity={21}
         name="Ageuta-1"
-        shodanIndex={
-          Object {
-            "number": "5",
-          }
-        }
+        shodanIndex="5"
         startTime={522}
         totalDuration={503}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Enters",
-          }
-        }
+        dan="1"
         duration={14}
         intensity="4"
         key="Dialogue"
         left="0%"
         maxIntensity={21}
         name="Dialogue"
-        shodanIndex={
-          Object {
-            "number": "6",
-          }
-        }
+        shodanIndex="6"
         startTime={646}
         totalDuration={503}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Enters",
-          }
-        }
+        dan="1"
         duration={78}
         intensity="3"
         key="Monologue"
         left="0%"
         maxIntensity={21}
         name="Monologue"
-        shodanIndex={
-          Object {
-            "number": "7",
-          }
-        }
+        shodanIndex="7"
         startTime={660}
         totalDuration={503}
       />
@@ -209,44 +148,26 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "3",
-            "value": "Dialogue",
-          }
-        }
+        dan="3"
         duration={160}
         intensity="4"
         key="Mondō-2"
         left="0%"
         maxIntensity={21}
         name="Mondō-2"
-        shodanIndex={
-          Object {
-            "number": "8",
-          }
-        }
+        shodanIndex="8"
         startTime={738}
         totalDuration={277}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "3",
-            "value": "Dialogue",
-          }
-        }
+        dan="3"
         duration={117}
         intensity="19"
         key="Ageuta-2"
         left="0%"
         maxIntensity={21}
         name="Ageuta-2"
-        shodanIndex={
-          Object {
-            "number": "9",
-          }
-        }
+        shodanIndex="9"
         startTime={898}
         totalDuration={277}
       />
@@ -262,65 +183,38 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "4",
-            "value": "Shite Performs",
-          }
-        }
+        dan="4"
         duration={61}
         intensity="14"
         key="Kuri"
         left="0%"
         maxIntensity={21}
         name="Kuri"
-        shodanIndex={
-          Object {
-            "number": "10",
-          }
-        }
+        shodanIndex="10"
         startTime={1015}
         totalDuration={732}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "4",
-            "value": "Shite Performs",
-          }
-        }
+        dan="4"
         duration={118}
         intensity="11"
         key="Sashi"
         left="0%"
         maxIntensity={21}
         name="Sashi"
-        shodanIndex={
-          Object {
-            "number": "11",
-          }
-        }
+        shodanIndex="11"
         startTime={1076}
         totalDuration={732}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "4",
-            "value": "Shite Performs",
-          }
-        }
+        dan="4"
         duration={553}
         intensity="31"
         key="Kuse"
         left="0%"
         maxIntensity={21}
         name="Kuse"
-        shodanIndex={
-          Object {
-            "number": "12",
-          }
-        }
+        shodanIndex="12"
         startTime={1194}
         totalDuration={732}
       />
@@ -336,65 +230,38 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "5",
-            "value": "Shite Exits",
-          }
-        }
+        dan="5"
         duration={58}
         intensity="9"
         key="Kakeai-1"
         left="0%"
         maxIntensity={21}
         name="Kakeai-1"
-        shodanIndex={
-          Object {
-            "number": "13",
-          }
-        }
+        shodanIndex="13"
         startTime={1747}
         totalDuration={342}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "5",
-            "value": "Shite Exits",
-          }
-        }
+        dan="5"
         duration={75}
         intensity="25"
         key="Ageuta-3"
         left="0%"
         maxIntensity={21}
         name="Ageuta-3"
-        shodanIndex={
-          Object {
-            "number": "14",
-          }
-        }
+        shodanIndex="14"
         startTime={1805}
         totalDuration={342}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "5",
-            "value": "Shite Exits",
-          }
-        }
+        dan="5"
         duration={209}
         intensity="12"
         key="Raijo"
         left="0%"
         maxIntensity={21}
         name="Raijo"
-        shodanIndex={
-          Object {
-            "number": "15",
-          }
-        }
+        shodanIndex="15"
         startTime={1880}
         totalDuration={342}
       />
@@ -424,42 +291,26 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "6",
-          }
-        }
+        dan="6"
         duration={487}
         intensity="3"
         key="Ai-kyōgen"
         left="0%"
         maxIntensity={21}
         name="Ai-kyōgen"
-        shodanIndex={
-          Object {
-            "number": "16",
-          }
-        }
+        shodanIndex="16"
         startTime={2089}
         totalDuration={625}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "8",
-          }
-        }
+        dan="8"
         duration={138}
         intensity="0"
         key="Prop is brought in"
         left="0%"
         maxIntensity={21}
         name="Prop is brought in"
-        shodanIndex={
-          Object {
-            "number": "17",
-          }
-        }
+        shodanIndex="17"
         startTime={2576}
         totalDuration={625}
       />
@@ -489,44 +340,26 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Waits",
-          }
-        }
+        dan="1"
         duration={196}
         intensity="14"
         key="Notto"
         left="0%"
         maxIntensity={21}
         name="Notto"
-        shodanIndex={
-          Object {
-            "number": "18",
-          }
-        }
+        shodanIndex="18"
         startTime={2714}
         totalDuration={353}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "1",
-            "value": "Waki Waits",
-          }
-        }
+        dan="1"
         duration={157}
         intensity="21"
         key="Noriji-1"
         left="0%"
         maxIntensity={21}
         name="Noriji-1"
-        shodanIndex={
-          Object {
-            "number": "19",
-          }
-        }
+        shodanIndex="19"
         startTime={2910}
         totalDuration={353}
       />
@@ -542,23 +375,14 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "2",
-            "value": "Shite Re-enters",
-          }
-        }
+        dan="2"
         duration={83}
         intensity="24"
         key="Hayafue"
         left="0%"
         maxIntensity={21}
         name="Hayafue"
-        shodanIndex={
-          Object {
-            "number": "20",
-          }
-        }
+        shodanIndex="20"
         startTime={3067}
         totalDuration={83}
       />
@@ -574,65 +398,38 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "4",
-            "value": "Shite Performs",
-          }
-        }
+        dan="4"
         duration={48}
         intensity="30"
         key="Noriji-2"
         left="0%"
         maxIntensity={21}
         name="Noriji-2"
-        shodanIndex={
-          Object {
-            "number": "21",
-          }
-        }
+        shodanIndex="21"
         startTime={3150}
         totalDuration={220}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "4",
-            "value": "Shite Performs",
-          }
-        }
+        dan="4"
         duration={56}
         intensity="34"
         key="Maibataraki"
         left="0%"
         maxIntensity={21}
         name="Maibataraki"
-        shodanIndex={
-          Object {
-            "number": "22",
-          }
-        }
+        shodanIndex="22"
         startTime={3198}
         totalDuration={220}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "4",
-            "value": "Shite Performs",
-          }
-        }
+        dan="4"
         duration={116}
         intensity="28"
         key="Noriji-3"
         left="0%"
         maxIntensity={21}
         name="Noriji-3"
-        shodanIndex={
-          Object {
-            "number": "23",
-          }
-        }
+        shodanIndex="23"
         startTime={3254}
         totalDuration={220}
       />
@@ -648,44 +445,26 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "5",
-            "value": "Shite Exits",
-          }
-        }
+        dan="5"
         duration={30}
         intensity="9"
         key="Kakeai-2"
         left="0%"
         maxIntensity={21}
         name="Kakeai-2"
-        shodanIndex={
-          Object {
-            "number": "24",
-          }
-        }
+        shodanIndex="24"
         startTime={3370}
         totalDuration={166}
       />
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "5",
-            "value": "Shite Exits",
-          }
-        }
+        dan="5"
         duration={136}
         intensity="32"
         key="Kiri"
         left="0%"
         maxIntensity={21}
         name="Kiri"
-        shodanIndex={
-          Object {
-            "number": "25",
-          }
-        }
+        shodanIndex="25"
         startTime={3400}
         totalDuration={166}
       />
@@ -715,22 +494,14 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       }
     >
       <Connect(ShodanTimelineBlock)
-        dan={
-          Object {
-            "number": "8",
-          }
-        }
+        dan="8"
         duration={-1736}
         intensity="0"
         key="Exit of the Musicians"
         left="0%"
         maxIntensity={21}
         name="Exit of the Musicians"
-        shodanIndex={
-          Object {
-            "number": "26",
-          }
-        }
+        shodanIndex="26"
         startTime={3536}
         totalDuration={-1736}
       />
