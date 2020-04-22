@@ -38,6 +38,7 @@ class ShodanTimelineBlock extends Component {
         }}
         data-index={this.props.shodanIndex}
         data-tooltip={this.props.name}
+        data-is-shodan={this.props.isShodan}
         onClick={() => this.handleClick()}
         role="link"
         tabIndex={0}
@@ -56,7 +57,8 @@ ShodanTimelineBlock.propTypes = {
   duration: PropTypes.number.isRequired,
   totalDuration: PropTypes.number.isRequired,
   updateStartTime: PropTypes.func,
-  shodanIndex: PropTypes.string.isRequired
+  shodanIndex: PropTypes.string.isRequired,
+  isShodan: PropTypes.bool.isRequired
 };
 
 ShodanTimelineBlock.defaultProps = {

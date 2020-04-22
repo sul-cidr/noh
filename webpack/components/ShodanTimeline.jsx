@@ -35,6 +35,7 @@ class ShodanTimeline extends Component {
           totalDuration={danDuration}
           dan={section.dan.number}
           shodanIndex={section.shodanIndex.number}
+          isShodan={section.shodanType.value !== undefined}
         />
       );
     });
