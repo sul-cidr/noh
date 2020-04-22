@@ -17,6 +17,7 @@ describe("<ShodanTimelineBlock>", () => {
         duration={10}
         totalDuration={30}
         shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -33,6 +34,7 @@ describe("<ShodanTimelineBlock>", () => {
         duration={10}
         totalDuration={30}
         shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -49,6 +51,7 @@ describe("<ShodanTimelineBlock>", () => {
         duration={10}
         totalDuration={30}
         shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -65,6 +68,7 @@ describe("<ShodanTimelineBlock>", () => {
         duration={10}
         totalDuration={30}
         shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -84,6 +88,7 @@ describe("<ShodanTimelineBlock>", () => {
           duration={10}
           totalDuration={30}
           shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -104,6 +109,7 @@ describe("<ShodanTimelineBlock>", () => {
           duration={10}
           totalDuration={30}
           shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -130,6 +136,7 @@ describe("<ShodanTimelineBlock>", () => {
           duration={10}
           totalDuration={30}
           shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -159,6 +166,7 @@ describe("<ShodanTimelineBlock>", () => {
           duration={10}
           totalDuration={30}
           shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -181,6 +189,7 @@ describe("<ShodanTimelineBlock>", () => {
           duration={10}
           totalDuration={30}
           shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
