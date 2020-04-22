@@ -55,7 +55,7 @@ layout: home
     <h2 id="Elements" class="home-section__title">Elements</h2>
     <p class="home__intermedia-description">
       The following pages offer introductions to the formal design of Noh, and
-      the building blocks of individual layers.
+      the building blocks of individual media layers.
     </p>
     <div class="home-elements">
       <!-- prettier-ignore -->

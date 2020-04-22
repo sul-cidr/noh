@@ -19,9 +19,9 @@ permalink: /credits/
         <strong>François Rose</strong>, Stanford University
       </p>
       <p>
-        The project is a cooperation of the Research Center for Japanese
-        Traditional Music at Kyoto City University of Arts and the Department of
-        Music at Stanford University with the Kongō School of Noh.
+        The project is a cooperation of the Research Institute for Japanese
+        Traditional Music at Kyoto City University of Arts, the Department of
+        Music at Stanford University and the Kongō School of Noh.
       </p>
 
       <h4>Principal Contributors and Advisors</h4>
