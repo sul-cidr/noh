@@ -1,5 +1,6 @@
-$shimai-dark-border: 0.0625rem solid $brown;
-$shimai-header-border: 0.0625rem solid $beige-dark;
+$shimai-dark-border: 0.0625rem solid #ddd8d5;
+$shimai-border: 0.0625rem solid $beige-dark;
+
 .shimai-table {
   margin-bottom: 4rem;
   margin-top: 4rem;
@@ -12,16 +13,24 @@ $shimai-header-border: 0.0625rem solid $beige-dark;
 
 .shimai-table__column {
   background-color: $white;
-  border-right: $border;
-  border-bottom: $border;
+  border-right: $shimai-border;
+  border-bottom: $shimai-border;
   color: $brown;
   padding: 0.5rem;
   vertical-align: top;
+
+  &:last-child {
+    border-right: none;
+  }
 
   @include text(xs, "text");
 
   p {
     @include text(xs, "text");
+  }
+
+  strong {
+    font-family: $font-text;
   }
 
   &.greentext {
@@ -51,9 +60,8 @@ $shimai-header-border: 0.0625rem solid $beige-dark;
 .shimai-table__row--header {
   .shimai-table__column {
     background-color: $beige-dark;
-    border-bottom: $shimai-header-border;
-    border-right: $shimai-header-border;
-    border-top: $shimai-header-border;
+    border-bottom: $shimai-dark-border;
+    border-right: $shimai-dark-border;
     color: $green;
     font-weight: $fw-bold;
     text-align: center;
