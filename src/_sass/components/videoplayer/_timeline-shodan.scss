@@ -26,10 +26,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
 @mixin highlight($color, $alpha, $alpha-hover) {
   background-color: rgba($color, $alpha);
 
-  &.dan--highlight {
-    background-color: rgba($color, $alpha-hover);
-  }
-
+  &.dan--highlight,
   &:hover {
     background-color: rgba($color, $alpha-hover);
     .shodan-map__item {
@@ -205,7 +202,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
   }
 
   &.shodan-map__item--highlight {
-    background-color: $shodan-bg-color-hover;
+    background-color: $shodan-bg-color-hover !important;
   }
 }
 
