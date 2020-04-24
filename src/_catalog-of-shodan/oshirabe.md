@@ -101,9 +101,12 @@ second-level-menu-active: catalog-shodan
     </div>
     <h3>Examples in the Plays:</h3>
     <p>
-      <a href="/hashitomi/oshirabe/" target="_blank">Hashitomi - Oshirabe</a
+      <a href="/hashitomi/oshirabe/" class="link__level-2" target="_blank"
+        >Hashitomi - Oshirabe</a
       ><br />
-      <a href="/kokaji/oshirabe/" target="_blank">Kokaji - Oshirabe</a>
+      <a href="/kokaji/oshirabe/" class="link__level-2" target="_blank"
+        >Kokaji - Oshirabe</a
+      >
     </p>
   </div>
 </main>

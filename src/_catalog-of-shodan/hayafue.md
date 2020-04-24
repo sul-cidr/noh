@@ -83,7 +83,9 @@ second-level-menu-active: catalog-shodan
     </div>
     <h3>Example in the Play:</h3>
     <p>
-      <a href="/kokaji/hayafue/" target="_blank">Koakji - Hayafue</a>
+      <a href="/kokaji/hayafue/" class="link__level-2" target="_blank"
+        >Koakji - Hayafue</a
+      >
     </p>
   </div>
 </main>
