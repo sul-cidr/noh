@@ -147,7 +147,8 @@ $shodan-bg-color-active: rgba($red, 0.6);
     border: none;
     padding-top: 0;
 
-    &::before {
+    &::before,
+    &::after {
       content: none;
     }
 
@@ -238,11 +239,12 @@ $shodan-bg-color-active: rgba($red, 0.6);
       display: flex;
       height: 2rem;
     }
-
-    .dan-no-tooltip {
-      &::before,
-      &::after {
-        content: none;
+    .dan {
+      &:hover {
+        &::before,
+        &::after {
+          display: none;
+        }
       }
     }
   }
