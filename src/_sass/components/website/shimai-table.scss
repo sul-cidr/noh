@@ -8,9 +8,6 @@ $shimai-border: 0.0625rem solid $beige-dark;
   @include wrapper();
 }
 
-.shimai-table__row {
-}
-
 .shimai-table__column {
   background-color: $white;
   border-right: $shimai-border;
@@ -25,35 +22,8 @@ $shimai-border: 0.0625rem solid $beige-dark;
 
   @include text(xs, "text");
 
-  p {
-    @include text(xs, "text");
-  }
-
   strong {
     font-family: $font-text;
-  }
-
-  &.greentext {
-    color: $green;
-    font-weight: $fw-semibold;
-    @include text(xxs);
-    @include uppercase();
-  }
-
-  &.beige {
-    background-color: rgba($beige-light, 1);
-  }
-  &.beige-dark {
-    background-color: rgba($beige-dark, 0.6);
-  }
-  &.green {
-    background-color: rgba($green, 0.1);
-  }
-  &.red {
-    background-color: rgba($red, 0.1);
-  }
-  &.white {
-    background-color: $white;
   }
 }
 
