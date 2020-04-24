@@ -1,0 +1,47 @@
+$ioi-dark-border: 0.0625rem solid #ddd8d5;
+$ioi-border: 0.0625rem solid $beige-dark;
+
+.ioi-table {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  width: 100%;
+  @include wrapper();
+}
+
+.ioi-table__column {
+  background-color: $white;
+  border-right: $ioi-border;
+  border-bottom: $ioi-border;
+  color: $brown;
+  padding: 0.5rem;
+  vertical-align: middle;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @include text(xs, "text");
+
+  strong {
+    font-family: $font-text;
+  }
+}
+
+.ioi-table__row--header {
+  .ioi-table__column {
+    background-color: $beige-dark;
+    border-bottom: $ioi-dark-border;
+    border-right: $ioi-dark-border;
+    color: $green;
+    font-weight: $fw-bold;
+    text-align: center;
+    vertical-align: middle;
+
+    @include text(xxs);
+    @include uppercase();
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
