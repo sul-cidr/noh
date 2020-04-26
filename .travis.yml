@@ -21,7 +21,7 @@ script:
   - yarn lint
 
 before_deploy:
-  - yarn build
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then JEKYLL_ENV=production yarn build; else yarn build; fi
 
 env:
   global:
