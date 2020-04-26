@@ -181,7 +181,10 @@ permalink: /credits/
       </p>
 
       <h2>SPECIAL THANKS</h2>
-      <p>TOKUMARU Yoshihiko<br />YUASA Joji<br />TAKAHASHI Terumi</p>
+      <p>
+        TOKUMARU Yoshihiko<br />YUASA Joji<br />YAMANAKA Reiko<br />TAKAHASHI
+        Terumi
+      </p>
     </div>
   </div>
 </main>
