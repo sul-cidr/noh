@@ -24,9 +24,10 @@ class TabbedNarrative extends React.Component {
             sectionIndices.forEach(index => {
               container
                 .querySelectorAll(`[data-index="${index}"]`)
-                .forEach(shodanBlock =>
-                  shodanBlock.classList.add("shodan-map__item--highlight")
-                );
+                .forEach(shodanBlock => {
+                  shodanBlock.classList.add("shodan-map__item--highlight");
+                  shodanBlock.parentElement.classList.add("dan--highlight");
+                });
             });
           });
           targetElem.addEventListener("mouseout", (/* event */) => {
@@ -36,9 +37,10 @@ class TabbedNarrative extends React.Component {
             sectionIndices.forEach(index => {
               container
                 .querySelectorAll(`[data-index="${index}"]`)
-                .forEach(shodanBlock =>
-                  shodanBlock.classList.remove("shodan-map__item--highlight")
-                );
+                .forEach(shodanBlock => {
+                  shodanBlock.classList.remove("shodan-map__item--highlight");
+                  shodanBlock.parentElement.classList.remove("dan--highlight");
+                });
             });
           });
         });
