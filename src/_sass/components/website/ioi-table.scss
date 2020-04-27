@@ -2,10 +2,9 @@ $ioi-dark-border: 0.0625rem solid #ddd8d5;
 $ioi-border: 0.0625rem solid $beige-dark;
 
 .ioi-table {
-  margin-bottom: 4rem;
-  margin-top: 4rem;
-  width: 100%;
-  @include wrapper();
+  margin: 4rem auto;
+  min-width: 50%;
+  max-width: 100%;
 }
 
 .ioi-table__column {
@@ -13,7 +12,8 @@ $ioi-border: 0.0625rem solid $beige-dark;
   border-right: $ioi-border;
   border-bottom: $ioi-border;
   color: $brown;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
   vertical-align: middle;
 
   &:last-child {
@@ -24,6 +24,10 @@ $ioi-border: 0.0625rem solid $beige-dark;
 
   strong {
     font-family: $font-text;
+  }
+
+  &.remove-border--bottom {
+    border-bottom: none;
   }
 }
 
