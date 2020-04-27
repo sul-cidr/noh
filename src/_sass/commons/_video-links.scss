@@ -29,3 +29,15 @@ time,
     padding-left: 0.1rem;
   }
 }
+
+.link__level-2 {
+  &::after {
+    color: rgba($red, 1);
+    content: $fa-var-play-circle;
+    display: inline-block;
+    font-family: $font-icon;
+    font-size: 80%;
+    margin-left: 0.25rem;
+    padding-left: 0.1rem;
+  }
+}
