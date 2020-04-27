@@ -16,6 +16,8 @@ describe("<ShodanTimelineBlock>", () => {
         maxIntensity={21}
         duration={10}
         totalDuration={30}
+        shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -31,6 +33,8 @@ describe("<ShodanTimelineBlock>", () => {
         maxIntensity={21}
         duration={10}
         totalDuration={30}
+        shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -46,23 +50,8 @@ describe("<ShodanTimelineBlock>", () => {
         maxIntensity={21}
         duration={10}
         totalDuration={30}
-      />
-    );
-    expect(component).toMatchSnapshot();
-  });
-
-  it("renders as expected with subdivision info", () => {
-    const danInfo = { number: "5", value: "Shite Exits" };
-    const component = shallow(
-      <UnwrappedShodanTimelineBlock
-        name="Kiri"
-        dan={danInfo}
-        startTime={10}
-        left="8%"
-        intensity="15"
-        maxIntensity={21}
-        duration={10}
-        totalDuration={30}
+        shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -78,6 +67,8 @@ describe("<ShodanTimelineBlock>", () => {
         maxIntensity={21}
         duration={10}
         totalDuration={30}
+        shodanIndex="1"
+        isShodan
       />
     );
     expect(component).toMatchSnapshot();
@@ -96,6 +87,8 @@ describe("<ShodanTimelineBlock>", () => {
           maxIntensity={21}
           duration={10}
           totalDuration={30}
+          shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -115,6 +108,8 @@ describe("<ShodanTimelineBlock>", () => {
           maxIntensity={21}
           duration={10}
           totalDuration={30}
+          shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -140,6 +135,8 @@ describe("<ShodanTimelineBlock>", () => {
           maxIntensity={21}
           duration={10}
           totalDuration={30}
+          shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -168,6 +165,8 @@ describe("<ShodanTimelineBlock>", () => {
           maxIntensity={21}
           duration={10}
           totalDuration={30}
+          shodanIndex="1"
+          isShodan
         />
       </Provider>
     );
@@ -189,6 +188,8 @@ describe("<ShodanTimelineBlock>", () => {
           maxIntensity={21}
           duration={10}
           totalDuration={30}
+          shodanIndex="1"
+          isShodan
         />
       </Provider>
     );

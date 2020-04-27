@@ -33,8 +33,9 @@ class ShodanTimeline extends Component {
           intensity={section.intensity.number}
           duration={duration}
           totalDuration={danDuration}
-          dan={section.dan}
-          shodanIndex={section.shodanIndex}
+          dan={section.dan.number}
+          shodanIndex={section.shodanIndex.number}
+          isShodan={section.shodanType.value !== undefined}
         />
       );
     });

@@ -29,18 +29,16 @@ class ShodanTimelineBlock extends Component {
       window.location.pathname === this.props.url
         ? "shodan-map__item--active"
         : "";
-    const tooltipText = this.props.dan.value
-      ? `${this.props.dan.value}: ${this.props.name}`
-      : `${this.props.name}`;
     return (
       <div
-        className={`shodan-map__item ${pointer} ${active} shodan-map__item--${this.props.shodanIndex.number}`}
+        className={`shodan-map__item ${pointer} ${active} shodan-map__item--${this.props.shodanIndex}`}
         style={{
           width: `${durationNum}%`,
           height: `${heightNum}%`
         }}
-        data-index={this.props.shodanIndex.number}
-        data-tooltip={tooltipText}
+        data-index={this.props.shodanIndex}
+        data-tooltip={this.props.name}
+        data-is-shodan={this.props.isShodan}
         onClick={() => this.handleClick()}
         role="link"
         tabIndex={0}
@@ -59,16 +57,14 @@ ShodanTimelineBlock.propTypes = {
   duration: PropTypes.number.isRequired,
   totalDuration: PropTypes.number.isRequired,
   updateStartTime: PropTypes.func,
-  dan: PropTypes.shape({ number: PropTypes.string, value: PropTypes.string }),
-  shodanIndex: PropTypes.shape({ number: PropTypes.string })
+  shodanIndex: PropTypes.string.isRequired,
+  isShodan: PropTypes.bool.isRequired
 };
 
 ShodanTimelineBlock.defaultProps = {
   url: "",
   startTime: null,
-  updateStartTime: null,
-  dan: { number: "", value: "" },
-  shodanIndex: { number: "" }
+  updateStartTime: null
 };
 
 const mapDispatchToProps = dispatch => ({
