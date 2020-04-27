@@ -550,9 +550,13 @@ permalink: /shimai-dances/
           %}
 
           <table class="shimai-table">
+            <tr class="shimai-table__row--header">
+              <td class="shimai-table__column" colspan="4">Text</td>
+              <td class="shimai-table__column" colspan="2">Kata</td>
+            </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="4">
-                Section 1 – Part I
+                <strong>Section 1 – Part I</strong>
               </td>
               <td class="shimai-table__column" rowspan="14">Jiutai</td>
               <td class="shimai-table__column">Mata waga chô no sono hajime</td>
@@ -582,7 +586,7 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="10">
-                Section 1 - Part II
+                <strong>Section 1 - Part II</strong>
               </td>
               <td class="shimai-table__column">Kiui wo</td>
               <td class="shimai-table__column">The wild barbarians!</td>
@@ -648,7 +652,7 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="11">
-                Section 2 – Part I
+                <strong>Section 2 – Part I</strong>
               </td>
               <td class="shimai-table__column">Shite</td>
               <td class="shimai-table__column">
@@ -716,7 +720,7 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="7">
-                Section 2 - Part II
+                <strong>Section 2 - Part II</strong>
               </td>
               <td class="shimai-table__column">
                 Koro wa Kami-na-zuki hatsu ka
@@ -765,12 +769,12 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="9">
-                Section 2 - Part III
+                <strong>Section 2 - Part III</strong>
               </td>
               <td class="shimai-table__column" rowspan="2">Shite</td>
               <td class="shimai-table__column">Yebisu</td>
               <td class="shimai-table__column">The barbarians</td>
-              <td class="shimai-table__column" rowspan="12">
+              <td class="shimai-table__column" rowspan="2">
                 8. R-L-R head motion
               </td>
             </tr>
@@ -788,7 +792,7 @@ permalink: /shimai-dances/
               <td class="shimai-table__column">
                 Set fire to the grasses of the withered fields,
               </td>
-              <td class="shimai-table__column" rowspan="12">
+              <td class="shimai-table__column" rowspan="2">
                 8. Sit back on knee
               </td>
             </tr>
@@ -829,7 +833,7 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="27">
-                Section 3 – Part I
+                <strong>Section 3 – Part I</strong>
               </td>
               <td class="shimai-table__column" rowspan="3">Shite</td>
               <td class="shimai-table__column" rowspan="3">
@@ -855,7 +859,9 @@ permalink: /shimai-dances/
                 The Prince, drawing his sword
               </td>
               <td class="shimai-table__column">8. Stand up</td>
-              <td class="shimai-table__column" rowspan="4">Opening sequence</td>
+              <td class="shimai-table__column" rowspan="4">
+                <strong>Opening sequence</strong>
+              </td>
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column">8. Four steps to Square 9</td>
@@ -969,13 +975,13 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="6">
-                Section 3 – Part II
+                <strong>Section 3 – Part II</strong>
               </td>
               <td class="shimai-table__column">Sono nochi shi-kai osamarite</td>
               <td class="shimai-table__column">So in later years the Empire</td>
               <td class="shimai-table__column">5. Right Circle (5-2-8)</td>
               <td class="shimai-table__column" rowspan="6">
-                Closing sequence – 1st segment
+                <strong>Closing sequence – 1st segment</strong>
               </td>
             </tr>
             <tr class="shimai-table__row">
@@ -1011,13 +1017,13 @@ permalink: /shimai-dances/
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column" rowspan="13">
-                Section 3 - Part III
+                <strong>Section 3 - Part III</strong>
               </td>
               <td class="shimai-table__column">Tadaima</td>
               <td class="shimai-table__column">And now</td>
               <td class="shimai-table__column">8. Turn towards Square 5</td>
               <td class="shimai-table__column" rowspan="9">
-                Closing sequence – 2nd segment
+                <strong>Closing sequence – 2nd segment</strong>
               </td>
             </tr>
             <tr class="shimai-table__row">
@@ -1071,7 +1077,7 @@ permalink: /shimai-dances/
               <td class="shimai-table__column">Set your heart at rest</td>
               <td class="shimai-table__column">9. Turn facing front</td>
               <td class="shimai-table__column" rowspan="4">
-                Closing sequence – 3rd segment
+                <strong>Closing sequence – 3rd segment</strong>
               </td>
             </tr>
             <tr class="shimai-table__row">
