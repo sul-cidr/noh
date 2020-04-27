@@ -4,6 +4,9 @@ $shimai-border: 0.0625rem solid $beige-dark;
 .shimai-table {
   margin-bottom: 4rem;
   margin-top: 4rem;
+  border-collapse: collapse;
+  border-style: hidden;
+  border-bottom: $shimai-border;
   width: 100%;
   @include wrapper();
 }
@@ -15,10 +18,6 @@ $shimai-border: 0.0625rem solid $beige-dark;
   color: $brown;
   padding: 0.5rem;
   vertical-align: top;
-
-  &:last-child {
-    border-right: none;
-  }
 
   @include text(xs, "text");
 
@@ -39,9 +38,5 @@ $shimai-border: 0.0625rem solid $beige-dark;
 
     @include text(xxs);
     @include uppercase();
-
-    &:last-child {
-      border-right: none;
-    }
   }
 }
