@@ -10,6 +10,24 @@ permalink: /using-the-site/
     <div class="wrapper wrapper--small">
       <h1>USING THE SITE</h1>
 
+      <h2>Navigation</h2>
+      <p>
+        The site's <a href="https://noh.stanford.edu/">front page</a> offers an
+        overview of the full contents of <i>Noh as Intermedia</i>, and most
+        sections of the site are easily reachable via the drop-down menu items
+        at the top of each page. Items under the <strong>Elements</strong> menu
+        lead to numerous pages and sub-pages providing descriptions and examples
+        of the formal design of Noh and its diverse layers.
+      </p>
+      <p>
+        The two main links under the <strong>Plays</strong> menu launch an
+        interactive interface providing an in-depth intermedia analysis
+        synchronized with full-length recordings of two contrasting Noh plays.
+        The two levels of this interface (one for the entire play, and one for
+        each section) include a button for the <strong>Guide</strong> in the
+        upper right, which highlights the main features of the interface.
+      </p>
+
       <h2>Suggested Citations</h2>
       <h3>Citing <i>Noh as Intermedia</i></h3>
       <p>
