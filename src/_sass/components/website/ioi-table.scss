@@ -1,0 +1,51 @@
+$ioi-dark-border: 0.0625rem solid #ddd8d5;
+$ioi-border: 0.0625rem solid $beige-dark;
+
+.ioi-table {
+  margin: 4rem auto;
+  min-width: 50%;
+  max-width: 100%;
+}
+
+.ioi-table__column {
+  background-color: $white;
+  border-right: $ioi-border;
+  border-bottom: $ioi-border;
+  color: $brown;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @include text(xs, "text");
+
+  strong {
+    font-family: $font-text;
+  }
+
+  &.remove-border--bottom {
+    border-bottom: none;
+  }
+}
+
+.ioi-table__row--header {
+  .ioi-table__column {
+    background-color: $beige-dark;
+    border-bottom: $ioi-dark-border;
+    border-right: $ioi-dark-border;
+    color: $green;
+    font-weight: $fw-bold;
+    text-align: center;
+    vertical-align: middle;
+
+    @include text(xxs);
+    @include uppercase();
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

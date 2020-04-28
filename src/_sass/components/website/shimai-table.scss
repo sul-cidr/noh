@@ -1,0 +1,42 @@
+$shimai-dark-border: 0.0625rem solid #ddd8d5;
+$shimai-border: 0.0625rem solid $beige-dark;
+
+.shimai-table {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  border-collapse: collapse;
+  border-style: hidden;
+  border-bottom: $shimai-border;
+  width: 100%;
+  @include wrapper();
+}
+
+.shimai-table__column {
+  background-color: $white;
+  border-right: $shimai-border;
+  border-bottom: $shimai-border;
+  color: $brown;
+  padding: 0.5rem;
+  vertical-align: top;
+
+  @include text(xs, "text");
+
+  strong {
+    font-family: $font-text;
+  }
+}
+
+.shimai-table__row--header {
+  .shimai-table__column {
+    background-color: $beige-dark;
+    border-bottom: $shimai-dark-border;
+    border-right: $shimai-dark-border;
+    color: $green;
+    font-weight: $fw-bold;
+    text-align: center;
+    vertical-align: middle;
+
+    @include text(xxs);
+    @include uppercase();
+  }
+}
