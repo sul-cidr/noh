@@ -23,9 +23,10 @@ $shodan-bg-color-active: rgba($red, 0.6);
   }
 }
 
-@mixin hover($color, $alpha, $alpha-hover) {
+@mixin highlight($color, $alpha, $alpha-hover) {
   background-color: rgba($color, $alpha);
 
+  &.dan--highlight,
   &:hover {
     background-color: rgba($color, $alpha-hover);
     .shodan-map__item {
@@ -100,24 +101,38 @@ $shodan-bg-color-active: rgba($red, 0.6);
   @include separator();
 
   &.dan-1 {
-    @include hover($dan-1, $alpha, $alpha-hover);
+    @include highlight($dan-1, $alpha, $alpha-hover);
   }
   &.dan-2 {
-    @include hover($dan-2, $alpha, $alpha-hover);
+    @include highlight($dan-2, $alpha, $alpha-hover);
   }
   &.dan-3 {
-    @include hover($dan-3, $alpha, $alpha-hover);
+    @include highlight($dan-3, $alpha, $alpha-hover);
   }
   &.dan-4 {
-    @include hover($dan-4, $alpha, $alpha-hover);
+    @include highlight($dan-4, $alpha, $alpha-hover);
   }
   &.dan-5 {
-    @include hover($dan-5, $alpha, $alpha-hover);
+    @include highlight($dan-5, $alpha, $alpha-hover);
   }
   &.dan-6,
   &.dan-7,
   &.dan-8 {
-    @include hover($white, 0, 0.1);
+    @include highlight($white, 0, 0.1);
+
+    .shodan-map__item {
+      &[data-is-shodan="false"] {
+        background-color: $white;
+      }
+
+      &:hover {
+        background-color: $shodan-bg-color-hover;
+
+        &[data-is-shodan="false"] {
+          background-color: $white;
+        }
+      }
+    }
   }
 
   .shodan-timeline__container & {
@@ -133,8 +148,17 @@ $shodan-bg-color-active: rgba($red, 0.6);
       background-color: $white;
       .shodan-map__item {
         background-color: $shodan-bg-color-dan-hover;
+
+        &[data-is-shodan="false"] {
+          background-color: $white;
+        }
+
         &:hover {
           background-color: $shodan-bg-color-hover;
+
+          &[data-is-shodan="false"] {
+            background-color: $white;
+          }
         }
 
         &.shodan-map__item--active {
@@ -155,8 +179,16 @@ $shodan-bg-color-active: rgba($red, 0.6);
   min-height: 0.5rem;
   position: relative;
 
+  &[data-is-shodan="false"] {
+    background-color: $white;
+  }
+
   &:hover {
     background-color: $shodan-bg-color-hover;
+
+    &[data-is-shodan="false"] {
+      background-color: $white;
+    }
   }
 
   @include tooltip-center();
@@ -170,7 +202,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
   }
 
   &.shodan-map__item--highlight {
-    background-color: $shodan-bg-color-hover;
+    background-color: $shodan-bg-color-hover !important;
   }
 }
 

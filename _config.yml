@@ -20,6 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Google Analytics
+google_analytics: UA-142238250-2
 
 # Build settings
 source: src

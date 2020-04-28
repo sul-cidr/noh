@@ -82,14 +82,8 @@ class ScoreControls extends Component {
       )
     ).substr(3);
     return (
-      <div
-        className="score-controls"
-        data-intro="The bar offers two methods of navigating within a shōdan"
-      >
-        <div
-          className="sentence-control"
-          data-intro="Clicking on either the backward or forward buttons around ‘Sentence’ updates the video and score by increments of sentences. "
-        >
+      <div className="score-controls" id="stepShodanControls">
+        <div className="sentence-control">
           <button
             className="sentence-control__prev"
             disabled={
@@ -129,10 +123,7 @@ class ScoreControls extends Component {
             <i className="fas fa-step-forward" />
           </button>
         </div>
-        <div
-          className="score-controls__time"
-          data-intro="Or scrolling this slider for increments in seconds."
-        >
+        <div className="score-controls__time">
           <div className="score-controls__elapsed-time">{elapsedTime}</div>
           <div className="video-progress">
             <TimelineScrubber
@@ -142,10 +133,7 @@ class ScoreControls extends Component {
           </div>
           <div className="score-controls__remaining-time">{remainingTime}</div>
         </div>
-        <div
-          className="score-controls__filters"
-          data-intro="Users can control the layers displayed in the intermedia score."
-        >
+        <div className="score-controls__filters" id="stepShodanFilters">
           <button
             className="score-controls__filters-button"
             onClick={this.showFilters}

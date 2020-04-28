@@ -61,7 +61,6 @@ function activateTab(hashEvent, eltID, scrollToElt) {
     var section = document.querySelector("section#" + eltID);
   } catch {
     section = null;
-    scrollToElt = false;
   }
   if (section) {
     [].forEach.call(section.parentElement.children, function(_section) {
