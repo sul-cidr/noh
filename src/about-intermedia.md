@@ -14,16 +14,16 @@ permalink: /about-intermedia/
       <div class="text-container">
         <h2 id="noh-as-intermedia">Noh as Intermedia</h2>
         <p>
-          The construction of Noh as intermedia is intricate, original and
-          somewhat paradoxical. Although media layers are independent of each
-          other in their specialization, they are expressively unified.
-          Materials in loose synchronicity seem inseparable as intermedia,
-          fitting together like a glove. Several guiding principles explain this
-          artistic feat. Not surprisingly, many can be traced back to the
-          general context in which Noh was developed – the culture of the
-          samurai, Japanese Buddhism and Chinese philosophy. It is a testament
-          to the ingenuity of Noh artists that while engaging deeply with ideals
-          of their time, they created an art that is timeless.
+          The intermedia construction of Noh is unique, elaborate and somewhat
+          paradoxical. Although media layers are independent of each other in
+          their specialization, they are expressively unified. Materials in
+          loose synchronicity seem inseparable as intermedia, fitting together
+          like a glove. Several guiding principles explain this artistic feat.
+          Not surprisingly, many can be traced back to the general context in
+          which Noh was developed – the culture of the samurai, Japanese
+          Buddhism and Chinese philosophy. It is a testament to the ingenuity of
+          Noh artists that while engaging deeply with ideals of their time, they
+          created an art that is timeless.
         </p>
         <h3 id="breath">
           The Breath of Yin and Yang
