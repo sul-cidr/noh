@@ -427,7 +427,9 @@ permalink: /shimai-dances/
               </td>
             </tr>
             <tr class="shimai-table__row">
-              <td class="shimai-table__column">9. Six steps towards 4.</td>
+              <td class="shimai-table__column">
+                9. Six steps towards Square 4.
+              </td>
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column">
@@ -465,7 +467,7 @@ permalink: /shimai-dances/
                 As nothing will be hidden in the morning light,
               </td>
               <td class="shimai-table__column">
-                4. Right step pivot, Right Circle to 9.
+                4. Right step pivot, Right Circle to Square 9.
               </td>
               <td class="shimai-table__column" rowspan="5">
                 <strong>2nd segment</strong>
@@ -479,7 +481,7 @@ permalink: /shimai-dances/
                 “Before dawn breaks, to the dwelling of the 'evening face',
               </td>
               <td class="shimai-table__column">
-                9. Right Step pivot, Go to 3.
+                9. Right Step pivot, Go to Square 3.
               </td>
             </tr>
             <tr class="shimai-table__row">
@@ -508,14 +510,14 @@ permalink: /shimai-dances/
               <td class="shimai-table__column" rowspan="4">
                 she says, and again goes within the lattice shutter,
               </td>
-              <td class="shimai-table__column">5. Go to 9.</td>
+              <td class="shimai-table__column">5. Go to Square 9.</td>
               <td class="shimai-table__column" rowspan="8">
                 <strong>Closing sequence</strong>
               </td>
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column">
-                9. Right Simple pivot, Go to 8.
+                9. Right Simple pivot, Go to Square 8.
               </td>
             </tr>
             <tr class="shimai-table__row">

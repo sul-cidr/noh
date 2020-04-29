@@ -15,7 +15,7 @@ const playSteps = {
     {
       element: "#stepPlayNarrativeLinks",
       intro:
-        "Clicking on links with this icon moves the video to the beginning of the associated <em>shōdan</em>. Clicking on a regular link, with a red underlined name of a <em>shōdan</em>, opens a new tab with its detailed intermedia analysis on the Shōdan Level.",
+        "When in Act I or II tabs, clicking on links with this icon <i class='fas fa-forward'></i> moves the video to the beginning of the associated <em>shōdan</em>. Clicking on a regular link, with a red underlined name of a <em>shōdan</em>, opens a new tab with its detailed intermedia analysis on the Shōdan Level. Rolling over the text highlights the associated blocks in the Shōdan Map.",
       position: "right"
     }
   ]
