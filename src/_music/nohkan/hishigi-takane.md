@@ -37,7 +37,7 @@ third-level-menu-active: nohkan
           the standard one is at the beginning of the third line.
         </p>
         {% include video-no-background.html
-        src="http://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
+        src="https://d7rcwrflqckpu.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
         %}
       </div>
     </section>
