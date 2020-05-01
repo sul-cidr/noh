@@ -36,11 +36,15 @@
       </li>
       {% if page.layout == 'play' %}
       <li>
-        <a class="header__main-link" onClick="startIntroPlay()">Guide</a>
+        <a class="header__main-link" onClick="startIntroPlay()"
+          >Guide <i class="far fa-question-circle"></i
+        ></a>
       </li>
       {% endif %} {% if page.layout == 'section' %}
       <li>
-        <a class="header__main-link" onClick="startIntroSection()">Guide</a>
+        <a class="header__main-link" onClick="startIntroSection()"
+          >Guide <i class="far fa-question-circle"></i
+        ></a>
       </li>
       {% endif %}
     </ul>
