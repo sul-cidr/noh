@@ -148,6 +148,23 @@
     max-width: $wrapper-small;
     margin-left: 1rem;
   }
+
+  .conclusion-separator {
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    position: relative;
+
+    &::before {
+      background-color: $red;
+      content: "";
+      height: 0.125rem;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 4rem;
+    }
+  }
 }
 
 .text-container {

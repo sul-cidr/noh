@@ -400,7 +400,7 @@ permalink: /plays/
         since the late fourteenth-century and have their roots in the oldest
         identifiable traditions of the modern schools of noh.
       </p>
-      <h3 id="plays-stars">* * * * *</h3>
+      <div class="conclusion-separator"></div>
       <p>
         With such archaic roots, miracle plays like <em>Kokaji</em> represent a
         kind of Ur-noh. They are discernible in the oldest traditions of the
