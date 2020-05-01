@@ -85,6 +85,15 @@
   @include uppercase();
 }
 
+.header__main-link--with-icon {
+  @include flex-container($align: center);
+
+  i {
+    font-size: 80%;
+    margin-left: 0.25rem;
+  }
+}
+
 .dropdown-menu {
   cursor: default;
   position: relative;
