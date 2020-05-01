@@ -153,11 +153,11 @@ third-level-menu-active: nohkan
           </em>
         </p>
         <p>
-          The <em>shōga</em> '<em>hi</em>', used for the highest (‘shrilling’)
-          sound, called <em>hishigi</em>, is the same as a standard high-pitched
-          sound. In this example, the <em>hishigi</em> sound appears in the
-          middle of the second line, and the standard one at the beginning of
-          the third line.
+          The <em>shōga</em> '<em>hi</em>' is used for two different sounds: the
+          highest shrilling sound called <em>hishigi</em>, and the standard
+          high-pitched sound. In this example, the <em>hishigi</em> sound
+          appears in the middle of the second line, while the standard one is at
+          the beginning of the third line.
         </p>
         {% include video-no-background.html
         src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
