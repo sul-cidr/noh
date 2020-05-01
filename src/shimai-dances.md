@@ -56,7 +56,7 @@ permalink: /shimai-dances/
       </div>
       <div class="tabs-container__content">
         <!-- prettier-ignore -->
-        <section id="tab-1" title="Hashitomi-Kuse" class="tabbed-narrative">
+        <section id="tab-1" title="Hashitomi-Kuse">
           {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Front_Score_sl.mp4"
           %}
@@ -333,7 +333,7 @@ permalink: /shimai-dances/
           </table>
         </section>
 
-        <section id="tab-2" title="Hashitomi-Kiri" class="tabbed-narrative">
+        <section id="tab-2" title="Hashitomi-Kiri">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Front_Score_sl.mp4"
           %} {% include video-no-background.html
@@ -544,7 +544,7 @@ permalink: /shimai-dances/
           </table>
         </section>
 
-        <section id="tab-3" title="Kokaji-Kuse" class="tabbed-narrative">
+        <section id="tab-3" title="Kokaji-Kuse">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kuse_Dance_Front_Score_sl.mp4"
           %} {% include video-no-background.html
@@ -1098,7 +1098,7 @@ permalink: /shimai-dances/
           </table>
         </section>
 
-        <section id="tab-4" title="Kokaji-Kiri" class="tabbed-narrative">
+        <section id="tab-4" title="Kokaji-Kiri">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kiri_Dance_Front_Score_sl.mp4"
           %} {% include video-no-background.html
