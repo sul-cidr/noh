@@ -1,0 +1,53 @@
+.pis-card-container {
+  margin-bottom: 2rem;
+}
+
+.pi-card {
+  color: $brown;
+  display: block;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  text-decoration: none;
+
+  @include flex-container($justify: flex-start, $align: stretch);
+  @include card($color: $beige-light, $hover: false);
+
+  span {
+    display: block;
+  }
+}
+
+.pi-card__image {
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 12rem;
+  min-width: 12rem;
+}
+
+.pi-card__info {
+  padding: 1.5rem 2rem;
+}
+
+.pi-card__name {
+  color: $brown;
+  font-weight: $fw-bold;
+  margin-bottom: 0.25rem;
+
+  @include text(lg, "text");
+}
+
+.pi-card__position {
+  margin-bottom: 0.25rem;
+
+  @include text(lg, "text");
+}
+
+.pi-card__description {
+  margin-bottom: 0.25rem;
+
+  @include text(md, "text");
+}
+
+.pi-card__link {
+  @include text(md, "text");
+}

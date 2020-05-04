@@ -6,25 +6,83 @@ permalink: /credits/
 ---
 
 <main class="page-content">
-  <div class="text-container">
-    <div class="wrapper wrapper--small">
+  <div class="wrapper">
+    <div class="text-container">
       {% include image-scalable.html src="/assets/images/logos.png" scale="70%"
       align="center" column_size="large" %}
       <h1>CREDITS</h1>
 
-      <h4>Principal Investigators</h4>
-      <p>
-        <strong>FUJITA Takanori</strong>, Kyoto City University of Arts
-        <br /><strong>Jarosław Kapuściński</strong>, Stanford University<br />
-        <strong>François Rose</strong>, Stanford University
-      </p>
+      <h3>Principal Investigators</h3>
+      <div class="pis-card-container">
+        <div class="pi-card">
+          <div
+            class="pi-card__image"
+            style="background-image: url('/assets/images/pi-fujita-takanori.jpg')"
+            title="Professor FUJITA Takanori"
+          ></div>
+          <div class="pi-card__info">
+            <span class="pi-card__name">FUJITA Takanori</span>
+            <span class="pi-card__position"
+              >Professor, Kyoto City University of Arts</span
+            >
+            <span class="pi-card__description"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.</span
+            >
+            <a class="pi-card__link" href="#">Link to full bio</a>
+          </div>
+        </div>
+        <div class="pi-card">
+          <div
+            class="pi-card__image"
+            style="background-image: url('/assets/images/pi-jaroslaw-kapuscinski.jpg')"
+            title="Professor Jarosław Kapuściński"
+          ></div>
+          <div class="pi-card__info">
+            <span class="pi-card__name">Jarosław Kapuściński</span>
+            <span class="pi-card__position"
+              >Associate Professor, Stanford University</span
+            >
+            <span class="pi-card__description"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.</span
+            >
+            <a class="pi-card__link" href="#">Link to full bio</a>
+          </div>
+        </div>
+        <div class="pi-card">
+          <div
+            class="pi-card__image"
+            style="background-image: url('/assets/images/pi-francois-rose.jpg')"
+            title="Professor François Rose"
+          ></div>
+          <div class="pi-card__info">
+            <span class="pi-card__name">François Rose</span>
+            <span class="pi-card__position"
+              >Senior Lecturer, Stanford University</span
+            >
+            <span class="pi-card__description"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.</span
+            >
+            <a class="pi-card__link" href="#">Link to full bio</a>
+          </div>
+        </div>
+      </div>
+
       <p>
         The project is a cooperation of the Research Center for Japanese
         Traditional Music at Kyoto City University of Arts and the Department of
         Music at Stanford University with the Kongō School of Noh.
       </p>
 
-      <h4>Principal Contributors and Advisors</h4>
+      <h3>Principal Contributors and Advisors</h3>
       <p>
         <strong>KONGŌ Hisanori</strong>, Iemoto of the Kongō School, Kyoto<br />
         <strong>UDAKA Michishige</strong>, Kongō School, Kyoto<br />
@@ -35,7 +93,7 @@ permalink: /credits/
         <strong>AKAMA Ryo</strong>, Ritsumeikan University, Art Research Center,
         Kyoto
       </p>
-      <h4>Website Development and Design</h4>
+      <h3>Website Development and Design</h3>
       <p>
         Center for Interdisciplinary Digital Research (CIDR), Stanford
         University Library:<br />
@@ -48,16 +106,16 @@ permalink: /credits/
         <strong>Vijoy Abraham</strong>
       </p>
 
-      <h4>Translation of Noh Plays</h4>
+      <h3>Translation of Noh Plays</h3>
       <p><strong>Rebecca Teele Ogamo</strong>, Kongō School</p>
 
-      <h4>Editor</h4>
+      <h3>Editor</h3>
       <p>
         <strong>Ellen O'Connell Whittet</strong>, University of California,
         Santa Barbara
       </p>
 
-      <h4>Additional Collaborators</h4>
+      <h3>Additional Collaborators</h3>
       <p>
         <strong>NAKAMURA Itsuko</strong>, American Consortium for Japanese
         Studies<br />
@@ -66,7 +124,7 @@ permalink: /credits/
         University of the Pacific
       </p>
 
-      <h4>Performers</h4>
+      <h3>Performers</h3>
       <h5>ACADEMIC EXAMPLES</h5>
       <p>
         Dancer: <strong>KONGŌ Tatsunori</strong><br />
@@ -123,7 +181,7 @@ permalink: /credits/
         Stage assistant: <strong>MUKAI Hiroki</strong>
       </p>
 
-      <h4>Recording</h4>
+      <h3>Recording</h3>
       <h5>Academic Examples: Music</h5>
       <p>
         Sound: <strong>KAWASAKI Yoshihiro</strong>,
@@ -154,7 +212,7 @@ permalink: /credits/
         Kyoto Technical Office and Design Lab NADI
       </p>
 
-      <h4>Postproduction</h4>
+      <h3>Postproduction</h3>
       <h5>Sound</h5>
       <p>
         <strong>Robert Bassett</strong>, Recording Studio at the University of
