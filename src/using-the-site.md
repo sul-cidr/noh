@@ -83,7 +83,7 @@ permalink: /using-the-site/
       <h2>Terms of Use</h2>
       <p>
         The images, videos, and sound recordings of Noh performances on this
-        site are the property of their performers and are provided here for
+        site are the property of their creators and are provided here for
         scholastic purposes. We request that visitors to the site respect these
         rights and obtain proper permission before using the media elsewhere.
       </p>
