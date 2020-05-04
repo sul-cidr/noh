@@ -313,9 +313,7 @@ permalink: /plays/
         those same guidelines: the use of familiar poems from old classics is
         itself something Zeami recommended, and the focus on dance, with the
         fully orthodox
-        <a href="/catalog-of-shodan/jonomai/" target="_blank"
-          ><em>jonomai</em></a
-        >
+        <a href="/catalog-of-shodan/jonomai/"><em>jonomai</em></a>
         of the final act sandwiched between lines from the central poem in the
         play is a common feature of many of the classic plays in the repertory.
         (And although the professional actors and playwrights of the fifteenth

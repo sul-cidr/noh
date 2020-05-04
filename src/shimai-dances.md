@@ -20,7 +20,7 @@ permalink: /shimai-dances/
       two different angles: front and side. Each dance is followed by our
       interpretation of its structure, where <em>kata</em> are grouped into
       segments, and where numbers refer to the stage’s
-      <a href="/staging/stage/#Squares" target="_blank">Squares</a>.
+      <a href="/staging/stage/#Squares">Squares</a>.
     </p>
 
     <p>
@@ -29,13 +29,13 @@ permalink: /shimai-dances/
       the dance into sections matches with the text's. On the other hand, its
       sub-division into segments is based on <em>kata</em> that are known to be
       used as closing or opening movements, such as,
-      <a href="/movement/single-stamp/" target="_blank">stamping</a>,
-      <a href="/movement/opening/" target="_blank">opening</a>, closing, and
-      reverse holding of the fan, the sequence <em>kata</em>
-      <a href="/movement/forward-point/" target="_blank">Forward Point</a> and
-      Open retreat, among others. The analysis shows that parts and segments are
-      often slightly out of phase. We speculate that avoiding 'cadencing' text
-      and dance at the same time, might help maintain the dance's flow.
+      <a href="/movement/single-stamp/">stamping</a>,
+      <a href="/movement/opening/">opening</a>, closing, and reverse holding of
+      the fan, the sequence <em>kata</em>
+      <a href="/movement/forward-point/">Forward Point</a> and Open retreat,
+      among others. The analysis shows that parts and segments are often
+      slightly out of phase. We speculate that avoiding 'cadencing' text and
+      dance at the same time, might help maintain the dance's flow.
     </p>
 
     <p>

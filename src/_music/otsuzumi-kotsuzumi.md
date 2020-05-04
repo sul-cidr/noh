@@ -236,14 +236,12 @@ third-level-menu-active: otsuzumi
           stable than a flexible one. <br />
           5. The sparse <em>mitsuji</em> patterns are most often used to
           accompany a chant set in the declamatory
-          <a href="/music/voices/#Mitsuji-Utai" target="_blank"
-            ><em>mitsuji-utai</em></a
+          <a href="/music/voices/#Mitsuji-Utai"><em>mitsuji-utai</em></a
           >. The limited number of percussion strokes is counter-balanced by the
           melodic line unfolding with few or no rests. On the other hand, the
           regular <em>tsuzuke</em> patterns are most often used to accompany a
           chant set in the
-          <a href="/music/voices/#Tsuzuke-Utai" target="_blank"
-            ><em>tsuzuke-utai</em></a
+          <a href="/music/voices/#Tsuzuke-Utai"><em>tsuzuke-utai</em></a
           >, where syllables held over to accommodate the measure’s eight beats
           create rest in the melodic line counter-balanced by the steady
           percussion strokes.

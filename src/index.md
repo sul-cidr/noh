@@ -39,7 +39,7 @@ layout: home
       appreciation of Noh by narrowing this gap. It offers introductions to
       <a href="#Elements">Elements</a> of Noh and an in-depth intermedia
       analysis of two <a href="#Plays">Plays</a> that lead to general discussion
-      about <a href="/about-intermedia/" target="_blank">Noh as intermedia</a>.
+      about <a href="/about-intermedia/">Noh as intermedia</a>.
     </p>
     <p class="home__intermedia-description">
       The authors wish to express deepest gratitude to our
