@@ -38,7 +38,7 @@ third-level-menu-active: nohkan
         </p>
 
         {% include video-no-background.html
-        src="http://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
+        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
         %}
       </div>
     </section>
