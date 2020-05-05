@@ -41,6 +41,7 @@
   .audio-player::after,
   .audio-playing::after {
     font-family: $font-icon;
+    font-weight: $fw-icon;
     font-size: 1.5rem;
     color: $green64;
     position: absolute;

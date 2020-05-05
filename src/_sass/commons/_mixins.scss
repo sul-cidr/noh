@@ -138,6 +138,7 @@
     &::before {
       content: $fa-var-th;
       font-family: $font-icon;
+      $font-weight: $fw-icon;
       font-size: $fs-text-sm;
       margin-right: 0.5rem;
     }
