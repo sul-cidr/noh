@@ -29,7 +29,6 @@ class ShodanTimelineBlock extends Component {
       window.location.pathname === this.props.url
         ? "shodan-map__item--active"
         : "";
-    //const tooltipText = `${this.props.name}`;
     return (
       <div
         className={`shodan-map__item ${pointer} ${active} shodan-map__item--${this.props.shodanIndex}`}
