@@ -23,21 +23,21 @@ permalink: /libretti/
       <tr class="content-table__row">
         <td class="content-table__column">
           <a href="/hashitomi/#startTime=00:04:55" target="_blank"
-            >Waki enters</a
+            >Waki Enters</a
           >
         </td>
         <td class="content-table__column">
           <a href="/hashitomi/#startTime=00:08:56" target="_blank"
-            >Shite enters</a
+            >Shite Enters</a
           >
         </td>
         <td class="content-table__column">
           <a href="/hashitomi/#startTime=00:014:02" target="_blank">Dialogue</a>
         </td>
-        <td class="content-table__column"><p>Shite performs</p></td>
+        <td class="content-table__column"><p>Shite Performs</p></td>
         <td class="content-table__column">
           <a href="/hashitomi/#startTime=00:18:53" target="_blank"
-            >Shite exits</a
+            >Shite Exits</a
           >
         </td>
       </tr>
