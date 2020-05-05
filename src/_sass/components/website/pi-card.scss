@@ -2,14 +2,53 @@
   margin-bottom: 2rem;
 }
 
+.pis-card-container--horizontal-cards {
+  .pi-card {
+    margin-bottom: 2rem;
+
+    @include flex-container($justify: flex-start, $align: stretch);
+  }
+
+  .pi-card__info {
+    padding: 1.5rem 2rem;
+  }
+
+  .pi-card__name {
+  }
+}
+
+.pis-card-container--vertical-cards {
+  @include flex-container($justify: flex-start, $align: stretch);
+
+  .pi-card {
+    margin: 0 1rem;
+
+    @include flex-container(
+      $direction: column,
+      $justify: flex-start,
+      $align: stretch
+    );
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .pi-card__info {
+    padding: 1.5rem 1rem;
+  }
+}
+
 .pi-card {
   color: $brown;
   display: block;
-  margin-bottom: 2rem;
   overflow: hidden;
   text-decoration: none;
 
-  @include flex-container($justify: flex-start, $align: stretch);
   @include card($color: $beige-light, $hover: false);
 
   span {
@@ -24,10 +63,6 @@
   min-width: 12rem;
 }
 
-.pi-card__info {
-  padding: 1.5rem 2rem;
-}
-
 .pi-card__name {
   color: $brown;
   font-weight: $fw-bold;
@@ -37,13 +72,13 @@
 }
 
 .pi-card__position {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 
   @include text(lg, "text");
 }
 
 .pi-card__description {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 
   @include text(md, "text");
 }
