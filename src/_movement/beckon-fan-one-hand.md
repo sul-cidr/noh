@@ -19,8 +19,8 @@ second-level-menu-active: movement
     <p>
       This pattern is based on a Japanese gesture used to beckon to someone. It
       can also be performed with
-      <a href="/movement/beckon-fan-two-hands/" target="_blank">two hands</a>.
-      It is sometimes used to suggest falling rain.
+      <a href="/movement/beckon-fan-two-hands/">two hands</a>. It is sometimes
+      used to suggest falling rain.
     </p>
   </div>
 

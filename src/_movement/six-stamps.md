@@ -25,9 +25,8 @@ second-level-menu-active: movement
 
     <p>
       This 6 stamp series closes with a
-      <a href="/movement/forward-point" target="_blank"
-        >Forward Point (<em>shikake</em>)</a
-      >. It is performed in Martial mode.
+      <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>. It
+      is performed in Martial mode.
     </p>
 
     <p>
