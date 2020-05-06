@@ -20,7 +20,7 @@ permalink: /shimai-dances/
       two different angles: front and side. Each dance is followed by our
       interpretation of its structure, where <em>kata</em> are grouped into
       segments, and where numbers refer to the stage’s
-      <a href="/staging/stage/#Squares" target="_blank">Squares</a>.
+      <a href="/staging/stage/#Squares">Squares</a>.
     </p>
 
     <p>
@@ -29,13 +29,13 @@ permalink: /shimai-dances/
       the dance into sections matches with the text's. On the other hand, its
       sub-division into segments is based on <em>kata</em> that are known to be
       used as closing or opening movements, such as,
-      <a href="/movement/single-stamp/" target="_blank">stamping</a>,
-      <a href="/movement/opening/" target="_blank">opening</a>, closing, and
-      reverse holding of the fan, the sequence <em>kata</em>
-      <a href="/movement/forward-point/" target="_blank">Forward Point</a> and
-      Open retreat, among others. The analysis shows that parts and segments are
-      often slightly out of phase. We speculate that avoiding 'cadencing' text
-      and dance at the same time, might help maintain the dance's flow.
+      <a href="/movement/single-stamp/">stamping</a>,
+      <a href="/movement/opening/">opening</a>, closing, and reverse holding of
+      the fan, the sequence <em>kata</em>
+      <a href="/movement/forward-point/">Forward Point</a> and Open retreat,
+      among others. The analysis shows that parts and segments are often
+      slightly out of phase. We speculate that avoiding 'cadencing' text and
+      dance at the same time, might help maintain the dance's flow.
     </p>
 
     <p>
@@ -56,7 +56,7 @@ permalink: /shimai-dances/
       </div>
       <div class="tabs-container__content">
         <!-- prettier-ignore -->
-        <section id="tab-1" title="Hashitomi-Kuse" class="tabbed-narrative">
+        <section id="tab-1" title="Hashitomi-Kuse">
           {% include video-no-background.html
             src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kuse_Dance_Front_Score_sl.mp4"
           %}
@@ -333,7 +333,7 @@ permalink: /shimai-dances/
           </table>
         </section>
 
-        <section id="tab-2" title="Hashitomi-Kiri" class="tabbed-narrative">
+        <section id="tab-2" title="Hashitomi-Kiri">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Hashitomi-Kiri_Dance_Front_Score_sl.mp4"
           %} {% include video-no-background.html
@@ -427,7 +427,9 @@ permalink: /shimai-dances/
               </td>
             </tr>
             <tr class="shimai-table__row">
-              <td class="shimai-table__column">9. Six steps towards 4.</td>
+              <td class="shimai-table__column">
+                9. Six steps towards Square 4.
+              </td>
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column">
@@ -465,7 +467,7 @@ permalink: /shimai-dances/
                 As nothing will be hidden in the morning light,
               </td>
               <td class="shimai-table__column">
-                4. Right step pivot, Right Circle to 9.
+                4. Right step pivot, Right Circle to Square 9.
               </td>
               <td class="shimai-table__column" rowspan="5">
                 <strong>2nd segment</strong>
@@ -479,7 +481,7 @@ permalink: /shimai-dances/
                 “Before dawn breaks, to the dwelling of the 'evening face',
               </td>
               <td class="shimai-table__column">
-                9. Right Step pivot, Go to 3.
+                9. Right Step pivot, Go to Square 3.
               </td>
             </tr>
             <tr class="shimai-table__row">
@@ -508,14 +510,14 @@ permalink: /shimai-dances/
               <td class="shimai-table__column" rowspan="4">
                 she says, and again goes within the lattice shutter,
               </td>
-              <td class="shimai-table__column">5. Go to 9.</td>
+              <td class="shimai-table__column">5. Go to Square 9.</td>
               <td class="shimai-table__column" rowspan="8">
                 <strong>Closing sequence</strong>
               </td>
             </tr>
             <tr class="shimai-table__row">
               <td class="shimai-table__column">
-                9. Right Simple pivot, Go to 8.
+                9. Right Simple pivot, Go to Square 8.
               </td>
             </tr>
             <tr class="shimai-table__row">
@@ -542,7 +544,7 @@ permalink: /shimai-dances/
           </table>
         </section>
 
-        <section id="tab-3" title="Kokaji-Kuse" class="tabbed-narrative">
+        <section id="tab-3" title="Kokaji-Kuse">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kuse_Dance_Front_Score_sl.mp4"
           %} {% include video-no-background.html
@@ -1096,7 +1098,7 @@ permalink: /shimai-dances/
           </table>
         </section>
 
-        <section id="tab-4" title="Kokaji-Kiri" class="tabbed-narrative">
+        <section id="tab-4" title="Kokaji-Kiri">
           {% include video-no-background.html
           src="https://d3msn78fivoryj.cloudfront.net/Dance_sl/Kokaji-Kiri_Dance_Front_Score_sl.mp4"
           %} {% include video-no-background.html

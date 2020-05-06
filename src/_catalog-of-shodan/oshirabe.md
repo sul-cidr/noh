@@ -43,7 +43,7 @@ second-level-menu-active: catalog-shodan
       opportunity to hear and adjust their instruments. The tuning does not
       involve attempts to match one another's pitch. Instead, the musicians tune
       to the play’s
-      <a href="/about-intermedia/#Kurai" target="_blank"><em>kurai</em></a
+      <a href="/noh-as-intermedia/#Kurai" target="_blank"><em>kurai</em></a
       >, or its overall atmosphere.
     </p>
 

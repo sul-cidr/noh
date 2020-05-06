@@ -298,7 +298,7 @@ permalink: /text-hashitomi/
 
           <tr class="content-table__row--header">
             <td id="Kakaru-2" class="content-table__column">
-              Shite exits: Kakaru-2
+              Shite Exits: Kakaru-2
             </td>
             <td class="content-table__column"></td>
           </tr>

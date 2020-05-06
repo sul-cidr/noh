@@ -61,11 +61,10 @@ permalink: /credits/
       consequat." link_href="#" link_text="Link to full bio" %}
     </div>
     <!-- prettier-ignore-end -->
-
     <p>
-      The project is a cooperation of the Research Center for Japanese
-      Traditional Music at Kyoto City University of Arts and the Department of
-      Music at Stanford University with the Kongō School of Noh.
+      The project is a cooperation of the Research Institute for Japanese
+      Traditional Music at Kyoto City University of Arts, the Department of
+      Music at Stanford University and the Kongō School of Noh.
     </p>
 
     <h3>Principal Contributors and Advisors</h3>
@@ -223,6 +222,9 @@ permalink: /credits/
     </p>
 
     <h2>SPECIAL THANKS</h2>
-    <p>TOKUMARU Yoshihiko<br />YUASA Joji<br />TAKAHASHI Terumi</p>
+    <p>
+      TOKUMARU Yoshihiko<br />YUASA Joji<br />YAMANAKA Reiko<br />TAKAHASHI
+      Terumi
+    </p>
   </div>
 </main>

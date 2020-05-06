@@ -39,7 +39,7 @@ layout: home
       appreciation of Noh by narrowing this gap. It offers introductions to
       <a href="#Elements">Elements</a> of Noh and an in-depth intermedia
       analysis of two <a href="#Plays">Plays</a> that lead to general discussion
-      about <a href="/about-intermedia/" target="_blank">Noh as intermedia</a>.
+      about <a href="/noh-as-intermedia/">Noh as intermedia</a>.
     </p>
     <p class="home__intermedia-description">
       The authors wish to express deepest gratitude to our
@@ -55,7 +55,7 @@ layout: home
     <h2 id="Elements" class="home-section__title">Elements</h2>
     <p class="home__intermedia-description">
       The following pages offer introductions to the formal design of Noh, and
-      the building blocks of individual layers.
+      the building blocks of individual media layers.
     </p>
     <div class="home-elements">
       <!-- prettier-ignore -->

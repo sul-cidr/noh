@@ -245,11 +245,10 @@ permalink: /plays/
       </p>
       <p>
         This connection is, in fact, given material expression as the raison
-        d’être for a variant performance style for the play, in all
-        <a href="/music/voices/" target="_blank">five modern schools</a>. That
-        variant style, or <em>kogaki</em> specifies a particular prop that is
-        not used in more conventional performances. The prop is a very large,
-        very formal flower arrangement in an ancient style called
+        d’être for a variant performance style for the play, in all five modern
+        schools. That variant style, or <em>kogaki</em> specifies a particular
+        prop that is not used in more conventional performances. The prop is a
+        very large, very formal flower arrangement in an ancient style called
         <em>rikka</em> or “standing flowers”, quoted directly from Buddhist
         antecedents. This arrangement is stationed center-stage for the first
         part of the play when it is performed according to this variant, and it
@@ -300,29 +299,27 @@ permalink: /plays/
       <p>
         The title <em>Hashitomi</em> (or <em>Hajitomi</em>) has not been the
         exclusive title of this play in such documentation as exists since the
-        <strong>*s</strong>eventeenth century. It has occasionally been known as
-        Yūgao or Yūgao no Ue, provoking some confusion because there is another
-        play of the same name in the repertory. Modern scholarly consensus has
-        distinguished the two plays, leaving the other with the name Yūgao,
-        pointing as well to the latter play’s more consistent and
-        narrative-oriented use of source poems from The Tale of Genji. For this
-        reason, the possibility has been mooted that that play was created by
-        Zeami or at least by someone faithful to the guidelines he articulated.
+        seventeenth century. It has occasionally been known as Yūgao or Yūgao no
+        Ue, provoking some confusion because there is another play of the same
+        name in the repertory. Modern scholarly consensus has distinguished the
+        two plays, leaving the other with the name Yūgao, pointing as well to
+        the latter play’s more consistent and narrative-oriented use of source
+        poems from The Tale of Genji. For this reason, the possibility has been
+        mooted that that play was created by Zeami or at least by someone
+        faithful to the guidelines he articulated.
       </p>
       <p>
         That said, though, one can still identify in <em>Hashitomi</em> many of
         those same guidelines: the use of familiar poems from old classics is
         itself something Zeami recommended, and the focus on dance, with the
         fully orthodox
-        <a href="/catalog-of-shodan/jonomai/" target="_blank"
-          ><em>jonomai</em></a
-        >
+        <a href="/catalog-of-shodan/jonomai/"><em>jonomai</em></a>
         of the final act sandwiched between lines from the central poem in the
         play is a common feature of many of the classic plays in the repertory.
         (And although the professional actors and playwrights of the fifteenth
         century cannot be directly credited with the <em>jonomai</em>, they do
         seem to have deployed its ancestor, the <em>tennyo no mai</em> as early
-        as the 1420s.*)
+        as the 1420s.)
       </p>
       <p>
         From this perspective, <em>Hashitomi</em> differs considerably from
