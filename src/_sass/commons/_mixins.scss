@@ -129,8 +129,7 @@
       background-color: rgba($red, 0);
       color: $red;
     }
-  }
-  @elseif $type == "catalog" {
+  } @else if $type == "catalog" {
     background-color: rgba($green, 1);
     border-color: $green;
     color: $white;
