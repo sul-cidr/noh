@@ -3875,7 +3875,7 @@ exports[`<Play> renders as expected 1`] = `
                         Intro.
                       </span>
                       <div
-                        className="dan dan- dan-7"
+                        className="dan dan-no-tooltip dan-7"
                         key="dan-block-7"
                         style={
                           Object {
@@ -3991,6 +3991,7 @@ exports[`<Play> renders as expected 1`] = `
                       </span>
                       <div
                         className="dan dan-waki-enters dan-1"
+                        data-tooltip="Waki Enters"
                         key="dan-block-1"
                         style={
                           Object {
@@ -4227,6 +4228,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="dan dan-dialogue dan-3"
+                        data-tooltip="Dialogue"
                         key="dan-block-3"
                         style={
                           Object {
@@ -4328,6 +4330,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="dan dan-shite-performs dan-4"
+                        data-tooltip="Shite Performs"
                         key="dan-block-4"
                         style={
                           Object {
@@ -4474,6 +4477,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="dan dan-shite-exits dan-5"
+                        data-tooltip="Shite Exits"
                         key="dan-block-5"
                         style={
                           Object {
@@ -4633,7 +4637,7 @@ exports[`<Play> renders as expected 1`] = `
                         Interlude
                       </span>
                       <div
-                        className="dan dan- dan-6"
+                        className="dan dan-no-tooltip dan-6"
                         key="dan-block-6"
                         style={
                           Object {
@@ -4749,6 +4753,7 @@ exports[`<Play> renders as expected 1`] = `
                       </span>
                       <div
                         className="dan dan-waki-waits dan-1"
+                        data-tooltip="Waki Waits"
                         key="dan-block-1"
                         style={
                           Object {
@@ -4850,6 +4855,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="dan dan-shite-re-enters dan-2"
+                        data-tooltip="Shite Re-enters"
                         key="dan-block-2"
                         style={
                           Object {
@@ -4906,6 +4912,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="dan dan-shite-performs dan-4"
+                        data-tooltip="Shite Performs"
                         key="dan-block-4"
                         style={
                           Object {
@@ -5052,6 +5059,7 @@ exports[`<Play> renders as expected 1`] = `
                       </div>
                       <div
                         className="dan dan-shite-exits dan-5"
+                        data-tooltip="Shite Exits"
                         key="dan-block-5"
                         style={
                           Object {
@@ -5166,7 +5174,7 @@ exports[`<Play> renders as expected 1`] = `
                         Exit
                       </span>
                       <div
-                        className="dan dan- dan-8"
+                        className="dan dan-no-tooltip dan-8"
                         key="dan-block-8"
                         style={
                           Object {

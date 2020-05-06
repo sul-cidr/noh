@@ -98,7 +98,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
   position: relative;
   text-align: center;
 
-  @include separator();
+  @include tooltip($type: "dan");
 
   &.dan-1 {
     @include highlight($dan-1, $alpha, $alpha-hover);
@@ -135,12 +135,20 @@ $shodan-bg-color-active: rgba($red, 0.6);
     }
   }
 
+  &.dan-no-tooltip {
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
+
   .shodan-timeline__container & {
     background-color: $white;
     border: none;
     padding-top: 0;
 
-    &::before {
+    &::before,
+    &::after {
       content: none;
     }
 
@@ -191,7 +199,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
     }
   }
 
-  @include tooltip-center();
+  @include tooltip($type: "shodan");
 
   &.pointer {
     cursor: pointer;
@@ -230,6 +238,14 @@ $shodan-bg-color-active: rgba($red, 0.6);
     .act-map {
       display: flex;
       height: 2rem;
+    }
+    .dan {
+      &:hover {
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
     }
   }
 

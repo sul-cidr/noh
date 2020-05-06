@@ -29,6 +29,10 @@ $ioi-border: 0.0625rem solid $beige-dark;
   &.remove-border--bottom {
     border-bottom: none;
   }
+
+  i {
+    font-size: 130%;
+  }
 }
 
 .ioi-table__row--header {

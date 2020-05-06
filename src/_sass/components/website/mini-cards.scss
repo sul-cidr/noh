@@ -1,12 +1,7 @@
 .mini-cards__container {
-  margin: 0 -0.5rem;
-  padding: 0 1rem;
+  margin: 1rem -0.5rem 2rem -0.5rem;
 
-  @include flex-container(
-    $wrap: wrap,
-    $justify: flex-start,
-    $align: flex-start
-  );
+  @include flex-container($wrap: wrap, $justify: center, $align: flex-start);
 }
 
 .mini-cards__element {
@@ -46,6 +41,7 @@
   .audio-player::after,
   .audio-playing::after {
     font-family: $font-icon;
+    font-weight: $fw-icon;
     font-size: 1.5rem;
     color: $green64;
     position: absolute;

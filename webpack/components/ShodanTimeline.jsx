@@ -66,9 +66,10 @@ class ShodanTimeline extends Component {
       return (
         <div
           key={`dan-block-${danBlock[0].dan.number}`}
-          className={`dan dan-${slug(danBlock[0].dan.value || "")} dan-${
-            danBlock[0].dan.number
-          }`}
+          className={`dan dan-${slug(
+            danBlock[0].dan.value || "no-tooltip"
+          )} dan-${danBlock[0].dan.number}`}
+          data-tooltip={danBlock[0].dan.value}
           style={{
             width: `${100 * (danDuration / actDuration)}%`,
             height: "100%"
