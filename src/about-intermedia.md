@@ -416,7 +416,8 @@ permalink: /about-intermedia/
           were lost”.
         </p>
 
-        <p>–––––––––––––––––––––––––––––</p>
+        <div class="conclusion-separator"></div>
+
         <p>
           Noh is an intermedia art form of great expressive coherence. It
           breaths Yin and Yang as if in a fractal design. Through the fluidity

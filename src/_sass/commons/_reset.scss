@@ -82,6 +82,10 @@ video {
 }
 
 .fa,
+.fab,
+.fal,
+.far,
 .fas {
   font-family: $font-icon;
+  font-weight: $fw-icon;
 }
