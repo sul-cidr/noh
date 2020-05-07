@@ -28,7 +28,7 @@ second-level-menu-active: movement
       motion is called an overhand point. It can be performed with an Open (<em
         >mi wo kae</em
       >) or Closed fan (<em>sashi</em>). A comparison between the
-      <a href="/movement/backing-point-open" target="_blank"
+      <a href="/movement/backing-point-open"
         >Backing point with Open fan (<em>mi wo kae</em>)</a
       >
       pattern illustrates how the open fan dramatically accentuates the arm

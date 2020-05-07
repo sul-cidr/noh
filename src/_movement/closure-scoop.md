@@ -24,8 +24,8 @@ second-level-menu-active: movement
 
     <p>
       A variation on the
-      <a href="/movement/scooping-point/" target="_blank">Scooping Point</a>, it
-      always functions as a cadential pattern.
+      <a href="/movement/scooping-point/">Scooping Point</a>, it always
+      functions as a cadential pattern.
     </p>
   </div>
 
