@@ -36,7 +36,7 @@ permalink: /credits/
       image="/assets/images/pi-francois-rose3.jpg" image_alt_text="Professor
       François Rose" name="François Rose" position="Stanford University"
       description="Composer with a passion for orchestration and traditional
-      Japanese culture. <br /><br /><br /><br /><br />"
+      Japanese culture."
       link_href="https://music.stanford.edu/people/françois-rose"
       link_text="Link to full bio" %}
     </div>
