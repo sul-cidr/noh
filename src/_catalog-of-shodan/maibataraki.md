@@ -34,10 +34,12 @@ second-level-menu-active: catalog-shodan
       melodic background, and through its recurring patterns it articulates the
       dance’s three parts: <em>kakari</em>, <em>ji</em>, and <em>dan</em>. The
       leading percussion instrument, the taiko uses its distinguishable
-      <a href="/music/taiko-head" target="_blank"><em>kashira</em></a> pattern
-      to articulate the beginning and closing of its rhythmic cycles, which are
-      synchronized with the nohkan's patterns, thereby helping articulate the
-      dance’s three sections.
+
+      <a href="/music/taiko-head"><em>kashira</em></a>
+
+      pattern to articulate the beginning and closing of its rhythmic cycles,
+      which are synchronized with the nohkan's patterns, thereby helping
+      articulate the dance’s three sections.
     </p>
 
     <h3>Kakari</h3>
