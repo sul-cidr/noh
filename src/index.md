@@ -36,10 +36,10 @@ layout: home
       <strong>intermedia</strong>. Whereas the individual artistic elements of
       Noh have been studied extensively, the interaction between them not nearly
       as much. This project is intended to contribute to the understanding and
-      appreciation of Noh by narrowing this gap. It offers introductions to
-      <a href="#Elements">Elements</a> of Noh and an in-depth intermedia
-      analysis of two <a href="#Plays">Plays</a> that lead to general discussion
-      about <a href="/noh-as-intermedia/">Noh as intermedia</a>.
+      appreciation of Noh by narrowing this gap. It offers in-depth intermedia
+      analysis of two <a href="#Plays">Plays</a>, introductions to
+      <a href="#Elements">Elements</a> of Noh, and a general discussion about
+      <a href="/noh-as-intermedia/">Noh as intermedia</a>.
     </p>
     <p class="home__intermedia-description">
       The authors wish to express deepest gratitude to our
@@ -50,6 +50,18 @@ layout: home
   </div>
 </div>
 
+<div class="home__plays">
+  <div class="wrapper">
+    <h2 id="Plays" class="home-section__title">Plays</h2>
+    <p class="home__intermedia-description">
+      These pages feature complete recordings and the in-depth interemdia
+      analysis of two contrasting plays.
+    </p>
+    {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
+    {% include home-play.html link=play.url image=play.image title=play.title
+    description=play.description %} {% endunless %} {% endfor %}
+  </div>
+</div>
 <div class="home__elements">
   <div class="wrapper">
     <h2 id="Elements" class="home-section__title">Elements</h2>
@@ -83,19 +95,6 @@ layout: home
     </div>
   </div>
 </div>
-<div class="home__plays">
-  <div class="wrapper">
-    <h2 id="Plays" class="home-section__title">Plays</h2>
-    <p class="home__intermedia-description">
-      These pages feature complete recordings and the in-depth interemdia
-      analysis of two contrasting plays.
-    </p>
-    {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
-    {% include home-play.html link=play.url image=play.image title=play.title
-    description=play.description %} {% endunless %} {% endfor %}
-  </div>
-</div>
-
 <div class="home__website">
   <div class="wrapper">
     <p class="home__website-description">
