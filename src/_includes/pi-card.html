@@ -7,7 +7,9 @@
   <div class="pi-card__info">
     <span class="pi-card__name">{{ include.name }}</span>
     <span class="pi-card__position">{{ include.position }}</span>
-    <span class="pi-card__description">{{ include.description }}</span>
+    <span class="pi-card__description"
+      >{{ include.description | markdownify }}</span
+    >
     <a class="pi-card__link" href="{{ include.link_href }}"
       >{{ include.link_text }}</a
     >
