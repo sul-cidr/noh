@@ -27,10 +27,8 @@ permalink: /credits/
       image_alt_text="Professor Jarosław Kapuściński" name="Jarosław
       Kapuściński" position="Stanford University" description="Intermedia
       composer and pianist with scholarly interests in Japanese traditional
-      performing arts. Co-author with François Rose of
-      <a href="https://ccrma.stanford.edu/groups/gagaku/" target="_blank"
-        >Orchestration in Gagaku Music</a
-      >.<br /><br /><br />"
+      performing arts. Co-author with François Rose of [Orchestration in Gagaku
+      Music](https://ccrma.stanford.edu/groups/gagaku/){:target='_blank'}.<br /><br /><br />"
       link_href='https://music.stanford.edu/people/jaroslaw-kapuscinski'
       link_text="Link to full bio" %} {% include pi-card.html
       image="/assets/images/pi-francois-rose3.jpg" image_alt_text="Professor
