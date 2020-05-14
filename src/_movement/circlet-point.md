@@ -18,9 +18,9 @@ second-level-menu-active: movement
 
     <p>
       This forward motion involves two complete
-      <a href="/movement/circlet/" target="_blank">Circlets</a> and concludes
-      with a <a href="/movement/forward-point">Forward point</a>. It can be
-      performed in various places on the stage.
+      <a href="/movement/circlet/">Circlets</a> and concludes with a
+      <a href="/movement/forward-point">Forward point</a>. It can be performed
+      in various places on the stage.
     </p>
   </div>
 

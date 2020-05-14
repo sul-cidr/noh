@@ -18,13 +18,13 @@ second-level-menu-active: movement
 
     <p>
       The
-      <a href="/movement/take-the-corner" target="_blank"
+      <a href="/movement/take-the-corner"
         >Take the Corner pattern (<em>sumitori hidari e ōmawari</em>)</a
       >
       is a striking sequence of <em>kata</em>, bringing the dancer to the
       stage’s front-right corner, where he extends the fan, then pivots and
       performs the
-      <a href="/movement/large-circling-l" target="_blank"
+      <a href="/movement/large-circling-l"
         >Large Left Circle (<em>hidari ōmawari</em>)</a
       >
       towards backstage.

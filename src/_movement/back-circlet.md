@@ -19,14 +19,11 @@ second-level-menu-active: movement
     <p>
       The Back circlet (<em>mawari biraki</em>) starts with the dancer facing
       backstage. A
-      <a href="/movement/step-pivot" target="_blank"
-        >Right Step pivot (<em>migi kakeru</em>)</a
-      >
+      <a href="/movement/step-pivot">Right Step pivot (<em>migi kakeru</em>)</a>
       concludes with an
-      <a href="/movement/open-retreat" target="_blank"
-        >Open-retreat (<em>hiraki</em>)</a
-      >.It is often concludes a
-      <a href="/movement/large-circling-l" target="_blank"
+      <a href="/movement/open-retreat">Open-retreat (<em>hiraki</em>)</a>.It is
+      often concludes a
+      <a href="/movement/large-circling-l"
         >Left circling (<em>hidari ōmawari</em>)</a
       >.
     </p>

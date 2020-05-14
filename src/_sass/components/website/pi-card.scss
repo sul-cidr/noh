@@ -45,6 +45,7 @@
   display: block;
   overflow: hidden;
   text-decoration: none;
+  width: 33%;
 
   @include card($color: $beige-light, $hover: false);
 
