@@ -85,6 +85,10 @@
     margin: 0 auto;
     max-width: $wrapper-media;
     width: 100%;
+
+    &.not-expanded {
+      width: auto;
+    }
   }
 
   video {

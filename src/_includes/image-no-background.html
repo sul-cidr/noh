@@ -1,5 +1,15 @@
 <figure class="image-container--no-background">
-  <img src="{{ include.src }}" alt="" />
+  <img
+    src="{{ include.src }}"
+    alt=""
+    {%
+    if
+    include.class
+    %}class="{{ include.class }}"
+    {%
+    endif
+    %}
+  />
   {% if include.caption %}
   <figcaption class="figure-caption">
     {{ include.caption | markdownify }}
