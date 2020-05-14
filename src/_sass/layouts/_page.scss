@@ -268,3 +268,17 @@ div.scalable {
   background-color: $white;
   color: $green;
 }
+
+code {
+  background-color: $beige-light;
+  border: 0.0625rem solid $beige-dark;
+  color: $red;
+  display: block;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: $fs-display-xxs;
+  line-height: $lh-display-xxs;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 1rem;
+}
