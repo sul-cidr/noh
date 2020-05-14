@@ -6,6 +6,10 @@
   @include wrapper();
 }
 
+.content-table--not-expanded {
+  width: auto;
+}
+
 .content-table--libretto {
   border-top: $border;
   margin-bottom: 4rem;
