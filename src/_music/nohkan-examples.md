@@ -23,9 +23,15 @@ third-level-menu-active: nohkan
         <p>
           The pattern consists of one phrase with the following <em>Shōga</em>:
         </p>
-        <p>
-          <em>o-hya ra</em>
-        </p>
+
+        <table class="shoga-table">
+          cx
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+        </table>
+
         {% include video-no-background.html
         src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_Shoga_sl.mp4"
         %}
@@ -35,13 +41,20 @@ third-level-menu-active: nohkan
           The pattern consists of three phrases with the following
           <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >o-hya<br />
-            ro ru ra<br />
-            ri ya ri</em
-          >
-        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="3">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>ro ru ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>ri ya ri</em></td>
+          </tr>
+        </table>
+
         {% include video-no-background.html
         src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_Hane_Shoga_sl.mp4"
         %}
@@ -50,9 +63,17 @@ third-level-menu-active: nohkan
         <p>
           The pattern consists of one phrase with the following <em>shōga</em>:
         </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label">Shōga</td>
+            <td class="shoga-table__row"><em>hi pi-u hi</em></td>
+          </tr>
+        </table>
+
         <p>
-          <em>hi pi-u hi</em>, where the '<em>hi </em>', stands for the highest
-          (‘shrilling’) sound, also called <em>hishigi</em>
+          The '<em>hi </em>', stands for the highest (‘shrilling’) sound, also
+          called <em>hishigi</em>
         </p>
 
         <p>
@@ -77,13 +98,19 @@ third-level-menu-active: nohkan
           The pattern consists of three phrases with the following
           <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >o-hya ra<br />
-            o-hya hi-u hyu i<br />
-            hi-hyo ru ri
-          </em>
-        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="3">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>o-hya hi-u hyu i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
 
         <p>
           The <em>shōga</em> '<em>hi </em>' is used for two different sounds:
@@ -102,14 +129,23 @@ third-level-menu-active: nohkan
           The pattern consists of four phrases with the following
           <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >hi-u ri-u i-ya<br />
-            ri-u hyu-i<br />
-            hi-hyu i-ya ra ri-(u) ro-i<br />
-            tsu-ro i-ya
-          </em>
-        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="4">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>o-hya hi-u hyu i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
+
         <p>
           The bracketed <em>shōga</em> '<em>u </em>' was traditionally part of
           the pattern, but it is not performed anymore.
@@ -122,12 +158,17 @@ third-level-menu-active: nohkan
         <p>
           The pattern consists of two phrases with the following <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >hi-u ra ri-(u) ro-i<br />
-            tsu-ro i-ya
-          </em>
-        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="2">Shōga</td>
+            <td class="shoga-table__row"><em>hi-u ra ri-(u) ro-i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>tsu-ro i-ya</em></td>
+          </tr>
+        </table>
+
         <p>
           The bracketed <em>shōga</em> '<em>u </em>' was traditionally part of
           the pattern but in our example and in recent times it is not
@@ -153,12 +194,16 @@ third-level-menu-active: nohkan
         <p>
           The pattern consists of two phrases with the following <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >hi-hyo ru ri<br />
-            hi-hyo i-ya
-          </em>
-        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="2">Shōga</td>
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo i-ya</em></td>
+          </tr>
+        </table>
 
         <div class="tabs-container">
           <div class="tabs-container__links">
@@ -192,13 +237,19 @@ third-level-menu-active: nohkan
           The pattern consists of three phrases with the following
           <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >o-hya ra<br />
-            o-hya ro-i<br />
-            hi-hyo ru ri
-          </em>
-        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="3">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>o-hya ro-i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
 
         <div class="tabs-container">
           <div class="tabs-container__links">
@@ -231,12 +282,18 @@ third-level-menu-active: nohkan
         <p>
           The pattern consists of two phrases with the following <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >o-hya ri ya ri<br />
-            hi-hyo ru ri
-          </em>
-        </p>
+        <p></p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="2">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ri ya ri</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
+
         <p>
           It functions as a closing pattern, marking the end of a
           <em>shōdan</em> or play.

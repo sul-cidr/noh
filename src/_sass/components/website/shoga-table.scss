@@ -1,0 +1,39 @@
+$shoga-dark-border: 0.0625rem solid #ddd8d5;
+$shoga-border: 0.0625rem solid $beige-dark;
+
+.shoga-table {
+  margin: 4rem auto;
+  max-width: 100%;
+  min-width: 50%;
+}
+
+.shoga-table__label {
+  background-color: $beige-dark;
+  border: $shoga-dark-border;
+  color: $green;
+  font-weight: $fw-bold;
+  text-align: center;
+  vertical-align: middle;
+
+  @include text(xxs);
+  @include uppercase();
+}
+
+.shoga-table__row {
+  background-color: $white;
+  border: $shoga-dark-border;
+  color: $brown;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+
+  @include text(sm, "text");
+
+  strong {
+    font-family: $font-text;
+  }
+
+  i {
+    font-size: 130%;
+  }
+}
