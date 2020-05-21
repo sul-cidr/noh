@@ -34,9 +34,8 @@ second-level-menu-active: catalog-shodan
       also evocative. It is characterized by a percussion accompaniment in
       strict setting played by the kotsuzumi and the ōtsuzumi, and a
       non-congruent nohkan part. It always leads to the
-      <a href="/catalog-of-shodan/notto-chant" target="_blank"
-        ><em>Notto</em>-chant</a
-      >.
+
+      <a href="/catalog-of-shodan/notto-chant"><em>Notto</em>-chant</a>.
     </p>
 
     <p>

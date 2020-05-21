@@ -68,17 +68,18 @@ permalink: /using-the-site/
       </p>
 
       <h3>As an embedded HTML5 &lt;video&gt; element</h3>
-      <p>
-        &lt;video&gt;&lt;source
-        src="http://noh.stanford.edu/popout/hashitomi/#t=01:30,1:38&amp;autoplay&amp;autoclose"
-        type="video/mp4"&gt;&lt;/video&gt;
-      </p>
+
+      <pre><code>
+&lt;video&gt;
+&lt;source src="http://noh.stanford.edu/popout/hashitomi/#t=01:30,1:38&amp;autoplay&amp;autoclose" type="video/mp4"&gt;
+&lt;/video&gt;
+      </code></pre>
+
       <h3>As a link to a popout video player</h3>
-      <p>
-        &lt;a href="#0"
-        onclick="window.open('/popout/hashitomi/#t=01:30,1:38&amp;autoplay&amp;autoclose',
-        'new', 'width=640,height=360');return false;"&gt;Popout Link&lt;/a&gt;
-      </p>
+
+      <pre><code>
+&lt;a href="#0" onclick="window.open('/popout/hashitomi/#t=01:30,1:38&amp;autoplay&amp;autoclose', 'new', 'width=640,height=360');return false;"&gt;Popout Link&lt;/a&gt;
+      </code></pre>
 
       <h2>Terms of Use</h2>
       <p>

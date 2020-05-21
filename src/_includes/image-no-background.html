@@ -1,5 +1,7 @@
 <figure class="image-container--no-background">
-  <img src="{{ include.src }}" alt="" />
+  <!-- prettier-ignore -->
+  <img src="{{ include.src }}" {% if include.class %} class="{{ include.class }}" {% endif %} />
+
   {% if include.caption %}
   <figcaption class="figure-caption">
     {{ include.caption | markdownify }}

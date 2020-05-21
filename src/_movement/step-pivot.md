@@ -26,7 +26,7 @@ second-level-menu-active: movement
 
     <p>
       The Step pivot produces a sharper turn than the
-      <a href="/movement/simple-pivot/" target="_blank">Simple pivot</a>.
+      <a href="/movement/simple-pivot/">Simple pivot</a>.
     </p>
   </div>
 

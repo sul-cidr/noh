@@ -28,7 +28,7 @@ second-level-menu-active: movement
       introduction/slow, development/acceleration, and conclusion/fast. The slow
       start and gradual acceleration that characterize the walking rhythm of Noh
       is an undeniable influence of
-      <a href="/form/#Intro /" target="_blank"><em>Jo-ha-kyū</em></a
+      <a href="/form/#Intro /"><em>Jo-ha-kyū</em></a
       >. Although subtle in the feminine mode, its effect on the walking rhythm
       in martial mode is clear.
     </p>

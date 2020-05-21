@@ -24,7 +24,7 @@ second-level-menu-active: movement
 
     <p>
       The Simple pivot produces a softer turn than the
-      <a href="/movement/step-pivot/" target="_blank">Step pivot</a>.
+      <a href="/movement/step-pivot/">Step pivot</a>.
     </p>
   </div>
 

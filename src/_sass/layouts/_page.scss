@@ -85,6 +85,10 @@
     margin: 0 auto;
     max-width: $wrapper-media;
     width: 100%;
+
+    &.not-expanded {
+      width: auto;
+    }
   }
 
   video {
@@ -263,4 +267,34 @@ div.scalable {
 #back-to-top {
   background-color: $white;
   color: $green;
+}
+
+code {
+  background-color: $beige-light;
+  border: 0.0625rem solid $beige-dark;
+  color: $red;
+  display: block;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: $fs-display-xxs;
+  line-height: $lh-display-xxs;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 1rem;
+}
+
+.credits-section {
+  margin-bottom: 2rem;
+
+  h3 {
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  h4 {
+    padding: 1.25rem 0 0.5rem 0;
+  }
+
+  h3 + h4 {
+    padding: 0 0 0.5rem 0;
+  }
 }

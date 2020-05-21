@@ -18,15 +18,10 @@ second-level-menu-active: movement
 
     <p>
       As suggested by the translated title, this pattern is performed with a
-      <a href="/movement/simple-pivot" target="_blank"
-        >Right Pivot (<em>migi nejiru</em>)</a
-      >, a
-      <a href="/movement/forward-point" target="_blank"
-        >Forward Point (<em>shikake</em>)</a
-      >, and a fan in
-      <a href="/movement/reverse-hold" target="_blank"
-        >Reverse hold (<em>ōgi taori</em>)</a
-      >.
+      <a href="/movement/simple-pivot">Right Pivot (<em>migi nejiru</em>)</a>, a
+      <a href="/movement/forward-point">Forward Point (<em>shikake</em>)</a>,
+      and a fan in
+      <a href="/movement/reverse-hold">Reverse hold (<em>ōgi taori</em>)</a>.
     </p>
   </div>
 

@@ -16,38 +16,195 @@ third-level-menu-active: nohkan
     </aside>
     <section class="sidebar-contents__section">
       <div class="text-container">
-        <h2>Selected Nohkan Patterns</h2>
-        <h3 id="takane">Takane</h3>
+        <h2 id="takane">Selected Nohkan Patterns</h2>
+        <h3>Individual patterns</h3>
+
+        <h4>Takane</h4>
         <p>
-          The pattern consists of one phrase with the following <em>shōga</em>:
+          The pattern consists of one phrase with the following <em>Shōga</em>:
         </p>
-        <p>
-          <em>o-hya ra</em>
-        </p>
+
+        <table class="shoga-table">
+          cx
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+        </table>
+
         {% include video-no-background.html
         src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_Shoga_sl.mp4"
         %}
 
-        <h3 id="naka-no-takane">Naka no takane</h3>
+        <h4 id="takane-hane">Takane hane</h4>
+        <p>
+          The pattern consists of three phrases with the following
+          <em>shōga</em>:
+        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="3">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>ro ru ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>ri ya ri</em></td>
+          </tr>
+        </table>
+
+        {% include video-no-background.html
+        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_Hane_Shoga_sl.mp4"
+        %}
+
+        <h4 id="hishigi">Hishigi</h4>
+        <p>
+          The pattern consists of one phrase with the following <em>shōga</em>:
+        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label">Shōga</td>
+            <td class="shoga-table__row"><em>hi pi-u hi</em></td>
+          </tr>
+        </table>
+
+        <p>
+          The '<em>hi </em>', stands for the highest (‘shrilling’) sound, also
+          called <em>hishigi</em>
+        </p>
+
+        <p>
+          It often functions as an opening pattern, marking the beginning of a
+          <em>shōdan</em>, as shown in the following two examples:
+
+          <a href="/catalog-of-shodan/issei-music"><em>Issei</em> </a>
+
+          and
+
+          <a href="/catalog-of-shodan/shidai-music"><em>Shidai</em> </a>
+
+          music.
+        </p>
+
+        {% include video-no-background.html
+        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishigi_Shoga_sl.mp4"
+        %}
+
+        <h4 id="hishigi-takane">Hishigi takane mi kusari</h4>
+        <p>
+          The pattern consists of three phrases with the following
+          <em>shōga</em>:
+        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="3">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>o-hya hi-u hyu i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
+
+        <p>
+          The <em>shōga</em> '<em>hi </em>' is used for two different sounds:
+          the highest shrilling sound called <em>hishigi</em>, and the standard
+          high-pitched sound. In this example, the <em>hishigi</em> sound
+          appears in the middle of the second line, while the standard one is at
+          the beginning of the third line.
+        </p>
+
+        {% include video-no-background.html
+        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
+        %}
+
+        <h4 id="roku-no-ge">Roku no ge</h4>
+        <p>
+          The pattern consists of four phrases with the following
+          <em>shōga</em>:
+        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="4">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>o-hya hi-u hyu i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
+
+        <p>
+          The bracketed <em>shōga</em> '<em>u </em>' was traditionally part of
+          the pattern, but it is not performed anymore.
+        </p>
+        {% include video-no-background.html
+        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Roku_No_Ge_Shoga_sl.mp4"
+        %}
+
+        <h4 id="mi-roku-no-ge">Mi roku no ge</h4>
         <p>
           The pattern consists of two phrases with the following <em>shōga</em>:
         </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="2">Shōga</td>
+            <td class="shoga-table__row"><em>hi-u ra ri-(u) ro-i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>tsu-ro i-ya</em></td>
+          </tr>
+        </table>
+
         <p>
-          <em
-            >hi-hyo ru ri<br />
-            hi-hyo i-ya
-          </em>
+          The bracketed <em>shōga</em> '<em>u </em>' was traditionally part of
+          the pattern but in our example and in recent times it is not
+          performed.
         </p>
+        {% include video-no-background.html
+        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Mi_Roku_No_Ge_Shoga_sl.mp4"
+        %}
+
         <p>
-          The following examples illustrate the difference in expressive
-          inflection given to basic patterns in contrasting contexts. The
-          <em>Naka no takane</em> pattern is first heard in its ‘generic’ form,
-          and then performed in Kokaji’s <em>Kuse</em>, involving a male deity,
-          and in Hashitomi’s <em>Kuse</em>, showcasing a young maiden. The
+          The following examples illustrate the distinct expressive inflection
+          given to basic patterns in different contexts. The
+          <em>Naka no takane</em>, <em>Takane mi kusari</em>, and
+          <em>Tome no te</em> patterns are first heard in their ‘generic’ form,
+          and then performed in <em>Kuse</em> of Kokaji, involving a male deity,
+          and in <em>Kuse</em> of Hashitomi, showcasing a young maiden. The
           stronger attack and faster speed of the former, fitting in the context
-          of a divine being, contrast in the latter with a softer attack and
-          slower speed to reflect the character of a lady.
+          of a divine being, contrasts in the latter with a softer attack and
+          slower speed appropriate for a maiden.
         </p>
+
+        <h4 id="naka-no-takane">Naka no takane</h4>
+        <p>
+          The pattern consists of two phrases with the following <em>shōga</em>:
+        </p>
+
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="2">Shōga</td>
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo i-ya</em></td>
+          </tr>
+        </table>
+
         <div class="tabs-container">
           <div class="tabs-container__links">
             <div class="wrapper">
@@ -75,44 +232,25 @@ third-level-menu-active: nohkan
           </div>
         </div>
 
-        <h3 id="takane-hane">Takane hane</h3>
+        <h4 id="takane-mi-kusari">Takane mi kusari</h4>
         <p>
           The pattern consists of three phrases with the following
           <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >o-hya<br />
-            ro ru ra<br />
-            ri ya ri</em
-          >
-        </p>
-        {% include video-no-background.html
-        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_Hane_Shoga_sl.mp4"
-        %}
 
-        <h3 id="takane-mi-kusari">Takane mi kusari</h3>
-        <p>
-          The pattern consists of three phrases with the following
-          <em>shōga</em>:
-        </p>
-        <p>
-          <em
-            >o-hya ra<br />
-            o-hya ro-i<br />
-            hi-hyo ru ri
-          </em>
-        </p>
-        <p>
-          The following examples illustrate the difference in expressive
-          inflection given to basic patterns in contrasting contexts. The
-          <em>Takane mi kusari</em> pattern is first heard in its ‘generic’
-          form, and then as performed in Kokaji’s <em>Kuse</em>, which involves
-          a male deity, and in Hashitomi’s <em>Kuse</em>, which showcases a
-          young maiden. The stronger attack and faster speed of the former,
-          fitting in the context of a divine being, contrast in the latter with
-          a softer attack and slower speed to reflect the character of a lady.
-        </p>
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="3">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ra</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>o-hya ro-i</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
+
         <div class="tabs-container">
           <div class="tabs-container__links">
             <div class="wrapper">
@@ -140,111 +278,37 @@ third-level-menu-active: nohkan
           </div>
         </div>
 
-        <h3 id="hishigi-takane">Hishigi takane mi kusari</h3>
-        <p>
-          The pattern consists of three phrases with the following
-          <em>shōga</em>:
-        </p>
-        <p>
-          <em
-            >o-hya ra<br />
-            o-hya hi-u hyu i<br />
-            hi-hyo ru ri
-          </em>
-        </p>
-        <p>
-          The <em>shōga</em> '<em>hi</em>' is used for two different sounds: the
-          highest shrilling sound called <em>hishigi</em>, and the standard
-          high-pitched sound. In this example, the <em>hishigi</em> sound
-          appears in the middle of the second line, while the standard one is at
-          the beginning of the third line.
-        </p>
-        {% include video-no-background.html
-        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishige_Takane_Mi_Kusari_Shoga_sl.mp4"
-        %}
-
-        <h3 id="hishigi">Hishigi</h3>
-        <p>
-          The pattern consists of one phrase with the following <em>shōga</em>:
-        </p>
-        <p>
-          <em>hi pi-u hi</em>, where the '<em>hi</em>', stands for the highest
-          (‘shrilling’) sound, also called <em>hishigi</em>
-        </p>
-
-        {% include video-no-background.html
-        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hishigi_Shoga_sl.mp4"
-        %}
-
-        <h3 id="roku-no-ge">Roku no ge</h3>
-        <p>
-          The pattern consists of four phrases with the following
-          <em>shōga</em>:
-        </p>
-        <p>
-          <em
-            >hi-u ri-u i-ya<br />
-            ri-u hyu-i<br />
-            hi-hyu i-ya ra ri-(u) ro-i<br />
-            tsu-ro i-ya
-          </em>
-        </p>
-        <p>
-          The bracketed <em>shōga</em> '<em>u</em>' was traditionally part of
-          the pattern, but it is not performed anymore.
-        </p>
-        {% include video-no-background.html
-        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Roku_No_Ge_Shoga_sl.mp4"
-        %}
-
-        <h3 id="miroku-no-ge">Mi roku no ge</h3>
+        <h4 id="tome-no-te">Tome no te</h4>
         <p>
           The pattern consists of two phrases with the following <em>shōga</em>:
         </p>
-        <p>
-          <em
-            >hi-u ra ri-(u) ro-i<br />
-            tsu-ro i-ya
-          </em>
-        </p>
-        <p>
-          The bracketed <em>shōga</em> '<em>u</em>' was traditionally part of
-          the pattern but in our example and in recent times it is not
-          performed.
-        </p>
-        {% include video-no-background.html
-        src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Mi_Roku_No_Ge_Shoga_sl.mp4"
-        %}
+        <p></p>
 
-        <h3 id="tome-no-te">Tome no te</h3>
+        <table class="shoga-table">
+          <tr class="shoga-table__column">
+            <td class="shoga-table__label" rowspan="2">Shōga</td>
+            <td class="shoga-table__row"><em>o-hya ri ya ri</em></td>
+          </tr>
+          <tr class="shoga-table__column">
+            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+          </tr>
+        </table>
+
         <p>
-          The pattern consists of two phrases with the following <em>shōga</em>:
+          It functions as a closing pattern, marking the end of a
+          <em>shōdan</em> or play.
         </p>
         <p>
-          <em
-            >o-hya ri ya ri<br />
-            hi-hyo ru ri
-          </em>
+          Hashitomi's <em>Tome no te</em> slightly differs from the 'generic'
+          pattern, since the bright last '<em>ri </em>' of the first line is not
+          played. This is shown in the video with parenthesis '(ri)'. In
+          Hashitomi the <em>Tome no te</em> pattern leads to the high and
+          shrilling <em>hishigi</em> pattern, not included in this video. Thus,
+          one could stipulate that it is to save the higher range for that last
+          pattern, that the '<em>ri</em> ' is left out in the
+          <em>Tome no te's</em> first line.
         </p>
-        <p>
-          The following examples illustrate the difference in expressive
-          inflection given to basic patterns in contrasting contexts. The
-          <em>Tome no te</em> pattern, often played at the end of a play, is
-          first heard in its ‘generic’ form, and then performed in Kokaji’s
-          <em>Kiri</em>, involving a male deity, and in Hashitomi’s
-          <em>Kiri</em>, showcasing a young maiden. The stronger attack and
-          faster speed of the former, fitting in the context of a divine being,
-          contrast in the latter with a softer attack and slower speed to
-          reflect the character of a lady. Also Hashitomi's <em>Tome no te</em>,
-          slightly differs from the 'generic' pattern, since the bright last
-          '<em>ri</em>' of the first line is not played. This is shown in the
-          video with parenthesis '(ri)'. In fact, in Hashitomi the
-          <em>Tome no te</em> pattern leads to the high and shrilling
-          <a href="/music/nohkan/hishigi" target="_blank"><em>hishigi</em></a>
-          pattern, not included in this video. Thus, one could stipulates that
-          it is to save the higher range for that last pattern, that the
-          '<em>ri</em>' is left out in the <em>Tome no te's</em> first line.
-        </p>
+
         <div class="tabs-container">
           <div class="tabs-container__links">
             <div class="wrapper">

@@ -18,9 +18,7 @@ second-level-menu-active: movement
 
     <p>
       The Medium zigzag (<em>chūzayu</em>) resembles the
-      <a href="/movement/large-zigzag" target="_blank"
-        >Large zigzag (<em>ōzayu</em>)</a
-      >
+      <a href="/movement/large-zigzag">Large zigzag (<em>ōzayu</em>)</a>
       except that the number of steps is smaller. It often functions as a
       transition between two sections.
     </p>
@@ -28,9 +26,7 @@ second-level-menu-active: movement
     <p>
       A third zigzag pattern that covers even less stage space than the Medium
       zigzag (<em>chūzayu</em>): the
-      <a href="/movement/small-zigzag" target="_blank"
-        >Small zigzag (<em>kozayu</em>)</a
-      >.
+      <a href="/movement/small-zigzag">Small zigzag (<em>kozayu</em>)</a>.
     </p>
   </div>
 
