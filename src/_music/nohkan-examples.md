@@ -25,7 +25,6 @@ third-level-menu-active: nohkan
         </p>
 
         <table class="shoga-table">
-          cx
           <tr class="shoga-table__column">
             <td class="shoga-table__label">Shōga</td>
             <td class="shoga-table__row"><em>o-hya ra</em></td>
