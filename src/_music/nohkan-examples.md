@@ -223,17 +223,17 @@ third-level-menu-active: nohkan
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section id="generic" title="Generic">
+              <section id="generic2" title="Generic">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Takane_mi_kusari_Shoga.mp4"
                 %}
               </section>
-              <section id="Kokaji" title="Kokaji">
+              <section id="Kokaji2" title="Kokaji">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Kokaji_Takane_mi_kusari_Shoga.mp4"
                 %}
               </section>
-              <section id="Hashitomi" title="Hashitomi">
+              <section id="Hashitomi2" title="Hashitomi">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Takane_mi_kusari_Shoga_sl.mp4"
                 %}
@@ -276,17 +276,17 @@ third-level-menu-active: nohkan
           </div>
           <div class="tabs-container__content">
             <div class="wrapper">
-              <section id="generic" title="Generic">
+              <section id="generic3" title="Generic">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Tome_No_Te_Shoga.mp4"
                 %}
               </section>
-              <section id="Kokaji" title="Kokaji">
+              <section id="Kokaji3" title="Kokaji">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Kokaji_Tome_no_te_Shoga.mp4"
                 %}
               </section>
-              <section id="Hashitomi" title="Hashitomi">
+              <section id="Hashitomi3" title="Hashitomi">
                 {% include video-no-background.html
                 src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Nohkan-Hashitomi_Tome_no_te_Shoga.mp4"
                 %}
