@@ -17,13 +17,8 @@ third-level-menu-active: nohkan
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="takane">Selected Nohkan Patterns</h2>
-        <h3>Individual patterns</h3>
 
         <h4>Takane</h4>
-        <p>
-          The pattern consists of one phrase with the following <em>Shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label">Shōga</td>
@@ -36,15 +31,10 @@ third-level-menu-active: nohkan
         %}
 
         <h4 id="takane-hane">Takane hane</h4>
-        <p>
-          The pattern consists of three phrases with the following
-          <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="3">Shōga</td>
-            <td class="shoga-table__row"><em>o-hya ra</em></td>
+            <td class="shoga-table__row"><em>o-hya</em></td>
           </tr>
           <tr class="shoga-table__column">
             <td class="shoga-table__row"><em>ro ru ra</em></td>
@@ -59,10 +49,6 @@ third-level-menu-active: nohkan
         %}
 
         <h4 id="hishigi">Hishigi</h4>
-        <p>
-          The pattern consists of one phrase with the following <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label">Shōga</td>
@@ -76,8 +62,8 @@ third-level-menu-active: nohkan
         </p>
 
         <p>
-          It often functions as an opening pattern, marking the beginning of a
-          <em>shōdan</em>, as shown in the following two examples:
+          The pattern often functions as an opening of a
+          <em>shōdan</em>, as seen in
 
           <a href="/catalog-of-shodan/issei-music"><em>Issei</em> </a>
 
@@ -93,11 +79,6 @@ third-level-menu-active: nohkan
         %}
 
         <h4 id="hishigi-takane">Hishigi takane mi kusari</h4>
-        <p>
-          The pattern consists of three phrases with the following
-          <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="3">Shōga</td>
@@ -112,11 +93,11 @@ third-level-menu-active: nohkan
         </table>
 
         <p>
-          The <em>shōga</em> '<em>hi </em>' is used for two different sounds:
-          the highest shrilling sound called <em>hishigi</em>, and the standard
-          high-pitched sound. In this example, the <em>hishigi</em> sound
-          appears in the middle of the second line, while the standard one is at
-          the beginning of the third line.
+          Here, the <em>shōga</em> '<em>hi </em>' is used for two different
+          sounds: the highest shrilling sound called <em>hishigi</em>, and the
+          standard high-pitched sound. In the example, the
+          <em>hishigi</em> sound appears in the middle of the second line, while
+          the standard one is at the beginning of the third line.
         </p>
 
         {% include video-no-background.html
@@ -124,24 +105,21 @@ third-level-menu-active: nohkan
         %}
 
         <h4 id="roku-no-ge">Roku no ge</h4>
-        <p>
-          The pattern consists of four phrases with the following
-          <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="4">Shōga</td>
-            <td class="shoga-table__row"><em>o-hya ra</em></td>
+            <td class="shoga-table__row"><em>hi-u ri-u i-ya</em></td>
           </tr>
           <tr class="shoga-table__column">
-            <td class="shoga-table__row"><em>o-hya hi-u hyu i</em></td>
+            <td class="shoga-table__row"><em>ri-u hyu-i</em></td>
           </tr>
           <tr class="shoga-table__column">
-            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+            <td class="shoga-table__row">
+              <em>hi-hyu i-ya ra ri-(u) ro-i</em>
+            </td>
           </tr>
           <tr class="shoga-table__column">
-            <td class="shoga-table__row"><em>hi-hyo ru ri</em></td>
+            <td class="shoga-table__row"><em>tsu-ro i-ya</em></td>
           </tr>
         </table>
 
@@ -154,10 +132,6 @@ third-level-menu-active: nohkan
         %}
 
         <h4 id="mi-roku-no-ge">Mi roku no ge</h4>
-        <p>
-          The pattern consists of two phrases with the following <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="2">Shōga</td>
@@ -190,10 +164,6 @@ third-level-menu-active: nohkan
         </p>
 
         <h4 id="naka-no-takane">Naka no takane</h4>
-        <p>
-          The pattern consists of two phrases with the following <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="2">Shōga</td>
@@ -232,11 +202,6 @@ third-level-menu-active: nohkan
         </div>
 
         <h4 id="takane-mi-kusari">Takane mi kusari</h4>
-        <p>
-          The pattern consists of three phrases with the following
-          <em>shōga</em>:
-        </p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="3">Shōga</td>
@@ -278,11 +243,6 @@ third-level-menu-active: nohkan
         </div>
 
         <h4 id="tome-no-te">Tome no te</h4>
-        <p>
-          The pattern consists of two phrases with the following <em>shōga</em>:
-        </p>
-        <p></p>
-
         <table class="shoga-table">
           <tr class="shoga-table__column">
             <td class="shoga-table__label" rowspan="2">Shōga</td>
@@ -294,7 +254,7 @@ third-level-menu-active: nohkan
         </table>
 
         <p>
-          It functions as a closing pattern, marking the end of a
+          The pattern is used to mark the end of a
           <em>shōdan</em> or play.
         </p>
         <p>
