@@ -184,6 +184,7 @@ $shodan-bg-color-active: rgba($red, 0.6);
 .shodan-map__item {
   background-color: $shodan-bg-color;
   border: 0.0625rem solid rgba($black, 0.15);
+  cursor: pointer;
   min-height: 0.5rem;
   position: relative;
 
