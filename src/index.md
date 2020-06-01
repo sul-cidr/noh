@@ -29,16 +29,16 @@ layout: home
   <div class="wrapper">
     <h1 class="home-section__title">Why Noh and Intermedia</h1>
     <p class="home__intermedia-description">
-      Six centuries ago, the co-creator of Noh Theater, its greatest playwright
-      and theorist, Zeami, linked plays' success to the cultivation and the
+      Six centuries ago, the co-creator and great playwright and theorist of Noh
+      Theater, Zeami, linked the plays' success to the cultivation and the
       'coming together' of text, visuals and music. Today, the expressive
       interaction of these three layers might be called
       <strong>intermedia</strong>. Whereas the individual artistic elements of
-      Noh have been studied extensively, the interaction between them not nearly
-      as much. This project is intended to contribute to the understanding and
-      appreciation of Noh by narrowing this gap. It offers in-depth intermedia
-      analysis of two <a href="#Plays">Plays</a>, introductions to
-      <a href="#Elements">Elements</a> of Noh, and a general discussion about
+      Noh have been studied extensively, the interactions between them are
+      relatively underdiscussed. This project is intended to contribute to the
+      understanding and appreciation of Noh by offering in-depth intermedia
+      analysis of two <a href="#Plays">plays</a>, introductions to
+      <a href="#Elements">elements</a> of Noh, and a general discussion about
       <a href="/noh-as-intermedia/">Noh as intermedia</a>.
     </p>
     <p class="home__intermedia-description">
@@ -54,7 +54,7 @@ layout: home
   <div class="wrapper">
     <h2 id="Plays" class="home-section__title">Plays</h2>
     <p class="home__intermedia-description">
-      These pages feature complete recordings and the in-depth interemdia
+      These pages feature complete recordings and the in-depth intermedia
       analysis of two contrasting plays.
     </p>
     {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
@@ -84,11 +84,11 @@ layout: home
       and a catalog of nohkan patterns." %} {% include home-element.html
       link="/about-movement/" link-catalog="/movement/" name-catalog="Catalog of
       Kata" image="/assets/images/Hashitomi-2shite-profile-close.jpg"
-      title="Movement" description="Introduces principle dance forms, and
+      title="Movement" description="Introduces principal dance forms, and
       analyzes shimai dances from Hashitomi and Kokaji." %} {% include
       home-element.html link="/text/" image="/assets/images/utaibon.png"
       title="Text" description="Introduces categories of text and presents
-      libretti of Hashitomi and Kokaji in Romaji transliteration and English
+      libretti from Hashitomi and Kokaji in Romaji transliteration and English
       translation." %} {% include home-element.html link="/staging/"
       image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
       the use of the Noh stage, masks, costumes and properties." %}
