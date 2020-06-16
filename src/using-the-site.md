@@ -96,8 +96,8 @@ permalink: /using-the-site/
 
       <h2>Source Code</h2>
       <p>
-        The source code for the site is freely available under the MIT(?)
-        License at
+        The source code for the site is freely available under the MIT License
+        at
         <a href="https://github.com/sul-cidr/noh"
           >https://github.com/sul-cidr/noh</a
         >.
