@@ -379,13 +379,16 @@ permalink: /plays/
         minds, but the excitement of the play is really just getting off the
         ground, for now there is a sequence of musical pieces, some
         instrumental, some with chorus accompanied by the ensemble, during which
-        the god Inari manifests himself to his human partner Munechika in
-        forging the sword that is the focus of the miracle. The god’s costume
-        will be flashing metallic thread or appliqué, the mask will arrest our
-        attention with a daemonic intensity, and above we will find a huge red
-        wig crowned with a glittering circlet topped, in turn, with a shining
-        image of a fox. This is what we came for, the appearance of a god, or
-        demi-god at least.
+        the god Inari manifests himself to his human partner Munechika. This
+        appearance of a divine figure echoes the miraculous origins of sarugaku
+        itself, but in this case the appearance is only part of the miracle, for
+        it takes material form in the sword that Munechika forges with his godly
+        partner. Appropriately, the god’s costume will coruscate over metallic
+        thread or appliqué, the mask will arrest our attention with a daemonic
+        intensity, and to top it all off, we will find a huge red wig crowned
+        with a glittering circlet topped, in turn, with a shining image of a
+        fox. This is what we came for, the appearance of a god, or a demi-god,
+        and the accomplishment of a great task.
       </p>
       <p>
         The sequence of instrumental pieces that mark the last act of the play,
