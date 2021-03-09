@@ -8,7 +8,7 @@ Run `bundle install --path vendor/bundle` and `yarn`
 
 ## Development
 
-`master` branch is our stable version. `develop` is the current working branch. For features, branch off of `develop` and we will periodically merge develop into `master` for releases/major updates.
+`main` branch is our stable version. `develop` is the current working branch. For features, branch off of `develop` and we will periodically merge develop into `main` for releases/major updates.
 
 `yarn dev` will run both `webpack` and `jekyll serve` in watch state.
 
