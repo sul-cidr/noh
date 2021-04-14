@@ -42,7 +42,7 @@ const sectionSteps = {
     {
       element: "#stepShodanScore",
       intro:
-        "The Intermedia Score updates as the video plays. Hovering over the starting cell in the TEXT line shows who performs it. The vocal parts are marked with green for Shite, orange for Waki, yellow for Wakizure, and red for Jiutai. The PERCUSSION line combines  the parts of kotsuzumi and ōtsuzumi or only of the taiko part, if it is present. Their notation is introduced with the instruments. DANCE line shows names of kata. NOHKAN line gives names of patterns played. "
+        "The Intermedia Score updates as the video plays. Hovering over the starting cell in the TEXT line shows who performs it. The vocal parts are marked with green for Shite, orange for Waki, yellow for Wakizure, and red for Jiutai. The PERCUSSION line combines  the parts of kotsuzumi and ōtsuzumi or only of the taiko part, if it is present. Their notation is introduced with the instruments. DANCE line shows names of kata preceded by the <a href='/staging/stage/#Squares'> number indicating the position on stage</a>. NOHKAN line gives names of patterns played. "
     },
     {
       element: "#stepShodanFilters",
