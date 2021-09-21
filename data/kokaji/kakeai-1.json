@@ -1,0 +1,999 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Kakeai-1"
+  },
+  "startTime": {
+    "value": 1747
+  },
+  "endTime": {
+    "value": 1804
+  },
+  "intensity": {
+    "number": "9"
+  },
+  "numberVoices": {
+    "number": "2",
+    "value": "Waki, Shite"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Ōtsuzumi, Kotsuzumi"
+  },
+  "percussion": {
+    "value": "Flexible"
+  },
+  "nokhanPresent": {
+    "present": "no"
+  },
+  "dancePresent": {
+    "present": "no"
+  },
+  "shodanType": {
+    "value": "kakeai"
+  },
+  "dan": {
+    "number": "5",
+    "value": "Shite Exits"
+  },
+  "shodanIndex": {
+    "number": "13"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/kakeai-1/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 1747,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kanka honchō ni oite, tsurugi no itoku. Toki ni totte no shiu-",
+            "voices": [
+              "waki"
+            ],
+            "start": 1,
+            "style": "extended-vowel",
+            "length": 13
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Shite: 9. Kneeling facing front, Waki: 6. kneeling facing the shite.",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 13
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 1758,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "gen mōsu, hakari no kusōrō. Sate sate onmi wa, ikanaru hito zo.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 12
+          },
+          {
+            "text": "",
+            "voices": [
+              "shite"
+            ],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Yo-",
+            "voices": [
+              null
+            ],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 1772,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "shi tare nari tomo, tanomubeshi.",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 8
+          },
+          {
+            "text": "Mazu mazu choku no, mitsuru-",
+            "voices": [],
+            "start": 8,
+            "style": "extended-vowel",
+            "length": 6
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "9. Shite slides left to face the waki.",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 1784,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "gi wo. Utsu beki dan no kazaritsutsu.",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 9
+          },
+          {
+            "text": "Sono toki",
+            "voices": [],
+            "start": 9,
+            "style": "extended-vowel",
+            "length": 5
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtbc",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtwc",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#bcwc",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 1796,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "ware wo machi tamawaba.",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 8
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#obci",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "Stand on his knee",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 5
+          }
+        ]
+      },
+      "phrase": "5"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 1748,
+      "endTime": 1756,
+      "translation": "[WAKI] What you have told me of the power of the swords in China and Japan",
+      "transcription": "[WAKI] Kanka honchō ni oite tsurugi no itoku"
+    },
+    {
+      "startTime": 1756,
+      "endTime": 1765,
+      "translation": "has gladdened my heart at this important hour.",
+      "transcription": "Toki ni totte no shiugen mōsu, hakari no kusōrō. "
+    },
+    {
+      "startTime": 1765,
+      "endTime": 1771,
+      "translation": "Yet, I press you again to tell me who you are ?",
+      "transcription": "Sate satemo onmi wa ikanaru hito zo."
+    },
+    {
+      "startTime": 1771,
+      "endTime": 1780,
+      "translation": "[SHITE] Who I may be is of no consequence, but you must pray!",
+      "transcription": "[SHITE] Yoshi tare nari tomo tanomubeshi."
+    },
+    {
+      "startTime": 1780,
+      "endTime": 1787,
+      "translation": "Before anything else adorn your forge mound",
+      "transcription": "Mazumazu choku no mitsurugi wo"
+    },
+    {
+      "startTime": 1787,
+      "endTime": 1794,
+      "translation": "where you will temper the Imperial blade.",
+      "transcription": "utsu beki dan no kazaritsutsu."
+    },
+    {
+      "startTime": 1794,
+      "endTime": 1806,
+      "translation": "And at that time, if you will but wait for me.",
+      "transcription": "Sono toki ware wo machitamawaba."
+    }
+  ],
+  "narrative": {
+    "value": "/kokaji/narratives/kakeai-1.html"
+  }
+}

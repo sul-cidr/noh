@@ -1,0 +1,246 @@
+{
+  "play": {
+    "value": "Hashitomi"
+  },
+  "sectionName": {
+    "value": "Nanoribue"
+  },
+  "startTime": {
+    "value": 218
+  },
+  "endTime": {
+    "value": 324
+  },
+  "intensity": {
+    "number": "1"
+  },
+  "numberVoices": {
+    "number": "0"
+  },
+  "voice": {},
+  "text": {},
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "Yes",
+    "value": "Unmetered"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "nanoribue"
+  },
+  "dan": {
+    "number": "1",
+    "value": "Waki Enters"
+  },
+  "shodanIndex": {
+    "number": "3"
+  },
+  "playUrl": "/hashitomi/",
+  "sectionUrl": "/hashitomi/nanoribue/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:27:47"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 218,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Naka no takane",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Waki enters the bridge",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 249,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Roku no ge",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Waki is followed by the Ai-kyōgen.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 303,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "3rd section: Hyu ro ra hya u ro ra ho.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Once the waki has arrived at Square 1, the kyōgen sits back at the First pine. The waki concludes his entrance with a Step Back.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "phrase": "3"
+    }
+  ],
+  "captions": [],
+  "narrative": {
+    "value": "/hashitomi/narratives/nanoribue.html"
+  }
+}

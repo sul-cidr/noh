@@ -1,0 +1,1031 @@
+{
+  "play": {
+    "value": "Hashitomi"
+  },
+  "sectionName": {
+    "value": "Waka"
+  },
+  "startTime": {
+    "value": 4646
+  },
+  "endTime": {
+    "value": 4694
+  },
+  "intensity": {
+    "number": "13"
+  },
+  "numberVoices": {
+    "number": "1",
+    "value": "Shite"
+  },
+  "voice": {
+    "value": "Sung (yowagin)"
+  },
+  "text": {
+    "value": "Non-congruent"
+  },
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Ōtsuzumi, Kotsuzumi"
+  },
+  "percussion": {
+    "value": "Strict"
+  },
+  "nokhanPresent": {
+    "present": "No"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "waka"
+  },
+  "dan": {
+    "number": "5",
+    "value": "Shite Exits"
+  },
+  "shodanIndex": {
+    "number": "21"
+  },
+  "playUrl": "/hashitomi/",
+  "sectionUrl": "/hashitomi/waka/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:27:47"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 4646,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 4
+          },
+          {
+            "text": "O-",
+            "voices": [
+              "shite"
+            ],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ri",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "te",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ko-",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "so",
+            "voices": [],
+            "start": 12,
+            "style": "justified",
+            "length": 4
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "h",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 12
+          }
+        ]
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "#yopu",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtwc",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(i)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 4
+          },
+          {
+            "text": "(Tome)",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "to",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "hyu",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "i-ya",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 5
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 4
+          },
+          {
+            "text": "9. Raised fan in front of the face.",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 12
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 4660,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 2
+          },
+          {
+            "text": "Soreka tomo",
+            "voices": [
+              "shite"
+            ],
+            "start": 2,
+            "style": "justified",
+            "length": 4
+          },
+          {
+            "text": "mime",
+            "voices": [],
+            "start": 6,
+            "style": "extended-vowel",
+            "length": 7
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "h",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Raised fan standing in front of the face.)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 13
+          }
+        ]
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 4672,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Taso",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 3
+          },
+          {
+            "text": "ka",
+            "voices": [],
+            "start": 3,
+            "style": "extended-vowel",
+            "length": 5
+          },
+          {
+            "text": "re",
+            "voices": [],
+            "start": 8,
+            "style": "extended-vowel",
+            "length": 8
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "h",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "percussion": {
+        "value": "tsuzukle",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "hon",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtbc",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtbc",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtwc",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Raised fan standing in front of the face.)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 5
+          },
+          {
+            "text": "9. Complete the interrupted Raised fan pattern",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 4682,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 1
+          },
+          {
+            "text": "(e)",
+            "voices": [
+              "shite"
+            ],
+            "start": 1,
+            "style": "extended-vowel",
+            "length": 9
+          },
+          {
+            "text": "ni",
+            "voices": [],
+            "start": 10,
+            "style": "extended-vowel",
+            "length": 6
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "m",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo-",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "-i",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Complete the interrupted Raised fan pattern)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "phrase": "4"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 4646,
+      "endTime": 4660,
+      "translation": "[SHITE] If you pick it",
+      "transcription": "[SHITE] Orite koso"
+    },
+    {
+      "startTime": 4660,
+      "endTime": 4672,
+      "translation": "then, indeed you will know it",
+      "transcription": "Soreka tomo mime"
+    },
+    {
+      "startTime": 4672,
+      "endTime": 4695,
+      "translation": "in the twilight",
+      "transcription": "Tasokare ni"
+    }
+  ],
+  "narrative": {
+    "value": "/hashitomi/narratives/waka.html"
+  }
+}

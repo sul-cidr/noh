@@ -1,0 +1,211 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Dialogue"
+  },
+  "startTime": {
+    "value": 646
+  },
+  "endTime": {
+    "value": 659
+  },
+  "intensity": {
+    "number": "4"
+  },
+  "numberVoices": {
+    "number": "2",
+    "value": "Wakizure,  Waki"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "No"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "dialogue"
+  },
+  "dan": {
+    "number": "1",
+    "value": "Waki Enters"
+  },
+  "shodanIndex": {
+    "number": "6"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/dialogue/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 646,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Senji ni makase tōtō mitsurugi wo, tsukamatsuri sōrae.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "9. Waki kneels and bows.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 5
+          },
+          {
+            "text": "5. Waki-tsure kneels.",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 655,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kashikomatte, sōrō.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "5. Waki bows.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "2"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 646,
+      "endTime": 655,
+      "translation": "[WAKIZURE] Hurry! make the sword.",
+      "transcription": "[WAKIZURE] Senji ni makase tōtō mitsurugi wo tsukamatsuri sōrae."
+    },
+    {
+      "startTime": 655,
+      "endTime": 660,
+      "translation": "[WAKI] Yes! sir.",
+      "transcription": "[WAKI] Kashikomatte sōrō."
+    }
+  ],
+  "narrative": {
+    "value": "/kokaji/narratives/dialogue.html"
+  }
+}

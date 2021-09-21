@@ -1,0 +1,1402 @@
+{
+  "playName": "hashitomi",
+  "title": "Hashitomi",
+  "videoUrl": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4",
+  "videoDuration": "01:27:47",
+  "acts": [
+    {
+      "translation": "Intro.",
+      "transcription": "",
+      "duration": "00:03:41",
+      "shodanIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "translation": "Act I",
+      "transcription": "Mae ba",
+      "duration": "00:19:35",
+      "shodanIndices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "translation": "Interlude",
+      "transcription": "",
+      "duration": "00:16:06",
+      "shodanIndices": [
+        12,
+        13
+      ]
+    },
+    {
+      "translation": "Act II",
+      "transcription": "Nochi ba",
+      "duration": "00:44:25",
+      "shodanIndices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "translation": "Exit",
+      "transcription": "",
+      "duration": "00:04:03",
+      "shodanIndices": [
+        23
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Oshirabe"
+      },
+      "startTime": {},
+      "endTime": {
+        "value": 138
+      },
+      "intensity": {
+        "number": "6"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi + Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Unmetered"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "oshirabe"
+      },
+      "dan": {
+        "number": "7"
+      },
+      "shodanIndex": {
+        "number": "1"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/oshirabe/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/oshirabe.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Musicians walk-in"
+      },
+      "startTime": {
+        "value": 139
+      },
+      "endTime": {
+        "value": 217
+      },
+      "intensity": {
+        "number": "0"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "2"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "Yes"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {},
+      "dan": {
+        "number": "8"
+      },
+      "shodanIndex": {
+        "number": "2"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/musicians-walk-in/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/musicians-walk-in.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Nanoribue"
+      },
+      "startTime": {
+        "value": 218
+      },
+      "endTime": {
+        "value": 324
+      },
+      "intensity": {
+        "number": "1"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "0"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Unmetered"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "nanoribue"
+      },
+      "dan": {
+        "number": "1",
+        "value": "Waki Enters"
+      },
+      "shodanIndex": {
+        "number": "3"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/nanoribue/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/nanoribue.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Nanori"
+      },
+      "startTime": {
+        "value": 325
+      },
+      "endTime": {
+        "value": 429
+      },
+      "intensity": {
+        "number": "3"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Unmetered"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "nanori"
+      },
+      "dan": {
+        "number": "1",
+        "value": "Waki Enters"
+      },
+      "shodanIndex": {
+        "number": "4"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/nanori/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/nanori.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Kakaru-1"
+      },
+      "startTime": {
+        "value": 430
+      },
+      "endTime": {
+        "value": 535
+      },
+      "intensity": {
+        "number": "9"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Waki"
+      },
+      "voice": {
+        "value": "Spoken & Sung (yowagin)"
+      },
+      "text": {
+        "value": "Sashinori (non-congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi "
+      },
+      "percussion": {
+        "value": "Flexible"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "kakaru"
+      },
+      "dan": {
+        "number": "1",
+        "value": "Waki Enters"
+      },
+      "shodanIndex": {
+        "number": "5"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/kakaru-1/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/kakaru-1.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Ashirai"
+      },
+      "startTime": {
+        "value": 536
+      },
+      "endTime": {
+        "value": 781
+      },
+      "intensity": {
+        "number": "2"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Flexible"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "ashirai"
+      },
+      "dan": {
+        "number": "2",
+        "value": "Shite Enters"
+      },
+      "shodanIndex": {
+        "number": "6"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/ashirai/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/ashirai.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Song"
+      },
+      "startTime": {
+        "value": 782
+      },
+      "endTime": {
+        "value": 841
+      },
+      "intensity": {
+        "number": "6"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Shite"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Sashinori (unmetered)"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "song"
+      },
+      "dan": {
+        "number": "2",
+        "value": "Shite Enters"
+      },
+      "shodanIndex": {
+        "number": "7"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/song/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/song.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Kakeai"
+      },
+      "startTime": {
+        "value": 842
+      },
+      "endTime": {
+        "value": 1048
+      },
+      "intensity": {
+        "number": "4"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Waki, Shite"
+      },
+      "voice": {
+        "value": "Spoken & Sung (Yowagin)"
+      },
+      "text": {
+        "value": "Unmetered"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "kakeai"
+      },
+      "dan": {
+        "number": "3",
+        "value": "Dialogue"
+      },
+      "shodanIndex": {
+        "number": "8"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/kakeai/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/kakeai.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Kakaru-2"
+      },
+      "startTime": {
+        "value": 1049
+      },
+      "endTime": {
+        "value": 1132
+      },
+      "intensity": {
+        "number": "9"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Waki"
+      },
+      "voice": {
+        "value": "Spoken & Sung (yowagin)"
+      },
+      "text": {
+        "value": "Sashinori (non-congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Flexible"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "kakaru"
+      },
+      "dan": {
+        "number": "5",
+        "value": "Shite Exits"
+      },
+      "shodanIndex": {
+        "number": "9"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/kakaru-2/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/kakaru-2.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Ageuta-1"
+      },
+      "startTime": {
+        "value": 1133
+      },
+      "endTime": {
+        "value": 1263
+      },
+      "intensity": {
+        "number": "19"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Jiutai"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Hiranori (congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non-congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "ageuta"
+      },
+      "dan": {
+        "number": "5",
+        "value": "Shite Exits"
+      },
+      "shodanIndex": {
+        "number": "10"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/ageuta-1/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/ageuta-1.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Mid-exit"
+      },
+      "startTime": {
+        "value": 1264
+      },
+      "endTime": {
+        "value": 1396
+      },
+      "intensity": {
+        "number": "0"
+      },
+      "numberVoices": {},
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {},
+      "percussion": {},
+      "nokhanPresent": {},
+      "dancePresent": {},
+      "shodanType": {
+        "value": "midexit"
+      },
+      "dan": {
+        "number": "5",
+        "value": "Shite Exits"
+      },
+      "shodanIndex": {
+        "number": "11"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/mid-exit/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/mid-exit.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Ai-kyōgen"
+      },
+      "startTime": {
+        "value": 1397
+      },
+      "endTime": {
+        "value": 2254
+      },
+      "intensity": {
+        "number": "5"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Ai-kyōgen and Waki"
+      },
+      "voice": {
+        "value": "Spoken"
+      },
+      "text": {
+        "value": "Unmetered"
+      },
+      "numberOfPercussion": {
+        "number": "0"
+      },
+      "percussion": {},
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non-congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "ai-kyogen"
+      },
+      "dan": {
+        "number": "6"
+      },
+      "shodanIndex": {
+        "number": "12"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/aikyogen/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/aikyogen.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Prop-in"
+      },
+      "startTime": {
+        "value": 2255
+      },
+      "endTime": {
+        "value": 2362
+      },
+      "intensity": {
+        "number": "0"
+      },
+      "numberVoices": {},
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {},
+      "percussion": {},
+      "nokhanPresent": {},
+      "dancePresent": {},
+      "shodanType": {},
+      "dan": {
+        "number": "8"
+      },
+      "shodanIndex": {
+        "number": "13"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/prop-in/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/prop-in.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Kakaru-3"
+      },
+      "startTime": {
+        "value": 2363
+      },
+      "endTime": {
+        "value": 2455
+      },
+      "intensity": {
+        "number": "8"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Waki"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Sashinori (non-congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Flexible"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "kakaru"
+      },
+      "dan": {
+        "number": "1",
+        "value": "Waki Waits"
+      },
+      "shodanIndex": {
+        "number": "14"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/kakaru-3/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/kakaru-3.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Issei"
+      },
+      "startTime": {
+        "value": 2456
+      },
+      "endTime": {
+        "value": 2681
+      },
+      "intensity": {
+        "number": "14"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Einori (non-congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non-congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "issei-chant"
+      },
+      "dan": {
+        "number": "2",
+        "value": "Shite Re-enters"
+      },
+      "shodanIndex": {
+        "number": "15"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/issei/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/issei.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Sageuta"
+      },
+      "startTime": {
+        "value": 2682
+      },
+      "endTime": {
+        "value": 2739
+      },
+      "intensity": {
+        "number": "17"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Shite"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Hiranori (congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "sageuta"
+      },
+      "dan": {
+        "number": "2",
+        "value": "Shite Re-enters"
+      },
+      "shodanIndex": {
+        "number": "16"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/sageuta/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/sageuta.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Ageuta-2"
+      },
+      "startTime": {
+        "value": 2740
+      },
+      "endTime": {
+        "value": 2834
+      },
+      "intensity": {
+        "number": "17"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Jiutai"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Hiranori (congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "ageuta"
+      },
+      "dan": {
+        "number": "2",
+        "value": "Shite Re-enters"
+      },
+      "shodanIndex": {
+        "number": "17"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/ageuta-2/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/ageuta-2.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Rongi"
+      },
+      "startTime": {
+        "value": 2835
+      },
+      "endTime": {
+        "value": 3117
+      },
+      "intensity": {
+        "number": "22"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Hiranori (congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non-congruent"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "rongi"
+      },
+      "dan": {
+        "number": "3",
+        "value": "Dialogue"
+      },
+      "shodanIndex": {
+        "number": "18"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/rongi/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/rongi.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Kuse"
+      },
+      "startTime": {
+        "value": 3118
+      },
+      "endTime": {
+        "value": 3690
+      },
+      "intensity": {
+        "number": "31"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Hiranori (congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non-congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Dance to text"
+      },
+      "shodanType": {
+        "value": "kuse"
+      },
+      "dan": {
+        "number": "4",
+        "value": "Shite Performs"
+      },
+      "shodanIndex": {
+        "number": "19"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/kuse/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/kuse.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Jonomai"
+      },
+      "startTime": {
+        "value": 3691
+      },
+      "endTime": {
+        "value": 4645
+      },
+      "intensity": {
+        "number": "34"
+      },
+      "numberVoices": {
+        "number": "0"
+      },
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Instrumental dance"
+      },
+      "shodanType": {
+        "value": "jonomai"
+      },
+      "dan": {
+        "number": "4",
+        "value": "Shite Performs"
+      },
+      "shodanIndex": {
+        "number": "20"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/jonomai/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/jonomai.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Waka"
+      },
+      "startTime": {
+        "value": 4646
+      },
+      "endTime": {
+        "value": 4694
+      },
+      "intensity": {
+        "number": "13"
+      },
+      "numberVoices": {
+        "number": "1",
+        "value": "Shite"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Non-congruent"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "No"
+      },
+      "dancePresent": {
+        "present": "No"
+      },
+      "shodanType": {
+        "value": "waka"
+      },
+      "dan": {
+        "number": "5",
+        "value": "Shite Exits"
+      },
+      "shodanIndex": {
+        "number": "21"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/waka/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/waka.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Kiri"
+      },
+      "startTime": {
+        "value": 4695
+      },
+      "endTime": {
+        "value": 5032
+      },
+      "intensity": {
+        "number": "32"
+      },
+      "numberVoices": {
+        "number": "2",
+        "value": "Shite, Jiutai"
+      },
+      "voice": {
+        "value": "Sung (yowagin)"
+      },
+      "text": {
+        "value": "Ōnori (congruent)"
+      },
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Ōtsuzumi, Kotsuzumi"
+      },
+      "percussion": {
+        "value": "Strict"
+      },
+      "nokhanPresent": {
+        "present": "Yes",
+        "value": "Non-congruent"
+      },
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Dance to text"
+      },
+      "shodanType": {
+        "value": "kiri"
+      },
+      "dan": {
+        "number": "5",
+        "value": "Shite Exits"
+      },
+      "shodanIndex": {
+        "number": "22"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/kiri/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/kiri.html"
+      }
+    },
+    {
+      "play": {
+        "value": "Hashitomi"
+      },
+      "sectionName": {
+        "value": "Exit of the Musicians"
+      },
+      "startTime": {
+        "value": 5033
+      },
+      "endTime": {
+        "value": 5267
+      },
+      "intensity": {
+        "number": "0"
+      },
+      "numberVoices": {},
+      "voice": {},
+      "text": {},
+      "numberOfPercussion": {},
+      "percussion": {},
+      "nokhanPresent": {},
+      "dancePresent": {},
+      "shodanType": {},
+      "dan": {
+        "number": "8"
+      },
+      "shodanIndex": {
+        "number": "23"
+      },
+      "playUrl": "/hashitomi/",
+      "sectionUrl": "/hashitomi/exit/",
+      "videoUrl": {
+        "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+      },
+      "videoDuration": {
+        "value": "01:27:47"
+      },
+      "narrative": {
+        "value": "/hashitomi/narratives/exit.html"
+      }
+    }
+  ],
+  "narrative": "/narratives/hashitomi/",
+  "tracks": [
+    {
+      "label": "Translation",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/hashitomi.translation.vtt"
+    },
+    {
+      "label": "Transcription",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/hashitomi.transcription.vtt"
+    },
+    {
+      "label": "Combined",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/hashitomi.combined.vtt"
+    }
+  ],
+  "maxIntensity": 34
+}

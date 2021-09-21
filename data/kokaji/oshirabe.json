@@ -1,0 +1,56 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Oshirabe"
+  },
+  "startTime": {},
+  "endTime": {
+    "value": 105
+  },
+  "intensity": {
+    "number": "6"
+  },
+  "numberVoices": {
+    "number": "1"
+  },
+  "voice": {},
+  "text": {},
+  "numberOfPercussion": {
+    "number": "3",
+    "value": "Ōtsuzumi, Kotsuzumi, Taiko"
+  },
+  "percussion": {
+    "value": "Unmetered"
+  },
+  "nokhanPresent": {
+    "present": "Yes",
+    "value": "Non congruent"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "oshirabe"
+  },
+  "dan": {
+    "number": "7"
+  },
+  "shodanIndex": {
+    "number": "1"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/oshirabe/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [],
+  "captions": [],
+  "narrative": {
+    "value": "/kokaji/narratives/oshirabe.html"
+  }
+}

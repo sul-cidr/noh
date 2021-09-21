@@ -1,0 +1,52 @@
+{
+  "play": {
+    "value": "Hashitomi"
+  },
+  "sectionName": {
+    "value": "Musicians walk-in"
+  },
+  "startTime": {
+    "value": 139
+  },
+  "endTime": {
+    "value": 217
+  },
+  "intensity": {
+    "number": "0"
+  },
+  "numberVoices": {
+    "number": "0"
+  },
+  "voice": {},
+  "text": {},
+  "numberOfPercussion": {
+    "number": "2"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "Yes"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {},
+  "dan": {
+    "number": "8"
+  },
+  "shodanIndex": {
+    "number": "2"
+  },
+  "playUrl": "/hashitomi/",
+  "sectionUrl": "/hashitomi/musicians-walk-in/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:27:47"
+  },
+  "phrases": [],
+  "captions": [],
+  "narrative": {
+    "value": "/hashitomi/narratives/musicians-walk-in.html"
+  }
+}

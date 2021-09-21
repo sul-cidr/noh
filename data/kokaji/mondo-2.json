@@ -1,0 +1,765 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Mondō-2"
+  },
+  "startTime": {
+    "value": 738
+  },
+  "endTime": {
+    "value": 897
+  },
+  "intensity": {
+    "number": "4"
+  },
+  "numberVoices": {
+    "number": "2",
+    "value": "Shite, Waki"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "No"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "mondo"
+  },
+  "dan": {
+    "number": "3",
+    "value": "Dialogue"
+  },
+  "shodanIndex": {
+    "number": "8"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/mondo-2/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 738,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Nō nō are naru wa Sanjō no Kokaji Munechika nite, on iri sōrō ka.",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Shite speaks from the mirror room.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 772,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Fushigi ya na nabete narazaru, on koto naru ga.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "6. Waki standing faces the bridge.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 782,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Michi mo naki kata yori, kitaritamai. Waga na wo sashite, notamō wa. Ikanaru hito nite, mashimasu zo.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 4
+          },
+          {
+            "text": "Shite enters on the bridge",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 12
+          }
+        ]
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 803,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kumo no ue naru, kimi yori mo. Tsurugi wo uchite, mairaseyo to. Nanji ni ōse ari shi yo, nō.",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Shite enters the Bridge and walks towards 1.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 833,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sareba koso. Sore ni tsukete mo nao nao kidoku no, on koto nare.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shite walks towards 1.)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 847,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Tsurugi no choku mo, tadaima naru wo. Hayaku moshiroshi, mesaruru koto.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shite walks towards 1.)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "6"
+    },
+    {
+      "startTime": {
+        "value": 861,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kaesu gaesu mo, fushin nari.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shite walks towards 1.)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "7"
+    },
+    {
+      "startTime": {
+        "value": 868,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Geni geni sore wa, saru koto naredomo. Ware nomi shireba, moro bito made mo.",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Shite arrives at 1 and performs a Step pivot to the left to face the waki.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "8"
+    },
+    {
+      "startTime": {
+        "value": 886,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "transition",
+        "grid": [
+          {
+            "text": "Ten ni koe, ari.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 5
+          },
+          {
+            "text": "Chi ni hibiku.",
+            "voices": [
+              "shite"
+            ],
+            "start": 5,
+            "style": "extended-vowel",
+            "length": 11
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "yowagin---high",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Shite takes one step towards the waki.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "9"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 738,
+      "endTime": 772,
+      "translation": "[SHITE] Ho there! Is that the Swordsmith of Sanjō, Munechika ?",
+      "transcription": "[SHITE] Nō nō are naru wa Sanjō no Kokaji Munechika nite, on iri sōrō ka."
+    },
+    {
+      "startTime": 772,
+      "endTime": 782,
+      "translation": "[WAKI] How mysterious! Here is someone who is certainly not an ordinary person.",
+      "transcription": "[WAKI] Fushigi ya na nabete narazaru on-koto naru ga."
+    },
+    {
+      "startTime": 782,
+      "endTime": 790,
+      "translation": "There is no path from the direction from which he has appeared,",
+      "transcription": "Michi mo naki kata yori kitaritamai"
+    },
+    {
+      "startTime": 790,
+      "endTime": 796,
+      "translation": "and now he has called me by name.",
+      "transcription": "waga na wo sashite notamō wa."
+    },
+    {
+      "startTime": 796,
+      "endTime": 804,
+      "translation": "What manner of man are you ?",
+      "transcription": "Ikanaru hito nite mashi-masu zo."
+    },
+    {
+      "startTime": 804,
+      "endTime": 814,
+      "translation": "[SHITE] You have been ordered",
+      "transcription": "[SHITE] Kumo no ue naru kimi yori mo"
+    },
+    {
+      "startTime": 814,
+      "endTime": 824,
+      "translation": "by his Imperial Majesty",
+      "transcription": "tsurugi wo uchite mairaseyo to"
+    },
+    {
+      "startTime": 824,
+      "endTime": 833,
+      "translation": "to forge a sword!",
+      "transcription": "nanji ni ōse ari shi yo nō."
+    },
+    {
+      "startTime": 833,
+      "endTime": 838,
+      "translation": "[WAKI] As I thought, you are not what you seem to be,",
+      "transcription": "[WAKI] Sareba koso, "
+    },
+    {
+      "startTime": 838,
+      "endTime": 848,
+      "translation": "and events must be of great importance indeed.",
+      "transcription": "sore ni tsukete mo nao nao kidoku no on-koto nare."
+    },
+    {
+      "startTime": 848,
+      "endTime": 854,
+      "translation": "I have just received the order to make a blade!",
+      "transcription": "Tsurugi no choku mo tadaima naru wo."
+    },
+    {
+      "startTime": 854,
+      "endTime": 861,
+      "translation": "How could it be that anyone could know so soon ?",
+      "transcription": "Hayaku mo shiroshimesaruru koto"
+    },
+    {
+      "startTime": 861,
+      "endTime": 868,
+      "translation": "No matter how I consider it, the matter is most strange.",
+      "transcription": "Kaesu-gaesu mo fushin nari."
+    },
+    {
+      "startTime": 868,
+      "endTime": 878,
+      "translation": "[SHITE] In truth, it is as you say. It is said: To know a thing one's self,",
+      "transcription": "[SHITE] Geni geni sore wa saru koto naredomo"
+    },
+    {
+      "startTime": 878,
+      "endTime": 886,
+      "translation": "it is to find it is known by all.",
+      "transcription": "ware nomi shireba moro bito made mo."
+    },
+    {
+      "startTime": 886,
+      "endTime": 892,
+      "translation": "[WAKI] A voice in heaven,",
+      "transcription": "[WAKI] Ten ni koe ari."
+    },
+    {
+      "startTime": 892,
+      "endTime": 898,
+      "translation": "[SHITE] echoes on the earth!",
+      "transcription": "[SHITE] Chi ni hibiku."
+    }
+  ],
+  "narrative": {
+    "value": "/kokaji/narratives/mondo-2.html"
+  }
+}

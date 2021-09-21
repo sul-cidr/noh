@@ -1,0 +1,481 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Nanori"
+  },
+  "startTime": {
+    "value": 235
+  },
+  "endTime": {
+    "value": 314
+  },
+  "intensity": {
+    "number": "3"
+  },
+  "numberVoices": {
+    "number": "1",
+    "value": "Wakizure"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "No"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "nanori"
+  },
+  "dan": {
+    "number": "1",
+    "value": "Waki Enters"
+  },
+  "shodanIndex": {
+    "number": "3"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/nanori/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 235,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Somo somo kore wa Ichijō no in ni, tsukae tatematsuru.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 14
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Standing",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 244,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Tachibana no Michinari to wa, waga koto nari.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 14
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 252,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sate mo mikado kon'ya kidoku no go reimu, mashimashite.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 14
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 262,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sanjō no Kokaji, Munechika ni.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 14
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 268,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Mi-tsurugi wo utaserarubeshi to no, senji tadaima, narikudarite sōrō hōdo ni.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 14
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 283,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kono yoshi wo Munechika ni mōshi tsukebaya to, zonji sōrō.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 14
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 8
+          },
+          {
+            "text": "1. Closing 'prayer' gesture",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 6
+          }
+        ]
+      },
+      "phrase": "6"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 235,
+      "endTime": 239,
+      "translation": "[WAKIZURE] To begin with,",
+      "transcription": "[WAKIZURE] Somo somo kore wa,"
+    },
+    {
+      "startTime": 239,
+      "endTime": 244,
+      "translation": "I am in the service of the Emperor Ichijo.",
+      "transcription": "Ichijō-no-In ni tsukae tatematsuru."
+    },
+    {
+      "startTime": 244,
+      "endTime": 252,
+      "translation": "I am known as Tachibana no Michinari.",
+      "transcription": "Tachibana-no-Michinari to wa waga koto nari."
+    },
+    {
+      "startTime": 252,
+      "endTime": 262,
+      "translation": "It is so happens that his Lordship",
+      "transcription": "Sate mo mikado kon'ya kidoku no go reimu, mashimashite."
+    },
+    {
+      "startTime": 262,
+      "endTime": 268,
+      "translation": "has had a portentous dream oracle.",
+      "transcription": "Sanjō-no-Kokaji Munechika ni."
+    },
+    {
+      "startTime": 268,
+      "endTime": 274,
+      "translation": "The Sanjo swordsmith Munechika",
+      "transcription": "Mi-tsurugi wo utaserarubeki to no"
+    },
+    {
+      "startTime": 274,
+      "endTime": 283,
+      "translation": "must be ordered to forge a blade.",
+      "transcription": "senji tadaima narikudarite sōrō hodo ni."
+    },
+    {
+      "startTime": 283,
+      "endTime": 290,
+      "translation": "I am on my way now to tell Munechika",
+      "transcription": "Kono yoshi wo Munechika ni mōshi-tsukebaya to"
+    },
+    {
+      "startTime": 290,
+      "endTime": 294,
+      "translation": "of this matter.",
+      "transcription": "zonji sōrō."
+    }
+  ],
+  "narrative": {
+    "value": "/kokaji/narratives/nanori.html"
+  }
+}

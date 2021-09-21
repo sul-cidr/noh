@@ -1,0 +1,1193 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Mondō-1"
+  },
+  "startTime": {
+    "value": 315
+  },
+  "endTime": {
+    "value": 521
+  },
+  "intensity": {
+    "number": "4"
+  },
+  "numberVoices": {
+    "number": "2",
+    "value": "Wakizure, waki"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "No"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "mondo"
+  },
+  "dan": {
+    "number": "1",
+    "value": "Waki Enters"
+  },
+  "shodanIndex": {
+    "number": "4"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/mondo-1/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 315,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Ika ni kono uchi ni Munechika no, watari sōrō ka.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "First pine. Standing",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 331,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Tare nite watari sōrōzo.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Third pine. Standing",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 338,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kore wa senji nite sōrō.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 5
+          },
+          {
+            "text": "Third pine. Waki bows.",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 347,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Waga kimi Kon'ya fushimi no reimu, mashimashite.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 355,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Mitsurugi wo utaserarubeshi tono, onkoto nari. Tōtō tsukamatsuri sōrae.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 371,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Senji kashikomatte uketamawari sōrō, sarinagara.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "6"
+    },
+    {
+      "startTime": {
+        "value": 384,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Orifushi aizuchi utsubeki mono no naku sōrō wo ba, nani to tsukamatsuri sōrō beki.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "7"
+    },
+    {
+      "startTime": {
+        "value": 399,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Fushigi no koto wo, mōsu mono kana. Sono na wo etaru, nanji naruga.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "8"
+    },
+    {
+      "startTime": {
+        "value": 413,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Aizuchi utsubeki, mono no naki towa. Kokoroegataki iigotokana.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "9"
+    },
+    {
+      "startTime": {
+        "value": 426,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kore wa, ōse nite sōrae domo. Kayō no ichidaiji no mono wo, tsukamatsuru ni wa.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "10"
+    },
+    {
+      "startTime": {
+        "value": 443,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Ware ni otoranu hoto no mono no aizuchi, tsukamatsurite koso.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "11"
+    },
+    {
+      "startTime": {
+        "value": 454,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Mitsurugi wo mo, uchimōsubekere. Tonikaku ni onpenji wo, mōshikane.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 6
+          },
+          {
+            "text": "Third Pine. Raises his body",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 10
+          }
+        ]
+      },
+      "phrase": "12"
+    },
+    {
+      "startTime": {
+        "value": 470,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sekimenshitaru, bakari nari.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Third Pine. Bows one more time",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 16
+          }
+        ]
+      },
+      "phrase": "13"
+    },
+    {
+      "startTime": {
+        "value": 476,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Mōsu tokoro wa, saru koto naredomo. Mikado mo fushigi no reimu, mashimaseba.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "14"
+    },
+    {
+      "startTime": {
+        "value": 491,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Ikanaru koto ka, sōrōbeki. Tanomoshiku omoi, mōshitsutsu.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "15"
+    },
+    {
+      "startTime": {
+        "value": 505,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Hayahaya ryōjō, mōsubeshito. Kasanete senji, arikereba.",
+            "voices": [
+              "wakizure"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 16
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 6
+          },
+          {
+            "text": "First pine: One step forward",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 10
+          }
+        ]
+      },
+      "phrase": "16"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 315,
+      "endTime": 325,
+      "translation": "[WAKIZURE] Is Munechika at home ?",
+      "transcription": "[WAKIZURE] Ika ni kono uchi ni Munechika no, watari sōrō ka."
+    },
+    {
+      "startTime": 331,
+      "endTime": 338,
+      "translation": "[WAKI] Who is it that has come here ?",
+      "transcription": "[WAKI] Tare nite watari, sōrōzo."
+    },
+    {
+      "startTime": 338,
+      "endTime": 347,
+      "translation": "[WAKIZURE] I am a messenger from the Emperor.",
+      "transcription": "[WAKIZURE] Kore wa senji nite sōrō."
+    },
+    {
+      "startTime": 347,
+      "endTime": 355,
+      "translation": "His Majesty has had a marvelous oracle in a dream.",
+      "transcription": "Waga kimi Kon'ya fushimi no reimu, mashimashite."
+    },
+    {
+      "startTime": 355,
+      "endTime": 365,
+      "translation": "According to the oracle, you must forge a fine sword for him.",
+      "transcription": "Mitsurugi wo utaserarubeki tono onkoto nari."
+    },
+    {
+      "startTime": 365,
+      "endTime": 371,
+      "translation": "Please comply with this order at once.",
+      "transcription": "Tōtō tsukamatsuri sōrae."
+    },
+    {
+      "startTime": 371,
+      "endTime": 384,
+      "translation": "[WAKI] While I certainly must agree to execute this imperial order, ",
+      "transcription": "[WAKI] Senji kashikomatte uketamawari sōrō sarinagara."
+    },
+    {
+      "startTime": 384,
+      "endTime": 393,
+      "translation": "as I do not have anyone to assist me,",
+      "transcription": "Orifushi aizuchi utsubeki mono no naku sōrō wo ba,"
+    },
+    {
+      "startTime": 393,
+      "endTime": 400,
+      "translation": "I do not know how I will be able to carry it out.",
+      "transcription": "nani to tsukamatsuri sōrō beki."
+    },
+    {
+      "startTime": 400,
+      "endTime": 406,
+      "translation": "[WAKIZURE] What you say sir, seems most strange.",
+      "transcription": "[WAKIZURE] Fushigi no koto wo mōsu mono kana."
+    },
+    {
+      "startTime": 406,
+      "endTime": 413,
+      "translation": "To hear that someone of your reputation",
+      "transcription": "Sono na wo etaru, nanji naruga"
+    },
+    {
+      "startTime": 413,
+      "endTime": 420,
+      "translation": "does not have an appropriate assistant,",
+      "transcription": "aizuchi utsubeki mono no naki towa."
+    },
+    {
+      "startTime": 420,
+      "endTime": 426,
+      "translation": "is the most unfortunate news.",
+      "transcription": "Kokoroegataki iigotokana."
+    },
+    {
+      "startTime": 426,
+      "endTime": 434,
+      "translation": "[WAKI] Even though I am commanded to do so,",
+      "transcription": "[WAKI] Kore wa ōse nite sōrae domo,"
+    },
+    {
+      "startTime": 434,
+      "endTime": 443,
+      "translation": "without an assistant whose skills are equal to my own,",
+      "transcription": "Kayō no ichidaiji no mono wo tsukamatsuru ni wa"
+    },
+    {
+      "startTime": 443,
+      "endTime": 454,
+      "translation": "it will not be possible to fulfill this order",
+      "transcription": "ware ni otonaru koto no mono no aizuchi, tsukamatsurite koso."
+    },
+    {
+      "startTime": 454,
+      "endTime": 462,
+      "translation": "to forge an imperial blade.",
+      "transcription": "Mitsurugi wo mo uchimōsubekere."
+    },
+    {
+      "startTime": 462,
+      "endTime": 470,
+      "translation": "This is the answer I must give,",
+      "transcription": "Tonikaku ni onpenji wo mōshikane."
+    },
+    {
+      "startTime": 470,
+      "endTime": 476,
+      "translation": "though I am overcome with embarassment.",
+      "transcription": "Sekimenshitaru bakari nari."
+    },
+    {
+      "startTime": 476,
+      "endTime": 483,
+      "translation": "[WAKIZURE] Even though it may be as you say,",
+      "transcription": "[WAKIZURE] Mōsu tokoro wa saru koto naredomo."
+    },
+    {
+      "startTime": 483,
+      "endTime": 491,
+      "translation": "yet as this is the Emperor's wonderful dream oracle,",
+      "transcription": "Mikado mo fushigi no reimu mashimaseba."
+    },
+    {
+      "startTime": 491,
+      "endTime": 497,
+      "translation": "it surely must be relied upon",
+      "transcription": "Ikanaru koto ka sōrōbeki"
+    },
+    {
+      "startTime": 497,
+      "endTime": 505,
+      "translation": "and you must quickly say",
+      "transcription": "tanomoshiku omoi mōshitsutsu"
+    },
+    {
+      "startTime": 505,
+      "endTime": 513,
+      "translation": "you will accept the order.",
+      "transcription": "hayahaya ryōjō mōisubeshito"
+    },
+    {
+      "startTime": 513,
+      "endTime": 522,
+      "translation": "Let me repeat the imperial command!",
+      "transcription": "Kasanete senji arikereba."
+    }
+  ],
+  "narrative": {
+    "value": "/kokaji/narratives/mondo-1.html"
+  }
+}

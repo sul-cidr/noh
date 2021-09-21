@@ -1,0 +1,322 @@
+{
+  "play": {
+    "value": "Hashitomi"
+  },
+  "sectionName": {
+    "value": "Song"
+  },
+  "startTime": {
+    "value": 782
+  },
+  "endTime": {
+    "value": 841
+  },
+  "intensity": {
+    "number": "6"
+  },
+  "numberVoices": {
+    "number": "1",
+    "value": "Shite"
+  },
+  "voice": {
+    "value": "Sung (yowagin)"
+  },
+  "text": {
+    "value": "Sashinori (unmetered)"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "No"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "song"
+  },
+  "dan": {
+    "number": "2",
+    "value": "Shite Enters"
+  },
+  "shodanIndex": {
+    "number": "7"
+  },
+  "playUrl": "/hashitomi/",
+  "sectionUrl": "/hashitomi/song/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:27:47"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 782,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Te ni toreba",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 8
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Second pine. Standing, facing the audience.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 8
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 797,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Tabusa ni kegaru tate nagara",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 8
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 815,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "miyo no hotoke ni",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 8
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 829,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "hanatatematsuru",
+            "voices": [
+              "shite"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 8
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "4"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 782,
+      "endTime": 797,
+      "translation": "[SHITE] As when the hand takes them,",
+      "transcription": "[SHITE] Te ni toreba"
+    },
+    {
+      "startTime": 797,
+      "endTime": 815,
+      "translation": "the hand itself sullies them.",
+      "transcription": "Tabusa ni kegaru tatenagara"
+    },
+    {
+      "startTime": 815,
+      "endTime": 830,
+      "translation": "To the Buddhas of the Three Realms",
+      "transcription": "Miyo no hotoke ni"
+    },
+    {
+      "startTime": 830,
+      "endTime": 841,
+      "translation": "I offer them as they are.",
+      "transcription": "Hanatatematsuru."
+    }
+  ],
+  "narrative": {
+    "value": "/hashitomi/narratives/song.html"
+  }
+}

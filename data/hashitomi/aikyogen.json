@@ -1,0 +1,3899 @@
+{
+  "play": {
+    "value": "Hashitomi"
+  },
+  "sectionName": {
+    "value": "Ai-kyōgen"
+  },
+  "startTime": {
+    "value": 1397
+  },
+  "endTime": {
+    "value": 2254
+  },
+  "intensity": {
+    "number": "5"
+  },
+  "numberVoices": {
+    "number": "2",
+    "value": "Ai-kyōgen and Waki"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "Yes",
+    "value": "Non-congruent"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "ai-kyogen"
+  },
+  "dan": {
+    "number": "6"
+  },
+  "shodanIndex": {
+    "number": "12"
+  },
+  "playUrl": "/hashitomi/",
+  "sectionUrl": "/hashitomi/aikyogen/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:27:47"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 1397,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kayō ni sorō mono wa, Miyako kitayama atari ni, sumai suru mono nite sorō.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Standing",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 1415,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Uketamawari sōraeba, atari chikaki, Unrin-in ni oite, ichige no aida,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 1428,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "ichige no aida, hana no kuyō no gozasōrō yoshi.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 1440,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Uketamawarioyobite sōrō hodo ni warera mo, mairayaba to zonzuru.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 1458,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Makoto ni, kon-nitta mairu hito mo sukunaku, nani to yaran, mono sabite sōrō yo.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 1477,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Nōnō katagata wa kono atari no hito nite sōrō ka.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Turn to face the waki",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "phrase": "6"
+    },
+    {
+      "startTime": {
+        "value": 1492,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Nakanaka, kono atari no mono nite sōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "7"
+    },
+    {
+      "startTime": {
+        "value": 1500,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sayō ni sōrawaba, mazu. chikō, oniri sōrae mono wo, tazunetaki koto no sōro.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "8"
+    },
+    {
+      "startTime": {
+        "value": 1518,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kokoroe mōshite sōro. Sate, ontazunenasaretaki to wa, ikayō naru, goyō nite sōrōzo.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "1. Go to 9. Kneel facing the Waki",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 12
+          }
+        ]
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "9"
+    },
+    {
+      "startTime": {
+        "value": 1553,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Oboshimeshi yorazaru mōshi koto nite sōraedomo.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "10"
+    },
+    {
+      "startTime": {
+        "value": 1564,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Inishie, gojō atai ni, iugao no ue no sumasetamaishi shisai, onmonogatari sōrae.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "11"
+    },
+    {
+      "startTime": {
+        "value": 1584,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kore wa, omoimoyoranu koto wo, ontazune nasare sōrō mono kana.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "12"
+    },
+    {
+      "startTime": {
+        "value": 1597,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Warera mo sayō no koto kuwashiku wa zonzezu sōrōga, oyoso,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "13"
+    },
+    {
+      "startTime": {
+        "value": 1611,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Uketamawaritarutōri, monogatari mōsōzuru nite sōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "14"
+    },
+    {
+      "startTime": {
+        "value": 1631,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Saruhodo ni, iugao no ue to mōshitaru, onkata wa,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "9. Slide to face front",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "phrase": "15"
+    },
+    {
+      "startTime": {
+        "value": 1645,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "sanminochiūjō no, onsokujo nite, saru shisai no koto sōraite,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "16"
+    },
+    {
+      "startTime": {
+        "value": 1660,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Gojō atari ni shinobi ite goza aritaru to mōsu. Mata sono koro, hikaru Genji wo,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "17"
+    },
+    {
+      "startTime": {
+        "value": 1681,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Rokujō miyasudokoro no kata e onkayoinasare sōrō ga,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "18"
+    },
+    {
+      "startTime": {
+        "value": 1694,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "orifushi Gojō atari wo, tōrare shikaba, shōya ni iugao no hana,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "19"
+    },
+    {
+      "startTime": {
+        "value": 1711,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "migoto ni sakimidarete sōrō hodo ni, Koremitsu wo mesare, ano hana,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "20"
+    },
+    {
+      "startTime": {
+        "value": 1726,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "taorite maire to no onkoto nari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "21"
+    },
+    {
+      "startTime": {
+        "value": 1734,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Koremitsu mizuishin no motte, sono hana wo shomō mōsare shikaba,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "22"
+    },
+    {
+      "startTime": {
+        "value": 1750,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "shōya yori warabe wo idashi. Shibaraku sore ni, onmachiare tote,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "23"
+    },
+    {
+      "startTime": {
+        "value": 1765,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sono nochi, shiroki ōgi no, tsuma ito kogashitaru ni,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "24"
+    },
+    {
+      "startTime": {
+        "value": 1777,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "iugao no hana wo soete sashi idasu. Mizuishin kore wo uketori,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "25"
+    },
+    {
+      "startTime": {
+        "value": 1786,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Koremitsu ni mairasekereba. Koremitsu, Genji e mairasesōrō tokoro ni,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "26"
+    },
+    {
+      "startTime": {
+        "value": 1808,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "sono ōgi no fuchi ni, isshu no uta no goza sōrō hodo ni,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "27"
+    },
+    {
+      "startTime": {
+        "value": 1821,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "isogi gohenka wo nasare, sono hana yue ni, iugao no ue ni mabite tamai,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "28"
+    },
+    {
+      "startTime": {
+        "value": 1827,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "sono hana yue ni, iugao no ue ni mamie tamai, onchigiri asakaraneba, sono nochi",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "29"
+    },
+    {
+      "startTime": {
+        "value": 1846,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "nanigashi in e ontomonari nasare. Iroiro kiyoku bengi no chigiri",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "30"
+    },
+    {
+      "startTime": {
+        "value": 1863,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "asakarazusōrō tokoro ni, nanbō, fushigi naru koto nite sōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "31"
+    },
+    {
+      "startTime": {
+        "value": 1878,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Iugao no ue wa, mononoke ni okasaretamai, Munashiku nararetaru to mōsu.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "32"
+    },
+    {
+      "startTime": {
+        "value": 1897,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Hikaru Genji no onnageki mōsumo, orokanaru tei nite goza aritaru to mōsu,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "33"
+    },
+    {
+      "startTime": {
+        "value": 1919,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Mazu, warera no uketamawaritaru shisai, ōkata kaku no gotoku nite sōrō ga,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "9. Turn towards the waki",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "phrase": "34"
+    },
+    {
+      "startTime": {
+        "value": 1936,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "tadaima wa nani to, oboshi meshite yaran, ontazune fushin ni zonjisōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "35"
+    },
+    {
+      "startTime": {
+        "value": 1953,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Nengoro ni uketamari sōrō mono kana. Soregashi ichige no aida, hana no kuyō wo",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "36"
+    },
+    {
+      "startTime": {
+        "value": 1972,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "toriokonai sōrō tokoro ni, nyoshō ichinin shiroki hana wo taterare sōrō hodo ni",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "37"
+    },
+    {
+      "startTime": {
+        "value": 1990,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "hana no aruji wa ikanaru hito zo tazunete sōraeba, sore ni tsuki",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "38"
+    },
+    {
+      "startTime": {
+        "value": 2005,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Iugao no ue no on koto wo waga mi no ue no yō ni iisute,",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "39"
+    },
+    {
+      "startTime": {
+        "value": 2018,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "sono mama hana no kage nite sugata wo miushinaite sōrō yo.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "40"
+    },
+    {
+      "startTime": {
+        "value": 2031,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Gongodōdan, fushigi naru koto wo ōsesōrōmono kana.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "41"
+    },
+    {
+      "startTime": {
+        "value": 2046,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sate wa warera ga suiryō mōsu ni, kayō ni hana no kuyō wo no gozasōrōaida,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "42"
+    },
+    {
+      "startTime": {
+        "value": 2063,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Iugao no hana no sei, mata wa, inishie iugao no ue gobōshin.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "43"
+    },
+    {
+      "startTime": {
+        "value": 2077,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Araware idetaru to zonjisōrō ga shika to wa zonzezusōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Shimo no takane",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "44"
+    },
+    {
+      "startTime": {
+        "value": 2088,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sarinagara, osō tattoku mashimasu ni yori",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "45"
+    },
+    {
+      "startTime": {
+        "value": 2099,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Ontomurai nimo azukaritaku oboshimeshi Iugao no ue no gobōshin",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "46"
+    },
+    {
+      "startTime": {
+        "value": 2112,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "araware idetaru to zonjisōro. Sayō ni sōrawaba kore yori Gojō atari e oniri sōrawaba",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "47"
+    },
+    {
+      "startTime": {
+        "value": 2135,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "kidoku naru koto mo gozasōrō hodo ni,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "48"
+    },
+    {
+      "startTime": {
+        "value": 2143,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "sono nochi nengoro ni tomurōte ontōri arekashi to zonjisōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "49"
+    },
+    {
+      "startTime": {
+        "value": 2157,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Warera mo sayō ni zonjisōrōaida, Gojō atari ni tachi ni ide,",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "50"
+    },
+    {
+      "startTime": {
+        "value": 2173,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Iugao no ue no onato wo tomurai mōsōzuru nite sōro.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "51"
+    },
+    {
+      "startTime": {
+        "value": 2185,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sore wa chikagoro nite sōro. Osō onide nite sōrawaba",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "52"
+    },
+    {
+      "startTime": {
+        "value": 2198,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "warera mo onato yori mairōzuru nite sōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "53"
+    },
+    {
+      "startTime": {
+        "value": 2209,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Yagate atoyori kitarare sōrae.",
+            "voices": [
+              "waki"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "54"
+    },
+    {
+      "startTime": {
+        "value": 2216,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kokoroe mōshite sōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(Shimo no takane)",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "55"
+    },
+    {
+      "startTime": {
+        "value": 2223,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "9. Stand up. Three steps back. Turn and return to sitting position at First pine.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "phrase": "56"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 1397,
+      "endTime": 1403,
+      "translation": "[KYŌGEN] I am someone who lives",
+      "transcription": "[KYŌGEN] Kayō ni sorō mono wa,"
+    },
+    {
+      "startTime": 1403,
+      "endTime": 1415,
+      "translation": "in the Kitayama area of the capital.",
+      "transcription": "Miyako kitayama atari ni, sumai suru mono nite sorō."
+    },
+    {
+      "startTime": 1415,
+      "endTime": 1420,
+      "translation": "I have heard that near here, ",
+      "transcription": "Uketamawari sōraeba,"
+    },
+    {
+      "startTime": 1420,
+      "endTime": 1432,
+      "translation": "at Unrin-in, there will be memorial services",
+      "transcription": "atari chikaki, Unrin-in ni oite, ichige no aida,"
+    },
+    {
+      "startTime": 1432,
+      "endTime": 1440,
+      "translation": "for the lowers offered over the summer.",
+      "transcription": "hana no kuyō no gozasōrō yoshi."
+    },
+    {
+      "startTime": 1440,
+      "endTime": 1458,
+      "translation": "This being the case, I too, intend to go there.",
+      "transcription": "Uketamawarioyobite sōrō hodo ni warera mo, mairayaba to zonzuru."
+    },
+    {
+      "startTime": 1458,
+      "endTime": 1469,
+      "translation": "Truly, as few people are going there this evening,",
+      "transcription": "Makoto ni, kon-nitta mairu hito mo sukunaku,"
+    },
+    {
+      "startTime": 1469,
+      "endTime": 1477,
+      "translation": "it is rather melancholy.",
+      "transcription": "nani to yaran, mono sabite sōrō yo."
+    },
+    {
+      "startTime": 1477,
+      "endTime": 1493,
+      "translation": "[WAKI ]Ho, there! Are you someone from around here ?",
+      "transcription": "[WAKI] Nōnō katagata wa kono atari no hito nite sōrō ka."
+    },
+    {
+      "startTime": 1493,
+      "endTime": 1500,
+      "translation": "[KYŌGEN]  Indeed, I am a person from this area.",
+      "transcription": "[KYŌGEN] Nakanaka, kono atari no mono nite sōro."
+    },
+    {
+      "startTime": 1500,
+      "endTime": 1513,
+      "translation": "[WAKI] If that's the case, first of all, could you come closer ?",
+      "transcription": "[WAKI] Sayō ni sōrawaba, mazu chikō, oniri sōrae mono wo,"
+    },
+    {
+      "startTime": 1513,
+      "endTime": 1518,
+      "translation": "There is something I would like to ask you.",
+      "transcription": "tazunetaki koto no sōro."
+    },
+    {
+      "startTime": 1518,
+      "endTime": 1524,
+      "translation": "[KYŌGEN] Certainly.",
+      "transcription": "[KYŌGEN] Kokoroe mōshite sōro."
+    },
+    {
+      "startTime": 1538,
+      "endTime": 1545,
+      "translation": "Well then, what is the matter",
+      "transcription": "Sate, ontazunenasaretaki to wa,"
+    },
+    {
+      "startTime": 1545,
+      "endTime": 1553,
+      "translation": "you would like to ask me about ?",
+      "transcription": "ikayō naru, goyō nite sōrōzo."
+    },
+    {
+      "startTime": 1553,
+      "endTime": 1564,
+      "translation": "[WAKI] While it isn't a circumstance of much importance,",
+      "transcription": "[WAKI] Oboshimeshi yorazaru mōshi koto nite sōraedomo."
+    },
+    {
+      "startTime": 1564,
+      "endTime": 1578,
+      "translation": "I would like you to tell me the particulars of the story of Lady Yūgao,",
+      "transcription": "Inishie, Gojō atari ni, Iugao no ue no sumasetamaishi shisai,"
+    },
+    {
+      "startTime": 1578,
+      "endTime": 1584,
+      "translation": "of the Evening Faces, who lived here long ago.",
+      "transcription": "onmonogatari sōrae."
+    },
+    {
+      "startTime": 1584,
+      "endTime": 1597,
+      "translation": "[KYŌGEN] This is an unexpected request you've made of me.",
+      "transcription": "[KYŌGEN] Kore wa, omoimoyoranu koto wo, ontazune nasare sōrō mono kana."
+    },
+    {
+      "startTime": 1597,
+      "endTime": 1611,
+      "translation": "I don't know about the situation in much detail, but ",
+      "transcription": "Warera mo sayō no koto kuwashiku wa zonzezu sōrōga, oyoso,"
+    },
+    {
+      "startTime": 1611,
+      "endTime": 1623,
+      "translation": "I will do the best I can to tell you the story as I have heard it.",
+      "transcription": "Uketamawaritarutōri, monogatari mōsōzuru nite sōro."
+    },
+    {
+      "startTime": 1631,
+      "endTime": 1645,
+      "translation": "Well then, the one known as Lady Yūgao was the daughter",
+      "transcription": "Saruhodo ni, iugao no ue to mōshitaru, onkata wa,"
+    },
+    {
+      "startTime": 1645,
+      "endTime": 1654,
+      "translation": "of a middle captain of the third rank, and,",
+      "transcription": "sanminochiūjō no, onsokujo nite,"
+    },
+    {
+      "startTime": 1654,
+      "endTime": 1660,
+      "translation": "owing the certain circumstances, ",
+      "transcription": "saru shisai no koto sōraite,"
+    },
+    {
+      "startTime": 1660,
+      "endTime": 1673,
+      "translation": "she came to live in seclusion in the area of Gojo. ",
+      "transcription": "Gojō atari ni shinobi ite goza aritaru to mōsu."
+    },
+    {
+      "startTime": 1673,
+      "endTime": 1681,
+      "translation": "Also at the at time, Hikaru Genji",
+      "transcription": "Mata sono koro, Hikaru Genji wo,"
+    },
+    {
+      "startTime": 1681,
+      "endTime": 1694,
+      "translation": "was paying regular visit to the home of Lady Rokujo.",
+      "transcription": "Rokujō miyasudokoro no kata e onkayoinasare sōrō ga."
+    },
+    {
+      "startTime": 1694,
+      "endTime": 1704,
+      "translation": "On occasion he would pass through the Gojo area",
+      "transcription": "Orifushi Gojō atari wo, tōrare shikaba,"
+    },
+    {
+      "startTime": 1704,
+      "endTime": 1711,
+      "translation": "and it happened that there was a simple dwelling there",
+      "transcription": "shōya ni iugao no hana,"
+    },
+    {
+      "startTime": 1711,
+      "endTime": 1720,
+      "translation": "with \"evening faces\" blooming in splendid profusion.",
+      "transcription": "migoto ni sakimidarete sōrō hodo ni,"
+    },
+    {
+      "startTime": 1720,
+      "endTime": 1726,
+      "translation": "He called Koremitsu to him, ",
+      "transcription": "Koremitsu wo mesare, ano hana,"
+    },
+    {
+      "startTime": 1726,
+      "endTime": 1734,
+      "translation": "and requested that he go pluck a blossom.",
+      "transcription": "taorite maire to no onkoto nari."
+    },
+    {
+      "startTime": 1734,
+      "endTime": 1750,
+      "translation": "When Koremitsu spoke to his attendant,",
+      "transcription": "Koremitsu mizuishin no motte, sono hana wo shomō mōsare shikaba,"
+    },
+    {
+      "startTime": 1750,
+      "endTime": 1756,
+      "translation": "a child came out of the house, and,",
+      "transcription": "shōya yori warabe wo idashi."
+    },
+    {
+      "startTime": 1756,
+      "endTime": 1765,
+      "translation": "having asked that he wait there for a wile, soon after,",
+      "transcription": "Shibaraku sore ni, onmachiare tote,"
+    },
+    {
+      "startTime": 1765,
+      "endTime": 1777,
+      "translation": "offered him a white fan, its edges perfumed with incense,",
+      "transcription": "sono nochi, shiroki ōgi no, tsuma ito kogashitaru ni,"
+    },
+    {
+      "startTime": 1777,
+      "endTime": 1786,
+      "translation": "on which rested a blossom of the \"evening faces\".",
+      "transcription": "iugao no hana wo soete sashi idasu."
+    },
+    {
+      "startTime": 1786,
+      "endTime": 1798,
+      "translation": "The attendant took this and returned with it to Koremitsu.",
+      "transcription": "Mizuishin kore wo uketori, Koremitsu ni mairasekereba."
+    },
+    {
+      "startTime": 1798,
+      "endTime": 1808,
+      "translation": "Koremistu went with it to Genji, who, ",
+      "transcription": "Koremitsu, Genji e mairasesōrō tokoro ni,"
+    },
+    {
+      "startTime": 1808,
+      "endTime": 1821,
+      "translation": "seeing then that there was a poem on the edge of the fan,",
+      "transcription": "sono ōgi no fuchi ni, isshu no uta no goza sōrō hodo ni,"
+    },
+    {
+      "startTime": 1821,
+      "endTime": 1827,
+      "translation": "quickly wrote a verse in reply.",
+      "transcription": "isogi gohenka wo nasare."
+    },
+    {
+      "startTime": 1827,
+      "endTime": 1838,
+      "translation": "Because of that flower, he was drawn to the Lady Yūgao,",
+      "transcription": "Sono hana yue ni, Iugao no ue ni mamie tamai,"
+    },
+    {
+      "startTime": 1838,
+      "endTime": 1846,
+      "translation": "of the evening faces, and as the vows they shared were not shallow,",
+      "transcription": "onchigiri asakaraneba, sono nochi"
+    },
+    {
+      "startTime": 1846,
+      "endTime": 1855,
+      "translation": "after that he came to stay together with her there at her dwelling.",
+      "transcription": "nanigashi in e ontomonari nasare."
+    },
+    {
+      "startTime": 1855,
+      "endTime": 1863,
+      "translation": "Even as the purity of the many pledges",
+      "transcription": "Iroiro kiyoku bengi no chigiri"
+    },
+    {
+      "startTime": 1863,
+      "endTime": 1869,
+      "translation": "they exchanged were profound-",
+      "transcription": "asakarazusōrō tokoro ni,"
+    },
+    {
+      "startTime": 1869,
+      "endTime": 1878,
+      "translation": "By the Sacred Treaures! Mysteroiusly,",
+      "transcription": "nanbō, fushigi naru koto nite sōro."
+    },
+    {
+      "startTime": 1878,
+      "endTime": 1889,
+      "translation": "Lady Yūgao was possessed",
+      "transcription": "Iugao no ue wa, mononoke ni okasaretamai,"
+    },
+    {
+      "startTime": 1889,
+      "endTime": 1897,
+      "translation": "by some sort of vengeful spirit, and it is said that all was lost... ",
+      "transcription": "Munashiku nararetaru to mōsu."
+    },
+    {
+      "startTime": 1897,
+      "endTime": 1906,
+      "translation": "As to Hikaru Genji's grief, its depth was limitless",
+      "transcription": "Hikaru Genji no onnageki mōsumo,"
+    },
+    {
+      "startTime": 1906,
+      "endTime": 1919,
+      "translation": "as there was nothing to be done for her, it is said.",
+      "transcription": "orokanaru tei nite goza aritaru to mōsu."
+    },
+    {
+      "startTime": 1919,
+      "endTime": 1927,
+      "translation": "In any event, those are the details,",
+      "transcription": "Mazu, warera no uketamawaritaru shisai,"
+    },
+    {
+      "startTime": 1927,
+      "endTime": 1936,
+      "translation": "at least in broad terms, as I know them.",
+      "transcription": "ōkata kaku no gotoku nite sōrō ga."
+    },
+    {
+      "startTime": 1936,
+      "endTime": 1944,
+      "translation": "But why are you interested in this ",
+      "transcription": "Tadaima wa nani to, oboshi meshite yaran,"
+    },
+    {
+      "startTime": 1944,
+      "endTime": 1953,
+      "translation": "and asking me about this matter now ? I find it suspicious.",
+      "transcription": "ontazune fushin ni zonjisōro."
+    },
+    {
+      "startTime": 1953,
+      "endTime": 1963,
+      "translation": "[WAKI] I'm grateful that you have described the matter so thoroughly.",
+      "transcription": "[WAKI] Nengoro ni uketamari sōrō mono kana."
+    },
+    {
+      "startTime": 1963,
+      "endTime": 1972,
+      "translation": "When I was performing a memorial service for flowers",
+      "transcription": "Soregashi ichige no aida, hana no kuyō wo"
+    },
+    {
+      "startTime": 1972,
+      "endTime": 1978,
+      "translation": "offered during the summer, a woman appeared",
+      "transcription": "toriokonai sōrō tokoro ni,"
+    },
+    {
+      "startTime": 1978,
+      "endTime": 1991,
+      "translation": "and gave me a white flower.",
+      "transcription": "nyoshō ichinin shiroki hana wo taterare sōrō hodo ni."
+    },
+    {
+      "startTime": 1991,
+      "endTime": 1997,
+      "translation": "I asked who, and what sort of person, she was with the flower,",
+      "transcription": "Hana no aruji wa ikanaru hito zo"
+    },
+    {
+      "startTime": 1997,
+      "endTime": 2005,
+      "translation": "to which she replied speaking of the Lady of the Evening Faces",
+      "transcription": "tazunete sōraeba, sore ni tsuki"
+    },
+    {
+      "startTime": 2005,
+      "endTime": 2018,
+      "translation": "as though she spoke of herself.",
+      "transcription": "Iugao no ue no on koto wo waga mi no ue no yō ni iisute,"
+    },
+    {
+      "startTime": 2018,
+      "endTime": 2026,
+      "translation": "Then she disappeared in the shadow of the flowers.",
+      "transcription": "sono mama hana no kage nite sugata wo"
+    },
+    {
+      "startTime": 2026,
+      "endTime": 2031,
+      "translation": "That's what happened.",
+      "transcription": "Miushinaite sōrō yo."
+    },
+    {
+      "startTime": 2031,
+      "endTime": 2041,
+      "translation": "[KYŌGEN] How astonishing!",
+      "transcription": "[KYŌGEN] Gongodōdan, fushigi naru koto wo"
+    },
+    {
+      "startTime": 2041,
+      "endTime": 2046,
+      "translation": "What a wondrous thing you have related to me.",
+      "transcription": "Ōsesōrōmono kana."
+    },
+    {
+      "startTime": 2046,
+      "endTime": 2052,
+      "translation": "Now then, if I may say what I suppose, it can only be that",
+      "transcription": "Sate wa warera ga suiryō mōsu ni,"
+    },
+    {
+      "startTime": 2052,
+      "endTime": 2063,
+      "translation": "when you were performing the memorial service for flowers,",
+      "transcription": "kayō ni hana no kuyō wo no gozasōrōaida,"
+    },
+    {
+      "startTime": 2063,
+      "endTime": 2077,
+      "translation": "the spirit of the \"yugao flower\", and also the ghost of Lady Yūgao,",
+      "transcription": "iugao no hana no sei, mata wa, inishie Iugao no ue gobōshin."
+    },
+    {
+      "startTime": 2077,
+      "endTime": 2088,
+      "translation": "Lady of the Evening Faces, of long ago appeared before you.",
+      "transcription": "Araware idetaru to zonjisōrō ga shika to wa zonzezusōro."
+    },
+    {
+      "startTime": 2088,
+      "endTime": 2099,
+      "translation": "This being the case, I believe that due to ",
+      "transcription": "Sarinagara, osō tattoku mashimasu ni yori"
+    },
+    {
+      "startTime": 2099,
+      "endTime": 2106,
+      "translation": "the merit emanating from your Reverence,",
+      "transcription": "ontomurai nimo azukaritaku oboshimeshi,"
+    },
+    {
+      "startTime": 2106,
+      "endTime": 2112,
+      "translation": "the spirit of the Lady Yūgao appeared to you in order",
+      "transcription": "Iugao no ue no gobōshin"
+    },
+    {
+      "startTime": 2112,
+      "endTime": 2120,
+      "translation": "to ask that you offer prayers for her deliverance.",
+      "transcription": "araware idetaru to zonjisōro."
+    },
+    {
+      "startTime": 2120,
+      "endTime": 2135,
+      "translation": "If that is the case, you should go now to the Gojo area,",
+      "transcription": "Sayō ni sōrawaba kore yori Gojō atari e oniri sōrawaba,"
+    },
+    {
+      "startTime": 2135,
+      "endTime": 2143,
+      "translation": "where a miracle will surely occur. Then you should pray earnestly",
+      "transcription": "kidoku naru koto mo gozasōrō hodo ni,"
+    },
+    {
+      "startTime": 2143,
+      "endTime": 2157,
+      "translation": "for her enlightenment as she has requested of you.",
+      "transcription": "sono nochi nengoro ni tomurōte ontōri arekashi to zonjisōro."
+    },
+    {
+      "startTime": 2157,
+      "endTime": 2166,
+      "translation": "[WAKI] As I also believe this to be true,",
+      "transcription": "[WAKI] Warera mo sayō ni zonjisōrōaida,"
+    },
+    {
+      "startTime": 2166,
+      "endTime": 2173,
+      "translation": "I will go to the Gojo area and pray there",
+      "transcription": "Gojō atari ni tachi ni ide,"
+    },
+    {
+      "startTime": 2173,
+      "endTime": 2185,
+      "translation": "For the ghost of the Lady Yūgao and her deliverance.",
+      "transcription": "Iugao no ue no onato wo tomurai mōsōzuru nite sōro."
+    },
+    {
+      "startTime": 2185,
+      "endTime": 2198,
+      "translation": "[KYŌGEN] As you will be going there shortly,",
+      "transcription": "[KYŌGEN] Sore wa chikagoro nite sōro. Osō onide nite sōrawaba"
+    },
+    {
+      "startTime": 2198,
+      "endTime": 2209,
+      "translation": "I'll follow after your Recerence in a while.",
+      "transcription": "warera mo onato yori mairōzuru nite sōro."
+    },
+    {
+      "startTime": 2209,
+      "endTime": 2216,
+      "translation": "[WAKI] In due time then, I will expect you there.",
+      "transcription": "[WAKI] Yagate atoyori kitarare sōrae."
+    },
+    {
+      "startTime": 2216,
+      "endTime": 2222,
+      "translation": "[KYŌGEN] I'll do as you say.",
+      "transcription": "[KYŌGEN] Kokoroe mōshitesōro."
+    }
+  ],
+  "narrative": {
+    "value": "/hashitomi/narratives/aikyogen.html"
+  }
+}

@@ -1,0 +1,2342 @@
+{
+  "play": {
+    "value": "Kokaji"
+  },
+  "sectionName": {
+    "value": "Ai-kyōgen"
+  },
+  "startTime": {
+    "value": 2089
+  },
+  "endTime": {
+    "value": 2575
+  },
+  "intensity": {
+    "number": "3"
+  },
+  "numberVoices": {
+    "number": "1",
+    "value": "Ai-kyōgen"
+  },
+  "voice": {
+    "value": "Spoken"
+  },
+  "text": {
+    "value": "Unmetered"
+  },
+  "numberOfPercussion": {
+    "number": "0"
+  },
+  "percussion": {},
+  "nokhanPresent": {
+    "present": "no"
+  },
+  "dancePresent": {},
+  "shodanType": {
+    "value": "ai-kyogen"
+  },
+  "dan": {
+    "number": "6"
+  },
+  "shodanIndex": {
+    "number": "16"
+  },
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/aikyogen/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:01:33"
+  },
+  "phrases": [
+    {
+      "startTime": {
+        "value": 2089,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kayō ni sorō mono wa Inari daimyōjin ni tsukaemōsu massha no shin nite sōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "ra",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 2
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Standing",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 15
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 2110,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Tadaima kore e izuru koto, yonogi ni arazu. Satemo, ninnō rokujūrokudai Ichijō no in,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "2"
+    },
+    {
+      "startTime": {
+        "value": 2130,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kono hodo, fushigi no ontsuge mashimashite, Sanjō no Kokaji Munechika ni,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 2147,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "mitsurugi wo utaserarubeki to no on koto nari. Sunawachi Michinari nōkyō, chokushi to natte,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 2154,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sunawachi Michinari nokyō, chokushi to natte, senji no omomuki, ōserare kereba,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 2171,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Munechika, senji uketamawari, ukahodo daiji no mitsurugi wo, uchimōsu ni wa,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "6"
+    },
+    {
+      "startTime": {
+        "value": 2187,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "soregashi ichinin nite wa hakaraigatashi.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "7"
+    },
+    {
+      "startTime": {
+        "value": 2196,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Ware ni otoranu aizuchi nakute wa kanawaji tote,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "8"
+    },
+    {
+      "startTime": {
+        "value": 2206,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "mazu wa gojitai nasaresōrō ga ringen nase no gotoshi,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "9"
+    },
+    {
+      "startTime": {
+        "value": 2218,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "katsu wa ie no menboku to zonji, ouke wo mōsoresōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "10"
+    },
+    {
+      "startTime": {
+        "value": 2231,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sarinagara, kono tabi no mitsurugi wo uchimōsuni wa",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "11"
+    },
+    {
+      "startTime": {
+        "value": 2242,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "soregashi ichinin nite wa hakaraigatashi, shinriki ō tanomōzuru-tote,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "12"
+    },
+    {
+      "startTime": {
+        "value": 2257,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "sunawachi, Inari daimyojin na ujishin nari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "13"
+    },
+    {
+      "startTime": {
+        "value": 2267,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Koto sara, kaji o mamori tamao ongami nareba,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "14"
+    },
+    {
+      "startTime": {
+        "value": 2277,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "tadaima sankei tsukamatsuri sōro. Tokoro ni, katajikenakumo tōsha myojin gozonji atte",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "15"
+    },
+    {
+      "startTime": {
+        "value": 2296,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "kari ni dōji no sugata to Genji Munechika ni uchiai, on-kotoba wo kawasaresōro.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "16"
+    },
+    {
+      "startTime": {
+        "value": 2315,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sōjite, wagakyō ni oite, kamiyo yori tsutōru reiken, futatsu ari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "17"
+    },
+    {
+      "startTime": {
+        "value": 2330,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Totsuka no Tsurugi to mōsu wa, Susanō-no-mikoto,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "18"
+    },
+    {
+      "startTime": {
+        "value": 2339,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Izumo no kuni, Hi no Kawakami ni, daijya no arishi wo,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "19"
+    },
+    {
+      "startTime": {
+        "value": 2350,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "tsukamaetamaishimo, kono tsurugi no itoku nari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "20"
+    },
+    {
+      "startTime": {
+        "value": 2360,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Matta, Murakumo no Tsurugi to mōsu wa, sono toki daijya no ō ni arishi tsurugi nari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "21"
+    },
+    {
+      "startTime": {
+        "value": 2378,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Matta, ninō junidai Keikō tenno, daini no miko",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "22"
+    },
+    {
+      "startTime": {
+        "value": 2390,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Yamatodake-no-mikoto tōi wo tairagetamaishi wo, sono tsurugi no itoku nari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "23"
+    },
+    {
+      "startTime": {
+        "value": 2407,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sore yori aratame, Kusanagi-no-tsurugi to wa, kore ō mōsu nari.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "24"
+    },
+    {
+      "startTime": {
+        "value": 2419,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sono hoka, Kan no kōsō sanseki no ken,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "25"
+    },
+    {
+      "startTime": {
+        "value": 2428,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kan shō bakuga no tsurugi, morokoshi wagakyō ni oite",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "26"
+    },
+    {
+      "startTime": {
+        "value": 2440,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "tsurugi no itoku, kotogotoku onmonogatari nasare.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "27"
+    },
+    {
+      "startTime": {
+        "value": 2450,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Nanji mo, na wo ehtaru kaji nareba, izure ni ototoru",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "28"
+    },
+    {
+      "startTime": {
+        "value": 2461,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Mitsurugi wo uchimōsu nari. Kane wo kitōte matsubeshi.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "29"
+    },
+    {
+      "startTime": {
+        "value": 2472,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sono toki myojin raigenatte, aizuchi wo utaserarubeki to no onkoto nareba,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "30"
+    },
+    {
+      "startTime": {
+        "value": 2488,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Munechika mo, yorokobi no mayu wo hiraki, tadaima, gekō tsukamatsurite sōrō.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "31"
+    },
+    {
+      "startTime": {
+        "value": 2505,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Sōjite nanigoto mo kisei wo kakemōseba, shōganjōju utagai nashi.",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 15
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": []
+      },
+      "phrase": "32"
+    },
+    {
+      "startTime": {
+        "value": 2520,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Kamaete sono bun,",
+            "voices": [
+              "aikyōgen"
+            ],
+            "start": 0,
+            "style": "justified",
+            "length": 4
+          },
+          {
+            "text": "kokoroe-sōrae.",
+            "voices": [],
+            "start": 4,
+            "style": "justified",
+            "length": 5
+          },
+          {
+            "text": "kokoroe-sōrae.",
+            "voices": [],
+            "start": 9,
+            "style": "justified",
+            "length": 6
+          }
+        ]
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Slide left.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 4
+          },
+          {
+            "text": "1. One step forward. Turn right.",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 5
+          },
+          {
+            "text": "Facing right.",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 6
+          }
+        ]
+      },
+      "phrase": "33"
+    },
+    {
+      "startTime": {
+        "value": 2537,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": []
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "syllableNumber": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "vocalRange": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": []
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1. Turn facing front",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 4
+          },
+          {
+            "text": "Two steps back, turn and leave.",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 11
+          }
+        ]
+      },
+      "phrase": "34"
+    }
+  ],
+  "captions": [
+    {
+      "startTime": 2089,
+      "endTime": 2101,
+      "translation": "[KYŌGEN] I am the god of a subsidiary shrine ",
+      "transcription": "[KYŌGEN] Kayō ni sorō mono wa Inari daimyōjin ni"
+    },
+    {
+      "startTime": 2101,
+      "endTime": 2110,
+      "translation": "and in the service of Inari-daimyōjin.",
+      "transcription": "tsukaemōsu massha no shin nite sōro."
+    },
+    {
+      "startTime": 2110,
+      "endTime": 2119,
+      "translation": "I have come here before you now on a matter of no small importance.",
+      "transcription": "Tadaima kore e izuru koto, yonogi ni arazu."
+    },
+    {
+      "startTime": 2119,
+      "endTime": 2130,
+      "translation": "Now then, it seems that the Emperor Ichijo, sixty-sixth of the imperial line,",
+      "transcription": "Satemo, ninnō rokujūrokudai Ichijō no in,"
+    },
+    {
+      "startTime": 2130,
+      "endTime": 2139,
+      "translation": "has recently had a portentous dream oracle.",
+      "transcription": "Kono hodo, fushigi no ontsuge mashimashite,"
+    },
+    {
+      "startTime": 2139,
+      "endTime": 2147,
+      "translation": "According to it, the Sanjo swordsmith Munechika,",
+      "transcription": "Sanjō no Kokaji Munechika ni,"
+    },
+    {
+      "startTime": 2147,
+      "endTime": 2154,
+      "translation": "must be ordered to forge a blade.",
+      "transcription": "mitsurugi wo utaserarubeki to no on koto nari."
+    },
+    {
+      "startTime": 2154,
+      "endTime": 2164,
+      "translation": "At that time Minister Michinari was the imperial envoy",
+      "transcription": "Sunawachi Michinari nokyō, chokushi to natte,"
+    },
+    {
+      "startTime": 2164,
+      "endTime": 2171,
+      "translation": "who gave him the details of the imperial message.",
+      "transcription": "senji no omomuki, ōserare kereba,"
+    },
+    {
+      "startTime": 2171,
+      "endTime": 2178,
+      "translation": "Munechika hearing the message, agreed to comply with the order,",
+      "transcription": "Munechika, senji uketamawari "
+    },
+    {
+      "startTime": 2178,
+      "endTime": 2187,
+      "translation": "though to forge such an important blade,",
+      "transcription": "kahodo daiji no mitsurugi wo, uchimōsu ni wa,"
+    },
+    {
+      "startTime": 2187,
+      "endTime": 2196,
+      "translation": "he said, was something he could not do by himself",
+      "transcription": "soregashi ichinin nite wa hakaraigatashi."
+    },
+    {
+      "startTime": 2196,
+      "endTime": 2206,
+      "translation": "\"As it will be impossible without an assistant of skill equal to my own,",
+      "transcription": "Ware ni otoranu aizuchi nakute wa kanawaji tote,"
+    },
+    {
+      "startTime": 2206,
+      "endTime": 2218,
+      "translation": "I should certainly refuse this order, but as this is a request from the Emperor himself,",
+      "transcription": "mazu wa gojitai nasaresōrō ga ringen nase no gotoshi,"
+    },
+    {
+      "startTime": 2218,
+      "endTime": 2231,
+      "translation": "I know it would bring great shame to my house to decline and so I will accept it,\" he said.",
+      "transcription": "katsu wa ie no menboku to zonji, ouke wo mōsoresōro."
+    },
+    {
+      "startTime": 2231,
+      "endTime": 2242,
+      "translation": "And so, as it would not be possible for him to forge the sword by himslef on this occasion,",
+      "transcription": "Sarinagara, kono tabi no mitsurugi wo uchimōsuni wa"
+    },
+    {
+      "startTime": 2242,
+      "endTime": 2251,
+      "translation": "in order to do it he decided he must call on divine power,",
+      "transcription": "soregashi ichinin nite wa hakaraigatashi,"
+    },
+    {
+      "startTime": 2251,
+      "endTime": 2257,
+      "translation": "in other words, on Inari Daimyojin, his family's tutelary god.",
+      "transcription": "shinriki ō tanomōzuru-tote,"
+    },
+    {
+      "startTime": 2257,
+      "endTime": 2267,
+      "translation": "If indeed a deity could watch over his forge,",
+      "transcription": "sunawachi, Inari daimyojin na ujishin nari"
+    },
+    {
+      "startTime": 2267,
+      "endTime": 2277,
+      "translation": "he decided he must go at once and pray concerning the matter.",
+      "transcription": "Koto sara, kaji o mamori tamao ongami nareba,"
+    },
+    {
+      "startTime": 2277,
+      "endTime": 2285,
+      "translation": "As he did this so humbly, the god of the Inari shrine knew of it and, ",
+      "transcription": "tadaima sankei tsukamatsuri sōro. Tokoro ni,"
+    },
+    {
+      "startTime": 2285,
+      "endTime": 2296,
+      "translation": "taking the form of a youth, appeared and met ",
+      "transcription": "katajikenakumo tōsha myojin gozonji atte"
+    },
+    {
+      "startTime": 2296,
+      "endTime": 2308,
+      "translation": "with Munechika, and spoke to him.",
+      "transcription": "kari ni dōji no sugata to Genji Munechika ni uchiai,"
+    },
+    {
+      "startTime": 2308,
+      "endTime": 2315,
+      "translation": "Commonly, in our land there have been,",
+      "transcription": "on-kotoba wo kawasaresōro."
+    },
+    {
+      "startTime": 2315,
+      "endTime": 2322,
+      "translation": "from the Age of the Gods, two sacred swords.",
+      "transcription": "Sōjite, wagakyō ni oite,"
+    },
+    {
+      "startTime": 2322,
+      "endTime": 2330,
+      "translation": "The one called \"Totsuka no Tsurugi\", the Ten-span Sword",
+      "transcription": "kamiyo yori tsutōru reiken, futatsu ari."
+    },
+    {
+      "startTime": 2330,
+      "endTime": 2339,
+      "translation": "was used by Susanō-no-mikoto, when learning of the great serpent",
+      "transcription": "Totsuka no Tsurugi to mōsu wa, Susanō-no-mikoto,"
+    },
+    {
+      "startTime": 2339,
+      "endTime": 2350,
+      "translation": "at the headwaters of the Hi River in the country of Izumo,",
+      "transcription": "Izumo no kuni, Hi no Kawakami ni, daijya no arishi wo,"
+    },
+    {
+      "startTime": 2350,
+      "endTime": 2360,
+      "translation": "he destroyed it, due to the virtue of this sword.",
+      "transcription": "tsukamaetamaishimo, kono tsurugi no itoku nari."
+    },
+    {
+      "startTime": 2360,
+      "endTime": 2367,
+      "translation": "Then again, the sword called \"Murakumo no Tsurugi\" the Gathering Clouds Sword,",
+      "transcription": "Matta, Murakumo no Tsurugi to mōsu wa,"
+    },
+    {
+      "startTime": 2367,
+      "endTime": 2378,
+      "translation": "was the sword he found at that time in the tail of the great serpent.",
+      "transcription": "sono toki daijya no ō ni arishi tsurugi nari."
+    },
+    {
+      "startTime": 2378,
+      "endTime": 2390,
+      "translation": "Then again, Yamatodake-no-mikoto the second son of Emperor Keikō,",
+      "transcription": "Matta, ninō junidai Keikō tenno, daini no miko"
+    },
+    {
+      "startTime": 2390,
+      "endTime": 2400,
+      "translation": "the twelfth of the imperial line, subdued the people of the eastern lands,",
+      "transcription": "Yamatodake-no-mikoto tōi wo tairagetamaishi wo,"
+    },
+    {
+      "startTime": 2400,
+      "endTime": 2407,
+      "translation": "this also due to the virtue of that sword.",
+      "transcription": "sono tsurugi no itoku nari."
+    },
+    {
+      "startTime": 2407,
+      "endTime": 2419,
+      "translation": "From that time, it was renamed and known as 'Kusanagi-no-Tsurugi\" the Grass Cutting Sword.",
+      "transcription": "Sore yori aratame, Kusanagi-no-tsurugi to wa, kore ō mōsu nari."
+    },
+    {
+      "startTime": 2419,
+      "endTime": 2428,
+      "translation": "In addition to these, there are the Han Emperor's Three Foot Sword,",
+      "transcription": "Sono hoka, Kan no kōsō sanseki no ken,"
+    },
+    {
+      "startTime": 2428,
+      "endTime": 2440,
+      "translation": "the Gan JIang and Mo Ye swords. He told him many stories",
+      "transcription": "Kan shō bakuga no tsurugi, morokoshi wagakyō ni oite"
+    },
+    {
+      "startTime": 2440,
+      "endTime": 2450,
+      "translation": "of the virtue of swords, both in China and in our own country.",
+      "transcription": "tsurugi no itoku, kotogotoku onmonogatari nasare."
+    },
+    {
+      "startTime": 2450,
+      "endTime": 2461,
+      "translation": "\"You, too, if you are a swordsmith of repute, will be able to forge a blade of equal merit.",
+      "transcription": "Nanji mo, na wo ehtaru kaji nareba, izure ni ototoru"
+    },
+    {
+      "startTime": 2461,
+      "endTime": 2472,
+      "translation": "Prepare, temper the metal, and wait.\"",
+      "transcription": "Mitsurugi wo uchimōsu nari. Kane wo kitōte matsubeshi."
+    },
+    {
+      "startTime": 2472,
+      "endTime": 2479,
+      "translation": "At that time, Myojin will appear and be your assistant",
+      "transcription": "Sono toki myojin raigenatte,"
+    },
+    {
+      "startTime": 2479,
+      "endTime": 2488,
+      "translation": "in forging the blade. This being the case,",
+      "transcription": "aizuchi wo utaserarubeki to no onkoto nareba,"
+    },
+    {
+      "startTime": 2488,
+      "endTime": 2496,
+      "translation": "Munechika, his eyebrows relaxed in joy,",
+      "transcription": "Munechika mo, yorokobi no mayu wo hiraki,"
+    },
+    {
+      "startTime": 2496,
+      "endTime": 2505,
+      "translation": "is even now coming this way to do these things.",
+      "transcription": "tadaima, gekō tsukamatsurite sōrō."
+    },
+    {
+      "startTime": 2505,
+      "endTime": 2513,
+      "translation": "In this way then, whe prayers are offered",
+      "transcription": "Sōjite nanigoto mo kisei wo kakemōseba,"
+    },
+    {
+      "startTime": 2513,
+      "endTime": 2520,
+      "translation": "they shall be fulfilled, without a doubt.",
+      "transcription": "shōganjōju utagai nashi."
+    },
+    {
+      "startTime": 2520,
+      "endTime": 2529,
+      "translation": "On this matter, rest assured,",
+      "transcription": "Kamaete sono bun, kokoroe-sōrae."
+    },
+    {
+      "startTime": 2529,
+      "endTime": 2537,
+      "translation": "rest assured.",
+      "transcription": "kokoroe-sōrae."
+    }
+  ],
+  "narrative": {
+    "value": "/kokaji/narratives/aikyogen.html"
+  }
+}

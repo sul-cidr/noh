@@ -1,0 +1,56 @@
+{
+  "play": {
+    "value": "Hashitomi"
+  },
+  "sectionName": {
+    "value": "Oshirabe"
+  },
+  "startTime": {},
+  "endTime": {
+    "value": 138
+  },
+  "intensity": {
+    "number": "6"
+  },
+  "numberVoices": {
+    "number": "0"
+  },
+  "voice": {},
+  "text": {},
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Ōtsuzumi + Kotsuzumi"
+  },
+  "percussion": {
+    "value": "Unmetered"
+  },
+  "nokhanPresent": {
+    "present": "Yes",
+    "value": "Non congruent"
+  },
+  "dancePresent": {
+    "present": "No"
+  },
+  "shodanType": {
+    "value": "oshirabe"
+  },
+  "dan": {
+    "number": "7"
+  },
+  "shodanIndex": {
+    "number": "1"
+  },
+  "playUrl": "/hashitomi/",
+  "sectionUrl": "/hashitomi/oshirabe/",
+  "videoUrl": {
+    "value": "https://d3msn78fivoryj.cloudfront.net/HASHITOMI_ProRes_sl.mp4"
+  },
+  "videoDuration": {
+    "value": "01:27:47"
+  },
+  "phrases": [],
+  "captions": [],
+  "narrative": {
+    "value": "/hashitomi/narratives/oshirabe.html"
+  }
+}
