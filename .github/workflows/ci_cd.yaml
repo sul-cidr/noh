@@ -1,0 +1,65 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+
+env:
+  BUILD_FOLDER: _site
+  CNAME: noh.stanford.edu
+  USER_EMAIL: simonjwiles@gmail.com
+  USER_NAME: Simon Wiles
+
+  # Deploy only when pushing to main
+  DEPLOY: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
+jobs:
+  build_test_and_optionally_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 12.x
+        cache: 'yarn'
+
+    - name: Install Dependencies
+      run: |
+        bundle install --path vendor/bundle
+        yarn install
+
+    - name: Test
+      run: |
+        yarn coverage
+        yarn lint
+
+    - name: Build
+      run: JEKYLL_ENV=production yarn build
+
+    - name: Set Commit Message
+      run:  echo "COMMIT_MESSAGE='Deploy from $(git log -n 1 --format="%h" HEAD) at $(date +"%Y-%m-%d %H:%M:%S %Z")'" >> $GITHUB_ENV
+
+    - name: Deploy
+      if: ${{ fromJSON(env.DEPLOY) }}
+      run: |
+        git config --global user.email "$USER_EMAIL"
+        git config --global user.name "$USER_NAME"
+        git fetch --force origin gh-pages:gh-pages
+        git symbolic-ref HEAD refs/heads/gh-pages
+        [ -n "$CNAME" ] && echo "$CNAME" > "$BUILD_FOLDER/CNAME"
+        git --work-tree "$BUILD_FOLDER" reset --mixed --quiet
+        git --work-tree "$BUILD_FOLDER" add --all
+
+        if ! git --work-tree "$BUILD_FOLDER" diff --exit-code --quiet HEAD --; then
+          git --work-tree "$BUILD_FOLDER" commit -m "$COMMIT_MESSAGE"
+          git push origin gh-pages
+        fi
