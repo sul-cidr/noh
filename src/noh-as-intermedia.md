@@ -442,13 +442,6 @@ permalink: /noh-as-intermedia/
           people. The abstract quality of its forms invites the audiences to
           engage more deeply and become part of a rich and unique intermedia
           experience of Noh.
-          <a
-            id="flipping"
-            href="#0"
-            class="link__popout-window"
-            onclick="window.open('/popout/hashitomi/#t=01:12:10,01:12:16&autoplay&autoclose', 'new', 'width=640,height=360');"
-            >test</a
-          >
         </p>
 
         <!-- prettier-ignore -->
