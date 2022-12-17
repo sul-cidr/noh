@@ -15,34 +15,34 @@ class TimelineIndicator extends Component {
 
   componentDidMount() {
     this.updateCurrentTime = debounce(this.props.updateCurrentTime, 20);
+    this.width = this.container.current
+      ? this.container.current.offsetWidth
+      : 1;
     this.forceUpdate();
   }
 
   calculateCurrentTime() {
-    return 1e3 * (this.props.currentTime - this.props.startTime); // currentTime is given in seconds
+    return 1e3 * this.props.currentTime; // currentTime is given in seconds
   }
 
   calculateMaxTime() {
-    return 1e3 * this.props.duration; // currentTime is given in seconds
+    return 1e3 * this.props.duration; // duration is given in seconds
   }
 
   calculateProgress() {
     const progressTime = this.calculateCurrentTime() / this.calculateMaxTime();
-    const offset = this.container.current
-      ? this.container.current.offsetWidth
-      : 1;
     const progress = Math.ceil(
-      Math.min(Math.max(progressTime * offset, 0), offset)
+      Math.min(Math.max(progressTime * this.width, 0), this.width)
     );
     return progress === 0 ? -1 : progress;
   }
 
   handleDrag() {
-    const { duration, startTime } = this.props;
+    const { duration } = this.props;
     const ratio =
       this.indicator.current.state.x / this.container.current.offsetWidth;
     const progressInSeconds = Math.min(duration, Math.max(0, duration * ratio));
-    this.updateCurrentTime(progressInSeconds + startTime);
+    this.updateCurrentTime(progressInSeconds);
   }
 
   render() {
@@ -52,7 +52,10 @@ class TimelineIndicator extends Component {
           position={{ x: this.calculateProgress(), y: 0 }}
           ref={this.indicator}
           axis="x"
-          bounds="parent"
+          bounds={{
+            left: -1, // for the width of the line
+            right: this.width
+          }}
           handle=".time-indicator"
           onDrag={this.handleDrag}
         >
@@ -66,14 +69,12 @@ class TimelineIndicator extends Component {
 TimelineIndicator.propTypes = {
   duration: PropTypes.number.isRequired,
   currentTime: PropTypes.number,
-  startTime: PropTypes.number,
   updateCurrentTime: PropTypes.func
 };
 
 TimelineIndicator.defaultProps = {
   updateCurrentTime: null,
-  currentTime: 0,
-  startTime: 0
+  currentTime: 0
 };
 
 const mapStateToProps = state => ({
