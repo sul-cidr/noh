@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import Draggable from "react-draggable";
+import debounce from "lodash.debounce";
 import { setCurrentTime } from "../actionCreators";
 
 class TimelineIndicator extends Component {
@@ -13,6 +14,7 @@ class TimelineIndicator extends Component {
   }
 
   componentDidMount() {
+    this.updateCurrentTime = debounce(this.props.updateCurrentTime, 20);
     this.forceUpdate();
   }
 
@@ -36,11 +38,11 @@ class TimelineIndicator extends Component {
   }
 
   handleDrag() {
-    const { duration } = this.props;
+    const { duration, startTime } = this.props;
     const ratio =
       this.indicator.current.state.x / this.container.current.offsetWidth;
     const progressInSeconds = Math.min(duration, Math.max(0, duration * ratio));
-    this.props.updateCurrentTime(progressInSeconds + this.props.startTime);
+    this.updateCurrentTime(progressInSeconds + startTime);
   }
 
   render() {
