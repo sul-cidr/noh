@@ -2152,6 +2152,7 @@ exports[`<Play> renders as expected 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
+                    onSeeked={[Function]}
                     onSeeking={[Function]}
                     onTimeUpdate={[Function]}
                   >
