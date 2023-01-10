@@ -295,13 +295,16 @@ time,
 
 .link__popout-window::after {
   color: #8f1b0e;
-  content: "";
+  content: "";
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 70%;
+  font-size: 50%;
   margin-left: 0.125rem;
-  padding-left: 0.1rem; }
+  opacity: 0.8;
+  padding-left: 0.1rem;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px); }
 
 .link__level-2::after {
   color: #8f1b0e;
@@ -1091,6 +1094,8 @@ code {
     max-height: 100%;
     position: absolute;
     width: 100%; }
+  .video-container .video-seeking {
+    opacity: 0.25; }
 
 .timeline {
   width: 100%; }
