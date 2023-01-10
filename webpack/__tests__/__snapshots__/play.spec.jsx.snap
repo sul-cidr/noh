@@ -1617,11 +1617,11 @@ exports[`<Play> renders as expected 1`] = `
   <Provider
     store={
       Object {
+        "@@observable": [Function],
         "dispatch": [Function],
         "getState": [Function],
         "replaceReducer": [Function],
         "subscribe": [Function],
-        Symbol(observable): [Function],
       }
     }
   >
@@ -2152,6 +2152,7 @@ exports[`<Play> renders as expected 1`] = `
                     controls={true}
                     controlsList="nodownload"
                     id="player"
+                    onSeeked={[Function]}
                     onSeeking={[Function]}
                     onTimeUpdate={[Function]}
                   >
@@ -2198,19 +2199,22 @@ exports[`<Play> renders as expected 1`] = `
                 <Connect(TimelineIndicator)
                   currentTime={0}
                   duration={3693}
-                  startTime={10}
                 >
                   <TimelineIndicator
                     currentTime={0}
                     duration={3693}
-                    startTime={10}
                     updateCurrentTime={[Function]}
                   >
                     <div>
                       <Draggable
                         allowAnyClick={false}
                         axis="x"
-                        bounds="parent"
+                        bounds={
+                          Object {
+                            "left": -1,
+                            "right": 0,
+                          }
+                        }
                         cancel={null}
                         defaultClassName="react-draggable"
                         defaultClassNameDragged="react-draggable-dragged"
@@ -2242,7 +2246,12 @@ exports[`<Play> renders as expected 1`] = `
                         <DraggableCore
                           allowAnyClick={false}
                           axis="x"
-                          bounds="parent"
+                          bounds={
+                            Object {
+                              "left": -1,
+                              "right": 0,
+                            }
+                          }
                           cancel={null}
                           defaultClassName="react-draggable"
                           defaultClassNameDragged="react-draggable-dragged"

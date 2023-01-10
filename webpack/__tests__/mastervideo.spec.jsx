@@ -86,6 +86,16 @@ describe("<MasterVideo>", () => {
       expect(store.getActions()[0]).toEqual(action);
     });
 
+    it("sets the video player opacity while seeking", () => {
+      wrapper.find("video").simulate("seeking");
+      expect(wrapper.find("video").hasClass("video-seeking"));
+    });
+
+    it("resets the video player opacity after seeking", () => {
+      wrapper.find("video").simulate("seeked");
+      expect(!wrapper.find("video").hasClass("video-seeking"));
+    });
+
     it("triggers the SET_CURRENT_TIME action with the right payload when timeupdate", () => {
       const action = {
         type: "SET_CURRENT_TIME",

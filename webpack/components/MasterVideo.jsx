@@ -50,7 +50,11 @@ class MasterVideo extends Component {
           controls
           controlsList="nodownload"
           onTimeUpdate={event => this.props.updateCurrentTime(event)}
-          onSeeking={event => this.props.updateCurrentTime(event)}
+          onSeeking={event => {
+            this.video.classList.add("video-seeking");
+            this.props.updateCurrentTime(event);
+          }}
+          onSeeked={() => this.video.classList.remove("video-seeking")}
         >
           <source src={this.props.videoUrl} type="video/mp4" />
           {tracks}
