@@ -169,7 +169,7 @@ App.propTypes = {
         number: PropTypes.string,
         value: PropTypes.string
       }),
-      captions: PropTypes.Array,
+      captions: PropTypes.array,
       narrative: PropTypes.shape({ value: PropTypes.string })
     })
   ).isRequired,
