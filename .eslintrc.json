@@ -24,6 +24,7 @@
           "some": ["nesting", "id"]
         }
       }
-    ]
+    ],
+    "react/forbid-prop-types": [2, { "forbid": ["any"] }]
   }
 }
