@@ -110,7 +110,6 @@ export default class App extends Component {
                 <div className="timeline__container">
                   <div className="shodan-map__container" id="stepPlayShodanMap">
                     <TimelineIndicator
-                      startTime={10}
                       currentTime={currentTime}
                       duration={convertTimeToSeconds(videoDuration)}
                     />

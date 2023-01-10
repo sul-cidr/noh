@@ -5,7 +5,12 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
   <Draggable
     allowAnyClick={false}
     axis="x"
-    bounds="parent"
+    bounds={
+      Object {
+        "left": -1,
+        "right": 1,
+      }
+    }
     cancel={null}
     defaultClassName="react-draggable"
     defaultClassNameDragged="react-draggable-dragged"
@@ -46,7 +51,12 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
   <Draggable
     allowAnyClick={false}
     axis="x"
-    bounds="parent"
+    bounds={
+      Object {
+        "left": -1,
+        "right": 1,
+      }
+    }
     cancel={null}
     defaultClassName="react-draggable"
     defaultClassNameDragged="react-draggable-dragged"
@@ -87,7 +97,12 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
   <Draggable
     allowAnyClick={false}
     axis="x"
-    bounds="parent"
+    bounds={
+      Object {
+        "left": -1,
+        "right": 1,
+      }
+    }
     cancel={null}
     defaultClassName="react-draggable"
     defaultClassNameDragged="react-draggable-dragged"
@@ -128,7 +143,12 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
   <Draggable
     allowAnyClick={false}
     axis="x"
-    bounds="parent"
+    bounds={
+      Object {
+        "left": -1,
+        "right": 1,
+      }
+    }
     cancel={null}
     defaultClassName="react-draggable"
     defaultClassNameDragged="react-draggable-dragged"
@@ -169,7 +189,12 @@ exports[`<TimelineIndicator> renders as expected with no interval, initial curre
   <Draggable
     allowAnyClick={false}
     axis="x"
-    bounds="parent"
+    bounds={
+      Object {
+        "left": -1,
+        "right": 1,
+      }
+    }
     cancel={null}
     defaultClassName="react-draggable"
     defaultClassNameDragged="react-draggable-dragged"

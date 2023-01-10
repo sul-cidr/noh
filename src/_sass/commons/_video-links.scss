@@ -26,9 +26,11 @@ time,
     display: inline-block;
     font-family: $font-icon;
     font-weight: $fw-icon;
-    font-size: 70%;
+    font-size: 50%;
     margin-left: 0.125rem;
+    opacity: 0.8;
     padding-left: 0.1rem;
+    transform: translateY(-1px);
   }
 }
 
