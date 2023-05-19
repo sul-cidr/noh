@@ -9,7 +9,7 @@
     "coverage": "node_modules/.bin/jest --coverage",
     "checkdata": "if [ ! -d \"data\" ]; then yarn parse; fi && if [ ! -d \"src/_data\" ]; then yarn parse:catalog; fi",
     "build": "yarn parse && yarn parse:catalog && bundle exec jekyll clean && bundle exec jekyll build && node_modules/.bin/webpack -p --mode production",
-    "dev": "yarn checkdata && yarn concurrently \"node_modules/.bin/webpack --mode development --watch\" \"bundle exec jekyll serve\"",
+    "dev": "yarn checkdata && yarn concurrently \"node_modules/.bin/webpack --mode development --watch\" \"bundle exec jekyll serve -H ${HOST:-127.0.0.1}\"",
     "lint": "node_modules/.bin/eslint webpack/**/*.{js,jsx} webpack/*.{js,jsx} --quiet",
     "precommit": "lint-staged",
     "parse": "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/parser.js",
