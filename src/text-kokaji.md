@@ -51,10 +51,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Wakizure:Somo kore wa <br />
+                Somo somo kore wa <br />
                 Ichijō-no-In ni tsukae-tatematsuru. <br />
                 Tachibana-no-Michinari to wa waga koto nari. <br />
-                Sate mo mikado kon’ya kidoku no go-reimu, mashimashite. <br />
+                Sate mo mikado konya kidoku no go-reimu, mashimashite. <br />
                 Sanjō-no-Kokaji Munechika ni. <br />
                 Mi-tsurugi wo utaserarubeshi to no <br />
                 senji tadaima narikudarite sōrō hodo ni. <br />
@@ -68,7 +68,7 @@ permalink: /text-kokaji/
               I am in the service of the Emperor Ichijo. <br />
               I am known as Tachibana no Michinari. <br />
               It so happens that his Lordship <br />
-              has had a portentous dream oracle. <br />
+              has this night had a portentous dream oracle. <br />
               The Sanjo swordsmith Munechika <br />
               must be ordered to forge a blade. <br />
               I am on my way now to tell Munechika of this matter.
@@ -107,8 +107,8 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Kore wa senji nito sōrō<br />
-                Waga kimi Kun’ya fushimi no reimu, mashimashite. <br />
+                Kore wa senji nite sōrō<br />
+                Waga kimi konya fushigi no reimu, mashimashite. <br />
                 Mitsurugi wo utaserarubeshi tono onkoto nari. <br />
                 Tōtō tsukamatsuri sōrae</em
               >
@@ -116,7 +116,7 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               I am a messenger from the Emperor.<br />
-              His Majesty has had a marvelous oracle in a dream. <br />
+              His Majesty has this night had a marvelous oracle in a dream. <br />
               According to the oracle you must forge a fine sword for him.
               <br />
               Please comply with this order at once.
@@ -266,7 +266,7 @@ permalink: /text-kokaji/
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              Hurry! make the sword.
+              Hurry and make the sword.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -277,7 +277,7 @@ permalink: /text-kokaji/
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
-              Yes! sir.
+              Yes, sir.
             </td>
           </tr>
 
@@ -291,7 +291,7 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Kore wa ichidaiji no koto wo, ōse idasarate sōrō mono kano.<br />
+                Kore wa ichidaiji no koto wo, ōse idasarate sōrō mono kana.<br />
                 Kayō no koto ni wa shinriki wo tanomu naradewa, bechigi naku
                 sōro.<br />
                 Soregashi ga uji no shin na Inari no, myōjin nite sōrō hodoni.
@@ -403,7 +403,7 @@ permalink: /text-kokaji/
               <h5>Shite:</h5>
               In truth, it is as you say. It is said: To know a thing one's
               self,<br />
-              it is to find it is known by all.<br />
+              is to find it known to all.<br />
               A voice in heaven, echoes on the earth!
             </td>
           </tr>
@@ -424,8 +424,8 @@ permalink: /text-kokaji/
                 Kakure wa araji koto ni nao, <br />
                 kumo no uebito no mitsurugi no<br />
                 hikari wa nanika kurakaran. <br />
-                Tada tonome kono kimi no<br />
-                Meguni ni yoraba mitsurugi mo<br />
+                Tada tanome kono kimi no<br />
+                Megumi ni yoraba mitsurugi mo<br />
                 nado ka kokoro ni kanawazaru. <br />
                 Nado ka wa kanawazarubeki.</em
               >
@@ -499,7 +499,7 @@ permalink: /text-kokaji/
                 Tsurugi no toku ni konpaku wa,<br />
                 kunpen ni tsukae-tatematsuri. <br />
                 Mōryō kijin ni itaru made <br />
-                tsurugi no yaiba no yaiba no hikari ni osorete<br />
+                tsurugi no yaiba no hikari ni osorete <br />
                 sono ada wo nasu koto wo ezu.</em
               >
             </td>
@@ -548,7 +548,7 @@ permalink: /text-kokaji/
               <h5>Jiutai:</h5>
               <em>
                 Mata waga chō no sono hajime.<br />
-                Ninnō jiunidai Keikō-tennō , <br />
+                Ninnō jūnidai Keikō-tennō , <br />
                 miko no mikato no on-na wo ba<br />
                 Yamata-dake to mōshishiga. <br />
                 Kiui wo Taiji no chiku wo uke. <br />
@@ -566,7 +566,7 @@ permalink: /text-kokaji/
                 And so, it was in the early days of our history, <br />
                 the Twelfth of the Imperial Line, the Emperor Keikō,<br />
                 had a son known by the name Yamato-dake.[^3] <br />
-                The wild barbarians! he received the order to subdue them.
+                The wild barbarians! He received the order to subdue them.
                 <br />
                 The barrier check points far behind as yet further to the East.
                 <br />
@@ -575,7 +575,7 @@ permalink: /text-kokaji/
                 Even at Ise and Owari the waves on the sea rise and return!
                 <br />
                 With envy he wondered always, <br />
-                when he too might find himslef, with foam-drenched sleeves<br />
+                when he too might find himself, with foam-drenched sleeves<br />
                 returning home, even as he continued on his way.
               </p>
             </td>
@@ -612,7 +612,7 @@ permalink: /text-kokaji/
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              Men and horses: their bodies crushed in their caverns,<br />
+              men and horses: their bodies crushed in their caverns,<br />
               their blood on the battlefields a river, <br />
               their shields swept away on crimson waves again and again. <br />
               Finally, the barbarians removed their helmets, <br />
@@ -743,7 +743,7 @@ permalink: /text-kokaji/
               What you have told me of the power of the swords in China and
               Japan<br />
               has gladdened my heart at this important hour.<br />
-              Yet, I press you again to tell me who you are ?
+              Yet, I press you again to tell me who you are.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -920,7 +920,7 @@ permalink: /text-kokaji/
               At that time, Myojin will appear and be your assistant <br />
               In forging the blade. This being the case, <br />
               Munechika, his eyebrows relaxed in joy, <br />
-              Is even now coming his way to do these things. <br />
+              is even now coming this way to do these things. <br />
               In this way then, when prayers are offered, <br />
               they shall be fulfilled without a doubt. <br />
               On this matter, rest assured.
@@ -964,7 +964,7 @@ permalink: /text-kokaji/
               Now, I, Munichika, in compliance with the Imperial Will<br />
               have accordingly ascended the dais to ward off impurities.<br />
               It is adorned with the Seven-fold Sacred Rope,<br />
-              and in the four corners sacred images place in reverence.<br />
+              and in the four corners sacred images placed in reverence.<br />
               I raise up this Sacred wand and make my petition.<br />
               Now, in the reign of the Sixty-sixth Emperor Ichijo,<br />
               I have been honored greatly in my craft,<br />
@@ -1023,7 +1023,7 @@ permalink: /text-kokaji/
               I offer up this sacred wand.<br />
               I bow my head before heaven as I seek divine aid from my inmost
               being.<br />
-              Hear and grant my prayer
+              Hear and grant my prayer.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -1098,7 +1098,7 @@ permalink: /text-kokaji/
               <h5>Jiutai:</h5>
               <em>
                 Tōnan dan no ue ni agatte <br />
-                Munechika ni sanpai no hiza wo tasshi.<br />
+                Munechika ni sanpai no hiza wo kusshi.<br />
                 Sate mitsurugi no kane wa to ieba<br />
                 Munechika mo kyōet'n no kokoro wo saki toshite<br />
                 Kane tori-idashi. <br />
