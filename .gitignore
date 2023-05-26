@@ -12,3 +12,6 @@ coverage/
 
 .DS_Store
 .ignore
+
+# Local Netlify folder
+.netlify
