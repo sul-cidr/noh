@@ -109,8 +109,10 @@ export const convertToVtt = (captions, track) => {
     let content;
     if (track in caption) {
       content = caption[track];
-    } else {
+    } else if (track === "combined") {
       content = `<c.transcription>${caption.transcription}</c>\n<c.translation>(${caption.translation})</c>`;
+    } else {
+      content = "<c.missing>- (no captions) -</c>";
     }
     return [index + 1, timeCode, content].join("\n");
   });
@@ -213,7 +215,7 @@ export const processCaptions = data => {
       ...[...Array(row.length).keys()].map(idx => ({
         [keys[idx]]: keys[idx].toLowerCase().includes("time")
           ? parseTime(row[idx])
-          : row[idx]
+          : row[idx].trim()
       }))
     )
   );
@@ -311,7 +313,12 @@ export const main = (configPath, quiet) => {
         const trackFilePath = path.join(dataFolder, "captions", playName);
         play.tracks = [];
         // eslint-disable-next-line no-restricted-syntax
-        for (const track of ["translation", "transcription", "combined"]) {
+        for (const track of [
+          "translation",
+          "transcription",
+          "combined",
+          "japaneseScript"
+        ]) {
           const trackFileName = `${trackFilePath}.${track}.vtt`;
           fs.writeFileSync(trackFileName, convertToVtt(play.captions, track));
           play.tracks.push({

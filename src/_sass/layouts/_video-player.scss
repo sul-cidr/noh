@@ -212,3 +212,7 @@ video::cue(.translation) {
   font-style: italic;
   font-size: 0.8em;
 }
+
+video::cue(.missing) {
+  font-size: 0.8em;
+}
