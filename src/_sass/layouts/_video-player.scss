@@ -204,7 +204,8 @@ video::cue {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   background: rgba(0, 0, 0, 0.5);
   font-size: 2rem;
-  line-height: 1;
+  font-size: clamp(1cqw, 2rem, 1.6cqw);
+  line-height: 1.4;
 }
 
 video::cue(.translation) {
