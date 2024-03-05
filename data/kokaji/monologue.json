@@ -137,7 +137,7 @@
         "value": "",
         "grid": [
           {
-            "text": "Kore wa ichidaiji no koto wo, ōse idasarate sōrō monokana.",
+            "text": "Kore wa ichidaiji no koto wo, ōse idasarate sōrō mono kana.",
             "voices": [
               "waki"
             ],
@@ -357,31 +357,36 @@
       "startTime": 680,
       "endTime": 692,
       "translation": "[WAKI] This is a great task you have come to give me.",
-      "transcription": "[WAKI] Kore wa ichidaiji no koto wo, ōse idasarate sōrō monokana."
+      "transcription": "[WAKI] Kore wa ichidaiji no koto wo, ōse idasarate sōrō mono kana.",
+      "japaneseScript": "［ワキ］これは一大事を仰せ出されて候ふものかな。"
     },
     {
       "startTime": 692,
       "endTime": 704,
       "translation": "Such a command can be carried out if I ask for divine help.",
-      "transcription": "Kayō no koto ni wa shinriki wo tanomu naradewa, bechigi naku sōrō."
+      "transcription": "Kayō no koto ni wa shinriki wo tanomu naradewa, bechigi naku sōrō.",
+      "japaneseScript": "かやうの御事は神力を頼むならは別義なく候。"
     },
     {
       "startTime": 704,
       "endTime": 716,
       "translation": "As my family deity is Inari no Myojin,",
-      "transcription": "Soregashi ga uji no shin na Inari no, myōjin nite sōrō hodoni."
+      "transcription": "Soregashi ga uji no shin na Inari no, myōjin nite sōrō hodoni.",
+      "japaneseScript": "某が氏の神は稲荷の明神にて候程に。"
     },
     {
       "startTime": 716,
       "endTime": 724,
       "translation": "I will go at once to Inari,",
-      "transcription": "Kore yori sugu ni, Inari ni mairi. "
+      "transcription": "Kore yori sugu ni, Inari ni mairi. ",
+      "japaneseScript": "これより直に稲荷に参り。"
     },
     {
       "startTime": 724,
       "endTime": 735,
       "translation": "and pray concerning this matter.",
-      "transcription": "Kono koto kisei mōsabaya to zonji-sōrō."
+      "transcription": "Kono koto kisei mōsabaya to zonji-sōrō.",
+      "japaneseScript": "この事祈誓申さばやと存じ候。"
     }
   ],
   "narrative": {

@@ -1640,7 +1640,7 @@
             "length": 1
           },
           {
-            "text": "ta",
+            "text": "ku",
             "voices": [],
             "start": 12,
             "style": "normal",
@@ -5854,73 +5854,85 @@
       "startTime": 3254,
       "endTime": 3273,
       "translation": "[SHITE] A young boy ascends the forge mound!",
-      "transcription": "[SHITE] Tōnan dan no ue ni agari."
+      "transcription": "[SHITE] Tōnan dan no ue ni agari.",
+      "japaneseScript": "［シテ］童男壇の。上にあがり。"
     },
     {
       "startTime": 3273,
       "endTime": 3286,
       "translation": "[JIUTAI] A young boy ascends the forge mound,",
-      "transcription": "[JIUTAI] Tōnan dan no ue ni agatte,"
+      "transcription": "[JIUTAI] Tōnan dan no ue ni agatte,",
+      "japaneseScript": "［地謡］童男壇の。上にあがつて"
     },
     {
       "startTime": 3286,
       "endTime": 3295,
       "translation": "kneels and bows three times before Munechika.",
-      "transcription": "Munechika ni sanpai no hiza wo tasshi."
+      "transcription": "Munechika ni sanpai no hiza wo kusshi.",
+      "japaneseScript": "宗近に三拝の膝を屈し。"
     },
     {
       "startTime": 3295,
       "endTime": 3304,
       "translation": "\"Now then, the metal for the blade?\" he says",
-      "transcription": "Sate mitsurugi no kane wa to ieba"
+      "transcription": "Sate mitsurugi no kane wa to ieba",
+      "japaneseScript": "扨御剣の。鉄はと問へば"
     },
     {
       "startTime": 3304,
       "endTime": 3313,
       "translation": "and Munechika, his heart joyful, in reply",
-      "transcription": "Munechika mo kyōet'n no kokoro wo saki toshite"
+      "transcription": "Munechika mo kyōet'n no kokoro wo saki toshite",
+      "japaneseScript": "宗近も恐悦の心をさきとして"
     },
     {
       "startTime": 3313,
       "endTime": 3317,
       "translation": "brings for the metal.",
-      "transcription": "Kane tori-idashi. "
+      "transcription": "Kane tori-idashi. ",
+      "japaneseScript": "鉄取り出し。"
     },
     {
       "startTime": 3317,
       "endTime": 3328,
       "translation": "As he strikes the first blow with his mallet,",
-      "transcription": "Oshie no tsuchi wo hattate uteba."
+      "transcription": "Oshie no tsuchi wo hattate uteba.",
+      "japaneseScript": "教の鎚をはつたと打てば。"
     },
     {
       "startTime": 3328,
       "endTime": 3338,
       "translation": "[SHITE] Clang! we strike!",
-      "transcription": "[SHITE] Chō to utsu"
+      "transcription": "[SHITE] Chō to utsu",
+      "japaneseScript": "［シテ］丁と打つ。"
     },
     {
       "startTime": 3338,
       "endTime": 3341,
       "translation": "[JIUTAI] Clang!",
-      "transcription": "[JIUTAI] Chō"
+      "transcription": "[JIUTAI] Chō",
+      "japaneseScript": "［地謡］丁"
     },
     {
       "startTime": 3341,
       "endTime": 3345,
       "translation": "[SHITE] Clang, again.",
-      "transcription": "[SHITE] Chō to"
+      "transcription": "[SHITE] Chō to",
+      "japaneseScript": "［シテ］丁と"
     },
     {
       "startTime": 3345,
       "endTime": 3355,
       "translation": "[JIUTAI] The blows coming, one on another, the sound of their mallets",
-      "transcription": "[JIUTAI] Uchi kasanetaru tsuchi no hibiki"
+      "transcription": "[JIUTAI] Uchi kasanetaru tsuchi no hibiki",
+      "japaneseScript": "［地謡］打ち重ねたる鎚の響。"
     },
     {
       "startTime": 3355,
       "endTime": 3370,
       "translation": "echoes throughout heaven and earth - How it resounds!",
-      "transcription": "Tenchi ni kikoete obitatashiya."
+      "transcription": "Tenchi ni kikoete obitatashiya.",
+      "japaneseScript": "天地に聞こえて おびたゝしや"
     }
   ],
   "narrative": {

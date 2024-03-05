@@ -284,7 +284,7 @@
         "value": "",
         "grid": [
           {
-            "text": "Waga kimi Kon'ya fushimi no reimu, mashimashite.",
+            "text": "Waga kimi konya fushigi no reimu, mashimashite.",
             "voices": [
               "wakizure"
             ],
@@ -1040,151 +1040,176 @@
       "startTime": 315,
       "endTime": 325,
       "translation": "[WAKIZURE] Is Munechika at home ?",
-      "transcription": "[WAKIZURE] Ika ni kono uchi ni Munechika no, watari sōrō ka."
+      "transcription": "[WAKIZURE] Ika ni kono uchi ni Munechika no, watari sōrō ka.",
+      "japaneseScript": "［ワキツレ］いかに此の内に宗近のわたり候か。"
     },
     {
       "startTime": 331,
       "endTime": 338,
       "translation": "[WAKI] Who is it that has come here ?",
-      "transcription": "[WAKI] Tare nite watari, sōrōzo."
+      "transcription": "[WAKI] Tare nite watari, sōrōzo.",
+      "japaneseScript": "［ワキ］誰にてわたり候ふぞ。"
     },
     {
       "startTime": 338,
       "endTime": 347,
       "translation": "[WAKIZURE] I am a messenger from the Emperor.",
-      "transcription": "[WAKIZURE] Kore wa senji nite sōrō."
+      "transcription": "[WAKIZURE] Kore wa senji nite sōrō.",
+      "japaneseScript": "［ワキツレ］是は宣旨にて候。"
     },
     {
       "startTime": 347,
       "endTime": 355,
-      "translation": "His Majesty has had a marvelous oracle in a dream.",
-      "transcription": "Waga kimi Kon'ya fushimi no reimu, mashimashite."
+      "translation": "His Majesty has this night had a marvelous oracle in a dream.",
+      "transcription": "Waga kimi konya fushigi no reimu, mashimashite.",
+      "japaneseScript": "我が君今夜不思議の霊夢ましまして。"
     },
     {
       "startTime": 355,
       "endTime": 365,
       "translation": "According to the oracle, you must forge a fine sword for him.",
-      "transcription": "Mitsurugi wo utaserarubeki tono onkoto nari."
+      "transcription": "Mitsurugi wo utaserarubeki tono onkoto nari.",
+      "japaneseScript": "御剣を打たせられるべしとの御事なり。"
     },
     {
       "startTime": 365,
       "endTime": 371,
       "translation": "Please comply with this order at once.",
-      "transcription": "Tōtō tsukamatsuri sōrae."
+      "transcription": "Tōtō tsukamatsuri sōrae.",
+      "japaneseScript": "とうとう仕り候へ。"
     },
     {
       "startTime": 371,
       "endTime": 384,
       "translation": "[WAKI] While I certainly must agree to execute this imperial order, ",
-      "transcription": "[WAKI] Senji kashikomatte uketamawari sōrō sarinagara."
+      "transcription": "[WAKI] Senji kashikomatte uketamawari sōrō sarinagara.",
+      "japaneseScript": "［ワキ］宣旨畏つて承り候 さりながら"
     },
     {
       "startTime": 384,
       "endTime": 393,
       "translation": "as I do not have anyone to assist me,",
-      "transcription": "Orifushi aizuchi utsubeki mono no naku sōrō wo ba,"
+      "transcription": "Orifushi aizuchi utsubeki mono no naku sōrō wo ba,",
+      "japaneseScript": "折節相鎚打つべきものの無く候をば"
     },
     {
       "startTime": 393,
       "endTime": 400,
       "translation": "I do not know how I will be able to carry it out.",
-      "transcription": "nani to tsukamatsuri sōrō beki."
+      "transcription": "nani to tsukamatsuri sōrō beki.",
+      "japaneseScript": "何とつかまつり候べき。"
     },
     {
       "startTime": 400,
       "endTime": 406,
       "translation": "[WAKIZURE] What you say sir, seems most strange.",
-      "transcription": "[WAKIZURE] Fushigi no koto wo mōsu mono kana."
+      "transcription": "[WAKIZURE] Fushigi no koto wo mōsu mono kana.",
+      "japaneseScript": "［ワキツレ］不思議の事を申すものかな。"
     },
     {
       "startTime": 406,
       "endTime": 413,
       "translation": "To hear that someone of your reputation",
-      "transcription": "Sono na wo etaru, nanji naruga"
+      "transcription": "Sono na wo etaru, nanji naruga",
+      "japaneseScript": "その名を得たる何時なるが"
     },
     {
       "startTime": 413,
       "endTime": 420,
       "translation": "does not have an appropriate assistant,",
-      "transcription": "aizuchi utsubeki mono no naki towa."
+      "transcription": "aizuchi utsubeki mono no naki towa.",
+      "japaneseScript": "相鎚打つべきものの無きとは。"
     },
     {
       "startTime": 420,
       "endTime": 426,
       "translation": "is the most unfortunate news.",
-      "transcription": "Kokoroegataki iigotokana."
+      "transcription": "Kokoroegataki iigotokana.",
+      "japaneseScript": "心得難き言い事かな。"
     },
     {
       "startTime": 426,
       "endTime": 434,
       "translation": "[WAKI] Even though I am commanded to do so,",
-      "transcription": "[WAKI] Kore wa ōse nite sōrae domo,"
+      "transcription": "[WAKI] Kore wa ōse nite sōrae domo,",
+      "japaneseScript": "［ワキ］これは仰せにて候へども"
     },
     {
       "startTime": 434,
       "endTime": 443,
       "translation": "without an assistant whose skills are equal to my own,",
-      "transcription": "Kayō no ichidaiji no mono wo tsukamatsuru ni wa"
+      "transcription": "Kayō no ichidaiji no mono wo tsukamatsuru ni wa",
+      "japaneseScript": "かようの一大事の物を仕るには"
     },
     {
       "startTime": 443,
       "endTime": 454,
       "translation": "it will not be possible to fulfill this order",
-      "transcription": "ware ni otonaru koto no mono no aizuchi, tsukamatsurite koso."
+      "transcription": "ware ni otonaru hodo no mono no aizuchi, tsukamatsurite koso.",
+      "japaneseScript": "我に劣らぬ程の物の相鎚仕りてこそ。"
     },
     {
       "startTime": 454,
       "endTime": 462,
       "translation": "to forge an imperial blade.",
-      "transcription": "Mitsurugi wo mo uchimōsubekere."
+      "transcription": "Mitsurugi wo mo uchimōsubekere.",
+      "japaneseScript": "御剣をも打ち申すべけれ"
     },
     {
       "startTime": 462,
       "endTime": 470,
       "translation": "This is the answer I must give,",
-      "transcription": "Tonikaku ni onpenji wo mōshikane."
+      "transcription": "Tonikaku ni onpenji wo mōshikane.",
+      "japaneseScript": "とにかくに御返事を申しかね。"
     },
     {
       "startTime": 470,
       "endTime": 476,
       "translation": "though I am overcome with embarassment.",
-      "transcription": "Sekimenshitaru bakari nari."
+      "transcription": "Sekimenshitaru bakari nari.",
+      "japaneseScript": "赤面さしたるばかりなり。"
     },
     {
       "startTime": 476,
       "endTime": 483,
       "translation": "[WAKIZURE] Even though it may be as you say,",
-      "transcription": "[WAKIZURE] Mōsu tokoro wa saru koto naredomo."
+      "transcription": "[WAKIZURE] Mōsu tokoro wa saru koto naredomo.",
+      "japaneseScript": "［ワキツレ］申すところはさることなれども。"
     },
     {
       "startTime": 483,
       "endTime": 491,
       "translation": "yet as this is the Emperor's wonderful dream oracle,",
-      "transcription": "Mikado mo fushigi no reimu mashimaseba."
+      "transcription": "Mikado mo fushigi no reimu mashimaseba.",
+      "japaneseScript": "帝も不思議の霊夢ましませば。"
     },
     {
       "startTime": 491,
       "endTime": 497,
       "translation": "it surely must be relied upon",
-      "transcription": "Ikanaru koto ka sōrōbeki"
+      "transcription": "Ikanaru koto ka sōrōbeki",
+      "japaneseScript": "いかなることか候べき"
     },
     {
       "startTime": 497,
       "endTime": 505,
       "translation": "and you must quickly say",
-      "transcription": "tanomoshiku omoi mōshitsutsu"
+      "transcription": "tanomoshiku omoi mōshitsutsu",
+      "japaneseScript": "頼もしく思ひ申しつつ"
     },
     {
       "startTime": 505,
       "endTime": 513,
       "translation": "you will accept the order.",
-      "transcription": "hayahaya ryōjō mōisubeshito"
+      "transcription": "hayahaya ryōjō mōisubeshito",
+      "japaneseScript": "はやはや領掌申すべしと"
     },
     {
       "startTime": 513,
       "endTime": 522,
       "translation": "Let me repeat the imperial command!",
-      "transcription": "Kasanete senji arikereba."
+      "transcription": "Kasanete senji arikereba.",
+      "japaneseScript": "重ねて宣旨ありければ。"
     }
   ],
   "narrative": {

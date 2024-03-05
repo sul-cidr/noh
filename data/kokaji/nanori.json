@@ -204,7 +204,7 @@
         "value": "",
         "grid": [
           {
-            "text": "Sate mo mikado kon'ya kidoku no go reimu, mashimashite.",
+            "text": "Sate mo mikado konya kidoku no go-reimu, mashimashite.",
             "voices": [
               "wakizure"
             ],
@@ -424,55 +424,64 @@
       "startTime": 235,
       "endTime": 239,
       "translation": "[WAKIZURE] To begin with,",
-      "transcription": "[WAKIZURE] Somo somo kore wa,"
+      "transcription": "[WAKIZURE] Somo somo kore wa,",
+      "japaneseScript": "［ワキツレ］そもそもこれは"
     },
     {
       "startTime": 239,
       "endTime": 244,
       "translation": "I am in the service of the Emperor Ichijo.",
-      "transcription": "Ichijō-no-In ni tsukae tatematsuru."
+      "transcription": "Ichijō-no-In ni tsukae tatematsuru.",
+      "japaneseScript": "一條の院に仕へ奉る。"
     },
     {
       "startTime": 244,
       "endTime": 252,
       "translation": "I am known as Tachibana no Michinari.",
-      "transcription": "Tachibana-no-Michinari to wa waga koto nari."
+      "transcription": "Tachibana-no-Michinari to wa waga koto nari.",
+      "japaneseScript": "橘の道成とは我が事なり。"
     },
     {
       "startTime": 252,
       "endTime": 262,
       "translation": "It so happens that his Lordship",
-      "transcription": "Sate mo mikado konya kidoku no go-reimu, mashimashite."
+      "transcription": "Sate mo mikado konya kidoku no go-reimu, mashimashite.",
+      "japaneseScript": "さても帝今夜奇特の御霊夢ましまして。"
     },
     {
       "startTime": 262,
       "endTime": 268,
       "translation": "has this night had a portentous dream oracle.",
-      "transcription": "Sanjō-no-Kokaji Munechika ni."
+      "transcription": "Sanjō-no-Kokaji Munechika ni.",
+      "japaneseScript": "三条の小鍛冶宗近に。"
     },
     {
       "startTime": 268,
       "endTime": 274,
       "translation": "The Sanjo swordsmith Munechika",
-      "transcription": "Mi-tsurugi wo utaserarubeki to no"
+      "transcription": "Mi-tsurugi wo utaserarubeki to no",
+      "japaneseScript": "御剣を打たせらるべきとの"
     },
     {
       "startTime": 274,
       "endTime": 283,
       "translation": "must be ordered to forge a blade.",
-      "transcription": "senji tadaima narikudarite sōrō hodo ni."
+      "transcription": "senji tadaima narikudarite sōrō hodo ni.",
+      "japaneseScript": "宣旨只今成り下りて候程に。"
     },
     {
       "startTime": 283,
       "endTime": 290,
       "translation": "I am on my way now to tell Munechika",
-      "transcription": "Kono yoshi wo Munechika ni mōshi-tsukebaya to"
+      "transcription": "Kono yoshi wo Munechika ni mōshi-tsukebaya to",
+      "japaneseScript": "この由を宗近に申し付ばやと"
     },
     {
       "startTime": 290,
       "endTime": 294,
       "translation": "of this matter.",
-      "transcription": "zonji sōrō."
+      "transcription": "zonji sōrō.",
+      "japaneseScript": "存候う。"
     }
   ],
   "narrative": {
