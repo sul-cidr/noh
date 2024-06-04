@@ -61,8 +61,6 @@ export const normalize = str =>
     .toLowerCase()
     .replace(regexps.whiteSpaces, "-");
 
-export const capitalize = str => str[0].toUpperCase() + str.slice(1);
-
 export const extractVoices = str => [
   str &&
     (str.match(regexps.betweenBrackets) || [null, ""])[1]
@@ -334,7 +332,6 @@ export const main = (configPath, quiet) => {
             section => parseInt(section.intensity.number, 10) || 0
           )
         );
-        if (!quiet) console.info(`- ${playName}`);
         mkdirp.sync(dataFolder);
         const playFilePath = path.join(dataFolder, playName);
         const playFileName = `${playFilePath}.json`;
