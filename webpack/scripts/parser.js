@@ -110,7 +110,7 @@ export const convertToVtt = (captions, track) => {
     if (track in caption) {
       content = caption[track];
     } else if (track === "combined") {
-      content = `<c.transcription>${caption.transcription}</c>\n<c.translation>(${caption.translation})</c>`;
+      content = `<c.transcription>${caption.japaneseScript}</c>\n<c.translation>(${caption.translation})</c>`;
     } else {
       content = "<c.missing>- (no captions) -</c>";
     }
@@ -313,16 +313,16 @@ export const main = (configPath, quiet) => {
         const trackFilePath = path.join(dataFolder, "captions", playName);
         play.tracks = [];
         // eslint-disable-next-line no-restricted-syntax
-        for (const track of [
-          "translation",
-          "transcription",
-          "combined",
-          "japaneseScript"
+        for (const [track, label] of [
+          ["translation", "English"],
+          ["transcription", "Romanization"],
+          ["japaneseScript", "Japanese"],
+          ["combined", "Combined"]
         ]) {
           const trackFileName = `${trackFilePath}.${track}.vtt`;
           fs.writeFileSync(trackFileName, convertToVtt(play.captions, track));
           play.tracks.push({
-            label: capitalize(track),
+            label,
             kind: "subtitles",
             lang: "en",
             url: `/data/captions/${playName}.${track}.vtt`
