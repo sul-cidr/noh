@@ -29,12 +29,12 @@ exports[`parser converts captions into WebVTT format 3`] = `
 
 1
 00:30:05.000 --> 00:30:14.000
-<c.transcription>tsu u ri ki no mi wo he n ji</c>
+<c.transcription>undefined</c>
 <c.translation>(Translation goes here)</c>
 
 2
 00:30:14.000 --> 00:30:23.000
-<c.transcription>tsu u ri ki</c>
+<c.transcription>undefined</c>
 <c.translation>(Another line of translation)</c>"
 `;
 
@@ -2819,16 +2819,28 @@ exports[`parser main downloads and parses phrases, metadata, and captions 7`] = 
 
 1
 00:30:05.000 --> 00:30:14.000
-<c.transcription>tsu u ri ki no mi wo he n ji</c>
+<c.missing>- (no captions) -</c>
+
+2
+00:30:14.000 --> 00:30:23.000
+<c.missing>- (no captions) -</c>"
+`;
+
+exports[`parser main downloads and parses phrases, metadata, and captions 8`] = `
+"WEBVTT
+
+1
+00:30:05.000 --> 00:30:14.000
+<c.transcription>undefined</c>
 <c.translation>(Translation goes here)</c>
 
 2
 00:30:14.000 --> 00:30:23.000
-<c.transcription>tsu u ri ki</c>
+<c.transcription>undefined</c>
 <c.translation>(Another line of translation)</c>"
 `;
 
-exports[`parser main downloads and parses phrases, metadata, and captions 8`] = `
+exports[`parser main downloads and parses phrases, metadata, and captions 9`] = `
 "{
   \\"playName\\": \\"kokaji\\",
   \\"sections\\": [
@@ -3028,16 +3040,22 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
   \\"narrative\\": \\"/narratives/kokaji/\\",
   \\"tracks\\": [
     {
-      \\"label\\": \\"Translation\\",
+      \\"label\\": \\"English\\",
       \\"kind\\": \\"subtitles\\",
       \\"lang\\": \\"en\\",
       \\"url\\": \\"/data/captions/kokaji.translation.vtt\\"
     },
     {
-      \\"label\\": \\"Transcription\\",
+      \\"label\\": \\"Romanization\\",
       \\"kind\\": \\"subtitles\\",
       \\"lang\\": \\"en\\",
       \\"url\\": \\"/data/captions/kokaji.transcription.vtt\\"
+    },
+    {
+      \\"label\\": \\"Japanese\\",
+      \\"kind\\": \\"subtitles\\",
+      \\"lang\\": \\"en\\",
+      \\"url\\": \\"/data/captions/kokaji.japaneseScript.vtt\\"
     },
     {
       \\"label\\": \\"Combined\\",
