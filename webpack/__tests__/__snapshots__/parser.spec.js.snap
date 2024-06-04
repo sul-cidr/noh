@@ -4,38 +4,38 @@ exports[`parser converts captions into WebVTT format 1`] = `
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
-Translation goes here
+00:05:25.000 --> 00:05:35.000
+[WAKI] I am a priest living at Urin-in in Murasakino,
 
 2
-00:30:14.000 --> 00:30:23.000
-Another line of translation"
+00:03:59.000 --> 00:04:04.000
+I am in the service of the Emperor Ichijo."
 `;
 
 exports[`parser converts captions into WebVTT format 2`] = `
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
-tsu u ri ki no mi wo he n ji
+00:05:25.000 --> 00:05:35.000
+[WAKI] Kore wa miyako kitayama Murasakino
 
 2
-00:30:14.000 --> 00:30:23.000
-tsu u ri ki"
+00:03:59.000 --> 00:04:04.000
+Ichijō-no-In ni tsukae tatematsuru."
 `;
 
 exports[`parser converts captions into WebVTT format 3`] = `
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
+00:05:25.000 --> 00:05:35.000
 <c.transcription>undefined</c>
-<c.translation>(Translation goes here)</c>
+<c.translation>([WAKI] I am a priest living at Urin-in in Murasakino,)</c>
 
 2
-00:30:14.000 --> 00:30:23.000
+00:03:59.000 --> 00:04:04.000
 <c.transcription>undefined</c>
-<c.translation>(Another line of translation)</c>"
+<c.translation>(I am in the service of the Emperor Ichijo.)</c>"
 `;
 
 exports[`parser downloadCSV downloads data from a captions CSV URL 1`] = `
@@ -46,24 +46,27 @@ Object {
       "End time",
       "Translation",
       "Transcription",
+      "Japanese",
     ],
     Array [
-      "30'05\\"",
-      "30'14\\"",
-      "Translation goes here",
-      "tsu u ri ki no mi wo he n ji",
+      "5'25\\"",
+      "5'35\\"",
+      "[WAKI] I am a priest living at Urin-in in Murasakino",
+      "[WAKI] Kore wa miyako kitayama Murasakino",
+      "［ワキ］是は都北山紫野",
     ],
     Array [
-      "30'14\\"",
-      "30'23\\"",
-      "Another line of translation",
-      "tsu u ri ki",
+      "3'59\\"",
+      "4'04\\"",
+      "I am in the service of the Emperor Ichijo.",
+      "Ichijō-no-In ni tsukae tatematsuru.",
+      "一條の院に仕へ奉る。",
     ],
   ],
   "errors": Array [],
   "meta": Object {
     "aborted": false,
-    "cursor": 176,
+    "cursor": 287,
     "delimiter": ",",
     "linebreak": "
 ",
@@ -1613,16 +1616,18 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
   ],
   \\"captions\\": [
     {
-      \\"startTime\\": 1805,
-      \\"endTime\\": 1814,
-      \\"translation\\": \\"Translation goes here\\",
-      \\"transcription\\": \\"tsu u ri ki no mi wo he n ji\\"
+      \\"startTime\\": 325,
+      \\"endTime\\": 335,
+      \\"translation\\": \\"[WAKI] I am a priest living at Urin-in in Murasakino\\",
+      \\"transcription\\": \\"[WAKI] Kore wa miyako kitayama Murasakino\\",
+      \\"japanese\\": \\"［ワキ］是は都北山紫野\\"
     },
     {
-      \\"startTime\\": 1814,
-      \\"endTime\\": 1823,
-      \\"translation\\": \\"Another line of translation\\",
-      \\"transcription\\": \\"tsu u ri ki\\"
+      \\"startTime\\": 239,
+      \\"endTime\\": 244,
+      \\"translation\\": \\"I am in the service of the Emperor Ichijo.\\",
+      \\"transcription\\": \\"Ichijō-no-In ni tsukae tatematsuru.\\",
+      \\"japanese\\": \\"一條の院に仕へ奉る。\\"
     }
   ],
   \\"narrative\\": {
@@ -2794,35 +2799,35 @@ exports[`parser main downloads and parses phrases, metadata, and captions 5`] = 
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
-Translation goes here
+00:05:25.000 --> 00:05:35.000
+[WAKI] I am a priest living at Urin-in in Murasakino
 
 2
-00:30:14.000 --> 00:30:23.000
-Another line of translation"
+00:03:59.000 --> 00:04:04.000
+I am in the service of the Emperor Ichijo."
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 6`] = `
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
-tsu u ri ki no mi wo he n ji
+00:05:25.000 --> 00:05:35.000
+[WAKI] Kore wa miyako kitayama Murasakino
 
 2
-00:30:14.000 --> 00:30:23.000
-tsu u ri ki"
+00:03:59.000 --> 00:04:04.000
+Ichijō-no-In ni tsukae tatematsuru."
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 7`] = `
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
+00:05:25.000 --> 00:05:35.000
 <c.missing>- (no captions) -</c>
 
 2
-00:30:14.000 --> 00:30:23.000
+00:03:59.000 --> 00:04:04.000
 <c.missing>- (no captions) -</c>"
 `;
 
@@ -2830,14 +2835,14 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
 "WEBVTT
 
 1
-00:30:05.000 --> 00:30:14.000
+00:05:25.000 --> 00:05:35.000
 <c.transcription>undefined</c>
-<c.translation>(Translation goes here)</c>
+<c.translation>([WAKI] I am a priest living at Urin-in in Murasakino)</c>
 
 2
-00:30:14.000 --> 00:30:23.000
+00:03:59.000 --> 00:04:04.000
 <c.transcription>undefined</c>
-<c.translation>(Another line of translation)</c>"
+<c.translation>(I am in the service of the Emperor Ichijo.)</c>"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 9`] = `
@@ -3100,16 +3105,18 @@ Array [
 exports[`parser processCaptions parses caption lines into a list of hash maps 1`] = `
 Array [
   Object {
-    "endTime": 1814,
-    "startTime": 1805,
-    "transcription": "tsu u ri ki no mi wo he n ji",
-    "translation": "Translation goes here",
+    "endTime": 335,
+    "japanese": "［ワキ］是は都北山紫野",
+    "startTime": 325,
+    "transcription": "[WAKI] Kore wa miyako kitayama Murasakino",
+    "translation": "[WAKI] I am a priest living at Urin-in in Murasakino,",
   },
   Object {
-    "endTime": 1823,
-    "startTime": 1814,
-    "transcription": "tsu u ri ki",
-    "translation": "Another line of translation",
+    "endTime": 244,
+    "japanese": "一條の院に仕へ奉る。",
+    "startTime": 239,
+    "transcription": "Ichijō-no-In ni tsukae tatematsuru.",
+    "translation": "I am in the service of the Emperor Ichijo.",
   },
 ]
 `;
