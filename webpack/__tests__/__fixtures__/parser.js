@@ -858,19 +858,26 @@ Nokhan Present?,No,,,
 Dance Present?,Yes,,Feminine to Martial style,
   `,
   captions: [
-    ["Start time", "End time", "Translation", "Transcription"],
+    ["Start time", "End time", "Translation", "Transcription", "Japanese"],
     [
-      "30'05\"",
-      "30'14\"",
-      "Translation goes here",
-      "tsu u ri ki no mi wo he n ji"
+      "5'25\"",
+      "5'35\"",
+      "[WAKI] I am a priest living at Urin-in in Murasakino,",
+      "[WAKI] Kore wa miyako kitayama Murasakino",
+      "［ワキ］是は都北山紫野"
     ],
-    ["30'14\"", "30'23\"", "Another line of translation", "tsu u ri ki"]
+    [
+      "3'59\"",
+      "4'04\"",
+      "I am in the service of the Emperor Ichijo.",
+      "Ichijō-no-In ni tsukae tatematsuru.",
+      "一條の院に仕へ奉る。"
+    ]
   ],
   captionsCSV: `
-Start time,End time,Translation,Transcription
-"30'05""","30'14""",Translation goes here,tsu u ri ki no mi wo he n ji
-"30'14""","30'23""",Another line of translation,tsu u ri ki
+Start time,End time,Translation,Transcription,Japanese
+"5'25""","5'35""",[WAKI] I am a priest living at Urin-in in Murasakino,[WAKI] Kore wa miyako kitayama Murasakino,［ワキ］是は都北山紫野
+"3'59""","4'04""",I am in the service of the Emperor Ichijo.,Ichijō-no-In ni tsukae tatematsuru.,一條の院に仕へ奉る。
   `,
   catalogCSV: `
 URLS,Names,Spoken,Chanted,Chanted,Chanted,Chanted,Entrance and exit music,Dance music
