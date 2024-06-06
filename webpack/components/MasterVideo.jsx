@@ -34,7 +34,6 @@ class MasterVideo extends Component {
         kind={track.kind}
         srcLang={track.lang}
         src={track.url}
-        default={track.label === "Combined"}
       />
     ));
   }

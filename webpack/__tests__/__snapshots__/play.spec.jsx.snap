@@ -2161,7 +2161,6 @@ exports[`<Play> renders as expected 1`] = `
                       type="video/mp4"
                     />
                     <track
-                      default={false}
                       key="Translation"
                       kind="subtitles"
                       label="Translation"
@@ -2169,7 +2168,6 @@ exports[`<Play> renders as expected 1`] = `
                       srcLang="en"
                     />
                     <track
-                      default={false}
                       key="Transcription"
                       kind="subtitles"
                       label="Transcription"
@@ -2177,7 +2175,6 @@ exports[`<Play> renders as expected 1`] = `
                       srcLang="en"
                     />
                     <track
-                      default={true}
                       key="Combined"
                       kind="subtitles"
                       label="Combined"
