@@ -1569,16 +1569,22 @@
   "narrative": "/narratives/kokaji/",
   "tracks": [
     {
-      "label": "Translation",
+      "label": "English",
       "kind": "subtitles",
       "lang": "en",
       "url": "/data/captions/kokaji.translation.vtt"
     },
     {
-      "label": "Transcription",
+      "label": "Romanization",
       "kind": "subtitles",
       "lang": "en",
       "url": "/data/captions/kokaji.transcription.vtt"
+    },
+    {
+      "label": "Japanese",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/kokaji.japaneseScript.vtt"
     },
     {
       "label": "Combined",

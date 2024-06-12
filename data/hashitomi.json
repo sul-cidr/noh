@@ -1380,16 +1380,22 @@
   "narrative": "/narratives/hashitomi/",
   "tracks": [
     {
-      "label": "Translation",
+      "label": "English",
       "kind": "subtitles",
       "lang": "en",
       "url": "/data/captions/hashitomi.translation.vtt"
     },
     {
-      "label": "Transcription",
+      "label": "Romanization",
       "kind": "subtitles",
       "lang": "en",
       "url": "/data/captions/hashitomi.transcription.vtt"
+    },
+    {
+      "label": "Japanese",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/hashitomi.japaneseScript.vtt"
     },
     {
       "label": "Combined",
