@@ -61,8 +61,6 @@ export const normalize = str =>
     .toLowerCase()
     .replace(regexps.whiteSpaces, "-");
 
-export const capitalize = str => str[0].toUpperCase() + str.slice(1);
-
 export const extractVoices = str => [
   str &&
     (str.match(regexps.betweenBrackets) || [null, ""])[1]
@@ -109,8 +107,10 @@ export const convertToVtt = (captions, track) => {
     let content;
     if (track in caption) {
       content = caption[track];
+    } else if (track === "combined") {
+      content = `<c.transcription>${caption.japaneseScript}</c>\n<c.translation>(${caption.translation})</c>`;
     } else {
-      content = `<c.transcription>${caption.transcription}</c>\n<c.translation>(${caption.translation})</c>`;
+      content = "<c.missing>- (no captions) -</c>";
     }
     return [index + 1, timeCode, content].join("\n");
   });
@@ -213,7 +213,7 @@ export const processCaptions = data => {
       ...[...Array(row.length).keys()].map(idx => ({
         [keys[idx]]: keys[idx].toLowerCase().includes("time")
           ? parseTime(row[idx])
-          : row[idx]
+          : row[idx].trim()
       }))
     )
   );
@@ -311,11 +311,16 @@ export const main = (configPath, quiet) => {
         const trackFilePath = path.join(dataFolder, "captions", playName);
         play.tracks = [];
         // eslint-disable-next-line no-restricted-syntax
-        for (const track of ["translation", "transcription", "combined"]) {
+        for (const [track, label] of [
+          ["translation", "English"],
+          ["transcription", "Romanization"],
+          ["japaneseScript", "Japanese"],
+          ["combined", "Combined"]
+        ]) {
           const trackFileName = `${trackFilePath}.${track}.vtt`;
           fs.writeFileSync(trackFileName, convertToVtt(play.captions, track));
           play.tracks.push({
-            label: capitalize(track),
+            label,
             kind: "subtitles",
             lang: "en",
             url: `/data/captions/${playName}.${track}.vtt`
@@ -327,7 +332,6 @@ export const main = (configPath, quiet) => {
             section => parseInt(section.intensity.number, 10) || 0
           )
         );
-        if (!quiet) console.info(`- ${playName}`);
         mkdirp.sync(dataFolder);
         const playFilePath = path.join(dataFolder, playName);
         const playFileName = `${playFilePath}.json`;
