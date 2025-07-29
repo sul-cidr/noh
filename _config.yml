@@ -39,6 +39,12 @@ collections:
   kokaji:
     output: true
     permalink: /:collection/:path/
+  okina:
+    output: true
+    permalink: /:collection/:path/
+  takasago:
+    output: true
+    permalink: /:collection/:path/
   plays:
     output: true
     permalink: /:path/

@@ -55,7 +55,7 @@ layout: home
     <h2 id="Plays" class="home-section__title">Plays</h2>
     <p class="home__intermedia-description">
       These pages feature complete recordings and the in-depth intermedia
-      analysis of two contrasting plays.
+      analysis of four plays.
     </p>
     {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
     {% include home-play.html link=play.url image=play.image title=play.title
