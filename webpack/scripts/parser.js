@@ -30,7 +30,11 @@ export const voiceStyles = {
   S: "shite",
   W: "waki",
   Wt: "wakizure",
-  A: "aikyōgen"
+  A: "aikyōgen",
+  Se: "senzai",
+  B: "bamboo",
+  P: "pine",
+  Sb: "sanbasō"
 };
 
 export const ParserException = function(message) {
