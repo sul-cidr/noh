@@ -1,5 +1,5 @@
 ---
 title: Exit
-play: Hashitomi
+play: Takasago
 layout: section
 ---

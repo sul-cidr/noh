@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Shidai
 play: Takasago
 layout: section
 ---

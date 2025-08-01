@@ -1,5 +1,5 @@
 ---
 title: Aikyogen
-play: Hashitomi
+play: Takasago
 layout: section
 ---

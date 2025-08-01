@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Kaiko
 play: Takasago
 layout: section
 ---

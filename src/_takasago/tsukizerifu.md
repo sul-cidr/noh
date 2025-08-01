@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Tsukizerifu
 play: Takasago
 layout: section
 ---

@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Michiyuki
 play: Takasago
 layout: section
 ---

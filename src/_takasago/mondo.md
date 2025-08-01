@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Mondo
 play: Takasago
 layout: section
 ---

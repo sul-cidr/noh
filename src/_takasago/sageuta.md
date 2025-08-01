@@ -1,5 +1,5 @@
 ---
 title: Sageuta
-play: Hashitomi
+play: Takasago
 layout: section
 ---

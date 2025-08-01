@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Machiutai
 play: Takasago
 layout: section
 ---

@@ -1,5 +1,5 @@
 ---
 title: Nanori
-play: Hashitomi
+play: Takasago 
 layout: section
 ---
