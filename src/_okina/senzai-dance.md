@@ -1,5 +1,5 @@
 ---
-title: Oshirabe
+title: Senzai Dance
 play: Okina
 layout: section
 ---
