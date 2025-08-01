@@ -1,5 +1,5 @@
 ---
 title: Kuse
-play: Hashitomi
+play: Takasago
 layout: section
 ---

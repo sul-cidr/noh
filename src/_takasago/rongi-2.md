@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Rongi 2
 play: Takasago
 layout: section
 ---

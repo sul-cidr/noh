@@ -1,5 +1,5 @@
 ---
-title: Issei
+title: Deha
 play: Takasago
 layout: section
 ---

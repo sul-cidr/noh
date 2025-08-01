@@ -1,5 +1,5 @@
 ---
 title: Ageuta 2
-play: Hashitomi
+play: Takasago
 layout: section
 ---
