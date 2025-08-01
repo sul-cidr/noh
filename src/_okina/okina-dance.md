@@ -1,5 +1,5 @@
 ---
-title: Oshirabe
+title: Okina Dance
 play: Okina
 layout: section
 ---

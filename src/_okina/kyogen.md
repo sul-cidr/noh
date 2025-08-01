@@ -1,5 +1,5 @@
 ---
-title: Oshirabe
+title: Kyogen
 play: Okina
 layout: section
 ---

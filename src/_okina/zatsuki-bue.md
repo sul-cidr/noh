@@ -1,5 +1,5 @@
 ---
-title: Oshirabe
+title: Zatsuki Bue
 play: Okina
 layout: section
 ---
