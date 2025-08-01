@@ -37,7 +37,7 @@ layout: home
       Noh have been studied extensively, the interactions between them are
       relatively underdiscussed. This project is intended to contribute to the
       understanding and appreciation of Noh by offering in-depth intermedia
-      analysis of two <a href="#Plays">plays</a>, introductions to
+      analysis of four <a href="#Plays">plays</a>, introductions to
       <a href="#Elements">elements</a> of Noh, and a general discussion about
       <a href="/noh-as-intermedia/">Noh as intermedia</a>.
     </p>
