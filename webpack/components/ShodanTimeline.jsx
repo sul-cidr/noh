@@ -59,10 +59,11 @@ class ShodanTimeline extends Component {
     danBlocks.push(currentDanBlock);
 
     return danBlocks.map((danBlock, index, array) => {
+      const danStart = danBlock[0].startTime.value || 0;
       const danDuration =
         index + 1 in array
-          ? array[index + 1][0].startTime.value - danBlock[0].startTime.value
-          : actEndTime - (danBlock[0].startTime.value || 0);
+          ? array[index + 1][0].startTime.value - danStart
+          : actEndTime - danStart;
       return (
         <div
           key={`dan-block-${danBlock[0].dan.number}`}
