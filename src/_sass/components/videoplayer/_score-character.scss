@@ -7,11 +7,39 @@
   }
 }
 
+@mixin second-border($color) {
+  content: " ";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  border: 0.125rem solid $color;
+  top: 0;
+}
+
+@mixin second-character-overlay($color, $character) {
+  &:before {
+    @include second-border($color);
+  }
+
+  & + .cell__tooltip {
+    &.cell__tooltip--centered {
+      padding-left: 0.5rem;
+      padding-right: 0.185rem;
+    }
+  }
+
+  & + .cell__tooltip:before {
+    @include second-border($color);
+  }
+}
+
 .cell__character--jiutai,
 .cell__character--aikyogen,
 .cell__character--shite,
 .cell__character--waki,
-.cell__character--wakizure {
+.cell__character--wakizure,
+.cell__character--shite-shitezure,
+.cell__character--waki-wakizure {
   border-left-style: solid;
   border-left-width: 0.1875rem;
   left: 0;
@@ -34,6 +62,14 @@
 }
 .cell__character--wakizure {
   @include character-overlay($color-character-wakizure, "wakizure");
+}
+.cell__character--shite-shitezure {
+  @include character-overlay($color-character-shite, "shite");
+  @include second-character-overlay($color-character-shitezure, "shitezure");
+}
+.cell__character--waki-wakizure {
+  @include character-overlay($color-character-waki, "waki");
+  @include second-character-overlay($color-character-wakizure, "wakizure");
 }
 
 .cell__character .truncate {
@@ -77,5 +113,7 @@
   .cell__tooltip {
     border-top-width: 0.0625rem;
     height: $tooltip-height;
+    min-width: fit-content;
+    text-wrap: nowrap;
   }
 }
