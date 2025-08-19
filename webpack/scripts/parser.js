@@ -35,7 +35,9 @@ export const voiceStyles = {
   B: "bamboo",
   P: "pine",
   Sb: "sanbasō",
-  O: "okina"
+  O: "okina",
+  SSt: "shite-shitezure",
+  WWt: "waki-wakizure"
 };
 
 export const ParserException = function(message) {
