@@ -1,5 +1,5 @@
 ---
-title: Shidai
+title: Shidai Chant
 play: Takasago
 layout: section
 ---
