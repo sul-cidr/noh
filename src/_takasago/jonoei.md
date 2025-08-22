@@ -1,5 +1,5 @@
 ---
-title: Jo no ei
+title: Jonoei
 play: Takasago
 layout: section
 ---
