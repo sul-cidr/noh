@@ -1,5 +1,5 @@
 ---
-title: Tsukizerifu
+title: Tsuki-zerifu
 play: Takasago
 layout: section
 ---
