@@ -15,7 +15,7 @@ second-level-menu-active: catalog-shodan
       Exit Music
     </h4>
 
-    <h2>Notto-music</h2>
+    <h2>Notto Music</h2>
 
     <div class="introductory-table">
       <div class="introductory-table__element">
@@ -30,12 +30,12 @@ second-level-menu-active: catalog-shodan
 
     <p>
       The <em>Notto</em> is divided up into two parts: music and chant. The
-      <em>Notto</em>-music is an introduction that is not only unsettling but
+      <em>Notto</em> Music is an introduction that is not only unsettling but
       also evocative. It is characterized by a percussion accompaniment in
       strict setting played by the kotsuzumi and the ōtsuzumi, and a
       non-congruent nohkan part. It always leads to the
 
-      <a href="/catalog-of-shodan/notto-chant"><em>Notto</em>-chant</a>.
+      <a href="/catalog-of-shodan/notto-chant"><em>Notto</em> Chant</a>.
     </p>
 
     <p>
@@ -51,8 +51,8 @@ second-level-menu-active: catalog-shodan
     <p>5- O-hya i-cho uho-u</p>
 
     <p>
-      The <em>Notto</em>-music is spread over seven <em>honji</em>, the
-      beginning of the <em>Notto</em>-chant overlapping with the end of the
+      The <em>Notto</em> Music is spread over seven <em>honji</em>, the
+      beginning of the <em>Notto</em> Chant overlapping with the end of the
       nohkan solo.
     </p>
 
@@ -63,7 +63,7 @@ second-level-menu-active: catalog-shodan
     <p>
       The performance of an entrance music varies according to the action on the
       stage. In the play version, the nohkan player anticipated that he needed
-      to extend the duration of the <em>Notto</em>-music, so he interjected a
+      to extend the duration of the <em>Notto</em> Music, so he interjected a
       new pattern between the second and third one:
     </p>
     <p>O-hya ro-ru-ra</p>
