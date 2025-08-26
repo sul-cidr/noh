@@ -377,7 +377,54 @@
         }
       ]
     },
-    
+    {
+      "playName": "okina",
+      "title": "Okina",
+      "videoUrl": "https://d3msn78fivoryj.cloudfront.net/Okina-2025_sl.mp4",
+      "videoDuration": "01:24:24",
+      "acts": [
+        {
+          "translation": "Okina",
+          "transcription": "",
+          "duration": "00:40:31",
+          "shodanIndices": [1, 2, 3, 4, 5, 6]
+        }
+      ],
+      "sections": [
+        {
+          "sectionName": "oshirabe",
+          "metadata": "https://docs.google.com/spreadsheets/d/1JDi0Xc8pylcguGtDy5cIgdSaLDdQ8Vjba-SCY9MmQGo/edit#gid=0"
+        },
+        {
+          "sectionName": "musicians-in",
+          "phrases": "https://docs.google.com/spreadsheets/d/1xkWnH0K54eZ7XbCyDo85Y19ptK7pSx8cyQQkxSuIaMg/edit#gid=1071232526",
+          "metadata": "https://docs.google.com/spreadsheets/d/1xkWnH0K54eZ7XbCyDo85Y19ptK7pSx8cyQQkxSuIaMg/edit#gid=0"
+        },
+        {
+          "sectionName": "zatsuki-bue",
+          "phrases": "https://docs.google.com/spreadsheets/d/1H3d5JhPX4e4ThM-NSLrA-U_vxjQ2f0jdRS1feU8WSDw/edit#gid=1071232526",
+          "metadata": "https://docs.google.com/spreadsheets/d/1H3d5JhPX4e4ThM-NSLrA-U_vxjQ2f0jdRS1feU8WSDw/edit#gid=0"
+        },
+        {
+          "sectionName": "okina-song-1",
+          "phrases": "https://docs.google.com/spreadsheets/d/1dZTtn8gt9Np6GPVh8stc5In0ctnBb4Z17lm1y6V8zzo/edit#gid=1071232526",
+          "metadata": "https://docs.google.com/spreadsheets/d/1dZTtn8gt9Np6GPVh8stc5In0ctnBb4Z17lm1y6V8zzo/edit#gid=0",
+          "captions": "https://docs.google.com/spreadsheets/d/1dZTtn8gt9Np6GPVh8stc5In0ctnBb4Z17lm1y6V8zzo/edit#gid=1350380758"
+        },
+        {
+          "sectionName": "okina-song-2",
+          "phrases": "https://docs.google.com/spreadsheets/d/18iM9BODSmzsNadCgrZcddciUmGPpefFTUZhx0Vay8a0/edit#gid=1071232526",
+          "metadata": "https://docs.google.com/spreadsheets/d/18iM9BODSmzsNadCgrZcddciUmGPpefFTUZhx0Vay8a0/edit#gid=0",
+          "captions": "https://docs.google.com/spreadsheets/d/18iM9BODSmzsNadCgrZcddciUmGPpefFTUZhx0Vay8a0/edit#gid=1350380758"
+        },
+        {
+          "sectionName": "senzai-song-1",
+          "phrases": "https://docs.google.com/spreadsheets/d/1QFCD9vTY1Qtl6bWfyYhpDpxhcH_iDU0kXrHpx5tQ3r8/edit#gid=1071232526",
+          "metadata": "https://docs.google.com/spreadsheets/d/1QFCD9vTY1Qtl6bWfyYhpDpxhcH_iDU0kXrHpx5tQ3r8/edit#gid=0",
+          "captions": "https://docs.google.com/spreadsheets/d/1QFCD9vTY1Qtl6bWfyYhpDpxhcH_iDU0kXrHpx5tQ3r8/edit#gid=747371723"
+        }
+      ]
+    },
     {
       "playName": "takasago",
       "title": "Takasago",
