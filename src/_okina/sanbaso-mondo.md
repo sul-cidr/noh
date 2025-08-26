@@ -1,5 +1,5 @@
 ---
-title: Sanbaso Kokushiki Jo
+title: Sanbasō Mondo
 play: Okina
 layout: section
 ---

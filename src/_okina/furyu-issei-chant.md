@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Furyū Issei Chant
 play: Okina
 layout: section
 ---

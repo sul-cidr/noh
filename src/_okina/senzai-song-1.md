@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Senzai Song 1
 play: Okina
 layout: section
 ---

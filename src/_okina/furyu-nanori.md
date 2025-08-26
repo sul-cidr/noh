@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Furyū Nanori
 play: Okina
 layout: section
 ---

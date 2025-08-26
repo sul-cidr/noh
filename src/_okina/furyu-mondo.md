@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Furyū Mondo
 play: Okina
 layout: section
 ---

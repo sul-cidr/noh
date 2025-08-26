@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Momi no Dan
 play: Okina
 layout: section
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Okina Prayer 1
 play: Okina
 layout: section
 ---

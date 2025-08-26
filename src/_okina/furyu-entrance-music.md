@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Furyū Entrance Music
 play: Okina
 layout: section
 ---

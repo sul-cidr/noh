@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Suzu no Dan
+title: Okina Response
 play: Okina
 layout: section
 ---
