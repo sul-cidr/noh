@@ -1,5 +1,5 @@
 ---
-title: Issei Chant
+title: Furyū Issei Chant
 play: Okina
 layout: section
 ---

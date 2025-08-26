@@ -1,5 +1,5 @@
 ---
-title: Entrance Music
+title: Furyū Entrance Music
 play: Okina
 layout: section
 ---

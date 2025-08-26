@@ -1,5 +1,5 @@
 ---
-title: Sanbaso Mask On
+title: Sanbasō Mask On
 play: Okina
 layout: section
 ---

@@ -1,5 +1,5 @@
 ---
-title: Furyu Mondo
+title: Furyū Mondo
 play: Okina
 layout: section
 ---

@@ -1,5 +1,5 @@
 ---
-title: Furyu Nanori
+title: Furyū Nanori
 play: Okina
 layout: section
 ---
