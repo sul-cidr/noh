@@ -1,5 +1,5 @@
 ---
-title: Kyogen
+title: Okina
 play: Okina
 layout: section
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sanbaso Momi Dan
+title: Okina
 play: Okina
 layout: section
 ---

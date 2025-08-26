@@ -1,5 +1,5 @@
 ---
-title: Sanbaso Entrance
+title: Okina
 play: Okina
 layout: section
 ---

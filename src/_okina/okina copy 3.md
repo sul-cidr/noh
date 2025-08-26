@@ -1,5 +1,5 @@
 ---
-title: Sanbaso Kokushiki Jo
+title: Okina
 play: Okina
 layout: section
 ---
