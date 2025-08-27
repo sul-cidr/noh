@@ -384,10 +384,22 @@
       "videoDuration": "01:24:24",
       "acts": [
         {
+          "translation": "Intro.",
+          "transcription": "",
+          "duration": "00:01:45",
+          "shodanIndices": [1]
+        },
+        {
           "translation": "Okina",
           "transcription": "",
-          "duration": "00:40:31",
-          "shodanIndices": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+          "duration": "00:38:04",
+          "shodanIndices": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+        },
+        {
+          "translation": "-",
+          "transcription": "",
+          "duration": "00:00:42",
+          "shodanIndices": [18]
         },
         {
           "translation": "Furyū",
