@@ -14,7 +14,7 @@ second-level-menu-active: movement
       <a href="/movement/">Catalog of Patterns:</a> Mimetic Patterns / Fan
       Patterns
     </h4>
-    <h2>Could Fan (<em>uchiyage</em>)</h2>
+    <h2>Cloud Fan (<em>uchiyage</em>)</h2>
 
     <p>
       This is a variation on the
