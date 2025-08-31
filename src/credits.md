@@ -167,7 +167,7 @@ permalink: /credits/
 </p>
 
 <h4>Takasago</h4>
-<p>(with variation named <em>kaiko</em>, <em>nagashiyatsugashira</em>, <em>shichigosannodeha</em>, and <em>watamashi</em>)</p>
+<p>(with special kogaki variation named <em>kaikō</em>, <em>nagashiyatsugashira</em>, <em>shichigosannodeha</em>, and <em>watamashi</em>)</p>
 <p>
     Shite: <strong>KONGŌ Tatsunori</strong> (Kongō School)<br />
     Shitezure: <strong>UDAKA Norishige</strong> (Kongō School)<br />
