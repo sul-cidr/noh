@@ -2,5 +2,5 @@
 layout: play
 title: Takasago
 image: /assets/images/Takasago1.png
-description: "First category, God play, Takasago features two characters, the pine trees Takasago and Suminoe. It is a celebration of their long-lasting conjugal life, a symbol of a prosperous reign, and a source of poetic inspiration."
+description: "In the First category God play, Takasago, the spirits of the revered Takasago and Sumiyoshi pines take the form of an elderly couple. The play celebrates their enduring bond as a symbol of marital fidelity, a prosperous reign, and poetic inspiration."
 ---
