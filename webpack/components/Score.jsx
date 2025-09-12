@@ -85,7 +85,6 @@ class Score extends Component {
         <ScoreTextLine
           textGrid={measureTextGrid}
           length={beatNums.length}
-          rangeGrid={phrase.vocalRange.grid}
           textIsCongruent={this.props.textIsCongruent}
         />
       </div>
@@ -193,10 +192,9 @@ Score.propTypes = {
       nohkan: PropTypes.shape({}),
       percussion: PropTypes.shape({ value: PropTypes.string.isRequired }),
       phrase: PropTypes.string,
-      syllableNumber: PropTypes.shape({}),
       syllableText: PropTypes.shape({}),
       text: PropTypes.shape({}),
-      vocalRange: PropTypes.shape({})
+      taiko: PropTypes.shape({})
     })
   ).isRequired,
   toggles: PropTypes.shape({

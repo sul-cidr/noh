@@ -42,7 +42,7 @@ const MeasureLabelContainer = props => {
           key="percussionLabel"
           className="measure__channel measure__channel--percussion"
         >
-          Percussion
+          Ōtsu-Kotsuzumi
         </div>
       ) : (
         ""

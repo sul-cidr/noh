@@ -15,6 +15,7 @@ const DEFAULT_STATE = {
     isBeatOn: true,
     isTextOn: true,
     isPercussionOn: true,
+    isTaikoOn: true,
     isNohkanOn: true,
     isDanceOn: true,
     isPrevSentenceOn: false,
