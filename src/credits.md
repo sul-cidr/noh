@@ -119,79 +119,85 @@ permalink: /credits/
         Nohkan: <strong>MORITA Yasuyoshi</strong>
       </p>
 
-<h4>Okina</h4>
-<p>
-    Okina performer: <strong>KONGŌ Hisanori</strong> (Kongō School)<br />
-    Sanbasō performer: <strong>SHIGEYAMA Sengorō</strong> (Ōkura School)<br />
-    Senzai: <strong>SHIGEYAMA Tatsumasa</strong> (Ōkura School)<br />
-    
-    Kōken: <strong>HIROTA Yukitoshi</strong> (Kongō School)<br />
-    Kōken (second): <strong>TESHIMA Yukihiro</strong> (Kongō School)<br />
-    Kōken: <strong>SHIGEYAMA Akira</strong> (Ōkura School)<br />
-    Kōken (second): <strong>YAMASHITA Moriyuki</strong> (Ōkura School)<br />
+      <h4>Okina</h4>
+      <p>
+        Okina performer: <strong>KONGŌ Hisanori</strong> (Kongō School)<br />
+        Sanbasō performer: <strong>SHIGEYAMA Sengorō</strong> (Ōkura School)<br />
+        Senzai: <strong>SHIGEYAMA Tatsumasa</strong> (Ōkura School)<br />
 
-    Taiko: <strong>MAEKAWA Mitsunori</strong> (Komparu School).<br />
-    Ōtsuzumi: <strong>KAWAMURA Masaru</strong> (Ishii School)<br />
-    Kotsuzumi: <strong>KICHISAKA Ichirō</strong> (Ōkura School)<br />
-    Kotsuzumi (second): <strong>UEDA Atsushi</strong> (Ōkura School)<br />
-    Kotsuzumi (second): <strong>KICHISAKA Rinpei</strong> (Ōkura School)<br />
-    Nohkan: <strong>MORITA Yasuyoshi</strong> (Morita School)<br />
+        Kōken: <strong>HIROTA Yukitoshi</strong> (Kongō School)<br />
+        Kōken (second): <strong>TESHIMA Yukihiro</strong> (Kongō School)<br />
+        Kōken: <strong>SHIGEYAMA Akira</strong> (Ōkura School)<br />
+        Kōken (second): <strong>YAMASHITA Moriyuki</strong> (Ōkura School)<br />
 
-    Jiutai: (Kongō School, back row from right)<br />
-    <strong>IMAI Katsunori</strong>,<br />
-    <strong>IMAI Kiyotaka</strong> (leader),<br />
-    <strong>TANEDA Michikazu</strong>,<br />
-    <strong>TESHIMA Kōji</strong>,<br />
-    (front row from right)<br />
-    <strong>YAMADA Isumi</strong>,<br />
-    <strong>UDAKA Tatsushige</strong>,<br />
-    <strong>SHIGEMOTO Masaya</strong>,<br />
-    <strong>SŌMYŌ Tadasuke</strong>
-</p>
+        Taiko: <strong>MAEKAWA Mitsunori</strong> (Komparu School).<br />
+        Ōtsuzumi: <strong>KAWAMURA Masaru</strong> (Ishii School)<br />
+        Kotsuzumi: <strong>KICHISAKA Ichirō</strong> (Ōkura School)<br />
+        Kotsuzumi (second): <strong>UEDA Atsushi</strong> (Ōkura School)<br />
+        Kotsuzumi (second): <strong>KICHISAKA Rinpei</strong> (Ōkura School)<br />
+        Nohkan: <strong>MORITA Yasuyoshi</strong> (Morita School)<br />
 
-<h4>Matsu Take Furyū (Furyū part)</h4>
-<p>
-    Furyūsenzai: <strong>SHIGEYAMA Shime</strong> (Ōkura School)<br />
-    Matsunosei (the spirit of pine tree): <strong>SHIGEYAMA Shigeru</strong> (Ōkura School)<br />
-    Takanosei (the spirit of bamboo tree): <strong>SHIGEYAMA Motohiko</strong> (Ōkura School) <br />
+        Jiutai: (Kongō School, back row from right)<br />
+        <strong>IMAI Katsunori</strong>,<br />
+        <strong>IMAI Kiyotaka</strong> (leader),<br />
+        <strong>TANEDA Michikazu</strong>,<br />
+        <strong>TESHIMA Kōji</strong>,<br />
+        (front row from right)<br />
+        <strong>YAMADA Isumi</strong>,<br />
+        <strong>UDAKA Tatsushige</strong>,<br />
+        <strong>SHIGEMOTO Masaya</strong>,<br />
+        <strong>SŌMYŌ Tadasuke</strong>
+      </p>
 
-    Jiutai: (Ōkura School, from right)<br />
-    <strong>SHIGEYAMA Ippei</strong>,<br />
-    <strong>SHIGEYAMA Sennojō</strong>,<br />
-    <strong>SHIGEYAMA Toramasa</strong>,<br />
-    <strong>MATSUMOTO Kaoru</strong>,<br />
-    <strong>SHIMADA Hiromi</strong>,<br />
-    <strong>MASUDA Hiroki</strong>,<br />
-    <strong>IGUCHI Tatsuya</strong>,<br />
-    <strong>SUZUKI Minoru</strong>
-</p>
+      <h4>Matsu Take Furyū (Furyū part)</h4>
+      <p>
+        Furyūsenzai: <strong>SHIGEYAMA Shime</strong> (Ōkura School)<br />
+        Matsunosei (the spirit of pine tree):
+        <strong>SHIGEYAMA Shigeru</strong> (Ōkura School)<br />
+        Takanosei (the spirit of bamboo tree):
+        <strong>SHIGEYAMA Motohiko</strong> (Ōkura School) <br />
 
-<h4>Takasago</h4>
-<p>(with special kogaki variation named <em>kaikō</em>, <em>nagashiyatsugashira</em>, <em>shichigosannodeha</em>, and <em>watamashi</em>)</p>
-<p>
-    Shite: <strong>KONGŌ Tatsunori</strong> (Kongō School)<br />
-    Shitezure: <strong>UDAKA Norishige</strong> (Kongō School)<br />
-    Waki: <strong>HŌSHŌ Kin’ya</strong> (Hōshō School)<br />
-    Wakizure: <strong>HŌSHŌ Naoya</strong> (Hōshō School)<br />
-    Wakizure: <strong>KOBAYASHI Tsutomu</strong> (Hōshō School)<br />
-    Aikyōgen: <strong>SHIGEYAMA Ippei</strong> (Ōkura School).<br />
-    Taiko: <strong>MAEKAWA Mitsunori</strong> (Komparu School).<br />
-    Ōtsuzumi: <strong>KAWAMURA Masaru</strong> (Ishii School)<br />
-    Kotsuzumi: <strong>KICHISAKA Ichirō</strong> (Ōkura School)<br />
-    Nohkan: <strong>MORITA Yasuyoshi</strong> (Morita School)<br />
-    Jiutai: (Kongō School, back row from right)<br />
-    <strong>IMAI Katsunori</strong>,<br />
-    <strong>IMAI Kiyotaka</strong> (leader),<br />
-    <strong>TANEDA Michikazu</strong>,<br />
-    <strong>TESHIMA Kōji</strong>,<br />
-    (front row from right)<br />
-    <strong>YAMADA Isumi</strong>,<br />
-    <strong>UDAKA Tatsushige</strong>,<br />
-    <strong>SHIGEMOTO Masaya</strong>,<br />
-    <strong>SŌMYŌ Tadasuke</strong>,<br />
-    Kōken: <strong>HIROTA Yukitoshi</strong><br />
-    Kōken (second): <strong>TESHIMA Yukihiro</strong><br />
-</p>
+        Jiutai: (Ōkura School, from right)<br />
+        <strong>SHIGEYAMA Ippei</strong>,<br />
+        <strong>SHIGEYAMA Sennojō</strong>,<br />
+        <strong>SHIGEYAMA Toramasa</strong>,<br />
+        <strong>MATSUMOTO Kaoru</strong>,<br />
+        <strong>SHIMADA Hiromi</strong>,<br />
+        <strong>MASUDA Hiroki</strong>,<br />
+        <strong>IGUCHI Tatsuya</strong>,<br />
+        <strong>SUZUKI Minoru</strong>
+      </p>
+
+      <h4>Takasago</h4>
+      <p>
+        (with special kogaki variation named <em>kaikō</em>,
+        <em>nagashiyatsugashira</em>, <em>shichigosannodeha</em>, and
+        <em>watamashi</em>)
+      </p>
+      <p>
+        Shite: <strong>KONGŌ Tatsunori</strong> (Kongō School)<br />
+        Shitezure: <strong>UDAKA Norishige</strong> (Kongō School)<br />
+        Waki: <strong>HŌSHŌ Kin’ya</strong> (Hōshō School)<br />
+        Wakizure: <strong>HŌSHŌ Naoya</strong> (Hōshō School)<br />
+        Wakizure: <strong>KOBAYASHI Tsutomu</strong> (Hōshō School)<br />
+        Aikyōgen: <strong>SHIGEYAMA Ippei</strong> (Ōkura School).<br />
+        Taiko: <strong>MAEKAWA Mitsunori</strong> (Komparu School).<br />
+        Ōtsuzumi: <strong>KAWAMURA Masaru</strong> (Ishii School)<br />
+        Kotsuzumi: <strong>KICHISAKA Ichirō</strong> (Ōkura School)<br />
+        Nohkan: <strong>MORITA Yasuyoshi</strong> (Morita School)<br />
+        Jiutai: (Kongō School, back row from right)<br />
+        <strong>IMAI Katsunori</strong>,<br />
+        <strong>IMAI Kiyotaka</strong> (leader),<br />
+        <strong>TANEDA Michikazu</strong>,<br />
+        <strong>TESHIMA Kōji</strong>,<br />
+        (front row from right)<br />
+        <strong>YAMADA Isumi</strong>,<br />
+        <strong>UDAKA Tatsushige</strong>,<br />
+        <strong>SHIGEMOTO Masaya</strong>,<br />
+        <strong>SŌMYŌ Tadasuke</strong>,<br />
+        Kōken: <strong>HIROTA Yukitoshi</strong><br />
+        Kōken (second): <strong>TESHIMA Yukihiro</strong><br />
+      </p>
       <h4>Hashitomi</h4>
       <p>
         Shite: <strong>KONGŌ Tatsunori</strong><br />
@@ -270,17 +276,19 @@ permalink: /credits/
       </p>
       <h4>Okina and Takasago Plays</h4>
       <p>
-    Director: <strong>KONGŌ Hisanori</strong> (KCUA)<br />
-    Stage Manager: <strong>NOMURA Kenichi</strong> (KCUA)<br />
-    Stage lighting: <strong>TONOMURA Yūichirō</strong> (KCUA)<br />
-    Stage set up: <strong>MAEHARA Kazuhiko, OTANI Midori</strong> (Kyoto Butai)<br />
-    Camera: <strong>HIGASHI Masako</strong> (KCUA),<br />
+        Director: <strong>KONGŌ Hisanori</strong> (KCUA)<br />
+        Stage Manager: <strong>NOMURA Kenichi</strong> (KCUA)<br />
+        Stage lighting: <strong>TONOMURA Yūichirō</strong> (KCUA)<br />
+        Stage set up: <strong>MAEHARA Kazuhiko, OTANI Midori</strong> (Kyoto
+        Butai)<br />
+        Camera: <strong>HIGASHI Masako</strong> (KCUA),<br />
         <strong>KŌNO Aiko</strong> (KCUA),<br />
         <strong>Aymen Chaabane</strong>. <br />
         Sound: <strong>YAMAGUCHI Tomohiro</strong> (KCUA),<br />
-    Producer: <strong>FUJITA Kuniko</strong> (KCUA)<br />
-    Composition of Kaiko verses: <strong>YAMANAKA Reiko</strong> (Hosei University)<br />
-    Supervisor: <strong>FUJITA Takanori</strong> (KCUA)
+        Producer: <strong>FUJITA Kuniko</strong> (KCUA)<br />
+        Composition of Kaiko verses: <strong>YAMANAKA Reiko</strong> (Hosei
+        University)<br />
+        Supervisor: <strong>FUJITA Takanori</strong> (KCUA)
       </p>
     </div>
 
