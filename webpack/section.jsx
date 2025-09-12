@@ -340,10 +340,9 @@ App.propTypes = {
       nohkan: PropTypes.shape({}),
       percussion: PropTypes.shape({}),
       phrase: PropTypes.string,
-      syllableNumber: PropTypes.shape({}),
       syllableText: PropTypes.shape({}),
       text: PropTypes.shape({}),
-      vocalRange: PropTypes.shape({})
+      taiko: PropTypes.shape({})
     })
   ).isRequired,
   text: PropTypes.shape({ value: PropTypes.string }).isRequired

@@ -189,10 +189,30 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scorePercussion">
-                    <span className="custom-checkbox__text">Percussion</span>
+                    <span className="custom-checkbox__text">
+                      Ōtsu-Kotsuzumi
+                    </span>
                   </label>
                 </div>
               </li>
+              {/* <li>
+                <div className="custom-checkbox">
+                  <input
+                    id="scoreTaiko"
+                    type="checkbox"
+                    checked={this.state.isTaikoOn}
+                    onChange={event =>
+                      this.handleToggle(event, "isTaikoOn")
+                    }
+                    onKeyPress={null}
+                  />
+                  <label htmlFor="scoreTaiko">
+                    <span className="custom-checkbox__text">
+                      Taiko
+                    </span>
+                  </label>
+                </div>
+              </li> */}
               <li>
                 <div className="custom-checkbox">
                   <input

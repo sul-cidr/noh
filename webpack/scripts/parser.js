@@ -159,18 +159,18 @@ export const extractCells = cells => {
 };
 
 export const extractRows = rows =>
-  rows.reduce(
-    (obj, row) =>
-      Object.assign(obj, {
-        [toCamelCase(row[0])]: {
-          value: row[0].toLowerCase().includes("time")
-            ? parseTime(row[1])
-            : normalize(row[1]),
-          grid: extractCells(row.slice(2))
-        }
-      }),
-    {}
-  );
+  rows.reduce((obj, row) => {
+    const rowLabel = row[0] === "Ōtsu-Kotsuzumi" ? "percussion" : row[0];
+    let rowObj = Object.assign(obj, {
+      [toCamelCase(rowLabel)]: {
+        value: row[0].toLowerCase().includes("time")
+          ? parseTime(row[1])
+          : normalize(row[1]),
+        grid: extractCells(row.slice(2))
+      }
+    });
+    return rowObj;
+  }, {});
 
 export const processPhrases = data => {
   const rows = data.slice(1); // data[0] has section name info
@@ -178,7 +178,7 @@ export const processPhrases = data => {
     .map(idx => {
       const row = rows[idx];
       if (row[0].toLowerCase() === "phrase") {
-        const values = extractRows(rows.slice(idx + 1, idx + 10));
+        const values = extractRows(rows.slice(idx + 1, idx + 9));
         Object.assign(values, { phrase: row[1] });
         return values;
       }
