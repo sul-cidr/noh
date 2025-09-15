@@ -44,7 +44,7 @@ describe("parser", () => {
     spy.mockRestore();
   });
 
-  it("main downloads and parses the catalog of sections", done => {
+  it("main downloads and parses the catalog of sections", (done) => {
     mock.reset();
     mock.onGet(fixtures.catalog.filters[0].url).reply(200, fixtures.catalogCSV);
     const spyRead = jest
@@ -55,10 +55,10 @@ describe("parser", () => {
       .mockImplementation((file, jsonData) => {
         expect(jsonData).toMatchSnapshot();
       });
-    return catalogMain("path/to/config", false).then(() => {
+    catalogMain("path/to/config", false).then(() => {
       spyRead.mockRestore();
       spyWrite.mockRestore();
-      done();
     });
+    done();
   });
 });

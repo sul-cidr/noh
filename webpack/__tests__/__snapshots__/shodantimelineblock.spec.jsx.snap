@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<ShodanTimelineBlock> renders as expected 1`] = `
 <div
@@ -10,7 +10,7 @@ exports[`<ShodanTimelineBlock> renders as expected 1`] = `
   onKeyPress={null}
   role="link"
   style={
-    Object {
+    {
       "height": "71.42857142857143%",
       "width": "33.33333333333333%",
     }
@@ -29,7 +29,7 @@ exports[`<ShodanTimelineBlock> renders as expected with current section highligh
   onKeyPress={null}
   role="link"
   style={
-    Object {
+    {
       "height": "71.42857142857143%",
       "width": "33.33333333333333%",
     }
@@ -48,7 +48,7 @@ exports[`<ShodanTimelineBlock> renders as expected with startTime 1`] = `
   onKeyPress={null}
   role="link"
   style={
-    Object {
+    {
       "height": "71.42857142857143%",
       "width": "33.33333333333333%",
     }
@@ -67,7 +67,7 @@ exports[`<ShodanTimelineBlock> renders as expected with url 1`] = `
   onKeyPress={null}
   role="link"
   style={
-    Object {
+    {
       "height": "71.42857142857143%",
       "width": "33.33333333333333%",
     }
