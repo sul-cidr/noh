@@ -12,8 +12,8 @@
     "dev": "yarn checkdata && yarn concurrently \"node_modules/.bin/webpack --mode development --watch\" \"bundle exec jekyll serve -H ${HOST:-127.0.0.1}\"",
     "lint": "node_modules/.bin/eslint webpack/**/*.{js,jsx} webpack/*.{js,jsx} --quiet",
     "precommit": "lint-staged",
-    "parse": "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/parser.js",
-    "parse:catalog": "./node_modules/babel-cli/bin/babel-node.js ./webpack/scripts/catalog.js"
+    "parse": "./node_modules/@babel/node/bin/babel-node.js ./webpack/scripts/parser.js",
+    "parse:catalog": "./node_modules/@babel/node/bin/babel-node.js ./webpack/scripts/catalog.js"
   },
   "lint-staged": {
     "*.{js,jsx,json,css,scss,md,html}": ["prettier --write", "git add"]
@@ -35,7 +35,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "axios": "=0.28.0",
-    "babel-cli": "^6.26.0",
     "babel-preset-es2017": "^6.24.1",
     "copy-webpack-plugin": "^5.1.2",
     "enzyme": "^3.1.0",
@@ -57,14 +56,13 @@
     "vanilla-back-to-top": "^7.2.0"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.21.2",
     "@babel/core": "^7.28.4",
+    "@babel/eslint-parser": "^7.11.0",
+    "@babel/node": "^7.28.0",
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
-    "axios-mock-adapter": "^1.21.2",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-jest": "^30.1.2",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.4.1",
     "concurrently": "^3.6.1",
     "enzyme-to-json": "^3.6.2",
     "eslint": "^4.19.1",
