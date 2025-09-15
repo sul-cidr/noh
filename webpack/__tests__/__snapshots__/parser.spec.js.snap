@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`parser converts captions into WebVTT format 1`] = `
 "WEBVTT
@@ -39,130 +39,131 @@ exports[`parser converts captions into WebVTT format 3`] = `
 `;
 
 exports[`parser downloadCSV downloads data from a captions CSV URL 1`] = `
-Object {
-  "data": Array [
-    Array [
+{
+  "data": [
+    [
       "Start time",
       "End time",
       "Translation",
       "Transcription",
       "Japanese",
     ],
-    Array [
-      "5'25\\"",
-      "5'35\\"",
+    [
+      "5'25"",
+      "5'35"",
       "[WAKI] I am a priest living at Urin-in in Murasakino",
       "[WAKI] Kore wa miyako kitayama Murasakino",
       "［ワキ］是は都北山紫野",
     ],
-    Array [
-      "3'59\\"",
-      "4'04\\"",
+    [
+      "3'59"",
+      "4'04"",
       "I am in the service of the Emperor Ichijo.",
       "Ichijō-no-In ni tsukae tatematsuru.",
       "一條の院に仕へ奉る。",
     ],
   ],
-  "errors": Array [],
-  "meta": Object {
+  "errors": [],
+  "meta": {
     "aborted": false,
     "cursor": 287,
     "delimiter": ",",
     "linebreak": "
 ",
+    "renamedHeaders": null,
     "truncated": false,
   },
 }
 `;
 
 exports[`parser downloadCSV downloads data from a metadata CSV URL 1`] = `
-Object {
-  "data": Array [
-    Array [
+{
+  "data": [
+    [
       "",
       "Present",
       "Number",
       "Value",
       "Notes (These will be ignored during parsing)",
     ],
-    Array [
+    [
       "Play",
       "",
       "",
       "kokaji",
       "",
     ],
-    Array [
+    [
       "Section Name",
       "",
       "",
       "Ageuta-3",
       "",
     ],
-    Array [
+    [
       "Start Time",
       "",
       "",
-      "30'05\\"",
+      "30'05"",
       "",
     ],
-    Array [
+    [
       "End Time",
       "",
       "",
-      "31'19\\"",
+      "31'19"",
       "",
     ],
-    Array [
+    [
       "Intensity",
       "",
       "-",
       "",
       "",
     ],
-    Array [
+    [
       "Number Voices (0,1,2)",
       "",
       "2",
       "Jiutai",
       "",
     ],
-    Array [
+    [
       "Voice (Spoken - Sung (Tsu/Yo))",
       "",
       "",
       "Sung - Tsuyogin",
       "",
     ],
-    Array [
+    [
       "Text (Rhythmic Setting)",
       "",
       "",
       "Congruent - Hiranori",
       "",
     ],
-    Array [
+    [
       "Number of Percussion (0,2,3)",
       "",
       "2",
       "Otsuzumi + Kotsuzumi",
       "",
     ],
-    Array [
+    [
       "Percussion (Congruent or not)",
       "",
       "",
       "Congruent",
       "",
     ],
-    Array [
+    [
       "Nokhan Present?",
       "No",
       "",
       "",
       "",
     ],
-    Array [
+    [
       "Dance Present?",
       "Yes",
       "",
@@ -170,22 +171,23 @@ Object {
       "",
     ],
   ],
-  "errors": Array [],
-  "meta": Object {
+  "errors": [],
+  "meta": {
     "aborted": false,
     "cursor": 468,
     "delimiter": ",",
     "linebreak": "
 ",
+    "renamedHeaders": null,
     "truncated": false,
   },
 }
 `;
 
 exports[`parser downloadCSV downloads data from a phrases CSV URL 1`] = `
-Object {
-  "data": Array [
-    Array [
+{
+  "data": [
+    [
       "Section Name",
       "Ageuta-3",
       "",
@@ -207,7 +209,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "",
       "",
       "",
@@ -229,7 +231,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Phrase",
       "1",
       "",
@@ -251,9 +253,9 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Start Time",
-      "30'05\\"",
+      "30'05"",
       "",
       "",
       "",
@@ -273,7 +275,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Beat",
       "",
       "",
@@ -295,7 +297,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Syllable Text",
       "",
       "",
@@ -317,7 +319,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Syllable Number",
       "",
       "",
@@ -339,7 +341,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Text",
       "",
       "",
@@ -361,7 +363,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Vocal Range",
       "high",
       "",
@@ -383,7 +385,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Percussion",
       "tsuzuke",
       "",
@@ -405,7 +407,27 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
+      "Ōtsu-Kotsuzumi",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "#dain",
+      "#shon",
+      "#shon",
+      "",
+      "#shon",
+    ],
+    [
       "Nohkan",
       "",
       "",
@@ -427,7 +449,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Dance",
       "Feminine style",
       "",
@@ -449,7 +471,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "",
       "",
       "",
@@ -471,7 +493,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "",
       "",
       "",
@@ -493,7 +515,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Phrase",
       "2",
       "",
@@ -515,9 +537,9 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Start Time",
-      "30'14\\"",
+      "30'14"",
       "",
       "",
       "",
@@ -537,7 +559,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Beat",
       "",
       "",
@@ -559,7 +581,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Syllable Text",
       "",
       "",
@@ -581,7 +603,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Syllable Number",
       "",
       "",
@@ -603,7 +625,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Text",
       "",
       "",
@@ -625,7 +647,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Vocal Range",
       "high",
       "",
@@ -647,7 +669,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Percussion",
       "tsuzuke",
       "",
@@ -669,7 +691,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Nohkan",
       "",
       "",
@@ -691,7 +713,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "Dance",
       "",
       "",
@@ -713,7 +735,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "",
       "",
       "",
@@ -735,7 +757,7 @@ Object {
       "",
       "",
     ],
-    Array [
+    [
       "",
       "",
       "",
@@ -758,311 +780,312 @@ Object {
       "",
     ],
   ],
-  "errors": Array [],
-  "meta": Object {
+  "errors": [],
+  "meta": {
     "aborted": false,
-    "cursor": 904,
+    "cursor": 956,
     "delimiter": ",",
     "linebreak": "
 ",
+    "renamedHeaders": null,
     "truncated": false,
   },
 }
 `;
 
 exports[`parser extractRows extracts and formats content for a series of rows 1`] = `
-Object {
-  "beat": Object {
-    "grid": Array [
-      Object {
+{
+  "beat": {
+    "grid": [
+      {
         "length": 1,
         "start": 1,
         "style": "normal",
         "text": "1",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 3,
         "style": "normal",
         "text": "2",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 5,
         "style": "normal",
         "text": "3",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 7,
         "style": "normal",
         "text": "4",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 9,
         "style": "normal",
         "text": "5",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 11,
         "style": "normal",
         "text": "6",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 13,
         "style": "normal",
         "text": "7",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 15,
         "style": "normal",
         "text": "8",
-        "voices": Array [],
+        "voices": [],
       },
     ],
     "value": "",
   },
-  "dance": Object {
-    "grid": Array [
-      Object {
+  "dance": {
+    "grid": [
+      {
         "length": 4,
         "start": 2,
         "style": "normal",
         "text": "2. Open-retreat.",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 6,
         "start": 8,
         "style": "normal",
         "text": "1. R. Step pivot facing bridge.",
-        "voices": Array [],
+        "voices": [],
       },
     ],
     "value": "",
   },
-  "nohkan": Object {
-    "grid": Array [
-      Object {
+  "nohkan": {
+    "grid": [
+      {
         "length": 3,
         "start": 15,
         "style": "normal",
         "text": "Hishigi",
-        "voices": Array [],
+        "voices": [],
       },
     ],
     "value": "",
   },
-  "percussion": Object {
-    "grid": Array [],
+  "percussion": {
+    "grid": [],
     "value": "tome",
   },
-  "startTime": Object {
-    "grid": Array [],
+  "startTime": {
+    "grid": [],
     "value": 1860,
   },
-  "syllableNumber": Object {
-    "grid": Array [
-      Object {
+  "syllableNumber": {
+    "grid": [
+      {
         "length": 1,
         "start": 0,
         "style": "normal",
         "text": "1",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 1,
         "style": "normal",
         "text": "2",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 2,
         "style": "normal",
         "text": "3",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 3,
         "style": "normal",
         "text": "4",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 6,
         "style": "normal",
         "text": "5",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 7,
         "style": "normal",
         "text": "6",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 8,
         "style": "normal",
         "text": "7",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 10,
         "style": "normal",
         "text": "1",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 11,
         "style": "normal",
         "text": "2",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 12,
         "style": "normal",
         "text": "3",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 13,
         "style": "normal",
         "text": "4",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 15,
         "style": "normal",
         "text": "5",
-        "voices": Array [],
+        "voices": [],
       },
     ],
     "value": "",
   },
-  "syllableText": Object {
-    "grid": Array [
-      Object {
+  "syllableText": {
+    "grid": [
+      {
         "length": 1,
         "start": 0,
         "style": "normal",
         "text": "yu",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 1,
         "style": "normal",
         "text": "ku",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 2,
         "style": "normal",
         "text": "he",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 3,
         "style": "normal",
         "text": "mo",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 4,
         "style": "normal",
         "text": "(o)",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 6,
         "style": "normal",
         "text": "shi",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 7,
         "style": "normal",
         "text": "ra",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 8,
         "style": "normal",
         "text": "zu",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 10,
         "style": "normal",
         "text": "u",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 11,
         "style": "normal",
         "text": "se",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 12,
         "style": "normal",
         "text": "ni",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 13,
         "style": "normal",
         "text": "ke",
-        "voices": Array [],
+        "voices": [],
       },
-      Object {
+      {
         "length": 1,
         "start": 15,
         "style": "normal",
         "text": "ri",
-        "voices": Array [],
+        "voices": [],
       },
     ],
     "value": "",
   },
-  "text": Object {
-    "grid": Array [],
+  "text": {
+    "grid": [],
     "value": "",
   },
-  "vocalRange": Object {
-    "grid": Array [],
+  "vocalRange": {
+    "grid": [],
     "value": "high",
   },
 }
@@ -1070,1727 +1093,1730 @@ Object {
 
 exports[`parser main downloads and parses phrases, metadata, and captions 1`] = `
 "{
-  \\"play\\": {
-    \\"value\\": \\"kokaji\\"
+  "play": {
+    "value": "kokaji"
   },
-  \\"sectionName\\": {
-    \\"value\\": \\"Ageuta-3\\"
+  "sectionName": {
+    "value": "Ageuta-3"
   },
-  \\"startTime\\": {
-    \\"value\\": 1805
+  "startTime": {
+    "value": 1805
   },
-  \\"endTime\\": {
-    \\"value\\": 1879
+  "endTime": {
+    "value": 1879
   },
-  \\"intensity\\": {
-    \\"number\\": \\"-\\"
+  "intensity": {
+    "number": "-"
   },
-  \\"numberVoices\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Jiutai\\"
+  "numberVoices": {
+    "number": "2",
+    "value": "Jiutai"
   },
-  \\"voice\\": {
-    \\"value\\": \\"Sung - Tsuyogin\\"
+  "voice": {
+    "value": "Sung - Tsuyogin"
   },
-  \\"text\\": {
-    \\"value\\": \\"Congruent - Hiranori\\"
+  "text": {
+    "value": "Congruent - Hiranori"
   },
-  \\"numberOfPercussion\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Otsuzumi + Kotsuzumi"
   },
-  \\"percussion\\": {
-    \\"value\\": \\"Congruent\\"
+  "percussion": {
+    "value": "Congruent"
   },
-  \\"nokhanPresent\\": {
-    \\"present\\": \\"No\\"
+  "nokhanPresent": {
+    "present": "No"
   },
-  \\"dancePresent\\": {
-    \\"present\\": \\"Yes\\",
-    \\"value\\": \\"Feminine to Martial style\\"
+  "dancePresent": {
+    "present": "Yes",
+    "value": "Feminine to Martial style"
   },
-  \\"playUrl\\": \\"/kokaji/\\",
-  \\"sectionUrl\\": \\"/kokaji/ageuta-1/\\",
-  \\"videoUrl\\": {},
-  \\"videoDuration\\": {},
-  \\"phrases\\": [
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/ageuta-1/",
+  "videoUrl": {},
+  "videoDuration": {},
+  "phrases": [
     {
-      \\"startTime\\": {
-        \\"value\\": 1805,
-        \\"grid\\": []
+      "startTime": {
+        "value": 1805,
+        "grid": []
       },
-      \\"beat\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "beat": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 1,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 9,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"6\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"7\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"8\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableText\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableText": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"tsu\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "tsu",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"u\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "u",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ri\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ki\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ki",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"no\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"mi\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "mi",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"wo\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "wo",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"he\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "he",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"n\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "n",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ji\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ji",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"(i)\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "(i)",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableNumber": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"text\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "text": {
+        "value": "",
+        "grid": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
-        \\"grid\\": []
+      "vocalRange": {
+        "value": "high",
+        "grid": []
       },
-      \\"percussion\\": {
-        \\"value\\": \\"tsuzuke\\",
-        \\"grid\\": []
-      },
-      \\"nohkan\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
-      },
-      \\"dance\\": {
-        \\"value\\": \\"feminine-style\\",
-        \\"grid\\": [
+      "percussion": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"9. Kneeling, turns to face front.\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 6
+            "text": "#dain",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"phrase\\": \\"1\\"
+      "phrase": "1"
     },
     {
-      \\"startTime\\": {
-        \\"value\\": 1814,
-        \\"grid\\": []
+      "startTime": {
+        "value": 1814,
+        "grid": []
       },
-      \\"beat\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "beat": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 1,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 9,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"6\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"7\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"8\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableText\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableText": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"tsu\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "tsu",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"u\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "u",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ri\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ki\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ki",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"no\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"mi\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "mi",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"wo\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "wo",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"he\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "he",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"n\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "n",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ji\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ji",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableNumber": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"text\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "text": {
+        "value": "",
+        "grid": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
-        \\"grid\\": []
+      "vocalRange": {
+        "value": "high",
+        "grid": []
       },
-      \\"percussion\\": {
-        \\"value\\": \\"tsuzuke\\",
-        \\"grid\\": []
+      "percussion": {
+        "value": "tsuzuke",
+        "grid": []
       },
-      \\"nohkan\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "nohkan": {
+        "value": "",
+        "grid": []
       },
-      \\"dance\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"9. Turns to face the waki.\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 5
-          }
-        ]
-      },
-      \\"phrase\\": \\"2\\"
+      "phrase": "2"
     }
   ],
-  \\"captions\\": [
+  "captions": [
     {
-      \\"startTime\\": 325,
-      \\"endTime\\": 335,
-      \\"translation\\": \\"[WAKI] I am a priest living at Urin-in in Murasakino\\",
-      \\"transcription\\": \\"[WAKI] Kore wa miyako kitayama Murasakino\\",
-      \\"japanese\\": \\"［ワキ］是は都北山紫野\\"
+      "startTime": 325,
+      "endTime": 335,
+      "translation": "[WAKI] I am a priest living at Urin-in in Murasakino",
+      "transcription": "[WAKI] Kore wa miyako kitayama Murasakino",
+      "japanese": "［ワキ］是は都北山紫野"
     },
     {
-      \\"startTime\\": 239,
-      \\"endTime\\": 244,
-      \\"translation\\": \\"I am in the service of the Emperor Ichijo.\\",
-      \\"transcription\\": \\"Ichijō-no-In ni tsukae tatematsuru.\\",
-      \\"japanese\\": \\"一條の院に仕へ奉る。\\"
+      "startTime": 239,
+      "endTime": 244,
+      "translation": "I am in the service of the Emperor Ichijo.",
+      "transcription": "Ichijō-no-In ni tsukae tatematsuru.",
+      "japanese": "一條の院に仕へ奉る。"
     }
   ],
-  \\"narrative\\": {
-    \\"value\\": \\"/kokaji/narratives/ageuta-1.html\\"
+  "narrative": {
+    "value": "/kokaji/narratives/ageuta-1.html"
   }
 }"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 2`] = `
 "{
-  \\"play\\": {
-    \\"value\\": \\"kokaji\\"
+  "play": {
+    "value": "kokaji"
   },
-  \\"sectionName\\": {
-    \\"value\\": \\"Ageuta-3\\"
+  "sectionName": {
+    "value": "Ageuta-3"
   },
-  \\"startTime\\": {
-    \\"value\\": 1805
+  "startTime": {
+    "value": 1805
   },
-  \\"endTime\\": {
-    \\"value\\": 1879
+  "endTime": {
+    "value": 1879
   },
-  \\"intensity\\": {
-    \\"number\\": \\"-\\"
+  "intensity": {
+    "number": "-"
   },
-  \\"numberVoices\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Jiutai\\"
+  "numberVoices": {
+    "number": "2",
+    "value": "Jiutai"
   },
-  \\"voice\\": {
-    \\"value\\": \\"Sung - Tsuyogin\\"
+  "voice": {
+    "value": "Sung - Tsuyogin"
   },
-  \\"text\\": {
-    \\"value\\": \\"Congruent - Hiranori\\"
+  "text": {
+    "value": "Congruent - Hiranori"
   },
-  \\"numberOfPercussion\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Otsuzumi + Kotsuzumi"
   },
-  \\"percussion\\": {
-    \\"value\\": \\"Congruent\\"
+  "percussion": {
+    "value": "Congruent"
   },
-  \\"nokhanPresent\\": {
-    \\"present\\": \\"No\\"
+  "nokhanPresent": {
+    "present": "No"
   },
-  \\"dancePresent\\": {
-    \\"present\\": \\"Yes\\",
-    \\"value\\": \\"Feminine to Martial style\\"
+  "dancePresent": {
+    "present": "Yes",
+    "value": "Feminine to Martial style"
   },
-  \\"playUrl\\": \\"/kokaji/\\",
-  \\"sectionUrl\\": \\"/kokaji/ageuta-2/\\",
-  \\"videoUrl\\": {},
-  \\"videoDuration\\": {},
-  \\"phrases\\": [
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/ageuta-2/",
+  "videoUrl": {},
+  "videoDuration": {},
+  "phrases": [
     {
-      \\"startTime\\": {
-        \\"value\\": 1805,
-        \\"grid\\": []
+      "startTime": {
+        "value": 1805,
+        "grid": []
       },
-      \\"beat\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "beat": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 1,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 9,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"6\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"7\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"8\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableText\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableText": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"tsu\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "tsu",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"u\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "u",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ri\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ki\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ki",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"no\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"mi\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "mi",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"wo\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "wo",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"he\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "he",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"n\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "n",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ji\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ji",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"(i)\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "(i)",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableNumber": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"text\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "text": {
+        "value": "",
+        "grid": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
-        \\"grid\\": []
+      "vocalRange": {
+        "value": "high",
+        "grid": []
       },
-      \\"percussion\\": {
-        \\"value\\": \\"tsuzuke\\",
-        \\"grid\\": []
-      },
-      \\"nohkan\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
-      },
-      \\"dance\\": {
-        \\"value\\": \\"feminine-style\\",
-        \\"grid\\": [
+      "percussion": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"9. Kneeling, turns to face front.\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 6
+            "text": "#dain",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"phrase\\": \\"1\\"
+      "phrase": "1"
     },
     {
-      \\"startTime\\": {
-        \\"value\\": 1814,
-        \\"grid\\": []
+      "startTime": {
+        "value": 1814,
+        "grid": []
       },
-      \\"beat\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "beat": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 1,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 9,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"6\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"7\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"8\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableText\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableText": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"tsu\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "tsu",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"u\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "u",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ri\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ki\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ki",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"no\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"mi\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "mi",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"wo\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "wo",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"he\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "he",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"n\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "n",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ji\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ji",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableNumber": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"text\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "text": {
+        "value": "",
+        "grid": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
-        \\"grid\\": []
+      "vocalRange": {
+        "value": "high",
+        "grid": []
       },
-      \\"percussion\\": {
-        \\"value\\": \\"tsuzuke\\",
-        \\"grid\\": []
+      "percussion": {
+        "value": "tsuzuke",
+        "grid": []
       },
-      \\"nohkan\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "nohkan": {
+        "value": "",
+        "grid": []
       },
-      \\"dance\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"9. Turns to face the waki.\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 5
-          }
-        ]
-      },
-      \\"phrase\\": \\"2\\"
+      "phrase": "2"
     }
   ],
-  \\"captions\\": [],
-  \\"narrative\\": {
-    \\"value\\": \\"/kokaji/narratives/ageuta-2.html\\"
+  "captions": [],
+  "narrative": {
+    "value": "/kokaji/narratives/ageuta-2.html"
   }
 }"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 3`] = `
 "{
-  \\"play\\": {
-    \\"value\\": \\"kokaji\\"
+  "play": {
+    "value": "kokaji"
   },
-  \\"sectionName\\": {
-    \\"value\\": \\"Ageuta-3\\"
+  "sectionName": {
+    "value": "Ageuta-3"
   },
-  \\"startTime\\": {
-    \\"value\\": 1805
+  "startTime": {
+    "value": 1805
   },
-  \\"endTime\\": {
-    \\"value\\": 1879
+  "endTime": {
+    "value": 1879
   },
-  \\"intensity\\": {
-    \\"number\\": \\"-\\"
+  "intensity": {
+    "number": "-"
   },
-  \\"numberVoices\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Jiutai\\"
+  "numberVoices": {
+    "number": "2",
+    "value": "Jiutai"
   },
-  \\"voice\\": {
-    \\"value\\": \\"Sung - Tsuyogin\\"
+  "voice": {
+    "value": "Sung - Tsuyogin"
   },
-  \\"text\\": {
-    \\"value\\": \\"Congruent - Hiranori\\"
+  "text": {
+    "value": "Congruent - Hiranori"
   },
-  \\"numberOfPercussion\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Otsuzumi + Kotsuzumi"
   },
-  \\"percussion\\": {
-    \\"value\\": \\"Congruent\\"
+  "percussion": {
+    "value": "Congruent"
   },
-  \\"nokhanPresent\\": {
-    \\"present\\": \\"No\\"
+  "nokhanPresent": {
+    "present": "No"
   },
-  \\"dancePresent\\": {
-    \\"present\\": \\"Yes\\",
-    \\"value\\": \\"Feminine to Martial style\\"
+  "dancePresent": {
+    "present": "Yes",
+    "value": "Feminine to Martial style"
   },
-  \\"playUrl\\": \\"/kokaji/\\",
-  \\"sectionUrl\\": \\"/kokaji/ageuta-3/\\",
-  \\"videoUrl\\": {},
-  \\"videoDuration\\": {},
-  \\"phrases\\": [
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/ageuta-3/",
+  "videoUrl": {},
+  "videoDuration": {},
+  "phrases": [
     {
-      \\"startTime\\": {
-        \\"value\\": 1805,
-        \\"grid\\": []
+      "startTime": {
+        "value": 1805,
+        "grid": []
       },
-      \\"beat\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "beat": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 1,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 9,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"6\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"7\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"8\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableText\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableText": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"tsu\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "tsu",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"u\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "u",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ri\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ki\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ki",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"no\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"mi\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "mi",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"wo\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "wo",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"he\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "he",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"n\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "n",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ji\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ji",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"(i)\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "(i)",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableNumber": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"text\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "text": {
+        "value": "",
+        "grid": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
-        \\"grid\\": []
+      "vocalRange": {
+        "value": "high",
+        "grid": []
       },
-      \\"percussion\\": {
-        \\"value\\": \\"tsuzuke\\",
-        \\"grid\\": []
-      },
-      \\"nohkan\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
-      },
-      \\"dance\\": {
-        \\"value\\": \\"feminine-style\\",
-        \\"grid\\": [
+      "percussion": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"9. Kneeling, turns to face front.\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 6
+            "text": "#dain",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"phrase\\": \\"1\\"
+      "phrase": "1"
     },
     {
-      \\"startTime\\": {
-        \\"value\\": 1814,
-        \\"grid\\": []
+      "startTime": {
+        "value": 1814,
+        "grid": []
       },
-      \\"beat\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "beat": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 1,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 9,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"6\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "6",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"7\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "7",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"8\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "8",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableText\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableText": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"tsu\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "tsu",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"u\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "u",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ri\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ri",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ki\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ki",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"no\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "no",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"mi\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "mi",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"wo\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "wo",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"he\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "he",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"n\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "n",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"ji\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "ji",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
+      "syllableNumber": {
+        "value": "",
+        "grid": [
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "1",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "2",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "3",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "4",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 1
           },
           {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
+            "text": "5",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
           }
         ]
       },
-      \\"text\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "text": {
+        "value": "",
+        "grid": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
-        \\"grid\\": []
+      "vocalRange": {
+        "value": "high",
+        "grid": []
       },
-      \\"percussion\\": {
-        \\"value\\": \\"tsuzuke\\",
-        \\"grid\\": []
+      "percussion": {
+        "value": "tsuzuke",
+        "grid": []
       },
-      \\"nohkan\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": []
+      "nohkan": {
+        "value": "",
+        "grid": []
       },
-      \\"dance\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"9. Turns to face the waki.\\",
-            \\"voices\\": [],
-            \\"start\\": 5,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 5
-          }
-        ]
-      },
-      \\"phrase\\": \\"2\\"
+      "phrase": "2"
     }
   ],
-  \\"captions\\": [],
-  \\"narrative\\": {
-    \\"value\\": \\"/kokaji/narratives/ageuta-3.html\\"
+  "captions": [],
+  "narrative": {
+    "value": "/kokaji/narratives/ageuta-3.html"
   }
 }"
 `;
 
 exports[`parser main downloads and parses phrases, metadata, and captions 4`] = `
 "{
-  \\"play\\": {
-    \\"value\\": \\"kokaji\\"
+  "play": {
+    "value": "kokaji"
   },
-  \\"sectionName\\": {
-    \\"value\\": \\"Ageuta-3\\"
+  "sectionName": {
+    "value": "Ageuta-3"
   },
-  \\"startTime\\": {
-    \\"value\\": 1805
+  "startTime": {
+    "value": 1805
   },
-  \\"endTime\\": {
-    \\"value\\": 1879
+  "endTime": {
+    "value": 1879
   },
-  \\"intensity\\": {
-    \\"number\\": \\"-\\"
+  "intensity": {
+    "number": "-"
   },
-  \\"numberVoices\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Jiutai\\"
+  "numberVoices": {
+    "number": "2",
+    "value": "Jiutai"
   },
-  \\"voice\\": {
-    \\"value\\": \\"Sung - Tsuyogin\\"
+  "voice": {
+    "value": "Sung - Tsuyogin"
   },
-  \\"text\\": {
-    \\"value\\": \\"Congruent - Hiranori\\"
+  "text": {
+    "value": "Congruent - Hiranori"
   },
-  \\"numberOfPercussion\\": {
-    \\"number\\": \\"2\\",
-    \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+  "numberOfPercussion": {
+    "number": "2",
+    "value": "Otsuzumi + Kotsuzumi"
   },
-  \\"percussion\\": {
-    \\"value\\": \\"Congruent\\"
+  "percussion": {
+    "value": "Congruent"
   },
-  \\"nokhanPresent\\": {
-    \\"present\\": \\"No\\"
+  "nokhanPresent": {
+    "present": "No"
   },
-  \\"dancePresent\\": {
-    \\"present\\": \\"Yes\\",
-    \\"value\\": \\"Feminine to Martial style\\"
+  "dancePresent": {
+    "present": "Yes",
+    "value": "Feminine to Martial style"
   },
-  \\"playUrl\\": \\"/kokaji/\\",
-  \\"sectionUrl\\": \\"/kokaji/ageuta-4/\\",
-  \\"videoUrl\\": {},
-  \\"videoDuration\\": {},
-  \\"phrases\\": [],
-  \\"captions\\": [],
-  \\"narrative\\": {
-    \\"value\\": \\"/kokaji/narratives/ageuta-4.html\\"
+  "playUrl": "/kokaji/",
+  "sectionUrl": "/kokaji/ageuta-4/",
+  "videoUrl": {},
+  "videoDuration": {},
+  "phrases": [],
+  "captions": [],
+  "narrative": {
+    "value": "/kokaji/narratives/ageuta-4.html"
   }
 }"
 `;
@@ -2847,268 +2873,268 @@ exports[`parser main downloads and parses phrases, metadata, and captions 8`] = 
 
 exports[`parser main downloads and parses phrases, metadata, and captions 9`] = `
 "{
-  \\"playName\\": \\"kokaji\\",
-  \\"sections\\": [
+  "playName": "kokaji",
+  "sections": [
     {
-      \\"play\\": {
-        \\"value\\": \\"kokaji\\"
+      "play": {
+        "value": "kokaji"
       },
-      \\"sectionName\\": {
-        \\"value\\": \\"Ageuta-3\\"
+      "sectionName": {
+        "value": "Ageuta-3"
       },
-      \\"startTime\\": {
-        \\"value\\": 1805
+      "startTime": {
+        "value": 1805
       },
-      \\"endTime\\": {
-        \\"value\\": 1879
+      "endTime": {
+        "value": 1879
       },
-      \\"intensity\\": {
-        \\"number\\": \\"-\\"
+      "intensity": {
+        "number": "-"
       },
-      \\"numberVoices\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Jiutai\\"
+      "numberVoices": {
+        "number": "2",
+        "value": "Jiutai"
       },
-      \\"voice\\": {
-        \\"value\\": \\"Sung - Tsuyogin\\"
+      "voice": {
+        "value": "Sung - Tsuyogin"
       },
-      \\"text\\": {
-        \\"value\\": \\"Congruent - Hiranori\\"
+      "text": {
+        "value": "Congruent - Hiranori"
       },
-      \\"numberOfPercussion\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi + Kotsuzumi"
       },
-      \\"percussion\\": {
-        \\"value\\": \\"Congruent\\"
+      "percussion": {
+        "value": "Congruent"
       },
-      \\"nokhanPresent\\": {
-        \\"present\\": \\"No\\"
+      "nokhanPresent": {
+        "present": "No"
       },
-      \\"dancePresent\\": {
-        \\"present\\": \\"Yes\\",
-        \\"value\\": \\"Feminine to Martial style\\"
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Feminine to Martial style"
       },
-      \\"playUrl\\": \\"/kokaji/\\",
-      \\"sectionUrl\\": \\"/kokaji/ageuta-1/\\",
-      \\"videoUrl\\": {},
-      \\"videoDuration\\": {},
-      \\"narrative\\": {
-        \\"value\\": \\"/kokaji/narratives/ageuta-1.html\\"
+      "playUrl": "/kokaji/",
+      "sectionUrl": "/kokaji/ageuta-1/",
+      "videoUrl": {},
+      "videoDuration": {},
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-1.html"
       }
     },
     {
-      \\"play\\": {
-        \\"value\\": \\"kokaji\\"
+      "play": {
+        "value": "kokaji"
       },
-      \\"sectionName\\": {
-        \\"value\\": \\"Ageuta-3\\"
+      "sectionName": {
+        "value": "Ageuta-3"
       },
-      \\"startTime\\": {
-        \\"value\\": 1805
+      "startTime": {
+        "value": 1805
       },
-      \\"endTime\\": {
-        \\"value\\": 1879
+      "endTime": {
+        "value": 1879
       },
-      \\"intensity\\": {
-        \\"number\\": \\"-\\"
+      "intensity": {
+        "number": "-"
       },
-      \\"numberVoices\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Jiutai\\"
+      "numberVoices": {
+        "number": "2",
+        "value": "Jiutai"
       },
-      \\"voice\\": {
-        \\"value\\": \\"Sung - Tsuyogin\\"
+      "voice": {
+        "value": "Sung - Tsuyogin"
       },
-      \\"text\\": {
-        \\"value\\": \\"Congruent - Hiranori\\"
+      "text": {
+        "value": "Congruent - Hiranori"
       },
-      \\"numberOfPercussion\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi + Kotsuzumi"
       },
-      \\"percussion\\": {
-        \\"value\\": \\"Congruent\\"
+      "percussion": {
+        "value": "Congruent"
       },
-      \\"nokhanPresent\\": {
-        \\"present\\": \\"No\\"
+      "nokhanPresent": {
+        "present": "No"
       },
-      \\"dancePresent\\": {
-        \\"present\\": \\"Yes\\",
-        \\"value\\": \\"Feminine to Martial style\\"
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Feminine to Martial style"
       },
-      \\"playUrl\\": \\"/kokaji/\\",
-      \\"sectionUrl\\": \\"/kokaji/ageuta-2/\\",
-      \\"videoUrl\\": {},
-      \\"videoDuration\\": {},
-      \\"narrative\\": {
-        \\"value\\": \\"/kokaji/narratives/ageuta-2.html\\"
+      "playUrl": "/kokaji/",
+      "sectionUrl": "/kokaji/ageuta-2/",
+      "videoUrl": {},
+      "videoDuration": {},
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-2.html"
       }
     },
     {
-      \\"play\\": {
-        \\"value\\": \\"kokaji\\"
+      "play": {
+        "value": "kokaji"
       },
-      \\"sectionName\\": {
-        \\"value\\": \\"Ageuta-3\\"
+      "sectionName": {
+        "value": "Ageuta-3"
       },
-      \\"startTime\\": {
-        \\"value\\": 1805
+      "startTime": {
+        "value": 1805
       },
-      \\"endTime\\": {
-        \\"value\\": 1879
+      "endTime": {
+        "value": 1879
       },
-      \\"intensity\\": {
-        \\"number\\": \\"-\\"
+      "intensity": {
+        "number": "-"
       },
-      \\"numberVoices\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Jiutai\\"
+      "numberVoices": {
+        "number": "2",
+        "value": "Jiutai"
       },
-      \\"voice\\": {
-        \\"value\\": \\"Sung - Tsuyogin\\"
+      "voice": {
+        "value": "Sung - Tsuyogin"
       },
-      \\"text\\": {
-        \\"value\\": \\"Congruent - Hiranori\\"
+      "text": {
+        "value": "Congruent - Hiranori"
       },
-      \\"numberOfPercussion\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi + Kotsuzumi"
       },
-      \\"percussion\\": {
-        \\"value\\": \\"Congruent\\"
+      "percussion": {
+        "value": "Congruent"
       },
-      \\"nokhanPresent\\": {
-        \\"present\\": \\"No\\"
+      "nokhanPresent": {
+        "present": "No"
       },
-      \\"dancePresent\\": {
-        \\"present\\": \\"Yes\\",
-        \\"value\\": \\"Feminine to Martial style\\"
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Feminine to Martial style"
       },
-      \\"playUrl\\": \\"/kokaji/\\",
-      \\"sectionUrl\\": \\"/kokaji/ageuta-3/\\",
-      \\"videoUrl\\": {},
-      \\"videoDuration\\": {},
-      \\"narrative\\": {
-        \\"value\\": \\"/kokaji/narratives/ageuta-3.html\\"
+      "playUrl": "/kokaji/",
+      "sectionUrl": "/kokaji/ageuta-3/",
+      "videoUrl": {},
+      "videoDuration": {},
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-3.html"
       }
     },
     {
-      \\"play\\": {
-        \\"value\\": \\"kokaji\\"
+      "play": {
+        "value": "kokaji"
       },
-      \\"sectionName\\": {
-        \\"value\\": \\"Ageuta-3\\"
+      "sectionName": {
+        "value": "Ageuta-3"
       },
-      \\"startTime\\": {
-        \\"value\\": 1805
+      "startTime": {
+        "value": 1805
       },
-      \\"endTime\\": {
-        \\"value\\": 1879
+      "endTime": {
+        "value": 1879
       },
-      \\"intensity\\": {
-        \\"number\\": \\"-\\"
+      "intensity": {
+        "number": "-"
       },
-      \\"numberVoices\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Jiutai\\"
+      "numberVoices": {
+        "number": "2",
+        "value": "Jiutai"
       },
-      \\"voice\\": {
-        \\"value\\": \\"Sung - Tsuyogin\\"
+      "voice": {
+        "value": "Sung - Tsuyogin"
       },
-      \\"text\\": {
-        \\"value\\": \\"Congruent - Hiranori\\"
+      "text": {
+        "value": "Congruent - Hiranori"
       },
-      \\"numberOfPercussion\\": {
-        \\"number\\": \\"2\\",
-        \\"value\\": \\"Otsuzumi + Kotsuzumi\\"
+      "numberOfPercussion": {
+        "number": "2",
+        "value": "Otsuzumi + Kotsuzumi"
       },
-      \\"percussion\\": {
-        \\"value\\": \\"Congruent\\"
+      "percussion": {
+        "value": "Congruent"
       },
-      \\"nokhanPresent\\": {
-        \\"present\\": \\"No\\"
+      "nokhanPresent": {
+        "present": "No"
       },
-      \\"dancePresent\\": {
-        \\"present\\": \\"Yes\\",
-        \\"value\\": \\"Feminine to Martial style\\"
+      "dancePresent": {
+        "present": "Yes",
+        "value": "Feminine to Martial style"
       },
-      \\"playUrl\\": \\"/kokaji/\\",
-      \\"sectionUrl\\": \\"/kokaji/ageuta-4/\\",
-      \\"videoUrl\\": {},
-      \\"videoDuration\\": {},
-      \\"narrative\\": {
-        \\"value\\": \\"/kokaji/narratives/ageuta-4.html\\"
+      "playUrl": "/kokaji/",
+      "sectionUrl": "/kokaji/ageuta-4/",
+      "videoUrl": {},
+      "videoDuration": {},
+      "narrative": {
+        "value": "/kokaji/narratives/ageuta-4.html"
       }
     }
   ],
-  \\"narrative\\": \\"/narratives/kokaji/\\",
-  \\"tracks\\": [
+  "narrative": "/narratives/kokaji/",
+  "tracks": [
     {
-      \\"label\\": \\"English\\",
-      \\"kind\\": \\"subtitles\\",
-      \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/captions/kokaji.translation.vtt\\"
+      "label": "English",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/kokaji.translation.vtt"
     },
     {
-      \\"label\\": \\"Romanization\\",
-      \\"kind\\": \\"subtitles\\",
-      \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/captions/kokaji.transcription.vtt\\"
+      "label": "Romanization",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/kokaji.transcription.vtt"
     },
     {
-      \\"label\\": \\"Japanese\\",
-      \\"kind\\": \\"subtitles\\",
-      \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/captions/kokaji.japaneseScript.vtt\\"
+      "label": "Japanese",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/kokaji.japaneseScript.vtt"
     },
     {
-      \\"label\\": \\"Combined\\",
-      \\"kind\\": \\"subtitles\\",
-      \\"lang\\": \\"en\\",
-      \\"url\\": \\"/data/captions/kokaji.combined.vtt\\"
+      "label": "Combined",
+      "kind": "subtitles",
+      "lang": "en",
+      "url": "/data/captions/kokaji.combined.vtt"
     }
   ],
-  \\"maxIntensity\\": 0
+  "maxIntensity": 0
 }"
 `;
 
 exports[`parser main writes to console when -q/--quiet is not passed in 1`] = `
-Array [
-  Array [
+[
+  [
     "Downloading and parsing kokaji:",
   ],
-  Array [
+  [
     "- ageuta-1",
   ],
-  Array [
+  [
     "- ageuta-2",
   ],
-  Array [
+  [
     "- ageuta-3",
   ],
-  Array [
+  [
     "- ageuta-4",
   ],
-  Array [
+  [
     "Writing play data:",
   ],
-  Array [
+  [
     "- kokaji (captions)",
   ],
 ]
 `;
 
 exports[`parser processCaptions parses caption lines into a list of hash maps 1`] = `
-Array [
-  Object {
+[
+  {
     "endTime": 335,
     "japanese": "［ワキ］是は都北山紫野",
     "startTime": 325,
     "transcription": "[WAKI] Kore wa miyako kitayama Murasakino",
     "translation": "[WAKI] I am a priest living at Urin-in in Murasakino,",
   },
-  Object {
+  {
     "endTime": 244,
     "japanese": "一條の院に仕へ奉る。",
     "startTime": 239,
@@ -3119,576 +3145,552 @@ Array [
 `;
 
 exports[`parser processMetadata turns metadata into a hash map 1`] = `
-Object {
-  "dancePresent": Object {
+{
+  "dancePresent": {
     "present": "Yes",
     "value": "Feminine to Martial style",
   },
-  "endTime": Object {
+  "endTime": {
     "value": 1879,
   },
-  "intensity": Object {
+  "intensity": {
     "number": "13",
   },
-  "nokhanPresent": Object {
+  "nokhanPresent": {
     "present": "No",
   },
-  "numberOfPercussion": Object {
+  "numberOfPercussion": {
     "number": "2",
     "value": "Otsuzumi + Kotsuzumi",
   },
-  "numberVoices": Object {
+  "numberVoices": {
     "number": "2",
     "value": "Jiutai",
   },
-  "percussion": Object {
+  "percussion": {
     "value": "Congruent",
   },
-  "play": Object {
+  "play": {
     "value": "kokaji",
   },
-  "sectionName": Object {
+  "sectionName": {
     "value": "Ageuta-3",
   },
-  "startTime": Object {
+  "startTime": {
     "value": 1805,
   },
-  "text": Object {
+  "text": {
     "value": "Congruent - Hiranori",
   },
-  "voice": Object {
+  "voice": {
     "value": "Sung - Tsuyogin",
   },
 }
 `;
 
 exports[`parser processPhrases parse rows of raw data into structured phrases 1`] = `
-Array [
-  Object {
-    "beat": Object {
-      "grid": Array [
-        Object {
+[
+  {
+    "beat": {
+      "grid": [
+        {
           "length": 1,
           "start": 1,
           "style": "normal",
           "text": "1",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 3,
           "style": "normal",
           "text": "2",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 5,
           "style": "normal",
           "text": "3",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "4",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 9,
           "style": "normal",
           "text": "5",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 11,
           "style": "normal",
           "text": "6",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 13,
           "style": "normal",
           "text": "7",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 15,
           "style": "normal",
           "text": "8",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
-    "dance": Object {
-      "grid": Array [
-        Object {
-          "length": 6,
-          "start": 6,
-          "style": "normal",
-          "text": "9. Kneeling, turns to face front.",
-          "voices": Array [],
-        },
-      ],
-      "value": "feminine-style",
-    },
-    "nohkan": Object {
-      "grid": Array [],
+    "nohkan": {
+      "grid": [],
       "value": "",
     },
-    "percussion": Object {
-      "grid": Array [],
+    "percussion": {
+      "grid": [],
       "value": "tsuzuke",
     },
     "phrase": "1",
-    "startTime": Object {
-      "grid": Array [],
+    "startTime": {
+      "grid": [],
       "value": 1805,
     },
-    "syllableNumber": Object {
-      "grid": Array [
-        Object {
+    "syllableNumber": {
+      "grid": [
+        {
           "length": 1,
           "start": 3,
           "style": "normal",
           "text": "1",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 4,
           "style": "normal",
           "text": "2",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 6,
           "style": "normal",
           "text": "3",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "4",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 8,
           "style": "normal",
           "text": "5",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 10,
           "style": "normal",
           "text": "1",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 11,
           "style": "normal",
           "text": "2",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 12,
           "style": "normal",
           "text": "3",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 13,
           "style": "normal",
           "text": "4",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 14,
           "style": "normal",
           "text": "5",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
-    "syllableText": Object {
-      "grid": Array [
-        Object {
+    "syllableText": {
+      "grid": [
+        {
           "length": 1,
           "start": 3,
           "style": "normal",
           "text": "tsu",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 4,
           "style": "normal",
           "text": "u",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 6,
           "style": "normal",
           "text": "ri",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "ki",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 8,
           "style": "normal",
           "text": "no",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 10,
           "style": "normal",
           "text": "mi",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 11,
           "style": "normal",
           "text": "wo",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 12,
           "style": "normal",
           "text": "he",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 13,
           "style": "normal",
           "text": "n",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 14,
           "style": "normal",
           "text": "ji",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 15,
           "style": "normal",
           "text": "(i)",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
-    "text": Object {
-      "grid": Array [],
+    "text": {
+      "grid": [],
       "value": "",
     },
-    "vocalRange": Object {
-      "grid": Array [
-        Object {
+    "vocalRange": {
+      "grid": [
+        {
           "length": 2,
           "start": 3,
           "style": "normal",
           "text": "high",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 6,
           "style": "normal",
           "text": "medium",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "low",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 3,
           "start": 9,
           "style": "normal",
           "text": "low",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
   },
-  Object {
-    "beat": Object {
-      "grid": Array [
-        Object {
+  {
+    "beat": {
+      "grid": [
+        {
           "length": 1,
           "start": 1,
           "style": "normal",
           "text": "1",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 3,
           "style": "normal",
           "text": "2",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 5,
           "style": "normal",
           "text": "3",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "4",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 9,
           "style": "normal",
           "text": "5",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 11,
           "style": "normal",
           "text": "6",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 13,
           "style": "normal",
           "text": "7",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 15,
           "style": "normal",
           "text": "8",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
-    "dance": Object {
-      "grid": Array [
-        Object {
-          "length": 5,
-          "start": 5,
-          "style": "normal",
-          "text": "9. Turns to face the waki.",
-          "voices": Array [],
-        },
-      ],
+    "nohkan": {
+      "grid": [],
       "value": "",
     },
-    "nohkan": Object {
-      "grid": Array [],
-      "value": "",
-    },
-    "percussion": Object {
-      "grid": Array [],
+    "percussion": {
+      "grid": [],
       "value": "tsuzuke",
     },
     "phrase": "2",
-    "startTime": Object {
-      "grid": Array [],
+    "startTime": {
+      "grid": [],
       "value": 1814,
     },
-    "syllableNumber": Object {
-      "grid": Array [
-        Object {
+    "syllableNumber": {
+      "grid": [
+        {
           "length": 1,
           "start": 3,
           "style": "normal",
           "text": "1",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 4,
           "style": "normal",
           "text": "2",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 6,
           "style": "normal",
           "text": "3",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "4",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 8,
           "style": "normal",
           "text": "5",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 10,
           "style": "normal",
           "text": "1",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 11,
           "style": "normal",
           "text": "2",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 12,
           "style": "normal",
           "text": "3",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 14,
           "style": "normal",
           "text": "4",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 15,
           "style": "normal",
           "text": "5",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
-    "syllableText": Object {
-      "grid": Array [
-        Object {
+    "syllableText": {
+      "grid": [
+        {
           "length": 1,
           "start": 3,
           "style": "normal",
           "text": "tsu",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 4,
           "style": "normal",
           "text": "u",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 6,
           "style": "normal",
           "text": "ri",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 7,
           "style": "normal",
           "text": "ki",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 8,
           "style": "normal",
           "text": "no",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 10,
           "style": "normal",
           "text": "mi",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 11,
           "style": "normal",
           "text": "wo",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 12,
           "style": "normal",
           "text": "he",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 14,
           "style": "normal",
           "text": "n",
-          "voices": Array [],
+          "voices": [],
         },
-        Object {
+        {
           "length": 1,
           "start": 15,
           "style": "normal",
           "text": "ji",
-          "voices": Array [],
+          "voices": [],
         },
       ],
       "value": "",
     },
-    "text": Object {
-      "grid": Array [],
+    "text": {
+      "grid": [],
       "value": "",
     },
-    "vocalRange": Object {
-      "grid": Array [],
+    "vocalRange": {
+      "grid": [],
       "value": "high",
     },
   },

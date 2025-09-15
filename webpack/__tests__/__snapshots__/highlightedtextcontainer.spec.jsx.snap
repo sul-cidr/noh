@@ -1,19 +1,19 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<UnwrappedHighlightedTextContainer> renders as expected unconnected to redux 1`] = `
 <div>
   <HighlightedText
     currentPhraseID="I/1"
     phrases={
-      Array [
-        Object {
+      [
+        {
           "endTime": 10,
           "phraseID": "I/1",
           "startTime": 0,
           "transcription": "transcription line 1",
           "translation": "translation line 1",
         },
-        Object {
+        {
           "endTime": 20,
           "phraseID": "I/2",
           "startTime": 11,

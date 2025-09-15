@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
 <div
@@ -20,7 +20,7 @@ exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
     className="measure__channel measure__channel--percussion"
     key="percussionLabel"
   >
-    Percussion
+    Ōtsu-Kotsuzumi
   </div>
   <div
     className="measure__channel measure__channel--nohkan"

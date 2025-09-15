@@ -157,6 +157,7 @@ App.propTypes = {
       text: PropTypes.shape({ value: PropTypes.string }),
       numberOfPercussion: PropTypes.shape({ number: PropTypes.string }),
       percussion: PropTypes.shape({ value: PropTypes.string }),
+      taiko: PropTypes.shape({ value: PropTypes.string }),
       nokhanPresent: PropTypes.shape({
         present: PropTypes.string,
         value: PropTypes.string

@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<CellText> renders as expected 1`] = `
 <div
@@ -13,9 +13,6 @@ exports[`<CellText> renders as expected 1`] = `
   >
     jiutai
   </span>
-  <span
-    className="cell__range--low"
-  />
 </div>
 `;
 
@@ -36,9 +33,6 @@ exports[`<CellText> renders as expected 2`] = `
   >
     jiutai
   </span>
-  <span
-    className="cell__range--medium"
-  />
 </div>
 `;
 
@@ -55,9 +49,6 @@ exports[`<CellText> renders as expected 3`] = `
   >
     jiutai
   </span>
-  <span
-    className="cell__range--high"
-  />
 </div>
 `;
 

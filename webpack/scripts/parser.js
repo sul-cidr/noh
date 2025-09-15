@@ -40,18 +40,18 @@ export const voiceStyles = {
   WWt: "waki-wakizure"
 };
 
-export const ParserException = function(message) {
+export const ParserException = function (message) {
   this.message = (message && message.toString()) || "";
   this.name = "ParserException";
   process.exitCode = 1;
 };
 
 export const logError = (...messages) => {
-  [...messages].map(message => console.error(message));
+  [...messages].map((message) => console.error(message));
   throw new ParserException(messages && messages[0]);
 };
 
-export const toCamelCase = str =>
+export const toCamelCase = (str) =>
   str
     .toLowerCase()
     .trim()
@@ -60,19 +60,16 @@ export const toCamelCase = str =>
     )
     .replace(regexps.whiteSpaces, "");
 
-export const toCamelCaseTrim = str => toCamelCase(str.split(/[(?[]/)[0]);
+export const toCamelCaseTrim = (str) => toCamelCase(str.split(/[(?[]/)[0]);
 
-export const normalize = str =>
-  str
-    .trim()
-    .toLowerCase()
-    .replace(regexps.whiteSpaces, "-");
+export const normalize = (str) =>
+  str.trim().toLowerCase().replace(regexps.whiteSpaces, "-");
 
-export const extractVoices = str => [
+export const extractVoices = (str) => [
   str &&
     (str.match(regexps.betweenBrackets) || [null, ""])[1]
       .split(",")
-      .map(s => s.trim())
+      .map((s) => s.trim())
       .filter(Boolean),
   str &&
     str
@@ -81,19 +78,19 @@ export const extractVoices = str => [
       .trim()
 ];
 
-export const cleanObject = obj =>
+export const cleanObject = (obj) =>
   Object.entries(obj).reduce((acc, [key, val]) => {
     if (val) acc[key] = val;
     return acc;
   }, {});
 
-export const parseTime = str => {
+export const parseTime = (str) => {
   let hhmmss = str
     .trim()
     .replace(/'/g, ":")
     .replace('"', "")
     .split(":")
-    .map(num => num.padStart(2, "0"))
+    .map((num) => num.padStart(2, "0"))
     .join(":");
   const quotes = (str.match(/'/gi) || []).length;
   if (quotes === 1) {
@@ -124,7 +121,7 @@ export const convertToVtt = (captions, track) => {
   return `WEBVTT\n\n${webvtt.join("\n\n")}`;
 };
 
-export const extractCells = cells => {
+export const extractCells = (cells) => {
   const texts = [];
   const styles = Object.keys(textStyles);
   let start = null;
@@ -147,7 +144,7 @@ export const extractCells = cells => {
         } else {
           styleSymbol = defaultTextStyle;
         }
-        voices = voices.map(voice => voiceStyles[voice]);
+        voices = voices.map((voice) => voiceStyles[voice]);
         const style = textStyles[styleSymbol];
         start = index;
         element = { text, voices, start, style, length: 1 };
@@ -158,27 +155,27 @@ export const extractCells = cells => {
   return texts.filter(Boolean);
 };
 
-export const extractRows = rows =>
-  rows.reduce(
-    (obj, row) =>
-      Object.assign(obj, {
-        [toCamelCase(row[0])]: {
-          value: row[0].toLowerCase().includes("time")
-            ? parseTime(row[1])
-            : normalize(row[1]),
-          grid: extractCells(row.slice(2))
-        }
-      }),
-    {}
-  );
+export const extractRows = (rows) =>
+  rows.reduce((obj, row) => {
+    const rowLabel = row[0] === "Ōtsu-Kotsuzumi" ? "percussion" : row[0];
+    const rowObj = Object.assign(obj, {
+      [toCamelCase(rowLabel)]: {
+        value: row[0].toLowerCase().includes("time")
+          ? parseTime(row[1])
+          : normalize(row[1]),
+        grid: extractCells(row.slice(2))
+      }
+    });
+    return rowObj;
+  }, {});
 
-export const processPhrases = data => {
+export const processPhrases = (data) => {
   const rows = data.slice(1); // data[0] has section name info
   return [...Array(rows.length).keys()] // range(rows.length)
-    .map(idx => {
+    .map((idx) => {
       const row = rows[idx];
       if (row[0].toLowerCase() === "phrase") {
-        const values = extractRows(rows.slice(idx + 1, idx + 10));
+        const values = extractRows(rows.slice(idx + 1, idx + 9));
         Object.assign(values, { phrase: row[1] });
         return values;
       }
@@ -187,10 +184,10 @@ export const processPhrases = data => {
     .filter(Boolean);
 };
 
-export const processMetadata = data => {
+export const processMetadata = (data) => {
   const keys = data[0]
     .filter(Boolean)
-    .map(str => toCamelCaseTrim(str))
+    .map((str) => toCamelCaseTrim(str))
     .slice(0, -1); // notes need to be ignored
   const rows = data.slice(1);
   return rows.reduce(
@@ -211,13 +208,13 @@ export const processMetadata = data => {
   );
 };
 
-export const processCaptions = data => {
-  const keys = data[0].filter(Boolean).map(str => toCamelCaseTrim(str));
+export const processCaptions = (data) => {
+  const keys = data[0].filter(Boolean).map((str) => toCamelCaseTrim(str));
   const rows = data.slice(1);
-  return rows.map(row =>
+  return rows.map((row) =>
     Object.assign(
       {},
-      ...[...Array(row.length).keys()].map(idx => ({
+      ...[...Array(row.length).keys()].map((idx) => ({
         [keys[idx]]: keys[idx].toLowerCase().includes("time")
           ? parseTime(row[idx])
           : row[idx].trim()
@@ -226,13 +223,13 @@ export const processCaptions = data => {
   );
 };
 
-export const downloadCSV = url =>
+export const downloadCSV = (url) =>
   axios
     .get(url.replace("edit#gid", "export?format=csv&gid"))
-    .then(response =>
+    .then((response) =>
       Papa.parse(response.data.trim(), { skipEmptyLines: true })
     )
-    .catch(error => logError(`Unable to download ${url}`, error));
+    .catch((error) => logError(`Unable to download ${url}`, error));
 
 export const main = (configPath, quiet) => {
   if (!configPath) {
@@ -241,9 +238,9 @@ export const main = (configPath, quiet) => {
   const promises = [];
   try {
     const { plays } = JSON.parse(fs.readFileSync(configPath, "utf8"));
-    plays.forEach(play => {
+    plays.forEach((play) => {
       if (!quiet) console.info(`Downloading and parsing ${play.playName}:`);
-      play.sections.forEach(section => {
+      play.sections.forEach((section) => {
         if (!quiet) console.info(`- ${section.sectionName}`);
         const sectionFilePath = path.join(
           dataFolder,
@@ -253,11 +250,11 @@ export const main = (configPath, quiet) => {
         const sectionFileName = `${sectionFilePath}.json`;
         promises.push(
           Promise.all(
-            [section.phrases, section.metadata, section.captions].map(url =>
+            [section.phrases, section.metadata, section.captions].map((url) =>
               url ? downloadCSV(url) : null
             )
           )
-            .then(data => {
+            .then((data) => {
               const [phrases, metadata, captions] = data;
               const sectionData = processMetadata(metadata.data);
               sectionData.playUrl = `/${play.playName}/`;
@@ -278,7 +275,7 @@ export const main = (configPath, quiet) => {
               );
               return [play, sectionData];
             })
-            .catch(error => {
+            .catch((error) => {
               logError(
                 `Unable to process section data for ` +
                   `${play.playName}'s ${section.sectionName}`,
@@ -293,7 +290,7 @@ export const main = (configPath, quiet) => {
   }
   process.exitCode = 0;
   return Promise.all(promises)
-    .then(metadatas => {
+    .then((metadatas) => {
       if (!quiet) console.info("Writing play data:");
       const playSections = metadatas.reduce((map, [play, section]) => {
         /* eslint-disable no-param-reassign */
@@ -336,7 +333,7 @@ export const main = (configPath, quiet) => {
         delete play.captions;
         play.maxIntensity = Math.max(
           ...play.sections.map(
-            section => parseInt(section.intensity.number, 10) || 0
+            (section) => parseInt(section.intensity.number, 10) || 0
           )
         );
         mkdirp.sync(dataFolder);
@@ -345,7 +342,7 @@ export const main = (configPath, quiet) => {
         fs.writeFileSync(playFileName, JSON.stringify(play, null, 2));
       }
     })
-    .catch(error => {
+    .catch((error) => {
       logError(error.message || "Unable to write play data", error);
     });
 };
