@@ -408,6 +408,26 @@ exports[`parser downloadCSV downloads data from a phrases CSV URL 1`] = `
       "",
     ],
     [
+      "Ōtsu-Kotsuzumi",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "#dain",
+      "#shon",
+      "#shon",
+      "",
+      "#shon",
+    ],
+    [
       "Nohkan",
       "",
       "",
@@ -763,7 +783,7 @@ exports[`parser downloadCSV downloads data from a phrases CSV URL 1`] = `
   "errors": [],
   "meta": {
     "aborted": false,
-    "cursor": 904,
+    "cursor": 956,
     "delimiter": ",",
     "linebreak": "
 ",
@@ -1349,12 +1369,37 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
         "grid": []
       },
       "percussion": {
-        "value": "tsuzuke",
-        "grid": []
-      },
-      "nohkan": {
         "value": "",
-        "grid": []
+        "grid": [
+          {
+            "text": "#dain",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
       },
       "phrase": "1"
     },
@@ -1893,12 +1938,37 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
         "grid": []
       },
       "percussion": {
-        "value": "tsuzuke",
-        "grid": []
-      },
-      "nohkan": {
         "value": "",
-        "grid": []
+        "grid": [
+          {
+            "text": "#dain",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
       },
       "phrase": "1"
     },
@@ -2422,12 +2492,37 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
         "grid": []
       },
       "percussion": {
-        "value": "tsuzuke",
-        "grid": []
-      },
-      "nohkan": {
         "value": "",
-        "grid": []
+        "grid": [
+          {
+            "text": "#dain",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#shon",
+            "voices": [],
+            "start": 15,
+            "style": "normal",
+            "length": 1
+          }
+        ]
       },
       "phrase": "1"
     },
