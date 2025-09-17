@@ -14,6 +14,7 @@ class ScoreControls extends Component {
       isBeatOn,
       isTextOn,
       isPercussionOn,
+      isTaikoOn,
       isNohkanOn,
       isDanceOn,
       isPrevSentenceOn,
@@ -23,6 +24,7 @@ class ScoreControls extends Component {
       isBeatOn,
       isTextOn,
       isPercussionOn,
+      isTaikoOn,
       isNohkanOn,
       isDanceOn,
       isPrevSentenceOn,
@@ -62,11 +64,8 @@ class ScoreControls extends Component {
   }
 
   render() {
-    const [
-      prevPhraseIndex,
-      currentPhraseIndex,
-      nextPhraseIndex
-    ] = determinePhraseIndices(this.props);
+    const [prevPhraseIndex, currentPhraseIndex, nextPhraseIndex] =
+      determinePhraseIndices(this.props);
     const remainingTime = convertSecondsToHhmmss(
       clamp(
         this.props.startTime + this.props.duration - this.props.currentTime,
@@ -143,7 +142,7 @@ class ScoreControls extends Component {
           </button>
           <div
             className="score-controls__filters-popup hidden"
-            ref={filtersPopup => {
+            ref={(filtersPopup) => {
               this.filtersPopup = filtersPopup;
             }}
           >
@@ -155,7 +154,7 @@ class ScoreControls extends Component {
                     id="scoreBeat"
                     type="checkbox"
                     checked={this.state.isBeatOn}
-                    onChange={event => this.handleToggle(event, "isBeatOn")}
+                    onChange={(event) => this.handleToggle(event, "isBeatOn")}
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreBeat">
@@ -169,7 +168,7 @@ class ScoreControls extends Component {
                     id="scoreText"
                     type="checkbox"
                     checked={this.state.isTextOn}
-                    onChange={event => this.handleToggle(event, "isTextOn")}
+                    onChange={(event) => this.handleToggle(event, "isTextOn")}
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreText">
@@ -183,7 +182,7 @@ class ScoreControls extends Component {
                     id="scorePercussion"
                     type="checkbox"
                     checked={this.state.isPercussionOn}
-                    onChange={event =>
+                    onChange={(event) =>
                       this.handleToggle(event, "isPercussionOn")
                     }
                     onKeyPress={null}
@@ -195,31 +194,27 @@ class ScoreControls extends Component {
                   </label>
                 </div>
               </li>
-              {/* <li>
+              <li>
                 <div className="custom-checkbox">
                   <input
                     id="scoreTaiko"
                     type="checkbox"
                     checked={this.state.isTaikoOn}
-                    onChange={event =>
-                      this.handleToggle(event, "isTaikoOn")
-                    }
+                    onChange={(event) => this.handleToggle(event, "isTaikoOn")}
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreTaiko">
-                    <span className="custom-checkbox__text">
-                      Taiko
-                    </span>
+                    <span className="custom-checkbox__text">Taiko</span>
                   </label>
                 </div>
-              </li> */}
+              </li>
               <li>
                 <div className="custom-checkbox">
                   <input
                     id="scoreNohkan"
                     type="checkbox"
                     checked={this.state.isNohkanOn}
-                    onChange={event => this.handleToggle(event, "isNohkanOn")}
+                    onChange={(event) => this.handleToggle(event, "isNohkanOn")}
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreNohkan">
@@ -233,7 +228,7 @@ class ScoreControls extends Component {
                     id="scoreDance"
                     type="checkbox"
                     checked={this.state.isDanceOn}
-                    onChange={event => this.handleToggle(event, "isDanceOn")}
+                    onChange={(event) => this.handleToggle(event, "isDanceOn")}
                     onKeyPress={null}
                   />
                   <label htmlFor="scoreDance">
@@ -250,7 +245,7 @@ class ScoreControls extends Component {
                     id="scorePrevSentence"
                     type="checkbox"
                     checked={this.state.isPrevSentenceOn}
-                    onChange={event =>
+                    onChange={(event) =>
                       this.handleToggle(event, "isPrevSentenceOn")
                     }
                     onKeyPress={null}
@@ -268,7 +263,7 @@ class ScoreControls extends Component {
                     id="scoreNextSentence"
                     type="checkbox"
                     checked={this.state.isNextSentenceOn}
-                    onChange={event =>
+                    onChange={(event) =>
                       this.handleToggle(event, "isNextSentenceOn")
                     }
                     onKeyPress={null}
@@ -290,6 +285,7 @@ ScoreControls.propTypes = {
   isBeatOn: PropTypes.bool,
   isTextOn: PropTypes.bool,
   isPercussionOn: PropTypes.bool,
+  isTaikoOn: PropTypes.bool,
   isNohkanOn: PropTypes.bool,
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
@@ -312,6 +308,7 @@ ScoreControls.defaultProps = {
   isBeatOn: true,
   isTextOn: true,
   isPercussionOn: true,
+  isTaikoOn: true,
   isNohkanOn: true,
   isDanceOn: true,
   isPrevSentenceOn: true,
@@ -319,20 +316,21 @@ ScoreControls.defaultProps = {
   startTime: 0
 };
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   currentTime: state.currentTime.time,
   isBeatOn: state.toggles.isBeatOn,
   isTextOn: state.toggles.isTextOn,
   isPercussionOn: state.toggles.isPercussionOn,
+  isTaikoOn: state.toggles.isTaikoOn,
   isNohkanOn: state.toggles.isNohkanOn,
   isDanceOn: state.toggles.isDanceOn,
   isPrevSentenceOn: state.toggles.isPrevSentenceOn,
   isNextSentenceOn: state.toggles.isNextSentenceOn
 });
 
-const mapDispatchToProps = dispatch => ({
-  updateScoreToggles: toggles => dispatch(setScoreToggles(toggles)),
-  updateStartTime: time =>
+const mapDispatchToProps = (dispatch) => ({
+  updateScoreToggles: (toggles) => dispatch(setScoreToggles(toggles)),
+  updateStartTime: (time) =>
     dispatch(setCurrentTime({ time, origin: "ScoreControls" }))
 });
 

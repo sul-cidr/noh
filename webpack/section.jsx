@@ -74,7 +74,7 @@ export default class App extends Component {
 
   getSectionURLS() {
     const sectionIndex = this.props.sections.findIndex(
-      section => section.sectionName.value === this.props.sectionName.value
+      (section) => section.sectionName.value === this.props.sectionName.value
     );
     let prevSectionURL = "";
     let nextSectionURL = "";
@@ -102,7 +102,7 @@ export default class App extends Component {
   handleToggle(event, toggleName) {
     if (["H3", "path", "svg"].includes(event.target.tagName)) {
       this.setState(
-        prevState => ({ [toggleName]: !prevState[toggleName] }),
+        (prevState) => ({ [toggleName]: !prevState[toggleName] }),
         () => this.store.dispatch(setSidebarState(this.state))
       );
     }
@@ -213,7 +213,7 @@ export default class App extends Component {
                     ? "is-open"
                     : ""
                 }`}
-                onClick={event =>
+                onClick={(event) =>
                   this.handleToggle(event, "isHighlightedTextOn")
                 }
                 onKeyPress={null}
@@ -236,7 +236,7 @@ export default class App extends Component {
                 className={`shodan-timeline__container ${
                   this.state.isShodanTimelineOn ? "is-open" : ""
                 }`}
-                onClick={event =>
+                onClick={(event) =>
                   this.handleToggle(event, "isShodanTimelineOn")
                 }
                 onKeyPress={null}
@@ -339,10 +339,10 @@ App.propTypes = {
       dance: PropTypes.shape({}),
       nohkan: PropTypes.shape({}),
       percussion: PropTypes.shape({}),
+      taiko: PropTypes.shape({}),
       phrase: PropTypes.string,
       syllableText: PropTypes.shape({}),
-      text: PropTypes.shape({}),
-      taiko: PropTypes.shape({})
+      text: PropTypes.shape({})
     })
   ).isRequired,
   text: PropTypes.shape({ value: PropTypes.string }).isRequired
@@ -357,7 +357,7 @@ App.defaultProps = {
 if (!module.parent) {
   const playName = window.location.pathname.trim().split("/")[1];
   const sectionName = window.location.pathname.trim().split("/")[2];
-  contents.section(playName, sectionName, props => {
+  contents.section(playName, sectionName, (props) => {
     render(<App {...props} />, document.getElementById("section"));
   });
 }

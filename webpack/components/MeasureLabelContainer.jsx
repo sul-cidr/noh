@@ -1,16 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const MeasureLabelContainer = props => {
+const MeasureLabelContainer = (props) => {
   let labels = "";
-  const { isBeatOn, isTextOn, isPercussionOn, isNohkanOn, isDanceOn } = props;
+  const {
+    isBeatOn,
+    isTextOn,
+    isPercussionOn,
+    isTaikoOn,
+    isNohkanOn,
+    isDanceOn
+  } = props;
   const hasSomeToggleOn = Object.values({
     isBeatOn,
     isTextOn,
     isPercussionOn,
+    isTaikoOn,
     isNohkanOn,
     isDanceOn
-  }).some(value => !!value);
+  }).some((value) => !!value);
   if (props.previous === true && hasSomeToggleOn) {
     labels = <div className="measure__label-container">Previous sentence</div>;
   } else if (props.next === true && hasSomeToggleOn) {
@@ -47,6 +55,16 @@ const MeasureLabelContainer = props => {
       ) : (
         ""
       ),
+      isTaikoOn ? (
+        <div
+          key="taikoLabel"
+          className="measure__channel measure__channel--taiko"
+        >
+          Taiko
+        </div>
+      ) : (
+        ""
+      ),
       isNohkanOn ? (
         <div
           key="nohkanLabel"
@@ -79,6 +97,7 @@ MeasureLabelContainer.propTypes = {
   isBeatOn: PropTypes.bool,
   isTextOn: PropTypes.bool,
   isPercussionOn: PropTypes.bool,
+  isTaikoOn: PropTypes.bool,
   isNohkanOn: PropTypes.bool,
   isDanceOn: PropTypes.bool,
   isPrevSentenceOn: PropTypes.bool,
@@ -91,6 +110,7 @@ MeasureLabelContainer.defaultProps = {
   isBeatOn: true,
   isTextOn: true,
   isPercussionOn: true,
+  isTaikoOn: true,
   isNohkanOn: true,
   isDanceOn: true,
   isPrevSentenceOn: true,
