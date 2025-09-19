@@ -115,10 +115,11 @@ export default class App extends Component {
     const nohkanIsPresent = this.props.nokhanPresent?.present === "Yes";
     const danceIsPresent = this.props.dancePresent?.present === "Yes";
     const taikoIsPresent =
-      this.props.numberOfPercussion?.value?.includes("Taiko");
+      this.props.numberOfPercussion?.value?.includes("Taiko") ?? false;
     const percussionIsPresent =
-      this.props.numberOfPercussion?.value?.includes("Ōtsuzumi") ||
-      this.props.numberOfPercussion?.value?.includes("Kotsuzumi");
+      (this.props.numberOfPercussion?.value?.includes("Ōtsuzumi") ||
+        this.props.numberOfPercussion?.value?.includes("Kotsuzumi")) ??
+      false;
     const textIsPresent = !!this.props.text;
 
     const score =
