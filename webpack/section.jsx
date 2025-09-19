@@ -114,12 +114,14 @@ export default class App extends Component {
     const textIsCongruent = /[^-]congruent/.test(this.props.text.value);
     const nohkanIsPresent = this.props.nokhanPresent?.present === "Yes";
     const danceIsPresent = this.props.dancePresent?.present === "Yes";
-    const taikoIsPresent =
-      this.props.numberOfPercussion?.value?.includes("Taiko") ?? false;
+    // eslint doesn't like the ?? operator
+    const taikoIsIncluded =
+      this.props.numberOfPercussion?.value?.includes("Taiko");
+    const taikoIsPresent = taikoIsIncluded !== undefined && taikoIsIncluded;
+    const percussionIsIncluded =
+      this.props.numberOfPercussion?.value?.includes("tsuzumi");
     const percussionIsPresent =
-      (this.props.numberOfPercussion?.value?.includes("Ōtsuzumi") ||
-        this.props.numberOfPercussion?.value?.includes("Kotsuzumi")) ??
-      false;
+      percussionIsIncluded !== undefined && percussionIsIncluded;
     const textIsPresent = !!this.props.text;
 
     const score =
