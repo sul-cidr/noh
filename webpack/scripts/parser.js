@@ -1,4 +1,5 @@
 import axios from "axios";
+import rateLimit from "axios-rate-limit";
 import fs from "fs";
 import mkdirp from "mkdirp";
 import path from "path";
@@ -9,6 +10,12 @@ import { convertSecondsToHhmmss } from "../utils";
 //  outside the Jeykll source folder, and copy it to the build folder with
 //  webpack at build time:
 const dataFolder = path.join("data");
+
+// Limit Google docs API requests to 10/sec to avoid being blocked
+const http = rateLimit(axios.create(), {
+  maxRequests: 1,
+  perMilliseconds: 100
+});
 
 export const parserConfig = path.join("webpack", "config", "parser.json");
 
@@ -224,7 +231,7 @@ export const processCaptions = (data) => {
 };
 
 export const downloadCSV = (url) =>
-  axios
+  http
     .get(url.replace("edit#gid", "export?format=csv&gid"))
     .then((response) =>
       Papa.parse(response.data.trim(), { skipEmptyLines: true })
