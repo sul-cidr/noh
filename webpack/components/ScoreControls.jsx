@@ -167,7 +167,8 @@ class ScoreControls extends Component {
                   <input
                     id="scoreText"
                     type="checkbox"
-                    checked={this.state.isTextOn}
+                    disabled={!this.props.textIsPresent}
+                    checked={this.props.textIsPresent && this.state.isTextOn}
                     onChange={(event) => this.handleToggle(event, "isTextOn")}
                     onKeyPress={null}
                   />
@@ -181,7 +182,11 @@ class ScoreControls extends Component {
                   <input
                     id="scorePercussion"
                     type="checkbox"
-                    checked={this.state.isPercussionOn}
+                    disabled={!this.props.percussionIsPresent}
+                    checked={
+                      this.props.percussionIsPresent &&
+                      this.state.isPercussionOn
+                    }
                     onChange={(event) =>
                       this.handleToggle(event, "isPercussionOn")
                     }
@@ -199,7 +204,8 @@ class ScoreControls extends Component {
                   <input
                     id="scoreTaiko"
                     type="checkbox"
-                    checked={this.state.isTaikoOn}
+                    disabled={!this.props.taikoIsPresent}
+                    checked={this.props.taikoIsPresent && this.state.isTaikoOn}
                     onChange={(event) => this.handleToggle(event, "isTaikoOn")}
                     onKeyPress={null}
                   />
@@ -213,7 +219,10 @@ class ScoreControls extends Component {
                   <input
                     id="scoreNohkan"
                     type="checkbox"
-                    checked={this.state.isNohkanOn}
+                    disabled={!this.props.nohkanIsPresent}
+                    checked={
+                      this.props.nohkanIsPresent && this.state.isNohkanOn
+                    }
                     onChange={(event) => this.handleToggle(event, "isNohkanOn")}
                     onKeyPress={null}
                   />
@@ -227,7 +236,8 @@ class ScoreControls extends Component {
                   <input
                     id="scoreDance"
                     type="checkbox"
-                    checked={this.state.isDanceOn}
+                    disabled={!this.props.danceIsPresent}
+                    checked={this.props.danceIsPresent && this.state.isDanceOn}
                     onChange={(event) => this.handleToggle(event, "isDanceOn")}
                     onKeyPress={null}
                   />
@@ -301,7 +311,12 @@ ScoreControls.propTypes = {
       })
     })
   ).isRequired,
-  updateStartTime: PropTypes.func.isRequired
+  updateStartTime: PropTypes.func.isRequired,
+  nohkanIsPresent: PropTypes.bool,
+  danceIsPresent: PropTypes.bool,
+  taikoIsPresent: PropTypes.bool,
+  percussionIsPresent: PropTypes.bool,
+  textIsPresent: PropTypes.bool
 };
 
 ScoreControls.defaultProps = {
@@ -313,7 +328,12 @@ ScoreControls.defaultProps = {
   isDanceOn: true,
   isPrevSentenceOn: true,
   isNextSentenceOn: true,
-  startTime: 0
+  startTime: 0,
+  nohkanIsPresent: true,
+  danceIsPresent: true,
+  taikoIsPresent: true,
+  percussionIsPresent: true,
+  textIsPresent: true
 };
 
 const mapStateToProps = (state) => ({

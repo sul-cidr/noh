@@ -112,6 +112,15 @@ export default class App extends Component {
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const textIsCongruent = /[^-]congruent/.test(this.props.text.value);
+    const nohkanIsPresent = this.props.nokhanPresent?.present === "Yes";
+    const danceIsPresent = this.props.dancePresent?.present === "Yes";
+    const taikoIsPresent =
+      this.props.numberOfPercussion?.value?.includes("Taiko");
+    const percussionIsPresent =
+      this.props.numberOfPercussion?.value?.includes("Ōtsuzumi") ||
+      this.props.numberOfPercussion?.value?.includes("Kotsuzumi");
+    const textIsPresent = !!this.props.text;
+
     const score =
       this.props.phrases && this.props.phrases.length > 0
         ? [
@@ -121,6 +130,11 @@ export default class App extends Component {
               duration={this.props.duration}
               phrases={this.props.phrases}
               textIsCongruent={textIsCongruent}
+              nohkanIsPresent={nohkanIsPresent}
+              danceIsPresent={danceIsPresent}
+              taikoIsPresent={taikoIsPresent}
+              percussionIsPresent={percussionIsPresent}
+              textIsPresent={textIsPresent}
             />
           ]
         : [
@@ -135,6 +149,11 @@ export default class App extends Component {
         startTime={this.props.startTime}
         duration={this.props.duration}
         phrases={this.props.phrases}
+        nohkanIsPresent={nohkanIsPresent}
+        danceIsPresent={danceIsPresent}
+        taikoIsPresent={taikoIsPresent}
+        percussionIsPresent={percussionIsPresent}
+        textIsPresent={textIsPresent}
       />
     );
     const shodanLink = this.props.shodanType.value && (
@@ -345,11 +364,17 @@ App.propTypes = {
       text: PropTypes.shape({})
     })
   ).isRequired,
-  text: PropTypes.shape({ value: PropTypes.string }).isRequired
+  text: PropTypes.shape({ value: PropTypes.string }).isRequired,
+  nokhanPresent: PropTypes.shape({ present: PropTypes.string }),
+  dancePresent: PropTypes.shape({ present: PropTypes.string }),
+  numberOfPercussion: PropTypes.shape({ value: PropTypes.string })
 };
 
 App.defaultProps = {
-  shodanType: { value: "" }
+  shodanType: { value: "" },
+  nokhanPresent: { present: "Yes" },
+  dancePresent: { present: "Yes" },
+  numberOfPercussion: { value: "" }
 };
 
 // If main app
