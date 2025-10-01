@@ -112,17 +112,21 @@ export default class App extends Component {
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const textIsCongruent = /[^-]congruent/.test(this.props.text.value);
-    const nohkanIsPresent = this.props.nokhanPresent?.present === "Yes";
-    const danceIsPresent = this.props.dancePresent?.present === "Yes";
-    // eslint doesn't like the ?? operator
-    const taikoIsIncluded =
-      this.props.numberOfPercussion?.value?.includes("Taiko");
-    const taikoIsPresent = taikoIsIncluded !== undefined && taikoIsIncluded;
-    const percussionIsIncluded =
-      this.props.numberOfPercussion?.value?.includes("tsuzumi");
-    const percussionIsPresent =
-      percussionIsIncluded !== undefined && percussionIsIncluded;
-    const textIsPresent = !!this.props.text;
+    const nohkanIsPresent = this.props.phrases.some(
+      (phrase) => phrase.nohkan.grid.length > 0
+    );
+    const danceIsPresent = this.props.phrases.some(
+      (phrase) => phrase.dance.grid.length > 0
+    );
+    const taikoIsPresent = this.props.phrases.some(
+      (phrase) => phrase.taiko.grid.length > 0
+    );
+    const percussionIsPresent = this.props.phrases.some(
+      (phrase) => phrase.percussion.grid.length > 0
+    );
+    const textIsPresent = this.props.phrases.some(
+      (phrase) => phrase.text.grid.length > 0
+    );
 
     const score =
       this.props.phrases && this.props.phrases.length > 0
