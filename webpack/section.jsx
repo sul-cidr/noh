@@ -109,8 +109,6 @@ export default class App extends Component {
   }
 
   render() {
-    console.log(this.props.phrases);
-
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const textIsCongruent = /[^-]congruent/.test(this.props.text.value);
