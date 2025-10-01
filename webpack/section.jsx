@@ -109,23 +109,25 @@ export default class App extends Component {
   }
 
   render() {
+    console.log(this.props.phrases);
+
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const textIsCongruent = /[^-]congruent/.test(this.props.text.value);
     const nohkanIsPresent = this.props.phrases.some(
-      (phrase) => phrase.nohkan.grid.length > 0
+      (phrase) => phrase.nohkan?.grid?.length > 0
     );
     const danceIsPresent = this.props.phrases.some(
-      (phrase) => phrase.dance.grid.length > 0
+      (phrase) => phrase.dance?.grid?.length > 0
     );
     const taikoIsPresent = this.props.phrases.some(
-      (phrase) => phrase.taiko.grid.length > 0
+      (phrase) => phrase.taiko?.grid?.length > 0
     );
     const percussionIsPresent = this.props.phrases.some(
-      (phrase) => phrase.percussion.grid.length > 0
+      (phrase) => phrase.percussion?.grid?.length > 0
     );
     const textIsPresent = this.props.phrases.some(
-      (phrase) => phrase.text.grid.length > 0
+      (phrase) => phrase.text?.grid?.length > 0
     );
 
     const score =
