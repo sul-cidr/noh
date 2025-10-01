@@ -193,9 +193,7 @@ class ScoreControls extends Component {
                     onKeyPress={null}
                   />
                   <label htmlFor="scorePercussion">
-                    <span className="custom-checkbox__text">
-                      Ōtsu-Kotsuzumi
-                    </span>
+                    <span className="custom-checkbox__text">Ō-Kotsuzumi</span>
                   </label>
                 </div>
               </li>

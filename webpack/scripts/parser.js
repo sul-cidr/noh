@@ -164,7 +164,7 @@ export const extractCells = (cells) => {
 
 export const extractRows = (rows) =>
   rows.reduce((obj, row) => {
-    const rowLabel = row[0] === "Ōtsu-Kotsuzumi" ? "percussion" : row[0];
+    const rowLabel = row[0] === "Ō-Kotsuzumi" ? "percussion" : row[0];
     const rowObj = Object.assign(obj, {
       [toCamelCase(rowLabel)]: {
         value: row[0].toLowerCase().includes("time")
