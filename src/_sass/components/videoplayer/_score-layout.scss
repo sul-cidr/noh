@@ -48,6 +48,7 @@
 }
 
 .measure__channel {
+  border-bottom: $border;
   height: $score-channel-height;
 
   @include flex-container($justify: flex-start);
@@ -92,7 +93,6 @@
 }
 
 .cell {
-  border-bottom: $border;
   border-right: $border;
   color: $brown;
   height: $score-channel-height;

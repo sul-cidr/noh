@@ -89,6 +89,7 @@
   border-right: $border;
   font-weight: 700;
   width: 8.5rem;
+  margin-top: 0.1rem;
 
   @include text(tn);
   @include uppercase();
