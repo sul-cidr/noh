@@ -20,7 +20,13 @@ exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
     className="measure__channel measure__channel--percussion"
     key="percussionLabel"
   >
-    Ōtsu-Kotsuzumi
+    Ō-Kotsuzumi
+  </div>
+  <div
+    className="measure__channel measure__channel--taiko"
+    key="taikoLabel"
+  >
+    Taiko
   </div>
   <div
     className="measure__channel measure__channel--nohkan"
@@ -40,7 +46,14 @@ exports[`<MeasureLabelContainer> renders as expected by default 1`] = `
 exports[`<MeasureLabelContainer> renders as expected by default with all toggles off 1`] = `
 <div
   className="measure__label-container"
-/>
+>
+  <div
+    className="measure__channel measure__channel--taiko"
+    key="taikoLabel"
+  >
+    Taiko
+  </div>
+</div>
 `;
 
 exports[`<MeasureLabelContainer> renders as expected for next 1`] = `

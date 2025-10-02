@@ -133445,6 +133445,11 @@ exports[`<Section> that is first in play renders as expected 1`] = `
     </p>
 </section>
 "
+  nohkanPresent={
+    {
+      "present": "Yes",
+    }
+  }
   nokhanPresent={
     {
       "present": "Yes",
@@ -135184,19 +135189,19 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                                 className="react-tabs__tab"
                                 disabledClassName="react-tabs__tab--disabled"
                                 focus={false}
-                                id="react-tabs-28"
+                                id="react-tabs-24"
                                 key=".$Introduction"
-                                panelId="react-tabs-29"
+                                panelId="react-tabs-25"
                                 selected={true}
                                 selectedClassName="react-tabs__tab--selected"
                                 tabRef={[Function]}
                               >
                                 <li
-                                  aria-controls="react-tabs-29"
+                                  aria-controls="react-tabs-25"
                                   aria-disabled="false"
                                   aria-selected="true"
                                   className="react-tabs__tab react-tabs__tab--selected"
-                                  id="react-tabs-28"
+                                  id="react-tabs-24"
                                   role="tab"
                                   tabIndex="0"
                                 >
@@ -135207,19 +135212,19 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                                 className="react-tabs__tab"
                                 disabledClassName="react-tabs__tab--disabled"
                                 focus={false}
-                                id="react-tabs-30"
+                                id="react-tabs-26"
                                 key=".$Part I"
-                                panelId="react-tabs-31"
+                                panelId="react-tabs-27"
                                 selected={false}
                                 selectedClassName="react-tabs__tab--selected"
                                 tabRef={[Function]}
                               >
                                 <li
-                                  aria-controls="react-tabs-31"
+                                  aria-controls="react-tabs-27"
                                   aria-disabled="false"
                                   aria-selected="false"
                                   className="react-tabs__tab"
-                                  id="react-tabs-30"
+                                  id="react-tabs-26"
                                   role="tab"
                                   tabIndex={null}
                                 >
@@ -135230,19 +135235,19 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                                 className="react-tabs__tab"
                                 disabledClassName="react-tabs__tab--disabled"
                                 focus={false}
-                                id="react-tabs-32"
+                                id="react-tabs-28"
                                 key=".$Part II"
-                                panelId="react-tabs-33"
+                                panelId="react-tabs-29"
                                 selected={false}
                                 selectedClassName="react-tabs__tab--selected"
                                 tabRef={[Function]}
                               >
                                 <li
-                                  aria-controls="react-tabs-33"
+                                  aria-controls="react-tabs-29"
                                   aria-disabled="false"
                                   aria-selected="false"
                                   className="react-tabs__tab"
-                                  id="react-tabs-32"
+                                  id="react-tabs-28"
                                   role="tab"
                                   tabIndex={null}
                                 >
@@ -135254,7 +135259,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                           <TabPanel
                             className="react-tabs__tab-panel"
                             forceRender={false}
-                            id="react-tabs-29"
+                            id="react-tabs-25"
                             key=".1:$<section id=0"intro"  class=0"tabbed-narrative">
     <p>
     Intro. Lorem ipsum dolor sit amet, <time datetime=0"00=200=210.000" title=0"00=210=298.987">consectetur</time> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -135262,12 +135267,12 @@ exports[`<Section> that is first in play renders as expected 1`] = `
 </section>"
                             selected={true}
                             selectedClassName="react-tabs__tab-panel--selected"
-                            tabId="react-tabs-28"
+                            tabId="react-tabs-24"
                           >
                             <div
-                              aria-labelledby="react-tabs-28"
+                              aria-labelledby="react-tabs-24"
                               className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                              id="react-tabs-29"
+                              id="react-tabs-25"
                               role="tabpanel"
                             >
                               <Markup
@@ -135341,7 +135346,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                           <TabPanel
                             className="react-tabs__tab-panel"
                             forceRender={false}
-                            id="react-tabs-31"
+                            id="react-tabs-27"
                             key=".1:$<section id=0"part1"  class=0"tabbed-narrative">
     <p>
     Part I. Lorem ipsum dolor sit amet, <time datetime=0"00=200=220" title=0"00=211=298.987">consectetur</time> adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -135349,19 +135354,19 @@ exports[`<Section> that is first in play renders as expected 1`] = `
 </section>"
                             selected={false}
                             selectedClassName="react-tabs__tab-panel--selected"
-                            tabId="react-tabs-30"
+                            tabId="react-tabs-26"
                           >
                             <div
-                              aria-labelledby="react-tabs-30"
+                              aria-labelledby="react-tabs-26"
                               className="react-tabs__tab-panel"
-                              id="react-tabs-31"
+                              id="react-tabs-27"
                               role="tabpanel"
                             />
                           </TabPanel>
                           <TabPanel
                             className="react-tabs__tab-panel"
                             forceRender={false}
-                            id="react-tabs-33"
+                            id="react-tabs-29"
                             key=".1:$<section id=0"part2"  class=0"tabbed-narrative">
     <p>
     Part II. Lorem ipsum dolor sit amet, <time datetime=0"00=200=230.303" title=0"00=212=298.987">consectetur</time> adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -135369,12 +135374,12 @@ exports[`<Section> that is first in play renders as expected 1`] = `
 </section>"
                             selected={false}
                             selectedClassName="react-tabs__tab-panel--selected"
-                            tabId="react-tabs-32"
+                            tabId="react-tabs-28"
                           >
                             <div
-                              aria-labelledby="react-tabs-32"
+                              aria-labelledby="react-tabs-28"
                               className="react-tabs__tab-panel"
-                              id="react-tabs-33"
+                              id="react-tabs-29"
                               role="tabpanel"
                             />
                           </TabPanel>
@@ -135445,7 +135450,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
             </Connect(HighlightedTextContainer)>
           </div>
           <div
-            className="shodan-timeline__container is-open"
+            className="shodan-timeline__container "
             onClick={[Function]}
             onKeyPress={null}
             role="presentation"
@@ -141428,14 +141433,20 @@ exports[`<Section> that is first in play renders as expected 1`] = `
             No score in this shōdan
           </div>
           <Connect(ScoreControls)
+            danceIsPresent={false}
             duration={553}
             isPrevSentenceOn={false}
             key="score-controls"
+            nohkanIsPresent={false}
+            percussionIsPresent={false}
             phrases={[]}
             startTime={1193}
+            taikoIsPresent={false}
+            textIsPresent={false}
           >
             <ScoreControls
               currentTime={1193}
+              danceIsPresent={false}
               duration={553}
               isBeatOn={true}
               isDanceOn={true}
@@ -141443,9 +141454,14 @@ exports[`<Section> that is first in play renders as expected 1`] = `
               isNohkanOn={true}
               isPercussionOn={true}
               isPrevSentenceOn={false}
+              isTaikoOn={true}
               isTextOn={true}
+              nohkanIsPresent={false}
+              percussionIsPresent={false}
               phrases={[]}
               startTime={1193}
+              taikoIsPresent={false}
+              textIsPresent={false}
               updateScoreToggles={[Function]}
               updateStartTime={[Function]}
             >
@@ -141591,7 +141607,8 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
                             id="scoreText"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -141613,7 +141630,8 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
                             id="scorePercussion"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -141625,7 +141643,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                             <span
                               className="custom-checkbox__text"
                             >
-                              Ōtsu-Kotsuzumi
+                              Ō-Kotsuzumi
                             </span>
                           </label>
                         </div>
@@ -141635,7 +141653,31 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
+                            id="scoreTaiko"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scoreTaiko"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Taiko
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={false}
+                            disabled={true}
                             id="scoreNohkan"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -141657,7 +141699,8 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
                             id="scoreDance"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -141861,6 +141904,11 @@ exports[`<Section> that is last in play renders as expected 1`] = `
   </p>
 </section>
 "
+  nohkanPresent={
+    {
+      "present": "Yes",
+    }
+  }
   nokhanPresent={{}}
   numberOfPercussion={{}}
   numberVoices={{}}
@@ -143658,19 +143706,19 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                                 className="react-tabs__tab"
                                 disabledClassName="react-tabs__tab--disabled"
                                 focus={false}
-                                id="react-tabs-34"
+                                id="react-tabs-30"
                                 key=".$Aspects"
-                                panelId="react-tabs-35"
+                                panelId="react-tabs-31"
                                 selected={true}
                                 selectedClassName="react-tabs__tab--selected"
                                 tabRef={[Function]}
                               >
                                 <li
-                                  aria-controls="react-tabs-35"
+                                  aria-controls="react-tabs-31"
                                   aria-disabled="false"
                                   aria-selected="true"
                                   className="react-tabs__tab react-tabs__tab--selected"
-                                  id="react-tabs-34"
+                                  id="react-tabs-30"
                                   role="tab"
                                   tabIndex="0"
                                 >
@@ -143681,19 +143729,19 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                                 className="react-tabs__tab"
                                 disabledClassName="react-tabs__tab--disabled"
                                 focus={false}
-                                id="react-tabs-36"
+                                id="react-tabs-32"
                                 key=".$Intermedia"
-                                panelId="react-tabs-37"
+                                panelId="react-tabs-33"
                                 selected={false}
                                 selectedClassName="react-tabs__tab--selected"
                                 tabRef={[Function]}
                               >
                                 <li
-                                  aria-controls="react-tabs-37"
+                                  aria-controls="react-tabs-33"
                                   aria-disabled="false"
                                   aria-selected="false"
                                   className="react-tabs__tab"
-                                  id="react-tabs-36"
+                                  id="react-tabs-32"
                                   role="tab"
                                   tabIndex={null}
                                 >
@@ -143705,7 +143753,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                           <TabPanel
                             className="react-tabs__tab-panel"
                             forceRender={false}
-                            id="react-tabs-35"
+                            id="react-tabs-31"
                             key=".1:$<section id=0"Aspects"  class=0"tabbed-narrative">
   <div class=0"section-introduction">
     <div class=0"section-introduction__term">Synopsis</div>
@@ -143729,12 +143777,12 @@ exports[`<Section> that is last in play renders as expected 1`] = `
 </section>"
                             selected={true}
                             selectedClassName="react-tabs__tab-panel--selected"
-                            tabId="react-tabs-34"
+                            tabId="react-tabs-30"
                           >
                             <div
-                              aria-labelledby="react-tabs-34"
+                              aria-labelledby="react-tabs-30"
                               className="react-tabs__tab-panel react-tabs__tab-panel--selected"
-                              id="react-tabs-35"
+                              id="react-tabs-31"
                               role="tabpanel"
                             >
                               <Markup
@@ -144005,7 +144053,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                           <TabPanel
                             className="react-tabs__tab-panel"
                             forceRender={false}
-                            id="react-tabs-37"
+                            id="react-tabs-33"
                             key=".1:$<section id=0"intermedia"  class=0"tabbed-narrative">
   <p>
     The exit of the actors and musicians happens in silence. The shite is the
@@ -144024,12 +144072,12 @@ exports[`<Section> that is last in play renders as expected 1`] = `
 </section>"
                             selected={false}
                             selectedClassName="react-tabs__tab-panel--selected"
-                            tabId="react-tabs-36"
+                            tabId="react-tabs-32"
                           >
                             <div
-                              aria-labelledby="react-tabs-36"
+                              aria-labelledby="react-tabs-32"
                               className="react-tabs__tab-panel"
-                              id="react-tabs-37"
+                              id="react-tabs-33"
                               role="tabpanel"
                             />
                           </TabPanel>
@@ -144100,7 +144148,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
             </Connect(HighlightedTextContainer)>
           </div>
           <div
-            className="shodan-timeline__container is-open"
+            className="shodan-timeline__container "
             onClick={[Function]}
             onKeyPress={null}
             role="presentation"
@@ -150083,14 +150131,20 @@ exports[`<Section> that is last in play renders as expected 1`] = `
             No score in this shōdan
           </div>
           <Connect(ScoreControls)
+            danceIsPresent={false}
             duration={156}
             isPrevSentenceOn={false}
             key="score-controls"
+            nohkanIsPresent={false}
+            percussionIsPresent={false}
             phrases={[]}
             startTime={3536}
+            taikoIsPresent={false}
+            textIsPresent={false}
           >
             <ScoreControls
               currentTime={3536}
+              danceIsPresent={false}
               duration={156}
               isBeatOn={true}
               isDanceOn={true}
@@ -150098,9 +150152,14 @@ exports[`<Section> that is last in play renders as expected 1`] = `
               isNohkanOn={true}
               isPercussionOn={true}
               isPrevSentenceOn={false}
+              isTaikoOn={true}
               isTextOn={true}
+              nohkanIsPresent={false}
+              percussionIsPresent={false}
               phrases={[]}
               startTime={3536}
+              taikoIsPresent={false}
+              textIsPresent={false}
               updateScoreToggles={[Function]}
               updateStartTime={[Function]}
             >
@@ -150246,7 +150305,8 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
                             id="scoreText"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -150268,7 +150328,8 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
                             id="scorePercussion"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -150280,7 +150341,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                             <span
                               className="custom-checkbox__text"
                             >
-                              Ōtsu-Kotsuzumi
+                              Ō-Kotsuzumi
                             </span>
                           </label>
                         </div>
@@ -150290,7 +150351,31 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
+                            id="scoreTaiko"
+                            onChange={[Function]}
+                            onKeyPress={null}
+                            type="checkbox"
+                          />
+                          <label
+                            htmlFor="scoreTaiko"
+                          >
+                            <span
+                              className="custom-checkbox__text"
+                            >
+                              Taiko
+                            </span>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div
+                          className="custom-checkbox"
+                        >
+                          <input
+                            checked={false}
+                            disabled={true}
                             id="scoreNohkan"
                             onChange={[Function]}
                             onKeyPress={null}
@@ -150312,7 +150397,8 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                           className="custom-checkbox"
                         >
                           <input
-                            checked={true}
+                            checked={false}
+                            disabled={true}
                             id="scoreDance"
                             onChange={[Function]}
                             onKeyPress={null}

@@ -372,14 +372,14 @@ App.propTypes = {
     })
   ).isRequired,
   text: PropTypes.shape({ value: PropTypes.string }).isRequired,
-  nokhanPresent: PropTypes.shape({ present: PropTypes.string }),
+  nohkanPresent: PropTypes.shape({ present: PropTypes.string }),
   dancePresent: PropTypes.shape({ present: PropTypes.string }),
   numberOfPercussion: PropTypes.shape({ value: PropTypes.string })
 };
 
 App.defaultProps = {
   shodanType: { value: "" },
-  nokhanPresent: { present: "Yes" },
+  nohkanPresent: { present: "Yes" },
   dancePresent: { present: "Yes" },
   numberOfPercussion: { value: "" }
 };

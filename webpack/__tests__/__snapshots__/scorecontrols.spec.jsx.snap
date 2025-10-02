@@ -115,6 +115,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
           >
             <input
               checked={true}
+              disabled={false}
               id="scoreText"
               onChange={[Function]}
               onKeyPress={null}
@@ -137,6 +138,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
           >
             <input
               checked={true}
+              disabled={false}
               id="scorePercussion"
               onChange={[Function]}
               onKeyPress={null}
@@ -148,7 +150,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
               <span
                 className="custom-checkbox__text"
               >
-                Ōtsu-Kotsuzumi
+                Ō-Kotsuzumi
               </span>
             </label>
           </div>
@@ -159,6 +161,30 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
           >
             <input
               checked={true}
+              disabled={false}
+              id="scoreTaiko"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreTaiko"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Taiko
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              disabled={false}
               id="scoreNohkan"
               onChange={[Function]}
               onKeyPress={null}
@@ -181,6 +207,7 @@ exports[`<ScoreControls> renders as expected by default 1`] = `
           >
             <input
               checked={true}
+              disabled={false}
               id="scoreDance"
               onChange={[Function]}
               onKeyPress={null}
@@ -371,6 +398,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
           >
             <input
               checked={true}
+              disabled={false}
               id="scoreText"
               onChange={[Function]}
               onKeyPress={null}
@@ -393,6 +421,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
           >
             <input
               checked={true}
+              disabled={false}
               id="scorePercussion"
               onChange={[Function]}
               onKeyPress={null}
@@ -404,7 +433,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
               <span
                 className="custom-checkbox__text"
               >
-                Ōtsu-Kotsuzumi
+                Ō-Kotsuzumi
               </span>
             </label>
           </div>
@@ -415,6 +444,30 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
           >
             <input
               checked={true}
+              disabled={false}
+              id="scoreTaiko"
+              onChange={[Function]}
+              onKeyPress={null}
+              type="checkbox"
+            />
+            <label
+              htmlFor="scoreTaiko"
+            >
+              <span
+                className="custom-checkbox__text"
+              >
+                Taiko
+              </span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <div
+            className="custom-checkbox"
+          >
+            <input
+              checked={true}
+              disabled={false}
               id="scoreNohkan"
               onChange={[Function]}
               onKeyPress={null}
@@ -437,6 +490,7 @@ exports[`<ScoreControls> renders as expected by default at the end of the durati
           >
             <input
               checked={true}
+              disabled={false}
               id="scoreDance"
               onChange={[Function]}
               onKeyPress={null}
@@ -1411,6 +1465,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
   >
     <ScoreControls
       currentTime={1192}
+      danceIsPresent={true}
       duration={2000}
       isBeatOn={true}
       isDanceOn={true}
@@ -1418,7 +1473,10 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={false}
+      isTaikoOn={true}
       isTextOn={true}
+      nohkanIsPresent={true}
+      percussionIsPresent={true}
       phrases={
         [
           {
@@ -2298,6 +2356,8 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
         ]
       }
       startTime={1192}
+      taikoIsPresent={true}
+      textIsPresent={true}
       updateScoreToggles={[Function]}
       updateStartTime={[Function]}
     >
@@ -2444,6 +2504,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                 >
                   <input
                     checked={true}
+                    disabled={false}
                     id="scoreText"
                     onChange={[Function]}
                     onKeyPress={null}
@@ -2466,6 +2527,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                 >
                   <input
                     checked={true}
+                    disabled={false}
                     id="scorePercussion"
                     onChange={[Function]}
                     onKeyPress={null}
@@ -2477,7 +2539,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                     <span
                       className="custom-checkbox__text"
                     >
-                      Ōtsu-Kotsuzumi
+                      Ō-Kotsuzumi
                     </span>
                   </label>
                 </div>
@@ -2488,6 +2550,30 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                 >
                   <input
                     checked={true}
+                    disabled={false}
+                    id="scoreTaiko"
+                    onChange={[Function]}
+                    onKeyPress={null}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="scoreTaiko"
+                  >
+                    <span
+                      className="custom-checkbox__text"
+                    >
+                      Taiko
+                    </span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="custom-checkbox"
+                >
+                  <input
+                    checked={true}
+                    disabled={false}
                     id="scoreNohkan"
                     onChange={[Function]}
                     onKeyPress={null}
@@ -2510,6 +2596,7 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                 >
                   <input
                     checked={true}
+                    disabled={false}
                     id="scoreDance"
                     onChange={[Function]}
                     onKeyPress={null}
