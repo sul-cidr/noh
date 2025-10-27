@@ -125,7 +125,8 @@ export default class App extends Component {
       (phrase) => phrase.percussion?.grid?.length > 0
     );
     const textIsPresent = this.props.phrases.some(
-      (phrase) => phrase.text?.grid?.length > 0
+      (phrase) =>
+        phrase.text?.grid?.length > 0 || phrase.syllableText?.grid?.length > 0
     );
 
     const score =
