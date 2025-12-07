@@ -177,11 +177,12 @@ export const extractRows = (rows) =>
   }, {});
 
 export const processPhrases = (data) => {
+  const sectionName = data[0][1];
   const rows = data.slice(1); // data[0] has section name info
   return [...Array(rows.length).keys()] // range(rows.length)
     .map((idx) => {
       const row = rows[idx];
-      if (row[0].toLowerCase() === "phrase") {
+      if (row[0].toLowerCase().trim() === "phrase") {
         const values = extractRows(rows.slice(idx + 1, idx + 9));
         Object.assign(values, { phrase: row[1] });
         return values;
