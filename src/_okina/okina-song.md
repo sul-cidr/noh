@@ -1,5 +1,5 @@
 ---
-title: Okina Song 1
+title: Okina Song
 play: Okina
 layout: section
 ---
