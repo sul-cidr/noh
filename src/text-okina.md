@@ -544,11 +544,11 @@ permalink: /text-okina/
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>The Spirit of the Pine and the Spirit of Bamboo:</h5>
+              <h5>Spirits of the Pine and Bamboo:</h5>
               <em>KOKOROETE SŌRŌ.</em>
             </td>
             <td class="content-table__column">
-              <h5>The Spirit of the Pine and the Spirit of Bamboo:</h5>
+              <h5>Spirits of the Pine and Bamboo:</h5>
               Certainly, we will.
             </td>
           </tr>
@@ -630,11 +630,11 @@ permalink: /text-okina/
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Spirit of the Pine and Spirit of the Bamboo:</h5>
+              <h5>Spirits of the Pine and Bamboo:</h5>
               <em>KOKOROETE-SŌRŌ.</em>
             </td>
             <td class="content-table__column">
-              <h5>Spirit of the Pine and Spirit of the Bamboo:</h5>
+              <h5>Spirits of the Pine and Bamboo:</h5>
               Certainly we will do so.
             </td>
           </tr>
