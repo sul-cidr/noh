@@ -157,12 +157,14 @@ permalink: /about-okina/
       </p>
       
       <h3>Principal References</h3>
+      <!-- prettier-ignore -->
       <div markdown="1">
-      {:footnotes}
-      [^1]: Honda, Yasuji. <em>Okina Sono Hoka</em> [Okina and Others]. Meizendo Shoten, 1958.
-      [^2]: Arai, Tsuneyasu. <em>Kōkotsu to Warai no Geijutsu [Sarugaku]</em> [The Art of Ecstasy and Laughter (Sarugaku)]. Shin-Dokusho-sha, 1993.
-      [^3]: Amano, Fumio. <em>Okina Sarugaku Kenkyū</em> [Research on Okina Sarugaku]. Izumi Shoin, 1995.
-      [^4]: Okimoto, Yukiko. <em>Ranbu no Chūsei</em> [The Medieval Age of Wild Dance]. Yoshikawa Kōbunkan, 2016.
+* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+{:footnotes}
+[^1]: Honda, Yasuji. <em>Okina Sono Hoka</em> [Okina and Others]. Meizendo Shoten, 1958.
+[^2]: Arai, Tsuneyasu. <em>Kōkotsu to Warai no Geijutsu [Sarugaku]</em> [The Art of Ecstasy and Laughter (Sarugaku)]. Shin-Dokusho-sha, 1993.
+[^3]: Amano, Fumio. <em>Okina Sarugaku Kenkyū</em> [Research on Okina Sarugaku]. Izumi Shoin, 1995.
+[^4]: Okimoto, Yukiko. <em>Ranbu no Chūsei</em> [The Medieval Age of Wild Dance]. Yoshikawa Kōbunkan, 2016.
     </div>
   </div>
 </main>
