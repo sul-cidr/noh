@@ -147,15 +147,14 @@ permalink: /about-okina/
       </p>
       
       <h3>Principal References</h3>
-
       <!-- prettier-ignore -->
       <div markdown="1">
 * Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-{:footnotes}
-[^1]: The play Shunzei Tadanori, which remains in the Noh repertory, as well as the play Kodama Ukifune, which has fallen out of performance, have been attributed to Naitô.  (Goff, p. 186.)
-[^2]: <em>Yama no ha no kokoro mo shirade yuku tsuki wa uwa no sora nite kage ya taenan</em><br>“Will the moon go off into the sky and fade from sight, all unawares of the longing heart at the mountain’s edge?“
-[^3]: <em>Yamagatsu no kakiho aru to mo oriori ni aware wa kakeyo nadeshiko no tsuyu</em> “Though the stakes in this rustic fence are bent this way and that from time to time, allow your thoughts to settle down upon it, dewdrops on the pinks.“
-[^4]: There is another variation in the Noh play from the poem as quoted in Genji. This one is less significant in that it merely changes <em>honobono mitsuru to honobono mieshi</em>. I translated the former version “fading out of view”, but a more explicit version would be something like “which one saw vaguely.” <em>Honobono mieshi</em> has less explicit agency, and could be rendered, “which appeared vaguely.”
+{:footnotes}. 
+[^1]: Honda, Yasuji. *Okina Sono Hoka* (*Okina and Others*). Meizendo Shoten, 1958.
+[^2]: Arai, Tsuneyasu. *Kōkotsu to Warai no Geijutsu Sarugaku* (*The Art of Ecstasy and Laughter* Sarugaku). Shin-Dokusho-sha, 1993.
+[^3]: Amano, Fumio. *Okina Sarugaku Kenkyū* (*Research on* Okina (*Sarugaku*)). Izumi Shoin, 1995.
+[^4]: Okimoto, Yukiko. *Ranbu no Chūsei* (*The Medieval Age of Wild Dance*). Yoshikawa Kōbunkan, 2016.
 </div>
     </div>
   </div>
