@@ -163,6 +163,7 @@ permalink: /about-okina/
 [^2]: Arai, Tsuneyasu. <em>Kōkotsu to Warai no Geijutsu [Sarugaku]</em> [The Art of Ecstasy and Laughter (Sarugaku)]. Shin-Dokusho-sha, 1993.
 [^3]: Amano, Fumio. <em>Okina Sarugaku Kenkyū</em> [Research on Okina Sarugaku]. Izumi Shoin, 1995.
 [^4]: Okimoto, Yukiko. <em>Ranbu no Chūsei</em> [The Medieval Age of Wild Dance]. Yoshikawa Kōbunkan, 2016.
+</div>
     </div>
   </div>
 </main>
