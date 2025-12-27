@@ -66,7 +66,6 @@ permalink: /about-okina/
           </td>
         </tr>
       </table>
-        
       <p>
         The structure thus consists of repeated purifications through dance, as two Okinas, one white and one black, offer prayers and dances.
       </p>
@@ -82,7 +81,6 @@ permalink: /about-okina/
       <p>
         However, when we examine older forms of "Okina," we see the possibility that in the past, Okina and Sanbasō were neither "Okina as being" nor "dancing Okina."
       </p>
-
       <h3>2: The Editorial Art of Okina—The Departure from the "Narrating Okina"</h3>
       <p>
         To state the conclusion first, it is highly likely that Okina, Sanbasō, and even Chichi no Jō (who is not seen in standard modern performances) were once "narrating Okinas." Evidence for this can be seen in the masks themselves. Unlike Noh masks, which are carved from a single piece of wood, the masks for Okina, Sanbasō, and Chichi no Jō are all made with a split jaw (kiri-ago), where the lower jaw is detached from the upper part and connected with cords. In terms of durability, a single piece of wood would naturally be better. Today, the cords are tied tightly so the jaw cannot move, but this defeats the purpose of the split jaw. The function of a split-jaw mask was to be tied loosely, allowing the jaw to move and make it appear as if the wearer is speaking. This suggests that the original significance lay in the Okinas' narration.
@@ -122,7 +120,6 @@ permalink: /about-okina/
       <p>
         <em>Okina</em> is a root of Sarugaku, but it is thought to have reached its present form through a major editorial process. That is why it is difficult to pursue the meaning of the text or to translate it. This was a strategy of Sarugaku, what might be called the "re-magicalization" of "Okina."
       </p>
-      
       <h3>3: <em>Fūryū</em>—A Device to Amplify the Auspiciousness of Okina</h3>
       <p>
         Now, into this abstract and ritualized modern "Okina," a very accessible, short celebratory play is sometimes inserted. This is the "<em>fūryū</em>," which is added for special celebrations. Since the modern era, it is sometimes referred to by the academic term "<em>Kyōgen Fūryū</em>."
@@ -150,14 +147,15 @@ permalink: /about-okina/
       </p>
       
       <h3>Principal References</h3>
+
       <!-- prettier-ignore -->
       <div markdown="1">
 * Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
 {:footnotes}
-[^1]: Honda, Yasuji. *Okina Sono Hoka* Okina and Others. Meizendo Shoten, 1958.  
-[^2]: Arai, Tsuneyasu. *Kōkotsu to Warai no Geijutsu Sarugaku* The Art of Ecstasy and Laughter Sarugaku. Shin-Dokusho-sha, 1993.  
-[^3]: Amano, Fumio. *Okina Sarugaku Kenkyū* Research on Okina Sarugaku. Izumi Shoin, 1995.  
-[^4]: Okimoto, Yukiko. *Ranbu no Chūsei* The Medieval Age of Wild Dance. Yoshikawa Kōbunkan, 2016.  
+[^1]: The play Shunzei Tadanori, which remains in the Noh repertory, as well as the play Kodama Ukifune, which has fallen out of performance, have been attributed to Naitô.  (Goff, p. 186.)
+[^2]: <em>Yama no ha no kokoro mo shirade yuku tsuki wa uwa no sora nite kage ya taenan</em><br>“Will the moon go off into the sky and fade from sight, all unawares of the longing heart at the mountain’s edge?“
+[^3]: <em>Yamagatsu no kakiho aru to mo oriori ni aware wa kakeyo nadeshiko no tsuyu</em> “Though the stakes in this rustic fence are bent this way and that from time to time, allow your thoughts to settle down upon it, dewdrops on the pinks.“
+[^4]: There is another variation in the Noh play from the poem as quoted in Genji. This one is less significant in that it merely changes <em>honobono mitsuru to honobono mieshi</em>. I translated the former version “fading out of view”, but a more explicit version would be something like “which one saw vaguely.” <em>Honobono mieshi</em> has less explicit agency, and could be rendered, “which appeared vaguely.”
 </div>
     </div>
   </div>
