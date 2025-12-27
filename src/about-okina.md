@@ -47,11 +47,9 @@ permalink: /about-okina/
             Tsuru to kame to no yowai nite <br>
             Saiwai kokoro ni makasetari</em>
           </td>
-          <td class="content-table__column">
-            <em>May this place last for a thousand generations, and may we humans also attain a lifespan of a thousand years. Following the long lives of the crane and the turtle, may happiness continue for a thousand, ten thousand years, just as we wish.</em>
-          </td>
         </tr>
       </table>
+      <p><em>May this place last for a thousand generations, and may we humans also attain a lifespan of a thousand years. Following the long lives of the crane and the turtle, may happiness continue for a thousand, ten thousand years, just as we wish.</em></p>
       <p>
         This is a short prayer. Afterwards, the white Okina (Okina) and the black Okina (Sanbasō) appear in sequence, but before each of the two aged men appears, a herald’s dance is performed. Before the white Okina, Senzai (a youth, despite his name meaning "a thousand years!") dances bare-faced. It is a brisk herald’s dance that seems to wash and purify the surroundings with the song and sound of a waterfall. During this, the white Okina dons a white elder mask (jōmen) and performs a shamanic dance centered on foot-stamping, praying for "peace throughout the land and tranquility for the nation."
       </p>
