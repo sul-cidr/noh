@@ -31,7 +31,6 @@ permalink: /about-okina/
       <p>
         This gap between its strict, deified state and its folksy appearance and straightforward joy is the very charm of "Okina," and likely the key to unlocking its mysteries.
       </p>
-      
       <h3>1: The Structure of the Modern Okina</h3>
       <p>
         Let us first examine the progression of a standard, modern performance of "Okina." The actor playing the priest makes a deep bow on stage and sits in his designated position. The box containing the sacred masks is placed before him, and its lid is opened.
@@ -39,16 +38,12 @@ permalink: /about-okina/
       <p>
         The Noh actor playing Okina, first in his role as priest, begins to chant "<em>tōtō tarari tararira...</em>" without a mask. The sounds, said to derive from a form of solfege, are sung like a spell, without forming words. Interspersed within this incantation is the following passage:
       </p>
-       <table class="content-table">
-        <tr class="content-table__row">
-          <td class="content-table__column">
+      <p>>
             <em>Tokoro chiyo made owashimase <br>
             Warera mo senshū samurawau <br>
             Tsuru to kame to no yowai nite <br>
             Saiwai kokoro ni makasetari</em>
-          </td>
-        </tr>
-      </table>
+      </p>>
       <p><em>May this place last for a thousand generations, and may we humans also attain a lifespan of a thousand years. Following the long lives of the crane and the turtle, may happiness continue for a thousand, ten thousand years, just as we wish.</em></p>
       <p>
         This is a short prayer. Afterwards, the white Okina (Okina) and the black Okina (Sanbasō) appear in sequence, but before each of the two aged men appears, a herald’s dance is performed. Before the white Okina, Senzai (a youth, despite his name meaning "a thousand years!") dances bare-faced. It is a brisk herald’s dance that seems to wash and purify the surroundings with the song and sound of a waterfall. During this, the white Okina dons a white elder mask (jōmen) and performs a shamanic dance centered on foot-stamping, praying for "peace throughout the land and tranquility for the nation."
