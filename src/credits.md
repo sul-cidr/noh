@@ -62,7 +62,8 @@ permalink: /credits/
         <strong>Diego Pellecchia</strong>, Kyoto Sangyo University<br />
         <strong>Rebecca Teele Ogamo</strong>, Kongō School<br />
         <strong>AKAMA Ryo</strong>, Ritsumeikan University, Art Research Center,
-        Kyoto
+        Kyoto<br />
+        <strong>OKIMOTO Yukiko</strong>, University of Tokyo
       </p>
     </div>
 
