@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - ./:/opt
+    ports:
+      - "4000:4000"
+    command: >
+        bash -c "yarn dev"
