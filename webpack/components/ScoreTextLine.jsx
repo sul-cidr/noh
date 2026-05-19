@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import CellText from "./CellText";
 import { fillGrid } from "../utils";
 
-const ScoreTextLine = props => {
+const ScoreTextLine = (props) => {
   if (props.textGrid.length === 0) {
     return <CellText text="" length={props.length} />;
   }

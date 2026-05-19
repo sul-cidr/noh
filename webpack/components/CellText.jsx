@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const CellText = props => {
+const CellText = (props) => {
   let typeSpan = null;
   let tooltipSpan = null;
   if (props.voiceType !== "") {

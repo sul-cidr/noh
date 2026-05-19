@@ -11,9 +11,7 @@ permalink: /text-okina/
 
 <main class="page-content">
   <div class="wrapper sidebar-contents">
-    <aside class="sidebar-contents__table">
-      {% include menu-Okina.html %}
-    </aside>
+    <aside class="sidebar-contents__table">{% include menu-Okina.html %}</aside>
 
     <section class="sidebar-contents__section">
       <div class="text-container">
@@ -144,12 +142,15 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              <em>NARUWA TAKI NO MIZU<br />NARUWA TAKI NO MIZU<br />HI WA TERU TO MO</em>
+              <em
+                >NARUWA TAKI NO MIZU<br />NARUWA TAKI NO MIZU<br />HI WA TERU TO
+                MO</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              The water of the fall booms,<br />the water of the fall resounds<br />even
-              as the sun shines!
+              The water of the fall booms,<br />the water of the fall
+              resounds<br />even as the sun shines!
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -176,14 +177,18 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td class="content-table__column">Senzai Performs: Senzai Song 2</td>
+            <td class="content-table__column">
+              Senzai Performs: Senzai Song 2
+            </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              <em>TOKORO CHIYOMADE OWASHIMASE,<br />WARERA MO SENSHIU SAMURAWA-N<br />NARU WA
-                TAKI NO MIZU, HI WA TERU TO MO</em>
+              <em
+                >TOKORO CHIYOMADE OWASHIMASE,<br />WARERA MO SENSHIU
+                SAMURAWA-N<br />NARU WA TAKI NO MIZU, HI WA TERU TO MO</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
@@ -261,8 +266,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Okina:</h5>
-              <em>CHIWAYA FURU<br />KAMI NO HIKOSA NO MUKASHI YORI<br />WAGA KONO TOKORO
-                HISASHIKARE TOZO IWAI</em>
+              <em
+                >CHIWAYA FURU<br />KAMI NO HIKOSA NO MUKASHI YORI<br />WAGA KONO
+                TOKORO HISASHIKARE TOZO IWAI</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Okina:</h5>
@@ -291,17 +298,19 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Okina:</h5>
-              <em>SENNEN NO TSURU WA<br />MANZAIRAKU TO UTŌTARI<br />MATA BANDAI NO IKE NO
-                KAME WA<br />KŌ NI SANKYOKU WO SONAETARI<br />TENGA TAIHEI KOKUDO AN-NON
-                NO<br />KON-NICHI NO GOKITŌ NARI</em>
+              <em
+                >SENNEN NO TSURU WA<br />MANZAIRAKU TO UTŌTARI<br />MATA BANDAI
+                NO IKE NO KAME WA<br />KŌ NI SANKYOKU WO SONAETARI<br />TENGA
+                TAIHEI KOKUDO AN-NON NO<br />KON-NICHI NO GOKITŌ NARI</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Okina:</h5>
               The crane of a thousand years<br />sings the Manzairaku, Ten
               Thousand Years!<br />And the ten thousand year tortoise of the
               lake<br />has on its back the three poles of Heaven, Earth, and
-              Man.<br />All under heaven at peace, the land secure:<br />This our
-              prayer today!
+              Man.<br />All under heaven at peace, the land secure:<br />This
+              our prayer today!
             </td>
           </tr>
           <tr class="content-table__row--header">
@@ -349,8 +358,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Okina:</h5>
-              <em>SENSHIU BANZEI NO<br />YOROKOBI NO MAI NAREBA<br />HITO MAI-MAŌ
-                MANZAIRAKU</em>
+              <em
+                >SENSHIU BANZEI NO<br />YOROKOBI NO MAI NAREBA<br />HITO MAI-MAŌ
+                MANZAIRAKU</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Okina:</h5>
@@ -405,16 +416,18 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>YARA YARA MEDETA YA,<br />MEDETAYA NA.<br />MIYO MO OSAMARI<br />NAMI KAZE
-                SHIZUKA NI<br />KAZASHI NO HANA MO<br />SAITARIYA<br />GENI MO SA ARI<br />YAYO-GARI
-                MO SO YO NO</em>
+              <em
+                >YARA YARA MEDETA YA,<br />MEDETAYA NA.<br />MIYO MO OSAMARI<br />NAMI
+                KAZE SHIZUKA NI<br />KAZASHI NO HANA MO<br />SAITARIYA<br />GENI
+                MO SA ARI<br />YAYO-GARI MO SO YO NO</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
               How wonderful! Wonderful and auspicious,<br />auspicious
-              indeed!<br />The reign is at peace:<br />waves and wind,
-              quiet.<br />Flowers to adorn our hair<br />are in bloom!<br />Indeed
-              it is so,<br />indeed it is so!
+              indeed!<br />The reign is at peace:<br />waves and wind, quiet.<br />Flowers
+              to adorn our hair<br />are in bloom!<br />Indeed it is so,<br />indeed
+              it is so!
             </td>
           </tr>
           <tr class="content-table__row--header">
@@ -424,16 +437,19 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>YARE YARE MEDETAI KOTO KANA<br />KONNITTA KYOTO SHIRITSU<br />GEIJUTSU
-                DAIGAKU ITEN KINENBI NAREBA,<br />WARERA GOTOKI MONO MADEMO MAKARI
-                IDE,<br />TOMO NI OIWAI MŌSANTO<br />KORE MADE MAIRITE SŌRŌ</em>
+              <em
+                >YARE YARE MEDETAI KOTO KANA<br />KONNITTA KYOTO SHIRITSU<br />GEIJUTSU
+                DAIGAKU ITEN KINENBI NAREBA,<br />WARERA GOTOKI MONO MADEMO
+                MAKARI IDE,<br />TOMO NI OIWAI MŌSANTO<br />KORE MADE MAIRITE
+                SŌRŌ</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
               What a wonderful and auspicious occasion indeed!<br />As today is
               the day commemorating<br />the relocation of Kyoto City University
-              of Arts,<br />even such as we have come here too,<br />to celebrate
-              together along with everyone else.
+              of Arts,<br />even such as we have come here too,<br />to
+              celebrate together along with everyone else.
             </td>
           </tr>
           <tr class="content-table__row--header">
@@ -445,8 +461,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>IYA, TAE NARU NE NO KIKOETE-SŌRŌ,<br />SHIBARAKU KORE NITE MATŌ TO
-                ZONZURU.</em>
+              <em
+                >IYA, TAE NARU NE NO KIKOETE-SŌRŌ,<br />SHIBARAKU KORE NITE MATŌ
+                TO ZONZURU.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
@@ -465,15 +483,17 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
-              In testament to the reign<br />rightly continuing as from long
-              ago
+              In testament to the reign<br />rightly continuing as from long ago
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Spirits of the Pine and Bamboo:</h5>
-              <em>TAKE NO YOWAI MO CHIYO KAKETE<br />MATSU MO YOROZUYO NOBINU RAN</em>
+              <em
+                >TAKE NO YOWAI MO CHIYO KAKETE<br />MATSU MO YOROZUYO NOBINU
+                RAN</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Spirits of the Pine and Bamboo:</h5>
@@ -490,7 +510,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>SORE E GOKIGEN YŌ IDERARETARU WA,<br />IKANARU HITO NITE GOZASŌRŌZO</em>
+              <em
+                >SORE E GOKIGEN YŌ IDERARETARU WA,<br />IKANARU HITO NITE
+                GOZASŌRŌZO</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
@@ -502,11 +525,13 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
-              <em>KORE WA SENNEN NO YOWAI WO TAMOTSU<br />MATSU TAKE NO SEI NARU GA,<br />KONNITTA
-                KYOTO SHIRITSU GEIJUTSU DAIGAKU<br />ITEN KAIKŌ NO MEDETAKI ORIKARA
-                NAREBA<br />ON-GAKUCHŌ WO HAJIME, GO-RAIHIN,<br />GO-RAIJŌ NO KATAGATA
-                NI,<br />YOWAI WO SASAGE-MŌSŌ TO ZONJI,<br />MATSUTAKE NO SEI MOROTOMO
-                NI</em>
+              <em
+                >KORE WA SENNEN NO YOWAI WO TAMOTSU<br />MATSU TAKE NO SEI NARU
+                GA,<br />KONNITTA KYOTO SHIRITSU GEIJUTSU DAIGAKU<br />ITEN
+                KAIKŌ NO MEDETAKI ORIKARA NAREBA<br />ON-GAKUCHŌ WO HAJIME,
+                GO-RAIHIN,<br />GO-RAIJŌ NO KATAGATA NI,<br />YOWAI WO
+                SASAGE-MŌSŌ TO ZONJI,<br />MATSUTAKE NO SEI MOROTOMO NI</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
@@ -534,7 +559,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>SORE WA ICHIDAN TO MEDETAKU SŌRŌ,<br />MAZU KŌKŌ ON-TŌRI SŌRAE</em>
+              <em
+                >SORE WA ICHIDAN TO MEDETAKU SŌRŌ,<br />MAZU KŌKŌ ON-TŌRI
+                SŌRAE</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
@@ -556,7 +584,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>SA ARABA MAZU MATSU NO MEDETAKI IWARE<br />KATTATE ON-KIKASE SŌRAE.</em>
+              <em
+                >SA ARABA MAZU MATSU NO MEDETAKI IWARE<br />KATTATE ON-KIKASE
+                SŌRAE.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
@@ -568,10 +599,12 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
-              <em>SA ARABA YAGATE KATATTE KIKASE MŌSŌZURU NITE SŌRŌ,<br />SŌJITE MATSU NO
-                MEDETAI TO MŌSU SHISAI WA,<br />ISSUN NOBUREBA IRO TOKOSHINAE NI
-                SHITE,<br />JŌ SENNEN MANNEN NO YOWAI WO TAMOCHI,<br />NANBŌ MEDETAKI
-                MONO NITE SŌRŌ.</em>
+              <em
+                >SA ARABA YAGATE KATATTE KIKASE MŌSŌZURU NITE SŌRŌ,<br />SŌJITE
+                MATSU NO MEDETAI TO MŌSU SHISAI WA,<br />ISSUN NOBUREBA IRO
+                TOKOSHINAE NI SHITE,<br />JŌ SENNEN MANNEN NO YOWAI WO
+                TAMOCHI,<br />NANBŌ MEDETAKI MONO NITE SŌRŌ.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
@@ -586,8 +619,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>ICHIDAN TO MEDETŌ SŌRŌ<br />MATA, TAKE NO MEDETAKI SHISAI,
-                ON-MONOGATARI-SŌRAE.</em>
+              <em
+                >ICHIDAN TO MEDETŌ SŌRŌ<br />MATA, TAKE NO MEDETAKI SHISAI,
+                ON-MONOGATARI-SŌRAE.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
@@ -599,10 +634,12 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Spirit of Bamboo:</h5>
-              <em>KOKOROE MŌSHITE SŌRŌ<br />SŌJITE, TAKE NO MEDETAKI SHISAI TO MŌSU WA,<br />UJŌ-MUJŌ
-                NO TAGUI NAREBA,<br />OYA NI MASARU MONO MARENARI,<br />SHIKARU NI TAKE
-                WA, OYA YORI KANARAZU NOBIRU-MONO TO,<br />JUMYŌ MEDETAKI MONO NITE
-                SŌRŌ.</em>
+              <em
+                >KOKOROE MŌSHITE SŌRŌ<br />SŌJITE, TAKE NO MEDETAKI SHISAI TO
+                MŌSU WA,<br />UJŌ-MUJŌ NO TAGUI NAREBA,<br />OYA NI MASARU MONO
+                MARENARI,<br />SHIKARU NI TAKE WA, OYA YORI KANARAZU NOBIRU-MONO
+                TO,<br />JUMYŌ MEDETAKI MONO NITE SŌRŌ.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Spirit of Bamboo:</h5>
@@ -617,8 +654,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
-              <em>IZURE MO MEDETAKI ON-MONOGATARI NITE SŌRŌ,<br />SA ARABA KONO UE
-                WA<br />MATSU TAKE TOMO NI AI-MAI WO NASARE-SŌRAE</em>
+              <em
+                >IZURE MO MEDETAKI ON-MONOGATARI NITE SŌRŌ,<br />SA ARABA KONO
+                UE WA<br />MATSU TAKE TOMO NI AI-MAI WO NASARE-SŌRAE</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Furyūsenzai:</h5>
@@ -656,20 +695,22 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>CHITOSE NO MATSU NO EN NI HIKARETE,<br />YOROZUYO TAKE MO, NE NOBI NO MATSU
-                MO,<br />MIDORI NO TAMOTO WO, KAZASHI KAZASHITE,<br />MAI-ASOBEBA,<br />YOROKOBI
-                WA HIBI NI,<br />NAO MASARIYUKU MIYO NAKEBA<br />SENZAI-MANZAI SUE
-                KAKETE,<br />SENZAI-MANZAI SUE KAKETE,<br />OSAMARU MIYO TOZO,
-                NARINIKERU.</em>
+              <em
+                >CHITOSE NO MATSU NO EN NI HIKARETE,<br />YOROZUYO TAKE MO, NE
+                NOBI NO MATSU MO,<br />MIDORI NO TAMOTO WO, KAZASHI
+                KAZASHITE,<br />MAI-ASOBEBA,<br />YOROKOBI WA HIBI NI,<br />NAO
+                MASARIYUKU MIYO NAKEBA<br />SENZAI-MANZAI SUE KAKETE,<br />SENZAI-MANZAI
+                SUE KAKETE,<br />OSAMARU MIYO TOZO, NARINIKERU.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               Drawn by a connection to the thousand year Pine,<br />Bamboo, too,
               along with the Pine with its spreading roots,<br />raise their
-              sleeves aloft, hold them high,<br />as they dance.<br />Joyous days
-              repeat, renewed day after day,<br />as the reign continues.<br />A
-              reign of peace that will be for a thousand years,<br />ten thousand
-              years,<br />for all posterity!
+              sleeves aloft, hold them high,<br />as they dance.<br />Joyous
+              days repeat, renewed day after day,<br />as the reign
+              continues.<br />A reign of peace that will be for a thousand
+              years,<br />ten thousand years,<br />for all posterity!
             </td>
           </tr>
         </table>
@@ -686,8 +727,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              <em>OH ŌSAE, ŌSAE, OHYOROKOBI ARI-YA, YOROKOBI ARI-YA,<br />WAGA KONO TOKORO
-                YORI HOKA EWA YARAJI TOZO WA OMŌ.</em>
+              <em
+                >OH ŌSAE, ŌSAE, OHYOROKOBI ARI-YA, YOROKOBI ARI-YA,<br />WAGA
+                KONO TOKORO YORI HOKA EWA YARAJI TOZO WA OMŌ.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
@@ -704,8 +747,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              <em>YARA MEDETAYANA,<br />MONO NI KOKOROETARU ADO NO,<br />ADO NO TAYŪ-DONO E,
-                KENZAN MŌSŌ</em>
+              <em
+                >YARA MEDETAYANA,<br />MONO NI KOKOROETARU ADO NO,<br />ADO NO
+                TAYŪ-DONO E, KENZAN MŌSŌ</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
@@ -740,8 +785,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              <em>ADO TO ŌSESŌRŌ HODONI,<br />ZUIBUN MONO NI KOKOROE-TARU ADO,<br />MAKARI-TATTE
-                SŌRŌ.</em>
+              <em
+                >ADO TO ŌSESŌRŌ HODONI,<br />ZUIBUN MONO NI KOKOROE-TARU ADO,<br />MAKARI-TATTE
+                SŌRŌ.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
@@ -764,8 +811,10 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              <em>KON-NICHI NO GO-KITŌ WO,<br />SENSHŪBANZAI MEDETAI YŌ NI,<br />MŌTE ORISOE,
-                IRO NO KUROI-JŌ DONO.</em>
+              <em
+                >KON-NICHI NO GO-KITŌ WO,<br />SENSHŪBANZAI MEDETAI YŌ NI,<br />MŌTE
+                ORISOE, IRO NO KUROI-JŌ DONO.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
@@ -777,25 +826,28 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              <em>KONO IRO NO KUROI-JŌ GA,<br />KON-NICHI NO GO-KITŌ WO,<br />SENSHŪBANZAI
-                MEDETAI YŌ NI,<br />MAI OSAMYŌ ZURUWA YASŪ-SŌRŌ,<br />MAZU ADO NO TAYŪ-DONO
-                WA,<br />MOTO NO ZASHIKI E OMO-OMO TO,<br />ON-NARI-SŌRAE.</em>
+              <em
+                >KONO IRO NO KUROI-JŌ GA,<br />KON-NICHI NO GO-KITŌ WO,<br />SENSHŪBANZAI
+                MEDETAI YŌ NI,<br />MAI OSAMYŌ ZURUWA YASŪ-SŌRŌ,<br />MAZU ADO
+                NO TAYŪ-DONO WA,<br />MOTO NO ZASHIKI E OMO-OMO TO,<br />ON-NARI-SŌRAE.</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
               To dance today as a prayer<br />for a blessing of a thousand
               autumns,<br />ten thousand years is an easy thing<br />for this
               dark colored old man.<br />But first, you, my second/Ado,<br />must
-              first return with proper gravity<br />and solemnity to your
-              place
+              first return with proper gravity<br />and solemnity to your place
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              <em>SOREGASHI-MOTO NO ZASHIKI E NAORŌ-ZURUKOTO,<br />JŌ-DONO NO MAI YORI
-                MOTTE YASŪ SŌRŌ,<br />MAZU ON-MAI SŌRAE,</em>
+              <em
+                >SOREGASHI-MOTO NO ZASHIKI E NAORŌ-ZURUKOTO,<br />JŌ-DONO NO MAI
+                YORI MOTTE YASŪ SŌRŌ,<br />MAZU ON-MAI SŌRAE,</em
+              >
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>

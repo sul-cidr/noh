@@ -106,9 +106,11 @@ second-level-menu-active: catalog-shodan
         >Hashitomi - Oshirabe</a
       ><br />
       <a href="/kokaji/oshirabe/" class="link__level-2" target="_blank"
-        >Kokaji - Oshirabe</a><br />
+        >Kokaji - Oshirabe</a
+      ><br />
       <a href="/okina/oshirabe/" class="link__level-2" target="_blank"
-        >Okina - Oshirabe</a>
+        >Okina - Oshirabe</a
+      >
     </p>
   </div>
 </main>
