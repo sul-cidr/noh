@@ -3,6 +3,7 @@ services:
     build: .
     volumes:
       - ./:/opt
+      - /opt/node_modules
     ports:
       - "4000:4000"
     command: >
