@@ -20,7 +20,7 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: "babel-loader",
         query: {
-          presets: ["react", "env"]
+          presets: ["@babel/preset-env", "@babel/preset-react"]
         }
       }
     ]
@@ -39,8 +39,7 @@ module.exports = {
           flatten: false
         },
         {
-          from:
-            "node_modules/vanilla-back-to-top/dist/vanilla-back-to-top.min.js",
+          from: "node_modules/vanilla-back-to-top/dist/vanilla-back-to-top.min.js",
           to: "assets"
         },
         {

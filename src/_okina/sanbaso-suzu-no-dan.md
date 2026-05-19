@@ -1,5 +1,5 @@
 ---
-title: Sanbaso Suzu no Dan
+title: Sanbasō Suzu no Dan
 play: Okina
 layout: section
 ---

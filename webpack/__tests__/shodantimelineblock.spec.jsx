@@ -75,7 +75,10 @@ describe("<ShodanTimelineBlock>", () => {
   });
 
   it("navigates if clicked and url", () => {
-    window.location.assign = jest.fn();
+    delete window.location;
+    window.location = {
+      assign: jest.fn()
+    };
     const url = "/kokaji/kiri";
     const wrapper = mount(
       <Provider store={configureMockStore()({})}>
@@ -93,11 +96,14 @@ describe("<ShodanTimelineBlock>", () => {
       </Provider>
     );
     wrapper.find("div").simulate("click");
-    expect(window.location.assign).toBeCalledWith(url);
+    expect(window.location.assign).toHaveBeenCalledWith(url);
   });
 
   it("does not navigate if clicked and no url", () => {
-    window.location.assign = jest.fn();
+    delete window.location;
+    window.location = {
+      assign: jest.fn()
+    };
     const wrapper = mount(
       <Provider store={configureMockStore()({})}>
         <ShodanTimelineBlock
@@ -114,7 +120,7 @@ describe("<ShodanTimelineBlock>", () => {
       </Provider>
     );
     wrapper.find("div").simulate("click");
-    expect(window.location.assign).not.toBeCalled();
+    expect(window.location.assign).not.toHaveBeenCalled();
   });
 
   it("triggers the SET_CURRENT_TIME action if startTime is present but url is not", () => {
@@ -145,7 +151,10 @@ describe("<ShodanTimelineBlock>", () => {
   });
 
   it("triggers the SET_CURRENT_TIME action if both url and startTime are present", () => {
-    window.location.assign = jest.fn();
+    delete window.location;
+    window.location = {
+      assign: jest.fn()
+    };
     const initialState = { startTime: 10 };
     const mockStore = configureMockStore();
     const store = mockStore(initialState);
@@ -172,11 +181,14 @@ describe("<ShodanTimelineBlock>", () => {
     );
     wrapper.find("div").simulate("click");
     expect(store.getActions()[0]).toEqual(action);
-    expect(window.location.assign).not.toBeCalled();
+    expect(window.location.assign).not.toHaveBeenCalled();
   });
 
   it("does nothing if neither url and startTime are present", () => {
-    window.location.assign = jest.fn();
+    delete window.location;
+    window.location = {
+      assign: jest.fn()
+    };
     const mockStore = configureMockStore();
     const store = mockStore({});
     const wrapper = mount(
@@ -195,6 +207,6 @@ describe("<ShodanTimelineBlock>", () => {
     );
     wrapper.find("div").simulate("click");
     expect(store.getActions().length).toEqual(0);
-    expect(window.location.assign).not.toBeCalled();
+    expect(window.location.assign).not.toHaveBeenCalled();
   });
 });

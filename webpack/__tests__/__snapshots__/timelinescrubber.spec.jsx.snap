@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<TimelineScrubber> renders as expected by default 1`] = `
 <TimelineScrubber
@@ -22,7 +22,7 @@ exports[`<TimelineScrubber> renders as expected by default 1`] = `
       className="timeline-scrubber__handle"
       role="button"
       style={
-        Object {
+        {
           "left": "0%",
         }
       }

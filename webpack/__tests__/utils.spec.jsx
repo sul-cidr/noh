@@ -74,7 +74,7 @@ describe("reduxDevTools", () => {
   test("it correctly returns the Redux dev tools if available", () => {
     window.__REDUX_DEVTOOLS_EXTENSION__ = jest.fn();
     reduxDevTools();
-    expect(window.__REDUX_DEVTOOLS_EXTENSION__).toBeCalled();
+    expect(window.__REDUX_DEVTOOLS_EXTENSION__).toHaveBeenCalled();
   });
 
   test("it returns nothing if the Redux dev tools are unavailable", () => {

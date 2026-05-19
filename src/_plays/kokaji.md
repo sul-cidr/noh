@@ -2,5 +2,5 @@
 layout: play
 title: Kokaji
 image: /assets/images/Kokaji1.jpg
-description: "Fifth category, Final or Demon play, Kokaji, features two male characters—the swordsmith Munechika and a powerful deity from the Inari Shrine—who work together to produce a mighty blade for the Emperor Ichijō."
+description: "In the Fifth category, Final or Demon play, Kokaji, swordsmith Munechika must forge a sacred blade for the Emperor Ichijō. He is aided by a youth who reveals his true form as the powerful Inari fox deity, and together they hammer the sword into existence."
 ---

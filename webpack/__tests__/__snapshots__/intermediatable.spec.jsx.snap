@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<InterMediaTable> renders as expected while connected 1`] = `
 <IntermediaTable
@@ -6,76 +6,76 @@ exports[`<InterMediaTable> renders as expected while connected 1`] = `
   dispatch={[Function]}
   play="hashitomi"
   sections={
-    Array [
-      Object {
-        "dancePresent": Object {
+    [
+      {
+        "dancePresent": {
           "value": "Dance to text",
         },
-        "endTime": Object {
+        "endTime": {
           "value": 180,
         },
-        "intensity": Object {
+        "intensity": {
           "number": "5",
         },
-        "nokhanPresent": Object {
+        "nokhanPresent": {
           "value": "Non Congruent",
         },
-        "numberOfPercussion": Object {
+        "numberOfPercussion": {
           "value": "Otsuzumi + Kotsuzumi + Taiko",
         },
-        "numberVoices": Object {
+        "numberVoices": {
           "value": "Waki/Waki Tsure",
         },
-        "percussion": Object {
+        "percussion": {
           "value": "Non Congruent",
         },
-        "sectionName": Object {
+        "sectionName": {
           "value": "Nanori",
         },
         "sectionUrl": "kokaji/nanori",
-        "startTime": Object {
+        "startTime": {
           "value": 0,
         },
-        "text": Object {
+        "text": {
           "value": "Sashinori - Non Congruent",
         },
-        "voice": Object {
+        "voice": {
           "value": "Sung - Non Congruent",
         },
       },
-      Object {
-        "dancePresent": Object {
+      {
+        "dancePresent": {
           "value": "Dance to text",
         },
-        "endTime": Object {
+        "endTime": {
           "value": 300,
         },
-        "intensity": Object {
+        "intensity": {
           "number": "5",
         },
-        "nokhanPresent": Object {
+        "nokhanPresent": {
           "value": "Non Congruent",
         },
-        "numberOfPercussion": Object {
+        "numberOfPercussion": {
           "value": "Otsuzumi + Kotsuzumi + Taiko",
         },
-        "numberVoices": Object {
+        "numberVoices": {
           "value": "Waki/Waki Tsure",
         },
-        "percussion": Object {
+        "percussion": {
           "value": "Non Congruent",
         },
-        "sectionName": Object {
+        "sectionName": {
           "value": "Mondo",
         },
         "sectionUrl": "kokaji/mondo",
-        "startTime": Object {
+        "startTime": {
           "value": 181,
         },
-        "text": Object {
+        "text": {
           "value": "Sashinori - Non Congruent",
         },
-        "voice": Object {
+        "voice": {
           "value": "Sung - Non Congruent",
         },
       },

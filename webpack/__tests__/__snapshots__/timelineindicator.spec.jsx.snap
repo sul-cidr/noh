@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<TimelineIndicator> renders as expected with interval, currentTime, and is not playing 1`] = `
 <div>
@@ -6,7 +6,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     allowAnyClick={false}
     axis="x"
     bounds={
-      Object {
+      {
         "left": -1,
         "right": 1,
       }
@@ -16,7 +16,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     defaultClassNameDragged="react-draggable-dragged"
     defaultClassNameDragging="react-draggable-dragging"
     defaultPosition={
-      Object {
+      {
         "x": 0,
         "y": 0,
       }
@@ -31,7 +31,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     onStart={[Function]}
     onStop={[Function]}
     position={
-      Object {
+      {
         "x": 1,
         "y": 0,
       }
@@ -52,7 +52,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     allowAnyClick={false}
     axis="x"
     bounds={
-      Object {
+      {
         "left": -1,
         "right": 1,
       }
@@ -62,7 +62,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     defaultClassNameDragged="react-draggable-dragged"
     defaultClassNameDragging="react-draggable-dragging"
     defaultPosition={
-      Object {
+      {
         "x": 0,
         "y": 0,
       }
@@ -77,7 +77,7 @@ exports[`<TimelineIndicator> renders as expected with interval, currentTime, and
     onStart={[Function]}
     onStop={[Function]}
     position={
-      Object {
+      {
         "x": 1,
         "y": 0,
       }
@@ -98,7 +98,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     allowAnyClick={false}
     axis="x"
     bounds={
-      Object {
+      {
         "left": -1,
         "right": 1,
       }
@@ -108,7 +108,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     defaultClassNameDragged="react-draggable-dragged"
     defaultClassNameDragging="react-draggable-dragging"
     defaultPosition={
-      Object {
+      {
         "x": 0,
         "y": 0,
       }
@@ -123,7 +123,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     onStart={[Function]}
     onStop={[Function]}
     position={
-      Object {
+      {
         "x": 1,
         "y": 0,
       }
@@ -144,7 +144,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     allowAnyClick={false}
     axis="x"
     bounds={
-      Object {
+      {
         "left": -1,
         "right": 1,
       }
@@ -154,7 +154,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     defaultClassNameDragged="react-draggable-dragged"
     defaultClassNameDragging="react-draggable-dragging"
     defaultPosition={
-      Object {
+      {
         "x": 0,
         "y": 0,
       }
@@ -169,7 +169,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, currentTime, 
     onStart={[Function]}
     onStop={[Function]}
     position={
-      Object {
+      {
         "x": 1,
         "y": 0,
       }
@@ -190,7 +190,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, initial curre
     allowAnyClick={false}
     axis="x"
     bounds={
-      Object {
+      {
         "left": -1,
         "right": 1,
       }
@@ -200,7 +200,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, initial curre
     defaultClassNameDragged="react-draggable-dragged"
     defaultClassNameDragging="react-draggable-dragging"
     defaultPosition={
-      Object {
+      {
         "x": 0,
         "y": 0,
       }
@@ -215,7 +215,7 @@ exports[`<TimelineIndicator> renders as expected with no interval, initial curre
     onStart={[Function]}
     onStop={[Function]}
     position={
-      Object {
+      {
         "x": -1,
         "y": 0,
       }

@@ -8,7 +8,7 @@ class IntermediaTable extends Component {
   findCurrentSectionIndex() {
     // Determine current sectionIndex based on time
     const currentSectionIndex = this.props.sections.findIndex(
-      section =>
+      (section) =>
         this.props.currentTime >= (section.startTime.value || 0) &&
         this.props.currentTime < section.endTime.value
     );
@@ -45,7 +45,7 @@ class IntermediaTable extends Component {
         />
         <IntermediaElement
           fieldName="Nohkan"
-          fieldValue={section.nokhanPresent.value}
+          fieldValue={section.nohkanPresent.value}
         />
         <IntermediaElement
           fieldName="Dance"
@@ -74,7 +74,7 @@ IntermediaTable.propTypes = {
       text: PropTypes.shape({ value: PropTypes.string }),
       numberOfPercussion: PropTypes.shape({ value: PropTypes.string }),
       percussion: PropTypes.shape({ value: PropTypes.string }),
-      nokhanPresent: PropTypes.shape({
+      nohkanPresent: PropTypes.shape({
         present: PropTypes.string,
         value: PropTypes.string
       }),
@@ -88,7 +88,7 @@ IntermediaTable.propTypes = {
   ).isRequired
 };
 
-const mapStateToProps = state => ({ currentTime: state.currentTime.time });
+const mapStateToProps = (state) => ({ currentTime: state.currentTime.time });
 
 export const Unwrapped = IntermediaTable;
 export default connect(mapStateToProps)(IntermediaTable);

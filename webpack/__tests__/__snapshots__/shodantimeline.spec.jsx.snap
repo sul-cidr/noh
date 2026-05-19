@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<ShodanTimeline> renders as expected 1`] = `
 <div
@@ -8,7 +8,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     className="act intro."
     key="act-block-intro."
     style={
-      Object {
+      {
         "height": "100%",
         "width": "13.055555555555557%",
       }
@@ -21,7 +21,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       className="dan dan-no-tooltip dan-7"
       key="dan-block-7"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "100%",
         }
@@ -59,7 +59,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     className="act act-i"
     key="act-block-act-i"
     style={
-      Object {
+      {
         "height": "100%",
         "width": "103%",
       }
@@ -73,7 +73,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Waki Enters"
       key="dan-block-1"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "27.130528586839265%",
         }
@@ -150,7 +150,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Dialogue"
       key="dan-block-3"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "14.94066882416397%",
         }
@@ -188,7 +188,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Shite Performs"
       key="dan-block-4"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "39.482200647249186%",
         }
@@ -239,7 +239,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Shite Exits"
       key="dan-block-5"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "18.446601941747574%",
         }
@@ -290,7 +290,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     className="act interlude"
     key="act-block-interlude"
     style={
-      Object {
+      {
         "height": "100%",
         "width": "34.72222222222222%",
       }
@@ -303,7 +303,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       className="dan dan-no-tooltip dan-6"
       key="dan-block-6"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "100%",
         }
@@ -341,7 +341,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     className="act act-ii"
     key="act-block-act-ii"
     style={
-      Object {
+      {
         "height": "100%",
         "width": "45.666666666666664%",
       }
@@ -355,7 +355,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Waki Waits"
       key="dan-block-1"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "42.94403892944039%",
         }
@@ -393,7 +393,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Shite Re-enters"
       key="dan-block-2"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "10.097323600973237%",
         }
@@ -418,7 +418,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Shite Performs"
       key="dan-block-4"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "26.763990267639905%",
         }
@@ -469,7 +469,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       data-tooltip="Shite Exits"
       key="dan-block-5"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "20.194647201946474%",
         }
@@ -507,7 +507,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
     className="act exit"
     key="act-block-exit"
     style={
-      Object {
+      {
         "height": "100%",
         "width": "-96.44444444444444%",
       }
@@ -520,7 +520,7 @@ exports[`<ShodanTimeline> renders as expected 1`] = `
       className="dan dan-no-tooltip dan-8"
       key="dan-block-8"
       style={
-        Object {
+        {
           "height": "100%",
           "width": "100%",
         }

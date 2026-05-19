@@ -173,63 +173,63 @@ describe("parser", () => {
     }).toThrow();
   });
 
-  it("downloadCSV downloads data from a phrases CSV URL", done => {
+  it("downloadCSV downloads data from a phrases CSV URL", (done) => {
     const type = "phrases";
     const url = `/data/${type}.csv`;
     mock.reset();
     mock.onGet(url).reply(200, fixtures.phrasesCSV);
-    return downloadCSV(url).then(data => {
+    downloadCSV(url).then((data) => {
       expect(data).toMatchSnapshot();
-      done();
     });
+    done();
   });
 
-  it("downloadCSV downloads data from a metadata CSV URL", done => {
+  it("downloadCSV downloads data from a metadata CSV URL", (done) => {
     const type = "metadata";
     const url = `/data/${type}.csv`;
     mock.reset();
     mock.onGet(url).reply(200, fixtures.metadataCSV);
-    return downloadCSV(url).then(data => {
+    downloadCSV(url).then((data) => {
       expect(data).toMatchSnapshot();
-      done();
     });
+    done();
   });
 
-  it("downloadCSV downloads data from a captions CSV URL", done => {
+  it("downloadCSV downloads data from a captions CSV URL", (done) => {
     const type = "captions";
     const url = `/data/${type}.csv`;
     mock.reset();
     mock.onGet(url).reply(200, fixtures.captionsCSV);
-    return downloadCSV(url).then(data => {
+    downloadCSV(url).then((data) => {
       expect(data).toMatchSnapshot();
-      done();
     });
+    done();
   });
 
-  it("downloadCSV raises an exception when URL is not found", done => {
+  it("downloadCSV raises an exception when URL is not found", (done) => {
     const url = "/some/url";
     mock.reset();
     mock.onGet(url).reply(404, "");
-    return downloadCSV(url).catch(error => {
+    downloadCSV(url).catch((error) => {
       expect(error.message).toMatch(`Unable to download ${url}`);
-      done();
     });
+    done();
   });
 
-  it("downloadCSV raises an exception when URL does not exist", done => {
+  it("downloadCSV raises an exception when URL does not exist", (done) => {
     const url = "http://some.fake.url/";
-    return downloadCSV(url).catch(error => {
+    downloadCSV(url).catch((error) => {
       expect(error.message).toMatch(`Unable to download ${url}`);
-      done();
     });
+    done();
   });
 
-  it("downloadCSV raises an exception when protocol is unknown", done => {
+  it("downloadCSV raises an exception when protocol is unknown", (done) => {
     const url = "proto://some.fake.url/";
-    return downloadCSV(url).catch(error => {
+    downloadCSV(url).catch((error) => {
       expect(error.message).toMatch(`Unable to download ${url}`);
-      done();
     });
+    done();
   });
 
   it("main raises an exception when no config is given", () => {
@@ -248,7 +248,7 @@ describe("parser", () => {
     spy.mockRestore();
   });
 
-  it("main downloads and parses phrases, metadata, and captions", done => {
+  it("main downloads and parses phrases, metadata, and captions", (done) => {
     mock.reset();
     mock
       .onGet(fixtures.config.plays[0].sections[0].phrases)
@@ -265,14 +265,14 @@ describe("parser", () => {
       .mockImplementation((file, jsonData) => {
         expect(jsonData).toMatchSnapshot();
       });
-    return parserMain("path/to/config", false).then(() => {
+    parserMain("path/to/config", false).then(() => {
       spyRead.mockRestore();
       spyWrite.mockRestore();
-      done();
     });
+    done();
   });
 
-  it("main writes to console when -q/--quiet is not passed in", done => {
+  it("main writes to console when -q/--quiet is not passed in", (done) => {
     mock.reset();
     mock
       .onGet(fixtures.config.plays[0].sections[0].phrases)
@@ -287,15 +287,15 @@ describe("parser", () => {
     const spyWrite = jest
       .spyOn(fs, "writeFileSync")
       .mockImplementation(() => {});
-    return parserMain("path/to/config", false).then(() => {
+    parserMain("path/to/config", false).then(() => {
       expect(console.info.mock.calls).toMatchSnapshot();
       spyRead.mockRestore();
       spyWrite.mockRestore();
-      done();
     });
+    done();
   });
 
-  it("main raises an exception when data parsing fails", done => {
+  it("main raises an exception when data parsing fails", (done) => {
     mock.reset();
     mock
       .onGet(fixtures.config.plays[0].sections[0].phrases)
@@ -310,15 +310,15 @@ describe("parser", () => {
     const spyWrite = jest
       .spyOn(fs, "writeFileSync")
       .mockImplementation(() => {});
-    return parserMain("path/to/config", true).catch(error => {
+    parserMain("path/to/config", true).catch((error) => {
       expect(error.message).toMatch("Unable to process section data");
       spyRead.mockRestore();
       spyWrite.mockRestore();
-      done();
     });
+    done();
   });
 
-  it("main raises an exception when writing section data to disk fails", done => {
+  it("main raises an exception when writing section data to disk fails", (done) => {
     mock.reset();
     mock
       .onGet(fixtures.config.plays[0].sections[0].phrases)
@@ -330,14 +330,14 @@ describe("parser", () => {
     const spy = jest
       .spyOn(fs, "readFileSync")
       .mockReturnValueOnce(JSON.stringify(fixtures.config));
-    return parserMain("path/to/config", true).catch(error => {
+    parserMain("path/to/config", true).catch((error) => {
       expect(error.message).toMatch("Unable to process section data");
       spy.mockRestore();
-      done();
     });
+    done();
   });
 
-  it("main raises an exception when writing caption data to disk fails", done => {
+  it("main raises an exception when writing caption data to disk fails", (done) => {
     mock.reset();
     mock
       .onGet(fixtures.config.plays[0].sections[0].phrases)
@@ -358,15 +358,15 @@ describe("parser", () => {
       .mockImplementation(() => {
         throw new ParserException();
       });
-    return parserMain("path/to/config", true).catch(error => {
+    parserMain("path/to/config", true).catch((error) => {
       expect(error.message).toMatch("Unable to write play data");
       spyRead.mockRestore();
       spyWrite.mockRestore();
-      done();
     });
+    done();
   });
 
-  it("main raises an exception when writing play data to disk fails", done => {
+  it("main raises an exception when writing play data to disk fails", (done) => {
     mock.reset();
     mock
       .onGet(fixtures.config.plays[0].sections[0].phrases)
@@ -390,11 +390,11 @@ describe("parser", () => {
       .mockImplementation(() => {
         throw new ParserException();
       });
-    return parserMain("path/to/config", true).catch(error => {
+    parserMain("path/to/config", true).catch((error) => {
       expect(error.message).toMatch("Unable to write play data");
       spyRead.mockRestore();
       spyWrite.mockRestore();
-      done();
     });
+    done();
   });
 });

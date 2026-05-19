@@ -27,11 +27,8 @@ class Score extends Component {
   }
 
   componentWillReceiveProps(props) {
-    const [
-      prevPhraseIndex,
-      currentPhraseIndex,
-      nextPhraseIndex
-    ] = determinePhraseIndices(props);
+    const [prevPhraseIndex, currentPhraseIndex, nextPhraseIndex] =
+      determinePhraseIndices(props);
 
     this.setState({
       previousPhrase: props.phrases[prevPhraseIndex],
@@ -70,6 +67,16 @@ class Score extends Component {
         />
       );
     }
+    let taiko = <CellPercussion text="" length={beatNums.length} />;
+    if (phrase.taiko.grid.length) {
+      taiko = (
+        <PercussionLine grid={phrase.taiko.grid} length={beatNums.length} />
+      );
+    } else if (phrase.taiko.value) {
+      taiko = (
+        <CellPercussion text={phrase.taiko.value} length={beatNums.length} />
+      );
+    }
     const measureBeats = this.state.toggles.isBeatOn ? (
       <div className="measure__channel" key="measure-beats">
         {beats}
@@ -80,43 +87,55 @@ class Score extends Component {
     const measureTextGrid = phrase.text.grid.length
       ? phrase.text.grid
       : phrase.syllableText.grid;
-    const measureText = this.state.toggles.isTextOn ? (
-      <div className="measure__channel" key="measure-text">
-        <ScoreTextLine
-          textGrid={measureTextGrid}
-          length={beatNums.length}
-          rangeGrid={phrase.vocalRange.grid}
-          textIsCongruent={this.props.textIsCongruent}
-        />
-      </div>
-    ) : (
-      ""
-    );
-    const measurePercussion = this.state.toggles.isPercussionOn ? (
-      <div className="measure__channel" key="measure-percussion">
-        {percussion}
-      </div>
-    ) : (
-      ""
-    );
-    const measureNohkan = this.state.toggles.isNohkanOn ? (
-      <div className="measure__channel" key="measure-nohkan">
-        <NohkanLine grid={phrase.nohkan.grid} length={beatNums.length} />
-      </div>
-    ) : (
-      ""
-    );
-    const measureDance = this.state.toggles.isDanceOn ? (
-      <div className="measure__channel" key="measure-dance">
-        <DanceLine grid={phrase.dance.grid} length={beatNums.length} />
-      </div>
-    ) : (
-      ""
-    );
+    const measureText =
+      this.props.textIsPresent && this.state.toggles.isTextOn ? (
+        <div className="measure__channel" key="measure-text">
+          <ScoreTextLine
+            textGrid={measureTextGrid}
+            length={beatNums.length}
+            textIsCongruent={this.props.textIsCongruent}
+          />
+        </div>
+      ) : (
+        ""
+      );
+    const measurePercussion =
+      this.props.percussionIsPresent && this.state.toggles.isPercussionOn ? (
+        <div className="measure__channel" key="measure-percussion">
+          {percussion}
+        </div>
+      ) : (
+        ""
+      );
+    const measureTaiko =
+      this.props.taikoIsPresent && this.state.toggles.isTaikoOn ? (
+        <div className="measure__channel" key="measure-taiko">
+          {taiko}
+        </div>
+      ) : (
+        ""
+      );
+    const measureNohkan =
+      this.props.nohkanIsPresent && this.state.toggles.isNohkanOn ? (
+        <div className="measure__channel" key="measure-nohkan">
+          <NohkanLine grid={phrase.nohkan.grid} length={beatNums.length} />
+        </div>
+      ) : (
+        ""
+      );
+    const measureDance =
+      this.props.danceIsPresent && this.state.toggles.isDanceOn ? (
+        <div className="measure__channel" key="measure-dance">
+          <DanceLine grid={phrase.dance.grid} length={beatNums.length} />
+        </div>
+      ) : (
+        ""
+      );
     return [
       measureBeats,
       measureText,
       measurePercussion,
+      measureTaiko,
       measureNohkan,
       measureDance
     ];
@@ -129,6 +148,7 @@ class Score extends Component {
         this.state.toggles.isBeatOn,
         this.state.toggles.isTextOn,
         this.state.toggles.isPercussionOn,
+        this.state.toggles.isTaikoOn,
         this.state.toggles.isNohkanOn,
         this.state.toggles.isDanceOn
       ].filter(Boolean).length;
@@ -154,7 +174,18 @@ class Score extends Component {
       <div className={`measure measure--${position}`}>
         <MeasureLabelContainer
           {...{ [position]: true }}
-          {...this.state.toggles}
+          isBeatOn={this.state.toggles.isBeatOn}
+          isTextOn={this.props.textIsPresent && this.state.toggles.isTextOn}
+          isPercussionOn={
+            this.props.percussionIsPresent && this.state.toggles.isPercussionOn
+          }
+          isTaikoOn={this.props.taikoIsPresent && this.state.toggles.isTaikoOn}
+          isNohkanOn={
+            this.props.nohkanIsPresent && this.state.toggles.isNohkanOn
+          }
+          isDanceOn={this.props.danceIsPresent && this.state.toggles.isDanceOn}
+          isPrevSentenceOn={this.state.toggles.isPrevSentenceOn}
+          isNextSentenceOn={this.state.toggles.isNextSentenceOn}
         />
         <div className="measure__grid-container">
           {this.createMeasure(phrase)}
@@ -182,7 +213,7 @@ class Score extends Component {
 }
 
 Score.propTypes = {
-  currentTime: PropTypes.number.isRequired,
+  // currentTime: PropTypes.number.isRequired,
   phrases: PropTypes.arrayOf(
     PropTypes.shape({
       startTime: PropTypes.shape({}),
@@ -192,26 +223,39 @@ Score.propTypes = {
       dance: PropTypes.shape({}),
       nohkan: PropTypes.shape({}),
       percussion: PropTypes.shape({ value: PropTypes.string.isRequired }),
+      taiko: PropTypes.shape({ value: PropTypes.string.isRequired }),
       phrase: PropTypes.string,
-      syllableNumber: PropTypes.shape({}),
       syllableText: PropTypes.shape({}),
-      text: PropTypes.shape({}),
-      vocalRange: PropTypes.shape({})
+      text: PropTypes.shape({})
     })
   ).isRequired,
   toggles: PropTypes.shape({
     isBeatOn: PropTypes.bool,
     isTextOn: PropTypes.bool,
     isPercussionOn: PropTypes.bool,
+    isTaikoOn: PropTypes.bool,
     isNohkanOn: PropTypes.bool,
     isDanceOn: PropTypes.bool,
     isPrevSentenceOn: PropTypes.bool,
     isNextSentenceOn: PropTypes.bool
   }).isRequired,
-  textIsCongruent: PropTypes.bool.isRequired
+  textIsCongruent: PropTypes.bool.isRequired,
+  nohkanIsPresent: PropTypes.bool,
+  danceIsPresent: PropTypes.bool,
+  taikoIsPresent: PropTypes.bool,
+  percussionIsPresent: PropTypes.bool,
+  textIsPresent: PropTypes.bool
 };
 
-const mapStateToProps = state => ({
+Score.defaultProps = {
+  nohkanIsPresent: true,
+  danceIsPresent: true,
+  taikoIsPresent: true,
+  percussionIsPresent: true,
+  textIsPresent: true
+};
+
+const mapStateToProps = (state) => ({
   currentTime: state.currentTime.time,
   toggles: state.toggles
 });

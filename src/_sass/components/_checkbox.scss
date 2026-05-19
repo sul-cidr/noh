@@ -61,6 +61,19 @@
     }
   }
 
+  input[type="checkbox"]:disabled + label::before {
+    cursor: default;
+  }
+
+  input[type="checkbox"]:disabled + label {
+    cursor: default;
+    opacity: 50%;
+
+    .custom-checkbox__text {
+      cursor: default;
+    }
+  }
+
   input[type="checkbox"]:focus + label,
   input[type="checkbox"]:checked + label,
   input[type="checkbox"]:indeterminate + label {

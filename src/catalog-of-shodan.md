@@ -15,8 +15,8 @@ permalink: /catalog-of-shodan/
       <h2>Catalog of Shōdan</h2>
       <p>
         The following partial catalog is limited to modules (<em>shōdan</em>)
-        from the two plays featured in this website: Kokaji and Hashitomi. To
-        prioritize information about musical characteristics the
+        from the plays featured in this website: Takasago, Kokaji and Hashitomi. To
+        prioritize information about musical characteristics several of the 
         <em>shōdan</em> were recorded in a recital-style performance, and the
         videos were overlaid with simplified notation of the music.
       </p>

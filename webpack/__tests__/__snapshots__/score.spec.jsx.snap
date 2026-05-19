@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<UnwrappedScore> handles null state correctly 1`] = `
 <div
@@ -74,117 +74,106 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 0,
                   "style": "normal",
                   "text": "ma",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 1,
                   "style": "normal",
                   "text": "ta",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 2,
                   "style": "normal",
                   "text": "wa",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ga",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "cho",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "so",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ha",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "me",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 12,
                   "style": "normal",
                   "text": "(e)",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
@@ -208,34 +197,34 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 1,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 5,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 10,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -248,13 +237,13 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 4,
                   "start": 1,
                   "style": "normal",
                   "text": "9. Kneeling facing front.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -360,88 +349,70 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "n",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "u",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "da",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "i",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -463,20 +434,20 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 3,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -489,20 +460,20 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 3,
                   "start": 0,
                   "style": "normal",
                   "text": "and gazes in the distance.",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 6,
                   "style": "normal",
                   "text": "9. Sits back on his knee.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -649,117 +620,106 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 0,
                   "style": "normal",
                   "text": "ma",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 1,
                   "style": "normal",
                   "text": "ta",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 2,
                   "style": "normal",
                   "text": "wa",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ga",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "cho",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "so",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ha",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "me",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 12,
                   "style": "normal",
                   "text": "(e)",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
@@ -783,34 +743,34 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 1,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 5,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 10,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -823,13 +783,13 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 4,
                   "start": 1,
                   "style": "normal",
                   "text": "9. Kneeling facing front.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -935,88 +895,70 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "n",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "u",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "da",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "i",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1038,20 +980,20 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 3,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1064,20 +1006,20 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 3,
                   "start": 0,
                   "style": "normal",
                   "text": "and gazes in the distance.",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 6,
                   "style": "normal",
                   "text": "9. Sits back on his knee.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1224,117 +1166,106 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 0,
                   "style": "normal",
                   "text": "ma",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 1,
                   "style": "normal",
                   "text": "ta",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 2,
                   "style": "normal",
                   "text": "wa",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ga",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "cho",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "so",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ha",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "me",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 12,
                   "style": "normal",
                   "text": "(e)",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
@@ -1358,34 +1289,34 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 1,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 5,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 10,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1398,13 +1329,13 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 4,
                   "start": 1,
                   "style": "normal",
                   "text": "9. Kneeling facing front.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1510,88 +1441,70 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "n",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "u",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "da",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "i",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1613,20 +1526,20 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 3,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1639,20 +1552,20 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 3,
                   "start": 0,
                   "style": "normal",
                   "text": "and gazes in the distance.",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 6,
                   "style": "normal",
                   "text": "9. Sits back on his knee.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1770,117 +1683,106 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 0,
                   "style": "normal",
                   "text": "ma",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 1,
                   "style": "normal",
                   "text": "ta",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 2,
                   "style": "normal",
                   "text": "wa",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ga",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "cho",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [
+                  "voices": [
                     "jiutai",
                   ],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "so",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ha",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "me",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 12,
                   "style": "normal",
                   "text": "(e)",
-                  "voices": Array [
+                  "voices": [
                     "shite",
                   ],
                 },
@@ -1904,34 +1806,34 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 1,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 5,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 10,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -1944,13 +1846,13 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 4,
                   "start": 1,
                   "style": "normal",
                   "text": "9. Kneeling facing front.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -2056,88 +1958,70 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
-              Array [
-                Object {
+              [
+                {
                   "length": 1,
                   "start": 3,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 4,
                   "style": "normal",
                   "text": "n",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 5,
                   "style": "normal",
                   "text": "no",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 6,
                   "style": "normal",
                   "text": "o",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 7,
                   "style": "normal",
                   "text": "ji",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "u",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 9,
                   "style": "normal",
                   "text": "ni",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 10,
                   "style": "normal",
                   "text": "da",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 11,
                   "style": "normal",
                   "text": "i",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -2159,20 +2043,20 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <NohkanLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 2,
                   "start": 3,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 1,
                   "start": 8,
                   "style": "normal",
                   "text": "Naka no takane",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }
@@ -2185,20 +2069,20 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <DanceLine
             grid={
-              Array [
-                Object {
+              [
+                {
                   "length": 3,
                   "start": 0,
                   "style": "normal",
                   "text": "and gazes in the distance.",
-                  "voices": Array [],
+                  "voices": [],
                 },
-                Object {
+                {
                   "length": 2,
                   "start": 6,
                   "style": "normal",
                   "text": "9. Sits back on his knee.",
-                  "voices": Array [],
+                  "voices": [],
                 },
               ]
             }

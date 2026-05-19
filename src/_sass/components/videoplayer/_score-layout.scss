@@ -48,6 +48,7 @@
 }
 
 .measure__channel {
+  border-bottom: $border;
   height: $score-channel-height;
 
   @include flex-container($justify: flex-start);
@@ -61,6 +62,7 @@
   color: $brown64;
   font-size: $fs-text-sm;
   font-style: italic;
+  padding-left: 0.25rem;
 }
 
 .measure__channel--large {
@@ -91,7 +93,6 @@
 }
 
 .cell {
-  border-bottom: $border;
   border-right: $border;
   color: $brown;
   height: $score-channel-height;

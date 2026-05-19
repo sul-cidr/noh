@@ -2,20 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const CellText = props => {
-  let rangeSpan = null;
-  let rangeClass = "";
-  if (props.vocalRange === "l") {
-    rangeClass = "low";
-  } else if (props.vocalRange === "m") {
-    rangeClass = "medium";
-  } else if (props.vocalRange === "h") {
-    rangeClass = "high";
-  }
-  if (props.vocalRange !== "") {
-    rangeSpan = <span className={`cell__range--${rangeClass}`} />;
-  } else {
-    rangeSpan = null;
-  }
   let typeSpan = null;
   let tooltipSpan = null;
   if (props.voiceType !== "") {
@@ -43,7 +29,6 @@ const CellText = props => {
       )}
       {typeSpan}
       {tooltipSpan}
-      {rangeSpan}
     </div>
   );
 };
@@ -51,13 +36,11 @@ const CellText = props => {
 CellText.propTypes = {
   text: PropTypes.string.isRequired,
   length: PropTypes.number.isRequired,
-  vocalRange: PropTypes.string,
   voiceType: PropTypes.string,
   textIsCongruent: PropTypes.bool
 };
 
 CellText.defaultProps = {
-  vocalRange: "",
   voiceType: "",
   textIsCongruent: false
 };

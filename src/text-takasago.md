@@ -14,17 +14,15 @@ permalink: /text-takasago/
     <aside class="sidebar-contents__table">
       {% include menu-Takasago.html %}
     </aside>
-
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Takasago">Takasago Text</h2>
-
         <table class="content-table">
           <tr class="content-table__row">
             <td class="content-table__column" width="25%">
               <strong>Author</strong>
             </td>
-            <td class="content-table__column">Unknown</td>
+            <td class="content-table__column">Zeami</td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
@@ -37,417 +35,742 @@ permalink: /text-takasago/
             <td class="content-table__column">Rebecca Teele Ogamo</td>
           </tr>
         </table>
-
-        <h3 id="Act1">ACT 1</h3>
-
+        <h3 id="act1">ACT 1</h3>
         <table class="content-table--libretto">
           <tr class="content-table__row--header">
-            <td id="Waki-enters" class="content-table__column">
-              Waki Enters: Nanori
+            <td id="waki-enters" class="content-table__column">
+              Waki Enters: Kaikō
             </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              <em>
-                Somo somo kore wa <br />
-                Ichijō-no-In ni tsukae-tatematsuru. <br />
-                Tachibana-no-Michinari to wa waga koto nari. <br />
-                Sate mo mikado konya kidoku no go-reimu, mashimashite. <br />
-                Sanjō-no-Kokaji Munechika ni. <br />
-                Mi-tsurugi wo utaserarubeshi to no <br />
-                senji tadaima narikudarite sōrō hodo ni. <br />
-                Kono yoshi wo Munechika ni mōshi-tsukebaya to zonji sōrō.</em
-              >
+              <h5>Waki:</h5>
+              <em>SORE NIGIWAERU SHIMOGYO<br />
+                MIDORISASU SUJIN NO CHI NI<br />
+                ATARASHIKI MANABIYA NO IDEKITARI<br />
+                ONKOCHISHIN INISHIE NO CHIE WO UKE<br />
+                ATARASHIKI WAZA WO UMI<br />
+                MIRAI WO HIRAKU NAMESHI TOTE<br />
+                KOKO YORI SEKAI NI TODOKEN TO<br />
+                YOMO NO HITOBITO TSUDOI TSUTSU<br />
+                MEDETA KARIKERU TOKI TO KAYA</em>
             </td>
-
             <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              To begin with, <br />
-              I am in the service of the Emperor Ichijo. <br />
-              I am known as Tachibana no Michinari. <br />
-              It so happens that his Lordship <br />
-              has this night had a portentous dream oracle. <br />
-              The Sanjo swordsmith Munechika <br />
-              must be ordered to forge a blade. <br />
-              I am on my way now to tell Munechika of this matter.
+              <h5>Waki:</h5>
+              A new school facility has been built<br />
+              in the thriving Sujin area of Shimogyo ward.<br />
+              People from all over will gather here<br />
+              to learn from the past,<br />
+              and, receiving the wisdom<br />
+              of ancient times, generate new skills<br />
+              to share with the world<br />
+              as they anticipate<br />
+              the future. This is a joyous time indeed!
             </td>
           </tr>
-
           <tr class="content-table__row--header">
-            <td id="Mondo-1" class="content-table__column">
-              Waki Enters: Mondō 1
-            </td>
+            <td class="content-table__column">Waki Enters: Nanori</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              <em>Ikani kono uchini Munechika no watari-sōrō ka</em>
-            </td>
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              Is Munechika at home?
-            </td>
-          </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
               <h5>Waki:</h5>
-              <em> Tare nite watari sōrozo.</em>
+              <em>SOMO SOMO KOREWA KIUSHIU HIGO NO KUNI<br />
+                ASO NO MIYA NO KANNUSHI TOMONARI TO WA WAGA KOTONARI<br />
+                WARE IMADA MIYAKO WO MIZUSORŌ HODO NI<br />
+                KONO HARU OMOITACHI MIYAKO EH NOBORISORŌ<br />
+                MATA YOKI TSUIDENAREBA<br />
+                BANSHIU TAKASAGO NO URA WO MO<br />
+                IKKENSEBAYA TO ZONJISŌRO</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
-              Who is it that has come here?
+              Now then, I am Tomonari,<br />
+              a priest of Aso Shrine in Higo province in Kyushu.<br />
+              As I have never seen the capital, Miyako,<br />
+              I have decided to go up to the capital this spring.<br />
+              I also think<br />
+              this is a good chance<br />
+              to go to see Takasago Bay in Banshū as well.
             </td>
           </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              <em>
-                Kore wa senji nite sōrō<br />
-                Waga kimi konya fushigi no reimu, mashimashite. <br />
-                Mitsurugi wo utaserarubeshi tono onkoto nari. <br />
-                Tōtō tsukamatsuri sōrae</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              I am a messenger from the Emperor.<br />
-              His Majesty has this night had a marvelous oracle in a dream.
-              <br />
-              According to the oracle you must forge a fine sword for him.
-              <br />
-              Please comply with this order at once.
-            </td>
-          </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>
-                Senji kashikomatte uketamawari sōrō sarinagara.<br />
-                Orifushi aizuchi utsubeki mono naku sōrō wo ba, <br />
-                nani to tsukamatsuri sōrō beki.</em
-              >
-            </td>
-
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              While I certainly must agree to execute this imperial order,<br />
-              as I do not have anyone to assist me, <br />
-              I do not know how I will be able to carry it out.
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              <em>
-                Fushigi no koto wo mōsu mono kana. <br />
-                Sono na wo etaru, nanji naruga<br />
-                aizuchi utsubeki mono no naki towa. <br />
-                Kokoroegataki iigotokana.</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              What you say, sir, seems most strange.<br />
-              To hear that someone of your reputation <br />
-              does not have an appropriate assistant, <br />
-              is most unfortunate news.
-            </td>
-          </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>
-                Kore wa ōse nite sōrae domo,<br />
-                Kayō no ichidaiji no mono wo tsukamatsuru ni wa, <br />
-                ware ni hodonaru koto no mono no aizuchi, tsukamatsuri koso.
-                <br />
-                Mitsurugi wo mo uchimōsubekere. <br />
-                Tonikaku ni onpenji wo mōshikane. <br />
-                Sekimenshitaru bakari nari.</em
-              >
-            </td>
-
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              Even though I am commanded to do so, <br />
-              without an assistant whose skill is equal to my own, <br />
-              it will not be possible fulfill this order <br />
-              to forge a fine imperial blade. <br />
-              This is the answer I must give, <br />
-              though I am overcome with embarrassment.
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              <em>
-                Mōsu tokoro wa saru koto naredomo.<br />
-                Mikado mo fushigi no reimu mashimaseba. <br />
-                Ikanaru koto ka sōrōbeki <br />
-                tanomoshiku omoi mōshitsutsu<br />
-                hayahaya ryōjō mōlsubeshito. <br />
-                Kasanete senji arikereba
-              </em>
-            </td>
-            <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              Even though it may be as you say,<br />
-              yet as this is the Emperor’s wonderful dream oracle, <br />
-              it surely must be relied upon<br />
-              and you must quickly say <br />
-              you will accept the order. <br />
-              Let me repeat the imperial command!
-            </td>
-          </tr>
-
           <tr class="content-table__row--header">
-            <td id="Ageuta-1" class="content-table__column">
-              Waki Enters: Ageuta 1
-            </td>
+            <td class="content-table__column">Waki Enters: Shidai Chant</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em> Kono ue wa tonimo kakunimo Munechika ga,</em>
+              <h5>Waki Wakizure:</h5>
+              <em>IMA WO HAJIME NO TABIGOROMO<br />
+                IMA WO HAJIME NO TABIGOROMO<br />
+                HI MO YUKUSUE ZO HISASHIKI</em>
             </td>
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              At this point, in any case, Munechika,
+              <h5>Waki Wakizure:</h5>
+              Now we have put on our travel robes,<br />
+              now we have put on our travel robes<br />
+              their cords long as our days ahead.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Tonimo kakunimo Munechika ga,<br />
-                Shintai koko ni kiwamarite. <br />
-                Mitsurugi no yaiba no midaruru kokoro narikeri. <br />
-                Sarinagara goseitō sugunaru ima no miyo nareba, <br />
-                moshimo kidoku no ariyasen. <br />
-                Sore nomi tanomu kokoro kana. <br />
-                Sore nomi tanomu kokoro kana.</em
-              >
+              <em>IMA WO HAJIME NO TABIGOROMO<br />
+                HI MO YUKUSUE ZO HISASHIKI</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              In any case, Munechika,<br />
-              must here decide his course of action. <br />
-              Like the ripples beaten along a well-forged blade his heart
-              wavers. <br />
-              Yet as the reign in the present age is righteous, <br />
-              a miracle may well be afforded me. <br />
-              I must place my trust only in this. <br />
-              I must place my trust only in this.
+              Now we have put on our travel robes<br />
+              their cords long as our days ahead.
             </td>
           </tr>
-
-          <tr class="content-table__row--header">
-            <td id="Shite-enters" class="content-table__column">
-              Waki Enters: Dialogue
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki Wakizure:</h5>
+              <em>IMA WO HAJIME NO TABIGOROMO<br />
+                IMA WO HAJIME NO TABIGOROMO<br />
+                HI MO YUKUSUE ZO HISASHIKI</em>
             </td>
+            <td class="content-table__column">
+              <h5>Waki Wakizure:</h5>
+              Now we have put on our travel robes,<br />
+              now we have put on our travel robes<br />
+              their cords long as our days ahead.
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td class="content-table__column">Waki Enters: Michiyuki</td>
             <td class="content-table__column"></td>
           </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki Wakizure:</h5>
+              <em>TABI GOROMO<br />
+                SUE HARUBARU NO MIYAKOJI WO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki Wakizure:</h5>
+              In our travel robes<br />
+              we go forward on our way to the capital, faraway miyako
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              <em> Senji ni makase tōtō mitsurugi wo tsukamatsuri sōrae.</em>
+              <em>SUE HARUBARU NO MIYAKOJI WO</em>
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              Hurry and make the sword.
+              Today we go out on our way to the distant capital.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>Kashikomatte sōro.</em>
+              <h5>Waki Wakizure:</h5>
+              <em>KYŌ OMOITACHI URANO NAMI<br />
+                FUNAJI NODOKEKI HARUKAZE NO<br />
+                IKUKAKINURAN ATOSUEMO<br />
+                ISASHIRAKUMO NO HARUBARU TO<br />
+                SASHIMO OMOISHI HARIMAGATA<br />
+                TAKASAGO NO URA NI TSUKINIKERI<br />
+                TAKASAGO NO URA NI TSUKINIKERI</em>
             </td>
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              Yes, sir.
+              <h5>Waki Wakizure:</h5>
+              The waves on the beach,<br />
+              the course we sail in the mild spring breeze,<br />
+              stretches on for countless days before us.<br />
+              Clouds after and before, obscure our way ’til now, having come so
+              far,<br />
+              we see the coast of Harima and<br />
+              have arrived at the shore of Takasago.<br />
+              We have arrived at the shore of Takasago.
             </td>
           </tr>
-
           <tr class="content-table__row--header">
-            <td id="Monologue" class="content-table__column">
-              Waki Enters: Monologue
-            </td>
+            <td class="content-table__column">Waki Enters: Tsuki-zerifu</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>
-                Kore wa ichidaiji no koto wo, ōse idasarate sōrō mono kana.<br />
-                Kayō no koto ni wa shinriki wo tanomu naradewa, bechigi naku
-                sōro.<br />
-                Soregashi ga uji no shin na Inari no, myōjin nite sōrō hodoni.
-                <br />
-                Kore yori sugu ni, Inari ni mairi. <br />
-                Kono koto kisei mōsabaya to zonji-sōro.
-              </em>
+              <em>ISOGISORŌ HODO NI<br />
+                BANSHIU TAKASAGO NO URA NI TSUKITE SORŌ<br />
+                HITO KITATTE MATSU NO IWARE WO<br />
+                TAZUNYŌZURU NITE SORŌ</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
-              This is a great task you have come to give me.<br />
-              Such a command can be carried out if I ask for divine help. <br />
-              As my family deity is Inari no Myojin, <br />
-              I will go at once to Inari, <br />
-              and pray concerning this matter.
+              As we have made good time,<br />
+              we have reached the shore of Takasago in Harima province.<br />
+              When someone comes,<br />
+              we will ask them the story of the pine.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              <em>SHIKARUBYŌSORŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              We will do as you say.
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td id="Dialogue" class="content-table__column">
-              Dialogue: Mondō 2
+            <td id="shite-enters" class="content-table__column">
+              Shite Enters: Shin no Issei Chant
             </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em
-                >Nō nō are naru wa Sanjō no Kokaji Munechika nite, on iri sōrō
-                ka.</em
-              >
+              <h5>Shite Shitezure:</h5>
+              <em>TAKASAGO NO<br />
+                MATSU NO HARU KAZE FUKI KURETE<br />
+                ONOE NO KANE MO<br />
+                HIBIKUNARI</em>
             </td>
             <td class="content-table__column">
-              <h5>Shite:</h5>
-              Ho there! Is that the Swordsmith of Sanjo, Munechika ?
+              <h5>Shite Shitezure:</h5>
+              At Takasago<br />
+              the spring wind blows unceasing through the pine,<br />
+              bringing the day to a close<br />
+              as the bell on the hillside tolls.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>
-                Fushigi ya na nabete narazaru on-koto naru ga.<br />
-                Michi mo naki kata yori kitaritamai<br />
-                waga na wo sashite notamō wa. <br />
-                Ikanaru hito nite mashi-masu zo.</em
-              >
+              <h5>Shitezure:</h5>
+              <em>NAMI WA KASUMI NO ISO GAKURE</em>
             </td>
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              How mysterious! Here is someone who is certainly not an ordinary
-              person.<br />
-              There is no path from the direction from which he has appeared,<br />
-              and now he has called me by name. <br />
-              What manner of man are you ?
+              <h5>Shitezure:</h5>
+              The waves, by mist are hidden from the shore:
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em>
-                Kumo no ue naru kimi yori mo<br />
-                tsurugi wo uchite mairaseyo to <br />
-                nanji ni ōse ari shi yo nō.</em
-              >
+              <h5>Shite Shitezure:</h5>
+              <em>OTO KOSO SHIO NO<br />
+                MICHIHI NARE</em>
             </td>
             <td class="content-table__column">
-              <h5>Shite:</h5>
-              You have been ordered <br />
-              by his Imperial Majesty <br />
-              to forge a sword!
+              <h5>Shite Shitezure:</h5>
+              It is by their very sound<br />
+              we know the tides’ ebb and flow.
             </td>
           </tr>
-          <tr class="content-table__row"></tr>
-
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>
-                Sareba koso, <br />
-                sore ni tsukete mo nao nao kidoku no on-koto nare. <br />
-                Tsurugi no choku mo tadaima naru wo. <br />
-                Hayaku mo shiroshimesaruru koto<br />
-                Kaesu-gaesu mo fushin nari.</em
-              >
-            </td>
-
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              As I thought, you are not what you seem to be,<br />
-              and events must be of great importance indeed. <br />
-              I have just received the order to make a blade! <br />
-              How could it be that anyone could know so soon ? <br />
-              No matter how I consider it, the matter is most strange.
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em>
-                Geni geni sore wa saru koto naredomo <br />
-                ware nomi shireba moro bito made mo. <br />
-                Ten ni koe ari, chi ni hibiku.</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              In truth, it is as you say. It is said: To know a thing one's
-              self,<br />
-              is to find it known to all.<br />
-              A voice in heaven, echoes on the earth!
-            </td>
-          </tr>
-
           <tr class="content-table__row--header">
-            <td id="Ageuta-2" class="content-table__column">
-              Dialogue: Ageuta 2
+            <td class="content-table__column">Shite Enters: Sashi 1</td>
+            <td class="content-table__column"></td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>TARE WO KAMOSHIRU HITO NI SEN TAKASAGO NO<br />
+                MATSU NO MUKASHI NO TOMO NARADE</em>
             </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              Is there no one I can call a friend?<br />
+              No, not even that ancient pine of Takasago
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>SUGIKOSHI YOYO HA SHIRAYUKI NO<br />
+                TSUMORITE OI NO TSURU NO<br />
+                NEGURANI NOKORU ARIYAKE NO<br />
+                HARU NO SHIMOYO NO OKII NI MO<br />
+                MATSUKAZE WO NO MI KIKINARETE<br />
+                KOKORO WO TOMO TO SUGAMUSHIRO NO<br />
+                OMOI WO NOBURU BAKARI NARI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              The passing ages have piled up on us,<br />
+              like white snow.<br />
+              We are like old cranes, left on our perch<br />
+              when the spring dawn’s light awakens us after a frosty night.<br />
+              The familiar sound of the wind in the pines,<br />
+              our friend as on our rush mat<br />
+              we share the feelings in our hearts.
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td class="content-table__column">Shite Enters: Sageuta</td>
+            <td class="content-table__column"></td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>OTOZURE WA<br />
+                MATSU NI KOTO TŌ URAKAZE NO<br />
+                OCHIBA GOROMO NO SODE SOETE<br />
+                KOKAGE NO CHIRI WO KAKŌYO<br />
+                KOKAGE NO CHIRI WO KAKŌYO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              The only visitor to the pine,<br />
+              the wind from the shore bringing with it<br />
+              the fallen needles now on our sleeves.<br />
+              Together let us go and sweep the dust from under the tree,<br />
+              sweep up the litter from under the tree.
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td class="content-table__column">Shite Enters: Ageuta 1</td>
+            <td class="content-table__column"></td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>TOKORO WA TAKASAGO NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              Here at this place, Takasago
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              <em>TOKORO WA TAKASAGO NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              Here at this place, Takasago,
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>ONOE NO MATSU MO TOSHI FURITE<br />
+                OI NO NAMI MO YORIKURUYA<br />
+                KONO SHITAKAGE NO OCHIBA KAKU<br />
+                NARU MADE INOCHI NAGARAETE<br />
+                NAO ITSU MADE KA IKI NO MATSU<br />
+                SORE MO HISASHIKI MEISHO KANA<br />
+                SORE MO HISASHIKI MEISHO KANA</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              where the pine on the hill has grown old,<br />
+              The waves aged too, ancient as they wash up on the shore<br />
+              where over long years we sweep the leaves under the tree.<br />
+              How long will our lives continue?<br />
+              Will it be as long as the Live Pine of Iki,<br />
+              a place famous from long ago!<br />
+              A place famous from long ago!
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td id="dialogue" class="content-table__column">Dialogue: Mondō</td>
+            <td class="content-table__column"></td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>IKANI KORENARU RŌJIN NI TAZUNUBEKI KOTO NO SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Pardon me, but may I ask you elders about something?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>KONATA NO KOTO NITE SŌRŌ KA NANIGOTO NITO SŌRŌZO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              Do you mean us? What would you like to ask us about?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>KONO TOKORO NI OITE<br />
+                TAKASAGO NO MATSU TO HA IZURE NO KI WO MŌSHISŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Its concerning this place.<br />
+              Which is the tree called the Takasago Pine?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>SANZŌRŌ TAKASAGO NO MATSU TO WA<br />
+                TORIWAKI KORE NARU MATSU WO MŌSHI NARAWASHITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              The Pine of Takasago is this one here.<br />
+              It is the custom to call it by that name.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>SATESATE TAKASAGO SUMINOE NO MATSU NI AIOI NO NA ARI<br />
+                TŌSHO TO SUMINOE NO WA KUNI WO HEDATETARU NI<br />
+                NANITOTE AIOI NO MATSU TO WA MŌSHISŌRŌZO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Now then, Takasago and Suminoe Pines are called “paired
+              pines.”<br />
+              As the shrine here and Suminoe are in separate provinces<br />
+              why are they known as “paired pines”?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>KOKINSHIU NO JO NITEWAKU<br />
+                TAKASAGO SUMINOE NO MATSU MO AIOI NO YŌ NI OBOE TO ARI<br />
+                JŌ WA TSU NO KUNI SUMINOE NO MONO<br />
+                NBA KOSO TŌSHO NO HITO NARE<br />
+                SHIRU KOTO ARABA MŌSATAMAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              According to the preface to the Kokinshu,<br />
+              the pines of Takasago and Suminoe are considered to be a pair.<br />
+              So I, this old man, am from Suminoe in Tsu<br />
+              while this old woman is a person of this shrine.<br />
+              If you know anything else, please tell them.
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td class="content-table__column">Dialogue: Mondō Kakeai</td>
+            <td class="content-table__column"></td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>FUSHIGI YA MIREBA RŌJYAIN NO<br />
+                FŪFU ISSHO NI ARINAGARA<br />
+                TŌKI SUMINOE TAKASAGO NO<br />
+                URAYAMA WO HEDATETE SUMU TO<br />
+                IU WA IKANARU KOTO YARAN</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              How strange!<br />
+              The elderly pair we see together here<br />
+              are at the same time from Suminoe and Takasago,<br />
+              living in separate provinces separated by the shore and
+              mountains.<br />
+              What does this mean?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              <em>UTATENO ŌSEZŌRŌYA<br />
+                SANSENBANRI WO HEDATSUREDOMO<br />
+                TAGAI NI KAYŌ KOKORO ZUKAINO<br />
+                IMOSE NO MICHI WA TŌ KARAZU</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              You speak foolishly.<br />
+              Though separated by mountains, rivers and many miles,<br />
+              yet our hearts are known, one to the other,<br />
+              as we are husband and wife, meaning there is no distance between
+              us
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>MAZU ANJITEMO GORANZEYO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              So consider this well then.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>TAKASAGO SUMINOE NO<br />
+                MATSU HA HIJŌ NO MONO DANIMO<br />
+                AIOI NO NA WA ARUZOKASHI<br />
+                MASHITEYA SHŌ ARU HITO<br />
+                TOSHITE TOSHIHISASHIKUMO SUMIYOSHI YORI<br />
+                KAYOINARETARU JYŌ TO NBA WA<br />
+                MATSUMOROTOMONI KONO TOSHI MADE<br />
+                AIOI NO FŪFU TO NARU MONO WO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              The Takasago and Suminoe<br />
+              pines though insentient,<br />
+              are known by the name “paired.”<br />
+              This is so, and over the years, we, this old man and woman<br />
+              as humans, have gone freely between here and Suminoe,<br />
+              living many long years,<br />
+              growing old along with the pines,<br />
+              also “paired” as a couple.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>IWARE WO KIKEBA OMOSHIROYA<br />
+                SATESATE SAKI NI KIKOETSURU<br />
+                AIOI NO MATSU NO MONOGATARI<br />
+                TOKORO NI KIKIOKU IWARE WA NAKIKA</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              The story you have told me so interesting!<br />
+              Well then, as I was just asking<br />
+              about the paired pines,<br />
+              is there any other story about the pines related here?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>MUKASHI NO HITO NO MŌSHISHI WA<br />
+                KORE WA MEDETAKI YO NO TATOENARI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              It was said by people long ago<br />
+              that they serve as a symbol of an auspicious reign
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              <em>TAKASAGO YO IU WA JŌDAINO<br />
+                MANNYŌSHU NO INISHE NO GI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              Takasago is said to represent<br />
+              the ancient time of the “Manyōshu”
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>SUMIYOSHI TO MŌSU WA IMA KONO MIYO NI SUMITAMŌ ENGI NO ONKOTO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              Sumiyoshi is said to represent the present time<br />
+              and reigning emperor in this Engi era.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              <em>MATSU TO WA TSUKINU KOTO NO HA NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shitezure:</h5>
+              The pine, is the ever-green spoken word-leaves (of poetry)
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>SAKAE HA KOKON AIONAJITO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              Flourish together from the past through the present,
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>MIYO WO AGAKURU TATOENARI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              praising the times they represent.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>YOKUYOKU KIKEBA ARIGATAYA<br />
+                IMA KOSO FUSHIN HARU NO HI NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              How impressed I am to hear this story, and so thankful!<br />
+              Any doubts I had have vanished this spring day.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>HIKARI YAWARAGU NISHI NO UMI NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              Its light soothing over the western sea.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>KASHIKO WA SUMINOE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              There at Suminoe,
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>KOKO WA TAKASAGO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              and again, here at Takasago,
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>MATSU MO IRO SOI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              the pine’s color deepens
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>HARU MO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              the spring, too,
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Waki:</h5>
+              <em>NODOKA NI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Waki:</h5>
+              become peaceful.
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td class="content-table__column">Dialogue: Ageuta 2</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Kabe ni mimi:<br />
-                Iwa no mono iu yo no naka ni, <br />
-                Iwa no mono iu yo no naka ni, <br />
-                Kakure wa araji koto ni nao, <br />
-                kumo no uebito no mitsurugi no<br />
-                hikari wa nanika kurakaran. <br />
-                Tada tanome kono kimi no<br />
-                Megumi ni yoraba mitsurugi mo<br />
-                nado ka kokoro ni kanawazaru. <br />
-                Nado ka wa kanawazarubeki.</em
-              >
+              <em>SHIKAI NAMI SHIZUKA NITE<br />
+                KUNI MO OSAMARU TOKITSUKAZE<br />
+                EDA WO NARASANU MIYO NAREYA<br />
+                AINI AIOI NO<br />
+                MATSU KOSO MEDETAKARIKERE<br />
+                GENIYA AOGITEMO<br />
+                KOTO MO OROKAYA KAKARU YO NI<br />
+                SUMERU TAMI TOTE YUTAKANARU<br />
+                KIMI NO MEGUMI WA ARIGATAYA<br />
+                KIMI NO MEGUMI WA ARIGATAYA</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              Wall have ears:<br />
-              In the world where rocks may speak, <br />
-              In the world where rocks may speak, <br />
-              and nothing is hidden, <br />
-              nothing shall dim the radiance<br />
-              of the Emperor's sword. <br />
-              Only have faith<br />
-              that through his Majesty's grace and the sword<br />
-              will be realized as you wish. <br />
-              It must be realized.
+              The waves of the Four Seas are calm.<br />
+              the country at peace,<br />
+              the season’s wind not stirring the branches.<br />
+              At such a time the paired pines too,<br />
+              rejoice as they prosper together.<br />
+              Indeed, in vain it is<br />
+              to try to praise such an age,<br />
+              a reign of a sovereign<br />
+              whose blessing brings prosperity to all,<br />
+              such a sovereign whose blessing brings prosperity to all.
             </td>
           </tr>
-
           <tr class="content-table__row--header">
-            <td id="Shite-performs" class="content-table__column">
+            <td class="content-table__column">Dialogue: Dialogue</td>
+            <td class="content-table__column"></td>
+          </tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>NAO NAO TAKASAGO NO MATSU NO IWARE NENGORO NI<br />
+                KATARARE SŌRAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Now then, of this pine of Takasago<br />
+              speak in greater detail.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>NENGORO NI<br />
+                MŌSHIAGGYŌZURU NITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              Certainly,<br />
+              I will tell you in more detail.
+            </td>
+          </tr>
+          <tr class="content-table__row--header">
+            <td id="shite-performs" class="content-table__column">
               Shite Performs: Kuri
             </td>
             <td class="content-table__column"></td>
@@ -455,837 +778,965 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Sore Kan-nō sanseki no tsurugi<br />
-                inagara Shin no midare wo shizume. <br />
-                Mata Yō-tei ga Kei no tsurugi<br />
-                Shiujt'n no hikari wo ubaeri.</em
-              >
+              <em>SORE SŌMOKKOKORONASHI TOWA MŌSEDOMO<br />
+                KAJITSUNO TOKI WO TAGAEZU<br />
+                YŌ SHUN NO TOKU WO SONAETE NANSHIHANA<br />
+                HAJIMETE HIRAKU</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <p markdown="1">
-                Once with such a blade, the Emperor's Three-Foot Sword[^1],<br />
-                subdued the rebellion of the Ts'in by its reputation alone.<br />
-                Again, the Yang Emperor, with his sword Kei<br />
-                outshone the brilliance of the House of Chou.
-              </p>
+              Though plants and trees are said to be insentient<br />
+              Flowers and fruit know their time without fail.<br />
+              Filled with the vigor of spring, the western branches<br />
+              are the first to blossom.
             </td>
           </tr>
-
           <tr class="content-table__row--header">
-            <td id="Sashi" class="content-table__column">
-              Shite Performs: Sashi
-            </td>
+            <td class="content-table__column">Shite Performs: Sashi 2</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em>Sono nochi Gensō Kō-tei no Shōki Daijin mo,</em>
+              <em>SHIKAREDOMO KONO MATSU WA<br />
+                SONO KESHIKI TOKOSHINAENISHITE<br />
+                KAYŌTOKI WO WAKAZU</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <p markdown="1">
-                In later years, the Emperor Huan Tsung's Minister Chung K'ei
-                too,[^2]
-              </p>
+              However, this pine<br />
+              always looks the same through the seasons,<br />
+              neither flowers nor leaves mark a time change.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Tsurugi no toku ni konpaku wa,<br />
-                kunpen ni tsukae-tatematsuri. <br />
-                Mōryō kijin ni itaru made <br />
-                tsurugi no yaiba no hikari ni osorete <br />
-                sono ada wo nasu koto wo ezu.</em
-              >
+              <em>YOTSU NO TOKIITARITEMO<br />
+                ISSEN NEN NO IRO YUKI NO UCHI NI FUKAKU<br />
+                MATA WA SHŌKA NO IRO<br />
+                TOKAERITOMO IERI</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              joined his spirit after death with the virtue of his sword,<br />
-              and thus, served at his Lord's side. <br />
-              Even evil spirits and demons<br />
-              were in fear of that sword's glow, <br />
-              and the destruction they sought was not achieved.
+              Through the four seasons, for a thousand years<br />
+              its color deepens in the snow.<br />
+              Then again, the flower of the pine is said to bloom ten times,<br />
+              once in a thousand years.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Kanka honchō ni oite tsurugi no itoku </em>
+              <em>KAKARU TAYORI WO MATSUGAE NO</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
-              Indeed, the virtue of the swords in China and Japan
+              For such a sign the pine branches wait,
             </td>
           </tr>
           <tr class="content-table__row"></tr>
-
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> mōsu ni oyobanu kidoku to kaya.</em>
+              <em>KOTO NO HAGUSA NO TSUYU NO TAMA<br />
+                KOKORO WO MIGAKU TANE TO NARITE</em>
             </td>
-
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              and their miraculous power is beyond expression!
+              the dew on their word-leaves gems,<br />
+              which become seeds to inspire our hearts
             </td>
           </tr>
-
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>IKI TOSHI IKEKU MONOGOTO NI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              so that all living things
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>SHIKISHIMA NO KAGE NI YORU TOKAYA</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              are drawn to the light of these islands.
+            </td>
+          </tr>
           <tr class="content-table__row--header">
-            <td id="Kuse" class="content-table__column">
-              Shite Performs: Kuse
-            </td>
+            <td class="content-table__column">Shite Performs: Kuse</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Mata waga chō no sono hajime.<br />
-                Ninnō jūnidai Keikō-tennō , <br />
-                miko no mikato no on-na wo ba<br />
-                Yamata-dake to mōshishiga. <br />
-                Kiui wo Taiji no chiku wo uke. <br />
-                Seki no higashi mo harukanaru. <br />
-                Azuma no tabi no michi sugara. <br />
-                Ise ya Owari no umizura ni tatsu nami made mo<br />
-                kaeru koto yo to urayami, <br />
-                itsu ka warera mo kaeru nami no, <br />
-                koromode ni arama shi to omoi-tsuzukete-yuku hodo ni.</em
-              >
+              <em>SHIKARU NI CHŌNŌ GA KOTOBA NI MO<br />
+                UJŌHIJŌ NO SONO KOE MINA<br />
+                UTA NI MORURU KOTONASHI<br />
+                SŌMOKUDOSHA FŪSEISUION MADE<br />
+                BANBUTTO KOMURU KOKORO ARI<br />
+                HARU NO HAYASHI NO TŌFŪ NI UGOKI<br />
+                AKI NO MUSHI NO HOKURO NI NAKU MO<br />
+                MINA WAKA NO SUGATA NARAZUYA<br />
+                NAKANIMO KONOMATSU WA<br />
+                BANBOKU NI SUGURETE<br />
+                SHIUHAKKO NO YOSŌI<br />
+                SENSHIU NO MDORI WO NASHITE<br />
+                KOKON NO IRO MIZU<br />
+                SHIKŌ NO ONSHAKU NI<br />
+                AZUKARU HODO NO KI NARI TOTE<br />
+                IKOKU NIMO HONCHŌ NIMO<br />
+                BANMIN KOREWO SHŌKANSU</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <p markdown="1">
-                And so, it was in the early days of our history, <br />
-                the Twelfth of the Imperial Line, the Emperor Keikō,<br />
-                had a son known by the name Yamato-dake.[^3] <br />
-                The wild barbarians! He received the order to subdue them.
-                <br />
-                The barrier check points far behind as yet further to the East.
-                <br />
-                The road of his journey to the Eastern provinces took him.
-                <br />
-                Even at Ise and Owari the waves on the sea rise and return!
-                <br />
-                With envy he wondered always, <br />
-                when he too might find himself, with foam-drenched sleeves<br />
-                returning home, even as he continued on his way.
-              </p>
+              As in the words of Chōnō:<br />
+              sentient or insentient, all beings have a voice and all,<br />
+              bar none, is a song.<br />
+              Plants, trees, the earth itself, even the sound of wind and
+              water,<br />
+              each has concealed feeling within.<br />
+              The woods in spring stirred by the east wind,<br />
+              insects in autumn crying in the northern dew,<br />
+              do they not embody poetry?<br />
+              Among these,<br />
+              the pine surpasses all,<br />
+              a lordly figure of noble dignity,<br />
+              green through a thousand autumns,<br />
+              its color unchanging from the past to the present.<br />
+              Emperor Shikō granted it court rank,<br />
+              because of its attributes.<br />
+              In foreign lands as well as in our own country,<br />
+              all praise its virtues.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Koko ya kashiko no tatakai ni,</em>
+              <em>TAKASAGO NO<br />
+                ONOE NO KANE NO OTO SUNARI</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
-              In the battles in one place and in the next ,
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              <em>
-                Jin-ba gankutsu ni mi wo kudaki,<br />
-                Chi wa takuroku no kawa to natte, <br />
-                kōha tate nagashi sudo ni oyoberu Ebisu mo. <br />
-                Kabuto wo nuide hoko wo fuse<br />
-                mina kōsan wo mōshikeri. <br />
-                Mi-koto no gyō yori mi-kariba wo susume tamaeri. <br />
-                Koro wa Kami-na-zuki, <br />
-                hatsu ka amari no koto nareba. <br />
-                Yo-mo no momiji mo fuyugare no<br />
-                tō-yama ni miyuru hatsu-yuki wo, <br />
-                nagame sase tamaishi ni,</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              men and horses: their bodies crushed in their caverns,<br />
-              their blood on the battlefields a river, <br />
-              their shields swept away on crimson waves again and again. <br />
-              Finally, the barbarians removed their helmets, <br />
-              lay down their arms and were made to surrender. <br />
-              From the time of this Prince's reign, the royal sport of hunting
-              was begun. <br />
-              It was an incident that occurred, <br />
-              on the twentieth day of the Tenth month: <br />
-              Everywhere the autumn tints had faded, <br />
-              and even on the distant winter withered mountains, <br />
-              the traces of the first snow fall could be seen.
+              At Takasago<br />
+              the hilltop bell tolls, serene.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em> Yebisu shi-hō wo kakomitsutsu.</em>
-            </td>
-
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              The barbarians surrounding him on every side.
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Kare-no no kusa ni hi wo kake <br />
-                yo-en shikiri ni moe-kitari. <br />
-                Kataki-seme-tsuzumi wo uchi-kakete. <br />
-                Ka-en wo hanachite kakarikareba.</em
-              >
+              <em>AKATSUKI KAKETE<br />
+                SHIMO WA OKEDOMO MATSUGAE NO<br />
+                HAIRO WA ONAJI FUKAMIDORI<br />
+                TACHIYORU KAGE NO ASAIU NI<br />
+                KAKEDOMO OCHIBA NO TSUKISENU WA<br />
+                MAKOTO NARI MATSU NO HA NO<br />
+                CHIRIUSEZUSHITE IRO WA NAO<br />
+                MASAKI NO KAZURA NAGAKIYO NO<br />
+                TATOE NARIKERI TOKIWAGI NO<br />
+                NAKA NI MO NAWA<br />
+                TAKASAGONO<br />
+                MATSUDAI NO TAMESHI NI MO<br />
+                AIOI NO KAGEZO HISASHIKI</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              Set fire to the grass of the withered fields, and as the blaze
-              burned high<br />
-              and as the blaze burned high with heavy lingering billows of
-              smoke.<br />
-              Began to beat their war drums in the signal to attack. <br />
-              The Towering flames! as the attack blazed forward.
+              Though the dawn brings frost,<br />
+              the color of the needles on the pine boughs<br />
+              are the same deep green<br />
+              as I approach beneath the tree at dawn or dusk<br />
+              to sweep the needles, falling endlessly.<br />
+              Truly, though the pine needles fall without ceasing,<br />
+              their color is never lost, only deepens,<br />
+              like the masaki vine,<br />
+              an example of a long-lasting reign.<br />
+              Among ever-green trees,<br />
+              the name of Takasago<br />
+              stands out through generations,<br />
+              it’s paired pines the image of this blessing.
             </td>
           </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em> Mi-koto tsurugi wo nuite...</em>
-            </td>
-
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              The Prince drew his sword....
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              <em>
-                Mi-koto tsurugi wo nuite,<br />
-                atari wo harai tachimachi. <br />
-                ni honō mo tachi-shirizoke to, <br />
-                shi-hō no kusa wo nagi-haraeba. <br />
-                Tsurugi no seirei arashi to natte, <br />
-                hon wo mo kusa mo fuki-kaesarete. <br />
-                Ten ni kakayaki chi ni michite. <br />
-                Myō-ka wa kaette kataki wo yakeba. <br />
-                Su man gi no Yebisu-domo wa, <br />
-                tachimachi koko nite usetengeri. <br />
-                Sono nochi shi-kai osamarite, <br />
-                Jin-ka to-zashi wo wasureshi mo. <br />
-                Sono Kusanagi no yue to ka ya. <br />
-                Tadaima nanji ga utsubeki<br />
-                kono zuisō no mitsurugi mo. <br />
-                Ika de sore ni wa otorubeki. <br />
-                Tsutōru ie no Munechika yo, <br />
-                kokoro yasuku mo omoite ge-kō shi tamae.
-              </em>
-            </td>
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              The Prince drawing his sword,<br />
-              wielded it about him. <br />
-              At once, the flames drew back, <br />
-              as it mowed down the grasses in all directions. <br />
-              The spirit of the sword became a storm<br />
-              blasting back the raging flames and grasses too. <br />
-              The blaze lit up the heavens, covered the earth! <br />
-              A furnace of fierce flames turned back to devour the enemy forces.
-              <br />
-              Thus, the countless barbarians, <br />
-              and cavalrymen were brought down. <br />
-              So, in later years the Empire was at peace: <br />
-              So much so that the people forgot to bar the doors of their
-              houses. <br />
-              This is because of the 'Grass-cutter', it was said. <br />
-              And now, this auspicious omened blade<br />
-              that you must forge! <br />
-              Is there any reason it should be a lesser blade than that ? <br />
-              Munechika, heir to a house of proud tradition, <br />
-              set your heart at rest and go home now.
-            </td>
-          </tr>
-
           <tr class="content-table__row--header">
-            <td id="Shite-exits" class="content-table__column">
-              Shite Exits: Kakeai 1
-            </td>
-            <td class="content-table__column"></td>
-          </tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>
-                Kanka honchō ni oite tsurugi no itoku <br />
-                Toki ni totte no shiugen mōsu, hakari no kusōrō. <br />
-                Sate satemo onmi wa ikanaru hito zo.</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              What you have told me of the power of the swords in China and
-              Japan<br />
-              has gladdened my heart at this important hour.<br />
-              Yet, I press you again to tell me who you are.
-            </td>
-          </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em>
-                Yoshi tare nari tomo tanomubeshi.<br />
-                Mazumazu choku no mitsurugi wo<br />
-                utsu beki dan no kazaritsutsu.<br />
-                Sono toki ware wo machitamawaba.</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              Who I may be is of no consequence, but you must pray!<br />
-              Before anything else adorn your forge mound<br />
-              where you will temper the Imperial blade. <br />
-              And at that time, if you will but wait for me.
-            </td>
-          </tr>
-
-          <tr class="content-table__row--header">
-            <td id="Ageuta-3" class="content-table__column">
-              Shite Exits: Ageuta 3
+            <td id="shite-exits" class="content-table__column">
+              Shite Exits: Rongi1
             </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Tsūriki no mi wo henji. <br />
-                Tsūriki no mi wo henji, <br />
-                kanarazu sono jiset'n ni<br />
-                mairi aite onchikara wo tsuke-mōsubeshi. <br />
-                Machitamae to. <br />
-                Iugumo no Inariyama, <br />
-                yukue mo shirazu usenikeri. <br />
-                Yukue mo shirazu usenikeri.</em
-              >
+              <em>GENI NA NISHIŌ MATSUGAE NO<br />
+                GENI NA NISHIŌ MATSUGAE NO<br />
+                OIKI NO MUKASHI ARAWASHITE<br />
+                SONO NA WO NANORITAMAEYA</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              I will change into supernatural form.<br />
-              Having changed into a supernatural form, <br />
-              I will come without fail, at the appointed time, <br />
-              and join you, adding my strength to yours. <br />
-              Then wait for me! <br />
-              So saying, into the evening clouds of Mt. Inari, <br />
-              without a sign of where he went, he vanished. <br />
-              Without a sign of where he went, he vanished.
+              Indeed, these celebrated pine branches<br />
+              Indeed, these celebrated pine boughs,<br />
+              illustrate a time of long ago, as do you.<br />
+              Tell us then who you are.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>IMA WA NANI WO KA TSUTSUMUBEKI<br />
+                KORE WA TAKASAGO SUMINOENO<br />
+                KAMI KOKO NI AIOI NO<br />
+                FŪFŪ TO GENJI KITARITARI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              What is there now to conceal?<br />
+              We are Takasago and Suminoe’s<br />
+              paired pine gods<br />
+              appearing before you here as man and wife.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>FUSHIGIYA SATEWA NADOKORO NO<br />
+                MATSU NO KIDOKU WO ARAWASHITE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              What a marvel! You have appeared then,<br />
+              revealing the miracle of the pines!
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>SŌMOKU KOKORO NAKEREDOMO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              Though it is said plants and trees are without feeling
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>KASHIKOKIYO TOTE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              In such an auspicious age
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              <em>TSUCHI MO KI MO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite Shitezure:</h5>
+              earth and trees as well
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>WAGA ŌKIMI NO KUNI NAREBA<br />
+                ITSUMADEMO KIMI GA YO NO<br />
+                SUMIYOSHI NI MAZU YUKITE<br />
+                ARENITE MACHIMŌSANTO<br />
+                IUNAMI NO MIGIWA NARU<br />
+                AMANO KOBUNE NI UCHINORITE<br />
+                OIKAZE NI MAKASETSUTSU<br />
+                OKI NO KATA EH IDENIKERIYA<br />
+                OKI NO KATA EH IDENIKERI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              All within the sovereign’s land,<br />
+              will share forever in the glory of the reign.<br />
+              To Sumiyoshi I will go now<br />
+              and wait for you there!<br />
+              So saying, where the evening waves meet the shore,<br />
+              he boards a fishing boat,<br />
+              and with a following fair wind,<br />
+              heads out for the open sea!<br />
+              heads out for the open sea!
             </td>
           </tr>
         </table>
-
-        <h3 id="Aikyogen">AIKYŌGEN</h3>
-
+        <h3 id="aikyogen">AIKYŌGEN</h3>
         <table class="content-table--libretto">
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Kyōgen:</h5>
-              <em>
-                Kayō ni sōro mono wa Inari Daimyōjin ni,<br />
-                tsukaemōsu massha noshin nite sōro. <br />
-                Tadaima kore eh izuru koto, yomo gi ni arazu. <br />
-                Satemo, ninnō Rokujūrokudai Ichijō no in, <br />
-                kono hodo, fushigi no ontsuge mashimashite, <br />
-                Sanjō no Kokaji Munechika ni, <br />
-                mitsurugi wo utaserarubeki to no on koto nari. <br />
-                Sunawachi Michinari nōkyō, chokushi to natte, <br />
-                senji no omomuki. ōserare sureba, <br />
-                Munechika, sneji uketemawari kahodo daiji no mitsurugi wo,
-                <br />
-                uchimōsu ni wa, soregashi ichinin nite wa hakaraigatashi. <br />
-                Ware ni otonaru aizuchi nakute wa kanawaji tote, <br />
-                mazu wa gojitai nasaresōrō ga ringen nase nogotoshi, <br />
-                kastu wa ie no menboku to zonji, ouke wo mōsoresōro. <br />
-                Sarinagara, kono tabi no mitsurugi wo uchimōsuni wa,<br />
-                Soregashi ichinin wa hakaraigatashi, <br />
-                Shinriki wo tanomōruru tote, <br />
-                sunawachi, Inari Daimyōjin na ujishin nari. <br />
-                Koto sara, kaji wo mamori tamao ongami nareba, <br />
-                Tadaima sankei tsukamatsuri sōro. Tokoro no. <br />
-                Katajikenakumo tosha myojin gozonji atte<br />
-                kari ni dōji sugata to genji Munechika ni uchiai, <br />
-                on-kotoba wo kawasaresōro. <br />
-                Sōjite, wagakyō ni oite, <br />
-                kamiyo yori tsutōru reiken, futatsu ari. <br />
-                Totsuka no tsurugi to mōsu wa, Susanō no mikoto, <br />
-                Izumo no kuni, Hi no kawakami ni, daijya no arishi wo, <br />
-                Tsukamaetamaishimo, kono tsurugi no itoku nari. <br />
-                Matta,Murakumo no tsurugi to mōsu wa, <br />
-                sono toki daijya no wo ni arishi tsurugi nari. <br />
-                Matta, ninō junidai Keikō tenno, daini no miko, <br />
-                Yamatodake no Mikoto tōi wo tairagetamaishi wo, <br />
-                sono tsurugi no itoku nari. <br />
-                Sore yori aratame, Kusanagi no tsurugi to wa, kore wo mōsu nari.
-                <br />
-                Sono hoka, Kan no kōsō Sanseki no ken, <br />
-                Kan Shō Bakuga no tsurugi, morokoshi wagakyo ni oite<br />
-                tsurugi no itoku, kotogotoku onmonogatari nasare. <br />
-                Nonji mo, na wo ehtaru kaji nareba, izure ni ototoru. <br />
-                Mitsurugi wo uchimōsu nari. Kane wo kitōte matsubeshi. <br />
-                Sono toki Myojin raigenatte, <br />
-                Aizuchi wo utaserarubeki to no onkoto nareba, <br />
-                Munechika mo, yorokobi no mayu wo hikari, <br />
-                tadaima, gekō tsukamatsurite sōrō. <br />
-                Sōjite nanigoto mo kisei wo kakemōseba, <br />
-                shōganjōju utagai nashi. <br />
-                Kamaete sono bun, kokoroe sōrae.</em
-              >
+              <h5>Waki:</h5>
+              <em>IKANI DAREKA ARU</em>
             </td>
             <td class="content-table__column">
-              <h5>Kyōgen:</h5>
-              I am the god of a subsidiary shrine and in the service o Inari
-              Daimyōjin. <br />
-              I have come here before you now on a matter of no small
-              importance. <br />
-              Now then, it seems that Emperor Ichijo, sixty-sixth of the
-              imperial line, <br />
-              has recently had a portentous dream oracle. <br />
-              According to it, the Sano swordsmith Munechika <br />
-              must be ordered to forge a blade. <br />
-              At that time, Minister Michinari was the imperial envoy, <br />
-              who gave him the details of the imperial message. <br />
-              Munechika hearing the message, agreed to comply with the order,
-              <br />
-              though to forge such an important blade, he said, though to forge
-              such an important blade, <br />
-              was something he could not do by himself. <br />
-              “As it will be impossible without an assistant of skill equal to
-              my own, <br />
-              I should certainly refuse this order, but as this is a request
-              from the Emperor himself, <br />
-              I know I would bring great shame to my house to decline and so I
-              will accept it”, he said. <br />
-              And so, as it would not be possible for him to forge the sword by
-              himself on this occasion, <br />
-              in order to do it he decided he must call on divine power, <br />
-              in other words, on Inari Daimyojin, his family’s tutelary god.
-              <br />
-              If indeed a deity who would watch over his forge, <br />
-              he decided he must go at once and pray concerning this matter.
-              <br />
-              As he did this then so humbly, the god of Inari shrine knew of it
-              and, <br />
-              taking the form of a youth, appeared and with<br />
-              Munechika, and spoke to him. <br />
-              Commonly, in our land there have, <br />
-              from the Age of the Gods, been two sacred swords. <br />
-              The one called “Totsuka no Tsurugi”, the Ten-span Sword<br />
-              was used by Susanō no mikoto, <br />
-              when learning of a great serpent at the headwaters of the Hi
-              River, in the country of Izumo, <br />
-              he destroyed it, due to the virtue of this sword. <br />
-              Then again, the sword called “Murakumo no Tsurugi” the Gathering
-              Clouds Sword, <br />
-              was the sword he found at that time in the tail of the great
-              serpent. <br />
-              Then again, Yamato dake no Mikoto, the second son of Enperor
-              Keikō, <br />
-              the twelfth of the imperial line, subdued the people of the
-              eastern lands, <br />
-              this also due to the virtue of that sword. <br />
-              From that time, it was renamed and known as “Kunasagi no tsurugi”,
-              the Grass Cutting Sword, <br />
-              the Gan Jiang and Mo Ye Swords. He told him many stories<br />
-              of the virtue of swords, both in China and in our own country.
-              <br />
-              “You too, if you are a swordsmith of repute, will be able to forge
-              a blade of equal merit. <br />
-              “Prepare, temper the metal and wait”. <br />
-              At that time, Myojin will appear and be your assistant <br />
-              In forging the blade. This being the case, <br />
-              Munechika, his eyebrows relaxed in joy, <br />
-              is even now coming this way to do these things. <br />
-              In this way then, when prayers are offered, <br />
-              they shall be fulfilled without a doubt. <br />
-              On this matter, rest assured.
+              <h5>Waki:</h5>
+              Is there someone here?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              <em>ONMAE NI SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              Here I am, before you.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>TŌURA NO MONO WO OYOBIKITARI SŌRAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Call someone here to me who is a local person from this bay.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              <em>KASHIKOMATTESŌRŌ<br />
+                TŌURA NO MONO WO WATARI SŌRŌKA</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              Certainly.<br />
+              Are you a local person from this bay?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>TŌURA NO MONO TO ONTAZUNEARU<br />
+                MAKARIDE UKETAMAWARABAYA TO ZONJISŌRŌ<br />
+                TOURA NO MONO TO ONTAZUNE WA<br />
+                IKAYŌ NARU ONYŌ NITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              You asked for a local person of this bay<br />
+              and so I have come to answer any questions you may have.<br />
+              What sort of business do you have with me,<br />
+              a local person from this bay?
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              <em>CHITO MONO WO TAZUNETAKIYOSHI ŌSE SŌRŌ<br />
+                CHIKŌKITTETAMAWARI SŌRAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              We would like to ask you about something.<br />
+              Please come closer.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>KOKORE MŌSHITESŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              I understand.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              <em>TŌURA NO MONO WO MESHITEMAIRITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Wakizure:</h5>
+              I have brought a person of the bay as you asked.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>TŌURA NO MONO ONMAE NI SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              I am a man of the bay, before you.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>KORE WA KYŪSHŪ HIGO NO KUNI<br />
+                ASO NO MIYA NO KANNUSHI TOMONARI NITE SŌRŌ<br />
+                TŌURA HAJIMETE IKKEN NO KOTO NITE SŌRŌ<br />
+                KONO TOKORO NI OITE<br />
+                TAKASAGO NO MATSU NO IWARE<br />
+                KATTATEKIKASARE SŌRAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              I am Tomonari,<br />
+              a priest of the Aso Shrine in Higo, Kyushu.<br />
+              This is my first time to see this bay.<br />
+              I would like for you<br />
+              to tell me the story<br />
+              of the Takasago Pine here.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>KOREWA OMOI MO YORANU KOTO WO,<br />
+                ONTAZUNENASARYO MONO KANA<br />
+                WARERA MO KONOATARI NI SUMAIMŌSEDOMO<br />
+                KAYŌ NO KOTO KUWASHIKU ZONZEZUSŌRŌ<br />
+                SARINAGARA OYOSO UKETAMAWARI OYOBITARU TŌRI<br />
+                MONOGATARI MŌSŌZURU NITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              Well, this is an unexpected question!<br />
+              I live in this area<br />
+              but I am afraid I do not know in detail<br />
+              about what you have asked.<br />
+              However, I will do my best<br />
+              to tell you the story as I have heard it.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>YAGATE KATARARE SŌRAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Tell me about it at your own pace.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>MAZU TŌURA NI OITE<br />
+                TAKASAGO NO MATSU TO MŌSU WA<br />
+                TORIWAKE KORENARU MATSU WO MŌSUNARAWASHI SŌRŌ<br />
+                SATE MATA AIOI TO MŌSU SHISAI WA<br />
+                KOKINSHU NO JO NIMO<br />
+                TAKASAGO SUMINOE NO MATSU MO<br />
+                AIOI NO YŌ NI OBOE TO SHIRUSHI OKARETE SŌRŌ<br />
+                KORE WA SHOKUIŌKI NAKA NIMO<br />
+                MATSU WA TOKIWAGI NISHITE<br />
+                SAKAE HISASHIKI MONO NAREBA<br />
+                WAKA NO MICHI SAKAE YUKU KOTOMO<br />
+                KONO TAKASAGO SUMINOE NO<br />
+                MATSU NO HA NO GOTOKU NARUBESHI TO<br />
+                TATOE OKARETE SŌRŌ<br />
+                SAREBA TŌSHA MYŌJIN TO SUMIYOSHI NO MYŌJINNA,<br />
+                FŪFU NO ONGAMI NITE<br />
+                SUMIYOSHI NO MYŌJIN TŌSHA EH ŌRAI MUKAI NO TOKI MO<br />
+                MATA TŌSHA MYŌJIN<br />
+                SUMIYOSHI E GORAIKŌ NO TOKI MO<br />
+                KORE NARU MATSU NITE KAMI KATARAI WO NASARE<br />
+                MUKASHI YORI IMANI ITARUMADE<br />
+                IKUHISASHIKU AIKITARITAMAU NI YORI<br />
+                AIOI NO MATSU TOMO KONO TOKORO NITE MŌSHI NARAWASHITE SŌRŌ<br />
+                SAREBA TŌSHA MYŌJIN TO<br />
+                SUMIYOSHI NO MYŌJIN NA<br />
+                ITTAIBUNSHIN NO ONGAMI NAREBA<br />
+                WAKA NO MICHI SAKAE YUKU KOTO MO<br />
+                DANJŌ FŪFU NO SUENAGAKI HISASHIKU MEDETAKI KOTO MO<br />
+                HITOE NI KONO GOSHINTOKU NITE SŌRŌ<br />
+                SAREBA WAKA NO KOTOBA NIMO<br />
+                ISAGO CHŌJITE IWAO TO NARI<br />
+                CHIRITUMORITE YAMA TO NARU<br />
+                HAMA NO MASAGO WA KOTOGOTOKURUTOMO<br />
+                YOMU KOTONOHA WA TSUKI MA JI NANDO TO<br />
+                UKETAMAWARITE SŌRŌ<br />
+                SAREBA MATSU NO MEDETAKI SHISAI NA<br />
+                SAMAZAMA NO ONNUTA NIMO YOMASERARETE SŌRŌ GA<br />
+                NAKA NIMO AME KUDARU<br />
+                ARAHITOGAMI MO AIOI MO<br />
+                OMOI HISASHIKI SUMINOE NO MATSU TO<br />
+                KAYŌ NI YOMASERARE<br />
+                KONO TOKORO WOBA GOJŪ ROKU OKU SHICHI SEN SAI MADEMO<br />
+                MAMORASETARU YOSHI KONO ATARI NITE MŌSHI NARAWASHITE SŌRŌ<br />
+                MAZU MATSU NO MEDETAKI SHISAI<br />
+                ŌKATA KAKU NO GOTOKU NITE SŌRŌ GA<br />
+                TADAIMA WA NANTO OBOSHIMESHITE YARAN<br />
+                ONTAZUNE FUSHIN NI ZONJI SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              To start with, at this bay the particular pine<br />
+              known as the Takasago pine is this one here.<br />
+              In addition, the origin of “growing together”<br />
+              also appear in the preface<br />
+              of the Kokinshu” where it is written<br />
+              that the pine trees at Takasago and Suminoe<br />
+              should be remembered as growing together.<br />
+              This is because, as among the many trees there are,<br />
+              the pine is an evergreen<br />
+              that flourishes for a long time,<br />
+              so it is said the way of waka poetry<br />
+              must also flourish<br />
+              like the pines of Takasago and Suminoe,<br />
+              verses following the example of pine needles.<br />
+              Therefore, the god of our shrine and the god of Sumiyoshi<br />
+              are deities who are husband and wife.<br />
+              When the god of Sumiyoshi visits our shrine,<br />
+              or again,<br />
+              our god visits Sumiyoshi,<br />
+              they have their godly conversations here at this pine.<br />
+              As they have been visiting each other<br />
+              in this way from ancient times until the present time,<br />
+              it is known now as the pine tree of their relationship
+              together.<br />
+              Since the god of our shrine<br />
+              and the god of Sumiyoshi are as one,<br />
+              it is entirely due to this divine virtue<br />
+              that the path of waka poetry will prosper<br />
+              just as marriage between man and woman<br />
+              will be happy and long-lasting.<br />
+              Also, in words about waka, too,<br />
+              is written that even as pebbles,<br />
+              over time, will become stone,<br />
+              dust pile up to become mountains,<br />
+              and sand on the beach at last give out,<br />
+              there is no end to what may be expressed through words.<br />
+              Now then, the details of the auspicious virtues of the pine<br />
+              have been written about in many poems.<br />
+              Among them is one about the pine at Suminoe<br />
+              where, long ago, gods descended from heaven<br />
+              to live together supporting each other.<br />
+              It is the custom here to say<br />
+              that this place has been protected<br />
+              for fifty-six billion seven thousand (ten thousand) years.<br />
+              First of all, these are the details<br />
+              of why the pine is auspicious,<br />
+              but I would like to ask you what you think<br />
+              as your question seems strange to me.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>NENGORO NI KATARARE SŌRŌ MONO KANA<br />
+                KATAGATA IZEN NI<br />
+                RŌJIN FŪFU KORARE SŌRŌ HODO NI<br />
+                TAKASAGO NO MATSU NO SHISAI TAZUNETE SŌRAEBA<br />
+                TADAIMA NO GOTOKU NENGORONI KATARI<br />
+                SUMIYOSHI NITE MATŌZURU YOSHI MŌSARE<br />
+                MIGIWA NARU KOSEN NI TORINORI<br />
+                OKI O SASHITE IDETAMŌ TO MITE SUGATA WO MIUSHINŌTE SŌRŌ YO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              I wonder if they were having an intimate conversation—<br />
+              that old couple we saw earlier.<br />
+              When we asked them about<br />
+              the significance of the Takasago pine<br />
+              they spoke to us kindly.<br />
+              Then, saying they would wait for us at Sumiyoshi,<br />
+              they boarded a small boat on the shore.<br />
+              We lost sight of them as they headed out to sea.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>GONGODŌDAN KITOKUNARU KOTO WO ŌSESŌRŌ MONO KANA<br />
+                SATEWA TADAIMA MONOGATARI MŌSUGOTOKU<br />
+                SUMIYOSHI NO MYŌJIN<br />
+                KONO TOKORO EH OKIKŌNASARE<br />
+                TŌSHA MYŌJIN TO TOMO NI MATSU NO KOKAGE WO KIYOMETAMŌ ORIFUSHI<br />
+                ONKOTOBA WO KAWASARETARU TO ZONJI SŌRŌ<br />
+                SATE SUMIYOSHI NITE MATŌZURU TOTE<br />
+                SHŌSEN NI TORINORI OKIESASHITE ONNIDE TO ŌSERARETE SŌRŌ GA<br />
+                KONO UE WA HENSHI MO HAYAKU<br />
+                SUMIYOSHI EH ONIDEAREKASHI TO ZONJI SŌRŌ<br />
+                SAREBA SORE GA SHI SHŌSEN ISSŌ TSUKURI MŌCHITE SŌRŌ GA<br />
+                IMADA NORIZOME WO ITASZU SŌRŌ<br />
+                IKANARU ONKATA NITEMO<br />
+                SHINRYO MEDETAKI OKATA WO<br />
+                NOSESOME MŌSHITAKU ZONJISŌRŌ TOKORO NI<br />
+                ASO NO SHINSHOKU TO MŌSARE<br />
+                MATA TŌSHA MYŌJIN SUMIYOSHI NO MYŌJIN TO<br />
+                ONKOTOBA WO KAWASARETARU HODO NO<br />
+                SHINRYO MEDETAKI ONKATA WO<br />
+                NOSE SOME MŌSABA SOREGASHI NO FUNE NO YUKUSUE MO<br />
+                MEDETAKARŌZURU TO ZONJISŌRŌ<br />
+                SĀREBA WARERA NO SHINZŌ NI MESARE SŌRAE<br />
+                SOREGASHI MO KANDORI TSUKAMATSURI<br />
+                ONTOMO MŌSŌZURU NITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              How astonishing! What a remarkable thing to say.<br />
+              As I have just told you,<br />
+              the God of Sumiyoshi comes here<br />
+              and together with the God of this shrine,<br />
+              they speak together<br />
+              as they clear the area under the pine tree.<br />
+              Now then, as you have said they told you they would wait for you
+              at Sumiyoshi<br />
+              and then boarded a small boat and headed out to sea<br />
+              I think it is best for you<br />
+              to go to Sumiyoshi yourself as soon as possible!<br />
+              That being the case, I happen to have built a small boat<br />
+              but I haven’t sailed it yet.<br />
+              I had thought I would like to take<br />
+              someone of note on board the first time out,<br />
+              and to have someone<br />
+              touched by divine providence,<br />
+              a priest of Aso as you have told me,<br />
+              and who was chosen by divine will<br />
+              and even spoken with the god of our shrine<br />
+              and the God of Sumiyoshi,<br />
+              to be able to take such an auspicious person<br />
+              certainly promises a most favorable future for my boat.<br />
+              If this suits you, please get in<br />
+              and I will join you in your request,<br />
+              acting as helmsman.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>SĀRABA KATAGATA NO FUNE NI NORI<br />
+                SUMIYOSHI EH MAIRŌZURU NITE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Well then, let us board your boat<br />
+              and go to Sumiyoshi.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              <em>YA GORAN SŌRAE SHINRYO NO KITOKU<br />
+                ICHIDAN NO OIKAZE NO FUKI KITARI SŌRAE<br />
+                YAGATE OFUNE NI MESARE SŌRAE</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Aikyogen:</h5>
+              Look! A miracle of the god’s will!<br />
+              A following wind has suddenly begun to blow.<br />
+              Get into the boat immediately.
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              <em>KOKORETE SŌRŌ</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Waki:</h5>
+              Certainly.
             </td>
           </tr>
         </table>
-
-        <h3 id="Act2">ACT 2</h3>
-
+        <h3 id="act2">ACT 2</h3>
         <table class="content-table--libretto">
           <tr class="content-table__row--header">
-            <td id="Waki-waits" class="content-table__column">
-              Waki Waits: Notto
+            <td id="waki-waits" class="content-table__column">
+              Waki Waits: Machiutai
             </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>
-                Munechika choku ni shitagatte <br />
-                fujō wo hedatsuru nanae no shime<br />
-                shi-hō ni honzon no kake tatematsuri<br />
-                heihaku wo sasage, ōgi negawakuwa<br />
-                Nin-nō rokuju-roku dai,<br />
-                Ichijo-no-In no gyo-o ni<br />
-                sono shoku no homare wo kō-muru koto<br />
-                kore watakushi no chikara ni arazu.<br />
-                Izanagi Izanami no Mikoto<br />
-                Amano-Ukihashi wo fumi-watari<br />
-                Toyo-ashi-wara wo saguri tamaishi<br />
-                mi-hoko yori hajimareri.<br />
-                Sono nochi Nansen-Sōkata-koku Bashi<br />
-                Mida Sonja yori kono kata<br />
-                Amakuni Fujito no shison ni tsutaete ima ni itareri.</em
-              >
+              <h5>Waki Wakizure:</h5>
+              <em>TAKASAGO YA<br />
+                KONO URABUNE NI HO WO AGETE<br />
+                KONO URABUNE NI HO WO AGETE<br />
+                TSUKI MOROTOMO NI IDESHIONO<br />
+                NAMI NO AWAJI NO SHIMAKAGE YA<br />
+                TŌKU NARUO NO OKI SUGITE<br />
+                HAYA SUMINOE NI TSUKINIKERI<br />
+                HAYA SUMINOE NI TSUKINIKERI</em>
             </td>
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              To begin with, <br />
-              Now, I, Munichika, in compliance with the Imperial Will<br />
-              have accordingly ascended the dais to ward off impurities.<br />
-              It is adorned with the Seven-fold Sacred Rope,<br />
-              and in the four corners sacred images placed in reverence.<br />
-              I raise up this Sacred wand and make my petition.<br />
-              Now, in the reign of the Sixty-sixth Emperor Ichijo,<br />
-              I have been honored greatly in my craft,<br />
-              through no effort of my own,<br />
-              rather, I have held in trust those skills.<br />
-              When Izanagi and Izanami crossed over<br />
-              the Floating Bridge of Heaven,<br />
-              and probed the Abundant Reed Plain<br />
-              with the Sacred Spear was their beginning.<br />
-              Later, from holy Hashimida of Eastern India<br />
-              the descendants of Amakuni and Fujito learned arts<br />
-              which I am now the master of.
+              <h5>Waki Wakizure:</h5>
+              Takasago!<br />
+              Hoist the sail of this boat on the shore<br />
+              Hoist the sail on the boat on the shore.<br />
+              Rising with the moon and tide we go out on tide,<br />
+              the foam of waves at Awaji Island behind us,<br />
+              passing the distant Naruto coast,<br />
+              we have quickly reached Suminoe,<br />
+              we have so quickly reached Suminoe.
             </td>
           </tr>
-
           <tr class="content-table__row--header">
-            <td id="Noriji-1" class="content-table__column">
-              Waki Waits: Noriji-1
+            <td id="dialogue-2" class="content-table__column">
+              Dialogue: Sashi 3
             </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em>Negawaku wa,</em>
+              <h5>Shite:</h5>
+              <em>WAREMITEMO HISASHIKUNARINU SUMIYOSHI NO<br />
+                KISHI NO HIMEMATSU IKUYOHENURAN<br />
+                MUTSUMASHI TO KIMI WA SHIRAZUYA MIZUGAKI NO<br />
+                HISASHIKI YOYO NO KAMI KAGURA<br />
+                YORU NO TUZUMI NO HYŌSHI WO SOROETE<br />
+                SUZUSHIMI TAMAE MIYAZUKOTACHI</em>
             </td>
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              Now, I pray!
+              <h5>Shite:</h5>
+              So long ago it was I saw the pine on Sumiyoshi’s shore!<br />
+              How many ages must it have seen?<br />
+              Do you not know my devotion, within the sacred fence through the
+              ages there.<br />
+              With sacred dances,the drums in the night,<br />
+              “With measured rhythm, soothe the god,<br />
+              celebrants of the shrine!”
             </td>
           </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              <em>
-                Negawaku wa,<br />
-                Munechika watakushi no kōmyō ni arazu,<br />
-                futensotto no chokumei ni yoreri,<br />
-                sāraba jippō gōja no shojin,<br />
-                tadaima no Munechika ni chikara wo awasete tabitamae tote.<br />
-                Heihaku wo sasagetsutsu.<br />
-                Ten ni aogi kōbe ō katamuke kot'nzui no tansei kiki-ire.<br />
-                Nōjiu seshime tamaeya.</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              Now I petition: It is not for the glory of my name: Munechika,
-              <br />
-              but at the imperial command of the Emperor,<br />
-              whose rule extends from heaven to earth, that I call on all divine
-              beings, <br />
-              numberless as the sand of the Ganges,<br />
-              to join your strength now with Munechika.<br />
-              I offer up this sacred wand.<br />
-              I bow my head before heaven as I seek divine aid from my inmost
-              being.<br />
-              Hear and grant my prayer.
-            </td>
-          </tr>
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em> Kinjyo: </em>
-            </td>
-            <td class="content-table__column">
-              <h5>Waki:</h5>
-              With profound reverence:
-            </td>
-          </tr>
-          <tr class="content-table__row"></tr>
-
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              <em> Saihai </em>
-            </td>
-
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              My supplication!
-            </td>
-          </tr>
-
           <tr class="content-table__row--header">
-            <td id="Shite-performs2" class="content-table__column">
-              Shite Performs: Noriji 2
-            </td>
+            <td class="content-table__column">Dialogue: Jō no ei</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              <em>
-                Ika ni ya Munechika choku no tsurugi.<br />
-                Ika ni ya Munechika choku no tsurugi.<br />
-                utsubeki jisetsu wa kōku ni shireri.<br />
-                Tanome ya, tanome ya, tada tanome.</em
-              >
+              <h5>Jiutai:</h5>
+              <em>NISHI NO UMI<br />
+                AOKIGAHARA NO NAMIMA YORI</em>
             </td>
             <td class="content-table__column">
-              <h5>Wakizure:</h5>
-              Now, Munechika -- the Imperial Blade!<br />
-              Now, Munechika -- the Imperial Blade!<br />
-              The appointed time for forging is known!<br />
-              Trust and have faith! Only trust!
+              <h5>Jiutai:</h5>
+              From the western sea,<br />
+              rising from the waves of Aoki Field
             </td>
           </tr>
-
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>ARAWARE IDESHI SUMIYOSHI NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              I, the god, appear to spring at Sumiyoshi!
+            </td>
+          </tr>
           <tr class="content-table__row--header">
-            <td id="Noriji3" class="content-table__column">
-              Shite Performs: Noriji 3
-            </td>
+            <td class="content-table__column">Dialogue: Issei Chant</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Tōnan dan no ue ni agari.</em>
+              <em>HARU NAREYA<br />
+                NOKON NO YUKI NO ASAKA GATA</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
-              A young boy ascends the forge mound!
+              Lingering snow<br />
+              lies along the coast of Asaka
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Tōnan dan no ue ni agatte <br />
-                Munechika ni sanpai no hiza wo kusshi.<br />
-                Sate mitsurugi no kane wa to ieba<br />
-                Munechika mo kyōet'n no kokoro wo saki toshite<br />
-                Kane tori-idashi. <br />
-                Oshie no tsuchi wo hattate uteba.</em
-              >
+              <em>TAMAMO KARUNARU KISHIKAGE NO</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              A young boy ascends the forge mound,<br />
-              kneels and bows three times before Munechika.<br />
-              "Now then, the metal for the blade?" he says<br />
-              and Munechika, his heart joyful, in reply<br />
-              brings for the metal.<br />
-              As he strikes the first blow with his mallet,
+              along the beach where lustrous seaweed is gathered.
             </td>
           </tr>
-
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Chō to utsu </em>
+              <em>SHŌKON NI YOTTE KOSHI WO SUREBA</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
-              Clang! we strike!
+              Approaching a pine root I rub my hips against it
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> Chō </em>
+              <em>SENNEN NO MIDORI TE NI MITERI</em>
             </td>
-
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              Clang!
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em> Chō to </em>
-            </td>
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              Clang, again.
+              and a thousand years of evergreen fills my hands.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              <em>
-                Uchi kasanetaru tsuchi no hibiki <br />
-                Tenchi ni kikoete obitatashiya.</em
-              >
+              <h5>Shite:</h5>
+              <em>BAIKA WO OTTE KŌBE NI SASEBA</em>
             </td>
-
             <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              The blows coming, one on another, the sound of their mallets<br />
-              echoes throughout heaven and earth - How it resounds!
+              <h5>Shite:</h5>
+              Picking plum blossoms, I set them in my hair,
             </td>
           </tr>
-
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>JIGETN NO YUKI KOROMO NI OTSU</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              early spring snow of the second month falls on my robe.
+            </td>
+          </tr>
           <tr class="content-table__row--header">
-            <td id="Shite-exits2" class="content-table__column">
-              Shite Exits: Kakeai 2
+            <td id="shite-exits-2" class="content-table__column">
+              Shite Exits: Rongi 2
             </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              <em
-                >Kakute mitsurugi wo uchitatematsuri.<br />
-                Omote ni Kokaji Munechika to utsu.</em
-              >
+              <h5>Jiutai:</h5>
+              <em>ARIGATA NO YŌGŌ YA<br />
+                ARIGATA NO YŌGŌ YA<br />
+                TSUKI SUMIYOSHI NO KAMIASOBI<br />
+                MIKAGE WO OGAMU ARATA SAYO</em>
             </td>
             <td class="content-table__column">
-              <h5>Waki:</h5>
-              And so the Imperial Blade is forged:<br />
-              On the face of it I strike: "Munechika, Swordsmith"!
+              <h5>Jiutai:</h5>
+              How wondrous this vision of the god!<br />
+              How wonderful appearance by the god!<br />
+              In the clear moonlight the god of Sumiyoshi’s dances<br />
+              and we can but revere him, filled with awe!
             </td>
           </tr>
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em>
-                Shintai toki no deshi nareba.<br />
-                Kogitsune to ura ni azayakani.</em
-              >
+              <em>GENI SAMAZAMA NO MAIBIME NO<br />
+                KOE MO SUMU NARI SUMINOE NO<br />
+                MATSUKAGE MO UTSURU NARU<br />
+                SEIGAIHA TO WA KORE YARAN</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <p markdown="1">
-                As your timely apprentice the god: "Little Fox"[^4], I
-                skillfully strike on the reverse.
-              </p>
+              Indeed, the dancing maidens’ voices<br />
+              ring out clear at Suminoe,<br />
+              where the form of the pine is reflected<br />
+              in the “Dance of Blue Ocean Waves”
             </td>
           </tr>
-
-          <tr class="content-table__row--header">
-            <td id="Kiri" class="content-table__column">Shite Exits: Kiri</td>
-            <td class="content-table__column"></td>
-          </tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              <em>
-                Uchi-tatemōsu mitsurugi no<br />
-                yaiba wa kumo wo midashitareba<br />
-                Ama-no-mura-kumo tomo kore nare ya.</em
-              >
-            </td>
-            <td class="content-table__column">
-              <h5>Jiutai:</h5>
-              Along the edge of the blade are beaten traces<br />
-              like wild clustering clouds.<br />
-              "Clustering Clouds of Heaven", it will be!
-            </td>
-          </tr>
-
-          <tr class="content-table__row"></tr>
-          <tr class="content-table__row">
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              <em> Ten-ga dai-ichi no.</em>
-            </td>
-            <td class="content-table__column">
-              <h5>Shite:</h5>
-              First under Heaven:
-            </td>
-          </tr>
-
           <tr class="content-table__row"></tr>
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>
-                Ten-ga dai-ichi no,<br />
-                futatsu no mei no mitsurugi nite.<br />
-                shi-kai wo osame tamaeba,<br />
-                go-koku jōju mo kono toki nare ya.<br />
-                Sunawachi nanji ga uji no shin<br />
-                Inari no shintai Kogitsune-maru wo,<br />
-                chokushi ni sasage-mōshi.<br />
-                Kore made nari to ii-sutete,<br />
-                mata mura-kumo ni tobi-norite,<br />
-                Higashiyama Inari no mine ni zo kaerikeru.</em
-              >
+              <em>KAMI TO KIMO TONO MICHI SUGU NI<br />
+                MIYAKO NO HARU NI YUKUBEKU WA</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <p markdown="1">
-                First under Heaven:<br />
-                The sword with two inscriptions!<br />
-                It will rule the land to the four seas,<br />
-                celebrate the abundance of the five staple crops.<br />
-                "I, before you, as the deity of your clan:<br />
-                the manifestation of Inari: the Little Fox,<br />
-                come to aid you in fulfilling your task.<br />
-                Now, I am done!" So saying, takes his leave.<br />
-                Once more he leaps upon the mass of clouds,<br />
-                Again, more he leaps upon the mass of clouds,<br />
-                and return to Higashiyama, the eastern mountains, the peak of
-                Mt. Inari!
-              </p>
+              The way of the gods and sovereign together<br />
+              goes straight to miyako, the capital in spring:
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>SOREZO GENJYŌRAKU NO MAI</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              that is the dance “Return to the Palace.”
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>SATE BANZEI NO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              for an endless joyous reign
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              <em>OMI GOROMO</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Shite:</h5>
+              in sacred Omi robes
+            </td>
+          </tr>
+          <tr class="content-table__row"></tr>
+          <tr class="content-table__row">
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              <em>SASU KAINA NI WA AKUMA WO HARAI<br />
+                OSAMURU TE NIWA JUFUKU WO IDAKI<br />
+                SENSHIURAKU WA TAMI WO NADE<br />
+                MANZAIRAKU NI WA INOCHI WO NOBU<br />
+                AIOI NO MATSUKAZE<br />
+                SASSATN NO KOE ZO TANOSHIMU<br />
+                SASSATN NO KOE ZO TANOSHIMU</em>
+            </td>
+            <td class="content-table__column">
+              <h5>Jiutai:</h5>
+              outstretched arms ward off evil<br />
+              calming arms drawn in embrace blessings—<br />
+              “Thousand Autumns” a dance to bring joy and soothe all,<br />
+              “Ten Thousand Years” a dance of a joyful long life<br />
+              the voice of the paired pines<br />
+              murmur in the breeze of joy for all,<br />
+              their voices whisper of joy for all!
             </td>
           </tr>
         </table>
-
-        <!-- prettier-ignore -->
-        <div markdown="1">
-* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-{:footnotes}
-[^1]: It starts with a reference to Liu Bang (256 – 195 BC), the founding Emperor of the Han dynasty. It is said that shortly before dying he exclaimed that “wielding a three-foot sword, as a commoner I conquered the world.” It is followed by a reference to Yang Jian (541 – 604 AD) the first Emperor of the Sui Dynasty and his sword Kei who defeated the House of Chou.
-[^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.
-[^3]: Emperor Keikō feared the brutal temperament of his son who had slewed his elder brother. Thus, to keep him at distance, he sent him to the Eastern provinces, but before leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
-[^4]: The deity’s use of ‘Little Fox’ as his signature comes from the fact that foxes, often regarded as messengers are associated with various Inari shrines.
-</div>
       </div>
     </section>
   </div>

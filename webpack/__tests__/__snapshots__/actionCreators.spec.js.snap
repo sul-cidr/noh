@@ -1,29 +1,29 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`setCurrentPhraseID creates the correct payload 1`] = `
-Object {
+{
   "payload": "II/1",
   "type": "SET_CURRENT_PHRASE_ID",
 }
 `;
 
 exports[`setCurrentTime creates the correct payload 1`] = `
-Object {
+{
   "payload": 30,
   "type": "SET_CURRENT_TIME",
 }
 `;
 
 exports[`setNarrativeTab creates the correct payload 1`] = `
-Object {
+{
   "payload": 1,
   "type": "SET_NARRATIVE_TAB",
 }
 `;
 
 exports[`setScoreToggles creates the correct payload 1`] = `
-Object {
-  "payload": Object {
+{
+  "payload": {
     "isBeatOn": false,
     "isTextOn": false,
   },
@@ -32,7 +32,7 @@ Object {
 `;
 
 exports[`setStartTime creates the correct payload 1`] = `
-Object {
+{
   "payload": 30,
   "type": "SET_START_TIME",
 }

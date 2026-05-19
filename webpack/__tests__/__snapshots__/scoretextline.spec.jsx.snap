@@ -1,13 +1,12 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<ScoreTextLine> renders as expected by default 1`] = `
-Array [
+[
   <CellText
     key="textCell0"
     length={1}
     text="ma"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType="jiutai"
   />,
   <CellText
@@ -15,7 +14,6 @@ Array [
     length={1}
     text="ta"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -23,7 +21,6 @@ Array [
     length={1}
     text="wa"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType="jiutai"
   />,
   <CellText
@@ -31,7 +28,6 @@ Array [
     length={1}
     text="ga"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType="shite"
   />,
   <CellText
@@ -39,7 +35,6 @@ Array [
     length={1}
     text="cho"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -47,7 +42,6 @@ Array [
     length={1}
     text="o"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -55,7 +49,6 @@ Array [
     length={1}
     text="no"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType="jiutai"
   />,
   <CellText
@@ -63,7 +56,6 @@ Array [
     length={1}
     text="so"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -71,7 +63,6 @@ Array [
     length={1}
     text="no"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -79,7 +70,6 @@ Array [
     length={1}
     text="ha"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -87,7 +77,6 @@ Array [
     length={1}
     text="ji"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -95,7 +84,6 @@ Array [
     length={1}
     text="me"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType=""
   />,
   <CellText
@@ -103,7 +91,6 @@ Array [
     length={1}
     text="(e)"
     textIsCongruent={true}
-    vocalRange="l"
     voiceType="shite"
   />,
 ]
@@ -114,7 +101,6 @@ exports[`<ScoreTextLine> renders as expected by default 2`] = `
   length={13}
   text=""
   textIsCongruent={false}
-  vocalRange=""
   voiceType=""
 />
 `;

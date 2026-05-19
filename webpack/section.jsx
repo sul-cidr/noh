@@ -74,7 +74,7 @@ export default class App extends Component {
 
   getSectionURLS() {
     const sectionIndex = this.props.sections.findIndex(
-      section => section.sectionName.value === this.props.sectionName.value
+      (section) => section.sectionName.value === this.props.sectionName.value
     );
     let prevSectionURL = "";
     let nextSectionURL = "";
@@ -102,7 +102,7 @@ export default class App extends Component {
   handleToggle(event, toggleName) {
     if (["H3", "path", "svg"].includes(event.target.tagName)) {
       this.setState(
-        prevState => ({ [toggleName]: !prevState[toggleName] }),
+        (prevState) => ({ [toggleName]: !prevState[toggleName] }),
         () => this.store.dispatch(setSidebarState(this.state))
       );
     }
@@ -112,6 +112,23 @@ export default class App extends Component {
     const prevSectionURL = this.getSectionURLS()[0];
     const nextSectionURL = this.getSectionURLS()[1];
     const textIsCongruent = /[^-]congruent/.test(this.props.text.value);
+    const nohkanIsPresent = this.props.phrases.some(
+      (phrase) => phrase.nohkan?.grid?.length > 0
+    );
+    const danceIsPresent = this.props.phrases.some(
+      (phrase) => phrase.dance?.grid?.length > 0
+    );
+    const taikoIsPresent = this.props.phrases.some(
+      (phrase) => phrase.taiko?.grid?.length > 0
+    );
+    const percussionIsPresent = this.props.phrases.some(
+      (phrase) => phrase.percussion?.grid?.length > 0
+    );
+    const textIsPresent = this.props.phrases.some(
+      (phrase) =>
+        phrase.text?.grid?.length > 0 || phrase.syllableText?.grid?.length > 0
+    );
+
     const score =
       this.props.phrases && this.props.phrases.length > 0
         ? [
@@ -121,6 +138,11 @@ export default class App extends Component {
               duration={this.props.duration}
               phrases={this.props.phrases}
               textIsCongruent={textIsCongruent}
+              nohkanIsPresent={nohkanIsPresent}
+              danceIsPresent={danceIsPresent}
+              taikoIsPresent={taikoIsPresent}
+              percussionIsPresent={percussionIsPresent}
+              textIsPresent={textIsPresent}
             />
           ]
         : [
@@ -135,6 +157,11 @@ export default class App extends Component {
         startTime={this.props.startTime}
         duration={this.props.duration}
         phrases={this.props.phrases}
+        nohkanIsPresent={nohkanIsPresent}
+        danceIsPresent={danceIsPresent}
+        taikoIsPresent={taikoIsPresent}
+        percussionIsPresent={percussionIsPresent}
+        textIsPresent={textIsPresent}
       />
     );
     const shodanLink = this.props.shodanType.value && (
@@ -213,7 +240,7 @@ export default class App extends Component {
                     ? "is-open"
                     : ""
                 }`}
-                onClick={event =>
+                onClick={(event) =>
                   this.handleToggle(event, "isHighlightedTextOn")
                 }
                 onKeyPress={null}
@@ -236,7 +263,7 @@ export default class App extends Component {
                 className={`shodan-timeline__container ${
                   this.state.isShodanTimelineOn ? "is-open" : ""
                 }`}
-                onClick={event =>
+                onClick={(event) =>
                   this.handleToggle(event, "isShodanTimelineOn")
                 }
                 onKeyPress={null}
@@ -339,18 +366,23 @@ App.propTypes = {
       dance: PropTypes.shape({}),
       nohkan: PropTypes.shape({}),
       percussion: PropTypes.shape({}),
+      taiko: PropTypes.shape({}),
       phrase: PropTypes.string,
-      syllableNumber: PropTypes.shape({}),
       syllableText: PropTypes.shape({}),
-      text: PropTypes.shape({}),
-      vocalRange: PropTypes.shape({})
+      text: PropTypes.shape({})
     })
   ).isRequired,
-  text: PropTypes.shape({ value: PropTypes.string }).isRequired
+  text: PropTypes.shape({ value: PropTypes.string }).isRequired,
+  nohkanPresent: PropTypes.shape({ present: PropTypes.string }),
+  dancePresent: PropTypes.shape({ present: PropTypes.string }),
+  numberOfPercussion: PropTypes.shape({ value: PropTypes.string })
 };
 
 App.defaultProps = {
-  shodanType: { value: "" }
+  shodanType: { value: "" },
+  nohkanPresent: { present: "Yes" },
+  dancePresent: { present: "Yes" },
+  numberOfPercussion: { value: "" }
 };
 
 // If main app
@@ -358,7 +390,7 @@ App.defaultProps = {
 if (!module.parent) {
   const playName = window.location.pathname.trim().split("/")[1];
   const sectionName = window.location.pathname.trim().split("/")[2];
-  contents.section(playName, sectionName, props => {
+  contents.section(playName, sectionName, (props) => {
     render(<App {...props} />, document.getElementById("section"));
   });
 }

@@ -157,7 +157,8 @@ App.propTypes = {
       text: PropTypes.shape({ value: PropTypes.string }),
       numberOfPercussion: PropTypes.shape({ number: PropTypes.string }),
       percussion: PropTypes.shape({ value: PropTypes.string }),
-      nokhanPresent: PropTypes.shape({
+      taiko: PropTypes.shape({ value: PropTypes.string }),
+      nohkanPresent: PropTypes.shape({
         present: PropTypes.string,
         value: PropTypes.string
       }),
@@ -202,7 +203,7 @@ App.defaultProps = {
 /* istanbul ignore if */
 if (!module.parent) {
   const playName = window.location.pathname.trim().split("/")[1];
-  contents.play(playName, props => {
+  contents.play(playName, (props) => {
     render(<App {...props} />, document.getElementById("play"));
   });
 }

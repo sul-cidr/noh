@@ -825,6 +825,7 @@ Syllable Number,,,,,1,2,,3,4,5,,1,2,3,4,5,,,
 Text,,,,,,,,,,,,,,,,,,,
 Vocal Range,high,,,,,,,,,,,,,,,,,,
 Percussion,tsuzuke,,,,,,,,,,,,,,,,,,
+Ōtsu-Kotsuzumi,,,,,,,,,,,,,#dain,#shon,#shon,,#shon
 Nohkan,,,,,,,,,,,,,,,,,,,
 Dance,Feminine style,,,,,,,"9. Kneeling, turns to face front. ",,,,,$,,,,,,
 ,,,,,,,,,,,,,,,,,,,
