@@ -1,7 +1,6 @@
 services:
   app:
-    build:
-      context: .
+    build: .
     volumes:
       - ./:/opt
     ports:

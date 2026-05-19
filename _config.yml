@@ -104,4 +104,4 @@ keep_files:  # all these files are built and/or copied to the _site/ folder by w
   - site.webmanifest
 
 plugins:
-  - jekyll-autoprefixer
+#  - jekyll-autoprefixer
