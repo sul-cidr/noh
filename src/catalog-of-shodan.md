@@ -14,11 +14,17 @@ permalink: /catalog-of-shodan/
     <div class="wrapper wrapper--small">
       <h2>Catalog of Shōdan</h2>
       <p>
-        The following partial catalog is limited to modules (<em>shōdan</em>)
-        from the plays featured in this website: Takasago, Kokaji and Hashitomi.
+        The following partial catalog is limited to <em>shōdan</em>
+        from the plays featured on this website: Takasago, Kokaji and Hashitomi.
         To prioritize information about musical characteristics several of the
         <em>shōdan</em> were recorded in a recital-style performance, and the
         videos were overlaid with simplified notation of the music.
+      </p>
+      <p>
+        As <em>Okina</em> features a unique ritual structure and set of
+        <em>shōdan</em> distinct from the standard noh repertoire, it has been
+        given a separate catalog, which can be found
+        <a href="/shodan-in-okina/">here</a>.
       </p>
     </div>
   </div>
