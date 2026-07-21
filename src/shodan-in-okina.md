@@ -20,6 +20,6 @@ permalink: /shodan-in-okina/
     </div>
   </div>
   <a id="catalog"></a>
-  {% include filters.html catalog=site.data.catalog-shodan-manual
-  images="shodan" %}
+  {% include filters.html catalog=site.data.catalog-shodan-manual images="okina"
+  %}
 </main>
