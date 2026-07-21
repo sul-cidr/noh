@@ -3,7 +3,7 @@ layout: website
 title: Shōdan in Okina
 menu-active: elements
 second-level-menu-active: catalog-of-shodan
-third-level-menu-active: catalog-of-shodan
+third-level-menu-active: shodan-in-okina
 permalink: /shodan-in-okina/
 ---
 
@@ -20,5 +20,6 @@ permalink: /shodan-in-okina/
     </div>
   </div>
   <a id="catalog"></a>
-  {% include filters.html catalog=site.data.catalog-sections images="shodan" %}
+  {% include filters.html catalog=site.data.catalog-shodan-manual
+  images="shodan" %}
 </main>

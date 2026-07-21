@@ -1,9 +1,9 @@
 <a
-  href="./{{include.slug}}"
+  href="{% if include.url %}{{ include.url }}{% else %}./{{ include.slug }}{% endif %}"
   target="_blank"
   data-pills="{{include.pills}}"
   class="filters__card"
-  style="background-image:url('/assets/images/{{include.images}}/{{include.slug}}.jpg')"
+  style="background-image:url('/assets/images/{{include.images}}/{% if include.image %}{{ include.image }}{% else %}{{ include.slug }}{% endif %}.jpg')"
 >
   <h6 class="filters__card-title">{{ include.title }}</h6>
   <ul class="filters__pills-container">
