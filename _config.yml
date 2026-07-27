@@ -60,6 +60,9 @@ collections:
   catalog-of-shodan:
     output: true
     permalink: /:collection/:path/
+  shodan-in-okina:
+    output: true
+    permalink: /:collection/:path/
   staging:
     output: true
     permalink: /:collection/:path/
