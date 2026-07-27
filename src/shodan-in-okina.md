@@ -21,5 +21,5 @@ permalink: /shodan-in-okina/
   </div>
   <a id="catalog"></a>
   {% include filters.html catalog=site.data.catalog-shodan-manual images="okina"
-  %}
+  hide_controls=true %}
 </main>
