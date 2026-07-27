@@ -16,65 +16,44 @@
   margin-top: 0;
 }
 
+.content-table--iti-wrapper {
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  max-height: 400px;
+  overflow: auto;
+}
+
 .content-table--iti {
   border-top: $border;
-  margin-bottom: 4rem;
-  margin-top: 4rem;
+  width: 100%;
 
-  thead {
-    display: block;
-    overflow-y: scroll;
-    width: 100%;
-  }
-
-  tr {
-    display: table;
-    width: 100%;
-  }
-
-  tbody {
-    max-height: 400px;
-    display: block;
-    overflow-y: auto;
+  .content-table__row--header .content-table__column {
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
 
   .content-table__column {
     min-width: auto;
     padding: 0.5rem;
+    white-space: nowrap;
   }
+}
 
-  td:nth-of-type(1) {
-    width: 6%;
-  }
-  td:nth-of-type(2) {
-    width: 19%;
-  }
-  td:nth-of-type(3) {
-    width: 9%;
-  }
-  td:nth-of-type(4) {
-    width: 19%;
-  }
-  td:nth-of-type(5) {
-    width: 9%;
-  }
-  td:nth-of-type(6) {
-    width: 19%;
-  }
-  td:nth-of-type(7) {
-    width: 19%;
-  }
+.content-table--iti-label {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
 }
 
 #content-table--iti__show-all {
   display: none;
 
-  ~ label {
+  ~ .content-table--iti-label label {
     border: 0.0625rem solid $green;
     border-radius: 0.125rem;
     color: $green;
     cursor: pointer;
-    float: right;
     font-weight: $fw-semibold;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -90,17 +69,16 @@
   }
 
   &:checked {
-    ~ label::before {
+    ~ .content-table--iti-label label::before {
       content: "collapse";
     }
 
-    ~ .content-table--iti {
-      &::after {
-        display: none;
-      }
+    ~ .content-table--iti-wrapper {
+      max-height: none;
+      overflow: visible;
 
-      tbody {
-        max-height: none;
+      .content-table--iti::after {
+        display: none;
       }
     }
   }
