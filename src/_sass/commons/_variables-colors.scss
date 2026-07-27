@@ -91,17 +91,24 @@ $score_brown: #7d5454;
 $score_brown-shade-1: #967474;
 $score_brown-shade-2: #b09999;
 
+$score_olive-shade-1: #969574;
+$score_steel-shade-1: #8595a3;
+
 $color-channel-beat: $white;
 $color-channel-text: $white;
 $color-channel-nohkan: rgba($score_yellow-shade-2, 0.3);
 $color-channel-dance: rgba($score_orange-shade-2, 0.3);
 
 $color-character-jiutai: $score_red-shade-1;
-$color-character-aikyogen: $score_blue-light-shade-1;
-$color-character-shite: $score_green-shade-1;
-$color-character-shitezure: $score_blue-dark-shade-1;
+$color-character-aikyogen: $score_yellow-shade-1;
 $color-character-waki: $score_orange-shade-1;
-$color-character-wakizure: $score_yellow-shade-1;
-$color-character-okina: $grey-dark;
-$color-character-senzai: $grey-dark;
-$color-character-sanbaso: $grey-dark;
+$color-character-wakizure: $score_blue-light-shade-1;
+$color-character-shite: $score_green-shade-1;
+$color-character-shitezure: $score_purple-shade-1;
+$color-character-bamboo: $score_green-shade-1;
+$color-character-pine: $score_purple-shade-1;
+$color-character-okina: $score_blue-light-shade-1;
+$color-character-senzai: $score_blue-dark-shade-1;
+$color-character-sanbaso: $score_brown-shade-1;
+
+// $color-character-okina: $grey-dark;
