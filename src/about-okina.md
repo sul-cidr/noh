@@ -405,17 +405,16 @@ permalink: /about-okina/
         narration and laughter that have been lost from the modern Noh
         <em>Okina</em>.
       </p>
-
       <h3>Principal References</h3>
       <!-- prettier-ignore -->
-      <div markdown="1">
-* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-{:footnotes}. 
-[^1]: Honda, Yasuji. *Okina Sono Hoka* (*Okina and Others*). Meizendo Shoten, 1958.
-[^2]: Arai, Tsuneyasu. *Kōkotsu to Warai no Geijutsu Sarugaku* (*The Art of Ecstasy and Laughter* Sarugaku). Shin-Dokusho-sha, 1993.
-[^3]: Amano, Fumio. *Okina Sarugaku Kenkyū* (*Research on* Okina (*Sarugaku*)). Izumi Shoin, 1995.
-[^4]: Okimoto, Yukiko. *Ranbu no Chūsei* (*The Medieval Age of Wild Dance*). Yoshikawa Kōbunkan, 2016.
-</div>
+      <div class="bibliography">
+        <ol>
+          <li>Honda, Yasuji. *Okina Sono Hoka* (*Okina and Others*). Meizendo Shoten, 1958.</li>
+          <li>Arai, Tsuneyasu. *Kōkotsu to Warai no Geijutsu Sarugaku* (*The Art of Ecstasy and Laughter* Sarugaku). Shin-Dokusho-sha, 1993.</li>
+          <li>Amano, Fumio. *Okina Sarugaku Kenkyū* (*Research on* Okina (*Sarugaku*)). Izumi Shoin, 1995.</li>
+          <li>Okimoto, Yukiko. *Ranbu no Chūsei* (*The Medieval Age of Wild Dance*). Yoshikawa Kōbunkan, 2016.</li>
+        </ol>
+      </div>
     </div>
   </div>
 </main>
