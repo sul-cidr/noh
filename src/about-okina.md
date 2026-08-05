@@ -263,7 +263,7 @@ permalink: /about-okina/
         <tr class="content-table__row">
           <td class="content-table__column">
             Okina: <em>Ariwa-raya, najo no okinadomo.</em><br />
-            jiutai: <em>Are wa najo no okinadomo, soya izuku no okinadomo.</em>
+            Jiutai: <em>Are wa najo no okinadomo, soya izuku no okinadomo.</em>
           </td>
         </tr>
       </table>
