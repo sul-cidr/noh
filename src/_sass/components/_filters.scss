@@ -61,6 +61,10 @@
   );
 }
 
+.filters__card-container--centered {
+  justify-content: center;
+}
+
 .filters__card {
   background-size: cover;
   background-position: 50% 50%;

@@ -1,4 +1,4 @@
-@mixin character-overlay($color, $character) {
+@mixin character-overlay($color) {
   border-left-color: $color;
 
   & + .cell__tooltip {
@@ -16,7 +16,7 @@
   top: 0;
 }
 
-@mixin second-character-overlay($color, $character) {
+@mixin second-character-overlay($color) {
   &:before {
     @include second-border($color);
   }
@@ -52,36 +52,50 @@
 }
 
 .cell__character--jiutai {
-  @include character-overlay($color-character-jiutai, "jiutai");
+  @include character-overlay($color-character-jiutai);
 }
 .cell__character--aikyogen {
-  @include character-overlay($color-character-aikyogen, "aikyogen");
+  @include character-overlay($color-character-aikyogen);
 }
 .cell__character--shite {
-  @include character-overlay($color-character-shite, "shite");
+  @include character-overlay($color-character-shite);
+}
+.cell__character--shitezure {
+  @include character-overlay($color-character-shitezure);
 }
 .cell__character--waki {
-  @include character-overlay($color-character-waki, "waki");
+  @include character-overlay($color-character-waki);
 }
 .cell__character--wakizure {
-  @include character-overlay($color-character-wakizure, "wakizure");
+  @include character-overlay($color-character-wakizure);
+}
+.cell__character--bamboo {
+  @include character-overlay($color-character-bamboo);
+}
+.cell__character--pine {
+  @include character-overlay($color-character-pine);
 }
 .cell__character--okina {
-  @include character-overlay($color-character-okina, "okina");
+  @include character-overlay($color-character-okina);
 }
 .cell__character--senzai {
-  @include character-overlay($color-character-senzai, "senzai");
+  @include character-overlay($color-character-senzai);
 }
 .cell__character--sanbaso {
-  @include character-overlay($color-character-sanbaso, "sanbaso");
+  @include character-overlay($color-character-sanbaso);
 }
 .cell__character--shite-shitezure {
-  @include character-overlay($color-character-shite, "shite");
-  @include second-character-overlay($color-character-shitezure, "shitezure");
+  @include character-overlay($color-character-shite);
+  @include second-character-overlay($color-character-shitezure);
 }
 .cell__character--waki-wakizure {
-  @include character-overlay($color-character-waki, "waki");
-  @include second-character-overlay($color-character-wakizure, "wakizure");
+  @include character-overlay($color-character-waki);
+  @include second-character-overlay($color-character-wakizure);
+}
+
+.cell__character--pine-bamboo {
+  @include character-overlay($color-character-pine);
+  @include second-character-overlay($color-character-bamboo);
 }
 
 .cell__character .truncate {

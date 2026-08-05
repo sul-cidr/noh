@@ -1,6 +1,7 @@
 <div class="filters__container">
   <div class="wrapper wrapper--large">
     <div class="filters__content">
+      {% unless include.hide_controls %}
       <div class="filters__controls">
         {% for filter in include.catalog.filters %}
           <h3 class="filters__title">Filter by {{ filter.by }}</h3>
@@ -46,7 +47,8 @@
           </ul>
         {% endfor %}
       </div>
-      <div class="filters__card-container">
+      {% endunless %}
+      <div class="filters__card-container{% if include.hide_controls %} filters__card-container--centered{% endif %}">
         {% for card in include.catalog.cards %}
           {% assign pills = card.pills | uniq | join: ',' %}
           {% include filter-card.html

@@ -181,6 +181,7 @@
   font-size: 0.75rem;
 }
 
+.bibliography,
 .footnotes {
   border-top: $border;
   margin: 2rem 0;
@@ -220,6 +221,13 @@
 
   ::marker {
     color: $brown;
+    @include text(md, "text");
+  }
+}
+
+.bibliography {
+  li {
+    margin-bottom: 0.5rem;
     @include text(md, "text");
   }
 }
@@ -274,7 +282,12 @@ code {
   border: 0.0625rem solid $beige-dark;
   color: $red;
   display: block;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
   font-size: $fs-display-xxs;
   line-height: $lh-display-xxs;
   margin-bottom: 1rem;
