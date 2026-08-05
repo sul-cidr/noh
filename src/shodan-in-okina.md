@@ -15,7 +15,7 @@ permalink: /shodan-in-okina/
       <h2>Shōdan in Okina</h2>
       <p>
         The following catalog documents the <em>shōdan</em> of <em>Okina</em>, a
-        play of exceptional status and unique formal structure.
+        play of exceptional status and unique formal structure. Testing
       </p>
     </div>
   </div>
