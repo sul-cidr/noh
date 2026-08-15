@@ -33,6 +33,11 @@
 
     @include text(xl);
 
+    em {
+      font-family: $font-text;
+      font-style: italic;
+    }
+
     &::before {
       background-color: $red;
       bottom: 0;
