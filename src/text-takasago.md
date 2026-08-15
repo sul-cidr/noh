@@ -47,15 +47,15 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em
-                >SORE NIGIWAERU SHIMOGYO<br />
-                MIDORISASU SUJIN NO CHI NI<br />
+                >SORE NIGIWAERU SHIMOGYŌ<br />
+                MIDORISASU SŪJIN NO CHI NI<br />
                 ATARASHIKI MANABIYA NO IDEKITARI<br />
                 ONKOCHISHIN INISHIE NO CHIE WO UKE<br />
                 ATARASHIKI WAZA WO UMI<br />
-                MIRAI WO HIRAKU NAMESHI TOTE<br />
-                KOKO YORI SEKAI NI TODOKEN TO<br />
-                YOMO NO HITOBITO TSUDOI TSUTSU<br />
-                MEDETA KARIKERU TOKI TO KAYA</em
+                MIRAI WO HIRAKU TAMESHITOTE<br />
+                KOKOYORI SEKAI NI TODOKEN TO<br />
+                YOMONO HITOBITO TSUDOI TSUTSU<br />
+                MEDETAKARIKERU TOKI TOKAYA</em
               >
             </td>
             <td class="content-table__column">
@@ -79,13 +79,13 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em
-                >SOMO SOMO KOREWA KIUSHIU HIGO NO KUNI<br />
+                >SOMOSOMO KOREWA KIUSHIU HIGO NO KUNI<br />
                 ASO NO MIYA NO KANNUSHI TOMONARI TO WA WAGA KOTONARI<br />
-                WARE IMADA MIYAKO WO MIZUSORŌ HODO NI<br />
-                KONO HARU OMOITACHI MIYAKO EH NOBORISORŌ<br />
+                WARE IMADA MIYAKO WO MIZUSŌRŌ HODO NI<br />
+                KONO HARU OMOITACHI MIYAKO E NOBORISŌRŌ<br />
                 MATA YOKI TSUIDENAREBA<br />
                 BANSHIU TAKASAGO NO URA WO MO<br />
-                IKKENSEBAYA TO ZONJISŌRO</em
+                IKKENSEBAYA TO ZONJISŌRŌ</em
               >
             </td>
             <td class="content-table__column">
@@ -185,9 +185,9 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Waki Wakizure:</h5>
               <em
-                >KYŌ OMOITACHI URANO NAMI<br />
+                >KYŌ OMOITATSU URANO NAMI<br />
                 FUNAJI NODOKEKI HARUKAZE NO<br />
-                IKUKAKINURAN ATOSUEMO<br />
+                IKUKAKINURAN ATOSUE MO<br />
                 ISASHIRAKUMO NO HARUBARU TO<br />
                 SASHIMO OMOISHI HARIMAGATA<br />
                 TAKASAGO NO URA NI TSUKINIKERI<br />
@@ -214,10 +214,10 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em
-                >ISOGISORŌ HODO NI<br />
-                BANSHIU TAKASAGO NO URA NI TSUKITE SORŌ<br />
+                >ISOGISŌRŌ HODO NI<br />
+                BANSHIU TAKASAGO NO URA NI TSUKITE SŌRŌ<br />
                 HITO KITATTE MATSU NO IWARE WO<br />
-                TAZUNYŌZURU NITE SORŌ</em
+                TAZUNYŌZURU NITE SŌRŌ</em
               >
             </td>
             <td class="content-table__column">
@@ -232,7 +232,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              <em>SHIKARUBYŌSORŌ</em>
+              <em>SHIKARUBYŌSŌRŌ</em>
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
@@ -250,7 +250,7 @@ permalink: /text-takasago/
               <h5>Shite Shitezure:</h5>
               <em
                 >TAKASAGO NO<br />
-                MATSU NO HARU KAZE FUKI KURETE<br />
+                MATSU NO HARU KAZE FUKIKURETE<br />
                 ONOE NO KANE MO<br />
                 HIBIKUNARI</em
               >
@@ -279,7 +279,7 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shite Shitezure:</h5>
               <em
-                >OTO KOSO SHIO NO<br />
+                >OTOKOSO SHIO NO<br />
                 MICHIHI NARE</em
               >
             </td>
@@ -297,8 +297,8 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em
-                >TARE WO KAMOSHIRU HITO NI SEN TAKASAGO NO<br />
-                MATSU NO MUKASHI NO TOMO NARADE</em
+                >TARE WO KAMO SHIRU HITO NI SEN TAKASAGO NO<br />
+                MATSU MO MUKASHI NO TOMO NARADE</em
               >
             </td>
             <td class="content-table__column">
@@ -312,11 +312,11 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shite Shitezure:</h5>
               <em
-                >SUGIKOSHI YOYO HA SHIRAYUKI NO<br />
+                >SUGIKOSHI YOYO WA SHIRAYUKI NO<br />
                 TSUMORITE OI NO TSURU NO<br />
                 NEGURANI NOKORU ARIYAKE NO<br />
                 HARU NO SHIMOYO NO OKII NI MO<br />
-                MATSUKAZE WO NO MI KIKINARETE<br />
+                MATSUKAZE WO NOMI KIKINARETE<br />
                 KOKORO WO TOMO TO SUGAMUSHIRO NO<br />
                 OMOI WO NOBURU BAKARI NARI</em
               >
@@ -437,7 +437,7 @@ permalink: /text-takasago/
               <h5>Waki:</h5>
               <em
                 >KONO TOKORO NI OITE<br />
-                TAKASAGO NO MATSU TO HA IZURE NO KI WO MŌSHISŌRŌ</em
+                TAKASAGO NO MATSU TO HA IZURE NO KI WO MŌSHISŌRŌZO</em
               >
             </td>
             <td class="content-table__column">
@@ -467,7 +467,7 @@ permalink: /text-takasago/
               <h5>Waki:</h5>
               <em
                 >SATESATE TAKASAGO SUMINOE NO MATSU NI AIOI NO NA ARI<br />
-                TŌSHO TO SUMINOE NO WA KUNI WO HEDATETARU NI<br />
+                TŌSHO TO SUMINOE TO WA KUNI WO HEDATETARU NI<br />
                 NANITOTE AIOI NO MATSU TO WA MŌSHISŌRŌZO</em
               >
             </td>
@@ -483,9 +483,9 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em
-                >KOKINSHIU NO JO NITEWAKU<br />
+                >KOKINSHIU NO JO NI IWAKU<br />
                 TAKASAGO SUMINOE NO MATSU MO AIOI NO YŌ NI OBOE TO ARI<br />
-                JŌ WA TSU NO KUNI SUMINOE NO MONO<br />
+                JŌ WA TSU NO KUNI SUMIYOSHI NO MONO<br />
                 NBA KOSO TŌSHO NO HITO NARE<br />
                 SHIRU KOTO ARABA MŌSATAMAE</em
               >
@@ -507,7 +507,7 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em
-                >FUSHIGI YA MIREBA RŌJYAIN NO<br />
+                >FUSHIGI YA MIREBA RŌJIN NO<br />
                 FŪFU ISSHO NI ARINAGARA<br />
                 TŌKI SUMINOE TAKASAGO NO<br />
                 URAYAMA WO HEDATETE SUMU TO<br />
@@ -529,9 +529,9 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shitezure:</h5>
               <em
-                >UTATENO ŌSEZŌRŌYA<br />
+                >UTATENO ŌSE ZŌRŌYA<br />
                 SANSENBANRI WO HEDATSUREDOMO<br />
-                TAGAI NI KAYŌ KOKORO ZUKAINO<br />
+                TAGAI NI KAYŌ KOKORO ZUKAI NO<br />
                 IMOSE NO MICHI WA TŌ KARAZU</em
               >
             </td>
@@ -561,12 +561,12 @@ permalink: /text-takasago/
               <h5>Shite Shitezure:</h5>
               <em
                 >TAKASAGO SUMINOE NO<br />
-                MATSU HA HIJŌ NO MONO DANIMO<br />
+                MATSU WA HIJŌ NO MONO DANIMO<br />
                 AIOI NO NA WA ARUZOKASHI<br />
                 MASHITEYA SHŌ ARU HITO<br />
-                TOSHITE TOSHIHISASHIKUMO SUMIYOSHI YORI<br />
-                KAYOINARETARU JYŌ TO NBA WA<br />
-                MATSUMOROTOMONI KONO TOSHI MADE<br />
+                TOSHITE TOSHI HISASHIKU MO SUMIYOSHI YORI<br />
+                KAYOINARETARU JŌ TO NBA WA<br />
+                MATSU MOROTOMO NI KONO TOSHI MADE<br />
                 AIOI NO FŪFU TO NARU MONO WO</em
               >
             </td>
@@ -588,9 +588,9 @@ permalink: /text-takasago/
               <h5>Waki:</h5>
               <em
                 >IWARE WO KIKEBA OMOSHIROYA<br />
-                SATESATE SAKI NI KIKOETSURU<br />
+                SATE SATE SAKI NI KIKOETSURU<br />
                 AIOI NO MATSU NO MONOGATARI<br />
-                TOKORO NI KIKIOKU IWARE WA NAKIKA</em
+                TOKORO NI KIKIOKU IWARE WA NAKI KA</em
               >
             </td>
             <td class="content-table__column">
@@ -607,7 +607,7 @@ permalink: /text-takasago/
               <h5>Shite:</h5>
               <em
                 >MUKASHI NO HITO NO MŌSHISHI WA<br />
-                KORE WA MEDETAKI YO NO TATOENARI</em
+                KORE WA MEDETAKI YO NO TATOE NARI</em
               >
             </td>
             <td class="content-table__column">
@@ -621,8 +621,8 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shitezure:</h5>
               <em
-                >TAKASAGO YO IU WA JŌDAINO<br />
-                MANNYŌSHU NO INISHE NO GI</em
+                >TAKASAGO TO IU WA JŌDAI NO<br />
+                MANNYŌSHIU NO INISHIE NO GI</em
               >
             </td>
             <td class="content-table__column">
@@ -661,7 +661,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em>SAKAE HA KOKON AIONAJITO</em>
+              <em>SAKAE WA KOKON AI ONAJI TO</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -672,7 +672,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite Shitezure:</h5>
-              <em>MIYO WO AGAKURU TATOENARI</em>
+              <em>MIYO WO AGAMURU TATOE NARI</em>
             </td>
             <td class="content-table__column">
               <h5>Shite Shitezure:</h5>
@@ -818,7 +818,7 @@ permalink: /text-takasago/
               <h5>Shite:</h5>
               <em
                 >NENGORO NI<br />
-                MŌSHIAGGYŌZURU NITE SŌRŌ</em
+                MŌSHI AGYŌZURU NITE SŌRŌ</em
               >
             </td>
             <td class="content-table__column">
@@ -837,8 +837,8 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em
-                >SORE SŌMOKKOKORONASHI TOWA MŌSEDOMO<br />
-                KAJITSUNO TOKI WO TAGAEZU<br />
+                >SORE SŌMŌK KOKORO NASHI TOWA MŌSEDOMO<br />
+                KAJITN NO TOKI WO TAGAEZU<br />
                 YŌ SHUN NO TOKU WO SONAETE NANSHIHANA<br />
                 HAJIMETE HIRAKU</em
               >
@@ -861,7 +861,7 @@ permalink: /text-takasago/
               <em
                 >SHIKAREDOMO KONO MATSU WA<br />
                 SONO KESHIKI TOKOSHINAENISHITE<br />
-                KAYŌTOKI WO WAKAZU</em
+                KAYŌ TOKI WO WAKAZU</em
               >
             </td>
             <td class="content-table__column">
@@ -876,10 +876,10 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em
-                >YOTSU NO TOKIITARITEMO<br />
+                >YOTSU NO TOKI ITARITEMO<br />
                 ISSEN NEN NO IRO YUKI NO UCHI NI FUKAKU<br />
                 MATA WA SHŌKA NO IRO<br />
-                TOKAERITOMO IERI</em
+                TOKAERI TOMO IERI</em
               >
             </td>
             <td class="content-table__column">
@@ -956,13 +956,13 @@ permalink: /text-takasago/
                 MINA WAKA NO SUGATA NARAZUYA<br />
                 NAKANIMO KONOMATSU WA<br />
                 BANBOKU NI SUGURETE<br />
-                SHIUHAKKO NO YOSŌI<br />
-                SENSHIU NO MDORI WO NASHITE<br />
-                KOKON NO IRO MIZU<br />
+                SHIUHAKKŌ NO YOSŌI<br />
+                SENSHIU NO MIDORI WO NASHITE<br />
+                KOKON NO IRO WO MISU<br />
                 SHIKŌ NO ONSHAKU NI<br />
                 AZUKARU HODO NO KI NARI TOTE<br />
                 IKOKU NIMO HONCHŌ NIMO<br />
-                BANMIN KOREWO SHŌKANSU</em
+                BANMIN KORE WO SHŌKANSU</em
               >
             </td>
             <td class="content-table__column">
@@ -1013,13 +1013,13 @@ permalink: /text-takasago/
                 TACHIYORU KAGE NO ASAIU NI<br />
                 KAKEDOMO OCHIBA NO TSUKISENU WA<br />
                 MAKOTO NARI MATSU NO HA NO<br />
-                CHIRIUSEZUSHITE IRO WA NAO<br />
-                MASAKI NO KAZURA NAGAKIYO NO<br />
+                CHIRI USEZUSHITE IRO WA NAO<br />
+                MASAKI NO KAZURA NAGAKI YO NO<br />
                 TATOE NARIKERI TOKIWAGI NO<br />
                 NAKA NI MO NAWA<br />
-                TAKASAGONO<br />
-                MATSUDAI NO TAMESHI NI MO<br />
-                AIOI NO KAGEZO HISASHIKI</em
+                TAKASAGO NO<br />
+                MATNDAI NO TAMESHI NI MO<br />
+                AIOI NO KAGE ZO HISASHIKI</em
               >
             </td>
             <td class="content-table__column">
@@ -1052,7 +1052,7 @@ permalink: /text-takasago/
                 >GENI NA NISHIŌ MATSUGAE NO<br />
                 GENI NA NISHIŌ MATSUGAE NO<br />
                 OIKI NO MUKASHI ARAWASHITE<br />
-                SONO NA WO NANORITAMAEYA</em
+                SONO NA WO NANORI TAMAEYA</em
               >
             </td>
             <td class="content-table__column">
@@ -1069,9 +1069,9 @@ permalink: /text-takasago/
               <h5>Shite Shitezure:</h5>
               <em
                 >IMA WA NANI WO KA TSUTSUMUBEKI<br />
-                KORE WA TAKASAGO SUMINOENO<br />
+                KORE WA TAKASAGO SUMINOE NO<br />
                 KAMI KOKO NI AIOI NO<br />
-                FŪFŪ TO GENJI KITARITARI</em
+                FŪFU TO GENJI KITARITARI</em
               >
             </td>
             <td class="content-table__column">
@@ -1101,7 +1101,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite Shitezure:</h5>
-              <em>SŌMOKU KOKORO NAKEREDOMO</em>
+              <em>SŌMŌK KOKORO NAKEREDOMO</em>
             </td>
             <td class="content-table__column">
               <h5>Shite Shitezure:</h5>
@@ -1112,7 +1112,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>KASHIKOKIYO TOTE</em>
+              <em>KASHIKOKI YO TOTE</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -1140,10 +1140,10 @@ permalink: /text-takasago/
                 SUMIYOSHI NI MAZU YUKITE<br />
                 ARENITE MACHIMŌSANTO<br />
                 IUNAMI NO MIGIWA NARU<br />
-                AMANO KOBUNE NI UCHINORITE<br />
+                AMA NO OBUNE NI UCHINORITE<br />
                 OIKAZE NI MAKASETSUTSU<br />
-                OKI NO KATA EH IDENIKERIYA<br />
-                OKI NO KATA EH IDENIKERI</em
+                OKI NO KATA E IDENIKERIYA<br />
+                OKI NO KATA E IDENIKERI</em
               >
             </td>
             <td class="content-table__column">
@@ -1165,7 +1165,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>IKANI DAREKA ARU</em>
+              <em>IKANI TAREKA ARU</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -1176,7 +1176,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              <em>ONMAE NI SŌRŌ</em>
+              <em>ONMAENI SŌRŌ</em>
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
@@ -1187,7 +1187,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>TŌURA NO MONO WO OYOBIKITARI SŌRAE</em>
+              <em>TŌURA NO MONO WO YOBITE KITARI SŌRAE</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -1199,8 +1199,8 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em
-                >KASHIKOMATTESŌRŌ<br />
-                TŌURA NO MONO WO WATARI SŌRŌKA</em
+                >KASHIKOMATTE SŌRŌ<br />
+                TŌURA NO HITO NO WATARI SŌRŌKA</em
               >
             </td>
             <td class="content-table__column">
@@ -1214,10 +1214,10 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Aikyogen:</h5>
               <em
-                >TŌURA NO MONO TO ONTAZUNEARU<br />
-                MAKARIDE UKETAMAWARABAYA TO ZONJISŌRŌ<br />
-                TOURA NO MONO TO ONTAZUNE WA<br />
-                IKAYŌ NARU ONYŌ NITE SŌRŌ</em
+                >TŌURA NO MONO TO ONTAZUNE ARU WA<br />
+                MAKARI IDE UKETAMAWARABAYA TO ZONSURU<br />
+                TŌURA NO MONO TO ONTAZUNE WA<br />
+                IKAYŌ NARU GOYŌ NITE SŌRŌZO</em
               >
             </td>
             <td class="content-table__column">
@@ -1234,7 +1234,7 @@ permalink: /text-takasago/
               <h5>Wakizure:</h5>
               <em
                 >CHITO MONO WO TAZUNETAKIYOSHI ŌSE SŌRŌ<br />
-                CHIKŌKITTETAMAWARI SŌRAE</em
+                CHIKŌ KITATTE TAMAWARI SŌRAE</em
               >
             </td>
             <td class="content-table__column">
@@ -1258,7 +1258,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              <em>TŌURA NO MONO WO MESHITEMAIRITE SŌRŌ</em>
+              <em>TŌURA NO MONO WO MESHITE MAIRITE SŌRŌ</em>
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
@@ -1281,12 +1281,12 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em
-                >KORE WA KYŪSHŪ HIGO NO KUNI<br />
+                >KORE WA KIUSHIU HIGO NO KUNI<br />
                 ASO NO MIYA NO KANNUSHI TOMONARI NITE SŌRŌ<br />
                 TŌURA HAJIMETE IKKEN NO KOTO NITE SŌRŌ<br />
                 KONO TOKORO NI OITE<br />
                 TAKASAGO NO MATSU NO IWARE<br />
-                KATTATEKIKASARE SŌRAE</em
+                KATTATE KIKASARE SŌRAE</em
               >
             </td>
             <td class="content-table__column">
@@ -1305,9 +1305,9 @@ permalink: /text-takasago/
               <h5>Aikyogen:</h5>
               <em
                 >KOREWA OMOI MO YORANU KOTO WO,<br />
-                ONTAZUNENASARYO MONO KANA<br />
-                WARERA MO KONOATARI NI SUMAIMŌSEDOMO<br />
-                KAYŌ NO KOTO KUWASHIKU ZONZEZUSŌRŌ<br />
+                ONTAZUNE NASARYŌ MONO KANA<br />
+                WARERA MO KONO ATARI NI SUMAI MŌSEDOMO<br />
+                SAYŌ NO KOTO KUWASHIKU WA ZONZEZUSŌRŌ<br />
                 SARINAGARA OYOSO UKETAMAWARI OYOBITARU TŌRI<br />
                 MONOGATARI MŌSŌZURU NITE SŌRŌ</em
               >
@@ -1326,7 +1326,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>YAGATE KATARARE SŌRAE</em>
+              <em>YAGATE KATARARESŌRAE</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -1340,46 +1340,46 @@ permalink: /text-takasago/
               <em
                 >MAZU TŌURA NI OITE<br />
                 TAKASAGO NO MATSU TO MŌSU WA<br />
-                TORIWAKE KORENARU MATSU WO MŌSUNARAWASHI SŌRŌ<br />
+                TORIWAKE KORENARU MATSU WO MŌSHI NARAWASHI SŌRŌ<br />
                 SATE MATA AIOI TO MŌSU SHISAI WA<br />
-                KOKINSHU NO JO NIMO<br />
-                TAKASAGO SUMINOE NO MATSU MO<br />
+                KOKINSHIU NO JO NIMO<br />
+                TAKASAGO SUMINOE NO MATSU NO<br />
                 AIOI NO YŌ NI OBOE TO SHIRUSHI OKARETE SŌRŌ<br />
-                KORE WA SHOKUIŌKI NAKA NIMO<br />
+                KORE WA SHOBOKU ŌKI NAKA NIMO<br />
                 MATSU WA TOKIWAGI NISHITE<br />
                 SAKAE HISASHIKI MONO NAREBA<br />
-                WAKA NO MICHI SAKAE YUKU KOTOMO<br />
+                WAKA NO MICHI SAKŌRU KOTO MO<br />
                 KONO TAKASAGO SUMINOE NO<br />
                 MATSU NO HA NO GOTOKU NARUBESHI TO<br />
                 TATOE OKARETE SŌRŌ<br />
-                SAREBA TŌSHA MYŌJIN TO SUMIYOSHI NO MYŌJINNA,<br />
+                SAREBA TŌSHA MYŌJIN TO SUMIYOSHI NO MYŌJIN NA,<br />
                 FŪFU NO ONGAMI NITE<br />
-                SUMIYOSHI NO MYŌJIN TŌSHA EH ŌRAI MUKAI NO TOKI MO<br />
-                MATA TŌSHA MYŌJIN<br />
+                SUMIYOSHI NO MYŌJIN TŌSHA E GORAI KŌ NO TOKI MO<br />
+                MATTA TŌSHA MYŌJIN<br />
                 SUMIYOSHI E GORAIKŌ NO TOKI MO<br />
                 KORE NARU MATSU NITE KAMI KATARAI WO NASARE<br />
                 MUKASHI YORI IMANI ITARUMADE<br />
-                IKUHISASHIKU AIKITARITAMAU NI YORI<br />
+                IKUHISASHIKU AIKITARITAMŌ NI YORI<br />
                 AIOI NO MATSU TOMO KONO TOKORO NITE MŌSHI NARAWASHITE SŌRŌ<br />
                 SAREBA TŌSHA MYŌJIN TO<br />
                 SUMIYOSHI NO MYŌJIN NA<br />
-                ITTAIBUNSHIN NO ONGAMI NAREBA<br />
-                WAKA NO MICHI SAKAE YUKU KOTO MO<br />
-                DANJŌ FŪFU NO SUENAGAKI HISASHIKU MEDETAKI KOTO MO<br />
+                ITTAI BUNSHIN NO ONGAMI NAREBA<br />
+                WAKA NO MICHI SAKA YUKU KOTO MO<br />
+                DANJOFŪFU NO SUE NAGAKI HISASHIKU MEDETAKI KOTO MO<br />
                 HITOE NI KONO GOSHINTOKU NITE SŌRŌ<br />
                 SAREBA WAKA NO KOTOBA NIMO<br />
                 ISAGO CHŌJITE IWAO TO NARI<br />
-                CHIRITUMORITE YAMA TO NARU<br />
-                HAMA NO MASAGO WA KOTOGOTOKURUTOMO<br />
-                YOMU KOTONOHA WA TSUKI MA JI NANDO TO<br />
+                CHIRI TSUMORITE YAMA TO NARU<br />
+                HAMA NO MASAGO WA TSUKURU TOMO<br />
+                YOMU KOTONOHA WA TSUKI MA JII NANDO TO<br />
                 UKETAMAWARITE SŌRŌ<br />
                 SAREBA MATSU NO MEDETAKI SHISAI NA<br />
-                SAMAZAMA NO ONNUTA NIMO YOMASERARETE SŌRŌ GA<br />
-                NAKA NIMO AME KUDARU<br />
-                ARAHITOGAMI MO AIOI MO<br />
+                SAMAZAMA NO ON NUTA NIMO YOMASERARETE SŌRŌ GA<br />
+                NAKA NIMO AMEKUDARU<br />
+                ARAHITOGAMI MO AIOI NO<br />
                 OMOI HISASHIKI SUMINOE NO MATSU TO<br />
                 KAYŌ NI YOMASERARE<br />
-                KONO TOKORO WOBA GOJŪ ROKU OKU SHICHI SEN SAI MADEMO<br />
+                KONO TOKORO WOBA GOJIU ROKU OKU SHICHI SEN ZAI MADEMO<br />
                 MAMORASETARU YOSHI KONO ATARI NITE MŌSHI NARAWASHITE SŌRŌ<br />
                 MAZU MATSU NO MEDETAKI SHISAI<br />
                 ŌKATA KAKU NO GOTOKU NITE SŌRŌ GA<br />
@@ -1446,12 +1446,12 @@ permalink: /text-takasago/
               <em
                 >NENGORO NI KATARARE SŌRŌ MONO KANA<br />
                 KATAGATA IZEN NI<br />
-                RŌJIN FŪFU KORARE SŌRŌ HODO NI<br />
+                RŌJIN FŪFU KITARARE SŌRŌ HODO NI<br />
                 TAKASAGO NO MATSU NO SHISAI TAZUNETE SŌRAEBA<br />
-                TADAIMA NO GOTOKU NENGORONI KATARI<br />
+                TADAIMA NO GOTOKU NENGORO NI KATARI<br />
                 SUMIYOSHI NITE MATŌZURU YOSHI MŌSARE<br />
-                MIGIWA NARU KOSEN NI TORINORI<br />
-                OKI O SASHITE IDETAMŌ TO MITE SUGATA WO MIUSHINŌTE SŌRŌ YO</em
+                MIGIWA NARU SHŌSEN NI TORINORI<br />
+                OKI WO SASHITE IDETAMŌ TO MITE SUGATA WO MIUSHINŌTE SŌRŌ YO</em
               >
             </td>
             <td class="content-table__column">
@@ -1471,27 +1471,27 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Aikyogen:</h5>
               <em
-                >GONGODŌDAN KITOKUNARU KOTO WO ŌSESŌRŌ MONO KANA<br />
-                SATEWA TADAIMA MONOGATARI MŌSUGOTOKU<br />
+                >GONGODŌDAN KIDOKUNARU KOTO WO ŌSESŌRŌ MONO KANA<br />
+                SATEWA TADAIMA MONOGATARI MŌSU GOTOKU<br />
                 SUMIYOSHI NO MYŌJIN<br />
-                KONO TOKORO EH OKIKŌNASARE<br />
+                KONO TOKORO E GORAIKŌ NASARE<br />
                 TŌSHA MYŌJIN TO TOMO NI MATSU NO KOKAGE WO KIYOMETAMŌ
                 ORIFUSHI<br />
                 ONKOTOBA WO KAWASARETARU TO ZONJI SŌRŌ<br />
                 SATE SUMIYOSHI NITE MATŌZURU TOTE<br />
-                SHŌSEN NI TORINORI OKIESASHITE ONNIDE TO ŌSERARETE SŌRŌ GA<br />
+                SHŌSEN NI TORINORI OKI E SASHITE ONNIDE TO ŌSERARETE SŌRŌ GA<br />
                 KONO UE WA HENSHI MO HAYAKU<br />
-                SUMIYOSHI EH ONIDEAREKASHI TO ZONJI SŌRŌ<br />
-                SAREBA SORE GA SHI SHŌSEN ISSŌ TSUKURI MŌCHITE SŌRŌ GA<br />
-                IMADA NORIZOME WO ITASZU SŌRŌ<br />
+                SUMIYOSHI E ONIDE AREKASHI TO ZONJI SŌRŌ<br />
+                SAREBA SOREGASHI SHŌSEN ISSŌ TSUKURI MOCHITE SŌRŌ GA<br />
+                IMADA NORIZOME WO ITASAZU SŌRŌ<br />
                 IKANARU ONKATA NITEMO<br />
-                SHINRYO MEDETAKI OKATA WO<br />
-                NOSESOME MŌSHITAKU ZONJISŌRŌ TOKORO NI<br />
+                SHINRYO MEDETAKI ONKATA WO<br />
+                NOSEZOME MŌSHITAKU ZONJISŌRŌ TOKORO NI<br />
                 ASO NO SHINSHOKU TO MŌSARE<br />
                 MATA TŌSHA MYŌJIN SUMIYOSHI NO MYŌJIN TO<br />
                 ONKOTOBA WO KAWASARETARU HODO NO<br />
                 SHINRYO MEDETAKI ONKATA WO<br />
-                NOSE SOME MŌSABA SOREGASHI NO FUNE NO YUKUSUE MO<br />
+                NOSEZOME MŌSABA SOREGASHI NO FUNE NO YUKUSUE MO<br />
                 MEDETAKARŌZURU TO ZONJISŌRŌ<br />
                 SĀREBA WARERA NO SHINZŌ NI MESARE SŌRAE<br />
                 SOREGASHI MO KANDORI TSUKAMATSURI<br />
@@ -1534,7 +1534,7 @@ permalink: /text-takasago/
               <h5>Waki:</h5>
               <em
                 >SĀRABA KATAGATA NO FUNE NI NORI<br />
-                SUMIYOSHI EH MAIRŌZURU NITE SŌRŌ</em
+                SUMIYOSHI E MAIRŌZURU NITE SŌRŌ</em
               >
             </td>
             <td class="content-table__column">
@@ -1548,8 +1548,8 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Aikyogen:</h5>
               <em
-                >YA GORAN SŌRAE SHINRYO NO KITOKU<br />
-                ICHIDAN NO OIKAZE NO FUKI KITARI SŌRAE<br />
+                >YA GORAN SŌRAE SHINRYO NO KIDOKU<br />
+                ICHIDAN NO OITE NO FUKI KITARI TE SŌRŌ<br />
                 YAGATE OFUNE NI MESARE SŌRAE</em
               >
             </td>
@@ -1564,7 +1564,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>KOKORETE SŌRŌ</em>
+              <em>KOKOROETE SŌRŌ</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -1587,7 +1587,7 @@ permalink: /text-takasago/
                 >TAKASAGO YA<br />
                 KONO URABUNE NI HO WO AGETE<br />
                 KONO URABUNE NI HO WO AGETE<br />
-                TSUKI MOROTOMO NI IDESHIONO<br />
+                TSUKI MOROTOMO NI IDESHIO NO<br />
                 NAMI NO AWAJI NO SHIMAKAGE YA<br />
                 TŌKU NARUO NO OKI SUGITE<br />
                 HAYA SUMINOE NI TSUKINIKERI<br />
@@ -1616,12 +1616,12 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em
-                >WAREMITEMO HISASHIKUNARINU SUMIYOSHI NO<br />
-                KISHI NO HIMEMATSU IKUYOHENURAN<br />
+                >WARE MITEMO HISASHIKU NARINU SUMIYOSHI NO<br />
+                KISHI NO HIMEMATSU IKUYO HENURAN<br />
                 MUTSUMASHI TO KIMI WA SHIRAZUYA MIZUGAKI NO<br />
                 HISASHIKI YOYO NO KAMI KAGURA<br />
-                YORU NO TUZUMI NO HYŌSHI WO SOROETE<br />
-                SUZUSHIMI TAMAE MIYAZUKOTACHI</em
+                YORU NO TSUZUMI NO HYŌSHI WO SOROETE<br />
+                SUZUSHIME TAMAE MIYAZUKOTACHI</em
               >
             </td>
             <td class="content-table__column">
@@ -1673,7 +1673,7 @@ permalink: /text-takasago/
               <h5>Shite:</h5>
               <em
                 >HARU NAREYA<br />
-                NOKON NO YUKI NO ASAKA GATA</em
+                NOKON NO YUKI NO ASAKAGATA</em
               >
             </td>
             <td class="content-table__column">
@@ -1686,7 +1686,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>TAMAMO KARUNARU KISHIKAGE NO</em>
+              <em>TAMAMO KARU NARU KISHIKAGE NO</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -1749,7 +1749,7 @@ permalink: /text-takasago/
               <em
                 >ARIGATA NO YŌGŌ YA<br />
                 ARIGATA NO YŌGŌ YA<br />
-                TSUKI SUMIYOSHI NO KAMIASOBI<br />
+                TSUKI SUMIYOSHI NO KAMI ASOBI<br />
                 MIKAGE WO OGAMU ARATA SAYO</em
               >
             </td>
@@ -1785,7 +1785,7 @@ permalink: /text-takasago/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em
-                >KAMI TO KIMO TONO MICHI SUGU NI<br />
+                >KAMI TO KIMI TONO MICHI SUGU NI<br />
                 MIYAKO NO HARU NI YUKUBEKU WA</em
               >
             </td>
@@ -1799,7 +1799,7 @@ permalink: /text-takasago/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em>SOREZO GENJYŌRAKU NO MAI</em>
+              <em>SOREZO GENJŌRAKU NO MAI</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
