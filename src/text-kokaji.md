@@ -51,14 +51,14 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Somo somo kore wa <br />
-                Ichijō-no-In ni tsukae-tatematsuru. <br />
-                Tachibana-no-Michinari to wa waga koto nari. <br />
-                Sate mo mikado konya kidoku no go-reimu, mashimashite. <br />
-                Sanjō-no-Kokaji Munechika ni. <br />
-                Mi-tsurugi wo utaserarubeshi to no <br />
-                senji tadaima narikudarite sōrō hodo ni. <br />
-                Kono yoshi wo Munechika ni mōshi-tsukebaya to zonji sōrō.</em
+                SOMO SOMO KORE WA <br />
+                ICHIJŌ-NO-IN NI TSUKAE-TATEMATSURU. <br />
+                TACHIBANA-NO-MICHINARI TO WA WAGA KOTO NARI. <br />
+                SATE MO MIKADO KONYA KIDOKU NO GO-REIMU, MASHIMASHITE. <br />
+                SANJŌ-NO-KOKAJI MUNECHIKA NI. <br />
+                MI-TSURUGI WO UTASERARUBESHI TO NO <br />
+                SENJI TADAIMA NARIKUDARITE SŌRŌ HODO NI. <br />
+                KONO YOSHI WO MUNECHIKA NI MŌSHI-TSUKEBAYA TO ZONJI SŌRŌ.</em
               >
             </td>
 
@@ -84,7 +84,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              <em>Ikani kono uchini Munechika no watari-sōrō ka</em>
+              <em>IKANI KONO UCHINI MUNECHIKA NO WATARI-SŌRŌ KA</em>
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
@@ -95,7 +95,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em> Tare nite watari sōrozo.</em>
+              <em> TARE NITE WATARI SŌROZO.</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -107,16 +107,17 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Kore wa senji nite sōrō<br />
-                Waga kimi konya fushigi no reimu, mashimashite. <br />
-                Mitsurugi wo utaserarubeshi tono onkoto nari. <br />
-                Tōtō tsukamatsuri sōrae</em
+                KORE WA SENJI NITE SŌRŌ<br />
+                WAGA KIMI KONYA FUSHIGI NO REIMU, MASHIMASHITE. <br />
+                MITSURUGI WO UTASERARUBESHI TONO ONKOTO NARI. <br />
+                TŌTŌ TSUKAMATSURI SŌRAE</em
               >
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               I am a messenger from the Emperor.<br />
-              His Majesty has this night had a marvelous oracle in a dream. <br />
+              His Majesty has this night had a marvelous oracle in a dream.
+              <br />
               According to the oracle you must forge a fine sword for him.
               <br />
               Please comply with this order at once.
@@ -127,9 +128,9 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Senji kashikomatte uketamawari sōrō sarinagara.<br />
-                Orifushi aizuchi utsubeki mono naku sōrō wo ba, <br />
-                nani to tsukamatsuri sōrō beki.</em
+                SENJI KASHIKOMATTE UKETAMAWARI SŌRŌ SARINAGARA.<br />
+                ORIFUSHI AIZUCHI UTSUBEKI MONO NAKU SŌRŌ WO BA, <br />
+                NANI TO TSUKAMATSURI SŌRŌ BEKI.</em
               >
             </td>
 
@@ -146,10 +147,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Fushigi no koto wo mōsu mono kana. <br />
-                Sono na wo etaru, nanji naruga<br />
-                aizuchi utsubeki mono no naki towa. <br />
-                Kokoroegataki iigotokana.</em
+                FUSHIGI NO KOTO WO MŌSU MONO KANA. <br />
+                SONO NA WO ETARU, NANJI NARUGA<br />
+                AIZUCHI UTSUBEKI MONO NO NAKI TOWA. <br />
+                KOKOROEGATAKI IIGOTOKANA.</em
               >
             </td>
             <td class="content-table__column">
@@ -165,13 +166,13 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Kore wa ōse nite sōrae domo,<br />
-                Kayō no ichidaiji no mono wo tsukamatsuru ni wa, <br />
-                ware ni hodonaru koto no mono no aizuchi, tsukamatsuri koso.
+                KORE WA ŌSE NITE SŌRAE DOMO,<br />
+                KAYŌ NO ICHIDAIJI NO MONO WO TSUKAMATSURU NI WA, <br />
+                WARE NI HODONARU KOTO NO MONO NO AIZUCHI, TSUKAMATSURI KOSO.
                 <br />
-                Mitsurugi wo mo uchimōsubekere. <br />
-                Tonikaku ni onpenji wo mōshikane. <br />
-                Sekimenshitaru bakari nari.</em
+                MITSURUGI WO MO UCHIMŌSUBEKERE. <br />
+                TONIKAKU NI ONPENJI WO MŌSHIKANE. <br />
+                SEKIMENSHITARU BAKARI NARI.</em
               >
             </td>
 
@@ -191,12 +192,12 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Mōsu tokoro wa saru koto naredomo.<br />
-                Mikado mo fushigi no reimu mashimaseba. <br />
-                Ikanaru koto ka sōrōbeki <br />
-                tanomoshiku omoi mōshitsutsu<br />
-                hayahaya ryōjō mōlsubeshito. <br />
-                Kasanete senji arikereba
+                MŌSU TOKORO WA SARU KOTO NAREDOMO.<br />
+                MIKADO MO FUSHIGI NO REIMU MASHIMASEBA. <br />
+                IKANARU KOTO KA SŌRŌBEKI <br />
+                TANOMOSHIKU OMOI MŌSHITSUTSU<br />
+                HAYAHAYA RYŌJŌ MŌLSUBESHITO. <br />
+                KASANETE SENJI ARIKEREBA
               </em>
             </td>
             <td class="content-table__column">
@@ -219,7 +220,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em> Kono ue wa tonimo kakunimo Munechika ga,</em>
+              <em> KONO UE WA TONIMO KAKUNIMO MUNECHIKA GA,</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -231,13 +232,13 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Tonimo kakunimo Munechika ga,<br />
-                Shintai koko ni kiwamarite. <br />
-                Mitsurugi no yaiba no midaruru kokoro narikeri. <br />
-                Sarinagara goseitō sugunaru ima no miyo nareba, <br />
-                moshimo kidoku no ariyasen. <br />
-                Sore nomi tanomu kokoro kana. <br />
-                Sore nomi tanomu kokoro kana.</em
+                TONIMO KAKUNIMO MUNECHIKA GA,<br />
+                SHINTAI KOKO NI KIWAMARITE. <br />
+                MITSURUGI NO YAIBA NO MIDARURU KOKORO NARIKERI. <br />
+                SARINAGARA GOSEITŌ SUGUNARU IMA NO MIYO NAREBA, <br />
+                MOSHIMO KIDOKU NO ARIYASEN. <br />
+                SORE NOMI TANOMU KOKORO KANA. <br />
+                SORE NOMI TANOMU KOKORO KANA.</em
               >
             </td>
             <td class="content-table__column">
@@ -262,7 +263,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Wakizure:</h5>
-              <em> Senji ni makase tōtō mitsurugi wo tsukamatsuri sōrae.</em>
+              <em> SENJI NI MAKASE TŌTŌ MITSURUGI WO TSUKAMATSURI SŌRAE.</em>
             </td>
             <td class="content-table__column">
               <h5>Wakizure:</h5>
@@ -273,7 +274,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>Kashikomatte sōro.</em>
+              <em>KASHIKOMATTE SŌRO.</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -291,13 +292,13 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Kore wa ichidaiji no koto wo, ōse idasarate sōrō mono kana.<br />
-                Kayō no koto ni wa shinriki wo tanomu naradewa, bechigi naku
-                sōro.<br />
-                Soregashi ga uji no shin na Inari no, myōjin nite sōrō hodoni.
+                KORE WA ICHIDAIJI NO KOTO WO, ŌSE IDASARATE SŌRŌ MONO KANA.<br />
+                KAYŌ NO KOTO NI WA SHINRIKI WO TANOMU NARADEWA, BECHIGI NAKU
+                SŌRO.<br />
+                SOREGASHI GA UJI NO SHIN NA INARI NO, MYŌJIN NITE SŌRŌ HODONI.
                 <br />
-                Kore yori sugu ni, Inari ni mairi. <br />
-                Kono koto kisei mōsabaya to zonji-sōro.
+                KORE YORI SUGU NI, INARI NI MAIRI. <br />
+                KONO KOTO KISEI MŌSABAYA TO ZONJI-SŌRO.
               </em>
             </td>
             <td class="content-table__column">
@@ -319,8 +320,8 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em
-                >Nō nō are naru wa Sanjō no Kokaji Munechika nite, on iri sōrō
-                ka.</em
+                >NŌ NŌ ARE NARU WA SANJŌ NO KOKAJI MUNECHIKA NITE, ON IRI SŌRŌ
+                KA.</em
               >
             </td>
             <td class="content-table__column">
@@ -333,10 +334,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Fushigi ya na nabete narazaru on-koto naru ga.<br />
-                Michi mo naki kata yori kitaritamai<br />
-                waga na wo sashite notamō wa. <br />
-                Ikanaru hito nite mashi-masu zo.</em
+                FUSHIGI YA NA NABETE NARAZARU ON-KOTO NARU GA.<br />
+                MICHI MO NAKI KATA YORI KITARITAMAI<br />
+                WAGA NA WO SASHITE NOTAMŌ WA. <br />
+                IKANARU HITO NITE MASHI-MASU ZO.</em
               >
             </td>
             <td class="content-table__column">
@@ -353,9 +354,9 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em>
-                Kumo no ue naru kimi yori mo<br />
-                tsurugi wo uchite mairaseyo to <br />
-                nanji ni ōse ari shi yo nō.</em
+                KUMO NO UE NARU KIMI YORI MO<br />
+                TSURUGI WO UCHITE MAIRASEYO TO <br />
+                NANJI NI ŌSE ARI SHI YO NŌ.</em
               >
             </td>
             <td class="content-table__column">
@@ -371,11 +372,11 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Sareba koso, <br />
-                sore ni tsukete mo nao nao kidoku no on-koto nare. <br />
-                Tsurugi no choku mo tadaima naru wo. <br />
-                Hayaku mo shiroshimesaruru koto<br />
-                Kaesu-gaesu mo fushin nari.</em
+                SAREBA KOSO, <br />
+                SORE NI TSUKETE MO NAO NAO KIDOKU NO ON-KOTO NARE. <br />
+                TSURUGI NO CHOKU MO TADAIMA NARU WO. <br />
+                HAYAKU MO SHIROSHIMESARURU KOTO<br />
+                KAESU-GAESU MO FUSHIN NARI.</em
               >
             </td>
 
@@ -394,9 +395,9 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em>
-                Geni geni sore wa saru koto naredomo <br />
-                ware nomi shireba moro bito made mo. <br />
-                Ten ni koe ari, chi ni hibiku.</em
+                GENI GENI SORE WA SARU KOTO NAREDOMO <br />
+                WARE NOMI SHIREBA MORO BITO MADE MO. <br />
+                TEN NI KOE ARI, CHI NI HIBIKU.</em
               >
             </td>
             <td class="content-table__column">
@@ -418,16 +419,16 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Kabe ni mimi:<br />
-                Iwa no mono iu yo no naka ni, <br />
-                Iwa no mono iu yo no naka ni, <br />
-                Kakure wa araji koto ni nao, <br />
-                kumo no uebito no mitsurugi no<br />
-                hikari wa nanika kurakaran. <br />
-                Tada tanome kono kimi no<br />
-                Megumi ni yoraba mitsurugi mo<br />
-                nado ka kokoro ni kanawazaru. <br />
-                Nado ka wa kanawazarubeki.</em
+                KABE NI MIMI:<br />
+                IWA NO MONO IU YO NO NAKA NI, <br />
+                IWA NO MONO IU YO NO NAKA NI, <br />
+                KAKURE WA ARAJI KOTO NI NAO, <br />
+                KUMO NO UEBITO NO MITSURUGI NO<br />
+                HIKARI WA NANIKA KURAKARAN. <br />
+                TADA TANOME KONO KIMI NO<br />
+                MEGUMI NI YORABA MITSURUGI MO<br />
+                NADO KA KOKORO NI KANAWAZARU. <br />
+                NADO KA WA KANAWAZARUBEKI.</em
               >
             </td>
             <td class="content-table__column">
@@ -455,10 +456,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Sore Kan-nō sanseki no tsurugi<br />
-                inagara Shin no midare wo shizume. <br />
-                Mata Yō-tei ga Kei no tsurugi<br />
-                Shiujt'n no hikari wo ubaeri.</em
+                SORE KAN-NŌ SANSEKI NO TSURUGI<br />
+                INAGARA SHIN NO MIDARE WO SHIZUME. <br />
+                MATA YŌ-TEI GA KEI NO TSURUGI<br />
+                SHIUJT'N NO HIKARI WO UBAERI.</em
               >
             </td>
             <td class="content-table__column">
@@ -481,7 +482,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em>Sono nochi Gensō Kō-tei no Shōki Daijin mo,</em>
+              <em>SONO NOCHI GENSŌ KŌ-TEI NO SHŌKI DAIJIN MO,</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -496,11 +497,11 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Tsurugi no toku ni konpaku wa,<br />
-                kunpen ni tsukae-tatematsuri. <br />
-                Mōryō kijin ni itaru made <br />
-                tsurugi no yaiba no hikari ni osorete <br />
-                sono ada wo nasu koto wo ezu.</em
+                TSURUGI NO TOKU NI KONPAKU WA,<br />
+                KUNPEN NI TSUKAE-TATEMATSURI. <br />
+                MŌRYŌ KIJIN NI ITARU MADE <br />
+                TSURUGI NO YAIBA NO HIKARI NI OSORETE <br />
+                SONO ADA WO NASU KOTO WO EZU.</em
               >
             </td>
             <td class="content-table__column">
@@ -516,7 +517,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Kanka honchō ni oite tsurugi no itoku </em>
+              <em> KANKA HONCHŌ NI OITE TSURUGI NO ITOKU </em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -528,7 +529,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> mōsu ni oyobanu kidoku to kaya.</em>
+              <em> MŌSU NI OYOBANU KIDOKU TO KAYA.</em>
             </td>
 
             <td class="content-table__column">
@@ -547,17 +548,17 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Mata waga chō no sono hajime.<br />
-                Ninnō jūnidai Keikō-tennō , <br />
-                miko no mikato no on-na wo ba<br />
-                Yamata-dake to mōshishiga. <br />
-                Kiui wo Taiji no chiku wo uke. <br />
-                Seki no higashi mo harukanaru. <br />
-                Azuma no tabi no michi sugara. <br />
-                Ise ya Owari no umizura ni tatsu nami made mo<br />
-                kaeru koto yo to urayami, <br />
-                itsu ka warera mo kaeru nami no, <br />
-                koromode ni arama shi to omoi-tsuzukete-yuku hodo ni.</em
+                MATA WAGA CHŌ NO SONO HAJIME.<br />
+                NINNŌ JŪNIDAI KEIKŌ-TENNŌ , <br />
+                MIKO NO MIKATO NO ON-NA WO BA<br />
+                YAMATA-DAKE TO MŌSHISHIGA. <br />
+                KIUI WO TAIJI NO CHIKU WO UKE. <br />
+                SEKI NO HIGASHI MO HARUKANARU. <br />
+                AZUMA NO TABI NO MICHI SUGARA. <br />
+                ISE YA OWARI NO UMIZURA NI TATSU NAMI MADE MO<br />
+                KAERU KOTO YO TO URAYAMI, <br />
+                ITSU KA WARERA MO KAERU NAMI NO, <br />
+                KOROMODE NI ARAMA SHI TO OMOI-TSUZUKETE-YUKU HODO NI.</em
               >
             </td>
             <td class="content-table__column">
@@ -584,7 +585,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Koko ya kashiko no tatakai ni,</em>
+              <em> KOKO YA KASHIKO NO TATAKAI NI,</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -597,17 +598,17 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Jin-ba gankutsu ni mi wo kudaki,<br />
-                Chi wa takuroku no kawa to natte, <br />
-                kōha tate nagashi sudo ni oyoberu Ebisu mo. <br />
-                Kabuto wo nuide hoko wo fuse<br />
-                mina kōsan wo mōshikeri. <br />
-                Mi-koto no gyō yori mi-kariba wo susume tamaeri. <br />
-                Koro wa Kami-na-zuki, <br />
-                hatsu ka amari no koto nareba. <br />
-                Yo-mo no momiji mo fuyugare no<br />
-                tō-yama ni miyuru hatsu-yuki wo, <br />
-                nagame sase tamaishi ni,</em
+                JIN-BA GANKUTSU NI MI WO KUDAKI,<br />
+                CHI WA TAKUROKU NO KAWA TO NATTE, <br />
+                KŌHA TATE NAGASHI SUDO NI OYOBERU EBISU MO. <br />
+                KABUTO WO NUIDE HOKO WO FUSE<br />
+                MINA KŌSAN WO MŌSHIKERI. <br />
+                MI-KOTO NO GYŌ YORI MI-KARIBA WO SUSUME TAMAERI. <br />
+                KORO WA KAMI-NA-ZUKI, <br />
+                HATSU KA AMARI NO KOTO NAREBA. <br />
+                YO-MO NO MOMIJI MO FUYUGARE NO<br />
+                TŌ-YAMA NI MIYURU HATSU-YUKI WO, <br />
+                NAGAME SASE TAMAISHI NI,</em
               >
             </td>
             <td class="content-table__column">
@@ -630,7 +631,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Yebisu shi-hō wo kakomitsutsu.</em>
+              <em> YEBISU SHI-HŌ WO KAKOMITSUTSU.</em>
             </td>
 
             <td class="content-table__column">
@@ -644,10 +645,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Kare-no no kusa ni hi wo kake <br />
-                yo-en shikiri ni moe-kitari. <br />
-                Kataki-seme-tsuzumi wo uchi-kakete. <br />
-                Ka-en wo hanachite kakarikareba.</em
+                KARE-NO NO KUSA NI HI WO KAKE <br />
+                YO-EN SHIKIRI NI MOE-KITARI. <br />
+                KATAKI-SEME-TSUZUMI WO UCHI-KAKETE. <br />
+                KA-EN WO HANACHITE KAKARIKAREBA.</em
               >
             </td>
             <td class="content-table__column">
@@ -664,7 +665,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Mi-koto tsurugi wo nuite...</em>
+              <em> MI-KOTO TSURUGI WO NUITE...</em>
             </td>
 
             <td class="content-table__column">
@@ -678,24 +679,24 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Mi-koto tsurugi wo nuite,<br />
-                atari wo harai tachimachi. <br />
-                ni honō mo tachi-shirizoke to, <br />
-                shi-hō no kusa wo nagi-haraeba. <br />
-                Tsurugi no seirei arashi to natte, <br />
-                hon wo mo kusa mo fuki-kaesarete. <br />
-                Ten ni kakayaki chi ni michite. <br />
-                Myō-ka wa kaette kataki wo yakeba. <br />
-                Su man gi no Yebisu-domo wa, <br />
-                tachimachi koko nite usetengeri. <br />
-                Sono nochi shi-kai osamarite, <br />
-                Jin-ka to-zashi wo wasureshi mo. <br />
-                Sono Kusanagi no yue to ka ya. <br />
-                Tadaima nanji ga utsubeki<br />
-                kono zuisō no mitsurugi mo. <br />
-                Ika de sore ni wa otorubeki. <br />
-                Tsutōru ie no Munechika yo, <br />
-                kokoro yasuku mo omoite ge-kō shi tamae.
+                MI-KOTO TSURUGI WO NUITE,<br />
+                ATARI WO HARAI TACHIMACHI. <br />
+                NI HONŌ MO TACHI-SHIRIZOKE TO, <br />
+                SHI-HŌ NO KUSA WO NAGI-HARAEBA. <br />
+                TSURUGI NO SEIREI ARASHI TO NATTE, <br />
+                HON WO MO KUSA MO FUKI-KAESARETE. <br />
+                TEN NI KAKAYAKI CHI NI MICHITE. <br />
+                MYŌ-KA WA KAETTE KATAKI WO YAKEBA. <br />
+                SU MAN GI NO YEBISU-DOMO WA, <br />
+                TACHIMACHI KOKO NITE USETENGERI. <br />
+                SONO NOCHI SHI-KAI OSAMARITE, <br />
+                JIN-KA TO-ZASHI WO WASURESHI MO. <br />
+                SONO KUSANAGI NO YUE TO KA YA. <br />
+                TADAIMA NANJI GA UTSUBEKI<br />
+                KONO ZUISŌ NO MITSURUGI MO. <br />
+                IKA DE SORE NI WA OTORUBEKI. <br />
+                TSUTŌRU IE NO MUNECHIKA YO, <br />
+                KOKORO YASUKU MO OMOITE GE-KŌ SHI TAMAE.
               </em>
             </td>
             <td class="content-table__column">
@@ -733,9 +734,9 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Kanka honchō ni oite tsurugi no itoku <br />
-                Toki ni totte no shiugen mōsu, hakari no kusōrō. <br />
-                Sate satemo onmi wa ikanaru hito zo.</em
+                KANKA HONCHŌ NI OITE TSURUGI NO ITOKU <br />
+                TOKI NI TOTTE NO SHIUGEN MŌSU, HAKARI NO KUSŌRŌ. <br />
+                SATE SATEMO ONMI WA IKANARU HITO ZO.</em
               >
             </td>
             <td class="content-table__column">
@@ -751,10 +752,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em>
-                Yoshi tare nari tomo tanomubeshi.<br />
-                Mazumazu choku no mitsurugi wo<br />
-                utsu beki dan no kazaritsutsu.<br />
-                Sono toki ware wo machitamawaba.</em
+                YOSHI TARE NARI TOMO TANOMUBESHI.<br />
+                MAZUMAZU CHOKU NO MITSURUGI WO<br />
+                UTSU BEKI DAN NO KAZARITSUTSU.<br />
+                SONO TOKI WARE WO MACHITAMAWABA.</em
               >
             </td>
             <td class="content-table__column">
@@ -776,14 +777,14 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Tsūriki no mi wo henji. <br />
-                Tsūriki no mi wo henji, <br />
-                kanarazu sono jiset'n ni<br />
-                mairi aite onchikara wo tsuke-mōsubeshi. <br />
-                Machitamae to. <br />
-                Iugumo no Inariyama, <br />
-                yukue mo shirazu usenikeri. <br />
-                Yukue mo shirazu usenikeri.</em
+                TSŪRIKI NO MI WO HENJI. <br />
+                TSŪRIKI NO MI WO HENJI, <br />
+                KANARAZU SONO JISET'N NI<br />
+                MAIRI AITE ONCHIKARA WO TSUKE-MŌSUBESHI. <br />
+                MACHITAMAE TO. <br />
+                IUGUMO NO INARIYAMA, <br />
+                YUKUE MO SHIRAZU USENIKERI. <br />
+                YUKUE MO SHIRAZU USENIKERI.</em
               >
             </td>
             <td class="content-table__column">
@@ -807,54 +808,54 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Kyōgen:</h5>
               <em>
-                Kayō ni sōro mono wa Inari Daimyōjin ni,<br />
-                tsukaemōsu massha noshin nite sōro. <br />
-                Tadaima kore eh izuru koto, yomo gi ni arazu. <br />
-                Satemo, ninnō Rokujūrokudai Ichijō no in, <br />
-                kono hodo, fushigi no ontsuge mashimashite, <br />
-                Sanjō no Kokaji Munechika ni, <br />
-                mitsurugi wo utaserarubeki to no on koto nari. <br />
-                Sunawachi Michinari nōkyō, chokushi to natte, <br />
-                senji no omomuki. ōserare sureba, <br />
-                Munechika, sneji uketemawari kahodo daiji no mitsurugi wo,
+                KAYŌ NI SŌRO MONO WA INARI DAIMYŌJIN NI,<br />
+                TSUKAEMŌSU MASSHA NOSHIN NITE SŌRO. <br />
+                TADAIMA KORE EH IZURU KOTO, YOMO GI NI ARAZU. <br />
+                SATEMO, NINNŌ ROKUJŪROKUDAI ICHIJŌ NO IN, <br />
+                KONO HODO, FUSHIGI NO ONTSUGE MASHIMASHITE, <br />
+                SANJŌ NO KOKAJI MUNECHIKA NI, <br />
+                MITSURUGI WO UTASERARUBEKI TO NO ON KOTO NARI. <br />
+                SUNAWACHI MICHINARI NŌKYŌ, CHOKUSHI TO NATTE, <br />
+                SENJI NO OMOMUKI. ŌSERARE SUREBA, <br />
+                MUNECHIKA, SNEJI UKETEMAWARI KAHODO DAIJI NO MITSURUGI WO,
                 <br />
-                uchimōsu ni wa, soregashi ichinin nite wa hakaraigatashi. <br />
-                Ware ni otonaru aizuchi nakute wa kanawaji tote, <br />
-                mazu wa gojitai nasaresōrō ga ringen nase nogotoshi, <br />
-                kastu wa ie no menboku to zonji, ouke wo mōsoresōro. <br />
-                Sarinagara, kono tabi no mitsurugi wo uchimōsuni wa,<br />
-                Soregashi ichinin wa hakaraigatashi, <br />
-                Shinriki wo tanomōruru tote, <br />
-                sunawachi, Inari Daimyōjin na ujishin nari. <br />
-                Koto sara, kaji wo mamori tamao ongami nareba, <br />
-                Tadaima sankei tsukamatsuri sōro. Tokoro no. <br />
-                Katajikenakumo tosha myojin gozonji atte<br />
-                kari ni dōji sugata to genji Munechika ni uchiai, <br />
-                on-kotoba wo kawasaresōro. <br />
-                Sōjite, wagakyō ni oite, <br />
-                kamiyo yori tsutōru reiken, futatsu ari. <br />
-                Totsuka no tsurugi to mōsu wa, Susanō no mikoto, <br />
-                Izumo no kuni, Hi no kawakami ni, daijya no arishi wo, <br />
-                Tsukamaetamaishimo, kono tsurugi no itoku nari. <br />
-                Matta,Murakumo no tsurugi to mōsu wa, <br />
-                sono toki daijya no wo ni arishi tsurugi nari. <br />
-                Matta, ninō junidai Keikō tenno, daini no miko, <br />
-                Yamatodake no Mikoto tōi wo tairagetamaishi wo, <br />
-                sono tsurugi no itoku nari. <br />
-                Sore yori aratame, Kusanagi no tsurugi to wa, kore wo mōsu nari.
+                UCHIMŌSU NI WA, SOREGASHI ICHININ NITE WA HAKARAIGATASHI. <br />
+                WARE NI OTONARU AIZUCHI NAKUTE WA KANAWAJI TOTE, <br />
+                MAZU WA GOJITAI NASARESŌRŌ GA RINGEN NASE NOGOTOSHI, <br />
+                KASTU WA IE NO MENBOKU TO ZONJI, OUKE WO MŌSORESŌRO. <br />
+                SARINAGARA, KONO TABI NO MITSURUGI WO UCHIMŌSUNI WA,<br />
+                SOREGASHI ICHININ WA HAKARAIGATASHI, <br />
+                SHINRIKI WO TANOMŌRURU TOTE, <br />
+                SUNAWACHI, INARI DAIMYŌJIN NA UJISHIN NARI. <br />
+                KOTO SARA, KAJI WO MAMORI TAMAO ONGAMI NAREBA, <br />
+                TADAIMA SANKEI TSUKAMATSURI SŌRO. TOKORO NO. <br />
+                KATAJIKENAKUMO TOSHA MYOJIN GOZONJI ATTE<br />
+                KARI NI DŌJI SUGATA TO GENJI MUNECHIKA NI UCHIAI, <br />
+                ON-KOTOBA WO KAWASARESŌRO. <br />
+                SŌJITE, WAGAKYŌ NI OITE, <br />
+                KAMIYO YORI TSUTŌRU REIKEN, FUTATSU ARI. <br />
+                TOTSUKA NO TSURUGI TO MŌSU WA, SUSANŌ NO MIKOTO, <br />
+                IZUMO NO KUNI, HI NO KAWAKAMI NI, DAIJYA NO ARISHI WO, <br />
+                TSUKAMAETAMAISHIMO, KONO TSURUGI NO ITOKU NARI. <br />
+                MATTA,MURAKUMO NO TSURUGI TO MŌSU WA, <br />
+                SONO TOKI DAIJYA NO WO NI ARISHI TSURUGI NARI. <br />
+                MATTA, NINŌ JUNIDAI KEIKŌ TENNO, DAINI NO MIKO, <br />
+                YAMATODAKE NO MIKOTO TŌI WO TAIRAGETAMAISHI WO, <br />
+                SONO TSURUGI NO ITOKU NARI. <br />
+                SORE YORI ARATAME, KUSANAGI NO TSURUGI TO WA, KORE WO MŌSU NARI.
                 <br />
-                Sono hoka, Kan no kōsō Sanseki no ken, <br />
-                Kan Shō Bakuga no tsurugi, morokoshi wagakyo ni oite<br />
-                tsurugi no itoku, kotogotoku onmonogatari nasare. <br />
-                Nonji mo, na wo ehtaru kaji nareba, izure ni ototoru. <br />
-                Mitsurugi wo uchimōsu nari. Kane wo kitōte matsubeshi. <br />
-                Sono toki Myojin raigenatte, <br />
-                Aizuchi wo utaserarubeki to no onkoto nareba, <br />
-                Munechika mo, yorokobi no mayu wo hikari, <br />
-                tadaima, gekō tsukamatsurite sōrō. <br />
-                Sōjite nanigoto mo kisei wo kakemōseba, <br />
-                shōganjōju utagai nashi. <br />
-                Kamaete sono bun, kokoroe sōrae.</em
+                SONO HOKA, KAN NO KŌSŌ SANSEKI NO KEN, <br />
+                KAN SHŌ BAKUGA NO TSURUGI, MOROKOSHI WAGAKYO NI OITE<br />
+                TSURUGI NO ITOKU, KOTOGOTOKU ONMONOGATARI NASARE. <br />
+                NONJI MO, NA WO EHTARU KAJI NAREBA, IZURE NI OTOTORU. <br />
+                MITSURUGI WO UCHIMŌSU NARI. KANE WO KITŌTE MATSUBESHI. <br />
+                SONO TOKI MYOJIN RAIGENATTE, <br />
+                AIZUCHI WO UTASERARUBEKI TO NO ONKOTO NAREBA, <br />
+                MUNECHIKA MO, YOROKOBI NO MAYU WO HIKARI, <br />
+                TADAIMA, GEKŌ TSUKAMATSURITE SŌRŌ. <br />
+                SŌJITE NANIGOTO MO KISEI WO KAKEMŌSEBA, <br />
+                SHŌGANJŌJU UTAGAI NASHI. <br />
+                KAMAETE SONO BUN, KOKOROE SŌRAE.</em
               >
             </td>
             <td class="content-table__column">
@@ -941,21 +942,21 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em>
-                Munechika choku ni shitagatte <br />
-                fujō wo hedatsuru nanae no shime<br />
-                shi-hō ni honzon no kake tatematsuri<br />
-                heihaku wo sasage, ōgi negawakuwa<br />
-                Nin-nō rokuju-roku dai,<br />
-                Ichijo-no-In no gyo-o ni<br />
-                sono shoku no homare wo kō-muru koto<br />
-                kore watakushi no chikara ni arazu.<br />
-                Izanagi Izanami no Mikoto<br />
-                Amano-Ukihashi wo fumi-watari<br />
-                Toyo-ashi-wara wo saguri tamaishi<br />
-                mi-hoko yori hajimareri.<br />
-                Sono nochi Nansen-Sōkata-koku Bashi<br />
-                Mida Sonja yori kono kata<br />
-                Amakuni Fujito no shison ni tsutaete ima ni itareri.</em
+                MUNECHIKA CHOKU NI SHITAGATTE <br />
+                FUJŌ WO HEDATSURU NANAE NO SHIME<br />
+                SHI-HŌ NI HONZON NO KAKE TATEMATSURI<br />
+                HEIHAKU WO SASAGE, ŌGI NEGAWAKUWA<br />
+                NIN-NŌ ROKUJU-ROKU DAI,<br />
+                ICHIJO-NO-IN NO GYO-O NI<br />
+                SONO SHOKU NO HOMARE WO KŌ-MURU KOTO<br />
+                KORE WATAKUSHI NO CHIKARA NI ARAZU.<br />
+                IZANAGI IZANAMI NO MIKOTO<br />
+                AMANO-UKIHASHI WO FUMI-WATARI<br />
+                TOYO-ASHI-WARA WO SAGURI TAMAISHI<br />
+                MI-HOKO YORI HAJIMARERI.<br />
+                SONO NOCHI NANSEN-SŌKATA-KOKU BASHI<br />
+                MIDA SONJA YORI KONO KATA<br />
+                AMAKUNI FUJITO NO SHISON NI TSUTAETE IMA NI ITARERI.</em
               >
             </td>
             <td class="content-table__column">
@@ -989,7 +990,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em>Negawaku wa,</em>
+              <em>NEGAWAKU WA,</em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -1001,14 +1002,14 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Negawaku wa,<br />
-                Munechika watakushi no kōmyō ni arazu,<br />
-                futensotto no chokumei ni yoreri,<br />
-                sāraba jippō gōja no shojin,<br />
-                tadaima no Munechika ni chikara wo awasete tabitamae tote.<br />
-                Heihaku wo sasagetsutsu.<br />
-                Ten ni aogi kōbe ō katamuke kot'nzui no tansei kiki-ire.<br />
-                Nōjiu seshime tamaeya.</em
+                NEGAWAKU WA,<br />
+                MUNECHIKA WATAKUSHI NO KŌMYŌ NI ARAZU,<br />
+                FUTENSOTTO NO CHOKUMEI NI YORERI,<br />
+                SĀRABA JIPPŌ GŌJA NO SHOJIN,<br />
+                TADAIMA NO MUNECHIKA NI CHIKARA WO AWASETE TABITAMAE TOTE.<br />
+                HEIHAKU WO SASAGETSUTSU.<br />
+                TEN NI AOGI KŌBE Ō KATAMUKE KOT'NZUI NO TANSEI KIKI-IRE.<br />
+                NŌJIU SESHIME TAMAEYA.</em
               >
             </td>
             <td class="content-table__column">
@@ -1030,7 +1031,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Waki:</h5>
-              <em> Kinjyo: </em>
+              <em> KINJYO: </em>
             </td>
             <td class="content-table__column">
               <h5>Waki:</h5>
@@ -1042,7 +1043,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> Saihai </em>
+              <em> SAIHAI </em>
             </td>
 
             <td class="content-table__column">
@@ -1061,10 +1062,10 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               <em>
-                Ika ni ya Munechika choku no tsurugi.<br />
-                Ika ni ya Munechika choku no tsurugi.<br />
-                utsubeki jisetsu wa kōku ni shireri.<br />
-                Tanome ya, tanome ya, tada tanome.</em
+                IKA NI YA MUNECHIKA CHOKU NO TSURUGI.<br />
+                IKA NI YA MUNECHIKA CHOKU NO TSURUGI.<br />
+                UTSUBEKI JISETSU WA KŌKU NI SHIRERI.<br />
+                TANOME YA, TANOME YA, TADA TANOME.</em
               >
             </td>
             <td class="content-table__column">
@@ -1085,7 +1086,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Tōnan dan no ue ni agari.</em>
+              <em> TŌNAN DAN NO UE NI AGARI.</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -1097,12 +1098,12 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Tōnan dan no ue ni agatte <br />
-                Munechika ni sanpai no hiza wo kusshi.<br />
-                Sate mitsurugi no kane wa to ieba<br />
-                Munechika mo kyōet'n no kokoro wo saki toshite<br />
-                Kane tori-idashi. <br />
-                Oshie no tsuchi wo hattate uteba.</em
+                TŌNAN DAN NO UE NI AGATTE <br />
+                MUNECHIKA NI SANPAI NO HIZA WO KUSSHI.<br />
+                SATE MITSURUGI NO KANE WA TO IEBA<br />
+                MUNECHIKA MO KYŌET'N NO KOKORO WO SAKI TOSHITE<br />
+                KANE TORI-IDASHI. <br />
+                OSHIE NO TSUCHI WO HATTATE UTEBA.</em
               >
             </td>
             <td class="content-table__column">
@@ -1120,7 +1121,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Chō to utsu </em>
+              <em> CHŌ TO UTSU </em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -1131,7 +1132,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> Chō </em>
+              <em> CHŌ </em>
             </td>
 
             <td class="content-table__column">
@@ -1144,7 +1145,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Chō to </em>
+              <em> CHŌ TO </em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -1156,8 +1157,8 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Uchi kasanetaru tsuchi no hibiki <br />
-                Tenchi ni kikoete obitatashiya.</em
+                UCHI KASANETARU TSUCHI NO HIBIKI <br />
+                TENCHI NI KIKOETE OBITATASHIYA.</em
               >
             </td>
 
@@ -1178,8 +1179,8 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Waki:</h5>
               <em
-                >Kakute mitsurugi wo uchitatematsuri.<br />
-                Omote ni Kokaji Munechika to utsu.</em
+                >KAKUTE MITSURUGI WO UCHITATEMATSURI.<br />
+                OMOTE NI KOKAJI MUNECHIKA TO UTSU.</em
               >
             </td>
             <td class="content-table__column">
@@ -1193,8 +1194,8 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em>
-                Shintai toki no deshi nareba.<br />
-                Kogitsune to ura ni azayakani.</em
+                SHINTAI TOKI NO DESHI NAREBA.<br />
+                KOGITSUNE TO URA NI AZAYAKANI.</em
               >
             </td>
             <td class="content-table__column">
@@ -1214,9 +1215,9 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Uchi-tatemōsu mitsurugi no<br />
-                yaiba wa kumo wo midashitareba<br />
-                Ama-no-mura-kumo tomo kore nare ya.</em
+                UCHI-TATEMŌSU MITSURUGI NO<br />
+                YAIBA WA KUMO WO MIDASHITAREBA<br />
+                AMA-NO-MURA-KUMO TOMO KORE NARE YA.</em
               >
             </td>
             <td class="content-table__column">
@@ -1231,7 +1232,7 @@ permalink: /text-kokaji/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Ten-ga dai-ichi no.</em>
+              <em> TEN-GA DAI-ICHI NO.</em>
             </td>
             <td class="content-table__column">
               <h5>Shite:</h5>
@@ -1244,16 +1245,16 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Ten-ga dai-ichi no,<br />
-                futatsu no mei no mitsurugi nite.<br />
-                shi-kai wo osame tamaeba,<br />
-                go-koku jōju mo kono toki nare ya.<br />
-                Sunawachi nanji ga uji no shin<br />
-                Inari no shintai Kogitsune-maru wo,<br />
-                chokushi ni sasage-mōshi.<br />
-                Kore made nari to ii-sutete,<br />
-                mata mura-kumo ni tobi-norite,<br />
-                Higashiyama Inari no mine ni zo kaerikeru.</em
+                TEN-GA DAI-ICHI NO,<br />
+                FUTATSU NO MEI NO MITSURUGI NITE.<br />
+                SHI-KAI WO OSAME TAMAEBA,<br />
+                GO-KOKU JŌJU MO KONO TOKI NARE YA.<br />
+                SUNAWACHI NANJI GA UJI NO SHIN<br />
+                INARI NO SHINTAI KOGITSUNE-MARU WO,<br />
+                CHOKUSHI NI SASAGE-MŌSHI.<br />
+                KORE MADE NARI TO II-SUTETE,<br />
+                MATA MURA-KUMO NI TOBI-NORITE,<br />
+                HIGASHIYAMA INARI NO MINE NI ZO KAERIKERU.</em
               >
             </td>
             <td class="content-table__column">
@@ -1276,15 +1277,24 @@ permalink: /text-kokaji/
           </tr>
         </table>
 
-        <!-- prettier-ignore -->
         <div markdown="1">
-* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-{:footnotes}
-[^1]: It starts with a reference to Liu Bang (256 – 195 BC), the founding Emperor of the Han dynasty. It is said that shortly before dying he exclaimed that “wielding a three-foot sword, as a commoner I conquered the world.” It is followed by a reference to Yang Jian (541 – 604 AD) the first Emperor of the Sui Dynasty and his sword Kei who defeated the House of Chou.
-[^2]: The Emperor Huan Tsung (713 – 742 AD) dreamed about his late Minister Chung K’ei coming to his defense with a sword.
-[^3]: Emperor Keikō feared the brutal temperament of his son who had slewed his elder brother. Thus, to keep him at distance, he sent him to the Eastern provinces, but before leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent him a holy sword named 'Kunasagi no tsurugi'
-[^4]: The deity’s use of ‘Little Fox’ as his signature comes from the fact that foxes, often regarded as messengers are associated with various Inari shrines.
-</div>
+          * Footnotes must be added below (see
+          https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+          {:footnotes} [^1]: It starts with a reference to Liu Bang (256 – 195
+          BC), the founding Emperor of the Han dynasty. It is said that shortly
+          before dying he exclaimed that “wielding a three-foot sword, as a
+          commoner I conquered the world.” It is followed by a reference to Yang
+          Jian (541 – 604 AD) the first Emperor of the Sui Dynasty and his sword
+          Kei who defeated the House of Chou. [^2]: The Emperor Huan Tsung (713
+          – 742 AD) dreamed about his late Minister Chung K’ei coming to his
+          defense with a sword. [^3]: Emperor Keikō feared the brutal
+          temperament of his son who had slewed his elder brother. Thus, to keep
+          him at distance, he sent him to the Eastern provinces, but before
+          leaving, Yamato-dake met with his aunt Princess Yamato-hime, who lent
+          him a holy sword named 'Kunasagi no tsurugi' [^4]: The deity’s use of
+          ‘Little Fox’ as his signature comes from the fact that foxes, often
+          regarded as messengers are associated with various Inari shrines.
+        </div>
       </div>
     </section>
   </div>

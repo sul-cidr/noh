@@ -55,17 +55,17 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em
-                >Kore wa miyako kitayama Murasakino Unrinin ni <br />
+                >KORE WA MIYAKO KITAYAMA MURASAKINO UNRININ NI <br />
 
-                kyoju no sō nite sorō.<br />
+                KYOJU NO SŌ NITE SORŌ.<br />
 
-                Ware ichige no aida hana wo tate sorō.<br />
+                WARE ICHIGE NO AIDA HANA WO TATE SORŌ.<br />
 
-                Haya ango mo sugigata ni tari sōraeba.<br />
+                HAYA ANGO MO SUGIGATA NI TARI SŌRAEBA.<br />
 
-                Iroyoki hana wo atsume.<br />
+                IROYOKI HANA WO ATSUME.<br />
 
-                Hana no kuyō ō toriokonawabaya to omoi sorō.</em
+                HANA NO KUYŌ Ō TORIOKONAWABAYA TO OMOI SORŌ.</em
               >
             </td>
 
@@ -98,21 +98,21 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em
-                >Uyamatte mosu rikkakuyo no koto.<br />
+                >UYAMATTE MOSU RIKKAKUYO NO KOTO.<br />
 
-                Migi hijō somoku tari to iedomo<br />
+                MIGI HIJŌ SOMOKU TARI TO IEDOMO<br />
 
-                Kono hana korin ni hiraketari.<br />
+                KONO HANA KORIN NI HIRAKETARI.<br />
 
-                Ani kokoro nashi to iwanya.<br />
+                ANI KOKORO NASHI TO IWANYA.<br />
 
-                Nakanzuku dei wo ideshi hachisu.<br />
+                NAKANZUKU DEI WO IDESHI HACHISU.<br />
 
-                Ichijōmyōden no daimoku tari.<br />
+                ICHIJŌMYŌDEN NO DAIMOKU TARI.<br />
 
-                Kono kechien ni hikarete.<br />
+                KONO KECHIEN NI HIKARETE.<br />
 
-                Sōmo’kokudo shi’kaijō bu’tndō.</em
+                SŌMO’KOKUDO SHI’KAIJŌ BU’TNDŌ.</em
               >
             </td>
 
@@ -149,13 +149,13 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em
-                >Te ni toreba<br />
+                >TE NI TOREBA<br />
 
-                Tabusa ni kegaru tatenagara<br />
+                TABUSA NI KEGARU TATENAGARA<br />
 
-                Miyo no hotoke ni<br />
+                MIYO NO HOTOKE NI<br />
 
-                Hanatatematsuru.</em
+                HANATATEMATSURU.</em
               >
             </td>
 
@@ -186,15 +186,15 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Fushigiyana ima made wa<br />
+                FUSHIGIYANA IMA MADE WA<br />
 
-                Sōka ryoyō to shite mietsuru naka ni<br />
+                SŌKA RYOYŌ TO SHITE MIETSURU NAKA NI<br />
 
-                Shiroki hana no onore hitori emi no mayu wo<br />
+                SHIROKI HANA NO ONORE HITORI EMI NO MAYU WO<br />
 
-                Hiraketaru wa<br />
+                HIRAKETARU WA<br />
 
-                Ikanaru hana wo tatekeru zo.</em
+                IKANARU HANA WO TATEKERU ZO.</em
               >
             </td>
 
@@ -220,17 +220,17 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Oroka no osō no ōseyana<br />
+                OROKA NO OSŌ NO ŌSEYANA<br />
 
-                Tasokaredoki no ori naru ni<br />
+                TASOKAREDOKI NO ORI NARU NI<br />
 
-                Nadoka wa sore to goranzezaru sari nagara<br />
+                NADOKA WA SORE TO GORANZEZARU SARI NAGARA<br />
 
-                Na wa hito mekite iyashiki kakio ni kakaritareba<br />
+                NA WA HITO MEKITE IYASHIKI KAKIO NI KAKARITAREBA<br />
 
-                Shiroshi mesanu wa kotowari nari.<br />
+                SHIROSHI MESANU WA KOTOWARI NARI.<br />
 
-                Kore wa iugao no hana nite sōrō</em
+                KORE WA IUGAO NO HANA NITE SŌRŌ</em
               >
             </td>
 
@@ -258,9 +258,9 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Geni geni sazo to iugao no <br />
+                GENI GENI SAZO TO IUGAO NO <br />
 
-                Hana no aruji wa ikanaru hito zo</em
+                HANA NO ARUJI WA IKANARU HITO ZO</em
               >
             </td>
 
@@ -282,9 +282,9 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Nanorazu to tsuiniwa shiroshi mesarubeshi.<br />
+                NANORAZU TO TSUINIWA SHIROSHI MESARUBESHI.<br />
 
-                Ware wa kono hana no kusa no kage yori mairitari.
+                WARE WA KONO HANA NO KUSA NO KAGE YORI MAIRITARI.
               </em>
             </td>
             <td class="content-table__column">
@@ -308,11 +308,11 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em
-                >Sate wa kono yo ni naki hito no.<br />
+                >SATE WA KONO YO NI NAKI HITO NO.<br />
 
-                Hana no kuyō ni awan tame ka. <br />
+                HANA NO KUYŌ NI AWAN TAME KA. <br />
 
-                Sore ni tsuketemo na nori tamae.
+                SORE NI TSUKETEMO NA NORI TAMAE.
               </em>
             </td>
 
@@ -334,9 +334,9 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Na wa ari nagara naki ato ni. <br />
+                NA WA ARI NAGARA NAKI ATO NI. <br />
 
-                Narishi mukashi no monogatari.</em
+                NARISHI MUKASHI NO MONOGATARI.</em
               >
             </td>
 
@@ -354,7 +354,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Waki:</h5>
 
-              <em> Nanigashi no in ni mo</em>
+              <em> NANIGASHI NO IN NI MO</em>
             </td>
 
             <td class="content-table__column">
@@ -370,7 +370,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
 
-              <em> Tsune wa samurō makoto ni wa.</em>
+              <em> TSUNE WA SAMURŌ MAKOTO NI WA.</em>
             </td>
 
             <td class="content-table__column">
@@ -392,17 +392,17 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Gojō atari to iugao no.<br />
+                GOJŌ ATARI TO IUGAO NO.<br />
 
-                Gojō atari to iugao no.<br />
+                GOJŌ ATARI TO IUGAO NO.<br />
 
-                Sora meseshi ma ni yume to nari.<br />
+                SORA MESESHI MA NI YUME TO NARI.<br />
 
-                Omokage bakari naki ato no <br />
+                OMOKAGE BAKARI NAKI ATO NO <br />
 
-                tachibana no kage ni kakurekeri.<br />
+                TACHIBANA NO KAGE NI KAKUREKERI.<br />
 
-                Tachibana no kage ni kakurekeri.</em
+                TACHIBANA NO KAGE NI KAKUREKERI.</em
               >
             </td>
 
@@ -432,19 +432,19 @@ permalink: /text-hashitomi/
               <h5>Kyōgen:</h5>
 
               <em>
-                Kayō ni sorō mono wa,<br />
-                Miyako Kitayama atari ni, sumai suru mono nite sorō.<br />
-                Uketamawari sōraeba,<br />
-                atari chikaki, Unrin-in ni oite, ichige no aida, <br />
+                KAYŌ NI SORŌ MONO WA,<br />
+                MIYAKO KITAYAMA ATARI NI, SUMAI SURU MONO NITE SORŌ.<br />
+                UKETAMAWARI SŌRAEBA,<br />
+                ATARI CHIKAKI, UNRIN-IN NI OITE, ICHIGE NO AIDA, <br />
 
-                Hana no kuyō no gozasōrō yoshi. <br />
+                HANA NO KUYŌ NO GOZASŌRŌ YOSHI. <br />
 
-                Uketamawarioyobite sōrō hodo ni warera mo, mairabaya to zonzuru.
+                UKETAMAWARIOYOBITE SŌRŌ HODO NI WARERA MO, MAIRABAYA TO ZONZURU.
                 <br />
 
-                Makoto ni, kon-mitta mairu hito mo sukunaku, <br />
+                MAKOTO NI, KON-MITTA MAIRU HITO MO SUKUNAKU, <br />
 
-                nani to yaran, mono sabite sōrō yo.</em
+                NANI TO YARAN, MONO SABITE SŌRŌ YO.</em
               >
             </td>
 
@@ -472,7 +472,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Waki:</h5>
 
-              <em> Nōnō katagata wa kono atari no hito nite sōrō ka.</em>
+              <em> NŌNŌ KATAGATA WA KONO ATARI NO HITO NITE SŌRŌ KA.</em>
             </td>
 
             <td class="content-table__column">
@@ -488,7 +488,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Kyōgen:</h5>
 
-              <em> Nakanaka, kono atari no mono nite sōro.</em>
+              <em> NAKANAKA, KONO ATARI NO MONO NITE SŌRO.</em>
             </td>
 
             <td class="content-table__column">
@@ -505,9 +505,9 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Sayō ni sōrawaba, mazu, chikō, oniri sōrae mono wo,<br />
+                SAYŌ NI SŌRAWABA, MAZU, CHIKŌ, ONIRI SŌRAE MONO WO,<br />
 
-                tanuzetaki koto no sōro.</em
+                TANUZETAKI KOTO NO SŌRO.</em
               >
             </td>
 
@@ -527,11 +527,11 @@ permalink: /text-hashitomi/
               <h5>Kyōgen:</h5>
 
               <em>
-                Kokoroe mōshite sōro.<br />
+                KOKOROE MŌSHITE SŌRO.<br />
 
-                Sate, ontazunenasaretaki to wa,<br />
+                SATE, ONTAZUNENASARETAKI TO WA,<br />
 
-                Ikayō naru, goyō nite sōrōzo.</em
+                IKAYŌ NARU, GOYŌ NITE SŌRŌZO.</em
               >
             </td>
 
@@ -553,11 +553,11 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Oboshimeshi yorazaru mōshi koto nite sōraedomo,<br />
+                OBOSHIMESHI YORAZARU MŌSHI KOTO NITE SŌRAEDOMO,<br />
 
-                Inishie, Gojō atari ni, Iugao no ue no sumasetamaishi shisai,<br />
+                INISHIE, GOJŌ ATARI NI, IUGAO NO UE NO SUMASETAMAISHI SHISAI,<br />
 
-                onmonogatari sōrae.</em
+                ONMONOGATARI SŌRAE.</em
               >
             </td>
 
@@ -581,81 +581,81 @@ permalink: /text-hashitomi/
               <h5>Kyōgen:</h5>
 
               <em>
-                Kore wa, omoimoyoranu koto wo, ontazune nasare sōrō mono
-                kana.<br />
+                KORE WA, OMOIMOYORANU KOTO WO, ONTAZUNE NASARE SŌRŌ MONO
+                KANA.<br />
 
-                Warera wo sayō nokoto kowashiku wa zonzezu sōrōga, oyoso,<br />
+                WARERA WO SAYŌ NOKOTO KOWASHIKU WA ZONZEZU SŌRŌGA, OYOSO,<br />
 
-                Uketamawaritarutōri, monogatari mōsōzuru nite sōro.<br />
+                UKETAMAWARITARUTŌRI, MONOGATARI MŌSŌZURU NITE SŌRO.<br />
 
-                Saruhodo ni, Iugao no ue to mōshitaru, onkata wa,<br />
+                SARUHODO NI, IUGAO NO UE TO MŌSHITARU, ONKATA WA,<br />
 
-                sanminochiūjō no, onsokujo nite,<br />
+                SANMINOCHIŪJŌ NO, ONSOKUJO NITE,<br />
 
-                saru shisai no koto sōraite,<br />
+                SARU SHISAI NO KOTO SŌRAITE,<br />
 
-                Gojō atari ni shinobi ite goza aritaru to mōsu.<br />
+                GOJŌ ATARI NI SHINOBI ITE GOZA ARITARU TO MŌSU.<br />
 
-                Mata sono koro, Hikaru Genji no,<br />
+                MATA SONO KORO, HIKARU GENJI NO,<br />
 
-                Rokujō miyasudokoro no kata eh onkayoinasare sōrō ga.<br />
+                ROKUJŌ MIYASUDOKORO NO KATA EH ONKAYOINASARE SŌRŌ GA.<br />
 
-                Orifushi, Gojō atari wo, tōrare shikaba,<br />
+                ORIFUSHI, GOJŌ ATARI WO, TŌRARE SHIKABA,<br />
 
-                shōya ni iugao no hana,<br />
+                SHŌYA NI IUGAO NO HANA,<br />
 
-                mikoto ni sakimidarete sōrō hodo ni,<br />
+                MIKOTO NI SAKIMIDARETE SŌRŌ HODO NI,<br />
 
-                Koremitsu wo mesare, ano hana,<br />
+                KOREMITSU WO MESARE, ANO HANA,<br />
 
-                taorite maire to no onkoto nari.<br />
+                TAORITE MAIRE TO NO ONKOTO NARI.<br />
 
-                Koremitsu mizuishin wo motte, sono hana wo shomō mōsare
-                shikaba,<br />
+                KOREMITSU MIZUISHIN WO MOTTE, SONO HANA WO SHOMŌ MŌSARE
+                SHIKABA,<br />
 
-                shōya yori warabe wo idashi.<br />
+                SHŌYA YORI WARABE WO IDASHI.<br />
 
-                Shibaraku sore ni, onmachiare tote,<br />
+                SHIBARAKU SORE NI, ONMACHIARE TOTE,<br />
 
-                sono nochi, shiroki ōgi no, tsumaito kogashitaru ni,<br />
+                SONO NOCHI, SHIROKI ŌGI NO, TSUMAITO KOGASHITARU NI,<br />
 
-                iugao no hana wo soete sashi idasu.<br />
+                IUGAO NO HANA WO SOETE SASHI IDASU.<br />
 
-                Mizuishin kore wo uketori, Koremitsu ni mairasekereba.<br />
+                MIZUISHIN KORE WO UKETORI, KOREMITSU NI MAIRASEKEREBA.<br />
 
-                Koremitsu. Genji eh mairasesōrō tokoro ni,<br />
+                KOREMITSU. GENJI EH MAIRASESŌRŌ TOKORO NI,<br />
 
-                sono ōgi no fuchi ni, isshu no uta no goza sōrō hodo ni,<br />
+                SONO ŌGI NO FUCHI NI, ISSHU NO UTA NO GOZA SŌRŌ HODO NI,<br />
 
-                isogi gohenka wo nasare.<br />
+                ISOGI GOHENKA WO NASARE.<br />
 
-                Sono hana yue ni, Iugao no ue no mabite tamai,<br />
+                SONO HANA YUE NI, IUGAO NO UE NO MABITE TAMAI,<br />
 
-                onchigiri asakaraneba, sono nochi<br />
+                ONCHIGIRI ASAKARANEBA, SONO NOCHI<br />
 
-                nanigashi in eh ontomonari nasare.<br />
+                NANIGASHI IN EH ONTOMONARI NASARE.<br />
 
-                Iroiro kiyoku bengi no chigiri <br />
+                IROIRO KIYOKU BENGI NO CHIGIRI <br />
 
-                asakaraku sōrō tokoro ni,<br />
+                ASAKARAKU SŌRŌ TOKORO NI,<br />
 
-                nanbō, fushigi naru koto nite sōro.<br />
+                NANBŌ, FUSHIGI NARU KOTO NITE SŌRO.<br />
 
-                Iugao no ue wa, mononoke ni okasaretamai,<br />
+                IUGAO NO UE WA, MONONOKE NI OKASARETAMAI,<br />
 
-                munashiku nararetaru to mōsu.<br />
+                MUNASHIKU NARARETARU TO MŌSU.<br />
 
-                Hikaru Genji no onnageki mōsumo,<br />
+                HIKARU GENJI NO ONNAGEKI MŌSUMO,<br />
 
-                orokanaru tei nite goza aritaru to mōsu.<br />
+                OROKANARU TEI NITE GOZA ARITARU TO MŌSU.<br />
 
-                Mazu, warera no uketamawaritaru shisai,<br />
+                MAZU, WARERA NO UKETAMAWARITARU SHISAI,<br />
 
-                ōkata kaku no gotoku nite sōrō ga.<br />
+                ŌKATA KAKU NO GOTOKU NITE SŌRŌ GA.<br />
 
-                Tadaima wa nani to, oboshi meshite yaran,<br />
+                TADAIMA WA NANI TO, OBOSHI MESHITE YARAN,<br />
 
-                ontazune fushin ni zonjisōro.</em
+                ONTAZUNE FUSHIN NI ZONJISŌRO.</em
               >
             </td>
 
@@ -751,23 +751,23 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Nengoro ni uketamari sōrō mono kana.<br />
+                NENGORO NI UKETAMARI SŌRŌ MONO KANA.<br />
 
-                Soregashi ichige no aida, hana no kuyō wo<br />
+                SOREGASHI ICHIGE NO AIDA, HANA NO KUYŌ WO<br />
 
-                onokonai sōrō tokoro ni,<br />
+                ONOKONAI SŌRŌ TOKORO NI,<br />
 
-                nyoshō ichinin shiroki hana wo mairare sōrō hodo ni.<br />
+                NYOSHŌ ICHININ SHIROKI HANA WO MAIRARE SŌRŌ HODO NI.<br />
 
-                Hana no aruji wa ikanaru hito zo,<br />
+                HANA NO ARUJI WA IKANARU HITO ZO,<br />
 
-                tazunete sōraeba, sore ni tsuki<br />
+                TAZUNETE SŌRAEBA, SORE NI TSUKI<br />
 
-                Iugao no ue no on koto wo waga mi no ue no yō ni iitsuke,<br />
+                IUGAO NO UE NO ON KOTO WO WAGA MI NO UE NO YŌ NI IITSUKE,<br />
 
-                sono mama hana nokage nite sugata wo<br />
+                SONO MAMA HANA NOKAGE NITE SUGATA WO<br />
 
-                Miushinaite sōrō yo.</em
+                MIUSHINAITE SŌRŌ YO.</em
               >
             </td>
 
@@ -801,33 +801,33 @@ permalink: /text-hashitomi/
               <h5>Kyōgen:</h5>
 
               <em>
-                Gongodōdan, fushigi naru koto wo<br />
+                GONGODŌDAN, FUSHIGI NARU KOTO WO<br />
 
-                Ōsesōrōmono kana.<br />
+                ŌSESŌRŌMONO KANA.<br />
 
-                Sate wa warera ga suiryō mōsu ni,<br />
+                SATE WA WARERA GA SUIRYŌ MŌSU NI,<br />
 
-                kayō ni hana no kuyō wo no gozasōrōaida.<br />
+                KAYŌ NI HANA NO KUYŌ WO NO GOZASŌRŌAIDA.<br />
 
-                iugao no hana no sei, matawa, inishie Iugao no ue gobōshin.<br />
+                IUGAO NO HANA NO SEI, MATAWA, INISHIE IUGAO NO UE GOBŌSHIN.<br />
 
-                Araware idetaru to zonjisōrō ga shika to wa zonzezusōro.<br />
+                ARAWARE IDETARU TO ZONJISŌRŌ GA SHIKA TO WA ZONZEZUSŌRO.<br />
 
-                Sarinagara, osō tattoku mashimasu ni yori<br />
+                SARINAGARA, OSŌ TATTOKU MASHIMASU NI YORI<br />
 
-                ontamurai nimo azukaritaku oboshimeshi,<br />
+                ONTAMURAI NIMO AZUKARITAKU OBOSHIMESHI,<br />
 
-                Iugao no ue no gobōshin<br />
+                IUGAO NO UE NO GOBŌSHIN<br />
 
-                araware idetaru to zonjisōro.<br />
+                ARAWARE IDETARU TO ZONJISŌRO.<br />
 
-                Sayō ni sōprawaba kore yori Gojō atari eh oniri sōrawaba,<br />
+                SAYŌ NI SŌPRAWABA KORE YORI GOJŌ ATARI EH ONIRI SŌRAWABA,<br />
 
-                kidoku naru koto mo gozasōrō hodo ni,<br />
+                KIDOKU NARU KOTO MO GOZASŌRŌ HODO NI,<br />
 
-                sono nochi nengoro ni tomurōte<br />
+                SONO NOCHI NENGORO NI TOMURŌTE<br />
 
-                ontōri arekashi to zonjisōro.
+                ONTŌRI AREKASHI TO ZONJISŌRO.
               </em>
             </td>
 
@@ -873,11 +873,11 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Warera mo sayō ni zonjisōrōaida,<br />
+                WARERA MO SAYŌ NI ZONJISŌRŌAIDA,<br />
 
-                Gojō atari ni tachi ni ide,<br />
+                GOJŌ ATARI NI TACHI NI IDE,<br />
 
-                Iugao no ue no onato wo tomurai mōsōzuru nite sōro.</em
+                IUGAO NO UE NO ONATO WO TOMURAI MŌSŌZURU NITE SŌRO.</em
               >
             </td>
 
@@ -899,9 +899,9 @@ permalink: /text-hashitomi/
               <h5>Kyōgen:</h5>
 
               <em>
-                Sore wa chikagoro nite sōro. Osō onide nite sōrawaba,<br />
+                SORE WA CHIKAGORO NITE SŌRO. OSŌ ONIDE NITE SŌRAWABA,<br />
 
-                warera mo onato yori mairōzuru nite sōro.</em
+                WARERA MO ONATO YORI MAIRŌZURU NITE SŌRO.</em
               >
             </td>
 
@@ -920,7 +920,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Waki:</h5>
 
-              <em> Yagatte atoyori shitarare sōrae.</em>
+              <em> YAGATTE ATOYORI SHITARARE SŌRAE.</em>
             </td>
 
             <td class="content-table__column">
@@ -936,7 +936,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Kyōgen:</h5>
 
-              <em> Kokoroe mōshitesōro.</em>
+              <em> KOKOROE MŌSHITESŌRO.</em>
             </td>
 
             <td class="content-table__column">
@@ -961,17 +961,17 @@ permalink: /text-hashitomi/
               <h5>Waki:</h5>
 
               <em>
-                Arishi oshie ni shitagatte <br />
+                ARISHI OSHIE NI SHITAGATTE <br />
 
-                Gojō atari ni kite mireba<br />
+                GOJŌ ATARI NI KITE MIREBA<br />
 
-                Genimo mukashi no imashi dokoro<br />
+                GENIMO MUKASHI NO IMASHI DOKORO<br />
 
-                Sanagara yadori mo iugao no<br />
+                SANAGARA YADORI MO IUGAO NO<br />
 
-                Hyōtan shibashiba munashi<br />
+                HYŌTAN SHIBASHIBA MUNASHI<br />
 
-                Kusa Gannen ga chimata ni shigeshi.
+                KUSA GANNEN GA CHIMATA NI SHIGESHI.
               </em>
             </td>
 
@@ -1006,11 +1006,11 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Reijō fukaku tozaseri.<br />
+                REIJŌ FUKAKU TOZASERI.<br />
 
-                Sekiyō no zansei aratani. <br />
+                SEKIYŌ NO ZANSEI ARATANI. <br />
 
-                Mado wo ugattesaru.</em
+                MADO WO UGATTESARU.</em
               >
             </td>
 
@@ -1032,9 +1032,9 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Shiutan no izumi no koe. <br />
+                SHIUTAN NO IZUMI NO KOE. <br />
 
-                Ame Genken ga toboso wo uruō su.</em
+                AME GENKEN GA TOBOSO WO URUŌ SU.</em
               >
             </td>
 
@@ -1059,9 +1059,9 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Saredomo sode wo uruosuwa<br />
+                SAREDOMO SODE WO URUOSUWA<br />
 
-                Rosan no yuki no akebono.</em
+                ROSAN NO YUKI NO AKEBONO.</em
               >
             </td>
 
@@ -1088,15 +1088,15 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Sōtō no mukō rōgetta.<br />
+                SŌTŌ NO MUKŌ RŌGETTA.<br />
 
-                Sōtō no mukō rōgetta<br />
+                SŌTŌ NO MUKŌ RŌGETTA<br />
 
-                Kinsht’n ni atari<br />
+                KINSHT’N NI ATARI<br />
 
-                Shiushō no aki no yama. <br />
+                SHIUSHŌ NO AKI NO YAMA. <br />
 
-                Monosugo no iubeya.</em
+                MONOSUGO NO IUBEYA.</em
               >
             </td>
 
@@ -1129,13 +1129,13 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Geni monosugoki kaze no oto. <br />
+                GENI MONOSUGOKI KAZE NO OTO. <br />
 
-                Mado no takegaki arishi yo no. <br />
+                MADO NO TAKEGAKI ARISHI YO NO. <br />
 
-                Yume no sugata wo mise tamae. <br />
+                YUME NO SUGATA WO MISE TAMAE. <br />
 
-                Bodai wo fukaku tamurawan.
+                BODAI WO FUKAKU TAMURAWAN.
               </em>
             </td>
 
@@ -1159,11 +1159,11 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Yama no ha no kokoro mo shirade yuku tsuki wa, <br />
+                YAMA NO HA NO KOKORO MO SHIRADE YUKU TSUKI WA, <br />
 
-                uwa no sora nite taeshi ato no. <br />
+                UWA NO SORA NITE TAESHI ATO NO. <br />
 
-                Mata itsuka ōbeki.</em
+                MATA ITSUKA ŌBEKI.</em
               >
             </td>
 
@@ -1184,7 +1184,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
 
-              <em> Yamagat’n no kaki wo aru tomo oriori wa. </em>
+              <em> YAMAGAT’N NO KAKI WO ARU TOMO ORIORI WA. </em>
             </td>
 
             <td class="content-table__column">
@@ -1201,7 +1201,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
 
-              <em> Aware wo kakeyo nadeshiko no.</em>
+              <em> AWARE WO KAKEYO NADESHIKO NO.</em>
             </td>
 
             <td class="content-table__column">
@@ -1217,7 +1217,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
 
-              <em> Hana no sugata wo mo mamienaba.</em>
+              <em> HANA NO SUGATA WO MO MAMIENABA.</em>
             </td>
 
             <td class="content-table__column">
@@ -1233,7 +1233,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
 
-              <em> Ato tō beki ka.</em>
+              <em> ATO TŌ BEKI KA.</em>
             </td>
 
             <td class="content-table__column">
@@ -1249,7 +1249,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
 
-              <em> Nakanaka ni.</em>
+              <em> NAKANAKA NI.</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -1264,7 +1264,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
 
-              <em> Saraba to omoi iugao no.</em>
+              <em> SARABA TO OMOI IUGAO NO.</em>
             </td>
 
             <td class="content-table__column">
@@ -1281,11 +1281,11 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Kusa no hashitomi oshiakete-n,<br />
+                KUSA NO HASHITOMI OSHIAKETE-N,<br />
 
-                tachi-izuru onsugata. <br />
+                TACHI-IZURU ONSUGATA. <br />
 
-                Miruni namida mo todomarazu.</em
+                MIRUNI NAMIDA MO TODOMARAZU.</em
               >
             </td>
 
@@ -1312,33 +1312,33 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Sono koro Genji no.<br />
+                SONO KORO GENJI NO.<br />
 
-                Chiujo to kikoeshi wa, <br />
+                CHIUJO TO KIKOESHI WA, <br />
 
-                kono Iugao no kusa makura. <br />
+                KONO IUGAO NO KUSA MAKURA. <br />
 
-                Tada karibushi no yo mo sugara, <br />
+                TADA KARIBUSHI NO YO MO SUGARA, <br />
 
-                tonari wo kikeba Miyoshino ya. <br />
+                TONARI WO KIKEBA MIYOSHINO YA. <br />
 
-                Mitake Shōji no onkoe nite. <br />
+                MITAKE SHŌJI NO ONKOE NITE. <br />
 
-                Namutōraidōshi Mirokub’to zo tonaekeru. <br />
+                NAMUTŌRAIDŌSHI MIROKUB’TO ZO TONAEKERU. <br />
 
-                Ima mo ta’toki okuyō ni so no toki no omoi <br />
+                IMA MO TA’TOKI OKUYŌ NI SO NO TOKI NO OMOI <br />
 
-                iderarete sozoro ni nururu tamoto ka na. <br />
+                IDERARETE SOZORO NI NURURU TAMOTO KA NA. <br />
 
-                Nao sore yori mo wasurenuwa <br />
+                NAO SORE YORI MO WASURENUWA <br />
 
-                Genji kono yado wo misome tamaishi iutsukata. <br />
+                GENJI KONO YADO WO MISOME TAMAISHI IUTSUKATA. <br />
 
-                Koremitsu wo maneki yose. Ano hana ore tono tamaeba. <br />
+                KOREMITSU WO MANEKI YOSE. ANO HANA ORE TONO TAMAEBA. <br />
 
-                Shiroki ōgi no tsumaitō kogashi tarishini. <br />
+                SHIROKI ŌGI NO TSUMAITŌ KOGASHI TARISHINI. <br />
 
-                Kono hana wo orite mairasuru.
+                KONO HANA WO ORITE MAIRASURU.
               </em>
             </td>
 
@@ -1387,7 +1387,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
 
-              <em> Genji tsukuzuku to goranjite</em>
+              <em> GENJI TSUKUZUKU TO GORANJITE</em>
             </td>
 
             <td class="content-table__column">
@@ -1403,25 +1403,25 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Uchi watsu ō-chikatahito ni tō totemo. <br />
+                UCHI WATSU Ō-CHIKATAHITO NI TŌ TOTEMO. <br />
 
-                Sore sono hana to kotaezu wa. <br />
+                SORE SONO HANA TO KOTAEZU WA. <br />
 
-                Tsui ni shirademo arubeki ni ai ni ōgi wo te ni fururu. <br />
+                TSUI NI SHIRADEMO ARUBEKI NI AI NI ŌGI WO TE NI FURURU. <br />
 
-                Chigiri no hodo no ureshisa. <br />
+                CHIGIRI NO HODO NO URESHISA. <br />
 
-                Oriori tazune yoru naraba. <br />
+                ORIORI TAZUNE YORU NARABA. <br />
 
-                Sadamenu ama no kono yado no. <br />
+                SADAMENU AMA NO KONO YADO NO. <br />
 
-                Aruji wo tare to shiranamino-n. <br />
+                ARUJI WO TARE TO SHIRANAMINO-N. <br />
 
-                yorube no sue wo tanoman <br />
+                YORUBE NO SUE WO TANOMAN <br />
 
-                to i-ishu wo eiji owashimasu. <br />
+                TO I-ISHU WO EIJI OWASHIMASU. <br />
 
-                Orite koso...</em
+                ORITE KOSO...</em
               >
             </td>
 
@@ -1462,11 +1462,11 @@ permalink: /text-hashitomi/
               <h5>Shite:</h5>
 
               <em>
-                Orite koso<br />
+                ORITE KOSO<br />
 
-                Soreka tomo mime <br />
+                SOREKA TOMO MIME <br />
 
-                Tasokare ni
+                TASOKARE NI
               </em>
             </td>
 
@@ -1491,13 +1491,13 @@ permalink: /text-hashitomi/
               <h5>Jiutai:</h5>
 
               <em>
-                Honobono mieshi.<br />
+                HONOBONO MIESHI.<br />
 
-                Hana no iugao. <br />
+                HANA NO IUGAO. <br />
 
-                Hana no iugao. <br />
+                HANA NO IUGAO. <br />
 
-                Hana no iugao.
+                HANA NO IUGAO.
               </em>
             </td>
 
@@ -1520,7 +1520,7 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
 
-              <em> Tsui no yadori wa shirase mo-ōshitsu.</em>
+              <em> TSUI NO YADORI WA SHIRASE MO-ŌSHITSU.</em>
             </td>
 
             <td class="content-table__column">
@@ -1533,7 +1533,7 @@ permalink: /text-hashitomi/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> Tsune ni wa tomurai. </em>
+              <em> TSUNE NI WA TOMURAI. </em>
             </td>
 
             <td class="content-table__column">
@@ -1547,7 +1547,7 @@ permalink: /text-hashitomi/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Shite:</h5>
-              <em> Owashimase to.</em>
+              <em> OWASHIMASE TO.</em>
             </td>
 
             <td class="content-table__column">
@@ -1561,7 +1561,7 @@ permalink: /text-hashitomi/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em> Iuzuke no tori no ne,</em>
+              <em> IUZUKE NO TORI NO NE,</em>
             </td>
 
             <td class="content-table__column">
@@ -1575,9 +1575,9 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Shite:</h5>
               <em>
-                kane mo shikiri ni. <br />
+                KANE MO SHIKIRI NI. <br />
 
-                Tsuge wataru shinonome.</em
+                TSUGE WATARU SHINONOME.</em
               >
             </td>
 
@@ -1594,15 +1594,15 @@ permalink: /text-hashitomi/
             <td class="content-table__column">
               <h5>Jiutai:</h5>
               <em>
-                Asama nimo narinubeshi. <br />
+                ASAMA NIMO NARINUBESHI. <br />
 
-                Akenu saki ni to Iugao no yadori. <br />
+                AKENU SAKI NI TO IUGAO NO YADORI. <br />
 
-                Akenu saki ni to Iugao no yadori no. <br />
+                AKENU SAKI NI TO IUGAO NO YADORI NO. <br />
 
-                Mata hashitomi no uchi ni irite, <br />
+                MATA HASHITOMI NO UCHI NI IRITE, <br />
 
-                sono mama yume to zo nari ni keru.
+                SONO MAMA YUME TO ZO NARI NI KERU.
               </em>
             </td>
 
@@ -1621,18 +1621,24 @@ permalink: /text-hashitomi/
           </tr>
         </table>
 
-        <!-- prettier-ignore -->
         <div markdown="1">
-* Footnotes must be added below (see https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
-{:footnotes}
-[^1]: Tanka by Sōjō Henjō (816-890) from the Imperial anthology of waka: Gosen-shū, compiled in 951.
-[^2]: The reference to the <em>yūgao</em> flower may allude to the occasion when Prince Genji met Lady Yūgao in <em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.'
-[^3]: Allusion to Lady Yūgao's mansion from <em>Genji Monogatari</em> : Chapter 4: 'The Twilight Beauty.'
-[^4]: The poem by Tachibana no Tadamoto (10th century) is about two Confucius disciples Gannen and Genken, who pursued their spiritual studies in great poverty. The <em> hyōtan</em> is a flower that looks like small gourds. The reference to ‘gourds are often empty’ is a metaphor for poverty.
-[^5]: Based on a poem by Po Chū-i (772-846).
-[^6]: Based on a poem from the <em>Shinsen Rōei-shū </em> by the T’ang poet Fang Kan.
-[^7]: The poetic text includes two references to <em>Genji Monogatari</em>, both from letters written by Lady Yūgao.
-</div>
+          * Footnotes must be added below (see
+          https://github.com/sul-cidr/noh/wiki/Level-0-HTML-components#footnotes-using-markdown-feature)
+          {:footnotes} [^1]: Tanka by Sōjō Henjō (816-890) from the Imperial
+          anthology of waka: Gosen-shū, compiled in 951. [^2]: The reference to
+          the <em>YŪGAO</em> flower may allude to the occasion when Prince Genji
+          met Lady Yūgao in <em>GENJI MONOGATARI</em> : Chapter 4: 'The Twilight
+          Beauty.' [^3]: Allusion to Lady Yūgao's mansion from
+          <em>GENJI MONOGATARI</em> : Chapter 4: 'The Twilight Beauty.' [^4]:
+          The poem by Tachibana no Tadamoto (10th century) is about two
+          Confucius disciples Gannen and Genken, who pursued their spiritual
+          studies in great poverty. The <em> HYŌTAN</em> is a flower that looks
+          like small gourds. The reference to ‘gourds are often empty’ is a
+          metaphor for poverty. [^5]: Based on a poem by Po Chū-i (772-846).
+          [^6]: Based on a poem from the <em>SHINSEN RŌEI-SHŪ </em> by the T’ang
+          poet Fang Kan. [^7]: The poetic text includes two references to
+          <em>GENJI MONOGATARI</em>, both from letters written by Lady Yūgao.
+        </div>
       </div>
     </section>
   </div>
