@@ -9,7 +9,7 @@ permalink: /about-okina/
   <div class="text-container">
     <div class="wrapper wrapper--small">
       <h2>
-        A Celebration Beyond Celebration: The Mechanics of Ōkina and Fūryū
+        A Celebration Beyond Celebration: The Mechanics of Ōkina and Furyū
       </h2>
       <p><em>By OKIMOTO Yukiko</em></p>
       <p>
@@ -303,18 +303,18 @@ permalink: /about-okina/
         translate it. This was a Sarugaku strategy that could be called the
         “re-enchantment” of <em>Ōkina</em>.
       </p>
-      <h3>3: Fūryū—A Device to Amplify Auspiciousness</h3>
+      <h3>3: Furyū—A Device to Amplify Auspiciousness</h3>
       <p>
         At times, a very accessible, short congratulatory play is inserted into
-        this abstract and ritualized <em>Ōkina</em>. This is the <em>fūryū</em>,
+        this abstract and ritualized <em>Ōkina</em>. This is the <em>furyū</em>,
         inserted for special celebrations. Since the modern era, it has
-        sometimes been referred to by the academic term <em>kyōgen fūryū</em>.
+        sometimes been referred to by the academic term <em>kyōgen furyū</em>.
       </p>
       <p>
-        Performed by Kyōgen actors, <em>fūryū</em> features auspicious figures
+        Performed by Kyōgen actors, <em>furyū</em> features auspicious figures
         such as deities, Buddhas, or the spirits of pine, bamboo, the crane, and
         the tortoise, who appear to offer blessings. They are categorized as
-        either <em>Senzai fūryū</em> or <em>Sanbasō fūryū</em>, depending on
+        either <em>Senzai furyū</em> or <em>Sanbasō furyū</em>, depending on
         when they appear and who they interact with, but both types include
         congratulatory songs and dances. With the addition of a drum and a
         lively chorus of ten Kyōgen actors (eight in the present performance),
@@ -322,15 +322,15 @@ permalink: /about-okina/
       </p>
       <p>
         Its origins are thought to lie in the Muromachi-period
-        <em>yose-fūryū</em> (a simple congratulatory song and dance performed by
+        <em>yose-furyū</em> (a simple congratulatory song and dance performed by
         Kyōgen actors to drum accompaniment, attached to <em>Ōkina</em>, as
         noted in the <em>Kōshō Noh Kuden-sho</em>). However, it is also
         reminiscent of older celebratory arts, such as the Pine Festival
         (matsubayashi) held at New Year’s in the Muromachi period and the
-        <em>ennen fūryū</em> of Buddhist temples.
+        <em>ennen furyū</em> of Buddhist temples.
       </p>
       <p>
-        In the Edo period, <em>fūryū</em> were performed at Edo Castle to
+        In the Edo period, <em>furyū</em> were performed at Edo Castle to
         celebrate a shōgun’s appointment, wedding, or coming-of-age ceremony; at
         the Imperial court for enthronements and harvest festivals; and on
         occasions such as temple festivals and subscription Noh performances.
@@ -341,7 +341,7 @@ permalink: /about-okina/
         minutes.
       </p>
       <p>
-        The <em>fūryū-tsuki Ōkina</em> (<em>Ōkina</em> with <em>fūryū</em>) on
+        The <em>furyū-tsuki Ōkina</em> (<em>Ōkina</em> with <em>furyū</em>) on
         this occasion was specially planned to honor the legacy of the 750th
         anniversary memorial Noh for Shinran Shōnin, which was to be held by
         Higashi Honganji in 2011 but was cancelled due to the Great East Japan
@@ -349,28 +349,28 @@ permalink: /about-okina/
         throughout the Edo period, on par with the Imperial court, and a great
         patron of Noh actors. The 50-year memorial services were the largest of
         these events, featuring numerous Noh and Kyōgen plays over several days.
-        It was on these occasions that <em>fūryū</em> were performed. According
-        to records, the first was a <em>Shōchiku fūryū</em> (Pine and Bamboo
-        <em>fūryū</em>) for the 600th anniversary in 1861 (Bunkyū 1). Lavish
-        productions of <em>Ōkina</em> including <em>Shōchiku fūryū</em> were
+        It was on these occasions that <em>furyū</em> were performed. According
+        to records, the first was a <em>Shōchiku furyū</em> (Pine and Bamboo
+        <em>furyū</em>) for the 600th anniversary in 1861 (Bunkyū 1). Lavish
+        productions of <em>Ōkina</em> including <em>Shōchiku furyū</em> were
         also performed for the 650th anniversary in 1911 (Meiji 44) and the
         700th in 1961 (Shōwa 36). As the 750th anniversary was also supposed to
-        feature <em>Shōchiku fūryū</em>, this performance was realized in its
+        feature <em>Shōchiku furyū</em>, this performance was realized in its
         stead.
       </p>
       <p>
-        In <em>Shōchiku fūryū</em>, as the name implies, the spirits of the Pine
+        In <em>Shōchiku furyū</em>, as the name implies, the spirits of the Pine
         and Bamboo appear, wearing crowns adorned with representations of their
-        respective plants. Other types include <em>Tsurukame fūryū</em> (Crane
-        and Tortoise), <em>Hōō fūryū</em> (Phoenix), <em>Daikoku fūryū</em>, and
-        <em>Mochi fūryū</em> (Rice Cake), which feature motifs of longevity
+        respective plants. Other types include <em>Tsurukame furyū</em> (Crane
+        and Tortoise), <em>Hōō furyū</em> (Phoenix), <em>Daikoku furyū</em>, and
+        <em>Mochi furyū</em> (Rice Cake), which feature motifs of longevity
         (crane and tortoise), peace (phoenix), fortune (the god Daikoku), and
         auspicious food (rice cakes). The essence of all is their
         straightforward auspiciousness.
       </p>
       <p>
-        The oldest extant record of a <em>kyōgen fūryū</em> performance is of an
-        <em>Ari fūryū</em> (Ant <em>fūryū</em>), performed on the second day of
+        The oldest extant record of a <em>kyōgen furyū</em> performance is of an
+        <em>Ari furyū</em> (Ant <em>furyū</em>), performed on the second day of
         the fifth month of 1602 (Keichō 7), when the head of the Konparu school
         performed <em>Ōkina</em> at the Imperial Palace by order of Tokugawa
         Ieyasu (from the <em>Bunroku Keichō nenkan Onō-gumi</em> in the Kanze
@@ -379,11 +379,11 @@ permalink: /about-okina/
         syllable <em>ari</em> in Senzai’s line
         <em>taezu tōtari ariudō</em> (Izumi school) or Sanbasō’s line
         <em>yorokobi ariya</em> (Sagi and Ōkura schools). This wordplay and
-        sense of fun are also essential elements of <em>fūryū</em>. It is worth
+        sense of fun are also essential elements of <em>furyū</em>. It is worth
         remembering that <em>Ōkina</em> was an art form that could accommodate
         such puns, and that laughter itself was a vital component of
         celebration. It is believed that, in keeping with the spirit of
-        <em>fūryū</em> as a unique, one-off contrivance, new versions were once
+        <em>furyū</em> as a unique, one-off contrivance, new versions were once
         created for each occasion, offering fresh and novel forms of blessing.
       </p>
       <p>
@@ -396,7 +396,7 @@ permalink: /about-okina/
         all serve to amplify the celebratory mood. This is a production that
         aligns with the simple human sentiment that festivity is enhanced by
         making things more lively and enjoyable. One might even say that
-        <em>fūryū</em> serves to recover the elements of narration and laughter
+        <em>furyū</em> serves to recover the elements of narration and laughter
         that have been lost from the <em>Ōkina</em> of modern Noh.
       </p>
       <h3>Selected Bibliography</h3>
