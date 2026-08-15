@@ -84,7 +84,7 @@ permalink: /about-okina/
         with its lucid joy is the very charm of <em>Ōkina</em>, and perhaps also
         the key to unlocking its mysteries.
       </p>
-      <h3>1: The Structure of the Current <em>Ōkina</em></h3>
+      <h3>1: The Structure of the Current Ōkina</h3>
       <p>
         Let us first examine the progression of a standard modern performance of
         <em>Ōkina</em>.
@@ -114,16 +114,15 @@ permalink: /about-okina/
           may fortune be ours as we desire for millennia.</em
         >
       </p>
-      <p>This short prayer is offered.</p>
       <p>
-        After this, the White Okina (Okina) and the Black Okina (Sanbasō) appear
-        in sequence, but before each of these two aged figures enters, a
-        purification dance (tsuyuharai) is performed. For the White Okina, a
-        youth named Senzai (whose name means “a thousand years,” though he is
-        young) performs unmasked a brisk purification dance to the songs and
-        sounds of a waterfall, as if cleansing the area. During this, the actor
-        dons the white elder mask to become the White Okina. He prays for “peace
-        throughout the land and tranquility of the nation” (<em
+        After this short prayer is offered, the White Okina (Okina) and the
+        Black Okina (Sanbasō) appear in sequence, but before each of these two
+        aged figures enters, a purification dance (tsuyuharai) is performed. For
+        the White Okina, a youth named Senzai (whose name means “a thousand
+        years,” though he is young) performs unmasked a brisk purification dance
+        to the songs and sounds of a waterfall, as if cleansing the area. During
+        this, the actor dons the white elder mask to become the White Okina. He
+        prays for “peace throughout the land and tranquility of the nation” (<em
           >tenka taihei, kokudo an’on</em
         >) and performs a shamanistic dance centered on foot stamping.
       </p>
@@ -199,8 +198,7 @@ permalink: /about-okina/
         of being” nor a “dancing <em>Ōkina</em>.”
       </p>
       <h3>
-        2: The Editorial Art of <em>Ōkina</em>: The Departure from the
-        “Narrating Elder”
+        2: The Editorial Art of Ōkina: The Departure from the “Narrating Elder”
       </h3>
       <p>
         To state the conclusion first, it is highly probable that Okina,
@@ -305,7 +303,7 @@ permalink: /about-okina/
         translate it. This was a Sarugaku strategy that could be called the
         “re-enchantment” of <em>Ōkina</em>.
       </p>
-      <h3>3: <em>Fūryū</em>—A Device to Amplify Auspiciousness</h3>
+      <h3>3: Fūryū—A Device to Amplify Auspiciousness</h3>
       <p>
         At times, a very accessible, short congratulatory play is inserted into
         this abstract and ritualized <em>Ōkina</em>. This is the <em>fūryū</em>,
