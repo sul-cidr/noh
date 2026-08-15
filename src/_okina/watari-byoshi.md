@@ -1,5 +1,5 @@
 ---
-title: Watari Byoshi
+title: Watari-byōshi
 play: Okina
 layout: section
 ---

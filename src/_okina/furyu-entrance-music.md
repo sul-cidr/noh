@@ -1,5 +1,5 @@
 ---
-title: Furyū Entrance Music
+title: Issei Music
 play: Okina
 layout: section
 ---
