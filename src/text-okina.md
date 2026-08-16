@@ -75,7 +75,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Okina:</h5>
               May we flourish here in this place for even a thousand
-              generations:
+              generations.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -149,8 +149,8 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              the water of the fall booms,<br />The water of the fall
-              resounds<br />Even as the sun shines!
+              The water of the fall booms,<br />the water of the fall
+              resounds<br />even as the sun shines!
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -192,7 +192,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              may we flourish here for even a thousand generations,<br />In
+              May we flourish here for even a thousand generations,<br />in
               service to you for a thousand autumns.<br />The water of the fall
               resounds, even as the sun shines!
             </td>
@@ -273,8 +273,8 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>okina:</h5>
-              the gods!ーswift and strong,<br />From their beginning in ancient
-              times, as from the past,<br />We celebrate them here even now.
+              The gods!ーswift and strong,<br />From their beginning in ancient
+              times, as from the past,<br />we celebrate them here even now.
             </td>
           </tr>
           <tr class="content-table__row--header">
@@ -306,10 +306,10 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>okina:</h5>
-              the crane of a thousand years<br />Sings the manzairaku, ten
+              The crane of a thousand years<br />sings the manzairaku, ten
               thousand years!<br />And the ten thousand year tortoise of the
-              lake<br />Has on its back the three poles of heaven, earth, and
-              man.<br />All under heaven at peace, the land secure:<br />This
+              lake<br />has on its back the three poles of heaven, earth, and
+              man.<br />All under heaven at peace, the land secure:<br />this
               our prayer today!
             </td>
           </tr>
@@ -365,7 +365,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>okina:</h5>
-              as this is a dance to celebrate a thousand autumns,<br />Ten
+              As this is a dance to celebrate a thousand autumns,<br />Ten
               thousand years,<br />I will dance one dance: manzairaku.
             </td>
           </tr>
@@ -424,9 +424,9 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              how wonderful! wonderful and auspicious,<br />Auspicious
-              indeed!<br />The reign is at peace:<br />Waves and wind, quiet.<br />Flowers
-              to adorn our hair<br />Are in bloom!<br />Indeed it is so,<br />Indeed
+              How wonderful! wonderful and auspicious,<br />auspicious
+              indeed!<br />The reign is at peace:<br />waves and wind, quiet.<br />Flowers
+              to adorn our hair<br />are in bloom!<br />Indeed it is so,<br />indeed
               it is so!
             </td>
           </tr>
@@ -438,17 +438,17 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
               <em
-                >yare yare medetai koto kana<br />Konnitta kyoto shiritsu<br />Geijutsu
-                daigaku iten kinenbi nareba,<br />Warera gotoki mono mademo
+                >yare yare medetai koto kana<br />Konnitta Kyoto Shiritsu<br />Geijutsu
+                Daigaku iten kinenbi nareba,<br />Warera gotoki mono mademo
                 makari ide,<br />Tomo ni oiwai mōsanto<br />Kore made mairite
                 sōrō</em
               >
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              what a wonderful and auspicious occasion indeed!<br />As today is
-              the day commemorating<br />The relocation of kyoto city university
-              of arts,<br />Even such as we have come here too,<br />To
+              What a wonderful and auspicious occasion indeed!<br />As today is
+              the day commemorating<br />the relocation of Kyoto City University
+              of Arts,<br />Even such as we have come here too,<br />To
               celebrate together along with everyone else.
             </td>
           </tr>
@@ -468,7 +468,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              oh! i hear strange sounds coming near.<br />I will wait here for a
+              Oh! I hear strange sounds coming near.<br />I will wait here for a
               while.
             </td>
           </tr>
@@ -497,8 +497,8 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>spirits of the pine and bamboo:</h5>
-              the bamboo increasing over a thousand years<br />The pine also
-              increasing over ten thousand years
+              the bamboo increasing over a thousand years,<br />the pine also
+              increasing over ten thousand years.
             </td>
           </tr>
           <tr class="content-table__row--header">
@@ -517,7 +517,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              what sort of beings are you<br />Who have come here in such high
+              What sort of beings are you<br />who have come here in such high
               spirits?
             </td>
           </tr>
@@ -527,7 +527,7 @@ permalink: /text-okina/
               <h5>spirit of the pine:</h5>
               <em
                 >kore wa sennen no yowai wo tamotsu<br />Matsu take no sei naru
-                ga,<br />Konnitta kyoto shiritsu geijutsu daigaku<br />Iten
+                ga,<br />Konnitta Kyoto Shiritsu Geijutsu Daigaku<br />Iten
                 kaikō no medetaki orikara nareba<br />On-gakuchō wo hajime,
                 go-raihin,<br />Go-raijō no katagata ni,<br />Yowai wo
                 sasage-mōsō to zonji,<br />Matsutake no sei morotomo ni</em
@@ -535,12 +535,12 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>spirit of the pine:</h5>
-              we are the spirit of the pine and the spirit of bamboo,<br />Constant
+              We are the spirit of the pine and the spirit of bamboo,<br />constant
               for a thousand years.<br />As this is a day of great
-              celebration<br />For kyoto city university of arts we have come
+              celebration<br />For Kyoto City University of Arts we have come
               here<br />To offer our congratulations with music and dance<br />For
               the many people who have gathered here.<br />Wanting to observe
-              and celebrate this event with everyone, together,<br />We, the
+              and celebrate this event with everyone, together,<br />we, the
               spirit of the pine and the spirit of bamboo,
             </td>
           </tr>
@@ -566,7 +566,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              all the more auspicious!<br />First of all, come this way.
+              All the more auspicious!<br />First of all, come this way.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -591,7 +591,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              as that is the case, first of all,<br />Tell me the origin of why
+              As that is the case, first of all,<br />tell me the origin of why
               the pine is said to be such a blessing.
             </td>
           </tr>
@@ -608,9 +608,9 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>spirit of the pine:</h5>
-              i will tell you why shortly.<br />Generally speaking, the reason
-              the pine is said to be auspicious<br />Is that when it grows a
-              little bit, it takes on color<br />And continues on for a thousand
+              I will tell you why shortly.<br />Generally speaking, the reason
+              the pine is said to be auspicious<br />is that when it grows a
+              little bit, it takes on color<br />and continues on for a thousand
               years, ten thousand years.<br />This is certainly a significantly
               joyous and propitious thing!
             </td>
@@ -626,7 +626,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              even more auspicious.<br />Then again, tell me the story of the
+              Even more auspicious.<br />Then again, tell me the story of the
               significance of the bamboo.
             </td>
           </tr>
@@ -643,9 +643,9 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>spirit of bamboo:</h5>
-              certainly i will do that.<br />In general, the reason the bamboo
-              is said to be auspicious is that,<br />When it comes to both
-              sentient and insentient beings,<br />There are said to be few that
+              Certainly I will do that.<br />In general, the reason the bamboo
+              is said to be auspicious is that,<br />when it comes to both
+              sentient and insentient beings,<br />there are said to be few that
               surpass their parents.<br />But the bamboo always outgrows its
               parents.<br />It’s longevity is a wonderfully auspicious thing!
             </td>
@@ -661,8 +661,8 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
-              these are heartening stories.<br />This being the case, i would
-              like you, in addition now,<br />Pine and bamboo, to dance together
+              These are heartening stories.<br />This being the case, I would
+              like you, in addition now,<br />Pine and Bamboo, to dance together
               for us.
             </td>
           </tr>
@@ -688,7 +688,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
-              Drawn by a connection to the thousand year Pine
+              Drawn by a connection to the thousand year pine,
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -705,12 +705,12 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              drawn by a connection to the thousand year pine,<br />Bamboo, too,
-              along with the pine with its spreading roots,<br />Raise their
-              sleeves aloft, hold them high,<br />As they dance.<br />Joyous
-              days repeat, renewed day after day,<br />As the reign
+              drawn by a connection to the thousand year pine,<br />bamboo, too,
+              along with the pine with its spreading roots,<br />raise their
+              sleeves aloft, hold them high,<br />as they dance.<br />Joyous
+              days repeat, renewed day after day,<br />as the reign
               continues.<br />A reign of peace that will be for a thousand
-              years,<br />Ten thousand years,<br />For all posterity!
+              years,<br />ten thousand years,<br />for all posterity!
             </td>
           </tr>
         </table>
@@ -734,8 +734,8 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              oh! what joy! how joyous!<br />Here we have delight! here
-              happiness for all!<br />I will keep it here, i do believe.
+              Oh! What joy! How joyous!<br />Here we have delight! Here
+              happiness for all!<br />I will keep it here, I do believe.
             </td>
           </tr>
           <tr class="content-table__row--header">
@@ -754,9 +754,9 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              how pleasing and gratifying! an ado (actor in kyogen acting in
-              contrast, as a foil to the primary/main player)<br />Who is well
-              aware.<br />Such an ado should appear now.
+              How pleasing and gratifying! An Ado (actor in kyōgen acting in
+              contrast, as a foil to the primary/main player)<br />who is well
+              aware.<br />Such an Ado should appear now.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -778,7 +778,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              Who are you that stands before me now?
+              Who are you that stand before me now?
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -792,7 +792,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              you require and called for a second,<br />And as an ado who
+              You require and called for a second,<br />and as an Ado who
               understands well what you need<br />I have come here before you.
             </td>
           </tr>
@@ -800,7 +800,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              <em>hō-ōn.</em>
+              <em>Hō-ōn.</em>
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
@@ -818,8 +818,8 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              dance as a prayer today<br />For a blessing of a thousand
-              autumns,<br />Ten thousand years, dark colored old man.
+              Dance as a prayer today<br />for a blessing of a thousand
+              autumns,<br />ten thousand years, dark colored old man.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -834,10 +834,10 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              to dance today as a prayer<br />For a blessing of a thousand
-              autumns,<br />Ten thousand years is an easy thing<br />For this
-              dark colored old man.<br />But first, you, my second/ado,<br />Must
-              first return with proper gravity<br />And solemnity to your place
+              To dance today as a prayer<br />for a blessing of a thousand
+              autumns,<br />ten thousand years is an easy thing<br />for this
+              dark colored old man.<br />But first, you, my second/Ado,<br />Must
+              first return with proper gravity<br />and solemnity to your place.
             </td>
           </tr>
           <tr class="content-table__row"></tr>
@@ -851,7 +851,7 @@ permalink: /text-okina/
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              to return to my place is an easy thing<br />Compared to your
+              To return to my place is an easy thing<br />compared to your
               dance, ancient one.<br />First perform your dance.
             </td>
           </tr>
