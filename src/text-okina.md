@@ -36,7 +36,7 @@ permalink: /text-okina/
           </tr>
         </table>
 
-        <h3 id="act1-okina">Act 1 - okina</h3>
+        <h3 id="act1-okina">ACT 1 - OKINA</h3>
 
         <table class="content-table--libretto">
           <tr class="content-table__row--header">
@@ -157,7 +157,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>taezu tōtari ariu dō-dō-dō</em>
+              <em>Taezu tōtari ariu dō-dō-dō</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -201,7 +201,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>taezu tōtari ariu dō dō dō</em>
+              <em>Taezu tōtari ariu dō dō dō</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -284,7 +284,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>soyo ya richiya tondoya</em>
+              <em>Soyo ya richiya tondoya</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -322,7 +322,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>okina:</h5>
-              <em>ariwaraya<br />Najo no okina domo</em>
+              <em>Ariwaraya<br />Najo no okina domo</em>
             </td>
             <td class="content-table__column">
               <h5>Okina:</h5>
@@ -373,7 +373,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Jiutai:</h5>
-              <em>manzairaku</em>
+              <em>Manzairaku</em>
             </td>
             <td class="content-table__column">
               <h5>Jiutai:</h5>
@@ -404,7 +404,7 @@ permalink: /text-okina/
           </tr>
         </table>
 
-        <h3 id="furyu">Furyū</h3>
+        <h3 id="furyu">FURYŪ</h3>
 
         <table class="content-table--libretto">
           <tr class="content-table__row--header">
@@ -438,7 +438,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
               <em
-                >yare yare medetai koto kana<br />Konnitta Kyoto Shiritsu<br />Geijutsu
+                >Yare yare medetai koto kana<br />Konnitta Kyoto Shiritsu<br />Geijutsu
                 Daigaku iten kinenbi nareba,<br />Warera gotoki mono mademo
                 makari ide,<br />Tomo ni oiwai mōsanto<br />Kore made mairite
                 sōrō</em
@@ -453,7 +453,7 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td id="Furyu-enters" class="content-table__column">
+            <td id="furyu-enters" class="content-table__column">
               Furyū enters: entrance music
             </td>
             <td class="content-table__column"></td>
@@ -462,7 +462,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
               <em
-                >iya, tae naru ne no kikoete-sōrō,<br />Shibaraku kore nite matō
+                >Iya, tae naru ne no kikoete-sōrō,<br />Shibaraku kore nite matō
                 to zonzuru.</em
               >
             </td>
@@ -479,7 +479,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>spirit of the pine:</h5>
-              <em>kimi ga yo no<br />Hisashikaru beki tameshi ni wa</em>
+              <em>Kimi ga yo no<br />Hisashikaru beki tameshi ni wa</em>
             </td>
             <td class="content-table__column">
               <h5>Spirit of the Pine:</h5>
@@ -502,7 +502,7 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td id="Furyu-performs" class="content-table__column">
+            <td id="furyu-performs" class="content-table__column">
               Furyū performs: mondō
             </td>
             <td class="content-table__column"></td>
@@ -511,7 +511,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
               <em
-                >sore e gokigen yō ideraretaru wa,<br />Ikanaru hito nite
+                >Sore e gokigen yō ideraretaru wa,<br />Ikanaru hito nite
                 gozasōrōzo</em
               >
             </td>
@@ -526,7 +526,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>spirit of the pine:</h5>
               <em
-                >kore wa sennen no yowai wo tamotsu<br />Matsu take no sei naru
+                >Kore wa sennen no yowai wo tamotsu<br />Matsu take no sei naru
                 ga,<br />Konnitta Kyoto Shiritsu Geijutsu Daigaku<br />Iten
                 kaikō no medetaki orikara nareba<br />On-gakuchō wo hajime,
                 go-raihin,<br />Go-raijō no katagata ni,<br />Yowai wo
@@ -548,7 +548,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>spirits of the pine and bamboo:</h5>
-              <em>koremade idete sōrō</em>
+              <em>Koremade idete sōrō</em>
             </td>
             <td class="content-table__column">
               <h5>Spirits of the Pine and Bamboo:</h5>
@@ -573,7 +573,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>spirits of the pine and bamboo:</h5>
-              <em>kokoroete sōrō.</em>
+              <em>Kokoroete sōrō.</em>
             </td>
             <td class="content-table__column">
               <h5>Spirits of the Pine and Bamboo:</h5>
@@ -600,7 +600,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>spirit of the pine:</h5>
               <em
-                >sa araba yagate katatte kikase mōsōzuru nite sōrō,<br />Sōjite
+                >Sa araba yagate katatte kikase mōsōzuru nite sōrō,<br />Sōjite
                 matsu no medetai to mōsu shisai wa,<br />Issun nobureba iro
                 tokoshinae ni Shite,<br />Jō sennen mannen no yowai wo
                 tamochi,<br />Nanbō medetaki mono nite sōrō.</em
@@ -620,7 +620,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
               <em
-                >ichidan to medetō sōrō<br />Mata, take no medetaki shisai,
+                >Ichidan to medetō sōrō<br />Mata, take no medetaki shisai,
                 on-monogatari-sōrae.</em
               >
             </td>
@@ -635,7 +635,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>spirit of bamboo:</h5>
               <em
-                >kokoroe mōshite sōrō<br />Sōjite, take no medetaki shisai to
+                >Kokoroe mōshite sōrō<br />Sōjite, take no medetaki shisai to
                 mōsu wa,<br />Ujō-mujō no tagui nareba,<br />Oya ni masaru mono
                 marenari,<br />Shikaru ni take wa, oya yori kanarazu nobiru-mono
                 to,<br />Jumyō medetaki mono nite sōrō.</em
@@ -655,7 +655,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Furyū-Senzai:</h5>
               <em
-                >izure mo medetaki on-monogatari nite sōrō,<br />Sa araba kono
+                >Izure mo medetaki on-monogatari nite sōrō,<br />Sa araba kono
                 ue wa<br />Matsu take tomo ni ai-mai wo nasare-sōrae</em
               >
             </td>
@@ -670,7 +670,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>spirits of the pine and bamboo:</h5>
-              <em>kokoroete-sōrō.</em>
+              <em>Kokoroete-sōrō.</em>
             </td>
             <td class="content-table__column">
               <h5>Spirits of the Pine and Bamboo:</h5>
@@ -715,7 +715,7 @@ permalink: /text-okina/
           </tr>
         </table>
 
-        <h3 id="sanbaso">act 2 - Sanbasō</h3>
+        <h3 id="sanbaso">ACT 2 - SANBASŌ</h3>
 
         <table class="content-table--libretto">
           <tr class="content-table__row--header">
@@ -728,7 +728,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
               <em
-                >ō ōsae, ōsae, ō, ohyorokobi ari-ya, yorokobi ari-ya,<br />Waga
+                >Ō ōsae, ōsae, ō, ohyorokobi ari-ya, yorokobi ari-ya,<br />Waga
                 kono tokoro yori hoka ewa yaraji tozo wa omō.</em
               >
             </td>
@@ -748,7 +748,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
               <em
-                >yara medetayana,<br />Mono ni kokoroetaru ado no,<br />Ado no
+                >Yara medetayana,<br />Mono ni kokoroetaru ado no,<br />Ado no
                 tayū-dono e, kenzan mōsō</em
               >
             </td>
@@ -763,7 +763,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Senzai:</h5>
-              <em>chōdo maitte sōrō.</em>
+              <em>Chōdo maitte sōrō.</em>
             </td>
             <td class="content-table__column">
               <h5>Senzai:</h5>
@@ -827,7 +827,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
               <em
-                >kono iro no kuroi-jō ga,<br />Kon-nichi no go-kitō wo,<br />Senshūbanzei
+                >Kono iro no kuroi-jō ga,<br />Kon-nichi no go-kitō wo,<br />Senshūbanzei
                 medetai yō ni,<br />Mai osamyō zuruwa yasū-zōrō,<br />Mazu ado
                 no tayū-dono wa,<br />Moto no zashiki e omo-omo to,<br />On-nari-sōrae.</em
               >
@@ -845,7 +845,7 @@ permalink: /text-okina/
             <td class="content-table__column">
               <h5>Senzai:</h5>
               <em
-                >soregashi-moto no zashiki e naorō-zurukoto,<br />Jō-dono no mai
+                >Soregashi-moto no zashiki e naorō-zurukoto,<br />Jō-dono no mai
                 yori motte yasū sōrō,<br />Mazu on-mai sōrae,</em
               >
             </td>
@@ -859,7 +859,7 @@ permalink: /text-okina/
           <tr class="content-table__row">
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
-              <em>tada on-naori sōrae.</em>
+              <em>Tada on-naori sōrae.</em>
             </td>
             <td class="content-table__column">
               <h5>Sanbasō:</h5>
