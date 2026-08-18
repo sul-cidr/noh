@@ -164,15 +164,22 @@ export default class App extends Component {
         textIsPresent={textIsPresent}
       />
     );
+    const isOkinaSections = this.props.shodanType.value === "Okina-sections";
+    const shodanLinkHref = isOkinaSections
+      ? "/shodan-in-okina/"
+      : `/catalog-of-shodan/${this.props.shodanType.value}`;
+    const shodanLinkText = isOkinaSections
+      ? "To Shōdan in Okina"
+      : "In catalog of Shōdan";
     const shodanLink = this.props.shodanType.value && (
       <div className="sidebar__catalog-link">
         <a
-          href={`/catalog-of-shodan/${this.props.shodanType.value}`}
+          href={shodanLinkHref}
           title={this.props.playName}
           target="_blank"
           rel="noopener noreferrer"
         >
-          In catalog of Shōdan
+          {shodanLinkText}
           <svg
             aria-hidden="true"
             focusable="false"
