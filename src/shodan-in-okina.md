@@ -14,8 +14,18 @@ permalink: /shodan-in-okina/
     <div class="wrapper wrapper--small">
       <h2>Shōdan in Okina</h2>
       <p>
-        The following catalog documents the <em>shōdan</em> of <em>Okina</em>, a
-        play of exceptional status and unique formal structure. Testing
+        <em>Shōdan</em> are recurring modules that appear across Noh plays. At
+        the same time, a <em>shōdan</em> can be understood as a component of a
+        <em>dan</em>, the larger unit corresponding to a shared event or
+        dramatic scene in a play’s progression. Taking this latter view, Okina
+        can likewise be divided into <em>shōdan</em> grouped into larger
+        <em>dan</em>. Because the <em>shōdan</em> on this page belong
+        exclusively to Okina, we forgo a general explanation of the form here
+        and focus instead on the musical aspects of each <em>shōdan</em>. The
+        cards below lead to pages with musical analysis; follow the link at the
+        bottom of each to reach the Aspects and Intermedia sections, where you
+        can learn more about the <em>shōdan</em>’s other elements and their
+        combined dramatic effect.
       </p>
     </div>
   </div>

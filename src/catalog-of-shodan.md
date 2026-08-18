@@ -21,7 +21,7 @@ permalink: /catalog-of-shodan/
         videos were overlaid with simplified notation of the music.
       </p>
       <p>
-        As <em>Okina</em> features a unique ritual structure and set of
+        As Okina features a unique ritual structure and set of
         <em>shōdan</em> distinct from the standard noh repertoire, it has been
         given a separate catalog, which can be found
         <a href="/shodan-in-okina/">here</a>.
