@@ -6,7 +6,8 @@ vendor/bundle
 .bundle/config
 
 data/
-src/_data/
+src/_data/*
+!src/_data/catalog-shodan-manual.json
 
 coverage/
 
