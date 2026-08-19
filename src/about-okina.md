@@ -97,10 +97,11 @@ permalink: /about-okina/
         before him and its lid is opened. The Noh actor playing Okina, first
         acting as priest, begins to chant without a mask: “<em
           >Tōtō tarari tararira…</em
-        >” These sounds, said to derive from <em>shōga</em> (traditional
-        mnemonic syllables used to learn and represent instrumental patterns),
-        are sung like a mantra, devoid of semantic meaning. Interspersed within
-        this incantation is the following text:
+        >” These sounds, said to derive from ancient songs or
+        <em>shōga</em> (traditional mnemonic syllables used to learn and
+        represent instrumental patterns), are sung like a mantra, devoid of
+        semantic meaning. Interspersed within this incantation is the following
+        text:
       </p>
       <p>
         <em
