@@ -21,10 +21,12 @@ permalink: /catalog-of-shodan/
         videos were overlaid with simplified notation of the music.
       </p>
       <p>
-        As Okina features a unique ritual structure and set of
-        <em>shōdan</em> distinct from the standard noh repertoire, it has been
-        given a separate catalog, which can be found
-        <a href="/shodan-in-okina/">here</a>.
+        As Okina is a unique ritual play—often considered 'Noh, but not Noh' (a
+        status explained further <a href="/about-okina/">here</a>)—it is built
+        from sections that are analogous to <em>shōdan</em> but are not shared
+        with the standard repertoire. We have therefore created a separate
+        compendium that collects and analyzes each of these unique
+        <a href="/shodan-in-okina/"><em>shōdan</em> in Okina</a>.
       </p>
     </div>
   </div>
