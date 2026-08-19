@@ -103,21 +103,48 @@ permalink: /about-okina/
         semantic meaning. Interspersed within this incantation is the following
         text:
       </p>
-      <p>
-        <em
-          >Tokoro chiyo made owashimase <br />
-          Warera mo senshū samurawau <br />
-          Tsuru to kame to no yowai nite <br />
-          Saiwai kokoro ni makasetari</em
-        >
-      </p>
-      <p>
-        <em
-          >May this place last for a thousand ages; may we, too, serve for a
-          thousand autumns. With the longevity of the crane and the tortoise,
-          may fortune be ours as we desire for millennia.</em
-        >
-      </p>
+      <table class="content-table--libretto">
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            <h5>Okina:</h5>
+            <em>Tokoro chiyomade owashimase</em>
+          </td>
+          <td class="content-table__column">
+            <h5>Okina:</h5>
+            May we flourish here in this place for even a thousand generations.
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            <h5>Jiutai:</h5>
+            <em>Warera mo senshiu samuraō</em>
+          </td>
+          <td class="content-table__column">
+            <h5>Jiutai:</h5>
+            All serving you for a thousand autumns.
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            <h5>Okina:</h5>
+            <em>Tsuru to kame to no yowai nite</em>
+          </td>
+          <td class="content-table__column">
+            <h5>Okina:</h5>
+            The long life of the crane and tortoise attaining,
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            <h5>Jiutai:</h5>
+            <em>Saiwai kokoro ni makasetari</em>
+          </td>
+          <td class="content-table__column">
+            <h5>Jiutai:</h5>
+            easy in our hearts, trusting in our great joy!
+          </td>
+        </tr>
+      </table>
       <p>
         The performance that follows is structured around the appearance of two
         distinct deities: first the White Okina (Okina), and later the Black
@@ -142,12 +169,30 @@ permalink: /about-okina/
       <p>A simple schema of the progression is as follows:</p>
       <table class="content-table">
         <tr class="content-table__row">
+          <td class="content-table__column">Opening Chant (Priest’s Prayer)</td>
+        </tr>
+        <tr class="content-table__row">
           <td class="content-table__column">
-            Opening Chant (Priest’s Prayer)<br />
-            First Purification Dance (<em>Senzai no mai</em>)<br />
-            White Okina’s Prayer and Dance (<em>Okina no mai</em>)<br />
-            Second Purification Dance (<em>Momi no dan</em>)<br />
-            Dialogue between Senzai and the Black Okina<br />
+            First Purification Dance (<em>Senzai no mai</em>)
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            White Okina’s Prayer and Dance (<em>Okina no mai</em>)
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            Second Purification Dance (<em>Momi no dan</em>)
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            Dialogue between Senzai and the Black Okina
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
             Black Okina’s Dance (<em>Suzu no dan</em>)
           </td>
         </tr>
@@ -258,14 +303,25 @@ permalink: /about-okina/
         Furthermore, consider the exchange between Okina and the jiutai that
         occurs just before the <em>Okina no mai</em> in the current play:
       </p>
-      <table class="content-table">
+      <table class="content-table--libretto">
         <tr class="content-table__row">
           <td class="content-table__column">
-            Okina: <em>Arihara ya, najo no okina-domo.</em> (Oh, how many are
-            the elders?)<br />
-            Jiutai:
+            <h5>Okina:</h5>
+            <em>Arihara ya, najo no okina-domo.</em>
+          </td>
+          <td class="content-table__column">
+            <h5>Okina:</h5>
+            Oh, how many are the elders?
+          </td>
+        </tr>
+        <tr class="content-table__row">
+          <td class="content-table__column">
+            <h5>Jiutai:</h5>
             <em>Are wa najo no okina-domo, soya izuku no okina-domo.</em>
-            (How many are those elders, and from whence do they come?)
+          </td>
+          <td class="content-table__column">
+            <h5>Jiutai:</h5>
+            How many are those elders, and from whence do they come?
           </td>
         </tr>
       </table>
