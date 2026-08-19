@@ -9,7 +9,8 @@ permalink: /about-okina/
   <div class="text-container">
     <div class="wrapper wrapper--small">
       <h2>
-        A Celebration Beyond Celebration: The Mechanics of Okina and Furyū
+        A Celebration Beyond Celebration: The Mechanisms <br />of Okina and
+        Furyū
       </h2>
       <p><em>By OKIMOTO Yukiko</em></p>
       <p>
@@ -22,13 +23,13 @@ permalink: /about-okina/
         the world of Noh as we know it, Okina was already a signature
         performance of Sarugaku, flourishing in the latter half of the 13th
         century. During the Edo period, Okina was the prescribed opening for
-        formal, full-day programs, such as those held at the New Year, which
-        would then be followed by the customary five Noh plays. Today, it is
-        performed on special occasions such as the New Year or the inauguration
-        of a new stage, serving to purify the surroundings and to bless the new
-        beginnings of the place and the people gathered there. It is for this
-        reason that Okina was chosen for the commemorative program celebrating
-        the relocation of the Kyōto City University of Arts.
+        formal, full-day programs, which would then be followed by the customary
+        five Noh plays. Today, it is performed on special occasions such as the
+        New Year or the inauguration of a new stage, serving to purify the
+        surroundings and to bless the new beginnings of the place and the people
+        gathered there. It is for this reason that Okina was chosen for the
+        commemorative program celebrating the relocation of the Kyōto City
+        University of Arts.
       </p>
       <p>
         Its original name was <em>Shiki Sanban</em> (Three-Part Ritual),
@@ -41,22 +42,24 @@ permalink: /about-okina/
         performed by a Noh actor, and the role of Sanbasō by a Kyōgen actor.
       </p>
       <p>
-        The modern Okina is best understood as a type of festival (matsuri). The
-        divine object (goshintai) is the mask. The presiding priest is the Noh
-        actor performing the role of Okina. The musicians (hayashi-kata) and the
-        chorus (jiutai) wear the formal ceremonial attire of
+        The modern Okina is best understood as a type of festival
+        (<em>>matsuri</em>). The divine object (<em>goshintai</em>) is the mask.
+        The presiding priest is the Noh actor performing the role of Okina. The
+        musicians (hayashi-kata) and the chorus (jiutai) wear the formal
+        ceremonial attire of
         <em>kamishimo</em> and <em>eboshi</em> hats. The principal actors,
         however, are dressed not in this formal wear but in the costumes
         prescribed by the performance conventions for their roles. Before
         performing Okina, the actors undertake a period of purification. In the
-        mirror room (kagami no ma) before going on stage, they create an altar
-        (the okina-kazari) upon which the divine masks are enshrined. Offerings
-        of sacred sake, washed rice, and salt are made. The performers partake
-        of the sake, place the rice in their mouths, and purify themselves with
-        salt. Finally, sparks are struck with flint (kiri-bi), and they proceed
-        to the stage. Led by the mask-box bearer (omobako-mochi) carrying the
-        sacred objects, the chief performer (tayū) and the other formally
-        dressed participants walk onto the stage.
+        mirror room (<em>kagami no ma</em>) before going on stage, they create
+        an altar (the <em>okina-kazari</em>) upon which the divine masks are
+        enshrined. Offerings of sacred sake, washed rice, and salt are made. The
+        performers partake of the sake, place the rice in their mouths, and
+        purify themselves with salt. Finally, sparks are struck with flint
+        (<em>kiri-bi</em>), and they proceed to the stage. Led by the mask-box
+        bearer (<em>omobako-mochi</em>) carrying the sacred objects, the chief
+        performer (<em>tayū</em>) and the other formally dressed participants
+        walk onto the stage.
       </p>
       <p>
         A unique feature of Okina is that the actors don the sacred masks on
@@ -70,16 +73,16 @@ permalink: /about-okina/
       <p>
         And yet, the Okina mask itself—the goshintai—wears an approachable and
         gentle smile. In contrast to the stern and austere visages of elder
-        masks (jō-men) in Noh, it is far closer in spirit to the gods of Kyōgen,
-        such as the gods of fortune or Daikoku. This is not a sublime,
-        unapproachable deity, but one with the familiar and rustic countenance
-        of an old man. Furthermore, the musical ensemble is unique, consisting
-        of a flute and three hand drums (kotsuzumi); a hip drum (ōtsuzumi) joins
-        for the Sanbasō section. The rhythmic structure is entirely different
-        from that of Noh and is highly repetitive. For the audience, there is a
-        joy that can make one want to tap along to the beat. The dance is full
-        of foot stamping and includes moments of leaping, creating a dynamic and
-        spirited performance.
+        masks (<em>jō-men</em>) in Noh, it is far closer in spirit to the gods
+        of Kyōgen, such as the gods of fortune or Daikoku. This is not a
+        sublime, unapproachable deity, but one with the familiar and rustic
+        countenance of an old man. Furthermore, the musical ensemble is unique,
+        consisting of a flute and three hand drums (kotsuzumi); a hip drum
+        (ōtsuzumi) joins for the Sanbasō section. The rhythmic structure is
+        entirely different from that of Noh and is highly repetitive. For the
+        audience, there is a joy that can make one want to tap along to the
+        beat. The dance is full of foot stamping and includes moments of
+        leaping, creating a dynamic and spirited performance.
       </p>
       <p>
         This gap between its austere, deified status and its rustic appearance
@@ -173,17 +176,17 @@ permalink: /about-okina/
         </tr>
         <tr class="content-table__row">
           <td class="content-table__column">
-            First Purification Dance (<em>Senzai no mai</em>)
+            First Purification Dance (<em>Senzai-no-mai</em>)
           </td>
         </tr>
         <tr class="content-table__row">
           <td class="content-table__column">
-            White Okina’s Prayer and Dance (<em>Okina no mai</em>)
+            White Okina’s Prayer and Dance (<em>Okina-no-mai</em>)
           </td>
         </tr>
         <tr class="content-table__row">
           <td class="content-table__column">
-            Second Purification Dance (<em>Momi no dan</em>)
+            Second Purification Dance (<em>Mominodan</em>)
           </td>
         </tr>
         <tr class="content-table__row">
@@ -193,7 +196,7 @@ permalink: /about-okina/
         </tr>
         <tr class="content-table__row">
           <td class="content-table__column">
-            Black Okina’s Dance (<em>Suzu no dan</em>)
+            Black Okina’s Dance (<em>Suzunodan</em>)
           </td>
         </tr>
       </table>
@@ -203,8 +206,9 @@ permalink: /about-okina/
       </p>
       <p>
         Notably, in the Kamakura period, the figure of Senzai did not have a
-        name and was simply called “the purifier” (tsuyuharai). It is likely
-        that originally a single purification dance was performed for the entire
+        name and was simply called “the purifier” (<em>tsuyuharai</em>). It is
+        likely that originally a single purification dance was performed for the
+        entire
         <em>Shiki Sanban</em>, including Chichi-no-jō. The later placement of a
         purification dance before each elder, both white and black, is a
         subsequent development. It is also suggestive that Chichi-no-jō, who was
@@ -301,7 +305,7 @@ permalink: /about-okina/
       </p>
       <p>
         Furthermore, consider the exchange between Okina and the jiutai that
-        occurs just before the <em>Okina no mai</em> in the current play:
+        occurs just before the <em>Okina-no-mai</em> in the current play:
       </p>
       <table class="content-table--libretto">
         <tr class="content-table__row">
@@ -386,9 +390,9 @@ permalink: /about-okina/
         <em>yose-furyū</em> (a simple congratulatory song and dance performed by
         Kyōgen actors to drum accompaniment, attached to Okina, as noted in the
         <em>Kōshō Noh Kuden-sho</em>). However, it is also reminiscent of older
-        celebratory arts, such as the Pine Festival (matsubayashi) held at New
-        Year’s in the Muromachi period and the <em>ennen furyū</em> of Buddhist
-        temples.
+        celebratory arts, such as the Pine Festival (<em>matsubayashi</em>) held
+        at New Year’s in the Muromachi period and the <em>ennen furyū</em> of
+        Buddhist temples.
       </p>
       <p>
         In the Edo period, <em>furyū</em> were performed at Edo Castle to
@@ -435,8 +439,8 @@ permalink: /about-okina/
         performed Okina at the Imperial Palace by order of Tokugawa Ieyasu (from
         the <em>Bunroku Keichō nenkan Onō-gumi</em> in the Kanze Bunko
         archives). Surviving texts show it was a conceit based on wordplay
-        (dajare): the appearance of ants (<em>ari</em>) was prompted by the
-        syllable <em>ari</em> in Senzai’s line
+        (<em>dajare</em>): the appearance of ants (<em>ari</em>) was prompted by
+        the syllable <em>ari</em> in Senzai’s line
         <em>taezu tōtari ariudō</em> (Izumi school) or Sanbasō’s line
         <em>yorokobi ariya</em> (Sagi and Ōkura schools). This wordplay and
         sense of fun are also essential elements of <em>furyū</em>. It is worth
