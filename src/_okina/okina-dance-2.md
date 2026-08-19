@@ -1,5 +1,5 @@
 ---
-title: Okina Dance 2
+title: Okina-no-mai
 play: Okina
 layout: section
 ---

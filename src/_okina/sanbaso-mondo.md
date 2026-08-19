@@ -1,5 +1,5 @@
 ---
-title: Sanbasō Mondo
+title: Sanbasō Mondō
 play: Okina
 layout: section
 ---
