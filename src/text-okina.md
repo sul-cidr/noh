@@ -258,8 +258,8 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td id="okina-prays" class="content-table__column">
-              Okina Prays: Prayer 1
+            <td id="okina-performs" class="content-table__column">
+              Okina Performs: Prayer 1
             </td>
             <td class="content-table__column"></td>
           </tr>
@@ -278,7 +278,7 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td class="content-table__column">okina prays: response</td>
+            <td class="content-table__column">Okina Performs: Response</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
@@ -292,7 +292,7 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td class="content-table__column">Okina Prays: Prayer 2</td>
+            <td class="content-table__column">Okina Performs: Prayer 2</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
@@ -314,9 +314,7 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td id="okina-performs" class="content-table__column">
-              okina performs: dance 1
-            </td>
+            <td class="content-table__column">Okina Performs: Dance 1</td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
@@ -502,8 +500,8 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td id="furyu-performs" class="content-table__column">
-              Furyū performs: mondō
+            <td id="dialogue" class="content-table__column">
+              Dialogue: Mondō 1
             </td>
             <td class="content-table__column"></td>
           </tr>
@@ -678,7 +676,9 @@ permalink: /text-okina/
             </td>
           </tr>
           <tr class="content-table__row--header">
-            <td class="content-table__column">Furyū Performs: Noriji 2</td>
+            <td id="furyu-performs" class="content-table__column">
+              Furyū Performs: Noriji 2
+            </td>
             <td class="content-table__column"></td>
           </tr>
           <tr class="content-table__row">
