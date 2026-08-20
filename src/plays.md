@@ -8,7 +8,7 @@ permalink: /plays/
 <main class="page-content">
   <div class="text-container">
     <div class="wrapper wrapper--small">
-      <h2 id="plays-intro">Why Hashitomi and Kokaji?</h2>
+      <h2 id="plays-intro">Why <em>Hashitomi</em> and <em>Kokaji</em>?</h2>
       <p><em>By Tom Hare</em></p>
       <p>
         The modern repertory of noh comprehends more than two hundred plays,
@@ -340,7 +340,7 @@ permalink: /plays/
         so-called “demon” plays. The shite in <em>Kokaji</em>, however, is no
         demon, but rather the god Inari Myōjin, whose avatar is a fox.
       </p>
-      <h3 id="plays-<em>Kokaji</em>"><em>Kokaji</em></h3>
+      <h3 id="plays-Kokaji"><em>Kokaji</em></h3>
       <p>
         Something that often distinguishes “god plays” from “demon plays” in the
         five-genre system is interest. A few of the god plays are wonderful, but

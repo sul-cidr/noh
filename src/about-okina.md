@@ -9,27 +9,27 @@ permalink: /about-okina/
   <div class="text-container">
     <div class="wrapper wrapper--small">
       <h2>
-        A Celebration Beyond Celebration: The Mechanisms <br />of Okina and
-        Furyū
+        A Celebration Beyond Celebration: The Mechanisms <br />of
+        <em>Okina</em> and Furyū
       </h2>
       <p><em>By OKIMOTO Yukiko</em></p>
       <p>
-        Okina is the root of Noh theater, yet it is a mysterious entity often
-        described as “Noh, yet not Noh.” It lacks a definitive story, and its
-        musical and dance forms differ greatly from other Noh plays.
+        <em>Okina</em> is the root of Noh theater, yet it is a mysterious entity
+        often described as “Noh, yet not Noh.” It lacks a definitive story, and
+        its musical and dance forms differ greatly from other Noh plays.
       </p>
       <p>
         More than 150 years before Zeami Motokiyo (c. 1363–c. 1443) established
-        the world of Noh as we know it, Okina was already a signature
+        the world of Noh as we know it, <em>Okina</em> was already a signature
         performance of Sarugaku, flourishing in the latter half of the 13th
-        century. During the Edo period, Okina was the prescribed opening for
-        formal, full-day programs, which would then be followed by the customary
-        five Noh plays. Today, it is performed on special occasions such as the
-        New Year or the inauguration of a new stage, serving to purify the
-        surroundings and to bless the new beginnings of the place and the people
-        gathered there. It is for this reason that Okina was chosen for the
-        commemorative program celebrating the relocation of the Kyōto City
-        University of Arts.
+        century. During the Edo period, <em>Okina</em> was the prescribed
+        opening for formal, full-day programs, which would then be followed by
+        the customary five Noh plays. Today, it is performed on special
+        occasions such as the New Year or the inauguration of a new stage,
+        serving to purify the surroundings and to bless the new beginnings of
+        the place and the people gathered there. It is for this reason that
+        <em>Okina</em> was chosen for the commemorative program celebrating the
+        relocation of the Kyōto City University of Arts.
       </p>
       <p>
         Its original name was <em>Shiki Sanban</em> (Three-Part Ritual),
@@ -42,32 +42,31 @@ permalink: /about-okina/
         performed by a Noh actor, and the role of Sanbasō by a Kyōgen actor.
       </p>
       <p>
-        The modern Okina is best understood as a type of festival
-        (<em>>matsuri</em>). The divine object (<em>goshintai</em>) is the mask.
+        The modern <em>Okina</em> is best understood as a type of festival
+        (<em>matsuri</em>). The divine object (<em>goshintai</em>) is the mask.
         The presiding priest is the Noh actor performing the role of Okina. The
         musicians (hayashi-kata) and the chorus (jiutai) wear the formal
-        ceremonial attire of
-        <em>kamishimo</em> and <em>eboshi</em> hats. The principal actors,
-        however, are dressed not in this formal wear but in the costumes
-        prescribed by the performance conventions for their roles. Before
-        performing Okina, the actors undertake a period of purification. In the
-        mirror room (<em>kagami no ma</em>) before going on stage, they create
-        an altar (the <em>okina-kazari</em>) upon which the divine masks are
-        enshrined. Offerings of sacred sake, washed rice, and salt are made. The
-        performers partake of the sake, place the rice in their mouths, and
-        purify themselves with salt. Finally, sparks are struck with flint
-        (<em>kiri-bi</em>), and they proceed to the stage. Led by the mask-box
-        bearer (<em>omobako-mochi</em>) carrying the sacred objects, the chief
-        performer (<em>tayū</em>) and the other formally dressed participants
-        walk onto the stage.
+        ceremonial attire of <em>kamishimo</em> and <em>eboshi</em> hats. The
+        principal actors, however, are dressed not in this formal wear but in
+        the costumes prescribed by the performance conventions for their roles.
+        Before performing <em>Okina</em>, the actors undertake a period of
+        purification. In the mirror room (<em>kagami no ma</em>) before going on
+        stage, they create an altar (the <em>okina-kazari</em>) upon which the
+        divine masks are enshrined. Offerings of sacred sake, washed rice, and
+        salt are made. The performers partake of the sake, place the rice in
+        their mouths, and purify themselves with salt. Finally, sparks are
+        struck with flint (<em>kiri-bi</em>), and they proceed to the stage. Led
+        by the mask-box bearer (<em>omobako-mochi</em>) carrying the sacred
+        objects, the chief performer (<em>tayū</em>) and the other formally
+        dressed participants walk onto the stage.
       </p>
       <p>
-        A unique feature of Okina is that the actors don the sacred masks on
-        stage, allowing the audience to witness their transformation into the
-        aged deities, Okina and Sanbasō. The audience, too, is bound by the
-        sanctity of the ritual; even latecomers are not permitted to enter the
-        auditorium until the priest-figure of Okina has exited the stage. It is
-        considered a profoundly sacred ceremony, pervaded by an inviolable
+        A unique feature of <em>Okina</em> is that the actors don the sacred
+        masks on stage, allowing the audience to witness their transformation
+        into the aged deities, Okina and Sanbasō. The audience, too, is bound by
+        the sanctity of the ritual; even latecomers are not permitted to enter
+        the auditorium until the priest-figure of Okina has exited the stage. It
+        is considered a profoundly sacred ceremony, pervaded by an inviolable
         atmosphere.
       </p>
       <p>
@@ -86,13 +85,13 @@ permalink: /about-okina/
       </p>
       <p>
         This gap between its austere, deified status and its rustic appearance
-        with its lucid joy is the very charm of Okina, and perhaps also the key
-        to unlocking its mysteries.
+        with its lucid joy is the very charm of <em>Okina</em>, and perhaps also
+        the key to unlocking its mysteries.
       </p>
-      <h3>1: The Structure of the Current Okina</h3>
+      <h3>1: The Structure of the Current <em>Okina</em></h3>
       <p>
         Let us first examine the progression of a standard modern performance of
-        Okina.
+        <em>Okina</em>.
       </p>
       <p>
         When the actor in the role of the priest has made a deep bow on stage
@@ -212,22 +211,22 @@ permalink: /about-okina/
         <em>Shiki Sanban</em>, including Chichi-no-jō. The later placement of a
         purification dance before each elder, both white and black, is a
         subsequent development. It is also suggestive that Chichi-no-jō, who was
-        dropped from standard Okina performances in Zeami’s era, was not
-        preceded by a purifier. One might say this structure was developed to
-        further elevate the divine status of the white and black elders.
+        dropped from standard <em>Okina</em> performances in Zeami’s era, was
+        not preceded by a purifier. One might say this structure was developed
+        to further elevate the divine status of the white and black elders.
         Moreover, the fact that the White Okina is preceded by a dance performed
         by another person (Senzai), while the Black Okina purifies the space
         himself, serves to position the White Okina as the superior deity.
       </p>
       <p>
-        In the current Okina, the White Okina has been elevated to an “Okina
-        representing being itself.” He offers a grand prayer on a national scale
-        for “peace throughout the land and tranquility of the nation,” but he
-        does not elaborate with words. Although he performs shamanistic foot
-        stamps in three directions on the stage (representing heaven, earth, and
-        man), there is no dance to speak of. At the end, he says, “Let us dance
-        one dance, a manzairaku,” but he merely exchanges the phrase
-        “manzairaku” with the jiutai and ends without dancing.
+        In the current <em>Okina</em>, the White Okina has been elevated to an
+        “Okina representing being itself.” He offers a grand prayer on a
+        national scale for “peace throughout the land and tranquility of the
+        nation,” but he does not elaborate with words. Although he performs
+        shamanistic foot stamps in three directions on the stage (representing
+        heaven, earth, and man), there is no dance to speak of. At the end, he
+        says, “Let us dance one dance, a manzairaku,” but he merely exchanges
+        the phrase “manzairaku” with the jiutai and ends without dancing.
         <em>Manzairaku</em> was a popular dance piece from the Heian period, but
         here, the prayer seems to be entrusted to the short phrase itself—“ten
         thousand years of joy.” By barely speaking or dancing, Okina has become
@@ -247,12 +246,13 @@ permalink: /about-okina/
         who had said, “Let us dance one dance.”
       </p>
       <p>
-        However, an examination of older forms of Okina reveals the possibility
-        that Okina and Sanbasō were once neither an “Okina representing being
-        itself” nor a “dancing Okina.”
+        However, an examination of older forms of <em>Okina</em> reveals the
+        possibility that Okina and Sanbasō were once neither an “Okina
+        representing being itself” nor a “dancing Okina.”
       </p>
       <h3>
-        2: The Editorial Art of Okina: The Departure from the “Narrating Elder”
+        2: The Editorial Art of <em>Okina</em>: The Departure from the
+        “Narrating Elder”
       </h3>
       <p>
         To state the conclusion first, it is highly probable that Okina,
@@ -271,7 +271,7 @@ permalink: /about-okina/
       </p>
       <p>
         Indeed, the elders in folk traditions that are thought to preserve older
-        forms of Okina are invariably loquacious. The elders of the
+        forms of <em>Okina</em> are invariably loquacious. The elders of the
         <em>Okina-mai</em> at Kamogawa Sumiyoshi Shrine (Hyōgo Prefecture), said
         to preserve traces of Kamakura-period Sarugaku, and the elders of the
         Nesoneso Festival in Mino-Hokkata (Gifu Prefecture), exhaustively
@@ -292,16 +292,16 @@ permalink: /about-okina/
         an elder of verbal encomium (kotohogi), who transforms unseen treasures
         into blessings through the power of words. The <em>takara-kazoe</em> is
         an ancient form of prayer also found in <em>tōka</em> songs and
-        <em>Dokōjin saimon</em> (Earth God litanies), which Okina likely
-        inherited.
+        <em>Dokōjin saimon</em> (Earth God litanies), which
+        <em>Okina</em> likely inherited.
       </p>
       <p>
-        Although the modern Noh Okina seems utterly different from this
+        Although the modern Noh <em>Okina</em> seems utterly different from this
         “narrating elder,” a line from a special production known as
         <em>Jūnigatsu Ōrai</em> (The Twelve Months) reads, “The Okina will now
         enumerate the sacred treasures of your offerings.” While no treasures
         are actually counted thereafter, this line suggests that a treasure
-        count was once part of Okina.
+        count was once part of <em>Okina</em>.
       </p>
       <p>
         Furthermore, consider the exchange between Okina and the jiutai that
@@ -340,40 +340,40 @@ permalink: /about-okina/
       <p>
         In the folk traditions, the elders respond to such questions by
         recounting their personal histories or launching into their boasts of
-        longevity. This seems a more natural progression. In the Noh Okina, it
-        appears that only a fragment of the original text was retained as an
-        enigmatic hint, marking a deliberate departure from the transparent
-        “narrating elder.”
+        longevity. This seems a more natural progression. In the Noh
+        <em>Okina</em>, it appears that only a fragment of the original text was
+        retained as an enigmatic hint, marking a deliberate departure from the
+        transparent “narrating elder.”
       </p>
       <p>
-        On the other hand, it is the style of the folk Okina to conclude these
-        long narrations by declaring they will dance a manzairaku, a feature it
-        shares with the Noh Okina.
+        On the other hand, it is the style of the folk <em>Okina</em> to
+        conclude these long narrations by declaring they will dance a
+        manzairaku, a feature it shares with the Noh <em>Okina</em>.
       </p>
       <p>
-        It can be said that the highly abstract Okina of today was perfected by
-        making extensive cuts. Ritualistic elements like hall blessings and
-        directional salutes, along with lengthy recitations like the treasure
-        count found in older congratulatory arts, were removed. This allowed the
-        main elder to leap to the status of a great deity who prays for “peace
-        throughout the land” with few words and solemn foot stamps. Sanbasō,
-        too, was elevated from a comedic narrator to a being who offers prayer
-        through dance. This completed the set piece of a white and black elder.
+        It can be said that the highly abstract <em>Okina</em> of today was
+        perfected by making extensive cuts. Ritualistic elements like hall
+        blessings and directional salutes, along with lengthy recitations like
+        the treasure count found in older congratulatory arts, were removed.
+        This allowed the main elder to leap to the status of a great deity who
+        prays for “peace throughout the land” with few words and solemn foot
+        stamps. Sanbasō, too, was elevated from a comedic narrator to a being
+        who offers prayer through dance. This completed the set piece of a white
+        and black elder.
       </p>
       <p>
-        Okina is the root of Sarugaku, but it is clear that it has undergone a
-        major editorial process to arrive at its present form. This is why it is
-        so difficult to trace the meaning of the text or to translate it. This
-        was a Sarugaku strategy that could be called the “re-enchantment” of
-        Okina.
+        <em>Okina</em> is the root of Sarugaku, but it is clear that it has
+        undergone a major editorial process to arrive at its present form. This
+        is why it is so difficult to trace the meaning of the text or to
+        translate it. This was a Sarugaku strategy that could be called the
+        “re-enchantment” of <em>Okina</em>.
       </p>
       <h3>3: Furyū—A Device to Amplify Auspiciousness</h3>
       <p>
         At times, a very accessible, short congratulatory play is inserted into
-        this abstract and ritualized Okina. This is the
-        <em>furyū</em>, inserted for special celebrations. Since the modern era,
-        it has sometimes been referred to by the academic term
-        <em>kyōgen furyū</em>.
+        this abstract and ritualized <em>Okina</em>. This is the <em>furyū</em>,
+        inserted for special celebrations. Since the modern era, it has
+        sometimes been referred to by the academic term <em>kyōgen furyū</em>.
       </p>
       <p>
         Performed by Kyōgen actors, <em>furyū</em> features auspicious figures
@@ -388,11 +388,11 @@ permalink: /about-okina/
       <p>
         Its origins are thought to lie in the Muromachi-period
         <em>yose-furyū</em> (a simple congratulatory song and dance performed by
-        Kyōgen actors to drum accompaniment, attached to Okina, as noted in the
-        <em>Kōshō Noh Kuden-sho</em>). However, it is also reminiscent of older
-        celebratory arts, such as the Pine Festival (<em>matsubayashi</em>) held
-        at New Year’s in the Muromachi period and the <em>ennen furyū</em> of
-        Buddhist temples.
+        Kyōgen actors to drum accompaniment, attached to <em>Okina</em>, as
+        noted in the <em>Kōshō Noh Kuden-sho</em>). However, it is also
+        reminiscent of older celebratory arts, such as the Pine Festival
+        (<em>matsubayashi</em>) held at New Year’s in the Muromachi period and
+        the <em>ennen furyū</em> of Buddhist temples.
       </p>
       <p>
         In the Edo period, <em>furyū</em> were performed at Edo Castle to
@@ -406,20 +406,21 @@ permalink: /about-okina/
         minutes.
       </p>
       <p>
-        The <em>furyū-tsuki</em> Okina (Okina with <em>furyū</em>) on this
-        occasion was specially planned to honor the legacy of the 750th
-        anniversary memorial Noh for Shinran Shōnin, which was to be held by
-        Higashi Honganji in 2011 but was cancelled due to the Great East Japan
-        Earthquake. In Kyōto, Honganji was a major venue for Noh performances
-        throughout the Edo period, on par with the Imperial court, and a great
-        patron of Noh actors. The 50-year memorial services were the largest of
-        these events, featuring numerous Noh and Kyōgen plays over several days.
-        It was on these occasions that <em>furyū</em> were performed. According
-        to records, the first was a <em>Shōchiku furyū</em> (Pine and Bamboo
-        <em>furyū</em>) for the 600th anniversary in 1861 (Bunkyū 1). Lavish
-        productions of Okina including <em>Shōchiku furyū</em> were also
-        performed for the 650th anniversary in 1911 (Meiji 44) and the 700th in
-        1961 (Shōwa 36). As the 750th anniversary was also supposed to feature
+        The <em>furyū-tsuki</em> <em>Okina</em> (<em>Okina</em> with
+        <em>furyū</em>) on this occasion was specially planned to honor the
+        legacy of the 750th anniversary memorial Noh for Shinran Shōnin, which
+        was to be held by Higashi Honganji in 2011 but was cancelled due to the
+        Great East Japan Earthquake. In Kyōto, Honganji was a major venue for
+        Noh performances throughout the Edo period, on par with the Imperial
+        court, and a great patron of Noh actors. The 50-year memorial services
+        were the largest of these events, featuring numerous Noh and Kyōgen
+        plays over several days. It was on these occasions that
+        <em>furyū</em> were performed. According to records, the first was a
+        <em>Shōchiku furyū</em> (Pine and Bamboo <em>furyū</em>) for the 600th
+        anniversary in 1861 (Bunkyū 1). Lavish productions of
+        <em>Okina</em> including <em>Shōchiku furyū</em> were also performed for
+        the 650th anniversary in 1911 (Meiji 44) and the 700th in 1961 (Shōwa
+        36). As the 750th anniversary was also supposed to feature
         <em>Shōchiku furyū</em>, this performance was realized in its stead.
       </p>
       <p>
@@ -436,32 +437,32 @@ permalink: /about-okina/
         The oldest extant record of a <em>kyōgen furyū</em> performance is of an
         <em>Ari furyū</em> (Ant <em>furyū</em>), performed on the second day of
         the fifth month of 1602 (Keichō 7), when the head of the Konparu school
-        performed Okina at the Imperial Palace by order of Tokugawa Ieyasu (from
-        the <em>Bunroku Keichō nenkan Onō-gumi</em> in the Kanze Bunko
-        archives). Surviving texts show it was a conceit based on wordplay
+        performed <em>Okina</em> at the Imperial Palace by order of Tokugawa
+        Ieyasu (from the <em>Bunroku Keichō nenkan Onō-gumi</em> in the Kanze
+        Bunko archives). Surviving texts show it was a conceit based on wordplay
         (<em>dajare</em>): the appearance of ants (<em>ari</em>) was prompted by
         the syllable <em>ari</em> in Senzai’s line
         <em>taezu tōtari ariudō</em> (Izumi school) or Sanbasō’s line
         <em>yorokobi ariya</em> (Sagi and Ōkura schools). This wordplay and
         sense of fun are also essential elements of <em>furyū</em>. It is worth
-        remembering that Okina was an art form that could accommodate such puns,
-        and that laughter itself was a vital component of celebration. It is
-        believed that, in keeping with the spirit of <em>furyū</em> as a unique,
-        one-off contrivance, new versions were once created for each occasion,
-        offering fresh and novel forms of blessing.
+        remembering that <em>Okina</em> was an art form that could accommodate
+        such puns, and that laughter itself was a vital component of
+        celebration. It is believed that, in keeping with the spirit of
+        <em>furyū</em> as a unique, one-off contrivance, new versions were once
+        created for each occasion, offering fresh and novel forms of blessing.
       </p>
       <p>
-        It is fascinating that, just as the modern Okina was edited to distance
-        itself from such accessible celebratory arts, a simple congratulatory
-        play can be inserted—as if in a reversal—independent of Okina’s
-        progression (even if linked by a clever but forced play on words). The
-        presence of a large Kyōgen chorus, the appearance of brightly attired
-        spirits, and their cheerful telling of auspicious tales all serve to
-        amplify the celebratory mood. This is a production that aligns with the
-        simple human sentiment that festivity is enhanced by making things more
-        lively and enjoyable. One might even say that <em>furyū</em> serves to
-        recover the elements of narration and laughter that have been lost from
-        the Okina of modern Noh.
+        It is fascinating that, just as the modern <em>Okina</em> was edited to
+        distance itself from such accessible celebratory arts, a simple
+        congratulatory play can be inserted—as if in a reversal—independent of
+        <em>Okina</em>’s progression (even if linked by a clever but forced play
+        on words). The presence of a large Kyōgen chorus, the appearance of
+        brightly attired spirits, and their cheerful telling of auspicious tales
+        all serve to amplify the celebratory mood. This is a production that
+        aligns with the simple human sentiment that festivity is enhanced by
+        making things more lively and enjoyable. One might even say that
+        <em>furyū</em> serves to recover the elements of narration and laughter
+        that have been lost from the <em>Okina</em> of modern Noh.
       </p>
       <h3>Selected Bibliography</h3>
       <!-- prettier-ignore -->

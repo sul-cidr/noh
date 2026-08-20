@@ -25,9 +25,7 @@ permalink: /noh-as-intermedia/
           Noh artists that while engaging deeply with ideals of their time, they
           created an art that is timeless.
         </p>
-        <h3 id="breath">
-          The Breath of Yin and Yang
-        </h3>
+        <h3 id="breath">The Breath of Yin and Yang</h3>
         <p>
           Literally and metaphorically, ‘breath’ is one of the primary unifying
           elements of Noh. It is the central model for the form. The recurring
@@ -83,7 +81,8 @@ permalink: /noh-as-intermedia/
           that leads in the second half to a resolution, sometimes accompanied
           by an entrance of the nohkan, ending in a brief slowdown (like in
 
-          <a href="/kokaji/sashi/" target="_blank"><em>sashi</em> of Kokaji)</a
+          <a href="/kokaji/sashi/" target="_blank"
+            ><em>sashi</em> of <em>Kokaji</em>)</a
           >. Longer and more complex <em>shōdan</em> may consist of more than
           one ‘breath.’ The principal sections of a <em>jonomai</em> dance
           called <em>dan</em>, hold within them a special moment of significant
@@ -194,9 +193,7 @@ permalink: /noh-as-intermedia/
           emotions but about evoking them in a powerful but subtle way.
         </p>
 
-        <h3 id="fluidity">
-          Fluidity of Time, Space and Identity
-        </h3>
+        <h3 id="fluidity">Fluidity of Time, Space and Identity</h3>
         <p>
           All in Noh is always fluid and gradual. It comes, among others, from
           striving for the Yin and Yang equilibrium. The timing of events within
@@ -244,9 +241,9 @@ permalink: /noh-as-intermedia/
           The fluidity of the aesthetic form expresses the fluidity of content.
           The minimalism of staging or even lack of references to particular
           locations allows for the space to be constantly redefined. Like in
-          Kokaji, a few hints in the text allow viewers’ imagination to adapt
-          and turn the imperial palace into Munechika’s home, workshop, or the
-          road to the Inari Shrine.
+          <em>Kokaji</em>, a few hints in the text allow viewers’ imagination to
+          adapt and turn the imperial palace into Munechika’s home, workshop, or
+          the road to the Inari Shrine.
         </p>
         <p>
           The polyvocality of text and transfer of identity between shite, waki,
@@ -254,11 +251,11 @@ permalink: /noh-as-intermedia/
           narrator, sharing a description, quote a poem, entering into a dialog
           with other characters and deities, and communicating their inner
           thoughts. Moreover, their voice can be transferred. An example of this
-          occurs at the beginning of Kokaji’s first <em>ageuta</em>. Typically,
-          the first line of text of an <em>ageuta’s</em> is recited by the shite
-          or waki, and then repeated. When the jiutai repeats the text, it
-          implies that it took over the communication of the thoughts of the
-          character.
+          occurs at the beginning of <em>Kokaji</em>’s first <em>ageuta</em>.
+          Typically, the first line of text of an <em>ageuta’s</em> is recited
+          by the shite or waki, and then repeated. When the jiutai repeats the
+          text, it implies that it took over the communication of the thoughts
+          of the character.
         </p>
         <p>
           Most Noh plays’ plots unfold around the identity of the shite. The
@@ -272,29 +269,27 @@ permalink: /noh-as-intermedia/
           learn the true identity of the original host of the spirit but when
           they return in the second act, they remain a mere spirit, rather than
           the person they once were. They are on the journey to enlightenment,
-          or as in Hashitomi, they may not even know whether they are a spirit
-          of a woman or of a flower. The fluidity of expressive means is a
-          reflection of this fluidity of identity.
+          or as in <em>Hashitomi</em>, they may not even know whether they are a
+          spirit of a woman or of a flower. The fluidity of expressive means is
+          a reflection of this fluidity of identity.
         </p>
         <p>
           It is interesting to observe how intermedia constructs this
-          instability of identity. In Hashitomi, when the shite appears, the
-          first clue is visual. The actor wears a mask of a young elegant woman
-          and a costume that depicts flowers along fences. The movement is
-          graceful and slow. Since the waki has spoken of performing a mass for
-          flowers it is equally possible that the main character is a spirit of
-          a flower or a village woman. The text, sung by the shite in the
-          <em>Rongi</em> gives the name "Yūgao," but because this is a common
-          flower name the identity remains ambiguous. As the play progresses,
-          the flower's name becomes a woman’s nickname. In the ai-kyōgen as in
-          the following <em>shōdan</em>, the name is associated with Genji's
-          lover, Lady Yūgao. The dance imitating her, when Genji talks about
-          Lady Yūgao, establishes the most direct connection. Through
-          intermedia, the richness of the identity develops.
+          instability of identity. In <em>Hashitomi</em>, when the shite
+          appears, the first clue is visual. The actor wears a mask of a young
+          elegant woman and a costume that depicts flowers along fences. The
+          movement is graceful and slow. Since the waki has spoken of performing
+          a mass for flowers it is equally possible that the main character is a
+          spirit of a flower or a village woman. The text, sung by the shite in
+          the <em>Rongi</em> gives the name "Yūgao," but because this is a
+          common flower name the identity remains ambiguous. As the play
+          progresses, the flower's name becomes a woman’s nickname. In the
+          ai-kyōgen as in the following <em>shōdan</em>, the name is associated
+          with Genji's lover, Lady Yūgao. The dance imitating her, when Genji
+          talks about Lady Yūgao, establishes the most direct connection.
+          Through intermedia, the richness of the identity develops.
         </p>
-        <h3 id="abstraction">
-          Engaging Abstraction
-        </h3>
+        <h3 id="abstraction">Engaging Abstraction</h3>
         <p>
           Intermedia, through immersing all the senses, can imitate reality,
           although theatrical traditions differ in the level of realism of
@@ -343,26 +338,27 @@ permalink: /noh-as-intermedia/
           costumes, the pitch of the chant and <em>kakegoe</em> of drummers is
           lower and more solemn, and the tempo of music and dance is slower. On
           the contrary, a lower (lighter) <em>kurai</em> does not demand as much
-          subtlety. Hashitomi and Kokaji both lighter in <em>kurai</em>, feature
-          young character as protagonists; the plays are short; the dramatic
-          themes are not particularly serious. Consequently, they have been
-          included in introductory repertoire for young actors and musicians.
+          subtlety. <em>Hashitomi</em> and <em>Kokaji</em> both lighter in
+          <em>kurai</em>, feature young character as protagonists; the plays are
+          short; the dramatic themes are not particularly serious. Consequently,
+          they have been included in introductory repertoire for young actors
+          and musicians.
         </p>
         <p>
           Besides this usage, Noh actors and musicians use <em>kurai</em> to
           identify the style of performance. In this case the word refers to the
           atmosphere created by the protagonist’s character, emotions, and
           dramatic setting. An actor or musician may say, ‘Let’s perform this
-          music and dance in Hashitomi’s <em>kurai</em>.' Other actors and
-          musicians immediately understand what is the proper tempo, timbre,
+          music and dance in <em>Hashitomi</em>’s <em>kurai</em>.' Other actors
+          and musicians immediately understand what is the proper tempo, timbre,
           gravity and atmosphere of the music and dance. They might imagine
-          Hashitomi’s protagonist, a ghost of young lady (or a flower) who, in
-          the evening of an autumn day tells of her encounter with a noble man,
-          Genji. The intermedia nature of <em>kurai</em> and its importance is
-          one of the main keys to understanding Noh as intermedia.
+          <em>Hashitomi</em>’s protagonist, a ghost of young lady (or a flower)
+          who, in the evening of an autumn day tells of her encounter with a
+          noble man, Genji. The intermedia nature of <em>kurai</em> and its
+          importance is one of the main keys to understanding Noh as intermedia.
         </p>
         <p>
-          As an example, Act Two of Hashitomi includes a section called
+          As an example, Act Two of <em>Hashitomi</em> includes a section called
           <em>Jonomai</em>, an instrumental dance without text or singing. The
           exact same dance is also performed in other plays, including Izutsu,
           Nonomiya and Eguchi featuring women who are older and have different
@@ -384,8 +380,8 @@ permalink: /noh-as-intermedia/
             ><em>Maibataraki</em></a
           >
 
-          dance in the second act of Kokaji, featuring a lively god as the
-          protagonist. Although both use the same melodies, the
+          dance in the second act of <em>Kokaji</em>, featuring a lively god as
+          the protagonist. Although both use the same melodies, the
           <em>kurai</em> of both are entirely different. The choreography of the
           first section (<em>kakari</em>) of both dances is almost the same: the
           shite steps from square 1 to 3, turns left and goes to 5, then moves
