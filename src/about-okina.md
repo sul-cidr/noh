@@ -10,7 +10,7 @@ permalink: /about-okina/
     <div class="wrapper wrapper--small">
       <h2>
         A Celebration Beyond Celebration: The Mechanisms <br />of
-        <em>Okina</em> and Furyū
+        <em>Okina</em> and <em>Furyū</em>
       </h2>
       <p><em>By OKIMOTO Yukiko</em></p>
       <p>
@@ -368,7 +368,7 @@ permalink: /about-okina/
         translate it. This was a Sarugaku strategy that could be called the
         “re-enchantment” of <em>Okina</em>.
       </p>
-      <h3>3: Furyū—A Device to Amplify Auspiciousness</h3>
+      <h3>3: <em>Furyū</em>—A Device to Amplify Auspiciousness</h3>
       <p>
         At times, a very accessible, short congratulatory play is inserted into
         this abstract and ritualized <em>Okina</em>. This is the <em>furyū</em>,
