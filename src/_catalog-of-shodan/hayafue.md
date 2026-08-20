@@ -30,8 +30,8 @@ second-level-menu-active: catalog-shodan
 
     <p>
       Lively music for the entrance of a dragon, spirit, or deity, as it is the
-      case in Kokaji. It is a nohkan congruent solo accompanied by the three
-      percussion instruments. The eight-beat introduction melody called
+      case in <em>Kokaji</em>. It is a nohkan congruent solo accompanied by the
+      three percussion instruments. The eight-beat introduction melody called
       <em>kakari</em> opens with the strident
 
       <a href="/music/nohkan/hishigi"><em>hishigi</em></a>
@@ -43,9 +43,10 @@ second-level-menu-active: catalog-shodan
     </p>
 
     <p>
-      The performance in this video is based on Kokaji's <em>hayafue</em> and
-      includes the three-<em>honji</em> bridge from the preceding
-      <em>shōdan</em>, a <em>noriji</em>. The taiko performs a complete
+      The performance in this video is based on <em>Kokaji</em>'s
+      <em>hayafue</em> and includes the three-<em>honji</em> bridge from the
+      preceding <em>shōdan</em>, a <em>noriji</em>. The taiko performs a
+      complete
 
       <a href="/music/taiko/#Patterns"><em>cycle</em></a>
 

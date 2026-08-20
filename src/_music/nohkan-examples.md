@@ -156,11 +156,11 @@ third-level-menu-active: nohkan
           given to basic patterns in different contexts. The
           <em>Naka no takane</em>, <em>Takane mi kusari</em>, and
           <em>Tome no te</em> patterns are first heard in their ‘generic’ form,
-          and then performed in <em>Kuse</em> of Kokaji, involving a male deity,
-          and in <em>Kuse</em> of Hashitomi, showcasing a young maiden. The
-          stronger attack and faster speed of the former, fitting in the context
-          of a divine being, contrasts in the latter with a softer attack and
-          slower speed appropriate for a maiden.
+          and then performed in <em>Kuse</em> of <em>Kokaji</em>, involving a
+          male deity, and in <em>Kuse</em> of <em>Hashitomi</em>, showcasing a
+          young maiden. The stronger attack and faster speed of the former,
+          fitting in the context of a divine being, contrasts in the latter with
+          a softer attack and slower speed appropriate for a maiden.
         </p>
 
         <h4 id="naka-no-takane">Naka no takane</h4>
@@ -258,13 +258,13 @@ third-level-menu-active: nohkan
           <em>shōdan</em> or play.
         </p>
         <p>
-          Hashitomi's <em>Tome no te</em> slightly differs from the 'generic'
-          pattern, since the bright last '<em>ri </em>' of the first line is not
-          played. This is shown in the video with parenthesis '(ri)'. In
-          Hashitomi the <em>Tome no te</em> pattern leads to the high and
-          shrilling <em>hishigi</em> pattern, not included in this video. Thus,
-          one could stipulate that it is to save the higher range for that last
-          pattern, that the '<em>ri</em> ' is left out in the
+          <em>Hashitomi</em>'s <em>Tome no te</em> slightly differs from the
+          'generic' pattern, since the bright last '<em>ri </em>' of the first
+          line is not played. This is shown in the video with parenthesis
+          '(ri)'. In <em>Hashitomi</em> the <em>Tome no te</em> pattern leads to
+          the high and shrilling <em>hishigi</em> pattern, not included in this
+          video. Thus, one could stipulate that it is to save the higher range
+          for that last pattern, that the '<em>ri</em> ' is left out in the
           <em>Tome no te's</em> first line.
         </p>
 

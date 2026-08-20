@@ -21,8 +21,8 @@ permalink: /staging/
       <p>
         Although properties are sometimes used, the bare stage is the common
         space to all plays. Besides few exceptions, props are symbolic rather
-        than actual representation of for instance, a dwelling as in Hashitomi,
-        or a forge, as in Kokaji.
+        than actual representation of for instance, a dwelling as in
+        <em>Hashitomi</em>, or a forge, as in <em>Kokaji</em>.
       </p>
       <p>
         Symbolism is also behind the selection of a costume, since in choosing
