@@ -75,176 +75,150 @@
 // composed percussion cells -- two images
 ///////////////////////////////////////////
 .cell--percussion-bcbc,
+.cell--percussion-bcpu,
 .cell--percussion-bcwc,
 .cell--percussion-bcwt,
 .cell--percussion-btbc,
 .cell--percussion-btko,
 .cell--percussion-btwc,
 .cell--percussion-btwt,
+.cell--percussion-hnbc,
+.cell--percussion-hnbt,
+.cell--percussion-hnwt,
+.cell--percussion-hobc,
+.cell--percussion-hobt,
+.cell--percussion-hoch,
+.cell--percussion-hopu,
+.cell--percussion-howc,
+.cell--percussion-howt,
+.cell--percussion-ibc,
+.cell--percussion-iyapu-1,
+.cell--percussion-iyapu,
+.cell--percussion-iyawt-1,
+.cell--percussion-iyawt,
+.cell--percussion-obc,
+.cell--percussion-puwc,
+.cell--percussion-wcpu,
+.cell--percussion-wcwc,
+.cell--percussion-wcwt,
 .cell--percussion-wtbc,
 .cell--percussion-wtko,
 .cell--percussion-wtwc,
-.cell--percussion-wtwt {
-  background-position: calc(50% - 9px) center, calc(50% + 9px) center;
-}
-
-.cell--percussion-bcbc {
-  background-image: url("./images/note-obci.svg"), url("./images/note-obci.svg");
-}
-.cell--percussion-bcwc {
-  background-image: url("./images/note-obci.svg"), url("./images/note-kwci.svg");
-}
-.cell--percussion-bcwt {
-  background-image: url("./images/note-obci.svg"), url("./images/note-owtr.svg");
-}
-.cell--percussion-btbc {
-  background-image: url("./images/note-obtr.svg"), url("./images/note-obci.svg");
-}
-.cell--percussion-btko {
-  background-image: url("./images/note-obtr.svg"), url("./images/note-kopu.svg");
-}
-.cell--percussion-btwc {
-  background-image: url("./images/note-obtr.svg"), url("./images/note-kwci.svg");
-}
-.cell--percussion-btwt {
-  background-image: url("./images/note-obtr.svg"), url("./images/note-owtr.svg");
-}
-.cell--percussion-wtbc {
-  background-image: url("./images/note-owtr.svg"), url("./images/note-obci.svg");
-}
-.cell--percussion-wtko {
-  background-image: url("./images/note-owtr.svg"), url("./images/note-kopu.svg");
-}
-.cell--percussion-wtwc {
-  background-image: url("./images/note-owtr.svg"), url("./images/note-kwci.svg");
-}
-.cell--percussion-wtwt {
-  background-image: url("./images/note-owtr.svg"), url("./images/note-owtr.svg");
-}
-
-/////////////////////////////////////////////
-// composed percussion cells -- text + image
-/////////////////////////////////////////////
-.cell--percussion-hobc,
-.cell--percussion-hoch,
-.cell--percussion-howc,
-.cell--percussion-ibc,
-.cell--percussion-iyapu,
-.cell--percussion-obc,
+.cell--percussion-wtwt,
 .cell--percussion-yobc,
 .cell--percussion-yoch,
 .cell--percussion-yoibc,
 .cell--percussion-yopu,
-.cell--percussion-yowi {
-  background-position: calc(50% + 10px) center;
+.cell--percussion-yowc {
+  background-position: center;
+  background-size: 25px;
 }
 
+.cell--percussion-bcbc {
+  background-image: url("./images/note-bcbc.svg");
+}
+.cell--percussion-bcpu {
+  background-image: url("./images/note-bcpu.svg");
+}
+.cell--percussion-bcwc {
+  background-image: url("./images/note-bcwc.svg");
+}
+.cell--percussion-bcwt {
+  background-image: url("./images/note-bcwt.svg");
+}
+.cell--percussion-btbc {
+  background-image: url("./images/note-btbc.svg");
+}
+.cell--percussion-btko {
+  background-image: url("./images/note-btko.svg");
+}
+.cell--percussion-btwc {
+  background-image: url("./images/note-btwc.svg");
+}
+.cell--percussion-btwt {
+  background-image: url("./images/note-btwt.svg");
+}
+.cell--percussion-hnbc {
+  background-image: url("./images/note-hnbc.svg");
+}
+.cell--percussion-hnbt {
+  background-image: url("./images/note-hnbt.svg");
+}
+.cell--percussion-hnwt {
+  background-image: url("./images/note-hnwt.svg");
+}
 .cell--percussion-hobc {
-  background-image: url("./images/note-obci.svg");
-
-  &::before {
-    content: "ho";
-    left: calc(50% - 16px);
-    position: absolute;
-  }
+  background-image: url("./images/note-hobc.svg");
 }
-
+.cell--percussion-hobt {
+  background-image: url("./images/note-hobt.svg");
+}
 .cell--percussion-hoch {
-  background-image: url("./images/note-chun.svg");
-
-  &::before {
-    content: "ho";
-    left: calc(50% - 16px);
-    position: absolute;
-  }
+  background-image: url("./images/note-hoch.svg");
 }
-
+.cell--percussion-hopu {
+  background-image: url("./images/note-hopu.svg");
+}
 .cell--percussion-howc {
-  background-image: url("./images/note-kwci.svg");
-
-  &::before {
-    content: "ho";
-    left: calc(50% - 16px);
-    position: absolute;
-  }
+  background-image: url("./images/note-howc.svg");
 }
-
+.cell--percussion-howt {
+  background-image: url("./images/note-howt.svg");
+}
 .cell--percussion-ibc {
-  background-image: url("./images/note-obci.svg");
-
-  &::before {
-    content: "o";
-    left: calc(50% - 10px);
-    position: absolute;
-  }
+  background-image: url("./images/note-ibc.svg");
 }
-
+.cell--percussion-iyapu-1 {
+  background-image: url("./images/note-iyapu-1.svg");
+}
 .cell--percussion-iyapu {
-  background-image: url("./images/note-kopu.svg");
-
-  &::before {
-    content: "iya";
-    left: calc(50% - 18px);
-    position: absolute;
-  }
+  background-image: url("./images/note-iyapu.svg");
 }
-
+.cell--percussion-iyawt-1 {
+  background-image: url("./images/note-iyawt-1.svg");
+}
+.cell--percussion-iyawt {
+  background-image: url("./images/note-iyawt.svg");
+}
 .cell--percussion-obc {
-  background-image: url("./images/note-obci.svg");
-
-  &::before {
-    content: "o";
-    left: calc(50% - 14px);
-    position: absolute;
-  }
+  background-image: url("./images/note-obc.svg");
 }
-
+.cell--percussion-puwc {
+  background-image: url("./images/note-puwc.svg");
+}
+.cell--percussion-wcpu {
+  background-image: url("./images/note-wcpu.svg");
+}
+.cell--percussion-wcwc {
+  background-image: url("./images/note-wcwc.svg");
+}
+.cell--percussion-wcwt {
+  background-image: url("./images/note-wcwt.svg");
+}
+.cell--percussion-wtbc {
+  background-image: url("./images/note-wtbc.svg");
+}
+.cell--percussion-wtko {
+  background-image: url("./images/note-wtko.svg");
+}
+.cell--percussion-wtwc {
+  background-image: url("./images/note-wtwc.svg");
+}
+.cell--percussion-wtwt {
+  background-image: url("./images/note-wtwt.svg");
+}
 .cell--percussion-yobc {
-  background-image: url("./images/note-obci.svg");
-
-  &::before {
-    content: "yo";
-    left: calc(50% - 16px);
-    position: absolute;
-  }
+  background-image: url("./images/note-yobc.svg");
 }
-
 .cell--percussion-yoch {
-  background-image: url("./images/note-chun.svg");
-
-  &::before {
-    content: "yo";
-    left: calc(50% - 16px);
-    position: absolute;
-  }
+  background-image: url("./images/note-yoch.svg");
 }
-
 .cell--percussion-yoibc {
-  background-image: url("./images/note-obci.svg");
-
-  &::before {
-    content: "yoi";
-    left: calc(50% - 18px);
-    position: absolute;
-  }
+  background-image: url("./images/note-yoibc.svg");
 }
-
 .cell--percussion-yopu {
-  background-image: url("./images/note-kopu.svg");
-
-  &::before {
-    content: "yo";
-    position: absolute;
-    left: calc(50% - 16px);
-  }
+  background-image: url("./images/note-yopu.svg");
 }
-
-.cell--percussion-yowi {
-  background-image: url("./images/note-kbci.svg");
-
-  &::before {
-    content: "yo";
-    position: absolute;
-    left: calc(50% - 16px);
-  }
+.cell--percussion-yowc {
+  background-image: url("./images/note-yowc.svg");
 }
