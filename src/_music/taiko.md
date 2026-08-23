@@ -10,9 +10,7 @@ fourth-level-menu-active: sound
 
 <main class="page-content">
   <div class="wrapper sidebar-contents">
-    <aside class="sidebar-contents__table">
-      {% include menu-taiko.html %}
-    </aside>
+    <aside class="sidebar-contents__table">{% include menu-taiko.html %}</aside>
     <section class="sidebar-contents__section">
       <div class="text-container">
         <h2 id="Taiko">Taiko (Stick Drum)</h2>
@@ -79,16 +77,17 @@ fourth-level-menu-active: sound
         src="https://d3msn78fivoryj.cloudfront.net/Academic_sl/Taiko-Cycle_of_patterns.mp4"
         %}
 
-        <h4>Sequence of patterns in Kokaji's Maibataraki</h4>
+        <h4>Sequence of patterns in <em>Kokaji</em>'s Maibataraki</h4>
         <p>
-          The <em>Maibataraki</em> dance from Kokaji follows immediately a
-          <em>Noriji</em> chant. The Closing pattern, <em>uchikomi</em>, which
-          begins the recording, followed by the Head pattern, <em>kashira</em>,
-          close the chant module and signal the imminent beginning of the
-          <em>Maibataraki</em>, whose principal rhythmic sequence starts with
-          the Head pattern, <em>tsuke gashira</em> (third line). The last
-          <em>uchikomi</em> and <em>kashira</em> patterns (fifth and sixth
-          lines) form the dance’s Closing section.
+          The <em>Maibataraki</em> dance from <em>Kokaji</em> follows
+          immediately a <em>Noriji</em> chant. The Closing pattern,
+          <em>uchikomi</em>, which begins the recording, followed by the Head
+          pattern, <em>kashira</em>, close the chant module and signal the
+          imminent beginning of the <em>Maibataraki</em>, whose principal
+          rhythmic sequence starts with the Head pattern,
+          <em>tsuke gashira</em> (third line). The last <em>uchikomi</em> and
+          <em>kashira</em> patterns (fifth and sixth lines) form the dance’s
+          Closing section.
         </p>
 
         {% include image.html src="/assets/images/taiko-maibataraki.png" %} {%

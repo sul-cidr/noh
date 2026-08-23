@@ -58,14 +58,14 @@ fourth-level-menu-active: sound
           order." %} {% include video.html
           src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
           link="Shite and waki " title="Kokaji – Mondō" paragraph1="The mondō
-          from Kokaji is a spoken dialogue between the shite (a divine being)
-          and waki (sword maker). The former sits on the left, and the latter on
-          the right. This example offers two points of comparison between the
-          kotoba styles of shite and waki." paragraph2="The first point relates
-          to the gradual rising tone. While they both use a rising line to get
-          to a peak-tone, the overall ascent of the shite’s line is more subdued
-          compared with the waki’s. The second point relates to the rhythm of
-          delivery, the shite’s being much slower than the waki."
+          from <em>Kokaji</em> is a spoken dialogue between the shite (a divine
+          being) and waki (sword maker). The former sits on the left, and the
+          latter on the right. This example offers two points of comparison
+          between the kotoba styles of shite and waki." paragraph2="The first
+          point relates to the gradual rising tone. While they both use a rising
+          line to get to a peak-tone, the overall ascent of the shite’s line is
+          more subdued compared with the waki’s. The second point relates to the
+          rhythm of delivery, the shite’s being much slower than the waki."
           paragraph3="These are not to be understood as universal stylistic
           characteristics, but rather as performance differences, the shite’s
           less flamboyant style being well suited for a deity rather than a mere
@@ -146,11 +146,11 @@ fourth-level-menu-active: sound
           src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
           link="Tsuyogin" title="Kokaji/Kuri" paragraph1="The module’s name
           refers to the high pitch Kuri, hence the module’s melody is set in the
-          higher register. Kokaji’s kuri includes four melodic motions towards
-          the Kuri. They appear as for the kuri’s signature closing melisma
-          called hon-yuri, the pitch module’s pitch material focuses on the
-          Medium/High tone.part of embellishments in several words highlighted
-          in the video with colored syllables." %}
+          higher register. <em>Kokaji</em>’s kuri includes four melodic motions
+          towards the Kuri. They appear as for the kuri’s signature closing
+          melisma called hon-yuri, the pitch module’s pitch material focuses on
+          the Medium/High tone.part of embellishments in several words
+          highlighted in the video with colored syllables." %}
         </section>
       </div>
     </div>

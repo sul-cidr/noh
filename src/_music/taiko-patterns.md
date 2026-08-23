@@ -47,11 +47,11 @@ fourth-level-menu-active:
           src="https://d3msn78fivoryj.cloudfront.net/bh626gj8179_sl.mp4"
           link="Tsuyogin" title="Kokaji/Kuri" paragraph1="The module’s name
           refers to the high pitch Kuri, hence the module’s melody is set in the
-          higher register. Kokaji’s kuri includes four melodic motions towards
-          the Kuri. They appear as for the kuri’s signature closing melisma
-          called hon-yuri, the pitch module’s pitch material focuses on the
-          Medium/High tone.part of embellishments in several words highlighted
-          in the video with colored syllables." %}
+          higher register. <em>Kokaji</em>’s kuri includes four melodic motions
+          towards the Kuri. They appear as for the kuri’s signature closing
+          melisma called hon-yuri, the pitch module’s pitch material focuses on
+          the Medium/High tone.part of embellishments in several words
+          highlighted in the video with colored syllables." %}
         </section>
       </div>
     </div>

@@ -116,7 +116,8 @@ permalink: /text-kokaji/
             <td class="content-table__column">
               <h5>Wakizure:</h5>
               I am a messenger from the Emperor.<br />
-              His Majesty has this night had a marvelous oracle in a dream. <br />
+              His Majesty has this night had a marvelous oracle in a dream.
+              <br />
               According to the oracle you must forge a fine sword for him.
               <br />
               Please comply with this order at once.

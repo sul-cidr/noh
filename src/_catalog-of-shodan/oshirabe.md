@@ -65,18 +65,19 @@ second-level-menu-active: catalog-shodan
       range, middle one in its higher register, and the prescribed sequenced
       entrance of the percussion instruments, is common to all
       <em>Oshirabe</em>. But differences in its performance help set different
-      moods. One obvious difference between Kokaji and Hashitomi’s
-      <em>Oshirabe</em> is the timbre, since Kokaji's instrumentation includes a
-      taiko, whereas Hashitomi's does not. Subtle differences can also help set
-      distinct moods. For instance, the performance of Hashitomi’s
-      <em>Oshirabe</em> in our recordings is longer than Kokaji’s by more than
-      twenty seconds, suggesting that the musicians felt that longer durations
-      were appropriate to set the mood for a play about a young woman or a
-      flower, compared with shorter durations for a play featuring a dynamic
-      deity. Because all <em>Oshirabe</em> consist of the same musical material,
-      the audience can pick up on its unique, expressive inflection. After
-      finishing and before entering the stage, the musicians bow to each other,
-      reinforcing their unity as a group.
+      moods. One obvious difference between <em>Kokaji</em> and
+      <em>Hashitomi</em>’s <em>Oshirabe</em> is the timbre, since
+      <em>Kokaji</em>'s instrumentation includes a taiko, whereas
+      <em>Hashitomi</em>'s does not. Subtle differences can also help set
+      distinct moods. For instance, the performance of <em>Hashitomi</em>’s
+      <em>Oshirabe</em> in our recordings is longer than <em>Kokaji</em>’s by
+      more than twenty seconds, suggesting that the musicians felt that longer
+      durations were appropriate to set the mood for a play about a young woman
+      or a flower, compared with shorter durations for a play featuring a
+      dynamic deity. Because all <em>Oshirabe</em> consist of the same musical
+      material, the audience can pick up on its unique, expressive inflection.
+      After finishing and before entering the stage, the musicians bow to each
+      other, reinforcing their unity as a group.
     </p>
 
     <div class="tabs-container">

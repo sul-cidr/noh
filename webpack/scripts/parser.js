@@ -58,6 +58,25 @@ export const logError = (...messages) => {
   throw new ParserException(messages && messages[0]);
 };
 
+// Summarize a failed CSV download as a short, single-line reason instead of
+//  dumping the raw axios error/response object (which can include a full
+//  HTML page body and crowds out the actual problem).
+export const describeDownloadError = (error) => {
+  if (error.response) {
+    const { status, data } = error.response;
+    const snippet =
+      typeof data === "string"
+        ? ` — ${data
+            .replace(/<[^>]*>/g, " ")
+            .replace(/\s+/g, " ")
+            .trim()
+            .slice(0, 160)}`
+        : "";
+    return `HTTP ${status}${snippet}`;
+  }
+  return error.message || String(error);
+};
+
 export const toCamelCase = (str) =>
   str
     .toLowerCase()
@@ -234,10 +253,29 @@ export const processCaptions = (data) => {
 export const downloadCSV = (url) =>
   http
     .get(url.replace("edit#gid", "export?format=csv&gid"))
-    .then((response) =>
-      Papa.parse(response.data.trim(), { skipEmptyLines: true })
-    )
-    .catch((error) => logError(`Unable to download ${url}`, error));
+    .then((response) => {
+      if (
+        typeof response.data === "string" &&
+        /^\s*<!DOCTYPE html/i.test(response.data)
+      ) {
+        // Google returns a 200 with an HTML "Page Not Found" / "unable to
+        //  open the file" page (instead of an HTTP error) when a sheet or
+        //  gid is missing, unshared, or has been deleted.
+        throw new Error(
+          "received an HTML page instead of CSV data — the sheet may be " +
+            "unshared, deleted, or the gid may no longer exist"
+        );
+      }
+      return Papa.parse(response.data.trim(), { skipEmptyLines: true });
+    })
+    .catch((error) => {
+      // Re-throw a short, descriptive message rather than the raw
+      //  axios error/response — the caller is responsible for logging
+      //  it (with its own context) via logError.
+      throw new Error(
+        `Unable to download ${url}: ${describeDownloadError(error)}`
+      );
+    });
 
 export const main = (configPath, quiet) => {
   if (!configPath) {
@@ -287,14 +325,17 @@ export const main = (configPath, quiet) => {
               logError(
                 `Unable to process section data for ` +
                   `${play.playName}'s ${section.sectionName}`,
-                error
+                error.message || String(error)
               );
             })
         );
       });
     });
   } catch (error) {
-    logError(`Malformed config file ${configPath}`, error);
+    logError(
+      `Malformed config file ${configPath}`,
+      error.message || String(error)
+    );
   }
   process.exitCode = 0;
   return Promise.all(promises)
@@ -351,7 +392,7 @@ export const main = (configPath, quiet) => {
       }
     })
     .catch((error) => {
-      logError(error.message || "Unable to write play data", error);
+      logError(error.message || "Unable to write play data");
     });
 };
 
@@ -363,5 +404,5 @@ if (!module.parent) {
       ? process.argv[2]
       : parserConfig,
     ["-q", "--quiet"].includes(process.argv.slice(-1)[0])
-  );
+  ).catch(() => process.exit(1));
 }

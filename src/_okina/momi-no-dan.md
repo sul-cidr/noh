@@ -1,5 +1,5 @@
 ---
-title: Momi no Dan
+title: Mominodan
 play: Okina
 layout: section
 ---

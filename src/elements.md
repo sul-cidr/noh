@@ -35,13 +35,13 @@ permalink: /elements/
       patterns." %} {% include card.html link="/movement/"
       image="/assets/images/Hashitomi-2shite-profile-close.jpg" title="Movement"
       description="Introduces principle dance forms, and analyzes shimai dances
-      from Hashitomi and Kokaji." %} {% include card.html link="/text/"
-      image="/assets/images/utaibon.png" title="Text" description="Introduces
-      categories of text and presents libretti of Hashitomi and Kokaji in Romaji
-      transliteration and English translation." %} {% include card.html
-      link="/staging/" image="/assets/images/Kokaji2.png" title="Staging"
-      description="Discusses the use of the Noh stage, masks, costumes and
-      properties." %}
+      from <em>Hashitomi</em> and <em>Kokaji</em>." %} {% include card.html
+      link="/text/" image="/assets/images/utaibon.png" title="Text"
+      description="Introduces categories of text and presents libretti of
+      <em>Hashitomi</em> and <em>Kokaji</em> in Romaji transliteration and
+      English translation." %} {% include card.html link="/staging/"
+      image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
+      the use of the Noh stage, masks, costumes and properties." %}
     </div>
   </div>
 </main>

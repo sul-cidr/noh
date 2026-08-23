@@ -7,7 +7,7 @@ layout: home
 
 <div
   class="home__hero"
-  style="background-image: url('/assets/images/Hashi3.jpg');"
+  style="background-image: url(&quot;/assets/images/Hashi3.jpg&quot;)"
 >
   <div class="wrapper">
     <div class="home__hero-content">
@@ -85,13 +85,14 @@ layout: home
       link="/about-movement/" link-catalog="/movement/" name-catalog="Catalog of
       Kata" image="/assets/images/Hashitomi-2shite-profile-close.jpg"
       title="Movement" description="Introduces principal dance forms, and
-      analyzes shimai dances from Hashitomi and Kokaji." %} {% include
-      home-element.html link="/text/" image="/assets/images/utaibon.png"
+      analyzes shimai dances from <em>Hashitomi</em> and <em>Kokaji</em>." %} {%
+      include home-element.html link="/text/" image="/assets/images/utaibon.png"
       title="Text" description="Introduces categories of text and presents
-      libretti from Hashitomi and Kokaji in Romaji transliteration and English
-      translation." %} {% include home-element.html link="/staging/"
-      image="/assets/images/Kokaji2.png" title="Staging" description="Discusses
-      the use of the Noh stage, masks, costumes and properties." %}
+      libretti from <em>Hashitomi</em> and <em>Kokaji</em> in Romaji
+      transliteration and English translation." %} {% include home-element.html
+      link="/staging/" image="/assets/images/Kokaji2.png" title="Staging"
+      description="Discusses the use of the Noh stage, masks, costumes and
+      properties." %}
     </div>
   </div>
 </div>
