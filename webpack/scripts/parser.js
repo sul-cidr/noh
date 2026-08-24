@@ -35,6 +35,7 @@ export const defaultTextStyle = "$";
 export const voiceStyles = {
   J: "jiutai",
   S: "shite",
+  St: "shitezure",
   W: "waki",
   Wt: "wakizure",
   A: "aikyōgen",
