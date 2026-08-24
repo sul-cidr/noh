@@ -11,10 +11,10 @@ import { convertSecondsToHhmmss } from "../utils";
 //  webpack at build time:
 const dataFolder = path.join("data");
 
-// Limit Google docs API requests to 10/sec to avoid being blocked
+// Limit Google docs API requests to 5/sec to avoid being blocked
 const http = rateLimit(axios.create(), {
   maxRequests: 1,
-  perMilliseconds: 100
+  perMilliseconds: 200
 });
 
 export const parserConfig = path.join("webpack", "config", "parser.json");
@@ -252,7 +252,11 @@ export const processCaptions = (data) => {
   );
 };
 
-export const downloadCSV = (url) =>
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const MAX_DOWNLOAD_ATTEMPTS = 4;
+
+export const downloadCSV = (url, attempt = 1) =>
   http
     .get(url.replace("edit#gid", "export?format=csv&gid"))
     .then((response) => {
@@ -271,6 +275,18 @@ export const downloadCSV = (url) =>
       return Papa.parse(response.data.trim(), { skipEmptyLines: true });
     })
     .catch((error) => {
+      // Network-level failures (no HTTP response at all — connection
+      //  resets, DNS hiccups) and 429/5xx responses (Google throttling
+      //  or briefly rejecting the runner's IP) are worth retrying with
+      //  backoff; other HTTP errors and malformed responses are not
+      //  going to fix themselves on retry.
+      const status = error.response && error.response.status;
+      const isRetryable = !status || status === 429 || status >= 500;
+      if (isRetryable && attempt < MAX_DOWNLOAD_ATTEMPTS) {
+        return wait(500 * 2 ** (attempt - 1)).then(() =>
+          downloadCSV(url, attempt + 1)
+        );
+      }
       // Re-throw a short, descriptive message rather than the raw
       //  axios error/response — the caller is responsible for logging
       //  it (with its own context) via logError.
