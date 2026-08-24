@@ -57,8 +57,9 @@ layout: home
       These pages feature complete recordings and the in-depth intermedia
       analysis of four plays.
     </p>
-    {% for play in site.plays %} {% unless play.url contains "/narratives/" %}
-    {% include home-play.html link=play.url image=play.image title=play.title
+    {% assign sorted_plays = site.plays | sort: "order" %} {% for play in
+    sorted_plays %} {% unless play.url contains "/narratives/" %} {% include
+    home-play.html link=play.url image=play.image title=play.title
     description=play.description %} {% endunless %} {% endfor %}
   </div>
 </div>
