@@ -236,16 +236,18 @@ export const processMetadata = (data) => {
 };
 
 export const processCaptions = (data) => {
-  const keys = data[0].filter(Boolean).map((str) => toCamelCaseTrim(str));
+  const keys = data[0].map((str) => (str ? toCamelCaseTrim(str) : null));
   const rows = data.slice(1);
   return rows.map((row) =>
     Object.assign(
       {},
-      ...[...Array(row.length).keys()].map((idx) => ({
-        [keys[idx]]: keys[idx].toLowerCase().includes("time")
-          ? parseTime(row[idx])
-          : row[idx].trim()
-      }))
+      ...[...Array(row.length).keys()]
+        .filter((idx) => keys[idx])
+        .map((idx) => ({
+          [keys[idx]]: keys[idx].toLowerCase().includes("time")
+            ? parseTime(row[idx])
+            : row[idx].trim()
+        }))
     )
   );
 };
