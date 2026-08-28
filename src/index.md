@@ -55,12 +55,17 @@ layout: home
     <h2 id="Plays" class="home-section__title">Plays</h2>
     <p class="home__intermedia-description">
       These pages feature complete recordings and the in-depth intermedia
-      analysis of four plays.
+      analysis of six plays – one from each of the five categories and the
+      special ritualistic play <em>Okina</em>.
     </p>
     {% assign sorted_plays = site.plays | sort: "order" %} {% for play in
     sorted_plays %} {% unless play.url contains "/narratives/" %} {% include
     home-play.html link=play.url image=play.image title=play.title
-    description=play.description %} {% endunless %} {% endfor %}
+    description=play.description link-text=play.link-text
+    link-catalog=play.link-catalog name-catalog=play.name-catalog %} {% if
+    play.title == "Kokaji" %}
+    <div class="conclusion-separator"></div>
+    {% endif %} {% endunless %} {% endfor %}
   </div>
 </div>
 <div class="home__elements">
@@ -100,11 +105,10 @@ layout: home
 <div class="home__website">
   <div class="wrapper">
     <p class="home__website-description">
-      This website was developed in cooperation with the
-      <a href="https://jparc.online/">
-        Japanese Performing Arts Research Consortium</a
-      >. We would like to invite our readers to visit also an affiliated website
-      <a href="https://jparc.online/nogaku/">'Nōgaku.' </a>
+      This project was developed in cooperation with the authors of a
+      comprehensive
+      <a href="https://noh.jparc.online/"> Nōgaku</a> website of the Japanese
+      Performing Arts Research Consortium.
     </p>
   </div>
 </div>

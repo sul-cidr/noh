@@ -9,8 +9,13 @@
     <ul>
       <li>
         <a href="{{ include.link }}" class="home-button--regular"
-          >Intermedia analysis</a
+          >{{ include.link-text | default: "Intermedia analysis" }}</a
         >
+        {% if include.link-catalog %}
+        <a href="{{ include.link-catalog }}" class="home-button--catalog"
+          >See the {{ include.name-catalog }}</a
+        >
+        {% endif %}
       </li>
     </ul>
   </div>

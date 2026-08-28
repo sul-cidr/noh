@@ -2,34 +2,6 @@
   "filters": [],
   "cards": [
     {
-      "slug": "okina-dance-to-text",
-      "name": "Dance to Text",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-dance-to-text/",
-      "image": "Dance-to-Text"
-    },
-    {
-      "slug": "okina-encounter",
-      "name": "Encounter",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-encounter/",
-      "image": "Encounter"
-    },
-    {
-      "slug": "okina-gaeri",
-      "name": "Gaeri",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-gaeri/",
-      "image": "Gaeri"
-    },
-    {
-      "slug": "okina-instrumental-dance",
-      "name": "Instrumental Dance",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-instrumental-dance/",
-      "image": "Instrumental-Dance"
-    },
-    {
       "slug": "okina-issei-chant",
       "name": "Issei Chant",
       "pills": [],
@@ -42,20 +14,6 @@
       "pills": [],
       "url": "/shodan-in-okina/okina-issei-music/",
       "image": "Issei-Music"
-    },
-    {
-      "slug": "okina-mask-off",
-      "name": "Mask Off",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-mask-off/",
-      "image": "Sanbaso-mask-off"
-    },
-    {
-      "slug": "okina-mask-on",
-      "name": "Mask On",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-mask-on/",
-      "image": "Mask-On"
     },
     {
       "slug": "okina-momidashi",
@@ -93,15 +51,57 @@
       "image": "Noriji"
     },
     {
+      "slug": "okina-encounter",
+      "name": "Okina Encounter",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-encounter/",
+      "image": "Encounter"
+    },
+    {
       "slug": "okina-prayer",
-      "name": "Prayer",
+      "name": "Okina Prayer",
       "pills": [],
       "url": "/shodan-in-okina/okina-prayer/",
       "image": "Prayer"
     },
     {
+      "slug": "okina-dance-to-text",
+      "name": "Okina Song",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-dance-to-text/",
+      "image": "Dance-to-Text"
+    },
+    {
+      "slug": "okina-gaeri",
+      "name": "Okina-gaeri",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-gaeri/",
+      "image": "Gaeri"
+    },
+    {
+      "slug": "okina-instrumental-dance",
+      "name": "Okina-no-mai",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-instrumental-dance/",
+      "image": "Instrumental-Dance"
+    },
+    {
+      "slug": "okina-watari",
+      "name": "Okina-watari",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-watari/",
+      "image": "Watari"
+    },
+    {
+      "slug": "okina-mask-on",
+      "name": "Putting On the Mask",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-mask-on/",
+      "image": "Mask-On"
+    },
+    {
       "slug": "okina-response",
-      "name": "Response",
+      "name": "Response to Okina",
       "pills": [],
       "url": "/shodan-in-okina/okina-response/",
       "image": "Response"
@@ -122,7 +122,7 @@
     },
     {
       "slug": "okina-song",
-      "name": "Song",
+      "name": "Shiku-no-kamiuta",
       "pills": [],
       "url": "/shodan-in-okina/okina-song/",
       "image": "Song"
@@ -135,22 +135,22 @@
       "image": "Suzunodan"
     },
     {
+      "slug": "okina-mask-off",
+      "name": "Taking Off the Mask",
+      "pills": [],
+      "url": "/shodan-in-okina/okina-mask-off/",
+      "image": "Sanbaso-mask-off"
+    },
+    {
       "slug": "okina-watari-byoshi",
-      "name": "Watari Byoshi",
+      "name": "Watari-byōshi",
       "pills": [],
       "url": "/shodan-in-okina/okina-watari-byoshi/",
       "image": "Watari-Byoshi"
     },
     {
-      "slug": "okina-watari",
-      "name": "Watari",
-      "pills": [],
-      "url": "/shodan-in-okina/okina-watari/",
-      "image": "Watari"
-    },
-    {
       "slug": "okina-zatsuki-bue",
-      "name": "Zatsuki Bue",
+      "name": "Zatsuki-bue",
       "pills": [],
       "url": "/shodan-in-okina/okina-zatsuki-bue/",
       "image": "Zatsuki-Bue"
