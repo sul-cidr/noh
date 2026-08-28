@@ -3,42 +3,30 @@
 ////////////////////////
 .cell--percussion {
   @include flex-container($justify: center);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 16px;
+  background-size: auto 12px;
   position: relative;
 }
 
 /////////////////////////////////
 // single-image percussion cells
 /////////////////////////////////
-.cell--percussion-chun,
-.cell--percussion-dain,
-.cell--percussion-don,
-.cell--percussion-kata,
-.cell--percussion-kbci,
-.cell--percussion-kesu,
-.cell--percussion-kopu,
-.cell--percussion-kwci,
-.cell--percussion-kwtr,
-.cell--percussion-obci,
-.cell--percussion-obtr,
-.cell--percussion-osae,
-.cell--percussion-owtr,
-.cell--percussion-shon {
-  background-position: center;
-}
 
 .cell--percussion-chun {
   background-image: url("./images/note-chun.svg");
+  background-size: auto 16px;
 }
 .cell--percussion-dain {
   background-image: url("./images/note-dain.svg");
+  background-size: auto 16px;
 }
 .cell--percussion-don {
   background-image: url("./images/note-don.svg");
 }
 .cell--percussion-kata {
   background-image: url("./images/note-kata.svg");
+  background-size: auto 16px;
 }
 .cell--percussion-kbci {
   background-image: url("./images/note-kbci.svg");
@@ -48,6 +36,7 @@
 }
 .cell--percussion-kopu {
   background-image: url("./images/note-kopu.svg");
+  background-size: auto 20px;
 }
 .cell--percussion-kwci {
   background-image: url("./images/note-kwci.svg");
@@ -74,45 +63,6 @@
 ///////////////////////////////////////////
 // composed percussion cells -- two images
 ///////////////////////////////////////////
-.cell--percussion-bcbc,
-.cell--percussion-bcpu,
-.cell--percussion-bcwc,
-.cell--percussion-bcwt,
-.cell--percussion-btbc,
-.cell--percussion-btko,
-.cell--percussion-btwc,
-.cell--percussion-btwt,
-.cell--percussion-hnbc,
-.cell--percussion-hnbt,
-.cell--percussion-hnwt,
-.cell--percussion-hobc,
-.cell--percussion-hobt,
-.cell--percussion-hoch,
-.cell--percussion-hopu,
-.cell--percussion-howc,
-.cell--percussion-howt,
-.cell--percussion-ibc,
-.cell--percussion-iyapu-1,
-.cell--percussion-iyapu,
-.cell--percussion-iyawt-1,
-.cell--percussion-iyawt,
-.cell--percussion-obc,
-.cell--percussion-puwc,
-.cell--percussion-wcpu,
-.cell--percussion-wcwc,
-.cell--percussion-wcwt,
-.cell--percussion-wtbc,
-.cell--percussion-wtko,
-.cell--percussion-wtwc,
-.cell--percussion-wtwt,
-.cell--percussion-yobc,
-.cell--percussion-yoch,
-.cell--percussion-yoibc,
-.cell--percussion-yopu,
-.cell--percussion-yowc {
-  background-position: center;
-  background-size: 27px;
-}
 
 .cell--percussion-bcbc {
   background-image: url("./images/note-bcbc.svg");
@@ -221,4 +171,7 @@
 }
 .cell--percussion-yowc {
   background-image: url("./images/note-yowc.svg");
+}
+.cell--percussion-yowt {
+  background-image: url("./images/note-yowt.svg");
 }
