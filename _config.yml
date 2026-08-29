@@ -66,6 +66,9 @@ collections:
   staging:
     output: true
     permalink: /:collection/:path/
+  about-plays:
+    output: true
+    permalink: /:path/
 
 
 # Exclude from processing.
