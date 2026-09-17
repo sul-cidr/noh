@@ -45,7 +45,7 @@ class IntermediaTable extends Component {
         />
         <IntermediaElement
           fieldName="Nohkan"
-          fieldValue={section.nokhanPresent.value}
+          fieldValue={section.nohkanPresent.value}
         />
         <IntermediaElement
           fieldName="Dance"
