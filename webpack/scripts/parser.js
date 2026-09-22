@@ -231,7 +231,7 @@ export const processCaptions = data => {
 };
 
 export const downloadCSV = url =>
-  axios
+  http
     .get(url.replace("edit#gid", "export?format=csv&gid"))
     .then(response =>
       Papa.parse(response.data.trim(), { skipEmptyLines: true })
