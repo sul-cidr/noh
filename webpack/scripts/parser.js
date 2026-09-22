@@ -12,7 +12,9 @@ import { convertSecondsToHhmmss } from "../utils";
 const dataFolder = path.join("data");
 
 // Limit Google docs API requests to 5/sec to avoid being blocked
-const http = rateLimit(axios.create(), {
+// (apply to the global `axios` instance instead of a clone created by
+// `axios.create()`, so that it works in tests also)
+const http = rateLimit(axios, {
   maxRequests: 1,
   perMilliseconds: 200
 });
