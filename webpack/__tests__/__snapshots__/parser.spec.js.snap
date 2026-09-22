@@ -318,28 +318,6 @@ Object {
       "",
     ],
     Array [
-      "Syllable Number",
-      "",
-      "",
-      "",
-      "",
-      "1",
-      "2",
-      "",
-      "3",
-      "4",
-      "5",
-      "",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "",
-      "",
-      "",
-    ],
-    Array [
       "Text",
       "",
       "",
@@ -362,8 +340,8 @@ Object {
       "",
     ],
     Array [
-      "Vocal Range",
-      "high",
+      "Taiko",
+      "",
       "",
       "",
       "",
@@ -582,28 +560,6 @@ Object {
       "",
     ],
     Array [
-      "Syllable Number",
-      "",
-      "",
-      "",
-      "",
-      "1",
-      "2",
-      "",
-      "3",
-      "4",
-      "5",
-      "",
-      "1",
-      "2",
-      "3",
-      "",
-      "4",
-      "5",
-      "",
-      "",
-    ],
-    Array [
       "Text",
       "",
       "",
@@ -626,8 +582,8 @@ Object {
       "",
     ],
     Array [
-      "Vocal Range",
-      "high",
+      "Taiko",
+      "",
       "",
       "",
       "",
@@ -761,7 +717,7 @@ Object {
   "errors": Array [],
   "meta": Object {
     "aborted": false,
-    "cursor": 904,
+    "cursor": 794,
     "delimiter": ",",
     "linebreak": "
 ",
@@ -1262,87 +1218,12 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          }
-        ]
-      },
       \\"text\\": {
         \\"value\\": \\"\\",
         \\"grid\\": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
+      \\"taiko\\": {
+        \\"value\\": \\"\\",
         \\"grid\\": []
       },
       \\"percussion\\": {
@@ -1508,87 +1389,12 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          }
-        ]
-      },
       \\"text\\": {
         \\"value\\": \\"\\",
         \\"grid\\": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
+      \\"taiko\\": {
+        \\"value\\": \\"\\",
         \\"grid\\": []
       },
       \\"percussion\\": {
@@ -1830,87 +1636,12 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          }
-        ]
-      },
       \\"text\\": {
         \\"value\\": \\"\\",
         \\"grid\\": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
+      \\"taiko\\": {
+        \\"value\\": \\"\\",
         \\"grid\\": []
       },
       \\"percussion\\": {
@@ -2076,87 +1807,12 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          }
-        ]
-      },
       \\"text\\": {
         \\"value\\": \\"\\",
         \\"grid\\": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
+      \\"taiko\\": {
+        \\"value\\": \\"\\",
         \\"grid\\": []
       },
       \\"percussion\\": {
@@ -2383,87 +2039,12 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 13,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          }
-        ]
-      },
       \\"text\\": {
         \\"value\\": \\"\\",
         \\"grid\\": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
+      \\"taiko\\": {
+        \\"value\\": \\"\\",
         \\"grid\\": []
       },
       \\"percussion\\": {
@@ -2629,87 +2210,12 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
           }
         ]
       },
-      \\"syllableNumber\\": {
-        \\"value\\": \\"\\",
-        \\"grid\\": [
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 3,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 4,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 6,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 7,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 8,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"1\\",
-            \\"voices\\": [],
-            \\"start\\": 10,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"2\\",
-            \\"voices\\": [],
-            \\"start\\": 11,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"3\\",
-            \\"voices\\": [],
-            \\"start\\": 12,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"4\\",
-            \\"voices\\": [],
-            \\"start\\": 14,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          },
-          {
-            \\"text\\": \\"5\\",
-            \\"voices\\": [],
-            \\"start\\": 15,
-            \\"style\\": \\"normal\\",
-            \\"length\\": 1
-          }
-        ]
-      },
       \\"text\\": {
         \\"value\\": \\"\\",
         \\"grid\\": []
       },
-      \\"vocalRange\\": {
-        \\"value\\": \\"high\\",
+      \\"taiko\\": {
+        \\"value\\": \\"\\",
         \\"grid\\": []
       },
       \\"percussion\\": {
@@ -3251,81 +2757,6 @@ Array [
       "grid": Array [],
       "value": 1805,
     },
-    "syllableNumber": Object {
-      "grid": Array [
-        Object {
-          "length": 1,
-          "start": 3,
-          "style": "normal",
-          "text": "1",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 4,
-          "style": "normal",
-          "text": "2",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 6,
-          "style": "normal",
-          "text": "3",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 7,
-          "style": "normal",
-          "text": "4",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 8,
-          "style": "normal",
-          "text": "5",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 10,
-          "style": "normal",
-          "text": "1",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 11,
-          "style": "normal",
-          "text": "2",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 12,
-          "style": "normal",
-          "text": "3",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 13,
-          "style": "normal",
-          "text": "4",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 14,
-          "style": "normal",
-          "text": "5",
-          "voices": Array [],
-        },
-      ],
-      "value": "",
-    },
     "syllableText": Object {
       "grid": Array [
         Object {
@@ -3408,41 +2839,12 @@ Array [
       ],
       "value": "",
     },
-    "text": Object {
+    "taiko": Object {
       "grid": Array [],
       "value": "",
     },
-    "vocalRange": Object {
-      "grid": Array [
-        Object {
-          "length": 2,
-          "start": 3,
-          "style": "normal",
-          "text": "high",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 6,
-          "style": "normal",
-          "text": "medium",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 7,
-          "style": "normal",
-          "text": "low",
-          "voices": Array [],
-        },
-        Object {
-          "length": 3,
-          "start": 9,
-          "style": "normal",
-          "text": "low",
-          "voices": Array [],
-        },
-      ],
+    "text": Object {
+      "grid": Array [],
       "value": "",
     },
   },
@@ -3533,81 +2935,6 @@ Array [
       "grid": Array [],
       "value": 1814,
     },
-    "syllableNumber": Object {
-      "grid": Array [
-        Object {
-          "length": 1,
-          "start": 3,
-          "style": "normal",
-          "text": "1",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 4,
-          "style": "normal",
-          "text": "2",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 6,
-          "style": "normal",
-          "text": "3",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 7,
-          "style": "normal",
-          "text": "4",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 8,
-          "style": "normal",
-          "text": "5",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 10,
-          "style": "normal",
-          "text": "1",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 11,
-          "style": "normal",
-          "text": "2",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 12,
-          "style": "normal",
-          "text": "3",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 14,
-          "style": "normal",
-          "text": "4",
-          "voices": Array [],
-        },
-        Object {
-          "length": 1,
-          "start": 15,
-          "style": "normal",
-          "text": "5",
-          "voices": Array [],
-        },
-      ],
-      "value": "",
-    },
     "syllableText": Object {
       "grid": Array [
         Object {
@@ -3683,13 +3010,13 @@ Array [
       ],
       "value": "",
     },
-    "text": Object {
+    "taiko": Object {
       "grid": Array [],
       "value": "",
     },
-    "vocalRange": Object {
+    "text": Object {
       "grid": Array [],
-      "value": "high",
+      "value": "",
     },
   },
 ]
