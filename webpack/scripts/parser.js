@@ -298,8 +298,13 @@ export const main = (configPath, quiet) => {
     logError(`Malformed config file ${configPath}`, error);
   }
   process.exitCode = 0;
-  return Promise.all(promises)
-    .then(metadatas => {
+  return Promise.allSettled(promises)
+    .then(results => {
+      const rejected = results.find(result => result.status === "rejected");
+      if (rejected) {
+        throw rejected.reason;
+      }
+      const metadatas = results.map(result => result.value);
       if (!quiet) console.info("Writing play data:");
       const playSections = metadatas.reduce((map, [play, section]) => {
         /* eslint-disable no-param-reassign */
