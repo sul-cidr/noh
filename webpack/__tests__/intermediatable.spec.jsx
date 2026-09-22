@@ -19,7 +19,7 @@ const sections = [
     text: { value: "Sashinori - Non Congruent" },
     numberOfPercussion: { value: "Otsuzumi + Kotsuzumi + Taiko" },
     percussion: { value: "Non Congruent" },
-    nokhanPresent: { value: "Non Congruent" },
+    nohkanPresent: { value: "Non Congruent" },
     dancePresent: { value: "Dance to text" }
   },
   {
@@ -35,7 +35,7 @@ const sections = [
     text: { value: "Sashinori - Non Congruent" },
     numberOfPercussion: { value: "Otsuzumi + Kotsuzumi + Taiko" },
     percussion: { value: "Non Congruent" },
-    nokhanPresent: { value: "Non Congruent" },
+    nohkanPresent: { value: "Non Congruent" },
     dancePresent: { value: "Dance to text" }
   }
 ];

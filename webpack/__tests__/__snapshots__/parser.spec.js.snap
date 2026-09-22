@@ -1058,7 +1058,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 1`] = 
   \\"percussion\\": {
     \\"value\\": \\"Congruent\\"
   },
-  \\"nokhanPresent\\": {
+  \\"nohkanPresent\\": {
     \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
@@ -1476,7 +1476,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 2`] = 
   \\"percussion\\": {
     \\"value\\": \\"Congruent\\"
   },
-  \\"nokhanPresent\\": {
+  \\"nohkanPresent\\": {
     \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
@@ -1879,7 +1879,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 3`] = 
   \\"percussion\\": {
     \\"value\\": \\"Congruent\\"
   },
-  \\"nokhanPresent\\": {
+  \\"nohkanPresent\\": {
     \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
@@ -2282,7 +2282,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 4`] = 
   \\"percussion\\": {
     \\"value\\": \\"Congruent\\"
   },
-  \\"nokhanPresent\\": {
+  \\"nohkanPresent\\": {
     \\"present\\": \\"No\\"
   },
   \\"dancePresent\\": {
@@ -2388,7 +2388,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 9`] = 
       \\"percussion\\": {
         \\"value\\": \\"Congruent\\"
       },
-      \\"nokhanPresent\\": {
+      \\"nohkanPresent\\": {
         \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
@@ -2436,7 +2436,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 9`] = 
       \\"percussion\\": {
         \\"value\\": \\"Congruent\\"
       },
-      \\"nokhanPresent\\": {
+      \\"nohkanPresent\\": {
         \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
@@ -2484,7 +2484,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 9`] = 
       \\"percussion\\": {
         \\"value\\": \\"Congruent\\"
       },
-      \\"nokhanPresent\\": {
+      \\"nohkanPresent\\": {
         \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
@@ -2532,7 +2532,7 @@ exports[`parser main downloads and parses phrases, metadata, and captions 9`] = 
       \\"percussion\\": {
         \\"value\\": \\"Congruent\\"
       },
-      \\"nokhanPresent\\": {
+      \\"nohkanPresent\\": {
         \\"present\\": \\"No\\"
       },
       \\"dancePresent\\": {
@@ -2636,7 +2636,7 @@ Object {
   "intensity": Object {
     "number": "13",
   },
-  "nokhanPresent": Object {
+  "nohkanPresent": Object {
     "present": "No",
   },
   "numberOfPercussion": Object {

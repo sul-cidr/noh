@@ -670,7 +670,7 @@ exports[`<Section> renders as expected 1`] = `
   </p>
 </section>
 "
-  nokhanPresent={
+  nohkanPresent={
     Object {
       "present": "Yes",
       "value": "Non-congruent",
@@ -22407,7 +22407,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/oshirabe.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non congruent",
         },
@@ -22459,7 +22459,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/musicians-walk-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -22504,7 +22504,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/nanori.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -22562,7 +22562,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -22620,7 +22620,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -22682,7 +22682,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/dialogue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -22738,7 +22738,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/monologue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -22794,7 +22794,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -22852,7 +22852,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -22914,7 +22914,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -22976,7 +22976,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/sashi.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -23039,7 +23039,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuse.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -23101,7 +23101,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -23162,7 +23162,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -23223,7 +23223,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/raijo.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -23277,7 +23277,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/aikyogen.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -23332,7 +23332,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/prop-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -23377,7 +23377,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/notto.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -23439,7 +23439,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -23500,7 +23500,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/hayafue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -23557,7 +23557,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -23620,7 +23620,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/maibataraki.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -23677,7 +23677,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -23738,7 +23738,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-2.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {
           "number": "2",
           "value": "Ōtsuzumi, Kotsuzumi",
@@ -23798,7 +23798,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kiri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -23857,7 +23857,7 @@ exports[`<Section> renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/exit.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -28626,7 +28626,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/oshirabe.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non congruent",
                       },
@@ -28678,7 +28678,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/musicians-walk-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -28723,7 +28723,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/nanori.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -28781,7 +28781,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -28839,7 +28839,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -28901,7 +28901,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/dialogue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -28957,7 +28957,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/monologue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -29013,7 +29013,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -29071,7 +29071,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29133,7 +29133,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29195,7 +29195,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/sashi.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29258,7 +29258,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuse.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29320,7 +29320,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -29381,7 +29381,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -29442,7 +29442,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/raijo.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29496,7 +29496,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/aikyogen.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -29551,7 +29551,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/prop-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -29596,7 +29596,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/notto.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29658,7 +29658,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -29719,7 +29719,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/hayafue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -29776,7 +29776,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -29839,7 +29839,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/maibataraki.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -29896,7 +29896,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -29957,7 +29957,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-2.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {
                         "number": "2",
                         "value": "Ōtsuzumi, Kotsuzumi",
@@ -30017,7 +30017,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kiri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -30076,7 +30076,7 @@ exports[`<Section> renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/exit.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -31569,7 +31569,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/oshirabe.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non congruent",
                     },
@@ -31621,7 +31621,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/musicians-walk-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -31666,7 +31666,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/nanori.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -31724,7 +31724,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -31782,7 +31782,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -31844,7 +31844,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/dialogue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -31900,7 +31900,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/monologue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -31956,7 +31956,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -32014,7 +32014,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32076,7 +32076,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32138,7 +32138,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/sashi.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32201,7 +32201,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuse.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32263,7 +32263,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -32324,7 +32324,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -32385,7 +32385,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/raijo.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32439,7 +32439,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/aikyogen.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -32494,7 +32494,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/prop-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -32539,7 +32539,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/notto.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32601,7 +32601,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -32662,7 +32662,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/hayafue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -32719,7 +32719,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -32782,7 +32782,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/maibataraki.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -32839,7 +32839,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -32900,7 +32900,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-2.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {
                       "number": "2",
                       "value": "Ōtsuzumi, Kotsuzumi",
@@ -32960,7 +32960,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kiri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -33019,7 +33019,7 @@ exports[`<Section> renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/exit.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -123406,7 +123406,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
   </p>
 </section>
 "
-  nokhanPresent={
+  nohkanPresent={
     Object {
       "present": "Yes",
       "value": "Non-congruent",
@@ -123461,7 +123461,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/oshirabe.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non congruent",
         },
@@ -123513,7 +123513,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/musicians-walk-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -123558,7 +123558,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/nanori.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -123616,7 +123616,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -123674,7 +123674,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -123736,7 +123736,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/dialogue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -123792,7 +123792,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/monologue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -123848,7 +123848,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -123906,7 +123906,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -123968,7 +123968,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124030,7 +124030,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/sashi.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124093,7 +124093,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuse.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124155,7 +124155,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -124216,7 +124216,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -124277,7 +124277,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/raijo.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124331,7 +124331,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/aikyogen.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -124386,7 +124386,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/prop-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -124431,7 +124431,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/notto.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124493,7 +124493,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -124554,7 +124554,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/hayafue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -124611,7 +124611,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124674,7 +124674,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/maibataraki.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -124731,7 +124731,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -124792,7 +124792,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-2.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {
           "number": "2",
           "value": "Ōtsuzumi, Kotsuzumi",
@@ -124852,7 +124852,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kiri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -124911,7 +124911,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/exit.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -127123,7 +127123,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/oshirabe.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non congruent",
                       },
@@ -127175,7 +127175,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/musicians-walk-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -127220,7 +127220,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/nanori.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -127278,7 +127278,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -127336,7 +127336,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -127398,7 +127398,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/dialogue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -127454,7 +127454,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/monologue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -127510,7 +127510,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -127568,7 +127568,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -127630,7 +127630,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -127692,7 +127692,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/sashi.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -127755,7 +127755,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuse.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -127817,7 +127817,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -127878,7 +127878,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -127939,7 +127939,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/raijo.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -127993,7 +127993,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/aikyogen.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -128048,7 +128048,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/prop-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -128093,7 +128093,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/notto.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -128155,7 +128155,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -128216,7 +128216,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/hayafue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -128273,7 +128273,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -128336,7 +128336,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/maibataraki.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -128393,7 +128393,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -128454,7 +128454,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-2.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {
                         "number": "2",
                         "value": "Ōtsuzumi, Kotsuzumi",
@@ -128514,7 +128514,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kiri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -128573,7 +128573,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/exit.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -130066,7 +130066,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/oshirabe.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non congruent",
                     },
@@ -130118,7 +130118,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/musicians-walk-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -130163,7 +130163,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/nanori.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -130221,7 +130221,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -130279,7 +130279,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -130341,7 +130341,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/dialogue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -130397,7 +130397,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/monologue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -130453,7 +130453,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -130511,7 +130511,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -130573,7 +130573,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -130635,7 +130635,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/sashi.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -130698,7 +130698,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuse.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -130760,7 +130760,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -130821,7 +130821,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -130882,7 +130882,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/raijo.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -130936,7 +130936,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/aikyogen.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -130991,7 +130991,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/prop-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -131036,7 +131036,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/notto.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -131098,7 +131098,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -131159,7 +131159,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/hayafue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -131216,7 +131216,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -131279,7 +131279,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/maibataraki.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -131336,7 +131336,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -131397,7 +131397,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-2.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {
                       "number": "2",
                       "value": "Ōtsuzumi, Kotsuzumi",
@@ -131457,7 +131457,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kiri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -131516,7 +131516,7 @@ exports[`<Section> renders as expected with no phrases 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/exit.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -133472,7 +133472,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
     </p>
 </section>
 "
-  nokhanPresent={
+  nohkanPresent={
     Object {
       "present": "Yes",
       "value": "Non congruent",
@@ -133527,7 +133527,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/oshirabe.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non congruent",
         },
@@ -133579,7 +133579,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/musicians-walk-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -133624,7 +133624,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/nanori.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -133682,7 +133682,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -133740,7 +133740,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -133802,7 +133802,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/dialogue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -133858,7 +133858,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/monologue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -133914,7 +133914,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -133972,7 +133972,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134034,7 +134034,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134096,7 +134096,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/sashi.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134159,7 +134159,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuse.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134221,7 +134221,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -134282,7 +134282,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -134343,7 +134343,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/raijo.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134397,7 +134397,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/aikyogen.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -134452,7 +134452,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/prop-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -134497,7 +134497,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/notto.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134559,7 +134559,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -134620,7 +134620,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/hayafue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -134677,7 +134677,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134740,7 +134740,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/maibataraki.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -134797,7 +134797,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -134858,7 +134858,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-2.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {
           "number": "2",
           "value": "Ōtsuzumi, Kotsuzumi",
@@ -134918,7 +134918,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kiri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -134977,7 +134977,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/exit.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -135581,7 +135581,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/oshirabe.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non congruent",
                       },
@@ -135633,7 +135633,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/musicians-walk-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -135678,7 +135678,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/nanori.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -135736,7 +135736,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -135794,7 +135794,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -135856,7 +135856,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/dialogue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -135912,7 +135912,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/monologue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -135968,7 +135968,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -136026,7 +136026,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136088,7 +136088,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136150,7 +136150,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/sashi.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136213,7 +136213,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuse.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136275,7 +136275,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -136336,7 +136336,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -136397,7 +136397,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/raijo.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136451,7 +136451,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/aikyogen.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -136506,7 +136506,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/prop-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -136551,7 +136551,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/notto.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136613,7 +136613,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -136674,7 +136674,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/hayafue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -136731,7 +136731,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -136794,7 +136794,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/maibataraki.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -136851,7 +136851,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -136912,7 +136912,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-2.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {
                         "number": "2",
                         "value": "Ōtsuzumi, Kotsuzumi",
@@ -136972,7 +136972,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kiri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -137031,7 +137031,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/exit.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -138524,7 +138524,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/oshirabe.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non congruent",
                     },
@@ -138576,7 +138576,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/musicians-walk-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -138621,7 +138621,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/nanori.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -138679,7 +138679,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -138737,7 +138737,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -138799,7 +138799,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/dialogue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -138855,7 +138855,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/monologue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -138911,7 +138911,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -138969,7 +138969,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139031,7 +139031,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139093,7 +139093,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/sashi.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139156,7 +139156,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuse.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139218,7 +139218,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -139279,7 +139279,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -139340,7 +139340,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/raijo.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139394,7 +139394,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/aikyogen.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -139449,7 +139449,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/prop-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -139494,7 +139494,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/notto.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139556,7 +139556,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -139617,7 +139617,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/hayafue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -139674,7 +139674,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139737,7 +139737,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/maibataraki.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -139794,7 +139794,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -139855,7 +139855,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-2.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {
                       "number": "2",
                       "value": "Ōtsuzumi, Kotsuzumi",
@@ -139915,7 +139915,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kiri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -139974,7 +139974,7 @@ exports[`<Section> that is first in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/exit.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -141879,7 +141879,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     all cases, it is once the actor or stage assistant has passed the Second
     pine that the curtain is lifted, and pulled back down once he has entered
     the anteroom. From this point, the musicians exit in the same order they
-    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
+    entered, nohkan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
     players. Upon reaching the Second pine, the curtain is pulled back partially
     on one side. As for the jiutai members, they exit through the back left side
     door starting with the back row members. Even as they are exiting the stage,
@@ -141888,7 +141888,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
   </p>
 </section>
 "
-  nokhanPresent={Object {}}
+  nohkanPresent={Object {}}
   numberOfPercussion={Object {}}
   numberVoices={Object {}}
   percussion={Object {}}
@@ -141924,7 +141924,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/oshirabe.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non congruent",
         },
@@ -141976,7 +141976,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/musicians-walk-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -142021,7 +142021,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/nanori.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -142079,7 +142079,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -142137,7 +142137,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142199,7 +142199,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/dialogue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -142255,7 +142255,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/monologue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -142311,7 +142311,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/mondo-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -142369,7 +142369,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142431,7 +142431,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142493,7 +142493,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/sashi.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142556,7 +142556,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kuse.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142618,7 +142618,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -142679,7 +142679,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/ageuta-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -142740,7 +142740,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/raijo.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142794,7 +142794,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/aikyogen.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "no",
         },
         "numberOfPercussion": Object {
@@ -142849,7 +142849,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/prop-in.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -142894,7 +142894,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/notto.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -142956,7 +142956,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-1.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -143017,7 +143017,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/hayafue.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -143074,7 +143074,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-2.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -143137,7 +143137,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/maibataraki.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Congruent",
         },
@@ -143194,7 +143194,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/noriji-3.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "No",
         },
         "numberOfPercussion": Object {
@@ -143255,7 +143255,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kakeai-2.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {
           "number": "2",
           "value": "Ōtsuzumi, Kotsuzumi",
@@ -143315,7 +143315,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/kiri.html",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "present": "Yes",
           "value": "Non-congruent",
         },
@@ -143374,7 +143374,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
         "narrative": Object {
           "value": "/kokaji/narratives/exit.html",
         },
-        "nokhanPresent": Object {},
+        "nohkanPresent": Object {},
         "numberOfPercussion": Object {},
         "numberVoices": Object {},
         "percussion": Object {},
@@ -143509,7 +143509,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     all cases, it is once the actor or stage assistant has passed the Second
     pine that the curtain is lifted, and pulled back down once he has entered
     the anteroom. From this point, the musicians exit in the same order they
-    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
+    entered, nohkan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
     players. Upon reaching the Second pine, the curtain is pulled back partially
     on one side. As for the jiutai members, they exit through the back left side
     door starting with the back row members. Even as they are exiting the stage,
@@ -143550,7 +143550,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     all cases, it is once the actor or stage assistant has passed the Second
     pine that the curtain is lifted, and pulled back down once he has entered
     the anteroom. From this point, the musicians exit in the same order they
-    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
+    entered, nohkan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
     players. Upon reaching the Second pine, the curtain is pulled back partially
     on one side. As for the jiutai members, they exit through the back left side
     door starting with the back row members. Even as they are exiting the stage,
@@ -143598,7 +143598,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     all cases, it is once the actor or stage assistant has passed the Second
     pine that the curtain is lifted, and pulled back down once he has entered
     the anteroom. From this point, the musicians exit in the same order they
-    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
+    entered, nohkan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
     players. Upon reaching the Second pine, the curtain is pulled back partially
     on one side. As for the jiutai members, they exit through the back left side
     door starting with the back row members. Even as they are exiting the stage,
@@ -143639,7 +143639,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     all cases, it is once the actor or stage assistant has passed the Second
     pine that the curtain is lifted, and pulled back down once he has entered
     the anteroom. From this point, the musicians exit in the same order they
-    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
+    entered, nohkan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
     players. Upon reaching the Second pine, the curtain is pulled back partially
     on one side. As for the jiutai members, they exit through the back left side
     door starting with the back row members. Even as they are exiting the stage,
@@ -144041,7 +144041,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
     all cases, it is once the actor or stage assistant has passed the Second
     pine that the curtain is lifted, and pulled back down once he has entered
     the anteroom. From this point, the musicians exit in the same order they
-    entered, nokhan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
+    entered, nohkan player first, followed by the kotsuzumi, ōtsuzumi,and taiko
     players. Upon reaching the Second pine, the curtain is pulled back partially
     on one side. As for the jiutai members, they exit through the back left side
     door starting with the back row members. Even as they are exiting the stage,
@@ -144236,7 +144236,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/oshirabe.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non congruent",
                       },
@@ -144288,7 +144288,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/musicians-walk-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -144333,7 +144333,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/nanori.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -144391,7 +144391,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -144449,7 +144449,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -144511,7 +144511,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/dialogue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -144567,7 +144567,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/monologue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -144623,7 +144623,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/mondo-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -144681,7 +144681,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -144743,7 +144743,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -144805,7 +144805,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/sashi.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -144868,7 +144868,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kuse.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -144930,7 +144930,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -144991,7 +144991,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/ageuta-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -145052,7 +145052,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/raijo.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -145106,7 +145106,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/aikyogen.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "no",
                       },
                       "numberOfPercussion": Object {
@@ -145161,7 +145161,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/prop-in.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -145206,7 +145206,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/notto.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -145268,7 +145268,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-1.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -145329,7 +145329,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/hayafue.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -145386,7 +145386,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-2.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -145449,7 +145449,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/maibataraki.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Congruent",
                       },
@@ -145506,7 +145506,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/noriji-3.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "No",
                       },
                       "numberOfPercussion": Object {
@@ -145567,7 +145567,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kakeai-2.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {
                         "number": "2",
                         "value": "Ōtsuzumi, Kotsuzumi",
@@ -145627,7 +145627,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/kiri.html",
                       },
-                      "nokhanPresent": Object {
+                      "nohkanPresent": Object {
                         "present": "Yes",
                         "value": "Non-congruent",
                       },
@@ -145686,7 +145686,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                       "narrative": Object {
                         "value": "/kokaji/narratives/exit.html",
                       },
-                      "nokhanPresent": Object {},
+                      "nohkanPresent": Object {},
                       "numberOfPercussion": Object {},
                       "numberVoices": Object {},
                       "percussion": Object {},
@@ -147179,7 +147179,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/oshirabe.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non congruent",
                     },
@@ -147231,7 +147231,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/musicians-walk-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -147276,7 +147276,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/nanori.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -147334,7 +147334,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -147392,7 +147392,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -147454,7 +147454,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/dialogue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -147510,7 +147510,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/monologue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -147566,7 +147566,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/mondo-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -147624,7 +147624,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -147686,7 +147686,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -147748,7 +147748,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/sashi.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -147811,7 +147811,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kuse.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -147873,7 +147873,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -147934,7 +147934,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/ageuta-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -147995,7 +147995,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/raijo.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -148049,7 +148049,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/aikyogen.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "no",
                     },
                     "numberOfPercussion": Object {
@@ -148104,7 +148104,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/prop-in.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
@@ -148149,7 +148149,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/notto.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -148211,7 +148211,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-1.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -148272,7 +148272,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/hayafue.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -148329,7 +148329,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-2.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -148392,7 +148392,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/maibataraki.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Congruent",
                     },
@@ -148449,7 +148449,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/noriji-3.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "No",
                     },
                     "numberOfPercussion": Object {
@@ -148510,7 +148510,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kakeai-2.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {
                       "number": "2",
                       "value": "Ōtsuzumi, Kotsuzumi",
@@ -148570,7 +148570,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/kiri.html",
                     },
-                    "nokhanPresent": Object {
+                    "nohkanPresent": Object {
                       "present": "Yes",
                       "value": "Non-congruent",
                     },
@@ -148629,7 +148629,7 @@ exports[`<Section> that is last in play renders as expected 1`] = `
                     "narrative": Object {
                       "value": "/kokaji/narratives/exit.html",
                     },
-                    "nokhanPresent": Object {},
+                    "nohkanPresent": Object {},
                     "numberOfPercussion": Object {},
                     "numberVoices": Object {},
                     "percussion": Object {},
