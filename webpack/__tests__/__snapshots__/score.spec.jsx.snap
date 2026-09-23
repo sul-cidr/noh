@@ -15,6 +15,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={true}
@@ -26,7 +27,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         className="measure__grid-container"
       >
         <div
-          className="measure__channel measure__channel--5"
+          className="measure__channel measure__channel--6"
         >
           <p
             className="measure__channel-empty"
@@ -48,6 +49,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={false}
@@ -74,17 +76,6 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -204,6 +195,15 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         </div>
         <div
           className="measure__channel"
+          key="measure-taiko"
+        >
+          <CellPercussion
+            length={13}
+            text="mitsuji"
+          />
+        </div>
+        <div
+          className="measure__channel"
           key="measure-nohkan"
         >
           <NohkanLine
@@ -274,6 +274,7 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={true}
       previous={false}
@@ -360,24 +361,6 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -455,6 +438,25 @@ exports[`<UnwrappedScore> handles null state correctly 1`] = `
           <CellPercussion
             length={13}
             text=""
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-taiko"
+        >
+          <PercussionLine
+            grid={
+              Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "don",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
           />
         </div>
         <div
@@ -530,6 +532,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={true}
@@ -541,7 +544,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         className="measure__grid-container"
       >
         <div
-          className="measure__channel measure__channel--5"
+          className="measure__channel measure__channel--6"
         >
           <p
             className="measure__channel-empty"
@@ -563,6 +566,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={false}
@@ -649,17 +653,6 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -779,6 +772,15 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         </div>
         <div
           className="measure__channel"
+          key="measure-taiko"
+        >
+          <CellPercussion
+            length={13}
+            text="mitsuji"
+          />
+        </div>
+        <div
+          className="measure__channel"
           key="measure-nohkan"
         >
           <NohkanLine
@@ -849,6 +851,7 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={true}
       previous={false}
@@ -935,24 +938,6 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -1030,6 +1015,25 @@ exports[`<UnwrappedScore> renders as expected 1`] = `
           <CellPercussion
             length={13}
             text=""
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-taiko"
+        >
+          <PercussionLine
+            grid={
+              Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "don",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
           />
         </div>
         <div
@@ -1105,6 +1109,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={true}
@@ -1116,7 +1121,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         className="measure__grid-container"
       >
         <div
-          className="measure__channel measure__channel--5"
+          className="measure__channel measure__channel--6"
         >
           <p
             className="measure__channel-empty"
@@ -1138,6 +1143,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={false}
@@ -1224,17 +1230,6 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -1354,6 +1349,15 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         </div>
         <div
           className="measure__channel"
+          key="measure-taiko"
+        >
+          <CellPercussion
+            length={13}
+            text="mitsuji"
+          />
+        </div>
+        <div
+          className="measure__channel"
           key="measure-nohkan"
         >
           <NohkanLine
@@ -1424,6 +1428,7 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={true}
       previous={false}
@@ -1510,24 +1515,6 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -1605,6 +1592,25 @@ exports[`<UnwrappedScore> renders as expected 2`] = `
           <CellPercussion
             length={13}
             text=""
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-taiko"
+        >
+          <PercussionLine
+            grid={
+              Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "don",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
           />
         </div>
         <div
@@ -1681,6 +1687,7 @@ exports[`<UnwrappedScore> renders as expected with all filters off 1`] = `
       isNohkanOn={false}
       isPercussionOn={false}
       isPrevSentenceOn={false}
+      isTaikoOn={false}
       isTextOn={false}
       next={false}
       previous={false}
@@ -1711,6 +1718,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={true}
@@ -1722,7 +1730,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         className="measure__grid-container"
       >
         <div
-          className="measure__channel measure__channel--5"
+          className="measure__channel measure__channel--6"
         >
           <p
             className="measure__channel-empty"
@@ -1744,6 +1752,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={false}
       previous={false}
@@ -1770,17 +1779,6 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 13,
-                  "start": 0,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -1900,6 +1898,15 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         </div>
         <div
           className="measure__channel"
+          key="measure-taiko"
+        >
+          <CellPercussion
+            length={13}
+            text="mitsuji"
+          />
+        </div>
+        <div
+          className="measure__channel"
           key="measure-nohkan"
         >
           <NohkanLine
@@ -1970,6 +1977,7 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
       isNohkanOn={true}
       isPercussionOn={true}
       isPrevSentenceOn={true}
+      isTaikoOn={true}
       isTextOn={true}
       next={true}
       previous={false}
@@ -2056,24 +2064,6 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
         >
           <ScoreTextLine
             length={13}
-            rangeGrid={
-              Array [
-                Object {
-                  "length": 6,
-                  "start": 3,
-                  "style": "normal",
-                  "text": "m",
-                  "voices": Array [],
-                },
-                Object {
-                  "length": 3,
-                  "start": 9,
-                  "style": "normal",
-                  "text": "l",
-                  "voices": Array [],
-                },
-              ]
-            }
             textGrid={
               Array [
                 Object {
@@ -2151,6 +2141,25 @@ exports[`<UnwrappedScore> renders as expected with unmetered phrases 1`] = `
           <CellPercussion
             length={13}
             text=""
+          />
+        </div>
+        <div
+          className="measure__channel"
+          key="measure-taiko"
+        >
+          <PercussionLine
+            grid={
+              Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "don",
+                  "voices": Array [],
+                },
+              ]
+            }
+            length={13}
           />
         </div>
         <div

@@ -12,7 +12,9 @@ import { convertSecondsToHhmmss } from "../utils";
 const dataFolder = path.join("data");
 
 // Limit Google docs API requests to 5/sec to avoid being blocked
-const http = rateLimit(axios.create(), {
+// (apply to the global `axios` instance instead of a clone created by
+// `axios.create()`, so that it works in tests also)
+const http = rateLimit(axios, {
   maxRequests: 1,
   perMilliseconds: 200
 });
@@ -231,7 +233,7 @@ export const processCaptions = data => {
 };
 
 export const downloadCSV = url =>
-  axios
+  http
     .get(url.replace("edit#gid", "export?format=csv&gid"))
     .then(response =>
       Papa.parse(response.data.trim(), { skipEmptyLines: true })
@@ -296,8 +298,13 @@ export const main = (configPath, quiet) => {
     logError(`Malformed config file ${configPath}`, error);
   }
   process.exitCode = 0;
-  return Promise.all(promises)
-    .then(metadatas => {
+  return Promise.allSettled(promises)
+    .then(results => {
+      const rejected = results.find(result => result.status === "rejected");
+      if (rejected) {
+        throw rejected.reason;
+      }
+      const metadatas = results.map(result => result.value);
       if (!quiet) console.info("Writing play data:");
       const playSections = metadatas.reduce((map, [play, section]) => {
         /* eslint-disable no-param-reassign */

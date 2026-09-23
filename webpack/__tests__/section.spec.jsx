@@ -52,6 +52,11 @@ describe("<Section>", () => {
     wrapper = mount(<App store={store} {...fixtures} />);
   });
 
+  afterAll(() => {
+    sessionStorage.clear();
+    localStorage.clear();
+  });
+
   it("renders as expected", () => {
     expect(wrapper).toMatchSnapshot();
   });

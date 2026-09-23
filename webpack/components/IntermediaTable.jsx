@@ -74,7 +74,7 @@ IntermediaTable.propTypes = {
       text: PropTypes.shape({ value: PropTypes.string }),
       numberOfPercussion: PropTypes.shape({ value: PropTypes.string }),
       percussion: PropTypes.shape({ value: PropTypes.string }),
-      nokhanPresent: PropTypes.shape({
+      nohkanPresent: PropTypes.shape({
         present: PropTypes.string,
         value: PropTypes.string
       }),

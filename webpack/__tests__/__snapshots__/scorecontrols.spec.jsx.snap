@@ -848,6 +848,10 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
             ],
             "value": "",
           },
+          "taiko": Object {
+            "grid": Array [],
+            "value": "mitsuji",
+          },
           "text": Object {
             "grid": Array [],
             "value": "",
@@ -1105,6 +1109,18 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                 "start": 11,
                 "style": "normal",
                 "text": "i",
+                "voices": Array [],
+              },
+            ],
+            "value": "",
+          },
+          "taiko": Object {
+            "grid": Array [
+              Object {
+                "length": 1,
+                "start": 1,
+                "style": "normal",
+                "text": "don",
                 "voices": Array [],
               },
             ],
@@ -1740,6 +1756,10 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
               ],
               "value": "",
             },
+            "taiko": Object {
+              "grid": Array [],
+              "value": "mitsuji",
+            },
             "text": Object {
               "grid": Array [],
               "value": "",
@@ -1997,6 +2017,18 @@ exports[`<ScoreControls> renders as expected by default with a store 1`] = `
                   "start": 11,
                   "style": "normal",
                   "text": "i",
+                  "voices": Array [],
+                },
+              ],
+              "value": "",
+            },
+            "taiko": Object {
+              "grid": Array [
+                Object {
+                  "length": 1,
+                  "start": 1,
+                  "style": "normal",
+                  "text": "don",
                   "voices": Array [],
                 },
               ],

@@ -71,11 +71,11 @@ class Score extends Component {
       );
     }
     let taiko = <CellPercussion text="" length={beatNums.length} />;
-    if (phrase.taiko.grid.length) {
+    if (phrase.taiko && phrase.taiko.grid.length) {
       taiko = (
         <PercussionLine grid={phrase.taiko.grid} length={beatNums.length} />
       );
-    } else if (phrase.taiko.value) {
+    } else if (phrase.taiko && phrase.taiko.value) {
       taiko = (
         <CellPercussion text={phrase.taiko.value} length={beatNums.length} />
       );
