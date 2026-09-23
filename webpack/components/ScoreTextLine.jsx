@@ -42,17 +42,6 @@ const ScoreTextLine = props => {
       }
     }
   }
-  for (let i = 0; i < props.textGrid.length; i += 1) {
-    for (let j = 0; j < props.rangeGrid.length; j += 1) {
-      if (
-        props.textGrid[i].start >= props.rangeGrid[j].start &&
-        props.textGrid[i].start <
-          props.rangeGrid[j].start + props.rangeGrid[j].length
-      ) {
-        props.textGrid[i].vocalRange = props.rangeGrid[j].text;
-      }
-    }
-  }
   const fullData = fillGrid(props.textGrid, props.length);
   const textCells = fullData.map((cell, idx) => (
     <CellText
@@ -78,13 +67,6 @@ ScoreTextLine.propTypes = {
     })
   ).isRequired,
   length: PropTypes.number.isRequired,
-  rangeGrid: PropTypes.arrayOf(
-    PropTypes.shape({
-      start: PropTypes.number,
-      text: PropTypes.string,
-      length: PropTypes.number
-    })
-  ).isRequired,
   textIsCongruent: PropTypes.bool.isRequired
 };
 

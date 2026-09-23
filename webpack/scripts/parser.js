@@ -1,4 +1,5 @@
 import axios from "axios";
+import rateLimit from "axios-rate-limit";
 import fs from "fs";
 import mkdirp from "mkdirp";
 import path from "path";
@@ -9,6 +10,14 @@ import { convertSecondsToHhmmss } from "../utils";
 //  outside the Jeykll source folder, and copy it to the build folder with
 //  webpack at build time:
 const dataFolder = path.join("data");
+
+// Limit Google docs API requests to 5/sec to avoid being blocked
+// (apply to the global `axios` instance instead of a clone created by
+// `axios.create()`, so that it works in tests also)
+const http = rateLimit(axios, {
+  maxRequests: 1,
+  perMilliseconds: 200
+});
 
 export const parserConfig = path.join("webpack", "config", "parser.json");
 
@@ -30,7 +39,9 @@ export const voiceStyles = {
   S: "shite",
   W: "waki",
   Wt: "wakizure",
-  A: "aikyōgen"
+  A: "aikyōgen",
+  SSt: "shite-shitezure",
+  WWt: "waki-wakizure"
 };
 
 export const ParserException = function(message) {
@@ -152,26 +163,26 @@ export const extractCells = cells => {
 };
 
 export const extractRows = rows =>
-  rows.reduce(
-    (obj, row) =>
-      Object.assign(obj, {
-        [toCamelCase(row[0])]: {
-          value: row[0].toLowerCase().includes("time")
-            ? parseTime(row[1])
-            : normalize(row[1]),
-          grid: extractCells(row.slice(2))
-        }
-      }),
-    {}
-  );
+  rows.reduce((obj, row) => {
+    const rowLabel = row[0] === "Ō-Kotsuzumi" ? "percussion" : row[0];
+    const rowObj = Object.assign(obj, {
+      [toCamelCase(rowLabel)]: {
+        value: row[0].toLowerCase().includes("time")
+          ? parseTime(row[1])
+          : normalize(row[1]),
+        grid: extractCells(row.slice(2))
+      }
+    });
+    return rowObj;
+  }, {});
 
 export const processPhrases = data => {
   const rows = data.slice(1); // data[0] has section name info
   return [...Array(rows.length).keys()] // range(rows.length)
     .map(idx => {
       const row = rows[idx];
-      if (row[0].toLowerCase() === "phrase") {
-        const values = extractRows(rows.slice(idx + 1, idx + 10));
+      if (row[0].toLowerCase().trim() === "phrase") {
+        const values = extractRows(rows.slice(idx + 1, idx + 9));
         Object.assign(values, { phrase: row[1] });
         return values;
       }
@@ -205,22 +216,24 @@ export const processMetadata = data => {
 };
 
 export const processCaptions = data => {
-  const keys = data[0].filter(Boolean).map(str => toCamelCaseTrim(str));
+  const keys = data[0].map(str => (str ? toCamelCaseTrim(str) : null));
   const rows = data.slice(1);
   return rows.map(row =>
     Object.assign(
       {},
-      ...[...Array(row.length).keys()].map(idx => ({
-        [keys[idx]]: keys[idx].toLowerCase().includes("time")
-          ? parseTime(row[idx])
-          : row[idx].trim()
-      }))
+      ...[...Array(row.length).keys()]
+        .filter(idx => keys[idx])
+        .map(idx => ({
+          [keys[idx]]: keys[idx].toLowerCase().includes("time")
+            ? parseTime(row[idx])
+            : row[idx].trim()
+        }))
     )
   );
 };
 
 export const downloadCSV = url =>
-  axios
+  http
     .get(url.replace("edit#gid", "export?format=csv&gid"))
     .then(response =>
       Papa.parse(response.data.trim(), { skipEmptyLines: true })
@@ -285,8 +298,13 @@ export const main = (configPath, quiet) => {
     logError(`Malformed config file ${configPath}`, error);
   }
   process.exitCode = 0;
-  return Promise.all(promises)
-    .then(metadatas => {
+  return Promise.allSettled(promises)
+    .then(results => {
+      const rejected = results.find(result => result.status === "rejected");
+      if (rejected) {
+        throw rejected.reason;
+      }
+      const metadatas = results.map(result => result.value);
       if (!quiet) console.info("Writing play data:");
       const playSections = metadatas.reduce((map, [play, section]) => {
         /* eslint-disable no-param-reassign */

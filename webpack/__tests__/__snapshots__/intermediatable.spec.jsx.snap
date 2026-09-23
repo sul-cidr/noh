@@ -17,7 +17,7 @@ exports[`<InterMediaTable> renders as expected while connected 1`] = `
         "intensity": Object {
           "number": "5",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "value": "Non Congruent",
         },
         "numberOfPercussion": Object {
@@ -53,7 +53,7 @@ exports[`<InterMediaTable> renders as expected while connected 1`] = `
         "intensity": Object {
           "number": "5",
         },
-        "nokhanPresent": Object {
+        "nohkanPresent": Object {
           "value": "Non Congruent",
         },
         "numberOfPercussion": Object {
