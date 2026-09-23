@@ -153,7 +153,7 @@ export default {
       ""
     ],
     [
-      "Percussion",
+      "Ō-Kotsuzumi",
       "tome",
       "",
       "",
@@ -812,20 +812,22 @@ Nokhan Present?,No,,,
 Dance Present?,Yes,,Feminine to Martial style,
   `,
   captions: [
-    ["Start time", "End time", "Translation", "Transcription", "Japanese"],
+    ["Start time", "End time", "Translation", "Transcription", "Japanese", ""],
     [
       "5'25\"",
       "5'35\"",
       "[WAKI] I am a priest living at Urin-in in Murasakino,",
       "[WAKI] Kore wa miyako kitayama Murasakino",
-      "［ワキ］是は都北山紫野"
+      "［ワキ］是は都北山紫野",
+      ""
     ],
     [
       "3'59\"",
       "4'04\"",
       "I am in the service of the Emperor Ichijo.",
       "Ichijō-no-In ni tsukae tatematsuru.",
-      "一條の院に仕へ奉る。"
+      "一條の院に仕へ奉る。",
+      ""
     ]
   ],
   captionsCSV: `
