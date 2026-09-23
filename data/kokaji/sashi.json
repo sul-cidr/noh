@@ -12,7 +12,7 @@
     "value": 1193
   },
   "intensity": {
-    "number": "11"
+    "number": "13"
   },
   "numberVoices": {
     "number": "2",
@@ -31,7 +31,7 @@
   "percussion": {
     "value": "Flexible"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "Yes",
     "value": "Non-congruent"
   },
@@ -127,10 +127,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -154,27 +150,12 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 12
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 2
-          }
-        ]
+        "grid": []
       },
       "percussion": {
-        "value": "mitsuji",
+        "value": "",
         "grid": [
           {
             "text": "yo",
@@ -329,10 +310,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -354,17 +331,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 14
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -514,10 +483,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -539,17 +504,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 14
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -699,10 +656,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -733,7 +686,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -885,10 +838,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -926,24 +875,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 12
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 2
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1093,10 +1027,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -1132,17 +1062,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 14
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1255,14 +1177,35 @@
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 6
+            "length": 1
           },
           {
-            "text": "Kuse no ryō",
+            "text": "(Kuse no ryō)",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Ho-",
             "voices": [],
             "start": 6,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "hyo",
+            "voices": [],
+            "start": 8,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "ra",
+            "voices": [],
+            "start": 10,
             "style": "normal",
-            "length": 8
+            "length": 4
           }
         ]
       },
@@ -1357,10 +1300,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -1389,24 +1328,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 12
-          },
-          {
-            "text": "l",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 4
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1487,11 +1411,53 @@
         "value": "",
         "grid": [
           {
-            "text": "(Kuse no ryō)",
+            "text": "ri-",
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 16
+            "length": 1
+          },
+          {
+            "text": "rora",
+            "voices": [],
+            "start": 1,
+            "style": "justified",
+            "length": 7
+          },
+          {
+            "text": "Hi-",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "u",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "rari-",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ra",
+            "voices": [],
+            "start": 11,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "ro-",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 2
           }
         ]
       },
@@ -1571,15 +1537,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -1659,7 +1621,35 @@
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 16
+            "length": 1
+          },
+          {
+            "text": "-i",
+            "voices": [],
+            "start": 3,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "tsu-ro",
+            "voices": [],
+            "start": 5,
+            "style": "justified",
+            "length": 4
+          },
+          {
+            "text": "i-",
+            "voices": [],
+            "start": 9,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "ya",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 5
           }
         ]
       },

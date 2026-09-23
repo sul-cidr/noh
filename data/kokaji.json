@@ -79,7 +79,7 @@
         "value": 105
       },
       "intensity": {
-        "number": "6"
+        "number": "1"
       },
       "numberVoices": {
         "number": "1"
@@ -93,7 +93,7 @@
       "percussion": {
         "value": "Unmetered"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non congruent"
       },
@@ -142,7 +142,7 @@
       "text": {},
       "numberOfPercussion": {},
       "percussion": {},
-      "nokhanPresent": {},
+      "nohkanPresent": {},
       "dancePresent": {},
       "shodanType": {},
       "dan": {
@@ -177,7 +177,7 @@
         "value": 314
       },
       "intensity": {
-        "number": "3"
+        "number": "5"
       },
       "numberVoices": {
         "number": "1",
@@ -193,7 +193,7 @@
         "number": "0"
       },
       "percussion": {},
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -235,7 +235,7 @@
         "value": 521
       },
       "intensity": {
-        "number": "4"
+        "number": "6"
       },
       "numberVoices": {
         "number": "2",
@@ -251,7 +251,7 @@
         "number": "0"
       },
       "percussion": {},
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -293,7 +293,7 @@
         "value": 645
       },
       "intensity": {
-        "number": "22"
+        "number": "25"
       },
       "numberVoices": {
         "number": "2",
@@ -312,7 +312,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -355,7 +355,7 @@
         "value": 659
       },
       "intensity": {
-        "number": "4"
+        "number": "6"
       },
       "numberVoices": {
         "number": "2",
@@ -371,7 +371,7 @@
         "number": "0"
       },
       "percussion": {},
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -413,7 +413,7 @@
         "value": 737
       },
       "intensity": {
-        "number": "3"
+        "number": "5"
       },
       "numberVoices": {
         "number": "1",
@@ -429,7 +429,7 @@
         "number": "0"
       },
       "percussion": {},
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -471,7 +471,7 @@
         "value": 897
       },
       "intensity": {
-        "number": "4"
+        "number": "6"
       },
       "numberVoices": {
         "number": "2",
@@ -487,7 +487,7 @@
         "number": "0"
       },
       "percussion": {},
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -529,7 +529,7 @@
         "value": 1014
       },
       "intensity": {
-        "number": "19"
+        "number": "22"
       },
       "numberVoices": {
         "number": "1",
@@ -548,7 +548,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -585,13 +585,13 @@
         "value": "Kuri"
       },
       "startTime": {
-        "value": 1015
+        "value": 1014
       },
       "endTime": {
         "value": 1075
       },
       "intensity": {
-        "number": "14"
+        "number": "16"
       },
       "numberVoices": {
         "number": "1",
@@ -610,7 +610,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -653,7 +653,7 @@
         "value": 1193
       },
       "intensity": {
-        "number": "11"
+        "number": "13"
       },
       "numberVoices": {
         "number": "2",
@@ -672,7 +672,7 @@
       "percussion": {
         "value": "Flexible"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -715,7 +715,7 @@
         "value": 1746
       },
       "intensity": {
-        "number": "31"
+        "number": "37"
       },
       "numberVoices": {
         "number": "2",
@@ -734,7 +734,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -778,7 +778,7 @@
         "value": 1804
       },
       "intensity": {
-        "number": "9"
+        "number": "11"
       },
       "numberVoices": {
         "number": "2",
@@ -797,7 +797,7 @@
       "percussion": {
         "value": "Flexible"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "no"
       },
       "dancePresent": {
@@ -839,7 +839,7 @@
         "value": 1879
       },
       "intensity": {
-        "number": "25"
+        "number": "29"
       },
       "numberVoices": {
         "number": "1",
@@ -858,8 +858,8 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
-        "present": "No"
+      "nohkanPresent": {
+        "present": "Yes"
       },
       "dancePresent": {
         "present": "Yes"
@@ -900,7 +900,7 @@
         "value": 2088
       },
       "intensity": {
-        "number": "12"
+        "number": "14"
       },
       "numberVoices": {
         "number": "0"
@@ -914,7 +914,7 @@
       "percussion": {
         "value": "Flexible, then strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -957,7 +957,7 @@
         "value": 2575
       },
       "intensity": {
-        "number": "3"
+        "number": "5"
       },
       "numberVoices": {
         "number": "1",
@@ -973,7 +973,7 @@
         "number": "0"
       },
       "percussion": {},
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "no"
       },
       "dancePresent": {},
@@ -1019,7 +1019,7 @@
       "text": {},
       "numberOfPercussion": {},
       "percussion": {},
-      "nokhanPresent": {},
+      "nohkanPresent": {},
       "dancePresent": {},
       "shodanType": {},
       "dan": {
@@ -1054,7 +1054,7 @@
         "value": 2909
       },
       "intensity": {
-        "number": "14"
+        "number": "16"
       },
       "numberVoices": {
         "number": "1",
@@ -1073,7 +1073,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -1116,7 +1116,7 @@
         "value": 3066
       },
       "intensity": {
-        "number": "21"
+        "number": "24"
       },
       "numberVoices": {
         "number": "2",
@@ -1135,7 +1135,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -1177,7 +1177,7 @@
         "value": 3149
       },
       "intensity": {
-        "number": "24"
+        "number": "19"
       },
       "numberVoices": {
         "number": "0"
@@ -1191,7 +1191,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Congruent"
       },
@@ -1234,7 +1234,7 @@
         "value": 3197
       },
       "intensity": {
-        "number": "30"
+        "number": "36"
       },
       "numberVoices": {
         "number": "1",
@@ -1253,7 +1253,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -1296,7 +1296,7 @@
         "value": 3253
       },
       "intensity": {
-        "number": "34"
+        "number": "40"
       },
       "numberVoices": {
         "number": "0"
@@ -1310,7 +1310,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Congruent"
       },
@@ -1354,7 +1354,7 @@
         "value": 3369
       },
       "intensity": {
-        "number": "28"
+        "number": "32"
       },
       "numberVoices": {
         "number": "2",
@@ -1373,7 +1373,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "No"
       },
       "dancePresent": {
@@ -1415,7 +1415,7 @@
         "value": 3399
       },
       "intensity": {
-        "number": "9"
+        "number": "11"
       },
       "numberVoices": {
         "number": "2",
@@ -1434,7 +1434,9 @@
       "percussion": {
         "value": "Flexible"
       },
-      "nokhanPresent": {},
+      "nohkanPresent": {
+        "present": "No"
+      },
       "dancePresent": {
         "present": "No"
       },
@@ -1474,7 +1476,7 @@
         "value": 3535
       },
       "intensity": {
-        "number": "32"
+        "number": "38"
       },
       "numberVoices": {
         "number": "2",
@@ -1493,7 +1495,7 @@
       "percussion": {
         "value": "Strict"
       },
-      "nokhanPresent": {
+      "nohkanPresent": {
         "present": "Yes",
         "value": "Non-congruent"
       },
@@ -1544,7 +1546,7 @@
       "text": {},
       "numberOfPercussion": {},
       "percussion": {},
-      "nokhanPresent": {},
+      "nohkanPresent": {},
       "dancePresent": {},
       "shodanType": {},
       "dan": {
@@ -1593,5 +1595,5 @@
       "url": "/data/captions/kokaji.combined.vtt"
     }
   ],
-  "maxIntensity": 34
+  "maxIntensity": 40
 }

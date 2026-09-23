@@ -12,7 +12,7 @@
     "value": 1132
   },
   "intensity": {
-    "number": "9"
+    "number": "11"
   },
   "numberVoices": {
     "number": "2",
@@ -31,7 +31,7 @@
   "percussion": {
     "value": "Flexible"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "No"
   },
   "dancePresent": {
@@ -126,10 +126,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "yowagin",
         "grid": [
@@ -165,17 +161,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 12
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -298,10 +286,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -330,17 +314,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 12
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -490,10 +466,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "shite:-spoken",
         "grid": [
@@ -531,7 +503,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -691,10 +663,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -727,38 +695,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "w-&-s:-yowagin",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "$ m ",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 5
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 3
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -930,10 +869,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -955,7 +890,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },

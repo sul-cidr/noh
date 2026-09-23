@@ -12,7 +12,7 @@
     "value": 521
   },
   "intensity": {
-    "number": "4"
+    "number": "6"
   },
   "numberVoices": {
     "number": "2",
@@ -28,7 +28,7 @@
     "number": "0"
   },
   "percussion": {},
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "No"
   },
   "dancePresent": {
@@ -74,10 +74,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -92,7 +88,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -139,10 +135,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -157,7 +149,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -204,10 +196,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -222,7 +210,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -276,10 +264,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -294,7 +278,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -333,10 +317,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -351,7 +331,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -390,10 +370,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -408,7 +384,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -447,10 +423,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -465,7 +437,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -504,10 +476,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -522,7 +490,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -561,10 +529,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -579,7 +543,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -618,10 +582,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -636,7 +596,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -675,10 +635,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -693,7 +649,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -732,10 +688,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -750,7 +702,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -804,10 +756,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -822,7 +770,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -869,10 +817,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -887,7 +831,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -926,10 +870,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -944,7 +884,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -983,10 +923,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -1001,7 +937,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },

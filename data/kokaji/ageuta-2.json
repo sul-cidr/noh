@@ -12,7 +12,7 @@
     "value": 1014
   },
   "intensity": {
-    "number": "19"
+    "number": "22"
   },
   "numberVoices": {
     "number": "1",
@@ -31,7 +31,7 @@
   "percussion": {
     "value": "Strict"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "Yes",
     "value": "Non-congruent"
   },
@@ -139,61 +139,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 5
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -391,110 +343,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 14,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 15
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -631,15 +486,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -715,18 +566,32 @@
         "value": "",
         "grid": [
           {
-            "text": "",
+            "text": "(Hishigi takane)",
             "voices": [],
             "start": 0,
             "style": "normal",
             "length": 2
           },
           {
-            "text": "Hishigi takane",
+            "text": "O-hya",
             "voices": [],
             "start": 2,
             "style": "normal",
-            "length": 14
+            "length": 1
+          },
+          {
+            "text": "hi-",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "u i-ya",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 4
           }
         ]
       },
@@ -910,110 +775,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 13
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1259,117 +1027,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 15
-          },
-          {
-            "text": "m ",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "tsuzuke",
@@ -1567,47 +1231,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 2
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1825,110 +1455,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "3",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "8",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 8
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 5
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -2189,110 +1722,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 16
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -2581,103 +2017,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 6
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 5
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -2751,18 +2097,39 @@
         "value": "",
         "grid": [
           {
-            "text": "",
+            "text": "(Naka no takane)",
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 3
+            "length": 1
           },
           {
-            "text": "Naka no takane",
+            "text": "Hi-",
             "voices": [],
             "start": 3,
             "style": "normal",
-            "length": 12
+            "length": 1
+          },
+          {
+            "text": "hyo",
+            "voices": [],
+            "start": 4,
+            "style": "justified",
+            "length": 5
+          },
+          {
+            "text": "ru-",
+            "voices": [],
+            "start": 9,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "ri",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 3
           }
         ]
       },
@@ -2960,138 +2327,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 3
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 3
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 4
-          },
-          {
-            "text": "l",
-            "voices": [],
-            "start": 14,
-            "style": "normal",
-            "length": 2
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "tsuzuke",
@@ -3186,11 +2428,32 @@
         "value": "",
         "grid": [
           {
-            "text": "(Naka no takane)",
+            "text": "Hi-",
             "voices": [],
-            "start": 0,
+            "start": 1,
             "style": "normal",
-            "length": 16
+            "length": 1
+          },
+          {
+            "text": "hyo",
+            "voices": [],
+            "start": 2,
+            "style": "justified",
+            "length": 8
+          },
+          {
+            "text": "i-",
+            "voices": [],
+            "start": 10,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "ya",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 4
           }
         ]
       },
@@ -3381,110 +2644,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 15
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -3593,18 +2759,39 @@
         "value": "",
         "grid": [
           {
-            "text": "(Naka no takane)",
+            "text": "(Mi roku no ge)",
             "voices": [],
             "start": 0,
             "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Hi-u",
+            "voices": [],
+            "start": 3,
+            "style": "justified",
             "length": 7
           },
           {
-            "text": "Mi roku no ge",
+            "text": "ra-",
             "voices": [],
-            "start": 7,
+            "start": 10,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "ri-",
+            "voices": [],
+            "start": 13,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "ro ",
+            "voices": [],
+            "start": 15,
             "style": "normal",
-            "length": 9
+            "length": 1
           }
         ]
       },
@@ -3802,124 +2989,13 @@
           }
         ]
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "1",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "l",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 3
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 6
-          },
-          {
-            "text": "l",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 4
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -4007,11 +3083,39 @@
         "value": "",
         "grid": [
           {
-            "text": "(Mi roku no ge)",
+            "text": "i",
             "voices": [],
-            "start": 0,
+            "start": 2,
             "style": "normal",
-            "length": 16
+            "length": 1
+          },
+          {
+            "text": "tsu-",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ro",
+            "voices": [],
+            "start": 4,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "i-",
+            "voices": [],
+            "start": 7,
+            "style": "justified",
+            "length": 4
+          },
+          {
+            "text": "ya",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 5
           }
         ]
       },

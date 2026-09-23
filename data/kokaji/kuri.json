@@ -6,13 +6,13 @@
     "value": "Kuri"
   },
   "startTime": {
-    "value": 1015
+    "value": 1014
   },
   "endTime": {
     "value": 1075
   },
   "intensity": {
-    "number": "14"
+    "number": "16"
   },
   "numberVoices": {
     "number": "1",
@@ -31,7 +31,7 @@
   "percussion": {
     "value": "Strict"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "Yes",
     "value": "Non-congruent"
   },
@@ -59,7 +59,7 @@
   "phrases": [
     {
       "startTime": {
-        "value": 1015,
+        "value": 1014,
         "grid": []
       },
       "beat": {
@@ -127,10 +127,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -152,17 +148,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 9
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -282,10 +270,17 @@
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 7
+            "length": 6
           },
           {
-            "text": "Kuri",
+            "text": "(Kuri)",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Hi-",
             "voices": [],
             "start": 7,
             "style": "normal",
@@ -377,10 +372,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -411,17 +402,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 14
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -537,11 +520,39 @@
         "value": "",
         "grid": [
           {
-            "text": "(Kuri)",
+            "text": "(kuri)",
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 16
+            "length": 1
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ri",
+            "voices": [],
+            "start": 3,
+            "style": "justified",
+            "length": 6
+          },
+          {
+            "text": "Hyu-",
+            "voices": [],
+            "start": 9,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 5
           }
         ]
       },
@@ -636,10 +647,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -668,17 +675,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 14
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -787,11 +786,25 @@
         "value": "",
         "grid": [
           {
-            "text": "(Kuri)",
+            "text": "Hya-",
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 9
+            "length": 1
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 1,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "ya",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 6
           }
         ]
       },
@@ -810,7 +823,7 @@
             "voices": [],
             "start": 8,
             "style": "normal",
-            "length": 8
+            "length": 6
           }
         ]
       },
@@ -886,10 +899,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -911,17 +920,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 15
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -934,23 +935,9 @@
             "length": 1
           },
           {
-            "text": "#owtr",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
             "text": "ho",
             "voices": [],
             "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#kwci",
-            "voices": [],
-            "start": 3,
             "style": "normal",
             "length": 1
           },
@@ -976,44 +963,23 @@
             "length": 1
           },
           {
-            "text": "#kbci",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "yo",
+            "text": "iya",
             "voices": [],
             "start": 8,
             "style": "normal",
             "length": 1
           },
           {
-            "text": "#wtbc",
+            "text": "#kwtr",
             "voices": [],
             "start": 9,
             "style": "normal",
             "length": 1
           },
           {
-            "text": "ho",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#wywc",
+            "text": "#kopu",
             "voices": [],
             "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "ho",
-            "voices": [],
-            "start": 12,
             "style": "normal",
             "length": 1
           },
@@ -1021,20 +987,6 @@
             "text": "#kwci",
             "voices": [],
             "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "ho",
-            "voices": [],
-            "start": 14,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#kwci",
-            "voices": [],
-            "start": 15,
             "style": "normal",
             "length": 1
           }
@@ -1120,10 +1072,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -1145,253 +1093,9 @@
           }
         ]
       },
-      "vocalRange": {
-        "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 6
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 9
-          }
-        ]
-      },
-      "percussion": {
-        "value": "",
-        "grid": [
-          {
-            "text": "yo",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "ho",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "yo-",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#owtr",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "-i",
-            "voices": [],
-            "start": 6,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "iya",
-            "voices": [],
-            "start": 8,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#kwtr",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#kopu",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "#kwci",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
-      "nohkan": {
-        "value": "",
-        "grid": [
-          {
-            "text": "",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 4
-          },
-          {
-            "text": "Yuri",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 12
-          }
-        ]
-      },
-      "dance": {
-        "value": "",
-        "grid": [
-          {
-            "text": "",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 12
-          },
-          {
-            "text": "9. Slide to face waki.",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 4
-          }
-        ]
-      },
-      "phrase": "5"
-    },
-    {
-      "startTime": {
-        "value": 1048,
-        "grid": []
-      },
-      "beat": {
-        "value": "",
-        "grid": [
-          {
-            "text": "1",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "2",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "3",
-            "voices": [],
-            "start": 5,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "4",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "5",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "6",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "7",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "8",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
-      "syllableText": {
+      "taiko": {
         "value": "",
         "grid": []
-      },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
-      "text": {
-        "value": "",
-        "grid": [
-          {
-            "text": "(o)",
-            "voices": [
-              "jiutai"
-            ],
-            "start": 0,
-            "style": "extended-vowel",
-            "length": 4
-          },
-          {
-            "text": "hikari wo u-",
-            "voices": [],
-            "start": 4,
-            "style": "extended-vowel",
-            "length": 5
-          },
-          {
-            "text": "ba-",
-            "voices": [],
-            "start": 9,
-            "style": "extended-vowel",
-            "length": 6
-          },
-          {
-            "text": "eri",
-            "voices": [],
-            "start": 15,
-            "style": "normal",
-            "length": 1
-          }
-        ]
-      },
-      "vocalRange": {
-        "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 13
-          }
-        ]
       },
       "percussion": {
         "value": "",
@@ -1500,11 +1204,340 @@
         "value": "",
         "grid": [
           {
-            "text": "(Yuri)",
+            "text": "",
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 16
+            "length": 3
+          },
+          {
+            "text": "(Unnamed)",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Ohya",
+            "voices": [],
+            "start": 4,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "yo-",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ru",
+            "voices": [],
+            "start": 7,
+            "style": "justified",
+            "length": 5
+          },
+          {
+            "text": "(Yuri)",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Hihya",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 3
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 12
+          },
+          {
+            "text": "9. Slide to face waki.",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 4
+          }
+        ]
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 1048,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "1",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "2",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "3",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "4",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "5",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "6",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "7",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "8",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": [
+          {
+            "text": "(o)",
+            "voices": [
+              "jiutai"
+            ],
+            "start": 0,
+            "style": "extended-vowel",
+            "length": 3
+          },
+          {
+            "text": "hikari wo u-",
+            "voices": [],
+            "start": 3,
+            "style": "extended-vowel",
+            "length": 4
+          },
+          {
+            "text": "ba-",
+            "voices": [],
+            "start": 7,
+            "style": "extended-vowel",
+            "length": 6
+          },
+          {
+            "text": "eri ",
+            "voices": [],
+            "start": 13,
+            "style": "extended-vowel",
+            "length": 1
+          }
+        ]
+      },
+      "taiko": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
+          {
+            "text": "yo",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#owtr",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kbci",
+            "voices": [],
+            "start": 5,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#bcbc",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#wtwc",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#kwci",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ho",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "#btwc",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "u",
+            "voices": [],
+            "start": 1,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "ri",
+            "voices": [],
+            "start": 4,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "tutau",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "tau",
+            "voices": [],
+            "start": 7,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "tau",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "tau",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "tau",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 4
           }
         ]
       },
@@ -1516,7 +1549,7 @@
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 16
+            "length": 14
           }
         ]
       },
@@ -1592,10 +1625,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -1610,17 +1639,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 16
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1705,7 +1726,49 @@
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 16
+            "length": 1
+          },
+          {
+            "text": "tarau",
+            "voices": [],
+            "start": 1,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "hya",
+            "voices": [],
+            "start": 4,
+            "style": "justified",
+            "length": 5
+          },
+          {
+            "text": "hyu-",
+            "voices": [],
+            "start": 9,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 10,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "tau",
+            "voices": [],
+            "start": 12,
+            "style": "justified",
+            "length": 2
+          },
+          {
+            "text": "tau",
+            "voices": [],
+            "start": 14,
+            "style": "normal",
+            "length": 2
           }
         ]
       },
@@ -1785,10 +1848,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -1819,24 +1878,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 1
-          },
-          {
-            "text": "l",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 6
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -1921,7 +1965,35 @@
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 15
+            "length": 1
+          },
+          {
+            "text": "Hya-ra-ri",
+            "voices": [],
+            "start": 1,
+            "style": "justified",
+            "length": 4
+          },
+          {
+            "text": "ra",
+            "voices": [],
+            "start": 5,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "ro-",
+            "voices": [],
+            "start": 8,
+            "style": "justified",
+            "length": 3
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 4
           }
         ]
       },
@@ -1949,7 +2021,7 @@
   ],
   "captions": [
     {
-      "startTime": 1015,
+      "startTime": 1014,
       "endTime": 1029,
       "translation": "[JIUTAI] Once with such a blade, the Emperor's Three Foot Sword,",
       "transcription": "[JIUTAI] Sore Kan-nō sanseki no tsurugi",

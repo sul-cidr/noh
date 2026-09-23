@@ -12,7 +12,7 @@
     "value": 3399
   },
   "intensity": {
-    "number": "9"
+    "number": "11"
   },
   "numberVoices": {
     "number": "2",
@@ -31,7 +31,9 @@
   "percussion": {
     "value": "Flexible"
   },
-  "nokhanPresent": {},
+  "nohkanPresent": {
+    "present": "No"
+  },
   "dancePresent": {
     "present": "No"
   },
@@ -124,10 +126,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -151,33 +149,7 @@
           }
         ]
       },
-      "vocalRange": {
-        "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 6
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 9,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 11,
-            "style": "normal",
-            "length": 3
-          }
-        ]
-      },
-      "percussion": {
+      "taiko": {
         "value": "",
         "grid": [
           {
@@ -193,7 +165,12 @@
             "start": 1,
             "style": "normal",
             "length": 1
-          },
+          }
+        ]
+      },
+      "percussion": {
+        "value": "",
+        "grid": [
           {
             "text": "ho",
             "voices": [],
@@ -347,10 +324,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -381,45 +354,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 7,
-            "style": "normal",
-            "length": 5
-          },
-          {
-            "text": "h ",
-            "voices": [],
-            "start": 13,
-            "style": "normal",
-            "length": 1
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -591,10 +528,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -630,38 +563,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 3,
-            "style": "normal",
-            "length": 6
-          },
-          {
-            "text": "m",
-            "voices": [],
-            "start": 10,
-            "style": "normal",
-            "length": 2
-          },
-          {
-            "text": "h",
-            "voices": [],
-            "start": 12,
-            "style": "normal",
-            "length": 2
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",

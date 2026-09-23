@@ -12,7 +12,7 @@
     "value": 4694
   },
   "intensity": {
-    "number": "13"
+    "number": "15"
   },
   "numberVoices": {
     "number": "1",
@@ -31,7 +31,7 @@
   "percussion": {
     "value": "Strict"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "No"
   },
   "dancePresent": {
@@ -126,10 +126,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -179,17 +175,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 4,
-            "style": "normal",
-            "length": 12
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -404,10 +392,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -436,17 +420,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 2,
-            "style": "normal",
-            "length": 11
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",
@@ -604,10 +580,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -636,17 +608,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "h",
-            "voices": [],
-            "start": 0,
-            "style": "normal",
-            "length": 16
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "tsuzukle",
@@ -853,10 +817,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -885,17 +845,9 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
-        "grid": [
-          {
-            "text": "m",
-            "voices": [],
-            "start": 1,
-            "style": "normal",
-            "length": 15
-          }
-        ]
+        "grid": []
       },
       "percussion": {
         "value": "",

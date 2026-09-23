@@ -12,7 +12,7 @@
     "value": 1804
   },
   "intensity": {
-    "number": "9"
+    "number": "11"
   },
   "numberVoices": {
     "number": "2",
@@ -31,7 +31,7 @@
   "percussion": {
     "value": "Flexible"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "no"
   },
   "dancePresent": {
@@ -126,10 +126,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -144,7 +140,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -311,10 +307,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -347,7 +339,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -499,10 +491,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -524,7 +512,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -691,10 +679,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -716,7 +700,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -875,10 +859,6 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": [
@@ -893,7 +873,7 @@
           }
         ]
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },

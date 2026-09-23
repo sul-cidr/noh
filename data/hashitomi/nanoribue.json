@@ -12,7 +12,7 @@
     "value": 324
   },
   "intensity": {
-    "number": "1"
+    "number": "2"
   },
   "numberVoices": {
     "number": "0"
@@ -23,12 +23,12 @@
     "number": "0"
   },
   "percussion": {},
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "Yes",
     "value": "Unmetered"
   },
   "dancePresent": {
-    "present": "No"
+    "present": "Yes"
   },
   "shodanType": {
     "value": "nanoribue"
@@ -70,15 +70,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -90,7 +86,66 @@
         "value": "",
         "grid": [
           {
-            "text": "Naka no takane",
+            "text": "Naka no takane (1): Hi-hyo ru-ri",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Curtain raises",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "phrase": "1"
+    },
+    {
+      "startTime": {
+        "value": 235,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "taiko": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Naka no takane (2): Hi-hyo i-ya",
             "voices": [],
             "start": 0,
             "style": "normal",
@@ -110,11 +165,11 @@
           }
         ]
       },
-      "phrase": "1"
+      "phrase": "2"
     },
     {
       "startTime": {
-        "value": 249,
+        "value": 248,
         "grid": []
       },
       "beat": {
@@ -133,15 +188,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -153,7 +204,7 @@
         "value": "",
         "grid": [
           {
-            "text": "Roku no ge",
+            "text": "Roku no ge (1): Hi-u ri-u i-ya",
             "voices": [],
             "start": 0,
             "style": "normal",
@@ -165,7 +216,7 @@
         "value": "",
         "grid": [
           {
-            "text": "Waki is followed by the Ai-kyōgen.",
+            "text": "He is followed by the Kyōgen actor.",
             "voices": [],
             "start": 0,
             "style": "normal",
@@ -173,7 +224,184 @@
           }
         ]
       },
-      "phrase": "2"
+      "phrase": "3"
+    },
+    {
+      "startTime": {
+        "value": 259,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "taiko": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Roku no ge (2): ri-u hyu-i",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "phrase": "4"
+    },
+    {
+      "startTime": {
+        "value": 270,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "taiko": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Roku no ge (3): Hi-hyu i-ya, ra, ri ro-i",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "phrase": "5"
+    },
+    {
+      "startTime": {
+        "value": 293,
+        "grid": []
+      },
+      "beat": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Unmetered",
+            "voices": [],
+            "start": 13,
+            "style": "normal",
+            "length": 1
+          }
+        ]
+      },
+      "syllableText": {
+        "value": "",
+        "grid": []
+      },
+      "text": {
+        "value": "",
+        "grid": []
+      },
+      "taiko": {
+        "value": "",
+        "grid": []
+      },
+      "percussion": {
+        "value": "",
+        "grid": []
+      },
+      "nohkan": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Roku no ge (4): tsu ro i-ya",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "dance": {
+        "value": "",
+        "grid": [
+          {
+            "text": "Once the waki has arrived at Square 1, the kyōgen actor sits back at the First pine.",
+            "voices": [],
+            "start": 0,
+            "style": "normal",
+            "length": 14
+          }
+        ]
+      },
+      "phrase": "6"
     },
     {
       "startTime": {
@@ -196,15 +424,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -216,7 +440,7 @@
         "value": "",
         "grid": [
           {
-            "text": "3rd section: Hyu ro ra hya u ro ra ho.",
+            "text": "3rd pattern: Hyu ro ra hya u ro ra ho.",
             "voices": [],
             "start": 0,
             "style": "normal",
@@ -228,7 +452,7 @@
         "value": "",
         "grid": [
           {
-            "text": "Once the waki has arrived at Square 1, the kyōgen sits back at the First pine. The waki concludes his entrance with a Step Back.",
+            "text": "The waki concludes his entrance with two steps forward, one step back.",
             "voices": [],
             "start": 0,
             "style": "normal",
@@ -236,7 +460,7 @@
           }
         ]
       },
-      "phrase": "3"
+      "phrase": "7"
     }
   ],
   "captions": [],

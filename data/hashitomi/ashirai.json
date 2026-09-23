@@ -12,7 +12,7 @@
     "value": 781
   },
   "intensity": {
-    "number": "2"
+    "number": "9"
   },
   "numberVoices": {
     "number": "0"
@@ -26,7 +26,7 @@
   "percussion": {
     "value": "Flexible"
   },
-  "nokhanPresent": {
+  "nohkanPresent": {
     "present": "Yes",
     "value": "Non congruent"
   },
@@ -122,15 +122,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -304,15 +300,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -388,21 +380,56 @@
         "value": "",
         "grid": [
           {
-            "text": "",
+            "text": "Roku no ge (1)",
             "voices": [],
             "start": 0,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Hi-u",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 3
+          },
+          {
+            "text": "ri-",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ui",
+            "voices": [],
+            "start": 5,
             "style": "normal",
             "length": 2
           },
           {
-            "text": "Roku no ge (1)",
+            "text": "i-ya",
             "voices": [],
-            "start": 2,
+            "start": 7,
             "style": "normal",
-            "length": 10
+            "length": 3
           },
           {
-            "text": "Roku no ge (2) ",
+            "text": "(2)",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "ri-u",
+            "voices": [],
+            "start": 11,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "hyu-",
             "voices": [],
             "start": 12,
             "style": "normal",
@@ -501,15 +528,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -585,18 +608,53 @@
         "value": "",
         "grid": [
           {
-            "text": "(Roku no ge (2))",
+            "text": "-i",
             "voices": [],
-            "start": 0,
+            "start": 1,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "(3)",
+            "voices": [],
+            "start": 2,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Hi-",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "hyu",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "i-",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "ya",
+            "voices": [],
+            "start": 8,
             "style": "normal",
             "length": 4
           },
           {
-            "text": "Roku no ge (3)",
+            "text": "ra-",
             "voices": [],
-            "start": 4,
+            "start": 12,
             "style": "normal",
-            "length": 10
+            "length": 2
           }
         ]
       },
@@ -691,15 +749,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -775,18 +829,53 @@
         "value": "",
         "grid": [
           {
-            "text": "(Roku no ge (3))",
+            "text": "ri",
             "voices": [],
-            "start": 0,
+            "start": 2,
             "style": "normal",
-            "length": 7
+            "length": 1
           },
           {
-            "text": "Roku no ge (4')",
+            "text": "ro-",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "(4')",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "tsu-ro",
             "voices": [],
             "start": 7,
             "style": "normal",
-            "length": 7
+            "length": 3
+          },
+          {
+            "text": "i-",
+            "voices": [],
+            "start": 10,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "TEMP",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 2
           }
         ]
       },
@@ -874,15 +963,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -958,25 +1043,46 @@
         "value": "",
         "grid": [
           {
-            "text": "(Roku no ge (4'))",
+            "text": "(2)",
             "voices": [],
-            "start": 0,
+            "start": 1,
             "style": "normal",
-            "length": 3
+            "length": 1
           },
           {
-            "text": "Roku no ge (2)",
+            "text": "ri-u hyu",
             "voices": [],
-            "start": 3,
+            "start": 2,
             "style": "normal",
-            "length": 4
+            "length": 1
           },
           {
-            "text": "Roku no ge (3)",
+            "text": "-i",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "(3)",
+            "voices": [],
+            "start": 6,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "Hi-hyo",
             "voices": [],
             "start": 7,
             "style": "normal",
-            "length": 7
+            "length": 5
+          },
+          {
+            "text": "i-ya",
+            "voices": [],
+            "start": 12,
+            "style": "normal",
+            "length": 2
           }
         ]
       },
@@ -1078,15 +1184,11 @@
         "value": "",
         "grid": []
       },
-      "syllableNumber": {
-        "value": "",
-        "grid": []
-      },
       "text": {
         "value": "",
         "grid": []
       },
-      "vocalRange": {
+      "taiko": {
         "value": "",
         "grid": []
       },
@@ -1148,18 +1250,46 @@
         "value": "",
         "grid": [
           {
-            "text": "(Roku no ge (3))",
+            "text": "ra",
             "voices": [],
             "start": 0,
             "style": "normal",
-            "length": 5
+            "length": 1
           },
           {
-            "text": "Roku no ge (4)",
+            "text": "ri-ro",
+            "voices": [],
+            "start": 1,
+            "style": "normal",
+            "length": 2
+          },
+          {
+            "text": "i",
+            "voices": [],
+            "start": 3,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "(4)",
+            "voices": [],
+            "start": 4,
+            "style": "normal",
+            "length": 1
+          },
+          {
+            "text": "tsu-ro",
             "voices": [],
             "start": 5,
             "style": "normal",
-            "length": 8
+            "length": 3
+          },
+          {
+            "text": "i-ya",
+            "voices": [],
+            "start": 8,
+            "style": "normal",
+            "length": 5
           }
         ]
       },
