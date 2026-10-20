@@ -248,6 +248,7 @@ permalink: /credits/
       <h3>Recording</h3>
       <h4>Academic Examples: Music</h4>
       <p>
+        Recorded on June 10–11, 2015, at Kongō Nohgakudo, Kyoto.<br />
         Sound: <strong>KAWASAKI Yoshihiro</strong>,
         <strong>FUKUMIYA Kiyoaki</strong>, <strong>INOUE Hifumi</strong>, Kyoto
         Technical Office and Design Lab NADI<br />
@@ -258,6 +259,7 @@ permalink: /credits/
 
       <h4>Academic Examples: Dance</h4>
       <p>
+        Recorded on June 10–11, 2015, at Kongō Nohgakudo, Kyoto.<br />
         Sound: Prof. <strong>NISHIURA Takanobu</strong>,
         <strong>FUKUMORI Takahiro</strong>, <strong>IKEFUJI Daisuke</strong>,
         <strong>MIZUONO Tomoyuki</strong> from Ritsumeikan University, College
@@ -270,6 +272,7 @@ permalink: /credits/
 
       <h4>Hashitomi and Kokaji Plays</h4>
       <p>
+        Recorded on June 15, 2017, at Kongō Nohgakudo, Kyoto.<br />
         Camera: <strong>NEMOTO Taro</strong>,
         <strong>SHIMIZU Motomi</strong>.<br />
         Sound: <strong>FUKUMIYA Kiyoaki</strong>, <strong>INOUE Hifumi</strong>,
@@ -277,6 +280,8 @@ permalink: /credits/
       </p>
       <h4>Okina and Takasago Plays</h4>
       <p>
+        Recorded on May 3, 2024, at Kyoto City University of Arts, Horiba
+        Shinkichi Memorial Hall.<br />
         Director: <strong>KONGŌ Hisanori</strong> (KCUA)<br />
         Stage Manager: <strong>NOMURA Kenichi</strong> (KCUA)<br />
         Stage lighting: <strong>TONOMURA Yūichirō</strong> (KCUA)<br />
