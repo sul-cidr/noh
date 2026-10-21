@@ -54,9 +54,13 @@ layout: home
   <div class="wrapper">
     <h2 id="Plays" class="home-section__title">Plays</h2>
     <p class="home__intermedia-description">
-      These pages feature complete recordings and the in-depth intermedia
-      analysis of six plays – one from each of the five categories and the
-      special ritualistic play <em>Okina</em>.
+      These pages feature complete recordings and in-depth intermedia analyses
+      of five plays — one from each of the five traditional categories — and of
+      the ritual play <em>Okina</em>. When <em>Okina</em> is presented together
+      with the five plays, it is always performed first. Such full programs are
+      now rare; one is staged annually in Tokyo as part of the Shiki Noh
+      (Ceremonial Noh) series, which brings together performers and the heads of
+      all five shite schools: Kanze, Hōshō, Konparu, Kongō, and Kita.
     </p>
     {% assign sorted_plays = site.plays | sort: "order" %} {% for play in
     sorted_plays %} {% unless play.url contains "/narratives/" %} {% include
