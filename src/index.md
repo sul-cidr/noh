@@ -55,13 +55,15 @@ layout: home
     <h2 id="Plays" class="home-section__title">Plays</h2>
     <p class="home__intermedia-description">
       These pages feature complete recordings and in-depth intermedia analyses
-      of five plays — one from each of the five traditional categories — and of
-      the ritual play <em>Okina</em>. When <em>Okina</em> is presented together
-      with the five plays, it is always performed first. Such full programs are
-      now rare; one is staged annually in Tokyo as part of the Shiki Noh
-      (Ceremonial Noh) series, which brings together performers and the heads of
-      all five shite schools: Kanze, Hōshō, Konparu, Kongō, and Kita.
+      of five Noh plays—one from each of the five traditional categories: God,
+      Warrior, Woman, Madness, and Demon plays—and the sacred play
+      <em>Okina</em>, often described as "Noh and yet not Noh." When performed
+      with Noh plays, <em>Okina</em> always goes first because of its
+      ritualistic character. However, because many of its characteristics—such
+      as structure, music, and masks—are unique, we discuss it after the five
+      plays.
     </p>
+
     {% assign sorted_plays = site.plays | sort: "order" %} {% for play in
     sorted_plays %} {% unless play.url contains "/narratives/" %} {% include
     home-play.html link=play.url image=play.image title=play.title
